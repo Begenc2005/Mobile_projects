@@ -10,6 +10,9 @@ on:
     branches: [main, master]
     paths: ["bilim/app/**", "bilim/content/**", ".github/workflows/build-bilim-apk.yml"]
 
+permissions:
+  contents: write
+
 jobs:
   apk:
     runs-on: ubuntu-latest
@@ -53,3 +56,11 @@ jobs:
         with:
           name: bilim-apk
           path: bilim/app/build/app/outputs/flutter-apk/app-release.apk
+
+      - name: Publish to GitHub Releases
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: bilim-latest
+          name: Bilim APK
+          files: bilim/app/build/app/outputs/flutter-apk/app-release.apk
+          make_latest: false
