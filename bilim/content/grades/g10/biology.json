@@ -1,0 +1,251 @@
+{
+  "grade": 10,
+  "subject": "biology",
+  "lessons": [
+    {
+      "id": "biology-10-cell-chemistry",
+      "grade": 10,
+      "topic": 0,
+      "title": {"tk": "Öýjügiň himiki düzümi", "ru": "Химический состав клетки"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Öýjük jansyz tebigatda hem duş gelýän himiki elementlerden durýar, ýöne olaryň gatnaşygy başgaça.\n\n• Makroelementler: O, C, H, N — öýjügiň massasynyň takmynan 98 %-i. Şeýle hem P, S, K, Na, Ca, Mg, Cl.\n• Mikroelementler (örän az mukdarda): Fe, Zn, Cu, I, Mn, Co we başgalar. Mysal: Fe gemoglobiniň, I galkanşekilli mäziň gormonlarynyň düzüminde.\n\nBirleşmeler:\n• Organiki däl: suw (öýjügiň massasynyň 70–80 %-i) we mineral duzlar.\n• Organiki: beloklar, uglewodlar, lipidler, nuklein kislotalary (DNK, RNK).\n\nUglerod dört kowalent baglanyşyk emele getirip, uzyn zynjyrlary we halkalary döredýär — şonuň üçin ol organiki maddalaryň esasydyr.",
+          "ru": "Клетка состоит из тех же химических элементов, что и неживая природа, но в других соотношениях.\n\n• Макроэлементы: O, C, H, N — около 98 % массы клетки. Также P, S, K, Na, Ca, Mg, Cl.\n• Микроэлементы (в очень малых количествах): Fe, Zn, Cu, I, Mn, Co и др. Например, Fe входит в гемоглобин, I — в гормоны щитовидной железы.\n\nСоединения:\n• Неорганические: вода (70–80 % массы клетки) и минеральные соли.\n• Органические: белки, углеводы, липиды, нуклеиновые кислоты (ДНК, РНК).\n\nУглерод образует четыре ковалентные связи и строит длинные цепи и кольца — поэтому он основа органических веществ."}},
+        {"type": "example", "text": {
+          "tk": "Mysal: glýukozanyň formulasy C₆H₁₂O₆.\n\n1) Atomlary sanaýarys: C — 6, H — 12, O — 6, jemi 24 atom.\n2) Molýar massa: 6·12 + 12·1 + 6·16 = 72 + 12 + 96 = 180 g/mol.\n3) Uglerodyň massa paýy: 72 / 180 = 0,4, ýagny 40 %.\n\nNetije: glýukoza — monosaharid, öýjük üçin esasy energiýa çeşmesi.",
+          "ru": "Пример: формула глюкозы C₆H₁₂O₆.\n\n1) Считаем атомы: C — 6, H — 12, O — 6, всего 24 атома.\n2) Молярная масса: 6·12 + 12·1 + 6·16 = 72 + 12 + 96 = 180 г/моль.\n3) Массовая доля углерода: 72 / 180 = 0,4, то есть 40 %.\n\nВывод: глюкоза — моносахарид, главный источник энергии для клетки."}},
+        {"type": "theory", "text": {
+          "tk": "Suwuň öýjükdäki wezipeleri:\n• Uniwersal erediji — köp maddalar diňe ergin görnüşinde reaksiýa girýär.\n• Ýylylyk sygymy ýokary — temperaturany durnukly saklaýar.\n• Maddalary daşaýar we köp reaksiýalara gatnaşýar (mysal: gidroliz, fotosintez).\n\nSuwda gowy ereýän maddalar — gidrofil (duzlar, şeker), eremeýänler — gidrofob (ýaglar).",
+          "ru": "Функции воды в клетке:\n• Универсальный растворитель — многие вещества реагируют только в растворе.\n• Высокая теплоёмкость — поддерживает постоянную температуру.\n• Транспорт веществ и участие в реакциях (например, гидролиз, фотосинтез).\n\nХорошо растворимые в воде вещества — гидрофильные (соли, сахара), нерастворимые — гидрофобные (жиры)."}},
+        {"type": "choice",
+          "q": {"tk": "Haýsy element organiki maddalaryň esasy hasaplanýar?", "ru": "Какой элемент считается основой органических веществ?"},
+          "options": [{"tk": "Uglerod (C)", "ru": "Углерод (C)"}, {"tk": "Demir (Fe)", "ru": "Железо (Fe)"}, {"tk": "Natriý (Na)", "ru": "Натрий (Na)"}],
+          "answer": 0,
+          "hint": {"tk": "Bu element dört baglanyşyk emele getirip, zynjyr gurýar.", "ru": "Этот элемент образует четыре связи и строит цепи."},
+          "explain": {"tk": "Uglerod dört kowalent baglanyşyk döredip, uzyn zynjyrlary we halkalary emele getirýär. Ähli organiki molekulalaryň skeleti uglerod atomlaryndan durýar.", "ru": "Углерод образует четыре ковалентные связи, создавая длинные цепи и кольца. Скелет всех органических молекул построен из атомов углерода."}},
+        {"type": "input",
+          "q": {"tk": "Saharozanyň formulasy C₁₂H₂₂O₁₁. Onuň bir molekulasynda näçe wodorod atomy bar?", "ru": "Формула сахарозы C₁₂H₂₂O₁₁. Сколько атомов водорода в одной её молекуле?"},
+          "answer": "22",
+          "hint": {"tk": "H harpynyň yzyndaky indekse serediň.", "ru": "Посмотрите на индекс после буквы H."},
+          "explain": {"tk": "Formulada H₂₂ ýazylýar, diýmek, 22 wodorod atomy bar.", "ru": "В формуле записано H₂₂, значит, атомов водорода 22."}},
+        {"type": "truefalse",
+          "q": {"tk": "Demir (Fe) gemoglobiniň düzümine girýär we kislorody daşamaga kömek edýär.", "ru": "Железо (Fe) входит в состав гемоглобина и помогает переносить кислород."},
+          "answer": true,
+          "hint": {"tk": "Gyzyl gan öýjüklerindäki belok hakda pikirleniň.", "ru": "Подумайте о белке в красных клетках крови."},
+          "explain": {"tk": "Dogry. Gemoglobiniň her gem toparynda bir demir iony bar, kislorod şoňa birigýär. Demir ýetmezçiliginde gan azlygy (anemiýa) ýüze çykýar.", "ru": "Верно. В каждой группе гема гемоглобина есть ион железа, к нему присоединяется кислород. При нехватке железа развивается анемия."}},
+        {"type": "choice",
+          "q": {"tk": "Ýagyň (lipidiň) suwda eremezligi nähili häsiýet diýlip atlandyrylýar?", "ru": "Как называется свойство жира (липида) не растворяться в воде?"},
+          "options": [{"tk": "Gidrofillik", "ru": "Гидрофильность"}, {"tk": "Gidrofobluk", "ru": "Гидрофобность"}, {"tk": "Gidroliz", "ru": "Гидролиз"}],
+          "answer": 1,
+          "hint": {"tk": "Grekçe «phobos» — «gorky» diýmekdir.", "ru": "Греческое «phobos» означает «страх»."},
+          "explain": {"tk": "Suwdan «gorkýan», ýagny suwda eremeýän maddalar gidrofob diýilýär. Lipidler gidrofob, şonuň üçin olar öýjük membranasynyň esasyny düzýär.", "ru": "Вещества, которые «боятся» воды, то есть не растворяются в ней, называются гидрофобными. Липиды гидрофобны, поэтому они составляют основу клеточной мембраны."}},
+        {"type": "world", "text": {
+          "tk": "Ulularyň bedeniniň takmynan 60 %-i suwdan ybarat. Ýöne beýniniň we öýkeniň öýjüklerinde suw has köp, süňklerde bolsa has az.",
+          "ru": "Тело взрослого человека примерно на 60 % состоит из воды. В клетках мозга и лёгких воды больше, а в костях — значительно меньше."}}
+      ]
+    },
+    {
+      "id": "biology-10-proteins",
+      "grade": 10,
+      "topic": 1,
+      "title": {"tk": "Beloklar: gurluşy we wezipeleri", "ru": "Белки: строение и функции"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Beloklar — monomerleri aminokislotalar bolan biopolimerler. Beloklaryň düzümine 20 esasy aminokislota girýär.\n\nAminokislotalar biri-birine peptid baglanyşygy (–CO–NH–) arkaly birleşýär; her baglanyşyk emele gelende bir molekula suw bölünip çykýar.\n\nGurluş derejeleri:\n• Birinji — aminokislotalaryň yzygiderliligi.\n• Ikinji — α-spiral ýa-da β-gatlak (wodorod baglanyşyklary).\n• Üçünji — zynjyryň giňişlikde bukulmagy (globula).\n• Dördünji — birnäçe zynjyryň birleşmegi (mysal: gemoglobin — 4 zynjyr).\n\nDenaturasiýa — ýokary temperatura, kislota ýa-da şöhle täsirinde tebigy gurluşyň bozulmagy.",
+          "ru": "Белки — биополимеры, мономерами которых являются аминокислоты. В состав белков входят 20 основных аминокислот.\n\nАминокислоты соединяются пептидной связью (–CO–NH–); при образовании каждой связи выделяется одна молекула воды.\n\nУровни структуры:\n• Первичная — последовательность аминокислот.\n• Вторичная — α-спираль или β-слой (водородные связи).\n• Третичная — пространственная укладка цепи (глобула).\n• Четвертичная — объединение нескольких цепей (например, гемоглобин — 4 цепи).\n\nДенатурация — нарушение природной структуры под действием высокой температуры, кислоты или излучения."}},
+        {"type": "example", "text": {
+          "tk": "Mysal: 3 aminokislotadan tripeptid emele gelýär.\n\n1) Aminokislota 1 + aminokislota 2 → dipeptid + H₂O (1-nji peptid baglanyşygy).\n2) Dipeptid + aminokislota 3 → tripeptid + H₂O (2-nji baglanyşyk).\n3) Netije: 3 aminokislota → 2 peptid baglanyşygy we 2 molekula suw.\n\nUmumy düzgün: n aminokislotadan ybarat zynjyrda (n − 1) peptid baglanyşygy bar.",
+          "ru": "Пример: из 3 аминокислот образуется трипептид.\n\n1) Аминокислота 1 + аминокислота 2 → дипептид + H₂O (1-я пептидная связь).\n2) Дипептид + аминокислота 3 → трипептид + H₂O (2-я связь).\n3) Итог: 3 аминокислоты → 2 пептидные связи и 2 молекулы воды.\n\nОбщее правило: в цепи из n аминокислот (n − 1) пептидных связей."}},
+        {"type": "theory", "text": {
+          "tk": "Beloklaryň wezipeleri:\n• Katalitik — fermentler (amilaza, pepsin).\n• Gurluş — kollagen, keratin.\n• Daşaýjy — gemoglobin kislorody daşaýar.\n• Gorag — antitelalar.\n• Hereket — aktin we miozin myşsalary gysýar.\n• Gormonal — insulin gandaky glýukozany sazlaýar.\n• Energetik — 1 g belok dargap, takmynan 17 kJ energiýa berýär.",
+          "ru": "Функции белков:\n• Каталитическая — ферменты (амилаза, пепсин).\n• Структурная — коллаген, кератин.\n• Транспортная — гемоглобин переносит кислород.\n• Защитная — антитела.\n• Двигательная — актин и миозин сокращают мышцы.\n• Гормональная — инсулин регулирует уровень глюкозы в крови.\n• Энергетическая — при распаде 1 г белка выделяется около 17 кДж."}},
+        {"type": "input",
+          "q": {"tk": "Belok zynjyry 10 aminokislotadan ybarat. Onda näçe peptid baglanyşygy bar?", "ru": "Белковая цепь состоит из 10 аминокислот. Сколько в ней пептидных связей?"},
+          "answer": "9",
+          "hint": {"tk": "n aminokislota üçin baglanyşyk sany n − 1.", "ru": "Для n аминокислот число связей n − 1."},
+          "explain": {"tk": "Baglanyşyklar goňşy aminokislotalaryň arasynda bolýar: 10 − 1 = 9.", "ru": "Связи образуются между соседними аминокислотами: 10 − 1 = 9."}},
+        {"type": "choice",
+          "q": {"tk": "Gemoglobin dört polipeptid zynjyryndan durýar. Bu gurluşyň haýsy derejesi?", "ru": "Гемоглобин состоит из четырёх полипептидных цепей. Какой это уровень структуры?"},
+          "options": [{"tk": "Birinji", "ru": "Первичная"}, {"tk": "Üçünji", "ru": "Третичная"}, {"tk": "Dördünji", "ru": "Четвертичная"}],
+          "answer": 2,
+          "hint": {"tk": "Haýsy dereje birnäçe aýry zynjyry birleşdirýär?", "ru": "Какой уровень объединяет несколько отдельных цепей?"},
+          "explain": {"tk": "Birnäçe zynjyryň bir toplumda birleşmegi dördünji gurluşdyr. Birinji — yzygiderlilik, üçünji — bir zynjyryň bukulmagy.", "ru": "Объединение нескольких цепей в один комплекс — это четвертичная структура. Первичная — последовательность, третичная — укладка одной цепи."}},
+        {"type": "truefalse",
+          "q": {"tk": "Bişirilen ýumurtganyň belogy sowadylanda ýene suwuk we dury bolýar.", "ru": "Белок сваренного яйца при охлаждении снова становится жидким и прозрачным."},
+          "answer": false,
+          "hint": {"tk": "Ýokary temperatura gurluşy nähili üýtgedýär?", "ru": "Как высокая температура меняет структуру?"},
+          "explain": {"tk": "Ýalňyş. Gaýnadylanda albuminiň denaturasiýasy gaýtarylmaýan bolýar: zynjyrlar täzeden bukulyp bilmeýär we biri-birine ýapyşýar.", "ru": "Неверно. При варке денатурация альбумина необратима: цепи не могут снова правильно свернуться и слипаются друг с другом."}},
+        {"type": "choice",
+          "q": {"tk": "Haýsy belok gorag wezipesini ýerine ýetirýär?", "ru": "Какой белок выполняет защитную функцию?"},
+          "options": [{"tk": "Keratin", "ru": "Кератин"}, {"tk": "Antitela", "ru": "Антитело"}, {"tk": "Miozin", "ru": "Миозин"}],
+          "answer": 1,
+          "hint": {"tk": "Immun ulgamy mikroblara garşy näme öndürýär?", "ru": "Что вырабатывает иммунная система против микробов?"},
+          "explain": {"tk": "Antitelalar (immunoglobulinler) ýat maddalary tanaýar we zyýansyzlandyrýar. Keratin — gurluş, miozin — hereket belogy.", "ru": "Антитела (иммуноглобулины) распознают и обезвреживают чужеродные вещества. Кератин — структурный, миозин — двигательный белок."}},
+        {"type": "world", "text": {
+          "tk": "Belogyň üç ölçegli gurluşyny onuň aminokislota yzygiderliliginden çaklamak ylymda onlarça ýyllap çözülmedik mesele boldy. AlphaFold emeli intellekt ulgamy bu meselede uly öňegidişlik gazandy we 2024-nji ýylda himiýa boýunça Nobel baýragy belogyň gurluşyny çaklamak we taslamak üçin berildi.",
+          "ru": "Предсказать трёхмерную структуру белка по последовательности аминокислот десятилетиями было нерешённой задачей науки. Система искусственного интеллекта AlphaFold совершила здесь прорыв, и Нобелевская премия по химии 2024 года была присуждена за предсказание и конструирование структуры белков."}}
+      ]
+    },
+    {
+      "id": "biology-10-enzymes",
+      "grade": 10,
+      "topic": 2,
+      "title": {"tk": "Fermentler — biologik katalizatorlar", "ru": "Ферменты — биологические катализаторы"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Fermentler (enzimler) — reaksiýalary tizlendirýän beloklar. Olar aktiwasiýa energiýasyny peseldýär, ýöne reaksiýada sarp bolmaýar.\n\n• Aktiw merkez — substrat birikýän ýer.\n• Ýörite häsiýet: her ferment diňe belli substrat bilen işleýär.\n• «Gulp we açar» modeli (E. Fişer, 1894) we «induksiýaly laýyklyk» modeli (D. Košland, 1958): aktiw merkez substrata görä azajyk üýtgeýär.\n\nFerment + substrat → ferment-substrat toplumy → ferment + önüm",
+          "ru": "Ферменты (энзимы) — белки, ускоряющие реакции. Они снижают энергию активации, но сами в реакции не расходуются.\n\n• Активный центр — место связывания субстрата.\n• Специфичность: каждый фермент работает только с определённым субстратом.\n• Модель «ключ — замок» (Э. Фишер, 1894) и модель «индуцированного соответствия» (Д. Кошланд, 1958): активный центр слегка подстраивается под субстрат.\n\nФермент + субстрат → фермент-субстратный комплекс → фермент + продукт"}},
+        {"type": "theory", "text": {
+          "tk": "Ferment işjeňligine täsir edýän faktorlar:\n• Temperatura — adamyň fermentleriniň köpüsi üçin optimum takmynan 37 °C. Has ýokary temperaturada denaturasiýa bolýar.\n• pH — aşgazanyň pepsini kislotaly gurşawda (pH ≈ 2), içegäniň tripsini aşgar gurşawda (pH ≈ 8) işleýär.\n• Substratyň konsentrasiýasy.\n• Ingibitorlar — bäsdeşlik edýänler aktiw merkezi tutýar, bäsdeşlik etmeýänler fermentiň şekilini üýtgedýär.",
+          "ru": "Факторы, влияющие на активность ферментов:\n• Температура — для большинства ферментов человека оптимум около 37 °C. При более высокой температуре происходит денатурация.\n• pH — пепсин желудка работает в кислой среде (pH ≈ 2), трипсин кишечника — в щелочной (pH ≈ 8).\n• Концентрация субстрата.\n• Ингибиторы — конкурентные занимают активный центр, неконкурентные меняют форму фермента."}},
+        {"type": "example", "text": {
+          "tk": "Tejribe: tüýkülikdäki amilaza krahmaly dargadýar.\n\n1) Iki probirkada krahmal ergini bar. Birine tüýkülik goşulýar, beýlekisine — suw.\n2) 10 minut 37 °C-de saklanýar.\n3) Ýod goşulýar: suwly probirka gök reňk alýar (krahmal bar), tüýkülikli probirka reňkini üýtgetmeýär (krahmal maltoza çenli dargapdyr).\n4) Eger tüýkülik öňünden gaýnadylan bolsa, gök reňk peýda bolýar — ferment denaturasiýa bolupdyr.",
+          "ru": "Опыт: амилаза слюны расщепляет крахмал.\n\n1) В двух пробирках раствор крахмала. В одну добавляют слюну, в другую — воду.\n2) Выдерживают 10 минут при 37 °C.\n3) Добавляют йод: в пробирке с водой синее окрашивание (крахмал есть), в пробирке со слюной цвет не меняется (крахмал расщеплён до мальтозы).\n4) Если слюну заранее прокипятить, появится синий цвет — фермент денатурирован."}},
+        {"type": "input",
+          "q": {"tk": "Adam bedeniniň fermentleriniň köpüsi üçin optimal temperatura näçe gradus Selsiý?", "ru": "Какова оптимальная температура (в °C) для большинства ферментов организма человека?"},
+          "answer": "37",
+          "hint": {"tk": "Bu sagdyn adamyň beden temperaturasy.", "ru": "Это температура тела здорового человека."},
+          "explain": {"tk": "Adamyň fermentleri beden temperaturasyna, ýagny takmynan 37 °C-ä uýgunlaşypdyr.", "ru": "Ферменты человека приспособлены к температуре тела — около 37 °C."}},
+        {"type": "choice",
+          "q": {"tk": "Haýsy ferment güýçli kislotaly gurşawda iň gowy işleýär?", "ru": "Какой фермент лучше всего работает в сильнокислой среде?"},
+          "options": [{"tk": "Tripsin", "ru": "Трипсин"}, {"tk": "Tüýkülik amilazasy", "ru": "Амилаза слюны"}, {"tk": "Pepsin", "ru": "Пепсин"}],
+          "answer": 2,
+          "hint": {"tk": "Aşgazanda duz kislotasy bar.", "ru": "В желудке есть соляная кислота."},
+          "explain": {"tk": "Pepsin aşgazanda beloklary dargadýar, onuň optimal pH-y takmynan 2. Tripsin aşgar, amilaza bolsa neýtrala ýakyn gurşawda işleýär.", "ru": "Пепсин расщепляет белки в желудке, его оптимум pH около 2. Трипсин работает в щелочной, а амилаза — в близкой к нейтральной среде."}},
+        {"type": "truefalse",
+          "q": {"tk": "Ferment reaksiýa wagtynda sarp bolýar we her gezek täzeden sintezlenmeli.", "ru": "Фермент расходуется в реакции, и его каждый раз нужно синтезировать заново."},
+          "answer": false,
+          "hint": {"tk": "Katalizatoryň kesgitlemesini ýatlaň.", "ru": "Вспомните определение катализатора."},
+          "explain": {"tk": "Ýalňyş. Ferment katalizator hökmünde reaksiýadan üýtgemän çykýar we täze substrat molekulalary bilen gaýta-gaýta işleýär.", "ru": "Неверно. Фермент как катализатор выходит из реакции неизменным и многократно работает с новыми молекулами субстрата."}},
+        {"type": "choice",
+          "q": {"tk": "Bäsdeşlik edýän ingibitor nähili täsir edýär?", "ru": "Как действует конкурентный ингибитор?"},
+          "options": [{"tk": "Aktiw merkezi tutup, substratyň birikmegine päsgel berýär", "ru": "Занимает активный центр и мешает присоединению субстрата"}, {"tk": "Fermenti gaýnadyp dargadýar", "ru": "Разрушает фермент нагреванием"}, {"tk": "Substraty önüme öwürýär", "ru": "Превращает субстрат в продукт"}],
+          "answer": 0,
+          "hint": {"tk": "«Bäsdeşlik» — bir ýer üçin göreş.", "ru": "«Конкуренция» — борьба за одно место."},
+          "explain": {"tk": "Bäsdeşlik edýän ingibitor şekili boýunça substrata meňzeýär we aktiw merkezi tutýar. Substratyň konsentrasiýasy artdyrylsa, onuň täsiri gowşaýar.", "ru": "Конкурентный ингибитор похож по форме на субстрат и занимает активный центр. При увеличении концентрации субстрата его действие ослабевает."}},
+        {"type": "world", "text": {
+          "tk": "Köp häzirki zaman kir ýuwujy serişdelerde fermentler bar: proteazalar belok tegmillerini (gan, ot), lipazalar ýag tegmillerini dargadýar. Şonuň üçin olar pes temperaturada hem gowy ýuwýar we energiýa tygşytlanýar.",
+          "ru": "Многие современные стиральные порошки содержат ферменты: протеазы расщепляют белковые пятна (кровь, трава), липазы — жировые. Поэтому они хорошо стирают даже при низкой температуре, экономя энергию."}}
+      ]
+    },
+    {
+      "id": "biology-10-mitosis-meiosis",
+      "grade": 10,
+      "topic": 3,
+      "title": {"tk": "Mitoz we meýoz", "ru": "Митоз и мейоз"},
+      "minutes": 11,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Öýjük sikli: interfaza + bölünme.\nInterfazada (G₁, S, G₂) öýjük ösýär, S döwründe DNK iki esse köpelýär: her hromosoma iki hromatidden durýar.\n\nMitoz — somatik öýjükleriň bölünmegi:\n• Profaza — hromosomalar spirallaşýar, ýadro gabygy ýitýär.\n• Metafaza — hromosomalar ekwatorda düzülýär.\n• Anafaza — hromatidler polýuslara aýrylýar.\n• Telofaza — iki täze ýadro emele gelýär.\nNetije: 2 sany birmeňzeş diploid (2n) öýjük.\n\nMeýoz — jyns öýjükleriniň (gametalaryň) emele gelmegi. Iki bölünme (meýoz I we II), netije: 4 sany gaploid (n) öýjük. I profazada krossingower — gomologik hromosomalaryň bölekleri çalşylýar.",
+          "ru": "Клеточный цикл: интерфаза + деление.\nВ интерфазе (G₁, S, G₂) клетка растёт, в S-периоде ДНК удваивается: каждая хромосома состоит из двух хроматид.\n\nМитоз — деление соматических клеток:\n• Профаза — хромосомы спирализуются, ядерная оболочка исчезает.\n• Метафаза — хромосомы выстраиваются на экваторе.\n• Анафаза — хроматиды расходятся к полюсам.\n• Телофаза — образуются два новых ядра.\nИтог: 2 одинаковые диплоидные (2n) клетки.\n\nМейоз — образование половых клеток (гамет). Два деления (мейоз I и II), итог: 4 гаплоидные (n) клетки. В профазе I происходит кроссинговер — обмен участками гомологичных хромосом."}},
+        {"type": "example", "text": {
+          "tk": "Mysal: adamyň somatik öýjüginde 2n = 46 hromosoma bar.\n\n1) Mitozdan soň: 2 öýjük, her birinde 46 hromosoma (ene öýjük bilen birmeňzeş).\n2) Meýoz I-den soň: gomologik jübütler aýrylýar → 2 öýjük, her birinde 23 hromosoma (iki hromatidli).\n3) Meýoz II-den soň: hromatidler aýrylýar → 4 öýjük, her birinde 23 hromosoma.\n4) Tohumlanmada: 23 + 23 = 46 — diploid toplum dikeldilýär.",
+          "ru": "Пример: в соматической клетке человека 2n = 46 хромосом.\n\n1) После митоза: 2 клетки, в каждой 46 хромосом (как в материнской).\n2) После мейоза I: расходятся гомологичные пары → 2 клетки по 23 хромосомы (двухроматидные).\n3) После мейоза II: расходятся хроматиды → 4 клетки по 23 хромосомы.\n4) При оплодотворении: 23 + 23 = 46 — диплоидный набор восстанавливается."}},
+        {"type": "input",
+          "q": {"tk": "Itiň somatik öýjüklerinde 2n = 78. Onuň gametasynda näçe hromosoma bar?", "ru": "В соматических клетках собаки 2n = 78. Сколько хромосом в её гамете?"},
+          "answer": "39",
+          "hint": {"tk": "Gameta gaploid: n = 2n / 2.", "ru": "Гамета гаплоидна: n = 2n / 2."},
+          "explain": {"tk": "Meýozda hromosoma sany iki esse azalýar: 78 / 2 = 39.", "ru": "В мейозе число хромосом уменьшается вдвое: 78 / 2 = 39."}},
+        {"type": "choice",
+          "q": {"tk": "Mitozyň haýsy fazasynda hromatidler öýjügiň polýuslaryna aýrylýar?", "ru": "В какой фазе митоза хроматиды расходятся к полюсам клетки?"},
+          "options": [{"tk": "Metafaza", "ru": "Метафаза"}, {"tk": "Anafaza", "ru": "Анафаза"}, {"tk": "Profaza", "ru": "Профаза"}],
+          "answer": 1,
+          "hint": {"tk": "Grekçe «ana» — «ýokary, yza» diýmekdir; bu ekwatordan soňky faza.", "ru": "Греческое «ana» — «вверх, назад»; это фаза после выстраивания на экваторе."},
+          "explain": {"tk": "Metafazada hromosomalar ekwatorda durýar, anafazada bolsa bölünme ýüplükleri hromatidleri polýuslara çekýär.", "ru": "В метафазе хромосомы стоят на экваторе, а в анафазе нити веретена растаскивают хроматиды к полюсам."}},
+        {"type": "truefalse",
+          "q": {"tk": "Krossingower mitozda bolup geçýär we genetik taýdan birmeňzeş öýjükleri döredýär.", "ru": "Кроссинговер происходит в митозе и создаёт генетически одинаковые клетки."},
+          "answer": false,
+          "hint": {"tk": "Gomologik hromosomalar haýsy bölünmede jübütleşýär?", "ru": "В каком делении гомологичные хромосомы образуют пары?"},
+          "explain": {"tk": "Ýalňyş. Krossingower meýozyň I profazasynda bolýar we genleriň täze utgaşmalaryny döredýär — bu nesilleriň dürlüliginiň çeşmesi.", "ru": "Неверно. Кроссинговер происходит в профазе I мейоза и создаёт новые сочетания генов — это источник разнообразия потомства."}},
+        {"type": "input",
+          "q": {"tk": "Bir ene öýjügiň meýozynda jemi näçe öýjük emele gelýär?", "ru": "Сколько всего клеток образуется при мейозе одной материнской клетки?"},
+          "answer": "4",
+          "hint": {"tk": "Iki yzygider bölünme bar.", "ru": "Происходит два последовательных деления."},
+          "explain": {"tk": "Meýoz I: 1 → 2 öýjük, meýoz II: 2 → 4 öýjük.", "ru": "Мейоз I: 1 → 2 клетки, мейоз II: 2 → 4 клетки."}},
+        {"type": "world", "text": {
+          "tk": "1951-nji ýylda Genrietta Lakslardan alnan rak öýjükleri laboratoriýada tükeniksiz bölünip başlady. «HeLa» atly bu ilkinji ölmez adam öýjük setirinden polio garşy sanjymy döretmekde we öýjük bölünmesini öwrenmekde peýdalanyldy.",
+          "ru": "В 1951 году раковые клетки, взятые у Генриетты Лакс, начали бесконечно делиться в лаборатории. Эта первая «бессмертная» линия клеток человека, HeLa, помогла создать вакцину от полиомиелита и изучить деление клеток."}}
+      ]
+    },
+    {
+      "id": "biology-10-metabolism",
+      "grade": 10,
+      "topic": 4,
+      "title": {"tk": "Metabolizm: energiýa we madda çalşygy", "ru": "Метаболизм: обмен веществ и энергии"},
+      "minutes": 11,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Metabolizm — öýjükdäki ähli himiki reaksiýalaryň jemi.\n• Anabolizm (assimilýasiýa, plastik çalşyk) — ýönekeý maddalardan çylşyrymly maddalaryň sintezi, energiýa sarp edilýär. Mysal: fotosintez, belok sintezi.\n• Katabolizm (dissimilýasiýa, energetik çalşyk) — çylşyrymly maddalaryň dargamagy, energiýa bölünip çykýar. Mysal: dem alyş.\n\nÖýjügiň uniwersal energiýa «walýutasy» — ATF (adenozintrifosfat). ATF → ADF + fosfat reaksiýasynda energiýa bölünip çykýar.",
+          "ru": "Метаболизм — совокупность всех химических реакций в клетке.\n• Анаболизм (ассимиляция, пластический обмен) — синтез сложных веществ из простых, энергия затрачивается. Пример: фотосинтез, синтез белка.\n• Катаболизм (диссимиляция, энергетический обмен) — распад сложных веществ с выделением энергии. Пример: дыхание.\n\nУниверсальная энергетическая «валюта» клетки — АТФ (аденозинтрифосфат). В реакции АТФ → АДФ + фосфат выделяется энергия."}},
+        {"type": "theory", "text": {
+          "tk": "Fotosintez (hloroplastlar):\n6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂ (ýagtylykda)\n\nÖýjük dem alşy (glýukozanyň dargamagy):\n1) Glikoliz — sitoplazmada, kislorodsyz: glýukoza → 2 piruwat, arassa 2 ATF.\n2) Krebs sikli — mitohondriýanyň matriksinde.\n3) Elektron geçiriji zynjyr — mitohondriýanyň içki membranasynda, kislorod gerek.\nJemi: C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O, takmynan 30–32 ATF.\n\nKislorodsyz şertde: myşsalarda süýt kislotasy, hamyrmaýada spirt we CO₂ emele gelýär (spirtli açama).",
+          "ru": "Фотосинтез (хлоропласты):\n6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂ (на свету)\n\nКлеточное дыхание (расщепление глюкозы):\n1) Гликолиз — в цитоплазме, без кислорода: глюкоза → 2 пирувата, чистый выход 2 АТФ.\n2) Цикл Кребса — в матриксе митохондрий.\n3) Электрон-транспортная цепь — на внутренней мембране митохондрий, нужен кислород.\nИтог: C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O, около 30–32 АТФ.\n\nБез кислорода: в мышцах образуется молочная кислота, у дрожжей — спирт и CO₂ (спиртовое брожение)."}},
+        {"type": "example", "text": {
+          "tk": "Mysal: fotosintez deňlemesiniň deňagramlylygyny barlaýarys.\n\nÇep tarap: 6CO₂ + 6H₂O → C: 6, H: 12, O: 12 + 6 = 18.\nSag tarap: C₆H₁₂O₆ + 6O₂ → C: 6, H: 12, O: 6 + 12 = 18.\n\nÄhli atomlar deň — deňleme dogry. Bellik: bölünip çykýan O₂ suwdan gelýär (muny agyr kislorod izotopy ¹⁸O bilen geçirilen tejribeler subut etdi).",
+          "ru": "Пример: проверяем баланс уравнения фотосинтеза.\n\nЛевая часть: 6CO₂ + 6H₂O → C: 6, H: 12, O: 12 + 6 = 18.\nПравая часть: C₆H₁₂O₆ + 6O₂ → C: 6, H: 12, O: 6 + 12 = 18.\n\nВсе атомы сходятся — уравнение верно. Заметка: выделяемый O₂ происходит из воды (это доказали опыты с тяжёлым изотопом кислорода ¹⁸O)."}},
+        {"type": "choice",
+          "q": {"tk": "Glikoliz öýjügiň haýsy ýerinde bolup geçýär?", "ru": "Где в клетке происходит гликолиз?"},
+          "options": [{"tk": "Mitohondriýanyň matriksinde", "ru": "В матриксе митохондрий"}, {"tk": "Sitoplazmada", "ru": "В цитоплазме"}, {"tk": "Hloroplastda", "ru": "В хлоропласте"}],
+          "answer": 1,
+          "hint": {"tk": "Glikoliz kislorodsyz geçýär we iň gadymy ýoldur.", "ru": "Гликолиз идёт без кислорода и является самым древним путём."},
+          "explain": {"tk": "Glikoliziň fermentleri sitoplazmada ýerleşýär. Krebs sikli we elektron geçiriji zynjyr mitohondriýada bolýar.", "ru": "Ферменты гликолиза находятся в цитоплазме. Цикл Кребса и электрон-транспортная цепь — в митохондриях."}},
+        {"type": "input",
+          "q": {"tk": "Glikolizde bir molekula glýukozadan arassa näçe ATF alynýar?", "ru": "Сколько молекул АТФ (чистый выход) даёт гликолиз одной молекулы глюкозы?"},
+          "answer": "2",
+          "hint": {"tk": "4 ATF emele gelýär, ýöne 2-si başda sarp edilýär.", "ru": "Образуется 4 АТФ, но 2 расходуются в начале."},
+          "explain": {"tk": "Glikolizde 4 ATF emele gelýär, 2 ATF bolsa glýukozany işjeňleşdirmäge sarp edilýär: 4 − 2 = 2.", "ru": "В гликолизе образуется 4 АТФ, а 2 АТФ тратятся на активацию глюкозы: 4 − 2 = 2."}},
+        {"type": "truefalse",
+          "q": {"tk": "Fotosintez katabolizme degişli, sebäbi onda energiýa bölünip çykýar.", "ru": "Фотосинтез относится к катаболизму, потому что в нём выделяется энергия."},
+          "answer": false,
+          "hint": {"tk": "Fotosintezde çylşyrymly madda dargaýarmy ýa-da sintezlenýärmi?", "ru": "При фотосинтезе сложное вещество распадается или синтезируется?"},
+          "explain": {"tk": "Ýalňyş. Fotosintezde CO₂ we suwdan glýukoza sintezlenýär, ýagtylyk energiýasy sarp edilýär — bu anabolizm.", "ru": "Неверно. При фотосинтезе из CO₂ и воды синтезируется глюкоза, затрачивается энергия света — это анаболизм."}},
+        {"type": "world", "text": {
+          "tk": "Nemes alymy Hans Krebs limon kislotasy siklini açandygy üçin 1953-nji ýylda fiziologiýa we lukmançylyk boýunça Nobel baýragyna mynasyp boldy. Şonuň üçin bu sikle köplenç «Krebs sikli» diýilýär.",
+          "ru": "Немецкий учёный Ганс Кребс получил Нобелевскую премию по физиологии и медицине 1953 года за открытие цикла лимонной кислоты. Поэтому этот цикл часто называют «циклом Кребса»."}}
+      ]
+    },
+    {
+      "id": "biology-10-viruses",
+      "grade": 10,
+      "topic": 5,
+      "title": {"tk": "Wiruslar", "ru": "Вирусы"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Wiruslar — öýjüksiz durmuş görnüşi. Olar diňe hojaýyn öýjüginiň içinde köpelip bilýär (öýjük içi parazitler).\n\nGurluşy:\n• Nuklein kislotasy — DNK ýa-da RNK (ikisi bile däl).\n• Kapsid — belok gabyk.\n• Käbirlerinde daşky lipid gabyk bar (gripp, AIW).\n\nKöpelme sikli: birikme → içeri girme → nuklein kislotasynyň we beloklaryň köpelmegi → täze bölejikleriň ýygnalmagy → öýjükden çykma.\n\nBakteriofaglar bakteriýalary zaýalaýar. Retrowiruslar (mysal: AIW) ters transkriptaza fermenti bilen RNK-dan DNK sintezleýär.\n\nWiruslary 1892-nji ýylda rus alymy D. I. Iwanowskiý temmäkiň mozaika keselini öwrenende açdy.",
+          "ru": "Вирусы — неклеточная форма жизни. Они размножаются только внутри клетки-хозяина (внутриклеточные паразиты).\n\nСтроение:\n• Нуклеиновая кислота — ДНК или РНК (не обе сразу).\n• Капсид — белковая оболочка.\n• У некоторых есть внешняя липидная оболочка (грипп, ВИЧ).\n\nЦикл размножения: прикрепление → проникновение → копирование нуклеиновой кислоты и белков → сборка новых частиц → выход из клетки.\n\nБактериофаги поражают бактерии. Ретровирусы (например, ВИЧ) с помощью фермента обратной транскриптазы синтезируют ДНК на матрице РНК.\n\nВирусы открыл в 1892 году русский учёный Д. И. Ивановский, изучая мозаичную болезнь табака."}},
+        {"type": "example", "text": {
+          "tk": "Mysal: gripp wirusy nädip ýaýraýar?\n\n1) Asgyrylanda wirusly damjalar howa çykýar.\n2) Wirus dem alyş ýollarynyň öýjüginiň ýüzündäki reseptora birikýär.\n3) Öýjüge girip, öz RNK-syny goýberýär.\n4) Öýjük öz serişdeleri bilen wirusyň müňlerçe nusgasyny ýasaýar.\n5) Täze wiruslar çykyp, goňşy öýjükleri zaýalaýar.\n\nGorag: sanjym (immun ulgamyny öňünden «tälim berýär»), el ýuwmak, howany çalşmak. Antibiotikler wiruslara täsir etmeýär.",
+          "ru": "Пример: как распространяется вирус гриппа?\n\n1) При чихании в воздух попадают капли с вирусом.\n2) Вирус прикрепляется к рецептору на поверхности клетки дыхательных путей.\n3) Проникает в клетку и высвобождает свою РНК.\n4) Клетка своими ресурсами создаёт тысячи копий вируса.\n5) Новые вирусы выходят и заражают соседние клетки.\n\nЗащита: вакцинация («тренирует» иммунитет заранее), мытьё рук, проветривание. Антибиотики на вирусы не действуют."}},
+        {"type": "truefalse",
+          "q": {"tk": "Antibiotikler gripp ýaly wirus kesellerini bejermek üçin netijeli.", "ru": "Антибиотики эффективны для лечения вирусных болезней, например гриппа."},
+          "answer": false,
+          "hint": {"tk": "Antibiotikler bakteriýa öýjüginiň haýsy bölegine täsir edýär? Wirusda öýjük barmy?", "ru": "На какие части бактериальной клетки действуют антибиотики? Есть ли у вируса клетка?"},
+          "explain": {"tk": "Ýalňyş. Antibiotikler bakteriýanyň öýjük diwaryna, ribosomalaryna we ş.m. täsir edýär. Wirusda bu gurluşlar ýok, şonuň üçin antibiotik peýdasyz.", "ru": "Неверно. Антибиотики действуют на клеточную стенку, рибосомы и другие структуры бактерий. У вирусов их нет, поэтому антибиотик бесполезен."}},
+        {"type": "choice",
+          "q": {"tk": "Bakteriýalary zaýalaýan wiruslar nähili atlandyrylýar?", "ru": "Как называются вирусы, поражающие бактерии?"},
+          "options": [{"tk": "Retrowiruslar", "ru": "Ретровирусы"}, {"tk": "Prionlar", "ru": "Прионы"}, {"tk": "Bakteriofaglar", "ru": "Бактериофаги"}],
+          "answer": 2,
+          "hint": {"tk": "Grekçe «phagos» — «iýiji».", "ru": "Греческое «phagos» — «пожиратель»."},
+          "explain": {"tk": "Bakteriofag — «bakteriýa iýiji». Prionlar — nuklein kislotasy bolmadyk ýalňyş bukulan beloklar, retrowiruslar bolsa haýwanlary we adamy zaýalaýar.", "ru": "Бактериофаг — «пожиратель бактерий». Прионы — неправильно свёрнутые белки без нуклеиновой кислоты, а ретровирусы поражают животных и человека."}},
+        {"type": "input",
+          "q": {"tk": "D. I. Iwanowskiý wiruslary haýsy ýylda açdy?", "ru": "В каком году Д. И. Ивановский открыл вирусы?"},
+          "answer": "1892",
+          "hint": {"tk": "XIX asyryň ahyry, temmäkiň mozaika keseli.", "ru": "Конец XIX века, мозаичная болезнь табака."},
+          "explain": {"tk": "1892-nji ýylda Iwanowskiý bakteriýa süzgüçlerinden geçýän keseli döredijiniň bardygyny görkezdi — bu wirusologiýanyň başlangyjy boldy.", "ru": "В 1892 году Ивановский показал, что возбудитель болезни проходит через бактериальные фильтры — это стало началом вирусологии."}},
+        {"type": "choice",
+          "q": {"tk": "AIW-iň RNK-dan DNK sintezlemegine haýsy ferment kömek edýär?", "ru": "Какой фермент позволяет ВИЧ синтезировать ДНК на матрице РНК?"},
+          "options": [{"tk": "Ters transkriptaza", "ru": "Обратная транскриптаза"}, {"tk": "Amilaza", "ru": "Амилаза"}, {"tk": "Pepsin", "ru": "Пепсин"}],
+          "answer": 0,
+          "hint": {"tk": "Adaty ugur DNK → RNK; bu ferment «tersine» işleýär.", "ru": "Обычное направление ДНК → РНК; этот фермент работает «наоборот»."},
+          "explain": {"tk": "Ters transkriptaza RNK-dan DNK nusgasyny döredýär, soňra bu DNK hojaýyn öýjüginiň genomyna girýär. Amilaza we pepsin iýmit siňdiriş fermentleri.", "ru": "Обратная транскриптаза создаёт ДНК-копию на РНК, затем эта ДНК встраивается в геном клетки-хозяина. Амилаза и пепсин — пищеварительные ферменты."}},
+        {"type": "world", "text": {
+          "tk": "Çeçek — sanjym arkaly doly ýok edilen ilkinji adam keseli. Bütindünýä saglygy goraýyş guramasy 1980-nji ýylda çeçegiň dünýäde ýok edilendigini resmi taýdan yglan etdi.",
+          "ru": "Натуральная оспа — первая болезнь человека, полностью искоренённая с помощью вакцинации. Всемирная организация здравоохранения официально объявила о её ликвидации в 1980 году."}}
+      ]
+    }
+  ]
+}

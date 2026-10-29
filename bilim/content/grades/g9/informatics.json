@@ -1,0 +1,288 @@
+{
+  "grade": 9,
+  "subject": "informatics",
+  "lessons": [
+    {
+      "id": "informatics-9-algorithm-complexity",
+      "grade": 9,
+      "topic": 0,
+      "title": {"tk": "Algoritmiň çylşyrymlylygy (Big O)", "ru": "Сложность алгоритмов (O-большое)"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Algoritmiň çylşyrymlylygy — giriş maglumatlarynyň möçberi n ulaldygyça, ädimleriň sany nähili çalt artýar. Ony «O-uly» (Big O) belgisi bilen ýazýarlar.\n\nEsasy synplar (çaltdan haýala):\n• O(1) — hemişelik: massiwiň elementini indeks boýunça almak\n• O(log n) — logarifmik: ikilik gözleg\n• O(n) — çyzykly: sanawy bir gezek aýlanyp çykmak\n• O(n log n) — birleşdirip tertiplemek (merge sort)\n• O(n²) — kwadratik: içki iki sikl, köpürjikli tertiplemek\n• O(2ⁿ) — eksponensial: ähli bölek köplükleri barlamak\n\nBig O-da hemişelik köpeldijiler we kiçi agzalar taşlanýar: 3n² + 5n + 7 → O(n²).",
+          "ru": "Сложность алгоритма показывает, как быстро растёт число шагов при росте размера входных данных n. Её записывают в нотации «O-большое» (Big O).\n\nОсновные классы (от быстрых к медленным):\n• O(1) — константная: взять элемент массива по индексу\n• O(log n) — логарифмическая: двоичный поиск\n• O(n) — линейная: один проход по списку\n• O(n log n) — сортировка слиянием (merge sort)\n• O(n²) — квадратичная: два вложенных цикла, пузырьковая сортировка\n• O(2ⁿ) — экспоненциальная: перебор всех подмножеств\n\nВ Big O отбрасывают константы и младшие члены: 3n² + 5n + 7 → O(n²)."
+        }},
+        {"type": "example", "text": {
+          "tk": "Kod:\nfor i in range(n):\n    for j in range(n):\n        print(i, j)\n\n1) Daşky sikl n gezek işleýär.\n2) Her gezek içki sikl hem n gezek işleýär.\n3) Jemi: n · n = n² gezek print.\nÇylşyrymlylyk: O(n²).\n\nDeňeşdiriň: n = 1000 bolanda O(n) algoritm ~1000 ädim, O(n²) bolsa ~1 000 000 ädim edýär.",
+          "ru": "Код:\nfor i in range(n):\n    for j in range(n):\n        print(i, j)\n\n1) Внешний цикл выполняется n раз.\n2) Каждый раз внутренний цикл тоже выполняется n раз.\n3) Всего: n · n = n² вызовов print.\nСложность: O(n²).\n\nСравните: при n = 1000 алгоритм O(n) делает ~1000 шагов, а O(n²) — ~1 000 000 шагов."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Sanawdaky iň uly sany tapmak üçin ony bir gezek aýlanyp çykýarys. Çylşyrymlylyk näçe?", "ru": "Чтобы найти максимум в списке, проходим его один раз. Какова сложность?"},
+          "options": ["O(1)", "O(n)", "O(n²)"],
+          "answer": 1,
+          "hint": {"tk": "Her element bir gezek barlanýar.", "ru": "Каждый элемент проверяется один раз."},
+          "explain": {"tk": "n element — n barlag → çyzykly çylşyrymlylyk O(n).", "ru": "n элементов — n проверок → линейная сложность O(n)."}
+        },
+        {"type": "input",
+          "q": {"tk": "Big O-da 5n³ + 2n + 100 aňlatmasy nähili ýazylýar? (görnüşi: O(...))", "ru": "Как записать 5n³ + 2n + 100 в нотации Big O? (в виде O(...))"},
+          "answer": "O(n^3)|O(n³)|o(n^3)|o(n³)",
+          "hint": {"tk": "Iň çalt ösýän agzany galdyryň we köpeldijini taşlaň.", "ru": "Оставьте самый быстрорастущий член и отбросьте коэффициент."},
+          "explain": {"tk": "n ulaldygyça n³ agdyklyk edýär; 5 köpeldiji taşlanýar → O(n³).", "ru": "При росте n доминирует n³; коэффициент 5 отбрасывается → O(n³)."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "O(log n) algoritm uly n üçin O(n) algoritmden haýal işleýär.", "ru": "Алгоритм O(log n) при больших n работает медленнее алгоритма O(n)."},
+          "answer": false,
+          "hint": {"tk": "n = 1 000 000 bolanda log₂ n takmynan 20.", "ru": "При n = 1 000 000 значение log₂ n примерно 20."},
+          "explain": {"tk": "log n n-den has haýal ösýär, şonuň üçin O(log n) has çalt.", "ru": "log n растёт гораздо медленнее n, поэтому O(log n) быстрее."}
+        },
+        {"type": "choice",
+          "q": {"tk": "n = 10 bolanda 2ⁿ näçä deň?", "ru": "Чему равно 2ⁿ при n = 10?"},
+          "options": ["100", "20", "1024"],
+          "answer": 2,
+          "hint": {"tk": "2 sany 10 gezek özüne köpeldiň.", "ru": "Умножьте 2 само на себя 10 раз."},
+          "explain": {"tk": "2¹⁰ = 1024. n = 20 bolanda eýýäm 1 048 576 — eksponensial algoritmler çalt haýallaýar.", "ru": "2¹⁰ = 1024. При n = 20 уже 1 048 576 — экспоненциальные алгоритмы быстро становятся медленными."}
+        },
+        {"type": "world", "text": {
+          "tk": "Informatikanyň iň meşhur açyk soraglaryndan biri — «P = NP?». Clay matematika instituty ony ýedi «Müňýyllygyň meselesiniň» birine goşup, çözen adama 1 million dollar baýrak yglan edipdir.",
+          "ru": "Один из самых известных открытых вопросов информатики — «P = NP?». Математический институт Клэя включил его в семь «Задач тысячелетия» и назначил за решение премию в 1 миллион долларов."
+        }}
+      ]
+    },
+    {
+      "id": "informatics-9-search-and-sort",
+      "grade": 9,
+      "topic": 1,
+      "title": {"tk": "Gözleg we tertiplemek", "ru": "Поиск и сортировка"},
+      "minutes": 11,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Gözleg:\n• Çyzykly gözleg — elementleri yzly-yzyna barlaýar, islendik sanawda işleýär. O(n).\n• Ikilik gözleg — diňe tertiplenen sanawda. Ortadaky elementi barlaýar we gözleg meýdanynyň ýarysyny taşlaýar. O(log n).\n\nTertiplemek:\n• Köpürjikli (bubble sort) — goňşy elementleri deňeşdirip, ýerlerini çalyşýar. O(n²).\n• Saýlap tertiplemek (selection sort) — her gezek iň kiçisini tapyp, öňe goýýar. O(n²).\n• Birleşdirip tertiplemek (merge sort) — sanawy ikä bölýär, böleklerini tertipleýär we birleşdirýär. O(n log n).\n• Çalt tertiplemek (quick sort) — orta hasabyna O(n log n).",
+          "ru": "Поиск:\n• Линейный поиск — проверяет элементы по очереди, работает в любом списке. O(n).\n• Двоичный (бинарный) поиск — только в отсортированном списке. Проверяет средний элемент и отбрасывает половину области поиска. O(log n).\n\nСортировка:\n• Пузырьковая (bubble sort) — сравнивает соседние элементы и меняет их местами. O(n²).\n• Сортировка выбором (selection sort) — каждый раз находит минимум и ставит его вперёд. O(n²).\n• Сортировка слиянием (merge sort) — делит список пополам, сортирует части и сливает их. O(n log n).\n• Быстрая сортировка (quick sort) — в среднем O(n log n)."
+        }},
+        {"type": "example", "text": {
+          "tk": "Ikilik gözleg: [2, 5, 8, 12, 16, 23, 38, 56, 72, 91] sanawynda 23-i gözleýäris.\n\n1) Aralyk 0..9, orta indeks 4 → 16. 23 > 16 → sag ýarym.\n2) Aralyk 5..9, orta indeks 7 → 56. 23 < 56 → çep ýarym.\n3) Aralyk 5..6, orta indeks 5 → 23. Tapyldy!\n\n10 elementden diňe 3 barlag. Çyzykly gözleg 6 barlag ederdi.",
+          "ru": "Двоичный поиск: ищем 23 в списке [2, 5, 8, 12, 16, 23, 38, 56, 72, 91].\n\n1) Диапазон 0..9, средний индекс 4 → 16. 23 > 16 → правая половина.\n2) Диапазон 5..9, средний индекс 7 → 56. 23 < 56 → левая половина.\n3) Диапазон 5..6, средний индекс 5 → 23. Найдено!\n\nИз 10 элементов — всего 3 проверки. Линейный поиск сделал бы 6."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Ikilik gözlegi ulanmak üçin haýsy şert hökmany?", "ru": "Какое условие обязательно для двоичного поиска?"},
+          "options": [{"tk": "Sanaw tertiplenen bolmaly", "ru": "Список должен быть отсортирован"}, {"tk": "Sanawda 100-den az element bolmaly", "ru": "В списке меньше 100 элементов"}, {"tk": "Elementler diňe harplar bolmaly", "ru": "Элементы — только буквы"}],
+          "answer": 0,
+          "hint": {"tk": "Algoritm haýsy ýarymy taşlamalydygyny nädip bilýär?", "ru": "Как алгоритм узнаёт, какую половину отбросить?"},
+          "explain": {"tk": "Diňe tertiplenen sanawda ortadaky element bilen deňeşdirip, gözlenýän bahanyň haýsy ýarymdadygyny bilip bolýar.", "ru": "Только в отсортированном списке по сравнению со средним элементом можно понять, в какой половине искомое значение."}
+        },
+        {"type": "input",
+          "q": {"tk": "1024 elementli tertiplenen sanawda ikilik gözleg iň köp näçe ädim (barlag) eder?", "ru": "Сколько шагов (проверок) максимум сделает двоичный поиск в отсортированном списке из 1024 элементов?"},
+          "answer": "11|10",
+          "hint": {"tk": "Her ädimde sanaw iki esse kiçelýär: 1024 → 512 → … → 1.", "ru": "На каждом шаге список уменьшается вдвое: 1024 → 512 → … → 1."},
+          "explain": {"tk": "log₂ 1024 = 10 bölünme; iň soňky galan elementi barlamak bilen iň köp 11 barlag.", "ru": "log₂ 1024 = 10 делений; с проверкой последнего оставшегося элемента — максимум 11 проверок."}
+        },
+        {"type": "choice",
+          "q": {"tk": "[5, 3, 8, 1] sanawynda köpürjikli tertiplemäniň birinji geçişinden soň näme bolar?", "ru": "Что получится после первого прохода пузырьковой сортировки списка [5, 3, 8, 1]?"},
+          "options": ["[1, 3, 5, 8]", "[3, 5, 1, 8]", "[3, 5, 8, 1]"],
+          "answer": 1,
+          "hint": {"tk": "Goňşy jübütleri yzly-yzyna deňeşdiriň: (5,3), (5,8), (8,1).", "ru": "Сравнивайте соседние пары по очереди: (5,3), (5,8), (8,1)."},
+          "explain": {"tk": "5>3 → [3,5,8,1]; 5<8 → üýtgemeýär; 8>1 → [3,5,1,8]. Iň uly san ahyryna «ýüzüp çykdy».", "ru": "5>3 → [3,5,8,1]; 5<8 → без изменений; 8>1 → [3,5,1,8]. Наибольшее число «всплыло» в конец."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Merge sort uly sanawlarda bubble sort-dan adatça çalt işleýär.", "ru": "На больших списках merge sort обычно работает быстрее bubble sort."},
+          "answer": true,
+          "hint": {"tk": "O(n log n) bilen O(n²)-y deňeşdiriň.", "ru": "Сравните O(n log n) и O(n²)."},
+          "explain": {"tk": "n log n uly n üçin n²-dan has kiçi, şonuň üçin merge sort çalt.", "ru": "n log n при больших n гораздо меньше n², поэтому merge sort быстрее."}
+        },
+        {"type": "world", "text": {
+          "tk": "Birleşdirip tertiplemegi (merge sort) 1945-nji ýylda matematik Jon fon Neýman oýlap tapypdyr. Python we Java dillerinde ulanylýan Timsort algoritmi merge sort-yň we goýup tertiplemegiň (insertion sort) garyndysydyr.",
+          "ru": "Сортировку слиянием придумал математик Джон фон Нейман в 1945 году. Алгоритм Timsort, используемый в Python и Java, — гибрид сортировки слиянием и сортировки вставками."
+        }}
+      ]
+    },
+    {
+      "id": "informatics-9-oop",
+      "grade": 9,
+      "topic": 2,
+      "title": {"tk": "Obýekte gönükdirilen programmirleme", "ru": "Объектно-ориентированное программирование"},
+      "minutes": 11,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Obýekte gönükdirilen programmirleme (OOP) programmany obýektlerden gurýar. Obýekt maglumatlary (atributlar) we hereketleri (metodlar) birleşdirýär.\n\n• Synp (class) — çyzgy, şablon: «Pişik».\n• Obýekt (nusga) — synpyň anyk mysaly: «Mestan atly pişik».\n\nOOP-nyň dört esasy ýörelgesi:\n• Inkapsulýasiýa — maglumatlary içerde gizlemek, olara diňe metodlar arkaly ýetmek.\n• Miras (inheritance) — täze synp köne synpyň häsiýetlerini alýar: Dog(Animal).\n• Polimorfizm — dürli synplarda birmeňzeş atly metod dürli işleýär.\n• Abstraksiýa — diňe möhüm aýratynlyklary görkezmek.",
+          "ru": "Объектно-ориентированное программирование (ООП) строит программу из объектов. Объект объединяет данные (атрибуты) и действия (методы).\n\n• Класс (class) — чертёж, шаблон: «Кошка».\n• Объект (экземпляр) — конкретный представитель класса: «кошка по имени Мурка».\n\nЧетыре принципа ООП:\n• Инкапсуляция — данные скрыты внутри, доступ к ним через методы.\n• Наследование (inheritance) — новый класс получает свойства старого: Dog(Animal).\n• Полиморфизм — метод с одним именем в разных классах работает по-разному.\n• Абстракция — показывать только существенные свойства."
+        }},
+        {"type": "example", "text": {
+          "tk": "Python-da:\n\nclass Animal:\n    def __init__(self, name):\n        self.name = name\n    def speak(self):\n        return \"...\"\n\nclass Dog(Animal):\n    def speak(self):\n        return self.name + \": How!\"\n\nd = Dog(\"Alabaý\")\nprint(d.speak())\n\n1) Dog synpy Animal-dan miras alýar — name atributy we __init__ hazyr.\n2) speak metody täzeden kesgitlenýär — polimorfizm.\n3) Netije: «Alabaý: How!»",
+          "ru": "На Python:\n\nclass Animal:\n    def __init__(self, name):\n        self.name = name\n    def speak(self):\n        return \"...\"\n\nclass Dog(Animal):\n    def speak(self):\n        return self.name + \": Гав!\"\n\nd = Dog(\"Алабай\")\nprint(d.speak())\n\n1) Класс Dog наследует от Animal — атрибут name и __init__ уже есть.\n2) Метод speak переопределён — это полиморфизм.\n3) Результат: «Алабай: Гав!»"
+        }},
+        {"type": "choice",
+          "q": {"tk": "«Car» synpy we «my_car = Car()». my_car näme?", "ru": "Есть класс «Car» и «my_car = Car()». Что такое my_car?"},
+          "options": [{"tk": "metod", "ru": "метод"}, {"tk": "synp", "ru": "класс"}, {"tk": "obýekt (nusga)", "ru": "объект (экземпляр)"}],
+          "answer": 2,
+          "hint": {"tk": "Synpdan döredilen anyk zat.", "ru": "Конкретная вещь, созданная по классу."},
+          "explain": {"tk": "Car() synpdan täze obýekt döredýär; my_car — şol nusga.", "ru": "Car() создаёт новый объект класса; my_car — этот экземпляр."}
+        },
+        {"type": "choice",
+          "q": {"tk": "«Student» synpy «Person» synpynyň ähli atributlaryny alýar. Bu haýsy ýörelge?", "ru": "Класс «Student» получает все атрибуты класса «Person». Какой это принцип?"},
+          "options": [{"tk": "miras", "ru": "наследование"}, {"tk": "inkapsulýasiýa", "ru": "инкапсуляция"}, {"tk": "abstraksiýa", "ru": "абстракция"}],
+          "answer": 0,
+          "hint": {"tk": "Çaga ene-atasyndan bir zatlary alýar.", "ru": "Ребёнок получает что-то от родителей."},
+          "explain": {"tk": "Bir synpyň beýleki synpdan häsiýetleri almagy — miras (inheritance).", "ru": "Получение классом свойств другого класса — наследование (inheritance)."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Python-da __init__ metody obýekt döredilende awtomatik çagyrylýar.", "ru": "В Python метод __init__ вызывается автоматически при создании объекта."},
+          "answer": true,
+          "hint": {"tk": "Ol konstruktor hökmünde işleýär.", "ru": "Он работает как конструктор."},
+          "explain": {"tk": "Hawa, Dog(\"Alabaý\") ýazylanda __init__ işleýär we self.name bahasyny belleýär.", "ru": "Да, при Dog(\"Алабай\") срабатывает __init__ и задаёт self.name."}
+        },
+        {"type": "input",
+          "q": {"tk": "Python-da synp kesgitlemek üçin haýsy açar söz ulanylýar?", "ru": "Какое ключевое слово используется в Python для определения класса?"},
+          "answer": "class",
+          "hint": {"tk": "Iňlisçe «synp» sözi.", "ru": "Английское слово «класс»."},
+          "explain": {"tk": "Synp şeýle başlanýar: class Animal:", "ru": "Класс начинается так: class Animal:"}
+        },
+        {"type": "world", "text": {
+          "tk": "Ilkinji obýekte gönükdirilen dil — Simula — 1960-njy ýyllarda Norwegiýada Ole-Johan Dal we Kristen Nýugor tarapyndan döredilipdir. Bu işi üçin olar 2001-nji ýylda Týuring baýragyna mynasyp bolupdyrlar.",
+          "ru": "Первый объектно-ориентированный язык — Simula — создали в 1960-х годах в Норвегии Оле-Йохан Даль и Кристен Нюгор. За эту работу они получили премию Тьюринга в 2001 году."
+        }}
+      ]
+    },
+    {
+      "id": "informatics-9-css-design",
+      "grade": 9,
+      "topic": 3,
+      "title": {"tk": "CSS bilen dizaýn", "ru": "Дизайн с CSS"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "CSS (Cascading Style Sheets) web sahypanyň daşky görnüşini kesgitleýär: reňkler, şriftler, aralyklar, ýerleşiş. HTML — gurluş, CSS — stil.\n\nDüzgüniň görnüşi:\nselektor { häsiýet: baha; }\nh1 { color: navy; font-size: 32px; }\n\nSelektorlar:\n• teg: p\n• synp: .card (HTML-de class=\"card\")\n• id: #menu (HTML-de id=\"menu\")\n\nBlok modeli (box model): content → padding (içki aralyk) → border (çäk) → margin (daşky aralyk).\n\nÝerleşiş: display: flex — elementleri hatar ýa-da sütün boýunça deňleşdirýär.",
+          "ru": "CSS (Cascading Style Sheets, каскадные таблицы стилей) задаёт внешний вид веб-страницы: цвета, шрифты, отступы, расположение. HTML — структура, CSS — стиль.\n\nВид правила:\nселектор { свойство: значение; }\nh1 { color: navy; font-size: 32px; }\n\nСелекторы:\n• по тегу: p\n• по классу: .card (в HTML class=\"card\")\n• по id: #menu (в HTML id=\"menu\")\n\nБлочная модель (box model): content → padding (внутренний отступ) → border (рамка) → margin (внешний отступ).\n\nРасположение: display: flex — выравнивает элементы в строку или столбец."
+        }},
+        {"type": "example", "text": {
+          "tk": "Kartoçka stili:\n\n.card {\n  background: white;\n  padding: 16px;\n  border: 2px solid #ccc;\n  border-radius: 8px;\n  margin: 10px;\n}\n\nElementiň doly giňligini hasaplaýarys (width: 200px bolsa):\n200 + 16·2 (padding) + 2·2 (border) = 236px.\nMargin bu sana goşulmaýar — ol beýleki elementlere çenli boş ýer.\n(box-sizing: border-box ýazylsa, giňlik 200px galýar.)",
+          "ru": "Стиль карточки:\n\n.card {\n  background: white;\n  padding: 16px;\n  border: 2px solid #ccc;\n  border-radius: 8px;\n  margin: 10px;\n}\n\nСчитаем полную ширину элемента (если width: 200px):\n200 + 16·2 (padding) + 2·2 (border) = 236px.\nMargin в это число не входит — это пустое место до соседних элементов.\n(Если написать box-sizing: border-box, ширина останется 200px.)"
+        }},
+        {"type": "choice",
+          "q": {"tk": "class=\"note\" bolan elementleri saýlamak üçin haýsy selektor?", "ru": "Какой селектор выбирает элементы с class=\"note\"?"},
+          "options": ["#note", "note", ".note"],
+          "answer": 2,
+          "hint": {"tk": "Synp selektory nokat bilen başlanýar.", "ru": "Селектор класса начинается с точки."},
+          "explain": {"tk": ".note — synp boýunça; #note — id boýunça; note — teg boýunça.", "ru": ".note — по классу; #note — по id; note — по тегу."}
+        },
+        {"type": "input",
+          "q": {"tk": "width: 100px, padding: 10px, border: 5px (box-sizing: content-box). Elementiň doly giňligi näçe px?", "ru": "width: 100px, padding: 10px, border: 5px (box-sizing: content-box). Какова полная ширина элемента в px?"},
+          "answer": "130",
+          "hint": {"tk": "Padding we border iki tarapdan goşulýar.", "ru": "Padding и border прибавляются с двух сторон."},
+          "explain": {"tk": "100 + 10·2 + 5·2 = 130 px.", "ru": "100 + 10·2 + 5·2 = 130 px."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Padding elementiň çäginiň (border) daşyndaky aralyk.", "ru": "Padding — это отступ снаружи рамки (border) элемента."},
+          "answer": false,
+          "hint": {"tk": "Blok modelini ýatlaň: content → padding → border → margin.", "ru": "Вспомните блочную модель: content → padding → border → margin."},
+          "explain": {"tk": "Padding — içki aralyk (mazmun bilen çägiň arasynda). Daşky aralyk — margin.", "ru": "Padding — внутренний отступ (между содержимым и рамкой). Внешний отступ — margin."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Elementleri bir hatarda ýerleşdirmek üçin haýsy häsiýet ulanylýar?", "ru": "Какое свойство помогает расположить элементы в один ряд?"},
+          "options": ["display: flex;", "color: flex;", "font: row;"],
+          "answer": 0,
+          "hint": {"tk": "Bu häsiýet konteýnere berilýär.", "ru": "Это свойство задаётся контейнеру."},
+          "explain": {"tk": "display: flex elementleri adatça hatar (row) boýunça ýerleşdirýär.", "ru": "display: flex по умолчанию выстраивает элементы в ряд (row)."}
+        },
+        {"type": "world", "text": {
+          "tk": "CSS-i 1994-nji ýylda Hokon Wium Li teklip edipdir; şol wagt ol Tim Berners-Li bilen CERN-de işleýärdi. Ilkinji resmi CSS standarty 1996-njy ýylda çykypdyr.",
+          "ru": "CSS предложил Хокон Виум Ли в 1994 году, когда работал в CERN вместе с Тимом Бернерсом-Ли. Первый официальный стандарт CSS вышел в 1996 году."
+        }}
+      ]
+    },
+    {
+      "id": "informatics-9-data-visualization",
+      "grade": 9,
+      "topic": 4,
+      "title": {"tk": "Maglumatlary wizualizasiýa", "ru": "Визуализация данных"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Maglumatlary wizualizasiýa — sanlary şekile öwürmek, şeýdip kanunalaýyklyklar derrew görünýär.\n\nDiagrammany saýlamak:\n• Sütünli (bar) — toparlary deňeşdirmek: synplardaky okuwçy sany.\n• Çyzykly (line) — wagt boýunça üýtgeme: aý boýunça temperatura.\n• Tegelek (pie) — bütüniň bölekleri, jemi 100%: býujetiň paýlanyşy.\n• Nokatly (scatter) — iki ululygyň arabaglanyşygy: boý we agram.\n• Histogramma — bahalaryň paýlanyşy: synag ballary aralyklar boýunça.\n\nDogry diagrammanyň düzgünleri: oklaryň atlary we birlikleri, sütünli diagrammada ok 0-dan başlaýar, artykmaç bezeg ýok.",
+          "ru": "Визуализация данных — превращение чисел в изображение, чтобы закономерности были видны сразу.\n\nВыбор диаграммы:\n• Столбчатая (bar) — сравнение категорий: число учеников в классах.\n• Линейная (line) — изменение во времени: температура по месяцам.\n• Круговая (pie) — части целого, в сумме 100%: распределение бюджета.\n• Точечная (scatter) — связь двух величин: рост и вес.\n• Гистограмма — распределение значений: баллы за тест по интервалам.\n\nПравила хорошей диаграммы: подписи осей и единицы, у столбчатой диаграммы ось начинается с 0, без лишних украшений."
+        }},
+        {"type": "example", "text": {
+          "tk": "Maglumat: bir dükanyň satuwy (müň manat): Ýan 20, Few 25, Mart 30, Apr 50.\n\n1) Sorag: satuw wagt boýunça nähili üýtgeýär? → çyzykly diagramma.\n2) X oky — aýlar, Y oky — satuw (müň manat).\n3) Nokatlary birleşdirýäris: çyzyk ýokary galýar, aprelde böküş.\n4) Göterim ösüşi: (50 − 20) / 20 · 100% = 150%.\n\nPython-da (matplotlib):\nplt.plot([\"Ýan\",\"Few\",\"Mart\",\"Apr\"], [20,25,30,50])",
+          "ru": "Данные: продажи магазина (тыс. манатов): Янв 20, Фев 25, Мар 30, Апр 50.\n\n1) Вопрос: как продажи меняются во времени? → линейная диаграмма.\n2) Ось X — месяцы, ось Y — продажи (тыс. манатов).\n3) Соединяем точки: линия растёт, в апреле скачок.\n4) Рост в процентах: (50 − 20) / 20 · 100% = 150%.\n\nНа Python (matplotlib):\nplt.plot([\"Янв\",\"Фев\",\"Мар\",\"Апр\"], [20,25,30,50])"
+        }},
+        {"type": "choice",
+          "q": {"tk": "Bir ýylyň dowamynda her gün howanyň temperaturasyny görkezmek üçin haýsy diagramma iň laýyk?", "ru": "Какая диаграмма лучше всего покажет температуру за каждый день года?"},
+          "options": [{"tk": "tegelek", "ru": "круговая"}, {"tk": "çyzykly", "ru": "линейная"}, {"tk": "nokatly", "ru": "точечная"}],
+          "answer": 1,
+          "hint": {"tk": "Maglumatlar wagt boýunça yzygiderli.", "ru": "Данные идут последовательно во времени."},
+          "explain": {"tk": "Wagt boýunça üýtgemäni çyzykly diagramma iň gowy görkezýär.", "ru": "Изменение во времени лучше всего показывает линейная диаграмма."}
+        },
+        {"type": "input",
+          "q": {"tk": "Tegelek diagrammada bir bölek 25% tutýar. Onuň merkezi burçy näçe gradus?", "ru": "Сектор круговой диаграммы занимает 25%. Каков его центральный угол в градусах?"},
+          "answer": "90",
+          "hint": {"tk": "Doly tegelek 360°.", "ru": "Полный круг — 360°."},
+          "explain": {"tk": "360° · 0,25 = 90°.", "ru": "360° · 0,25 = 90°."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Sütünli diagrammada Y okuny 0-dan däl-de, uly sandan başlamak tapawutlary hakykatdakydan uly görkezip biler.", "ru": "Если ось Y столбчатой диаграммы начать не с 0, а с большого числа, различия могут казаться больше, чем есть."},
+          "answer": true,
+          "hint": {"tk": "Sütüniň beýikligi bahany aňladýar.", "ru": "Высота столбца отражает значение."},
+          "explain": {"tk": "Mysal: 98 we 100 bahalary 95-den başlanýan okda üç esse tapawutly ýaly görünýär. Bu okyjyny ýalňyşdyrýar.", "ru": "Например, значения 98 и 100 на оси от 95 выглядят различающимися втрое. Это вводит читателя в заблуждение."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Okuwçylaryň boýy bilen agramynyň arasyndaky baglanyşygy görmek üçin haýsy diagramma?", "ru": "Какая диаграмма покажет связь между ростом и весом учеников?"},
+          "options": [{"tk": "nokatly (scatter)", "ru": "точечная (scatter)"}, {"tk": "tegelek", "ru": "круговая"}, {"tk": "sütünli", "ru": "столбчатая"}],
+          "answer": 0,
+          "hint": {"tk": "Her okuwçy — iki sandan ybarat bir nokat.", "ru": "Каждый ученик — точка из двух чисел."},
+          "explain": {"tk": "Nokatly diagramma iki san ululygyň arabaglanyşygyny görkezýär.", "ru": "Точечная диаграмма показывает связь двух числовых величин."}
+        },
+        {"type": "world", "text": {
+          "tk": "1854-nji ýylda Londonda wraç Jon Snou holera keselini kartada nokatlar bilen belläpdir. Nokatlar Broad Street-däki bir suw sorujynyň daşynda toplanypdyr — şeýlelikde keseliň hapa suw arkaly ýaýraýandygy görkezilipdir.",
+          "ru": "В 1854 году в Лондоне врач Джон Сноу отметил на карте точками случаи холеры. Точки сгруппировались вокруг одной водяной колонки на Брод-стрит — так было показано, что болезнь распространяется через загрязнённую воду."
+        }}
+      ]
+    },
+    {
+      "id": "informatics-9-intro-ai",
+      "grade": 9,
+      "topic": 5,
+      "title": {"tk": "Emeli aň bilen tanyşlyk", "ru": "Введение в искусственный интеллект"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Emeli aň (EA, AI) — adatça adam paýhasyny talap edýän meseleleri çözýän kompýuter ulgamlary: suraty tanamak, terjime, gürleşmek.\n\nMaşyn öwrenişi (machine learning) — programma düzgünleri adamdan almaýar, olary mysallardan özi tapýar.\n• Gözegçilikli öwreniş — bellikli mysallar: «bu pişik», «bu it».\n• Gözegçiliksiz öwreniş — bellik ýok, ulgam meňzeş maglumatlary toparlara bölýär.\n• Güýçlendirme bilen öwreniş — synanyşyk we sylag arkaly (oýun oýnamagy öwrenmek).\n\nNeýron torlary — beýniden ylham alnan, köp gatlakly matematiki modeller. Köp gatlakly torlar — çuňňur öwreniş (deep learning).\n\nÇäkler: EA ýalňyşyp biler, maglumatlardaky ýalňyş garaýyşlary (bias) gaýtalap biler — netijelerini barlamak gerek.",
+          "ru": "Искусственный интеллект (ИИ, AI) — компьютерные системы, решающие задачи, которые обычно требуют человеческого интеллекта: распознавание изображений, перевод, диалог.\n\nМашинное обучение (machine learning) — программа не получает правила от человека, а сама находит их по примерам.\n• Обучение с учителем — размеченные примеры: «это кошка», «это собака».\n• Обучение без учителя — разметки нет, система сама группирует похожие данные.\n• Обучение с подкреплением — через пробы и награды (например, обучение игре).\n\nНейронные сети — вдохновлённые мозгом многослойные математические модели. Сети с многими слоями — глубокое обучение (deep learning).\n\nОграничения: ИИ может ошибаться и повторять предвзятость (bias) из данных — результаты нужно проверять."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mesele: hatlary «spam» we «spam däl» diýip bölmek.\n\n1) Maglumat: müňlerçe hat, her biri adam tarapyndan bellik edilen.\n2) Öwretmek: model «utuş», «mugt», «häzir bas» ýaly sözleriň spamda köp duşýandygyny tapýar.\n3) Barlag: model öwrenmedik täze hatlarda synag edilýär. Mysal üçin, 100 hatdan 95-ini dogry kesgitlese, takyklyk 95%.\n4) Ulanyş: täze hatlar awtomatik süzülýär.\n\nBu gözegçilikli öwreniş, sebäbi mysallar bellikli.",
+          "ru": "Задача: разделять письма на «спам» и «не спам».\n\n1) Данные: тысячи писем, каждое размечено человеком.\n2) Обучение: модель находит, что слова «выигрыш», «бесплатно», «нажми сейчас» часто встречаются в спаме.\n3) Проверка: модель тестируют на новых письмах, которых она не видела. Например, если она верно определила 95 писем из 100, точность 95%.\n4) Применение: новые письма фильтруются автоматически.\n\nЭто обучение с учителем, потому что примеры размечены."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Ulgam bellik edilmedik müşderi maglumatlaryny meňzeşligi boýunça toparlara bölýär. Bu haýsy öwreniş?", "ru": "Система делит неразмеченные данные о покупателях на группы по сходству. Какое это обучение?"},
+          "options": [{"tk": "gözegçilikli", "ru": "с учителем"}, {"tk": "gözegçiliksiz", "ru": "без учителя"}, {"tk": "güýçlendirme bilen", "ru": "с подкреплением"}],
+          "answer": 1,
+          "hint": {"tk": "Bellikler ýok.", "ru": "Разметки нет."},
+          "explain": {"tk": "Bellik ýok we ulgam toparlary özi tapýar — gözegçiliksiz öwreniş (klasterlemek).", "ru": "Разметки нет, и система сама находит группы — обучение без учителя (кластеризация)."}
+        },
+        {"type": "input",
+          "q": {"tk": "Model 200 suratdan 180-sini dogry tanady. Takyklyk näçe göterim?", "ru": "Модель верно распознала 180 изображений из 200. Какова точность в процентах?"},
+          "answer": "90|90%",
+          "hint": {"tk": "Dogry jogaplary umumy sana bölüň we 100-e köpeldiň.", "ru": "Разделите верные ответы на общее число и умножьте на 100."},
+          "explain": {"tk": "180 / 200 · 100% = 90%.", "ru": "180 / 200 · 100% = 90%."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Emeli aň hemişe dogry jogap berýär, şonuň üçin onuň netijelerini barlamak gerek däl.", "ru": "ИИ всегда отвечает правильно, поэтому его результаты не нужно проверять."},
+          "answer": false,
+          "hint": {"tk": "EA nämeden öwrenýär we maglumatlar kämilmi?", "ru": "На чём учится ИИ и всегда ли данные идеальны?"},
+          "explain": {"tk": "EA ýalňyşyp we maglumatlardaky ýalňyş garaýyşlary gaýtalap bilýär, şonuň üçin netijeleri barlamaly.", "ru": "ИИ может ошибаться и повторять предвзятость данных, поэтому результаты нужно проверять."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Robot synanyşyk we sylag arkaly ýöremegi öwrenýär. Bu haýsy usul?", "ru": "Робот учится ходить методом проб и наград. Какой это метод?"},
+          "options": [{"tk": "gözegçiliksiz öwreniş", "ru": "обучение без учителя"}, {"tk": "gözegçilikli öwreniş", "ru": "обучение с учителем"}, {"tk": "güýçlendirme bilen öwreniş", "ru": "обучение с подкреплением"}],
+          "answer": 2,
+          "hint": {"tk": "Sylag we jeza.", "ru": "Награда и штраф."},
+          "explain": {"tk": "Synanyşyk we sylag arkaly öwrenmek — güýçlendirme bilen öwreniş.", "ru": "Обучение через пробы и награды — обучение с подкреплением."}
+        },
+        {"type": "world", "text": {
+          "tk": "«Emeli aň» (artificial intelligence) adalgasy 1956-njy ýylda ABŞ-da Dartmut kollejinde geçirilen ylmy duşuşykda resmi ulanylyp başlandy; ony Jon Makkarti teklip edipdir. 1997-nji ýylda IBM-iň Deep Blue kompýuteri dünýä çempiony Garri Kasparowy şahmat duşuşygynda ýeňipdir.",
+          "ru": "Термин «искусственный интеллект» (artificial intelligence) стал использоваться после научного семинара в Дартмутском колледже (США) в 1956 году; его предложил Джон Маккарти. В 1997 году компьютер IBM Deep Blue выиграл матч в шахматы у чемпиона мира Гарри Каспарова."
+        }}
+      ]
+    }
+  ]
+}

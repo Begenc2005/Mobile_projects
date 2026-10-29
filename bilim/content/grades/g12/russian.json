@@ -1,0 +1,288 @@
+{
+  "grade": 12,
+  "subject": "russian",
+  "lessons": [
+    {
+      "id": "russian-12-language-norms",
+      "grade": 12,
+      "topic": 0,
+      "title": {"tk": "Rus diliniň kadalary", "ru": "Нормы русского литературного языка"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Edebi diliň kadasy — sözleri dogry saýlamagyň, aýtmagyň we baglanyşdyrmagyň umumy kabul edilen düzgünleri.\n\nEsasy kadalar:\n• Orfoepik — dogry aýtmak we basym: звони́т, догово́р.\n• Leksik — sözi manysyna görä ulanmak: надеть (öz üstüňe) — одеть (başga birine).\n• Grammatik — sözüň formalary we baglanyşygy: класть (ложить däl), их (ихний däl), согласно приказу (приказа däl).\n• Orfografik we punktuasion — ýazuw we dyngy belgileri.\n\nKadalar sözlüklerde berkidilýär: düşündiriş, orfoepik, grammatik sözlükler.",
+          "ru": "Норма литературного языка — общепринятые правила выбора, произношения и сочетания слов.\n\nОсновные нормы:\n• Орфоэпические — произношение и ударение: звони́т, догово́р.\n• Лексические — употребление слова в точном значении: надеть (на себя) — одеть (кого-то).\n• Грамматические — формы слов и их связь: класть (не «ложить»), их (не «ихний»), согласно приказу (не «приказа»).\n• Орфографические и пунктуационные — правописание и знаки препинания.\n\nНормы закреплены в словарях: толковых, орфоэпических, грамматических."
+        }},
+        {"type": "example", "text": {
+          "tk": "Sözlemi düzedeliň: «Я одел пальто и ложил книгу на стол согласно расписания».\n\n1) «одел пальто» → öz üstüňe geýýärsiň, diýmek: надел пальто.\n2) «ложил» — edebi däl söz → клал.\n3) «согласно» predlogy datel düşümini talap edýär → согласно расписанию.\n\nNetije: «Я надел пальто и клал книгу на стол согласно расписанию».",
+          "ru": "Исправим предложение: «Я одел пальто и ложил книгу на стол согласно расписания».\n\n1) «одел пальто» → надеваем на себя: надел пальто.\n2) «ложил» — нелитературное слово → клал.\n3) Предлог «согласно» требует дательного падежа → согласно расписанию.\n\nИтог: «Я надел пальто и клал книгу на стол согласно расписанию»."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Haýsy söz düzümi kada laýyk?", "ru": "Какое сочетание соответствует норме?"},
+          "options": ["согласно приказа", "согласно приказу", "согласно с приказом"],
+          "answer": 1,
+          "hint": {"tk": "«Согласно» predlogy «чему?» soragyna jogap berýän düşümi talap edýär.", "ru": "Предлог «согласно» требует падежа, отвечающего на вопрос «чему?»."},
+          "explain": {"tk": "«Согласно чему?» — datel düşümi: согласно приказу.", "ru": "«Согласно чему?» — дательный падеж: согласно приказу."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Edebi dilde «кофе» sözi erkek jynsyna degişli: «чёрный кофе».", "ru": "В литературном языке слово «кофе» мужского рода: «чёрный кофе»."},
+          "answer": true,
+          "hint": {"tk": "Sözlükdäki adaty kada haýsy?", "ru": "Какова строгая словарная норма?"},
+          "explain": {"tk": "Dogry. Berk kada boýunça «кофе» — erkek jynsy; orta jyns diňe gepleşik dilinde ýol berilýär.", "ru": "Верно. Строгая норма — мужской род; средний род допускается лишь в разговорной речи."}
+        },
+        {"type": "input",
+          "q": {"tk": "Edebi däl «ложить» işliginiň ýerine haýsy işligi ulanmaly? (infinitiw görnüşinde)", "ru": "Какой глагол нужно употреблять вместо нелитературного «ложить»? (в инфинитиве)"},
+          "answer": "класть",
+          "hint": {"tk": "«Положить» işliginiň kemçilikli görnüşi.", "ru": "Это несовершенный вид к глаголу «положить»."},
+          "explain": {"tk": "Jübüt: положить — класть. «Ложить» edebi dilde ýok.", "ru": "Видовая пара: положить — класть. «Ложить» в литературном языке нет."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy sözlemde «надеть/одеть» dogry ulanylan?", "ru": "В каком предложении верно употреблено «надеть/одеть»?"},
+          "options": ["Мама одела шапку на себя.", "Он одел очки.", "Она одела ребёнка."],
+          "answer": 2,
+          "hint": {"tk": "«Одеть» — kimdir birini geýindirmek.", "ru": "«Одеть» — одеть кого-то."},
+          "explain": {"tk": "Çagany geýindirýärler — одеть ребёнка. Öz üstüne geýmek — надеть шапку, надеть очки.", "ru": "Одевают кого-то — одеть ребёнка. На себя надевают — надеть шапку, надеть очки."}
+        },
+        {"type": "world", "text": {
+          "tk": "Sergeý Ožegowyň «Rus diliniň sözlügi» ilkinji gezek 1949-njy ýylda çykdy we soňra köp gezek täzeden neşir edildi. Ol rus diliniň kadalaryny barlamak üçin iň meşhur sözlükleriň biri bolup galýar.",
+          "ru": "«Словарь русского языка» Сергея Ожегова впервые вышел в 1949 году и затем переиздавался много раз. Он остаётся одним из самых известных словарей для проверки норм русского языка."
+        }}
+      ]
+    },
+    {
+      "id": "russian-12-orthoepy",
+      "grade": 12,
+      "topic": 1,
+      "title": {"tk": "Orfoepiýa: basym we aýdylyş", "ru": "Орфоэпия: ударение и произношение"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Orfoepiýa — dogry edebi aýdylyş baradaky ylym.\n\nRus dilinde basym erkin we hereketli: islendik bogna düşüp biler we söz üýtgände süýşüp biler (стена́ — сте́ны).\n\nKyn sözler (ýatda saklaň):\n• звони́т, включи́т, облегчи́т\n• догово́р, катало́г, кварта́л\n• то́рты, ба́нты, щаве́ль, краси́вее\n\nAýdylyş aýratynlyklary:\n• Basymsyz «о» [a] ýaly: молоко́ → [малако́].\n• «что», «чтобы» → [што], [штобы].\n• Käbir sözlerde «чн» → [шн]: конечно → [канешна], скучно → [скушна].\n• Daşary ýurt sözlerinde «е»-den öň çekimsiz köplenç gaty: кафе [кафэ], тест [тэст].",
+          "ru": "Орфоэпия — наука о правильном литературном произношении.\n\nУдарение в русском языке свободное и подвижное: может падать на любой слог и переходить при изменении слова (стена́ — сте́ны).\n\nТрудные слова (запомните):\n• звони́т, включи́т, облегчи́т\n• догово́р, катало́г, кварта́л\n• то́рты, ба́нты, щаве́ль, краси́вее\n\nОсобенности произношения:\n• Безударное «о» звучит как [а]: молоко́ → [малако́].\n• «что», «чтобы» → [што], [штобы].\n• В ряде слов «чн» → [шн]: конечно → [канешна], скучно → [скушна].\n• В заимствованиях согласный перед «е» часто твёрдый: кафе [кафэ], тест [тэст]."
+        }},
+        {"type": "example", "text": {
+          "tk": "Sözlemi dogry okalyň: «Директор звонит, чтобы подписать договор и заказать торты».\n\n1) звони́т — basym soňky bogunda (зво́нит — ýalňyş).\n2) чтобы → [штобы].\n3) догово́р — üçünji bogunda.\n4) то́рты — birinji bogunda (торты́ — ýalňyş).",
+          "ru": "Прочитаем правильно: «Директор звонит, чтобы подписать договор и заказать торты».\n\n1) звони́т — ударение на последнем слоге (не «зво́нит»).\n2) чтобы → [штобы].\n3) догово́р — на третьем слоге.\n4) то́рты — на первом слоге (не «торты́»)."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Haýsy sözde basym dogry goýlan?", "ru": "В каком слове ударение поставлено верно?"},
+          "options": ["ка́талог", "катало́г", "ката́лог"],
+          "answer": 1,
+          "hint": {"tk": "Bu söz «диало́г», «моноло́г» sözleri bilen kapiýa gabat gelýär.", "ru": "Слово рифмуется с «диало́г», «моноло́г»."},
+          "explain": {"tk": "Kada: катало́г — basym soňky bogunda.", "ru": "Норма: катало́г — ударение на последнем слоге."}
+        },
+        {"type": "input",
+          "q": {"tk": "«Договор» sözünde basym näçenji bogna düşýär? (san)", "ru": "На какой по счёту слог падает ударение в слове «договор»? (число)"},
+          "answer": "3",
+          "hint": {"tk": "Bogunlara bölüň: до-го-вор.", "ru": "Разделите на слоги: до-го-вор."},
+          "explain": {"tk": "до-го-во́р — basym üçünji bogunda.", "ru": "до-го-во́р — ударение на третьем слоге."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy sözde «чн» [шн] ýaly aýdylýar?", "ru": "В каком слове «чн» произносится как [шн]?"},
+          "options": ["точный", "вечный", "конечно"],
+          "answer": 2,
+          "hint": {"tk": "Gepleşikde iň köp ulanylýan giriş sözi.", "ru": "Это частое вводное слово."},
+          "explain": {"tk": "конечно → [канешна]. «Точный», «вечный» sözlerinde [чн] aýdylýar.", "ru": "конечно → [канешна]. В словах «точный», «вечный» произносится [чн]."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«Щавель» sözünde basym soňky bogna düşýär.", "ru": "В слове «щавель» ударение падает на последний слог."},
+          "answer": true,
+          "hint": {"tk": "Bu söz «капе́ль» sözüne meňzeş aýdylýar.", "ru": "Произносится так же, как «капе́ль»."},
+          "explain": {"tk": "Dogry: щаве́ль.", "ru": "Верно: щаве́ль."}
+        },
+        {"type": "world", "text": {
+          "tk": "«Ё» harpyny 1783-nji ýylda Peterburgda Rus akademiýasynyň ýygnagynda knýaginýa Ýekaterina Daşkowa teklip etdi. Bu harp basymy hem görkezýär: ol hemişe basymly bolýar.",
+          "ru": "Букву «ё» предложила княгиня Екатерина Дашкова в 1783 году на заседании Российской академии в Петербурге. Эта буква подсказывает и ударение: она всегда ударная."
+        }}
+      ]
+    },
+    {
+      "id": "russian-12-official-style",
+      "grade": 12,
+      "topic": 2,
+      "title": {"tk": "Resmi-iş stili we resminamalar", "ru": "Официально-деловой стиль и документы"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Resmi-iş stili kanunlarda, buýruklarda, şertnamalarda, arzalarda ulanylýar.\n\nAýratynlyklary:\n• Takyklyk, duýgusyzlyk, standart.\n• Durnukly aňlatmalar (klişeler): «прошу предоставить», «в связи с», «в соответствии с», «довожу до вашего сведения».\n• Işlikden ýasalan atlar: проведение, выполнение, оплата.\n• Gepleşik we emosional sözler ulanylmaýar.\n\nResminamalaryň görnüşleri: заявление (arza), доверенность (ynanç haty), объяснительная записка (düşündiriş haty), расписка (dil haty), резюме (CV).",
+          "ru": "Официально-деловой стиль используется в законах, приказах, договорах, заявлениях.\n\nПризнаки:\n• Точность, безэмоциональность, стандарт.\n• Устойчивые обороты (клише): «прошу предоставить», «в связи с», «в соответствии с», «довожу до вашего сведения».\n• Отглагольные существительные: проведение, выполнение, оплата.\n• Нет разговорных и эмоциональных слов.\n\nВиды документов: заявление, доверенность, объяснительная записка, расписка, резюме."
+        }},
+        {"type": "example", "text": {
+          "tk": "Arzanyň gurluşy:\n1) Sag ýokarda — kime: «Директору школы № 5 Иванову И. И.»\n2) Kimden: «от ученика 12 «А» класса Атаева Мерета»\n3) Ortada sözbaşy: «Заявление»\n4) Tekst: «Прошу освободить меня от занятий 15 мая в связи с участием в олимпиаде».\n5) Aşakda — sene we gol.\n\nGepleşik görnüşi «Отпустите меня, пожалуйста, очень надо!» resmi resminama üçin ýaramaýar.",
+          "ru": "Структура заявления:\n1) Справа вверху — адресат: «Директору школы № 5 Иванову И. И.»\n2) От кого: «от ученика 12 «А» класса Атаева Мерета»\n3) По центру заголовок: «Заявление»\n4) Текст: «Прошу освободить меня от занятий 15 мая в связи с участием в олимпиаде».\n5) Внизу — дата и подпись.\n\nРазговорный вариант «Отпустите меня, пожалуйста, очень надо!» для документа не подходит."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Haýsy aňlatma resmi-iş stiline degişli?", "ru": "Какое выражение относится к официально-деловому стилю?"},
+          "options": ["прошу предоставить", "дайте, пожалуйста", "очень надо"],
+          "answer": 0,
+          "hint": {"tk": "Arzalarda ulanylýan standart klişäni saýlaň.", "ru": "Выберите стандартное клише из заявлений."},
+          "explain": {"tk": "«Прошу предоставить» — resminamalaryň klişesi; beýlekiler gepleşik diline degişli.", "ru": "«Прошу предоставить» — клише документов; остальные — разговорные."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Resmi-iş stilinde emosional ýüzlenmeler we «!» belgisi ýerlikli.", "ru": "В официально-деловом стиле уместны эмоциональные восклицания."},
+          "answer": false,
+          "hint": {"tk": "Bu stiliň esasy talaby näme?", "ru": "Каково главное требование этого стиля?"},
+          "explain": {"tk": "Ýalňyş: resmi stil takyk we duýgusyz bolmaly.", "ru": "Неверно: деловой стиль точен и безэмоционален."}
+        },
+        {"type": "input",
+          "q": {"tk": "Arzanyň esasy teksti adatça haýsy söz bilen başlanýar?", "ru": "С какого слова обычно начинается основной текст заявления?"},
+          "answer": "прошу|Прошу",
+          "hint": {"tk": "«Haýyş edýärin» manyly işlik.", "ru": "Глагол со значением просьбы, 1-е лицо."},
+          "explain": {"tk": "«Прошу…» — arzanyň adaty başlangyjy.", "ru": "«Прошу…» — стандартное начало заявления."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Bir adamyň başga birine öz adyndan hereket etmäge ygtyýar berýän resminamasy:", "ru": "Документ, которым человек уполномочивает другого действовать от его имени:"},
+          "options": ["расписка", "доверенность", "резюме"],
+          "answer": 1,
+          "hint": {"tk": "Bu söz «доверие» (ynam) sözünden gelýär.", "ru": "Слово связано со словом «доверие»."},
+          "explain": {"tk": "Доверенность — ynanç haty. Расписка — bir zady alandygyny tassyklaýar; резюме — iş üçin gysgaça terjimehal.", "ru": "Доверенность даёт полномочия. Расписка подтверждает получение; резюме — краткая биография для работы."}
+        },
+        {"type": "world", "text": {
+          "tk": "Rus dili BMG-niň alty resmi diliniň biridir (arap, hytaý, iňlis, fransuz, rus we ispan). Halkara resminamalar bu dilleriň hemmesinde çap edilýär.",
+          "ru": "Русский — один из шести официальных языков ООН (арабский, китайский, английский, французский, русский и испанский). Международные документы публикуются на всех этих языках."
+        }}
+      ]
+    },
+    {
+      "id": "russian-12-argumentation",
+      "grade": 12,
+      "topic": 3,
+      "title": {"tk": "Argumentasiýa: tezis, delil, netije", "ru": "Аргументация: тезис, аргументы, вывод"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Pikir ýöretme (рассуждение) üç bölekden ybarat:\n• Тезис — subut edilýän esasy pikir.\n• Аргументы — delilleri: faktlar, statistika, mysallar, abraýly adamlaryň pikiri, öz durmuş tejribäň.\n• Вывод — netije.\n\nBaglaýjy sözler: во-первых, во-вторых, например, кроме того, однако, следовательно, таким образом.\n\nLogiki ýalňyşlyklar:\n• Tezisi çalyşmak (подмена тезиса).\n• «Şondan soň — diýmek, şonuň sebäpli».\n• Adama hüjüm (переход на личности) — pikiriň ýerine adamy tankytlamak.",
+          "ru": "Рассуждение состоит из трёх частей:\n• Тезис — главная мысль, которую доказывают.\n• Аргументы — доводы: факты, статистика, примеры, мнение авторитетов, жизненный опыт.\n• Вывод — итог.\n\nСредства связи: во-первых, во-вторых, например, кроме того, однако, следовательно, таким образом.\n\nЛогические ошибки:\n• Подмена тезиса.\n• «После этого — значит вследствие этого».\n• Переход на личности — критика человека вместо его мысли."
+        }},
+        {"type": "example", "text": {
+          "tk": "Тезис: «Чтение развивает речь».\nАргумент 1 (fakt): «Во-первых, читая, мы встречаем тысячи новых слов».\nАргумент 2 (mysal): «Во-вторых, многие известные ораторы с детства много читали».\nВывод: «Таким образом, чтобы говорить ярко, нужно читать».\n\nHer delil tezisi goldaýar, netije bolsa tezisi täzeden tassyklaýar.",
+          "ru": "Тезис: «Чтение развивает речь».\nАргумент 1 (факт): «Во-первых, читая, мы встречаем тысячи новых слов».\nАргумент 2 (пример): «Во-вторых, многие известные ораторы с детства много читали».\nВывод: «Таким образом, чтобы говорить ярко, нужно читать».\n\nКаждый аргумент поддерживает тезис, а вывод подтверждает его заново."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Haýsy söz netijäni girizýär?", "ru": "Какое слово вводит вывод?"},
+          "options": ["однако", "например", "таким образом"],
+          "answer": 2,
+          "hint": {"tk": "Jemleýji söz düzümini gözläň.", "ru": "Ищите итоговое сочетание."},
+          "explain": {"tk": "«Таким образом» — jemleýär. «Однако» — garşylyk, «например» — mysal.", "ru": "«Таким образом» подводит итог. «Однако» — противопоставление, «например» — пример."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«Сен entek ýaş, näme bilýärsiň?» — bu adama hüjüm (переход на личности) ýalňyşlygy.", "ru": "Ответ «Ты ещё молод, что ты понимаешь?» — это ошибка «переход на личности»."},
+          "answer": true,
+          "hint": {"tk": "Bu jogap pikiri däl-de, kimi tankytlaýar?", "ru": "Критикует ли этот ответ мысль или человека?"},
+          "explain": {"tk": "Dogry: pikiriň mazmuny barlanman, adamyň ýaşy tankytlanýar.", "ru": "Верно: вместо мысли критикуется возраст собеседника."}
+        },
+        {"type": "input",
+          "q": {"tk": "Pikir ýöretmede subut edilýän esasy pikiriň ady näme? (rusça bir söz)", "ru": "Как называется главная мысль, которую доказывают в рассуждении? (одно слово)"},
+          "answer": "тезис|Тезис",
+          "hint": {"tk": "Bu söz «т» harpy bilen başlanýar.", "ru": "Слово начинается на «т»."},
+          "explain": {"tk": "Тезис — esasy pikir, argumentler ony subut edýär.", "ru": "Тезис — главная мысль, аргументы её доказывают."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy delil iň güýçli hasaplanýar?", "ru": "Какой довод считается самым сильным?"},
+          "options": ["Barlag maglumatlary bilen tassyklanan fakt", "«Hemme şeýle pikir edýär»", "«Maňa şeýle görünýär»"],
+          "answer": 0,
+          "hint": {"tk": "Haýsysyny barlap bolýar?", "ru": "Что можно проверить?"},
+          "explain": {"tk": "Barlap bolýan faktlar we statistika iň ynamly delillerdir; «hemme şeýle diýýär» — köpçülige salgylanma ýalňyşlygy.", "ru": "Проверяемые факты и статистика — самые надёжные доводы; «все так думают» — ошибочная ссылка на большинство."}
+        },
+        {"type": "world", "text": {
+          "tk": "Gadymy grek filosofy Aristotel «Ritorika» eserinde ynandyrmagyň üç usulyny beýan etdi: etos (gürleýäniň abraýy), pafos (duýgy) we logos (logika). Bu bölünişik häzir hem öwredilýär.",
+          "ru": "Древнегреческий философ Аристотель в «Риторике» описал три способа убеждения: этос (авторитет говорящего), пафос (чувства) и логос (логика). Это деление изучают и сегодня."
+        }}
+      ]
+    },
+    {
+      "id": "russian-12-text-analysis",
+      "grade": 12,
+      "topic": 4,
+      "title": {"tk": "Teksti derňemek", "ru": "Анализ текста"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Teksti derňemegiň meýilnamasy:\n1) Тема — tekst näme hakda?\n2) Основная мысль (идея) — awtor näme diýmek isleýär?\n3) Тип речи — повествование (wakalar yzygiderligi), описание (alamatlar), рассуждение (sebäpler we netije).\n4) Стиль — ylmy, publisistik, çeper, resmi-iş, gepleşik.\n5) Çeperçilik serişdeleri:\n• эпитет — obrazly kesgitleme: золотая осень;\n• сравнение — deňeşdirme: как стрела;\n• метафора — gizlin deňeşdirme: море цветов;\n• олицетворение — janly häsiýeti jansyza bermek: ветер поёт.",
+          "ru": "План анализа текста:\n1) Тема — о чём текст?\n2) Основная мысль (идея) — что хочет сказать автор?\n3) Тип речи — повествование (последовательность событий), описание (признаки), рассуждение (причины и вывод).\n4) Стиль — научный, публицистический, художественный, официально-деловой, разговорный.\n5) Средства выразительности:\n• эпитет — образное определение: золотая осень;\n• сравнение: как стрела;\n• метафора — скрытое сравнение: море цветов;\n• олицетворение — перенос свойств живого на неживое: ветер поёт."
+        }},
+        {"type": "example", "text": {
+          "tk": "Tekst: «Утро в пустыне было тихим. Солнце медленно поднималось над барханами, и песок загорался, как золото. Казалось, сама пустыня просыпается».\n\n• Тема: säher wagtynda çöl.\n• Идея: çöl ýuwaş we owadan, ol janly ýaly.\n• Тип речи: описание.\n• Стиль: çeper.\n• Serişdeler: «как золото» — сравнение; «пустыня просыпается» — олицетворение; «тихим» утро — эпитет.",
+          "ru": "Текст: «Утро в пустыне было тихим. Солнце медленно поднималось над барханами, и песок загорался, как золото. Казалось, сама пустыня просыпается».\n\n• Тема: утро в пустыне.\n• Идея: пустыня тиха и красива, она словно живая.\n• Тип речи: описание.\n• Стиль: художественный.\n• Средства: «как золото» — сравнение; «пустыня просыпается» — олицетворение; «тихое» утро — эпитет."
+        }},
+        {"type": "choice",
+          "q": {"tk": "«Лес спал под снегом» — haýsy çeperçilik serişdesi?", "ru": "«Лес спал под снегом» — какое средство выразительности?"},
+          "options": ["эпитет", "сравнение", "олицетворение"],
+          "answer": 2,
+          "hint": {"tk": "Tokaý adam ýaly näme edýär?", "ru": "Что лес делает, как человек?"},
+          "explain": {"tk": "Ukulamak — janly zadyň hereketi, ol tokaýa berilýär: олицетворение.", "ru": "Спать — действие живого существа, перенесённое на лес: олицетворение."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Tekstiň temasy we esasy pikiri — bir zat.", "ru": "Тема и основная мысль текста — одно и то же."},
+          "answer": false,
+          "hint": {"tk": "«Näme hakda?» we «Näme diýmek isleýär?» soraglaryny deňeşdiriň.", "ru": "Сравните вопросы «о чём?» и «что хочет сказать?»."},
+          "explain": {"tk": "Ýalňyş: tema — näme hakda, esasy pikir — awtoryň aýtmak isleýän zady.", "ru": "Неверно: тема — о чём текст, основная мысль — что автор хочет сказать."}
+        },
+        {"type": "input",
+          "q": {"tk": "«Золотая осень» aňlatmasyndaky obrazly kesgitlemäniň ady näme? (rusça)", "ru": "Как называется образное определение в сочетании «золотая осень»?"},
+          "answer": "эпитет|Эпитет",
+          "hint": {"tk": "Bu termin «э» harpy bilen başlanýar.", "ru": "Термин начинается на «э»."},
+          "explain": {"tk": "«Золотая» — obrazly sypat, ýagny эпитет.", "ru": "«Золотая» — образное определение, то есть эпитет."}
+        },
+        {"type": "choice",
+          "q": {"tk": "«Ilki biz ýola çykdyk, soň derýa ýetdik, agşam bolsa çadyr gurduk» görnüşli tekst haýsy tipe degişli?", "ru": "Текст вида «Сначала мы вышли в путь, потом дошли до реки, а вечером поставили палатку» — какой тип речи?"},
+          "options": ["описание", "повествование", "рассуждение"],
+          "answer": 1,
+          "hint": {"tk": "Wakalaryň yzygiderligine üns beriň.", "ru": "Обратите внимание на последовательность событий."},
+          "explain": {"tk": "Wakalar wagt tertibinde berilýär — повествование.", "ru": "События идут во времени одно за другим — повествование."}
+        },
+        {"type": "world", "text": {
+          "tk": "Mihail Lomonosow «Üç stil nazaryýetini» işläp düzdi: ýokary, orta we pes stiller. Ol ony 1750-nji ýyllaryň ahyrynda «Ybadathana kitaplarynyň peýdasy barada sözbaşy» atly işinde beýan etdi.",
+          "ru": "Михаил Ломоносов разработал «теорию трёх штилей»: высокого, среднего и низкого. Он изложил её в конце 1750-х годов в работе «Предисловие о пользе книг церковных в российском языке»."
+        }}
+      ]
+    },
+    {
+      "id": "russian-12-review",
+      "grade": 12,
+      "topic": 5,
+      "title": {"tk": "Gaýtalamak: kadalar, stiller, tekst", "ru": "Повторение: нормы, стили, текст"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Ýylyň esasy pikirleri:\n• Kadalar: orfoepik (звони́т), leksik (надеть/одеть), grammatik (согласно приказу, пара носков, нет чулок).\n• Orfoepiýa: basym hereketli; что → [што], конечно → [канешна].\n• Stiller: ylmy, publisistik, çeper, resmi-iş, gepleşik.\n• Argumentasiýa: тезис → аргументы → вывод.\n• Tekst derňewi: tema, ideýa, tip, stil, serişdeler.",
+          "ru": "Главное за год:\n• Нормы: орфоэпические (звони́т), лексические (надеть/одеть), грамматические (согласно приказу, пара носков, нет чулок).\n• Орфоэпия: ударение подвижное; что → [што], конечно → [канешна].\n• Стили: научный, публицистический, художественный, официально-деловой, разговорный.\n• Аргументация: тезис → аргументы → вывод.\n• Анализ текста: тема, идея, тип речи, стиль, средства."
+        }},
+        {"type": "example", "text": {
+          "tk": "Jümläni stil boýunça kesgitläliň: «Настоящим подтверждаю, что получил от Петрова А. сумму в размере 500 манатов».\n\n1) «Настоящим подтверждаю», «в размере» — resmi klişeler.\n2) Duýgy ýok, takyk san we at bar.\n3) Netije: resmi-iş stili, resminamanyň görnüşi — расписка (dil haty).",
+          "ru": "Определим стиль: «Настоящим подтверждаю, что получил от Петрова А. сумму в размере 500 манатов».\n\n1) «Настоящим подтверждаю», «в размере» — деловые клише.\n2) Нет эмоций, есть точная сумма и имя.\n3) Вывод: официально-деловой стиль, жанр — расписка."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Haýsy görnüş kada laýyk?", "ru": "Какая форма соответствует норме?"},
+          "options": ["пара носок", "пара носков", "пара носкей"],
+          "answer": 1,
+          "hint": {"tk": "«Чулки» sözüne garşy: нет чулок, emma носки başgaça.", "ru": "В отличие от «чулок», у слова «носки» другая форма."},
+          "explain": {"tk": "Kada: носков (köplükde eýelik düşümi), emma чулок, сапог.", "ru": "Норма: носков, но чулок, сапог."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«Звонит» sözünde basym soňky bogna düşýär.", "ru": "В слове «звонит» ударение падает на последний слог."},
+          "answer": true,
+          "hint": {"tk": "Bu kada «включи́т» sözünde hem şeýle.", "ru": "Так же, как во «включи́т»."},
+          "explain": {"tk": "Dogry: звони́т.", "ru": "Верно: звони́т."}
+        },
+        {"type": "choice",
+          "q": {"tk": "«Настоящим уведомляем Вас о проведении собрания» — haýsy stil?", "ru": "«Настоящим уведомляем Вас о проведении собрания» — какой стиль?"},
+          "options": ["разговорный", "художественный", "официально-деловой"],
+          "answer": 2,
+          "hint": {"tk": "«Настоящим», «о проведении» sözlerine üns beriň.", "ru": "Обратите внимание на «настоящим», «о проведении»."},
+          "explain": {"tk": "Klişe we işlikden ýasalan at (проведение) — resmi-iş stiliniň alamatlary.", "ru": "Клише и отглагольное существительное (проведение) — признаки делового стиля."}
+        },
+        {"type": "input",
+          "q": {"tk": "Pikir ýöretmäniň näçe esasy bölegi bar? (tezis, delil, netije)", "ru": "Сколько основных частей у рассуждения (тезис, аргументы, вывод)?"},
+          "answer": "3",
+          "hint": {"tk": "Sanawy sanaň.", "ru": "Посчитайте части в скобках."},
+          "explain": {"tk": "Üç bölek: тезис, аргументы, вывод.", "ru": "Три части: тезис, аргументы, вывод."}
+        },
+        {"type": "world", "text": {
+          "tk": "Kiril elipbiýiniň ady IX asyrda slawýan ýazuwyny döreden doganlar Kiril we Mefodiniň biri Kiriliň adyndan gelýär. Häzir kiril elipbiýi rus, bolgar, serb we beýleki dillerde ulanylýar.",
+          "ru": "Кириллица названа в честь Кирилла — одного из братьев Кирилла и Мефодия, создавших славянскую письменность в IX веке. Сегодня кириллицей пишут на русском, болгарском, сербском и других языках."
+        }}
+      ]
+    }
+  ]
+}

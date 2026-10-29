@@ -1,0 +1,235 @@
+{
+  "grade": 8,
+  "subject": "literature",
+  "lessons": [
+    {
+      "id": "literature-8-nizami-khamsa",
+      "grade": 8,
+      "topic": 0,
+      "title": {"tk": "Nyzamy Genjewi we «Hamsa»", "ru": "Низами Гянджеви и «Хамсе»"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Nyzamy Genjewi (takmynan 1141–1209) — Genje şäherinde ýaşan beýik şahyr. Ol eserlerini pars dilinde ýazdy.\nOnuň iň meşhur işi — «Hamsa» («Bäşlik»), bäş poemadan ybarat:\n• «Syrlar hazynasy» — pent-öwüt, pelsepe\n• «Hysrow we Şirin» — şa Hysrowyň we gözel Şiriniň söýgüsi\n• «Leýli we Mejnun» — ýaşlaryň pajygaly söýgüsi\n• «Ýedi gözel» («Heft peýker») — şa Bahram we ýedi hekaýa\n• «Isgendernama» — Isgender (Aleksandr Makedonskiý) barada\n«Hamsa» Gündogarda tutuş däp döretdi: köp şahyrlar özleriniň «Hamsa»-syny ýazdylar.",
+          "ru": "Низами Гянджеви (около 1141–1209) — великий поэт, живший в городе Гянджа. Он писал на персидском языке.\nЕго самое известное произведение — «Хамсе» («Пятерица»), пять поэм:\n• «Сокровищница тайн» — назидание, философия\n• «Хосров и Ширин» — любовь шаха Хосрова и красавицы Ширин\n• «Лейли и Меджнун» — трагическая любовь юных героев\n• «Семь красавиц» («Хафт пейкар») — шах Бахрам и семь рассказов\n• «Искандер-наме» — об Искандере (Александре Македонском)\n«Хамсе» создала на Востоке целую традицию: многие поэты писали свои «Пятерицы»."}},
+        {"type": "example", "text": {
+          "tk": "«Leýli we Mejnun» poemasyny seljereliň.\n• Syžet: Kaýs we Leýli mekdepde tanyşyp, biri-birini söýýärler. Maşgalalar olaryň durmuş gurmagyna päsgel berýär. Kaýs söýgüden aklyny ýitiren ýaly bolup, çöle gidýär we «Mejnun» («däli») lakamyny alýar.\n• Tema: päk söýgi we jemgyýetiň däpleri bilen çaknyşyk.\n• Ideýa: hakyky söýgi ölümden hem güýçli.\n• Täsiri: bu syžeti soňra Nowaýy, Jamy, Fizuly we türkmen şahyry Andalyp hem öz eserlerinde işläpdirler.",
+          "ru": "Разберём поэму «Лейли и Меджнун».\n• Сюжет: Кайс и Лейли знакомятся в школе и полюбили друг друга. Семьи мешают их союзу. Кайс от любви словно теряет рассудок, уходит в пустыню и получает прозвище «Меджнун» («одержимый»).\n• Тема: чистая любовь и столкновение с обычаями общества.\n• Идея: настоящая любовь сильнее смерти.\n• Влияние: этот сюжет позже обработали Навои, Джами, Физули и туркменский поэт Андалиб."}},
+        {"type": "choice",
+          "q": {"tk": "Nyzamy «Hamsa»-ny haýsy dilde ýazdy?", "ru": "На каком языке Низами написал «Хамсе»?"},
+          "options": [{"tk": "arap", "ru": "арабском"}, {"tk": "pars", "ru": "персидском"}, {"tk": "türkmen", "ru": "туркменском"}],
+          "answer": 1,
+          "hint": {"tk": "Şol döwürde Gündogaryň poeziýasynyň esasy dili.", "ru": "Главный язык поэзии Востока той эпохи."},
+          "explain": {"tk": "Nyzamy pars dilinde ýazdy — bu dil XII asyrda Merkezi Aziýada we Kawkazda poeziýanyň esasy dilidi.", "ru": "Низами писал на персидском — в XII веке это был главный язык поэзии в Средней Азии и на Кавказе."}},
+        {"type": "input",
+          "q": {"tk": "«Hamsa» näçe poemadan ybarat? Sany ýazyň.", "ru": "Из скольких поэм состоит «Хамсе»? Напишите число."},
+          "answer": "5",
+          "hint": {"tk": "Adynyň manysyny ýatlaň.", "ru": "Вспомните, что означает название."},
+          "explain": {"tk": "«Hamsa» — «bäşlik» diýmek, ol bäş poemadan ybarat.", "ru": "«Хамсе» значит «пятерица» — в ней пять поэм."}},
+        {"type": "truefalse",
+          "q": {"tk": "«Isgendernama» poemasy Aleksandr Makedonskiý barada. Dogrumy?", "ru": "Поэма «Искандер-наме» посвящена Александру Македонскому. Верно?"},
+          "answer": true,
+          "hint": {"tk": "Gündogarda Aleksandry nähili atlandyrýarlar?", "ru": "Как на Востоке называли Александра?"},
+          "explain": {"tk": "Gündogar edebiýatynda Aleksandr Makedonskiý Isgender diýlip atlandyrylýar.", "ru": "В восточной литературе Александра Македонского называют Искандером."}},
+        {"type": "choice",
+          "q": {"tk": "«Mejnun» lakamy näme aňladýar?", "ru": "Что означает прозвище «Меджнун»?"},
+          "options": [{"tk": "söýgüden däli bolan", "ru": "обезумевший от любви"}, {"tk": "batyr esger", "ru": "храбрый воин"}, {"tk": "akylly alym", "ru": "мудрый учёный"}],
+          "answer": 0,
+          "hint": {"tk": "Kaýs söýgüsi sebäpli çöle gidýär.", "ru": "Кайс из-за любви уходит в пустыню."},
+          "explain": {"tk": "Arapça «mejnun» — «däli, jyn uran». Kaýs söýgüden ýagdaýyny ýitirendigi üçin şeýle atlandyrylýar.", "ru": "По-арабски «меджнун» — «одержимый, безумный». Так прозвали Кайса за то, что любовь лишила его покоя и рассудка."}},
+        {"type": "world", "text": {
+          "tk": "Nyzamynyň «Hamsa»-syna jogap hökmünde Alyşir Nowaýy XV asyryň ahyrynda öz «Hamsa»-syny çagataý türki dilinde ýazdy. Şeýlelik bilen ol türki dilde hem beýik poeziýa döredip bolýandygyny subut etdi.",
+          "ru": "В ответ на «Хамсе» Низами Алишер Навои в конце XV века написал свою «Пятерицу» на чагатайском тюркском языке. Тем самым он доказал, что великую поэзию можно создавать и на тюркском языке."}}
+      ]
+    },
+    {
+      "id": "literature-8-shakespeare",
+      "grade": 8,
+      "topic": 1,
+      "title": {"tk": "Uilýam Şekspir", "ru": "Уильям Шекспир"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Uilýam Şekspir (1564–1616) — iňlis dramaturgy we şahyry, Stratford-apon-Eýwon şäherinde doguldy. Ol Londonda aktýor we dramaturg bolup işledi, «Globus» teatrynyň eýeleriniň biri boldy.\nMirasy: 37 töweregi pýesa, 154 sonet we poemalar.\nPýesalarynyň görnüşleri:\n• Tragediýalar: «Romeo we Julýetta», «Gamlet», «Otello», «Korol Lir», «Makbet»\n• Komediýalar: «Ýazky gijäniň düýşi», «On ikinji gije»\n• Taryhy hronikalar: «Riçard III», «Genrih V»\nOnuň aýdym ýaly akýan goşgy bilen ýazylan dialoglary, çylşyrymly gahrymanlary we ebedi temalary (söýgi, häkimiýet, wepalylyk, ar-namys) dünýä dramaturgiýasyna uly täsir etdi.",
+          "ru": "Уильям Шекспир (1564–1616) — английский драматург и поэт, родился в Стратфорде-на-Эйвоне. В Лондоне был актёром и драматургом, одним из владельцев театра «Глобус».\nНаследие: около 37 пьес, 154 сонета и поэмы.\nВиды пьес:\n• Трагедии: «Ромео и Джульетта», «Гамлет», «Отелло», «Король Лир», «Макбет»\n• Комедии: «Сон в летнюю ночь», «Двенадцатая ночь»\n• Исторические хроники: «Ричард III», «Генрих V»\nЕго стихотворные диалоги, сложные характеры и вечные темы (любовь, власть, верность, честь) оказали огромное влияние на мировую драматургию."}},
+        {"type": "example", "text": {
+          "tk": "«Gamlet» tragediýasy.\n• Wakalar: Daniýa şazadasy Gamlet kakasynyň ölüminde daýysy Klawdiýniň günäkärdigini bilýär. Klawdiý tagta geçip, Gamletiň ejesine öýlenipdir.\n• Konflikt: Gamlet ar almaly, emma ol ikirjiňlenýär, pikirlenýär, subut gözleýär.\n• Meşhur monolog «To be, or not to be» («Bolmak ýa-da bolmazlyk») — adamyň durmuş we ölüm, adalat we gorky barada oýlanmasy.\n• Ideýa: oýlanýan, wyždanly adamyň adalatsyz dünýä bilen çaknyşygy.",
+          "ru": "Трагедия «Гамлет».\n• События: датский принц Гамлет узнаёт, что в смерти отца виновен его дядя Клавдий, который занял трон и женился на матери Гамлета.\n• Конфликт: Гамлет должен отомстить, но он колеблется, размышляет, ищет доказательства.\n• Знаменитый монолог «To be, or not to be» («Быть или не быть») — размышление о жизни и смерти, справедливости и страхе.\n• Идея: столкновение мыслящего, совестливого человека с несправедливым миром."}},
+        {"type": "choice",
+          "q": {"tk": "Şekspiriň haýsy eseri komediýa?", "ru": "Какое произведение Шекспира является комедией?"},
+          "options": [{"tk": "«Makbet»", "ru": "«Макбет»"}, {"tk": "«Otello»", "ru": "«Отелло»"}, {"tk": "«Ýazky gijäniň düýşi»", "ru": "«Сон в летнюю ночь»"}],
+          "answer": 2,
+          "hint": {"tk": "Pajygaly ahyry bolmadyk, şadyýan eseri saýlaň.", "ru": "Выберите весёлую пьесу без трагического финала."},
+          "explain": {"tk": "«Ýazky gijäniň düýşi» — jadyly komediýa. «Makbet» we «Otello» — tragediýalar.", "ru": "«Сон в летнюю ночь» — волшебная комедия. «Макбет» и «Отелло» — трагедии."}},
+        {"type": "input",
+          "q": {"tk": "Şekspir näçe sonet ýazdy? Sany ýazyň.", "ru": "Сколько сонетов написал Шекспир? Напишите число."},
+          "answer": "154",
+          "hint": {"tk": "150-den birneme köp.", "ru": "Чуть больше 150."},
+          "explain": {"tk": "Şekspiriň 154 soneti 1609-njy ýylda neşir edildi.", "ru": "154 сонета Шекспира были изданы в 1609 году."}},
+        {"type": "truefalse",
+          "q": {"tk": "«Romeo we Julýetta» Daniýada bolup geçýär. Dogrumy?", "ru": "Действие «Ромео и Джульетты» происходит в Дании. Верно?"},
+          "answer": false,
+          "hint": {"tk": "Daniýada bolup geçýän eser — «Gamlet».", "ru": "В Дании происходит действие «Гамлета»."},
+          "explain": {"tk": "«Romeo we Julýetta» Italiýanyň Werona şäherinde bolup geçýär.", "ru": "«Ромео и Джульетта» происходит в итальянском городе Верона."}},
+        {"type": "world", "text": {
+          "tk": "Şekspiriň ölüminden 7 ýyl soň, 1623-nji ýylda onuň dostlary 36 pýesasyny bir kitapda çap etdiler — ol «Birinji folio» diýlip atlandyrylýar. Bu kitap bolmadyk bolsa, «Makbet» ýaly pýesalaryň takmynan ýarysy ýitip gitmegi mümkindi.",
+          "ru": "В 1623 году, через 7 лет после смерти Шекспира, его друзья издали 36 его пьес одной книгой — она называется «Первое фолио». Без неё около половины пьес, включая «Макбета», могли бы быть утрачены."}}
+      ]
+    },
+    {
+      "id": "literature-8-mollanepes",
+      "grade": 8,
+      "topic": 2,
+      "title": {"tk": "Mollanepes we «Zöhre-Tahyr»", "ru": "Моллапепес и «Зохре и Тахир»"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Mollanepes (1810–1862) — XIX asyryň türkmen nusgawy şahyry. Ol medresede okap, döwrüniň bilimli adamy boldy, gündogar edebiýatyny gowy bilýärdi.\nDöredijiligi:\n• Liriki goşgular — söýgi, tebigat, durmuş barada; olaryň köpüsi bagşylar tarapyndan aýdym edilip aýdylýar.\n• «Zöhre-Tahyr» dessany — onuň iň meşhur eseri.\nDessan — türkmen edebiýatynda proza bilen goşgy gezekleşip gelýän uly epiki eser.\nMollanepesiň goşgulary owazly, sözleri saýlama, duýgulary inçe.",
+          "ru": "Моллапепес (1810–1862) — классический туркменский поэт XIX века. Он учился в медресе, был образованным человеком своего времени, хорошо знал восточную литературу.\nТворчество:\n• Лирические стихи — о любви, природе, жизни; многие из них исполняют как песни бахши.\n• Дастан «Зохре и Тахир» — самое известное его произведение.\nДастан — крупное эпическое произведение туркменской литературы, где проза чередуется со стихами.\nСтихи Моллапепеса мелодичны, язык изыскан, чувства тонки."}},
+        {"type": "example", "text": {
+          "tk": "«Zöhre-Tahyr» dessanyny seljereliň.\n• Syžet: patyşanyň gyzy Zöhre we weziriň ogly Tahyr bir günde dünýä inýärler we çagalykdan biri-birini söýýärler. Patyşa sözünden dänip, Tahyry kowýar we sandyga salyp, derýa taşlaýar.\n• Gahrymanlar köp synaglardan geçýär, emma söýgüsine wepaly galýar.\n• Gurluşy: proza bölekleri wakalary gürrüň berýär, goşgy bölekleri gahrymanlaryň duýgularyny beýan edýär.\n• Ideýa: wepaly söýgi we berlen söze ygrarlylyk; zalymlygyň we söz bozmagyň ýazgarylmagy.",
+          "ru": "Разберём дастан «Зохре и Тахир».\n• Сюжет: дочь падишаха Зохре и сын визиря Тахир рождаются в один день и с детства любят друг друга. Падишах нарушает своё слово, изгоняет Тахира, его кладут в сундук и бросают в реку.\n• Герои проходят через множество испытаний, но остаются верны своей любви.\n• Строение: прозаические части рассказывают о событиях, стихотворные — передают чувства героев.\n• Идея: верная любовь и верность данному слову; осуждение жестокости и нарушения обещаний."}},
+        {"type": "choice",
+          "q": {"tk": "Dessanda proza bilen goşgy nähili gelýär?", "ru": "Как в дастане сочетаются проза и стихи?"},
+          "options": [{"tk": "diňe goşgy bar", "ru": "есть только стихи"}, {"tk": "gezekleşip gelýär", "ru": "чередуются"}, {"tk": "diňe proza bar", "ru": "есть только проза"}],
+          "answer": 1,
+          "hint": {"tk": "Wakalar we duýgular dürli görnüşde berilýär.", "ru": "События и чувства передаются в разной форме."},
+          "explain": {"tk": "Dessanda wakalar proza bilen, gahrymanlaryň duýgulary goşgy bilen berilýär — olar gezekleşýär.", "ru": "В дастане события излагаются прозой, а чувства героев — стихами; они чередуются."}},
+        {"type": "truefalse",
+          "q": {"tk": "Mollanepes XIX asyrda ýaşap geçdi. Dogrumy?", "ru": "Моллапепес жил в XIX веке. Верно?"},
+          "answer": true,
+          "hint": {"tk": "Onuň ýaşan ýyllaryny ýatlaň: 1810–1862.", "ru": "Вспомните годы его жизни: 1810–1862."},
+          "explain": {"tk": "1810–1862 ýyllar XIX asyra degişli.", "ru": "1810–1862 годы относятся к XIX веку."}},
+        {"type": "choice",
+          "q": {"tk": "«Zöhre-Tahyr» dessanynda Tahyr kimiň ogly?", "ru": "Чей сын Тахир в дастане «Зохре и Тахир»?"},
+          "options": [{"tk": "weziriň", "ru": "визиря"}, {"tk": "patyşanyň", "ru": "падишаха"}, {"tk": "çopanyň", "ru": "пастуха"}],
+          "answer": 0,
+          "hint": {"tk": "Zöhre — patyşanyň gyzy.", "ru": "Зохре — дочь падишаха."},
+          "explain": {"tk": "Tahyr — weziriň ogly. Patyşa we wezir çagalaryny biri-birine bermegi wada beripdiler.", "ru": "Тахир — сын визиря. Падишах и визирь обещали поженить своих детей."}},
+        {"type": "input",
+          "q": {"tk": "Mollanepes näçe ýyl ýaşady? (1810–1862)", "ru": "Сколько лет прожил Моллапепес? (1810–1862)"},
+          "answer": "52",
+          "hint": {"tk": "1862 − 1810.", "ru": "1862 − 1810."},
+          "explain": {"tk": "1862 − 1810 = 52 ýyl.", "ru": "1862 − 1810 = 52 года."}},
+        {"type": "world", "text": {
+          "tk": "«Zöhre we Tahyr» rowaýaty diňe türkmenlerde däl, özbek, azerbaýjan, türk, uýgur we başga halklarda hem giň ýaýrandyr. XX asyrda bu syžet esasynda opera sahnalaşdyryldy we kinofilmler surata düşürildi.",
+          "ru": "Сказание о Зохре и Тахире широко распространено не только у туркмен, но и у узбеков, азербайджанцев, турок, уйгуров и других народов. В XX веке по этому сюжету ставились оперы и снимались фильмы."}}
+      ]
+    },
+    {
+      "id": "literature-8-andalyp-seydi",
+      "grade": 8,
+      "topic": 3,
+      "title": {"tk": "Andalyp we Seýdi", "ru": "Андалиб и Сейди"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Nurmuhammet Garyp Andalyp (takmynan 1660–1740) — türkmen ýazuw edebiýatynda dessançylyk däbini esaslandyran şahyr.\n• Eserleri: «Leýli-Mejnun», «Ýusup-Züleýha», «Oguznama», «Baba Röwşen», «Sagdy Waggas».\n• Ol Gündogaryň meşhur syžetlerini türkmen diline we türkmen okyjysyna ýakynlaşdyrdy.\n• «Oguznama» — türkmenleriň rowaýaty atasy Oguz han barada.\n\nSeýitnazar Seýdi (1775–1836) — şahyr we halk goragçysy.\n• Ol Lebap topragynda ýaşap, öz halkynyň azatlygy üçin söweşe gatnaşdy.\n• Döredijiliginiň esasy temasy — watançylyk, batyrlyk, il-güni goramak; şeýle hem söýgi lirikasy.\n• Ol türkmen poeziýasynda gahrymançylyk liniýasyny güýçlendirdi.",
+          "ru": "Нурмухаммед Гариб Андалиб (около 1660–1740) — поэт, основавший в туркменской письменной литературе традицию дастанов.\n• Произведения: «Лейли и Меджнун», «Юсуф и Зулейха», «Огуз-наме», «Баба Ровшен», «Саад Ваккас».\n• Он приблизил знаменитые сюжеты Востока к туркменскому языку и читателю.\n• «Огуз-наме» — об Огуз-хане, легендарном предке туркмен.\n\nСейитназар Сейди (1775–1836) — поэт и защитник народа.\n• Жил в Лебапском крае, участвовал в борьбе за свободу своего народа.\n• Главная тема творчества — патриотизм, мужество, защита родной земли; а также любовная лирика.\n• Он усилил героическую линию в туркменской поэзии."}},
+        {"type": "example", "text": {
+          "tk": "Iki şahyry deňeşdireliň.\n• Žanr: Andalyp — esasan uly epiki dessanlar; Seýdi — esasan liriki we gahrymançylyk goşgular.\n• Çeşme: Andalyp Gündogaryň umumy syžetlerini (Leýli-Mejnun, Ýusup-Züleýha) we taryhy rowaýatlary işledi; Seýdi bolsa öz döwrüniň wakalaryndan, öz durmuşyndan ylham aldy.\n• Umumy zat: ikisi hem türkmen edebi dilini baýlaşdyrdy we Magtymguly, Mollanepes ýaly şahyrlar bilen bilelikde türkmen nusgawy edebiýatynyň esasyny düzdi.",
+          "ru": "Сравним двух поэтов.\n• Жанр: Андалиб — в основном крупные эпические дастаны; Сейди — в основном лирические и героические стихи.\n• Источник: Андалиб обрабатывал общие сюжеты Востока (Лейли и Меджнун, Юсуф и Зулейха) и исторические предания; Сейди черпал вдохновение в событиях своего времени и своей жизни.\n• Общее: оба обогатили туркменский литературный язык и вместе с Махтумкули и Моллапепесом составляют основу туркменской классической литературы."}},
+        {"type": "choice",
+          "q": {"tk": "Andalybyň haýsy eseri türkmenleriň rowaýaty atasy barada?", "ru": "Какое произведение Андалиба посвящено легендарному предку туркмен?"},
+          "options": [{"tk": "«Ýusup-Züleýha»", "ru": "«Юсуф и Зулейха»"}, {"tk": "«Leýli-Mejnun»", "ru": "«Лейли и Меджнун»"}, {"tk": "«Oguznama»", "ru": "«Огуз-наме»"}],
+          "answer": 2,
+          "hint": {"tk": "Rowaýaty ata — Oguz han.", "ru": "Легендарный предок — Огуз-хан."},
+          "explain": {"tk": "«Oguznama» Oguz han we onuň nesilleri barada gürrüň berýär.", "ru": "«Огуз-наме» рассказывает об Огуз-хане и его потомках."}},
+        {"type": "truefalse",
+          "q": {"tk": "Seýdiniň döredijiliginiň esasy temalarynyň biri — watançylyk we batyrlyk. Dogrumy?", "ru": "Одна из главных тем творчества Сейди — патриотизм и мужество. Верно?"},
+          "answer": true,
+          "hint": {"tk": "Seýdi diňe şahyr däl, il goragçysy hem bolupdyr.", "ru": "Сейди был не только поэтом, но и защитником народа."},
+          "explain": {"tk": "Seýdi öz halkyny goramaga gatnaşdy, şonuň üçin onuň goşgularynda batyrlyk we watançylyk esasy orny eýeleýär.", "ru": "Сейди участвовал в защите своего народа, поэтому мужество и патриотизм занимают главное место в его стихах."}},
+        {"type": "choice",
+          "q": {"tk": "Haýsy şahyr türkmen ýazuw edebiýatynda dessançylyk däbini esaslandyrdy?", "ru": "Какой поэт основал традицию дастанов в туркменской письменной литературе?"},
+          "options": [{"tk": "Andalyp", "ru": "Андалиб"}, {"tk": "Seýdi", "ru": "Сейди"}, {"tk": "Şekspir", "ru": "Шекспир"}],
+          "answer": 0,
+          "hint": {"tk": "Ol XVII–XVIII asyrlarda ýaşady we «Leýli-Mejnun» dessanyny ýazdy.", "ru": "Он жил в XVII–XVIII веках и написал дастан «Лейли и Меджнун»."},
+          "explain": {"tk": "Andalyp türkmen edebiýatynda ýazuw dessanynyň esaslandyryjysy hasaplanýar.", "ru": "Андалиб считается основоположником письменного дастана в туркменской литературе."}},
+        {"type": "input",
+          "q": {"tk": "Seýdi haýsy asyryň ahyrynda dünýä indi? Sany ýazyň (meselem, 17).", "ru": "В конце какого века родился Сейди? Напишите число (например, 17)."},
+          "answer": "18",
+          "hint": {"tk": "Ol 1775-nji ýylda doguldy.", "ru": "Он родился в 1775 году."},
+          "explain": {"tk": "1775-nji ýyl XVIII (18-nji) asyra degişli: 1701–1800.", "ru": "1775 год относится к XVIII (18-му) веку: 1701–1800."}},
+        {"type": "world", "text": {
+          "tk": "Ýusup we Züleýha baradaky rowaýat Töwratda we Kuranda (Ýusup süresi) bar. Bu syžet esasynda pars, türki we başga dillerde onlarça poema döredildi, şolaryň arasynda Jamynyň we Andalybyň eserleri hem bar.",
+          "ru": "Предание о Юсуфе (Иосифе) и Зулейхе есть в Торе и в Коране (сура «Юсуф»). На его основе созданы десятки поэм на персидском, тюркских и других языках, среди них произведения Джами и Андалиба."}}
+      ]
+    },
+    {
+      "id": "literature-8-romanticism",
+      "grade": 8,
+      "topic": 4,
+      "title": {"tk": "Romantizm", "ru": "Романтизм"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Romantizm — XVIII asyryň ahyrynda Ýewropada döräp, XIX asyryň birinji ýarymynda giň ýaýran edebi we sungat ugry.\nEsasy aýratynlyklary:\n• Duýgy akyldan ýokary goýulýar.\n• Aýratyn, köplenç ýalňyz, gozgalaňçy gahryman — ol jemgyýete garşy durýar.\n• Iki dünýä: ýigrenilýän gündelik durmuş we arzuw edilýän ideal dünýä.\n• Tebigata, ekzotika (uzak ýurtlar, Gündogar), geçmişe we halk döredijiligine gyzyklanma.\nWekilleri: Uilýam Wordswort we Samuel Kolrij, Jorj Baýron, Walter Skott (Angliýa); Wiktor Gýugo (Fransiýa); Aleksandr Puşkiniň irki eserleri we Mihail Lermontow (Russiýa); Grimm doganlary (Germaniýa).",
+          "ru": "Романтизм — направление в литературе и искусстве, возникшее в Европе в конце XVIII века и широко распространившееся в первой половине XIX века.\nГлавные черты:\n• Чувство ставится выше разума.\n• Исключительный, часто одинокий, бунтующий герой — он противостоит обществу.\n• Двоемирие: отвергаемая повседневность и желанный идеальный мир.\n• Интерес к природе, экзотике (далёкие страны, Восток), прошлому и народному творчеству.\nПредставители: Уильям Вордсворт и Сэмюэл Кольридж, Джордж Байрон, Вальтер Скотт (Англия); Виктор Гюго (Франция); ранний Александр Пушкин и Михаил Лермонтов (Россия); братья Гримм (Германия)."}},
+        {"type": "example", "text": {
+          "tk": "Lermontowyň «Mtsyri» poemasyny romantizmiň nukdaýnazaryndan seljereliň.\n• Gahryman: ýaşlykda esir düşüp, monastyrda ösen dag ýigidi — ýalňyz we azatlyga teşne.\n• Iki dünýä: monastyryň diwarlary (türme) we erkin Kawkaz tebigaty (ideal).\n• Hereket: ol gaçýar, üç gün azatlykda ýaşaýar, bars bilen söweşýär.\n• Ekzotika we tebigat: Kawkazyň daglary, derýalary.\n• Netije: gahryman ýeňilýär, emma ruhy taýdan döwülmeýär — tipiki romantik ahyr.",
+          "ru": "Разберём поэму Лермонтова «Мцыри» с точки зрения романтизма.\n• Герой: горский юноша, в детстве попавший в плен и выросший в монастыре, — одинокий и жаждущий свободы.\n• Двоемирие: стены монастыря (тюрьма) и вольная природа Кавказа (идеал).\n• Действие: он бежит, три дня живёт на свободе, сражается с барсом.\n• Экзотика и природа: горы и реки Кавказа.\n• Итог: герой терпит поражение, но не сломлен духом — типично романтический финал."}},
+        {"type": "choice",
+          "q": {"tk": "Romantizmde haýsy zat has ýokary goýulýar?", "ru": "Что в романтизме ставится выше?"},
+          "options": [{"tk": "duýgy we arzuw", "ru": "чувство и мечта"}, {"tk": "düzgün we tertip", "ru": "правила и порядок"}, {"tk": "takyk ylym", "ru": "точная наука"}],
+          "answer": 0,
+          "hint": {"tk": "Romantikler akyla esaslanan döwre jogap berdiler.", "ru": "Романтики ответили на эпоху, основанную на разуме."},
+          "explain": {"tk": "Romantizm Aň-bilim döwrüniň akyl kultuna garşy çykyp, duýgyny we arzuwy birinji orna çykardy.", "ru": "Романтизм выступил против культа разума эпохи Просвещения и поставил на первое место чувство и мечту."}},
+        {"type": "truefalse",
+          "q": {"tk": "Grimm doganlary halk ertekilerini ýygnap neşir etdiler, bu romantizmiň halk döredijiligine gyzyklanmasynyň mysaly. Dogrumy?", "ru": "Братья Гримм собирали и издавали народные сказки — это пример интереса романтизма к народному творчеству. Верно?"},
+          "answer": true,
+          "hint": {"tk": "Romantizmiň aýratynlyklarynyň sanawyny ýatlaň.", "ru": "Вспомните список черт романтизма."},
+          "explain": {"tk": "Grimm doganlarynyň ertekiler ýygyndysy 1812-nji ýylda çykyp başlady we romantizmiň folklora gyzyklanmasyny görkezýär.", "ru": "Сборник сказок братьев Гримм начал выходить в 1812 году и отражает интерес романтизма к фольклору."}},
+        {"type": "choice",
+          "q": {"tk": "Haýsy ýazyjy taryhy romanyň döredijisi hasaplanýar we romantizme degişli?", "ru": "Какой писатель считается создателем исторического романа и относится к романтизму?"},
+          "options": [{"tk": "Uilýam Şekspir", "ru": "Уильям Шекспир"}, {"tk": "Walter Skott", "ru": "Вальтер Скотт"}, {"tk": "Nyzamy", "ru": "Низами"}],
+          "answer": 1,
+          "hint": {"tk": "Ol «Aýwengo» romanyny ýazdy.", "ru": "Он написал роман «Айвенго»."},
+          "explain": {"tk": "Şotland ýazyjysy Walter Skott («Aýwengo», 1819) taryhy romanyň esaslandyryjysy. Şekspir we Nyzamy romantizmden ozal ýaşapdyrlar.", "ru": "Шотландский писатель Вальтер Скотт («Айвенго», 1819) — основатель исторического романа. Шекспир и Низами жили задолго до романтизма."}},
+        {"type": "world", "text": {
+          "tk": "Romantizm döwründe 1818-nji ýylda Meri Şelli «Frankenşteýn» romanyny neşir etdi. Ony köplenç ylmy fantastikanyň ilkinji eserleriniň biri hasaplaýarlar: alymyň döreden jandary barada pikir häzir hem ylym we jogapkärçilik baradaky jedellerde ýatlanýar.",
+          "ru": "В эпоху романтизма, в 1818 году, Мэри Шелли опубликовала роман «Франкенштейн». Его часто считают одним из первых произведений научной фантастики: история о существе, созданном учёным, до сих пор вспоминается в спорах о науке и ответственности."}}
+      ]
+    },
+    {
+      "id": "literature-8-drama-genre",
+      "grade": 8,
+      "topic": 5,
+      "title": {"tk": "Drama žanry", "ru": "Жанр драмы"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Drama — edebiýatyň üç görnüşiniň biri (epos, lirika, drama). Drama eseri sahnada oýnamak üçin ýazylýar.\nAýratynlyklary:\n• Tekst esasan gahrymanlaryň sözlerinden durýar: dialog (iki ýa-da birnäçe gahrymanyň gepleşigi) we monolog (bir gahrymanyň uzyn sözi).\n• Remarkalar — awtoryň gysga düşündirişleri (ýer, wagt, hereket): «(Gapyny açýar.)».\n• Gurluşy: aktlar (perdeler) we sahnalar (görnüşler).\n• Esasy güýç — konflikt (çaknyşyk).\nŽanrlary:\n• Tragediýa — gahrymanyň çözgüdi bolmadyk çaknyşygy, köplenç pajygaly ahyry.\n• Komediýa — kemçilikleri gülki arkaly görkezýär.\n• Drama (dar manyda) — durmuşy, çynlakaý çaknyşyk.",
+          "ru": "Драма — один из трёх родов литературы (эпос, лирика, драма). Драматическое произведение пишется для постановки на сцене.\nОсобенности:\n• Текст состоит в основном из речи персонажей: диалог (разговор двух или нескольких героев) и монолог (развёрнутая речь одного героя).\n• Ремарки — краткие пояснения автора (место, время, действие): «(Открывает дверь.)».\n• Строение: акты (действия) и сцены (явления).\n• Главная движущая сила — конфликт.\nЖанры:\n• Трагедия — неразрешимый конфликт героя, чаще трагический финал.\n• Комедия — показывает недостатки через смех.\n• Драма (в узком смысле) — серьёзный жизненный конфликт."}},
+        {"type": "example", "text": {
+          "tk": "Gysga drama bölegini okalyň:\nOTAG. Agşam. Stoluň başynda Aýna oturyr.\nAÝNA (sagada seredip). Ol entek gelmedi…\nMERDAN (gapydan girip). Bagyşla, gijä galdym!\nAÝNA (ýerinden turup). Men saňa ynanýardym.\n\nSeljerme:\n• «Otag. Agşam.» we ýaýyň içindäki sözler — remarkalar.\n• Aýna bilen Merdanyň sözleri — dialog.\n• Konflikt: garaşmak we wadany bozmak; ynam synagdan geçýär.",
+          "ru": "Прочитаем короткий драматический фрагмент:\nКОМНАТА. Вечер. За столом сидит Айна.\nАЙНА (глядя на часы). Его всё ещё нет…\nМЕРДАН (входя в дверь). Прости, я опоздал!\nАЙНА (вставая). Я тебе верила.\n\nРазбор:\n• «Комната. Вечер.» и слова в скобках — ремарки.\n• Реплики Айны и Мердана — диалог.\n• Конфликт: ожидание и нарушенное обещание; доверие проходит испытание."}},
+        {"type": "choice",
+          "q": {"tk": "Drama eserinde awtoryň ýer, wagt we hereket barada gysga düşündirişi nähili atlandyrylýar?", "ru": "Как называется краткое пояснение автора о месте, времени и действии в драме?"},
+          "options": [{"tk": "monolog", "ru": "монолог"}, {"tk": "remarka", "ru": "ремарка"}, {"tk": "kulminasiýa", "ru": "кульминация"}],
+          "answer": 1,
+          "hint": {"tk": "Ol köplenç ýaýyň içinde ýazylýar.", "ru": "Её часто пишут в скобках."},
+          "explain": {"tk": "Remarka — awtoryň sahna üçin düşündirişi. Monolog — gahrymanyň sözi, kulminasiýa — wakalaryň iň ýokary nokady.", "ru": "Ремарка — пояснение автора для сцены. Монолог — речь героя, кульминация — высшая точка действия."}},
+        {"type": "truefalse",
+          "q": {"tk": "Monolog — iki gahrymanyň arasyndaky gepleşik. Dogrumy?", "ru": "Монолог — это разговор двух персонажей. Верно?"},
+          "answer": false,
+          "hint": {"tk": "«Mono» — «bir» diýmek.", "ru": "«Моно» значит «один»."},
+          "explain": {"tk": "Monolog — bir gahrymanyň sözi. Iki ýa-da birnäçe gahrymanyň gepleşigi — dialog.", "ru": "Монолог — речь одного персонажа. Разговор двух или нескольких — диалог."}},
+        {"type": "choice",
+          "q": {"tk": "Şekspiriň «Gamlet» eseri haýsy žanra degişli?", "ru": "К какому жанру относится «Гамлет» Шекспира?"},
+          "options": [{"tk": "komediýa", "ru": "комедия"}, {"tk": "erteki", "ru": "сказка"}, {"tk": "tragediýa", "ru": "трагедия"}],
+          "answer": 2,
+          "hint": {"tk": "Eseriň ahyrynda baş gahryman ölýär.", "ru": "В конце пьесы главный герой погибает."},
+          "explain": {"tk": "«Gamlet» — tragediýa: çaknyşyk çözülmeýär, gahrymanlaryň köpüsi heläk bolýar.", "ru": "«Гамлет» — трагедия: конфликт неразрешим, большинство героев гибнет."}},
+        {"type": "input",
+          "q": {"tk": "Edebiýatyň näçe görnüşi (rody) bar? Sany ýazyň.", "ru": "Сколько родов литературы существует? Напишите число."},
+          "answer": "3",
+          "hint": {"tk": "Epos, lirika we …", "ru": "Эпос, лирика и …"},
+          "explain": {"tk": "Epos, lirika we drama — üç görnüş.", "ru": "Эпос, лирика и драма — три рода."}},
+        {"type": "world", "text": {
+          "tk": "Drama gadymy Gresiýada, hudaý Dionisiň hormatyna geçirilýän baýramlarda döräpdir. Gresiýadaky Epidawr teatry b.e.öň IV asyrda gurlupdyr. Onuň akustikasy şeýle bir gowy welin, sahnada ýuwaşja aýdylan söz hem soňky hatarlarda eşidilýär; teatr häzir hem tomusky festiwallarda ulanylýar.",
+          "ru": "Драма зародилась в Древней Греции на праздниках в честь бога Диониса. Театр в Эпидавре построен в IV веке до н. э. Его акустика настолько хороша, что даже тихо сказанное на сцене слово слышно на последних рядах; театр и сегодня используется на летних фестивалях."}}
+      ]
+    }
+  ]
+}

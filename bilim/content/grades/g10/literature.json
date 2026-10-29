@@ -1,0 +1,234 @@
+{
+  "grade": 10,
+  "subject": "literature",
+  "lessons": [
+    {
+      "id": "literature-10-homer",
+      "grade": 10,
+      "topic": 0,
+      "title": {"tk": "Gomer: «Iliada» we «Odisseýa»", "ru": "Гомер: «Илиада» и «Одиссея»"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Gomer — gadymy grek şahyry, Ýewropa edebiýatynyň iň gadymy iki eposy «Iliadanyň» we «Odisseýanyň» awtory hasaplanýar. Ol takmynan b.e.öň VIII asyrda ýaşapdyr. Rowaýata görä, ol kör aşyk-ozan bolupdyr. Alymlar onuň durmuşy barada az zat bilýärler; eposlaryň awtorlygy barada jedel «Gomer meselesi» diýlip atlandyrylýar.\n\n• «Iliada» — Troýa urşunyň onunjy ýylyndaky birnäçe hepdäni beýan edýär. Merkezi tema — gahryman Ahilliň gazaby we onuň netijeleri.\n• «Odisseýa» — Itaka patyşasy Odisseýiň uruşdan soň öýüne 10 ýyl dowam eden syýahaty.\n\nEposlar geksametr bilen (alty ölçegli setir) ýazylan we ilki dilden-dile geçipdir.",
+          "ru": "Гомер — древнегреческий поэт, которому приписывают две древнейшие поэмы европейской литературы — «Илиаду» и «Одиссею». Он жил примерно в VIII веке до н. э. По преданию, был слепым странствующим певцом. О его жизни учёные знают мало; спор об авторстве поэм называют «гомеровским вопросом».\n\n• «Илиада» — описывает несколько недель десятого года Троянской войны. Центральная тема — гнев героя Ахилла и его последствия.\n• «Одиссея» — десятилетнее странствие царя Итаки Одиссея домой после войны.\n\nПоэмы написаны гекзаметром (шестистопным стихом) и сначала передавались устно."}},
+        {"type": "example", "text": {
+          "tk": "Eseri seljermek: «Odisseýanyň» gahrymany.\n\n1) Odisseý güýji bilen däl-de, akyly we hile bilen ýeňýär: siklop Polifemiň gowagyndan ol özüni «Hiç kim» diýip tanyşdyrandygy üçin gutulýar.\n2) Ýoldaky synaglar (sirenalar, Ssilla we Haribda, jadygöý Kirka) — adamyň erki we sabyrlylygy barada.\n3) Esasy pikir — öýe, maşgala, Watana wepalylyk: aýaly Penelopa 20 ýyl garaşýar.\n\nNetije: «Odisseýa» — durmuş ýoly hakyndaky ýol-syýahat eposy, onuň ady «uzak we kyn syýahat» manysynda köp dillere geçdi.",
+          "ru": "Анализ произведения: герой «Одиссеи».\n\n1) Одиссей побеждает не силой, а умом и хитростью: из пещеры циклопа Полифема он спасается, назвавшись «Никто».\n2) Испытания в пути (сирены, Сцилла и Харибда, волшебница Цирцея) — о воле и терпении человека.\n3) Главная идея — верность дому, семье, родине: жена Пенелопа ждёт его 20 лет.\n\nВывод: «Одиссея» — эпос-странствие о жизненном пути; её название вошло во многие языки в значении «долгое трудное путешествие»."}},
+        {"type": "choice",
+          "q": {"tk": "«Iliadanyň» merkezi temasy näme?", "ru": "Какова центральная тема «Илиады»?"},
+          "options": [{"tk": "Odisseýiň öýüne gaýdyp gelşi", "ru": "возвращение Одиссея домой"}, {"tk": "Ahilliň gazaby", "ru": "гнев Ахилла"}, {"tk": "Troýanyň esaslandyrylyşy", "ru": "основание Трои"}],
+          "answer": 1,
+          "hint": {"tk": "Eser Troýa urşunyň içinde bolup geçýär we bir gahrymanyň duýgusy bilen başlanýar.", "ru": "Действие происходит во время Троянской войны и начинается с чувства одного героя."},
+          "explain": {"tk": "«Iliada» Ahilliň gazaby we onuň greklere hem troýalylara getiren netijeleri hakynda.", "ru": "«Илиада» — о гневе Ахилла и его последствиях для греков и троянцев."}},
+        {"type": "truefalse",
+          "q": {"tk": "Penelopa — Odisseýiň aýaly, ol ärine köp ýyllap wepaly garaşýar.", "ru": "Пенелопа — жена Одиссея, много лет верно ждавшая мужа."},
+          "answer": true,
+          "hint": {"tk": "Itakadaky öýde galan gahryman.", "ru": "Героиня, оставшаяся в доме на Итаке."},
+          "explain": {"tk": "Penelopa 20 ýyl (10 ýyl uruş + 10 ýyl syýahat) garaşýar we wepalylygyň nyşanyna öwrüldi.", "ru": "Пенелопа ждала 20 лет (10 лет войны + 10 лет странствий) и стала символом верности."}},
+        {"type": "input",
+          "q": {"tk": "Gomeriň eposlarynda her setirde näçe ölçeg (stopa) bar? (san)", "ru": "Сколько стоп в каждой строке гекзаметра Гомера? (число)"},
+          "answer": "6|alty|шесть",
+          "hint": {"tk": "«Geksa» grekçe san aňladýar.", "ru": "«Гекса» по-гречески — число."},
+          "explain": {"tk": "Geksametr — «alty ölçeg»: grekçe hex = 6.", "ru": "Гекзаметр — «шестимерие»: греческое hex = 6."}},
+        {"type": "choice",
+          "q": {"tk": "Odisseý siklopyň gowagyndan özüni nähili atlandyryp gutulýar?", "ru": "Каким именем назвался Одиссей, чтобы спастись из пещеры циклопа?"},
+          "options": [{"tk": "Hiç kim", "ru": "Никто"}, {"tk": "Ahill", "ru": "Ахилл"}, {"tk": "Patyşa", "ru": "Царь"}],
+          "answer": 0,
+          "hint": {"tk": "Siklop kömek çagyranda goňşulary ony düşünmediler.", "ru": "Когда циклоп звал на помощь, соседи его не поняли."},
+          "explain": {"tk": "Polifem «Meni Hiç kim urdy!» diýip gygyranda, beýleki siklopler oňa kömege gelmediler.", "ru": "Когда Полифем кричал «Меня ослепил Никто!», другие циклопы не пришли на помощь."}},
+        {"type": "world", "text": {
+          "tk": "Nemes telekeçisi Genrih Şliman Gomere ynanyp, 1870-nji ýyllarda häzirki Türkiýäniň Hisarlyk depesinde gazuw-agtaryş geçirdi we gadymy Troýanyň galyndylaryny tapdy. Bu ýer häzir UNESKO-nyň Bütindünýä mirasynyň sanawynda.",
+          "ru": "Немецкий предприниматель Генрих Шлиман, поверив Гомеру, в 1870-х годах провёл раскопки на холме Гиссарлык в нынешней Турции и нашёл остатки древней Трои. Сегодня это место входит в список Всемирного наследия ЮНЕСКО."}}
+      ]
+    },
+    {
+      "id": "literature-10-dante",
+      "grade": 10,
+      "topic": 1,
+      "title": {"tk": "Dante Aligýeri: «Ylahy komediýa»", "ru": "Данте Алигьери: «Божественная комедия»"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Dante Aligýeri (1265–1321) — italýan şahyry, Florensiýada doguldy. Syýasy göreşler sebäpli 1302-nji ýylda şäherden sürgün edildi we ömrüniň ahyryna çenli gaýdyp gelmedi, Rawennada aradan çykdy.\n\nEsasy eseri — «Ylahy komediýa» (takmynan 1308–1321). Üç bölümden ybarat:\n• «Dowzah» (Inferno)\n• «Arassalaýyş» (Purgatorio)\n• «Jennet» (Paradiso)\n\nGahryman — Danteniň özi — ömrüniň ortasynda «garaňky tokaýda» ýoluny ýitirýär. Dowzah we Arassalaýyş arkaly ony rim şahyry Wergiliý, Jennetde bolsa söýgüli Beatriçe ýol görkezýär.\n\nEser terssina (üç setirli bentler) bilen ýazylan we latyn dilinde däl-de, italýan (toskan) dilinde ýazylypdyr.",
+          "ru": "Данте Алигьери (1265–1321) — итальянский поэт, родился во Флоренции. Из-за политической борьбы в 1302 году был изгнан из города и больше туда не вернулся; умер в Равенне.\n\nГлавное произведение — «Божественная комедия» (около 1308–1321). Состоит из трёх частей:\n• «Ад» (Inferno)\n• «Чистилище» (Purgatorio)\n• «Рай» (Paradiso)\n\nГерой — сам Данте — в середине жизни сбивается с пути в «сумрачном лесу». Через Ад и Чистилище его ведёт римский поэт Вергилий, а в Раю — возлюбленная Беатриче.\n\nПоэма написана терцинами (трёхстрочными строфами) и не на латыни, а на итальянском (тосканском) языке."}},
+        {"type": "example", "text": {
+          "tk": "Eseriň gurluşyndaky san nyşany:\n\n1) Üç bölüm, her bölümde 33 aýdym, giriş aýdymy bilen jemi 100 aýdym.\n2) Bentler üç setirli (terssina).\n3) Dowzah dokuz tegelege bölünýär.\n\nDante «3» we «10» sanlaryny kämilligiň nyşany hökmünde ulanýar. Şeýlelikde, eseriň mazmuny bilen birlikde onuň gurluşy hem pikiri aňladýar — bu gurluş (kompozisiýa) seljermesiniň mysaly.\n\nAdy barada: orta asyrda «komediýa» diýip gaýgyly başlanyp, bagtly tamamlanýan eserlere aýdypdyrlar. «Ylahy» sözüni soňra Bokkaçço goşupdyr.",
+          "ru": "Числовая символика в строении поэмы:\n\n1) Три части, в каждой по 33 песни, вместе со вступительной — 100 песен.\n2) Строфы трёхстрочные (терцины).\n3) Ад разделён на девять кругов.\n\nДанте использует числа «3» и «10» как символы совершенства. Таким образом, смысл выражает не только содержание, но и строение произведения — это пример композиционного анализа.\n\nО названии: в средние века «комедией» называли произведение с печальным началом и счастливым концом. Слово «Божественная» позже добавил Боккаччо."}},
+        {"type": "choice",
+          "q": {"tk": "Dowzahda we Arassalaýyşda Dantä kim ýol görkezýär?", "ru": "Кто ведёт Данте через Ад и Чистилище?"},
+          "options": [{"tk": "Beatriçe", "ru": "Беатриче"}, {"tk": "Gomer", "ru": "Гомер"}, {"tk": "Wergiliý", "ru": "Вергилий"}],
+          "answer": 2,
+          "hint": {"tk": "Bu «Eneida» eposynyň awtory, rim şahyry.", "ru": "Это римский поэт, автор «Энеиды»."},
+          "explain": {"tk": "Wergiliý adam akylynyň nyşany hökmünde Dantäni Dowzah we Arassalaýyş arkaly alyp barýar; Jennetde Beatriçe ýol görkezýär.", "ru": "Вергилий как символ человеческого разума ведёт Данте через Ад и Чистилище; в Раю проводником становится Беатриче."}},
+        {"type": "input",
+          "q": {"tk": "«Ylahy komediýada» jemi näçe aýdym (kanto) bar?", "ru": "Сколько всего песен в «Божественной комедии»?"},
+          "answer": "100",
+          "hint": {"tk": "3 × 33 + 1.", "ru": "3 × 33 + 1."},
+          "explain": {"tk": "Her bölümde 33 aýdym we bir giriş aýdymy: 99 + 1 = 100.", "ru": "По 33 песни в каждой части плюс одна вступительная: 99 + 1 = 100."}},
+        {"type": "truefalse",
+          "q": {"tk": "Dante «Ylahy komediýany» latyn dilinde ýazypdyr.", "ru": "Данте написал «Божественную комедию» на латыни."},
+          "answer": false,
+          "hint": {"tk": "Şol döwürde alymlar latynça ýazýardylar, ýöne Dante başgaça etdi.", "ru": "Учёные того времени писали на латыни, но Данте поступил иначе."},
+          "explain": {"tk": "Dante eseri halk dilinde — toskan italýan dilinde ýazdy we şeýlelik bilen italýan edebi diliniň döremegine uly goşant goşdy.", "ru": "Данте написал поэму на народном — тосканском итальянском — языке и тем самым внёс огромный вклад в создание итальянского литературного языка."}},
+        {"type": "world", "text": {
+          "tk": "Danteni «italýan diliniň atasy» diýip atlandyrýarlar. Florensiýa ony sürgün edenine ýüzlerçe ýyl geçenden soň, 2008-nji ýylda şäher geňeşi sürgün hökmüni resmi taýdan ýatyrdy.",
+          "ru": "Данте называют «отцом итальянского языка». Спустя столетия после его изгнания, в 2008 году, городской совет Флоренции официально отменил приговор об изгнании."}}
+      ]
+    },
+    {
+      "id": "literature-10-cervantes",
+      "grade": 10,
+      "topic": 2,
+      "title": {"tk": "Migel de Servantes: «Don Kihot»", "ru": "Мигель де Сервантес: «Дон Кихот»"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Migel de Servantes Saawedra (1547–1616) — ispan ýazyjysy. Ýaşlygynda esger bolupdyr: 1571-nji ýylda Lepanto deňiz söweşinde ýaralanyp, çep elini ulanyp bilmändir. Soňra Alžirde bäş ýyl ýesirlikde bolupdyr.\n\nEsasy eseri — «Don Kihot Lamançaly» romany: birinji bölümi 1605-nji, ikinji bölümi 1615-nji ýylda çykdy. Ony köplenç Ýewropanyň ilkinji häzirki zaman romany diýip atlandyrýarlar.\n\nMazmuny: rysarlyk romanlaryny köp okap, akylyndan azaşan garyp dworýan Alonso Kihano özüni rysar Don Kihot diýip yglan edýär we ýönekeý daýhan Sanço Pansany ýarag götereni edip, «adalatsyzlyga garşy» syýahata çykýar.\n\nRoman ilki rysarlyk romanlarynyň parodiýasy hökmünde döredi, ýöne çuň pelsepe eserine öwrüldi: arzuw we hakykat, akyl we däli, ideal we durmuş.",
+          "ru": "Мигель де Сервантес Сааведра (1547–1616) — испанский писатель. В молодости был солдатом: в 1571 году в морской битве при Лепанто был ранен и лишился возможности владеть левой рукой. Затем пять лет провёл в плену в Алжире.\n\nГлавное произведение — роман «Хитроумный идальго Дон Кихот Ламанчский»: первая часть вышла в 1605 году, вторая — в 1615-м. Его часто называют первым романом Нового времени в Европе.\n\nСюжет: бедный идальго Алонсо Кихано, начитавшись рыцарских романов, теряет рассудок, объявляет себя рыцарем Дон Кихотом и, взяв оруженосцем простого крестьянина Санчо Пансу, отправляется «бороться с несправедливостью».\n\nРоман задумывался как пародия на рыцарские романы, но стал глубоким философским произведением: мечта и реальность, разум и безумие, идеал и жизнь."}},
+        {"type": "example", "text": {
+          "tk": "Iki gahrymanyň deňeşdirmesi (antiteza):\n\n• Don Kihot — uzyn boýly, arryk, hyýalbent, beýik ideallar bilen ýaşaýar. Ol ýel degirmenlerini äpet döwler hasaplaýar.\n• Sanço Pansa — gysga boýly, semiz, amaly, ýere basyp ýaşaýar. Ol hojaýynyna «Bular degirmen» diýip duýduryp, oňa wepaly bolup galýar.\n\nNetije: Servantes gahrymanlary garşy goýmak arkaly adamyň iki tarapyny görkezýär. Eseriň ahyrynda Sanço has «don-kihot» bolýar, Don Kihot bolsa akylyna gelýär — gahrymanlar biri-birine täsir edýär.",
+          "ru": "Сопоставление двух героев (антитеза):\n\n• Дон Кихот — высокий, худой, мечтатель, живёт высокими идеалами. Ветряные мельницы он принимает за великанов.\n• Санчо Панса — невысокий, полный, практичный, стоит обеими ногами на земле. Он предупреждает хозяина: «Это мельницы», — но остаётся ему верен.\n\nВывод: противопоставляя героев, Сервантес показывает две стороны человека. К концу романа Санчо становится более «донкихотом», а Дон Кихот приходит в себя — герои влияют друг на друга."}},
+        {"type": "choice",
+          "q": {"tk": "Don Kihot ýel degirmenlerini näme hasaplaýar?", "ru": "За что Дон Кихот принимает ветряные мельницы?"},
+          "options": [{"tk": "galalar", "ru": "замки"}, {"tk": "äpet döwler", "ru": "великанов"}, {"tk": "goşun", "ru": "войско"}],
+          "answer": 1,
+          "hint": {"tk": "Degirmeniň ganatlary uzyn ellere meňzeýär.", "ru": "Крылья мельниц похожи на длинные руки."},
+          "explain": {"tk": "Ol degirmenleri uzyn elli döwler hasaplap, olara hüjüm edýär. Şu ýerden «ýel degirmenleri bilen söweşmek» aňlatmasy döredi — ýok duşman bilen biderek göreşmek.", "ru": "Он принимает мельницы за великанов с длинными руками и атакует их. Отсюда выражение «сражаться с ветряными мельницами» — бесполезная борьба с мнимым врагом."}},
+        {"type": "input",
+          "q": {"tk": "«Don Kihotyň» birinji bölümi haýsy ýylda çykdy?", "ru": "В каком году вышла первая часть «Дон Кихота»?"},
+          "answer": "1605",
+          "hint": {"tk": "XVII asyryň başy, ikinji bölümden 10 ýyl öň (1615).", "ru": "Начало XVII века, за 10 лет до второй части (1615)."},
+          "explain": {"tk": "Birinji bölüm 1605-nji ýylda, ikinji bölüm 1615-nji ýylda çap edildi.", "ru": "Первая часть издана в 1605 году, вторая — в 1615-м."}},
+        {"type": "truefalse",
+          "q": {"tk": "Sanço Pansa — Don Kihotyň ýarag götereni.", "ru": "Санчо Панса — оруженосец Дон Кихота."},
+          "answer": true,
+          "hint": {"tk": "Rysaryň ýanynda hemişe kim ýöreýär?", "ru": "Кто всегда сопровождает рыцаря?"},
+          "explain": {"tk": "Sanço Pansa — ýönekeý daýhan, Don Kihot oňa ada häkimligini wada berip, ony ýarag götereni edýär.", "ru": "Санчо Панса — простой крестьянин; Дон Кихот делает его оруженосцем, пообещав ему губернаторство на острове."}},
+        {"type": "choice",
+          "q": {"tk": "Servantes romany ilki haýsy maksat bilen ýazypdyr?", "ru": "С какой целью Сервантес изначально задумал роман?"},
+          "options": [{"tk": "rysarlyk romanlaryny parodiýa etmek", "ru": "спародировать рыцарские романы"}, {"tk": "Ispaniýanyň taryhyny beýan etmek", "ru": "изложить историю Испании"}, {"tk": "dini gollanma ýazmak", "ru": "написать религиозное наставление"}],
+          "answer": 0,
+          "hint": {"tk": "Gahryman näme okap akylyndan azaşýar?", "ru": "Начитавшись чего, герой теряет рассудок?"},
+          "explain": {"tk": "Servantes şol döwürde meşhur bolan rysarlyk romanlaryny gülküli görkezmek isläpdir, ýöne netijede uly adamkärçilik romany döredi.", "ru": "Сервантес хотел высмеять модные тогда рыцарские романы, но в итоге создал великий гуманистический роман."}},
+        {"type": "world", "text": {
+          "tk": "Servantes 1616-njy ýylyň aprelinde aradan çykdy — Şekspir bilen birmeňzeş günlerde. Şonuň üçin UNESKO 23-nji apreli Bütindünýä kitap we awtorlyk hukugy güni diýip yglan etdi. Ispan dilini dünýäde ýaýradýan gurama hem onuň adyny göterýär — Servantes instituty.",
+          "ru": "Сервантес умер в апреле 1616 года — почти в те же дни, что и Шекспир. Поэтому ЮНЕСКО объявила 23 апреля Всемирным днём книги и авторского права. Его имя носит и организация, распространяющая испанский язык в мире, — Институт Сервантеса."}}
+      ]
+    },
+    {
+      "id": "literature-10-goethe",
+      "grade": 10,
+      "topic": 3,
+      "title": {"tk": "Iogann Wolfgang Gýote: «Faust»", "ru": "Иоганн Вольфганг Гёте: «Фауст»"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Iogann Wolfgang fon Gýote (1749–1832) — nemes şahyry, dramaturgy, alymy we döwlet işgäri. Frankfurt-na-Maýne şäherinde doguldy, ömrüniň köp bölegini Weýmarda geçirdi.\n\nÝaşlygynda «Tupan we hüjüm» (Sturm und Drang) hereketine gatnaşdy; «Ýaş Werteriň horlanmalary» (1774) romany bilen tutuş Ýewropada meşhur boldy. Soňra Fridrih Şiller bilen birlikde Weýmar klassisizminiň esasy wekili boldy.\n\nEsasy eseri — «Faust» tragediýasy. Gýote onuň üstünde 60 ýyla golaý işledi: birinji bölüm 1808-nji ýylda çykdy, ikinji bölüm 1832-nji ýylda, ölüminden soň çap edildi.\n\nGýote ylym bilen hem meşgullandy: ösümlikleriň metamorfozy we reňkler nazaryýeti hakynda işleri bar. Ol «Günbatar-Gündogar diwany» goşgular ýygyndysynda Hafyzyň poeziýasyndan ylham aldy.",
+          "ru": "Иоганн Вольфганг фон Гёте (1749–1832) — немецкий поэт, драматург, учёный и государственный деятель. Родился во Франкфурте-на-Майне, большую часть жизни провёл в Веймаре.\n\nВ молодости участвовал в движении «Буря и натиск» (Sturm und Drang); роман «Страдания юного Вертера» (1774) прославил его на всю Европу. Позже вместе с Фридрихом Шиллером стал главным представителем веймарского классицизма.\n\nГлавное произведение — трагедия «Фауст». Гёте работал над ней почти 60 лет: первая часть вышла в 1808 году, вторая — в 1832-м, уже после его смерти.\n\nГёте занимался и наукой: у него есть труды о метаморфозе растений и теория цвета. В сборнике «Западно-восточный диван» он вдохновлялся поэзией Хафиза."}},
+        {"type": "example", "text": {
+          "tk": "«Faustuň» esasy çaknyşygyny seljereliň:\n\n1) Alym Faust ähli ylymlary öwrenip, durmuşyň manysyny tapmandygy üçin umytsyzlyga düşýär.\n2) Ol şeýtan Mefistofel bilen şertnama baglaşýar: eger Faust haçan-da bir pursada «Dur, sen ajaýyp!» diýse, onuň ruhy Mefistofeliňki bolar.\n3) Faust durmuşy, söýgini, häkimiýeti synap görýär, ýöne kanagatlanmaýar.\n4) Ahyrynda ol halk üçin täze ýer gurmak (deňizden ýer almak) pikirinde iň uly bagty duýýar.\n\nPikir: adam yzygiderli gözleg we döredijilik arkaly halas bolýar. Şu ýerden «faust ruhy» düşünjesi döredi — bilime we kämillige yzygiderli ymtylyş.",
+          "ru": "Разберём главный конфликт «Фауста»:\n\n1) Учёный Фауст изучил все науки, но не нашёл смысла жизни и впал в отчаяние.\n2) Он заключает договор с дьяволом Мефистофелем: если Фауст скажет мгновению «Остановись, ты прекрасно!», его душа достанется Мефистофелю.\n3) Фауст испытывает жизнь, любовь, власть, но не находит удовлетворения.\n4) В конце он переживает высшее счастье от мысли о труде ради людей — отвоевании земли у моря.\n\nИдея: человек спасается постоянным поиском и созиданием. Отсюда понятие «фаустовский дух» — неустанное стремление к знанию и совершенству."}},
+        {"type": "choice",
+          "q": {"tk": "Faust kim bilen şertnama baglaşýar?", "ru": "С кем Фауст заключает договор?"},
+          "options": [{"tk": "Margarita", "ru": "Маргаритой"}, {"tk": "Mefistofel", "ru": "Мефистофелем"}, {"tk": "Wagner", "ru": "Вагнером"}],
+          "answer": 1,
+          "hint": {"tk": "Bu şeýtanyň eserdäki ady.", "ru": "Это имя дьявола в произведении."},
+          "explain": {"tk": "Faust Mefistofel bilen şertnama baglaşýar. Margarita (Gretçen) — onuň söýgüsi, Wagner — onuň şägirdi.", "ru": "Фауст заключает договор с Мефистофелем. Маргарита (Гретхен) — его возлюбленная, Вагнер — ученик."}},
+        {"type": "input",
+          "q": {"tk": "Gýote haýsy ýylda doguldy?", "ru": "В каком году родился Гёте?"},
+          "answer": "1749",
+          "hint": {"tk": "Ol 82 ýaşap, 1832-nji ýylda aradan çykdy.", "ru": "Он прожил 82 года и умер в 1832 году."},
+          "explain": {"tk": "Gýote 1749-njy ýylda doguldy: 1832 − 1749 = 83, ýöne doglan güni (28-nji awgust) ölüm gününden (22-nji mart) giç bolany üçin ol 82 ýaşapdyr.", "ru": "Гёте родился в 1749 году: 1832 − 1749 = 83, но день рождения (28 августа) позже дня смерти (22 марта), поэтому ему было 82 года."}},
+        {"type": "truefalse",
+          "q": {"tk": "«Ýaş Werteriň horlanmalary» Gýotäni ýaşlygynda meşhur etdi.", "ru": "«Страдания юного Вертера» прославили Гёте в молодости."},
+          "answer": true,
+          "hint": {"tk": "Bu roman 1774-nji ýylda, Gýote 25 ýaşanda çykdy.", "ru": "Роман вышел в 1774 году, когда Гёте было 25 лет."},
+          "explain": {"tk": "Bu roman Ýewropada uly üstünlik gazandy we ýaş Gýotäni bütin dünýä tanatdy.", "ru": "Роман имел огромный успех в Европе и сделал молодого Гёте всемирно известным."}},
+        {"type": "world", "text": {
+          "tk": "Germaniýanyň dünýäde nemes dilini we medeniýetini ýaýradýan guramasy Gýote adyny göterýär — Gýote instituty. Gýote ylymda hem yz galdyrdy: ol adamyň ýokarky eňeginde aýratyn kiçi süňküň (eňegara süňk) bardygyny subut eden alymlaryň biri boldy.",
+          "ru": "Организация, распространяющая немецкий язык и культуру в мире, носит имя Гёте — Институт Гёте. Гёте оставил след и в науке: он был одним из учёных, доказавших наличие у человека межчелюстной кости."}}
+      ]
+    },
+    {
+      "id": "literature-10-tolstoy",
+      "grade": 10,
+      "topic": 4,
+      "title": {"tk": "Lew Tolstoý: «Uruş we parahatçylyk»", "ru": "Лев Толстой: «Война и мир»"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Lew Nikolaýewiç Tolstoý (1828–1910) — rus ýazyjysy, dünýä edebiýatynyň iň beýik romançylarynyň biri. Ýasnaýa Polýana mülkünde doguldy. Kawkazda we Krym urşunda (Sewastopolyň goragy) gulluk etdi — bu tejribe onuň eserlerinde şöhlelendi.\n\nEsasy eserleri:\n• «Uruş we parahatçylyk» (1863–1869) — epopeýa roman, 1805–1812-nji ýyllaryň wakalary, Napoleona garşy uruş;\n• «Anna Karenina» (1873–1877) — maşgala we jemgyýet hakynda roman;\n• «Direliş» (1899);\n• «Hajy Murat» powesti, «Iwan Ilýiçiň ölümi».\n\nTolstoýyň stiliniň aýratynlygy — «ruhuň dialektikasy»: gahrymanlaryň içki dünýäsiniň üýtgeýşini jikme-jik görkezmek.\nGarrylygynda ol zorluga garşy durmazlyk we ahlak arassalygy hakyndaky öz taglymatyny wagyz etdi.",
+          "ru": "Лев Николаевич Толстой (1828–1910) — русский писатель, один из величайших романистов мировой литературы. Родился в имении Ясная Поляна. Служил на Кавказе и в Крымскую войну (оборона Севастополя) — этот опыт отразился в его произведениях.\n\nГлавные произведения:\n• «Война и мир» (1863–1869) — роман-эпопея о событиях 1805–1812 годов, войне с Наполеоном;\n• «Анна Каренина» (1873–1877) — роман о семье и обществе;\n• «Воскресение» (1899);\n• повести «Хаджи-Мурат», «Смерть Ивана Ильича».\n\nОсобенность стиля Толстого — «диалектика души»: подробное изображение того, как меняется внутренний мир героев.\nВ старости он проповедовал своё учение о непротивлении злу насилием и нравственном самосовершенствовании."}},
+        {"type": "example", "text": {
+          "tk": "Gahrymanyň ösüşi: Pýer Bezuhow («Uruş we parahatçylyk»).\n\n1) Başda — ýolbaşsyz, ynamsyz ýaş ýigit, köp baýlyga eýe bolsa-da, durmuşda öz ýerini tapmaýar.\n2) Durmuşyň manysyny masonlarda, hyýyr-sahawatda gözleýär.\n3) Borodino söweşinde we ýesirlikde ýönekeý esger Platon Karataýew bilen tanyşýar we ýönekeý durmuşyň gymmatyna düşünýär.\n4) Ahyrynda Nataşa Rostowa bilen maşgala gurýar we içki parahatlygy tapýar.\n\nBu «ruhuň dialektikasynyň» mysaly: gahryman ýalňyşlyklar arkaly ösýär.",
+          "ru": "Развитие героя: Пьер Безухов («Война и мир»).\n\n1) В начале — нескладный, неуверенный молодой человек; несмотря на огромное богатство, не находит своего места в жизни.\n2) Ищет смысл жизни в масонстве, благотворительности.\n3) На Бородинском поле и в плену знакомится с простым солдатом Платоном Каратаевым и понимает ценность простой жизни.\n4) В конце создаёт семью с Наташей Ростовой и обретает внутренний покой.\n\nЭто пример «диалектики души»: герой растёт через ошибки."}},
+        {"type": "choice",
+          "q": {"tk": "«Uruş we parahatçylyk» romany haýsy uruş hakynda?", "ru": "О какой войне роман «Война и мир»?"},
+          "options": [{"tk": "Birinji jahan urşy", "ru": "Первая мировая война"}, {"tk": "Krym urşy", "ru": "Крымская война"}, {"tk": "Napoleona garşy uruşlar (1805–1812)", "ru": "Войны с Наполеоном (1805–1812)"}],
+          "answer": 2,
+          "hint": {"tk": "Romanda Borodino söweşi we Kutuzow bar.", "ru": "В романе есть Бородинское сражение и Кутузов."},
+          "explain": {"tk": "Roman 1805–1812-nji ýyllarda Napoleona garşy uruşlary, şol sanda 1812-nji ýylyň Watançylyk urşuny beýan edýär.", "ru": "Роман описывает войны с Наполеоном 1805–1812 годов, включая Отечественную войну 1812 года."}},
+        {"type": "truefalse",
+          "q": {"tk": "«Anna Karenina» romanyny Dostoýewskiý ýazypdyr.", "ru": "Роман «Анна Каренина» написал Достоевский."},
+          "answer": false,
+          "hint": {"tk": "Bu romanda maşgala durmuşy we jemgyýetiň ahlagy jikme-jik görkezilýär; ol 1870-nji ýyllarda ýazyldy.", "ru": "В этом романе подробно показаны семейная жизнь и мораль общества; написан в 1870-е годы."},
+          "explain": {"tk": "«Anna Kareninany» Lew Tolstoý 1873–1877-nji ýyllarda ýazdy.", "ru": "«Анну Каренину» написал Лев Толстой в 1873–1877 годах."}},
+        {"type": "input",
+          "q": {"tk": "Tolstoý doglan we jaýlanan mülküň ady: Ýasnaýa … (ikinji sözi ýazyň)", "ru": "Название имения, где Толстой родился и похоронен: Ясная … (напишите второе слово)"},
+          "answer": "Polýana|Polyana|Поляна|поляна|polýana|polyana",
+          "hint": {"tk": "Rusça «ýaşyl meýdança, açyklyk» manysyndaky söz.", "ru": "Слово, означающее открытое место в лесу."},
+          "explain": {"tk": "Ýasnaýa Polýana — Tula oblastyndaky mülk, häzir muzeý.", "ru": "Ясная Поляна — имение в Тульской области, ныне музей."}},
+        {"type": "choice",
+          "q": {"tk": "Tolstoýyň gahrymanlaryň içki dünýäsini görkezmek usuly nähili atlandyrylýar?", "ru": "Как называют метод Толстого в изображении внутреннего мира героев?"},
+          "options": [{"tk": "ruhuň dialektikasy", "ru": "диалектика души"}, {"tk": "akym-aň", "ru": "поток сознания"}, {"tk": "romantik ironiýa", "ru": "романтическая ирония"}],
+          "answer": 0,
+          "hint": {"tk": "Bu adalgany tankytçy Nikolaý Çernyşewskiý ulandy.", "ru": "Этот термин ввёл критик Николай Чернышевский."},
+          "explain": {"tk": "Çernyşewskiý Tolstoýyň psihologik usulyny «ruhuň dialektikasy» diýip atlandyrdy — duýgularyň biri-birine geçişini görkezmek.", "ru": "Чернышевский назвал психологический метод Толстого «диалектикой души» — изображение переходов одного чувства в другое."}},
+        {"type": "world", "text": {
+          "tk": "Tolstoýyň zorluga garşy durmazlyk hakyndaky pikirleri Hindistanyň azatlyk hereketiniň lideri Mahatma Gandä uly täsir etdi. Olar hat alyşypdyrlar, Gandi Günorta Afrikada öz obasyny «Tolstoý fermasy» diýip atlandyrdy.",
+          "ru": "Идеи Толстого о непротивлении злу насилием сильно повлияли на лидера индийского освободительного движения Махатму Ганди. Они переписывались, а свою общину в Южной Африке Ганди назвал «Ферма Толстого»."}}
+      ]
+    },
+    {
+      "id": "literature-10-dostoevsky",
+      "grade": 10,
+      "topic": 5,
+      "title": {"tk": "Fýodor Dostoýewskiý: «Jenaýat we jeza»", "ru": "Фёдор Достоевский: «Преступление и наказание»"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Fýodor Mihaýlowiç Dostoýewskiý (1821–1881) — rus ýazyjysy, psihologik romanyň beýik ussady. Moskwada doguldy. 1849-njy ýylda Petraşewskiniň gurnagyna gatnaşandygy üçin tussag edildi we ölüm jezasyna höküm edildi; jeza ýerine ýetiriljek pursatda ýatyryldy we ol Sibirde katorga iberildi.\n\nEsasy romanlary:\n• «Jenaýat we jeza» (1866)\n• «Samsyk» (1868–1869)\n• «Albastylar» (1871–1872)\n• «Garamazow doganlar» (1879–1880)\n\nAýratynlyklary: adamyň ruhy göreşi, ahlak saýlawy, iman we şübhe meseleleri. Alym Mihail Bahtin onuň romanlaryny «polifonik» diýip atlandyrdy: her gahrymanyň öz garaýşy we sesi bar, awtor olaryň hiç birini basmaýar.",
+          "ru": "Фёдор Михайлович Достоевский (1821–1881) — русский писатель, великий мастер психологического романа. Родился в Москве. В 1849 году за участие в кружке Петрашевского был арестован и приговорён к смертной казни; приговор отменили в последний момент и отправили его на каторгу в Сибирь.\n\nГлавные романы:\n• «Преступление и наказание» (1866)\n• «Идиот» (1868–1869)\n• «Бесы» (1871–1872)\n• «Братья Карамазовы» (1879–1880)\n\nОсобенности: духовная борьба человека, нравственный выбор, вопросы веры и сомнения. Учёный Михаил Бахтин назвал его романы «полифоническими»: у каждого героя свой взгляд и голос, и автор не заглушает ни один из них."}},
+        {"type": "example", "text": {
+          "tk": "«Jenaýat we jeza» romanynyň meselesi:\n\n1) Garyp talyp Rodion Raskolnikow «adamlar iki görnüşe bölünýär: adaty adamlar we beýik maksat üçin kanuny bozmaga hukugy bolan «aýratyn» adamlar» diýen nazaryýeti döredýär.\n2) Ol nazaryýetini barlamak üçin jenaýat edýär.\n3) Romanyň esasy bölegi jeza hakynda — kazyýet jezasy däl-de, wyždan ezýet: gorky, ýalňyzlyk, içki göreş.\n4) Sonýa Marmeladowanyň söýgüsi we rehimdarlygy ony boýun almaga we täzeden dikelmäge alyp barýar.\n\nPikir: hiç bir nazaryýet başga adama zyýan bermegi aklap bilmez; adam wyždan arkaly jezalanýar we gaýtadan dogulýar.",
+          "ru": "Проблема романа «Преступление и наказание»:\n\n1) Бедный студент Родион Раскольников создаёт теорию: «люди делятся на обыкновенных и «необыкновенных», которым ради великой цели позволено переступить закон».\n2) Чтобы проверить теорию, он совершает преступление.\n3) Основная часть романа — о наказании, причём не судебном, а муках совести: страх, одиночество, внутренняя борьба.\n4) Любовь и сострадание Сони Мармеладовой приводят его к признанию и духовному возрождению.\n\nИдея: никакая теория не оправдывает вред другому человеку; человек наказывается совестью и может переродиться."}},
+        {"type": "choice",
+          "q": {"tk": "Raskolnikowy boýun almaga we täzeden dikelmäge kim ýardam edýär?", "ru": "Кто помогает Раскольникову признаться и возродиться?"},
+          "options": [{"tk": "Porfiriý Petrowiç", "ru": "Порфирий Петрович"}, {"tk": "Sonýa Marmeladowa", "ru": "Соня Мармеладова"}, {"tk": "Razumihin", "ru": "Разумихин"}],
+          "answer": 1,
+          "hint": {"tk": "Ol rehimdarlygyň we imanyň nyşany.", "ru": "Она — символ сострадания и веры."},
+          "explain": {"tk": "Sonýa Raskolnikowyň yzyndan Sibire gidýär we onuň ruhy dikelmegine sebäp bolýar. Porfiriý Petrowiç — derňewçi, Razumihin — dosty.", "ru": "Соня следует за Раскольниковым в Сибирь и становится причиной его духовного возрождения. Порфирий Петрович — следователь, Разумихин — друг."}},
+        {"type": "input",
+          "q": {"tk": "«Jenaýat we jeza» haýsy ýylda çap edildi?", "ru": "В каком году был опубликован роман «Преступление и наказание»?"},
+          "answer": "1866",
+          "hint": {"tk": "Tolstoý «Uruş we parahatçylygy» ýazýan ýyllary; 1860-njy ýyllaryň ortasy.", "ru": "Годы, когда Толстой писал «Войну и мир»; середина 1860-х."},
+          "explain": {"tk": "Roman 1866-njy ýylda «Russkiý westnik» žurnalynda çap edildi.", "ru": "Роман печатался в 1866 году в журнале «Русский вестник»."}},
+        {"type": "truefalse",
+          "q": {"tk": "Dostoýewskiý ölüm jezasyna höküm edilipdi, ýöne jeza soňky pursatda ýatyryldy.", "ru": "Достоевский был приговорён к смертной казни, но приговор отменили в последний момент."},
+          "answer": true,
+          "hint": {"tk": "1849-njy ýyldaky wakalary ýada salyň.", "ru": "Вспомните события 1849 года."},
+          "explain": {"tk": "1849-njy ýylda Petraşewskiniň gurnagynyň agzalary bilen birlikde höküm edildi, jeza katorga bilen çalşyryldy. Bu tejribe onuň eserlerine çuň täsir etdi.", "ru": "В 1849 году вместе с участниками кружка Петрашевского он был приговорён, казнь заменили каторгой. Этот опыт глубоко повлиял на его творчество."}},
+        {"type": "choice",
+          "q": {"tk": "Bahtin Dostoýewskiniň romanlaryny nähili atlandyrdy?", "ru": "Как Бахтин назвал романы Достоевского?"},
+          "options": [{"tk": "epopeýa", "ru": "эпопея"}, {"tk": "detektiw", "ru": "детектив"}, {"tk": "polifonik", "ru": "полифонические"}],
+          "answer": 2,
+          "hint": {"tk": "Söz «köp ses» manysyny berýär.", "ru": "Слово означает «многоголосие»."},
+          "explain": {"tk": "Polifoniýa (grekçe «köp ses») — romanda dürli garaýyşlaryň deň hukukly sesleriniň bolmagy.", "ru": "Полифония (греч. «многоголосие») — присутствие в романе равноправных голосов с разными взглядами."}},
+        {"type": "world", "text": {
+          "tk": "Dostoýewskiniň eserleri XX asyryň pelsepesine we psihologiýasyna uly täsir etdi. Fridrih Nisşe ony özüne bir zat öwreden ýeke-täk psiholog diýip atlandyrypdyr, Albert Eýnşteýn bolsa «Garamazow doganlary» özüniň iň gowy gören kitaplarynyň biri hasaplapdyr.",
+          "ru": "Произведения Достоевского сильно повлияли на философию и психологию XX века. Фридрих Ницше называл его единственным психологом, у которого ему было чему поучиться, а Альберт Эйнштейн считал «Братьев Карамазовых» одной из любимых книг."}}
+      ]
+    }
+  ]
+}

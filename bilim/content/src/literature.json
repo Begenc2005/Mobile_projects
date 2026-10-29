@@ -1,0 +1,47 @@
+{
+  "id": "literature",
+  "icon": "📜",
+  "color": "#C2255C",
+  "title": {"tk": "Edebiýat", "ru": "Литература"},
+  "lessons": [
+    {
+      "id": "lit-7-magtymguly",
+      "grade": 7,
+      "title": {"tk": "Magtymguly Pyragy", "ru": "Махтумкули Фраги"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Magtymguly Pyragy (1724 ý. doglan) — türkmen edebiýatynyň beýik nusgawy şahyry we akyldary.\n• Kakasy — şahyr Döwletmämmet Azady.\n• Lakamy «Pyragy» — «aýra düşen, dünýä baglanmaýan» diýen manyny berýär.\n• Esasy temalary: türkmen halkynyň agzybirligi, watan, adalat, ahlak.",
+          "ru": "Махтумкули Фраги (род. в 1724 г.) — великий классик туркменской литературы, поэт и мыслитель.\n• Отец — поэт Довлетмамед Азади.\n• Псевдоним «Фраги» означает «разлучённый, отрешённый».\n• Главные темы: единство туркменского народа, родина, справедливость, нравственность."}},
+        {"type": "choice",
+          "q": {"tk": "Magtymgulynyň kakasy kim bolupdyr?", "ru": "Кто был отцом Махтумкули?"},
+          "options": [
+            {"tk": "Döwletmämmet Azady", "ru": "Довлетмамед Азади"},
+            {"tk": "Andalyp", "ru": "Андалиб"},
+            {"tk": "Seýdi", "ru": "Сейди"}
+          ],
+          "answer": 0,
+          "hint": {"tk": "Ol hem şahyr we alym bolupdyr, lakamy «Azady».", "ru": "Он тоже был поэтом и учёным, псевдоним — «Азади»."},
+          "explain": {"tk": "Döwletmämmet Azady — Magtymgulynyň kakasy we ilkinji mugallymy.", "ru": "Довлетмамед Азади — отец и первый учитель Махтумкули."}},
+        {"type": "choice",
+          "q": {"tk": "«Pyragy» lakamynyň manysy:", "ru": "Что означает псевдоним «Фраги»?"},
+          "options": [
+            {"tk": "Aýra düşen", "ru": "Разлучённый"},
+            {"tk": "Batyr", "ru": "Храбрый"},
+            {"tk": "Bagtly", "ru": "Счастливый"}
+          ],
+          "answer": 0,
+          "hint": {"tk": "Ilkinji ädime serediň.", "ru": "Посмотрите первый шаг."},
+          "explain": {"tk": "«Pyragy» — aýra düşen, dünýä baglanmaýan.", "ru": "«Фраги» — разлучённый, отрешённый."}},
+        {"type": "truefalse",
+          "q": {"tk": "2024-nji ýyl Magtymguly Pyragynyň doglan gününiň 300 ýyllygy hökmünde bellenildi.", "ru": "2024 год отмечался как 300-летие со дня рождения Махтумкули Фраги."},
+          "answer": true,
+          "hint": {"tk": "1724 + 300 = ?", "ru": "1724 + 300 = ?"},
+          "explain": {"tk": "Dogry: 1724 + 300 = 2024.", "ru": "Верно: 1724 + 300 = 2024."}},
+        {"type": "world", "text": {
+          "tk": "Magtymgulynyň goşgulary köp dillere terjime edildi. Dünýä edebiýatynda oňa meňzeş halk şahyrlaryna Şotlandiýanyň Robert Börnsi ýa-da Ukrainanyň Taras Şewçenkosy mysal bolup biler — olar hem öz halkynyň ruhuny beýan edipdirler.",
+          "ru": "Стихи Махтумкули переведены на многие языки. В мировой литературе схожую роль народного поэта сыграли, например, Роберт Бёрнс в Шотландии и Тарас Шевченко в Украине — они тоже выразили дух своего народа."}}
+      ]
+    }
+  ]
+}

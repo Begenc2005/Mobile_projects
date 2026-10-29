@@ -1,0 +1,278 @@
+{
+  "grade": 7,
+  "subject": "geometry",
+  "lessons": [
+    {
+      "id": "geometry-7-point-line-angle",
+      "grade": 7,
+      "topic": 0,
+      "title": {"tk": "Nokat, göni çyzyk, burç", "ru": "Точка, прямая, угол"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Nokat we göni çyzyk — geometriýanyň esasy düşünjeleri.\n• Iki nokadyň üstünden diňe bir göni çyzyk geçýär.\n• Kesim — göni çyzygyň iki nokat bilen çäklenen bölegi (AB).\n• Şöhle — bir nokatdan başlap, bir tarapa çäksiz dowam edýän bölek.\n\nBurç — umumy başlangyçly iki şöhleden emele gelen figura. Burçlar gradusda ölçenýär.\n• Ýiti burç: 0°-dan 90°-a çenli\n• Göni burç: 90°\n• Kütek burç: 90°-dan 180°-a çenli\n• Ýazgyn burç: 180°\n\nÇatyk burçlar: bir tarapy umumy, beýleki taraplary bir göni çyzygy emele getirýär; jemi 180°.\nWertikal burçlar: iki göni çyzyk kesişende garşylykly duran burçlar; olar deň.",
+          "ru": "Точка и прямая — основные понятия геометрии.\n• Через две точки проходит только одна прямая.\n• Отрезок — часть прямой, ограниченная двумя точками (AB).\n• Луч — часть прямой, которая начинается в точке и бесконечно продолжается в одну сторону.\n\nУгол — фигура из двух лучей с общим началом. Углы измеряют в градусах.\n• Острый угол: от 0° до 90°\n• Прямой угол: 90°\n• Тупой угол: от 90° до 180°\n• Развёрнутый угол: 180°\n\nСмежные углы: одна сторона общая, а две другие образуют прямую; их сумма 180°.\nВертикальные углы: противоположные углы при пересечении двух прямых; они равны."
+        }},
+        {"type": "example", "text": {
+          "tk": "Iki göni çyzyk kesişýär, burçlaryň biri 65°. Galan üç burçy tapalyň.\n1) Oňa çatyk burç: 180° − 65° = 115°.\n2) 65°-a wertikal burç hem 65°.\n3) 115°-a wertikal burç hem 115°.\nJogap: 65°, 115°, 65°, 115°. Barlag: jemi 360° ✓",
+          "ru": "Две прямые пересекаются, один из углов 65°. Найдём остальные три угла.\n1) Смежный с ним угол: 180° − 65° = 115°.\n2) Вертикальный к 65° тоже 65°.\n3) Вертикальный к 115° тоже 115°.\nОтвет: 65°, 115°, 65°, 115°. Проверка: сумма 360° ✓"
+        }},
+        {"type": "input",
+          "q": {"tk": "Çatyk burçlaryň biri 40°. Ikinjisi näçe gradus?", "ru": "Один из смежных углов 40°. Сколько градусов второй?"},
+          "answer": "140",
+          "hint": {"tk": "Çatyk burçlaryň jemi näçe?", "ru": "Чему равна сумма смежных углов?"},
+          "explain": {"tk": "180° − 40° = 140°.", "ru": "180° − 40° = 140°."}
+        },
+        {"type": "choice",
+          "q": {"tk": "120° burç haýsy görnüşe degişli?", "ru": "К какому виду относится угол 120°?"},
+          "options": [{"tk": "Ýiti", "ru": "Острый"}, {"tk": "Kütek", "ru": "Тупой"}, {"tk": "Göni", "ru": "Прямой"}],
+          "answer": 1,
+          "hint": {"tk": "120° 90°-dan uly, 180°-dan kiçi.", "ru": "120° больше 90° и меньше 180°."},
+          "explain": {"tk": "90° < 120° < 180°, şonuň üçin kütek burç.", "ru": "90° < 120° < 180°, поэтому угол тупой."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Wertikal burçlar hemişe deňdir.", "ru": "Вертикальные углы всегда равны."},
+          "answer": true,
+          "hint": {"tk": "Ikisi-de şol bir burça çatyk.", "ru": "Оба смежны одному и тому же углу."},
+          "explain": {"tk": "Wertikal burçlaryň her biri şol bir burça çatyk: ikisi-de 180° − α, diýmek deň.", "ru": "Каждый из вертикальных углов смежен одному и тому же углу: оба равны 180° − α, значит, равны."}
+        },
+        {"type": "input",
+          "q": {"tk": "Sagadyň sagat we minut dilleriniň arasyndaky burç sagat 3:00-da näçe gradus?", "ru": "Какой угол в градусах между часовой и минутной стрелками в 3:00?"},
+          "answer": "90",
+          "hint": {"tk": "Siferblat 12 bölege bölünen, tutuş aýlaw 360°.", "ru": "Циферблат разделён на 12 частей, полный оборот 360°."},
+          "explain": {"tk": "Bir bölek 360° : 12 = 30°. 12-den 3-e çenli 3 bölek: 3·30° = 90°.", "ru": "Одна часть 360° : 12 = 30°. От 12 до 3 три части: 3·30° = 90°."}
+        },
+        {"type": "world", "text": {
+          "tk": "Aýlawy 360 gradusa bölmek gadymy Wawilondan gelýär. Wawilonlylar altmyşlyk hasap ulgamyny ulanypdyrlar, 360 bolsa 60-a we başga köp sanlara galyndysyz bölünýär.",
+          "ru": "Деление оборота на 360 градусов пришло из Древнего Вавилона. Вавилоняне пользовались шестидесятеричной системой счисления, а 360 делится без остатка на 60 и многие другие числа."
+        }}
+      ]
+    },
+    {
+      "id": "geometry-7-triangles",
+      "grade": 7,
+      "topic": 1,
+      "title": {"tk": "Üçburçluklar we olaryň görnüşleri", "ru": "Треугольники и их виды"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Üçburçluk — bir göni çyzykda ýatmaýan üç nokady kesimler bilen birleşdirmekden emele gelýär. Onuň 3 depesi, 3 tarapy, 3 burçy bar.\n\nTaraplary boýunça:\n• Deňtaraply — üç tarapy deň\n• Deňýanly — iki tarapy deň (ýanlar), üçünji tarapy — esas\n• Dürli taraply\n\nBurçlary boýunça: ýiti burçly, gönüburçly, kütek burçly.\n\nÜçburçlugyň deňsizligi: islendik tarapy beýleki iki tarapyň jeminden kiçi.\n\nMöhüm kesimler:\n• Mediana — depeden garşy tarapyň ortasyna\n• Bissektrisa — burçy deň ikä bölýär\n• Beýiklik — depeden garşy tarapa perpendikulýar\n\nDeňýanly üçburçlugyň esasyndaky burçlary deň.",
+          "ru": "Треугольник образуется, если три точки, не лежащие на одной прямой, соединить отрезками. У него 3 вершины, 3 стороны, 3 угла.\n\nПо сторонам:\n• Равносторонний — все три стороны равны\n• Равнобедренный — две стороны равны (боковые), третья — основание\n• Разносторонний\n\nПо углам: остроугольный, прямоугольный, тупоугольный.\n\nНеравенство треугольника: любая сторона меньше суммы двух других.\n\nВажные отрезки:\n• Медиана — из вершины к середине противоположной стороны\n• Биссектриса — делит угол пополам\n• Высота — перпендикуляр из вершины к противоположной стороне\n\nУглы при основании равнобедренного треугольника равны."
+        }},
+        {"type": "example", "text": {
+          "tk": "Taraplary 3 sm, 4 sm we 8 sm bolan üçburçluk barmy?\n1) Iň uly tarapy beýleki ikisiniň jemi bilen deňeşdirýäris: 3 + 4 = 7.\n2) 8 > 7 — deňsizlik ýerine ýetmeýär.\n3) Şeýle üçburçluk ýok: 3 sm we 4 sm kesimler 8 sm kesimiň uçlaryna ýetip birleşip bilmeýär.\n\n3, 4, 5 sm bolsa: 3 + 4 = 7 > 5 — üçburçluk bar (gönüburçly hem bolýar).",
+          "ru": "Существует ли треугольник со сторонами 3 см, 4 см и 8 см?\n1) Сравниваем наибольшую сторону с суммой двух других: 3 + 4 = 7.\n2) 8 > 7 — неравенство не выполняется.\n3) Такого треугольника нет: отрезки 3 см и 4 см не могут сомкнуться над отрезком 8 см.\n\nДля 3, 4, 5 см: 3 + 4 = 7 > 5 — треугольник существует (и даже прямоугольный)."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Haýsy taraplar bilen üçburçluk gurup bolýar?", "ru": "Из каких отрезков можно построить треугольник?"},
+          "options": ["2, 3, 6", "1, 1, 2", "5, 6, 7"],
+          "answer": 2,
+          "hint": {"tk": "Iki kiçi tarapyň jemi iň uly tarapdan uly bolmaly.", "ru": "Сумма двух меньших сторон должна быть больше наибольшей."},
+          "explain": {"tk": "5 + 6 = 11 > 7 ✓. 2 + 3 = 5 < 6, 1 + 1 = 2 = 2 — bolmaýar.", "ru": "5 + 6 = 11 > 7 ✓. 2 + 3 = 5 < 6, 1 + 1 = 2 = 2 — не подходит."}
+        },
+        {"type": "input",
+          "q": {"tk": "Deňýanly üçburçlugyň ýanlary 7 sm, esasy 4 sm. Perimetri näçe sm?", "ru": "Боковые стороны равнобедренного треугольника 7 см, основание 4 см. Чему равен периметр в см?"},
+          "answer": "18",
+          "hint": {"tk": "Perimetr — ähli taraplaryň jemi.", "ru": "Периметр — сумма всех сторон."},
+          "explain": {"tk": "7 + 7 + 4 = 18 sm.", "ru": "7 + 7 + 4 = 18 см."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Mediana elmydama beýiklik bilen gabat gelýär.", "ru": "Медиана всегда совпадает с высотой."},
+          "answer": false,
+          "hint": {"tk": "Dürli taraply üçburçlugy göz öňüne getir.", "ru": "Представьте разносторонний треугольник."},
+          "explain": {"tk": "Bu diňe käbir ýagdaýlarda bolýar, meselem, deňýanly üçburçlukda esasa geçirilen mediana. Umumy ýagdaýda olar tapawutly.", "ru": "Так бывает лишь в отдельных случаях, например медиана к основанию равнобедренного треугольника. В общем случае они различны."}
+        },
+        {"type": "input",
+          "q": {"tk": "Deňtaraply üçburçlugyň perimetri 27 sm. Bir tarapy näçe sm?", "ru": "Периметр равностороннего треугольника 27 см. Чему равна одна сторона в см?"},
+          "answer": "9",
+          "hint": {"tk": "Üç tarap hem deň.", "ru": "Все три стороны равны."},
+          "explain": {"tk": "27 : 3 = 9 sm.", "ru": "27 : 3 = 9 см."}
+        },
+        {"type": "world", "text": {
+          "tk": "Köprüleriň, minaralaryň we kranlaryň demir karkaslarynda üçburçluklar köp ulanylýar. Sebäbi üçburçlugyň taraplary berlen bolsa, onuň görnüşi üýtgäp bilmeýär — ol gaty figura. Dörtburçlugy bolsa basyp, görnüşini üýtgedip bolýar. Parižiň Eýfel diňi hem şeýle üçburçly karkaslardan durýar.",
+          "ru": "В металлических конструкциях мостов, башен и кранов много треугольников. Если стороны треугольника заданы, его форма не может измениться — он жёсткий. А четырёхугольник можно сдавить и изменить его форму. Эйфелева башня в Париже тоже собрана из таких треугольных ферм."
+        }}
+      ]
+    },
+    {
+      "id": "geometry-7-triangle-congruence",
+      "grade": 7,
+      "topic": 2,
+      "title": {"tk": "Üçburçluklaryň deňlik nyşanlary", "ru": "Признаки равенства треугольников"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Iki üçburçluk deň — eger olary biri-biriniň üstüne goýanyňda doly gabat gelse. Deň üçburçluklarda degişli taraplar we degişli burçlar deň.\n\nDeňligi subut etmek üçin ähli alty elementi barlamak hökman däl — üç nyşan ýeterlik:\n1) Iki tarap we olaryň arasyndaky burç (TBT): AB = A₁B₁, AC = A₁C₁, ∠A = ∠A₁.\n2) Bir tarap we oňa ýanaşyk iki burç (BTB).\n3) Üç tarap (TTT).\n\nÜns beriň: üç burçuň deňligi ýeterlik däl — ululygy dürli, görnüşi meňzeş üçburçluklar bolup biler.",
+          "ru": "Два треугольника равны, если при наложении они полностью совпадают. У равных треугольников соответственные стороны и соответственные углы равны.\n\nЧтобы доказать равенство, не нужно проверять все шесть элементов — достаточно трёх признаков:\n1) По двум сторонам и углу между ними: AB = A₁B₁, AC = A₁C₁, ∠A = ∠A₁.\n2) По стороне и двум прилежащим к ней углам.\n3) По трём сторонам.\n\nОбратите внимание: равенства трёх углов недостаточно — бывают треугольники одинаковой формы, но разного размера."
+        }},
+        {"type": "example", "text": {
+          "tk": "AB we CD kesimler O nokatda kesişýär we şol nokatda deň ikä bölünýär: AO = OB, CO = OD. ΔAOC = ΔBOD subut edeliň.\n1) AO = OB — şert boýunça.\n2) CO = OD — şert boýunça.\n3) ∠AOC = ∠BOD — wertikal burçlar.\n4) Iki tarap we olaryň arasyndaky burç deň → üçburçluklar birinji nyşan boýunça deň.\nNetije: AC = BD.",
+          "ru": "Отрезки AB и CD пересекаются в точке O и делятся ею пополам: AO = OB, CO = OD. Докажем, что ΔAOC = ΔBOD.\n1) AO = OB — по условию.\n2) CO = OD — по условию.\n3) ∠AOC = ∠BOD — вертикальные углы.\n4) Две стороны и угол между ними равны → треугольники равны по первому признаку.\nСледствие: AC = BD."
+        }},
+        {"type": "choice",
+          "q": {"tk": "ΔABC we ΔMNK-de AB = MN, BC = NK, AC = MK. Olar haýsy nyşan boýunça deň?", "ru": "В ΔABC и ΔMNK: AB = MN, BC = NK, AC = MK. По какому признаку они равны?"},
+          "options": [{"tk": "Üç tarap boýunça", "ru": "По трём сторонам"}, {"tk": "Iki tarap we burç boýunça", "ru": "По двум сторонам и углу"}, {"tk": "Tarap we iki burç boýunça", "ru": "По стороне и двум углам"}],
+          "answer": 0,
+          "hint": {"tk": "Berlen elementleriň hemmesi tarap.", "ru": "Все данные элементы — стороны."},
+          "explain": {"tk": "Üç tarapyň üçüsi hem deň — üçünji nyşan (üç tarap boýunça).", "ru": "Равны все три стороны — третий признак (по трём сторонам)."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Üç burçy degişlilikde deň bolan iki üçburçluk hökman deňdir.", "ru": "Два треугольника с соответственно равными тремя углами обязательно равны."},
+          "answer": false,
+          "hint": {"tk": "Bir üçburçlugy iki esse ulaldanyňda burçlar üýtgeýärmi?", "ru": "Меняются ли углы, если увеличить треугольник вдвое?"},
+          "explain": {"tk": "Ulaldylan üçburçlugyň burçlary şol bir, ýöne taraplary uly. Şonuň üçin olar deň däl, diňe meňzeş.", "ru": "У увеличенного треугольника те же углы, но стороны больше. Поэтому они не равны, а только подобны."}
+        },
+        {"type": "input",
+          "q": {"tk": "ΔABC = ΔDEF, AB = 5 sm, BC = 7 sm, AC = 6 sm. EF näçe sm?", "ru": "ΔABC = ΔDEF, AB = 5 см, BC = 7 см, AC = 6 см. Чему равна EF в см?"},
+          "answer": "7",
+          "hint": {"tk": "Harplaryň tertibine seret: A↔D, B↔E, C↔F.", "ru": "Смотрите на порядок букв: A↔D, B↔E, C↔F."},
+          "explain": {"tk": "EF tarap BC tarapa degişli, diýmek EF = 7 sm.", "ru": "Сторона EF соответствует стороне BC, значит, EF = 7 см."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy maglumat üçburçluklaryň deňligini kepillendirýär?", "ru": "Какие данные гарантируют равенство треугольников?"},
+          "options": [{"tk": "Iki burç deň", "ru": "Равны два угла"}, {"tk": "Bir tarap we oňa ýanaşyk iki burç deň", "ru": "Равны сторона и два прилежащих к ней угла"}, {"tk": "Iki tarap deň", "ru": "Равны две стороны"}],
+          "answer": 1,
+          "hint": {"tk": "Üç element gerek, olaryň arasynda azyndan bir tarap bolmaly.", "ru": "Нужны три элемента, среди них хотя бы одна сторона."},
+          "explain": {"tk": "Bu ikinji nyşan. Iki element ýeterlik däl.", "ru": "Это второй признак. Двух элементов недостаточно."}
+        },
+        {"type": "world", "text": {
+          "tk": "Gadymy grek alymy Fales (b.e.öň VI asyr) üçburçluklaryň deňligini ulanyp, gämä çenli aralygy kenardan ölçäpdir diýip rowaýat edilýär. Şeýle usul — gös-göni ölçäp bolmaýan aralygy deň üçburçluk gurup tapmak — geodeziýada häzir hem ulanylýar.",
+          "ru": "По преданию, древнегреческий учёный Фалес (VI век до н. э.) с помощью равенства треугольников измерял с берега расстояние до корабля. Такой приём — находить недоступное расстояние, строя равный треугольник, — используется в геодезии до сих пор."
+        }}
+      ]
+    },
+    {
+      "id": "geometry-7-parallel-lines",
+      "grade": 7,
+      "topic": 3,
+      "title": {"tk": "Parallel göni çyzyklar", "ru": "Параллельные прямые"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Bir tekizlikde ýatýan we kesişmeýän iki göni çyzyk parallel diýilýär: a ∥ b.\n\nParallellik aksiomasy: göni çyzykda ýatmaýan nokadyň üstünden oňa parallel diňe bir göni çyzyk geçirip bolýar.\n\nIki parallel göni çyzygy üçünji göni çyzyk (kesiji) kesende sekiz burç emele gelýär:\n• Içki garşylykly ýatýan burçlar deň\n• Degişli burçlar deň\n• Içki birtaraply burçlaryň jemi 180°\n\nTersine: bu şertleriň biri ýerine ýetse, göni çyzyklar parallel (parallellik nyşanlary).",
+          "ru": "Две прямые, лежащие в одной плоскости и не пересекающиеся, называются параллельными: a ∥ b.\n\nАксиома параллельных: через точку, не лежащую на прямой, можно провести только одну прямую, параллельную данной.\n\nКогда две параллельные прямые пересекает третья (секущая), образуется восемь углов:\n• Накрест лежащие углы равны\n• Соответственные углы равны\n• Сумма односторонних углов 180°\n\nИ наоборот: если выполняется одно из этих условий, прямые параллельны (признаки параллельности)."
+        }},
+        {"type": "example", "text": {
+          "tk": "a ∥ b, kesiji bilen emele gelen burçlaryň biri 70°. Içki birtaraply we garşylykly ýatýan burçlary tapalyň.\n1) Garşylykly ýatýan burç deň: 70°.\n2) Birtaraply burç: 180° − 70° = 110°.\n3) Diýmek, sekiz burçuň dördüsi 70°, dördüsi 110°.",
+          "ru": "a ∥ b, один из углов при секущей 70°. Найдём накрест лежащий и односторонний углы.\n1) Накрест лежащий угол равен: 70°.\n2) Односторонний угол: 180° − 70° = 110°.\n3) Значит, из восьми углов четыре равны 70°, а четыре — 110°."
+        }},
+        {"type": "input",
+          "q": {"tk": "a ∥ b. Içki birtaraply burçlaryň biri 125°. Beýlekisi näçe gradus?", "ru": "a ∥ b. Один из односторонних углов 125°. Сколько градусов другой?"},
+          "answer": "55",
+          "hint": {"tk": "Birtaraply burçlaryň jemi näçe?", "ru": "Чему равна сумма односторонних углов?"},
+          "explain": {"tk": "180° − 125° = 55°.", "ru": "180° − 125° = 55°."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy şert a we b göni çyzyklaryň parallelligini subut edýär?", "ru": "Какое условие доказывает, что прямые a и b параллельны?"},
+          "options": [{"tk": "Birtaraply burçlar 80° we 80°", "ru": "Односторонние углы 80° и 80°"}, {"tk": "Garşylykly ýatýan burçlar 50° we 60°", "ru": "Накрест лежащие углы 50° и 60°"}, {"tk": "Degişli burçlar 72° we 72°", "ru": "Соответственные углы 72° и 72°"}],
+          "answer": 2,
+          "hint": {"tk": "Nyşanlary ýatla: haýsy burçlar deň bolmaly, haýsylaryň jemi 180°?", "ru": "Вспомните признаки: какие углы должны быть равны, а у каких сумма 180°?"},
+          "explain": {"tk": "Degişli burçlar deň — parallellik nyşany. 80° + 80° = 160° ≠ 180°, 50° ≠ 60°.", "ru": "Соответственные углы равны — признак параллельности. 80° + 80° = 160° ≠ 180°, 50° ≠ 60°."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Bir göni çyzyga perpendikulýar iki göni çyzyk biri-birine parallel (bir tekizlikde).", "ru": "Две прямые, перпендикулярные третьей, параллельны друг другу (в одной плоскости)."},
+          "answer": true,
+          "hint": {"tk": "Degişli burçlar näçe bolýar?", "ru": "Чему равны соответственные углы?"},
+          "explain": {"tk": "Degişli burçlaryň ikisi-de 90°, deň — diýmek göni çyzyklar parallel.", "ru": "Оба соответственных угла равны 90° — значит, прямые параллельны."}
+        },
+        {"type": "world", "text": {
+          "tk": "Müňlerçe ýyllap alymlar Ýewklidiň parallellik postulatyny beýleki aksiomalardan subut etmäge synanyşypdyrlar. XIX asyrda Nikolaý Lobaçewskiý, Ýanoş Boýaý we Karl Gauss onuň başgaça bolup biljek geometriýasynyň hem gapma-garşylyksyz bolýandygyny görkezdiler. Ýewklid däl geometriýa soňra Eýnşteýniň umumy otnositellik nazaryýetinde ulanyldy.",
+          "ru": "Тысячи лет учёные пытались вывести постулат Евклида о параллельных из других аксиом. В XIX веке Николай Лобачевский, Янош Бойяи и Карл Гаусс показали, что геометрия, где он не выполняется, тоже непротиворечива. Неевклидова геометрия позже понадобилась в общей теории относительности Эйнштейна."
+        }}
+      ]
+    },
+    {
+      "id": "geometry-7-angle-sum",
+      "grade": 7,
+      "topic": 4,
+      "title": {"tk": "Üçburçlugyň burçlarynyň jemi", "ru": "Сумма углов треугольника"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Teorema: islendik üçburçlugyň burçlarynyň jemi 180°.\n∠A + ∠B + ∠C = 180°\n\nSubudyň pikiri: B depeden AC tarapa parallel göni çyzyk geçirýäris. Garşylykly ýatýan burçlar ∠A we ∠C-e deň bolýar, üçüsi bilelikde B nokatda ýazgyn burçy (180°) emele getirýär.\n\nNetijeler:\n• Gönüburçly üçburçlugyň ýiti burçlarynyň jemi 90°.\n• Deňtaraply üçburçlugyň her burçy 60°.\n• Daşky burç (bir burça çatyk) beýleki iki içki burçuň jemine deň.",
+          "ru": "Теорема: сумма углов любого треугольника равна 180°.\n∠A + ∠B + ∠C = 180°\n\nИдея доказательства: через вершину B проводим прямую, параллельную AC. Накрест лежащие углы равны ∠A и ∠C, а вместе с ∠B все три образуют в точке B развёрнутый угол (180°).\n\nСледствия:\n• Сумма острых углов прямоугольного треугольника равна 90°.\n• Каждый угол равностороннего треугольника равен 60°.\n• Внешний угол (смежный с углом треугольника) равен сумме двух других внутренних углов."
+        }},
+        {"type": "example", "text": {
+          "tk": "Deňýanly üçburçlugyň depesindäki burçy 40°. Esasyndaky burçlary tapalyň.\n1) Esasdaky burçlar deň, olary x bilen belgiläliň.\n2) x + x + 40° = 180° → 2x = 140° → x = 70°.\nJogap: 70° we 70°.\nBarlag: 70 + 70 + 40 = 180 ✓",
+          "ru": "Угол при вершине равнобедренного треугольника 40°. Найдём углы при основании.\n1) Углы при основании равны, обозначим их x.\n2) x + x + 40° = 180° → 2x = 140° → x = 70°.\nОтвет: 70° и 70°.\nПроверка: 70 + 70 + 40 = 180 ✓"
+        }},
+        {"type": "input",
+          "q": {"tk": "Üçburçlugyň iki burçy 50° we 60°. Üçünji burçy näçe gradus?", "ru": "Два угла треугольника 50° и 60°. Сколько градусов третий угол?"},
+          "answer": "70",
+          "hint": {"tk": "180°-dan berlen burçlary aýyr.", "ru": "Вычтите данные углы из 180°."},
+          "explain": {"tk": "180° − 50° − 60° = 70°.", "ru": "180° − 50° − 60° = 70°."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Üçburçlugyň iki kütek burçy bolup biler.", "ru": "У треугольника может быть два тупых угла."},
+          "answer": false,
+          "hint": {"tk": "Iki kütek burçuň jemi 180°-dan näçe?", "ru": "Какова сумма двух тупых углов по сравнению с 180°?"},
+          "explain": {"tk": "Iki kütek burçuň jemi 180°-dan uly bolar, bu teorema garşy gelýär.", "ru": "Сумма двух тупых углов больше 180°, это противоречит теореме."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Gönüburçly üçburçlugyň bir ýiti burçy 35°. Beýleki ýiti burçy näçe?", "ru": "Один острый угол прямоугольного треугольника 35°. Чему равен другой острый угол?"},
+          "options": ["65°", "55°", "145°"],
+          "answer": 1,
+          "hint": {"tk": "Ýiti burçlaryň jemi 90°.", "ru": "Сумма острых углов 90°."},
+          "explain": {"tk": "90° − 35° = 55°.", "ru": "90° − 35° = 55°."}
+        },
+        {"type": "input",
+          "q": {"tk": "Üçburçlugyň iki içki burçy 45° we 75°. Üçünji burça çatyk daşky burç näçe gradus?", "ru": "Два внутренних угла треугольника 45° и 75°. Сколько градусов внешний угол, смежный с третьим?"},
+          "answer": "120",
+          "hint": {"tk": "Daşky burç oňa çatyk bolmadyk iki içki burçuň jemine deň.", "ru": "Внешний угол равен сумме двух внутренних, не смежных с ним."},
+          "explain": {"tk": "45° + 75° = 120°. Barlag: üçünji burç 60°, 180° − 60° = 120° ✓", "ru": "45° + 75° = 120°. Проверка: третий угол 60°, 180° − 60° = 120° ✓"}
+        },
+        {"type": "world", "text": {
+          "tk": "Şar üstünde çyzylan üçburçluklaryň burçlarynyň jemi 180°-dan uly bolýar. Meselem, Ýeriň Demirgazyk polýusyndan ekwatora iki meridian we ekwatoryň bir bölegi bilen üç göni burçly üçburçluk çyzyp bolýar — onuň burçlarynyň jemi 270°.",
+          "ru": "У треугольников на поверхности шара сумма углов больше 180°. Например, двумя меридианами от Северного полюса до экватора и дугой экватора можно получить треугольник с тремя прямыми углами — сумма его углов 270°."
+        }}
+      ]
+    },
+    {
+      "id": "geometry-7-constructions",
+      "grade": 7,
+      "topic": 5,
+      "title": {"tk": "Sirkul we çyzgyç bilen gurmak", "ru": "Построения циркулем и линейкой"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Gurmaga degişli meselelerde diňe iki gural ulanylýar:\n• Çyzgyç (bölünmesiz) — iki nokadyň üstünden göni çyzyk geçirmek üçin\n• Sirkul — berlen merkezli we radiusly töwerek çyzmak üçin\n\nEsasy gurluşlar:\n1) Berlen burça deň burç gurmak.\n2) Burçuň bissektrisasyny gurmak.\n3) Kesimi deň ikä bölmek (orta perpendikulýar).\n4) Berlen nokatdan göni çyzyga perpendikulýar geçirmek.\n5) Üç tarapy boýunça üçburçluk gurmak.\n\nHer gurluşyň dogrulygy üçburçluklaryň deňlik nyşanlary bilen subut edilýär.",
+          "ru": "В задачах на построение используют только два инструмента:\n• Линейка (без делений) — чтобы провести прямую через две точки\n• Циркуль — чтобы начертить окружность с данным центром и радиусом\n\nОсновные построения:\n1) Построение угла, равного данному.\n2) Построение биссектрисы угла.\n3) Деление отрезка пополам (серединный перпендикуляр).\n4) Построение перпендикуляра из точки к прямой.\n5) Построение треугольника по трём сторонам.\n\nПравильность каждого построения доказывается с помощью признаков равенства треугольников."
+        }},
+        {"type": "example", "text": {
+          "tk": "AB kesimi deň ikä bölmek.\n1) Sirkuly AB-niň ýarysyndan uly radiusa açýarys.\n2) A merkezli töwerek çyzýarys.\n3) Şol radius bilen B merkezli töwerek çyzýarys.\n4) Töwerekler iki nokatda — P we Q-da kesişýär.\n5) PQ göni çyzygy AB-ni O nokatda kesýär: AO = OB.\nSebäbi: ΔAPQ = ΔBPQ (üç tarap boýunça), PQ — orta perpendikulýar.",
+          "ru": "Деление отрезка AB пополам.\n1) Раскрываем циркуль на радиус больше половины AB.\n2) Чертим окружность с центром A.\n3) Тем же радиусом чертим окружность с центром B.\n4) Окружности пересекаются в двух точках — P и Q.\n5) Прямая PQ пересекает AB в точке O: AO = OB.\nПочему: ΔAPQ = ΔBPQ (по трём сторонам), PQ — серединный перпендикуляр."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Kesimi deň ikä bölmek üçin sirkulyň radiusy nähili bolmaly?", "ru": "Каким должен быть радиус циркуля при делении отрезка пополам?"},
+          "options": [{"tk": "Kesimiň ýarysyndan kiçi", "ru": "Меньше половины отрезка"}, {"tk": "Kesimiň ýarysyndan uly", "ru": "Больше половины отрезка"}, {"tk": "Islendik", "ru": "Любой"}],
+          "answer": 1,
+          "hint": {"tk": "Töwerekler kesişmeli.", "ru": "Окружности должны пересечься."},
+          "explain": {"tk": "Radius ýarymdan kiçi bolsa, iki töwerek kesişmeýär we P, Q nokatlar emele gelmeýär.", "ru": "Если радиус меньше половины, окружности не пересекутся и точек P, Q не будет."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Gurmaga degişli meselelerde çyzgyç bilen kesimiň uzynlygyny ölçemäge rugsat berilýär.", "ru": "В задачах на построение линейкой разрешено измерять длину отрезка."},
+          "answer": false,
+          "hint": {"tk": "Klassyky çyzgyçda bölünme barmy?", "ru": "Есть ли у классической линейки деления?"},
+          "explain": {"tk": "Çyzgyç diňe göni çyzyk geçirmek üçin; uzynlyklar diňe sirkul bilen geçirilýär.", "ru": "Линейка служит только для проведения прямых; длины переносят только циркулем."}
+        },
+        {"type": "input",
+          "q": {"tk": "60° burçuň bissektrisasyny gurduk. Emele gelen her burç näçe gradus?", "ru": "Построили биссектрису угла 60°. Сколько градусов каждый из получившихся углов?"},
+          "answer": "30",
+          "hint": {"tk": "Bissektrisa burçy deň ikä bölýär.", "ru": "Биссектриса делит угол пополам."},
+          "explain": {"tk": "60° : 2 = 30°.", "ru": "60° : 2 = 30°."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy üç kesimden üçburçluk gurup bolýar?", "ru": "По каким трём отрезкам можно построить треугольник?"},
+          "options": ["4, 5, 6", "2, 4, 7", "3, 3, 6"],
+          "answer": 0,
+          "hint": {"tk": "Üçburçlugyň deňsizligini ýatla.", "ru": "Вспомните неравенство треугольника."},
+          "explain": {"tk": "4 + 5 = 9 > 6 ✓. 2 + 4 = 6 < 7 we 3 + 3 = 6 = 6 — töwerekler kesişmeýär ýa-da diňe galtaşýar.", "ru": "4 + 5 = 9 > 6 ✓. 2 + 4 = 6 < 7 и 3 + 3 = 6 = 6 — окружности не пересекутся или только коснутся."}
+        },
+        {"type": "world", "text": {
+          "tk": "Gadymy grekleriň üç meşhur meselesi — burçy deň üçe bölmek, kuby iki esse ulaltmak we tegelegi kwadrata öwürmek — sirkul we çyzgyç bilen çözülip bilinmeýär. Muny XIX asyrda matematikler subut etdiler: 1837-nji ýylda Pýer Wansel ilkinji iki meseläni, 1882-nji ýylda Ferdinand fon Lindeman π sanyň transsendentdigini subut edip, üçünjisini ýapdy.",
+          "ru": "Три знаменитые задачи древних греков — трисекция угла, удвоение куба и квадратура круга — неразрешимы циркулем и линейкой. Это доказали в XIX веке: в 1837 году Пьер Ванцель — для первых двух, а в 1882 году Фердинанд фон Линдеман, доказав трансцендентность числа π, закрыл третью."
+        }}
+      ]
+    }
+  ]
+}

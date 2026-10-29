@@ -1,0 +1,42 @@
+{
+  "id": "english",
+  "icon": "🇬🇧",
+  "color": "#7048E8",
+  "title": {"tk": "Iňlis dili", "ru": "Английский язык"},
+  "lessons": [
+    {
+      "id": "eng-5-present-simple",
+      "grade": 5,
+      "title": {"tk": "Present Simple — häzirki ýönekeý zaman", "ru": "Present Simple — настоящее простое время"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Present Simple yzygiderli, adaty hereketler üçin ulanylýar.\n\nI / you / we / they + işlik: I play.\nhe / she / it + işlik + s: She plays.\n\nInkär: don't / doesn't + işlik: He doesn't play.\nSorag: Do / Does …? Does she play?",
+          "ru": "Present Simple используется для регулярных, привычных действий.\n\nI / you / we / they + глагол: I play.\nhe / she / it + глагол + s: She plays.\n\nОтрицание: don't / doesn't + глагол: He doesn't play.\nВопрос: Do / Does …? Does she play?"}},
+        {"type": "example", "text": {
+          "tk": "I go to school every day. — Men her gün mekdebe gidýärin.\nMy brother reads books. — Doganym kitap okaýar.\nDo you like tea? — Siz çaýy halaýarsyňyzmy?",
+          "ru": "I go to school every day. — Я каждый день хожу в школу.\nMy brother reads books. — Мой брат читает книги.\nDo you like tea? — Вы любите чай?"}},
+        {"type": "choice",
+          "q": {"tk": "Dogry görnüşi saýlaň: She ___ English.", "ru": "Выберите правильную форму: She ___ English."},
+          "options": ["speak", "speaks", "speaking"],
+          "answer": 1,
+          "hint": {"tk": "she → işlige -s goşulýar.", "ru": "she → к глаголу добавляется -s."},
+          "explain": {"tk": "He/she/it bilen: speaks.", "ru": "С he/she/it: speaks."}},
+        {"type": "choice",
+          "q": {"tk": "___ they live in Ashgabat?", "ru": "___ they live in Ashgabat?"},
+          "options": ["Do", "Does", "Is"],
+          "answer": 0,
+          "hint": {"tk": "they — köplük san.", "ru": "they — множественное число."},
+          "explain": {"tk": "I/you/we/they bilen sorag: Do.", "ru": "С I/you/we/they вопрос строится с Do."}},
+        {"type": "input",
+          "q": {"tk": "Inkär görnüşini ýazyň: He ___ (not) watch TV. (bir söz)", "ru": "Напишите отрицание: He ___ (not) watch TV. (одно слово)"},
+          "answer": "doesn't|does not",
+          "hint": {"tk": "he → does + not.", "ru": "he → does + not."},
+          "explain": {"tk": "He doesn't watch TV. «doesn't»-dan soň işlik -s-siz.", "ru": "He doesn't watch TV. После «doesn't» глагол без -s."}},
+        {"type": "world", "text": {
+          "tk": "Iňlis dili dünýäde iň köp öwrenilýän daşary ýurt dili. Iňlis dilinde ýazylan sözlükleriň käbiri 170 müňden gowrak sözi öz içine alýar.",
+          "ru": "Английский — самый изучаемый иностранный язык в мире. Некоторые словари английского языка содержат более 170 тысяч слов."}}
+      ]
+    }
+  ]
+}

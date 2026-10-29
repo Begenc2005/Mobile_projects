@@ -1,0 +1,322 @@
+{
+  "grade": 10,
+  "subject": "chemistry",
+  "lessons": [
+    {
+      "id": "chemistry-10-organic-chemistry-intro",
+      "grade": 10,
+      "topic": 0,
+      "title": {"tk": "Organiki himiýa we himiki gurluş nazaryýeti", "ru": "Органическая химия и теория химического строения"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Organiki himiýa — uglerodyň birleşmelerini öwrenýän ylym (CO, CO₂, karbonatlar we käbir beýleki ýönekeý birleşmelerden başga). Häzir millionlarça organiki madda belli.\n\nUglerodyň aýratynlyklary:\n• organiki birleşmelerde ol hemişe dört walentli;\n• uglerod atomlary biri-biri bilen zynjyr (göni, şahalanan, halka) emele getirýär;\n• ýeke (C–C), goşa (C=C) we üçlenen (C≡C) baglanyşyklar bolýar.\n\nA. M. Butlerowyň himiki gurluş nazaryýeti (1861):\n• molekulada atomlar belli bir tertipde walentlige laýyklykda birleşýär;\n• maddanyň häsiýetleri diňe düzümine däl, gurluşyna hem bagly.\n\nIzomerler — düzümi (molekulýar formulasy) birmeňzeş, gurluşy we häsiýetleri dürli maddalar.\nGomologlar — gurluşy meňzeş, düzümi bir ýa-da birnäçe CH₂ topar bilen tapawutlanýan maddalar.",
+          "ru": "Органическая химия — наука о соединениях углерода (кроме CO, CO₂, карбонатов и некоторых других простых соединений). Сегодня известны миллионы органических веществ.\n\nОсобенности углерода:\n• в органических соединениях он всегда четырёхвалентен;\n• атомы углерода соединяются друг с другом в цепи (прямые, разветвлённые, циклы);\n• бывают одинарные (C–C), двойные (C=C) и тройные (C≡C) связи.\n\nТеория химического строения А. М. Бутлерова (1861):\n• атомы в молекуле соединены в определённом порядке согласно валентности;\n• свойства веществ зависят не только от состава, но и от строения.\n\nИзомеры — вещества с одинаковым составом (молекулярной формулой), но разным строением и свойствами.\nГомологи — вещества сходного строения, отличающиеся по составу на одну или несколько групп CH₂."
+        }},
+        {"type": "example", "text": {
+          "tk": "C₂H₆O formulaly iki izomer:\n\n1) Etil spirti: CH₃–CH₂–OH. Adaty şertlerde suwuklyk, 78 °C-de gaýnaýar, suw bilen islendik gatnaşykda garyşýar, natriý bilen reaksiýa girýär.\n2) Dimetil efiri: CH₃–O–CH₃. Adaty şertlerde gaz, natriý bilen reaksiýa girmeýär.\n\nAtomlar birmeňzeş (2 C, 6 H, 1 O), ýöne tertibi başga — şonuň üçin häsiýetleri düýpgöter tapawutly. Bu Butlerowyň nazaryýetiniň esasy pikiri.",
+          "ru": "Два изомера с формулой C₂H₆O:\n\n1) Этиловый спирт: CH₃–CH₂–OH. При обычных условиях — жидкость, кипит при 78 °C, смешивается с водой в любых отношениях, реагирует с натрием.\n2) Диметиловый эфир: CH₃–O–CH₃. При обычных условиях — газ, с натрием не реагирует.\n\nАтомы одни и те же (2 C, 6 H, 1 O), но порядок соединения разный — поэтому свойства совсем разные. Это главная идея теории Бутлерова."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Organiki birleşmelerde uglerodyň walentligi näçe?", "ru": "Какова валентность углерода в органических соединениях?"},
+          "options": ["II", "III", "IV"],
+          "answer": 2,
+          "hint": {"tk": "Metanyň formulasyny ýada salyň: CH₄.", "ru": "Вспомните формулу метана: CH₄."},
+          "explain": {"tk": "Uglerod organiki birleşmelerde dört walentli: metanda ol dört wodorod atomy bilen baglanyşýar.", "ru": "Углерод в органических соединениях четырёхвалентен: в метане он связан с четырьмя атомами водорода."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Izomerleriň molekulýar formulasy birmeňzeş, ýöne häsiýetleri dürli bolup biler.", "ru": "Изомеры имеют одинаковую молекулярную формулу, но могут иметь разные свойства."},
+          "answer": true,
+          "hint": {"tk": "Etil spirti we dimetil efiri mysalyna serediň.", "ru": "Вспомните пример этанола и диметилового эфира."},
+          "explain": {"tk": "Izomerleriň düzümi birmeňzeş, gurluşy dürli, şonuň üçin häsiýetleri hem dürli.", "ru": "У изомеров одинаковый состав, но разное строение, поэтому и свойства разные."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy jübüt gomologlardyr?", "ru": "Какая пара веществ является гомологами?"},
+          "options": [
+            {"tk": "CH₄ we C₂H₆", "ru": "CH₄ и C₂H₆"},
+            {"tk": "C₂H₄ we C₂H₆", "ru": "C₂H₄ и C₂H₆"},
+            {"tk": "CH₃–CH₂–OH we CH₃–O–CH₃", "ru": "CH₃–CH₂–OH и CH₃–O–CH₃"}
+          ],
+          "answer": 0,
+          "hint": {"tk": "Gomologlar CH₂ toparyna tapawutlanýar we gurluşy meňzeş.", "ru": "Гомологи отличаются на группу CH₂ и имеют сходное строение."},
+          "explain": {"tk": "Metan we etan iki hem alkan, C₂H₆ − CH₄ = CH₂. Üçünji jübüt izomerler, ikinjisi bolsa dürli klaslaryň maddalary.", "ru": "Метан и этан — оба алканы, C₂H₆ − CH₄ = CH₂. Третья пара — изомеры, вторая — вещества разных классов."}
+        },
+        {"type": "input",
+          "q": {"tk": "Butlerow himiki gurluş nazaryýetini haýsy ýylda beýan etdi?", "ru": "В каком году Бутлеров изложил теорию химического строения?"},
+          "answer": "1861",
+          "hint": {"tk": "XIX asyryň 60-njy ýyllarynyň başy.", "ru": "Начало 60-х годов XIX века."},
+          "explain": {"tk": "A. M. Butlerow nazaryýetini 1861-nji ýylda Şpeýer şäherindäki nemes tebigatçylarynyň gurultaýynda yglan etdi.", "ru": "А. М. Бутлеров представил теорию в 1861 году на съезде немецких естествоиспытателей в Шпейере."}
+        },
+        {"type": "world", "text": {
+          "tk": "1828-nji ýylda nemes himigi Fridrih Wýoler organiki däl maddadan (ammoniý sianatdan) karbamidi (moçewinany) aldy. Şondan öň organiki maddalary diňe janly organizmler döredip biler diýip pikir edýärdiler. Bu tejribe organiki sinteze ýol açdy.",
+          "ru": "В 1828 году немецкий химик Фридрих Вёлер получил мочевину из неорганического вещества (цианата аммония). До этого считалось, что органические вещества могут создавать только живые организмы. Этот опыт открыл путь органическому синтезу."
+        }}
+      ]
+    },
+    {
+      "id": "chemistry-10-alkanes",
+      "grade": 10,
+      "topic": 1,
+      "title": {"tk": "Alkanlar (doýgun uglewodorodlar)", "ru": "Алканы (предельные углеводороды)"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Alkanlar — uglerod atomlary diňe ýeke baglanyşyklar bilen birleşen uglewodorodlar. Umumy formula: CₙH₂ₙ₊₂.\nUglerod atomlary sp³-gibridleşen, burç 109°28′ (tetraedr).\n\nGomologik hatar: metan CH₄, etan C₂H₆, propan C₃H₈, butan C₄H₁₀, pentan C₅H₁₂ ...\nButandan başlap gurluş izomeriýasy bar (butan we izobutan).\n\nHäsiýetleri:\n• C₁–C₄ — gazlar, C₅–C₁₅ — suwuklyklar, galanlary gaty; suwda ereýmeýär.\n• Himiki taýdan durnukly; esasy reaksiýalary — orun alyşma we ýanma.\n• Galogenlemek (ýagtylykda): CH₄ + Cl₂ → CH₃Cl + HCl.\n• Ýanma: CH₄ + 2O₂ → CO₂ + 2H₂O + ýylylyk.\n• Gyzdyrylanda krekinge we degidrirlemä sezewar bolýar.",
+          "ru": "Алканы — углеводороды, в которых атомы углерода соединены только одинарными связями. Общая формула: CₙH₂ₙ₊₂.\nАтомы углерода в sp³-гибридизации, угол 109°28′ (тетраэдр).\n\nГомологический ряд: метан CH₄, этан C₂H₆, пропан C₃H₈, бутан C₄H₁₀, пентан C₅H₁₂ ...\nНачиная с бутана существует структурная изомерия (бутан и изобутан).\n\nСвойства:\n• C₁–C₄ — газы, C₅–C₁₅ — жидкости, остальные — твёрдые; в воде не растворяются.\n• Химически устойчивы; основные реакции — замещение и горение.\n• Галогенирование (на свету): CH₄ + Cl₂ → CH₃Cl + HCl.\n• Горение: CH₄ + 2O₂ → CO₂ + 2H₂O + теплота.\n• При нагревании подвергаются крекингу и дегидрированию."
+        }},
+        {"type": "example", "text": {
+          "tk": "Propanyň ýanma deňlemesini düzüň.\n\n1) C₃H₈ + O₂ → CO₂ + H₂O.\n2) Uglerod: 3 atom → 3CO₂.\n3) Wodorod: 8 atom → 4H₂O.\n4) Kislorod sagda: 3·2 + 4·1 = 10 atom → 5O₂.\nJogap: C₃H₈ + 5O₂ → 3CO₂ + 4H₂O.\nPropan-butan garyndysy gaz ballonlarynda ulanylýar.",
+          "ru": "Составьте уравнение горения пропана.\n\n1) C₃H₈ + O₂ → CO₂ + H₂O.\n2) Углерод: 3 атома → 3CO₂.\n3) Водород: 8 атомов → 4H₂O.\n4) Кислород справа: 3·2 + 4·1 = 10 атомов → 5O₂.\nОтвет: C₃H₈ + 5O₂ → 3CO₂ + 4H₂O.\nПропан-бутановая смесь используется в газовых баллонах."
+        }},
+        {"type": "input",
+          "q": {"tk": "Alkanyň molekulasynda 6 uglerod atomy bar. Onda näçe wodorod atomy bar?", "ru": "В молекуле алкана 6 атомов углерода. Сколько в ней атомов водорода?"},
+          "answer": "14",
+          "hint": {"tk": "CₙH₂ₙ₊₂.", "ru": "CₙH₂ₙ₊₂."},
+          "explain": {"tk": "2·6 + 2 = 14. Bu geksan C₆H₁₄.", "ru": "2·6 + 2 = 14. Это гексан C₆H₁₄."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Metan üçin haýsy reaksiýa häsiýetli?", "ru": "Какая реакция характерна для метана?"},
+          "options": [
+            {"tk": "Bromly suw bilen birleşme", "ru": "Присоединение бромной воды"},
+            {"tk": "Ýagtylykda hlor bilen orun alyşma", "ru": "Замещение с хлором на свету"},
+            {"tk": "Polimerleşme", "ru": "Полимеризация"}
+          ],
+          "answer": 1,
+          "hint": {"tk": "Alkanlarda goşa baglanyşyk barmy?", "ru": "Есть ли в алканах кратные связи?"},
+          "explain": {"tk": "Alkanlar doýgun, goşa baglanyşyk ýok, şonuň üçin birleşme we polimerleşme reaksiýalaryna girmeýär. Olar üçin orun alyşma häsiýetli.", "ru": "Алканы предельные, кратных связей нет, поэтому они не вступают в присоединение и полимеризацию. Для них характерно замещение."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Butanyň iki gurluş izomeri bar.", "ru": "У бутана существуют два структурных изомера."},
+          "answer": true,
+          "hint": {"tk": "Dört uglerod atomyny göni ýa-da şahalanan zynjyra ýerleşdirip bolýar.", "ru": "Четыре атома углерода можно расположить в прямую или разветвлённую цепь."},
+          "explain": {"tk": "C₄H₁₀: n-butan CH₃–CH₂–CH₂–CH₃ we izobutan (2-metilpropan) CH₃–CH(CH₃)–CH₃.", "ru": "C₄H₁₀: н-бутан CH₃–CH₂–CH₂–CH₃ и изобутан (2-метилпропан) CH₃–CH(CH₃)–CH₃."}
+        },
+        {"type": "input",
+          "q": {"tk": "1 mol metan doly ýananda näçe mol kislorod sarp edilýär?", "ru": "Сколько моль кислорода расходуется при полном сгорании 1 моль метана?"},
+          "answer": "2",
+          "hint": {"tk": "CH₄ + ?O₂ → CO₂ + 2H₂O.", "ru": "CH₄ + ?O₂ → CO₂ + 2H₂O."},
+          "explain": {"tk": "Sagda kislorod: 2 (CO₂) + 2 (2H₂O) = 4 atom = 2O₂. Diýmek, 2 mol.", "ru": "Кислород справа: 2 (CO₂) + 2 (2H₂O) = 4 атома = 2O₂. Значит, 2 моль."}
+        },
+        {"type": "world", "text": {
+          "tk": "Tebigy gazyň esasy düzümi metandyr. Metanyň hiç hili ysy ýok, şonuň üçin turbalara iberilýän gaza ýörite ýakymsyz ysly maddalar (merkaptanlar) goşulýar — şeýdip, gaz syzanda ony duýmak bolýar.",
+          "ru": "Основной компонент природного газа — метан. Метан не имеет запаха, поэтому в газ, подаваемый по трубам, специально добавляют вещества с резким запахом (меркаптаны) — так утечку можно почувствовать."
+        }}
+      ]
+    },
+    {
+      "id": "chemistry-10-alkenes-alkynes",
+      "grade": 10,
+      "topic": 2,
+      "title": {"tk": "Alkenler we alkinler", "ru": "Алкены и алкины"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Alkenler — bir goşa C=C baglanyşykly doýmadyk uglewodorodlar. Umumy formula: CₙH₂ₙ (n ≥ 2). Ilkinji wekili — eten (etilen) CH₂=CH₂.\nGoşa baglanyşyk bir σ- we bir π-baglanyşykdan durýar; π-baglanyşyk ýeňil üzülýär.\n\nAlkinler — bir üçlenen C≡C baglanyşykly uglewodorodlar. Umumy formula: CₙH₂ₙ₋₂ (n ≥ 2). Ilkinji wekili — etin (asetilen) HC≡CH.\n\nHäsiýetli reaksiýalar — birleşme:\n• gidrirleme: CH₂=CH₂ + H₂ → CH₃–CH₃;\n• galogenleme: CH₂=CH₂ + Br₂ → CH₂Br–CH₂Br (bromly suw reňksizlenýär — doýmadyk baglanyşygyň hil reaksiýasy);\n• gidratasiýa: CH₂=CH₂ + H₂O → C₂H₅OH;\n• polimerleşme: n CH₂=CH₂ → (–CH₂–CH₂–)ₙ — polietilen.\nAsetileniň ýanmasy örän gyzgyn ýalyn berýär (metallary kesmekde we kebşirlemekde ulanylýar).",
+          "ru": "Алкены — непредельные углеводороды с одной двойной связью C=C. Общая формула: CₙH₂ₙ (n ≥ 2). Первый представитель — этен (этилен) CH₂=CH₂.\nДвойная связь состоит из одной σ- и одной π-связи; π-связь легко разрывается.\n\nАлкины — углеводороды с одной тройной связью C≡C. Общая формула: CₙH₂ₙ₋₂ (n ≥ 2). Первый представитель — этин (ацетилен) HC≡CH.\n\nХарактерные реакции — присоединение:\n• гидрирование: CH₂=CH₂ + H₂ → CH₃–CH₃;\n• галогенирование: CH₂=CH₂ + Br₂ → CH₂Br–CH₂Br (бромная вода обесцвечивается — качественная реакция на кратную связь);\n• гидратация: CH₂=CH₂ + H₂O → C₂H₅OH;\n• полимеризация: n CH₂=CH₂ → (–CH₂–CH₂–)ₙ — полиэтилен.\nГорение ацетилена даёт очень горячее пламя (используется для резки и сварки металлов)."
+        }},
+        {"type": "example", "text": {
+          "tk": "Gaz etanmy ýa-da etenmi — nädip anyklamaly?\n\n1) Gazy bromly suwdan (sary-goňur reňkli) geçirýäris.\n2) Eger reňk ýitse, gazda goşa baglanyşyk bar: CH₂=CH₂ + Br₂ → CH₂Br–CH₂Br. Bu eten.\n3) Eger reňk saklansa — doýgun gaz, ýagny etan (ol adaty şertlerde brom bilen birleşmeýär).\n\nŞeýle hem: 1 mol asetilen 2 mol H₂ birleşdirip, etana öwrülýär: HC≡CH + 2H₂ → CH₃–CH₃.",
+          "ru": "Как определить, этан это или этен?\n\n1) Пропускаем газ через бромную воду (жёлто-бурого цвета).\n2) Если окраска исчезла — в газе есть двойная связь: CH₂=CH₂ + Br₂ → CH₂Br–CH₂Br. Это этен.\n3) Если окраска сохранилась — газ предельный, то есть этан (при обычных условиях с бромом не присоединяется).\n\nТакже: 1 моль ацетилена присоединяет 2 моль H₂ и превращается в этан: HC≡CH + 2H₂ → CH₃–CH₃."
+        }},
+        {"type": "choice",
+          "q": {"tk": "C₃H₄ haýsy klasa degişli bolup biler?", "ru": "К какому классу может относиться C₃H₄?"},
+          "options": [
+            {"tk": "Alkanlar", "ru": "Алканы"},
+            {"tk": "Alkenler", "ru": "Алкены"},
+            {"tk": "Alkinler", "ru": "Алкины"}
+          ],
+          "answer": 2,
+          "hint": {"tk": "n = 3 üçin umumy formulalary barlaň.", "ru": "Проверьте общие формулы при n = 3."},
+          "explain": {"tk": "CₙH₂ₙ₋₂: 2·3 − 2 = 4. Bu propin HC≡C–CH₃. Alkan C₃H₈, alken C₃H₆ bolardy.", "ru": "CₙH₂ₙ₋₂: 2·3 − 2 = 4. Это пропин HC≡C–CH₃. Алкан был бы C₃H₈, алкен — C₃H₆."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Etilen bromly suwy reňksizlendirýär.", "ru": "Этилен обесцвечивает бромную воду."},
+          "answer": true,
+          "hint": {"tk": "Etileniň molekulasynda nähili baglanyşyk bar?", "ru": "Какая связь есть в молекуле этилена?"},
+          "explain": {"tk": "Etileniň goşa baglanyşygy brom birleşdirýär we dibrometan emele gelýär, reňk ýitýär.", "ru": "По двойной связи этилена присоединяется бром, образуется дибромэтан, окраска исчезает."}
+        },
+        {"type": "input",
+          "q": {"tk": "1 mol propin (C₃H₄) doly gidrirlemek üçin näçe mol wodorod gerek?", "ru": "Сколько моль водорода нужно для полного гидрирования 1 моль пропина (C₃H₄)?"},
+          "answer": "2",
+          "hint": {"tk": "Üçlenen baglanyşykda iki π-baglanyşyk bar.", "ru": "В тройной связи две π-связи."},
+          "explain": {"tk": "C₃H₄ + 2H₂ → C₃H₈. Her π-baglanyşyk bir H₂ molekulasyny birleşdirýär.", "ru": "C₃H₄ + 2H₂ → C₃H₈. Каждая π-связь присоединяет одну молекулу H₂."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Polietilen haýsy reaksiýa netijesinde alynýar?", "ru": "В результате какой реакции получают полиэтилен?"},
+          "options": [
+            {"tk": "Etileniň polimerleşmesi", "ru": "Полимеризация этилена"},
+            {"tk": "Metanyň ýanmasy", "ru": "Горение метана"},
+            {"tk": "Etanyň hlorlanmasy", "ru": "Хлорирование этана"}
+          ],
+          "answer": 0,
+          "hint": {"tk": "Adynda monomeriň ady bar.", "ru": "В названии есть название мономера."},
+          "explain": {"tk": "Köp sanly etilen molekulasy goşa baglanyşyklary açylyp, uzyn zynjyra birleşýär: n CH₂=CH₂ → (–CH₂–CH₂–)ₙ.", "ru": "Множество молекул этилена за счёт раскрытия двойных связей соединяются в длинную цепь: n CH₂=CH₂ → (–CH₂–CH₂–)ₙ."}
+        },
+        {"type": "world", "text": {
+          "tk": "Etilen ösümlik gormonydyr: bişen miweler ony bölüp çykarýar we bu golaýdaky miweleriň bişmegini çaltlandyrýar. Şonuň üçin ýaşyl banany bişen alma bilen bir halta salsaň, ol çalt sarýalýar.",
+          "ru": "Этилен — растительный гормон: спелые плоды выделяют его, и это ускоряет созревание соседних плодов. Поэтому зелёный банан в одном пакете со спелым яблоком быстрее желтеет."
+        }}
+      ]
+    },
+    {
+      "id": "chemistry-10-arenes",
+      "grade": 10,
+      "topic": 3,
+      "title": {"tk": "Arenler: benzol", "ru": "Арены: бензол"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Arenler (aromatik uglewodorodlar) — molekulasynda benzol halkasy bolan uglewodorodlar. Benzol gomologlarynyň umumy formulasy: CₙH₂ₙ₋₆ (n ≥ 6).\n\nBenzol C₆H₆:\n• alty uglerod atomy dogry altyburçluk emele getirýär, ähli C–C baglanyşyklar deň (0,140 nm);\n• alty p-elektron bitewi π-elektron bulutyny (aromatik ulgamy) emele getirýär — şonuň üçin benzol durnukly;\n• reňksiz, ýörite ysly suwuklyk, suwda ereýmeýär, zäherli.\n\nReaksiýalary:\n• orun alyşma (has häsiýetli): nitrlemek C₆H₆ + HNO₃ → C₆H₅NO₂ + H₂O (H₂SO₄ katalizator); galogenlemek C₆H₆ + Br₂ → C₆H₅Br + HBr (FeBr₃ katalizator);\n• birleşme kyn şertlerde: C₆H₆ + 3H₂ → C₆H₁₂ (siklogeksan);\n• bromly suwy we KMnO₄ ergini reňksizlendirmeýär.\nToluol C₆H₅–CH₃ — benzolyň iň ýakyn gomology.",
+          "ru": "Арены (ароматические углеводороды) — углеводороды, в молекуле которых есть бензольное кольцо. Общая формула гомологов бензола: CₙH₂ₙ₋₆ (n ≥ 6).\n\nБензол C₆H₆:\n• шесть атомов углерода образуют правильный шестиугольник, все связи C–C одинаковы (0,140 нм);\n• шесть p-электронов образуют единое π-электронное облако (ароматическую систему) — поэтому бензол устойчив;\n• бесцветная жидкость с характерным запахом, в воде не растворяется, ядовит.\n\nРеакции:\n• замещение (наиболее характерно): нитрование C₆H₆ + HNO₃ → C₆H₅NO₂ + H₂O (катализатор H₂SO₄); галогенирование C₆H₆ + Br₂ → C₆H₅Br + HBr (катализатор FeBr₃);\n• присоединение в жёстких условиях: C₆H₆ + 3H₂ → C₆H₁₂ (циклогексан);\n• не обесцвечивает бромную воду и раствор KMnO₄.\nТолуол C₆H₅–CH₃ — ближайший гомолог бензола."
+        }},
+        {"type": "example", "text": {
+          "tk": "Benzolyň molýar massasyny we ondaky uglerodyň massa paýyny hasaplaň.\n\n1) M(C₆H₆) = 6·12 + 6·1 = 72 + 6 = 78 g/mol.\n2) w(C) = 72 / 78 ≈ 0,923 = 92,3 %.\n\nUglerodyň paýy ýokary bolany üçin benzol tüssä ýanýar: howada ony doly ýakmaga kislorod ýetmeýär.\nDoly ýanma: 2C₆H₆ + 15O₂ → 12CO₂ + 6H₂O.",
+          "ru": "Вычислите молярную массу бензола и массовую долю углерода в нём.\n\n1) M(C₆H₆) = 6·12 + 6·1 = 72 + 6 = 78 г/моль.\n2) w(C) = 72 / 78 ≈ 0,923 = 92,3 %.\n\nИз-за высокой доли углерода бензол горит коптящим пламенем: на воздухе кислорода не хватает для полного сгорания.\nПолное горение: 2C₆H₆ + 15O₂ → 12CO₂ + 6H₂O."
+        }},
+        {"type": "input",
+          "q": {"tk": "Toluolyň (C₇H₈) molýar massasy näçe g/mol?", "ru": "Чему равна молярная масса толуола (C₇H₈) в г/моль?"},
+          "answer": "92",
+          "hint": {"tk": "C = 12, H = 1.", "ru": "C = 12, H = 1."},
+          "explain": {"tk": "7·12 + 8·1 = 84 + 8 = 92 g/mol.", "ru": "7·12 + 8·1 = 84 + 8 = 92 г/моль."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Benzol üçin haýsy reaksiýa iň häsiýetli?", "ru": "Какая реакция наиболее характерна для бензола?"},
+          "options": [
+            {"tk": "Bromly suw bilen birleşme", "ru": "Присоединение бромной воды"},
+            {"tk": "Polimerleşme", "ru": "Полимеризация"},
+            {"tk": "Katalizator bilen orun alyşma", "ru": "Замещение в присутствии катализатора"}
+          ],
+          "answer": 2,
+          "hint": {"tk": "Aromatik halka durnukly we ony bozmak kyn.", "ru": "Ароматическое кольцо устойчиво, его трудно разрушить."},
+          "explain": {"tk": "Orun alyşmada aromatik ulgam saklanýar, şonuň üçin benzol ýeňil nitrlenýär we galogenlenýär, birleşme bolsa diňe kyn şertlerde bolýar.", "ru": "При замещении ароматическая система сохраняется, поэтому бензол легко нитруется и галогенируется, а присоединение идёт только в жёстких условиях."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Benzolyň molekulasynda ýeke we goşa baglanyşyklaryň uzynlygy dürli.", "ru": "В молекуле бензола длины одинарных и двойных связей различны."},
+          "answer": false,
+          "hint": {"tk": "π-elektronlar nähili paýlanýar?", "ru": "Как распределены π-электроны?"},
+          "explain": {"tk": "Benzolda aýratyn ýeke we goşa baglanyşyklar ýok: π-elektronlar tutuş halka boýunça deň paýlanan, ähli C–C baglanyşyklar deň.", "ru": "В бензоле нет отдельных одинарных и двойных связей: π-электроны равномерно распределены по кольцу, все связи C–C одинаковы."}
+        },
+        {"type": "input",
+          "q": {"tk": "1 mol benzoly siklogeksana öwürmek üçin näçe mol wodorod gerek?", "ru": "Сколько моль водорода нужно, чтобы превратить 1 моль бензола в циклогексан?"},
+          "answer": "3",
+          "hint": {"tk": "C₆H₆ → C₆H₁₂: näçe wodorod atomy goşulýar?", "ru": "C₆H₆ → C₆H₁₂: сколько атомов водорода добавляется?"},
+          "explain": {"tk": "12 − 6 = 6 atom H = 3 H₂ molekula: C₆H₆ + 3H₂ → C₆H₁₂.", "ru": "12 − 6 = 6 атомов H = 3 молекулы H₂: C₆H₆ + 3H₂ → C₆H₁₂."}
+        },
+        {"type": "world", "text": {
+          "tk": "Benzoly 1825-nji ýylda Maýkl Faradeý açdy. Onuň halka görnüşli gurluşyny 1865-nji ýylda nemes himigi Awgust Kekule teklip etdi. Kekule soňra bu pikiriň ýarym ukuda öz guýrugyny dişlän ýylan görnüşinde gelendigini gürrüň beripdir.",
+          "ru": "Бензол открыл Майкл Фарадей в 1825 году. Циклическое строение его молекулы предложил немецкий химик Август Кекуле в 1865 году. Позже Кекуле рассказывал, что идея пришла ему в полудрёме в виде змеи, кусающей свой хвост."
+        }}
+      ]
+    },
+    {
+      "id": "chemistry-10-alcohols",
+      "grade": 10,
+      "topic": 4,
+      "title": {"tk": "Spirtler", "ru": "Спирты"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Spirtler — molekulasynda doýgun uglerod atomy bilen birleşen bir ýa-da birnäçe gidroksil topary (–OH) bolan organiki maddalar.\nBir atomly doýgun spirtleriň umumy formulasy: CₙH₂ₙ₊₁OH.\n• Metanol CH₃OH — örän zäherli.\n• Etanol C₂H₅OH.\nKöp atomly spirtler: etilenglikol HO–CH₂–CH₂–OH, gliserin C₃H₅(OH)₃.\n\nMolekulalaryň arasyndaky wodorod baglanyşyklary sebäpli spirtleriň gaýnama temperaturasy degişli uglewodorodlaryňkydan has ýokary.\n\nHimiki häsiýetleri:\n• işjeň metallar bilen: 2C₂H₅OH + 2Na → 2C₂H₅ONa + H₂↑;\n• ýanma: C₂H₅OH + 3O₂ → 2CO₂ + 3H₂O;\n• degidratasiýa (H₂SO₄, >140 °C): C₂H₅OH → CH₂=CH₂ + H₂O;\n• okislenme (CuO): aldegidler emele gelýär.\nKöp atomly spirtleriň hil reaksiýasy — Cu(OH)₂ bilen açyk gök ergin.",
+          "ru": "Спирты — органические вещества, в молекулах которых одна или несколько гидроксильных групп (–OH) связаны с насыщенным атомом углерода.\nОбщая формула предельных одноатомных спиртов: CₙH₂ₙ₊₁OH.\n• Метанол CH₃OH — очень ядовит.\n• Этанол C₂H₅OH.\nМногоатомные спирты: этиленгликоль HO–CH₂–CH₂–OH, глицерин C₃H₅(OH)₃.\n\nИз-за водородных связей между молекулами температуры кипения спиртов намного выше, чем у соответствующих углеводородов.\n\nХимические свойства:\n• с активными металлами: 2C₂H₅OH + 2Na → 2C₂H₅ONa + H₂↑;\n• горение: C₂H₅OH + 3O₂ → 2CO₂ + 3H₂O;\n• дегидратация (H₂SO₄, >140 °C): C₂H₅OH → CH₂=CH₂ + H₂O;\n• окисление (CuO): образуются альдегиды.\nКачественная реакция на многоатомные спирты — ярко-синий раствор с Cu(OH)₂."
+        }},
+        {"type": "example", "text": {
+          "tk": "9,2 g etanol natriý bilen reaksiýa girende näçe litr wodorod (adaty şertlerde) bölünip çykýar?\n\n1) M(C₂H₅OH) = 2·12 + 6·1 + 16 = 46 g/mol.\n2) ν(C₂H₅OH) = 9,2 / 46 = 0,2 mol.\n3) Deňleme boýunça 2 mol spirtden 1 mol H₂: ν(H₂) = 0,1 mol.\n4) V(H₂) = 0,1 · 22,4 = 2,24 L.",
+          "ru": "Сколько литров водорода (н. у.) выделится при реакции 9,2 г этанола с натрием?\n\n1) M(C₂H₅OH) = 2·12 + 6·1 + 16 = 46 г/моль.\n2) ν(C₂H₅OH) = 9,2 / 46 = 0,2 моль.\n3) По уравнению из 2 моль спирта — 1 моль H₂: ν(H₂) = 0,1 моль.\n4) V(H₂) = 0,1 · 22,4 = 2,24 л."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Haýsy madda bir atomly doýgun spirt?", "ru": "Какое вещество является предельным одноатомным спиртом?"},
+          "options": [
+            {"tk": "C₃H₇OH", "ru": "C₃H₇OH"},
+            {"tk": "C₃H₅(OH)₃", "ru": "C₃H₅(OH)₃"},
+            {"tk": "C₆H₆", "ru": "C₆H₆"}
+          ],
+          "answer": 0,
+          "hint": {"tk": "CₙH₂ₙ₊₁OH formulasyny barlaň.", "ru": "Проверьте формулу CₙH₂ₙ₊₁OH."},
+          "explain": {"tk": "C₃H₇OH (propanol): n = 3, 2·3 + 1 = 7. Gliserin üç atomly spirt, benzol bolsa aren.", "ru": "C₃H₇OH (пропанол): n = 3, 2·3 + 1 = 7. Глицерин — трёхатомный спирт, бензол — арен."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Etanolyň gaýnama temperaturasy deňeşdirerlik molýar massaly etanyňkydan ýokary, sebäbi spirtiň molekulalarynyň arasynda wodorod baglanyşyklary bar.", "ru": "Температура кипения этанола выше, чем у этана с близкой молярной массой, потому что между молекулами спирта есть водородные связи."},
+          "answer": true,
+          "hint": {"tk": "–OH toparynyň wodorody beýleki molekulanyň kislorody bilen täsirleşýär.", "ru": "Водород группы –OH взаимодействует с кислородом соседней молекулы."},
+          "explain": {"tk": "Etanol 78 °C-de gaýnaýar, etan bolsa −89 °C-de. Tapawudy wodorod baglanyşyklary döredýär.", "ru": "Этанол кипит при 78 °C, этан — при −89 °C. Разницу создают водородные связи."}
+        },
+        {"type": "input",
+          "q": {"tk": "Metanolyň (CH₃OH) molýar massasy näçe g/mol?", "ru": "Какова молярная масса метанола (CH₃OH) в г/моль?"},
+          "answer": "32",
+          "hint": {"tk": "C = 12, H = 1, O = 16; wodorod atomlary 4.", "ru": "C = 12, H = 1, O = 16; атомов водорода 4."},
+          "explain": {"tk": "12 + 4·1 + 16 = 32 g/mol.", "ru": "12 + 4·1 + 16 = 32 г/моль."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Täze alnan Cu(OH)₂ bilen açyk gök ergin emele getirýän madda haýsy?", "ru": "Какое вещество образует ярко-синий раствор со свежеосаждённым Cu(OH)₂?"},
+          "options": [
+            {"tk": "Etanol", "ru": "Этанол"},
+            {"tk": "Gliserin", "ru": "Глицерин"},
+            {"tk": "Metan", "ru": "Метан"}
+          ],
+          "answer": 1,
+          "hint": {"tk": "Bu köp atomly spirtleriň hil reaksiýasy.", "ru": "Это качественная реакция на многоатомные спирты."},
+          "explain": {"tk": "Gliserin üç atomly spirt; goňşy –OH toparlary mis bilen açyk gök kompleks emele getirýär. Etanol bu reaksiýany bermeýär.", "ru": "Глицерин — трёхатомный спирт; соседние группы –OH образуют с медью ярко-синий комплекс. Этанол такой реакции не даёт."}
+        },
+        {"type": "world", "text": {
+          "tk": "Braziliýa 1970-nji ýyllardan bäri şeker gamyşyndan alnan etanoly awtomobil ýangyjy hökmünde giňden ulanýar. Ol ýerde satylýan benzine etanol goşulýar, köp awtomobiller bolsa arassa etanolda hem işläp bilýär.",
+          "ru": "Бразилия с 1970-х годов широко использует этанол из сахарного тростника как автомобильное топливо. В продаваемый там бензин добавляют этанол, а многие автомобили могут ездить и на чистом этаноле."
+        }}
+      ]
+    },
+    {
+      "id": "chemistry-10-oil-natural-gas",
+      "grade": 10,
+      "topic": 5,
+      "title": {"tk": "Nebit we tebigy gaz", "ru": "Нефть и природный газ"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Tebigy gaz — esasan metandan (adatça 80–98 %) ybarat, etan, propan, butan we beýleki gazlaryň goşundysy bolan garyndy. Ol arassa ýangyç we himiýa senagaty üçin çig mal.\nIlaýly nebit gazy nebit bilen bile çykýar we propan-butan garyndysyna baý.\n\nNebit — esasan uglewodorodlaryň (alkanlar, sikloalkanlar, arenler) çylşyrymly garyndysy. Onuň belli bir formulasy we gaýnama temperaturasy ýok.\n\nNebiti gaýtadan işlemek:\n• Fraksiýalara bölmek (distillýasiýa) — fiziki proses, gaýnama temperaturasy boýunça bölmek: benzin (~40–200 °C), ligroin, kerosin, dizel ýangyjy; galyndy — mazut.\n• Kreking — himiki proses, uzyn molekulalary gysga bölmek: C₁₆H₃₄ → C₈H₁₈ + C₈H₁₆. Benziniň çykymyny artdyrýar.\n• Riforming — benziniň hilini (oktan sanyny) ýokarlandyrmak, şol sanda arenleri almak.\n\nBenziniň oktan sany — onuň detonasiýa durnuklylygy: izooktan = 100, n-geptan = 0.",
+          "ru": "Природный газ — смесь, состоящая в основном из метана (обычно 80–98 %) с примесью этана, пропана, бутана и других газов. Это чистое топливо и сырьё для химической промышленности.\nПопутный нефтяной газ добывается вместе с нефтью и богат пропан-бутановой смесью.\n\nНефть — сложная смесь в основном углеводородов (алканов, циклоалканов, аренов). У неё нет определённой формулы и температуры кипения.\n\nПереработка нефти:\n• Фракционная перегонка (ректификация) — физический процесс, разделение по температурам кипения: бензин (~40–200 °C), лигроин, керосин, дизельное топливо; остаток — мазут.\n• Крекинг — химический процесс, расщепление длинных молекул на короткие: C₁₆H₃₄ → C₈H₁₈ + C₈H₁₆. Повышает выход бензина.\n• Риформинг — повышение качества (октанового числа) бензина, в том числе получение аренов.\n\nОктановое число бензина — его детонационная стойкость: изооктан = 100, н-гептан = 0."
+        }},
+        {"type": "example", "text": {
+          "tk": "Kreking reaksiýasynda gekzadekandan C₁₆H₃₄ oktan C₈H₁₈ we başga bir madda emele geldi. Ol näme?\n\n1) C₁₆H₃₄ → C₈H₁₈ + X.\n2) Uglerod: 16 − 8 = 8; wodorod: 34 − 18 = 16. X = C₈H₁₆.\n3) C₈H₁₆ umumy formula CₙH₂ₙ laýyk gelýär — bu alken (okten).\nKrekingde hemişe doýgun we doýmadyk uglewodorodlar bile emele gelýär.",
+          "ru": "При крекинге гексадекана C₁₆H₃₄ образовались октан C₈H₁₈ и ещё одно вещество. Какое?\n\n1) C₁₆H₃₄ → C₈H₁₈ + X.\n2) Углерод: 16 − 8 = 8; водород: 34 − 18 = 16. X = C₈H₁₆.\n3) C₈H₁₆ соответствует общей формуле CₙH₂ₙ — это алкен (октен).\nПри крекинге всегда образуются одновременно предельные и непредельные углеводороды."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Tebigy gazyň esasy düzüm bölegi haýsy?", "ru": "Каков основной компонент природного газа?"},
+          "options": [
+            {"tk": "Propan", "ru": "Пропан"},
+            {"tk": "Metan", "ru": "Метан"},
+            {"tk": "Wodorod", "ru": "Водород"}
+          ],
+          "answer": 1,
+          "hint": {"tk": "Iň ýönekeý alkan.", "ru": "Самый простой алкан."},
+          "explain": {"tk": "Tebigy gazyň köp bölegi metan CH₄; propan we butan az mukdarda bolýar.", "ru": "Природный газ в основном состоит из метана CH₄; пропан и бутан присутствуют в небольших количествах."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Nebitiň fraksiýalara bölünmegi himiki prosesdir.", "ru": "Фракционная перегонка нефти — химический процесс."},
+          "answer": false,
+          "hint": {"tk": "Bu prosesde täze maddalar emele gelýärmi?", "ru": "Образуются ли при этом новые вещества?"},
+          "explain": {"tk": "Distillýasiýada maddalar diňe gaýnama temperaturasy boýunça bölünýär, täze maddalar emele gelmeýär — bu fiziki proses. Kreking bolsa himiki proses.", "ru": "При перегонке вещества лишь разделяются по температурам кипения, новые вещества не образуются — это физический процесс. А крекинг — химический."}
+        },
+        {"type": "input",
+          "q": {"tk": "Kreking: C₁₀H₂₂ → C₅H₁₂ + CₓH₁₀. x näçä deň?", "ru": "Крекинг: C₁₀H₂₂ → C₅H₁₂ + CₓH₁₀. Чему равно x?"},
+          "answer": "5",
+          "hint": {"tk": "Uglerod atomlarynyň sany saklanýar.", "ru": "Число атомов углерода сохраняется."},
+          "explain": {"tk": "10 − 5 = 5, ikinji önüm C₅H₁₀ (penten). Wodorod barlagy: 12 + 10 = 22.", "ru": "10 − 5 = 5, второй продукт C₅H₁₀ (пентен). Проверка по водороду: 12 + 10 = 22."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy proses benziniň oktan sanyny ýokarlandyrmak üçin ulanylýar?", "ru": "Какой процесс используется для повышения октанового числа бензина?"},
+          "options": [
+            {"tk": "Fraksiýalara bölmek", "ru": "Фракционная перегонка"},
+            {"tk": "Ýakmak", "ru": "Сжигание"},
+            {"tk": "Riforming", "ru": "Риформинг"}
+          ],
+          "answer": 2,
+          "hint": {"tk": "Bu proses molekulalaryň gurluşyny üýtgedýär.", "ru": "Этот процесс меняет строение молекул."},
+          "explain": {"tk": "Riformingde göni zynjyrly alkanlar şahalanan alkanlara we arenlere öwrülýär, olaryň detonasiýa durnuklylygy ýokary.", "ru": "При риформинге неразветвлённые алканы превращаются в разветвлённые и арены, у которых высокая детонационная стойкость."}
+        },
+        {"type": "world", "text": {
+          "tk": "Türkmenistandaky Galkynyş gaz käni dünýäniň iň uly tebigy gaz känleriniň biri hasaplanýar. Ondan çykarylan gaz Merkezi Aziýa — Hytaý gaz geçirijisi arkaly Hytaýa iberilýär.",
+          "ru": "Месторождение Галкыныш в Туркменистане считается одним из крупнейших месторождений природного газа в мире. Добытый там газ поставляется в Китай по газопроводу Центральная Азия — Китай."
+        }}
+      ]
+    }
+  ]
+}

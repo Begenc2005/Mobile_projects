@@ -1,0 +1,41 @@
+{
+  "id": "physics",
+  "icon": "⚡",
+  "color": "#E8590C",
+  "title": {"tk": "Fizika", "ru": "Физика"},
+  "lessons": [
+    {
+      "id": "physics-7-speed",
+      "grade": 7,
+      "title": {"tk": "Tizlik, ýol we wagt", "ru": "Скорость, путь и время"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Tizlik — jisimiň wagt birliginde geçýän ýoly.\n\nv = s / t\nv — tizlik, s — ýol, t — wagt.\nHalkara ölçeg ulgamynda (SI) tizlik m/s-da ölçenýär.",
+          "ru": "Скорость — путь, проходимый телом за единицу времени.\n\nv = s / t\nv — скорость, s — путь, t — время.\nВ системе СИ скорость измеряется в м/с."}},
+        {"type": "example", "text": {
+          "tk": "Awtobus 2 sagatda 120 km geçdi.\nv = 120 km / 2 sag = 60 km/sag.\n\nkm/sag → m/s: 3,6-a bölmeli. 72 km/sag = 20 m/s.",
+          "ru": "Автобус проехал 120 км за 2 часа.\nv = 120 км / 2 ч = 60 км/ч.\n\nкм/ч → м/с: делим на 3,6. 72 км/ч = 20 м/с."}},
+        {"type": "input",
+          "q": {"tk": "Welosipedçi 10 s-da 50 m geçdi. Tizligi näçe m/s?", "ru": "Велосипедист проехал 50 м за 10 с. Какова скорость в м/с?"},
+          "answer": "5",
+          "hint": {"tk": "v = s / t formulasyny ulanyň.", "ru": "Используйте формулу v = s / t."},
+          "explain": {"tk": "v = 50 / 10 = 5 m/s.", "ru": "v = 50 / 10 = 5 м/с."}},
+        {"type": "choice",
+          "q": {"tk": "Ýoly tapmagyň formulasy haýsy?", "ru": "Какая формула для нахождения пути?"},
+          "options": ["s = v · t", "s = v / t", "s = t / v"],
+          "answer": 0,
+          "hint": {"tk": "v = s / t deňlemäniň iki tarapyny t-e köpeldiň.", "ru": "Умножьте обе части v = s / t на t."},
+          "explain": {"tk": "v = s/t → s = v·t.", "ru": "v = s/t → s = v·t."}},
+        {"type": "input",
+          "q": {"tk": "Otly 90 km/sag tizlik bilen 3 sagat gitdi. Näçe km ýol geçdi?", "ru": "Поезд ехал 3 часа со скоростью 90 км/ч. Какой путь он прошёл (км)?"},
+          "answer": "270",
+          "hint": {"tk": "s = v · t", "ru": "s = v · t"},
+          "explain": {"tk": "s = 90 · 3 = 270 km.", "ru": "s = 90 · 3 = 270 км."}},
+        {"type": "world", "text": {
+          "tk": "Ýagtylygyň tizligi takmynan 300 000 km/s. Gün şöhlesi Ýere ortaça 8 minut 20 sekuntda ýetýär.",
+          "ru": "Скорость света — около 300 000 км/с. Солнечный свет доходит до Земли в среднем за 8 минут 20 секунд."}}
+      ]
+    }
+  ]
+}

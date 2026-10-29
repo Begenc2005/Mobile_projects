@@ -1,0 +1,358 @@
+{
+  "grade": 11,
+  "subject": "history",
+  "lessons": [
+    {
+      "id": "history-11-science-20th-century",
+      "grade": 11,
+      "topic": 0,
+      "title": {"tk": "XX asyryň ylmy açyşlary", "ru": "Научные открытия XX века"},
+      "minutes": 10,
+      "steps": [
+        {
+          "type": "theory",
+          "text": {
+            "tk": "XX asyr ylymda düýpli öwrülişikleriň asyry boldy.\n\nFizika:\n• 1905 — A. Eýnşteýniň ýörite otnositellik nazaryýeti (E = mc²); 1915 — umumy otnositellik nazaryýeti.\n• 1900–1920-nji ýyllar — kwant fizikasy (M. Plank, N. Bor, W. Geýzenberg, E. Şrýodinger).\n• 1938 — uranyň ýadrosynyň bölünmegi açyldy (O. Gan, F. Ştrassman; L. Maýtner düşündirdi).\n\nLukmançylyk we biologiýa:\n• 1928 — A. Fleming penisillini açdy; 1940-njy ýyllarda ol köpçülikleýin öndürilip başlandy.\n• 1953 — J. Uotson we F. Krik R. Franklin bilen M. Uilkinsiň maglumatlaryna esaslanyp, DNK-nyň goşa spiralyny beýan etdiler.\n\nKosmos we tehnologiýa:\n• 1957 — ilkinji emeli hemra (SSSR).\n• 1961 — Ýuriý Gagarin — kosmosdaky ilkinji adam.\n• 1969 — «Apollon-11»: N. Armstrong we B. Oldrin Aýa düşdüler.\n• 1947 — tranzistor oýlanyp tapyldy; 1989 — T. Berners-Li Bütindünýä tory (WWW) taslamasyny teklip etdi.",
+            "ru": "XX век стал веком коренных переворотов в науке.\n\nФизика:\n• 1905 — специальная теория относительности А. Эйнштейна (E = mc²); 1915 — общая теория относительности.\n• 1900–1920-е годы — квантовая физика (М. Планк, Н. Бор, В. Гейзенберг, Э. Шрёдингер).\n• 1938 — открыто деление ядра урана (О. Ган, Ф. Штрассман; объяснила Л. Мейтнер).\n\nМедицина и биология:\n• 1928 — А. Флеминг открыл пенициллин; в 1940-е годы начато его массовое производство.\n• 1953 — Дж. Уотсон и Ф. Крик, опираясь на данные Р. Франклин и М. Уилкинса, описали двойную спираль ДНК.\n\nКосмос и технологии:\n• 1957 — первый искусственный спутник (СССР).\n• 1961 — Юрий Гагарин — первый человек в космосе.\n• 1969 — «Аполлон-11»: Н. Армстронг и Б. Олдрин высадились на Луну.\n• 1947 — изобретён транзистор; 1989 — Т. Бернерс-Ли предложил проект Всемирной паутины (WWW)."
+          }
+        },
+        {
+          "type": "example",
+          "text": {
+            "tk": "Mysal: bir açyşyň ýoly — penisillin.\n\n1) 1928 — Aleksandr Fleming stafilokokly käsede kömelek (Penicillium) ösen ýerinde bakteriýalaryň ölendigini gördi.\n2) Ol bu maddany «penisillin» diýip atlandyrdy, ýöne ony arassa görnüşde alyp bilmedi.\n3) 1939–1941 — Oksfordda H. Flori we E. Çeýn penisillini arassalap, ilkinji näsaglarda synagdan geçirdiler.\n4) Ikinji jahan urşy döwründe önümçilik çalt giňeldi we millionlarça ýaralyny halas etdi.\n5) 1945 — Fleming, Flori we Çeýn Nobel baýragyna mynasyp boldular.\nNetije: açyş tötänleýin bolup biler, ýöne ony ulanyşa girizmek köp alymyň ýyllarça zähmetini talap edýär.",
+            "ru": "Пример: путь одного открытия — пенициллин.\n\n1) 1928 — Александр Флеминг заметил, что в чашке со стафилококками там, где выросла плесень (Penicillium), бактерии погибли.\n2) Он назвал вещество «пенициллином», но получить его в чистом виде не смог.\n3) 1939–1941 — в Оксфорде Х. Флори и Э. Чейн очистили пенициллин и испытали его на первых пациентах.\n4) Во время Второй мировой войны производство быстро расширилось и спасло миллионы раненых.\n5) 1945 — Флеминг, Флори и Чейн получили Нобелевскую премию.\nВывод: открытие может быть случайным, но чтобы внедрить его, нужны годы труда многих учёных."
+          }
+        },
+        {
+          "type": "choice",
+          "q": {"tk": "Kosmosa uçan ilkinji adam kim?", "ru": "Кто был первым человеком в космосе?"},
+          "options": [
+            {"tk": "Nil Armstrong", "ru": "Нил Армстронг"},
+            {"tk": "Ýuriý Gagarin", "ru": "Юрий Гагарин"},
+            {"tk": "Džon Glenn", "ru": "Джон Гленн"}
+          ],
+          "answer": 1,
+          "hint": {"tk": "Uçuş 1961-nji ýylyň 12-nji aprelinde bolup geçdi.", "ru": "Полёт состоялся 12 апреля 1961 года."},
+          "explain": {"tk": "Ýuriý Gagarin 1961-nji ýylyň 12-nji aprelinde «Wostok-1» gämisinde Ýeriň daşyndan bir gezek aýlandy. Armstrong 1969-njy ýylda Aýa ilkinji düşen adam boldy.", "ru": "Юрий Гагарин 12 апреля 1961 года на корабле «Восток-1» совершил один виток вокруг Земли. Армстронг в 1969 году первым ступил на Луну."}
+        },
+        {
+          "type": "input",
+          "q": {"tk": "«Apollon-11» ekipažy haýsy ýylda Aýa düşdi?", "ru": "В каком году экипаж «Аполлона-11» высадился на Луну?"},
+          "answer": "1969",
+          "hint": {"tk": "Gagariniň uçuşyndan 8 ýyl soň.", "ru": "Через 8 лет после полёта Гагарина."},
+          "explain": {"tk": "1961 + 8 = 1969. 1969-njy ýylyň iýulynda Nil Armstrong we Bazz Oldrin Aýyň üstüne düşdüler.", "ru": "1961 + 8 = 1969. В июле 1969 года Нил Армстронг и Базз Олдрин ступили на поверхность Луны."}
+        },
+        {
+          "type": "truefalse",
+          "q": {"tk": "Rozalind Franklin rentgen şöhleleri arkaly alan suratlary bilen DNK-nyň gurluşynyň açylmagyna möhüm goşant goşdy.", "ru": "Розалинд Франклин своими рентгеновскими снимками внесла важный вклад в открытие структуры ДНК."},
+          "answer": true,
+          "hint": {"tk": "Meşhur «51-nji surat» hakda eşidipmidiňiz?", "ru": "Слышали о знаменитом «снимке 51»?"},
+          "explain": {"tk": "Franklin DNK-nyň rentgen-strukturalaýyn suratlaryny aldy. Uotson bilen Krik bu maglumatlary goşa spiral modelini gurmakda ulandylar.", "ru": "Франклин получила рентгеноструктурные снимки ДНК. Уотсон и Крик использовали эти данные, строя модель двойной спирали."}
+        },
+        {
+          "type": "choice",
+          "q": {"tk": "Bütindünýä tory (WWW) taslamasyny kim teklip etdi?", "ru": "Кто предложил проект Всемирной паутины (WWW)?"},
+          "options": [
+            {"tk": "Alan Týuring", "ru": "Алан Тьюринг"},
+            {"tk": "Albert Eýnşteýn", "ru": "Альберт Эйнштейн"},
+            {"tk": "Tim Berners-Li", "ru": "Тим Бернерс-Ли"}
+          ],
+          "answer": 2,
+          "hint": {"tk": "Ol Ýewropanyň ýadro barlaglary merkezinde (CERN) işleýärdi.", "ru": "Он работал в Европейском центре ядерных исследований (ЦЕРН)."},
+          "explain": {"tk": "Tim Berners-Li 1989-njy ýylda CERN-de gipertekst esasyndaky maglumat ulgamyny teklip etdi, bu soňra Bütindünýä toruna öwrüldi.", "ru": "Тим Бернерс-Ли в 1989 году в ЦЕРН предложил информационную систему на основе гипертекста, ставшую затем Всемирной паутиной."}
+        },
+        {
+          "type": "world",
+          "text": {
+            "tk": "Albert Eýnşteýn 1921-nji ýylyň Fizika boýunça Nobel baýragyny otnositellik nazaryýeti üçin däl-de, fotoeffektiň kanunyny düşündirendigi üçin aldy. Bu iş ýagtylygyň bölejiklerden (fotonlardan) ybaratdygy baradaky pikiri esaslandyrdy we Gün batareýalarynyň işleýşini düşündirýär.",
+            "ru": "Альберт Эйнштейн получил Нобелевскую премию по физике за 1921 год не за теорию относительности, а за объяснение закона фотоэффекта. Эта работа обосновала идею, что свет состоит из частиц (фотонов), и объясняет работу солнечных батарей."
+          }
+        }
+      ]
+    },
+    {
+      "id": "history-11-cold-war",
+      "grade": 11,
+      "topic": 1,
+      "title": {"tk": "Sowuk uruş (1947–1991)", "ru": "Холодная война (1947–1991)"},
+      "minutes": 10,
+      "steps": [
+        {
+          "type": "theory",
+          "text": {
+            "tk": "Sowuk uruş — Ikinji jahan urşundan soň ABŞ we onuň ýaranlary bilen SSSR we onuň ýaranlarynyň arasyndaky uzak möhletli syýasy, ykdysady, harby we ideologik bäsleşik. Uly döwletler gönüden-göni biri-biri bilen söweşmändirler, şonuň üçin «sowuk» diýilýär.\n\nEsasy wakalar:\n• 1947 — «Trumen doktrinasy»; 1948 — «Marşall meýilnamasy» (Günbatar Ýewropany dikeltmek).\n• 1948–1949 — Berliniň blokadasy.\n• 1949 — NATO döredildi; 1955 — Warşawa şertnamasy guramasy.\n• 1950–1953 — Koreýa urşy.\n• 1961 — Berlin diwary guruldy.\n• 1962 — Karib (Kuba) krizisi — ýadro urşuna iň ýakyn pursat.\n• 1955–1975 — Wýetnam urşy.\n• 1970-nji ýyllar — «gowşama» (razrýadka), ýaraglary çäklendirmek baradaky şertnamalar.\n• 1989 — Berlin diwary ýykyldy; 1991 — SSSR dargady.\n\nHäsiýetli aýratynlyklary: ýarag ýaryşy, kosmos ýaryşy, dünýäniň iki toparlaýyn bölünmegi, üçünji ýurtlardaky çaknyşyklar.",
+            "ru": "Холодная война — длительное политическое, экономическое, военное и идеологическое противостояние США с союзниками и СССР с союзниками после Второй мировой войны. Великие державы напрямую друг с другом не воевали, поэтому её называют «холодной».\n\nКлючевые события:\n• 1947 — «доктрина Трумэна»; 1948 — «план Маршалла» (восстановление Западной Европы).\n• 1948–1949 — Берлинская блокада.\n• 1949 — создано НАТО; 1955 — Организация Варшавского договора.\n• 1950–1953 — Корейская война.\n• 1961 — возведена Берлинская стена.\n• 1962 — Карибский кризис — момент наибольшей близости к ядерной войне.\n• 1955–1975 — война во Вьетнаме.\n• 1970-е годы — «разрядка», договоры об ограничении вооружений.\n• 1989 — падение Берлинской стены; 1991 — распад СССР.\n\nХарактерные черты: гонка вооружений, космическая гонка, раскол мира на два блока, конфликты в третьих странах."
+          }
+        },
+        {
+          "type": "example",
+          "text": {
+            "tk": "Mysal: Karib krizisi nädip çözüldi?\n\n1) 1962-nji ýylyň oktýabrynda ABŞ-nyň howa barlagy Kubada sowet ballistik raketalarynyň gurnalýandygyny anyklady.\n2) Prezident J. Kennedi Kubanyň daşyndan deňiz «karantinini» (gabawyny) yglan etdi.\n3) 13 günüň dowamynda dünýä ýadro urşunyň bosagasynda durdy.\n4) Kennedi bilen N. Hruşýow ylalaşdylar: SSSR raketalary Kubadan aýyrýar, ABŞ Kuba çozmazlyga söz berýär we gizlin ýagdaýda Türkiýedäki raketalaryny aýyrmaga razylaşýar.\n5) Netije: 1963-nji ýylda Waşington bilen Moskwanyň arasynda gönüden-göni aragatnaşyk liniýasy («gyzyl telefon») guruldy we ýadro synaglaryny çäklendirýän şertnama gol çekildi.",
+            "ru": "Пример: как был разрешён Карибский кризис?\n\n1) В октябре 1962 года воздушная разведка США обнаружила строительство на Кубе позиций советских баллистических ракет.\n2) Президент Дж. Кеннеди объявил морской «карантин» (блокаду) Кубы.\n3) В течение 13 дней мир стоял на пороге ядерной войны.\n4) Кеннеди и Н. Хрущёв договорились: СССР вывозит ракеты с Кубы, США обязуются не вторгаться на Кубу и негласно соглашаются убрать свои ракеты из Турции.\n5) Итог: в 1963 году была создана линия прямой связи Вашингтон — Москва («горячая линия») и подписан договор об ограничении ядерных испытаний."
+          }
+        },
+        {
+          "type": "choice",
+          "q": {"tk": "NATO haýsy ýylda döredildi?", "ru": "В каком году было создано НАТО?"},
+          "options": ["1949", "1955", "1961"],
+          "answer": 0,
+          "hint": {"tk": "Warşawa şertnamasy NATO-dan 6 ýyl soň döredildi.", "ru": "Варшавский договор был создан через 6 лет после НАТО."},
+          "explain": {"tk": "NATO 1949-njy ýylda döredildi. 1955 — Warşawa şertnamasy, 1961 — Berlin diwarynyň gurlan ýyly.", "ru": "НАТО создано в 1949 году. 1955 — Варшавский договор, 1961 — год возведения Берлинской стены."}
+        },
+        {
+          "type": "truefalse",
+          "q": {"tk": "Sowuk uruş döwründe ABŞ we SSSR biri-birine garşy gönüden-göni giň möçberli uruş alyp bardylar.", "ru": "В годы холодной войны США и СССР вели друг против друга прямую крупномасштабную войну."},
+          "answer": false,
+          "hint": {"tk": "Bu döwür näme üçin «sowuk» diýlip atlandyrylýar?", "ru": "Почему этот период называют «холодным»?"},
+          "explain": {"tk": "Uly döwletler gönüden-göni söweşmändirler. Bäsleşik ýarag ýaryşy, propaganda we üçünji ýurtlardaky çaknyşyklar (Koreýa, Wýetnam, Owganystan) arkaly alnyp barlypdyr.", "ru": "Сверхдержавы напрямую не воевали. Соперничество шло через гонку вооружений, пропаганду и конфликты в третьих странах (Корея, Вьетнам, Афганистан)."}
+        },
+        {
+          "type": "input",
+          "q": {"tk": "Berlin diwary haýsy ýylda ýykyldy?", "ru": "В каком году пала Берлинская стена?"},
+          "answer": "1989",
+          "hint": {"tk": "Diwar 28 ýyl durdy, ol 1961-nji ýylda gurlupdy.", "ru": "Стена простояла 28 лет, построена в 1961 году."},
+          "explain": {"tk": "1961 + 28 = 1989. 1989-njy ýylyň 9-njy noýabrynda serhet açyldy, 1990-njy ýylda Germaniýa birleşdi.", "ru": "1961 + 28 = 1989. 9 ноября 1989 года граница была открыта, а в 1990 году Германия объединилась."}
+        },
+        {
+          "type": "choice",
+          "q": {"tk": "Günbatar Ýewropanyň urşdan soňky dikeldilişine ABŞ-nyň ykdysady kömek maksatnamasy nähili atlandyrylýar?", "ru": "Как называлась программа экономической помощи США для послевоенного восстановления Западной Европы?"},
+          "options": [
+            {"tk": "Trumen doktrinasy", "ru": "Доктрина Трумэна"},
+            {"tk": "Täze ugur (New Deal)", "ru": "Новый курс (New Deal)"},
+            {"tk": "Marşall meýilnamasy", "ru": "План Маршалла"}
+          ],
+          "answer": 2,
+          "hint": {"tk": "Ol ABŞ-nyň Döwlet sekretarynyň adyny göterýär.", "ru": "Она носит имя государственного секретаря США."},
+          "explain": {"tk": "Marşall meýilnamasy (1948–1952) Ýewropa ýurtlaryna uly ykdysady kömek berdi. Trumen doktrinasy syýasy ýörelge, «Täze ugur» bolsa 1930-njy ýyllarda ABŞ-nyň içki ykdysady syýasaty.", "ru": "План Маршалла (1948–1952) дал европейским странам крупную экономическую помощь. Доктрина Трумэна — политический принцип, а «Новый курс» — внутренняя экономическая политика США 1930-х годов."}
+        },
+        {
+          "type": "world",
+          "text": {
+            "tk": "Kosmos ýaryşy bäsleşikden hyzmatdaşlyga öwrüldi: 1975-nji ýylda amerikan «Apollon» we sowet «Soýuz» gämileri orbitada birikdiler, ekipažlar bir-biriniň gämisine geçdiler. Bu tejribe soňra Halkara kosmos stansiýasynyň gurluşyna ýol açdy.",
+            "ru": "Космическая гонка сменилась сотрудничеством: в 1975 году американский «Аполлон» и советский «Союз» состыковались на орбите, и экипажи переходили из корабля в корабль. Этот опыт позже открыл путь к строительству Международной космической станции."
+          }
+        }
+      ]
+    },
+    {
+      "id": "history-11-decolonization",
+      "grade": 11,
+      "topic": 2,
+      "title": {"tk": "Kolonial ulgamyň dargamagy (dekolonizasiýa)", "ru": "Распад колониальной системы (деколонизация)"},
+      "minutes": 10,
+      "steps": [
+        {
+          "type": "theory",
+          "text": {
+            "tk": "Ikinji jahan urşundan soň onlarça ýurt kolonial garaşlylykdan boşap, garaşsyz döwlete öwrüldi. Bu prosese dekolonizasiýa diýilýär.\n\nSebäpleri:\n• Ýewropa döwletleriniň urşdan soň gowşamagy.\n• Milli-azat ediş hereketleriniň güýçlenmegi we bilimli ýerli liderleriň peýda bolmagy.\n• BMG Tertipnamasyndaky halklaryň öz ykbalyny özi kesgitlemek hukugy; 1960 — BMG-niň kolonial ýurtlara garaşsyzlyk bermek baradaky Jarnamasy.\n\nEsasy tapgyrlar:\n• Aziýa: 1945 — Indoneziýa garaşsyzlygy yglan etdi; 1947 — Hindistan we Pakistan; 1948 — Birma we Şri-Lanka (Seýlon).\n• Afrika: 1957 — Gana (Saharadan günortadaky ilkinji); 1960 — «Afrikanyň ýyly» — 17 ýurt garaşsyz boldy; 1962 — Alžir uzak urşdan soň.\n• 1975 — Angola we Mozambik (Portugaliýanyň koloniýalary).\n\nGarşylyk usullary dürli bolupdyr: parahat (M. Gandiniň zorluksyz göreşi) we ýaragly (Alžir, Wýetnam).",
+            "ru": "После Второй мировой войны десятки стран освободились от колониальной зависимости и стали независимыми государствами. Этот процесс называют деколонизацией.\n\nПричины:\n• Ослабление европейских держав после войны.\n• Усиление национально-освободительных движений и появление образованных местных лидеров.\n• Право народов на самоопределение в Уставе ООН; 1960 — Декларация ООН о предоставлении независимости колониальным странам и народам.\n\nОсновные этапы:\n• Азия: 1945 — Индонезия провозгласила независимость; 1947 — Индия и Пакистан; 1948 — Бирма и Шри-Ланка (Цейлон).\n• Африка: 1957 — Гана (первая к югу от Сахары); 1960 — «Год Африки» — независимость получили 17 стран; 1962 — Алжир после долгой войны.\n• 1975 — Ангола и Мозамбик (колонии Португалии).\n\nСпособы борьбы различались: мирный (ненасильственное сопротивление М. Ганди) и вооружённый (Алжир, Вьетнам)."
+          }
+        },
+        {
+          "type": "example",
+          "text": {
+            "tk": "Mysal: Hindistanyň garaşsyzlyga ýoly.\n\n1) 1885 — Hindi milli kongresi döredildi.\n2) 1920–1940-njy ýyllar — Mahatma Gandi zorluksyz garşylyk (satýagraha) hereketini baştutanlyk etdi: iňlis harytlaryny boýkot etmek, salgyt tölemezlik.\n3) 1930 — «Duz ýörişi»: Gandi we onuň tarapdarlary duz monopoliýasyna garşy deňze çenli 380 km-den gowrak pyýada ýöräp, duzy özleri taýýarladylar.\n4) Ikinji jahan urşundan soň Beýik Britaniýa koloniýany saklamaga ukypsyz boldy.\n5) 1947-nji ýylyň awgustynda Britan Hindistany iki döwlete — Hindistana we Pakistana bölündi. Bölünişik uly göçlere we gurbanlara getirdi.\nNetije: köpçülikleýin parahat garşylyk imperiýany yza çekilmäge mejbur edip bilýändigini görkezdi.",
+            "ru": "Пример: путь Индии к независимости.\n\n1) 1885 — создан Индийский национальный конгресс.\n2) 1920–1940-е годы — Махатма Ганди возглавил движение ненасильственного сопротивления (сатьяграха): бойкот британских товаров, отказ от уплаты налогов.\n3) 1930 — «Соляной поход»: Ганди и сторонники прошли пешком более 380 км к морю и сами выпаривали соль в знак протеста против соляной монополии.\n4) После Второй мировой войны Великобритания уже не могла удерживать колонию.\n5) В августе 1947 года Британская Индия была разделена на два государства — Индию и Пакистан. Раздел сопровождался массовыми переселениями и жертвами.\nВывод: массовое мирное сопротивление показало, что может заставить империю отступить."
+          }
+        },
+        {
+          "type": "input",
+          "q": {"tk": "Afrikada 17 ýurduň garaşsyzlyk alan «Afrikanyň ýyly» haýsy ýyl?", "ru": "Какой год, когда независимость получили 17 африканских стран, называют «Годом Африки»?"},
+          "answer": "1960",
+          "hint": {"tk": "Şol ýyl BMG kolonial ýurtlara garaşsyzlyk bermek baradaky Jarnamany kabul etdi.", "ru": "В том же году ООН приняла Декларацию о предоставлении независимости колониальным странам."},
+          "explain": {"tk": "1960-njy ýylda Nigeriýa, Kongo, Senegal, Madagaskar we beýleki 13 ýurt garaşsyzlyk aldy.", "ru": "В 1960 году независимость получили Нигерия, Конго, Сенегал, Мадагаскар и ещё 13 стран."}
+        },
+        {
+          "type": "choice",
+          "q": {"tk": "Saharadan günortadaky Afrikada garaşsyzlyk alan ilkinji kolonial ýurt haýsy?", "ru": "Какая колония первой в Африке к югу от Сахары получила независимость?"},
+          "options": [
+            {"tk": "Angola", "ru": "Ангола"},
+            {"tk": "Gana", "ru": "Гана"},
+            {"tk": "Alžir", "ru": "Алжир"}
+          ],
+          "answer": 1,
+          "hint": {"tk": "Onuň öňki ady «Altyn kenar» bolupdyr.", "ru": "Её прежнее название — «Золотой Берег»."},
+          "explain": {"tk": "Gana (öňki Altyn kenar) 1957-nji ýylda Kwame Nkrumanyň ýolbaşçylygynda garaşsyz boldy. Alžir Demirgazyk Afrikada, 1962-nji ýylda; Angola 1975-nji ýylda.", "ru": "Гана (бывший Золотой Берег) стала независимой в 1957 году под руководством Кваме Нкрумы. Алжир — Северная Африка, 1962 год; Ангола — 1975 год."}
+        },
+        {
+          "type": "truefalse",
+          "q": {"tk": "Mahatma Gandiniň göreş usuly zorluksyz garşylyga esaslanýardy.", "ru": "Метод борьбы Махатмы Ганди был основан на ненасильственном сопротивлении."},
+          "answer": true,
+          "hint": {"tk": "«Duz ýörişini» ýada salyň.", "ru": "Вспомните «Соляной поход»."},
+          "explain": {"tk": "Gandi zorluksyz garşylygy (satýagraha) wagyz etdi: boýkot, parahat ýörişler, adalatsyz kanunlara boýun egmezlik. Bu usul soňra beýleki ýurtlaryň raýat hukuklary hereketlerine-de täsir etdi.", "ru": "Ганди проповедовал ненасильственное сопротивление (сатьяграху): бойкоты, мирные шествия, неподчинение несправедливым законам. Этот метод позже повлиял и на движения за гражданские права в других странах."}
+        },
+        {
+          "type": "world",
+          "text": {
+            "tk": "1945-nji ýylda BMG 51 döwlet tarapyndan esaslandyryldy. Dekolonizasiýanyň netijesinde onuň agzalarynyň sany çalt artdy we häzir BMG-de 193 agza döwlet bar. Täze garaşsyz ýurtlaryň köpüsi agza bolup girenden soň, Baş Assambleýada Aziýanyň we Afrikanyň sesi has güýçli eşidilip başlandy.",
+            "ru": "В 1945 году ООН основала 51 страна. В результате деколонизации число её членов быстро росло, и сейчас в ООН 193 государства-члена. После вступления многих новых независимых стран голос Азии и Африки в Генеральной Ассамблее стал звучать гораздо сильнее."
+          }
+        }
+      ]
+    },
+    {
+      "id": "history-11-european-union",
+      "grade": 11,
+      "topic": 3,
+      "title": {"tk": "Ýewropa Bileleşiginiň döreýşi we ösüşi", "ru": "Создание и развитие Европейского союза"},
+      "minutes": 9,
+      "steps": [
+        {
+          "type": "theory",
+          "text": {
+            "tk": "Ýewropa Bileleşigi (ÝB) — Ýewropa döwletleriniň ykdysady we syýasy birleşmesi. Onuň maksady — iki jahan urşundan soň Ýewropada parahatçylygy we abadançylygy üpjün etmek.\n\nTapgyrlary:\n• 1950 — Fransiýanyň daşary işler ministri Robert Şumanyň Jarnamasy.\n• 1951 — Ýewropa kömür we polat birleşigi (6 ýurt: Fransiýa, GFR, Italiýa, Belgiýa, Niderlandlar, Lýuksemburg).\n• 1957 — Rim şertnamalary: Ýewropa ykdysady bileleşigi (umumy bazar).\n• 1993 — Maastriht şertnamasy güýje girdi — «Ýewropa Bileleşigi» ady.\n• 1995 — Şengen ylalaşygy durmuşa geçirilip başlandy (içki serhet barlagsyz).\n• 1999 — ýewro nagt däl görnüşde, 2002 — nagt pul görnüşinde girizildi.\n• 2004 — iň uly giňelme: 10 täze agza.\n• 2009 — Lissabon şertnamasy.\n• 2020 — Beýik Britaniýa Bileleşikden çykdy (Brexit).\n\nEsasy institutlar: Ýewropa komissiýasy, Ýewropa parlamenti, ÝB Geňeşi, Ýewropa Geňeşi, ÝB Kazyýeti, Ýewropa merkezi banky.",
+            "ru": "Европейский союз (ЕС) — экономическое и политическое объединение европейских государств. Его цель — обеспечить мир и процветание в Европе после двух мировых войн.\n\nЭтапы:\n• 1950 — Декларация министра иностранных дел Франции Робера Шумана.\n• 1951 — Европейское объединение угля и стали (6 стран: Франция, ФРГ, Италия, Бельгия, Нидерланды, Люксембург).\n• 1957 — Римские договоры: Европейское экономическое сообщество («общий рынок»).\n• 1993 — вступил в силу Маастрихтский договор — название «Европейский союз».\n• 1995 — начало применения Шенгенского соглашения (без проверок на внутренних границах).\n• 1999 — евро в безналичной форме, 2002 — наличные деньги.\n• 2004 — крупнейшее расширение: 10 новых членов.\n• 2009 — Лиссабонский договор.\n• 2020 — Великобритания вышла из Союза (Брексит).\n\nОсновные институты: Европейская комиссия, Европейский парламент, Совет ЕС, Европейский совет, Суд ЕС, Европейский центральный банк."
+          }
+        },
+        {
+          "type": "example",
+          "text": {
+            "tk": "Mysal: näme üçin kömür we polatdan başladylar?\n\n1) Kömür we polat XX asyryň ortasynda ýarag öndürmegiň esasy çig maly we pudagydy.\n2) Fransiýa bilen Germaniýa üç gezek (1870, 1914, 1939) biri-birine garşy uruşdylar, Rur we Saar ýaly kömür sebitleri jedelli bolupdy.\n3) Şumanyň pikiri: bu pudaklary umumy, döwletlerüsti edara tabşyrmaly. Şonda iki ýurduň arasynda täze uruş «diňe bir pikir edip bolmajak däl, eýsem maddy taýdan mümkin däl» bolar.\n4) Netije: ykdysady baglanyşyk ynamy döretdi, soňra hyzmatdaşlyk umumy bazara, umumy walýuta we syýasy bileleşige çenli giňeldi.\nBu «kiçi ädimler bilen integrasiýa» usulyna mysaldyr.",
+            "ru": "Пример: почему начали именно с угля и стали?\n\n1) Уголь и сталь в середине XX века были основным сырьём и отраслью для производства вооружений.\n2) Франция и Германия трижды (1870, 1914, 1939) воевали друг с другом, угольные регионы Рур и Саар были предметом споров.\n3) Идея Шумана: передать эти отрасли общему наднациональному органу. Тогда новая война между двумя странами станет «не только немыслимой, но и материально невозможной».\n4) Итог: экономическая связь создала доверие, и сотрудничество расширилось до общего рынка, общей валюты и политического союза.\nЭто пример интеграции «малыми шагами»."
+          }
+        },
+        {
+          "type": "choice",
+          "q": {"tk": "«Ýewropa Bileleşigi» adyny beren şertnama haýsy?", "ru": "Какой договор дал название «Европейский союз»?"},
+          "options": [
+            {"tk": "Maastriht şertnamasy", "ru": "Маастрихтский договор"},
+            {"tk": "Rim şertnamalary", "ru": "Римские договоры"},
+            {"tk": "Lissabon şertnamasy", "ru": "Лиссабонский договор"}
+          ],
+          "answer": 0,
+          "hint": {"tk": "Bu şertnama 1992-nji ýylda Niderlandlaryň bir şäherinde gol çekildi.", "ru": "Этот договор подписан в 1992 году в одном из городов Нидерландов."},
+          "explain": {"tk": "Maastriht şertnamasy (1992-nji ýylda gol çekildi, 1993-nji ýylda güýje girdi) ÝB-ni döretdi we umumy walýutanyň esaslaryny goýdy. Rim şertnamalary (1957) — umumy bazar, Lissabon (2007/2009) — institutlary özgertdi.", "ru": "Маастрихтский договор (подписан в 1992, вступил в силу в 1993 году) создал ЕС и заложил основы общей валюты. Римские договоры (1957) — общий рынок, Лиссабонский (2007/2009) — реформа институтов."}
+        },
+        {
+          "type": "input",
+          "q": {"tk": "Ýewro nagt pul (banknot we teňňe) görnüşinde haýsy ýylda dolanyşyga girizildi?", "ru": "В каком году евро вошёл в обращение в виде наличных (банкнот и монет)?"},
+          "answer": "2002",
+          "hint": {"tk": "Nagt däl görnüşde girizilenden üç ýyl soň.", "ru": "Через три года после введения в безналичной форме."},
+          "explain": {"tk": "1999-njy ýylda ýewro hasaplaşyk pul birligi hökmünde, 2002-nji ýylyň 1-nji ýanwarynda bolsa nagt pul hökmünde girizildi: 1999 + 3 = 2002.", "ru": "В 1999 году евро введён как расчётная валюта, а 1 января 2002 года — как наличные деньги: 1999 + 3 = 2002."}
+        },
+        {
+          "type": "truefalse",
+          "q": {"tk": "ÝB-niň ähli agzalary ýewrony öz milli walýutasy hökmünde ulanýar.", "ru": "Все члены ЕС используют евро в качестве национальной валюты."},
+          "answer": false,
+          "hint": {"tk": "Polşanyň we Şwesiýanyň pullaryny ýada salyň.", "ru": "Вспомните деньги Польши и Швеции."},
+          "explain": {"tk": "Ýewro ÝB ýurtlarynyň diňe bir böleginde — «ýewro zolagynda» ulanylýar. Mysal üçin, Polşa zlotyny, Şwesiýa kronany, Çehiýa kronany saklaýar.", "ru": "Евро используется только в части стран ЕС — в «еврозоне». Например, Польша сохраняет злотый, Швеция — крону, Чехия — крону."}
+        },
+        {
+          "type": "world",
+          "text": {
+            "tk": "2012-nji ýylda Ýewropa Bileleşigi «Ýewropada parahatçylygy, ylalaşygy, demokratiýany we adam hukuklaryny ösdürmäge altmyş ýyldan gowrak goşandy üçin» Parahatçylyk boýunça Nobel baýragyna mynasyp boldy.",
+            "ru": "В 2012 году Европейский союз получил Нобелевскую премию мира «за более чем шестидесятилетний вклад в развитие мира, примирения, демократии и прав человека в Европе»."
+          }
+        }
+      ]
+    },
+    {
+      "id": "history-11-asian-economic-growth",
+      "grade": 11,
+      "topic": 4,
+      "title": {"tk": "Aziýanyň ykdysady ösüşi: Ýaponiýa, «Aziýa gaplaňlary», Hytaý", "ru": "Экономический рост Азии: Япония, «азиатские тигры», Китай"},
+      "minutes": 10,
+      "steps": [
+        {
+          "type": "theory",
+          "text": {
+            "tk": "XX asyryň ikinji ýarymynda we XXI asyrda Aziýanyň birnäçe ýurtlary taryhda görlüp-eşidilmedik çaltlykda ösdi.\n\n• Ýaponiýa: urşdan soň dikeldiş, 1950–1970-nji ýyllarda «ykdysady gudrat» — ýyllyk ösüş köplenç 10 % töweregi. Ugurlary: eksport, tehnologiýa, hil dolandyryşy (Toýota önümçilik ulgamy).\n• «Dört Aziýa gaplaňy» — Günorta Koreýa, Taýwan, Gonkong, Singapur (1960–1990-njy ýyllar): eksporta gönükdirilen senagatlaşma, bilime uly maýa goýum, ýokary tygşytlama derejesi.\n• Hytaý: 1978-nji ýyldan Den Sýaopiniň «özgertmeler we açyklyk» syýasaty, ýörite ykdysady zolaklar (Şenžen, 1980). Ondan soňky onýyllyklarda ortaça ösüş takmynan 10 % bolup, 2010-njy ýylda Hytaý JIÖ boýunça dünýäde ikinji ykdysadyýet boldy. 2001 — BSG-ä girdi.\n• Hindistan: 1991-nji ýyldaky liberal özgertmelerden soň çalt ösüş, esasanam maglumat tehnologiýalary hyzmatlarynda.\n\nKynçylyklar: 1997–1998-nji ýyllaryň Aziýa maliýe krizisi, gurşawyň hapalanmagy, garraýan ilat.",
+            "ru": "Во второй половине XX и в XXI веке ряд стран Азии развивался с беспрецедентной быстротой.\n\n• Япония: послевоенное восстановление, «экономическое чудо» 1950–1970-х годов — ежегодный рост часто около 10 %. Опоры: экспорт, технологии, управление качеством (производственная система Toyota).\n• «Четыре азиатских тигра» — Южная Корея, Тайвань, Гонконг, Сингапур (1960–1990-е годы): экспортно ориентированная индустриализация, крупные вложения в образование, высокий уровень сбережений.\n• Китай: с 1978 года политика «реформ и открытости» Дэн Сяопина, специальные экономические зоны (Шэньчжэнь, 1980). В последующие десятилетия средний рост около 10 %, в 2010 году Китай стал второй экономикой мира по ВВП. 2001 — вступление в ВТО.\n• Индия: быстрый рост после либеральных реформ 1991 года, особенно в сфере ИТ-услуг.\n\nТрудности: Азиатский финансовый кризис 1997–1998 годов, загрязнение среды, старение населения."
+          }
+        },
+        {
+          "type": "example",
+          "text": {
+            "tk": "Mysal: 10 % ösüş näme üçin şeýle uly?\n\n«70-iň düzgüni»: ykdysadyýetiň iki esse ulalmagy üçin gerek ýyl ≈ 70 : ýyllyk ösüş göterimi.\n1) Ösüş 10 % bolsa: 70 : 10 = 7 ýyl — ykdysadyýet her 7 ýylda iki esse ulalýar.\n2) 28 ýylda: 28 : 7 = 4 gezek iki esse → 2⁴ = 16 esse!\n3) Ösüş 2 % bolsa (ösen ýurtlar üçin adaty): 70 : 2 = 35 ýyl — diňe bir gezek iki esse.\nNetije: ýokary ösüşiň onýyllyklarça dowam etmegi Hytaýyň we «gaplaňlaryň» ykdysadyýetini nesliň dowamynda birnäçe esse ulaltdy.",
+            "ru": "Пример: почему рост 10 % — это так много?\n\n«Правило 70»: число лет, за которое экономика удваивается ≈ 70 : годовой темп роста в процентах.\n1) При росте 10 %: 70 : 10 = 7 лет — экономика удваивается каждые 7 лет.\n2) За 28 лет: 28 : 7 = 4 удвоения → 2⁴ = в 16 раз!\n3) При росте 2 % (обычно для развитых стран): 70 : 2 = 35 лет — лишь одно удвоение.\nВывод: десятилетия высокого роста увеличили экономику Китая и «тигров» во много раз за жизнь одного поколения."
+          }
+        },
+        {
+          "type": "input",
+          "q": {"tk": "«70-iň düzgüni» boýunça ýyllyk 7 % ösüşde ykdysadyýet takmynan näçe ýylda iki esse ulalýar?", "ru": "По «правилу 70», за сколько лет примерно удвоится экономика при росте 7 % в год?"},
+          "answer": "10",
+          "hint": {"tk": "70-i ösüş göterimine bölüň.", "ru": "Разделите 70 на темп роста."},
+          "explain": {"tk": "70 : 7 = 10 ýyl.", "ru": "70 : 7 = 10 лет."}
+        },
+        {
+          "type": "choice",
+          "q": {"tk": "Haýsy ýurt «dört Aziýa gaplaňynyň» hataryna girmeýär?", "ru": "Какая страна НЕ входит в число «четырёх азиатских тигров»?"},
+          "options": [
+            {"tk": "Singapur", "ru": "Сингапур"},
+            {"tk": "Günorta Koreýa", "ru": "Южная Корея"},
+            {"tk": "Wýetnam", "ru": "Вьетнам"}
+          ],
+          "answer": 2,
+          "hint": {"tk": "«Gaplaňlar»: Günorta Koreýa, Taýwan, Gonkong we bir şäher-döwlet.", "ru": "«Тигры»: Южная Корея, Тайвань, Гонконг и одно государство-город."},
+          "explain": {"tk": "Dört gaplaň — Günorta Koreýa, Taýwan, Gonkong we Singapur. Wýetnam soňrak, 1986-njy ýyldaky «Doý moý» özgertmelerinden soň çalt ösüp başlady.", "ru": "Четыре тигра — Южная Корея, Тайвань, Гонконг и Сингапур. Вьетнам начал быстро расти позже, после реформ «Дой мой» 1986 года."}
+        },
+        {
+          "type": "truefalse",
+          "q": {"tk": "Hytaýda «özgertmeler we açyklyk» syýasaty 1978-nji ýylda başlandy.", "ru": "Политика «реформ и открытости» в Китае началась в 1978 году."},
+          "answer": true,
+          "hint": {"tk": "Bu syýasat Den Sýaopiniň ady bilen baglanyşykly.", "ru": "Эта политика связана с именем Дэн Сяопина."},
+          "explain": {"tk": "1978-nji ýylyň dekabrynda başlanan özgertmeler oba hojalygynda, soňra senagatda we daşary söwdada bazar gatnaşyklaryny giňeltdi; 1980-nji ýylda ilkinji ýörite ykdysady zolaklar döredildi.", "ru": "Реформы, начатые в декабре 1978 года, расширили рыночные отношения сначала в сельском хозяйстве, затем в промышленности и внешней торговле; в 1980 году были созданы первые специальные экономические зоны."}
+        },
+        {
+          "type": "world",
+          "text": {
+            "tk": "Singapur 1965-nji ýylda garaşsyzlyk alanda tebigy baýlyklary bolmadyk kiçi port şäherdi. Bilime, porta we maliýe hyzmatlaryna maýa goýup, ol adam başyna düşýän girdeji boýunça dünýäniň iň baý ýurtlarynyň birine öwrüldi, onuň porty bolsa dünýäniň iň işjeň konteýner portlarynyň biri.",
+            "ru": "Когда Сингапур получил независимость в 1965 году, это был небольшой портовый город без природных ресурсов. Вкладывая в образование, порт и финансовые услуги, он стал одной из самых богатых стран мира по доходу на душу населения, а его порт — одним из самых загруженных контейнерных портов мира."
+          }
+        }
+      ]
+    },
+    {
+      "id": "history-11-contemporary-world",
+      "grade": 11,
+      "topic": 5,
+      "title": {"tk": "Häzirki zaman dünýäsi: globallaşma we umumy meseleler", "ru": "Современный мир: глобализация и общие проблемы"},
+      "minutes": 9,
+      "steps": [
+        {
+          "type": "theory",
+          "text": {
+            "tk": "Sowuk urşuň tamamlanmagy (1991) bilen dünýä täze döwre girdi.\n\nGloballaşma — ýurtlaryň ykdysady, tehnologik we medeni taýdan biri-biri bilen barha ýakyndan baglanyşmagy:\n• Halkara söwdanyň we maýa goýumlarynyň çalt artmagy, transmilli kompaniýalar.\n• Internetiň ýaýramagy (1990-njy ýyllar), smartfonlar (2007-den), sosial ulgamlar.\n• Halkara guramalaryň roly: BMG, BSG (1995), Halkara walýuta gaznasy, Bütindünýä banky.\n\nKöpgutuply dünýä: ABŞ, Hytaý, ÝB, Hindistan, Russiýa we beýleki sebit merkezleri.\n\nGlobal wakalar we meseleler:\n• 2008 — dünýä maliýe krizisi.\n• 2015 — BMG-niň Durnukly ösüşiň 17 maksady (2030-njy ýyla çenli).\n• 2020 — COVID-19 pandemiýasy.\n• Howanyň üýtgemegi, terrorçylyk, migrasiýa, kiberhowpsuzlyk, emeli aň.\n\nBu meseleleriň köpüsini bir ýurt ýeke özi çözüp bilmeýär — halkara hyzmatdaşlyk gerek.",
+            "ru": "С окончанием холодной войны (1991) мир вступил в новую эпоху.\n\nГлобализация — всё более тесная экономическая, технологическая и культурная взаимосвязь стран:\n• Быстрый рост международной торговли и инвестиций, транснациональные корпорации.\n• Распространение интернета (1990-е годы), смартфоны (с 2007), социальные сети.\n• Роль международных организаций: ООН, ВТО (1995), Международный валютный фонд, Всемирный банк.\n\nМногополярный мир: США, Китай, ЕС, Индия, Россия и другие региональные центры.\n\nГлобальные события и проблемы:\n• 2008 — мировой финансовый кризис.\n• 2015 — 17 Целей устойчивого развития ООН (до 2030 года).\n• 2020 — пандемия COVID-19.\n• Изменение климата, терроризм, миграция, кибербезопасность, искусственный интеллект.\n\nМногие из этих проблем одна страна не может решить в одиночку — нужно международное сотрудничество."
+          }
+        },
+        {
+          "type": "example",
+          "text": {
+            "tk": "Mysal: globallaşma bir smartfonda.\n\n1) Dizaýny we programma üpjünçiligi bir ýurtda işlenip düzülýär.\n2) Prosessorlary başga ýurtda (mysal üçin Taýwanda) öndürilýär.\n3) Ekrany we ýadysy Günorta Koreýada ýa-da Ýaponiýada ýasalyp bilner.\n4) Gurnamak — Hytaýda, Hindistanda ýa-da Wýetnamda.\n5) Seýrek metallar we litiý — Afrikadan, Günorta Amerikadan, Awstraliýadan.\n6) Satuw — dünýäniň ähli ýurtlarynda.\nNetije: bir önüm onlarça ýurduň zähmetini birleşdirýär. 2020-nji ýylda pandemiýa we 2021-nji ýylda çip ýetmezçiligi şeýle uzyn üpjünçilik zynjyrlarynyň gowşak taraplaryny hem görkezdi.",
+            "ru": "Пример: глобализация в одном смартфоне.\n\n1) Дизайн и программное обеспечение разрабатывают в одной стране.\n2) Процессоры производят в другой (например, на Тайване).\n3) Экран и память могут сделать в Южной Корее или Японии.\n4) Сборка — в Китае, Индии или Вьетнаме.\n5) Редкие металлы и литий — из Африки, Южной Америки, Австралии.\n6) Продажи — по всему миру.\nВывод: один продукт объединяет труд десятков стран. Пандемия 2020 года и нехватка чипов в 2021 году показали и уязвимость таких длинных цепочек поставок."
+          }
+        },
+        {
+          "type": "choice",
+          "q": {"tk": "BMG-niň Durnukly ösüş maksatlary näçe?", "ru": "Сколько Целей устойчивого развития ООН?"},
+          "options": ["8", "17", "25"],
+          "answer": 1,
+          "hint": {"tk": "Olar 2015-nji ýylda kabul edildi we 2030-njy ýyla çenli hasaplanandyr; sany 15-den köp, 20-den az.", "ru": "Они приняты в 2015 году на период до 2030 года; их больше 15, но меньше 20."},
+          "explain": {"tk": "2015-nji ýylda 17 Durnukly ösüş maksady kabul edildi (garyplygy ýok etmek, hilli bilim, arassa suw, howa babatda çäreler we ş.m.). 8 — öňki Müňýyllygyň ösüş maksatlarynyň sany (2000–2015).", "ru": "В 2015 году приняты 17 Целей устойчивого развития (ликвидация нищеты, качественное образование, чистая вода, борьба с изменением климата и др.). 8 — число прежних Целей развития тысячелетия (2000–2015)."}
+        },
+        {
+          "type": "truefalse",
+          "q": {"tk": "Globallaşma diňe ykdysadyýete degişli bolup, medeniýete we tehnologiýa täsir etmeýär.", "ru": "Глобализация касается только экономики и не влияет на культуру и технологии."},
+          "answer": false,
+          "hint": {"tk": "Internet, filmler, aýdym-saz, sport ýaryşlary hakda pikir ediň.", "ru": "Подумайте об интернете, фильмах, музыке, спортивных соревнованиях."},
+          "explain": {"tk": "Globallaşma ykdysadyýeti, tehnologiýalary, medeniýeti, bilimi we syýasaty öz içine alýar. Mysal üçin, internet we sosial ulgamlar dünýäniň dürli künjeklerindäki adamlary pursatda birleşdirýär.", "ru": "Глобализация охватывает экономику, технологии, культуру, образование и политику. Например, интернет и социальные сети мгновенно связывают людей в разных частях мира."}
+        },
+        {
+          "type": "input",
+          "q": {"tk": "Bütindünýä saglyk guramasy COVID-19 ýagdaýyny haýsy ýylda pandemiýa diýip yglan etdi?", "ru": "В каком году Всемирная организация здравоохранения объявила ситуацию с COVID-19 пандемией?"},
+          "answer": "2020",
+          "hint": {"tk": "Keseliň ady «2019» sanyny öz içine alýar, ýöne pandemiýa soňky ýylda yglan edildi.", "ru": "Название болезни содержит число «2019», но пандемию объявили в следующем году."},
+          "explain": {"tk": "Bütindünýä saglyk guramasy 2020-nji ýylyň 11-nji martynda pandemiýany yglan etdi. Kesel 2019-njy ýylyň ahyrynda ilkinji gezek hasaba alnypdy.", "ru": "ВОЗ объявила пандемию 11 марта 2020 года. Первые случаи болезни были зарегистрированы в конце 2019 года."}
+        },
+        {
+          "type": "world",
+          "text": {
+            "tk": "Halkara kosmos stansiýasy — 15 töweregi ýurduň bilelikdäki taslamasy. 2000-nji ýylyň noýabryndan bäri onda adamlar yzygiderli ýaşaýarlar we işleýärler — bu birnäçe ýurduň uzak möhletli parahatçylykly hyzmatdaşlygynyň ajaýyp mysalydyr.",
+            "ru": "Международная космическая станция — совместный проект около 15 стран. С ноября 2000 года на ней постоянно живут и работают люди — это яркий пример долгосрочного мирного сотрудничества многих государств."
+          }
+        }
+      ]
+    }
+  ]
+}

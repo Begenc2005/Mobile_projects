@@ -1,0 +1,254 @@
+{
+  "grade": 9,
+  "subject": "geography",
+  "lessons": [
+    {
+      "id": "geography-9-political-map",
+      "grade": 9,
+      "topic": 0,
+      "title": {"tk": "Dünýäniň syýasy kartasy", "ru": "Политическая карта мира"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Syýasy karta döwletleriň serhetlerini, paýtagtlaryny we başga syýasy-geografik obýektleri görkezýär. Ol hemişe üýtgeýär: täze döwletler döreýär, serhetler, atlar we paýtagtlar üýtgeýär.\n\nHäzirki wagtda BMG-niň 193 agza döwleti bar. Mundan başga-da, BMG-de synçy statusly döwletler (mysal üçin, Watikan) we başga çäkler bar.\n\nDöwletleri toparlara bölmek:\n• Meýdany boýunça: iň uly — Russiýa (17 mln km²-den gowrak), Kanada, Hytaý, ABŞ, Braziliýa. Iň kiçi — Watikan.\n• Ilaty boýunça: iň köp ilatly — Hindistan we Hytaý (her biri 1,4 mlrd töweregi).\n• Geografik ýerleşişi boýunça: deňze çykalgaly we deňze çykalgasyz (içerki) döwletler.\n• Dolandyryş görnüşi boýunça: respublika we monarhiýa.\n• Dolandyryş-çäk gurluşy boýunça: unitar we federatiw döwletler.",
+          "ru": "Политическая карта показывает границы государств, их столицы и другие политико-географические объекты. Она постоянно меняется: появляются новые государства, меняются границы, названия и столицы.\n\nСегодня в ООН 193 государства-члена. Кроме того, есть государства со статусом наблюдателя в ООН (например, Ватикан) и другие территории.\n\nГруппировка стран:\n• По площади: крупнейшие — Россия (более 17 млн км²), Канада, Китай, США, Бразилия. Самое маленькое — Ватикан.\n• По населению: самые населённые — Индия и Китай (около 1,4 млрд каждая).\n• По географическому положению: приморские и внутриконтинентальные (без выхода к морю) страны.\n• По форме правления: республика и монархия.\n• По административно-территориальному устройству: унитарные и федеративные государства."
+        }},
+        {"type": "example", "text": {
+          "tk": "Türkmenistany häsiýetlendireliň:\n1) Ýerleşişi: Merkezi Aziýa. Hazar deňzi bilen kenarlaşýar, emma Hazar dünýä ummanyna birikmeýär — Türkmenistanyň açyk ummana gönüden-göni çykalgasy ýok.\n2) Meýdany: takmynan 491 müň km².\n3) Paýtagty: Aşgabat.\n4) Dolandyryş görnüşi: respublika; gurluşy: unitar döwlet (welaýatlara bölünýär).\n5) 1995-nji ýylda BMG Baş Assambleýasy Türkmenistanyň hemişelik bitaraplygyny ykrar etdi.",
+          "ru": "Охарактеризуем Туркменистан:\n1) Положение: Центральная Азия. Омывается Каспийским морем, но Каспий не соединён с Мировым океаном — прямого выхода к открытому океану у Туркменистана нет.\n2) Площадь: около 491 тыс. км².\n3) Столица: Ашхабад.\n4) Форма правления: республика; устройство: унитарное государство (делится на велаяты).\n5) В 1995 году Генеральная Ассамблея ООН признала постоянный нейтралитет Туркменистана."
+        }},
+        {"type": "input",
+          "q": {"tk": "BMG-niň näçe agza döwleti bar?", "ru": "Сколько государств-членов в ООН?"},
+          "answer": "193",
+          "hint": {"tk": "200-den birneme az.", "ru": "Немного меньше 200."},
+          "explain": {"tk": "Häzir BMG-de 193 agza döwlet bar; iň soňky agza — Günorta Sudan (2011).", "ru": "Сейчас в ООН 193 государства-члена; последний принятый — Южный Судан (2011)."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy döwlet meýdany boýunça dünýäde iň uly?", "ru": "Какое государство самое большое в мире по площади?"},
+          "options": [{"tk": "Kanada", "ru": "Канада"}, {"tk": "Hytaý", "ru": "Китай"}, {"tk": "Russiýa", "ru": "Россия"}],
+          "answer": 2,
+          "hint": {"tk": "Ol Ýewropada hem, Aziýada hem ýerleşýär.", "ru": "Оно расположено и в Европе, и в Азии."},
+          "explain": {"tk": "Russiýanyň meýdany 17 mln km²-den gowrak; Kanada ikinji ýerde.", "ru": "Площадь России более 17 млн км²; Канада на втором месте."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Federatiw döwletde subýektleriň öz kanun çykaryjy edaralary bolup biler.", "ru": "В федеративном государстве субъекты могут иметь свои законодательные органы."},
+          "answer": true,
+          "hint": {"tk": "ABŞ-nyň ştatlaryny ýatlaň.", "ru": "Вспомните штаты США."},
+          "explain": {"tk": "Federasiýada (ABŞ, Germaniýa, Hindistan) subýektleriň belli bir garaşsyzlygy we öz kanunlary bolýar.", "ru": "В федерации (США, Германия, Индия) субъекты обладают определённой самостоятельностью и своими законами."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy döwlet monarhiýa?", "ru": "Какое государство является монархией?"},
+          "options": [{"tk": "Ýaponiýa", "ru": "Япония"}, {"tk": "Fransiýa", "ru": "Франция"}, {"tk": "Braziliýa", "ru": "Бразилия"}],
+          "answer": 0,
+          "hint": {"tk": "Bu ýurtda imperator bar.", "ru": "В этой стране есть император."},
+          "explain": {"tk": "Ýaponiýa — konstitusion monarhiýa. Fransiýa we Braziliýa — respublikalar.", "ru": "Япония — конституционная монархия. Франция и Бразилия — республики."}
+        },
+        {"type": "world", "text": {
+          "tk": "Watikanyň meýdany bary-ýogy 0,44 km² — bu dünýäniň iň kiçi garaşsyz döwleti. Ol Rim şäheriniň içinde ýerleşýär.",
+          "ru": "Площадь Ватикана всего 0,44 км² — это самое маленькое независимое государство мира. Оно находится внутри города Рима."
+        }}
+      ]
+    },
+    {
+      "id": "geography-9-world-economy",
+      "grade": 9,
+      "topic": 1,
+      "title": {"tk": "Dünýä hojalygy we onuň pudaklary", "ru": "Мировое хозяйство и его отрасли"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Dünýä hojalygy — dünýäniň ähli ýurtlarynyň hojalyklarynyň söwda, maýa goýum we tehnologiýa arkaly baglanyşykly ulgamy.\n\nHojalyk pudaklary üç sektora bölünýär:\n• Birinji sektor — tebigy baýlyklary almak: oba hojalygy, balykçylyk, tokaý hojalygy, magdan çykarmak.\n• Ikinji sektor — gaýtadan işlemek: senagat, gurluşyk, energetika.\n• Üçünji sektor — hyzmatlar: söwda, ulag, bilim, saglyk, maliýe, IT.\n\nHojalygyň esasy görkezijisi — IÖM (jemi içerki önüm): ýurtda bir ýylda öndürilen ähli harytlaryň we hyzmatlaryň bahasy.\nAdam başyna IÖM = IÖM : ilatyň sany.\n\nÖsen ýurtlarda IÖM-iň uly bölegini hyzmatlar düzýär (ABŞ-da takmynan 3/4-den gowrak). Ösüp barýan ýurtlarda oba hojalygynyň we senagatyň paýy köplenç ýokary.",
+          "ru": "Мировое хозяйство — система хозяйств всех стран мира, связанных торговлей, инвестициями и технологиями.\n\nОтрасли хозяйства делятся на три сектора:\n• Первичный — получение природных ресурсов: сельское хозяйство, рыболовство, лесное хозяйство, добыча полезных ископаемых.\n• Вторичный — переработка: промышленность, строительство, энергетика.\n• Третичный — услуги: торговля, транспорт, образование, здравоохранение, финансы, IT.\n\nГлавный показатель хозяйства — ВВП (валовой внутренний продукт): стоимость всех товаров и услуг, произведённых в стране за год.\nВВП на душу населения = ВВП : численность населения.\n\nВ развитых странах большую часть ВВП дают услуги (в США — более 3/4). В развивающихся странах доля сельского хозяйства и промышленности обычно выше."
+        }},
+        {"type": "example", "text": {
+          "tk": "A ýurduň IÖM-i 600 mlrd dollar, ilaty 20 mln. B ýurduň IÖM-i 3 000 mlrd dollar, ilaty 1 000 mln.\n1) A: 600 000 000 000 : 20 000 000 = 30 000 dollar adam başyna.\n2) B: 3 000 000 000 000 : 1 000 000 000 = 3 000 dollar adam başyna.\nNetije: B ýurduň jemi IÖM-i 5 esse uly, emma adam başyna A ýurtda 10 esse köp. Ýaşaýyş derejesini deňeşdirmek üçin adam başyna IÖM has peýdaly.",
+          "ru": "ВВП страны A — 600 млрд долларов, население — 20 млн. ВВП страны B — 3 000 млрд долларов, население — 1 000 млн.\n1) A: 600 000 000 000 : 20 000 000 = 30 000 долларов на человека.\n2) B: 3 000 000 000 000 : 1 000 000 000 = 3 000 долларов на человека.\nВывод: общий ВВП страны B в 5 раз больше, но на душу населения в стране A в 10 раз больше. Для сравнения уровня жизни полезнее ВВП на душу населения."
+        }},
+        {"type": "input",
+          "q": {"tk": "Ýurduň IÖM-i 80 mlrd dollar, ilaty 4 mln. Adam başyna IÖM näçe dollar?", "ru": "ВВП страны — 80 млрд долларов, население — 4 млн. Каков ВВП на душу населения в долларах?"},
+          "answer": "20000|20 000",
+          "hint": {"tk": "80 000 000 000-y 4 000 000-a bölüň.", "ru": "Разделите 80 000 000 000 на 4 000 000."},
+          "explain": {"tk": "80 000 mln : 4 mln = 20 000 dollar.", "ru": "80 000 млн : 4 млн = 20 000 долларов."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Bank we mekdep haýsy sektora degişli?", "ru": "К какому сектору относятся банк и школа?"},
+          "options": [{"tk": "Birinji", "ru": "Первичному"}, {"tk": "Üçünji", "ru": "Третичному"}, {"tk": "Ikinji", "ru": "Вторичному"}],
+          "answer": 1,
+          "hint": {"tk": "Olar haryt öndürmeýär, hyzmat edýär.", "ru": "Они не производят товары, а оказывают услуги."},
+          "explain": {"tk": "Maliýe we bilim — hyzmatlar, ýagny üçünji sektor.", "ru": "Финансы и образование — услуги, то есть третичный сектор."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Nebit çykarmak ikinji sektora degişli.", "ru": "Добыча нефти относится ко вторичному сектору."},
+          "answer": false,
+          "hint": {"tk": "Tebigy baýlygy almak ýa-da gaýtadan işlemek?", "ru": "Это получение природного ресурса или переработка?"},
+          "explain": {"tk": "Çykarmak — birinji sektor. Nebiti gaýtadan işlemek (benzin öndürmek) — ikinji sektor.", "ru": "Добыча — первичный сектор. Переработка нефти (производство бензина) — вторичный."}
+        },
+        {"type": "world", "text": {
+          "tk": "IÖM düşünjesini 1930-njy ýyllarda ykdysatçy Saýmon Kuznes ABŞ üçin milli girdejini hasaplamak işinde ösdürdi. Ol soňra Nobel baýragyna mynasyp boldy.",
+          "ru": "Понятие ВВП развил в 1930-е годы экономист Саймон Кузнец, когда рассчитывал национальный доход США. Позже он получил Нобелевскую премию."
+        }}
+      ]
+    },
+    {
+      "id": "geography-9-energy",
+      "grade": 9,
+      "topic": 2,
+      "title": {"tk": "Dünýä energetikasy", "ru": "Мировая энергетика"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Energetika — energiýa öndürmek, geçirmek we ulanmak bilen baglanyşykly pudak.\n\nEnergiýa çeşmeleri:\n• Gazylyp alynýan ýangyçlar (gaýtadan dikeldilmeýän): nebit, tebigy gaz, kömür. Olar häzir dünýä energiýasynyň takmynan 80%-ini berýär.\n• Atom energiýasy — uran ýadrolarynyň bölünmegi (AES).\n• Gaýtadan dikeldilýän çeşmeler: gidroenergiýa (GES), Gün (Gün panelleri), ýel, geotermal, biomassa.\n\nElektrik stansiýalarynyň görnüşleri:\n• IES (ýylylyk) — kömür, gaz, mazut ýakýar.\n• GES — akýan suwuň güýji.\n• AES — ýadro reaksiýasy.\n• Gün we ýel stansiýalary.\n\nGazylyp alynýan ýangyçlar ýakylanda CO₂ bölünip çykýar — bu howanyň üýtgemegi bilen baglanyşykly. Şonuň üçin köp ýurt gaýtadan dikeldilýän energiýany ösdürýär.",
+          "ru": "Энергетика — отрасль, связанная с производством, передачей и использованием энергии.\n\nИсточники энергии:\n• Ископаемое топливо (невозобновляемое): нефть, природный газ, уголь. Сейчас оно даёт около 80% мировой энергии.\n• Атомная энергия — деление ядер урана (АЭС).\n• Возобновляемые источники: гидроэнергия (ГЭС), Солнце (солнечные панели), ветер, геотермальная энергия, биомасса.\n\nТипы электростанций:\n• ТЭС (тепловые) — сжигают уголь, газ, мазут.\n• ГЭС — сила текущей воды.\n• АЭС — ядерная реакция.\n• Солнечные и ветровые станции.\n\nПри сжигании ископаемого топлива выделяется CO₂ — это связано с изменением климата. Поэтому многие страны развивают возобновляемую энергетику."
+        }},
+        {"type": "example", "text": {
+          "tk": "Ýurt üçin energiýa çeşmesini saýlamak:\n1) Islandiýa — wulkanly ada: geotermal we gidroenergiýa elektrik energiýasynyň hemmesine diýen ýaly ýetýär.\n2) Norwegiýa — daglar we köp derýa: elektrik energiýasynyň aglaba bölegi GES-lerde öndürilýär.\n3) Fransiýa — tebigy gazy az: elektrik energiýasynyň uly bölegini AES-ler berýär.\n4) Türkmenistan — tebigy gazyň uly gorlary: elektrik stansiýalarynyň köpüsi gazda işleýär.\nNetije: energetikanyň gurluşy ýurduň tebigy baýlyklaryna bagly.",
+          "ru": "Выбор источника энергии для страны:\n1) Исландия — вулканический остров: геотермальная и гидроэнергия дают почти всё электричество.\n2) Норвегия — горы и много рек: большая часть электроэнергии вырабатывается на ГЭС.\n3) Франция — мало природного газа: большую долю электроэнергии дают АЭС.\n4) Туркменистан — огромные запасы природного газа: большинство электростанций работает на газе.\nВывод: структура энергетики зависит от природных ресурсов страны."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Haýsy çeşme gaýtadan dikeldilýär?", "ru": "Какой источник является возобновляемым?"},
+          "options": [{"tk": "Kömür", "ru": "Уголь"}, {"tk": "Ýel", "ru": "Ветер"}, {"tk": "Tebigy gaz", "ru": "Природный газ"}],
+          "answer": 1,
+          "hint": {"tk": "Ol tükenmeýär.", "ru": "Он не заканчивается."},
+          "explain": {"tk": "Ýel hemişe täzelenýär. Kömür we gaz millionlarça ýylda emele gelýär we tükenýär.", "ru": "Ветер постоянно возобновляется. Уголь и газ образуются миллионы лет и истощаются."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "AES-de uranyň ýadrolary bölünende energiýa bölünip çykýar.", "ru": "На АЭС энергия выделяется при делении ядер урана."},
+          "answer": true,
+          "hint": {"tk": "«Atom» sözüne üns beriň.", "ru": "Обратите внимание на слово «атомная»."},
+          "explain": {"tk": "AES-iň reaktorynda uran ýadrolary bölünýär, ýylylyk suwy buga öwürýär, bug turbinany aýlaýar.", "ru": "В реакторе АЭС делятся ядра урана, тепло превращает воду в пар, пар вращает турбину."}
+        },
+        {"type": "input",
+          "q": {"tk": "Gazylyp alynýan ýangyçlar dünýä energiýasynyň takmynan näçe göterimini berýär? (onluga tegeläň)", "ru": "Какую примерно долю мировой энергии в процентах даёт ископаемое топливо? (округлите до десятков)"},
+          "answer": "80|80%",
+          "hint": {"tk": "Bäşden dördüne golaý.", "ru": "Около четырёх пятых."},
+          "explain": {"tk": "Nebit, gaz we kömür bilelikde takmynan 80% berýär.", "ru": "Нефть, газ и уголь вместе дают около 80%."}
+        },
+        {"type": "world", "text": {
+          "tk": "Hytaýdaky «Üç dere» (Sansýa) GES-i ýerleşdirilen kuwwaty boýunça dünýäniň iň uly elektrik stansiýasydyr. Ol Ýanszy derýasynda gurlan.",
+          "ru": "ГЭС «Три ущелья» (Санься) в Китае — крупнейшая электростанция мира по установленной мощности. Она построена на реке Янцзы."
+        }}
+      ]
+    },
+    {
+      "id": "geography-9-transport",
+      "grade": 9,
+      "topic": 3,
+      "title": {"tk": "Dünýä ulagy", "ru": "Мировой транспорт"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Ulag — ýükleri we ýolagçylary daşaýan pudak; ol dünýä hojalygynyň «gan damarlary».\n\nUlagyň görnüşleri:\n• Deňiz ulagy — halkara söwda ýükleriniň (agramy boýunça) takmynan 80%-ini daşaýar; iň arzan uzak aralyk ulagy. Konteýner gämileri, tankerler.\n• Demir ýol — ýurtlaryň içinde agyr ýükleri daşamak üçin amatly.\n• Awtomobil ulagy — gysga aralyk, «gapydan gapa» eltmek.\n• Howa ulagy — iň çalt, emma iň gymmat; ýolagçylar we gymmatly ýükler.\n• Turba geçirijiler — nebit we gaz.\n\nWajyp deňiz ýollary we kanallar: Suweýş kanaly (Ortaýer deňzi — Gyzyl deňiz, 1869), Panama kanaly (Atlantik — Ýuwaş umman, 1914), Malakka bogazy.\nTürkmenistanda: Türkmenbaşy halkara deňiz porty, «Demirgazyk — Günorta» demir ýoly.",
+          "ru": "Транспорт — отрасль, перевозящая грузы и пассажиров; это «кровеносная система» мирового хозяйства.\n\nВиды транспорта:\n• Морской — перевозит около 80% грузов международной торговли (по массе); самый дешёвый на дальние расстояния. Контейнеровозы, танкеры.\n• Железнодорожный — удобен для тяжёлых грузов внутри стран и континентов.\n• Автомобильный — короткие расстояния, доставка «от двери до двери».\n• Воздушный — самый быстрый, но самый дорогой; пассажиры и ценные грузы.\n• Трубопроводный — нефть и газ.\n\nВажные морские пути и каналы: Суэцкий канал (Средиземное — Красное море, 1869), Панамский канал (Атлантический — Тихий океан, 1914), Малаккский пролив.\nВ Туркменистане: Туркменбашийский международный морской порт, железная дорога «Север — Юг»."
+        }},
+        {"type": "example", "text": {
+          "tk": "Gämi Şanhaýdan Rotterdama gidýär.\n1) Suweýş kanaly arkaly ýol takmynan 19 müň km.\n2) Afrikanyň daşyndan (Umyt burny arkaly) — takmynan 25 müň km.\n3) Tapawut: 25 − 19 = 6 müň km. Gämi gije-gündizde takmynan 900 km geçse, 6 000 : 900 ≈ 7 gün tygşytlanýar.\nŞonuň üçin Suweýş kanaly dünýä söwdasynyň iň möhüm ýollarynyň biri.",
+          "ru": "Судно идёт из Шанхая в Роттердам.\n1) Через Суэцкий канал путь около 19 тыс. км.\n2) Вокруг Африки (через мыс Доброй Надежды) — около 25 тыс. км.\n3) Разница: 25 − 19 = 6 тыс. км. Если судно проходит около 900 км в сутки, экономия 6 000 : 900 ≈ 7 дней.\nПоэтому Суэцкий канал — один из важнейших путей мировой торговли."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Halkara söwda ýükleriniň iň köpüsini haýsy ulag daşaýar?", "ru": "Какой транспорт перевозит больше всего грузов международной торговли?"},
+          "options": [{"tk": "Howa ulagy", "ru": "Воздушный"}, {"tk": "Awtomobil ulagy", "ru": "Автомобильный"}, {"tk": "Deňiz ulagy", "ru": "Морской"}],
+          "answer": 2,
+          "hint": {"tk": "Bu ulag iň arzan uzak aralyk ulagy.", "ru": "Это самый дешёвый транспорт на дальние расстояния."},
+          "explain": {"tk": "Deňiz ulagy agramy boýunça halkara ýükleriň takmynan 80%-ini daşaýar.", "ru": "Морской транспорт перевозит около 80% международных грузов по массе."}
+        },
+        {"type": "input",
+          "q": {"tk": "Suweýş kanaly haýsy ýylda açyldy?", "ru": "В каком году был открыт Суэцкий канал?"},
+          "answer": "1869",
+          "hint": {"tk": "XIX asyryň ikinji ýarymy.", "ru": "Вторая половина XIX века."},
+          "explain": {"tk": "Suweýş kanaly 1869-njy ýylda açyldy.", "ru": "Суэцкий канал открыт в 1869 году."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Panama kanaly Atlantik we Ýuwaş ummanlaryny birleşdirýär.", "ru": "Панамский канал соединяет Атлантический и Тихий океаны."},
+          "answer": true,
+          "hint": {"tk": "Panama Demirgazyk we Günorta Amerikanyň arasynda.", "ru": "Панама находится между Северной и Южной Америкой."},
+          "explain": {"tk": "Hawa, kanal 1914-nji ýylda açyldy we Günorta Amerikanyň daşyndan aýlanmazlyga mümkinçilik berdi.", "ru": "Да, канал открыт в 1914 году и позволил не огибать Южную Америку."}
+        },
+        {"type": "world", "text": {
+          "tk": "Ilkinji standart deňiz konteýnerini 1956-njy ýylda amerikan telekeçisi Malkolm Maklin ulanyp başlady. Konteýnerler ýükleri ýüklemegi we düşürmegi ep-esli arzanlatdy we dünýä söwdasyny düýpgöter üýtgetdi.",
+          "ru": "Первые стандартные морские контейнеры начал использовать в 1956 году американский предприниматель Малкольм Маклин. Контейнеры сильно удешевили погрузку и разгрузку и изменили мировую торговлю."
+        }}
+      ]
+    },
+    {
+      "id": "geography-9-agriculture",
+      "grade": 9,
+      "topic": 4,
+      "title": {"tk": "Dünýä oba hojalygy", "ru": "Мировое сельское хозяйство"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Oba hojalygy iki esasy pudakdan ybarat:\n• Ekerançylyk — däne (bugdaý, tüwi, mekgejöwen), tehniki ekinler (pagta, gant şugundyry), gök önümler, miweler.\n• Maldarçylyk — iri şahly mallar, goýun, guş, doňuz.\n\nOba hojalygynyň görnüşleri:\n• Intensiw — az ýerden köp hasyl: tehnika, dökün, suwaryş, seleksiýa (Niderlandlar, Ýaponiýa).\n• Ekstensiw — meýdany giňeltmek arkaly; hasyllylyk pes (yzky çarwa maldarçylygy, ýönekeý ekerançylyk).\n\nTebigy şertler möhüm: howa, toprak, suw. Gurak ýerlerde suwaryş zerur — Türkmenistanda ekin meýdanlarynyň esasy bölegi Garagum derýasyndan we Amyderýadan suwarylýar.\n\nDünýäde iň köp öndürilýän däneler: mekgejöwen, bugdaý, tüwi. Tüwiniň esasy öndürijileri — Hytaý we Hindistan.",
+          "ru": "Сельское хозяйство состоит из двух главных отраслей:\n• Растениеводство — зерновые (пшеница, рис, кукуруза), технические культуры (хлопок, сахарная свёкла), овощи, фрукты.\n• Животноводство — крупный рогатый скот, овцы, птица, свиньи.\n\nТипы сельского хозяйства:\n• Интенсивное — высокий урожай с небольшой площади: техника, удобрения, орошение, селекция (Нидерланды, Япония).\n• Экстенсивное — за счёт расширения площадей; урожайность низкая (отгонное животноводство, простое земледелие).\n\nВажны природные условия: климат, почва, вода. В засушливых районах нужно орошение — в Туркменистане основная часть посевных площадей орошается из Каракумской реки и Амударьи.\n\nВ мире больше всего производится зерновых: кукурузы, пшеницы, риса. Главные производители риса — Китай и Индия."
+        }},
+        {"type": "example", "text": {
+          "tk": "Hasyllylygy hasaplalyň: hasyllylyk = hasyl : meýdan.\n1) 1-nji fermer 50 ga meýdandan 250 tonna bugdaý aldy: 250 : 50 = 5 t/ga.\n2) 2-nji fermer 200 ga meýdandan 400 tonna aldy: 400 : 200 = 2 t/ga.\n3) 2-nji fermer köp hasyl aldy, emma onuň hojalygy ekstensiw. 1-nji fermeriň hasyllylygy 2,5 esse ýokary — bu intensiw hojalyk.\nBelleme: 1 t/ga = 10 sentner/ga.",
+          "ru": "Рассчитаем урожайность: урожайность = урожай : площадь.\n1) Первый фермер собрал 250 т пшеницы с 50 га: 250 : 50 = 5 т/га.\n2) Второй собрал 400 т с 200 га: 400 : 200 = 2 т/га.\n3) У второго фермера урожай больше, но хозяйство экстенсивное. Урожайность первого в 2,5 раза выше — это интенсивное хозяйство.\nПримечание: 1 т/га = 10 ц/га."
+        }},
+        {"type": "input",
+          "q": {"tk": "Fermer 30 ga meýdandan 120 tonna pagta aldy. Hasyllylyk näçe t/ga?", "ru": "Фермер собрал 120 т хлопка с 30 га. Какова урожайность в т/га?"},
+          "answer": "4",
+          "hint": {"tk": "Hasyly meýdana bölüň.", "ru": "Разделите урожай на площадь."},
+          "explain": {"tk": "120 : 30 = 4 t/ga.", "ru": "120 : 30 = 4 т/га."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Intensiw oba hojalygy näme bilen häsiýetlendirilýär?", "ru": "Чем характеризуется интенсивное сельское хозяйство?"},
+          "options": [{"tk": "Tehnika we dökün ulanyp, birlik meýdandan ýokary hasyl almak", "ru": "Высокий урожай с единицы площади за счёт техники и удобрений"}, {"tk": "Diňe täze ýerleri özleşdirmek", "ru": "Только освоение новых земель"}, {"tk": "Hiç hili tehnika ulanmazlyk", "ru": "Отказ от любой техники"}],
+          "answer": 0,
+          "hint": {"tk": "«Intensiw» — «güýçli, çuň» diýmek.", "ru": "«Интенсивный» — значит «напряжённый, углублённый»."},
+          "explain": {"tk": "Intensiw hojalyk meýdany giňeltmän, onuň önümliligini artdyrýar.", "ru": "Интенсивное хозяйство повышает отдачу земли, не расширяя площадь."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Tüwiniň iň uly öndürijileri — Hytaý we Hindistan.", "ru": "Крупнейшие производители риса — Китай и Индия."},
+          "answer": true,
+          "hint": {"tk": "Tüwi musson howaly Aziýada köp ösdürilýär.", "ru": "Рис много выращивают в муссонной Азии."},
+          "explain": {"tk": "Hawa, bu iki ýurt dünýä tüwisiniň ýarysyna golaýyny öndürýär.", "ru": "Да, эти две страны производят около половины мирового риса."}
+        },
+        {"type": "world", "text": {
+          "tk": "Kiçijik Niderlandlar oba hojalyk önümleriniň eksporty boýunça dünýäde ABŞ-dan soň ikinji ýerde durýar. Muňa ýyly-ýaşyl öýleri we ýokary tehnologiýalar kömek edýär.",
+          "ru": "Небольшие Нидерланды занимают второе место в мире после США по экспорту сельскохозяйственной продукции. Этому помогают теплицы и высокие технологии."
+        }}
+      ]
+    },
+    {
+      "id": "geography-9-globalization",
+      "grade": 9,
+      "topic": 5,
+      "title": {"tk": "Globalizasiýa", "ru": "Глобализация"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Globalizasiýa — dünýä ýurtlarynyň ykdysady, medeni we maglumat taýdan barha ýakynlaşmagy we biri-birine bagly bolmagy.\n\nGlobalizasiýanyň sebäpleri:\n• Ulagyň arzanlamagy (konteýnerler, awiasiýa).\n• Aragatnaşyk we internet.\n• Söwda päsgelçilikleriniň (gümrük paçlarynyň) azalmagy.\n\nGörnüşleri:\n• Transmilli korporasiýalar (TMK) — birnäçe ýurtda kärhanalary bolan kompaniýalar.\n• Halkara guramalar: BMG, Bütindünýä söwda guramasy (BSG, 1995), Halkara walýuta gaznasy.\n• Sebit birleşikleri: Ýewropa Bileleşigi (ÝB), ASEAN.\n\nOňyn netijeleri: täze tehnologiýalar, arzan harytlar, iş ýerleri, bilim alyşmak.\nKynçylyklary: ýurtlaryň arasyndaky deňsizlik, ykdysady krizisleriň çalt ýaýramagy, ýerli medeniýetleriň ýitmek howpy, ekologik meseleler.",
+          "ru": "Глобализация — всё большее сближение и взаимозависимость стран мира в экономике, культуре и информации.\n\nПричины глобализации:\n• Удешевление транспорта (контейнеры, авиация).\n• Связь и интернет.\n• Снижение торговых барьеров (таможенных пошлин).\n\nПроявления:\n• Транснациональные корпорации (ТНК) — компании с предприятиями во многих странах.\n• Международные организации: ООН, Всемирная торговая организация (ВТО, 1995), Международный валютный фонд.\n• Региональные объединения: Европейский союз (ЕС), АСЕАН.\n\nПлюсы: новые технологии, дешёвые товары, рабочие места, обмен знаниями.\nПроблемы: неравенство между странами, быстрое распространение экономических кризисов, риск утраты местных культур, экологические проблемы."
+        }},
+        {"type": "example", "text": {
+          "tk": "Smartfonyň «dünýä boýunça syýahaty»:\n1) Dizaýny we programma üpjünçiligi bir ýurtda (mysal üçin, ABŞ-da) döredilýär.\n2) Çipleri Taýwanda we Günorta Koreýada öndürilýär.\n3) Seýrek metallar we kobalt Afrikada we Aziýada çykarylýar.\n4) Ýygnamak köplenç Hytaýda, Wýetnamda ýa-da Hindistanda bolýar.\n5) Taýýar telefon gämi we uçar bilen dünýäniň ähli ýurtlaryna ýaýraýar.\nBu — dünýä bahasy zynjyry: bir önüm onlarça ýurduň zähmetini birleşdirýär.",
+          "ru": "«Кругосветное путешествие» смартфона:\n1) Дизайн и программное обеспечение создаются в одной стране (например, в США).\n2) Чипы производятся на Тайване и в Южной Корее.\n3) Редкие металлы и кобальт добывают в Африке и Азии.\n4) Сборка часто идёт в Китае, Вьетнаме или Индии.\n5) Готовый телефон кораблями и самолётами расходится по всем странам мира.\nЭто глобальная цепочка создания стоимости: один продукт объединяет труд десятков стран."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Bütindünýä söwda guramasy haýsy ýylda döredildi?", "ru": "В каком году создана Всемирная торговая организация?"},
+          "options": ["1945", "1995", "2005"],
+          "answer": 1,
+          "hint": {"tk": "XX asyryň soňky onýyllygy.", "ru": "Последнее десятилетие XX века."},
+          "explain": {"tk": "BSG 1995-nji ýylda işe başlady. 1945 — BMG-niň döredilen ýyly.", "ru": "ВТО начала работу в 1995 году. 1945 — год создания ООН."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Transmilli korporasiýanyň kärhanalary diňe bir ýurtda ýerleşýär.", "ru": "Предприятия транснациональной корпорации расположены только в одной стране."},
+          "answer": false,
+          "hint": {"tk": "«Trans» — «üsti bilen, aşa» diýmek.", "ru": "«Транс» — значит «через, сквозь»."},
+          "explain": {"tk": "TMK-nyň kärhanalary we bölümleri köp ýurtda bolýar.", "ru": "У ТНК предприятия и филиалы во многих странах."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsysy globalizasiýanyň kynçylygy hasaplanýar?", "ru": "Что считается проблемой глобализации?"},
+          "options": [{"tk": "Krizisleriň ýurtdan ýurda çalt ýaýramagy", "ru": "Быстрое распространение кризисов между странами"}, {"tk": "Internetiň ýaýramagy", "ru": "Распространение интернета"}, {"tk": "Harytlaryň arzanlamagy", "ru": "Удешевление товаров"}],
+          "answer": 0,
+          "hint": {"tk": "Ýurtlar biri-birine bagly bolsa, bir ýerdäki kynçylyk näme bolýar?", "ru": "Если страны взаимосвязаны, что происходит с проблемой в одном месте?"},
+          "explain": {"tk": "Mysal üçin, 2008-nji ýylyň maliýe krizisi ABŞ-dan tutuş dünýä ýaýrady.", "ru": "Например, финансовый кризис 2008 года распространился из США на весь мир."}
+        },
+        {"type": "world", "text": {
+          "tk": "«Global oba» (global village) düşünjesini 1960-njy ýyllarda kanadaly alym Maršal Makluen teklip etdi: elektron aragatnaşyk tutuş dünýäni bir oba ýaly edýär diýip, ol öňünden aýdypdy.",
+          "ru": "Понятие «глобальная деревня» предложил в 1960-е годы канадский учёный Маршалл Маклюэн: он предсказывал, что электронная связь сделает весь мир похожим на одну деревню."
+        }}
+      ]
+    }
+  ]
+}

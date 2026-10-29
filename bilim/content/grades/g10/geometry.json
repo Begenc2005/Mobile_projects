@@ -1,0 +1,313 @@
+{
+  "grade": 10,
+  "subject": "geometry",
+  "lessons": [
+    {
+      "id": "geometry-10-stereometry-axioms",
+      "grade": 10,
+      "topic": 0,
+      "title": {"tk": "Stereometriýanyň aksiomalary", "ru": "Аксиомы стереометрии"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Stereometriýa — giňişlikdäki figuralary öwrenýän geometriýanyň bölümi. Esasy figuralar: nokat, göni çyzyk we tekizlik. Olar kesgitlenmeýär, olaryň häsiýetleri aksiomalar bilen berilýär.\n\n• A1. Bir göni çyzykda ýatmaýan islendik üç nokadyň üstünden bir tekizlik geçýär we diňe bir.\n• A2. Eger göni çyzygyň iki nokady tekizlikde ýatýan bolsa, onda onuň ähli nokatlary şol tekizlikde ýatýar.\n• A3. Eger iki dürli tekizligiň umumy nokady bar bolsa, onda olar umumy göni çyzyk boýunça kesişýär we ähli umumy nokatlar şol çyzykda ýatýar.\n\nNetijeler:\n• Göni çyzygyň we onda ýatmaýan nokadyň üstünden diňe bir tekizlik geçýär.\n• Kesişýän iki göni çyzygyň üstünden diňe bir tekizlik geçýär.",
+          "ru": "Стереометрия — раздел геометрии, изучающий фигуры в пространстве. Основные фигуры: точка, прямая и плоскость. Они не определяются, их свойства задаются аксиомами.\n\n• А1. Через любые три точки, не лежащие на одной прямой, проходит плоскость, и притом только одна.\n• А2. Если две точки прямой лежат в плоскости, то все точки прямой лежат в этой плоскости.\n• А3. Если две различные плоскости имеют общую точку, то они пересекаются по прямой, на которой лежат все их общие точки.\n\nСледствия:\n• Через прямую и не лежащую на ней точку проходит единственная плоскость.\n• Через две пересекающиеся прямые проходит единственная плоскость."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mesele: A, B, C, D nokatlary bir tekizlikde ýatmaýar. Bu nokatlaryň üçüsiniň üstünden näçe tekizlik geçirip bolar?\n\n1) Dört nokat bir tekizlikde ýatmaýan bolsa, olaryň hiç bir üçüsi bir göni çyzykda ýatmaýar (ýogsam dördüsi hem bir tekizlikde bolardy).\n2) Diýmek, her üç nokat A1 boýunça diňe bir tekizligi kesgitleýär.\n3) Dört nokatdan üç nokady saýlamagyň usullary: ABC, ABD, ACD, BCD — 4 usul.\nJogap: 4 tekizlik. Bular tetraedriň dört granydyr.",
+          "ru": "Задача: точки A, B, C, D не лежат в одной плоскости. Сколько плоскостей можно провести через каждые три из них?\n\n1) Если четыре точки не лежат в одной плоскости, то никакие три из них не лежат на одной прямой (иначе все четыре оказались бы в одной плоскости).\n2) Значит, каждые три точки по А1 задают ровно одну плоскость.\n3) Способов выбрать три точки из четырёх: ABC, ABD, ACD, BCD — 4 способа.\nОтвет: 4 плоскости. Это четыре грани тетраэдра."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Üç aýakly oturgyç pol deň bolmasa-da yrgyldamaýar, dört aýakly oturgyç bolsa yrgyldap biler. Muny haýsy aksioma düşündirýär?", "ru": "Табурет на трёх ножках не качается даже на неровном полу, а на четырёх — может качаться. Какая аксиома это объясняет?"},
+          "options": [
+            {"tk": "Iki tekizligiň kesişmegi baradaky aksioma (A3)", "ru": "Аксиома о пересечении двух плоскостей (А3)"},
+            {"tk": "Göni çyzygyň iki nokady baradaky aksioma (A2)", "ru": "Аксиома о двух точках прямой (А2)"},
+            {"tk": "Üç nokadyň üstünden geçýän tekizlik baradaky aksioma (A1)", "ru": "Аксиома о плоскости через три точки (А1)"}
+          ],
+          "answer": 2,
+          "hint": {"tk": "Aýaklaryň uçlaryny nokat hökmünde göz öňüne getiriň.", "ru": "Представьте концы ножек как точки."},
+          "explain": {"tk": "Üç aýagyň uçlary — bir göni çyzykda ýatmaýan üç nokat, olar hemişe bir tekizligi kesgitleýär. Dördünji nokat şol tekizlikde ýatmazlygy mümkin.", "ru": "Концы трёх ножек — три точки не на одной прямой, они всегда задают одну плоскость. Четвёртая точка может этой плоскости не принадлежать."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Islendik üç nokadyň üstünden diňe bir tekizlik geçýär.", "ru": "Через любые три точки проходит ровно одна плоскость."},
+          "answer": false,
+          "hint": {"tk": "Üç nokat bir göni çyzykda ýatsa näme bolar?", "ru": "Что будет, если три точки лежат на одной прямой?"},
+          "explain": {"tk": "Eger üç nokat bir göni çyzykda ýatsa, onuň üstünden tükeniksiz köp tekizlik geçýär. A1 aksioma diňe bir göni çyzykda ýatmaýan nokatlar üçin dogry.", "ru": "Если три точки лежат на одной прямой, через неё проходит бесконечно много плоскостей. Аксиома А1 верна только для точек, не лежащих на одной прямой."}
+        },
+        {"type": "input",
+          "q": {"tk": "Bäş nokat berlen, olaryň hiç bir dördüsi bir tekizlikde ýatmaýar. Her üç nokadyň üstünden näçe tekizlik geçirip bolar?", "ru": "Даны пять точек, никакие четыре из которых не лежат в одной плоскости. Сколько плоскостей можно провести через каждые три из них?"},
+          "answer": "10",
+          "hint": {"tk": "Bäş nokatdan üç nokady näçe usul bilen saýlap bolýar?", "ru": "Сколькими способами можно выбрать три точки из пяти?"},
+          "explain": {"tk": "Her üç nokat bir tekizligi berýär we tekizlikler gaýtalanmaýar. Saýlamagyň sany: 5·4·3 / (3·2·1) = 10.", "ru": "Каждые три точки дают одну плоскость, и плоскости не повторяются. Число выборов: 5·4·3 / (3·2·1) = 10."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Umumy nokady bolan iki dürli tekizlik nähili kesişýär?", "ru": "Как пересекаются две различные плоскости, имеющие общую точку?"},
+          "options": [
+            {"tk": "Diňe bir nokatda", "ru": "Только в одной точке"},
+            {"tk": "Göni çyzyk boýunça", "ru": "По прямой"},
+            {"tk": "Olar kesişmeýär", "ru": "Они не пересекаются"}
+          ],
+          "answer": 1,
+          "hint": {"tk": "Otagyň diwary bilen poluny göz öňüne getiriň.", "ru": "Вспомните, как стена комнаты встречается с полом."},
+          "explain": {"tk": "A3 aksioma boýunça olar umumy göni çyzyk boýunça kesişýär, mysal üçin diwar bilen polyň gyrasy.", "ru": "По аксиоме А3 они пересекаются по общей прямой — как стена и пол по линии плинтуса."}
+        },
+        {"type": "world", "text": {
+          "tk": "Takmynan b.e.öň 300-nji ýylda ýazylan Ýewklidiň «Başlangyçlar» kitabynyň soňky üç kitaby (XI–XIII) giňişlik geometriýasyna bagyşlanýar. Iň soňky kitapda dogry köpgranlyklaryň diňe bäşisiniň bardygy subut edilýär.",
+          "ru": "Последние три книги «Начал» Евклида (около 300 г. до н. э.), XI–XIII, посвящены геометрии пространства. В самой последней из них доказывается, что правильных многогранников существует ровно пять."
+        }}
+      ]
+    },
+    {
+      "id": "geometry-10-parallelism-space",
+      "grade": 10,
+      "topic": 1,
+      "title": {"tk": "Giňişlikde parallellik", "ru": "Параллельность в пространстве"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Giňişlikde iki göni çyzygyň özara ýerleşişi üç hili bolup biler:\n• kesişýän — bir umumy nokady bar;\n• parallel — bir tekizlikde ýatýar we umumy nokady ýok;\n• atanaklaýyn — bir tekizlikde ýatmaýar (kesişmeýär hem, parallel hem däl).\n\nGöni çyzyk we tekizlik parallel, eger olaryň umumy nokady ýok bolsa.\nAlamat: tekizlikde ýatmaýan göni çyzyk şol tekizlikdäki haýsydyr bir göni çyzyga parallel bolsa, ol tekizlige paralleldir.\n\nIki tekizlik parallel, eger olaryň umumy nokady ýok bolsa.\nAlamat: bir tekizligiň kesişýän iki göni çyzygy beýleki tekizligiň iki göni çyzygyna degişlilikde parallel bolsa, onda tekizlikler paralleldir.\nHäsiýet: iki parallel tekizlik üçünji tekizlik bilen kesilende, kesişme çyzyklary paralleldir.",
+          "ru": "Две прямые в пространстве могут располагаться тремя способами:\n• пересекающиеся — имеют одну общую точку;\n• параллельные — лежат в одной плоскости и не имеют общих точек;\n• скрещивающиеся — не лежат в одной плоскости (не пересекаются и не параллельны).\n\nПрямая и плоскость параллельны, если у них нет общих точек.\nПризнак: если прямая, не лежащая в плоскости, параллельна какой-нибудь прямой этой плоскости, то она параллельна плоскости.\n\nДве плоскости параллельны, если у них нет общих точек.\nПризнак: если две пересекающиеся прямые одной плоскости соответственно параллельны двум прямым другой плоскости, то эти плоскости параллельны.\nСвойство: если две параллельные плоскости пересечены третьей, то линии пересечения параллельны."
+        }},
+        {"type": "example", "text": {
+          "tk": "ABCDA₁B₁C₁D₁ kub berlen (ABCD — aşaky esas, A₁B₁C₁D₁ — ýokarky esas).\n\n1) AB we C₁D₁: AB ∥ DC (kwadratyň tarapy), DC ∥ D₁C₁ (DCC₁D₁ kwadrat). Diýmek, AB ∥ C₁D₁.\n2) AB we CC₁: olar kesişmeýär we bir tekizlikde ýatmaýar — atanaklaýyn.\n3) AB we A₁B₁C₁D₁ tekizligi: AB ∥ A₁B₁, A₁B₁ bolsa şol tekizlikde ýatýar. Alamat boýunça AB tekizlige parallel.\n4) ABCD we A₁B₁C₁D₁ tekizlikleri: kesişýän AB we AD degişlilikde A₁B₁ we A₁D₁ çyzyklaryna parallel, diýmek, tekizlikler parallel.",
+          "ru": "Дан куб ABCDA₁B₁C₁D₁ (ABCD — нижнее основание, A₁B₁C₁D₁ — верхнее).\n\n1) AB и C₁D₁: AB ∥ DC (стороны квадрата), DC ∥ D₁C₁ (DCC₁D₁ — квадрат). Значит, AB ∥ C₁D₁.\n2) AB и CC₁: не пересекаются и не лежат в одной плоскости — скрещивающиеся.\n3) AB и плоскость A₁B₁C₁D₁: AB ∥ A₁B₁, а A₁B₁ лежит в этой плоскости. По признаку AB параллельна плоскости.\n4) Плоскости ABCD и A₁B₁C₁D₁: пересекающиеся AB и AD соответственно параллельны A₁B₁ и A₁D₁, значит, плоскости параллельны."
+        }},
+        {"type": "choice",
+          "q": {"tk": "ABCDA₁B₁C₁D₁ kubda AA₁ we BC göni çyzyklary nähili ýerleşýär?", "ru": "Как расположены прямые AA₁ и BC в кубе ABCDA₁B₁C₁D₁?"},
+          "options": [
+            {"tk": "Parallel", "ru": "Параллельны"},
+            {"tk": "Kesişýär", "ru": "Пересекаются"},
+            {"tk": "Atanaklaýyn", "ru": "Скрещиваются"}
+          ],
+          "answer": 2,
+          "hint": {"tk": "Olaryň umumy nokady barmy? Olar bir granda ýatýarmy?", "ru": "Есть ли у них общая точка? Лежат ли они в одной грани?"},
+          "explain": {"tk": "AA₁ we BC-niň umumy nokady ýok we olar hiç bir tekizlikde bile ýatmaýar, şonuň üçin atanaklaýyn.", "ru": "У AA₁ и BC нет общих точек, и они не лежат в одной плоскости, поэтому скрещиваются."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Giňişlikde kesişmeýän iki göni çyzyk hemişe paralleldir.", "ru": "Две непересекающиеся прямые в пространстве всегда параллельны."},
+          "answer": false,
+          "hint": {"tk": "Göni çyzyklaryň ýerleşişiniň üç görnüşini ýada salyň.", "ru": "Вспомните три случая расположения прямых."},
+          "explain": {"tk": "Kesişmeýän göni çyzyklar atanaklaýyn hem bolup biler. Parallel bolmak üçin olar hökman bir tekizlikde ýatmaly.", "ru": "Непересекающиеся прямые могут быть скрещивающимися. Чтобы быть параллельными, они обязательно должны лежать в одной плоскости."}
+        },
+        {"type": "input",
+          "q": {"tk": "Kubuň 12 gapyrgasynyň arasynda AB gapyrgasy bilen atanaklaýyn bolan gapyrgalar näçe?", "ru": "Сколько из 12 рёбер куба скрещиваются с ребром AB?"},
+          "answer": "4",
+          "hint": {"tk": "Ilki AB-ä parallel we AB bilen kesişýän gapyrgalary sanaň.", "ru": "Сначала посчитайте рёбра, параллельные AB и пересекающие AB."},
+          "explain": {"tk": "AB-niň özi 1, oňa parallel 3 (DC, A₁B₁, D₁C₁), kesişýän 4 (AD, AA₁, BC, BB₁). Galýan: 12 − 1 − 3 − 4 = 4 (A₁D₁, B₁C₁, CC₁, DD₁).", "ru": "Само AB — 1, параллельных ему 3 (DC, A₁B₁, D₁C₁), пересекающих 4 (AD, AA₁, BC, BB₁). Остаётся 12 − 1 − 3 − 4 = 4 (A₁D₁, B₁C₁, CC₁, DD₁)."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Iki parallel tekizlik üçünji tekizlik bilen kesilýär. Kesişme çyzyklary nähili?", "ru": "Две параллельные плоскости пересечены третьей. Какими будут линии пересечения?"},
+          "options": [
+            {"tk": "Kesişýän", "ru": "Пересекающимися"},
+            {"tk": "Parallel", "ru": "Параллельными"},
+            {"tk": "Atanaklaýyn", "ru": "Скрещивающимися"}
+          ],
+          "answer": 1,
+          "hint": {"tk": "Iki çyzyk hem üçünji tekizlikde ýatýar.", "ru": "Обе линии лежат в третьей плоскости."},
+          "explain": {"tk": "Iki çyzyk hem kesiji tekizlikde ýatýar, şonuň üçin atanaklaýyn bolup bilmez. Parallel tekizlikleriň umumy nokady ýok, şonuň üçin çyzyklar hem kesişmeýär. Diýmek, olar parallel.", "ru": "Обе линии лежат в секущей плоскости, поэтому не могут скрещиваться. У параллельных плоскостей нет общих точек, значит, линии не пересекаются. Следовательно, они параллельны."}
+        },
+        {"type": "world", "text": {
+          "tk": "Ýewklidiň parallel çyzyklar baradaky postulaty iki müň ýyl çemesi jedelli boldy. 1829-njy ýylda rus matematigi Nikolaý Lobaçewskiý bu postulat ýerine ýetmeýän, ýöne garşylyksyz başga bir geometriýany çap etdi. Häzir şeýle ýewklid däl geometriýalar Eýnşteýniň umumy otnositellik nazaryýetinde ulanylýar.",
+          "ru": "Постулат Евклида о параллельных почти две тысячи лет вызывал споры. В 1829 году русский математик Николай Лобачевский опубликовал другую непротиворечивую геометрию, в которой этот постулат не выполняется. Сегодня неевклидовы геометрии используются в общей теории относительности Эйнштейна."
+        }}
+      ]
+    },
+    {
+      "id": "geometry-10-perpendicularity-space",
+      "grade": 10,
+      "topic": 2,
+      "title": {"tk": "Giňişlikde perpendikulýarlyk", "ru": "Перпендикулярность в пространстве"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Göni çyzyk tekizlige perpendikulýar, eger ol şol tekizlikdäki islendik göni çyzyga perpendikulýar bolsa.\nAlamat: göni çyzyk tekizlikde ýatan kesişýän iki göni çyzyga perpendikulýar bolsa, ol tekizlige perpendikulýardyr.\n\nM nokatdan tekizlige geçirilen perpendikulýar MO, ýapgyt MA, AO bolsa ýapgydyň proýeksiýasy. MOA üçburçlugy gönüburçly: MA² = MO² + OA². MO uzynlygy — nokatdan tekizlige çenli uzaklyk.\nÝapgyt bilen tekizligiň arasyndaky burç — ýapgyt bilen onuň proýeksiýasynyň arasyndaky burç.\n\nÜç perpendikulýar hakynda teorema: tekizlikde ýatan göni çyzyk ýapgydyň proýeksiýasyna perpendikulýar bolsa, ol ýapgydyň özüne hem perpendikulýardyr (we tersine).\n\nIki tekizlik perpendikulýar, eger olaryň arasyndaky ikigranly burç 90° bolsa. Alamat: tekizlik beýleki tekizlige perpendikulýar göni çyzygyň üstünden geçse, olar perpendikulýardyr.",
+          "ru": "Прямая перпендикулярна плоскости, если она перпендикулярна любой прямой этой плоскости.\nПризнак: если прямая перпендикулярна двум пересекающимся прямым плоскости, то она перпендикулярна плоскости.\n\nИз точки M проведены к плоскости перпендикуляр MO и наклонная MA; AO — проекция наклонной. Треугольник MOA прямоугольный: MA² = MO² + OA². Длина MO — расстояние от точки до плоскости.\nУгол между наклонной и плоскостью — угол между наклонной и её проекцией.\n\nТеорема о трёх перпендикулярах: если прямая, лежащая в плоскости, перпендикулярна проекции наклонной, то она перпендикулярна и самой наклонной (и обратно).\n\nДве плоскости перпендикулярны, если двугранный угол между ними равен 90°. Признак: если плоскость проходит через прямую, перпендикулярную другой плоскости, то эти плоскости перпендикулярны."
+        }},
+        {"type": "example", "text": {
+          "tk": "M nokat tekizlikden 4 sm uzaklykda. Ondan uzynlygy 5 sm bolan MA ýapgyt geçirilen. Proýeksiýany we ýapgydyň tekizlik bilen burçunyň sinusyny tapyň.\n\n1) MO = 4, MA = 5, MOA üçburçlugy gönüburçly (O burçy 90°).\n2) OA = √(MA² − MO²) = √(25 − 16) = √9 = 3 sm.\n3) Burç φ = ∠MAO: sin φ = MO / MA = 4/5 = 0,8 (φ ≈ 53°).\nJogap: proýeksiýa 3 sm, sin φ = 0,8.",
+          "ru": "Точка M находится на расстоянии 4 см от плоскости. Из неё проведена наклонная MA длиной 5 см. Найдите проекцию и синус угла наклонной с плоскостью.\n\n1) MO = 4, MA = 5, треугольник MOA прямоугольный (угол O равен 90°).\n2) OA = √(MA² − MO²) = √(25 − 16) = √9 = 3 см.\n3) Угол φ = ∠MAO: sin φ = MO / MA = 4/5 = 0,8 (φ ≈ 53°).\nОтвет: проекция 3 см, sin φ = 0,8."
+        }},
+        {"type": "input",
+          "q": {"tk": "Nokatdan tekizlige çenli uzaklyk 12 sm, ýapgydyň uzynlygy 13 sm. Ýapgydyň proýeksiýasy näçe santimetr?", "ru": "Расстояние от точки до плоскости 12 см, длина наклонной 13 см. Чему равна проекция наклонной (в см)?"},
+          "answer": "5",
+          "hint": {"tk": "Perpendikulýar, ýapgyt we proýeksiýa gönüburçly üçburçluk emele getirýär.", "ru": "Перпендикуляр, наклонная и проекция образуют прямоугольный треугольник."},
+          "explain": {"tk": "Pifagoryň teoremasy boýunça: √(13² − 12²) = √(169 − 144) = √25 = 5 sm.", "ru": "По теореме Пифагора: √(13² − 12²) = √(169 − 144) = √25 = 5 см."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Eger göni çyzyk tekizlikde ýatan iki parallel göni çyzyga perpendikulýar bolsa, ol tekizlige perpendikulýardyr.", "ru": "Если прямая перпендикулярна двум параллельным прямым плоскости, то она перпендикулярна плоскости."},
+          "answer": false,
+          "hint": {"tk": "Alamatda göni çyzyklar nähili bolmaly?", "ru": "Какими должны быть прямые в признаке?"},
+          "explain": {"tk": "Alamat diňe kesişýän iki göni çyzyk üçin dogry. Iki parallel çyzyga perpendikulýar göni çyzyk tekizlige ýapgyt bolup hem biler.", "ru": "Признак работает только для двух пересекающихся прямых. Прямая, перпендикулярная двум параллельным прямым, может быть наклонной к плоскости."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Üç perpendikulýar hakynda teorema: tekizlikde ýatan göni çyzyk ýapgydyň proýeksiýasyna perpendikulýar bolsa, onda ol ... perpendikulýar.", "ru": "Теорема о трёх перпендикулярах: если прямая в плоскости перпендикулярна проекции наклонной, то она перпендикулярна ..."},
+          "options": [
+            {"tk": "tekizligiň özüne", "ru": "самой плоскости"},
+            {"tk": "ýapgydyň özüne", "ru": "самой наклонной"},
+            {"tk": "hiç bir zada", "ru": "ничему"}
+          ],
+          "answer": 1,
+          "hint": {"tk": "Teoremanyň adynda üç perpendikulýar bar: MO, proýeksiýa we ...?", "ru": "В названии три перпендикуляра: MO, проекция и ...?"},
+          "explain": {"tk": "Tekizlikde ýatan göni çyzyk tekizlige perpendikulýar bolup bilmez. Teorema boýunça ol ýapgydyň özüne perpendikulýar bolýar.", "ru": "Прямая, лежащая в плоскости, не может быть ей перпендикулярна. По теореме она перпендикулярна самой наклонной."}
+        },
+        {"type": "input",
+          "q": {"tk": "Uzynlygy 10 sm bolan ýapgyt tekizlik bilen 30° burç emele getirýär. Ýapgydyň ujundan tekizlige çenli uzaklyk näçe santimetr?", "ru": "Наклонная длиной 10 см образует с плоскостью угол 30°. Найдите расстояние от конца наклонной до плоскости (в см)."},
+          "answer": "5",
+          "hint": {"tk": "Uzaklyk — 30° burçuň garşysyndaky katet.", "ru": "Расстояние — катет, лежащий против угла 30°."},
+          "explain": {"tk": "d = 10 · sin 30° = 10 · 0,5 = 5 sm. 30° burçuň garşysyndaky katet gipotenuzanyň ýarysyna deň.", "ru": "d = 10 · sin 30° = 10 · 0,5 = 5 см. Катет против угла 30° равен половине гипотенузы."}
+        },
+        {"type": "world", "text": {
+          "tk": "Gurluşykçylar diwaryň dikligini barlamak üçin müňýyllyklardan bäri şakulı — ýüpe asylan agyr ýüki ulanýarlar. Agyrlyk güýji sebäpli ýüp gorizontal tekizlige perpendikulýar ýerleşýär. Şakul Gadymy Müsürde eýýäm ulanylypdyr.",
+          "ru": "Строители уже тысячелетиями проверяют вертикальность стен отвесом — грузом на нити. Под действием силы тяжести нить располагается перпендикулярно горизонтальной плоскости. Отвес применяли ещё в Древнем Египте."
+        }}
+      ]
+    },
+    {
+      "id": "geometry-10-polyhedra",
+      "grade": 10,
+      "topic": 3,
+      "title": {"tk": "Köpgranlyklar we Eýleriň formulasy", "ru": "Многогранники и формула Эйлера"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Köpgranlyk — üsti tükenikli sanly köpburçlukdan ybarat bolan jisim. Bu köpburçluklar — granlar, olaryň taraplary — gapyrgalar, uçlary — depeler.\nKöpgranlyk güberçek, eger ol islendik granynyň tekizliginiň bir tarapynda ýatýan bolsa.\n\nEýleriň formulasy (güberçek köpgranlyklar üçin):\nD − G + F = 2,\nbu ýerde D — depeleriň sany, G — gapyrgalaryň sany, F — granlaryň sany.\n\nDogry köpgranlyk: ähli granlary deň dogry köpburçluklar we her depede birmeňzeş sanly gapyrga birleşýär. Olar diňe bäşisi:\n• tetraedr — 4 üçburçluk gran;\n• kub (geksaedr) — 6 kwadrat;\n• oktaedr — 8 üçburçluk;\n• dodekaedr — 12 bäşburçluk;\n• ikosaedr — 20 üçburçluk.",
+          "ru": "Многогранник — тело, поверхность которого состоит из конечного числа многоугольников. Эти многоугольники — грани, их стороны — рёбра, концы рёбер — вершины.\nМногогранник выпуклый, если он лежит по одну сторону от плоскости любой своей грани.\n\nФормула Эйлера (для выпуклых многогранников):\nВ − Р + Г = 2,\nгде В — число вершин, Р — число рёбер, Г — число граней.\n\nПравильный многогранник: все грани — равные правильные многоугольники и в каждой вершине сходится одинаковое число рёбер. Их всего пять:\n• тетраэдр — 4 треугольные грани;\n• куб (гексаэдр) — 6 квадратов;\n• октаэдр — 8 треугольников;\n• додекаэдр — 12 пятиугольников;\n• икосаэдр — 20 треугольников."
+        }},
+        {"type": "example", "text": {
+          "tk": "Ikosaedriň näçe gapyrgasy we depesi bar?\n\n1) Granlary: F = 20, her biri üçburçluk, ýagny 3 tarapy bar.\n2) Taraplaryň jemi 20 · 3 = 60. Her gapyrga iki grana degişli, şonuň üçin G = 60 / 2 = 30.\n3) Eýleriň formulasy: D = 2 + G − F = 2 + 30 − 20 = 12.\nJogap: 30 gapyrga, 12 depe.",
+          "ru": "Сколько рёбер и вершин у икосаэдра?\n\n1) Граней Г = 20, каждая — треугольник, т. е. имеет 3 стороны.\n2) Всего сторон 20 · 3 = 60. Каждое ребро принадлежит двум граням, поэтому Р = 60 / 2 = 30.\n3) По формуле Эйлера: В = 2 + Р − Г = 2 + 30 − 20 = 12.\nОтвет: 30 рёбер, 12 вершин."
+        }},
+        {"type": "input",
+          "q": {"tk": "Güberçek köpgranlygyň 8 depesi we 12 gapyrgasy bar. Onuň näçe grany bar?", "ru": "У выпуклого многогранника 8 вершин и 12 рёбер. Сколько у него граней?"},
+          "answer": "6",
+          "hint": {"tk": "D − G + F = 2 formulany ulanyň.", "ru": "Используйте формулу В − Р + Г = 2."},
+          "explain": {"tk": "F = 2 − D + G = 2 − 8 + 12 = 6. Bu, mysal üçin, kub.", "ru": "Г = 2 − В + Р = 2 − 8 + 12 = 6. Например, это куб."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Näçe görnüşli dogry köpgranlyk bar?", "ru": "Сколько существует видов правильных многогранников?"},
+          "options": ["4", "5", {"tk": "Tükeniksiz köp", "ru": "Бесконечно много"}],
+          "answer": 1,
+          "hint": {"tk": "Olaryň sanawyny ýokarda gördüňiz.", "ru": "Их список был выше."},
+          "explain": {"tk": "Diňe bäş dogry köpgranlyk bar: tetraedr, kub, oktaedr, dodekaedr we ikosaedr. Bir depede granlaryň burçlarynyň jemi 360°-dan kiçi bolmaly, bu bolsa mümkinçilikleri çäklendirýär.", "ru": "Правильных многогранников ровно пять: тетраэдр, куб, октаэдр, додекаэдр и икосаэдр. Сумма углов граней при вершине должна быть меньше 360°, что ограничивает варианты."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Dogry oktaedriň granlary kwadratlardyr.", "ru": "Грани правильного октаэдра — квадраты."},
+          "answer": false,
+          "hint": {"tk": "Oktaedri esaslary birleşdirilen iki piramida hökmünde göz öňüne getiriň.", "ru": "Представьте октаэдр как две пирамиды, сложенные основаниями."},
+          "explain": {"tk": "Oktaedriň 8 grany dogry üçburçluklardyr. Kwadrat granlar diňe kubda bar.", "ru": "Все 8 граней октаэдра — правильные треугольники. Квадратные грани есть только у куба."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Dodekaedriň granlary nähili köpburçluklar?", "ru": "Какими многоугольниками являются грани додекаэдра?"},
+          "options": [
+            {"tk": "Üçburçluklar", "ru": "Треугольники"},
+            {"tk": "Kwadratlar", "ru": "Квадраты"},
+            {"tk": "Bäşburçluklar", "ru": "Пятиугольники"}
+          ],
+          "answer": 2,
+          "hint": {"tk": "«Dodeka» — 12 diýmek, onuň 12 grany bar.", "ru": "«Додека» означает 12 — у него 12 граней."},
+          "explain": {"tk": "Dodekaedriň 12 grany dogry bäşburçluklar. Eýler boýunça: G = 12·5/2 = 30, D = 2 + 30 − 12 = 20.", "ru": "12 граней додекаэдра — правильные пятиугольники. По Эйлеру: Р = 12·5/2 = 30, В = 2 + 30 − 12 = 20."}
+        },
+        {"type": "world", "text": {
+          "tk": "Şweýsar matematigi Leonard Eýler köpgranlyklar üçin D − G + F = 2 baglanyşygy 1750-nji ýylda Hristian Goldbaha ýazan hatynda beýan edipdir. Bu formula topologiýa — şekiliň üzülmezden üýtgedilende saklanýan häsiýetleri baradaky ylma esas boldy.",
+          "ru": "Швейцарский математик Леонард Эйлер описал соотношение В − Р + Г = 2 для многогранников в 1750 году в письме Христиану Гольдбаху. Эта формула стала одной из основ топологии — науки о свойствах фигур, сохраняющихся при непрерывных деформациях."
+        }}
+      ]
+    },
+    {
+      "id": "geometry-10-prism",
+      "grade": 10,
+      "topic": 4,
+      "title": {"tk": "Prizma: üsti we göwrümi", "ru": "Призма: поверхность и объём"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Prizma — iki grany (esaslary) parallel tekizliklerde ýatýan deň köpburçluklar, galan granlary (gapdal granlary) parallelogramlar bolan köpgranlyk.\n• Göni prizma: gapdal gapyrgalary esasa perpendikulýar, gapdal granlary gönüburçluklar.\n• Dogry prizma: esasy dogry köpburçluk bolan göni prizma.\n• Parallelepiped: esasy parallelogram bolan prizma. Gönüburçly parallelepipediň ähli granlary gönüburçluklar.\n\nFormulalar:\n• Göni prizmanyň gapdal üsti: S_gap = P · h (P — esasyň perimetri, h — beýiklik).\n• Doly üsti: S_doly = S_gap + 2·S_esas.\n• Göwrümi (islendik prizma): V = S_esas · h.\n• Gönüburçly parallelepipediň diagonaly: d² = a² + b² + c².",
+          "ru": "Призма — многогранник, две грани которого (основания) — равные многоугольники в параллельных плоскостях, а остальные грани (боковые) — параллелограммы.\n• Прямая призма: боковые рёбра перпендикулярны основанию, боковые грани — прямоугольники.\n• Правильная призма: прямая призма, основание которой — правильный многоугольник.\n• Параллелепипед: призма, основание которой — параллелограмм. У прямоугольного параллелепипеда все грани — прямоугольники.\n\nФормулы:\n• Боковая поверхность прямой призмы: S_бок = P · h (P — периметр основания, h — высота).\n• Полная поверхность: S_полн = S_бок + 2·S_осн.\n• Объём (любой призмы): V = S_осн · h.\n• Диагональ прямоугольного параллелепипеда: d² = a² + b² + c²."
+        }},
+        {"type": "example", "text": {
+          "tk": "Gönüburçly parallelepipediň ölçegleri 3 sm, 4 sm we 12 sm. Diagonalyny, göwrümini we doly üstüni tapyň.\n\n1) d = √(3² + 4² + 12²) = √(9 + 16 + 144) = √169 = 13 sm.\n2) V = 3 · 4 · 12 = 144 sm³.\n3) S = 2(3·4 + 4·12 + 3·12) = 2(12 + 48 + 36) = 2 · 96 = 192 sm².",
+          "ru": "Измерения прямоугольного параллелепипеда 3 см, 4 см и 12 см. Найдите диагональ, объём и полную поверхность.\n\n1) d = √(3² + 4² + 12²) = √(9 + 16 + 144) = √169 = 13 см.\n2) V = 3 · 4 · 12 = 144 см³.\n3) S = 2(3·4 + 4·12 + 3·12) = 2(12 + 48 + 36) = 2 · 96 = 192 см²."
+        }},
+        {"type": "input",
+          "q": {"tk": "Dogry üçburçly prizmanyň esasynyň tarapy 4 sm, beýikligi 10 sm. Gapdal üstüniň meýdany näçe sm²?", "ru": "Сторона основания правильной треугольной призмы 4 см, высота 10 см. Найдите площадь боковой поверхности (в см²)."},
+          "answer": "120",
+          "hint": {"tk": "S_gap = P · h, P — üçburçlugyň perimetri.", "ru": "S_бок = P · h, где P — периметр треугольника."},
+          "explain": {"tk": "P = 3 · 4 = 12 sm, S_gap = 12 · 10 = 120 sm².", "ru": "P = 3 · 4 = 12 см, S_бок = 12 · 10 = 120 см²."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Altyburçly prizmanyň näçe grany bar?", "ru": "Сколько граней у шестиугольной призмы?"},
+          "options": ["6", "8", "12"],
+          "answer": 1,
+          "hint": {"tk": "Gapdal granlary we esaslary aýratyn sanaň.", "ru": "Посчитайте отдельно боковые грани и основания."},
+          "explain": {"tk": "6 gapdal gran we 2 esas: 6 + 2 = 8.", "ru": "6 боковых граней и 2 основания: 6 + 2 = 8."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Islendik prizmanyň gapdal granlary gönüburçluklardyr.", "ru": "Боковые грани любой призмы — прямоугольники."},
+          "answer": false,
+          "hint": {"tk": "Ýapgyt prizmany göz öňüne getiriň.", "ru": "Представьте наклонную призму."},
+          "explain": {"tk": "Umumy ýagdaýda gapdal granlar parallelogramlar. Olar diňe göni prizmada gönüburçluk bolýar.", "ru": "В общем случае боковые грани — параллелограммы. Прямоугольниками они являются только у прямой призмы."}
+        },
+        {"type": "input",
+          "q": {"tk": "Kubuň gapyrgasy 5 sm. Onuň göwrümi näçe sm³?", "ru": "Ребро куба 5 см. Чему равен его объём (в см³)?"},
+          "answer": "125",
+          "hint": {"tk": "Kub — ähli ölçegleri deň bolan prizma.", "ru": "Куб — призма, у которой все измерения равны."},
+          "explain": {"tk": "V = a³ = 5 · 5 · 5 = 125 sm³.", "ru": "V = a³ = 5 · 5 · 5 = 125 см³."}
+        },
+        {"type": "world", "text": {
+          "tk": "Bal arylarynyň mum öýjükleri dogry altyburçly prizma görnüşine ýakyn. Altyburçluklar tekizligi iň az perimetr bilen deň böleklere bölýär diýen çaklamany 1999-njy ýylda amerikan matematigi Tomas Heýls subut etdi — arylar mumy tygşytly ulanýar.",
+          "ru": "Восковые ячейки пчелиных сот близки по форме к правильным шестиугольным призмам. Гипотезу о том, что шестиугольники делят плоскость на равные части с наименьшим периметром, доказал в 1999 году американский математик Томас Хейлс — пчёлы расходуют воск экономно."
+        }}
+      ]
+    },
+    {
+      "id": "geometry-10-pyramid",
+      "grade": 10,
+      "topic": 5,
+      "title": {"tk": "Piramida: üsti we göwrümi", "ru": "Пирамида: поверхность и объём"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Piramida — bir grany (esasy) islendik köpburçluk, galan granlary umumy depesi bolan üçburçluklar bolan köpgranlyk.\n• Beýiklik h — depeden esasyň tekizligine geçirilen perpendikulýar.\n• Dogry piramida: esasy dogry köpburçluk, depesi esasyň merkezine proýektirlenýär. Onuň gapdal gapyrgalary deň, gapdal granlary deň deňýanly üçburçluklar.\n• Apofema l — dogry piramidanyň gapdal granynyň depeden geçirilen beýikligi.\n\nFormulalar:\n• Dogry piramidanyň gapdal üsti: S_gap = ½ · P · l.\n• Doly üsti: S_doly = S_gap + S_esas.\n• Göwrümi (islendik piramida): V = ⅓ · S_esas · h.\nPiramidanyň göwrümi esasy we beýikligi deň bolan prizmanyň göwrüminiň üçden birine deň.",
+          "ru": "Пирамида — многогранник, одна грань которого (основание) — произвольный многоугольник, а остальные грани — треугольники с общей вершиной.\n• Высота h — перпендикуляр из вершины к плоскости основания.\n• Правильная пирамида: основание — правильный многоугольник, вершина проецируется в центр основания. Её боковые рёбра равны, боковые грани — равные равнобедренные треугольники.\n• Апофема l — высота боковой грани правильной пирамиды, проведённая из вершины.\n\nФормулы:\n• Боковая поверхность правильной пирамиды: S_бок = ½ · P · l.\n• Полная поверхность: S_полн = S_бок + S_осн.\n• Объём (любой пирамиды): V = ⅓ · S_осн · h.\nОбъём пирамиды равен трети объёма призмы с тем же основанием и высотой."
+        }},
+        {"type": "example", "text": {
+          "tk": "Dogry dörtburçly piramidanyň esasynyň tarapy 6 sm, beýikligi 4 sm. Apofemasyny, doly üstüni we göwrümini tapyň.\n\n1) Esasyň merkezinden tarapa çenli uzaklyk 6 / 2 = 3 sm.\n2) Apofema: l = √(4² + 3²) = √25 = 5 sm.\n3) S_gap = ½ · (4 · 6) · 5 = ½ · 24 · 5 = 60 sm².\n4) S_esas = 6² = 36 sm², S_doly = 60 + 36 = 96 sm².\n5) V = ⅓ · 36 · 4 = 48 sm³.",
+          "ru": "Сторона основания правильной четырёхугольной пирамиды 6 см, высота 4 см. Найдите апофему, полную поверхность и объём.\n\n1) Расстояние от центра основания до стороны: 6 / 2 = 3 см.\n2) Апофема: l = √(4² + 3²) = √25 = 5 см.\n3) S_бок = ½ · (4 · 6) · 5 = ½ · 24 · 5 = 60 см².\n4) S_осн = 6² = 36 см², S_полн = 60 + 36 = 96 см².\n5) V = ⅓ · 36 · 4 = 48 см³."
+        }},
+        {"type": "input",
+          "q": {"tk": "Piramidanyň esasynyň meýdany 30 sm², beýikligi 7 sm. Göwrümi näçe sm³?", "ru": "Площадь основания пирамиды 30 см², высота 7 см. Найдите объём (в см³)."},
+          "answer": "70",
+          "hint": {"tk": "V = ⅓ · S_esas · h.", "ru": "V = ⅓ · S_осн · h."},
+          "explain": {"tk": "V = ⅓ · 30 · 7 = 10 · 7 = 70 sm³.", "ru": "V = ⅓ · 30 · 7 = 10 · 7 = 70 см³."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Esasy we beýikligi deň bolan piramidanyň göwrümi prizmanyň göwrüminiň näçe bölegine deň?", "ru": "Какую часть объёма призмы составляет объём пирамиды с тем же основанием и высотой?"},
+          "options": [
+            {"tk": "Deň", "ru": "Равен ему"},
+            {"tk": "Ýarysy", "ru": "Половину"},
+            {"tk": "Üçden biri", "ru": "Треть"}
+          ],
+          "answer": 2,
+          "hint": {"tk": "Göwrüm formulasyndaky koeffisiýente serediň.", "ru": "Посмотрите на коэффициент в формуле объёма."},
+          "explain": {"tk": "Prizma: V = S·h, piramida: V = ⅓·S·h. Diýmek, piramidanyň göwrümi üç esse kiçi.", "ru": "Призма: V = S·h, пирамида: V = ⅓·S·h. Значит, объём пирамиды в три раза меньше."}
+        },
+        {"type": "input",
+          "q": {"tk": "Dogry dörtburçly piramidanyň esasynyň tarapy 10 sm, apofemasy 13 sm. Gapdal üstüniň meýdany näçe sm²?", "ru": "Сторона основания правильной четырёхугольной пирамиды 10 см, апофема 13 см. Найдите площадь боковой поверхности (в см²)."},
+          "answer": "260",
+          "hint": {"tk": "S_gap = ½ · P · l.", "ru": "S_бок = ½ · P · l."},
+          "explain": {"tk": "P = 4 · 10 = 40 sm, S_gap = ½ · 40 · 13 = 260 sm².", "ru": "P = 4 · 10 = 40 см, S_бок = ½ · 40 · 13 = 260 см²."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Dogry piramidanyň ähli gapdal gapyrgalary deňdir.", "ru": "У правильной пирамиды все боковые рёбра равны."},
+          "answer": true,
+          "hint": {"tk": "Depäniň proýeksiýasy esasyň merkezine düşýär.", "ru": "Вершина проецируется в центр основания."},
+          "explain": {"tk": "Depäniň proýeksiýasy esasyň merkezi, ol esasyň ähli depelerinden deň uzaklykda. Deň proýeksiýaly ýapgytlar deň, şonuň üçin gapdal gapyrgalar deň.", "ru": "Проекция вершины — центр основания, он равноудалён от всех вершин основания. Наклонные с равными проекциями равны, поэтому боковые рёбра равны."}
+        },
+        {"type": "world", "text": {
+          "tk": "Giza şäherindäki Hufu (Heops) piramidasy takmynan b.e.öň 2560-njy ýylda gurlupdyr. Onuň esasy kwadrata gaty ýakyn, ilkibaşdaky beýikligi bolsa takmynan 146 m bolupdyr. Ol 3800 ýyl çemesi adam tarapyndan gurlan iň beýik desga bolup galypdyr.",
+          "ru": "Пирамида Хуфу (Хеопса) в Гизе построена около 2560 года до н. э. Её основание очень близко к квадрату, а первоначальная высота составляла около 146 м. Почти 3800 лет она оставалась самым высоким сооружением, созданным человеком."
+        }}
+      ]
+    }
+  ]
+}

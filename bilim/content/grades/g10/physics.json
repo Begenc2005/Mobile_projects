@@ -1,0 +1,307 @@
+{
+  "grade": 10,
+  "subject": "physics",
+  "lessons": [
+    {
+      "id": "physics-10-kinematics",
+      "grade": 10,
+      "topic": 0,
+      "title": {"tk": "Kinematika: deňölçegli üýtgeýän hereket", "ru": "Кинематика: равноускоренное движение"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Kinematika jisimleriň hereketini onuň sebäplerine garamazdan suratlandyrýar.\n\nEsasy ululyklar:\n• süýşme s (wektor) we geçilen ýol;\n• tizlik v = Δs / Δt (m/s);\n• tizlenme a = Δv / Δt (m/s²).\n\nDeňölçegli tizlenýän göni çyzykly hereket (a = const):\n• v = v₀ + a·t\n• s = v₀·t + a·t²/2\n• v² − v₀² = 2·a·s\n\nErkin gaçma — diňe agyrlyk güýjüniň täsirindäki hereket; tizlenme g ≈ 9,8 m/s² (meselelerde köplenç 10 m/s²).",
+          "ru": "Кинематика описывает движение тел без рассмотрения его причин.\n\nОсновные величины:\n• перемещение s (вектор) и пройденный путь;\n• скорость v = Δs / Δt (м/с);\n• ускорение a = Δv / Δt (м/с²).\n\nРавноускоренное прямолинейное движение (a = const):\n• v = v₀ + a·t\n• s = v₀·t + a·t²/2\n• v² − v₀² = 2·a·s\n\nСвободное падение — движение только под действием силы тяжести; ускорение g ≈ 9,8 м/с² (в задачах часто 10 м/с²)."
+        }},
+        {"type": "example", "text": {
+          "tk": "Awtomobil ýerinden gozgalyp, 2 m/s² tizlenme bilen hereket edýär. 5 s-dan soň onuň tizligi we geçen ýoly näçe?\n\n1) v₀ = 0, a = 2 m/s², t = 5 s.\n2) v = v₀ + a·t = 0 + 2·5 = 10 m/s (36 km/sag).\n3) s = a·t²/2 = 2·25/2 = 25 m.\nBarlag: v² = 2·a·s → 100 = 2·2·25 = 100. Dogry.",
+          "ru": "Автомобиль трогается с места с ускорением 2 м/с². Какими будут его скорость и путь через 5 с?\n\n1) v₀ = 0, a = 2 м/с², t = 5 с.\n2) v = v₀ + a·t = 0 + 2·5 = 10 м/с (36 км/ч).\n3) s = a·t²/2 = 2·25/2 = 25 м.\nПроверка: v² = 2·a·s → 100 = 2·2·25 = 100. Верно."
+        }},
+        {"type": "input",
+          "q": {"tk": "Daş 3 s erkin gaçýar (g = 10 m/s², v₀ = 0). Ol näçe metr beýiklikden gaçýar?", "ru": "Камень свободно падает 3 с (g = 10 м/с², v₀ = 0). С какой высоты (в м) он упал?"},
+          "answer": "45",
+          "hint": {"tk": "h = g·t²/2.", "ru": "h = g·t²/2."},
+          "explain": {"tk": "h = 10 · 3² / 2 = 10 · 9 / 2 = 45 m.", "ru": "h = 10 · 3² / 2 = 10 · 9 / 2 = 45 м."}
+        },
+        {"type": "choice",
+          "q": {"tk": "72 km/sag näçe m/s-a deň?", "ru": "Сколько м/с составляет 72 км/ч?"},
+          "options": ["7,2 m/s", "20 m/s", "36 m/s"],
+          "answer": 1,
+          "hint": {"tk": "1 km/sag = 1000 m / 3600 s.", "ru": "1 км/ч = 1000 м / 3600 с."},
+          "explain": {"tk": "72 · 1000 / 3600 = 72 / 3,6 = 20 m/s.", "ru": "72 · 1000 / 3600 = 72 / 3,6 = 20 м/с."}
+        },
+        {"type": "input",
+          "q": {"tk": "Awtomobil 20 m/s tizlikden moduly 4 m/s² bolan tizlenme bilen tormozlap togtaýar. Togtamak ýoly näçe metr?", "ru": "Автомобиль тормозит со скорости 20 м/с с ускорением 4 м/с² (по модулю). Каков тормозной путь (в м)?"},
+          "answer": "50",
+          "hint": {"tk": "v² − v₀² = 2·a·s formulany ulanyň, ahyrky tizlik nola deň.", "ru": "Используйте v² − v₀² = 2·a·s, конечная скорость равна нулю."},
+          "explain": {"tk": "0 − 20² = 2·(−4)·s → s = 400 / 8 = 50 m.", "ru": "0 − 20² = 2·(−4)·s → s = 400 / 8 = 50 м."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Howa garşylygy bolmasa, agyr we ýeňil jisim bir beýiklikden bir wagtda ýere düşýär.", "ru": "Без сопротивления воздуха тяжёлое и лёгкое тело, брошенные с одной высоты, падают одновременно."},
+          "answer": true,
+          "hint": {"tk": "Erkin gaçmanyň tizlenmesi jisimiň massasyna baglymy?", "ru": "Зависит ли ускорение свободного падения от массы тела?"},
+          "explain": {"tk": "Erkin gaçmanyň tizlenmesi g ähli jisimler üçin birmeňzeş, şonuň üçin olar bir wagtda düşýär.", "ru": "Ускорение свободного падения g одинаково для всех тел, поэтому они падают одновременно."}
+        },
+        {"type": "world", "text": {
+          "tk": "1971-nji ýylda «Apollon-15» ekspedisiýasynyň astronawty Deýwid Skott Aýda çekiç bilen guş ýelegini bir wagtda taşlady. Howa ýoklugy sebäpli olar bir wagtda ýere düşdi — muny Galileý asyrlar öň aýdypdy.",
+          "ru": "В 1971 году астронавт экспедиции «Аполлон-15» Дэвид Скотт на Луне одновременно уронил молоток и птичье перо. Из-за отсутствия воздуха они упали одновременно — как и предсказывал Галилей за века до этого."
+        }}
+      ]
+    },
+    {
+      "id": "physics-10-circular-motion",
+      "grade": 10,
+      "topic": 1,
+      "title": {"tk": "Töwerek boýunça deňölçegli hereket", "ru": "Равномерное движение по окружности"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Töwerek boýunça deňölçegli hereketde tizligiň moduly üýtgemeýär, ýöne ugry hemişe üýtgeýär. Tizlik töwerege galtaşma boýunça ugrukdyrylan.\n\nEsasy ululyklar:\n• Period T — bir doly aýlaw üçin wagt (s).\n• Ýygylyk ν = 1 / T (Gs ýa-da aýl/s).\n• Çyzykly tizlik v = 2πR / T.\n• Burç tizligi ω = 2π / T = 2πν (rad/s), v = ω·R.\n\nMerkeze ymtylýan tizlenme töweregiň merkezine ugrukdyrylan:\na = v² / R = ω²·R.\nŞeýle tizlenmäni döretmek üçin merkeze ugrukdyrylan güýç gerek: F = m·v² / R.",
+          "ru": "При равномерном движении по окружности модуль скорости не меняется, но её направление меняется постоянно. Скорость направлена по касательной к окружности.\n\nОсновные величины:\n• Период T — время одного полного оборота (с).\n• Частота ν = 1 / T (Гц или об/с).\n• Линейная скорость v = 2πR / T.\n• Угловая скорость ω = 2π / T = 2πν (рад/с), v = ω·R.\n\nЦентростремительное ускорение направлено к центру окружности:\na = v² / R = ω²·R.\nДля создания такого ускорения нужна сила, направленная к центру: F = m·v² / R."
+        }},
+        {"type": "example", "text": {
+          "tk": "Awtomobil radiusy 50 m bolan öwrümde 10 m/s tizlik bilen hereket edýär. Massasy 1000 kg. Merkeze ymtylýan tizlenmäni we güýji tapyň.\n\n1) a = v² / R = 100 / 50 = 2 m/s².\n2) F = m·a = 1000 · 2 = 2000 N.\nBu güýji tekerler bilen ýoluň arasyndaky sürtülme güýji döredýär. Ýol buzly bolsa, sürtülme ýetmezçilik edip, awtomobil typyp biler.",
+          "ru": "Автомобиль массой 1000 кг проходит поворот радиусом 50 м со скоростью 10 м/с. Найдите центростремительное ускорение и силу.\n\n1) a = v² / R = 100 / 50 = 2 м/с².\n2) F = m·a = 1000 · 2 = 2000 Н.\nЭту силу создаёт сила трения между шинами и дорогой. На гололёде трения может не хватить, и машину занесёт."
+        }},
+        {"type": "input",
+          "q": {"tk": "Tigir 2 s-da 10 aýlaw edýär. Onuň aýlanma ýygylygy näçe Gs?", "ru": "Колесо делает 10 оборотов за 2 с. Какова частота вращения (в Гц)?"},
+          "answer": "5",
+          "hint": {"tk": "ν = N / t.", "ru": "ν = N / t."},
+          "explain": {"tk": "ν = 10 / 2 = 5 Gs, period bolsa T = 0,2 s.", "ru": "ν = 10 / 2 = 5 Гц, а период T = 0,2 с."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Töwerek boýunça deňölçegli hereketde tizlenme nirä ugrukdyrylan?", "ru": "Куда направлено ускорение при равномерном движении по окружности?"},
+          "options": [
+            {"tk": "Töweregiň merkezine", "ru": "К центру окружности"},
+            {"tk": "Tizligiň ugruna", "ru": "По направлению скорости"},
+            {"tk": "Tizlenme ýok", "ru": "Ускорения нет"}
+          ],
+          "answer": 0,
+          "hint": {"tk": "Tizligiň moduly üýtgemeýär, ýöne ugry näme?", "ru": "Модуль скорости не меняется, а направление?"},
+          "explain": {"tk": "Tizligiň ugry üýtgeýär, diýmek, tizlenme bar. Ol merkeze ugrukdyrylan we merkeze ymtylýan tizlenme diýlip atlandyrylýar.", "ru": "Направление скорости меняется, значит, ускорение есть. Оно направлено к центру и называется центростремительным."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Tizlik iki esse artanda, şol radiusda merkeze ymtylýan tizlenme hem iki esse artýar.", "ru": "При увеличении скорости в 2 раза центростремительное ускорение на той же окружности тоже увеличивается в 2 раза."},
+          "answer": false,
+          "hint": {"tk": "a = v² / R formulada tizlik kwadratda.", "ru": "В формуле a = v² / R скорость в квадрате."},
+          "explain": {"tk": "a ~ v², şonuň üçin tizlik 2 esse artanda tizlenme 4 esse artýar.", "ru": "a ~ v², поэтому при увеличении скорости в 2 раза ускорение растёт в 4 раза."}
+        },
+        {"type": "input",
+          "q": {"tk": "Jisim radiusy 2 m bolan töwerek boýunça 4 m/s tizlik bilen hereket edýär. Merkeze ymtylýan tizlenme näçe m/s²?", "ru": "Тело движется по окружности радиусом 2 м со скоростью 4 м/с. Найдите центростремительное ускорение (в м/с²)."},
+          "answer": "8",
+          "hint": {"tk": "a = v² / R.", "ru": "a = v² / R."},
+          "explain": {"tk": "a = 4² / 2 = 16 / 2 = 8 m/s².", "ru": "a = 4² / 2 = 16 / 2 = 8 м/с²."}
+        },
+        {"type": "world", "text": {
+          "tk": "Halkara kosmos stansiýasy Ýeriň daşyndan takmynan 400 km beýiklikde aýlanýar we bir aýlawy takmynan 90 minutda edýär. Onuň merkeze ymtylýan tizlenmesini Ýeriň dartyş güýji döredýär, şonuň üçin içindäki astronawtlar agramsyzlygy duýýar.",
+          "ru": "Международная космическая станция вращается вокруг Земли на высоте около 400 км и делает один оборот примерно за 90 минут. Её центростремительное ускорение создаёт притяжение Земли, поэтому космонавты внутри находятся в невесомости."
+        }}
+      ]
+    },
+    {
+      "id": "physics-10-universal-gravitation",
+      "grade": 10,
+      "topic": 2,
+      "title": {"tk": "Bütindünýä dartyşma kanuny", "ru": "Закон всемирного тяготения"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Isaak Nýuton (1687): islendik iki jisim biri-birine massalarynyň köpeltmek hasylyna göni proporsional we aralarynyň uzaklygynyň kwadratyna ters proporsional bolan güýç bilen dartylýar:\nF = G · m₁·m₂ / r²\nG ≈ 6,67·10⁻¹¹ N·m²/kg² — gravitasiýa hemişeligi.\n\n• Agyrlyk güýji: F = m·g, bu ýerde g = G·M / R² (M, R — planetanyň massasy we radiusy). Ýeriň üstünde g ≈ 9,8 m/s².\n• Beýiklik artdygyça g kemelýär.\n• Birinji kosmiki tizlik — tegelek orbita üçin tizlik: v₁ = √(g·R) = √(G·M / R). Ýer üçin ≈ 7,9 km/s.",
+          "ru": "Исаак Ньютон (1687): любые два тела притягиваются друг к другу с силой, прямо пропорциональной произведению их масс и обратно пропорциональной квадрату расстояния между ними:\nF = G · m₁·m₂ / r²\nG ≈ 6,67·10⁻¹¹ Н·м²/кг² — гравитационная постоянная.\n\n• Сила тяжести: F = m·g, где g = G·M / R² (M, R — масса и радиус планеты). У поверхности Земли g ≈ 9,8 м/с².\n• С высотой g уменьшается.\n• Первая космическая скорость — скорость для круговой орбиты: v₁ = √(g·R) = √(G·M / R). Для Земли ≈ 7,9 км/с."
+        }},
+        {"type": "example", "text": {
+          "tk": "Ýeriň merkezinden 2R uzaklykda (ýagny üstünden R beýiklikde) erkin gaçma tizlenmesi näçe?\n\n1) g ~ 1 / r². Uzaklyk R-den 2R-e çenli 2 esse artýar.\n2) g kemelýär 2² = 4 esse: g' = 9,8 / 4 ≈ 2,45 m/s².\nŞol beýiklikde massasy 80 kg bolan adamyň agyrlyk güýji: 80 · 2,45 = 196 N (Ýerde 784 N).",
+          "ru": "Каково ускорение свободного падения на расстоянии 2R от центра Земли (то есть на высоте R над поверхностью)?\n\n1) g ~ 1 / r². Расстояние увеличилось с R до 2R — в 2 раза.\n2) g уменьшается в 2² = 4 раза: g' = 9,8 / 4 ≈ 2,45 м/с².\nСила тяжести человека массой 80 кг там: 80 · 2,45 = 196 Н (на Земле 784 Н)."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Iki jisimiň arasyndaky uzaklyk 3 esse artdy. Dartyşma güýji nähili üýtgeýär?", "ru": "Расстояние между двумя телами увеличили в 3 раза. Как изменится сила притяжения?"},
+          "options": [
+            {"tk": "3 esse kemelýär", "ru": "Уменьшится в 3 раза"},
+            {"tk": "6 esse kemelýär", "ru": "Уменьшится в 6 раз"},
+            {"tk": "9 esse kemelýär", "ru": "Уменьшится в 9 раз"}
+          ],
+          "answer": 2,
+          "hint": {"tk": "Güýç uzaklygyň kwadratyna ters proporsional.", "ru": "Сила обратно пропорциональна квадрату расстояния."},
+          "explain": {"tk": "F ~ 1 / r², 3² = 9, şonuň üçin güýç 9 esse kemelýär.", "ru": "F ~ 1 / r², 3² = 9, поэтому сила уменьшится в 9 раз."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Aý Ýeri dartýan güýç Ýeriň Aýy dartýan güýjünden kiçidir.", "ru": "Сила, с которой Луна притягивает Землю, меньше силы, с которой Земля притягивает Луну."},
+          "answer": false,
+          "hint": {"tk": "Nýutonyň üçünji kanunyny ýada salyň.", "ru": "Вспомните третий закон Ньютона."},
+          "explain": {"tk": "Nýutonyň üçünji kanuny boýunça bu güýçler modul boýunça deň we garşylykly ugrukdyrylan. Ýöne Ýeriň massasy uly bolany üçin onuň tizlenmesi has kiçi.", "ru": "По третьему закону Ньютона эти силы равны по модулю и противоположны по направлению. Но из-за большой массы Земли её ускорение намного меньше."}
+        },
+        {"type": "input",
+          "q": {"tk": "Ýeriň radiusyny R ≈ 6,4·10⁶ m, g = 10 m/s² alyp, birinji kosmiki tizligi km/s-da tapyň (iň ýakyn bitin sana tegelekläň).", "ru": "Приняв R ≈ 6,4·10⁶ м и g = 10 м/с², найдите первую космическую скорость в км/с (округлите до целого)."},
+          "answer": "8",
+          "hint": {"tk": "v₁ = √(g·R).", "ru": "v₁ = √(g·R)."},
+          "explain": {"tk": "v₁ = √(10 · 6,4·10⁶) = √(6,4·10⁷) = 8000 m/s = 8 km/s (takyk hasaplamada ≈ 7,9 km/s).", "ru": "v₁ = √(10 · 6,4·10⁶) = √(6,4·10⁷) = 8000 м/с = 8 км/с (точнее ≈ 7,9 км/с)."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Aýda erkin gaçma tizlenmesi Ýerdäkiden takmynan näçe esse kiçi?", "ru": "Во сколько примерно раз ускорение свободного падения на Луне меньше, чем на Земле?"},
+          "options": [
+            {"tk": "2 esse", "ru": "В 2 раза"},
+            {"tk": "6 esse", "ru": "В 6 раз"},
+            {"tk": "100 esse", "ru": "В 100 раз"}
+          ],
+          "answer": 1,
+          "hint": {"tk": "Aýda g ≈ 1,6 m/s².", "ru": "На Луне g ≈ 1,6 м/с²."},
+          "explain": {"tk": "9,8 / 1,6 ≈ 6. Şonuň üçin Aýda astronawtlar ýeňil bökýär.", "ru": "9,8 / 1,6 ≈ 6. Поэтому астронавты на Луне легко прыгают."}
+        },
+        {"type": "world", "text": {
+          "tk": "Gravitasiýa hemişeligini ilkinji gezek 1798-nji ýylda iňlis alymy Genri Kawendiş tejribede ölçedi. Ol iňňe ýaly inçe sapakdaky towlanma terezisi bilen gurşun şarlaryň arasyndaky örän ejiz dartyşmany ölçäp, Ýeriň ortaça dykyzlygyny hasaplady.",
+          "ru": "Гравитационную постоянную впервые измерил на опыте английский учёный Генри Кавендиш в 1798 году. С помощью крутильных весов на тонкой нити он измерил крайне слабое притяжение свинцовых шаров и вычислил среднюю плотность Земли."
+        }}
+      ]
+    },
+    {
+      "id": "physics-10-molecular-kinetic-theory",
+      "grade": 10,
+      "topic": 3,
+      "title": {"tk": "Molekulýar-kinetik nazaryýetiň esaslary", "ru": "Основы молекулярно-кинетической теории"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Molekulýar-kinetik nazaryýetiň (MKN) üç esasy düzgüni:\n• madda bölejiklerden (atomlardan, molekulalardan) durýar;\n• bölejikler üznüksiz bulam-bujar hereket edýär;\n• bölejikler biri-biri bilen täsirleşýär (dartylýar we iterilýär).\nSubutnamalary: diffuziýa, Brown hereketi.\n\nModdanyň mukdary ν = N / N_A = m / M (mol).\nAwogadronyň sany N_A ≈ 6,02·10²³ mol⁻¹.\nM — molýar massa (kg/mol), mysal üçin suw üçin 0,018 kg/mol.\n\nIdeal gazyň esasy deňlemesi: p = ⅓·n·m₀·v̄² = ⅔·n·Ē,\nmolekulanyň ortaça kinetik energiýasy: Ē = (3/2)·k·T,\nk ≈ 1,38·10⁻²³ J/K — Bolsmanyň hemişeligi, T — absolýut temperatura (K): T = t + 273.",
+          "ru": "Три основных положения молекулярно-кинетической теории (МКТ):\n• вещество состоит из частиц (атомов, молекул);\n• частицы непрерывно и хаотически движутся;\n• частицы взаимодействуют друг с другом (притягиваются и отталкиваются).\nДоказательства: диффузия, броуновское движение.\n\nКоличество вещества ν = N / N_A = m / M (моль).\nЧисло Авогадро N_A ≈ 6,02·10²³ моль⁻¹.\nM — молярная масса (кг/моль), например для воды 0,018 кг/моль.\n\nОсновное уравнение МКТ идеального газа: p = ⅓·n·m₀·v̄² = ⅔·n·Ē,\nсредняя кинетическая энергия молекулы: Ē = (3/2)·k·T,\nk ≈ 1,38·10⁻²³ Дж/К — постоянная Больцмана, T — абсолютная температура (К): T = t + 273."
+        }},
+        {"type": "example", "text": {
+          "tk": "36 g suwda näçe molekula bar?\n\n1) Suwuň molýar massasy: M(H₂O) = 2·1 + 16 = 18 g/mol.\n2) ν = m / M = 36 / 18 = 2 mol.\n3) N = ν · N_A = 2 · 6,02·10²³ ≈ 1,2·10²⁴ molekula.\nBir çemçe suwda hem Ýerdäki adamlardan milliardlarça esse köp molekula bar.",
+          "ru": "Сколько молекул в 36 г воды?\n\n1) Молярная масса воды: M(H₂O) = 2·1 + 16 = 18 г/моль.\n2) ν = m / M = 36 / 18 = 2 моль.\n3) N = ν · N_A = 2 · 6,02·10²³ ≈ 1,2·10²⁴ молекул.\nДаже в ложке воды молекул в миллиарды раз больше, чем людей на Земле."
+        }},
+        {"type": "input",
+          "q": {"tk": "27 °C temperatura Kelwin şkalasynda näçe?", "ru": "Сколько кельвинов составляет температура 27 °C?"},
+          "answer": "300",
+          "hint": {"tk": "T = t + 273.", "ru": "T = t + 273."},
+          "explain": {"tk": "T = 27 + 273 = 300 K.", "ru": "T = 27 + 273 = 300 К."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Gazyň absolýut temperaturasy 2 esse artanda molekulalaryň ortaça kinetik energiýasy nähili üýtgeýär?", "ru": "Как изменится средняя кинетическая энергия молекул газа при увеличении абсолютной температуры в 2 раза?"},
+          "options": [
+            {"tk": "2 esse artýar", "ru": "Увеличится в 2 раза"},
+            {"tk": "4 esse artýar", "ru": "Увеличится в 4 раза"},
+            {"tk": "Üýtgemeýär", "ru": "Не изменится"}
+          ],
+          "answer": 0,
+          "hint": {"tk": "Ē = (3/2)·k·T.", "ru": "Ē = (3/2)·k·T."},
+          "explain": {"tk": "Ē absolýut temperaturasyna göni proporsional, şonuň üçin 2 esse artýar.", "ru": "Ē прямо пропорциональна абсолютной температуре, поэтому увеличится в 2 раза."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Brown hereketi — bu suwuklykdaky ownuk bölejikleriň molekulalaryň urgularyndan döreýän bulam-bujar hereketi.", "ru": "Броуновское движение — это хаотическое движение мелких частиц в жидкости, вызванное ударами молекул."},
+          "answer": true,
+          "hint": {"tk": "Bölejiklere näme täsir edýär?", "ru": "Что действует на частицы?"},
+          "explain": {"tk": "Bölejigiň dürli taraplaryndan molekulalaryň urgulary deň däl, şonuň üçin ol bulam-bujar hereket edýär. Bu molekulalaryň hereketiniň göni subutnamasy.", "ru": "Удары молекул с разных сторон частицы нескомпенсированы, поэтому она хаотически движется. Это прямое доказательство движения молекул."}
+        },
+        {"type": "input",
+          "q": {"tk": "88 g kömürturşy gazda (CO₂) näçe mol madda bar? (M = 44 g/mol)", "ru": "Сколько моль вещества в 88 г углекислого газа (CO₂)? (M = 44 г/моль)"},
+          "answer": "2",
+          "hint": {"tk": "ν = m / M.", "ru": "ν = m / M."},
+          "explain": {"tk": "ν = 88 / 44 = 2 mol.", "ru": "ν = 88 / 44 = 2 моль."}
+        },
+        {"type": "world", "text": {
+          "tk": "Şotland botanigi Robert Broun 1827-nji ýylda suwdaky tozan bölejikleriniň bulam-bujar hereketini mikroskopda gördi. 1905-nji ýylda Albert Eýnşteýn bu hereketiň nazaryýetini döretdi, fransuz alymy Žan Perren bolsa ony tejribede barlap, atomlaryň hakykatdan hem bardygyny subut etdi.",
+          "ru": "Шотландский ботаник Роберт Броун в 1827 году увидел в микроскоп хаотическое движение пылевых частиц в воде. В 1905 году Альберт Эйнштейн построил теорию этого движения, а француз Жан Перрен проверил её на опыте, доказав реальность атомов."
+        }}
+      ]
+    },
+    {
+      "id": "physics-10-gas-laws",
+      "grade": 10,
+      "topic": 4,
+      "title": {"tk": "Ideal gazyň hal deňlemesi we gaz kanunlary", "ru": "Уравнение состояния идеального газа и газовые законы"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Ideal gazyň hal deňlemesi (Mendeleýew–Klapeýron deňlemesi):\np·V = ν·R·T = (m / M)·R·T,\nR ≈ 8,31 J/(mol·K) — uniwersal gaz hemişeligi.\n\nGazyň massasy hemişelik bolsa: p·V / T = const.\n\nIzoprosesler:\n• Izotermik (T = const): p·V = const — Boýl–Mariotyň kanuny.\n• Izobarik (p = const): V / T = const — Geý-Lýussagyň kanuny.\n• Izohorik (V = const): p / T = const — Şarlyň kanuny.\n\nÝatda saklaň: formulalarda temperatura hemişe kelwinde alynýar.",
+          "ru": "Уравнение состояния идеального газа (уравнение Менделеева–Клапейрона):\np·V = ν·R·T = (m / M)·R·T,\nR ≈ 8,31 Дж/(моль·К) — универсальная газовая постоянная.\n\nДля постоянной массы газа: p·V / T = const.\n\nИзопроцессы:\n• Изотермический (T = const): p·V = const — закон Бойля–Мариотта.\n• Изобарный (p = const): V / T = const — закон Гей-Люссака.\n• Изохорный (V = const): p / T = const — закон Шарля.\n\nПомните: в формулах температура всегда в кельвинах."
+        }},
+        {"type": "example", "text": {
+          "tk": "Gaz 300 K-de 6 L göwrümi eýeleýär. Basyş üýtgemezden ony 400 K-e çenli gyzdyrdylar. Täze göwrüm näçe?\n\n1) p = const → Geý-Lýussagyň kanuny: V₁ / T₁ = V₂ / T₂.\n2) V₂ = V₁ · T₂ / T₁ = 6 · 400 / 300 = 8 L.\nJogap: 8 L.",
+          "ru": "Газ занимает 6 л при 300 К. Его нагрели до 400 К при постоянном давлении. Каков новый объём?\n\n1) p = const → закон Гей-Люссака: V₁ / T₁ = V₂ / T₂.\n2) V₂ = V₁ · T₂ / T₁ = 6 · 400 / 300 = 8 л.\nОтвет: 8 л."
+        }},
+        {"type": "input",
+          "q": {"tk": "Temperatura hemişelik. Gazyň göwrümi 3 esse kiçeldildi. Basyş näçe esse artýar?", "ru": "Температура постоянна. Объём газа уменьшили в 3 раза. Во сколько раз увеличится давление?"},
+          "answer": "3",
+          "hint": {"tk": "Boýl–Mariotyň kanuny: p·V = const.", "ru": "Закон Бойля–Мариотта: p·V = const."},
+          "explain": {"tk": "p·V = const bolany üçin V 3 esse kemelse, p 3 esse artýar.", "ru": "Так как p·V = const, при уменьшении V в 3 раза давление p увеличится в 3 раза."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Ýapyk gapdaky (V = const) gazyň temperaturasy 27 °C-den 327 °C-e çenli ýokarlandy. Basyş nähili üýtgeýär?", "ru": "Газ в закрытом сосуде (V = const) нагрели с 27 °C до 327 °C. Как изменится давление?"},
+          "options": [
+            {"tk": "Takmynan 12 esse artýar", "ru": "Увеличится примерно в 12 раз"},
+            {"tk": "Üýtgemeýär", "ru": "Не изменится"},
+            {"tk": "2 esse artýar", "ru": "Увеличится в 2 раза"}
+          ],
+          "answer": 2,
+          "hint": {"tk": "Temperaturany kelwine geçiriň.", "ru": "Переведите температуру в кельвины."},
+          "explain": {"tk": "T₁ = 300 K, T₂ = 600 K. p / T = const, şonuň üçin basyş 600 / 300 = 2 esse artýar.", "ru": "T₁ = 300 К, T₂ = 600 К. p / T = const, поэтому давление увеличится в 600 / 300 = 2 раза."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Izobarik prosesde gazyň göwrümi Selsiý temperaturasyna göni proporsionaldyr.", "ru": "При изобарном процессе объём газа прямо пропорционален температуре по Цельсию."},
+          "answer": false,
+          "hint": {"tk": "Haýsy temperatura şkalasy formulalarda ulanylýar?", "ru": "Какая температурная шкала используется в формулах?"},
+          "explain": {"tk": "Göwrüm absolýut temperatura (K) bilen göni proporsional, Selsiý temperaturasyna däl. Mysal üçin, 0 °C-de göwrüm nola deň däl.", "ru": "Объём пропорционален абсолютной температуре (К), а не температуре по Цельсию. Например, при 0 °C объём не равен нулю."}
+        },
+        {"type": "input",
+          "q": {"tk": "2 mol ideal gaz 300 K temperaturada we 8,31·10⁴ Pa basyşda näçe kub metr göwrümi eýeleýär? (R = 8,31 J/(mol·K))", "ru": "Какой объём (в м³) занимают 2 моль идеального газа при 300 К и давлении 8,31·10⁴ Па? (R = 8,31 Дж/(моль·К))"},
+          "answer": "0.06|0,06",
+          "hint": {"tk": "V = ν·R·T / p.", "ru": "V = ν·R·T / p."},
+          "explain": {"tk": "V = 2 · 8,31 · 300 / (8,31·10⁴) = 600 / 10⁴ = 0,06 m³ (60 L).", "ru": "V = 2 · 8,31 · 300 / (8,31·10⁴) = 600 / 10⁴ = 0,06 м³ (60 л)."}
+        },
+        {"type": "world", "text": {
+          "tk": "1783-nji ýylda fransuz fizigi Žak Şarl wodorod bilen doldurylan şary asmana uçurdy, birnäçe aýdan soň bolsa özi wodorod şarynda uçdy. Häzirki howa şarlary gyzgyn howa bilen uçýar: gyzdyrylan howa giňelýär, onuň dykyzlygy azalýar we şar ýokary galýar.",
+          "ru": "В 1783 году французский физик Жак Шарль запустил в небо шар, наполненный водородом, а через несколько месяцев сам поднялся на водородном шаре. Современные воздушные шары летают на горячем воздухе: нагретый воздух расширяется, его плотность уменьшается, и шар поднимается."
+        }}
+      ]
+    },
+    {
+      "id": "physics-10-thermodynamics",
+      "grade": 10,
+      "topic": 5,
+      "title": {"tk": "Termodinamikanyň kanunlary", "ru": "Законы термодинамики"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Içki energiýa U — jisimiň bölejikleriniň hereket we täsirleşme energiýalarynyň jemi. Bir atomly ideal gaz üçin U = (3/2)·ν·R·T.\nIçki energiýa iki ýol bilen üýtgeýär: iş ýerine ýetirmek we ýylylyk geçirmek.\n\nGazyň işi (p = const): A' = p·ΔV.\n\nTermodinamikanyň birinji kanuny (energiýanyň saklanmagy):\nQ = ΔU + A',\nýagny gaza berlen ýylylyk onuň içki energiýasyny artdyrmaga we iş ýerine ýetirmäge sarp edilýär.\n\nIkinji kanun: ýylylyk öz-özünden diňe gyzgyn jisimden sowuk jisime geçýär.\n\nÝylylyk hereketlendirijisiniň PTK:\nη = (Q₁ − Q₂) / Q₁,\nKarno boýunça iň uly mümkin PTK: η_max = (T₁ − T₂) / T₁.",
+          "ru": "Внутренняя энергия U — сумма энергий движения и взаимодействия частиц тела. Для одноатомного идеального газа U = (3/2)·ν·R·T.\nВнутренняя энергия меняется двумя способами: совершением работы и теплопередачей.\n\nРабота газа (p = const): A' = p·ΔV.\n\nПервый закон термодинамики (сохранение энергии):\nQ = ΔU + A',\nто есть теплота, переданная газу, идёт на увеличение его внутренней энергии и на совершение работы.\n\nВторой закон: теплота самопроизвольно переходит только от горячего тела к холодному.\n\nКПД теплового двигателя:\nη = (Q₁ − Q₂) / Q₁,\nмаксимальный возможный КПД по Карно: η_max = (T₁ − T₂) / T₁."
+        }},
+        {"type": "example", "text": {
+          "tk": "Gaza 500 J ýylylyk berildi, gaz bolsa 200 J iş ýerine ýetirdi. Içki energiýa näçe üýtgedi?\n\n1) Birinji kanun: Q = ΔU + A'.\n2) ΔU = Q − A' = 500 − 200 = 300 J.\nIçki energiýa 300 J artdy, diýmek, gaz gyzdy.\n\nKarno mysaly: gyzdyryjy 600 K, sowadyjy 300 K bolsa, η_max = (600 − 300) / 600 = 0,5 = 50 %.",
+          "ru": "Газу передали 500 Дж теплоты, а газ совершил работу 200 Дж. Как изменилась внутренняя энергия?\n\n1) Первый закон: Q = ΔU + A'.\n2) ΔU = Q − A' = 500 − 200 = 300 Дж.\nВнутренняя энергия выросла на 300 Дж, значит, газ нагрелся.\n\nПример Карно: нагреватель 600 К, холодильник 300 К — η_max = (600 − 300) / 600 = 0,5 = 50 %."
+        }},
+        {"type": "input",
+          "q": {"tk": "Hereketlendiriji gyzdyryjydan 1000 J alýar we sowadyja 700 J berýär. Onuň PTK-sy näçe göterim?", "ru": "Двигатель получает от нагревателя 1000 Дж и отдаёт холодильнику 700 Дж. Каков его КПД в процентах?"},
+          "answer": "30",
+          "hint": {"tk": "η = (Q₁ − Q₂) / Q₁.", "ru": "η = (Q₁ − Q₂) / Q₁."},
+          "explain": {"tk": "η = (1000 − 700) / 1000 = 0,3 = 30 %.", "ru": "η = (1000 − 700) / 1000 = 0,3 = 30 %."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Izotermik prosesde ideal gaza Q ýylylyk berilýär. Ol nämä sarp edilýär?", "ru": "При изотермическом процессе идеальному газу передаётся теплота Q. На что она расходуется?"},
+          "options": [
+            {"tk": "Diňe içki energiýany artdyrmaga", "ru": "Только на увеличение внутренней энергии"},
+            {"tk": "Tutuşlygyna gazyň işine", "ru": "Целиком на работу газа"},
+            {"tk": "Hiç zada sarp edilmeýär", "ru": "Ни на что не расходуется"}
+          ],
+          "answer": 1,
+          "hint": {"tk": "T = const bolsa, ideal gazyň içki energiýasy üýtgeýärmi?", "ru": "Меняется ли внутренняя энергия идеального газа при T = const?"},
+          "explain": {"tk": "T = const → ΔU = 0, şonuň üçin Q = A': ähli ýylylyk işe öwrülýär.", "ru": "T = const → ΔU = 0, поэтому Q = A': вся теплота идёт на работу."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "PTK-sy 100 % bolan ýylylyk hereketlendirijisini döretmek mümkin.", "ru": "Можно создать тепловой двигатель с КПД 100 %."},
+          "answer": false,
+          "hint": {"tk": "Karnonyň formulasynda sowadyjynyň temperaturasy nola deň bolup bilermi?", "ru": "Может ли температура холодильника в формуле Карно равняться нулю?"},
+          "explain": {"tk": "Termodinamikanyň ikinji kanuny boýunça ýylylygyň bir bölegi hökman sowadyja berilmeli. η = 1 bolmak üçin T₂ = 0 K gerek, bu bolsa ýetip bolmajak temperatura.", "ru": "По второму закону термодинамики часть теплоты обязательно отдаётся холодильнику. Для η = 1 нужно T₂ = 0 К, а это недостижимая температура."}
+        },
+        {"type": "input",
+          "q": {"tk": "Gaz 2·10⁵ Pa hemişelik basyşda 0,01 m³-den 0,03 m³-e çenli giňeldi. Gaz näçe joul iş ýerine ýetirdi?", "ru": "Газ расширился при постоянном давлении 2·10⁵ Па от 0,01 м³ до 0,03 м³. Какую работу (в Дж) совершил газ?"},
+          "answer": "4000",
+          "hint": {"tk": "A' = p·ΔV.", "ru": "A' = p·ΔV."},
+          "explain": {"tk": "ΔV = 0,03 − 0,01 = 0,02 m³. A' = 2·10⁵ · 0,02 = 4000 J.", "ru": "ΔV = 0,03 − 0,01 = 0,02 м³. A' = 2·10⁵ · 0,02 = 4000 Дж."}
+        },
+        {"type": "world", "text": {
+          "tk": "Fransuz inženeri Sadi Karno 1824-nji ýylda «Oduň hereketlendiriji güýji hakynda oýlanmalar» atly kitabyny çap etdi. Onda ol islendik ýylylyk hereketlendirijisiniň PTK-synyň diňe gyzdyryjynyň we sowadyjynyň temperaturalaryna bagly çäginiň bardygyny görkezdi — bu termodinamikanyň başlangyjy boldy.",
+          "ru": "Французский инженер Сади Карно в 1824 году опубликовал «Размышления о движущей силе огня». В ней он показал, что КПД любого теплового двигателя имеет предел, зависящий только от температур нагревателя и холодильника, — с этого началась термодинамика."
+        }}
+      ]
+    }
+  ]
+}

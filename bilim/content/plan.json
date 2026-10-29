@@ -1,0 +1,2912 @@
+{
+ "1": {
+  "turkmen": [
+   {
+    "tk": "Sesler we harplar",
+    "ru": "Звуки и буквы"
+   },
+   {
+    "tk": "Çekimli sesler",
+    "ru": "Гласные звуки"
+   },
+   {
+    "tk": "Çekimsiz sesler",
+    "ru": "Согласные звуки"
+   },
+   {
+    "tk": "Bogun",
+    "ru": "Слог"
+   },
+   {
+    "tk": "Söz",
+    "ru": "Слово"
+   },
+   {
+    "tk": "Sözlem",
+    "ru": "Предложение"
+   }
+  ],
+  "reading": [
+   {
+    "tk": "Elipbiý bilen tanyşlyk",
+    "ru": "Знакомство с алфавитом"
+   },
+   {
+    "tk": "Bogunlap okamak",
+    "ru": "Чтение по слогам"
+   },
+   {
+    "tk": "Gysga sözler",
+    "ru": "Короткие слова"
+   },
+   {
+    "tk": "Kiçi hekaýalar",
+    "ru": "Маленькие рассказы"
+   },
+   {
+    "tk": "Haýwanlar hakynda ertekiler",
+    "ru": "Сказки о животных"
+   },
+   {
+    "tk": "Tapmaçalar",
+    "ru": "Загадки"
+   }
+  ],
+  "math": [
+   {
+    "tk": "1-den 10-a çenli sanlar",
+    "ru": "Числа от 1 до 10"
+   },
+   {
+    "tk": "Köp, az, deň",
+    "ru": "Больше, меньше, равно"
+   },
+   {
+    "tk": "10-a çenli goşmak",
+    "ru": "Сложение до 10"
+   },
+   {
+    "tk": "10-a çenli aýyrmak",
+    "ru": "Вычитание до 10"
+   },
+   {
+    "tk": "Geometrik şekiller",
+    "ru": "Геометрические фигуры"
+   },
+   {
+    "tk": "20-ä çenli sanlar",
+    "ru": "Числа до 20"
+   }
+  ],
+  "world": [
+   {
+    "tk": "Men we maşgalam",
+    "ru": "Я и моя семья"
+   },
+   {
+    "tk": "Mekdep",
+    "ru": "Школа"
+   },
+   {
+    "tk": "Ýylyň pasyllary",
+    "ru": "Времена года"
+   },
+   {
+    "tk": "Öý haýwanlary",
+    "ru": "Домашние животные"
+   },
+   {
+    "tk": "Ösümlikler",
+    "ru": "Растения"
+   },
+   {
+    "tk": "Saglyk we arassaçylyk",
+    "ru": "Здоровье и гигиена"
+   }
+  ],
+  "russian": [
+   {
+    "tk": "Tanyşlyk: Здравствуй!",
+    "ru": "Знакомство: Здравствуй!"
+   },
+   {
+    "tk": "Reňkler",
+    "ru": "Цвета"
+   },
+   {
+    "tk": "Sanlar 1–10",
+    "ru": "Числа 1–10"
+   },
+   {
+    "tk": "Maşgala",
+    "ru": "Семья"
+   },
+   {
+    "tk": "Haýwanlar",
+    "ru": "Животные"
+   },
+   {
+    "tk": "Mekdep goşlary",
+    "ru": "Школьные принадлежности"
+   }
+  ],
+  "english": [
+   {
+    "tk": "Hello! Salamlaşmak",
+    "ru": "Hello! Приветствие"
+   },
+   {
+    "tk": "Colours — reňkler",
+    "ru": "Colours — цвета"
+   },
+   {
+    "tk": "Numbers 1–10",
+    "ru": "Numbers 1–10"
+   },
+   {
+    "tk": "Family — maşgala",
+    "ru": "Family — семья"
+   },
+   {
+    "tk": "Animals — haýwanlar",
+    "ru": "Animals — животные"
+   },
+   {
+    "tk": "Toys — oýnawaçlar",
+    "ru": "Toys — игрушки"
+   }
+  ]
+ },
+ "2": {
+  "turkmen": [
+   {
+    "tk": "Ýogyn we inçe çekimliler",
+    "ru": "Твёрдые и мягкие гласные"
+   },
+   {
+    "tk": "Sözüň manysy",
+    "ru": "Значение слова"
+   },
+   {
+    "tk": "At",
+    "ru": "Имя существительное"
+   },
+   {
+    "tk": "Sypat",
+    "ru": "Имя прилагательное"
+   },
+   {
+    "tk": "Işlik",
+    "ru": "Глагол"
+   },
+   {
+    "tk": "Sözlemiň görnüşleri",
+    "ru": "Виды предложений"
+   }
+  ],
+  "reading": [
+   {
+    "tk": "Goşgy we ritm",
+    "ru": "Стихи и ритм"
+   },
+   {
+    "tk": "Halk ertekileri",
+    "ru": "Народные сказки"
+   },
+   {
+    "tk": "Tebigat hakynda hekaýalar",
+    "ru": "Рассказы о природе"
+   },
+   {
+    "tk": "Dostluk hakynda",
+    "ru": "О дружбе"
+   },
+   {
+    "tk": "Nakyllar",
+    "ru": "Пословицы"
+   },
+   {
+    "tk": "Tekstiň esasy pikiri",
+    "ru": "Главная мысль текста"
+   }
+  ],
+  "math": [
+   {
+    "tk": "100-e çenli sanlar",
+    "ru": "Числа до 100"
+   },
+   {
+    "tk": "Onluklar we birlikler",
+    "ru": "Десятки и единицы"
+   },
+   {
+    "tk": "100-e çenli goşmak we aýyrmak",
+    "ru": "Сложение и вычитание до 100"
+   },
+   {
+    "tk": "Köpeltmek näme?",
+    "ru": "Что такое умножение"
+   },
+   {
+    "tk": "Wagt we sagat",
+    "ru": "Время и часы"
+   },
+   {
+    "tk": "Uzynlyk ölçegleri",
+    "ru": "Меры длины"
+   }
+  ],
+  "world": [
+   {
+    "tk": "Adamyň bedeni",
+    "ru": "Тело человека"
+   },
+   {
+    "tk": "Howa we pasyllar",
+    "ru": "Погода и сезоны"
+   },
+   {
+    "tk": "Suw we onuň ýagdaýlary",
+    "ru": "Вода и её состояния"
+   },
+   {
+    "tk": "Ýabany haýwanlar",
+    "ru": "Дикие животные"
+   },
+   {
+    "tk": "Ýol hereketiniň düzgünleri",
+    "ru": "Правила дорожного движения"
+   },
+   {
+    "tk": "Biziň planetamyz Ýer",
+    "ru": "Наша планета Земля"
+   }
+  ],
+  "russian": [
+   {
+    "tk": "Rus elipbiýi",
+    "ru": "Русский алфавит"
+   },
+   {
+    "tk": "Öýüm",
+    "ru": "Мой дом"
+   },
+   {
+    "tk": "Iýmit",
+    "ru": "Еда"
+   },
+   {
+    "tk": "Egin-eşik",
+    "ru": "Одежда"
+   },
+   {
+    "tk": "Hepdäniň günleri",
+    "ru": "Дни недели"
+   },
+   {
+    "tk": "Hereket işlikleri",
+    "ru": "Глаголы движения"
+   }
+  ],
+  "english": [
+   {
+    "tk": "The alphabet — elipbiý",
+    "ru": "The alphabet — алфавит"
+   },
+   {
+    "tk": "My body — bedenim",
+    "ru": "My body — тело"
+   },
+   {
+    "tk": "Food — iýmit",
+    "ru": "Food — еда"
+   },
+   {
+    "tk": "Clothes — eşikler",
+    "ru": "Clothes — одежда"
+   },
+   {
+    "tk": "Days of the week",
+    "ru": "Days of the week — дни недели"
+   },
+   {
+    "tk": "I can… — men başarýaryn",
+    "ru": "I can… — я умею"
+   }
+  ]
+ },
+ "3": {
+  "turkmen": [
+   {
+    "tk": "Sözüň düzümi: kök we goşulma",
+    "ru": "Состав слова: корень и аффикс"
+   },
+   {
+    "tk": "Köplük san",
+    "ru": "Множественное число"
+   },
+   {
+    "tk": "Düşümler bilen tanyşlyk",
+    "ru": "Знакомство с падежами"
+   },
+   {
+    "tk": "Işligiň zamanlary",
+    "ru": "Времена глагола"
+   },
+   {
+    "tk": "Çalyşmalar",
+    "ru": "Местоимения"
+   },
+   {
+    "tk": "Hat ýazmak",
+    "ru": "Пишем письмо"
+   }
+  ],
+  "reading": [
+   {
+    "tk": "Erteki we hekaýa",
+    "ru": "Сказка и рассказ"
+   },
+   {
+    "tk": "Gahrymanlar we häsiýetler",
+    "ru": "Герои и их характеры"
+   },
+   {
+    "tk": "Dünýä halklarynyň ertekileri",
+    "ru": "Сказки народов мира"
+   },
+   {
+    "tk": "Basnýa",
+    "ru": "Басня"
+   },
+   {
+    "tk": "Goşgy we kapiýa",
+    "ru": "Стих и рифма"
+   },
+   {
+    "tk": "Okalany gürrüň bermek",
+    "ru": "Пересказ прочитанного"
+   }
+  ],
+  "math": [
+   {
+    "tk": "Köpeltmek tablisasy",
+    "ru": "Таблица умножения"
+   },
+   {
+    "tk": "Bölmek",
+    "ru": "Деление"
+   },
+   {
+    "tk": "Galyndyly bölmek",
+    "ru": "Деление с остатком"
+   },
+   {
+    "tk": "1000-e çenli sanlar",
+    "ru": "Числа до 1000"
+   },
+   {
+    "tk": "Perimetr",
+    "ru": "Периметр"
+   },
+   {
+    "tk": "Meseleler çözmek",
+    "ru": "Решение задач"
+   }
+  ],
+  "world": [
+   {
+    "tk": "Gün ulgamy",
+    "ru": "Солнечная система"
+   },
+   {
+    "tk": "Howa we atmosfera",
+    "ru": "Воздух и атмосфера"
+   },
+   {
+    "tk": "Toprak",
+    "ru": "Почва"
+   },
+   {
+    "tk": "Iýmit zynjyry",
+    "ru": "Пищевая цепь"
+   },
+   {
+    "tk": "Materikler we ummanlar",
+    "ru": "Материки и океаны"
+   },
+   {
+    "tk": "Tebigaty goramak",
+    "ru": "Охрана природы"
+   }
+  ],
+  "russian": [
+   {
+    "tk": "At (существительное)",
+    "ru": "Существительное"
+   },
+   {
+    "tk": "Atlaryň jynsy",
+    "ru": "Род существительных"
+   },
+   {
+    "tk": "Sypat (прилагательное)",
+    "ru": "Прилагательное"
+   },
+   {
+    "tk": "Işlik (глагол)",
+    "ru": "Глагол"
+   },
+   {
+    "tk": "Meniň günüm",
+    "ru": "Мой день"
+   },
+   {
+    "tk": "Howa",
+    "ru": "Погода"
+   }
+  ],
+  "english": [
+   {
+    "tk": "There is / there are",
+    "ru": "There is / there are"
+   },
+   {
+    "tk": "My house — öýüm",
+    "ru": "My house — мой дом"
+   },
+   {
+    "tk": "Present Continuous",
+    "ru": "Present Continuous"
+   },
+   {
+    "tk": "Have got",
+    "ru": "Have got"
+   },
+   {
+    "tk": "Can / can't",
+    "ru": "Can / can't"
+   },
+   {
+    "tk": "Seasons and weather",
+    "ru": "Seasons and weather — погода"
+   }
+  ]
+ },
+ "4": {
+  "turkmen": [
+   {
+    "tk": "Sözlem agzalary",
+    "ru": "Члены предложения"
+   },
+   {
+    "tk": "Eýe we habar",
+    "ru": "Подлежащее и сказуемое"
+   },
+   {
+    "tk": "San (söz topary)",
+    "ru": "Числительное"
+   },
+   {
+    "tk": "Hal",
+    "ru": "Наречие"
+   },
+   {
+    "tk": "Baglaýjylar",
+    "ru": "Союзы"
+   },
+   {
+    "tk": "Düzme ýazmak",
+    "ru": "Сочинение"
+   }
+  ],
+  "reading": [
+   {
+    "tk": "Mif we rowaýat",
+    "ru": "Миф и легенда"
+   },
+   {
+    "tk": "Dessan bilen tanyşlyk",
+    "ru": "Знакомство с дастаном"
+   },
+   {
+    "tk": "Fantastika",
+    "ru": "Фантастика"
+   },
+   {
+    "tk": "Terjimehal",
+    "ru": "Биография"
+   },
+   {
+    "tk": "Pýesa",
+    "ru": "Пьеса"
+   },
+   {
+    "tk": "Kitap saýlamak",
+    "ru": "Как выбрать книгу"
+   }
+  ],
+  "math": [
+   {
+    "tk": "Köp belgili sanlar",
+    "ru": "Многозначные числа"
+   },
+   {
+    "tk": "Sütün bilen köpeltmek",
+    "ru": "Умножение столбиком"
+   },
+   {
+    "tk": "Burç bilen bölmek",
+    "ru": "Деление уголком"
+   },
+   {
+    "tk": "Ülüşler we droblar",
+    "ru": "Доли и дроби"
+   },
+   {
+    "tk": "Meýdan",
+    "ru": "Площадь"
+   },
+   {
+    "tk": "Tizlik, wagt, aralyk",
+    "ru": "Скорость, время, расстояние"
+   }
+  ],
+  "world": [
+   {
+    "tk": "Tebigy zolaklar",
+    "ru": "Природные зоны"
+   },
+   {
+    "tk": "Peýdaly gazylyp alynýan baýlyklar",
+    "ru": "Полезные ископаемые"
+   },
+   {
+    "tk": "Energiýa çeşmeleri",
+    "ru": "Источники энергии"
+   },
+   {
+    "tk": "Adamyň iç organlary",
+    "ru": "Внутренние органы человека"
+   },
+   {
+    "tk": "Gadymy siwilizasiýalar",
+    "ru": "Древние цивилизации"
+   },
+   {
+    "tk": "Karta we kompas",
+    "ru": "Карта и компас"
+   }
+  ],
+  "russian": [
+   {
+    "tk": "Predloglar",
+    "ru": "Предлоги"
+   },
+   {
+    "tk": "Köplük san",
+    "ru": "Множественное число"
+   },
+   {
+    "tk": "Öten zaman",
+    "ru": "Прошедшее время"
+   },
+   {
+    "tk": "Geljek zaman",
+    "ru": "Будущее время"
+   },
+   {
+    "tk": "Meniň şäherim",
+    "ru": "Мой город"
+   },
+   {
+    "tk": "Dükanda",
+    "ru": "В магазине"
+   }
+  ],
+  "english": [
+   {
+    "tk": "Past Simple: was / were",
+    "ru": "Past Simple: was / were"
+   },
+   {
+    "tk": "Past Simple: regular verbs",
+    "ru": "Past Simple: правильные глаголы"
+   },
+   {
+    "tk": "Comparatives",
+    "ru": "Сравнительная степень"
+   },
+   {
+    "tk": "My town — şäherim",
+    "ru": "My town — мой город"
+   },
+   {
+    "tk": "Shopping — söwda",
+    "ru": "Shopping — покупки"
+   },
+   {
+    "tk": "Jobs — hünärler",
+    "ru": "Jobs — профессии"
+   }
+  ]
+ },
+ "5": {
+  "turkmen": [
+   {
+    "tk": "Fonetika",
+    "ru": "Фонетика"
+   },
+   {
+    "tk": "Sinonim we antonim",
+    "ru": "Синонимы и антонимы"
+   },
+   {
+    "tk": "Söz ýasalyşy",
+    "ru": "Словообразование"
+   },
+   {
+    "tk": "Atyň düşümleri",
+    "ru": "Падежи существительного"
+   },
+   {
+    "tk": "Işligiň şekilleri",
+    "ru": "Формы глагола"
+   },
+   {
+    "tk": "Dilden we ýazuwdan gürrüň",
+    "ru": "Устная и письменная речь"
+   }
+  ],
+  "literature": [
+   {
+    "tk": "Edebiýat näme?",
+    "ru": "Что такое литература"
+   },
+   {
+    "tk": "Halk döredijiligi",
+    "ru": "Фольклор"
+   },
+   {
+    "tk": "«Görogly» eposy",
+    "ru": "Эпос «Гёроглы»"
+   },
+   {
+    "tk": "Dünýä ertekileri",
+    "ru": "Сказки мира"
+   },
+   {
+    "tk": "Hekaýanyň gurluşy",
+    "ru": "Строение рассказа"
+   },
+   {
+    "tk": "Şygryň esaslary",
+    "ru": "Основы стихосложения"
+   }
+  ],
+  "math": [
+   {
+    "tk": "Natural sanlar",
+    "ru": "Натуральные числа"
+   },
+   {
+    "tk": "Bölünijilik alamatlary",
+    "ru": "Признаки делимости"
+   },
+   {
+    "tk": "Adaty droblar",
+    "ru": "Обыкновенные дроби"
+   },
+   {
+    "tk": "Onluk droblar",
+    "ru": "Десятичные дроби"
+   },
+   {
+    "tk": "Göterimler",
+    "ru": "Проценты"
+   },
+   {
+    "tk": "Burçlar we olary ölçemek",
+    "ru": "Углы и их измерение"
+   }
+  ],
+  "russian": [
+   {
+    "tk": "Fonetika",
+    "ru": "Фонетика"
+   },
+   {
+    "tk": "Sözüň düzümi",
+    "ru": "Состав слова"
+   },
+   {
+    "tk": "Urgusyz çekimliler",
+    "ru": "Безударные гласные"
+   },
+   {
+    "tk": "Işligiň üýtgeýşi",
+    "ru": "Спряжение глагола"
+   },
+   {
+    "tk": "Söz düzümi",
+    "ru": "Словосочетание"
+   },
+   {
+    "tk": "Tekst we onuň temasy",
+    "ru": "Текст и его тема"
+   }
+  ],
+  "english": [
+   {
+    "tk": "Present Simple vs Continuous",
+    "ru": "Present Simple и Continuous"
+   },
+   {
+    "tk": "Past Simple: irregular verbs",
+    "ru": "Past Simple: неправильные глаголы"
+   },
+   {
+    "tk": "Countable / uncountable",
+    "ru": "Исчисляемые и неисчисляемые"
+   },
+   {
+    "tk": "Going to",
+    "ru": "Going to"
+   },
+   {
+    "tk": "Hobbies — gyzyklanmalar",
+    "ru": "Hobbies — увлечения"
+   },
+   {
+    "tk": "Writing an email",
+    "ru": "Пишем email"
+   }
+  ],
+  "history": [
+   {
+    "tk": "Taryh we taryhy çeşmeler",
+    "ru": "История и исторические источники"
+   },
+   {
+    "tk": "Daş asyry",
+    "ru": "Каменный век"
+   },
+   {
+    "tk": "Gadymy Müsür",
+    "ru": "Древний Египет"
+   },
+   {
+    "tk": "Mesopotamiýa",
+    "ru": "Месопотамия"
+   },
+   {
+    "tk": "Gadymy Gresiýa",
+    "ru": "Древняя Греция"
+   },
+   {
+    "tk": "Gadymy Rim",
+    "ru": "Древний Рим"
+   }
+  ],
+  "informatics": [
+   {
+    "tk": "Kompýuteriň bölekleri",
+    "ru": "Устройство компьютера"
+   },
+   {
+    "tk": "Faýllar we bukjalar",
+    "ru": "Файлы и папки"
+   },
+   {
+    "tk": "Klawiatura bilen işlemek",
+    "ru": "Работа с клавиатурой"
+   },
+   {
+    "tk": "Algoritm näme?",
+    "ru": "Что такое алгоритм"
+   },
+   {
+    "tk": "Internetde howpsuzlyk",
+    "ru": "Безопасность в интернете"
+   },
+   {
+    "tk": "Tekst redaktory",
+    "ru": "Текстовый редактор"
+   }
+  ]
+ },
+ "6": {
+  "turkmen": [
+   {
+    "tk": "Sypatlaryň derejeleri",
+    "ru": "Степени прилагательных"
+   },
+   {
+    "tk": "Sanlaryň görnüşleri",
+    "ru": "Разряды числительных"
+   },
+   {
+    "tk": "Çalyşmalaryň görnüşleri",
+    "ru": "Разряды местоимений"
+   },
+   {
+    "tk": "Buýruk we şert formalary",
+    "ru": "Повелительная и условная формы"
+   },
+   {
+    "tk": "Durnukly söz düzümleri",
+    "ru": "Фразеологизмы"
+   },
+   {
+    "tk": "Arza ýazmak",
+    "ru": "Пишем заявление"
+   }
+  ],
+  "literature": [
+   {
+    "tk": "Dessanlar",
+    "ru": "Дастаны"
+   },
+   {
+    "tk": "Nusgawy türkmen şahyrlary",
+    "ru": "Классические туркменские поэты"
+   },
+   {
+    "tk": "Ezop we Krylow",
+    "ru": "Эзоп и Крылов"
+   },
+   {
+    "tk": "Sýužet we kompozisiýa",
+    "ru": "Сюжет и композиция"
+   },
+   {
+    "tk": "Dünýä çagalar edebiýaty",
+    "ru": "Мировая детская литература"
+   },
+   {
+    "tk": "Gahrymanyň obrazy",
+    "ru": "Образ героя"
+   }
+  ],
+  "math": [
+   {
+    "tk": "Bitin sanlar",
+    "ru": "Целые числа"
+   },
+   {
+    "tk": "Otrisatel sanlar bilen amallar",
+    "ru": "Действия с отрицательными числами"
+   },
+   {
+    "tk": "Gatnaşyk we proporsiýa",
+    "ru": "Отношения и пропорции"
+   },
+   {
+    "tk": "Koordinata tekizligi",
+    "ru": "Координатная плоскость"
+   },
+   {
+    "tk": "Aňlatmalary ýönekeýleşdirmek",
+    "ru": "Упрощение выражений"
+   },
+   {
+    "tk": "Töwerek we tegelek",
+    "ru": "Окружность и круг"
+   }
+  ],
+  "russian": [
+   {
+    "tk": "Sinonimler we antonimler",
+    "ru": "Синонимы и антонимы"
+   },
+   {
+    "tk": "Frazeologizmler",
+    "ru": "Фразеологизмы"
+   },
+   {
+    "tk": "Sypatyň deňeşdirme derejeleri",
+    "ru": "Степени сравнения прилагательных"
+   },
+   {
+    "tk": "San (числительное)",
+    "ru": "Имя числительное"
+   },
+   {
+    "tk": "Çalyşma (местоимение)",
+    "ru": "Местоимение"
+   },
+   {
+    "tk": "Iş haty",
+    "ru": "Деловое письмо"
+   }
+  ],
+  "english": [
+   {
+    "tk": "Present Perfect",
+    "ru": "Present Perfect"
+   },
+   {
+    "tk": "Past Continuous",
+    "ru": "Past Continuous"
+   },
+   {
+    "tk": "Will vs going to",
+    "ru": "Will и going to"
+   },
+   {
+    "tk": "Must / should",
+    "ru": "Must / should"
+   },
+   {
+    "tk": "Travel — syýahat",
+    "ru": "Travel — путешествия"
+   },
+   {
+    "tk": "Describing people",
+    "ru": "Описание внешности"
+   }
+  ],
+  "history": [
+   {
+    "tk": "Gadymy Hindistan",
+    "ru": "Древняя Индия"
+   },
+   {
+    "tk": "Gadymy Hytaý",
+    "ru": "Древний Китай"
+   },
+   {
+    "tk": "Parfiýa we Nusaý",
+    "ru": "Парфия и Ниса"
+   },
+   {
+    "tk": "Beýik Ýüpek ýoly",
+    "ru": "Великий Шёлковый путь"
+   },
+   {
+    "tk": "Rim imperiýasynyň dargamagy",
+    "ru": "Падение Римской империи"
+   },
+   {
+    "tk": "Orta asyrlaryň başlangyjy",
+    "ru": "Начало Средневековья"
+   }
+  ],
+  "informatics": [
+   {
+    "tk": "Maglumat we onuň görnüşleri",
+    "ru": "Информация и её виды"
+   },
+   {
+    "tk": "Prezentasiýa döretmek",
+    "ru": "Создание презентации"
+   },
+   {
+    "tk": "Elektron tablisalar",
+    "ru": "Электронные таблицы"
+   },
+   {
+    "tk": "Algoritmiň görnüşleri",
+    "ru": "Виды алгоритмов"
+   },
+   {
+    "tk": "Blok-shemalar",
+    "ru": "Блок-схемы"
+   },
+   {
+    "tk": "Scratch-da programmirleme",
+    "ru": "Программирование в Scratch"
+   }
+  ],
+  "biology": [
+   {
+    "tk": "Janlylaryň häsiýetleri",
+    "ru": "Свойства живого"
+   },
+   {
+    "tk": "Mikroskop",
+    "ru": "Микроскоп"
+   },
+   {
+    "tk": "Bakteriýalar we kömelekler",
+    "ru": "Бактерии и грибы"
+   },
+   {
+    "tk": "Ösümligiň gurluşy",
+    "ru": "Строение растения"
+   },
+   {
+    "tk": "Fotosintez",
+    "ru": "Фотосинтез"
+   },
+   {
+    "tk": "Ösümlikleriň köpelişi",
+    "ru": "Размножение растений"
+   }
+  ],
+  "geography": [
+   {
+    "tk": "Ýeriň şekili we hereketi",
+    "ru": "Форма и движение Земли"
+   },
+   {
+    "tk": "Karta we masştab",
+    "ru": "Карта и масштаб"
+   },
+   {
+    "tk": "Giňlik we uzaklyk",
+    "ru": "Широта и долгота"
+   },
+   {
+    "tk": "Litosfera",
+    "ru": "Литосфера"
+   },
+   {
+    "tk": "Gidrosfera",
+    "ru": "Гидросфера"
+   },
+   {
+    "tk": "Atmosfera we howa",
+    "ru": "Атмосфера и погода"
+   }
+  ]
+ },
+ "7": {
+  "turkmen": [
+   {
+    "tk": "Aýyklaýjy, doldurgyç, hal",
+    "ru": "Определение, дополнение, обстоятельство"
+   },
+   {
+    "tk": "Goşma sözlemler",
+    "ru": "Сложные предложения"
+   },
+   {
+    "tk": "Göni we gytaklaýyn gürrüň",
+    "ru": "Прямая и косвенная речь"
+   },
+   {
+    "tk": "Dyngy belgileri",
+    "ru": "Знаки препинания"
+   },
+   {
+    "tk": "Publisistik stil",
+    "ru": "Публицистический стиль"
+   },
+   {
+    "tk": "Beýan ýazmak",
+    "ru": "Изложение"
+   }
+  ],
+  "literature": [
+   {
+    "tk": "«Gorkut ata» kitaby",
+    "ru": "«Книга Деде Коркута»"
+   },
+   {
+    "tk": "Firdöwsi we «Şanama»",
+    "ru": "Фирдоуси и «Шахнаме»"
+   },
+   {
+    "tk": "Nowella",
+    "ru": "Новелла"
+   },
+   {
+    "tk": "Ballada",
+    "ru": "Баллада"
+   },
+   {
+    "tk": "Satira we ýumor",
+    "ru": "Сатира и юмор"
+   },
+   {
+    "tk": "Lirika",
+    "ru": "Лирика"
+   }
+  ],
+  "math": [
+   {
+    "tk": "Aňlatmalar we toždestwolar",
+    "ru": "Выражения и тождества"
+   },
+   {
+    "tk": "Derejeler",
+    "ru": "Степени"
+   },
+   {
+    "tk": "Birağzalar we köpağzalar",
+    "ru": "Одночлены и многочлены"
+   },
+   {
+    "tk": "Gysga köpeltmek formulalary",
+    "ru": "Формулы сокращённого умножения"
+   },
+   {
+    "tk": "Funksiýa we grafik",
+    "ru": "Функция и график"
+   },
+   {
+    "tk": "Deňlemeler ulgamy",
+    "ru": "Системы уравнений"
+   }
+  ],
+  "geometry": [
+   {
+    "tk": "Nokat, göni çyzyk, burç",
+    "ru": "Точка, прямая, угол"
+   },
+   {
+    "tk": "Üçburçluklar",
+    "ru": "Треугольники"
+   },
+   {
+    "tk": "Üçburçluklaryň deňlik nyşanlary",
+    "ru": "Признаки равенства треугольников"
+   },
+   {
+    "tk": "Parallel göni çyzyklar",
+    "ru": "Параллельные прямые"
+   },
+   {
+    "tk": "Üçburçlugyň burçlarynyň jemi",
+    "ru": "Сумма углов треугольника"
+   },
+   {
+    "tk": "Gurmaga degişli meseleler",
+    "ru": "Задачи на построение"
+   }
+  ],
+  "physics": [
+   {
+    "tk": "Fizika näme öwrenýär",
+    "ru": "Что изучает физика"
+   },
+   {
+    "tk": "Maddanyň gurluşy",
+    "ru": "Строение вещества"
+   },
+   {
+    "tk": "Massa we dykyzlyk",
+    "ru": "Масса и плотность"
+   },
+   {
+    "tk": "Güýç we agyrlyk güýji",
+    "ru": "Сила и сила тяжести"
+   },
+   {
+    "tk": "Basyş",
+    "ru": "Давление"
+   },
+   {
+    "tk": "Arhimed güýji",
+    "ru": "Сила Архимеда"
+   }
+  ],
+  "biology": [
+   {
+    "tk": "Haýwanlaryň klassifikasiýasy",
+    "ru": "Классификация животных"
+   },
+   {
+    "tk": "Oňurgasyzlar",
+    "ru": "Беспозвоночные"
+   },
+   {
+    "tk": "Mör-möjekler",
+    "ru": "Насекомые"
+   },
+   {
+    "tk": "Balyklar",
+    "ru": "Рыбы"
+   },
+   {
+    "tk": "Guşlar",
+    "ru": "Птицы"
+   },
+   {
+    "tk": "Süýdemdirijiler",
+    "ru": "Млекопитающие"
+   }
+  ],
+  "geography": [
+   {
+    "tk": "Materikler",
+    "ru": "Материки"
+   },
+   {
+    "tk": "Afrika",
+    "ru": "Африка"
+   },
+   {
+    "tk": "Ýewraziýa",
+    "ru": "Евразия"
+   },
+   {
+    "tk": "Amerika materikleri",
+    "ru": "Америка"
+   },
+   {
+    "tk": "Awstraliýa we Antarktida",
+    "ru": "Австралия и Антарктида"
+   },
+   {
+    "tk": "Dünýä ummany",
+    "ru": "Мировой океан"
+   }
+  ],
+  "history": [
+   {
+    "tk": "Arap halyfaty we ylym",
+    "ru": "Арабский халифат и наука"
+   },
+   {
+    "tk": "Orta asyr Ýewropasy",
+    "ru": "Средневековая Европа"
+   },
+   {
+    "tk": "Mongol imperiýasy",
+    "ru": "Монгольская империя"
+   },
+   {
+    "tk": "Timur we Timurylar",
+    "ru": "Тимур и Тимуриды"
+   },
+   {
+    "tk": "Biruni we Ibn Sina",
+    "ru": "Бируни и Ибн Сина"
+   },
+   {
+    "tk": "Beýik geografik açyşlar",
+    "ru": "Великие географические открытия"
+   }
+  ],
+  "russian": [
+   {
+    "tk": "Işlik ortak (причастие)",
+    "ru": "Причастие"
+   },
+   {
+    "tk": "Hal işlik (деепричастие)",
+    "ru": "Деепричастие"
+   },
+   {
+    "tk": "Hal (наречие)",
+    "ru": "Наречие"
+   },
+   {
+    "tk": "Predloglar we baglaýjylar",
+    "ru": "Предлоги и союзы"
+   },
+   {
+    "tk": "Bölejikler",
+    "ru": "Частицы"
+   },
+   {
+    "tk": "Düzme-beýan",
+    "ru": "Сочинение-описание"
+   }
+  ],
+  "english": [
+   {
+    "tk": "Present Perfect vs Past Simple",
+    "ru": "Present Perfect и Past Simple"
+   },
+   {
+    "tk": "First conditional",
+    "ru": "Первый тип условных"
+   },
+   {
+    "tk": "Passive voice: present",
+    "ru": "Пассивный залог: настоящее"
+   },
+   {
+    "tk": "Relative clauses",
+    "ru": "Относительные придаточные"
+   },
+   {
+    "tk": "Phrasal verbs",
+    "ru": "Фразовые глаголы"
+   },
+   {
+    "tk": "Writing a story",
+    "ru": "Пишем рассказ"
+   }
+  ],
+  "informatics": [
+   {
+    "tk": "Kompýuter arhitekturasy",
+    "ru": "Архитектура компьютера"
+   },
+   {
+    "tk": "Operasion ulgamlar",
+    "ru": "Операционные системы"
+   },
+   {
+    "tk": "Tablisalarda formulalar",
+    "ru": "Формулы в таблицах"
+   },
+   {
+    "tk": "Kompýuter torlary",
+    "ru": "Компьютерные сети"
+   },
+   {
+    "tk": "Python bilen tanyşlyk",
+    "ru": "Знакомство с Python"
+   },
+   {
+    "tk": "Şertli operatorlar",
+    "ru": "Условные операторы"
+   }
+  ]
+ },
+ "8": {
+  "turkmen": [
+   {
+    "tk": "Ýönekeý sözlemiň sintaksisi",
+    "ru": "Синтаксис простого предложения"
+   },
+   {
+    "tk": "Bir düzümli sözlemler",
+    "ru": "Односоставные предложения"
+   },
+   {
+    "tk": "Birjynsly agzalar",
+    "ru": "Однородные члены"
+   },
+   {
+    "tk": "Ýüzlenme we giriş sözler",
+    "ru": "Обращение и вводные слова"
+   },
+   {
+    "tk": "Ylmy stil",
+    "ru": "Научный стиль"
+   },
+   {
+    "tk": "Esse ýazmak",
+    "ru": "Пишем эссе"
+   }
+  ],
+  "literature": [
+   {
+    "tk": "Nyzamy we «Hamsa»",
+    "ru": "Низами и «Хамсе»"
+   },
+   {
+    "tk": "Şekspir",
+    "ru": "Шекспир"
+   },
+   {
+    "tk": "Mollanepes",
+    "ru": "Моллапепес"
+   },
+   {
+    "tk": "Andalyp we Seýdi",
+    "ru": "Андалиб и Сейди"
+   },
+   {
+    "tk": "Romantizm",
+    "ru": "Романтизм"
+   },
+   {
+    "tk": "Drama žanry",
+    "ru": "Жанр драмы"
+   }
+  ],
+  "math": [
+   {
+    "tk": "Kwadrat kökler",
+    "ru": "Квадратные корни"
+   },
+   {
+    "tk": "Kwadrat deňlemeler",
+    "ru": "Квадратные уравнения"
+   },
+   {
+    "tk": "Wiýetiň teoremasy",
+    "ru": "Теорема Виета"
+   },
+   {
+    "tk": "Rasional droblar",
+    "ru": "Рациональные дроби"
+   },
+   {
+    "tk": "Deňsizlikler",
+    "ru": "Неравенства"
+   },
+   {
+    "tk": "Statistikanyň esaslary",
+    "ru": "Основы статистики"
+   }
+  ],
+  "geometry": [
+   {
+    "tk": "Dörtburçluklar",
+    "ru": "Четырёхугольники"
+   },
+   {
+    "tk": "Parallelogram we trapesiýa",
+    "ru": "Параллелограмм и трапеция"
+   },
+   {
+    "tk": "Şekilleriň meýdanlary",
+    "ru": "Площади фигур"
+   },
+   {
+    "tk": "Pifagoryň teoremasy",
+    "ru": "Теорема Пифагора"
+   },
+   {
+    "tk": "Meňzeş üçburçluklar",
+    "ru": "Подобные треугольники"
+   },
+   {
+    "tk": "Töwerek",
+    "ru": "Окружность"
+   }
+  ],
+  "physics": [
+   {
+    "tk": "Ýylylyk hadysalary",
+    "ru": "Тепловые явления"
+   },
+   {
+    "tk": "Ýylylyk mukdary",
+    "ru": "Количество теплоты"
+   },
+   {
+    "tk": "Maddanyň agregat ýagdaýlary",
+    "ru": "Агрегатные состояния"
+   },
+   {
+    "tk": "Elektrik zarýady",
+    "ru": "Электрический заряд"
+   },
+   {
+    "tk": "Tok güýji we naprýaženiýe",
+    "ru": "Сила тока и напряжение"
+   },
+   {
+    "tk": "Omuň kanuny",
+    "ru": "Закон Ома"
+   }
+  ],
+  "chemistry": [
+   {
+    "tk": "Himiýa näme öwrenýär",
+    "ru": "Что изучает химия"
+   },
+   {
+    "tk": "Arassa maddalar we garyndylar",
+    "ru": "Чистые вещества и смеси"
+   },
+   {
+    "tk": "Himiki elementler we formulalar",
+    "ru": "Химические элементы и формулы"
+   },
+   {
+    "tk": "Walentlik",
+    "ru": "Валентность"
+   },
+   {
+    "tk": "Himiki reaksiýalar",
+    "ru": "Химические реакции"
+   },
+   {
+    "tk": "Kislorod we suw",
+    "ru": "Кислород и вода"
+   }
+  ],
+  "biology": [
+   {
+    "tk": "Adamyň bedeniniň gurluşy",
+    "ru": "Строение тела человека"
+   },
+   {
+    "tk": "Süňk-myşsa ulgamy",
+    "ru": "Опорно-двигательная система"
+   },
+   {
+    "tk": "Gan we gan aýlanyş",
+    "ru": "Кровь и кровообращение"
+   },
+   {
+    "tk": "Dem alyş",
+    "ru": "Дыхание"
+   },
+   {
+    "tk": "Iýmit siňdiriş",
+    "ru": "Пищеварение"
+   },
+   {
+    "tk": "Nerw ulgamy",
+    "ru": "Нервная система"
+   }
+  ],
+  "geography": [
+   {
+    "tk": "Merkezi Aziýanyň tebigaty",
+    "ru": "Природа Центральной Азии"
+   },
+   {
+    "tk": "Hazar deňzi",
+    "ru": "Каспийское море"
+   },
+   {
+    "tk": "Howa guşaklyklary",
+    "ru": "Климатические пояса"
+   },
+   {
+    "tk": "Dünýäniň ilaty",
+    "ru": "Население мира"
+   },
+   {
+    "tk": "Tebigy baýlyklar",
+    "ru": "Природные ресурсы"
+   },
+   {
+    "tk": "Ekologiki meseleler",
+    "ru": "Экологические проблемы"
+   }
+  ],
+  "history": [
+   {
+    "tk": "Galkynyş döwri",
+    "ru": "Эпоха Возрождения"
+   },
+   {
+    "tk": "Ylmy rewolýusiýa",
+    "ru": "Научная революция"
+   },
+   {
+    "tk": "Senagat öwrülişigi",
+    "ru": "Промышленная революция"
+   },
+   {
+    "tk": "ABŞ-nyň garaşsyzlygy",
+    "ru": "Независимость США"
+   },
+   {
+    "tk": "Fransuz rewolýusiýasy",
+    "ru": "Французская революция"
+   },
+   {
+    "tk": "XIX asyrda ylym we tehnika",
+    "ru": "Наука и техника XIX века"
+   }
+  ],
+  "russian": [
+   {
+    "tk": "Baş agzalar",
+    "ru": "Главные члены предложения"
+   },
+   {
+    "tk": "Ikinji derejeli agzalar",
+    "ru": "Второстепенные члены"
+   },
+   {
+    "tk": "Bir düzümli sözlemler",
+    "ru": "Односоставные предложения"
+   },
+   {
+    "tk": "Birjynsly agzalar",
+    "ru": "Однородные члены"
+   },
+   {
+    "tk": "Aýratynlaşdyrma",
+    "ru": "Обособленные члены"
+   },
+   {
+    "tk": "Gürleýiş stilleri",
+    "ru": "Стили речи"
+   }
+  ],
+  "english": [
+   {
+    "tk": "Present Perfect Continuous",
+    "ru": "Present Perfect Continuous"
+   },
+   {
+    "tk": "Second conditional",
+    "ru": "Второй тип условных"
+   },
+   {
+    "tk": "Passive voice: past",
+    "ru": "Пассивный залог: прошедшее"
+   },
+   {
+    "tk": "Reported speech",
+    "ru": "Косвенная речь"
+   },
+   {
+    "tk": "Gerund and infinitive",
+    "ru": "Герундий и инфинитив"
+   },
+   {
+    "tk": "Opinion essay",
+    "ru": "Эссе-мнение"
+   }
+  ],
+  "informatics": [
+   {
+    "tk": "Sikller",
+    "ru": "Циклы"
+   },
+   {
+    "tk": "Sanawlar",
+    "ru": "Списки"
+   },
+   {
+    "tk": "Funksiýalar",
+    "ru": "Функции"
+   },
+   {
+    "tk": "Maglumat bazalary",
+    "ru": "Базы данных"
+   },
+   {
+    "tk": "HTML: web-sahypa",
+    "ru": "HTML: веб-страница"
+   },
+   {
+    "tk": "Kiberhowpsuzlyk",
+    "ru": "Кибербезопасность"
+   }
+  ]
+ },
+ "9": {
+  "turkmen": [
+   {
+    "tk": "Goşma sözlemiň görnüşleri",
+    "ru": "Виды сложных предложений"
+   },
+   {
+    "tk": "Eýerjeňli goşma sözlem",
+    "ru": "Сложноподчинённое предложение"
+   },
+   {
+    "tk": "Deňeçer goşma sözlem",
+    "ru": "Сложносочинённое предложение"
+   },
+   {
+    "tk": "Baglaýjysyz goşma sözlem",
+    "ru": "Бессоюзное предложение"
+   },
+   {
+    "tk": "Stilistika",
+    "ru": "Стилистика"
+   },
+   {
+    "tk": "Çykyş etmek sungaty",
+    "ru": "Ораторское искусство"
+   }
+  ],
+  "literature": [
+   {
+    "tk": "XX asyr türkmen prozasy",
+    "ru": "Туркменская проза XX века"
+   },
+   {
+    "tk": "Berdi Kerbabaýew",
+    "ru": "Берды Кербабаев"
+   },
+   {
+    "tk": "Puşkin",
+    "ru": "Пушкин"
+   },
+   {
+    "tk": "Realizm",
+    "ru": "Реализм"
+   },
+   {
+    "tk": "Dünýä romanynyň ussatlary",
+    "ru": "Мастера мирового романа"
+   },
+   {
+    "tk": "Edebi tankyt",
+    "ru": "Литературная критика"
+   }
+  ],
+  "math": [
+   {
+    "tk": "Kwadrat funksiýa",
+    "ru": "Квадратичная функция"
+   },
+   {
+    "tk": "Deňsizlikler ulgamy",
+    "ru": "Системы неравенств"
+   },
+   {
+    "tk": "Arifmetiki progressiýa",
+    "ru": "Арифметическая прогрессия"
+   },
+   {
+    "tk": "Geometrik progressiýa",
+    "ru": "Геометрическая прогрессия"
+   },
+   {
+    "tk": "Ähtimallyk",
+    "ru": "Вероятность"
+   },
+   {
+    "tk": "Kombinatorika",
+    "ru": "Комбинаторика"
+   }
+  ],
+  "geometry": [
+   {
+    "tk": "Wektorlar",
+    "ru": "Векторы"
+   },
+   {
+    "tk": "Koordinatalar usuly",
+    "ru": "Метод координат"
+   },
+   {
+    "tk": "Sinus, kosinus, tangens",
+    "ru": "Синус, косинус, тангенс"
+   },
+   {
+    "tk": "Sinuslar we kosinuslar teoremasy",
+    "ru": "Теоремы синусов и косинусов"
+   },
+   {
+    "tk": "Dogry köpburçluklar",
+    "ru": "Правильные многоугольники"
+   },
+   {
+    "tk": "Töweregiň uzynlygy we tegelegiň meýdany",
+    "ru": "Длина окружности и площадь круга"
+   }
+  ],
+  "physics": [
+   {
+    "tk": "Mehaniki hereket",
+    "ru": "Механическое движение"
+   },
+   {
+    "tk": "Nýutonyň kanunlary",
+    "ru": "Законы Ньютона"
+   },
+   {
+    "tk": "Impuls",
+    "ru": "Импульс"
+   },
+   {
+    "tk": "Iş we energiýa",
+    "ru": "Работа и энергия"
+   },
+   {
+    "tk": "Yrgyldylar we tolkunlar",
+    "ru": "Колебания и волны"
+   },
+   {
+    "tk": "Ses",
+    "ru": "Звук"
+   }
+  ],
+  "chemistry": [
+   {
+    "tk": "Oksidler",
+    "ru": "Оксиды"
+   },
+   {
+    "tk": "Kislotalar",
+    "ru": "Кислоты"
+   },
+   {
+    "tk": "Esaslar",
+    "ru": "Основания"
+   },
+   {
+    "tk": "Duzlar",
+    "ru": "Соли"
+   },
+   {
+    "tk": "Döwürleýin kanun",
+    "ru": "Периодический закон"
+   },
+   {
+    "tk": "Himiki baglanyşyk",
+    "ru": "Химическая связь"
+   }
+  ],
+  "biology": [
+   {
+    "tk": "Genetikanyň esaslary",
+    "ru": "Основы генетики"
+   },
+   {
+    "tk": "Mendeliň kanunlary",
+    "ru": "Законы Менделя"
+   },
+   {
+    "tk": "DNK we gen",
+    "ru": "ДНК и ген"
+   },
+   {
+    "tk": "Ewolýusiýa",
+    "ru": "Эволюция"
+   },
+   {
+    "tk": "Ekoulgamlar",
+    "ru": "Экосистемы"
+   },
+   {
+    "tk": "Biosfera",
+    "ru": "Биосфера"
+   }
+  ],
+  "geography": [
+   {
+    "tk": "Dünýäniň syýasy kartasy",
+    "ru": "Политическая карта мира"
+   },
+   {
+    "tk": "Dünýä hojalygy",
+    "ru": "Мировое хозяйство"
+   },
+   {
+    "tk": "Energetika",
+    "ru": "Энергетика"
+   },
+   {
+    "tk": "Ulag",
+    "ru": "Транспорт"
+   },
+   {
+    "tk": "Oba hojalygy",
+    "ru": "Сельское хозяйство"
+   },
+   {
+    "tk": "Globalizasiýa",
+    "ru": "Глобализация"
+   }
+  ],
+  "history": [
+   {
+    "tk": "Birinji jahan urşy",
+    "ru": "Первая мировая война"
+   },
+   {
+    "tk": "Iki urşuň arasynda dünýä",
+    "ru": "Мир между войнами"
+   },
+   {
+    "tk": "Ikinji jahan urşy",
+    "ru": "Вторая мировая война"
+   },
+   {
+    "tk": "BMG-niň döredilmegi",
+    "ru": "Создание ООН"
+   },
+   {
+    "tk": "Kosmos asyry",
+    "ru": "Космическая эра"
+   },
+   {
+    "tk": "Sanly rewolýusiýa",
+    "ru": "Цифровая революция"
+   }
+  ],
+  "russian": [
+   {
+    "tk": "Sylanyşykly goşma sözlem",
+    "ru": "Сложносочинённое предложение"
+   },
+   {
+    "tk": "Eýerjeňli goşma sözlem",
+    "ru": "Сложноподчинённое предложение"
+   },
+   {
+    "tk": "Baglaýjysyz goşma sözlem",
+    "ru": "Бессоюзное сложное предложение"
+   },
+   {
+    "tk": "Göni we gytaklaýyn gürrüň",
+    "ru": "Прямая и косвенная речь"
+   },
+   {
+    "tk": "Sitata getirmek",
+    "ru": "Цитирование"
+   },
+   {
+    "tk": "Düzme-pikirlenme",
+    "ru": "Сочинение-рассуждение"
+   }
+  ],
+  "english": [
+   {
+    "tk": "Third conditional",
+    "ru": "Третий тип условных"
+   },
+   {
+    "tk": "Modals of deduction",
+    "ru": "Модальные глаголы предположения"
+   },
+   {
+    "tk": "Passive: all tenses",
+    "ru": "Пассив: все времена"
+   },
+   {
+    "tk": "Linking words",
+    "ru": "Слова-связки"
+   },
+   {
+    "tk": "Collocations",
+    "ru": "Коллокации"
+   },
+   {
+    "tk": "Formal letter",
+    "ru": "Официальное письмо"
+   }
+  ],
+  "informatics": [
+   {
+    "tk": "Algoritmiň çylşyrymlylygy",
+    "ru": "Сложность алгоритмов"
+   },
+   {
+    "tk": "Gözleg we tertiplemek",
+    "ru": "Поиск и сортировка"
+   },
+   {
+    "tk": "Obýekte gönükdirilen programmirleme",
+    "ru": "Объектно-ориентированное программирование"
+   },
+   {
+    "tk": "CSS bilen dizaýn",
+    "ru": "Дизайн с CSS"
+   },
+   {
+    "tk": "Maglumatlary wizualizasiýa",
+    "ru": "Визуализация данных"
+   },
+   {
+    "tk": "Emeli aň bilen tanyşlyk",
+    "ru": "Введение в искусственный интеллект"
+   }
+  ]
+ },
+ "10": {
+  "turkmen": [
+   {
+    "tk": "Dil we jemgyýet",
+    "ru": "Язык и общество"
+   },
+   {
+    "tk": "Türki diller maşgalasy",
+    "ru": "Тюркская языковая семья"
+   },
+   {
+    "tk": "Edebi dil we şiweler",
+    "ru": "Литературный язык и диалекты"
+   },
+   {
+    "tk": "Sözlükler",
+    "ru": "Словари"
+   },
+   {
+    "tk": "Orfografiýa kadalary",
+    "ru": "Орфографические нормы"
+   },
+   {
+    "tk": "Işewür hat alyşmak",
+    "ru": "Деловая переписка"
+   }
+  ],
+  "literature": [
+   {
+    "tk": "Gomer",
+    "ru": "Гомер"
+   },
+   {
+    "tk": "Dante",
+    "ru": "Данте"
+   },
+   {
+    "tk": "Servantes",
+    "ru": "Сервантес"
+   },
+   {
+    "tk": "Gýote",
+    "ru": "Гёте"
+   },
+   {
+    "tk": "Tolstoý",
+    "ru": "Толстой"
+   },
+   {
+    "tk": "Dostoýewskiý",
+    "ru": "Достоевский"
+   }
+  ],
+  "math": [
+   {
+    "tk": "Trigonometrik funksiýalar",
+    "ru": "Тригонометрические функции"
+   },
+   {
+    "tk": "Trigonometrik deňlemeler",
+    "ru": "Тригонометрические уравнения"
+   },
+   {
+    "tk": "Derejeli funksiýa",
+    "ru": "Степенная функция"
+   },
+   {
+    "tk": "Görkezijili funksiýa",
+    "ru": "Показательная функция"
+   },
+   {
+    "tk": "Logarifmler",
+    "ru": "Логарифмы"
+   },
+   {
+    "tk": "Logarifmik deňlemeler",
+    "ru": "Логарифмические уравнения"
+   }
+  ],
+  "geometry": [
+   {
+    "tk": "Stereometriýanyň aksiomalary",
+    "ru": "Аксиомы стереометрии"
+   },
+   {
+    "tk": "Giňişlikde parallellik",
+    "ru": "Параллельность в пространстве"
+   },
+   {
+    "tk": "Giňişlikde perpendikulýarlyk",
+    "ru": "Перпендикулярность в пространстве"
+   },
+   {
+    "tk": "Köpgranlyklar",
+    "ru": "Многогранники"
+   },
+   {
+    "tk": "Prizma",
+    "ru": "Призма"
+   },
+   {
+    "tk": "Piramida",
+    "ru": "Пирамида"
+   }
+  ],
+  "physics": [
+   {
+    "tk": "Kinematika",
+    "ru": "Кинематика"
+   },
+   {
+    "tk": "Töwerek boýunça hereket",
+    "ru": "Движение по окружности"
+   },
+   {
+    "tk": "Bütindünýä dartyşma kanuny",
+    "ru": "Закон всемирного тяготения"
+   },
+   {
+    "tk": "Molekulýar-kinetik nazaryýet",
+    "ru": "Молекулярно-кинетическая теория"
+   },
+   {
+    "tk": "Gaz kanunlary",
+    "ru": "Газовые законы"
+   },
+   {
+    "tk": "Termodinamika",
+    "ru": "Термодинамика"
+   }
+  ],
+  "chemistry": [
+   {
+    "tk": "Organiki himiýa",
+    "ru": "Органическая химия"
+   },
+   {
+    "tk": "Alkanlar",
+    "ru": "Алканы"
+   },
+   {
+    "tk": "Alkenler we alkinler",
+    "ru": "Алкены и алкины"
+   },
+   {
+    "tk": "Arenler",
+    "ru": "Арены"
+   },
+   {
+    "tk": "Spirtler",
+    "ru": "Спирты"
+   },
+   {
+    "tk": "Nebit we tebigy gaz",
+    "ru": "Нефть и природный газ"
+   }
+  ],
+  "biology": [
+   {
+    "tk": "Öýjügiň himiki düzümi",
+    "ru": "Химический состав клетки"
+   },
+   {
+    "tk": "Beloklar",
+    "ru": "Белки"
+   },
+   {
+    "tk": "Fermentler",
+    "ru": "Ферменты"
+   },
+   {
+    "tk": "Mitoz we meýoz",
+    "ru": "Митоз и мейоз"
+   },
+   {
+    "tk": "Metabolizm",
+    "ru": "Метаболизм"
+   },
+   {
+    "tk": "Wiruslar",
+    "ru": "Вирусы"
+   }
+  ],
+  "geography": [
+   {
+    "tk": "Ýewropa",
+    "ru": "Европа"
+   },
+   {
+    "tk": "Aziýa",
+    "ru": "Азия"
+   },
+   {
+    "tk": "Afrikanyň ýurtlary",
+    "ru": "Страны Африки"
+   },
+   {
+    "tk": "Amerikanyň ýurtlary",
+    "ru": "Страны Америки"
+   },
+   {
+    "tk": "Okeaniýa",
+    "ru": "Океания"
+   },
+   {
+    "tk": "Global meseleler",
+    "ru": "Глобальные проблемы"
+   }
+  ],
+  "history": [
+   {
+    "tk": "Siwilizasiýa düşünjesi",
+    "ru": "Понятие цивилизации"
+   },
+   {
+    "tk": "Dünýä dinleriniň taryhy",
+    "ru": "История мировых религий"
+   },
+   {
+    "tk": "Imperiýalar döwri",
+    "ru": "Эпоха империй"
+   },
+   {
+    "tk": "Kolonializm",
+    "ru": "Колониализм"
+   },
+   {
+    "tk": "Demokratiýanyň ösüşi",
+    "ru": "Развитие демократии"
+   },
+   {
+    "tk": "Ylmyň taryhy",
+    "ru": "История науки"
+   }
+  ],
+  "russian": [
+   {
+    "tk": "Leksika we frazeologiýa",
+    "ru": "Лексика и фразеология"
+   },
+   {
+    "tk": "Morfemika",
+    "ru": "Морфемика"
+   },
+   {
+    "tk": "Garaşsyz söz toparlary",
+    "ru": "Самостоятельные части речи"
+   },
+   {
+    "tk": "Kömekçi söz toparlary",
+    "ru": "Служебные части речи"
+   },
+   {
+    "tk": "Н и НН",
+    "ru": "Н и НН"
+   },
+   {
+    "tk": "Gürleýiş medeniýeti",
+    "ru": "Культура речи"
+   }
+  ],
+  "english": [
+   {
+    "tk": "Mixed conditionals",
+    "ru": "Смешанные условные"
+   },
+   {
+    "tk": "Wish / if only",
+    "ru": "Wish / if only"
+   },
+   {
+    "tk": "Advanced passive",
+    "ru": "Сложные формы пассива"
+   },
+   {
+    "tk": "Inversion",
+    "ru": "Инверсия"
+   },
+   {
+    "tk": "Academic vocabulary",
+    "ru": "Академическая лексика"
+   },
+   {
+    "tk": "Presentation skills",
+    "ru": "Навыки презентации"
+   }
+  ],
+  "informatics": [
+   {
+    "tk": "Kompýuter grafikasy",
+    "ru": "Компьютерная графика"
+   },
+   {
+    "tk": "Rekursiýa",
+    "ru": "Рекурсия"
+   },
+   {
+    "tk": "Maglumat gurluşlary",
+    "ru": "Структуры данных"
+   },
+   {
+    "tk": "SQL",
+    "ru": "SQL"
+   },
+   {
+    "tk": "Mobil programmalar",
+    "ru": "Мобильные приложения"
+   },
+   {
+    "tk": "Şifrlemek",
+    "ru": "Шифрование"
+   }
+  ]
+ },
+ "11": {
+  "turkmen": [
+   {
+    "tk": "Tekst we onuň gurluşy",
+    "ru": "Текст и его структура"
+   },
+   {
+    "tk": "Funksional stiller",
+    "ru": "Функциональные стили"
+   },
+   {
+    "tk": "Çeper dil serişdeleri",
+    "ru": "Средства выразительности"
+   },
+   {
+    "tk": "Terjime sungaty",
+    "ru": "Искусство перевода"
+   },
+   {
+    "tk": "Gysgaltmalar",
+    "ru": "Сокращения"
+   },
+   {
+    "tk": "Rezýume ýazmak",
+    "ru": "Пишем резюме"
+   }
+  ],
+  "literature": [
+   {
+    "tk": "Žýul Wern we ylmy fantastika",
+    "ru": "Жюль Верн и научная фантастика"
+   },
+   {
+    "tk": "Çehow",
+    "ru": "Чехов"
+   },
+   {
+    "tk": "Hemingueý",
+    "ru": "Хемингуэй"
+   },
+   {
+    "tk": "Aýtmatow",
+    "ru": "Айтматов"
+   },
+   {
+    "tk": "Markes",
+    "ru": "Маркес"
+   },
+   {
+    "tk": "Häzirki zaman poeziýasy",
+    "ru": "Современная поэзия"
+   }
+  ],
+  "math": [
+   {
+    "tk": "Önüm",
+    "ru": "Производная"
+   },
+   {
+    "tk": "Önümiň ulanylyşy",
+    "ru": "Применение производной"
+   },
+   {
+    "tk": "Funksiýany derňemek",
+    "ru": "Исследование функции"
+   },
+   {
+    "tk": "Başlangyç funksiýa",
+    "ru": "Первообразная"
+   },
+   {
+    "tk": "Integral",
+    "ru": "Интеграл"
+   },
+   {
+    "tk": "Integralyň ulanylyşy",
+    "ru": "Применение интеграла"
+   }
+  ],
+  "geometry": [
+   {
+    "tk": "Silindr",
+    "ru": "Цилиндр"
+   },
+   {
+    "tk": "Konus",
+    "ru": "Конус"
+   },
+   {
+    "tk": "Şar we sfera",
+    "ru": "Шар и сфера"
+   },
+   {
+    "tk": "Jisimleriň göwrümi",
+    "ru": "Объёмы тел"
+   },
+   {
+    "tk": "Giňişlikde koordinatalar",
+    "ru": "Координаты в пространстве"
+   },
+   {
+    "tk": "Giňişlikde wektorlar",
+    "ru": "Векторы в пространстве"
+   }
+  ],
+  "physics": [
+   {
+    "tk": "Elektrostatika",
+    "ru": "Электростатика"
+   },
+   {
+    "tk": "Kondensator",
+    "ru": "Конденсатор"
+   },
+   {
+    "tk": "Hemişelik tok",
+    "ru": "Постоянный ток"
+   },
+   {
+    "tk": "Magnit meýdany",
+    "ru": "Магнитное поле"
+   },
+   {
+    "tk": "Elektromagnit induksiýa",
+    "ru": "Электромагнитная индукция"
+   },
+   {
+    "tk": "Üýtgeýän tok",
+    "ru": "Переменный ток"
+   }
+  ],
+  "chemistry": [
+   {
+    "tk": "Aldegidler",
+    "ru": "Альдегиды"
+   },
+   {
+    "tk": "Karbon kislotalary",
+    "ru": "Карбоновые кислоты"
+   },
+   {
+    "tk": "Ýaglar",
+    "ru": "Жиры"
+   },
+   {
+    "tk": "Uglewodlar",
+    "ru": "Углеводы"
+   },
+   {
+    "tk": "Aminokislotalar we beloklar",
+    "ru": "Аминокислоты и белки"
+   },
+   {
+    "tk": "Polimerler",
+    "ru": "Полимеры"
+   }
+  ],
+  "biology": [
+   {
+    "tk": "Adamyň genetikasy",
+    "ru": "Генетика человека"
+   },
+   {
+    "tk": "Seleksiýa",
+    "ru": "Селекция"
+   },
+   {
+    "tk": "Biotehnologiýa",
+    "ru": "Биотехнология"
+   },
+   {
+    "tk": "Immunitet",
+    "ru": "Иммунитет"
+   },
+   {
+    "tk": "Ýaşaýşyň döreýşi",
+    "ru": "Происхождение жизни"
+   },
+   {
+    "tk": "Adamyň ewolýusiýasy",
+    "ru": "Эволюция человека"
+   }
+  ],
+  "geography": [
+   {
+    "tk": "Demografiýa",
+    "ru": "Демография"
+   },
+   {
+    "tk": "Şäherleşme",
+    "ru": "Урбанизация"
+   },
+   {
+    "tk": "Halkara söwda",
+    "ru": "Международная торговля"
+   },
+   {
+    "tk": "Syýahatçylyk",
+    "ru": "Туризм"
+   },
+   {
+    "tk": "Suw baýlyklary",
+    "ru": "Водные ресурсы"
+   },
+   {
+    "tk": "Howanyň üýtgemegi",
+    "ru": "Изменение климата"
+   }
+  ],
+  "history": [
+   {
+    "tk": "XX asyryň ylmy açyşlary",
+    "ru": "Научные открытия XX века"
+   },
+   {
+    "tk": "Sowuk uruş",
+    "ru": "Холодная война"
+   },
+   {
+    "tk": "Kolonial ulgamyň dargamagy",
+    "ru": "Распад колониальной системы"
+   },
+   {
+    "tk": "Ýewropa Bileleşigi",
+    "ru": "Европейский союз"
+   },
+   {
+    "tk": "Aziýanyň ykdysady ösüşi",
+    "ru": "Экономический рост Азии"
+   },
+   {
+    "tk": "Häzirki zaman dünýäsi",
+    "ru": "Современный мир"
+   }
+  ],
+  "russian": [
+   {
+    "tk": "Goşma sözlemiň sintaksisi",
+    "ru": "Синтаксис сложного предложения"
+   },
+   {
+    "tk": "Punktuasiýa",
+    "ru": "Пунктуация"
+   },
+   {
+    "tk": "Çeperçilik serişdeleri",
+    "ru": "Средства выразительности"
+   },
+   {
+    "tk": "Publisistika",
+    "ru": "Публицистика"
+   },
+   {
+    "tk": "Resenziýa",
+    "ru": "Рецензия"
+   },
+   {
+    "tk": "Ekzamene taýýarlyk",
+    "ru": "Подготовка к экзамену"
+   }
+  ],
+  "english": [
+   {
+    "tk": "Tenses review",
+    "ru": "Повторение времён"
+   },
+   {
+    "tk": "Cleft sentences",
+    "ru": "Эмфатические конструкции"
+   },
+   {
+    "tk": "Reporting verbs",
+    "ru": "Глаголы косвенной речи"
+   },
+   {
+    "tk": "Idioms",
+    "ru": "Идиомы"
+   },
+   {
+    "tk": "Argumentative essay",
+    "ru": "Аргументативное эссе"
+   },
+   {
+    "tk": "Job interview",
+    "ru": "Собеседование"
+   }
+  ],
+  "informatics": [
+   {
+    "tk": "Algoritmleriň derňewi",
+    "ru": "Анализ алгоритмов"
+   },
+   {
+    "tk": "Graflar",
+    "ru": "Графы"
+   },
+   {
+    "tk": "JavaScript",
+    "ru": "JavaScript"
+   },
+   {
+    "tk": "Bulut tehnologiýalary",
+    "ru": "Облачные технологии"
+   },
+   {
+    "tk": "Maşyn öwrenmek",
+    "ru": "Машинное обучение"
+   },
+   {
+    "tk": "Maglumat etikasy",
+    "ru": "Этика данных"
+   }
+  ]
+ },
+ "12": {
+  "turkmen": [
+   {
+    "tk": "Diliň taryhy",
+    "ru": "История языка"
+   },
+   {
+    "tk": "Gadymy türki ýazgylar",
+    "ru": "Древнетюркские надписи"
+   },
+   {
+    "tk": "Häzirki diliň kadalary",
+    "ru": "Нормы современного языка"
+   },
+   {
+    "tk": "Ylmy iş ýazmak",
+    "ru": "Научная работа"
+   },
+   {
+    "tk": "Jedel we çykyş",
+    "ru": "Дебаты и выступление"
+   },
+   {
+    "tk": "Gaýtalamak: sintaksis",
+    "ru": "Повторение: синтаксис"
+   }
+  ],
+  "literature": [
+   {
+    "tk": "Edebi akymlar",
+    "ru": "Литературные направления"
+   },
+   {
+    "tk": "Postmodernizm",
+    "ru": "Постмодернизм"
+   },
+   {
+    "tk": "Nobel baýragynyň eýeleri",
+    "ru": "Нобелевские лауреаты"
+   },
+   {
+    "tk": "Häzirki türkmen edebiýaty",
+    "ru": "Современная туркменская литература"
+   },
+   {
+    "tk": "Edebiýat we kino",
+    "ru": "Литература и кино"
+   },
+   {
+    "tk": "Edebi esse",
+    "ru": "Литературное эссе"
+   }
+  ],
+  "math": [
+   {
+    "tk": "Kompleks sanlar",
+    "ru": "Комплексные числа"
+   },
+   {
+    "tk": "Matematiki induksiýa",
+    "ru": "Математическая индукция"
+   },
+   {
+    "tk": "Ähtimallyk nazaryýeti",
+    "ru": "Теория вероятностей"
+   },
+   {
+    "tk": "Statistika",
+    "ru": "Статистика"
+   },
+   {
+    "tk": "Matrisalar",
+    "ru": "Матрицы"
+   },
+   {
+    "tk": "Gaýtalamak: funksiýalar",
+    "ru": "Повторение: функции"
+   }
+  ],
+  "geometry": [
+   {
+    "tk": "Üstüň meýdany",
+    "ru": "Площадь поверхности"
+   },
+   {
+    "tk": "Aýlanma jisimleri",
+    "ru": "Тела вращения"
+   },
+   {
+    "tk": "Simmetriýa",
+    "ru": "Симметрия"
+   },
+   {
+    "tk": "Geometrik öwrülişikler",
+    "ru": "Геометрические преобразования"
+   },
+   {
+    "tk": "Giňişlik meseleleri",
+    "ru": "Пространственные задачи"
+   },
+   {
+    "tk": "Gaýtalamak: geometriýa",
+    "ru": "Повторение: геометрия"
+   }
+  ],
+  "physics": [
+   {
+    "tk": "Optika",
+    "ru": "Оптика"
+   },
+   {
+    "tk": "Ýagtylygyň tolkun häsiýetleri",
+    "ru": "Волновые свойства света"
+   },
+   {
+    "tk": "Otnositellik nazaryýeti",
+    "ru": "Теория относительности"
+   },
+   {
+    "tk": "Kwant fizikasy",
+    "ru": "Квантовая физика"
+   },
+   {
+    "tk": "Atom ýadrosy",
+    "ru": "Атомное ядро"
+   },
+   {
+    "tk": "Astrofizika",
+    "ru": "Астрофизика"
+   }
+  ],
+  "chemistry": [
+   {
+    "tk": "Metallar",
+    "ru": "Металлы"
+   },
+   {
+    "tk": "Metal däller",
+    "ru": "Неметаллы"
+   },
+   {
+    "tk": "Elektroliz",
+    "ru": "Электролиз"
+   },
+   {
+    "tk": "Himiki kinetika",
+    "ru": "Химическая кинетика"
+   },
+   {
+    "tk": "Himiki deňagramlylyk",
+    "ru": "Химическое равновесие"
+   },
+   {
+    "tk": "Himiýa we ekologiýa",
+    "ru": "Химия и экология"
+   }
+  ],
+  "biology": [
+   {
+    "tk": "Ekologiýanyň kanunlary",
+    "ru": "Законы экологии"
+   },
+   {
+    "tk": "Populýasiýalar",
+    "ru": "Популяции"
+   },
+   {
+    "tk": "Biologik dürlülik",
+    "ru": "Биоразнообразие"
+   },
+   {
+    "tk": "Adam we biosfera",
+    "ru": "Человек и биосфера"
+   },
+   {
+    "tk": "Neýrobiologiýa",
+    "ru": "Нейробиология"
+   },
+   {
+    "tk": "Gaýtalamak: biologiýa",
+    "ru": "Повторение: биология"
+   }
+  ],
+  "geography": [
+   {
+    "tk": "Geografik maglumat ulgamlary",
+    "ru": "Геоинформационные системы"
+   },
+   {
+    "tk": "Ýeri kosmosdan öwrenmek",
+    "ru": "Изучение Земли из космоса"
+   },
+   {
+    "tk": "Durnukly ösüş",
+    "ru": "Устойчивое развитие"
+   },
+   {
+    "tk": "Tebigy betbagtçylyklar",
+    "ru": "Стихийные бедствия"
+   },
+   {
+    "tk": "Ýeriň geologik taryhy",
+    "ru": "Геологическая история Земли"
+   },
+   {
+    "tk": "Gaýtalamak: geografiýa",
+    "ru": "Повторение: география"
+   }
+  ],
+  "history": [
+   {
+    "tk": "Taryh ylmynyň usullary",
+    "ru": "Методы исторической науки"
+   },
+   {
+    "tk": "Arheologiýa",
+    "ru": "Археология"
+   },
+   {
+    "tk": "Altyndepe we Margiana",
+    "ru": "Алтын-депе и Маргиана"
+   },
+   {
+    "tk": "Tehnologiýalaryň taryhy",
+    "ru": "История технологий"
+   },
+   {
+    "tk": "UNESKO-nyň dünýä mirasy",
+    "ru": "Всемирное наследие ЮНЕСКО"
+   },
+   {
+    "tk": "Gaýtalamak: taryh",
+    "ru": "Повторение: история"
+   }
+  ],
+  "russian": [
+   {
+    "tk": "Diliň kadalary",
+    "ru": "Нормы русского языка"
+   },
+   {
+    "tk": "Orfoepiýa",
+    "ru": "Орфоэпия"
+   },
+   {
+    "tk": "Resmi-iş stili",
+    "ru": "Официально-деловой стиль"
+   },
+   {
+    "tk": "Argumentasiýa",
+    "ru": "Аргументация"
+   },
+   {
+    "tk": "Teksti derňemek",
+    "ru": "Анализ текста"
+   },
+   {
+    "tk": "Gaýtalamak",
+    "ru": "Повторение"
+   }
+  ],
+  "english": [
+   {
+    "tk": "Academic writing",
+    "ru": "Академическое письмо"
+   },
+   {
+    "tk": "Citing sources",
+    "ru": "Ссылки на источники"
+   },
+   {
+    "tk": "Debate language",
+    "ru": "Язык дебатов"
+   },
+   {
+    "tk": "Literature in English",
+    "ru": "Литература на английском"
+   },
+   {
+    "tk": "Business English",
+    "ru": "Деловой английский"
+   },
+   {
+    "tk": "Exam strategies",
+    "ru": "Стратегии экзамена"
+   }
+  ],
+  "informatics": [
+   {
+    "tk": "Programmirleme taslamasy",
+    "ru": "Программный проект"
+   },
+   {
+    "tk": "Kiberhowpsuzlyk: çuňňur",
+    "ru": "Кибербезопасность: углублённо"
+   },
+   {
+    "tk": "Blokçeýn",
+    "ru": "Блокчейн"
+   },
+   {
+    "tk": "Neýron torlar",
+    "ru": "Нейронные сети"
+   },
+   {
+    "tk": "IT hünärleri",
+    "ru": "IT-профессии"
+   },
+   {
+    "tk": "Gaýtalamak: informatika",
+    "ru": "Повторение: информатика"
+   }
+  ]
+ }
+}

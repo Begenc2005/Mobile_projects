@@ -1,0 +1,341 @@
+{
+  "grade": 3,
+  "subject": "reading",
+  "lessons": [
+    {
+      "id": "reading-3-fairy-tale-and-story",
+      "grade": 3,
+      "topic": 0,
+      "title": {"tk": "Erteki we hekaýa", "ru": "Сказка и рассказ"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Erteki we hekaýa — ikisi hem kiçi göwrümli eserler, ýöne olar tapawutlanýar.\n• Erteki — täsin wakalar bolýar: haýwanlar gürleýär, jadyly zatlar, döwler, perizatlar bar. Köplenç «Bir bar eken, bir ýok eken…» diýip başlanýar. Ýagşylyk ýamanlygy ýeňýär.\n• Hekaýa — durmuşda hakykatdan bolup biljek wakalar barada gürrüň berýär. Gahrymanlary adaty adamlar: okuwçy, ata, lukman.",
+          "ru": "Сказка и рассказ — небольшие произведения, но они отличаются.\n• Сказка — в ней происходят чудеса: животные говорят, есть волшебные предметы, великаны, феи. Часто начинается словами «Жили-были…». Добро побеждает зло.\n• Рассказ — говорит о событиях, которые могли бы случиться в жизни на самом деле. Его герои — обычные люди: школьник, дедушка, врач."
+        }},
+        {"type": "example", "text": {
+          "tk": "Iki parça deňeşdireliň:\n1) «Bir bar eken, bir ýok eken, bir tilki gürläp, guşlary aldapdyr.» — Tilki gürleýär, bu bolup bilmeýär. Bu erteki.\n2) «Kerim mekdepden gaýdyp, köçede ýitirilen gapjyk tapdy we ony polisiýa eltdi.» — Bu hakykatda bolup biler. Bu hekaýa.",
+          "ru": "Сравним два отрывка:\n1) «Жила-была лиса, она умела говорить и обманывала птиц.» — Лиса говорит, такого не бывает. Это сказка.\n2) «Керим возвращался из школы, нашёл на улице потерянный кошелёк и отнёс его в полицию.» — Это может случиться на самом деле. Это рассказ."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Haýsy eser erteki bolup biler?", "ru": "Какое произведение может быть сказкой?"},
+          "options": [
+            {"tk": "Gyz ejesine nahar bişirmäge kömek edýär.", "ru": "Девочка помогает маме готовить обед."},
+            {"tk": "Jadyly halyçany münen oglan asmanda uçýar.", "ru": "Мальчик летит по небу на волшебном ковре."},
+            {"tk": "Okuwçylar muzeýe gezelenje gidýärler.", "ru": "Ученики идут на экскурсию в музей."}
+          ],
+          "answer": 1,
+          "hint": {"tk": "Haýsy waka durmuşda bolup bilmeýär?", "ru": "Какое событие не может случиться в жизни?"},
+          "explain": {"tk": "Jadyly uçýan haly — täsin zat. Bu ertekä mahsus. Beýleki ikisi hakykatda bolup biler.", "ru": "Волшебный летающий ковёр — чудо. Это признак сказки. Остальные два события могут быть на самом деле."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Hekaýada wakalar durmuşda bolup biljek ýaly beýan edilýär.", "ru": "В рассказе события описаны так, как они могли бы случиться в жизни."},
+          "answer": true,
+          "hint": {"tk": "Hekaýanyň gahrymanlary kimler?", "ru": "Кто герои рассказа?"},
+          "explain": {"tk": "Dogry. Hekaýa hakyky durmuş bilen baglanyşykly, onda jady ýok.", "ru": "Верно. Рассказ связан с реальной жизнью, в нём нет волшебства."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Ertekiler köplenç nähili tamamlanýar?", "ru": "Чем обычно заканчиваются сказки?"},
+          "options": [
+            {"tk": "Ýamanlyk ýeňýär", "ru": "Побеждает зло"},
+            {"tk": "Hiç zat çözülmeýär", "ru": "Ничего не решается"},
+            {"tk": "Ýagşylyk ýeňýär", "ru": "Побеждает добро"}
+          ],
+          "answer": 2,
+          "hint": {"tk": "Ertekiler bize näme öwredýär?", "ru": "Чему нас учат сказки?"},
+          "explain": {"tk": "Ertekilerde adatça ýagşy, batyr we akylly gahryman ýeňýär.", "ru": "В сказках обычно побеждает добрый, смелый и умный герой."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Gürleýän haýwanlar diňe hekaýalarda bolýar.", "ru": "Говорящие животные бывают только в рассказах."},
+          "answer": false,
+          "hint": {"tk": "Haýwanlar hakykatda gürläp bilýärmi?", "ru": "Могут ли животные говорить на самом деле?"},
+          "explain": {"tk": "Ýalňyş. Gürleýän haýwanlar — ertekiniň alamaty.", "ru": "Неверно. Говорящие животные — признак сказки."}
+        },
+        {"type": "world", "text": {
+          "tk": "Daniýaly ýazyjy Hans Kristian Andersen 150-den gowrak erteki ýazypdyr, şol sanda «Çirkin ördejik» we «Gar şasy». Onuň doglan güni — 2-nji aprel her ýyl Halkara çagalar kitaby güni hökmünde bellenilýär.",
+          "ru": "Датский писатель Ханс Кристиан Андерсен написал более 150 сказок, среди них «Гадкий утёнок» и «Снежная королева». Его день рождения, 2 апреля, ежегодно отмечается как Международный день детской книги."
+        }}
+      ]
+    },
+    {
+      "id": "reading-3-characters",
+      "grade": 3,
+      "topic": 1,
+      "title": {"tk": "Gahrymanlar we häsiýetler", "ru": "Герои и их характеры"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Gahryman — eserde hereket edýän adam ýa-da haýwan.\nGahrymanyň häsiýetini nädip bilmeli?\n• Onuň näme edýändigine seret.\n• Onuň näme diýýändigini diňle.\n• Beýlekileriň oňa nähili garaýandygyna üns ber.\nHäsiýetler: mähirli, batyr, akylly, zähmetsöýer, gorkak, açgöz, ýalançy, hilegär.",
+          "ru": "Герой (персонаж) — человек или животное, которое действует в произведении.\nКак узнать характер героя?\n• Посмотри, что он делает.\n• Послушай, что он говорит.\n• Обрати внимание, как к нему относятся другие.\nЧерты характера: добрый, смелый, умный, трудолюбивый, трусливый, жадный, лживый, хитрый."
+        }},
+        {"type": "example", "text": {
+          "tk": "Gysga hekaýa: «Bir güjüjek derýa düşdi. Hemme çagalar gorkup durdy. Leýli bolsa uzyn şaha tapyp, güjüjegi kenara çykardy.»\n1) Leýli näme etdi? — Güjüjegi halas etdi.\n2) Beýlekiler gorkanda ol näme etdi? — Pikirlenip, çäre tapdy.\n3) Netije: Leýli — batyr, mähirli we tapyjy.",
+          "ru": "Короткий рассказ: «Щенок упал в речку. Все дети испуганно стояли. А Лейли нашла длинную ветку и вытащила щенка на берег.»\n1) Что сделала Лейли? — Спасла щенка.\n2) Что она сделала, когда другие боялись? — Подумала и нашла выход.\n3) Вывод: Лейли — смелая, добрая и находчивая."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Gahryman dostuna öz nahary bilen paýlaşdy. Ol nähili?", "ru": "Герой поделился своей едой с другом. Какой он?"},
+          "options": [
+            {"tk": "Sahy", "ru": "Щедрый"},
+            {"tk": "Açgöz", "ru": "Жадный"},
+            {"tk": "Gorkak", "ru": "Трусливый"}
+          ],
+          "answer": 0,
+          "hint": {"tk": "Paýlaşýan adam barada näme diýýäris?", "ru": "Как мы называем того, кто делится?"},
+          "explain": {"tk": "Bar zadyny başgalar bilen paýlaşýan adam — sahy.", "ru": "Тот, кто делится тем, что у него есть, — щедрый."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Gahrymanyň häsiýetini onuň işlerinden bilip bolýar.", "ru": "Характер героя можно узнать по его поступкам."},
+          "answer": true,
+          "hint": {"tk": "Leýli barada nädip bildik?", "ru": "Как мы узнали о Лейли?"},
+          "explain": {"tk": "Dogry. Gahrymanyň işleri onuň häsiýetini iň gowy görkezýär.", "ru": "Верно. Поступки лучше всего показывают характер героя."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Ertekilerde tilki köplenç nähili häsiýetli bolýar?", "ru": "Какой характер обычно у лисы в сказках?"},
+          "options": [
+            {"tk": "Sada we ýönekeý", "ru": "Простодушная"},
+            {"tk": "Gorkak", "ru": "Трусливая"},
+            {"tk": "Hilegär", "ru": "Хитрая"}
+          ],
+          "answer": 2,
+          "hint": {"tk": "Tilki ertekilerde başgalary aldaýar.", "ru": "В сказках лиса обманывает других."},
+          "explain": {"tk": "Köp halklaryň ertekilerinde tilki — hilegär gahryman.", "ru": "В сказках многих народов лиса — хитрый персонаж."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy söz gowy häsiýeti aňladýar?", "ru": "Какое слово обозначает хорошую черту характера?"},
+          "options": [
+            {"tk": "Ýalançy", "ru": "Лживый"},
+            {"tk": "Zähmetsöýer", "ru": "Трудолюбивый"},
+            {"tk": "Ýalta", "ru": "Ленивый"}
+          ],
+          "answer": 1,
+          "hint": {"tk": "Haýsy häsiýetli bolmak isleýärsiň?", "ru": "Каким ты хотел бы быть?"},
+          "explain": {"tk": "Zähmetsöýer — işi gowy görýän adam. Bu gowy häsiýet.", "ru": "Трудолюбивый — тот, кто любит трудиться. Это хорошая черта."}
+        },
+        {"type": "world", "text": {
+          "tk": "Italiýaly ýazyjy Karlo Kollodiniň «Pinokkio» atly kitabynda agaç oglanjygyň ýalan sözlände burny uzalýar. Bu kitap 1883-nji ýylda çykypdyr we dünýäniň köp dillerine terjime edilipdir.",
+          "ru": "В книге итальянского писателя Карло Коллоди «Пиноккио» у деревянного мальчика вырастает нос, когда он лжёт. Книга вышла в 1883 году и переведена на множество языков мира."
+        }}
+      ]
+    },
+    {
+      "id": "reading-3-world-folk-tales",
+      "grade": 3,
+      "topic": 2,
+      "title": {"tk": "Dünýä halklarynyň ertekileri", "ru": "Сказки народов мира"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Halk ertekisi — awtory belli däl, halk tarapyndan döredilen we agyzdan-agza geçen erteki.\nHer halkyň öz ertekileri bar, ýöne olar köplenç meňzeş:\n• Ýagşylyk we ýamanlyk göreşýär.\n• Kiçi, ejiz gahryman akyly bilen ýeňýär.\n• Üç gezek gaýtalanýan synaglar bolýar.\nMeşhur ýygyndylar:\n• «Müň bir gije» — arap we pars ertekileri.\n• Grimm doganlary nemes ertekilerini ýygnapdyrlar.\n• Türkmen halkynda Ependi hakdaky gülkünç gürrüňler meşhur.",
+          "ru": "Народная сказка — сказка без известного автора, созданная народом и передававшаяся из уст в уста.\nУ каждого народа свои сказки, но они часто похожи:\n• Борются добро и зло.\n• Маленький, слабый герой побеждает благодаря уму.\n• Испытания повторяются три раза.\nИзвестные сборники:\n• «Тысяча и одна ночь» — арабские и персидские сказки.\n• Братья Гримм собрали немецкие сказки.\n• У туркмен популярны смешные истории об Эпенди (Ходже Насреддине)."
+        }},
+        {"type": "example", "text": {
+          "tk": "Deňeşdireliň: «Zoluşka» (Fransiýa, Germaniýa) we hytaý ertekisi «Ýe Sýan».\n1) Iki ertekide hem gyzjagaz öweý ejesinden ezýet çekýär.\n2) Iki ertekide hem oňa jadyly güýç kömek edýär.\n3) Iki ertekide hem ýitirilen aýakgap arkaly ony tapýarlar.\nNetije: dürli halklar biri-birine meňzeş ertekiler döredipdir.",
+          "ru": "Сравним «Золушку» (Франция, Германия) и китайскую сказку «Е Сянь».\n1) В обеих сказках девочка страдает от мачехи.\n2) В обеих ей помогает волшебная сила.\n3) В обеих её находят по потерянной туфельке.\nВывод: разные народы создали похожие сказки."
+        }},
+        {"type": "truefalse",
+          "q": {"tk": "Halk ertekisiniň awtory belli.", "ru": "У народной сказки есть известный автор."},
+          "answer": false,
+          "hint": {"tk": "Halk ertekisini kim döredipdir?", "ru": "Кто создал народную сказку?"},
+          "explain": {"tk": "Ýalňyş. Halk ertekisini halk döredipdir, ol agyzdan-agza geçipdir, awtory belli däl.", "ru": "Неверно. Народную сказку создал народ, она передавалась устно, автор неизвестен."}
+        },
+        {"type": "choice",
+          "q": {"tk": "«Müň bir gije» haýsy halklaryň ertekileri?", "ru": "Сказки каких народов собраны в «Тысяче и одной ночи»?"},
+          "options": [
+            {"tk": "Nemes we fransuz", "ru": "Немецкие и французские"},
+            {"tk": "Arap we pars", "ru": "Арабские и персидские"},
+            {"tk": "Ýapon we hytaý", "ru": "Японские и китайские"}
+          ],
+          "answer": 1,
+          "hint": {"tk": "Aladdin we Sindbad bu ýygyndydan.", "ru": "Аладдин и Синдбад — из этого сборника."},
+          "explain": {"tk": "«Müň bir gije» — Gündogaryň, esasan arap we pars ertekileriniň ýygyndysy.", "ru": "«Тысяча и одна ночь» — сборник восточных, в основном арабских и персидских, сказок."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Grimm doganlary haýsy ýurduň ertekilerini ýygnapdyrlar?", "ru": "Сказки какой страны собрали братья Гримм?"},
+          "options": [
+            {"tk": "Italiýanyň", "ru": "Италии"},
+            {"tk": "Hindistanyň", "ru": "Индии"},
+            {"tk": "Germaniýanyň", "ru": "Германии"}
+          ],
+          "answer": 2,
+          "hint": {"tk": "Olar nemesler.", "ru": "Они были немцами."},
+          "explain": {"tk": "Ýakob we Wilgelm Grimm nemes halk ertekilerini ýygnapdyrlar.", "ru": "Якоб и Вильгельм Гримм собирали немецкие народные сказки."}
+        },
+        {"type": "input",
+          "q": {"tk": "Ertekilerde synaglar köplenç näçe gezek gaýtalanýar? San bilen ýaz.", "ru": "Сколько раз обычно повторяются испытания в сказках? Напиши цифрой."},
+          "answer": "3",
+          "hint": {"tk": "Üç dogan, üç arzuw, üç synag…", "ru": "Три брата, три желания, три испытания…"},
+          "explain": {"tk": "Köp ertekide 3 san ähmiýetli: üç dogan, üç synag, üç arzuw.", "ru": "Во многих сказках важно число 3: три брата, три испытания, три желания."}
+        },
+        {"type": "world", "text": {
+          "tk": "«Zoluşka» ertekisiniň iň gadymy ýazga geçirilen görnüşleriniň biri — hytaý ertekisi «Ýe Sýan». Ol takmynan 1100 ýyldan gowrak öň, IX asyrda ýazylypdyr.",
+          "ru": "Одна из самых древних записанных версий истории о Золушке — китайская сказка «Е Сянь». Её записали в IX веке, более 1100 лет назад."
+        }}
+      ]
+    },
+    {
+      "id": "reading-3-fable",
+      "grade": 3,
+      "topic": 3,
+      "title": {"tk": "Basnýa", "ru": "Басня"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Basnýa — kiçijik, öwüt beriji eser.\n• Gahrymanlary köplenç haýwanlar, olar adamlaryň häsiýetlerini görkezýär: tilki — hilegärlik, möjek — zalymlyk, eşek — samsyklyk.\n• Basnýanyň ahyrynda ýa-da başynda öwüt — ahlak sapagy bolýar.\n• Basnýa adamlaryň kemçiliklerini gülki bilen görkezýär.\nMeşhur basnýaçylar: Ezop (Gadymy Gresiýa), Žan de La Fonten (Fransiýa), Iwan Krylow (Russiýa).",
+          "ru": "Басня — небольшое поучительное произведение.\n• Её герои чаще всего животные, они изображают черты людей: лиса — хитрость, волк — жестокость, осёл — глупость.\n• В конце или в начале басни есть мораль — поучение.\n• Басня высмеивает недостатки людей.\nИзвестные баснописцы: Эзоп (Древняя Греция), Жан де Лафонтен (Франция), Иван Крылов (Россия)."
+        }},
+        {"type": "example", "text": {
+          "tk": "Ezopyň «Tilki we üzüm» basnýasy (gysgaça):\nAç tilki ýokarda asylyp duran üzümi görýär. Ol bökýär, ýöne ýetip bilmeýär. Soňra: «Ol üzüm heniz bişmändir, turşy» diýip gidýär.\nÖwüt: käbir adamlar bir zady alyp bilmeseler, şol zady erbet diýip görkezýärler.",
+          "ru": "Басня Эзопа «Лиса и виноград» (кратко):\nГолодная лиса видит высоко висящий виноград. Она прыгает, но не может достать. Тогда говорит: «Он ещё зелёный, кислый» — и уходит.\nМораль: некоторые люди, не сумев что-то получить, начинают говорить, что это плохое."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Basnýany beýleki eserlerden näme tapawutlandyrýar?", "ru": "Что отличает басню от других произведений?"},
+          "options": [
+            {"tk": "Onuň öwüdi bar", "ru": "В ней есть мораль"},
+            {"tk": "Ol örän uzyn", "ru": "Она очень длинная"},
+            {"tk": "Onda haýwan ýok", "ru": "В ней нет животных"}
+          ],
+          "answer": 0,
+          "hint": {"tk": "Basnýa bize näme berýär?", "ru": "Что нам даёт басня?"},
+          "explain": {"tk": "Basnýanyň esasy alamaty — öwüt (ahlak sapagy). Ol gysga bolýar we köplenç haýwanlar barada.", "ru": "Главный признак басни — мораль. Басня короткая и часто про животных."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Ezop haýsy ýurtda ýaşapdyr?", "ru": "В какой стране жил Эзоп?"},
+          "options": [
+            {"tk": "Fransiýada", "ru": "Во Франции"},
+            {"tk": "Gadymy Gresiýada", "ru": "В Древней Греции"},
+            {"tk": "Russiýada", "ru": "В России"}
+          ],
+          "answer": 1,
+          "hint": {"tk": "Ol iň gadymy basnýaçy.", "ru": "Он самый древний баснописец."},
+          "explain": {"tk": "Ezop 2500 ýyl çemesi öň Gadymy Gresiýada ýaşapdyr. La Fonten — fransuz, Krylow — rus basnýaçysy.", "ru": "Эзоп жил в Древней Греции около 2500 лет назад. Лафонтен — французский, Крылов — русский баснописец."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Basnýada haýwanlar adamlaryň häsiýetlerini görkezýär.", "ru": "В басне животные изображают черты людей."},
+          "answer": true,
+          "hint": {"tk": "Tilki we üzüm basnýasyny ýatla.", "ru": "Вспомни басню про лису и виноград."},
+          "explain": {"tk": "Dogry. Mysal üçin, tilki hilegär ýa-da öz şowsuzlygyny boýun almaýan adamy görkezýär.", "ru": "Верно. Например, лиса изображает хитрого человека или того, кто не признаёт свою неудачу."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Iwan Krylow — iňlis basnýaçysy.", "ru": "Иван Крылов — английский баснописец."},
+          "answer": false,
+          "hint": {"tk": "Onuň adyna seret.", "ru": "Посмотри на его имя."},
+          "explain": {"tk": "Ýalňyş. Iwan Krylow — rus basnýaçysy, ol 200-den gowrak basnýa ýazypdyr.", "ru": "Неверно. Иван Крылов — русский баснописец, он написал более 200 басен."}
+        },
+        {"type": "world", "text": {
+          "tk": "Ezopyň «Pyşdyl we towşan» basnýasy dünýäde iň meşhur basnýalaryň biri. Haýal, ýöne erjel pyşdyl tekepbir towşany ýaryşda ýeňýär. Bu basnýa 2500 ýyl bäri dürli dillerde gürrüň berilýär.",
+          "ru": "Басня Эзопа «Черепаха и заяц» — одна из самых известных в мире. Медленная, но упорная черепаха обгоняет в состязании хвастливого зайца. Эту басню пересказывают на разных языках уже около 2500 лет."
+        }}
+      ]
+    },
+    {
+      "id": "reading-3-poem-and-rhyme",
+      "grade": 3,
+      "topic": 4,
+      "title": {"tk": "Goşgy we kapiýa", "ru": "Стих и рифма"},
+      "minutes": 7,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Goşgy — setirlere bölünip ýazylan, owazly eser.\n• Setir — goşgynyň bir hatary.\n• Bent — birnäçe setirden ybarat bölek.\n• Kapiýa — setirleriň ahyrynda meňzeş owaz.\nKapiýaly sözler: dag — bag, gül — kül, alma — galma, ýagyş — alkyş.\nKapiýa goşgyny owazly edýär we ýatlamagy aňsatlaşdyrýar.",
+          "ru": "Стихотворение — произведение, записанное строками, звучное и ритмичное.\n• Строка — один ряд стихотворения.\n• Строфа — часть из нескольких строк.\n• Рифма — созвучие на концах строк.\nРифмующиеся слова: кот — рот, дом — гном, лес — чудес; по-туркменски: dag — bag, gül — kül.\nРифма делает стих звучным и помогает его запомнить."
+        }},
+        {"type": "example", "text": {
+          "tk": "Öz düzen iki setirimize seredeliň:\n«Säher turdum, çykdym baga,\nGün dogupdyr belent daga.»\n1) Setirleriň soňky sözleri: baga — daga.\n2) Olar «-aga» bilen gutarýar, meňzeş eşidilýär.\n3) Diýmek, bu setirler kapiýalaşýar.",
+          "ru": "Посмотрим на две строки, которые мы сочинили сами:\n«Утром рано вышел в сад,\nКаждый листик солнцу рад.»\n1) Последние слова строк: сад — рад.\n2) Они оканчиваются на «-ад» и звучат похоже.\n3) Значит, эти строки рифмуются."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Haýsy sözler kapiýalaşýar?", "ru": "Какие слова рифмуются?"},
+          "options": [
+            {"tk": "gül — kül", "ru": "кот — рот"},
+            {"tk": "gül — dag", "ru": "кот — лес"},
+            {"tk": "kitap — derýa", "ru": "книга — река"}
+          ],
+          "answer": 0,
+          "hint": {"tk": "Sözleriň ahyry meňzeş eşidilmeli.", "ru": "Концы слов должны звучать похоже."},
+          "explain": {"tk": "«gül» we «kül» -ül bilen gutarýar, olar kapiýalaşýar.", "ru": "«кот» и «рот» оканчиваются на «-от», они рифмуются."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Bent — goşgynyň bir setiri.", "ru": "Строфа — это одна строка стихотворения."},
+          "answer": false,
+          "hint": {"tk": "Bent birnäçe setirden durýar.", "ru": "Строфа состоит из нескольких строк."},
+          "explain": {"tk": "Ýalňyş. Bir hatar — setir, birnäçe setirden ybarat bölek — bent.", "ru": "Неверно. Один ряд — это строка, а часть из нескольких строк — строфа."}
+        },
+        {"type": "choice",
+          "q": {"tk": "«Dag» sözüne haýsy söz kapiýa bolýar?", "ru": "Какое слово рифмуется со словом «дом»?"},
+          "options": [
+            {"tk": "suw", "ru": "сад"},
+            {"tk": "gün", "ru": "лес"},
+            {"tk": "bag", "ru": "гном"}
+          ],
+          "answer": 2,
+          "hint": {"tk": "Ahyry «-ag» bolan sözi tap.", "ru": "Найди слово, которое оканчивается на «-ом»."},
+          "explain": {"tk": "dag — bag: ikisi hem «-ag» bilen gutarýar.", "ru": "дом — гном: оба слова оканчиваются на «-ом»."}
+        },
+        {"type": "input",
+          "q": {"tk": "Bentde 4 setir bar. 3 bentli goşgyda näçe setir bar?", "ru": "В строфе 4 строки. Сколько строк в стихотворении из 3 строф?"},
+          "answer": "12",
+          "hint": {"tk": "4 setiri 3 gezek al.", "ru": "Возьми 4 строки 3 раза."},
+          "explain": {"tk": "4 + 4 + 4 = 12 setir.", "ru": "4 + 4 + 4 = 12 строк."}
+        },
+        {"type": "world", "text": {
+          "tk": "XVIII asyrda ýaşan türkmen şahyry Magtymguly Pyragy türkmen edebiýatynyň iň beýik şahyrlarynyň biri hasaplanýar. Onuň goşgulary dünýäniň köp dillerine terjime edildi we halk arasynda ýatdan aýdylýar.",
+          "ru": "Туркменский поэт XVIII века Махтумкули Фраги считается одним из величайших поэтов туркменской литературы. Его стихи переведены на многие языки мира, и люди знают их наизусть."
+        }}
+      ]
+    },
+    {
+      "id": "reading-3-retelling",
+      "grade": 3,
+      "topic": 5,
+      "title": {"tk": "Okalany gürrüň bermek", "ru": "Пересказ прочитанного"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Gürrüň bermek — okan zadyňy öz sözleriň bilen aýdyp bermek.\nGowy gürrüň bermegiň meýilnamasy:\n1) Kim? — esasy gahrymanlar.\n2) Nirede we haçan? — waka bolýan ýer.\n3) Başda näme boldy?\n4) Soň näme boldy? — esasy waka.\n5) Ahyrynda näme boldy?\nWakalaryň yzygiderliligini bozma we diňe esasy zatlary aýt.",
+          "ru": "Пересказ — это рассказ о прочитанном своими словами.\nПлан хорошего пересказа:\n1) Кто? — главные герои.\n2) Где и когда? — место действия.\n3) Что было в начале?\n4) Что случилось потом? — главное событие.\n5) Чем всё закончилось?\nНе нарушай порядок событий и говори только о главном."
+        }},
+        {"type": "example", "text": {
+          "tk": "Tekst: «Güýzde Aýdyň atasy bilen bagda alma ýygnaýardy. Birden güýçli ýel turdy we sebet agdaryldy. Almalar ýere dökülip, ýapgyda togalandy. Aýdyň ylgap, olaryň hemmesini yzyna ýygnady. Atasy ony öwdi.»\nGürrüň bermek: Aýdyň atasy bilen bagda alma ýygnady. Ýel sebedi agdaryp, almalar togalandy. Aýdyň olary ýygnady we atasy ony öwdi.\nGördüňmi? Kim, nirede, näme boldy we nähili gutardy — hemmesi bar, ýöne has gysga.",
+          "ru": "Текст: «Осенью Айдын с дедушкой собирал в саду яблоки. Вдруг поднялся сильный ветер, и корзина опрокинулась. Яблоки рассыпались и покатились по склону. Айдын побежал и собрал их все обратно. Дедушка его похвалил.»\nПересказ: Айдын с дедушкой собирал яблоки в саду. Ветер опрокинул корзину, яблоки покатились. Айдын их собрал, и дедушка его похвалил.\nВидишь? Есть всё: кто, где, что случилось и чем закончилось, — но короче."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Gürrüň berenimizde näme etmeli?", "ru": "Что нужно делать при пересказе?"},
+          "options": [
+            {"tk": "Teksti söz-be-söz ýatdan aýtmaly", "ru": "Повторить текст слово в слово"},
+            {"tk": "Wakalary islän tertibiňde aýtmaly", "ru": "Рассказывать события в любом порядке"},
+            {"tk": "Esasy wakalary öz sözleriň bilen tertipli aýtmaly", "ru": "Рассказать главные события своими словами по порядку"}
+          ],
+          "answer": 2,
+          "hint": {"tk": "Meýilnamany ýatla: kim, nirede, başda, soň, ahyrynda.", "ru": "Вспомни план: кто, где, в начале, потом, в конце."},
+          "explain": {"tk": "Gürrüň bermek — esasy wakalary öz sözleriň bilen, yzygiderli aýtmak.", "ru": "Пересказ — это главные события своими словами и по порядку."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Aýdyň hakdaky tekstde iň soňky waka haýsy?", "ru": "Какое событие последнее в тексте про Айдына?"},
+          "options": [
+            {"tk": "Ýel turdy", "ru": "Поднялся ветер"},
+            {"tk": "Atasy Aýdyňy öwdi", "ru": "Дедушка похвалил Айдына"},
+            {"tk": "Almalar togalandy", "ru": "Яблоки покатились"}
+          ],
+          "answer": 1,
+          "hint": {"tk": "Tekst nähili gutarýar?", "ru": "Чем заканчивается текст?"},
+          "explain": {"tk": "Tertibi: ýel turdy → almalar togalandy → Aýdyň ýygnady → atasy öwdi.", "ru": "Порядок: поднялся ветер → яблоки покатились → Айдын собрал → дедушка похвалил."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Gürrüň bermegi esasy gahrymanlary atlandyrmak bilen başlamak bolýar.", "ru": "Пересказ можно начать с того, чтобы назвать главных героев."},
+          "answer": true,
+          "hint": {"tk": "Meýilnamanyň birinji soragy haýsy?", "ru": "Какой первый вопрос в плане?"},
+          "explain": {"tk": "Dogry. Ilki kim barada gürrüň edýändigimizi aýdýarys.", "ru": "Верно. Сначала говорим, о ком идёт речь."}
+        },
+        {"type": "input",
+          "q": {"tk": "Gürrüň bermegiň meýilnamasynda näçe sorag bar? San bilen ýaz.", "ru": "Сколько пунктов в плане пересказа? Напиши цифрой."},
+          "answer": "5",
+          "hint": {"tk": "Kim, nirede, başda, soň, ahyrynda — sana.", "ru": "Кто, где, в начале, потом, в конце — посчитай."},
+          "explain": {"tk": "5 sorag: kim? nirede? başda näme? soň näme? ahyrynda näme?", "ru": "5 пунктов: кто? где? что в начале? что потом? чем закончилось?"}
+        },
+        {"type": "world", "text": {
+          "tk": "Kitaplar ýazylmazdan ozal ertekiler we dessanlar diňe agyzdan-agza gürrüň berlip saklanypdyr. Türkmenlerde dessanlary ýatdan aýdyp beren bagşylar bolupdyr. Şeýle ussatlar uly «Görogly» dessanyny hem ýatda saklapdyrlar.",
+          "ru": "До появления книг сказки и эпосы сохранялись только благодаря пересказу из уст в уста. У туркмен были сказители-бахши, которые исполняли дастаны по памяти. Такие мастера помнили даже огромный эпос «Гёроглы»."
+        }}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,288 @@
+{
+  "grade": 8,
+  "subject": "history",
+  "lessons": [
+    {
+      "id": "history-8-renaissance",
+      "grade": 8,
+      "topic": 0,
+      "title": {"tk": "Galkynyş döwri (Renessans)", "ru": "Эпоха Возрождения (Ренессанс)"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Galkynyş döwri (Renessans) — XIV–XVI asyrlarda Ýewropanyň medeniýetinde we sungatynda uly ösüş döwri. Ol Italiýada, esasan Florensiýa şäherinde başlandy.\n\nEsasy aýratynlyklary:\n• Gadymy Gresiýanyň we Rimiň mirasyna gyzyklanmanyň «galkynmagy».\n• Gumanizm — adama, onuň mümkinçiliklerine we bilimine uly üns.\n• Sungatda perspektiwa, anatomiýa, tebigy keşpler.\n\nMeşhur şahsyýetler:\n• Leonardo da Winçi — suratkeş, inžener, alym («Mona Liza»).\n• Mikelanjelo — heýkeltaraş we suratkeş (Sikstin kapellasynyň potology).\n• Rafael — suratkeş.\n• Iogann Gutenberg — XV asyryň ortalarynda Ýewropada hereketli harplar bilen kitap çap etmegi ornaşdyrdy.",
+          "ru": "Эпоха Возрождения (Ренессанс) — период расцвета культуры и искусства Европы в XIV–XVI веках. Она началась в Италии, прежде всего во Флоренции.\n\nГлавные черты:\n• «Возрождение» интереса к наследию Древней Греции и Рима.\n• Гуманизм — внимание к человеку, его возможностям и знаниям.\n• В искусстве — перспектива, анатомия, естественные образы.\n\nИзвестные личности:\n• Леонардо да Винчи — художник, инженер, учёный («Мона Лиза»).\n• Микеланджело — скульптор и живописец (потолок Сикстинской капеллы).\n• Рафаэль — живописец.\n• Иоганн Гутенберг — в середине XV века внедрил в Европе книгопечатание подвижными литерами."
+        }},
+        {"type": "example", "text": {
+          "tk": "Gutenbergiň çap stanogy näme üçin möhüm boldy?\n1) Öň kitaplar elde göçürilýärdi — bir kitap aýlar alýardy we gymmatdy.\n2) Hereketli harplar bilen bir sahypanyň köp nusgasyny çalt çap edip bolýardy.\n3) Kitaplar arzanlady we köpeldi → sowatly adamlar köpeldi.\n4) Täze pikirler (ylmy, dini, syýasy) Ýewropa boýunça çalt ýaýrady.\nNetije: çap etmek Galkynyşyň we soňky ylmy rewolýusiýanyň pikirleriniň ýaýramagyna kömek etdi.",
+          "ru": "Почему печатный станок Гутенберга был так важен?\n1) Раньше книги переписывали вручную — одна книга занимала месяцы и стоила дорого.\n2) С подвижными литерами можно было быстро печатать много копий страницы.\n3) Книги подешевели и их стало больше → выросло число грамотных людей.\n4) Новые идеи (научные, религиозные, политические) быстро распространились по Европе.\nИтог: книгопечатание помогло распространить идеи Возрождения и позднее научной революции."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Galkynyş döwri haýsy ýurtda başlandy?", "ru": "В какой стране началась эпоха Возрождения?"},
+          "options": [{"tk": "Angliýa", "ru": "Англия"}, {"tk": "Italiýa", "ru": "Италия"}, {"tk": "Ispaniýa", "ru": "Испания"}],
+          "answer": 1,
+          "hint": {"tk": "Florensiýa şäherini ýatla.", "ru": "Вспомни город Флоренцию."},
+          "explain": {"tk": "Renessans Italiýanyň baý söwda şäherlerinde, ilki bilen Florensiýada başlandy.", "ru": "Ренессанс начался в богатых торговых городах Италии, прежде всего во Флоренции."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«Mona Liza» suratyny Mikelanjelo çekipdir.", "ru": "Картину «Мона Лиза» написал Микеланджело."},
+          "answer": false,
+          "hint": {"tk": "Bu suratkeş hem inžener, hem alym bolupdyr.", "ru": "Этот художник был также инженером и учёным."},
+          "explain": {"tk": "Ýalňyş. «Mona Lizany» Leonardo da Winçi çekipdir.", "ru": "Неверно. «Мону Лизу» написал Леонардо да Винчи."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Gumanizm näme?", "ru": "Что такое гуманизм?"},
+          "options": [{"tk": "Diňe dini kitaplary öwrenmek", "ru": "Изучение только религиозных книг"}, {"tk": "Täze ýerleri basyp almak", "ru": "Завоевание новых земель"}, {"tk": "Adama we onuň mümkinçiliklerine üns berýän garaýyş", "ru": "Взгляд, ставящий в центр человека и его возможности"}],
+          "answer": 2,
+          "hint": {"tk": "Söz latynça «humanus» — «adama degişli» sözünden gelýär.", "ru": "Слово происходит от латинского «humanus» — «человеческий»."},
+          "explain": {"tk": "Gumanistler adamyň aňyna, bilimine we döredijiligine ynanýardylar.", "ru": "Гуманисты верили в разум, знания и творческие силы человека."}
+        },
+        {"type": "input",
+          "q": {"tk": "Renessans haýsy asyrlary öz içine alýar? Başlanýan asyryny rim sanlary bilen ýaz.", "ru": "Какие века охватывает Ренессанс? Напиши век начала римскими цифрами."},
+          "answer": "XIV|14",
+          "hint": {"tk": "XIV–XVI asyrlar.", "ru": "XIV–XVI века."},
+          "explain": {"tk": "Renessans XIV asyrda Italiýada başlap, XVI asyrda Ýewropanyň köp ýerine ýaýrady.", "ru": "Ренессанс начался в XIV веке в Италии и к XVI веку распространился по большей части Европы."}
+        },
+        {"type": "world", "text": {
+          "tk": "Leonardo da Winçiniň ýazgy depderlerinde uçýan maşynlaryň, köprüleriň we adam bedeniniň anatomiýasynyň müňlerçe çyzgysy saklanyp galypdyr. Ol ýazgylaryny köplenç aýna şekilli — sagdan çepe ýazypdyr.",
+          "ru": "В записных книжках Леонардо да Винчи сохранились тысячи рисунков летательных машин, мостов и анатомии человека. Записи он часто вёл зеркальным письмом — справа налево."
+        }}
+      ]
+    },
+    {
+      "id": "history-8-scientific-revolution",
+      "grade": 8,
+      "topic": 1,
+      "title": {"tk": "Ylmy rewolýusiýa (XVI–XVII asyrlar)", "ru": "Научная революция (XVI–XVII века)"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Ylmy rewolýusiýa — XVI–XVII asyrlarda tebigat baradaky garaýyşlaryň düýpli üýtgemegi. Alymlar köne kitaplara däl-de, synaga, ölçege we matematika daýanyp başladylar.\n\nEsasy ädimler:\n• 1543 — Nikolaý Kopernik geliosentrik ulgamy teklip etdi: Ýer we planetalar Günüň daşyndan aýlanýar.\n• Iogann Kepler — planetalaryň orbitalarynyň ellips görnüşlidigini görkezdi.\n• Galileo Galileý — teleskop bilen Ýupiteriň hemralaryny we Aýyň daglaryny gördi (1609–1610), synag usulyny ösdürdi.\n• 1687 — Isaak Nýuton «Tebigat filosofiýasynyň matematiki başlangyçlary» kitabynda hereket kanunlaryny we bütindünýä dartyşma kanunyny beýan etdi.",
+          "ru": "Научная революция — коренное изменение взглядов на природу в XVI–XVII веках. Учёные стали опираться не на старые книги, а на опыт, измерение и математику.\n\nГлавные шаги:\n• 1543 — Николай Коперник предложил гелиоцентрическую систему: Земля и планеты вращаются вокруг Солнца.\n• Иоганн Кеплер — показал, что орбиты планет эллиптические.\n• Галилео Галилей — в телескоп увидел спутники Юпитера и горы на Луне (1609–1610), развил экспериментальный метод.\n• 1687 — Исаак Ньютон в книге «Математические начала натуральной философии» изложил законы движения и закон всемирного тяготения."
+        }},
+        {"type": "example", "text": {
+          "tk": "Ylmy usul nähili işleýär? Galileýiň pikirine görä mysal:\n1) Sorag: agyr jisim ýeňil jisimden çalt gaçýarmy?\n2) Gipoteza: howanyň garşylygy bolmasa, ikisi deň tizlikde gaçar.\n3) Synag: ýapgyt tagtadan şarlary togalap, wagty ölçemek.\n4) Netije: gaçmagyň tizlenmesi jisimiň agramyna bagly däl.\nAntik döwürde Aristotel tersine pikir edipdi — ýöne Galileý pikirini synag bilen barlady.",
+          "ru": "Как работает научный метод? Пример в духе Галилея:\n1) Вопрос: падает ли тяжёлое тело быстрее лёгкого?\n2) Гипотеза: без сопротивления воздуха оба падают одинаково.\n3) Опыт: скатывать шары по наклонной доске и измерять время.\n4) Вывод: ускорение падения не зависит от массы тела.\nВ античности Аристотель считал иначе — но Галилей проверил идею опытом."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Geliosentrik ulgamy kim teklip etdi?", "ru": "Кто предложил гелиоцентрическую систему?"},
+          "options": [{"tk": "Nikolaý Kopernik", "ru": "Николай Коперник"}, {"tk": "Isaak Nýuton", "ru": "Исаак Ньютон"}, {"tk": "Leonardo da Winçi", "ru": "Леонардо да Винчи"}],
+          "answer": 0,
+          "hint": {"tk": "Onuň kitaby 1543-nji ýylda çykdy.", "ru": "Его книга вышла в 1543 году."},
+          "explain": {"tk": "Kopernik Günüň merkezde, Ýeriň bolsa onuň daşynda aýlanýandygyny öňe sürdi.", "ru": "Коперник утверждал, что в центре Солнце, а Земля вращается вокруг него."}
+        },
+        {"type": "input",
+          "q": {"tk": "Nýuton «Matematiki başlangyçlary» haýsy ýylda neşir etdi?", "ru": "В каком году Ньютон издал «Математические начала»?"},
+          "answer": "1687",
+          "hint": {"tk": "XVII asyryň ahyry, 1680-nji ýyllar.", "ru": "Конец XVII века, 1680-е годы."},
+          "explain": {"tk": "1687-nji ýylda. Bu kitap klassyky mehanikanyň esasyny goýdy.", "ru": "В 1687 году. Эта книга заложила основы классической механики."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Kepler planetalaryň orbitalarynyň takyk tegelek däl-de, ellipsdigini görkezdi.", "ru": "Кеплер показал, что орбиты планет — не точные окружности, а эллипсы."},
+          "answer": true,
+          "hint": {"tk": "Bu Kepleriň birinji kanuny.", "ru": "Это первый закон Кеплера."},
+          "explain": {"tk": "Dogry. Kepler Tiho Braheniň takyk synlaryna daýanyp, bu kanuny açdy.", "ru": "Верно. Кеплер открыл этот закон, опираясь на точные наблюдения Тихо Браге."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Galileý teleskop bilen näme açdy?", "ru": "Что открыл Галилей с помощью телескопа?"},
+          "options": [{"tk": "Uran planetasyny", "ru": "Планету Уран"}, {"tk": "Gara deşikleri", "ru": "Чёрные дыры"}, {"tk": "Ýupiteriň hemralaryny", "ru": "Спутники Юпитера"}],
+          "answer": 2,
+          "hint": {"tk": "Olaryň dördüsi häzir «Galileý hemralary» diýlip atlandyrylýar.", "ru": "Четыре из них теперь называют «галилеевыми спутниками»."},
+          "explain": {"tk": "1610-njy ýylda Galileý Ýupiteriň dört uly hemrasyny gördi — bu ähli zadyň Ýeriň daşynda aýlanmaýandygyny görkezdi.", "ru": "В 1610 году Галилей увидел четыре крупных спутника Юпитера — это показало, что не всё вращается вокруг Земли."}
+        },
+        {"type": "world", "text": {
+          "tk": "1989-njy ýylda uçurylan «Galileo» kosmos enjamy 1995-nji ýylda Ýupiteriň orbitasyna çykdy we Galileýiň 400 ýyl töweregi ozal açan hemralaryny ýakyndan öwrendi.",
+          "ru": "Космический аппарат «Галилео», запущенный в 1989 году, в 1995 году вышел на орбиту Юпитера и вблизи изучил спутники, открытые Галилеем почти за 400 лет до этого."
+        }}
+      ]
+    },
+    {
+      "id": "history-8-industrial-revolution",
+      "grade": 8,
+      "topic": 2,
+      "title": {"tk": "Senagat öwrülişigi", "ru": "Промышленная революция"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Senagat öwrülişigi — el zähmetinden maşyn önümçiligine geçiş. Ol XVIII asyryň ikinji ýarymynda Beýik Britaniýada başlandy we XIX asyrda Ýewropa, ABŞ we beýleki ýurtlara ýaýrady.\n\nNäme üçin Britaniýada?\n• Kömür we demir ýataklary köpdi.\n• Söwda we koloniýalar maýa (kapital) berýärdi.\n• Täze oýlap tapyşlara uly isleg bardy.\n\nEsasy oýlap tapyşlar:\n• 1760-njy ýyllar — Jeýms Hargriwsiň «Jenni» egriji maşyny.\n• 1769 — Jeýms Uatt bug maşynyny ep-esli kämilleşdirdi (patent).\n• Fabrikler — işçiler bir binada maşynlarda işleýär.\n• 1825 — Angliýada ilkinji umumy bug demir ýoly (Stokton — Darlington).",
+          "ru": "Промышленная революция — переход от ручного труда к машинному производству. Она началась во второй половине XVIII века в Великобритании и в XIX веке распространилась на Европу, США и другие страны.\n\nПочему в Британии?\n• Много угля и железной руды.\n• Торговля и колонии давали капитал.\n• Большой спрос на новые изобретения.\n\nГлавные изобретения:\n• 1760-е — прядильная машина «Дженни» Джеймса Харгривса.\n• 1769 — Джеймс Уатт значительно усовершенствовал паровую машину (патент).\n• Фабрики — рабочие трудятся у машин в одном здании.\n• 1825 — первая в Англии общественная паровая железная дорога (Стоктон — Дарлингтон)."
+        }},
+        {"type": "example", "text": {
+          "tk": "Maşynyň önümçiligi nähili üýtgedendigini hasaplalyň. Elde egriji bir wagtda 1 ýüplük egrip bilýär. «Jenni» maşynynyň ilkinji görnüşi bir wagtda 8 ýüplük egrip bilýärdi.\n1) 8 ÷ 1 = 8 esse köp önüm.\n2) Diýmek, 8 egrijiniň işini bir adam edip bilýärdi.\nNetije: mata arzanlady, ýöne köp el ussalary işsiz galdy we fabriklere işe gitmeli boldy. Şäherler çalt ösdi.",
+          "ru": "Посчитаем, как машина изменила производство. Прядильщица вручную прядёт 1 нить за раз. Первая «Дженни» пряла сразу 8 нитей.\n1) 8 ÷ 1 = в 8 раз больше продукции.\n2) Значит, один человек выполнял работу 8 прядильщиц.\nИтог: ткань подешевела, но многие ремесленники остались без работы и пошли на фабрики. Города быстро росли."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Senagat öwrülişigi haýsy ýurtda başlandy?", "ru": "В какой стране началась промышленная революция?"},
+          "options": [{"tk": "Fransiýa", "ru": "Франция"}, {"tk": "Beýik Britaniýa", "ru": "Великобритания"}, {"tk": "Italiýa", "ru": "Италия"}],
+          "answer": 1,
+          "hint": {"tk": "Bu ýurtda kömür köp bolupdyr we Uatt şol ýerde işläpdir.", "ru": "В этой стране было много угля, и там работал Уатт."},
+          "explain": {"tk": "Beýik Britaniýada kömür, kapital we bazar bardy — şonuň üçin öwrülişik ilki şol ýerde başlandy.", "ru": "В Великобритании были уголь, капитал и рынки — поэтому революция началась именно там."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Jeýms Uatt bug maşynyny ilkinji bolup oýlap tapdy.", "ru": "Джеймс Уатт первым изобрёл паровую машину."},
+          "answer": false,
+          "hint": {"tk": "Tekstde «kämilleşdirdi» diýlip ýazylan.", "ru": "В тексте сказано «усовершенствовал»."},
+          "explain": {"tk": "Ýalňyş. Bug maşynlary ondan öň hem bardy (mysal üçin, Tomas Nýukomeniň 1712-nji ýyldaky maşyny). Uatt olary has tygşytly we peýdaly etdi.", "ru": "Неверно. Паровые машины существовали и раньше (например, машина Томаса Ньюкомена 1712 года). Уатт сделал их гораздо экономичнее и удобнее."}
+        },
+        {"type": "input",
+          "q": {"tk": "Stokton — Darlington demir ýoly haýsy ýylda açyldy?", "ru": "В каком году открылась железная дорога Стоктон — Дарлингтон?"},
+          "answer": "1825",
+          "hint": {"tk": "XIX asyryň birinji çärýeginiň ahyry.", "ru": "Конец первой четверти XIX века."},
+          "explain": {"tk": "1825-nji ýylda. Onuň lokomotiwini Jorj Stefenson gurupdy.", "ru": "В 1825 году. Локомотив для неё построил Джордж Стефенсон."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Senagat öwrülişiginiň jemgyýetçilik netijesi haýsy?", "ru": "Каково социальное последствие промышленной революции?"},
+          "options": [{"tk": "Şäherleriň çalt ösmegi", "ru": "Быстрый рост городов"}, {"tk": "Kitap çap etmegiň döremegi", "ru": "Появление книгопечатания"}, {"tk": "Ilatyň esasan oba göçmegi", "ru": "Переселение людей в основном в деревни"}],
+          "answer": 0,
+          "hint": {"tk": "Fabrikler nirede gurulýardy we işçiler nirä göçýärdi?", "ru": "Где строились фабрики и куда переезжали рабочие?"},
+          "explain": {"tk": "Adamlar fabriklerde işlemek üçin obalardan şäherlere göçdi — Mançester ýaly şäherler çalt ulaldy.", "ru": "Люди переезжали из деревень в города работать на фабриках — такие города, как Манчестер, быстро разрастались."}
+        },
+        {"type": "world", "text": {
+          "tk": "Kuwwatyň ölçeg birligi — watt (W) Jeýms Uattyň hormatyna atlandyryldy. Ol özi «at güýji» diýen birligi hem ulanyşa girizipdir.",
+          "ru": "Единица мощности — ватт (Вт) — названа в честь Джеймса Уатта. Он же ввёл в употребление единицу «лошадиная сила»."
+        }}
+      ]
+    },
+    {
+      "id": "history-8-us-independence",
+      "grade": 8,
+      "topic": 3,
+      "title": {"tk": "ABŞ-nyň garaşsyzlygy", "ru": "Независимость США"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "XVIII asyrda Demirgazyk Amerikanyň atlantik kenarynda Beýik Britaniýanyň 13 koloniýasy bardy.\n\nGapma-garşylygyň sebäpleri:\n• 1763-den soň Britaniýa koloniýalara täze salgytlar goýdy (mysal üçin, 1765-nji ýylyň Möhür kanuny).\n• Kolonistler parlamentde wekilleri bolmasa salgyt tölemek islemediler: «Wekilçiliksiz salgyt ýok».\n• 1773 — Boston çaý agşamy: protestçiler çaýyň ýüküni deňze taşladylar.\n\nWakalar:\n• 1775 — Leksington we Konkordda ilkinji söweşler, Garaşsyzlyk urşunyň başlanmagy.\n• 1776-njy ýylyň 4-nji iýuly — Garaşsyzlyk Jarnamasy kabul edildi (esasy awtory — Tomas Jefferson).\n• Goşuna Jorj Waşington serkerdelik etdi; Fransiýa amerikalylara kömek etdi.\n• 1783 — Pariž parahatçylyk şertnamasy: Britaniýa ABŞ-nyň garaşsyzlygyny ykrar etdi.\n• 1787 — ABŞ-nyň Konstitusiýasy; 1789 — Waşington ilkinji prezident boldy.",
+          "ru": "В XVIII веке на атлантическом побережье Северной Америки было 13 британских колоний.\n\nПричины конфликта:\n• После 1763 года Британия ввела новые налоги для колоний (например, Гербовый акт 1765 года).\n• Колонисты не хотели платить налоги без своих представителей в парламенте: «Нет налогам без представительства».\n• 1773 — Бостонское чаепитие: протестующие сбросили груз чая в море.\n\nСобытия:\n• 1775 — первые бои при Лексингтоне и Конкорде, начало Войны за независимость.\n• 4 июля 1776 года — принята Декларация независимости (главный автор — Томас Джефферсон).\n• Армией командовал Джордж Вашингтон; Франция помогала американцам.\n• 1783 — Парижский мирный договор: Британия признала независимость США.\n• 1787 — Конституция США; 1789 — Вашингтон стал первым президентом."
+        }},
+        {"type": "example", "text": {
+          "tk": "Wakalary wagt çyzgysynda tertipläliň we aralyklaryny tapalyň:\n1) Garaşsyzlyk Jarnamasy — 1776.\n2) Pariž şertnamasy — 1783.\n3) Aralyk: 1783 − 1776 = 7 ýyl.\n4) Konstitusiýa — 1787, ýagny Jarnamadan 1787 − 1776 = 11 ýyl soň.\nNetije: garaşsyzlygy yglan etmek bir ädim, ony ykrar etdirmek we täze döwleti gurmak bolsa ýene birnäçe ýyl aldy.",
+          "ru": "Расположим события на ленте времени и найдём промежутки:\n1) Декларация независимости — 1776.\n2) Парижский договор — 1783.\n3) Промежуток: 1783 − 1776 = 7 лет.\n4) Конституция — 1787, то есть через 1787 − 1776 = 11 лет после Декларации.\nИтог: объявить независимость — один шаг, а добиться её признания и построить новое государство заняло ещё несколько лет."
+        }},
+        {"type": "input",
+          "q": {"tk": "Garaşsyzlyk Jarnamasy haýsy ýylda kabul edildi?", "ru": "В каком году была принята Декларация независимости?"},
+          "answer": "1776",
+          "hint": {"tk": "4-nji iýul, XVIII asyryň 70-nji ýyllary.", "ru": "4 июля, 1770-е годы."},
+          "explain": {"tk": "1776-njy ýylyň 4-nji iýulynda. Bu gün ABŞ-da Garaşsyzlyk güni hökmünde bellenýär.", "ru": "4 июля 1776 года. Этот день отмечается в США как День независимости."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Garaşsyzlyk urşunda haýsy Ýewropa döwleti amerikalylara kömek etdi?", "ru": "Какое европейское государство помогло американцам в Войне за независимость?"},
+          "options": [{"tk": "Russiýa", "ru": "Россия"}, {"tk": "Portugaliýa", "ru": "Португалия"}, {"tk": "Fransiýa", "ru": "Франция"}],
+          "answer": 2,
+          "hint": {"tk": "Bu ýurt Britaniýanyň köne bäsdeşi bolupdyr.", "ru": "Эта страна была давним соперником Британии."},
+          "explain": {"tk": "Fransiýa 1778-nji ýylda ABŞ bilen bileleşik baglaşdy we goşun, flot, pul bilen kömek etdi.", "ru": "Франция в 1778 году заключила союз с США и помогла войсками, флотом и деньгами."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Jorj Waşington ABŞ-nyň ilkinji prezidenti boldy.", "ru": "Джордж Вашингтон стал первым президентом США."},
+          "answer": true,
+          "hint": {"tk": "Ol urşda goşuna serkerdelik edipdi.", "ru": "Во время войны он командовал армией."},
+          "explain": {"tk": "Dogry. Waşington 1789-njy ýylda ilkinji prezident saýlandy.", "ru": "Верно. Вашингтон был избран первым президентом в 1789 году."}
+        },
+        {"type": "choice",
+          "q": {"tk": "«Wekilçiliksiz salgyt ýok» şygary näme aňladýar?", "ru": "Что означает лозунг «Нет налогам без представительства»?"},
+          "options": [{"tk": "Kolonistler Britaniýa parlamentinde wekilleri bolmasa salgyt tölemek islemeýärdiler", "ru": "Колонисты не хотели платить налоги, не имея представителей в британском парламенте"}, {"tk": "Kolonistler hiç haçan salgyt tölemek islemeýärdiler", "ru": "Колонисты вообще никогда не хотели платить налоги"}, {"tk": "Britaniýa koloniýalary salgytdan boşatdy", "ru": "Британия освободила колонии от налогов"}],
+          "answer": 0,
+          "hint": {"tk": "Şygaryň iki bölegine — «salgyt» we «wekilçilik» — üns ber.", "ru": "Обрати внимание на обе части лозунга — «налоги» и «представительство»."},
+          "explain": {"tk": "Kolonistler salgytlary diňe öz saýlan wekilleri arkaly kabul etmegi adalatly hasaplaýardylar.", "ru": "Колонисты считали справедливым вводить налоги только через своих избранных представителей."}
+        },
+        {"type": "world", "text": {
+          "tk": "ABŞ-nyň 1787-nji ýylda kabul edilen Konstitusiýasy häzirki wagtda hereket edýän iň köne ýazmaça döwlet konstitusiýasy hasaplanýar. Oňa soňra düzedişler girizildi, ilkinji 10 düzediş «Hukuklar barada bill» diýlip atlandyrylýar.",
+          "ru": "Конституция США, принятая в 1787 году, считается старейшей действующей письменной государственной конституцией. Позже к ней принимались поправки, первые 10 из них называются «Билль о правах»."
+        }}
+      ]
+    },
+    {
+      "id": "history-8-french-revolution",
+      "grade": 8,
+      "topic": 4,
+      "title": {"tk": "Fransuz rewolýusiýasy", "ru": "Французская революция"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Beýik fransuz rewolýusiýasy 1789-njy ýylda başlandy.\n\nSebäpleri:\n• Jemgyýet üç «sosloviýa» bölünýärdi: ruhanylar, dworýanlar we üçünji sosloviýa (daýhanlar, hünärmentler, söwdagärler). Salgydyň agyr ýüki üçünji sosloviýanyň üstüne düşýärdi.\n• Döwlet uly bergä batypdy, çörek gymmatlapdy.\n• Magaryf döwrüniň pikirleri (Wolter, Russo, Monteskýö) azatlygy, kanunyň öňünde deňligi wagyz edýärdi.\n\nEsasy wakalar:\n• 1789-njy ýylyň 14-nji iýuly — Bastiliýa galasynyň alynmagy.\n• 1789-njy ýylyň awgusty — «Adamyň we raýatyň hukuklary jarnamasy».\n• 1792 — Fransiýa respublika diýlip yglan edildi.\n• 1793 — patyşa Lýudowik XVI jezalandyryldy; «terror» döwri.\n• 1799 — Napoleon Bonapart häkimiýeti eýeledi.\n\nŞygary: «Azatlyk, deňlik, doganlyk».",
+          "ru": "Великая французская революция началась в 1789 году.\n\nПричины:\n• Общество делилось на три сословия: духовенство, дворянство и третье сословие (крестьяне, ремесленники, торговцы). Основное налоговое бремя лежало на третьем сословии.\n• Государство было в огромных долгах, хлеб дорожал.\n• Идеи Просвещения (Вольтер, Руссо, Монтескьё) проповедовали свободу и равенство перед законом.\n\nГлавные события:\n• 14 июля 1789 года — взятие крепости Бастилия.\n• Август 1789 года — «Декларация прав человека и гражданина».\n• 1792 — Франция провозглашена республикой.\n• 1793 — казнь короля Людовика XVI; период «террора».\n• 1799 — власть захватил Наполеон Бонапарт.\n\nДевиз: «Свобода, равенство, братство»."
+        }},
+        {"type": "example", "text": {
+          "tk": "Generallar ştatlarynda ses bermegiň meselesi (1789):\n1) Her sosloviýa bir ses bilen ses berýärdi: ruhanylar — 1, dworýanlar — 1, üçünji sosloviýa — 1.\n2) Ruhanylar we dworýanlar bilelikde ses berse: 2 : 1 — üçünji sosloviýa hemişe utulýar.\n3) Üçünji sosloviýa ilatyň takmynan 97%-ini düzýärdi, şonuň üçin ol «her deputata bir ses» talap etdi.\n4) Talap kabul edilmänsoň, üçünji sosloviýanyň deputatlary özlerini Milli ýygnak diýip yglan etdiler — bu rewolýusiýanyň başlangyjy boldy.",
+          "ru": "Проблема голосования в Генеральных штатах (1789):\n1) Каждое сословие голосовало одним голосом: духовенство — 1, дворянство — 1, третье сословие — 1.\n2) Если духовенство и дворянство голосуют вместе: 2 : 1 — третье сословие всегда проигрывает.\n3) Третье сословие составляло около 97% населения, поэтому требовало голосования «один депутат — один голос».\n4) Когда требование отклонили, депутаты третьего сословия провозгласили себя Национальным собранием — это стало началом революции."
+        }},
+        {"type": "input",
+          "q": {"tk": "Bastiliýa haýsy ýylda alyndy?", "ru": "В каком году была взята Бастилия?"},
+          "answer": "1789",
+          "hint": {"tk": "Rewolýusiýanyň başlanan ýyly.", "ru": "Год начала революции."},
+          "explain": {"tk": "1789-njy ýylyň 14-nji iýulynda. Häzir bu gün Fransiýanyň milli baýramy.", "ru": "14 июля 1789 года. Сейчас этот день — национальный праздник Франции."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Fransiýada salgydyň esasy ýüki haýsy sosloviýanyň üstüne düşýärdi?", "ru": "На какое сословие во Франции ложилось основное налоговое бремя?"},
+          "options": [{"tk": "Ruhanylar", "ru": "Духовенство"}, {"tk": "Üçünji sosloviýa", "ru": "Третье сословие"}, {"tk": "Dworýanlar", "ru": "Дворянство"}],
+          "answer": 1,
+          "hint": {"tk": "Ilatyň iň köp bölegini düzýän topar.", "ru": "Группа, составлявшая большую часть населения."},
+          "explain": {"tk": "Ruhanylar we dworýanlar salgytlaryň köpüsinden boşadylypdy, ýük daýhanlaryň we şäherlileriň üstüne düşýärdi.", "ru": "Духовенство и дворянство были освобождены от большинства налогов, бремя несли крестьяне и горожане."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Napoleon Bonapart 1799-njy ýylda häkimiýeti eýeledi.", "ru": "Наполеон Бонапарт пришёл к власти в 1799 году."},
+          "answer": true,
+          "hint": {"tk": "XVIII asyryň iň soňky ýyllary.", "ru": "Самые последние годы XVIII века."},
+          "explain": {"tk": "Dogry. 1799-njy ýylyň noýabrynda Napoleon döwlet agdarylyşygyny amala aşyrdy we birinji konsul boldy.", "ru": "Верно. В ноябре 1799 года Наполеон совершил переворот и стал первым консулом."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Fransuz rewolýusiýasynyň şygary haýsy?", "ru": "Каков девиз Французской революции?"},
+          "options": [{"tk": "«Çörek we oýun»", "ru": "«Хлеба и зрелищ»"}, {"tk": "«Wekilçiliksiz salgyt ýok»", "ru": "«Нет налогам без представительства»"}, {"tk": "«Azatlyk, deňlik, doganlyk»", "ru": "«Свобода, равенство, братство»"}],
+          "answer": 2,
+          "hint": {"tk": "Üç sözden ybarat, birinjisi — «azatlyk».", "ru": "Три слова, первое — «свобода»."},
+          "explain": {"tk": "«Azatlyk, deňlik, doganlyk» — rewolýusiýanyň şygary, häzir hem Fransiýanyň resmi şygary.", "ru": "«Свобода, равенство, братство» — девиз революции, и сейчас официальный девиз Франции."}
+        },
+        {"type": "world", "text": {
+          "tk": "Metrik ölçegler ulgamy (metr, kilogram) Fransuz rewolýusiýasy döwründe döredildi. Alymlar metri Ýeriň meridianynyň uzynlygyna esaslanyp kesgitlediler. Häzir bu ulgam dünýäniň aglaba ýurtlarynda ulanylýar.",
+          "ru": "Метрическая система мер (метр, килограмм) была создана во время Французской революции. Учёные определили метр через длину земного меридиана. Сейчас эта система используется в подавляющем большинстве стран мира."
+        }}
+      ]
+    },
+    {
+      "id": "history-8-19th-century-science",
+      "grade": 8,
+      "topic": 5,
+      "title": {"tk": "XIX asyrda ylym we tehnika", "ru": "Наука и техника XIX века"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "XIX asyr — ylmy açyşlaryň we oýlap tapyşlaryň çalt köpelen döwri.\n\nYlym:\n• Maýkl Faradeý (1831) — elektromagnit induksiýasy; bu elektrik generatorlarynyň esasy.\n• Çarlz Darwin (1859) — «Görnüşleriň gelip çykyşy», tebigy saýlanyş arkaly ewolýusiýa.\n• Dmitriý Mendeleýew (1869) — himiki elementleriň döwürleýin kanuny we tablisasy.\n• Lui Paster — mikroblaryň keselleri döredýändigini subut etdi, sanjymlar döretdi.\n\nTehnika:\n• Bug lokomotiwleri we gämileri, demir ýollar.\n• Telegraf (Samuel Morze, 1830–40-njy ýyllar) we telefon (Aleksandr Bell, 1876).\n• Elektrik lampasy (Tomas Edison, 1879 we beýlekiler).\n• Içki ýanyş hereketlendirijili awtomobil (Karl Benz, 1886).",
+          "ru": "XIX век — время стремительного роста научных открытий и изобретений.\n\nНаука:\n• Майкл Фарадей (1831) — электромагнитная индукция; основа электрогенераторов.\n• Чарльз Дарвин (1859) — «Происхождение видов», эволюция путём естественного отбора.\n• Дмитрий Менделеев (1869) — периодический закон и таблица химических элементов.\n• Луи Пастер — доказал, что болезни вызывают микробы, создал вакцины.\n\nТехника:\n• Паровозы и пароходы, железные дороги.\n• Телеграф (Сэмюэл Морзе, 1830–40-е) и телефон (Александр Белл, 1876).\n• Электрическая лампа (Томас Эдисон, 1879, и другие изобретатели).\n• Автомобиль с двигателем внутреннего сгорания (Карл Бенц, 1886)."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mendeleýewiň tablisasy näme üçin ajaýyp boldy?\n1) 1869-njy ýylda belli elementleri atom agramy boýunça tertipläp, häsiýetleriniň döwürleýin gaýtalanýandygyny gördi.\n2) Tablisada boş ýerler goýdy — «heniz açylmadyk elementler» üçin.\n3) Olaryň häsiýetlerini öňünden aýtdy.\n4) Soňra galliý (1875), skandiý (1879) we germaniý (1886) açyldy — häsiýetleri onuň çaklamalaryna gaty ýakyn bolup çykdy.\nSapak: güýçli ylmy nazaryýet diňe düşündirmän, öňünden aýdyp hem bilýär.",
+          "ru": "Почему таблица Менделеева стала триумфом?\n1) В 1869 году он расположил известные элементы по атомному весу и увидел периодическое повторение свойств.\n2) Оставил в таблице пустые места — для «ещё не открытых элементов».\n3) Предсказал их свойства.\n4) Позже открыли галлий (1875), скандий (1879) и германий (1886) — их свойства оказались очень близки к его предсказаниям.\nУрок: сильная научная теория не только объясняет, но и предсказывает."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Telefony kim oýlap tapdy (1876)?", "ru": "Кто изобрёл телефон (1876)?"},
+          "options": [{"tk": "Aleksandr Bell", "ru": "Александр Белл"}, {"tk": "Karl Benz", "ru": "Карл Бенц"}, {"tk": "Çarlz Darwin", "ru": "Чарльз Дарвин"}],
+          "answer": 0,
+          "hint": {"tk": "Onuň familiýasy iňlisçe «jaň» diýmegi aňladýar.", "ru": "Его фамилия по-английски означает «колокол»."},
+          "explain": {"tk": "Aleksandr Grem Bell 1876-njy ýylda telefona patent aldy.", "ru": "Александр Грейам Белл получил патент на телефон в 1876 году."}
+        },
+        {"type": "input",
+          "q": {"tk": "Mendeleýew döwürleýin kanuny haýsy ýylda açdy?", "ru": "В каком году Менделеев открыл периодический закон?"},
+          "answer": "1869",
+          "hint": {"tk": "Darwiniň kitabyndan 10 ýyl soň.", "ru": "Через 10 лет после книги Дарвина."},
+          "explain": {"tk": "1859 + 10 = 1869-njy ýyl.", "ru": "1859 + 10 = 1869 год."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Faradeýiň elektromagnit induksiýasyny açmagy elektrik generatorlarynyň döremegine ýol açdy.", "ru": "Открытие Фарадеем электромагнитной индукции открыло путь к созданию электрогенераторов."},
+          "answer": true,
+          "hint": {"tk": "Generator magnit meýdanynda aýlanýan sim arkaly tok öndürýär.", "ru": "Генератор вырабатывает ток с помощью провода, вращающегося в магнитном поле."},
+          "explain": {"tk": "Dogry. Induksiýa — üýtgeýän magnit meýdanynda tok döremegi; häzirki elektrik stansiýalarynyň köpüsi şu ýörelgä esaslanýar.", "ru": "Верно. Индукция — возникновение тока в меняющемся магнитном поле; на этом принципе работает большинство электростанций."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Lui Pasteriň esasy goşandy haýsy?", "ru": "В чём главный вклад Луи Пастера?"},
+          "options": [{"tk": "Telegrafy oýlap tapdy", "ru": "Изобрёл телеграф"}, {"tk": "Ewolýusiýa nazaryýetini döretdi", "ru": "Создал теорию эволюции"}, {"tk": "Keselleri mikroblaryň döredýändigini subut etdi", "ru": "Доказал, что болезни вызывают микробы"}],
+          "answer": 2,
+          "hint": {"tk": "Süýdi gyzdyryp arassalamak usuly onuň adyny göterýär.", "ru": "Способ обеззараживания молока нагреванием носит его имя."},
+          "explain": {"tk": "Paster mikroblaryň roluny subut etdi, sanjymlar döretdi; «pasterizasiýa» onuň adyndan gelýär.", "ru": "Пастер доказал роль микробов и создал вакцины; «пастеризация» названа его именем."}
+        },
+        {"type": "world", "text": {
+          "tk": "Morze elipbiýinde iň meşhur signal — SOS (… — — — …). Ol XX asyryň başynda halkara gämi howp signaly hökmünde kabul edildi we 1912-nji ýylda «Titanik» hem bu signaly iberipdir.",
+          "ru": "Самый известный сигнал азбуки Морзе — SOS (… — — — …). В начале XX века его приняли как международный сигнал бедствия на море, и в 1912 году его передавал в том числе «Титаник»."
+        }}
+      ]
+    }
+  ]
+}

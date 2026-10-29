@@ -1,0 +1,303 @@
+{
+  "grade": 8,
+  "subject": "informatics",
+  "lessons": [
+    {
+      "id": "informatics-8-loops",
+      "grade": 8,
+      "topic": 0,
+      "title": {"tk": "Sikller: for we while", "ru": "Циклы: for и while"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Sikl — buýruklaryň toparyny birnäçe gezek gaýtalamak.\nPython dilinde iki esasy sikl bar:\n• for — gaýtalanmalaryň sany belli bolanda:\nfor i in range(5):\n    print(i)\nrange(5) → 0, 1, 2, 3, 4 (5 girmeýär).\nrange(a, b) → a-dan b-1 çenli; range(a, b, ädim) → ädim bilen.\n• while — şert dogry bolýança gaýtalaýar:\nn = 1\nwhile n < 100:\n    n = n * 2\nÜns beriň: while siklinde şert haçan-da bolsa ýalan bolmaly, ýogsam sikl tükeniksiz bolar.\nbreak — sikli derrew togtadýar; continue — indiki gaýtalanma geçýär.",
+          "ru": "Цикл — многократное повторение группы команд.\nВ Python есть два основных цикла:\n• for — когда число повторений известно:\nfor i in range(5):\n    print(i)\nrange(5) → 0, 1, 2, 3, 4 (5 не входит).\nrange(a, b) → от a до b-1; range(a, b, шаг) — с шагом.\n• while — повторяет, пока условие истинно:\nn = 1\nwhile n < 100:\n    n = n * 2\nВнимание: условие while когда-то должно стать ложным, иначе цикл будет бесконечным.\nbreak — немедленно прерывает цикл; continue — переходит к следующей итерации."
+        }},
+        {"type": "example", "text": {
+          "tk": "1-den 5-e çenli sanlaryň jemini tapalyň:\ns = 0\nfor i in range(1, 6):\n    s = s + i\nprint(s)\nÄdimme-ädim:\ni=1 → s=1\ni=2 → s=3\ni=3 → s=6\ni=4 → s=10\ni=5 → s=15\nNetije: 15.",
+          "ru": "Найдём сумму чисел от 1 до 5:\ns = 0\nfor i in range(1, 6):\n    s = s + i\nprint(s)\nПошагово:\ni=1 → s=1\ni=2 → s=3\ni=3 → s=6\ni=4 → s=10\ni=5 → s=15\nРезультат: 15."
+        }},
+        {"type": "input",
+          "q": {"tk": "Bu sikl näçe gezek «Salam» çykarar?\nfor i in range(2, 10, 2):\n    print(\"Salam\")", "ru": "Сколько раз этот цикл выведет «Salam»?\nfor i in range(2, 10, 2):\n    print(\"Salam\")"},
+          "answer": "4",
+          "hint": {"tk": "i-niň bahalaryny ýazyň: 2-den başlap 2 ädim bilen, 10 girmeýär.", "ru": "Выпишите значения i: от 2 с шагом 2, 10 не входит."},
+          "explain": {"tk": "i = 2, 4, 6, 8 — 4 gezek.", "ru": "i = 2, 4, 6, 8 — 4 раза."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Bu programmadan soň n näçä deň bolar?\nn = 1\nwhile n < 20:\n    n = n * 3", "ru": "Чему будет равно n после выполнения?\nn = 1\nwhile n < 20:\n    n = n * 3"},
+          "options": ["9", "27", "81"],
+          "answer": 1,
+          "hint": {"tk": "Her gezek şerti barlaň: 1, 3, 9, …", "ru": "Каждый раз проверяйте условие: 1, 3, 9, …"},
+          "explain": {"tk": "1 → 3 → 9 → 27. 27 < 20 ýalan, sikl togtaýar. n = 27.", "ru": "1 → 3 → 9 → 27. Условие 27 < 20 ложно, цикл останавливается. n = 27."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«while True:» sikli içinde break bolmasa, tükeniksiz işlär.", "ru": "Цикл «while True:» без break внутри будет работать бесконечно."},
+          "answer": true,
+          "hint": {"tk": "True şerti haçan ýalan bolýar?", "ru": "Когда условие True становится ложным?"},
+          "explain": {"tk": "True hemişe dogry, şonuň üçin diňe break ýa-da ýalňyşlyk sikli togtadyp biler.", "ru": "True всегда истинно, поэтому остановить цикл может только break (или ошибка)."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Gaýtalanmalaryň sany öňünden belli bolsa, haýsy sikl has amatly?", "ru": "Какой цикл удобнее, если число повторений известно заранее?"},
+          "options": ["for", "while", {"tk": "Sikl gerek däl", "ru": "Цикл не нужен"}],
+          "answer": 0,
+          "hint": {"tk": "range() bilen haýsy sikl ulanylýar?", "ru": "С каким циклом используется range()?"},
+          "explain": {"tk": "for + range(n) takyk n gezek gaýtalaýar.", "ru": "for + range(n) повторяет ровно n раз."}
+        },
+        {"type": "world", "text": {
+          "tk": "Ada Lawleýs 1843-nji ýylda Çarlz Bebbijiň «Analitik maşyny» üçin Bernulli sanlaryny hasaplaýan algoritm ýazdy. Bu algoritmde amallaryň gaýtalanmagy — häzirki sikl düşünjesi — eýýäm bardy. Şonuň üçin Lawleýsi köplenç ilkinji programmist diýip atlandyrýarlar.",
+          "ru": "В 1843 году Ада Лавлейс описала алгоритм вычисления чисел Бернулли для «Аналитической машины» Чарльза Бэббиджа. В нём уже использовалось повторение операций — то, что мы сейчас называем циклом. Поэтому Лавлейс часто называют первым программистом."
+        }}
+      ]
+    },
+    {
+      "id": "informatics-8-lists",
+      "grade": 8,
+      "topic": 1,
+      "title": {"tk": "Sanawlar (list)", "ru": "Списки (list)"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Sanaw (list) — birnäçe bahany bir üýtgeýän ululykda saklaýan tertipli ýygyndy.\nnums = [10, 20, 30, 40]\n• Indeksler 0-dan başlaýar: nums[0] = 10, nums[3] = 40.\n• Otrisatel indeks ahyrdan: nums[-1] = 40.\n• Uzynlyk: len(nums) = 4.\n• Goşmak: nums.append(50) → [10, 20, 30, 40, 50].\n• Üýtgetmek: nums[1] = 25.\n• Kesim (slice): nums[1:3] → [20, 30] (3 girmeýär).\n• Peýdaly funksiýalar: sum(), max(), min(), sorted().\nSanawy sikl bilen aýlamak:\nfor x in nums:\n    print(x)",
+          "ru": "Список (list) — упорядоченная коллекция, хранящая несколько значений в одной переменной.\nnums = [10, 20, 30, 40]\n• Индексы начинаются с 0: nums[0] = 10, nums[3] = 40.\n• Отрицательный индекс — с конца: nums[-1] = 40.\n• Длина: len(nums) = 4.\n• Добавление: nums.append(50) → [10, 20, 30, 40, 50].\n• Изменение: nums[1] = 25.\n• Срез: nums[1:3] → [20, 30] (3 не входит).\n• Полезные функции: sum(), max(), min(), sorted().\nОбход списка циклом:\nfor x in nums:\n    print(x)"
+        }},
+        {"type": "example", "text": {
+          "tk": "Synpdaky bahalaryň ortaça bahasyny tapalyň:\nmarks = [5, 4, 3, 5, 4, 5]\navg = sum(marks) / len(marks)\nprint(avg)\n1) sum(marks) = 5+4+3+5+4+5 = 26.\n2) len(marks) = 6.\n3) 26 / 6 ≈ 4.33.\nIň ýokary baha: max(marks) = 5.",
+          "ru": "Найдём средний балл класса:\nmarks = [5, 4, 3, 5, 4, 5]\navg = sum(marks) / len(marks)\nprint(avg)\n1) sum(marks) = 5+4+3+5+4+5 = 26.\n2) len(marks) = 6.\n3) 26 / 6 ≈ 4.33.\nЛучшая оценка: max(marks) = 5."
+        }},
+        {"type": "input",
+          "q": {"tk": "a = [3, 8, 1, 9, 4]. a[2] näçä deň?", "ru": "a = [3, 8, 1, 9, 4]. Чему равно a[2]?"},
+          "answer": "1",
+          "hint": {"tk": "Indeksler 0-dan sanalýar.", "ru": "Индексы считаются с 0."},
+          "explain": {"tk": "a[0]=3, a[1]=8, a[2]=1.", "ru": "a[0]=3, a[1]=8, a[2]=1."}
+        },
+        {"type": "choice",
+          "q": {"tk": "a = [3, 8, 1, 9, 4]. a[-2] näçä deň?", "ru": "a = [3, 8, 1, 9, 4]. Чему равно a[-2]?"},
+          "options": ["8", "4", "9"],
+          "answer": 2,
+          "hint": {"tk": "-1 — iň soňky element.", "ru": "-1 — последний элемент."},
+          "explain": {"tk": "a[-1]=4, a[-2]=9.", "ru": "a[-1]=4, a[-2]=9."}
+        },
+        {"type": "input",
+          "q": {"tk": "b = [1, 2, 3]\nb.append(4)\nb.append(5)\nlen(b) näçä deň?", "ru": "b = [1, 2, 3]\nb.append(4)\nb.append(5)\nЧему равно len(b)?"},
+          "answer": "5",
+          "hint": {"tk": "Her append bir element goşýar.", "ru": "Каждый append добавляет один элемент."},
+          "explain": {"tk": "3 + 2 = 5 element: [1, 2, 3, 4, 5].", "ru": "3 + 2 = 5 элементов: [1, 2, 3, 4, 5]."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "c = [10, 20, 30, 40] bolsa, c[1:3] = [20, 30].", "ru": "Если c = [10, 20, 30, 40], то c[1:3] = [20, 30]."},
+          "answer": true,
+          "hint": {"tk": "Kesimde soňky indeks girmeýär.", "ru": "В срезе последний индекс не включается."},
+          "explain": {"tk": "1 we 2 indeksli elementler: 20 we 30.", "ru": "Элементы с индексами 1 и 2: 20 и 30."}
+        },
+        {"type": "world", "text": {
+          "tk": "Python dilini Niderlandly programmist Gwido wan Rossum döretdi; ilkinji görnüşi 1991-nji ýylda çykdy. Dil öz adyny ýylan däl-de, britan komediýa topary «Monty Python»-dan aldy.",
+          "ru": "Язык Python создал нидерландский программист Гвидо ван Россум; первая версия вышла в 1991 году. Название дано не в честь змеи, а в честь британской комик-группы «Монти Пайтон»."
+        }}
+      ]
+    },
+    {
+      "id": "informatics-8-functions",
+      "grade": 8,
+      "topic": 2,
+      "title": {"tk": "Funksiýalar", "ru": "Функции"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Funksiýa — ady bolan we gaýta-gaýta çagyryp bolýan kod bölegi.\nPython-da def bilen kesgitlenýär:\ndef square(x):\n    return x * x\n• square — funksiýanyň ady.\n• x — parametr (giriş maglumaty).\n• return — netijäni yzyna gaýtarýar.\nÇagyrmak: square(5) → 25.\nPeýdasy:\n• Kod gaýtalanmaýar (DRY — Don't Repeat Yourself).\n• Programma okamaga aňsat bölümlere bölünýär.\n• Ýalňyşlygy bir ýerde düzetmek ýeterlik.\nFunksiýanyň içinde döredilen üýtgeýän ululyklar ýerli (local) — daşarda görünmeýär.",
+          "ru": "Функция — именованный фрагмент кода, который можно вызывать многократно.\nВ Python функция определяется словом def:\ndef square(x):\n    return x * x\n• square — имя функции.\n• x — параметр (входные данные).\n• return — возвращает результат.\nВызов: square(5) → 25.\nЗачем нужны функции:\n• Код не повторяется (принцип DRY — Don't Repeat Yourself).\n• Программа делится на понятные части.\n• Ошибку достаточно исправить в одном месте.\nПеременные, созданные внутри функции, локальные — снаружи они не видны."
+        }},
+        {"type": "example", "text": {
+          "tk": "Gönüburçlugyň meýdanyny hasaplaýan funksiýa:\ndef area(a, b):\n    return a * b\n\nprint(area(3, 4))\nprint(area(5, 2) + area(1, 1))\n1) area(3, 4) = 12.\n2) area(5, 2) = 10, area(1, 1) = 1 → 10 + 1 = 11.\nNetije: 12 we 11.",
+          "ru": "Функция площади прямоугольника:\ndef area(a, b):\n    return a * b\n\nprint(area(3, 4))\nprint(area(5, 2) + area(1, 1))\n1) area(3, 4) = 12.\n2) area(5, 2) = 10, area(1, 1) = 1 → 10 + 1 = 11.\nВывод: 12 и 11."
+        }},
+        {"type": "input",
+          "q": {"tk": "def f(n):\n    return n * 2 + 1\nf(f(2)) näçä deň?", "ru": "def f(n):\n    return n * 2 + 1\nЧему равно f(f(2))?"},
+          "answer": "11",
+          "hint": {"tk": "Ilki içkini hasaplaň: f(2).", "ru": "Сначала вычислите внутреннее: f(2)."},
+          "explain": {"tk": "f(2) = 2·2+1 = 5; f(5) = 5·2+1 = 11.", "ru": "f(2) = 2·2+1 = 5; f(5) = 5·2+1 = 11."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Python-da funksiýa haýsy söz bilen kesgitlenýär?", "ru": "Каким словом в Python определяется функция?"},
+          "options": ["func", "def", "function"],
+          "answer": 1,
+          "hint": {"tk": "«define» sözüniň gysgaltmasy.", "ru": "Сокращение от слова «define»."},
+          "explain": {"tk": "def — define (kesgitlemek).", "ru": "def — от define (определить)."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "return ýok funksiýa çagyrylanda None gaýtarýar.", "ru": "Функция без return при вызове возвращает None."},
+          "answer": true,
+          "hint": {"tk": "Python-da «hiç zat» näme diýip atlandyrylýar?", "ru": "Как в Python называется «ничего»?"},
+          "explain": {"tk": "return bolmasa, Python awtomatik None gaýtarýar.", "ru": "Если return нет, Python автоматически возвращает None."}
+        },
+        {"type": "choice",
+          "q": {"tk": "def greet(name): … funksiýasynda «name» näme?", "ru": "Что такое «name» в def greet(name): …?"},
+          "options": [
+            {"tk": "Funksiýanyň ady", "ru": "Имя функции"},
+            {"tk": "Gaýtarylýan baha", "ru": "Возвращаемое значение"},
+            {"tk": "Parametr", "ru": "Параметр"}
+          ],
+          "answer": 2,
+          "hint": {"tk": "Ol ýaýlaryň içinde dur.", "ru": "Оно стоит в скобках."},
+          "explain": {"tk": "Ýaýlaryň içindäki at — parametr; çagyranda oňa baha berilýär.", "ru": "Имя в скобках — параметр; при вызове ему передаётся значение."}
+        },
+        {"type": "world", "text": {
+          "tk": "Kompýuter programmalarynda «subroutine» (kömekçi programma) pikiri 1940-njy ýyllaryň ahyrynda peýda boldy. Kembrij uniwersitetiniň EDSAC kompýuteri üçin Deýwid Wiler kömekçi programmalary çagyrmagyň usulyny işläp düzdi, bu häzirki funksiýalaryň esasyny goýdy.",
+          "ru": "Идея подпрограммы (subroutine) появилась в конце 1940-х годов. Для компьютера EDSAC Кембриджского университета Дэвид Уилер разработал способ вызова подпрограмм, который лёг в основу современных функций."
+        }}
+      ]
+    },
+    {
+      "id": "informatics-8-databases",
+      "grade": 8,
+      "topic": 3,
+      "title": {"tk": "Maglumat bazalary we SQL", "ru": "Базы данных и SQL"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Maglumat bazasy (MB) — maglumatlary tertipli saklamak we gözlemek üçin ulgam.\nRelýasion MB maglumatlary tablisalarda saklaýar:\n• Ýazgy (setir, record) — bir obýekt, mysal üçin bir okuwçy.\n• Meýdan (sütün, field) — häsiýet: ady, ýaşy, synpy.\n• Esasy açar (primary key) — her ýazgyny gaýtalanmaýan görnüşde kesgitleýän meýdan (mysal üçin id).\nSQL — MB bilen işlemek üçin dil:\nSELECT name FROM students WHERE age > 13;\n• SELECT — haýsy sütünler.\n• FROM — haýsy tablisadan.\n• WHERE — şert.\n• ORDER BY — tertiplemek.",
+          "ru": "База данных (БД) — система для упорядоченного хранения и поиска информации.\nРеляционная БД хранит данные в таблицах:\n• Запись (строка) — один объект, например один ученик.\n• Поле (столбец) — свойство: имя, возраст, класс.\n• Первичный ключ (primary key) — поле, однозначно определяющее каждую запись (например id).\nSQL — язык запросов к БД:\nSELECT name FROM students WHERE age > 13;\n• SELECT — какие столбцы.\n• FROM — из какой таблицы.\n• WHERE — условие.\n• ORDER BY — сортировка."
+        }},
+        {"type": "example", "text": {
+          "tk": "Tablisa students:\nid | name | age\n1 | Aýna | 14\n2 | Serdar | 13\n3 | Maýsa | 15\nSorag: SELECT name FROM students WHERE age >= 14;\n1) Her setiri barlaýarys: 14 ≥ 14 — hawa; 13 — ýok; 15 — hawa.\n2) Diňe name sütüni.\nNetije: Aýna, Maýsa.",
+          "ru": "Таблица students:\nid | name | age\n1 | Aýna | 14\n2 | Serdar | 13\n3 | Maýsa | 15\nЗапрос: SELECT name FROM students WHERE age >= 14;\n1) Проверяем каждую строку: 14 ≥ 14 — да; 13 — нет; 15 — да.\n2) Выводим только столбец name.\nРезультат: Aýna, Maýsa."
+        }},
+        {"type": "choice",
+          "q": {"tk": "SQL-da şerti haýsy söz bilen ýazýarlar?", "ru": "Каким словом в SQL задаётся условие отбора?"},
+          "options": ["WHERE", "FROM", "SELECT"],
+          "answer": 0,
+          "hint": {"tk": "Iňlisçe «nirede / haýsy ýagdaýda».", "ru": "По-английски «где / при каком условии»."},
+          "explain": {"tk": "WHERE setirleri şert boýunça saýlaýar.", "ru": "WHERE отбирает строки по условию."}
+        },
+        {"type": "input",
+          "q": {"tk": "Ýokardaky students tablisasy üçin: SELECT name FROM students WHERE age < 15; näçe setir gaýtarar?", "ru": "Для таблицы students из примера: сколько строк вернёт SELECT name FROM students WHERE age < 15;?"},
+          "answer": "2",
+          "hint": {"tk": "14, 13, 15 — haýsylary 15-den kiçi?", "ru": "14, 13, 15 — какие меньше 15?"},
+          "explain": {"tk": "14 we 13 — Aýna we Serdar, 2 setir.", "ru": "14 и 13 — Aýna и Serdar, 2 строки."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Esasy açaryň (primary key) bahasy iki dürli ýazgyda gaýtalanyp biler.", "ru": "Значение первичного ключа может повторяться в двух разных записях."},
+          "answer": false,
+          "hint": {"tk": "Esasy açaryň wezipesi näme?", "ru": "Какова роль первичного ключа?"},
+          "explain": {"tk": "Esasy açar her ýazgyny takyk kesgitleýär, şonuň üçin gaýtalanmaly däl.", "ru": "Первичный ключ однозначно идентифицирует запись, поэтому он уникален."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Tablisadaky bir sütün nähili atlandyrylýar?", "ru": "Как называется столбец таблицы базы данных?"},
+          "options": [
+            {"tk": "Ýazgy", "ru": "Запись"},
+            {"tk": "Meýdan", "ru": "Поле"},
+            {"tk": "Sorag", "ru": "Запрос"}
+          ],
+          "answer": 1,
+          "hint": {"tk": "Setir — ýazgy, sütün — …", "ru": "Строка — запись, столбец — …"},
+          "explain": {"tk": "Sütün — meýdan (field), ol obýektiň bir häsiýetini saklaýar.", "ru": "Столбец — поле (field), хранит одно свойство объекта."}
+        },
+        {"type": "world", "text": {
+          "tk": "Relýasion maglumat bazalarynyň modelini 1970-nji ýylda IBM-iň alymy Edgar Kodd teklip etdi. Häzir bank hasaplary, awiabiletler we onlaýn dükanlar ýaly ulgamlaryň köpüsi şu modele esaslanýar.",
+          "ru": "Реляционную модель баз данных предложил в 1970 году учёный IBM Эдгар Кодд. Сегодня на этой модели работает большинство систем — от банковских счетов до продажи авиабилетов и интернет-магазинов."
+        }}
+      ]
+    },
+    {
+      "id": "informatics-8-html",
+      "grade": 8,
+      "topic": 4,
+      "title": {"tk": "HTML: ilkinji web-sahypa", "ru": "HTML: первая веб-страница"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "HTML (HyperText Markup Language) — web-sahypalaryň gurluşyny beýan edýän bellik dili. Ol programmirleme dili däl.\nHTML teglerden durýar: <teg>mazmun</teg>.\nEsasy gurluş:\n<!DOCTYPE html>\n<html>\n  <head><title>Sahypa ady</title></head>\n  <body> … görünýän mazmun … </body>\n</html>\nEsasy tegler:\n• <h1>…<h6> — sözbaşylar (h1 iň ulusy)\n• <p> — abzas\n• <a href=\"…\"> — salgylanma (link)\n• <img src=\"…\" alt=\"…\"> — surat (ýapylýan tegi ýok)\n• <ul>, <ol>, <li> — sanawlar\nGörnüşi (reňk, şrift) CSS bilen, hereketi JavaScript bilen berilýär.",
+          "ru": "HTML (HyperText Markup Language) — язык разметки, описывающий структуру веб-страниц. Это не язык программирования.\nHTML состоит из тегов: <тег>содержимое</тег>.\nОсновная структура:\n<!DOCTYPE html>\n<html>\n  <head><title>Название</title></head>\n  <body> … видимое содержимое … </body>\n</html>\nОсновные теги:\n• <h1>…<h6> — заголовки (h1 самый крупный)\n• <p> — абзац\n• <a href=\"…\"> — ссылка\n• <img src=\"…\" alt=\"…\"> — изображение (без закрывающего тега)\n• <ul>, <ol>, <li> — списки\nОформление (цвет, шрифт) задаёт CSS, поведение — JavaScript."
+        }},
+        {"type": "example", "text": {
+          "tk": "Ýönekeý sahypa:\n<body>\n  <h1>Meniň hobbilerim</h1>\n  <p>Men kitap okamagy halaýaryn.</p>\n  <ul>\n    <li>Futbol</li>\n    <li>Surat çekmek</li>\n  </ul>\n  <a href=\"https://www.wikipedia.org\">Wikipedia</a>\n</body>\nBrauzer görkezer: uly sözbaşy, bir abzas, iki nokatly sanaw we basylýan «Wikipedia» salgylanmasy.",
+          "ru": "Простая страница:\n<body>\n  <h1>Мои увлечения</h1>\n  <p>Я люблю читать книги.</p>\n  <ul>\n    <li>Футбол</li>\n    <li>Рисование</li>\n  </ul>\n  <a href=\"https://www.wikipedia.org\">Wikipedia</a>\n</body>\nБраузер покажет: крупный заголовок, абзац, маркированный список из двух пунктов и кликабельную ссылку «Wikipedia»."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Salgylanma (link) döretmek üçin haýsy teg ulanylýar?", "ru": "Какой тег создаёт ссылку?"},
+          "options": ["<link>", "<p>", "<a>"],
+          "answer": 2,
+          "hint": {"tk": "Bu teg «href» atributy bilen ulanylýar.", "ru": "Этот тег используется с атрибутом «href»."},
+          "explain": {"tk": "<a href=\"salgy\">tekst</a> — salgylanma. <link> bolsa CSS faýllaryny birikdirmek üçin.", "ru": "<a href=\"адрес\">текст</a> — ссылка. А <link> служит для подключения CSS-файлов."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Sahypada görünýän esasy mazmun <head> teginiň içinde ýerleşýär.", "ru": "Основное видимое содержимое страницы размещается внутри тега <head>."},
+          "answer": false,
+          "hint": {"tk": "<head>-de sahypanyň ady we sazlamalar bolýar.", "ru": "В <head> находятся название и служебные настройки."},
+          "explain": {"tk": "Görünýän mazmun <body>-de, <head>-de bolsa title, meta we ş.m.", "ru": "Видимое содержимое — в <body>, а в <head> — title, meta и т. п."}
+        },
+        {"type": "input",
+          "q": {"tk": "HTML-de näçe derejeli sözbaşy tegi bar (h1-den başlap)? San bilen ýazyň.", "ru": "Сколько уровней заголовков есть в HTML (начиная с h1)? Напишите число."},
+          "answer": "6",
+          "hint": {"tk": "h1, h2, … iň soňkusy haýsy?", "ru": "h1, h2, … какой последний?"},
+          "explain": {"tk": "h1-den h6-a çenli — 6 dereje.", "ru": "От h1 до h6 — 6 уровней."}
+        },
+        {"type": "choice",
+          "q": {"tk": "<img> tegindäki «alt» atributy näme üçin gerek?", "ru": "Для чего нужен атрибут «alt» тега <img>?"},
+          "options": [
+            {"tk": "Suraty beýan edýän tekst (görüşi gowşak ulanyjylar we surat ýüklenmese)", "ru": "Текстовое описание изображения (для незрячих и если картинка не загрузилась)"},
+            {"tk": "Suratyň ölçegi", "ru": "Размер изображения"},
+            {"tk": "Suratyň faýl salgysy", "ru": "Адрес файла изображения"}
+          ],
+          "answer": 0,
+          "hint": {"tk": "Faýl salgysy src atributynda.", "ru": "Адрес файла задаётся в атрибуте src."},
+          "explain": {"tk": "alt — alternatiw tekst; ekran okaýjy programmalar ony okaýar.", "ru": "alt — альтернативный текст; его зачитывают программы экранного доступа."}
+        },
+        {"type": "world", "text": {
+          "tk": "Bütindünýä kerebini (World Wide Web) we HTML-i 1989–1991-nji ýyllarda CERN-de işleýän britan alymy Tim Berners-Li oýlap tapdy. Ilkinji web-sahypa 1991-nji ýylda açyldy we häzir hem dikeldilen görnüşde açyp görmek bolýar.",
+          "ru": "Всемирную паутину (World Wide Web) и HTML придумал британский учёный Тим Бернерс-Ли, работавший в CERN, в 1989–1991 годах. Первая веб-страница открылась в 1991 году, её восстановленную копию можно посмотреть и сегодня."
+        }}
+      ]
+    },
+    {
+      "id": "informatics-8-cybersecurity",
+      "grade": 8,
+      "topic": 5,
+      "title": {"tk": "Kiberhowpsuzlygyň esaslary", "ru": "Основы кибербезопасности"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Kiberhowpsuzlyk — kompýuterleri, ulgamlary we maglumatlary hüjümlerden goramak.\nEsasy howplar:\n• Fişing — ynamdar gurama bolup görünýän galp hat ýa-da sahypa arkaly paroly ogurlamak.\n• Zyýanly programmalar (malware): wiruslar, troýanlar, şantaž programmalary (ransomware).\n• Gowşak parollar we birmeňzeş paroly ähli ýerde ulanmak.\nGoranyş düzgünleri:\n• Uzyn parol: azyndan 12 nyşan, harplar, sanlar, belgiler; her hasap üçin aýratyn.\n• Iki faktorly tassyklama (2FA): parol + telefondaky kod.\n• Programmalary wagtynda täzeläň.\n• Näbelli salgylanmalara basmaň; sahypanyň salgysyny we https barlaň.\n• Parolyňyzy hiç kime, hatda «goldaw gullugyna» hem aýtmaň.",
+          "ru": "Кибербезопасность — защита компьютеров, систем и данных от атак.\nОсновные угрозы:\n• Фишинг — кража пароля через поддельное письмо или сайт, выдающий себя за надёжную организацию.\n• Вредоносные программы (malware): вирусы, трояны, программы-вымогатели (ransomware).\n• Слабые пароли и один пароль на всех сайтах.\nПравила защиты:\n• Длинный пароль: не меньше 12 символов, буквы, цифры, знаки; свой для каждого аккаунта.\n• Двухфакторная аутентификация (2FA): пароль + код на телефоне.\n• Своевременно обновляйте программы.\n• Не переходите по незнакомым ссылкам; проверяйте адрес сайта и https.\n• Никому не сообщайте пароль, даже «службе поддержки»."
+        }},
+        {"type": "example", "text": {
+          "tk": "Siz hat aldyňyz: «Hasabyňyz bloklandy! 24 sagadyň içinde şu ýerde parolyňyzy giriziň: bank-secure-login.xyz».\nBarlaýarys:\n1) Gyssagly howp salmak — fişingiň adaty alamaty.\n2) Salgy bankyň resmi domeni däl.\n3) Hakyky banklar paroly hat arkaly soramaýar.\nNetije: bu fişing. Salgylanma basmaň, haty pozuň we bank bilen resmi telefon arkaly habarlaşyň.",
+          "ru": "Вам пришло письмо: «Ваш аккаунт заблокирован! В течение 24 часов введите пароль здесь: bank-secure-login.xyz».\nПроверяем:\n1) Срочность и угрозы — типичный признак фишинга.\n2) Адрес не является официальным доменом банка.\n3) Настоящие банки не просят пароль по почте.\nВывод: это фишинг. Не переходите по ссылке, удалите письмо и свяжитесь с банком по официальному телефону."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Haýsy parol iň ygtybarly?", "ru": "Какой пароль самый надёжный?"},
+          "options": ["123456789", "Aman2008", "Gök-Derýa!Kitap_47"],
+          "answer": 2,
+          "hint": {"tk": "Uzynlygy we nyşanlaryň dürlüligi möhüm.", "ru": "Важны длина и разнообразие символов."},
+          "explain": {"tk": "Uzyn, uly-kiçi harplar, belgiler we sanlar bar, şahsy maglumat ýok.", "ru": "Длинный, есть заглавные и строчные буквы, знаки и цифры, нет личных данных."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Iki faktorly tassyklama paroly ogurlansa-da hasaby goramaga kömek edýär.", "ru": "Двухфакторная аутентификация помогает защитить аккаунт, даже если пароль украден."},
+          "answer": true,
+          "hint": {"tk": "Hüjümçä paroldan başga näme gerek bolar?", "ru": "Что, кроме пароля, понадобится злоумышленнику?"},
+          "explain": {"tk": "Girmek üçin telefondaky kod hem gerek, hüjümçide ol ýok.", "ru": "Для входа нужен ещё код с телефона, которого у злоумышленника нет."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Faýllaryňyzy şifrläp, açmak üçin pul talap edýän programma nähili atlandyrylýar?", "ru": "Как называется программа, которая шифрует ваши файлы и требует деньги за расшифровку?"},
+          "options": [
+            {"tk": "Antiwirus", "ru": "Антивирус"},
+            {"tk": "Şantaž programmasy (ransomware)", "ru": "Программа-вымогатель (ransomware)"},
+            {"tk": "Brauzer", "ru": "Браузер"}
+          ],
+          "answer": 1,
+          "hint": {"tk": "«Ransom» — iňlisçe «töleg (girew üçin)».", "ru": "«Ransom» по-английски — «выкуп»."},
+          "explain": {"tk": "Ransomware faýllary şifrläp, töleg talap edýär. Garşy iň gowy gorag — ätiýaçlyk nusgalar.", "ru": "Ransomware шифрует файлы и требует выкуп. Лучшая защита — резервные копии."}
+        },
+        {"type": "input",
+          "q": {"tk": "Bu sapakda maslahat berlen parolyň iň az uzynlygy näçe nyşan?", "ru": "Какая минимальная длина пароля рекомендована в этом уроке (в символах)?"},
+          "answer": "12",
+          "hint": {"tk": "Nazaryýet bölegine serediň.", "ru": "Посмотрите в теории."},
+          "explain": {"tk": "Azyndan 12 nyşan — uzyn parol saýlap tapmak has kyn.", "ru": "Не меньше 12 символов — длинный пароль гораздо труднее подобрать."}
+        },
+        {"type": "world", "text": {
+          "tk": "2017-nji ýylda WannaCry şantaž programmasy birnäçe günüň dowamynda 150-den gowrak ýurtda ýüz müňlerçe kompýuteri ýokaşdyrdy. Ol Windows-yň köne, täzelenmedik görnüşlerindäki gowşaklygy ulanýardy — bu programmalary wagtynda täzelemegiň näderejede möhümdigini görkezýär.",
+          "ru": "В 2017 году программа-вымогатель WannaCry за несколько дней заразила сотни тысяч компьютеров более чем в 150 странах. Она использовала уязвимость в необновлённых версиях Windows — это показывает, как важно вовремя обновлять программы."
+        }}
+      ]
+    }
+  ]
+}

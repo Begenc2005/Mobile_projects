@@ -1,0 +1,282 @@
+{
+  "grade": 12,
+  "subject": "turkmen",
+  "lessons": [
+    {
+      "id": "turkmen-12-language-history",
+      "grade": 12,
+      "topic": 0,
+      "title": {"tk": "Türkmen diliniň taryhy", "ru": "История туркменского языка"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Türkmen dili türki diller maşgalasynyň oguz toparyna degişli. Bu topara türk, azerbaýjan we gagauz dilleri hem girýär.\n\nEsasy döwürler:\n• Gadymy türki döwür (VI–X asyrlar): Orhon-Ýeniseý ýazgylary.\n• Gadymy oguz döwri: XI asyrda Mahmyt Kaşgarlynyň «Diwanu lugat at-türk» sözlüginde oguz-türkmen sözleri we aýratynlyklary beýan edilýär.\n• Klassyky türkmen edebi dili (XVIII–XIX asyrlar): Magtymguly, Andalyp, Seýdi, Zelili, Kemine.\n• XX asyr — häzirki döwür: edebi diliň kadalaşmagy.\n\nÝazuw: arap elipbiýi (1928-nji ýyla çenli), latyn (1928–1940), kiril (1940–1993), täze latyn elipbiýi (1993-nji ýyldan).",
+          "ru": "Туркменский язык относится к огузской группе тюркской языковой семьи. В эту группу входят также турецкий, азербайджанский и гагаузский языки.\n\nОсновные периоды:\n• Древнетюркский (VI–X вв.): орхоно-енисейские надписи.\n• Древнеогузский: в XI веке Махмуд Кашгари в словаре «Диван лугат ат-тюрк» описывает огузско-туркменские слова и особенности.\n• Классический туркменский литературный язык (XVIII–XIX вв.): Махтумкули, Андалиб, Сейди, Зелили, Кемине.\n• XX век — наши дни: нормализация литературного языка.\n\nПисьменность: арабская графика (до 1928 г.), латиница (1928–1940), кириллица (1940–1993), новый латинский алфавит (с 1993 г.)."}},
+        {"type": "example", "text": {
+          "tk": "Bir sözüň ýazuw taryhyna serediň — «kitap»:\n\n1) Arap elipbiýinde: كتاب — sagdan çepe ýazylýar, gysga çekimliler köplenç görkezilmeýär.\n2) Kiril elipbiýinde: «китап».\n3) Häzirki latyn elipbiýinde: «kitap».\n\nTürkmen diliniň özboluşly aýratynlygy — uzyn çekimliler: «at» (ady, uzyn a:) we «at» (haýwan, gysga a). Ýazuwda olar birmeňzeş, ýöne aýdylyşy tapawutly.",
+          "ru": "Посмотрим на историю записи одного слова — «kitap» (книга):\n\n1) Арабской графикой: كتاب — пишется справа налево, краткие гласные обычно не обозначаются.\n2) Кириллицей: «китап».\n3) Современной латиницей: «kitap».\n\nОсобенность туркменского — долгие гласные: «at» (имя, долгое a:) и «at» (лошадь, краткое a). На письме они одинаковы, но произносятся по-разному."}},
+        {"type": "choice",
+          "q": {"tk": "Türkmen dili türki dilleriň haýsy toparyna degişli?", "ru": "К какой группе тюркских языков относится туркменский?"},
+          "options": [
+            {"tk": "Gypjak", "ru": "Кыпчакская"},
+            {"tk": "Garluk", "ru": "Карлукская"},
+            {"tk": "Oguz", "ru": "Огузская"}
+          ],
+          "answer": 2,
+          "hint": {"tk": "Türk we azerbaýjan dilleri hem şu topara girýär.", "ru": "Турецкий и азербайджанский тоже входят в эту группу."},
+          "explain": {"tk": "Türkmen dili türk, azerbaýjan we gagauz dilleri bilen bilelikde oguz toparyna girýär. Gazak we gyrgyz — gypjak, özbek we uýgur — garluk toparyndan.", "ru": "Туркменский вместе с турецким, азербайджанским и гагаузским входит в огузскую группу. Казахский и киргизский — кыпчакские, узбекский и уйгурский — карлукские."}},
+        {"type": "input",
+          "q": {"tk": "Türkmenistanda täze latyn elipbiýi haýsy ýylda kabul edildi?", "ru": "В каком году в Туркменистане был принят новый латинский алфавит?"},
+          "answer": "1993",
+          "hint": {"tk": "Kiril elipbiýi 1940-njy ýyldan şu ýyla çenli ulanyldy.", "ru": "Кириллица использовалась с 1940 года до этого года."},
+          "explain": {"tk": "Täze türkmen latyn elipbiýi 1993-nji ýylda kabul edildi we soňra mekdeplerde tapgyrlaýyn ornaşdyryldy.", "ru": "Новый туркменский латинский алфавит был принят в 1993 году и затем поэтапно введён в школах."}},
+        {"type": "truefalse",
+          "q": {"tk": "Mahmyt Kaşgarlynyň «Diwanu lugat at-türk» sözlügi XI asyrda düzüldi.", "ru": "Словарь Махмуда Кашгари «Диван лугат ат-тюрк» был составлен в XI веке."},
+          "answer": true,
+          "hint": {"tk": "Ol Gadymy oguz döwrüniň esasy çeşmesi.", "ru": "Это главный источник древнеогузского периода."},
+          "explain": {"tk": "Dogry: sözlük 1070-nji ýyllarda arap dilinde düzüldi we türki halklaryň, şol sanda oguzlaryň dili barada gymmatly maglumat berýär.", "ru": "Верно: словарь составлен в 1070-х годах на арабском языке и содержит ценные сведения о языках тюркских народов, в том числе огузов."}},
+        {"type": "choice",
+          "q": {"tk": "Türkmen dilinde kiril elipbiýi haýsy ýyllarda ulanyldy?", "ru": "В какие годы в туркменском языке использовалась кириллица?"},
+          "options": ["1928–1940", "1940–1993", "1993–2000"],
+          "answer": 1,
+          "hint": {"tk": "Ondan öň gysga wagt latyn elipbiýi ulanyldy.", "ru": "Перед этим недолго использовалась латиница."},
+          "explain": {"tk": "1928–1940 — birinji latyn elipbiýi, 1940–1993 — kiril, 1993-den — täze latyn elipbiýi.", "ru": "1928–1940 — первая латиница, 1940–1993 — кириллица, с 1993 — новая латиница."}},
+        {"type": "world", "text": {
+          "tk": "Dilçiler türkmen dilini aýratyn gymmatly hasaplaýarlar: ol gadymy türki dildäki asyl uzyn çekimlileri häzire çenli saklan az sanly dilleriň biri. Şonuň üçin türki dilleriň gadymy sesleriniň dikeldilmeginde türkmen, ýakut we halaç dilleriniň maglumatlary esasy delil hökmünde ulanylýar.",
+          "ru": "Лингвисты считают туркменский особенно ценным: это один из немногих языков, сохранивших до наших дней первичные долгие гласные древнетюркского. Поэтому при реконструкции древнего звучания тюркских языков главными свидетельствами служат данные туркменского, якутского и халаджского языков."}}
+      ]
+    },
+    {
+      "id": "turkmen-12-old-turkic-inscriptions",
+      "grade": 12,
+      "topic": 1,
+      "title": {"tk": "Gadymy türki ýazgylar", "ru": "Древнетюркские надписи"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Gadymy türki (Orhon-Ýeniseý) ýazgylary — türki dilleriň iň gadymy uly ýazuw ýadygärlikleri.\n\n• Orhon ýazgylary häzirki Mongoliýada, Orhon derýasynyň jülgesinde ýerleşýär: Tonýukuk ýadygärligi (VIII asyryň başy), Kül-tegin (732) we Bilge-kagan (735) daşlary.\n• Ýeniseý ýazgylary Sibirde, Ýeniseý derýasynyň ýakasynda tapyldy.\n• Ýazuw runa görnüşli: takmynan 38 harp, sagdan çepe ýazylýar, sözler iki nokat bilen bölünýär.\n• 1889-njy ýylda N. Ýadrinsew Orhon ýazgylaryny tapdy, 1893-nji ýylda daniýaly alym Wilhelm Tomsen ony okady.",
+          "ru": "Древнетюркские (орхоно-енисейские) надписи — древнейшие крупные письменные памятники тюркских языков.\n\n• Орхонские надписи находятся в современной Монголии, в долине реки Орхон: памятник Тоньюкуку (начало VIII в.), стелы Кюль-тегину (732) и Бильге-кагану (735).\n• Енисейские надписи найдены в Сибири, у реки Енисей.\n• Письмо рунического типа: около 38 знаков, пишется справа налево, слова разделяются двумя точками.\n• В 1889 году Н. Ядринцев обнаружил орхонские надписи, а в 1893 году датский учёный Вильгельм Томсен их расшифровал."}},
+        {"type": "example", "text": {
+          "tk": "Ýazgylardaky käbir sözler häzirki türkmen dilinde düşnükli:\n\n• täŋri → Taňry (asman, hudaý)\n• türk → türk\n• kagan → han\n• bilge → bilgiç, akylly\n• suw → suw\n\nKül-tegin daşynda Bilge-kagan öz halkyna ýüzlenip, ata-babalaryň taryhyny, ýeňişleri we ýalňyşlyklary gürrüň berýär. Bu metin taryhy çeşme hem, çeper ýadygärlik hem.",
+          "ru": "Некоторые слова из надписей понятны и в современном туркменском:\n\n• täŋri → Taňry (небо, божество)\n• türk → türk\n• kagan → han (хан)\n• bilge → bilgiç (мудрый)\n• suw → suw (вода)\n\nНа стеле Кюль-тегина Бильге-каган обращается к народу, рассказывает историю предков, их победы и ошибки. Этот текст — и исторический источник, и художественный памятник."}},
+        {"type": "choice",
+          "q": {"tk": "Orhon ýazgylaryny kim okady (deşifrläp)?", "ru": "Кто расшифровал орхонские надписи?"},
+          "options": [
+            {"tk": "Wilhelm Tomsen", "ru": "Вильгельм Томсен"},
+            {"tk": "Mahmyt Kaşgarly", "ru": "Махмуд Кашгари"},
+            {"tk": "Žan-Fransua Şampolýon", "ru": "Жан-Франсуа Шампольон"}
+          ],
+          "answer": 0,
+          "hint": {"tk": "Ol 1893-nji ýylda Daniýada çykyş etdi.", "ru": "Он выступил с этим в Дании в 1893 году."},
+          "explain": {"tk": "Daniýaly dilçi Wilhelm Tomsen 1893-nji ýylda ýazgylary okady. Şampolýon Müsür ierogliflerini okady, Kaşgarly bolsa XI asyrda ýaşapdyr.", "ru": "Датский лингвист Вильгельм Томсен расшифровал надписи в 1893 году. Шампольон расшифровал египетские иероглифы, а Кашгари жил в XI веке."}},
+        {"type": "truefalse",
+          "q": {"tk": "Gadymy türki runa ýazuwy çepden saga ýazylýar.", "ru": "Древнетюркское руническое письмо пишется слева направо."},
+          "answer": false,
+          "hint": {"tk": "Arap ýazuwyny ýadyňyza salyň.", "ru": "Вспомните арабское письмо."},
+          "explain": {"tk": "Nädogry: runa ýazuwy, arap ýazuwy ýaly, sagdan çepe ýazylýar.", "ru": "Неверно: руническое письмо, как и арабское, пишется справа налево."}},
+        {"type": "input",
+          "q": {"tk": "Kül-tegin ýadygärligi haýsy ýylda dikeldildi?", "ru": "В каком году был установлен памятник Кюль-тегину?"},
+          "answer": "732",
+          "hint": {"tk": "Bilge-kagan ýadygärliginden üç ýyl öň.", "ru": "За три года до памятника Бильге-кагану (735)."},
+          "explain": {"tk": "Kül-tegin daşy 732-nji ýylda, Bilge-kagan daşy 735-nji ýylda dikeldildi.", "ru": "Стела Кюль-тегину установлена в 732 году, стела Бильге-кагану — в 735 году."}},
+        {"type": "choice",
+          "q": {"tk": "Orhon ýazgylary häzirki haýsy ýurduň çäginde ýerleşýär?", "ru": "На территории какой современной страны находятся орхонские надписи?"},
+          "options": [
+            {"tk": "Gazagystan", "ru": "Казахстан"},
+            {"tk": "Mongoliýa", "ru": "Монголия"},
+            {"tk": "Türkiýe", "ru": "Турция"}
+          ],
+          "answer": 1,
+          "hint": {"tk": "Orhon derýasy Merkezi Aziýanyň gündogarynda akýar.", "ru": "Река Орхон течёт на востоке Центральной Азии."},
+          "explain": {"tk": "Orhon derýasy Mongoliýada, ýazgylar hem şol ýerde, Kül-tegin we Bilge-kagan daşlary häzir muzeýde saklanýar.", "ru": "Река Орхон находится в Монголии, там же и надписи; стелы Кюль-тегина и Бильге-кагана сейчас хранятся в музее."}},
+        {"type": "world", "text": {
+          "tk": "Wilhelm Tomsen açyşyny 1893-nji ýylyň 15-nji dekabrynda Daniýanyň Korol ylymlar akademiýasynda yglan etdi. Ilkinji okan sözleri «täŋri» (Taňry) we «türk» boldy. Orhon ýazgylary häzir UNESKO-nyň Bütindünýä mirasynyň sanawyna girýän Orhon jülgesiniň medeni landşaftynyň bir bölegi.",
+          "ru": "Вильгельм Томсен объявил о своём открытии 15 декабря 1893 года в Датской королевской академии наук. Первыми прочитанными словами были «täŋri» (Небо) и «türk». Сегодня орхонские надписи — часть культурного ландшафта долины Орхона, внесённого в список Всемирного наследия ЮНЕСКО."}}
+      ]
+    },
+    {
+      "id": "turkmen-12-language-norms",
+      "grade": 12,
+      "topic": 2,
+      "title": {"tk": "Häzirki edebi diliň kadalary", "ru": "Нормы современного литературного языка"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Edebi diliň kadasy — sözleri dogry aýtmagyň, ýazmagyň we ulanmagyň umumy kabul edilen düzgünleri.\n\n• Orfografik (dürs ýazuw) kadalary: sözleriň dogry ýazylyşy.\n• Orfoepik (dürs aýdylyş) kadalary: uzyn çekimlileri we sesleriň gabat gelşini dogry aýtmak.\n• Leksik kadalar: sözi dogry manyda ulanmak.\n• Grammatik kadalar: goşulmalary we söz düzümlerini dogry ulanmak.\n\nEsasy düzgünler:\n• Çekimlileriň sazlaşygy: ýogyn sözlere ýogyn, inçe sözlere inçe goşulma goşulýar (kitap-lar, depder-ler).\n• Sözüň ahyryndaky p, ç, t, k çekimli bilen başlanýan goşulmadan öň köplenç b, j, d, g/ň bolýar: kitap → kitaby, agaç → agajy, ýürek → ýüregi.",
+          "ru": "Норма литературного языка — общепринятые правила произношения, написания и употребления слов.\n\n• Орфографические нормы: правильное написание.\n• Орфоэпические нормы: правильное произношение долгих гласных и сочетаний звуков.\n• Лексические нормы: употребление слова в верном значении.\n• Грамматические нормы: правильное использование аффиксов и словосочетаний.\n\nОсновные правила:\n• Сингармонизм: к словам заднего ряда присоединяются аффиксы заднего ряда, к словам переднего ряда — переднего (kitap-lar, depder-ler).\n• Конечные p, ç, t, k перед аффиксом, начинающимся с гласной, обычно переходят в b, j, d, g/ň: kitap → kitaby, agaç → agajy, ýürek → ýüregi."}},
+        {"type": "example", "text": {
+          "tk": "Sözlemi kadalara görä düzedeliň: «Men kitapy mekdepda okadym.»\n\n1) «kitapy» → p çekimliden öň b bolýar: «kitaby».\n2) «mekdepda» → «mekdep» inçe söz, diýmek inçe goşulma: «mekdepde».\n3) Dogry görnüşi: «Men kitaby mekdepde okadym.»\n\nOrfoepiýa: «ot» (ösümlik, uzyn o:) we «ot» (ýangyn, gysga o) birmeňzeş ýazylýar, ýöne dürli aýdylýar — kontekstden tapawutlandyrýarys.",
+          "ru": "Исправим предложение по нормам: «Men kitapy mekdepda okadym.»\n\n1) «kitapy» → p перед гласной переходит в b: «kitaby».\n2) «mekdepda» → «mekdep» — слово переднего ряда, значит аффикс переднего ряда: «mekdepde».\n3) Правильно: «Men kitaby mekdepde okadym.» (Я читал книгу в школе.)\n\nОрфоэпия: «ot» (трава, долгое o:) и «ot» (огонь, краткое o) пишутся одинаково, но произносятся по-разному — различаем по контексту."}},
+        {"type": "input",
+          "q": {"tk": "«ýürek» sözüne I ýöňkemäniň degişlilik goşulmasyny goşuň (meniň ...).", "ru": "Добавьте к слову «ýürek» аффикс принадлежности 1-го лица ед. ч. (моё ...)."},
+          "answer": "ýüregim",
+          "hint": {"tk": "Ahyrky k çekimliden öň nähili üýtgeýär?", "ru": "Как меняется конечное k перед гласной?"},
+          "explain": {"tk": "ýürek + -im → k g-ä öwrülýär: ýüregim.", "ru": "ýürek + -im → k переходит в g: ýüregim."}},
+        {"type": "choice",
+          "q": {"tk": "Haýsy söz dogry ýazylan?", "ru": "Какое слово написано правильно?"},
+          "options": ["depderlar", "agajy", "kitapler"],
+          "answer": 1,
+          "hint": {"tk": "Çekimlileriň sazlaşygyny we ahyrky dymyklaryň üýtgeýşini barlaň.", "ru": "Проверьте сингармонизм и чередование конечных согласных."},
+          "explain": {"tk": "agaç + -y → agajy (ç → j). «depderlar» we «kitapler» çekimlileriň sazlaşygyny bozýar: dogrusy depderler, kitaplar.", "ru": "agaç + -y → agajy (ç → j). «depderlar» и «kitapler» нарушают сингармонизм: правильно depderler, kitaplar."}},
+        {"type": "truefalse",
+          "q": {"tk": "Türkmen ýazuwynda uzyn çekimliler aýratyn harplar bilen belgilenýär.", "ru": "В туркменском письме долгие гласные обозначаются особыми буквами."},
+          "answer": false,
+          "hint": {"tk": "«at» (ady) we «at» (haýwan) nähili ýazylýar?", "ru": "Как пишутся «at» (имя) и «at» (лошадь)?"},
+          "explain": {"tk": "Nädogry: uzyn we gysga çekimliler birmeňzeş harp bilen ýazylýar, tapawut diňe aýdylyşda. («ä» harpy aýratyn çekimli ses, uzynlyk belgisi däl.)", "ru": "Неверно: долгие и краткие гласные пишутся одной буквой, разница только в произношении. (Буква «ä» — отдельный гласный звук, а не знак долготы.)"}},
+        {"type": "choice",
+          "q": {"tk": "Haýsy sözlemde leksik kada bozulýar?", "ru": "В каком предложении нарушена лексическая норма?"},
+          "options": [
+            {"tk": "Ol öz pikirini aýtdy.", "ru": "Ol öz pikirini aýtdy. (Он высказал своё мнение.)"},
+            {"tk": "Biz täze kitap satyn aldyk.", "ru": "Biz täze kitap satyn aldyk. (Мы купили новую книгу.)"},
+            {"tk": "Ol öz awtobiografiýasyny öz eli bilen ýazdy.", "ru": "Ol öz awtobiografiýasyny öz eli bilen ýazdy. (Он написал свою автобиографию сам.)"}
+          ],
+          "answer": 2,
+          "hint": {"tk": "«Awto-» bölegi eýýäm «öz» manysyny berýär.", "ru": "Часть «авто-» уже означает «сам»."},
+          "explain": {"tk": "«Awtobiografiýa» — adamyň öz durmuşy hakda özüniň ýazany. «Öz awtobiografiýasy» artykmaç gaýtalama (pleonazm). Dogrusy: «Ol awtobiografiýasyny ýazdy».", "ru": "«Автобиография» — описание собственной жизни, написанное самим человеком. «Своя автобиография» — лишний повтор (плеоназм). Правильно: «Ol awtobiografiýasyny ýazdy»."}},
+        {"type": "world", "text": {
+          "tk": "Çekimlileriň sazlaşygy (singarmonizm) diňe türki dillerde däl, eýsem fin, wenger we mongol dillerinde hem bar. Bu düzgün aýdylyşy ýeňilleşdirýär: dil sözüň başyndan ahyryna çenli bir ýagdaýda galýar. Dilçiler ony dünýä dilleriniň iň gyzykly fonetik hadysalarynyň biri hökmünde öwrenýärler.",
+          "ru": "Сингармонизм есть не только в тюркских языках, но и в финском, венгерском и монгольском. Он облегчает произношение: язык сохраняет одно положение от начала до конца слова. Лингвисты изучают его как одно из самых интересных фонетических явлений языков мира."}}
+      ]
+    },
+    {
+      "id": "turkmen-12-research-paper",
+      "grade": 12,
+      "topic": 3,
+      "title": {"tk": "Ylmy iş ýazmak", "ru": "Как написать научную работу"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Ylmy iş — anyk soraga subutnamalar arkaly jogap berýän ýazuw. Onuň dili takyk, bitarap we gysga bolmaly.\n\nKöp ylmy makalalar IMRaD gurluşyna eýerýär:\n• Giriş (Introduction): mesele, onuň wajyplygy, maksat we gipoteza.\n• Usullar (Methods): näme we nähili edildi — başga biri gaýtalap bilmeli.\n• Netijeler (Results): alnan maglumatlar, tablisalar, grafikler.\n• Ara alyp maslahatlaşmak (Discussion): netijeleriň manysy, çäklendirmeler, geljek işler.\n\nMundan başga: at, annotasiýa (gysga mazmun), açar sözler, edebiýat sanawy. Başgalaryň pikirini hökman çeşmesi bilen getirmeli, ýogsa bu plagiat.",
+          "ru": "Научная работа — текст, отвечающий на конкретный вопрос с помощью доказательств. Её язык должен быть точным, нейтральным и сжатым.\n\nМногие научные статьи следуют структуре IMRaD:\n• Введение (Introduction): проблема, её актуальность, цель и гипотеза.\n• Методы (Methods): что и как сделано — так, чтобы другой мог повторить.\n• Результаты (Results): полученные данные, таблицы, графики.\n• Обсуждение (Discussion): смысл результатов, ограничения, дальнейшая работа.\n\nКроме того: название, аннотация (краткое содержание), ключевые слова, список литературы. Чужие мысли обязательно приводятся со ссылкой на источник, иначе это плагиат."}},
+        {"type": "example", "text": {
+          "tk": "Mekdep ylmy işiniň meýilnamasy:\n\nAt: «Okuwçylaryň uky wagty we synag netijeleri»\n1) Giriş: Sorag — köp uklaýan okuwçylar synaglarda has gowy netije görkezýärmi? Gipoteza: hawa.\n2) Usullar: 60 okuwçy bir hepde uky wagtyny ýazdy; netijeler matematika synagy bilen deňeşdirildi.\n3) Netijeler: 8 sagatdan köp uklaýanlaryň orta bahasy has ýokary boldy (tablisa 1).\n4) Ara alyp maslahatlaşmak: baglanyşyk bar, ýöne bu sebäp-netije subutnamasy däl; saýlama kiçi.\n5) Edebiýat: ulanylan ähli çeşmeler bir standartda (mysal üçin APA) görkezilýär.",
+          "ru": "План школьной научной работы:\n\nНазвание: «Время сна учащихся и результаты контрольных»\n1) Введение: Вопрос — лучше ли пишут контрольные те, кто больше спит? Гипотеза: да.\n2) Методы: 60 учеников неделю записывали время сна; результаты сравнили с контрольной по математике.\n3) Результаты: у спавших больше 8 часов средний балл выше (таблица 1).\n4) Обсуждение: связь есть, но это не доказательство причинности; выборка мала.\n5) Литература: все источники оформлены по одному стандарту (например, APA)."}},
+        {"type": "choice",
+          "q": {"tk": "Gipoteza ylmy işiň haýsy böleginde aýdylýar?", "ru": "В какой части научной работы формулируется гипотеза?"},
+          "options": [
+            {"tk": "Netijelerde", "ru": "В результатах"},
+            {"tk": "Edebiýat sanawynda", "ru": "В списке литературы"},
+            {"tk": "Girişde", "ru": "Во введении"}
+          ],
+          "answer": 2,
+          "hint": {"tk": "Barlag başlamazdan öň näme garaşýandygyňyzy aýdýarsyňyz.", "ru": "Вы говорите, чего ожидаете, ещё до начала исследования."},
+          "explain": {"tk": "Gipoteza girişde mesele we maksat bilen bilelikde aýdylýar, soňra netijeler ony tassyklaýar ýa-da ret edýär.", "ru": "Гипотеза формулируется во введении вместе с проблемой и целью, а результаты затем её подтверждают или опровергают."}},
+        {"type": "input",
+          "q": {"tk": "IMRaD gurluşy näçe esasy bölekden ybarat?", "ru": "Из скольких основных частей состоит структура IMRaD?"},
+          "answer": "4",
+          "hint": {"tk": "Baş harplary sanaň: I, M, R, D.", "ru": "Посчитайте заглавные буквы: I, M, R, D."},
+          "explain": {"tk": "Dört bölek: Introduction, Methods, Results, Discussion («a» — «and» baglaýjysy).", "ru": "Четыре части: Introduction, Methods, Results, Discussion («a» — союз «and»)."}},
+        {"type": "truefalse",
+          "q": {"tk": "Başga awtoryň pikirini öz sözleriň bilen gaýtalasaň, çeşmäni görkezmek hökman däl.", "ru": "Если пересказать мысль другого автора своими словами, источник указывать не обязательно."},
+          "answer": false,
+          "hint": {"tk": "Pikir kimiňki?", "ru": "Чья это мысль?"},
+          "explain": {"tk": "Nädogry: pikir başga birine degişli bolsa, gönüden-göni sitata bolmasa-da, çeşme hökman görkezilmeli. Ýogsa bu plagiat.", "ru": "Неверно: если идея принадлежит другому, источник указывается даже при пересказе. Иначе это плагиат."}},
+        {"type": "choice",
+          "q": {"tk": "Ylmy iş üçin haýsy sözlem has laýyk?", "ru": "Какое предложение больше подходит для научной работы?"},
+          "options": [
+            {"tk": "Netijeler 60 okuwçynyň 42-siniň bahasynyň ýokarlanandygyny görkezdi.", "ru": "Результаты показали, что у 42 из 60 учеников оценка повысилась."},
+            {"tk": "Netijeler ajaýyp boldy, hemmeler gaty begendi!", "ru": "Результаты были потрясающими, все очень обрадовались!"},
+            {"tk": "Meniň pikirimçe, belki, bir zat üýtgän bolsa gerek.", "ru": "По-моему, может быть, что-то, наверное, изменилось."}
+          ],
+          "answer": 0,
+          "hint": {"tk": "Ylmy dil takyk we bitarap.", "ru": "Научный язык точен и нейтрален."},
+          "explain": {"tk": "Birinji sözlemde anyk san we bitarap äheň bar. Beýlekiler duýgy ýa-da näbellilik bildirýär.", "ru": "В первом предложении точные цифры и нейтральный тон. Остальные выражают эмоции или неопределённость."}},
+        {"type": "world", "text": {
+          "tk": "Dünýäde ilkinji ylmy žurnallar 1665-nji ýylda peýda boldy: ýanwarda Parižde «Journal des sçavans», martda Londonda Korol jemgyýetiniň «Philosophical Transactions» žurnaly. Soňkusy häzir hem neşir edilýär we dünýäniň iň uzak wagt çykýan ylmy žurnaly hasaplanýar.",
+          "ru": "Первые научные журналы появились в 1665 году: в январе в Париже — «Journal des sçavans», в марте в Лондоне — «Philosophical Transactions» Королевского общества. Последний выходит до сих пор и считается старейшим из непрерывно издающихся научных журналов мира."}}
+      ]
+    },
+    {
+      "id": "turkmen-12-debate-speech",
+      "grade": 12,
+      "topic": 4,
+      "title": {"tk": "Jedel we köpçülik öňünde çykyş", "ru": "Дебаты и публичное выступление"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Çykyşyň gurluşy:\n• Giriş: ünsi çekmek (sorag, gyzykly fakt), tema we esasy pikir (tezis).\n• Esasy bölek: 2–3 delil, her biri subutnama (san, mysal, bilermeniň pikiri) bilen.\n• Jemleme: tezisi gaýtalamak we diňleýjä ýüzlenme.\n\nAristotel ynandyrmagyň üç usulyny görkezipdir:\n• Etos — gürleýjiniň ygtybarlylygy.\n• Patos — diňleýjiniň duýgularyna täsir.\n• Logos — logika we subutnamalar.\n\nJedelde garşydaşyň delillerine jogap bermeli, şahsyýetine däl. Logiki ýalňyşlyklardan gaça duruň: ad hominem (adama hüjüm), «sypal adam» (garşydaşyň pikirini ýoýup, soň ony ret etmek), ýalňyş saýlaw (diňe iki ýol bar diýmek).",
+          "ru": "Структура выступления:\n• Вступление: привлечь внимание (вопрос, интересный факт), тема и главная мысль (тезис).\n• Основная часть: 2–3 аргумента, каждый с доказательством (цифры, пример, мнение эксперта).\n• Заключение: повтор тезиса и обращение к слушателям.\n\nАристотель выделил три способа убеждения:\n• Этос — авторитет говорящего.\n• Пафос — воздействие на чувства слушателей.\n• Логос — логика и доказательства.\n\nВ дебатах отвечают на аргументы оппонента, а не на его личность. Избегайте логических ошибок: ad hominem (переход на личность), «соломенное чучело» (искажение позиции оппонента, чтобы её опровергнуть), ложная дилемма (утверждение, что есть только два варианта)."}},
+        {"type": "example", "text": {
+          "tk": "Tema: «Mekdepde mugt internet zerurmy?» — Tarapdar çykyşy:\n\n1) Giriş: «Siz soňky gezek kitaphanada maglumat gözlände näçe wagt sarp etdiňiz?»\n2) Tezis: «Mekdepde mugt internet okuwy has netijeli eder.»\n3) Delil 1 (logos): onlaýn sözlükler we ylmy bazalar taýýarlyk wagtyny gysgaldýar.\n4) Delil 2 (etos): mugallymlar sapaklarda wideo we interaktiw materiallary ulanyp bilerler.\n5) Garşy delile jogap: «Okuwçylar ünsüni ýitirer diýýärler — ýöne süzgüçler we düzgünler bu meseläni çözýär.»\n6) Jemleme (patos): «Biz geljek nesle döwrebap mümkinçilik bermeli.»",
+          "ru": "Тема: «Нужен ли в школе бесплатный интернет?» — выступление стороны «за»:\n\n1) Вступление: «Сколько времени вы потратили в последний раз на поиск информации в библиотеке?»\n2) Тезис: «Бесплатный интернет в школе сделает учёбу эффективнее.»\n3) Аргумент 1 (логос): онлайн-словари и научные базы сокращают время подготовки.\n4) Аргумент 2 (этос): учителя смогут использовать на уроках видео и интерактивные материалы.\n5) Ответ на контраргумент: «Говорят, что ученики будут отвлекаться, — но фильтры и правила решают эту проблему.»\n6) Заключение (пафос): «Мы должны дать следующему поколению современные возможности.»"}},
+        {"type": "choice",
+          "q": {"tk": "Aristoteliň ynandyrma usullarynyň haýsysy logika we subutnamalara esaslanýar?", "ru": "Какой из способов убеждения по Аристотелю основан на логике и доказательствах?"},
+          "options": [
+            {"tk": "Patos", "ru": "Пафос"},
+            {"tk": "Logos", "ru": "Логос"},
+            {"tk": "Etos", "ru": "Этос"}
+          ],
+          "answer": 1,
+          "hint": {"tk": "«Logika» sözi şu grek sözünden gelýär.", "ru": "Слово «логика» происходит от этого греческого слова."},
+          "explain": {"tk": "Logos — delil we logika; patos — duýgy; etos — gürleýjiniň ygtybarlylygy.", "ru": "Логос — доводы и логика; пафос — чувства; этос — авторитет говорящего."}},
+        {"type": "truefalse",
+          "q": {"tk": "«Onuň pikiri nädogry, sebäbi ol entek ýaş» — bu ad hominem ýalňyşlygy.", "ru": "«Его мнение неверно, потому что он ещё молод» — это ошибка ad hominem."},
+          "answer": true,
+          "hint": {"tk": "Bu ýerde delile garşy çykylýarmy ýa adama?", "ru": "Здесь возражают против аргумента или против человека?"},
+          "explain": {"tk": "Dogry: delil seredilmeýär, diňe gürleýjiniň ýaşy tankyt edilýär. Bu adama hüjüm — ad hominem.", "ru": "Верно: аргумент не рассматривается, критикуется лишь возраст говорящего. Это переход на личность — ad hominem."}},
+        {"type": "choice",
+          "q": {"tk": "«Ýa-ha biz ähli ulaglary gadagan etmeli, ýa-da howa hapalanar» — bu nähili ýalňyşlyk?", "ru": "«Либо мы запретим весь транспорт, либо воздух будет загрязнён» — какая это ошибка?"},
+          "options": [
+            {"tk": "Ýalňyş saýlaw (ýalan dilemma)", "ru": "Ложная дилемма"},
+            {"tk": "Ad hominem", "ru": "Ad hominem"},
+            {"tk": "Bu ýalňyşlyk däl", "ru": "Это не ошибка"}
+          ],
+          "answer": 0,
+          "hint": {"tk": "Başga ýollar barmy? Mysal üçin, elektrik ulaglary.", "ru": "Есть ли другие варианты? Например, электротранспорт."},
+          "explain": {"tk": "Diňe iki ýol bar diýlip görkezilýär, ýöne başga çözgütler hem bar (arassa ulag, süzgüçler). Bu ýalan dilemma.", "ru": "Утверждается, что есть лишь два пути, хотя существуют и другие решения (чистый транспорт, фильтры). Это ложная дилемма."}},
+        {"type": "input",
+          "q": {"tk": "Britan parlament jedelinde 4 topar, her toparda 2 gürleýji bar. Jemi näçe gürleýji çykyş edýär?", "ru": "В британских парламентских дебатах 4 команды по 2 спикера. Сколько всего выступающих?"},
+          "answer": "8",
+          "hint": {"tk": "4 · 2.", "ru": "4 · 2."},
+          "explain": {"tk": "4 topar × 2 gürleýji = 8 gürleýji: iki topar hökümet, iki topar oppozisiýa tarapynda.", "ru": "4 команды × 2 спикера = 8 выступающих: две команды за правительство, две — за оппозицию."}},
+        {"type": "world", "text": {
+          "tk": "Aristoteliň «Ritorika» eseri biziň eramyzdan öňki IV asyrda ýazyldy we häzir hem köpçülik öňünde çykyş etmek boýunça esasy kitaplaryň biri. Onda beýan edilen etos, patos we logos düşünjeleri häzirki mahabatda, syýasy çykyşlarda we kazyýet sözlerinde hem ulanylýar.",
+          "ru": "«Риторика» Аристотеля написана в IV веке до н. э. и до сих пор остаётся одной из главных книг об ораторском искусстве. Описанные в ней этос, пафос и логос используются и в современной рекламе, политических речах и выступлениях в суде."}}
+      ]
+    },
+    {
+      "id": "turkmen-12-syntax-review",
+      "grade": 12,
+      "topic": 5,
+      "title": {"tk": "Gaýtalamak: sintaksis", "ru": "Повторение: синтаксис"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Sintaksis söz düzümlerini we sözlemleri öwrenýär.\n\nSözlem agzalary:\n• Baş agzalar: eýe (kim? näme?) we habar (näme etdi? nähili?).\n• Ikinji derejeli agzalar: aýyrgyç (nähili? haýsy? kimiň?), doldurgyç (kime? nämäni? kimden?), hal (nirede? haçan? nähili? näme üçin?).\n\nTürkmen dilinde adaty söz tertibi: eýe — doldurgyç — habar; habar köplenç sözlemiň ahyrynda bolýar. Aýyrgyç aýyrýan sözünden öň gelýär.\n\nSözlem görnüşleri:\n• Sada sözlem — bir grammatik esas.\n• Goşma sözlem — iki we ondan köp grammatik esas:\n  – deňlenen goşma sözlem (bölekler deň: we, ýöne, emma, ýa-da);\n  – eýerjeňli goşma sözlem (baş sözlem we oňa garaşly eýerjeň sözlem).",
+          "ru": "Синтаксис изучает словосочетания и предложения.\n\nЧлены предложения:\n• Главные: подлежащее (eýe — кто? что?) и сказуемое (habar — что сделал? какой?).\n• Второстепенные: определение (aýyrgyç — какой? который? чей?), дополнение (doldurgyç — кому? что? от кого?), обстоятельство (hal — где? когда? как? почему?).\n\nОбычный порядок слов в туркменском: подлежащее — дополнение — сказуемое; сказуемое чаще всего в конце. Определение стоит перед определяемым словом.\n\nТипы предложений:\n• Простое — одна грамматическая основа.\n• Сложное — две и более основы:\n  – сложносочинённое (deňlenen; части равноправны: we, ýöne, emma, ýa-da);\n  – сложноподчинённое (eýerjeňli; главное и зависимое придаточное)."}},
+        {"type": "example", "text": {
+          "tk": "Sözlemi derňäliň: «Gyzykly kitaby Aýna irden kitaphanadan aldy.»\n\n• Aýna — eýe (kim?)\n• aldy — habar (näme etdi?)\n• kitaby — doldurgyç (nämäni?)\n• gyzykly — aýyrgyç (nähili kitaby?)\n• irden — wagt haly (haçan?)\n• kitaphanadan — orun haly (nireden?)\n\nGoşma sözlem: «Ýagyş ýagdy, ýöne biz gezelenje çykdyk.» — iki esas (ýagyş ýagdy; biz çykdyk), «ýöne» bilen birikýär → deňlenen goşma sözlem.\n«Sen gelseň, biz başlarys.» — «Sen gelseň» şert eýerjeň sözlem → eýerjeňli goşma sözlem.",
+          "ru": "Разберём предложение: «Gyzykly kitaby Aýna irden kitaphanadan aldy.» (Интересную книгу Айна утром взяла в библиотеке.)\n\n• Aýna — подлежащее (кто?)\n• aldy — сказуемое (что сделала?)\n• kitaby — дополнение (что?)\n• gyzykly — определение (какую книгу?)\n• irden — обстоятельство времени (когда?)\n• kitaphanadan — обстоятельство места (откуда?)\n\nСложное: «Ýagyş ýagdy, ýöne biz gezelenje çykdyk.» (Шёл дождь, но мы пошли гулять.) — две основы, союз «ýöne» → сложносочинённое.\n«Sen gelseň, biz başlarys.» (Если ты придёшь, мы начнём.) — «Sen gelseň» — придаточное условия → сложноподчинённое."}},
+        {"type": "choice",
+          "q": {"tk": "«Gyzyl alma stoluň üstünde dur» sözleminde aýyrgyç haýsy?", "ru": "Какое слово — определение в предложении «Gyzyl alma stoluň üstünde dur»?"},
+          "options": ["alma", "dur", "Gyzyl"],
+          "answer": 2,
+          "hint": {"tk": "«Nähili alma?» diýip soraň.", "ru": "Спросите: «Какое яблоко?»"},
+          "explain": {"tk": "«Gyzyl» — «nähili alma?» soragyna jogap berýär, diýmek aýyrgyç. «alma» — eýe, «dur» — habar.", "ru": "«Gyzyl» (красное) отвечает на вопрос «какое яблоко?» — это определение. «alma» — подлежащее, «dur» — сказуемое."}},
+        {"type": "truefalse",
+          "q": {"tk": "Türkmen dilinde habar adatça sözlemiň ahyrynda gelýär.", "ru": "В туркменском языке сказуемое обычно стоит в конце предложения."},
+          "answer": true,
+          "hint": {"tk": "Mysaldaky sözlemlere serediň: «aldy», «dur».", "ru": "Посмотрите на примеры: «aldy», «dur»."},
+          "explain": {"tk": "Dogry: türkmen dili, beýleki türki diller ýaly, «eýe — doldurgyç — habar» tertipli dil.", "ru": "Верно: туркменский, как и другие тюркские языки, имеет порядок «подлежащее — дополнение — сказуемое»."}},
+        {"type": "choice",
+          "q": {"tk": "«Gün dogdy we guşlar saýrap başlady» haýsy görnüşli sözlem?", "ru": "Каков тип предложения «Gün dogdy we guşlar saýrap başlady»?"},
+          "options": [
+            {"tk": "Sada sözlem", "ru": "Простое"},
+            {"tk": "Deňlenen goşma sözlem", "ru": "Сложносочинённое"},
+            {"tk": "Eýerjeňli goşma sözlem", "ru": "Сложноподчинённое"}
+          ],
+          "answer": 1,
+          "hint": {"tk": "Näçe grammatik esas bar we olar nähili baglanyşýar?", "ru": "Сколько грамматических основ и как они связаны?"},
+          "explain": {"tk": "Iki esas: «Gün dogdy» we «guşlar başlady», deň hukukly bölekler «we» baglaýjysy bilen birikýär → deňlenen goşma sözlem.", "ru": "Две основы: «Gün dogdy» и «guşlar başlady», равноправные части соединены союзом «we» → сложносочинённое предложение."}},
+        {"type": "input",
+          "q": {"tk": "Sözlemiň näçe baş agzasy bar?", "ru": "Сколько главных членов предложения?"},
+          "answer": "2",
+          "hint": {"tk": "Olar grammatik esasy düzýär.", "ru": "Они образуют грамматическую основу."},
+          "explain": {"tk": "Iki baş agza: eýe we habar. Galanlary ikinji derejeli agzalar.", "ru": "Два главных члена: подлежащее и сказуемое. Остальные — второстепенные."}},
+        {"type": "world", "text": {
+          "tk": "Dünýä dilleriniň arasynda «eýe — doldurgyç — habar» (SOV) iň köp ýaýran söz tertibi. Türkmen dilinden başga, ýapon, koreý, hindi we pars dilleri hem şu tertibe eýerýär, iňlis we rus dillerinde bolsa adatça «eýe — habar — doldurgyç» tertibi ulanylýar.",
+          "ru": "Среди языков мира порядок «подлежащее — дополнение — сказуемое» (SOV) встречается чаще всего. Кроме туркменского, ему следуют японский, корейский, хинди и персидский, а в английском и русском обычно используется порядок «подлежащее — сказуемое — дополнение»."}}
+      ]
+    }
+  ]
+}

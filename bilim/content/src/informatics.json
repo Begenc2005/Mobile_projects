@@ -1,0 +1,37 @@
+{
+  "id": "informatics",
+  "icon": "💻",
+  "color": "#495057",
+  "title": {"tk": "Informatika", "ru": "Информатика"},
+  "lessons": [
+    {
+      "id": "inf-8-binary",
+      "grade": 8,
+      "title": {"tk": "Ikilik san ulgamy", "ru": "Двоичная система счисления"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Kompýuter maglumaty diňe iki sifr bilen saklaýar: 0 we 1. Bir sifr — 1 bit, 8 bit — 1 baýt.\n\nIkilik sandaky her orun 2-niň derejesi: … 8, 4, 2, 1.\n101₂ = 1·4 + 0·2 + 1·1 = 5",
+          "ru": "Компьютер хранит информацию всего двумя цифрами: 0 и 1. Одна цифра — 1 бит, 8 бит — 1 байт.\n\nКаждый разряд двоичного числа — степень 2: … 8, 4, 2, 1.\n101₂ = 1·4 + 0·2 + 1·1 = 5"}},
+        {"type": "input",
+          "q": {"tk": "110₂ onluk ulgamda näçe?", "ru": "Сколько будет 110₂ в десятичной системе?"},
+          "answer": "6",
+          "hint": {"tk": "1·4 + 1·2 + 0·1", "ru": "1·4 + 1·2 + 0·1"},
+          "explain": {"tk": "4 + 2 + 0 = 6.", "ru": "4 + 2 + 0 = 6."}},
+        {"type": "input",
+          "q": {"tk": "1 baýtda näçe bit bar?", "ru": "Сколько бит в 1 байте?"},
+          "answer": "8",
+          "hint": {"tk": "Ilkinji ädime serediň.", "ru": "Посмотрите первый шаг."},
+          "explain": {"tk": "1 baýt = 8 bit.", "ru": "1 байт = 8 бит."}},
+        {"type": "input",
+          "q": {"tk": "1111₂ = ? (onluk)", "ru": "1111₂ = ? (десятичное)"},
+          "answer": "15",
+          "hint": {"tk": "8 + 4 + 2 + 1", "ru": "8 + 4 + 2 + 1"},
+          "explain": {"tk": "8 + 4 + 2 + 1 = 15.", "ru": "8 + 4 + 2 + 1 = 15."}},
+        {"type": "world", "text": {
+          "tk": "Ikilik ulgamyň matematiki esaslaryny XVII asyrda nemes alymy Gotfrid Leýbnis beýan edipdir — ilkinji elektron kompýuterlerden takmynan 250 ýyl öň.",
+          "ru": "Математические основы двоичной системы описал немецкий учёный Готфрид Лейбниц в XVII веке — примерно за 250 лет до первых электронных компьютеров."}}
+      ]
+    }
+  ]
+}

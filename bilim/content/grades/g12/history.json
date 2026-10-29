@@ -1,0 +1,281 @@
+{
+  "grade": 12,
+  "subject": "history",
+  "lessons": [
+    {
+      "id": "history-12-historical-methods",
+      "grade": 12,
+      "topic": 0,
+      "title": {"tk": "Taryh ylmynyň usullary", "ru": "Методы исторической науки"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Taryhçy geçmişi çeşmeler arkaly öwrenýär.\n\nÇeşmeleriň görnüşleri:\n• Ilkinji (asyl) çeşmeler — wakanyň döwründe döredilen: hatlar, kanunlar, ýazgylar, teňňeler, surat, arheologik tapyndylar.\n• Ikinji derejeli çeşmeler — soňra ýazylan seljermeler: okuw kitaplary, ylmy makalalar.\n• Ýazuw, maddy, dilden (rowaýatlar, ýatlamalar), wizual çeşmeler.\n\nÇeşmäni barlamak (çeşme tankydy):\n• Daşky tankyt — çeşme hakykymy? Haçan, kim tarapyndan döredildi?\n• Içki tankyt — awtor näme üçin ýazdy? Ol wakanyň şaýadymy? Onuň garaýşy näme?\n\nKömekçi ylymlar: hronologiýa, paleografiýa (gadymy ýazuwlar), numizmatika (teňňeler), epigrafika (daşdaky ýazgylar), genealogiýa.\n\nGeçmişe häzirki döwrüň ölçegleri bilen baha bermek ýalňyşlygy anahronizm diýilýär.",
+          "ru": "Историк изучает прошлое через источники.\n\nВиды источников:\n• Первичные — созданные во время события: письма, законы, летописи, монеты, изображения, археологические находки.\n• Вторичные — более поздние исследования: учебники, научные статьи.\n• Письменные, вещественные, устные (предания, воспоминания), изобразительные.\n\nПроверка источника (источниковедческая критика):\n• Внешняя критика — подлинный ли источник? Когда и кем создан?\n• Внутренняя критика — зачем автор писал? Был ли он очевидцем? Какова его позиция?\n\nВспомогательные дисциплины: хронология, палеография (древние почерки), нумизматика (монеты), эпиграфика (надписи на камне), генеалогия.\n\nОценка прошлого мерками современности — ошибка, называемая анахронизмом."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mesele: bir söweş barada iki çeşme bar.\n• A: söweşi gören esgeriň şol gün ýazan haty.\n• B: 300 ýyl soň ýazylan taryh kitaby.\n\n1) A — ilkinji çeşme, B — ikinji derejeli.\n2) A-nyň güýçli tarapy: wakanyň şaýady. Gowşak tarapy: ol diňe öz gören ýerini bilýär we bir tarapyň esgeri.\n3) B-niň güýçli tarapy: köp çeşmäni deňeşdirip biler. Gowşak tarapy: wakadan uzakda.\n4) Netije: taryhçy olary biri-biri bilen we beýleki çeşmeler bilen deňeşdirýär (kross-barlag).",
+          "ru": "Задача: о битве есть два источника.\n• A: письмо солдата-участника, написанное в тот же день.\n• B: книга по истории, написанная 300 лет спустя.\n\n1) A — первичный источник, B — вторичный.\n2) Сила A: очевидец. Слабость: видел только свой участок и был на одной стороне.\n3) Сила B: может сопоставить много источников. Слабость: далеко от события.\n4) Вывод: историк сравнивает их друг с другом и с другими источниками (перекрёстная проверка)."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Haýsy çeşme ilkinji (asyl) çeşmedir?", "ru": "Какой источник является первичным?"},
+          "options": [
+            {"tk": "XXI asyrda ýazylan okuw kitaby", "ru": "Учебник, написанный в XXI веке"},
+            {"tk": "Taryhy film", "ru": "Исторический фильм"},
+            {"tk": "Orta asyrlarda zikgelenen teňňe", "ru": "Монета, отчеканенная в Средние века"}
+          ],
+          "answer": 2,
+          "hint": {"tk": "Haýsysy öwrenilýän döwürde döredildi?", "ru": "Что создано в изучаемую эпоху?"},
+          "explain": {"tk": "Teňňe öz döwründe döredilipdir, şonuň üçin ol ilkinji maddy çeşme. Okuw kitaby we film — soňky gaýtadan beýan etmeler.", "ru": "Монета создана в своё время, поэтому это первичный вещественный источник. Учебник и фильм — позднейшие пересказы."}
+        },
+        {"type": "input",
+          "q": {"tk": "Biziň eramyzdan öňki 221-nji ýyldan biziň eramyzyň 2021-nji ýylyna çenli näçe ýyl geçdi? (Nol ýyl ýok.)", "ru": "Сколько лет прошло от 221 года до н. э. до 2021 года н. э.? (Нулевого года нет.)"},
+          "answer": "2241",
+          "hint": {"tk": "221 + 2021, soňra nol ýylyň ýokdugyny hasaba alyň.", "ru": "221 + 2021, затем учтите, что нулевого года нет."},
+          "explain": {"tk": "b. e. öň 1-nji ýyldan b. e. 1-nji ýyla 1 ýyl geçýär. Şonuň üçin: 221 + 2021 − 1 = 2241 ýyl.", "ru": "От 1 года до н. э. до 1 года н. э. проходит 1 год. Поэтому: 221 + 2021 − 1 = 2241 год."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Numizmatika — gadymy teňňeleri öwrenýän kömekçi taryh ylmy.", "ru": "Нумизматика — вспомогательная историческая дисциплина, изучающая древние монеты."},
+          "answer": true,
+          "hint": {"tk": "Latynça nummus — teňňe.", "ru": "Латинское nummus — монета."},
+          "explain": {"tk": "Dogry. Teňňeler hökümdarlaryň atlaryny, seneleri, söwda ýollaryny we ykdysadyýeti anyklamaga kömek edýär.", "ru": "Верно. Монеты помогают установить имена правителей, даты, торговые пути и состояние экономики."}
+        },
+        {"type": "world", "text": {
+          "tk": "1440-njy ýylda italýan alymy Lorenso Walla «Konstantiniň sowgady» diýlen resminamanyň galp däldigini barlap, onuň dilinde IV asyrda bolmadyk söz we aňlatmalaryň bardygyny görkezdi. Şeýlelik bilen ol resminamanyň has giç döwürde düzülendigini subut etdi — bu çeşme tankydynyň meşhur mysaly.",
+          "ru": "В 1440 году итальянский учёный Лоренцо Валла исследовал так называемый «Константинов дар» и показал, что в его языке есть слова и обороты, которых не было в IV веке. Так он доказал, что документ составлен гораздо позже, — знаменитый пример источниковедческой критики."
+        }}
+      ]
+    },
+    {
+      "id": "history-12-archaeology",
+      "grade": 12,
+      "topic": 1,
+      "title": {"tk": "Arheologiýa: usullar we açyşlar", "ru": "Археология: методы и открытия"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Arheologiýa — geçmişi maddy galyndylar (gurallar, jaýlar, gaplar, jaýlanyşlar) boýunça öwrenýän ylym.\n\nEsasy usullar:\n• Gözleg: ýer üstünde ýöräp barlamak, howadan we kosmosdan suratlar, lidar, geofiziki barlag.\n• Gazuw: meýdan inedördüllere bölünýär, her tapyndynyň ýeri we çuňlugy ýazylýar.\n• Stratigrafiýa: gatlaklar üst-üstüne çökýär; adatça aşaky gatlak has gadymy (üstüne goýmak kanuny).\n\nSenelendirme:\n• Otnositel — stratigrafiýa, tipologiýa (gaplaryň görnüşleri).\n• Absolýut — radiouglerod (C-14, ýarym dargama döwri ≈ 5 730 ýyl, takmynan 50 000 ýyla çenli), dendrohronologiýa (agaç halkalary), termolýuminessensiýa (bişirilen toýun).\n\nDöwürleşdirme: daş asyry, bürünç asyry, demir asyry (Kristian Tomsenyň üç asyr ulgamy, XIX asyr).",
+          "ru": "Археология — наука, изучающая прошлое по материальным остаткам (орудиям, жилищам, посуде, погребениям).\n\nОсновные методы:\n• Разведка: обход местности, аэро- и космоснимки, лидар, геофизика.\n• Раскопки: участок делят на квадраты, место и глубину каждой находки фиксируют.\n• Стратиграфия: слои откладываются друг на друга; обычно нижний слой древнее (закон суперпозиции).\n\nДатирование:\n• Относительное — стратиграфия, типология (формы посуды).\n• Абсолютное — радиоуглерод (C-14, период полураспада ≈ 5 730 лет, примерно до 50 000 лет), дендрохронология (годичные кольца), термолюминесценция (обожжённая глина).\n\nПериодизация: каменный, бронзовый, железный века (система трёх веков Кристиана Томсена, XIX век)."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mesele: ojakdaky kömürde C-14 mukdary diri agaçdakynyň 25%-ine deň. Ojagyň takmynan ýaşy näçe?\n\n1) 100% → 50% → 25% — iki ýarym dargama döwri.\n2) 2 × 5 730 = 11 460 ýyl.\n\nJogap: ≈ 11 500 ýyl. Hakyky işde netije atmosferadaky C-14-üň üýtgemegini hasaba alýan kalibrlemek egrisi bilen takyklanýar.",
+          "ru": "Задача: в угле из очага осталось 25% C-14 по сравнению с живым деревом. Каков примерный возраст очага?\n\n1) 100% → 50% → 25% — два периода полураспада.\n2) 2 × 5 730 = 11 460 лет.\n\nОтвет: ≈ 11 500 лет. В реальной работе результат уточняют по калибровочной кривой, учитывающей колебания C-14 в атмосфере."
+        }},
+        {"type": "input",
+          "q": {"tk": "Agaç galyndysynda C-14-üň 50%-i galypdyr. Onuň ýaşy takmynan näçe ýyl? (Ýarym dargama döwri 5 730 ýyl.)", "ru": "В остатке дерева сохранилось 50% C-14. Каков примерный возраст в годах? (Период полураспада 5 730 лет.)"},
+          "answer": "5730|5 730",
+          "hint": {"tk": "Näçe ýarym dargama döwri geçdi?", "ru": "Сколько прошло периодов полураспада?"},
+          "explain": {"tk": "50% — bir ýarym dargama döwri, ýagny ≈ 5 730 ýyl.", "ru": "50% — один период полураспада, то есть ≈ 5 730 лет."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Gazuwda üç gatlak tapyldy: A (iň ýokarda), B (ortada), C (iň aşakda). Gatlaklar bozulmadyk bolsa, haýsysy iň gadymy?", "ru": "При раскопках найдены три слоя: A (верхний), B (средний), C (нижний). Если слои не нарушены, какой из них древнейший?"},
+          "options": [
+            {"tk": "A", "ru": "A"},
+            {"tk": "C", "ru": "C"},
+            {"tk": "B", "ru": "B"}
+          ],
+          "answer": 1,
+          "hint": {"tk": "Üstüne goýmak kanuny.", "ru": "Закон суперпозиции."},
+          "explain": {"tk": "Gatlaklar biri-biriniň üstüne çökýär, şonuň üçin iň aşaky gatlak C iň irki döwre degişli.", "ru": "Слои откладываются один на другой, поэтому нижний слой C относится к самому раннему времени."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Radiouglerod usuly bilen daş gurallaryň ýa-da metal önümleriň ýaşyny göni kesgitläp bolýar.", "ru": "Радиоуглеродным методом можно напрямую датировать каменные орудия и металлические изделия."},
+          "answer": false,
+          "hint": {"tk": "C-14 haýsy maddalarda bolýar?", "ru": "В каких материалах содержится C-14?"},
+          "explain": {"tk": "Ýalňyş. C-14 diňe bir wagtlar diri bolan organiki maddalarda (agaç, kömür, süňk, dokma) bolýar. Daş we metal üçin başga usullar ýa-da ýanyndaky organiki galyndylar ulanylýar.", "ru": "Неверно. C-14 есть только в органике, которая когда-то была живой (дерево, уголь, кость, ткань). Для камня и металла используют другие методы или органику рядом с находкой."}
+        },
+        {"type": "world", "text": {
+          "tk": "Radiouglerod senelendirme usulyny amerikaly himik Uillard Libbi 1940-njy ýyllaryň ahyrynda işläp düzdi we 1960-njy ýylda himiýa boýunça Nobel baýragyny aldy. Bu usul arheologiýada «radiouglerod rewolýusiýasyna» sebäp boldy: köp ýadygärlikleriň seneleri täzeden kesgitlendi.",
+          "ru": "Метод радиоуглеродного датирования разработал американский химик Уиллард Либби в конце 1940-х годов; в 1960 году он получил Нобелевскую премию по химии. Метод вызвал в археологии «радиоуглеродную революцию»: даты многих памятников были пересмотрены."
+        }}
+      ]
+    },
+    {
+      "id": "history-12-altyndepe-margiana",
+      "grade": 12,
+      "topic": 2,
+      "title": {"tk": "Altyndepe we Margiana", "ru": "Алтын-депе и Маргиана"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Altyndepe — Türkmenistanyň günortasynda, Kopetdagyň eteginde (häzirki Kaka etrabynyň golaýynda) ýerleşýän bürünç asyrynyň iri ilatly ýeri. Takmynan b. e. öň III müňýyllykda ol ösen proto-şäher merkezine öwrüldi:\n• basgançakly ybadathana toplumy (zikkurat görnüşli);\n• hünärmentçilik (küýzegärçilik, metal, monjuk) we aýry-aýry ýaşaýyş zolaklary;\n• Mesopotamiýa we Hindi jülgesiniň medeniýetleri bilen baglanyşyklar.\nOny 1965-nji ýyldan başlap Wadim Masson barlady.\n\nMargiana (Marguş) — Murgap derýasynyň gadymy deltasyndaky sebit. Takmynan b. e. öň 2300–1600-nji ýyllarda bu ýerde ösen bürünç asyry medeniýeti bolupdyr. Alymlar ony «Baktriýa-Margiana arheologik toplumy» (BMAC) ýa-da Oksus siwilizasiýasy diýip atlandyrýarlar.\n\nGonurdepe — Margiananyň esasy merkezi: köşk, gala diwarlary, ybadathanalar, şa jaýlanyşlary. Ony 1972-nji ýyldan başlap Wiktor Sarianidi barlady.",
+          "ru": "Алтын-депе — крупное поселение бронзового века на юге Туркменистана, у подножия Копетдага (недалеко от нынешнего Каахкинского этрапа). Примерно в III тысячелетии до н. э. оно стало развитым протогородским центром:\n• ступенчатый храмовый комплекс (типа зиккурата);\n• ремёсла (гончарство, металл, бусы) и отдельные жилые кварталы;\n• связи с культурами Месопотамии и долины Инда.\nЕго исследовал Вадим Массон с 1965 года.\n\nМаргиана (Маргуш) — область в древней дельте реки Мургаб. Примерно в 2300–1600 гг. до н. э. здесь существовала развитая культура бронзового века. Учёные называют её «Бактрийско-Маргианским археологическим комплексом» (БМАК) или цивилизацией Окса.\n\nГонур-депе — главный центр Маргианы: дворец, крепостные стены, храмы, царские погребения. Его исследовал Виктор Сарианиди с 1972 года."
+        }},
+        {"type": "example", "text": {
+          "tk": "Arheologlar Margiananyň daşary ýurtlar bilen baglanyşygyny nädip subut edýär? Tapyndylary seljereliň.\n\n1) Hindi jülgesiniň möhürleri we pil süňkünden önümler → Harappa medeniýeti bilen gatnaşyk.\n2) Mesopotamiýa görnüşli möhürler we bezegler → günbatar bilen gatnaşyk.\n3) Galaýy (gurşun) we bürünç → metal söwdasy, sebäbi bürünç üçin galaýy gerek, ol bolsa her ýerde ýok.\n\nNetije: aýry-aýry tapyndylaryň jemi bürünç asyrynda Merkezi Aziýanyň giň söwda ulgamynyň bir bölegi bolandygyny görkezýär.",
+          "ru": "Как археологи доказывают связи Маргианы с дальними землями? Разберём находки.\n\n1) Печати и изделия из слоновой кости из долины Инда → контакты с Хараппской культурой.\n2) Печати и украшения месопотамского типа → связи с западом.\n3) Олово и бронза → торговля металлами, ведь для бронзы нужно олово, а оно есть не везде.\n\nВывод: совокупность находок показывает, что в бронзовом веке Центральная Азия была частью широкой сети обмена."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Gonurdepäniň uzak möhletli gazuwlaryny haýsy arheolog alyp bardy?", "ru": "Какой археолог руководил многолетними раскопками Гонур-депе?"},
+          "options": [
+            {"tk": "Wiktor Sarianidi", "ru": "Виктор Сарианиди"},
+            {"tk": "Hauard Karter", "ru": "Говард Картер"},
+            {"tk": "Genrih Şliman", "ru": "Генрих Шлиман"}
+          ],
+          "answer": 0,
+          "hint": {"tk": "Ol Owganystanda Tilla-tepe hazynasyny hem tapdy.", "ru": "Он также нашёл сокровища Тилля-тепе в Афганистане."},
+          "explain": {"tk": "Wiktor Sarianidi 1970-nji ýyllardan ömrüniň ahyryna çenli Margianany öwrendi. Karter Tutanhamonyň mazaryny, Şliman Troýany gazdy.", "ru": "Виктор Сарианиди изучал Маргиану с 1970-х годов до конца жизни. Картер раскопал гробницу Тутанхамона, Шлиман — Трою."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Margiana medeniýeti Murgap derýasynyň deltasynda ösüpdir.", "ru": "Культура Маргианы развивалась в дельте реки Мургаб."},
+          "answer": true,
+          "hint": {"tk": "«Marguş» we «Murgap» atlaryny deňeşdiriň.", "ru": "Сравните названия «Маргуш» и «Мургаб»."},
+          "explain": {"tk": "Dogry. Murgabyň köne deltasy suwarymly ekerançylyk üçin amatly bolupdyr. Soňra derýanyň akymy günorta süýşüpdir we gadymy ilatly ýerler çöllükde galypdyr.", "ru": "Верно. Древняя дельта Мургаба была удобна для орошаемого земледелия. Позже русло сместилось к югу, и древние поселения оказались в пустыне."}
+        },
+        {"type": "input",
+          "q": {"tk": "Margiana medeniýeti takmynan b. e. öň 2300-nji ýyldan 1600-nji ýyla çenli dowam edipdir. Bu näçe ýyl?", "ru": "Культура Маргианы существовала примерно с 2300 по 1600 год до н. э. Сколько это лет?"},
+          "answer": "700",
+          "hint": {"tk": "B. e. öň ýyllar yzlygyna azalýar.", "ru": "Годы до н. э. убывают по ходу времени."},
+          "explain": {"tk": "2300 − 1600 = 700 ýyl. Iki sene hem b. e. öň bolany üçin olary aýyrýarys.", "ru": "2300 − 1600 = 700 лет. Обе даты до н. э., поэтому вычитаем."}
+        },
+        {"type": "world", "text": {
+          "tk": "Altyndepeden tapylan «Altyn öküziň kellesi» — bürünç asyrynyň meşhur zergärçilik eserleriniň biri. Onuň maňlaýyna ýarym aý şekilli gök daş (pöwrize) ornaşdyrylypdyr. Bu tapyndy gadymy ussatlaryň altyn we gymmat bahaly daşlar bilen işlemekde ýokary başarnygyny görkezýär.",
+          "ru": "«Золотая голова быка» из Алтын-депе — одно из известных ювелирных изделий бронзового века. В её лоб вставлен полумесяц из бирюзы. Находка показывает высокое мастерство древних мастеров в работе с золотом и самоцветами."
+        }}
+      ]
+    },
+    {
+      "id": "history-12-history-of-technology",
+      "grade": 12,
+      "topic": 3,
+      "title": {"tk": "Tehnologiýalaryň taryhy", "ru": "История технологий"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Tehnologiýalar adamzadyň durmuşyny birnäçe gezek düýpgöter üýtgetdi:\n• Daş gurallar (≈ 3,3 mln ýyl öň), oduň ulanylyşy.\n• Neolit rewolýusiýasy (≈ 12 000 ýyl öň) — ekerançylyk we maldarçylyk.\n• Metallurgiýa: mis, bürünç (mis + galaýy), demir.\n• Tigir (≈ b. e. öň IV müňýyllyk), ýazuw (Mesopotamiýa, ≈ b. e. öň 3200 ý.).\n• Kagyz (Hytaý; Saý Lun, 105 ý.).\n• Kitap çap etmek (Gutenberg, ≈ 1450 ý.).\n• Bug maşyny (Jeýms Uatt ony XVIII asyryň ahyrynda kämilleşdirdi) → Senagat rewolýusiýasy.\n• Elektrik, telegraf, telefon (XIX asyr).\n• Içinden ýanýan hereketlendiriji, uçar (aka-ukalar Raýtlar, 1903).\n• Tranzistor (1947), internet, sanly rewolýusiýa.",
+          "ru": "Технологии несколько раз коренным образом меняли жизнь человечества:\n• Каменные орудия (≈ 3,3 млн лет назад), использование огня.\n• Неолитическая революция (≈ 12 000 лет назад) — земледелие и скотоводство.\n• Металлургия: медь, бронза (медь + олово), железо.\n• Колесо (≈ IV тыс. до н. э.), письменность (Месопотамия, ≈ 3200 г. до н. э.).\n• Бумага (Китай; Цай Лунь, 105 г.).\n• Книгопечатание (Гутенберг, ≈ 1450 г.).\n• Паровая машина (Джеймс Уатт усовершенствовал её в конце XVIII века) → Промышленная революция.\n• Электричество, телеграф, телефон (XIX век).\n• Двигатель внутреннего сгорания, самолёт (братья Райт, 1903).\n• Транзистор (1947), интернет, цифровая революция."
+        }},
+        {"type": "example", "text": {
+          "tk": "Tehnologiýalaryň çaltlanmagyny san bilen görkezeliň.\n\n1) Ýazuwdan (≈ b. e. öň 3200) çap etmäge (≈ 1450) çenli: 3200 + 1450 − 1 ≈ 4 650 ýyl.\n2) Çap etmekden (1450) ilkinji uçara (1903) çenli: 1903 − 1450 = 453 ýyl.\n3) Ilkinji uçardan (1903) Aýa gonmaga (1969) çenli: 1969 − 1903 = 66 ýyl.\n\nNetije: uly açyşlaryň arasyndaky aralyklar barha gysgalýar, sebäbi her täze tehnologiýa indikisi üçin esas döredýär.",
+          "ru": "Покажем ускорение технологий в цифрах.\n\n1) От письменности (≈ 3200 г. до н. э.) до книгопечатания (≈ 1450 г.): 3200 + 1450 − 1 ≈ 4 650 лет.\n2) От книгопечатания (1450) до первого самолёта (1903): 1903 − 1450 = 453 года.\n3) От первого самолёта (1903) до высадки на Луну (1969): 1969 − 1903 = 66 лет.\n\nВывод: промежутки между крупными прорывами сокращаются, потому что каждая новая технология становится основой для следующей."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Bürünç haýsy metallaryň garyndysy?", "ru": "Сплавом каких металлов является бронза?"},
+          "options": [
+            {"tk": "Demir we uglerod", "ru": "Железа и углерода"},
+            {"tk": "Mis we galaýy", "ru": "Меди и олова"},
+            {"tk": "Altyn we kümüş", "ru": "Золота и серебра"}
+          ],
+          "answer": 1,
+          "hint": {"tk": "Margianadaky metal söwdasyny ýatlaň.", "ru": "Вспомните торговлю металлами в Маргиане."},
+          "explain": {"tk": "Bürünç — esasan mis bilen galaýynyň garyndysy; ol arassa misden has gaty. Demir bilen uglerod polady emele getirýär.", "ru": "Бронза — сплав в основном меди и олова; она твёрже чистой меди. Железо с углеродом дают сталь."}
+        },
+        {"type": "input",
+          "q": {"tk": "Aka-ukalar Raýtlaryň ilkinji motorly uçuşy haýsy ýylda boldy?", "ru": "В каком году состоялся первый моторный полёт братьев Райт?"},
+          "answer": "1903",
+          "hint": {"tk": "XX asyryň başy.", "ru": "Начало XX века."},
+          "explain": {"tk": "1903-nji ýylyň 17-nji dekabrynda Kitti-Hok şäherçesiniň golaýynda Orwil Raýt takmynan 12 sekunt uçdy.", "ru": "17 декабря 1903 года близ Китти-Хок Орвилл Райт продержался в воздухе около 12 секунд."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Kagyz ilkinji gezek Ýewropada, Gutenbergiň döwründe oýlanyp tapyldy.", "ru": "Бумага впервые была изобретена в Европе во времена Гутенберга."},
+          "answer": false,
+          "hint": {"tk": "Saý Luny ýatlaň.", "ru": "Вспомните Цай Луня."},
+          "explain": {"tk": "Ýalňyş. Kagyz Hytaýda döredildi (Saý Lun ony 105-nji ýylda kämilleşdirdi). Soňra ol Merkezi Aziýa we Ýakyn Gündogar arkaly (meselem, Samarkant arkaly) Ýewropa ýetdi.", "ru": "Неверно. Бумага появилась в Китае (Цай Лунь усовершенствовал её в 105 году). Затем через Центральную Азию и Ближний Восток (например, через Самарканд) она попала в Европу."}
+        },
+        {"type": "world", "text": {
+          "tk": "Ilkinji tranzistor 1947-nji ýylda ABŞ-nyň Bell laboratoriýalarynda Jon Bardin, Uolter Brattein we Uilýam Şokli tarapyndan döredildi; olar 1956-njy ýylda fizika boýunça Nobel baýragyny aldylar. Häzirki smartfonyň prosessorynda milliardlarça tranzistor bar.",
+          "ru": "Первый транзистор создали в 1947 году в Bell Labs (США) Джон Бардин, Уолтер Браттейн и Уильям Шокли; в 1956 году они получили Нобелевскую премию по физике. В процессоре современного смартфона — миллиарды транзисторов."
+        }}
+      ]
+    },
+    {
+      "id": "history-12-unesco-world-heritage",
+      "grade": 12,
+      "topic": 4,
+      "title": {"tk": "UNESKO-nyň Bütindünýä mirasy", "ru": "Всемирное наследие ЮНЕСКО"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "1972-nji ýylda UNESKO «Bütindünýä medeni we tebigy mirasy goramak hakynda» konwensiýany kabul etdi. Onuň maksady — ähli adamzat üçin «aýratyn ähliumumy gymmaty» bolan ýerleri goramak.\n\nMiras ýerleriniň görnüşleri:\n• Medeni — şäherler, ybadathanalar, arheologik ýadygärlikler.\n• Tebigy — milli seýilgähler, rifler, daglar.\n• Garyşyk — ikisi bilelikde.\n\nSanawa girizmek üçin ýer 10 ölçegiň iň bolmanda birine laýyk gelmeli. Howp astyndaky miras ýerleriniň aýratyn sanawy hem bar.\n\nTürkmenistandaky ýerler:\n• «Gadymy Merw» döwlet taryhy-medeni seýilgähi (1999);\n• Köneürgenç (2005);\n• Nusaýyň parfiýa galalary (2007);\n• «Ýüpek ýoly: Zarafşan–Garagum geçelgesi» (2023, Özbegistan we Täjigistan bilen bilelikde).",
+          "ru": "В 1972 году ЮНЕСКО приняла Конвенцию «Об охране всемирного культурного и природного наследия». Её цель — охранять места, имеющие «выдающуюся универсальную ценность» для всего человечества.\n\nВиды объектов:\n• Культурные — города, храмы, археологические памятники.\n• Природные — национальные парки, рифы, горы.\n• Смешанные — сочетание обоих.\n\nДля включения в список объект должен соответствовать хотя бы одному из 10 критериев. Есть и отдельный список объектов под угрозой.\n\nОбъекты в Туркменистане:\n• Государственный историко-культурный парк «Древний Мерв» (1999);\n• Кёнеургенч (2005);\n• Парфянские крепости Нисы (2007);\n• «Шёлковый путь: Зеравшан-Каракумский коридор» (2023, совместно с Узбекистаном и Таджикистаном)."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mesele: Nusaý näme üçin sanawa girizildi? Ölçeglere görä pikirlenip göreliň.\n\n1) Nusaý — Parfiýa döwletiniň irki paýtagtlaryndan biri (b. e. öň III asyr — b. e. III asyry).\n2) Ol ýerden ýerli we ellinistik däpleri utgaşdyrýan binalar, pil süňkünden ritonlar we ýazgyly küýzeler tapyldy.\n3) Diýmek, ol medeniýetleriň özara täsirini we ýiten siwilizasiýany görkezýän aýratyn subutnama.\n\nNetije: ýer medeni miras hökmünde, gadymy siwilizasiýanyň aýratyn şaýady bolany üçin sanawa girizildi.",
+          "ru": "Задача: почему Ниса включена в список? Рассуждаем по критериям.\n\n1) Ниса — одна из ранних столиц Парфянского государства (III в. до н. э. — III в. н. э.).\n2) Там найдены постройки, сочетающие местные и эллинистические традиции, ритоны из слоновой кости, остраконы с надписями.\n3) Значит, это исключительное свидетельство взаимовлияния культур и исчезнувшей цивилизации.\n\nВывод: объект включён как культурное наследие — уникальное свидетельство древней цивилизации."
+        }},
+        {"type": "input",
+          "q": {"tk": "UNESKO-nyň Bütindünýä mirasy hakyndaky konwensiýasy haýsy ýylda kabul edildi?", "ru": "В каком году была принята Конвенция ЮНЕСКО о всемирном наследии?"},
+          "answer": "1972",
+          "hint": {"tk": "XX asyryň 70-nji ýyllarynyň başy.", "ru": "Начало 1970-х годов."},
+          "explain": {"tk": "Konwensiýa 1972-nji ýylda Parižde kabul edildi; ilkinji ýerler sanawa 1978-nji ýylda girizildi.", "ru": "Конвенция принята в 1972 году в Париже; первые объекты внесены в список в 1978 году."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Türkmenistanda UNESKO-nyň sanawyna ilkinji bolup haýsy ýer girizildi?", "ru": "Какой объект Туркменистана первым вошёл в список ЮНЕСКО?"},
+          "options": [
+            {"tk": "Köneürgenç", "ru": "Кёнеургенч"},
+            {"tk": "Nusaý", "ru": "Ниса"},
+            {"tk": "Gadymy Merw", "ru": "Древний Мерв"}
+          ],
+          "answer": 2,
+          "hint": {"tk": "1999-njy ýyl.", "ru": "1999 год."},
+          "explain": {"tk": "Gadymy Merw 1999-njy ýylda, Köneürgenç 2005-nji, Nusaý 2007-nji ýylda girizildi.", "ru": "Древний Мерв внесён в 1999 году, Кёнеургенч — в 2005, Ниса — в 2007."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "UNESKO-nyň sanawynda diňe binagärlik ýadygärlikleri bar, tebigy ýerler ýok.", "ru": "В списке ЮНЕСКО есть только архитектурные памятники, природных объектов нет."},
+          "answer": false,
+          "hint": {"tk": "Konwensiýanyň doly adyny okaň.", "ru": "Прочитайте полное название Конвенции."},
+          "explain": {"tk": "Ýalňyş. Konwensiýa medeni we tebigy mirasy goraýar. Mysal: Awstraliýadaky Uly Barýer rifi, ABŞ-daky Ýellouston milli seýilgähi.", "ru": "Неверно. Конвенция охраняет и культурное, и природное наследие. Примеры: Большой Барьерный риф в Австралии, Йеллоустонский национальный парк в США."}
+        },
+        {"type": "world", "text": {
+          "tk": "Bütindünýä mirasy hakyndaky konwensiýanyň döremegine 1960-njy ýyllarda Müsürde Asuan bendiniň gurluşygy itergi berdi: Abu-Simbel ybadathanalary suw astynda galmalydy. UNESKO-nyň halkara kampaniýasy bilen ybadathanalar böleklere bölünip, has ýokarda täzeden guruldy.",
+          "ru": "Толчком к созданию Конвенции о всемирном наследии стало строительство Асуанской плотины в Египте в 1960-х: храмы Абу-Симбел должны были уйти под воду. В ходе международной кампании ЮНЕСКО храмы разрезали на блоки и заново собрали выше."
+        }}
+      ]
+    },
+    {
+      "id": "history-12-review",
+      "grade": 12,
+      "topic": 5,
+      "title": {"tk": "Gaýtalamak: taryh", "ru": "Повторение: история"},
+      "minutes": 11,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Dünýä taryhynyň esasy tapgyrlary:\n• Ilkidurmuş döwri: daş asyry, neolit rewolýusiýasy.\n• Gadymy dünýä: Mesopotamiýa, Müsür, Hindi jülgesi, Hytaý, Margiana; Gadymy Gresiýa we Rim; Parfiýa (Nusaý).\n• Orta asyrlar (≈ V–XV a.): Wizantiýa, Arap halyfaty, Seljuklar (Merw — Soltan Sanjaryň paýtagty), Mongol imperiýasy, Beýik Ýüpek ýoly.\n• Täze döwür (XVI–XIX a.): Beýik geografik açyşlar, Galkynyş, Senagat rewolýusiýasy.\n• Iň täze döwür (XX–XXI a.): iki jahan urşy, BMG-niň döremegi (1945), kosmos asyry, sanly rewolýusiýa.\n\nTaryhçynyň gurallary: ilkinji we ikinji derejeli çeşmeler, çeşme tankydy, arheologiýa, senelendirme usullary.",
+          "ru": "Основные этапы всемирной истории:\n• Первобытность: каменный век, неолитическая революция.\n• Древний мир: Месопотамия, Египет, долина Инда, Китай, Маргиана; Древняя Греция и Рим; Парфия (Ниса).\n• Средние века (≈ V–XV вв.): Византия, Арабский халифат, Сельджуки (Мерв — столица султана Санджара), Монгольская империя, Великий шёлковый путь.\n• Новое время (XVI–XIX вв.): Великие географические открытия, Возрождение, Промышленная революция.\n• Новейшее время (XX–XXI вв.): две мировые войны, создание ООН (1945), космическая эра, цифровая революция.\n\nИнструменты историка: первичные и вторичные источники, источниковедческая критика, археология, методы датирования."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mesele: wakalary hronologik tertipde ýerleşdiriň.\nA — Gutenbergiň çaphanasy; B — Margiananyň gülläp ösmegi; C — BMG-niň döremegi; D — Merwiň Seljuklaryň paýtagty bolmagy.\n\n1) B — b. e. öň III–II müňýyllyk.\n2) D — XI–XII asyr.\n3) A — XV asyryň ortasy.\n4) C — 1945 ý.\n\nJogap: B → D → A → C. Hronologiýa üçin ilki b. e. öň wakalary, soňra asyrlary tapawutlandyrmak kömek edýär.",
+          "ru": "Задача: расположите события в хронологическом порядке.\nA — типография Гутенберга; B — расцвет Маргианы; C — создание ООН; D — Мерв как столица Сельджуков.\n\n1) B — III–II тыс. до н. э.\n2) D — XI–XII века.\n3) A — середина XV века.\n4) C — 1945 г.\n\nОтвет: B → D → A → C. Для хронологии помогает сначала выделить события до н. э., затем различать века."
+        }},
+        {"type": "input",
+          "q": {"tk": "1450-nji ýyl haýsy asyra degişli? Jogaby arap sanlary bilen ýazyň.", "ru": "К какому веку относится 1450 год? Ответ запишите арабскими цифрами."},
+          "answer": "15",
+          "hint": {"tk": "Asyr = ilkinji iki san + 1 (eger ýyl 00 bilen gutarmasa).", "ru": "Век = первые две цифры + 1 (если год не оканчивается на 00)."},
+          "explain": {"tk": "14 + 1 = 15, ýagny XV asyr (1401–1500).", "ru": "14 + 1 = 15, то есть XV век (1401–1500)."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy şäher Seljuk soltany Sanjaryň paýtagty bolupdy?", "ru": "Какой город был столицей сельджукского султана Санджара?"},
+          "options": [
+            {"tk": "Merw", "ru": "Мерв"},
+            {"tk": "Nusaý", "ru": "Ниса"},
+            {"tk": "Rim", "ru": "Рим"}
+          ],
+          "answer": 0,
+          "hint": {"tk": "Onuň kümmeti häzir hem «Gadymy Merw» seýilgähinde dur.", "ru": "Его мавзолей и сейчас стоит в парке «Древний Мерв»."},
+          "explain": {"tk": "Merw XII asyrda Soltan Sanjaryň paýtagty we dünýäniň iň uly şäherleriniň biri bolupdyr. Nusaý — Parfiýanyň irki paýtagty.", "ru": "Мерв в XII веке был столицей султана Санджара и одним из крупнейших городов мира. Ниса — ранняя столица Парфии."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Senagat rewolýusiýasy bug maşynynyň giňden ýaýramagy bilen baglanyşykly.", "ru": "Промышленная революция связана с широким распространением паровой машины."},
+          "answer": true,
+          "hint": {"tk": "XVIII asyryň ahyry, Beýik Britaniýa.", "ru": "Конец XVIII века, Великобритания."},
+          "explain": {"tk": "Dogry. Uattyň kämilleşdiren bug maşyny fabriklere, soňra demir ýollara we gämilere güýç berdi.", "ru": "Верно. Усовершенствованная Уаттом паровая машина давала энергию фабрикам, затем железным дорогам и судам."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Aşakdakylaryň haýsysy ikinji derejeli çeşme?", "ru": "Что из перечисленного — вторичный источник?"},
+          "options": [
+            {"tk": "Nusaýdan tapylan ýazgyly küýze", "ru": "Остракон с надписью из Нисы"},
+            {"tk": "Häzirki taryhçynyň Parfiýa hakyndaky kitaby", "ru": "Книга современного историка о Парфии"},
+            {"tk": "Parfiýa teňňesi", "ru": "Парфянская монета"}
+          ],
+          "answer": 1,
+          "hint": {"tk": "Haýsysy soňra, seljeriş hökmünde ýazyldy?", "ru": "Что написано позже, как исследование?"},
+          "explain": {"tk": "Häzirki taryhçynyň kitaby — ikinji derejeli çeşme. Küýze we teňňe Parfiýa döwründe döredilipdir, şonuň üçin ilkinji çeşmeler.", "ru": "Книга современного историка — вторичный источник. Остракон и монета созданы в парфянское время, поэтому это первичные источники."}
+        },
+        {"type": "world", "text": {
+          "tk": "1799-njy ýylda Müsürde tapylan Rozetta daşynda bir karar üç ýazuwda — müsür iýeroglifleri, demotik ýazuw we grek dilinde ýazylypdyr. Grekçe teksti deňeşdirip, fransuz alymy Žan-Fransua Şampolion 1822-nji ýylda iýeroglifleri okamagyň açaryny tapdy.",
+          "ru": "На Розеттском камне, найденном в Египте в 1799 году, один указ записан тремя письменностями — египетскими иероглифами, демотическим письмом и по-гречески. Сравнивая с греческим текстом, французский учёный Жан-Франсуа Шампольон в 1822 году нашёл ключ к чтению иероглифов."
+        }}
+      ]
+    }
+  ]
+}

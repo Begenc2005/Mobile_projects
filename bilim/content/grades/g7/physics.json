@@ -1,0 +1,278 @@
+{
+  "grade": 7,
+  "subject": "physics",
+  "lessons": [
+    {
+      "id": "physics-7-what-is-physics",
+      "grade": 7,
+      "topic": 0,
+      "title": {"tk": "Fizika näme öwrenýär", "ru": "Что изучает физика"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Fizika — tebigatyň iň umumy kanunlaryny öwrenýän ylym. «Fizika» sözi grekçe «physis» — «tebigat» sözünden gelýär.\n\nFiziki hadysalaryň görnüşleri:\n• Mehaniki — hereket (top togalanýar)\n• Ýylylyk — gyzmak, eremek (buz ereýär)\n• Elektrik we magnit — tok, magnit\n• Ýagtylyk — şöhleleriň serpilmegi, kölegeler\n• Ses — yrgyldylar we tolkunlar\n\nFizikanyň usullary: synlamak → gipoteza → tejribe → ölçemek → kanun.\n\nFiziki ululyk ölçenýär we birligi bar. Halkara birlikler ulgamy (SI): uzynlyk — metr (m), massa — kilogram (kg), wagt — sekunt (s).",
+          "ru": "Физика — наука, изучающая самые общие законы природы. Слово «физика» происходит от греческого «physis» — «природа».\n\nВиды физических явлений:\n• Механические — движение (катится мяч)\n• Тепловые — нагревание, плавление (тает лёд)\n• Электрические и магнитные — ток, магнит\n• Световые — отражение лучей, тени\n• Звуковые — колебания и волны\n\nМетоды физики: наблюдение → гипотеза → опыт → измерение → закон.\n\nФизическая величина измеряется и имеет единицу. Международная система единиц (СИ): длина — метр (м), масса — килограмм (кг), время — секунда (с)."
+        }},
+        {"type": "example", "text": {
+          "tk": "Menzurkanyň bölüm bahasyny tapalyň.\n1) Iki iň ýakyn ýazgyly çyzyk alýarys: 20 ml we 30 ml.\n2) Olaryň arasynda 5 bölüm (aralyk) bar.\n3) Bölüm bahasy = (30 − 20) : 5 = 2 ml.\n4) Suwuň derejesi 30-dan 3 bölüm ýokarda bolsa: 30 + 3·2 = 36 ml.",
+          "ru": "Найдём цену деления мензурки.\n1) Берём два ближайших штриха с числами: 20 мл и 30 мл.\n2) Между ними 5 делений (промежутков).\n3) Цена деления = (30 − 20) : 5 = 2 мл.\n4) Если уровень воды на 3 деления выше 30: 30 + 3·2 = 36 мл."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Haýsy hadysa ýylylyk hadysasy?", "ru": "Какое явление тепловое?"},
+          "options": [{"tk": "Gar ereýär", "ru": "Тает снег"}, {"tk": "Ýyldyrym çakýar", "ru": "Сверкает молния"}, {"tk": "Ýaprak gaçýar", "ru": "Падает лист"}],
+          "answer": 0,
+          "hint": {"tk": "Haýsy ýagdaýda temperatura esasy rol oýnaýar?", "ru": "В каком случае главную роль играет температура?"},
+          "explain": {"tk": "Eremek — ýylylyk hadysasy. Ýyldyrym — elektrik, ýapragyň gaçmagy — mehaniki hadysa.", "ru": "Плавление — тепловое явление. Молния — электрическое, падение листа — механическое."}
+        },
+        {"type": "input",
+          "q": {"tk": "Çyzgyçda 0 we 1 sm ýazgylaryň arasynda 10 bölüm bar. Bölüm bahasy näçe mm?", "ru": "На линейке между отметками 0 и 1 см — 10 делений. Цена деления в мм?"},
+          "answer": "1",
+          "hint": {"tk": "1 sm = 10 mm.", "ru": "1 см = 10 мм."},
+          "explain": {"tk": "10 mm : 10 = 1 mm.", "ru": "10 мм : 10 = 1 мм."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "SI ulgamynda massanyň esasy birligi gram.", "ru": "В системе СИ основная единица массы — грамм."},
+          "answer": false,
+          "hint": {"tk": "SI-iň üç esasy mehaniki birligini ýatla.", "ru": "Вспомните три основные механические единицы СИ."},
+          "explain": {"tk": "SI-de massanyň birligi kilogram (kg). 1 kg = 1000 g.", "ru": "В СИ единица массы — килограмм (кг). 1 кг = 1000 г."}
+        },
+        {"type": "input",
+          "q": {"tk": "2,5 km näçe metr?", "ru": "Сколько метров в 2,5 км?"},
+          "answer": "2500",
+          "hint": {"tk": "1 km = 1000 m.", "ru": "1 км = 1000 м."},
+          "explain": {"tk": "2,5 · 1000 = 2500 m.", "ru": "2,5 · 1000 = 2500 м."}
+        },
+        {"type": "world", "text": {
+          "tk": "Italýan alymy Galileo Galileý (1564–1642) tebigaty diňe pikirlenmek bilen däl, eýsem tejribe we ölçeg arkaly öwrenmegiň esaslaryny goýdy. Ol eňňit üstünde togalanýan şarlar bilen tejribe geçirip, hereketiň kanunlaryny ölçeg bilen barlapdyr. Şonuň üçin ony köplenç tejribe fizikasynyň atasy diýip atlandyrýarlar.",
+          "ru": "Итальянский учёный Галилео Галилей (1564–1642) заложил основы изучения природы не только размышлением, но опытом и измерением. Он ставил опыты с шарами, скатывающимися по наклонной плоскости, и проверял законы движения измерениями. Поэтому его часто называют отцом экспериментальной физики."
+        }}
+      ]
+    },
+    {
+      "id": "physics-7-structure-of-matter",
+      "grade": 7,
+      "topic": 1,
+      "title": {"tk": "Maddanyň gurluşy", "ru": "Строение вещества"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Ähli maddalar örän kiçi bölejiklerden — molekulalardan we atomlardan durýar.\n\nMolekulýar-kinetik nazaryýetiň üç düzgüni:\n1) Madda bölejiklerden durýar, olaryň arasynda boşluk bar.\n2) Bölejikler yzygiderli, düzgünsiz hereket edýär.\n3) Bölejikler biri-birini özüne çekýär we iteklýär.\n\nDiffuziýa — bir maddanyň bölejikleriniň beýleki maddanyň bölejikleriniň arasyna öz-özünden aralaşmagy. Temperatura näçe ýokary bolsa, diffuziýa şonça çalt.\n\nMaddanyň üç agregat ýagdaýy:\n• Gaty — bölejikler ýakyn, görnüşini we göwrümini saklaýar\n• Suwuk — göwrümini saklaýar, görnüşini saklamaýar\n• Gaz — bölejikler uzakda, tutuş gaby doldurýar",
+          "ru": "Все вещества состоят из очень маленьких частиц — молекул и атомов.\n\nТри положения молекулярно-кинетической теории:\n1) Вещество состоит из частиц, между которыми есть промежутки.\n2) Частицы непрерывно и беспорядочно движутся.\n3) Частицы притягиваются и отталкиваются друг от друга.\n\nДиффузия — самопроизвольное проникновение частиц одного вещества между частицами другого. Чем выше температура, тем быстрее диффузия.\n\nТри агрегатных состояния вещества:\n• Твёрдое — частицы близко, сохраняет форму и объём\n• Жидкое — сохраняет объём, но не форму\n• Газообразное — частицы далеко, заполняет весь сосуд"
+        }},
+        {"type": "example", "text": {
+          "tk": "Tejribe: iki stakana suw guýýarys — birine sowuk, beýlekisine gyzgyn. Her birine bir çaý paketini salýarys.\n1) Gyzgyn suwda reňk birnäçe sekuntda ýaýraýar.\n2) Sowuk suwda bu has haýal bolýar.\n3) Netije: ýokary temperaturada molekulalar çalt hereket edýär, şonuň üçin diffuziýa çalt geçýär.",
+          "ru": "Опыт: наливаем в два стакана воду — в один холодную, в другой горячую. В каждый опускаем пакетик чая.\n1) В горячей воде цвет расходится за несколько секунд.\n2) В холодной — гораздо медленнее.\n3) Вывод: при высокой температуре молекулы движутся быстрее, поэтому диффузия идёт быстрее."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Haýsy ýagdaýda madda öz görnüşini saklaýar?", "ru": "В каком состоянии вещество сохраняет свою форму?"},
+          "options": [{"tk": "Suwuk", "ru": "Жидком"}, {"tk": "Gaz", "ru": "Газообразном"}, {"tk": "Gaty", "ru": "Твёрдом"}],
+          "answer": 2,
+          "hint": {"tk": "Haýsysynda bölejikler orunlaryndan diýen ýaly süýşmeýär?", "ru": "В каком состоянии частицы почти не покидают своих мест?"},
+          "explain": {"tk": "Gaty jisimde bölejikler deňagramlylyk ýagdaýynyň töwereginde yrgyldaýar, şonuň üçin görnüş saklanýar.", "ru": "В твёрдом теле частицы колеблются около положений равновесия, поэтому форма сохраняется."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Atyryň ysynyň otaga ýaýramagy — diffuziýanyň mysaly.", "ru": "Распространение запаха духов по комнате — пример диффузии."},
+          "answer": true,
+          "hint": {"tk": "Atyr molekulalary howanyň molekulalarynyň arasyna aralaşýarmy?", "ru": "Проникают ли молекулы духов между молекулами воздуха?"},
+          "explain": {"tk": "Hawa, atyryň molekulalary howa molekulalarynyň arasyna aralaşyp, tutuş otaga ýaýraýar.", "ru": "Да, молекулы духов проникают между молекулами воздуха и распространяются по всей комнате."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Näme üçin gazy aňsat gysyp bolýar?", "ru": "Почему газ легко сжать?"},
+          "options": [{"tk": "Molekulalary has kiçi", "ru": "Его молекулы меньше"}, {"tk": "Molekulalaryň arasyndaky aralyk uly", "ru": "Расстояния между молекулами большие"}, {"tk": "Molekulalary hereket etmeýär", "ru": "Его молекулы не движутся"}],
+          "answer": 1,
+          "hint": {"tk": "Bölejikleriň ölçegi däl, olaryň ýerleşişi hakda pikirlen.", "ru": "Подумайте не о размере частиц, а об их расположении."},
+          "explain": {"tk": "Gazda molekulalaryň arasyndaky aralyk molekulalaryň özünden köp esse uly, şonuň üçin olary golaýlaşdyrmak aňsat.", "ru": "В газе расстояния между молекулами во много раз больше самих молекул, поэтому их легко сблизить."}
+        },
+        {"type": "world", "text": {
+          "tk": "1827-nji ýylda iňlis botanigi Robert Broun mikroskopda suwdaky tozan bölejikleriniň düzgünsiz «tans edýändigini» gördi. 1905-nji ýylda Albert Eýnşteýn bu hereketiň suw molekulalarynyň urgularyndan döreýändigini düşündirdi, 1908-nji ýylda Žan Perren muny tejribede tassyklady — bu atomlaryň barlygynyň möhüm subutnamasy boldy.",
+          "ru": "В 1827 году английский ботаник Роберт Броун увидел в микроскоп, что частицы пыльцы в воде беспорядочно «пляшут». В 1905 году Альберт Эйнштейн объяснил это движение ударами молекул воды, а в 1908 году Жан Перрен подтвердил это опытами — это стало важным доказательством существования атомов."
+        }}
+      ]
+    },
+    {
+      "id": "physics-7-mass-density",
+      "grade": 7,
+      "topic": 2,
+      "title": {"tk": "Massa we dykyzlyk", "ru": "Масса и плотность"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Massa (m) — jisimiň inertligini görkezýän ululyk: massasy uly jisimiň tizligini üýtgetmek kyn. SI birligi — kilogram (kg). Massa terezi bilen ölçenýär.\n\nDykyzlyk (ρ, «ro») — maddanyň göwrüm birligindäki massasy:\nρ = m / V\nBirligi: kg/m³ ýa-da g/sm³. 1 g/sm³ = 1000 kg/m³.\n\nKäbir dykyzlyklar:\n• Suw — 1000 kg/m³ (1 g/sm³)\n• Buz — 900 kg/m³\n• Alýuminiý — 2700 kg/m³\n• Demir — 7800 kg/m³\n\nFormuladan: m = ρ·V, V = m / ρ.",
+          "ru": "Масса (m) — величина, характеризующая инертность тела: телу с большой массой труднее изменить скорость. Единица в СИ — килограмм (кг). Массу измеряют весами.\n\nПлотность (ρ, «ро») — масса вещества в единице объёма:\nρ = m / V\nЕдиницы: кг/м³ или г/см³. 1 г/см³ = 1000 кг/м³.\n\nНекоторые плотности:\n• Вода — 1000 кг/м³ (1 г/см³)\n• Лёд — 900 кг/м³\n• Алюминий — 2700 кг/м³\n• Железо — 7800 кг/м³\n\nИз формулы: m = ρ·V, V = m / ρ."
+        }},
+        {"type": "example", "text": {
+          "tk": "Metal bölejiginiň massasy 540 g, göwrümi 200 sm³. Bu haýsy metal?\n1) ρ = m / V = 540 g : 200 sm³ = 2,7 g/sm³.\n2) 2,7 g/sm³ = 2700 kg/m³.\n3) Tablisa bilen deňeşdirýäris: bu alýuminiý.",
+          "ru": "Масса куска металла 540 г, объём 200 см³. Что это за металл?\n1) ρ = m / V = 540 г : 200 см³ = 2,7 г/см³.\n2) 2,7 г/см³ = 2700 кг/м³.\n3) Сравниваем с таблицей: это алюминий."
+        }},
+        {"type": "input",
+          "q": {"tk": "Göwrümi 0,5 m³ bolan suwuň massasy näçe kg? (ρ = 1000 kg/m³)", "ru": "Какова масса воды объёмом 0,5 м³ в кг? (ρ = 1000 кг/м³)"},
+          "answer": "500",
+          "hint": {"tk": "m = ρ·V.", "ru": "m = ρ·V."},
+          "explain": {"tk": "m = 1000 · 0,5 = 500 kg.", "ru": "m = 1000 · 0,5 = 500 кг."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Deň göwrümli kublaryň haýsysynyň massasy iň uly?", "ru": "У какого из кубиков одинакового объёма самая большая масса?"},
+          "options": [{"tk": "Buz", "ru": "Лёд"}, {"tk": "Alýuminiý", "ru": "Алюминий"}, {"tk": "Demir", "ru": "Железо"}],
+          "answer": 2,
+          "hint": {"tk": "Göwrüm deň bolanda massa dykyzlyga baglydyr.", "ru": "При равном объёме масса зависит от плотности."},
+          "explain": {"tk": "Demiriň dykyzlygy iň uly (7800 kg/m³), şonuň üçin onuň massasy hem iň uly.", "ru": "У железа самая большая плотность (7800 кг/м³), поэтому и масса больше всех."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Buz suwda ýüzýär, sebäbi buzuň dykyzlygy suwuňkydan kiçi.", "ru": "Лёд плавает в воде, потому что плотность льда меньше плотности воды."},
+          "answer": true,
+          "hint": {"tk": "900 we 1000 kg/m³ deňeşdir.", "ru": "Сравните 900 и 1000 кг/м³."},
+          "explain": {"tk": "900 < 1000 — buz suwdan ýeňil, şonuň üçin ýüzýär. Suw doňanda giňelýär.", "ru": "900 < 1000 — лёд легче воды, поэтому плавает. Вода при замерзании расширяется."}
+        },
+        {"type": "input",
+          "q": {"tk": "Massasy 78 g bolan demir boltuň göwrümi näçe sm³? (ρ = 7,8 g/sm³)", "ru": "Каков объём железного болта массой 78 г в см³? (ρ = 7,8 г/см³)"},
+          "answer": "10",
+          "hint": {"tk": "V = m / ρ.", "ru": "V = m / ρ."},
+          "explain": {"tk": "V = 78 : 7,8 = 10 sm³.", "ru": "V = 78 : 7,8 = 10 см³."}
+        },
+        {"type": "world", "text": {
+          "tk": "Osmiý — tebigatda duşýan iň dykyz madda: onuň dykyzlygy takmynan 22,6 g/sm³, ýagny suwuňkydan 22 esseden-de köp. Litr gabyna sygýan osmiýniň massasy 22 kg-dan geçer.",
+          "ru": "Осмий — самое плотное вещество, встречающееся в природе: его плотность около 22,6 г/см³, то есть больше чем в 22 раза выше, чем у воды. Литровая банка осмия весила бы больше 22 кг."
+        }}
+      ]
+    },
+    {
+      "id": "physics-7-force-gravity",
+      "grade": 7,
+      "topic": 3,
+      "title": {"tk": "Güýç we agyrlyk güýji", "ru": "Сила и сила тяжести"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Güýç (F) — bir jisimiň beýleki jisime täsiriniň ölçegi. Güýç jisimiň tizligini ýa-da görnüşini üýtgedýär. Güýjüň ululygy, ugry we goýulma nokady bar (wektor).\nBirligi — nýuton (N). Dinamometr bilen ölçenýär.\n\nAgyrlyk güýji — Ýeriň jisimi özüne çekýän güýji:\nF = m·g\ng ≈ 9,8 N/kg (meselelerde köplenç 10 N/kg alynýar).\nAgyrlyk güýji hemişe Ýeriň merkezine — aşak gönükdirilen.\n\nMaýyşgaklyk güýji — deformasiýa wagtynda döreýär. Guk kanuny: F = k·x (k — gatylyk, x — uzalma).\n\nBir göni çyzyk boýunça bir ugra gönükdirilen güýçler goşulýar, garşylykly ugurlara gönükdirilenler aýrylýar.",
+          "ru": "Сила (F) — мера действия одного тела на другое. Сила изменяет скорость тела или его форму. У силы есть величина, направление и точка приложения (это вектор).\nЕдиница — ньютон (Н). Измеряют динамометром.\n\nСила тяжести — сила, с которой Земля притягивает тело:\nF = m·g\ng ≈ 9,8 Н/кг (в задачах часто берут 10 Н/кг).\nСила тяжести всегда направлена к центру Земли — вниз.\n\nСила упругости возникает при деформации. Закон Гука: F = k·x (k — жёсткость, x — удлинение).\n\nСилы вдоль одной прямой в одну сторону складываются, в противоположные — вычитаются."
+        }},
+        {"type": "example", "text": {
+          "tk": "Massasy 3 kg bolan gaba Ýer nähili güýç bilen täsir edýär? (g = 10 N/kg)\n1) F = m·g.\n2) F = 3 kg · 10 N/kg = 30 N.\n\nDeňeşdirmek üçin: Aýda g ≈ 1,6 N/kg. Şol gap üçin F = 3 · 1,6 = 4,8 N — alty esse diýen ýaly az, ýöne massa şol bir 3 kg bolup galýar.",
+          "ru": "С какой силой Земля действует на сумку массой 3 кг? (g = 10 Н/кг)\n1) F = m·g.\n2) F = 3 кг · 10 Н/кг = 30 Н.\n\nДля сравнения: на Луне g ≈ 1,6 Н/кг. Для той же сумки F = 3 · 1,6 = 4,8 Н — почти в шесть раз меньше, но масса остаётся теми же 3 кг."
+        }},
+        {"type": "input",
+          "q": {"tk": "Massasy 50 kg bolan okuwça täsir edýän agyrlyk güýji näçe N? (g = 10 N/kg)", "ru": "Какая сила тяжести действует на ученика массой 50 кг, в Н? (g = 10 Н/кг)"},
+          "answer": "500",
+          "hint": {"tk": "F = m·g.", "ru": "F = m·g."},
+          "explain": {"tk": "F = 50 · 10 = 500 N.", "ru": "F = 50 · 10 = 500 Н."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Iki adam arabany bir ugra 200 N we 150 N güýç bilen itekleýär. Deňtäsir ediji güýç näçe?", "ru": "Два человека толкают тележку в одну сторону с силами 200 Н и 150 Н. Чему равна равнодействующая?"},
+          "options": ["50 N", "350 N", "175 N"],
+          "answer": 1,
+          "hint": {"tk": "Güýçler bir ugra gönükdirilen.", "ru": "Силы направлены в одну сторону."},
+          "explain": {"tk": "Bir ugra gönükdirilen güýçler goşulýar: 200 + 150 = 350 N.", "ru": "Силы, направленные в одну сторону, складываются: 200 + 150 = 350 Н."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Aýda jisimiň massasy Ýerdäkiden alty esse az.", "ru": "На Луне масса тела в шесть раз меньше, чем на Земле."},
+          "answer": false,
+          "hint": {"tk": "Haýsy ululyk üýtgeýär: massamy ýa-da agyrlyk güýjümi?", "ru": "Какая величина меняется: масса или сила тяжести?"},
+          "explain": {"tk": "Massa jisimiň öz häsiýeti, ol üýtgemeýär. Aýda takmynan alty esse az bolýan agyrlyk güýji.", "ru": "Масса — свойство самого тела, она не меняется. На Луне примерно в шесть раз меньше сила тяжести."}
+        },
+        {"type": "input",
+          "q": {"tk": "Pružiniň gatylygy 100 N/m. Ony 0,05 m uzaltmak üçin näçe N güýç gerek?", "ru": "Жёсткость пружины 100 Н/м. Какая сила в Н нужна, чтобы растянуть её на 0,05 м?"},
+          "answer": "5",
+          "hint": {"tk": "Guk kanuny: F = k·x.", "ru": "Закон Гука: F = k·x."},
+          "explain": {"tk": "F = 100 · 0,05 = 5 N.", "ru": "F = 100 · 0,05 = 5 Н."}
+        },
+        {"type": "world", "text": {
+          "tk": "Güýjüň birligi iňlis alymy Isaak Nýutonyň (1643–1727) adyny göterýär. Ol 1687-nji ýylda çap edilen «Tebigat filosofiýasynyň matematiki başlangyçlary» kitabynda Bütindünýä dartyş kanunyny beýan edip, almanyň gaçmagyny we Aýyň Ýeriň daşynda aýlanmagyny şol bir güýç bilen düşündirdi.",
+          "ru": "Единица силы названа в честь английского учёного Исаака Ньютона (1643–1727). В книге «Математические начала натуральной философии», изданной в 1687 году, он сформулировал закон всемирного тяготения и объяснил одной и той же силой и падение яблока, и движение Луны вокруг Земли."
+        }}
+      ]
+    },
+    {
+      "id": "physics-7-pressure",
+      "grade": 7,
+      "topic": 4,
+      "title": {"tk": "Basyş", "ru": "Давление"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Basyş (p) — üstüň meýdan birligine perpendikulýar täsir edýän güýç:\np = F / S\nBirligi — paskal (Pa): 1 Pa = 1 N/m². 1 kPa = 1000 Pa.\n\nMeýdan näçe kiçi bolsa, şol bir güýçde basyş şonça uly: pyçagyň ýiti ujy kesýär, giň lyžalar gara batmaýar.\n\nSuwuklygyň basyşy çuňluga bagly:\np = ρ·g·h\n(ρ — suwuklygyň dykyzlygy, h — çuňluk). Paskalyň kanuny: suwuklyk we gaz özüne berlen basyşy ähli ugurlara deň geçirýär.\n\nAtmosfera basyşy — howanyň agramynyň döredýän basyşy. Deňiz derejesinde takmynan 101 300 Pa (760 mm sim. süt.).",
+          "ru": "Давление (p) — сила, действующая перпендикулярно на единицу площади поверхности:\np = F / S\nЕдиница — паскаль (Па): 1 Па = 1 Н/м². 1 кПа = 1000 Па.\n\nЧем меньше площадь, тем больше давление при той же силе: острый нож режет, а широкие лыжи не проваливаются в снег.\n\nДавление жидкости зависит от глубины:\np = ρ·g·h\n(ρ — плотность жидкости, h — глубина). Закон Паскаля: жидкости и газы передают давление одинаково во все стороны.\n\nАтмосферное давление создаётся весом воздуха. На уровне моря оно около 101 300 Па (760 мм рт. ст.)."
+        }},
+        {"type": "example", "text": {
+          "tk": "Basseýniň 2 m çuňlugynda suwuň basyşy näçe? (ρ = 1000 kg/m³, g = 10 N/kg)\n1) p = ρ·g·h.\n2) p = 1000 · 10 · 2 = 20 000 Pa = 20 kPa.\n\nIkinji mysal: 600 N agramly adam 0,03 m² meýdanly aýakgap bilen dur.\np = 600 : 0,03 = 20 000 Pa — şol bir 20 kPa.",
+          "ru": "Каково давление воды в бассейне на глубине 2 м? (ρ = 1000 кг/м³, g = 10 Н/кг)\n1) p = ρ·g·h.\n2) p = 1000 · 10 · 2 = 20 000 Па = 20 кПа.\n\nВторой пример: человек весом 600 Н стоит в обуви площадью 0,03 м².\np = 600 : 0,03 = 20 000 Па — те же 20 кПа."
+        }},
+        {"type": "input",
+          "q": {"tk": "200 N güýç 0,5 m² meýdana basýar. Basyş näçe Pa?", "ru": "Сила 200 Н давит на площадь 0,5 м². Каково давление в Па?"},
+          "answer": "400",
+          "hint": {"tk": "p = F / S.", "ru": "p = F / S."},
+          "explain": {"tk": "p = 200 : 0,5 = 400 Pa.", "ru": "p = 200 : 0,5 = 400 Па."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Näme üçin pyçagy ýitileýärler?", "ru": "Зачем точат нож?"},
+          "options": [{"tk": "Güýji kemeltmek üçin", "ru": "Чтобы уменьшить силу"}, {"tk": "Meýdany ulaltmak üçin", "ru": "Чтобы увеличить площадь"}, {"tk": "Meýdany kiçeldip, basyşy ulaltmak üçin", "ru": "Чтобы уменьшить площадь и увеличить давление"}],
+          "answer": 2,
+          "hint": {"tk": "p = F / S formulada S kiçelse näme bolýar?", "ru": "Что происходит в формуле p = F / S, если S уменьшается?"},
+          "explain": {"tk": "Ýiti tygyň meýdany kiçi, şonuň üçin şol bir güýç has uly basyş döredýär.", "ru": "У острого лезвия площадь маленькая, поэтому та же сила создаёт гораздо большее давление."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Suwuklygyň çuňlugy artdygyça onuň basyşy hem artýar.", "ru": "С увеличением глубины давление жидкости увеличивается."},
+          "answer": true,
+          "hint": {"tk": "p = ρ·g·h formulada h-a seret.", "ru": "Посмотрите на h в формуле p = ρ·g·h."},
+          "explain": {"tk": "Basyş çuňluga göni proporsional: h iki esse artsa, p hem iki esse artýar.", "ru": "Давление прямо пропорционально глубине: если h вырастет вдвое, p тоже вырастет вдвое."}
+        },
+        {"type": "input",
+          "q": {"tk": "Deňizde (ρ ≈ 1000 kg/m³, g = 10 N/kg) 10 m çuňlukda suwuň basyşy näçe kPa?", "ru": "Каково давление воды в море на глубине 10 м в кПа? (ρ ≈ 1000 кг/м³, g = 10 Н/кг)"},
+          "answer": "100",
+          "hint": {"tk": "Ilki Pa-da hasapla, soň 1000-e böl.", "ru": "Сначала посчитайте в Па, потом разделите на 1000."},
+          "explain": {"tk": "p = 1000 · 10 · 10 = 100 000 Pa = 100 kPa — takmynan bir atmosfera.", "ru": "p = 1000 · 10 · 10 = 100 000 Па = 100 кПа — примерно одна атмосфера."}
+        },
+        {"type": "world", "text": {
+          "tk": "1643-nji ýylda italýan alymy Ewanjelista Torriçelli simaply turbajyk bilen tejribe geçirip, atmosfera basyşyny ilkinji gezek ölçedi we ilkinji barometri döretdi. Basyşyň birligi bolsa fransuz alymy Blez Paskalyň adyny göterýär.",
+          "ru": "В 1643 году итальянский учёный Эванджелиста Торричелли провёл опыт с трубкой, заполненной ртутью, впервые измерил атмосферное давление и создал первый барометр. А единица давления названа в честь французского учёного Блеза Паскаля."
+        }}
+      ]
+    },
+    {
+      "id": "physics-7-archimedes-force",
+      "grade": 7,
+      "topic": 5,
+      "title": {"tk": "Arhimed güýji we jisimleriň ýüzmegi", "ru": "Сила Архимеда и плавание тел"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Suwuklyga (ýa-da gaza) çümdürilen jisime ýokary gönükdirilen itekleýji güýç — Arhimed güýji täsir edýär:\nFA = ρs·g·V\n(ρs — suwuklygyň dykyzlygy, V — jisimiň suwuklykdaky böleginiň göwrümi).\nArhimed güýji jisim tarapyndan gysylyp çykarylan suwuklygyň agramyna deň.\n\nJisimleriň ýüzmegi:\n• FA < m·g (ρ jisim > ρ suwuklyk) — jisim çümýär\n• FA = m·g — jisim suwuklygyň içinde deňagramlykda durýar\n• FA > m·g (ρ jisim < ρ suwuklyk) — jisim ýokary çykyp, ýüzýär\n\nŞonuň üçin demir gämi ýüzýär: onuň içi boş, umumy ortaça dykyzlygy suwuňkydan kiçi.",
+          "ru": "На тело, погружённое в жидкость (или газ), действует выталкивающая сила, направленная вверх, — сила Архимеда:\nFA = ρж·g·V\n(ρж — плотность жидкости, V — объём погружённой части тела).\nСила Архимеда равна весу жидкости, вытесненной телом.\n\nПлавание тел:\n• FA < m·g (ρ тела > ρ жидкости) — тело тонет\n• FA = m·g — тело находится в равновесии внутри жидкости\n• FA > m·g (ρ тела < ρ жидкости) — тело всплывает и плавает\n\nПоэтому железный корабль плавает: внутри он пустой, и его средняя плотность меньше плотности воды."
+        }},
+        {"type": "example", "text": {
+          "tk": "Göwrümi 0,002 m³ bolan daş suwa doly çümdürilen. Oňa täsir edýän Arhimed güýji näçe? (ρ = 1000 kg/m³, g = 10 N/kg)\n1) FA = ρs·g·V.\n2) FA = 1000 · 10 · 0,002 = 20 N.\n3) Eger daşyň agyrlyk güýji 50 N bolsa, suwda ony saklamak üçin 50 − 20 = 30 N gerek — şonuň üçin suwda zatlar «ýeňil» duýulýar.",
+          "ru": "Камень объёмом 0,002 м³ полностью погружён в воду. Какая сила Архимеда на него действует? (ρ = 1000 кг/м³, g = 10 Н/кг)\n1) FA = ρж·g·V.\n2) FA = 1000 · 10 · 0,002 = 20 Н.\n3) Если сила тяжести камня 50 Н, в воде его удерживать нужно с силой 50 − 20 = 30 Н — поэтому в воде предметы кажутся «легче»."
+        }},
+        {"type": "input",
+          "q": {"tk": "Göwrümi 0,01 m³ bolan jisim suwa doly çümdürildi. Arhimed güýji näçe N? (ρ = 1000 kg/m³, g = 10 N/kg)", "ru": "Тело объёмом 0,01 м³ полностью погружено в воду. Чему равна сила Архимеда в Н? (ρ = 1000 кг/м³, g = 10 Н/кг)"},
+          "answer": "100",
+          "hint": {"tk": "FA = ρ·g·V.", "ru": "FA = ρ·g·V."},
+          "explain": {"tk": "1000 · 10 · 0,01 = 100 N.", "ru": "1000 · 10 · 0,01 = 100 Н."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Agaç (ρ ≈ 600 kg/m³) bölegi suwa goýberildi. Näme bolar?", "ru": "Кусок дерева (ρ ≈ 600 кг/м³) опустили в воду. Что произойдёт?"},
+          "options": [{"tk": "Ýüzer", "ru": "Будет плавать"}, {"tk": "Çümer", "ru": "Утонет"}, {"tk": "Suwuň içinde asylyp durar", "ru": "Зависнет в толще воды"}],
+          "answer": 0,
+          "hint": {"tk": "Agajyň we suwuň dykyzlyklaryny deňeşdir.", "ru": "Сравните плотности дерева и воды."},
+          "explain": {"tk": "600 < 1000, agaç suwdan ýeňil — ýüzýär.", "ru": "600 < 1000, дерево легче воды — плавает."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Şol bir jisime duzly suwda süýji suwdakydan has uly Arhimed güýji täsir edýär (doly çümdürilende).", "ru": "На одно и то же полностью погружённое тело в солёной воде действует большая сила Архимеда, чем в пресной."},
+          "answer": true,
+          "hint": {"tk": "Duzly suwuň dykyzlygy has ulymy ýa-da kiçimi?", "ru": "Плотность солёной воды больше или меньше?"},
+          "explain": {"tk": "Duzly suw has dykyz, FA = ρ·g·V formulada ρ uly, şonuň üçin itekleýji güýç hem uly.", "ru": "Солёная вода плотнее, в формуле FA = ρ·g·V ρ больше, поэтому и выталкивающая сила больше."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Arhimed güýji haýsy ululyga bagly däl?", "ru": "От какой величины сила Архимеда НЕ зависит?"},
+          "options": [{"tk": "Suwuklygyň dykyzlygyna", "ru": "От плотности жидкости"}, {"tk": "Çümen böleginiň göwrümine", "ru": "От объёма погружённой части"}, {"tk": "Jisimiň öz dykyzlygyna", "ru": "От плотности самого тела"}],
+          "answer": 2,
+          "hint": {"tk": "FA = ρs·g·V formulasyna seret.", "ru": "Посмотрите на формулу FA = ρж·g·V."},
+          "explain": {"tk": "Formulada diňe suwuklygyň dykyzlygy we çümen göwrüm bar. Jisimiň dykyzlygy onuň ýüzjekdigini ýa-da çümjekdigini kesgitleýär, ýöne FA-nyň özüne girmeýär.", "ru": "В формулу входят только плотность жидкости и погружённый объём. Плотность тела определяет, утонет оно или всплывёт, но в саму FA не входит."}
+        },
+        {"type": "world", "text": {
+          "tk": "Ölüdeňziň suwy örän duzly — onuň dykyzlygy takmynan 1240 kg/m³, adam bedeniniňkiden ep-esli uly. Şonuň üçin ol ýerde adamlar hiç zat etmän suwuň ýüzünde ýatyp, hatda gazet okap bilýärler. Rowaýata görä, Arhimed öz kanunyny wannada otyrka açyp, «Ewrika!» («Tapdym!») diýip gygyrypdyr.",
+          "ru": "Вода Мёртвого моря очень солёная — её плотность около 1240 кг/м³, заметно больше плотности человеческого тела. Поэтому там люди могут лежать на поверхности без усилий и даже читать газету. По легенде, Архимед открыл свой закон, сидя в ванне, и воскликнул: «Эврика!» («Нашёл!»)."
+        }}
+      ]
+    }
+  ]
+}

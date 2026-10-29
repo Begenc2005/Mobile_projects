@@ -1,0 +1,288 @@
+{
+  "grade": 12,
+  "subject": "informatics",
+  "lessons": [
+    {
+      "id": "informatics-12-programming-project",
+      "grade": 12,
+      "topic": 0,
+      "title": {"tk": "Programmirleme taslamasy: ideýadan relize çenli", "ru": "Программный проект: от идеи до релиза"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Programma üpjünçiliginiň döreýiş sikli (SDLC):\n1) Talaplar — ulanyjy näme isleýär? (funksional we funksional däl talaplar)\n2) Taslama — arhitektura, maglumat gurluşy, interfeýs eskizi.\n3) Kodlamak — modullar, funksiýalar, düşnükli atlar.\n4) Synag — unit testler, ulanyjy synagy.\n5) Ýerleşdirmek (deploy) we goldaw.\n\nIşleýiş usullary:\n• Waterfall — basgançaklar yzygiderli.\n• Agile/Scrum — gysga sprintler (adatça 1–4 hepde), her sprintde işleýän netije.\n\nGurallar: Git (wersiýa gözegçiligi), GitHub/GitLab, task-tracker.\nMVP (Minimum Viable Product) — iň az, ýöne peýdaly işleýän wersiýa.",
+          "ru": "Жизненный цикл разработки ПО (SDLC):\n1) Требования — что нужно пользователю? (функциональные и нефункциональные)\n2) Проектирование — архитектура, структуры данных, эскиз интерфейса.\n3) Кодирование — модули, функции, понятные имена.\n4) Тестирование — unit-тесты, пользовательские тесты.\n5) Развёртывание (deploy) и поддержка.\n\nМетодологии:\n• Waterfall (каскад) — этапы строго по очереди.\n• Agile/Scrum — короткие спринты (обычно 1–4 недели), в каждом — работающий результат.\n\nИнструменты: Git (контроль версий), GitHub/GitLab, таск-трекер.\nMVP (Minimum Viable Product) — минимальная, но полезная работающая версия."
+        }},
+        {"type": "example", "text": {
+          "tk": "Taslama: mekdep kitaphanasy üçin programma.\n1) Talaplar: kitap gözlemek, kitap bermek/kabul etmek, möhlet geçende duýduryş.\n2) Taslama: tablisalar books(id, title, author), loans(book_id, student, due_date).\n3) MVP: diňe gözleg we bermek.\n4) Git: her funksiýa üçin aýry şaha (branch), soňra merge.\n5) Unit test mysaly (Python):\n   assert is_overdue('2026-05-01', today='2026-05-10') == True\n6) Ulanyjy synagyndan soň indiki sprintde duýduryş goşulýar.",
+          "ru": "Проект: программа для школьной библиотеки.\n1) Требования: поиск книг, выдача/приём, напоминание о просрочке.\n2) Проектирование: таблицы books(id, title, author), loans(book_id, student, due_date).\n3) MVP: только поиск и выдача.\n4) Git: отдельная ветка (branch) на каждую функцию, затем merge.\n5) Пример unit-теста (Python):\n   assert is_overdue('2026-05-01', today='2026-05-10') == True\n6) После пользовательского теста в следующем спринте добавляется напоминание."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Haýsy talap funksional däl (non-functional)?", "ru": "Какое требование нефункциональное?"},
+          "options": ["Ulanyjy kitaby ady boýunça gözläp bilmeli", "Gözleg 1 sekuntdan az wagtda jogap bermeli", "Kitaphanaçy kitaby berip bilmeli"],
+          "answer": 1,
+          "hint": {"tk": "Funksional däl talaplar «näme» däl-de, «nähili» (tizlik, howpsuzlyk) barada.", "ru": "Нефункциональные — не «что», а «как» (скорость, безопасность)."},
+          "explain": {"tk": "Tizlik — hil talaby, ýagny funksional däl. Beýlekiler ulgamyň näme etmelidigini aýdýar.", "ru": "Скорость — требование к качеству, нефункциональное. Остальные описывают, что система делает."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Scrum-da iş gysga döwürlere — sprintlere bölünýär.", "ru": "В Scrum работа делится на короткие периоды — спринты."},
+          "answer": true,
+          "hint": {"tk": "Agile usulyny ýatlaň.", "ru": "Вспомните Agile."},
+          "explain": {"tk": "Dogry: sprint adatça 1–4 hepde dowam edýär.", "ru": "Верно: спринт обычно длится 1–4 недели."}
+        },
+        {"type": "input",
+          "q": {"tk": "Koduň wersiýalaryna gözegçilik etmek üçin iň meşhur ulgamyň ady näme? (3 harp)", "ru": "Как называется самая популярная система контроля версий? (3 буквы)"},
+          "answer": "git|Git",
+          "hint": {"tk": "Onuň esasynda GitHub hyzmaty işleýär.", "ru": "На ней основан сервис GitHub."},
+          "explain": {"tk": "Git — paýlanan wersiýa gözegçilik ulgamy.", "ru": "Git — распределённая система контроля версий."}
+        },
+        {"type": "choice",
+          "q": {"tk": "MVP näme?", "ru": "Что такое MVP?"},
+          "options": ["Iň az, ýöne peýdaly işleýän wersiýa", "Iň gowy programmist", "Taslamanyň soňky doly wersiýasy"],
+          "answer": 0,
+          "hint": {"tk": "Minimum Viable Product.", "ru": "Minimum Viable Product."},
+          "explain": {"tk": "MVP — ulanyjylardan tiz pikir almak üçin minimal işleýän önüm.", "ru": "MVP — минимальный работающий продукт для быстрой обратной связи."}
+        },
+        {"type": "world", "text": {
+          "tk": "Git ulgamyny 2005-nji ýylda Linus Torwalds Linux ýadrosynyň işläp taýýarlanyşyny dolandyrmak üçin döretdi. Häzir ol dünýäde iň giň ýaýran wersiýa gözegçilik ulgamy.",
+          "ru": "Git создал Линус Торвальдс в 2005 году для управления разработкой ядра Linux. Сегодня это самая распространённая система контроля версий в мире."
+        }}
+      ]
+    },
+    {
+      "id": "informatics-12-cybersecurity-advanced",
+      "grade": 12,
+      "topic": 1,
+      "title": {"tk": "Kiberhowpsuzlyk: çuňňur", "ru": "Кибербезопасность: углублённо"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Maglumat howpsuzlygynyň esasy üç ýörelgesi — CIA triadasy:\n• Confidentiality (gizlinlik) — maglumaty diňe rugsatly adamlar görýär.\n• Integrity (bitewilik) — maglumat rugsatsyz üýtgedilmeýär.\n• Availability (elýeterlilik) — ulgam gerek wagty işleýär.\n\nŞifrlemek:\n• Simmetrik (AES) — bir açar bilen şifrlenýär we açylýar.\n• Asimmetrik (RSA) — açyk açar bilen şifrlenýär, ýapyk açar bilen açylýar.\n• Heşleme (SHA-256) — yzyna gaýtaryp bolmaýan «barmak yzy»; parollar heş görnüşinde saklanýar.\n\nHüjümler: phishing, SQL injection, DDoS, ransomware, man-in-the-middle.\nGoranyş: 2FA, täzelenmeler, HTTPS, ätiýaçlyk nusga (backup).",
+          "ru": "Три основных принципа защиты информации — триада CIA:\n• Confidentiality (конфиденциальность) — данные видят только допущенные.\n• Integrity (целостность) — данные не изменены без разрешения.\n• Availability (доступность) — система работает, когда нужна.\n\nШифрование:\n• Симметричное (AES) — один ключ для шифрования и расшифровки.\n• Асимметричное (RSA) — шифруют открытым ключом, расшифровывают закрытым.\n• Хеширование (SHA-256) — необратимый «отпечаток»; пароли хранят в виде хешей.\n\nАтаки: фишинг, SQL-инъекция, DDoS, программы-вымогатели, «человек посередине».\nЗащита: 2FA, обновления, HTTPS, резервные копии."
+        }},
+        {"type": "example", "text": {
+          "tk": "SQL injection mysaly.\nÝalňyş kod:\n  query = \"SELECT * FROM users WHERE name = '\" + name + \"'\"\nHüjümçi name ýerine şuny girizýär:  ' OR '1'='1\nNetije: WHERE name = '' OR '1'='1' — şert hemişe dogry, ähli ulanyjylar görünýär.\n\nGoranyş — parametrli sorag:\n  cursor.execute(\"SELECT * FROM users WHERE name = ?\", (name,))\nIndi giriş diňe maglumat hökmünde kabul edilýär, buýruk hökmünde däl.",
+          "ru": "Пример SQL-инъекции.\nУязвимый код:\n  query = \"SELECT * FROM users WHERE name = '\" + name + \"'\"\nЗлоумышленник вводит вместо имени:  ' OR '1'='1\nИтог: WHERE name = '' OR '1'='1' — условие всегда истинно, видны все пользователи.\n\nЗащита — параметризованный запрос:\n  cursor.execute(\"SELECT * FROM users WHERE name = ?\", (name,))\nТеперь ввод воспринимается как данные, а не как команда."
+        }},
+        {"type": "choice",
+          "q": {"tk": "DDoS hüjümi CIA-nyň haýsy ýörelgesine zyýan ýetirýär?", "ru": "Какой принцип CIA нарушает DDoS-атака?"},
+          "options": ["Confidentiality", "Integrity", "Availability"],
+          "answer": 2,
+          "hint": {"tk": "DDoS serweri köp sorag bilen doldurýar.", "ru": "DDoS перегружает сервер запросами."},
+          "explain": {"tk": "Serwer işlemän galýar — elýeterlilik bozulýar.", "ru": "Сервер перестаёт отвечать — нарушается доступность."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Heş funksiýasynyň netijesinden asyl paroly ýönekeý usulda yzyna dikeldip bolýar.", "ru": "Из результата хеш-функции исходный пароль легко восстановить обратно."},
+          "answer": false,
+          "hint": {"tk": "Heşleme bir taraplaýyn amal.", "ru": "Хеширование — одностороннее преобразование."},
+          "explain": {"tk": "Ýalňyş: heş yzyna gaýtarylmaýar; şonuň üçin parollar heş görnüşinde saklanýar.", "ru": "Неверно: хеш необратим, поэтому пароли и хранят в виде хешей."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Asimmetrik şifrlemede size gizlin hat ibermek üçin iberiji haýsy açary ulanýar?", "ru": "При асимметричном шифровании каким ключом отправитель шифрует письмо для вас?"},
+          "options": ["Siziň açyk açaryňyz", "Siziň ýapyk açaryňyz", "Öz ýapyk açary"],
+          "answer": 0,
+          "hint": {"tk": "Hatlary diňe siz açyp bilmeli.", "ru": "Открыть письмо должны только вы."},
+          "explain": {"tk": "Açyk açar bilen şifrlenýär, diňe siziň ýapyk açaryňyz bilen açylýar.", "ru": "Шифруют вашим открытым ключом, расшифровать может только ваш закрытый."}
+        },
+        {"type": "input",
+          "q": {"tk": "SHA-256 heşiniň uzynlygy näçe bit?", "ru": "Какова длина хеша SHA-256 в битах?"},
+          "answer": "256",
+          "hint": {"tk": "Jogap adynda bar.", "ru": "Ответ — в названии."},
+          "explain": {"tk": "SHA-256 islendik uzynlykdaky girişden 256 bitlik (64 onaltylyk simwol) heş çykarýar.", "ru": "SHA-256 выдаёт хеш длиной 256 бит (64 шестнадцатеричных символа) для входа любой длины."}
+        },
+        {"type": "world", "text": {
+          "tk": "RSA algoritmini 1977-nji ýylda Ron Riwest, Adi Şamir we Leonard Adleman beýan etdiler; ady olaryň familiýalarynyň baş harplaryndan düzülen. Onuň howpsuzlygy uly sanlary ýönekeý köpeldijilere dagytmagyň kynlygyna esaslanýar.",
+          "ru": "Алгоритм RSA описали в 1977 году Рон Ривест, Ади Шамир и Леонард Адлеман; название составлено из первых букв их фамилий. Его стойкость основана на сложности разложения больших чисел на простые множители."
+        }}
+      ]
+    },
+    {
+      "id": "informatics-12-blockchain",
+      "grade": 12,
+      "topic": 2,
+      "title": {"tk": "Blokçeýn: nähili işleýär", "ru": "Блокчейн: как он устроен"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Blokçeýn — bloklaryň zynjyry görnüşinde saklanýan paýlanan maglumat bazasy (ýazgylar kitaby).\n\nHer blokda:\n• maglumatlar (meselem, geleşikler);\n• wagt belgisi;\n• öňki blogyň heşi;\n• öz heşi.\n\nEger bir blokdaky maglumat üýtgedilse, onuň heşi üýtgeýär we indiki bloklaryň baglanyşygy bozulýar — galplygy aňsat görmek bolýar.\n\nPaýlanan tor: zynjyryň nusgasy köp kompýuterde (düwünlerde) saklanýar.\nKonsensus: Proof of Work (kyn hasaplama, «mining»), Proof of Stake (gatnaşyjylaryň goýumy).\nUlanylyşy: kriptowalýutalar, smart-şertnamalar, üpjünçilik zynjyryny yzarlamak.",
+          "ru": "Блокчейн — распределённая база данных (реестр) в виде цепочки блоков.\n\nВ каждом блоке:\n• данные (например, транзакции);\n• метка времени;\n• хеш предыдущего блока;\n• собственный хеш.\n\nЕсли изменить данные в одном блоке, его хеш изменится и связь со следующими блоками нарушится — подделку легко обнаружить.\n\nРаспределённая сеть: копия цепочки хранится на множестве компьютеров (узлов).\nКонсенсус: Proof of Work (сложные вычисления, «майнинг»), Proof of Stake (залог участников).\nПрименение: криптовалюты, смарт-контракты, отслеживание цепочек поставок."
+        }},
+        {"type": "example", "text": {
+          "tk": "Ýönekeýleşdirilen zynjyr:\nBlok 1: data=\"A→B 5\", prev=0000, hash=7a3f\nBlok 2: data=\"B→C 2\", prev=7a3f, hash=c91e\nBlok 3: data=\"C→D 1\", prev=c91e, hash=44b0\n\nKimdir biri Blok 1-de \"5\"-i \"50\" edip üýtgedýär.\n1) Blok 1-iň täze heşi başga bolýar, meselem 9d12.\n2) Blok 2-de prev=7a3f galdy — 9d12 bilen gabat gelmeýär.\n3) Torda beýleki düwünleriň nusgasy bilen deňeşdirilende bu nusga ret edilýär.",
+          "ru": "Упрощённая цепочка:\nБлок 1: data=\"A→B 5\", prev=0000, hash=7a3f\nБлок 2: data=\"B→C 2\", prev=7a3f, hash=c91e\nБлок 3: data=\"C→D 1\", prev=c91e, hash=44b0\n\nКто-то меняет в Блоке 1 «5» на «50».\n1) Новый хеш Блока 1 станет другим, например 9d12.\n2) В Блоке 2 осталось prev=7a3f — не совпадает с 9d12.\n3) При сверке с копиями других узлов эта копия будет отвергнута."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Bloklary biri-birine näme baglaýar?", "ru": "Что связывает блоки между собой?"},
+          "options": ["Ulanyjynyň ady", "Öňki blogyň heşi", "Blogyň ululygy"],
+          "answer": 1,
+          "hint": {"tk": "Her blok öňkini «ýatda saklaýar».", "ru": "Каждый блок «помнит» предыдущий."},
+          "explain": {"tk": "Her blokda öňki blogyň heşi bar — şonuň üçin zynjyr bütewi.", "ru": "Каждый блок содержит хеш предыдущего — так образуется цепочка."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Blokçeýniň nusgasy diňe bir merkezi serwerde saklanýar.", "ru": "Копия блокчейна хранится только на одном центральном сервере."},
+          "answer": false,
+          "hint": {"tk": "«Paýlanan» sözüni ýatlaň.", "ru": "Вспомните слово «распределённый»."},
+          "explain": {"tk": "Ýalňyş: nusga köp düwünde saklanýar — bu blokçeýniň esasy aýratynlygy.", "ru": "Неверно: копии хранятся на множестве узлов — это ключевая черта блокчейна."}
+        },
+        {"type": "input",
+          "q": {"tk": "Mysalda Blok 3-iň prev meýdanynda haýsy heş ýazylan?", "ru": "Какой хеш записан в поле prev Блока 3 в примере?"},
+          "answer": "c91e",
+          "hint": {"tk": "Blok 2-iň heşine serediň.", "ru": "Посмотрите на хеш Блока 2."},
+          "explain": {"tk": "Blok 3 öňki blogyň, ýagny Blok 2-iň heşini saklaýar: c91e.", "ru": "Блок 3 хранит хеш предыдущего, то есть Блока 2: c91e."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Bitkoin ulgamynda haýsy konsensus mehanizmi ulanylýar?", "ru": "Какой механизм консенсуса используется в Bitcoin?"},
+          "options": ["Proof of Stake", "Ses bermek", "Proof of Work"],
+          "answer": 2,
+          "hint": {"tk": "Bu mehanizm «mining» bilen baglanyşykly.", "ru": "Этот механизм связан с «майнингом»."},
+          "explain": {"tk": "Bitcoin Proof of Work ulanýar: täze blok kyn hasaplama arkaly tapylýar.", "ru": "Bitcoin использует Proof of Work: новый блок находят через сложные вычисления."}
+        },
+        {"type": "world", "text": {
+          "tk": "Bitkoin hakdaky makala 2008-nji ýylda Satoşi Nakamoto lakamy bilen çap edildi, ilkinji blok bolsa 2009-njy ýylyň ýanwarynda döredildi. Bu lakamyň aňyrsynda kimiň durandygy häzir hem anyk belli däl.",
+          "ru": "Статья о Bitcoin была опубликована в 2008 году под псевдонимом Сатоси Накамото, а первый блок создан в январе 2009 года. Кто стоит за этим псевдонимом, до сих пор точно неизвестно."
+        }}
+      ]
+    },
+    {
+      "id": "informatics-12-neural-networks",
+      "grade": 12,
+      "topic": 3,
+      "title": {"tk": "Neýron torlar: emeli neýrondan çuň öwrenmä", "ru": "Нейронные сети: от нейрона к глубокому обучению"},
+      "minutes": 11,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Emeli neýron giriş sanlaryny agramlar bilen köpeldýär, jemleýär, süýşme (bias) goşýar we aktiwasiýa funksiýasyndan geçirýär:\n  y = f(w₁x₁ + w₂x₂ + … + b)\n\nAktiwasiýa funksiýalary:\n• ReLU: f(z) = max(0, z)\n• Sigmoid: netije 0 bilen 1 aralygynda.\n\nTor gatlaklardan ybarat: giriş → gizlin gatlaklar → çykyş. Köp gizlin gatlak — çuň öwrenme (deep learning).\n\nÖwrenmek: tor çaklama edýär, ýalňyşlygy (loss) hasaplaýar, backpropagation we gradient inişi arkaly agramlary düzedýär. Maglumatlar training we test toplumlaryna bölünýär.\nOverfitting — tor okuw maglumatlaryny «ýat tutýar», täze maglumatlarda erbet işleýär.",
+          "ru": "Искусственный нейрон умножает входы на веса, суммирует, добавляет смещение (bias) и пропускает через функцию активации:\n  y = f(w₁x₁ + w₂x₂ + … + b)\n\nФункции активации:\n• ReLU: f(z) = max(0, z)\n• Сигмоида: результат от 0 до 1.\n\nСеть состоит из слоёв: входной → скрытые → выходной. Много скрытых слоёв — глубокое обучение (deep learning).\n\nОбучение: сеть делает прогноз, считает ошибку (loss), корректирует веса через обратное распространение ошибки (backpropagation) и градиентный спуск. Данные делят на обучающую и тестовую выборки.\nПереобучение (overfitting) — сеть «заучивает» обучающие данные и плохо работает на новых."
+        }},
+        {"type": "example", "text": {
+          "tk": "Neýron: x₁ = 2, x₂ = 3, w₁ = 0,5, w₂ = −1, b = 1, aktiwasiýa ReLU.\n1) Agramly jem: 0,5·2 + (−1)·3 = 1 − 3 = −2\n2) Bias goşýarys: z = −2 + 1 = −1\n3) ReLU: max(0, −1) = 0\nNeýronyň çykyşy: 0.\n\nEger w₂ = 1 bolsa: z = 1 + 3 + 1 = 5, ReLU(5) = 5.",
+          "ru": "Нейрон: x₁ = 2, x₂ = 3, w₁ = 0,5, w₂ = −1, b = 1, активация ReLU.\n1) Взвешенная сумма: 0,5·2 + (−1)·3 = 1 − 3 = −2\n2) Добавляем смещение: z = −2 + 1 = −1\n3) ReLU: max(0, −1) = 0\nВыход нейрона: 0.\n\nЕсли w₂ = 1: z = 1 + 3 + 1 = 5, ReLU(5) = 5."
+        }},
+        {"type": "input",
+          "q": {"tk": "x₁ = 1, x₂ = 4, w₁ = 2, w₂ = 0,5, b = −1, aktiwasiýa ReLU. Neýronyň çykyşy näçe?", "ru": "x₁ = 1, x₂ = 4, w₁ = 2, w₂ = 0,5, b = −1, активация ReLU. Чему равен выход нейрона?"},
+          "answer": "3",
+          "hint": {"tk": "Ilki 2·1 + 0,5·4 hasaplaň, soňra b goşuň.", "ru": "Сначала 2·1 + 0,5·4, затем прибавьте b."},
+          "explain": {"tk": "z = 2 + 2 − 1 = 3; ReLU(3) = 3.", "ru": "z = 2 + 2 − 1 = 3; ReLU(3) = 3."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Tor okuw maglumatlarynda gaty gowy, täze maglumatlarda bolsa erbet netije berýär. Bu näme?", "ru": "Сеть отлично работает на обучающих данных, но плохо на новых. Что это?"},
+          "options": ["Overfitting", "Underfitting", "Backpropagation"],
+          "answer": 0,
+          "hint": {"tk": "Tor maglumatlary «ýat tutdy».", "ru": "Сеть «заучила» данные."},
+          "explain": {"tk": "Overfitting — tor umumylaşdyrmagy öwrenmän, okuw mysallaryny ýatlaýar.", "ru": "Overfitting — сеть запоминает примеры вместо обобщения."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "ReLU funksiýasy otrisatel sanlar üçin 0 berýär.", "ru": "Функция ReLU для отрицательных чисел даёт 0."},
+          "answer": true,
+          "hint": {"tk": "max(0, z) formulasyny ulanyň.", "ru": "Используйте max(0, z)."},
+          "explain": {"tk": "Dogry: z < 0 bolsa, max(0, z) = 0.", "ru": "Верно: при z < 0 max(0, z) = 0."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Öwrenme wagtynda agramlary düzetmek üçin ýalňyşlygy yzyna ýaýratmak usuly nähili atlandyrylýar?", "ru": "Как называется метод распространения ошибки назад для корректировки весов?"},
+          "options": ["Forward pass", "Backpropagation", "Tokenization"],
+          "answer": 1,
+          "hint": {"tk": "«Back» — yza.", "ru": "«Back» — назад."},
+          "explain": {"tk": "Backpropagation her agramyň ýalňyşlyga täsirini (gradienti) hasaplaýar.", "ru": "Backpropagation вычисляет вклад (градиент) каждого веса в ошибку."}
+        },
+        {"type": "world", "text": {
+          "tk": "Ilkinji öwrenip bilýän neýron modeli — perseptrony 1958-nji ýylda amerikan alymy Frenk Rozenblatt hödürledi. 2012-nji ýylda çuň neýron tory AlexNet ImageNet suratlary tanamak bäsleşiginde öňki usullardan ep-esli öňe geçip, çuň öwrenmäniň çalt ösüşine itergi berdi.",
+          "ru": "Первую обучаемую модель нейрона — перцептрон — предложил американский учёный Фрэнк Розенблатт в 1958 году. В 2012 году глубокая сеть AlexNet заметно опередила прежние методы в конкурсе распознавания изображений ImageNet, что дало толчок бурному развитию глубокого обучения."
+        }}
+      ]
+    },
+    {
+      "id": "informatics-12-it-careers",
+      "grade": 12,
+      "topic": 4,
+      "title": {"tk": "IT hünärleri we olara taýýarlyk", "ru": "IT-профессии и подготовка к ним"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Esasy IT hünärleri:\n• Frontend developer — sahypalaryň we programmalaryň interfeýsi (HTML, CSS, JavaScript).\n• Backend developer — serwer tarapy, maglumat bazalary (Python, Java, Go, SQL).\n• Mobile developer — Android (Kotlin), iOS (Swift).\n• Data scientist / ML engineer — maglumat derňewi, modeller (Python, statistika).\n• DevOps engineer — ýerleşdirmek awtomatizasiýasy, bulut, serwerler.\n• QA engineer — synag, ýalňyşlyklary tapmak.\n• Cybersecurity specialist — ulgamlary goramak.\n• UX/UI designer — ulanyjy tejribesi we dizaýn.\n\nTaýýarlyk: matematika we iňlis dili, öz taslamalaryň portfolio (GitHub), onlaýn kurslar, olimpiadalar, tejribe (internship).",
+          "ru": "Основные IT-профессии:\n• Frontend-разработчик — интерфейс сайтов и приложений (HTML, CSS, JavaScript).\n• Backend-разработчик — серверная часть, базы данных (Python, Java, Go, SQL).\n• Мобильный разработчик — Android (Kotlin), iOS (Swift).\n• Data scientist / ML-инженер — анализ данных, модели (Python, статистика).\n• DevOps-инженер — автоматизация развёртывания, облака, серверы.\n• QA-инженер — тестирование, поиск ошибок.\n• Специалист по кибербезопасности — защита систем.\n• UX/UI-дизайнер — пользовательский опыт и дизайн.\n\nПодготовка: математика и английский, портфолио своих проектов (GitHub), онлайн-курсы, олимпиады, стажировки."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mysal ýol: «Mobil programmalary döretmek isleýärin».\n1) Esaslar: Python ýa-da Java bilen programmirlemäniň esaslaryny öwreniň.\n2) Platforma saýlaň: Android → Kotlin.\n3) Kiçi taslamalar: kalkulýator, ýumuş sanawy, howa programmasy (API bilen).\n4) Kody GitHub-da ýerleşdiriň — bu siziň portfolioňyz.\n5) Iňlis dilindäki resminamalary okamagy öwreniň.\n6) Tejribe ýa-da açyk çeşmeli taslamalara goşant.",
+          "ru": "Пример пути: «Хочу создавать мобильные приложения».\n1) Основы: изучить основы программирования на Python или Java.\n2) Выбрать платформу: Android → Kotlin.\n3) Мини-проекты: калькулятор, список дел, приложение погоды (с API).\n4) Выкладывать код на GitHub — это ваше портфолио.\n5) Учиться читать документацию на английском.\n6) Стажировка или вклад в open-source проекты."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Serwer tarapyny we maglumat bazalaryny kim taýýarlaýar?", "ru": "Кто разрабатывает серверную часть и базы данных?"},
+          "options": ["Frontend developer", "UX/UI designer", "Backend developer"],
+          "answer": 2,
+          "hint": {"tk": "«Back» — arka tarap, ulanyjy görmeýän bölek.", "ru": "«Back» — задняя часть, невидимая пользователю."},
+          "explain": {"tk": "Backend — serwer logikasy we maglumat bazalary; frontend — ulanyjy görýän interfeýs.", "ru": "Backend — серверная логика и БД; frontend — видимый интерфейс."}
+        },
+        {"type": "choice",
+          "q": {"tk": "iOS programmalary üçin Apple-iň esasy dili haýsy?", "ru": "Какой основной язык Apple для приложений iOS?"},
+          "options": ["Swift", "Kotlin", "PHP"],
+          "answer": 0,
+          "hint": {"tk": "Bu dil 2014-nji ýylda tanyşdyryldy we guşuň adyny göterýär.", "ru": "Язык представлен в 2014 году и назван в честь птицы."},
+          "explain": {"tk": "Swift — Apple-iň dili; Kotlin — Android üçin.", "ru": "Swift — язык Apple; Kotlin — для Android."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "QA engineer-iň esasy wezipesi — programmany synagdan geçirmek we ýalňyşlyklary tapmak.", "ru": "Главная задача QA-инженера — тестировать программу и находить ошибки."},
+          "answer": true,
+          "hint": {"tk": "QA — Quality Assurance (hili üpjün etmek).", "ru": "QA — Quality Assurance (обеспечение качества)."},
+          "explain": {"tk": "Dogry: QA önümiň hilini barlaýar.", "ru": "Верно: QA проверяет качество продукта."}
+        },
+        {"type": "input",
+          "q": {"tk": "Web sahypanyň gurluşyny beýan edýän bellik dili (4 harp)?", "ru": "Язык разметки, описывающий структуру веб-страницы (4 буквы)?"},
+          "answer": "html|HTML",
+          "hint": {"tk": "HyperText Markup Language.", "ru": "HyperText Markup Language."},
+          "explain": {"tk": "HTML — gurluş, CSS — görnüş, JavaScript — özüni alyp barşy.", "ru": "HTML — структура, CSS — оформление, JavaScript — поведение."}
+        },
+        {"type": "world", "text": {
+          "tk": "Ada Lawleýs 1843-nji ýylda Çarlz Bebbijiň «Analitik maşyny» üçin Bernulli sanlaryny hasaplaýan algoritmi beýan etdi. Ol köplenç dünýäde ilkinji programmist hasaplanýar; harby taslamalar üçin döredilen «Ada» programmirleme dili onuň adyny göterýär.",
+          "ru": "Ада Лавлейс в 1843 году описала алгоритм вычисления чисел Бернулли для «Аналитической машины» Чарльза Бэббиджа. Её часто называют первым программистом; в её честь назван язык программирования Ada, созданный для оборонных проектов."
+        }}
+      ]
+    },
+    {
+      "id": "informatics-12-review",
+      "grade": 12,
+      "topic": 5,
+      "title": {"tk": "Gaýtalamak: informatika", "ru": "Повторение: информатика"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Mekdep informatikasynyň esasy pikirleri:\n• Maglumat: 1 baýt = 8 bit; 1 KB = 1024 baýt (ikilik ulgamda).\n• Sanaw ulgamlary: 13₁₀ = 1101₂; 255₁₀ = FF₁₆.\n• Logika: AND, OR, NOT; hakykat tablisalary.\n• Algoritmler: çyzykly gözleg O(n), ikilik gözleg O(log n), saýlap tertiplemek O(n²).\n• Tor: IP-salgy, DNS, HTTP/HTTPS.\n• Howpsuzlyk: CIA, şifrlemek, heş.\n• Häzirki tehnologiýalar: blokçeýn, neýron torlar.",
+          "ru": "Главное из школьной информатики:\n• Информация: 1 байт = 8 бит; 1 КБ = 1024 байта (в двоичном смысле).\n• Системы счисления: 13₁₀ = 1101₂; 255₁₀ = FF₁₆.\n• Логика: AND, OR, NOT; таблицы истинности.\n• Алгоритмы: линейный поиск O(n), двоичный поиск O(log n), сортировка выбором O(n²).\n• Сети: IP-адрес, DNS, HTTP/HTTPS.\n• Безопасность: CIA, шифрование, хеш.\n• Современные технологии: блокчейн, нейронные сети."
+        }},
+        {"type": "example", "text": {
+          "tk": "45-i ikilik ulgama geçirmek (2-ä bölüp, galyndylary ýazmak):\n45 : 2 = 22, galyndy 1\n22 : 2 = 11, galyndy 0\n11 : 2 = 5, galyndy 1\n5 : 2 = 2, galyndy 1\n2 : 2 = 1, galyndy 0\n1 : 2 = 0, galyndy 1\nGalyndylary aşakdan ýokaryk okaýarys: 101101₂.\nBarlag: 32 + 8 + 4 + 1 = 45 ✓",
+          "ru": "Переведём 45 в двоичную систему (делим на 2, записываем остатки):\n45 : 2 = 22, остаток 1\n22 : 2 = 11, остаток 0\n11 : 2 = 5, остаток 1\n5 : 2 = 2, остаток 1\n2 : 2 = 1, остаток 0\n1 : 2 = 0, остаток 1\nЧитаем остатки снизу вверх: 101101₂.\nПроверка: 32 + 8 + 4 + 1 = 45 ✓"
+        }},
+        {"type": "input",
+          "q": {"tk": "1010₂ onluk ulgamda näçe?", "ru": "Сколько будет 1010₂ в десятичной системе?"},
+          "answer": "10",
+          "hint": {"tk": "8 + 0 + 2 + 0.", "ru": "8 + 0 + 2 + 0."},
+          "explain": {"tk": "1·8 + 0·4 + 1·2 + 0·1 = 10.", "ru": "1·8 + 0·4 + 1·2 + 0·1 = 10."}
+        },
+        {"type": "choice",
+          "q": {"tk": "1024 elementli tertiplenen sanawda ikilik gözleg iň köp näçe deňeşdirme talap edýär (takmynan)?", "ru": "Сколько примерно сравнений нужно двоичному поиску в отсортированном списке из 1024 элементов в худшем случае?"},
+          "options": ["1024", "512", "10"],
+          "answer": 2,
+          "hint": {"tk": "2 näçenji derejede 1024 bolýar?", "ru": "В какую степень нужно возвести 2, чтобы получить 1024?"},
+          "explain": {"tk": "log₂1024 = 10: her ädimde sanaw iki esse kiçelýär (takyk iň erbet ýagdaý 11-e çenli).", "ru": "log₂1024 = 10: каждый шаг делит список пополам (точный худший случай — до 11)."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "DNS domen adyny (meselem, example.com) IP-salga öwürýär.", "ru": "DNS преобразует доменное имя (например, example.com) в IP-адрес."},
+          "answer": true,
+          "hint": {"tk": "DNS — Domain Name System.", "ru": "DNS — Domain Name System."},
+          "explain": {"tk": "Dogry: DNS internetiň «telefon kitaby» ýaly işleýär.", "ru": "Верно: DNS работает как «телефонная книга» интернета."}
+        },
+        {"type": "choice",
+          "q": {"tk": "A = 1, B = 0. (A AND B) OR (NOT B) näçe?", "ru": "A = 1, B = 0. Чему равно (A AND B) OR (NOT B)?"},
+          "options": ["0", "1", "2"],
+          "answer": 1,
+          "hint": {"tk": "Ilki ýaýlary hasaplaň: 1 AND 0, NOT 0.", "ru": "Сначала скобки: 1 AND 0, NOT 0."},
+          "explain": {"tk": "1 AND 0 = 0; NOT 0 = 1; 0 OR 1 = 1.", "ru": "1 AND 0 = 0; NOT 0 = 1; 0 OR 1 = 1."}
+        },
+        {"type": "world", "text": {
+          "tk": "World Wide Web-i 1989-njy ýylda CERN-de işlän Tim Berners-Li teklip etdi; ol HTML, HTTP we URL düşünjelerini döretdi. Ilkinji web sahypa 1991-nji ýylda açyldy.",
+          "ru": "Всемирную паутину (World Wide Web) предложил в 1989 году Тим Бернерс-Ли, работавший в CERN; он создал HTML, HTTP и URL. Первый веб-сайт заработал в 1991 году."
+        }}
+      ]
+    }
+  ]
+}

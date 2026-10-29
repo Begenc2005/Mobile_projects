@@ -1,0 +1,3478 @@
+{
+ "id": "chemistry",
+ "icon": "⚗️",
+ "color": "#12B886",
+ "title": {
+  "tk": "Himiýa",
+  "ru": "Химия"
+ },
+ "lessons": [
+  {
+   "id": "chem-8-atom",
+   "grade": 8,
+   "title": {
+    "tk": "Atomyň gurluşy",
+    "ru": "Строение атома"
+   },
+   "minutes": 10,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Atom ýadrodan we onuň daşynda hereket edýän elektronlardan ybarat.\n• Proton (+) we neýtron (0) — ýadroda\n• Elektron (−) — ýadronyň daşynda\n\nElementiň tertip belgisi (Z) = protonlaryň sany = elektronlaryň sany (neýtral atomda).",
+      "ru": "Атом состоит из ядра и электронов, движущихся вокруг него.\n• Протон (+) и нейтрон (0) — в ядре\n• Электрон (−) — вокруг ядра\n\nПорядковый номер элемента (Z) = число протонов = число электронов (в нейтральном атоме)."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Kömürtek (C): Z = 6 → 6 proton, 6 elektron.\nMassa sany 12 bolsa: neýtronlar = 12 − 6 = 6.",
+      "ru": "Углерод (C): Z = 6 → 6 протонов, 6 электронов.\nЕсли массовое число 12: нейтронов = 12 − 6 = 6."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Haýsy bölejigiň zarýady ýok?",
+      "ru": "Какая частица не имеет заряда?"
+     },
+     "options": [
+      {
+       "tk": "Proton",
+       "ru": "Протон"
+      },
+      {
+       "tk": "Neýtron",
+       "ru": "Нейтрон"
+      },
+      {
+       "tk": "Elektron",
+       "ru": "Электрон"
+      }
+     ],
+     "answer": 1,
+     "hint": {
+      "tk": "Adynda «neýtral» sözi gizlenipdir.",
+      "ru": "В названии спрятано слово «нейтральный»."
+     },
+     "explain": {
+      "tk": "Neýtron elektrik taýdan neýtral.",
+      "ru": "Нейтрон электрически нейтрален."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Kislorodyň (O) tertip belgisi 8. Neýtral atomynda näçe elektron bar?",
+      "ru": "Порядковый номер кислорода (O) — 8. Сколько электронов в нейтральном атоме?"
+     },
+     "answer": "8",
+     "hint": {
+      "tk": "Neýtral atomda elektronlar = protonlar = Z.",
+      "ru": "В нейтральном атоме электронов = протонов = Z."
+     },
+     "explain": {
+      "tk": "Z = 8 → 8 elektron.",
+      "ru": "Z = 8 → 8 электронов."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Natriniň (Na) Z = 11, massa sany 23. Näçe neýtron bar?",
+      "ru": "У натрия (Na) Z = 11, массовое число 23. Сколько нейтронов?"
+     },
+     "answer": "12",
+     "hint": {
+      "tk": "Neýtronlar = massa sany − Z.",
+      "ru": "Нейтроны = массовое число − Z."
+     },
+     "explain": {
+      "tk": "23 − 11 = 12 neýtron.",
+      "ru": "23 − 11 = 12 нейтронов."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Elementleriň döwürleýin ulgamyny 1869-njy ýylda Dmitriý Mendeleýew düzdi. Ol entek açylmadyk elementleriň ýerini boş goýup, olaryň häsiýetlerini öňünden aýdypdyr.",
+      "ru": "Периодическую систему элементов составил Дмитрий Менделеев в 1869 году. Он оставил пустые места для ещё не открытых элементов и предсказал их свойства."
+     }
+    }
+   ]
+  },
+  {
+   "id": "chemistry-8-what-chemistry-studies",
+   "grade": 8,
+   "title": {
+    "tk": "Himiýa näme öwrenýär",
+    "ru": "Что изучает химия"
+   },
+   "minutes": 7,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Himiýa — maddalary, olaryň düzümini, gurluşyny, häsiýetlerini we bir maddanyň başga madda öwrülmegini öwrenýän ylym.\n\n• Jisim — belli bir şekilli zat (çüý, stakan).\n• Madda — jisimiň nämeden ýasalandygy (demir, aýna).\nBir maddadan dürli jisimler, bir jisimi dürli maddalardan ýasap bolýar.\n\nHadysalar:\n• Fiziki — madda üýtgemeýär, diňe ýagdaýy ýa-da şekili üýtgeýär (buzuň eremegi, aýnanyň döwülmegi).\n• Himiki — täze madda emele gelýär (demiriň poslamagy, kagyzyň ýanmagy, süýdüň turşamagy).\n\nHimiki hadysanyň alamatlary: reňkiň üýtgemegi, gazyň bölünip çykmagy, çökündiniň emele gelmegi, ýylylygyň ýa-da ýagtylygyň bölünip çykmagy, ysyň peýda bolmagy.",
+      "ru": "Химия — наука о веществах, их составе, строении, свойствах и превращениях одних веществ в другие.\n\n• Тело — предмет определённой формы (гвоздь, стакан).\n• Вещество — то, из чего состоит тело (железо, стекло).\nИз одного вещества можно сделать разные тела, а одно тело — из разных веществ.\n\nЯвления:\n• Физические — вещество не меняется, меняется только состояние или форма (таяние льда, разбивание стекла).\n• Химические — образуется новое вещество (ржавление железа, горение бумаги, скисание молока).\n\nПризнаки химического явления: изменение цвета, выделение газа, образование осадка, выделение теплоты или света, появление запаха."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Şem ýakanyňyzda iki hadysa bolýar:\n\n1) Şem eräp, suwuk mum emele gelýär — bu fiziki hadysa, sebäbi mum mum bolup galýar.\n2) Pilte ýanýar, ýagtylyk we ýylylyk bölünip çykýar, kömürturşy gazy we suw bugy emele gelýär — bu himiki hadysa, sebäbi täze maddalar döreýär.",
+      "ru": "Когда горит свеча, происходят два явления:\n\n1) Свеча плавится, образуется жидкий парафин — это физическое явление: парафин остаётся парафином.\n2) Фитиль горит, выделяются свет и тепло, образуются углекислый газ и водяной пар — это химическое явление: возникают новые вещества."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Haýsysy himiki hadysa?",
+      "ru": "Какое явление химическое?"
+     },
+     "options": [
+      {
+       "tk": "Suwuň doňmagy",
+       "ru": "Замерзание воды"
+      },
+      {
+       "tk": "Demiriň poslamagy",
+       "ru": "Ржавление железа"
+      },
+      {
+       "tk": "Şekeriň suwda eremegi",
+       "ru": "Растворение сахара в воде"
+      }
+     ],
+     "answer": 1,
+     "hint": {
+      "tk": "Haýsy ýagdaýda täze madda emele gelýär?",
+      "ru": "В каком случае образуется новое вещество?"
+     },
+     "explain": {
+      "tk": "Pos — demir bilen kislorodyň we suwuň täze birleşmesi. Beýleki iki ýagdaýda madda üýtgemeýär.",
+      "ru": "Ржавчина — новое соединение железа с кислородом и водой. В двух других случаях вещество не меняется."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "«Alýumin» — jisim, «alýumin gaşyk» — madda.",
+      "ru": "«Алюминий» — это тело, а «алюминиевая ложка» — вещество."
+     },
+     "answer": false,
+     "hint": {
+      "tk": "Haýsysynyň şekili bar?",
+      "ru": "У чего есть форма?"
+     },
+     "explain": {
+      "tk": "Tersine: alýumin — madda, gaşyk — jisim.",
+      "ru": "Наоборот: алюминий — вещество, ложка — тело."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Haýsysy himiki reaksiýanyň alamaty DÄL?",
+      "ru": "Что НЕ является признаком химической реакции?"
+     },
+     "options": [
+      {
+       "tk": "Gazyň bölünip çykmagy",
+       "ru": "Выделение газа"
+      },
+      {
+       "tk": "Çökündiniň emele gelmegi",
+       "ru": "Образование осадка"
+      },
+      {
+       "tk": "Şekiliň üýtgemegi",
+       "ru": "Изменение формы"
+      }
+     ],
+     "answer": 2,
+     "hint": {
+      "tk": "Kagyzy büklemek täze madda döredýärmi?",
+      "ru": "Создаёт ли новое вещество сгибание бумаги?"
+     },
+     "explain": {
+      "tk": "Şekiliň üýtgemegi fiziki hadysa, madda şol bolup galýar.",
+      "ru": "Изменение формы — физическое явление, вещество остаётся тем же."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Fransuz alymy Antuan Lawuazýe XVIII asyryň ahyrynda reaksiýalardan öň we soň maddalary takyk agramlap, ýanmagyň kislorod bilen birleşmekdigini düşündiripdir. Ony köplenç «häzirki zaman himiýasynyň atasy» diýip atlandyrýarlar.",
+      "ru": "Французский учёный Антуан Лавуазье в конце XVIII века точно взвешивал вещества до и после реакций и объяснил, что горение — это соединение с кислородом. Его часто называют «отцом современной химии»."
+     }
+    }
+   ]
+  },
+  {
+   "id": "chemistry-8-pure-substances-mixtures",
+   "grade": 8,
+   "title": {
+    "tk": "Arassa maddalar we garyndylar",
+    "ru": "Чистые вещества и смеси"
+   },
+   "minutes": 8,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Arassa madda — hemişelik düzümli we häsiýetli madda (distillirlenen suw, kislorod, mis). Onuň ereme we gaýnama temperaturalary takyk.\n\nGarynda — iki ýa-da birnäçe maddanyň birleşmesi, her madda öz häsiýetini saklaýar.\n• Birjynsly (gomogen) — düzümler görünmeýär: duzly suw, howa, çaý.\n• Dürlijynsly (geterogen) — düzümler görünýär: gum bilen suw, ýag bilen suw, granit.\n\nGaryndylary bölmegiň usullary:\n• Çökdürmek we süzmek — suwda eremeýän gaty bölejikler üçin.\n• Bugartmak — erän gaty maddany almak üçin (duz).\n• Distillýasiýa (gaýnatmak we kondensirlemek) — arassa suwuk almak üçin.\n• Magnit — demir bölejikleri üçin.\n• Bölüji guýgy — garyşmaýan suwuklyklar üçin (ýag we suw).",
+      "ru": "Чистое вещество — вещество с постоянным составом и свойствами (дистиллированная вода, кислород, медь). У него чёткие температуры плавления и кипения.\n\nСмесь — сочетание двух или более веществ, каждое из которых сохраняет свои свойства.\n• Однородная (гомогенная) — компоненты не видны: солёная вода, воздух, чай.\n• Неоднородная (гетерогенная) — компоненты видны: песок с водой, масло с водой, гранит.\n\nСпособы разделения смесей:\n• Отстаивание и фильтрование — для нерастворимых твёрдых частиц.\n• Выпаривание — чтобы получить растворённое твёрдое вещество (соль).\n• Дистилляция (кипячение и конденсация) — чтобы получить чистую жидкость.\n• Магнит — для железных частиц.\n• Делительная воронка — для несмешивающихся жидкостей (масло и вода)."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Mesele: duz, gum we demir ownuklarynyň garyndysyny nädip bölmeli?\n\n1) Magnit bilen demir ownuklaryny aýyrýarys.\n2) Galan garyndyny suwa salýarys: duz ereýär, gum eremeýär.\n3) Süzýäris: gum süzgüçde galýar.\n4) Duzly suwy bugardýarys: gapda duz galýar.",
+      "ru": "Задача: как разделить смесь соли, песка и железных опилок?\n\n1) Магнитом убираем железные опилки.\n2) Остаток высыпаем в воду: соль растворяется, песок нет.\n3) Фильтруем: песок остаётся на фильтре.\n4) Выпариваем солёную воду: в чашке остаётся соль."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Haýsysy arassa madda?",
+      "ru": "Что из этого — чистое вещество?"
+     },
+     "options": [
+      {
+       "tk": "Distillirlenen suw",
+       "ru": "Дистиллированная вода"
+      },
+      {
+       "tk": "Howa",
+       "ru": "Воздух"
+      },
+      {
+       "tk": "Deňiz suwy",
+       "ru": "Морская вода"
+      }
+     ],
+     "answer": 0,
+     "hint": {
+      "tk": "Haýsysynda diňe bir madda bar?",
+      "ru": "В чём содержится только одно вещество?"
+     },
+     "explain": {
+      "tk": "Distillirlenen suw diňe H₂O. Howa — gazlaryň garyndysy, deňiz suwy — duzlaryň suwdaky garyndysy.",
+      "ru": "Дистиллированная вода — только H₂O. Воздух — смесь газов, морская вода — смесь солей с водой."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Ýag bilen suwy haýsy usulda bölmek amatly?",
+      "ru": "Каким способом удобнее разделить масло и воду?"
+     },
+     "options": [
+      {
+       "tk": "Magnit bilen",
+       "ru": "Магнитом"
+      },
+      {
+       "tk": "Bugartmak bilen",
+       "ru": "Выпариванием"
+      },
+      {
+       "tk": "Bölüji guýgy bilen",
+       "ru": "Делительной воронкой"
+      }
+     ],
+     "answer": 2,
+     "hint": {
+      "tk": "Bu iki suwuklyk garyşmaýar we gatlaklara bölünýär.",
+      "ru": "Эти жидкости не смешиваются и образуют слои."
+     },
+     "explain": {
+      "tk": "Bölüji guýgyda aşaky gatlak (suw) aýratyn akdyrylýar, ýag ýokarda galýar.",
+      "ru": "В делительной воронке нижний слой (воду) сливают отдельно, масло остаётся сверху."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Duzly suw birjynsly garyndydyr.",
+      "ru": "Солёная вода — однородная смесь."
+     },
+     "answer": true,
+     "hint": {
+      "tk": "Duzuň bölejiklerini gözüňiz bilen görüp bilersiňizmi?",
+      "ru": "Можно ли увидеть частицы соли глазом?"
+     },
+     "explain": {
+      "tk": "Dogry: duz doly ereýär, garynda hemme ýerde birmeňzeş.",
+      "ru": "Верно: соль полностью растворяется, смесь везде одинакова."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Howa garyndy bolup, onuň takmynan 78 %-i azot, 21 %-i kislorod we 1 %-e golaýy argon hem-de beýleki gazlar. Senagatda bu gazlar suwuk howany distillirlemek arkaly bölünýär: dürli gazlaryň gaýnama temperaturasy dürli.",
+      "ru": "Воздух — смесь: примерно 78 % азота, 21 % кислорода и около 1 % аргона и других газов. В промышленности эти газы разделяют дистилляцией жидкого воздуха: температуры кипения у них разные."
+     }
+    }
+   ]
+  },
+  {
+   "id": "chemistry-8-elements-formulas",
+   "grade": 8,
+   "title": {
+    "tk": "Himiki elementler, nyşanlar we formulalar",
+    "ru": "Химические элементы, знаки и формулы"
+   },
+   "minutes": 9,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Himiki element — atomlarynyň ýadrosynda protonlaryň sany birmeňzeş bolan atomlaryň görnüşi. Häzir 118 element belli.\n\nNyşanlar latyn atlaryndan alynýar: H — wodorod, O — kislorod, C — uglerod, N — azot, Na — natriý, Fe — demir (ferrum), Cu — mis (cuprum), Ag — kümüş (argentum).\n\nHimiki formula maddanyň düzümini görkezýär:\n• H₂O: 2 wodorod atomy we 1 kislorod atomy.\n• Indeks (aşaky kiçi san) — molekuladaky atomlaryň sany.\n• Koeffisiýent (öňündäki uly san) — molekulalaryň sany: 3H₂O — üç molekula suw.\n\nÝönekeý maddalar bir elementden (O₂, Fe), çylşyrymly maddalar birnäçe elementden (H₂O, CO₂) durýar.\n\nOtnositel molekulýar massa (Mr) — molekuladaky ähli atomlaryň otnositel atom massalarynyň jemi.\nAr bahalary: H = 1, C = 12, N = 14, O = 16, Na = 23, S = 32, Cl = 35,5.",
+      "ru": "Химический элемент — вид атомов с одинаковым числом протонов в ядре. Сейчас известно 118 элементов.\n\nЗнаки берутся из латинских названий: H — водород, O — кислород, C — углерод, N — азот, Na — натрий, Fe — железо (ferrum), Cu — медь (cuprum), Ag — серебро (argentum).\n\nХимическая формула показывает состав вещества:\n• H₂O: 2 атома водорода и 1 атом кислорода.\n• Индекс (маленькая цифра внизу) — число атомов в молекуле.\n• Коэффициент (большая цифра впереди) — число молекул: 3H₂O — три молекулы воды.\n\nПростые вещества состоят из одного элемента (O₂, Fe), сложные — из нескольких (H₂O, CO₂).\n\nОтносительная молекулярная масса (Mr) — сумма относительных атомных масс всех атомов в молекуле.\nЗначения Ar: H = 1, C = 12, N = 14, O = 16, Na = 23, S = 32, Cl = 35,5."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Kömürturşy gazynyň (CO₂) Mr-ni hasaplalyň.\n\n1) Düzümi: 1 C we 2 O.\n2) Mr = 12 + 2 · 16 = 12 + 32 = 44.\n\nSuw üçin: Mr(H₂O) = 2 · 1 + 16 = 18.",
+      "ru": "Вычислим Mr углекислого газа (CO₂).\n\n1) Состав: 1 C и 2 O.\n2) Mr = 12 + 2 · 16 = 12 + 32 = 44.\n\nДля воды: Mr(H₂O) = 2 · 1 + 16 = 18."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "H₂SO₄ molekulasynda jemi näçe atom bar?",
+      "ru": "Сколько всего атомов в молекуле H₂SO₄?"
+     },
+     "answer": "7",
+     "hint": {
+      "tk": "Indeksleri goşuň; indeks ýok bolsa, ol 1.",
+      "ru": "Сложите индексы; если индекса нет, он равен 1."
+     },
+     "explain": {
+      "tk": "2 (H) + 1 (S) + 4 (O) = 7.",
+      "ru": "2 (H) + 1 (S) + 4 (O) = 7."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Metanyň (CH₄) otnositel molekulýar massasyny hasaplaň.",
+      "ru": "Вычислите относительную молекулярную массу метана (CH₄)."
+     },
+     "answer": "16",
+     "hint": {
+      "tk": "C = 12, H = 1.",
+      "ru": "C = 12, H = 1."
+     },
+     "explain": {
+      "tk": "Mr = 12 + 4 · 1 = 16.",
+      "ru": "Mr = 12 + 4 · 1 = 16."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "«Fe» nyşany haýsy elemente degişli?",
+      "ru": "Какому элементу принадлежит знак «Fe»?"
+     },
+     "options": [
+      {
+       "tk": "Ftor",
+       "ru": "Фтор"
+      },
+      {
+       "tk": "Demir",
+       "ru": "Железо"
+      },
+      {
+       "tk": "Fosfor",
+       "ru": "Фосфор"
+      }
+     ],
+     "answer": 1,
+     "hint": {
+      "tk": "Latynça «ferrum».",
+      "ru": "По-латыни «ferrum»."
+     },
+     "explain": {
+      "tk": "Fe — demir. Ftor — F, fosfor — P.",
+      "ru": "Fe — железо. Фтор — F, фосфор — P."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "O₂ — ýönekeý madda.",
+      "ru": "O₂ — простое вещество."
+     },
+     "answer": true,
+     "hint": {
+      "tk": "Formulada näçe dürli element bar?",
+      "ru": "Сколько разных элементов в формуле?"
+     },
+     "explain": {
+      "tk": "Dogry: O₂ diňe kislorod elementinden durýar.",
+      "ru": "Верно: O₂ состоит только из элемента кислорода."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Elementleriň häzirki harply nyşanlaryny 1810-njy ýyllarda şwed himigi Ýöns Ýakob Berselius hödürläpdir. Ondan öň alhimikler we himikler elementleri dürli şekiller — tegelekler, ýyldyzlar, Aý we Gün nyşanlary bilen belgiläpdirler.",
+      "ru": "Современные буквенные символы элементов предложил в 1810-х годах шведский химик Йёнс Якоб Берцелиус. До этого алхимики и химики обозначали элементы разными значками — кружками, звёздочками, символами Луны и Солнца."
+     }
+    }
+   ]
+  },
+  {
+   "id": "chemistry-8-valence",
+   "grade": 8,
+   "title": {
+    "tk": "Walentlik we formulalary düzmek",
+    "ru": "Валентность и составление формул"
+   },
+   "minutes": 9,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Walentlik — bir elementiň atomynyň başga atomlar bilen näçe baglanyşyk emele getirip bilýändigini görkezýän san. Rim sanlary bilen ýazylýar.\n\n• Hemişelik walentlik: H — I, O — II, Na, K — I, Mg, Ca, Zn — II, Al — III.\n• Üýtgeýän walentlik: Fe — II ýa-da III, Cu — I ýa-da II, C — II ýa-da IV, S — II, IV, VI.\n\nEsasy düzgün: iki elementli birleşmede bir elementiň ähli atomlarynyň walentlikleriniň jemi beýleki elementiňkä deň.\nAᵃₓ Bᵇᵧ üçin: a · x = b · y.",
+      "ru": "Валентность — число, показывающее, сколько связей атом элемента может образовать с другими атомами. Записывается римскими цифрами.\n\n• Постоянная валентность: H — I, O — II, Na, K — I, Mg, Ca, Zn — II, Al — III.\n• Переменная валентность: Fe — II или III, Cu — I или II, C — II или IV, S — II, IV, VI.\n\nГлавное правило: в бинарном соединении сумма валентностей всех атомов одного элемента равна сумме валентностей атомов другого.\nДля Aᵃₓ Bᵇᵧ: a · x = b · y."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Alýumin oksidiniň formulasyny düzeliň (Al — III, O — II).\n\n1) Walentlikleriň iň kiçi umumy kratnysy: III we II → 6.\n2) Al atomlarynyň sany: 6 / 3 = 2.\n3) O atomlarynyň sany: 6 / 2 = 3.\n4) Formula: Al₂O₃.\nBarlag: 3 · 2 = 6, 2 · 3 = 6.",
+      "ru": "Составим формулу оксида алюминия (Al — III, O — II).\n\n1) Наименьшее общее кратное валентностей III и II → 6.\n2) Число атомов Al: 6 / 3 = 2.\n3) Число атомов O: 6 / 2 = 3.\n4) Формула: Al₂O₃.\nПроверка: 3 · 2 = 6, 2 · 3 = 6."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Magniý (II) bilen kislorod (II) birleşmesiniň formulasy haýsy?",
+      "ru": "Какова формула соединения магния (II) с кислородом (II)?"
+     },
+     "options": [
+      "Mg₂O",
+      "MgO₂",
+      "MgO"
+     ],
+     "answer": 2,
+     "hint": {
+      "tk": "Walentlikler deň bolsa, atomlaryň sany hem deň.",
+      "ru": "Если валентности равны, то и числа атомов равны."
+     },
+     "explain": {
+      "tk": "II · 1 = II · 1, şonuň üçin MgO.",
+      "ru": "II · 1 = II · 1, поэтому MgO."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Fe₂O₃ birleşmesinde demiriň walentligi näçe? (Arap sany bilen ýazyň)",
+      "ru": "Какова валентность железа в Fe₂O₃? (Напишите арабской цифрой)"
+     },
+     "answer": "3|III",
+     "hint": {
+      "tk": "Kislorodyň jemi walentligini hasaplaň: 3 · II.",
+      "ru": "Посчитайте суммарную валентность кислорода: 3 · II."
+     },
+     "explain": {
+      "tk": "O: 3 · 2 = 6. Fe: 6 / 2 = 3, ýagny III.",
+      "ru": "O: 3 · 2 = 6. Fe: 6 / 2 = 3, то есть III."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "CO₂-de uglerodyň walentligi näçe? (Arap sany bilen)",
+      "ru": "Какова валентность углерода в CO₂? (Арабской цифрой)"
+     },
+     "answer": "4|IV",
+     "hint": {
+      "tk": "Iki kislorod atomy, her biri II.",
+      "ru": "Два атома кислорода, каждый II."
+     },
+     "explain": {
+      "tk": "2 · 2 = 4, uglerod bir atom, şonuň üçin IV.",
+      "ru": "2 · 2 = 4, атом углерода один, поэтому IV."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Wodorod birleşmelerinde hemişe I walentlidir.",
+      "ru": "Водород в соединениях всегда одновалентен."
+     },
+     "answer": true,
+     "hint": {
+      "tk": "Wodorod hemişelik walentlikli elementleriň sanawynda.",
+      "ru": "Водород в списке элементов с постоянной валентностью."
+     },
+     "explain": {
+      "tk": "Dogry: wodorod atomy diňe bir baglanyşyk emele getirýär, şonuň üçin ol walentligi ölçemek üçin binýat hökmünde ulanylýar.",
+      "ru": "Верно: атом водорода образует только одну связь, поэтому его используют как эталон для определения валентности."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Walentlik düşünjesini 1850-nji ýyllarda iňlis himigi Edward Frankland girizipdir. Ol her elementiň atomynyň başga atomlary belli bir «san» bilen birikdirýändigini görüpdir. Bu pikir soňra Mendeleýewiň elementleri ulgamlaşdyrmagyna kömek edipdir.",
+      "ru": "Понятие валентности ввёл в 1850-х годах английский химик Эдуард Франкленд. Он заметил, что атом каждого элемента присоединяет определённое «число» других атомов. Эта идея позже помогла Менделееву систематизировать элементы."
+     }
+    }
+   ]
+  },
+  {
+   "id": "chemistry-8-chemical-reactions",
+   "grade": 8,
+   "title": {
+    "tk": "Himiki reaksiýalar we deňlemeler",
+    "ru": "Химические реакции и уравнения"
+   },
+   "minutes": 10,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Himiki reaksiýa — başlangyç maddalardan (reagentlerden) täze maddalaryň (önümleriň) emele gelmegi.\n\nMassanyň saklanma kanuny (Lomonosow, Lawuazýe): reaksiýa girýän maddalaryň massasy emele gelýän maddalaryň massasyna deň. Sebäbi atomlar ýok bolmaýar we täzeden döremeýär, diňe täzeden birleşýär.\n\nŞonuň üçin deňlemede her elementiň atomlarynyň sany çepde we sagda deň bolmaly. Muny koeffisiýentler bilen deňleşdirýäris (indeksleri üýtgetmek bolmaz!).\n\nReaksiýalaryň görnüşleri:\n• Birleşme: A + B → AB\n• Dargama: AB → A + B\n• Orun çalşma: A + BC → AC + B\n• Çalşyk: AB + CD → AD + CB",
+      "ru": "Химическая реакция — образование новых веществ (продуктов) из исходных веществ (реагентов).\n\nЗакон сохранения массы (Ломоносов, Лавуазье): масса веществ, вступивших в реакцию, равна массе образовавшихся веществ. Ведь атомы не исчезают и не возникают, а лишь перегруппировываются.\n\nПоэтому в уравнении число атомов каждого элемента слева и справа должно быть одинаковым. Его уравнивают коэффициентами (индексы менять нельзя!).\n\nТипы реакций:\n• Соединение: A + B → AB\n• Разложение: AB → A + B\n• Замещение: A + BC → AC + B\n• Обмен: AB + CD → AD + CB"
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Wodorodyň ýanmagyny deňleşdireliň: H₂ + O₂ → H₂O.\n\n1) Çepde 2 O, sagda 1 O. Suwuň öňüne 2 goýýarys: H₂ + O₂ → 2H₂O.\n2) Indi sagda 4 H, çepde 2 H. Wodorodyň öňüne 2 goýýarys.\n3) 2H₂ + O₂ → 2H₂O.\nBarlag: H: 4 = 4, O: 2 = 2. Bu birleşme reaksiýasy.",
+      "ru": "Уравняем горение водорода: H₂ + O₂ → H₂O.\n\n1) Слева 2 O, справа 1 O. Ставим 2 перед водой: H₂ + O₂ → 2H₂O.\n2) Теперь справа 4 H, слева 2 H. Ставим 2 перед водородом.\n3) 2H₂ + O₂ → 2H₂O.\nПроверка: H: 4 = 4, O: 2 = 2. Это реакция соединения."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "CaCO₃ → CaO + CO₂ reaksiýasynyň görnüşi haýsy?",
+      "ru": "К какому типу относится реакция CaCO₃ → CaO + CO₂?"
+     },
+     "options": [
+      {
+       "tk": "Birleşme",
+       "ru": "Соединение"
+      },
+      {
+       "tk": "Dargama",
+       "ru": "Разложение"
+      },
+      {
+       "tk": "Çalşyk",
+       "ru": "Обмен"
+      }
+     ],
+     "answer": 1,
+     "hint": {
+      "tk": "Bir maddadan näçe madda emele gelýär?",
+      "ru": "Сколько веществ образуется из одного?"
+     },
+     "explain": {
+      "tk": "Bir çylşyrymly maddadan iki madda emele gelýär — dargama.",
+      "ru": "Из одного сложного вещества образуются два — это разложение."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Deňlemäni doldurlyň: 4Al + 3O₂ → _Al₂O₃. Boşlukdaky koeffisiýent näçe?",
+      "ru": "Дополните уравнение: 4Al + 3O₂ → _Al₂O₃. Какой коэффициент на месте пропуска?"
+     },
+     "answer": "2",
+     "hint": {
+      "tk": "Çepde 4 Al atomy bar, Al₂O₃-de bolsa 2.",
+      "ru": "Слева 4 атома Al, а в Al₂O₃ их 2."
+     },
+     "explain": {
+      "tk": "4 / 2 = 2. Barlag: O: 3 · 2 = 6 we 2 · 3 = 6.",
+      "ru": "4 / 2 = 2. Проверка: O: 3 · 2 = 6 и 2 · 3 = 6."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "12 g uglerod 32 g kislorod bilen doly reaksiýa girdi. Näçe gram CO₂ emele geldi?",
+      "ru": "12 г углерода полностью прореагировали с 32 г кислорода. Сколько граммов CO₂ образовалось?"
+     },
+     "answer": "44",
+     "hint": {
+      "tk": "Massanyň saklanma kanunyny ulanyň.",
+      "ru": "Используйте закон сохранения массы."
+     },
+     "explain": {
+      "tk": "12 + 32 = 44 g.",
+      "ru": "12 + 32 = 44 г."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Deňlemäni deňleşdirmek üçin formuladaky indeksleri üýtgedip bolýar.",
+      "ru": "Чтобы уравнять уравнение, можно менять индексы в формулах."
+     },
+     "answer": false,
+     "hint": {
+      "tk": "H₂O-ny H₂O₂ edip üýtgetsek näme bolar?",
+      "ru": "Что будет, если H₂O заменить на H₂O₂?"
+     },
+     "explain": {
+      "tk": "Ýalňyş: indeksi üýtgetmek maddany üýtgedýär (H₂O₂ — wodorod peroksidi). Diňe koeffisiýentler goýulýar.",
+      "ru": "Неверно: изменение индекса меняет вещество (H₂O₂ — пероксид водорода). Ставят только коэффициенты."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Feýerwerkleriň reňkleri himiki reaksiýalaryň netijesi: dürli metallaryň birleşmeleri ýananda dürli reňkli ýagtylyk berýär. Mysal üçin, stronsiý gyzyl, barij ýaşyl, natriý sary, mis gök-ýaşyl reňk berýär.",
+      "ru": "Цвета фейерверков — результат химических реакций: соединения разных металлов при горении дают свет разного цвета. Например, стронций даёт красный, барий — зелёный, натрий — жёлтый, медь — сине-зелёный цвет."
+     }
+    }
+   ]
+  },
+  {
+   "id": "chemistry-8-oxygen-water",
+   "grade": 8,
+   "title": {
+    "tk": "Kislorod we suw",
+    "ru": "Кислород и вода"
+   },
+   "minutes": 9,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Kislorod (O, ýönekeý maddasy O₂) — reňksiz, yssyz gaz, suwda az ereýär, howadan birneme agyr. Ýer gabygynda iň köp ýaýran element.\n• Dem almak we ýanmak üçin zerur.\n• Maddalar kislorod bilen birleşip, oksidleri emele getirýär: C + O₂ → CO₂, 2Mg + O₂ → 2MgO.\n• Laboratoriýada almak: 2H₂O₂ → 2H₂O + O₂ (katalizator MnO₂) ýa-da kaliý permanganatyny gyzdyrmak.\n• Tanamak: ýylpyldap ýanýan çöp kislorodda gaýtadan alawlanýar.\n\nSuw (H₂O) — Ýerde iň köp ýaýran suwuklyk.\n• 0 °C-da doňýar, 100 °C-da gaýnaýar, dykyzlygy iň uly 4 °C-da.\n• Gowy erediji — köp maddalar suwda ereýär.\n• Aktiw metallar bilen reaksiýa girýär: 2Na + 2H₂O → 2NaOH + H₂.\n• Elektrik togy bilen dargaýar: 2H₂O → 2H₂ + O₂.",
+      "ru": "Кислород (O, простое вещество O₂) — бесцветный газ без запаха, мало растворим в воде, немного тяжелее воздуха. Самый распространённый элемент в земной коре.\n• Необходим для дыхания и горения.\n• Вещества соединяются с кислородом, образуя оксиды: C + O₂ → CO₂, 2Mg + O₂ → 2MgO.\n• Получение в лаборатории: 2H₂O₂ → 2H₂O + O₂ (катализатор MnO₂) или нагревание перманганата калия.\n• Распознавание: тлеющая лучинка в кислороде вспыхивает.\n\nВода (H₂O) — самая распространённая жидкость на Земле.\n• Замерзает при 0 °C, кипит при 100 °C, наибольшая плотность при 4 °C.\n• Хороший растворитель — в ней растворяются многие вещества.\n• Реагирует с активными металлами: 2Na + 2H₂O → 2NaOH + H₂.\n• Разлагается электрическим током: 2H₂O → 2H₂ + O₂."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Suwda kislorodyň massa paýyny hasaplalyň.\n\n1) Mr(H₂O) = 2 · 1 + 16 = 18.\n2) Kislorodyň paýy: 16 / 18 ≈ 0,89, ýagny ≈ 89 %.\n\nDiýmek, 1 kg suwuň takmynan 890 g-y kislorod.",
+      "ru": "Вычислим массовую долю кислорода в воде.\n\n1) Mr(H₂O) = 2 · 1 + 16 = 18.\n2) Доля кислорода: 16 / 18 ≈ 0,89, то есть ≈ 89 %.\n\nЗначит, примерно 890 г из 1 кг воды приходится на кислород."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Kislorody nädip tanap bolýar?",
+      "ru": "Как можно распознать кислород?"
+     },
+     "options": [
+      {
+       "tk": "Ýylpyldap ýanýan çöp alawlanýar",
+       "ru": "Тлеющая лучинка вспыхивает"
+      },
+      {
+       "tk": "Hek suwy bulançak bolýar",
+       "ru": "Известковая вода мутнеет"
+      },
+      {
+       "tk": "Gaz «pop» ses bilen ýarylýar",
+       "ru": "Газ сгорает с хлопком"
+      }
+     ],
+     "answer": 0,
+     "hint": {
+      "tk": "Kislorod ýanmany güýçlendirýär.",
+      "ru": "Кислород усиливает горение."
+     },
+     "explain": {
+      "tk": "Kislorodda çöp alawlanýar. Hek suwy CO₂-ni, «pop» sesi wodorody görkezýär.",
+      "ru": "В кислороде лучинка вспыхивает. Известковая вода выявляет CO₂, хлопок — водород."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Buz suwuň üstünde ýüzýär, sebäbi buzuň dykyzlygy suwuňkydan kiçi.",
+      "ru": "Лёд плавает на воде, потому что плотность льда меньше плотности воды."
+     },
+     "answer": true,
+     "hint": {
+      "tk": "Suw doňanda göwrümi nähili üýtgeýär?",
+      "ru": "Как меняется объём воды при замерзании?"
+     },
+     "explain": {
+      "tk": "Dogry: doňanda suw giňelýär, buzuň dykyzlygy takmynan 0,9 g/sm³.",
+      "ru": "Верно: при замерзании вода расширяется, плотность льда около 0,9 г/см³."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Suwuň elektrolizinde: 2H₂O → 2H₂ + O₂. Bir molekula O₂ emele gelende, näçe molekula H₂ emele gelýär?",
+      "ru": "При электролизе воды: 2H₂O → 2H₂ + O₂. Сколько молекул H₂ образуется на одну молекулу O₂?"
+     },
+     "answer": "2",
+     "hint": {
+      "tk": "Deňlemedäki koeffisiýentlere serediň.",
+      "ru": "Посмотрите на коэффициенты в уравнении."
+     },
+     "explain": {
+      "tk": "Koeffisiýentler 2 : 1, şonuň üçin wodorodyň göwrümi kislorodyňkydan iki esse köp.",
+      "ru": "Коэффициенты 2 : 1, поэтому водорода по объёму получается вдвое больше, чем кислорода."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Kislorody 1770-nji ýyllarda şwed himigi Karl Şeele we iňlis alymy Jozef Pristli biri-birinden habarsyz açypdyrlar. «Kislorod» adyny Lawuazýe beripdir — fransuz dilindäki «oxygène» «turşy döredýän» diýmegi aňladýar.",
+      "ru": "Кислород в 1770-х годах независимо друг от друга открыли шведский химик Карл Шееле и английский учёный Джозеф Пристли. Название дал Лавуазье — французское «oxygène» означает «рождающий кислоты»."
+     }
+    }
+   ]
+  },
+  {
+   "id": "chemistry-9-oxides",
+   "grade": 9,
+   "title": {
+    "tk": "Oksidler",
+    "ru": "Оксиды"
+   },
+   "minutes": 9,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Oksidler — iki elementden durýan, olaryň biri −2 okislenme derejeli kislorod bolan çylşyrymly maddalar: CaO, CO₂, Fe₂O₃, H₂O.\n\nKlassifikasiýa:\n• Esasly oksidler — metallaryň oksidleri (Na₂O, CaO, CuO). Olara esaslar degişli.\n• Kislotaly oksidler — metal däl elementleriň oksidleri (CO₂, SO₃, P₂O₅). Olara kislotalar degişli.\n• Amfoter oksidler — iki häsiýeti hem görkezýär (ZnO, Al₂O₃).\n• Duz emele getirmeýän oksidler (CO, NO, N₂O).\n\nHäsiýetleri:\n• esasly oksid + suw → aşgar (diňe aktiw metallar): CaO + H₂O → Ca(OH)₂\n• kislotaly oksid + suw → kislota: SO₃ + H₂O → H₂SO₄\n• esasly oksid + kislotaly oksid → duz: CaO + CO₂ → CaCO₃",
+      "ru": "Оксиды — сложные вещества из двух элементов, один из которых кислород в степени окисления −2: CaO, CO₂, Fe₂O₃, H₂O.\n\nКлассификация:\n• Основные оксиды — оксиды металлов (Na₂O, CaO, CuO). Им соответствуют основания.\n• Кислотные оксиды — оксиды неметаллов (CO₂, SO₃, P₂O₅). Им соответствуют кислоты.\n• Амфотерные оксиды — проявляют оба типа свойств (ZnO, Al₂O₃).\n• Несолеобразующие оксиды (CO, NO, N₂O).\n\nСвойства:\n• основный оксид + вода → щёлочь (только активные металлы): CaO + H₂O → Ca(OH)₂\n• кислотный оксид + вода → кислота: SO₃ + H₂O → H₂SO₄\n• основный оксид + кислотный оксид → соль: CaO + CO₂ → CaCO₃"
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Magniý oksidi MgO bilen duz kislotasynyň reaksiýasy:\n\nMgO + 2HCl → MgCl₂ + H₂O\n\n1) MgO — esasly oksid, şonuň üçin kislota bilen reaksiýa girýär.\n2) Önümler: duz (magniý hloridi) we suw.\n3) Deňleşdirmek: çepde 2 Cl bolmaly — HCl-iň öňünde 2 goýýarys.",
+      "ru": "Реакция оксида магния MgO с соляной кислотой:\n\nMgO + 2HCl → MgCl₂ + H₂O\n\n1) MgO — основный оксид, поэтому реагирует с кислотой.\n2) Продукты: соль (хлорид магния) и вода.\n3) Уравниваем: слева нужно 2 Cl — ставим 2 перед HCl."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Haýsy oksid kislotaly oksid?",
+      "ru": "Какой оксид является кислотным?"
+     },
+     "options": [
+      "Na₂O",
+      "CaO",
+      "SO₂"
+     ],
+     "answer": 2,
+     "hint": {
+      "tk": "Metal däl elementiň oksidini tapyň.",
+      "ru": "Найдите оксид неметалла."
+     },
+     "explain": {
+      "tk": "Kükürt metal däl, SO₂ suw bilen kükürtli kislotany emele getirýär.",
+      "ru": "Сера — неметалл, SO₂ с водой образует сернистую кислоту."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "CO₂ suw bilen reaksiýa girende aşgar emele gelýär.",
+      "ru": "При реакции CO₂ с водой образуется щёлочь."
+     },
+     "answer": false,
+     "hint": {
+      "tk": "CO₂ haýsy toparyň oksidi?",
+      "ru": "К какой группе относится CO₂?"
+     },
+     "explain": {
+      "tk": "CO₂ kislotaly oksid: CO₂ + H₂O ⇄ H₂CO₃ (kömür kislotasy).",
+      "ru": "CO₂ — кислотный оксид: CO₂ + H₂O ⇄ H₂CO₃ (угольная кислота)."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Fe₂O₃ oksidinde demiriň okislenme derejesi näçä deň? (san bilen)",
+      "ru": "Какова степень окисления железа в Fe₂O₃? (числом)"
+     },
+     "answer": "3|+3",
+     "hint": {
+      "tk": "Kislorod −2, molekulanyň jemi nola deň.",
+      "ru": "Кислород −2, сумма в молекуле равна нулю."
+     },
+     "explain": {
+      "tk": "3·(−2) = −6, iki demir +6 bermeli, şonuň üçin her biri +3.",
+      "ru": "3·(−2) = −6, два атома железа дают +6, значит каждый +3."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Haýsy oksid amfoter oksid?",
+      "ru": "Какой оксид амфотерный?"
+     },
+     "options": [
+      "Al₂O₃",
+      "K₂O",
+      "P₂O₅"
+     ],
+     "answer": 0,
+     "hint": {
+      "tk": "Bu oksid kislotalar bilen hem, aşgarlar bilen hem reaksiýa girýär.",
+      "ru": "Этот оксид реагирует и с кислотами, и со щелочами."
+     },
+     "explain": {
+      "tk": "Alýuminiý oksidi iki häsiýeti hem görkezýär; K₂O — esasly, P₂O₅ — kislotaly.",
+      "ru": "Оксид алюминия проявляет оба типа свойств; K₂O — основный, P₂O₅ — кислотный."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Gadymy döwürlerden bäri ulanylýan söndürilmedik hek CaO bilen suwuň reaksiýasy şeýle köp ýylylyk bölüp çykarýar welin, suw gaýnap başlaýar. Bu reaksiýa gurluşykda hek ergindisini taýýarlamakda ulanylýar. Ýeriň atmosferasyndaky CO₂ bolsa ösümlikleriň fotosintezi üçin esasy çig maldyr.",
+      "ru": "Реакция негашёной извести CaO с водой, известная с древности, выделяет столько тепла, что вода закипает. Её используют в строительстве для получения известкового раствора. А CO₂ в атмосфере Земли — главное сырьё для фотосинтеза растений."
+     }
+    }
+   ]
+  },
+  {
+   "id": "chemistry-9-acids",
+   "grade": 9,
+   "title": {
+    "tk": "Kislotalar",
+    "ru": "Кислоты"
+   },
+   "minutes": 9,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Kislotalar — suwly ergininde wodorod kationlaryny H⁺ we kislota galyndysynyň anionlaryny emele getirýän çylşyrymly maddalar.\n\nMysallar: HCl (duz), H₂SO₄ (kükürt), HNO₃ (azot), H₃PO₄ (fosfor), H₂CO₃ (kömür).\n• Kislorodsyz (HCl, H₂S) we kislorodly (H₂SO₄, HNO₃).\n• Esaslylygy — H atomlarynyň sany boýunça: bir esasly (HCl), iki esasly (H₂SO₄), üç esasly (H₃PO₄).\n\nHäsiýetleri:\n• indikatorlar: lakmus gyzarýar, metilorange gyzyl-gülgüne bolýar\n• aktiw metal + kislota → duz + H₂: Zn + 2HCl → ZnCl₂ + H₂↑\n• esasly oksid + kislota → duz + suw\n• esas + kislota → duz + suw (neýtrallaşma)\n\nErginiň pH-y 7-den kiçi.",
+      "ru": "Кислоты — сложные вещества, которые в водном растворе образуют катионы водорода H⁺ и анионы кислотного остатка.\n\nПримеры: HCl (соляная), H₂SO₄ (серная), HNO₃ (азотная), H₃PO₄ (фосфорная), H₂CO₃ (угольная).\n• Бескислородные (HCl, H₂S) и кислородсодержащие (H₂SO₄, HNO₃).\n• Основность — по числу атомов H: одноосновные (HCl), двухосновные (H₂SO₄), трёхосновные (H₃PO₄).\n\nСвойства:\n• индикаторы: лакмус краснеет, метилоранж становится розово-красным\n• активный металл + кислота → соль + H₂: Zn + 2HCl → ZnCl₂ + H₂↑\n• основный оксид + кислота → соль + вода\n• основание + кислота → соль + вода (нейтрализация)\n\npH раствора меньше 7."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Demiriň kükürt kislotasy bilen reaksiýasy:\n\nFe + H₂SO₄ → FeSO₄ + H₂↑\n\n1) Demir metallaryň aktiwlik hatarynda wodoroddan çepde ýerleşýär — şonuň üçin ony kislotadan gysyp çykarýar.\n2) Emele gelýär: demir(II) sulfaty we wodorod gazy.\n\nMis wodoroddan sagda durýar, şonuň üçin Cu + HCl reaksiýasy bolmaýar.",
+      "ru": "Реакция железа с разбавленной серной кислотой:\n\nFe + H₂SO₄ → FeSO₄ + H₂↑\n\n1) Железо стоит в ряду активности металлов левее водорода — поэтому вытесняет его из кислоты.\n2) Образуются сульфат железа(II) и газ водород.\n\nМедь стоит правее водорода, поэтому реакция Cu + HCl не идёт."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Haýsy kislota üç esasly?",
+      "ru": "Какая кислота трёхосновная?"
+     },
+     "options": [
+      "HNO₃",
+      "H₃PO₄",
+      "H₂SO₄"
+     ],
+     "answer": 1,
+     "hint": {
+      "tk": "Formuladaky wodorod atomlaryny sanaň.",
+      "ru": "Посчитайте атомы водорода в формуле."
+     },
+     "explain": {
+      "tk": "H₃PO₄-de üç sany wodorod atomy bar.",
+      "ru": "В H₃PO₄ три атома водорода."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Mis duz kislotasy bilen reaksiýa girip, wodorody bölüp çykarýar.",
+      "ru": "Медь реагирует с соляной кислотой с выделением водорода."
+     },
+     "answer": false,
+     "hint": {
+      "tk": "Misiň aktiwlik hataryndaky ýerine serediň.",
+      "ru": "Посмотрите на место меди в ряду активности."
+     },
+     "explain": {
+      "tk": "Mis wodoroddan sagda durýar we ony kislotadan gysyp çykaryp bilmeýär.",
+      "ru": "Медь стоит правее водорода и не может вытеснить его из кислоты."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Zn + 2HCl → ZnCl₂ + H₂ reaksiýasynda 1 mol sink bilen näçe mol wodorod emele gelýär?",
+      "ru": "Сколько моль водорода образуется в реакции Zn + 2HCl → ZnCl₂ + H₂ из 1 моль цинка?"
+     },
+     "answer": "1",
+     "hint": {
+      "tk": "Deňlemedäki koeffisiýentlere serediň.",
+      "ru": "Посмотрите на коэффициенты в уравнении."
+     },
+     "explain": {
+      "tk": "Zn we H₂ öňündäki koeffisiýentler 1:1.",
+      "ru": "Коэффициенты перед Zn и H₂ — 1:1."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Kislota ergininde lakmus haýsy reňke geçýär?",
+      "ru": "Какой цвет приобретает лакмус в растворе кислоты?"
+     },
+     "options": [
+      {
+       "tk": "gyzyl",
+       "ru": "красный"
+      },
+      {
+       "tk": "gök",
+       "ru": "синий"
+      },
+      {
+       "tk": "reňksiz",
+       "ru": "бесцветный"
+      }
+     ],
+     "answer": 0,
+     "hint": {
+      "tk": "Aşgarda lakmus gögerýär, kislotada bolsa tersine.",
+      "ru": "В щёлочи лакмус синеет, в кислоте — наоборот."
+     },
+     "explain": {
+      "tk": "Kislotaly sredada lakmus gyzarýar.",
+      "ru": "В кислой среде лакмус краснеет."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Adamyň aşgazanynda duz kislotasy bar: ol iýmiti siňdirmäge kömek edýär we mikroblary öldürýär. Kükürt kislotasy bolsa dünýäde iň köp öndürilýän himiki maddalaryň biri — ol esasan dökün öndürmekde ulanylýar.",
+      "ru": "В желудке человека есть соляная кислота: она помогает переваривать пищу и убивает микробы. А серная кислота — одно из самых массово производимых химических веществ в мире; больше всего её идёт на производство удобрений."
+     }
+    }
+   ]
+  },
+  {
+   "id": "chemistry-9-bases",
+   "grade": 9,
+   "title": {
+    "tk": "Esaslar",
+    "ru": "Основания"
+   },
+   "minutes": 9,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Esaslar — metal atomlaryndan we bir ýa-da birnäçe gidroksid toparyndan OH⁻ durýan çylşyrymly maddalar: NaOH, KOH, Ca(OH)₂, Cu(OH)₂, Fe(OH)₃.\n\n• Aşgarlar — suwda ereýän esaslar (NaOH, KOH, Ba(OH)₂; Ca(OH)₂ az ereýär). Ergininde OH⁻ ionlary bar, pH > 7.\n• Suwda eremeýän esaslar: Cu(OH)₂, Fe(OH)₃, Mg(OH)₂.\n\nHäsiýetleri:\n• indikatorlar (aşgarlar): fenolftalein melewşe-gyzyl, lakmus gök bolýar\n• esas + kislota → duz + suw: NaOH + HCl → NaCl + H₂O\n• aşgar + kislotaly oksid → duz + suw: Ca(OH)₂ + CO₂ → CaCO₃↓ + H₂O\n• eremeýän esaslar gyzdyrylanda dargaýar: Cu(OH)₂ → CuO + H₂O",
+      "ru": "Основания — сложные вещества из атомов металла и одной или нескольких гидроксогрупп OH⁻: NaOH, KOH, Ca(OH)₂, Cu(OH)₂, Fe(OH)₃.\n\n• Щёлочи — растворимые в воде основания (NaOH, KOH, Ba(OH)₂; Ca(OH)₂ малорастворим). В растворе есть ионы OH⁻, pH > 7.\n• Нерастворимые основания: Cu(OH)₂, Fe(OH)₃, Mg(OH)₂.\n\nСвойства:\n• индикаторы (щёлочи): фенолфталеин малиновый, лакмус синий\n• основание + кислота → соль + вода: NaOH + HCl → NaCl + H₂O\n• щёлочь + кислотный оксид → соль + вода: Ca(OH)₂ + CO₂ → CaCO₃↓ + H₂O\n• нерастворимые основания разлагаются при нагревании: Cu(OH)₂ → CuO + H₂O"
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Hek suwuna Ca(OH)₂ dem çykarylsa, ol bulanýar.\n\nCa(OH)₂ + CO₂ → CaCO₃↓ + H₂O\n\nEremeýän kalsiý karbonaty çökündi bolup düşýär. Bu reaksiýa çykarylýan howada CO₂-niň bardygyny subut edýär we laboratoriýada CO₂-ni tanamak üçin ulanylýar.",
+      "ru": "Если выдыхать через трубочку в известковую воду Ca(OH)₂, она мутнеет.\n\nCa(OH)₂ + CO₂ → CaCO₃↓ + H₂O\n\nВыпадает осадок нерастворимого карбоната кальция. Эта реакция доказывает наличие CO₂ в выдыхаемом воздухе и служит качественной реакцией на CO₂."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Haýsy madda aşgar?",
+      "ru": "Какое вещество является щёлочью?"
+     },
+     "options": [
+      "Fe(OH)₃",
+      "KOH",
+      "Cu(OH)₂"
+     ],
+     "answer": 1,
+     "hint": {
+      "tk": "Aşgar suwda gowy ereýär.",
+      "ru": "Щёлочь хорошо растворяется в воде."
+     },
+     "explain": {
+      "tk": "KOH — suwda ereýän esas, galan ikisi eremeýär.",
+      "ru": "KOH — растворимое основание, остальные два нерастворимы."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Fenolftalein aşgar ergininde melewşe-gyzyl reňke geçýär.",
+      "ru": "Фенолфталеин в растворе щёлочи становится малиновым."
+     },
+     "answer": true,
+     "hint": {
+      "tk": "Bu indikator kislotada reňksiz.",
+      "ru": "В кислоте этот индикатор бесцветный."
+     },
+     "explain": {
+      "tk": "Aşgarly sredada fenolftalein melewşe-gyzyl bolýar.",
+      "ru": "В щелочной среде фенолфталеин окрашивается в малиновый цвет."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "NaOH-yň molýar massasy näçe g/mol? (Na = 23, O = 16, H = 1)",
+      "ru": "Какова молярная масса NaOH в г/моль? (Na = 23, O = 16, H = 1)"
+     },
+     "answer": "40",
+     "hint": {
+      "tk": "Atom massalaryny goşuň.",
+      "ru": "Сложите атомные массы."
+     },
+     "explain": {
+      "tk": "23 + 16 + 1 = 40 g/mol.",
+      "ru": "23 + 16 + 1 = 40 г/моль."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Erginiň pH-y 12. Bu sreda kislotalymy (k), neýtralmy (n) ýa-da aşgarlymy (a)? Harp bilen ýazyň.",
+      "ru": "pH раствора 12. Среда кислая (к), нейтральная (н) или щелочная (щ)? Ответьте буквой."
+     },
+     "answer": "a|щ|A|Щ",
+     "hint": {
+      "tk": "pH = 7 — neýtral.",
+      "ru": "pH = 7 — нейтральная среда."
+     },
+     "explain": {
+      "tk": "pH > 7 — aşgarly sreda.",
+      "ru": "pH > 7 — щелочная среда."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Natriý gidroksidi (kaustik soda) sabyn öndürmekde ulanylýar: ýaglar aşgar bilen gaýnadylanda sabyn emele gelýär. Bu usul müňlerçe ýyl bäri mälim, häzir hem senagatda ulanylýar. Aşgarlar derini ýakýar, şonuň üçin olar bilen diňe ellik we äýnek bilen işlemeli.",
+      "ru": "Гидроксид натрия (каустическая сода) используют для производства мыла: при кипячении жиров со щёлочью образуется мыло. Этот способ известен тысячи лет и применяется в промышленности до сих пор. Щёлочи разъедают кожу, поэтому работать с ними нужно только в перчатках и очках."
+     }
+    }
+   ]
+  },
+  {
+   "id": "chemistry-9-salts",
+   "grade": 9,
+   "title": {
+    "tk": "Duzlar",
+    "ru": "Соли"
+   },
+   "minutes": 9,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Duzlar — metal kationlaryndan (ýa-da NH₄⁺) we kislota galyndysynyň anionlaryndan durýan çylşyrymly maddalar: NaCl, CaCO₃, CuSO₄, KNO₃.\n\nAtlary: kislota galyndysyna görä\n• Cl⁻ — hloridler, SO₄²⁻ — sulfatlar, NO₃⁻ — nitratlar, CO₃²⁻ — karbonatlar, PO₄³⁻ — fosfatlar.\n\nAlnyş usullary we häsiýetleri:\n• kislota + esas → duz + suw\n• metal + duz → täze metal + täze duz (has aktiw metal gysyp çykarýar): Fe + CuSO₄ → FeSO₄ + Cu\n• duz + duz → iki täze duz (biri çökündi bolsa): AgNO₃ + NaCl → AgCl↓ + NaNO₃\n• duz + kislota: CaCO₃ + 2HCl → CaCl₂ + H₂O + CO₂↑",
+      "ru": "Соли — сложные вещества из катионов металла (или NH₄⁺) и анионов кислотного остатка: NaCl, CaCO₃, CuSO₄, KNO₃.\n\nНазвания — по кислотному остатку:\n• Cl⁻ — хлориды, SO₄²⁻ — сульфаты, NO₃⁻ — нитраты, CO₃²⁻ — карбонаты, PO₄³⁻ — фосфаты.\n\nПолучение и свойства:\n• кислота + основание → соль + вода\n• металл + соль → новый металл + новая соль (вытесняет более активный металл): Fe + CuSO₄ → FeSO₄ + Cu\n• соль + соль → две новые соли (если одна выпадает в осадок): AgNO₃ + NaCl → AgCl↓ + NaNO₃\n• соль + кислота: CaCO₃ + 2HCl → CaCl₂ + H₂O + CO₂↑"
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Demir çüýi mis sulfatynyň gök ergininde goýalyň.\n\nFe + CuSO₄ → FeSO₄ + Cu\n\nGörünýän alamatlar: çüýüň üsti gyzyl mis gatlagy bilen örtülýär, erginiň gök reňki azalýar. Sebäbi demir misden aktiw — ony duzdan gysyp çykarýar.",
+      "ru": "Опустим железный гвоздь в синий раствор сульфата меди.\n\nFe + CuSO₄ → FeSO₄ + Cu\n\nПризнаки: гвоздь покрывается красноватым слоем меди, синяя окраска раствора ослабевает. Причина — железо активнее меди и вытесняет её из соли."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "KNO₃ duzunyň ady näme?",
+      "ru": "Как называется соль KNO₃?"
+     },
+     "options": [
+      {
+       "tk": "kaliý nitraty",
+       "ru": "нитрат калия"
+      },
+      {
+       "tk": "kaliý karbonaty",
+       "ru": "карбонат калия"
+      },
+      {
+       "tk": "kaliý nitridi",
+       "ru": "нитрид калия"
+      }
+     ],
+     "answer": 0,
+     "hint": {
+      "tk": "NO₃⁻ — azot kislotasynyň galyndysy.",
+      "ru": "NO₃⁻ — остаток азотной кислоты."
+     },
+     "explain": {
+      "tk": "NO₃⁻ galyndyly duzlar nitratlar diýlip atlandyrylýar.",
+      "ru": "Соли с остатком NO₃⁻ называются нитратами."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Mis demir sulfatyndan demiri gysyp çykaryp bilýär: Cu + FeSO₄ → CuSO₄ + Fe.",
+      "ru": "Медь может вытеснить железо из сульфата железа: Cu + FeSO₄ → CuSO₄ + Fe."
+     },
+     "answer": false,
+     "hint": {
+      "tk": "Haýsy metal has aktiw?",
+      "ru": "Какой металл активнее?"
+     },
+     "explain": {
+      "tk": "Mis demirden az aktiw, şonuň üçin bu reaksiýa bolmaýar.",
+      "ru": "Медь менее активна, чем железо, поэтому реакция не идёт."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Mermere CaCO₃ duz kislotasy damdyrylsa, haýsy gaz bölünip çykýar?",
+      "ru": "Какой газ выделяется, если капнуть соляной кислотой на мрамор CaCO₃?"
+     },
+     "options": [
+      "H₂",
+      "O₂",
+      "CO₂"
+     ],
+     "answer": 2,
+     "hint": {
+      "tk": "Karbonatlar kislotalar bilen «köpürjikläp» reaksiýa girýär.",
+      "ru": "Карбонаты реагируют с кислотами, «вскипая»."
+     },
+     "explain": {
+      "tk": "CaCO₃ + 2HCl → CaCl₂ + H₂O + CO₂↑ — kömürturşy gazy bölünýär.",
+      "ru": "CaCO₃ + 2HCl → CaCl₂ + H₂O + CO₂↑ — выделяется углекислый газ."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "NaCl-yň molýar massasyny tapyň, g/mol (Na = 23, Cl = 35,5).",
+      "ru": "Найдите молярную массу NaCl в г/моль (Na = 23, Cl = 35,5)."
+     },
+     "answer": "58.5|58,5",
+     "hint": {
+      "tk": "Iki atom massasyny goşuň.",
+      "ru": "Сложите две атомные массы."
+     },
+     "explain": {
+      "tk": "23 + 35,5 = 58,5 g/mol.",
+      "ru": "23 + 35,5 = 58,5 г/моль."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Aş duzy NaCl gadymy döwürlerde şeýle gymmatly bolupdyr welin, söwdada pul ýaly ulanylypdyr. Häzir duzlar dökün hökmünde (KNO₃, fosfatlar), gurluşykda (CaCO₃ — hek daşy, mermer) we lukmançylykda (fiziologik ergin — 0,9% NaCl) giňden ulanylýar.",
+      "ru": "Поваренная соль NaCl в древности ценилась так высоко, что служила в торговле как деньги. Сегодня соли широко применяются как удобрения (KNO₃, фосфаты), в строительстве (CaCO₃ — известняк, мрамор) и в медицине (физраствор — 0,9% NaCl)."
+     }
+    }
+   ]
+  },
+  {
+   "id": "chemistry-9-periodic-law",
+   "grade": 9,
+   "title": {
+    "tk": "Döwürleýin kanun",
+    "ru": "Периодический закон"
+   },
+   "minutes": 10,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "D. I. Mendeleýew 1869-njy ýylda döwürleýin kanuny açypdyr. Häzirki kesgitlemesi: himiki elementleriň we olaryň birleşmeleriniň häsiýetleri atom ýadrosynyň zarýadyna döwürleýin baglydyr.\n\n• Elementiň tertip belgisi = ýadronyň zarýady = protonlaryň sany = elektronlaryň sany (atomda).\n• Döwrüň belgisi = elektron gatlaklarynyň sany.\n• A toparçanyň belgisi = daşky gatlakdaky elektronlaryň sany.\n\nKanunalaýyklyklar:\n• döwürde çepden saga: metallyk häsiýeti gowşaýar, metal däl häsiýeti güýçlenýär, atom radiusy kiçelýär;\n• toparda ýokardan aşak: metallyk häsiýeti güýçlenýär, atom radiusy ulalýar.",
+      "ru": "Д. И. Менделеев открыл периодический закон в 1869 году. Современная формулировка: свойства химических элементов и их соединений находятся в периодической зависимости от заряда ядра атома.\n\n• Порядковый номер элемента = заряд ядра = число протонов = число электронов (в атоме).\n• Номер периода = число электронных слоёв.\n• Номер группы (A-подгруппы) = число электронов на внешнем слое.\n\nЗакономерности:\n• в периоде слева направо: металлические свойства ослабевают, неметаллические усиливаются, радиус атома уменьшается;\n• в группе сверху вниз: металлические свойства усиливаются, радиус атома растёт."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Kükürdi S (№ 16) häsiýetlendireliň.\n\n• Ýadronyň zarýady +16, 16 proton, 16 elektron.\n• 3-nji döwür → 3 elektron gatlagy: 2, 8, 6.\n• VI A topar → daşky gatlakda 6 elektron.\n• Metal däl element; ýokary oksidi SO₃ (kislotaly), wodorodly birleşmesi H₂S.\n• Neýtronlaryň sany (Ar ≈ 32): 32 − 16 = 16.",
+      "ru": "Охарактеризуем серу S (№ 16).\n\n• Заряд ядра +16, 16 протонов, 16 электронов.\n• 3-й период → 3 электронных слоя: 2, 8, 6.\n• VI A группа → 6 электронов на внешнем слое.\n• Неметалл; высший оксид SO₃ (кислотный), водородное соединение H₂S.\n• Число нейтронов (Ar ≈ 32): 32 − 16 = 16."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Alýuminiý Al (№ 13) atomynda näçe elektron bar?",
+      "ru": "Сколько электронов в атоме алюминия Al (№ 13)?"
+     },
+     "answer": "13",
+     "hint": {
+      "tk": "Atom elektroneýtral.",
+      "ru": "Атом электронейтрален."
+     },
+     "explain": {
+      "tk": "Elektronlaryň sany tertip belgisine deň: 13.",
+      "ru": "Число электронов равно порядковому номеру: 13."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Haýsy elementiň metallyk häsiýeti iň güýçli?",
+      "ru": "У какого элемента наиболее сильные металлические свойства?"
+     },
+     "options": [
+      "Li",
+      "Na",
+      "K"
+     ],
+     "answer": 2,
+     "hint": {
+      "tk": "Bu elementler bir toparda. Toparda aşak düşdügiçe näme bolýar?",
+      "ru": "Эти элементы в одной группе. Что происходит при движении вниз?"
+     },
+     "explain": {
+      "tk": "I A toparda ýokardan aşak metallyk häsiýeti güýçlenýär: Li < Na < K.",
+      "ru": "В I A группе сверху вниз металлические свойства усиливаются: Li < Na < K."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "3-nji döwürde natriýden hlora tarap atom radiusy ulalýar.",
+      "ru": "В 3-м периоде от натрия к хлору радиус атома увеличивается."
+     },
+     "answer": false,
+     "hint": {
+      "tk": "Ýadronyň zarýady artýar, gatlaklaryň sany bolsa şol bir.",
+      "ru": "Заряд ядра растёт, а число слоёв то же."
+     },
+     "explain": {
+      "tk": "Döwürde çepden saga ýadro elektronlary güýçli çekýär, şonuň üçin radius kiçelýär.",
+      "ru": "В периоде слева направо ядро сильнее притягивает электроны, поэтому радиус уменьшается."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Kislorod O (№ 8) atomynyň daşky gatlagynda näçe elektron bar?",
+      "ru": "Сколько электронов на внешнем слое атома кислорода O (№ 8)?"
+     },
+     "answer": "6",
+     "hint": {
+      "tk": "Birinji gatlakda iň köp 2 elektron bolup biler.",
+      "ru": "На первом слое может быть не больше 2 электронов."
+     },
+     "explain": {
+      "tk": "8 = 2 + 6, kislorod VI A toparda.",
+      "ru": "8 = 2 + 6, кислород в VI A группе."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Mendeleýew tablisasynda boş öýjükler galdyryp, entek açylmadyk elementleriň häsiýetlerini öňünden aýdypdyr. Soňra gallium (1875), skandiý (1879) we germaniý (1886) açylanda, olaryň häsiýetleri onuň çaklamalaryna örän ýakyn çykypdyr. Bu kanunyň dogrudygyny ykrar etdiripdir.",
+      "ru": "Менделеев оставил в таблице пустые клетки и предсказал свойства ещё не открытых элементов. Когда позже открыли галлий (1875), скандий (1879) и германий (1886), их свойства оказались очень близки к его предсказаниям. Это убедило учёных в верности закона."
+     }
+    }
+   ]
+  },
+  {
+   "id": "chemistry-9-chemical-bonding",
+   "grade": 9,
+   "title": {
+    "tk": "Himiki baglanyşyk",
+    "ru": "Химическая связь"
+   },
+   "minutes": 10,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Atomlar daşky gatlagyny durnukly (köplenç 8 elektronly) etmäge ymtylýar, şonuň üçin baglanyşyk emele getirýär.\n\n• Kowalent polýar däl — birmeňzeş metal däl atomlaryň arasynda umumy elektron jübüti: H₂, O₂, N₂, Cl₂.\n• Kowalent polýar — dürli metal däl atomlaryň arasynda; umumy jübüt has elektrootrisatel atoma süýşen: H₂O, HCl, NH₃.\n• Ion baglanyşygy — metal bilen metal däliň arasynda; metal elektron berýär, ionlar özara çekişýär: NaCl, CaO, KF.\n• Metal baglanyşygy — metallarda; erkin elektronlar («elektron gazy») kationlary baglaýar: Fe, Cu, Al.\n\nElektrootrisatellik — atomyň elektronlary özüne çekmek ukyby. Iň ýokarysy — ftor F.",
+      "ru": "Атомы стремятся сделать внешний слой устойчивым (чаще всего из 8 электронов), поэтому образуют связи.\n\n• Ковалентная неполярная — между одинаковыми атомами неметаллов, общая электронная пара: H₂, O₂, N₂, Cl₂.\n• Ковалентная полярная — между разными неметаллами; общая пара смещена к более электроотрицательному атому: H₂O, HCl, NH₃.\n• Ионная — между металлом и неметаллом; металл отдаёт электроны, ионы притягиваются: NaCl, CaO, KF.\n• Металлическая — в металлах; свободные электроны («электронный газ») связывают катионы: Fe, Cu, Al.\n\nЭлектроотрицательность — способность атома притягивать электроны. Самая высокая — у фтора F."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Natriý hloridiniň emele gelşi:\n\nNa (2, 8, 1) → bir elektrony berýär → Na⁺ (2, 8)\nCl (2, 8, 7) → bir elektrony alýar → Cl⁻ (2, 8, 8)\n\nIki ionyň hem daşky gatlagy 8 elektronly boldy. Garşylykly zarýadly ionlar çekişip, ion kristal panjarasyny emele getirýär. Şonuň üçin aş duzy gaty we kyn ereýär (≈ 801 °C).",
+      "ru": "Образование хлорида натрия:\n\nNa (2, 8, 1) → отдаёт один электрон → Na⁺ (2, 8)\nCl (2, 8, 7) → принимает один электрон → Cl⁻ (2, 8, 8)\n\nУ обоих ионов внешний слой стал восьмиэлектронным. Противоположно заряженные ионы притягиваются и образуют ионную кристаллическую решётку. Поэтому поваренная соль твёрдая и тугоплавкая (≈ 801 °C)."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "HCl molekulasynda haýsy baglanyşyk?",
+      "ru": "Какая связь в молекуле HCl?"
+     },
+     "options": [
+      {
+       "tk": "ion",
+       "ru": "ионная"
+      },
+      {
+       "tk": "kowalent polýar",
+       "ru": "ковалентная полярная"
+      },
+      {
+       "tk": "kowalent polýar däl",
+       "ru": "ковалентная неполярная"
+      }
+     ],
+     "answer": 1,
+     "hint": {
+      "tk": "Iki dürli metal däl element.",
+      "ru": "Два разных неметалла."
+     },
+     "explain": {
+      "tk": "H we Cl metal däl, ýöne dürli, umumy jübüt hlora süýşen — kowalent polýar.",
+      "ru": "H и Cl — разные неметаллы, общая пара смещена к хлору — ковалентная полярная."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Haýsy maddada ion baglanyşygy bar?",
+      "ru": "В каком веществе ионная связь?"
+     },
+     "options": [
+      "CaO",
+      "CO₂",
+      "N₂"
+     ],
+     "answer": 0,
+     "hint": {
+      "tk": "Metal + metal däl.",
+      "ru": "Металл + неметалл."
+     },
+     "explain": {
+      "tk": "Ca — metal, O — metal däl: ion baglanyşygy.",
+      "ru": "Ca — металл, O — неметалл: ионная связь."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Azot molekulasynda N₂ baglanyşyk kowalent polýar däl.",
+      "ru": "В молекуле азота N₂ связь ковалентная неполярная."
+     },
+     "answer": true,
+     "hint": {
+      "tk": "Atomlar birmeňzeş.",
+      "ru": "Атомы одинаковые."
+     },
+     "explain": {
+      "tk": "Birmeňzeş atomlaryň elektrootrisatelligi deň, şonuň üçin umumy jübütler süýşmeýär. N₂-de üç gat baglanyşyk bar.",
+      "ru": "У одинаковых атомов электроотрицательность равна, поэтому общие пары не смещены. В N₂ — тройная связь."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Suw molekulasynda H₂O näçe kowalent baglanyşyk bar?",
+      "ru": "Сколько ковалентных связей в молекуле воды H₂O?"
+     },
+     "answer": "2",
+     "hint": {
+      "tk": "Kislorod her wodorod bilen bir umumy jübüt emele getirýär.",
+      "ru": "Кислород образует по одной общей паре с каждым водородом."
+     },
+     "explain": {
+      "tk": "H–O–H: iki sany O–H baglanyşygy.",
+      "ru": "H–O–H: две связи O–H."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Amerikan himigi Laýnus Poling himiki baglanyşygyň tebigatyny öwrenendigi üçin 1954-nji ýylda Nobel baýragyna mynasyp bolupdyr; elektrootrisatellik şkalasyny hem ol hödürläpdir. Almaz bilen grafit ikisi hem diňe uglerod atomlaryndan durýar, ýöne baglanyşyklaryň başgaça ýerleşmegi sebäpli almaz iň gaty tebigy madda, grafit bolsa ýumşak.",
+      "ru": "Американский химик Лайнус Полинг получил Нобелевскую премию 1954 года за исследование природы химической связи; он же предложил шкалу электроотрицательности. Алмаз и графит оба состоят только из атомов углерода, но из-за разного расположения связей алмаз — самое твёрдое природное вещество, а графит мягкий."
+     }
+    }
+   ]
+  },
+  {
+   "id": "chemistry-10-organic-chemistry-intro",
+   "grade": 10,
+   "title": {
+    "tk": "Organiki himiýa we himiki gurluş nazaryýeti",
+    "ru": "Органическая химия и теория химического строения"
+   },
+   "minutes": 9,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Organiki himiýa — uglerodyň birleşmelerini öwrenýän ylym (CO, CO₂, karbonatlar we käbir beýleki ýönekeý birleşmelerden başga). Häzir millionlarça organiki madda belli.\n\nUglerodyň aýratynlyklary:\n• organiki birleşmelerde ol hemişe dört walentli;\n• uglerod atomlary biri-biri bilen zynjyr (göni, şahalanan, halka) emele getirýär;\n• ýeke (C–C), goşa (C=C) we üçlenen (C≡C) baglanyşyklar bolýar.\n\nA. M. Butlerowyň himiki gurluş nazaryýeti (1861):\n• molekulada atomlar belli bir tertipde walentlige laýyklykda birleşýär;\n• maddanyň häsiýetleri diňe düzümine däl, gurluşyna hem bagly.\n\nIzomerler — düzümi (molekulýar formulasy) birmeňzeş, gurluşy we häsiýetleri dürli maddalar.\nGomologlar — gurluşy meňzeş, düzümi bir ýa-da birnäçe CH₂ topar bilen tapawutlanýan maddalar.",
+      "ru": "Органическая химия — наука о соединениях углерода (кроме CO, CO₂, карбонатов и некоторых других простых соединений). Сегодня известны миллионы органических веществ.\n\nОсобенности углерода:\n• в органических соединениях он всегда четырёхвалентен;\n• атомы углерода соединяются друг с другом в цепи (прямые, разветвлённые, циклы);\n• бывают одинарные (C–C), двойные (C=C) и тройные (C≡C) связи.\n\nТеория химического строения А. М. Бутлерова (1861):\n• атомы в молекуле соединены в определённом порядке согласно валентности;\n• свойства веществ зависят не только от состава, но и от строения.\n\nИзомеры — вещества с одинаковым составом (молекулярной формулой), но разным строением и свойствами.\nГомологи — вещества сходного строения, отличающиеся по составу на одну или несколько групп CH₂."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "C₂H₆O formulaly iki izomer:\n\n1) Etil spirti: CH₃–CH₂–OH. Adaty şertlerde suwuklyk, 78 °C-de gaýnaýar, suw bilen islendik gatnaşykda garyşýar, natriý bilen reaksiýa girýär.\n2) Dimetil efiri: CH₃–O–CH₃. Adaty şertlerde gaz, natriý bilen reaksiýa girmeýär.\n\nAtomlar birmeňzeş (2 C, 6 H, 1 O), ýöne tertibi başga — şonuň üçin häsiýetleri düýpgöter tapawutly. Bu Butlerowyň nazaryýetiniň esasy pikiri.",
+      "ru": "Два изомера с формулой C₂H₆O:\n\n1) Этиловый спирт: CH₃–CH₂–OH. При обычных условиях — жидкость, кипит при 78 °C, смешивается с водой в любых отношениях, реагирует с натрием.\n2) Диметиловый эфир: CH₃–O–CH₃. При обычных условиях — газ, с натрием не реагирует.\n\nАтомы одни и те же (2 C, 6 H, 1 O), но порядок соединения разный — поэтому свойства совсем разные. Это главная идея теории Бутлерова."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Organiki birleşmelerde uglerodyň walentligi näçe?",
+      "ru": "Какова валентность углерода в органических соединениях?"
+     },
+     "options": [
+      "II",
+      "III",
+      "IV"
+     ],
+     "answer": 2,
+     "hint": {
+      "tk": "Metanyň formulasyny ýada salyň: CH₄.",
+      "ru": "Вспомните формулу метана: CH₄."
+     },
+     "explain": {
+      "tk": "Uglerod organiki birleşmelerde dört walentli: metanda ol dört wodorod atomy bilen baglanyşýar.",
+      "ru": "Углерод в органических соединениях четырёхвалентен: в метане он связан с четырьмя атомами водорода."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Izomerleriň molekulýar formulasy birmeňzeş, ýöne häsiýetleri dürli bolup biler.",
+      "ru": "Изомеры имеют одинаковую молекулярную формулу, но могут иметь разные свойства."
+     },
+     "answer": true,
+     "hint": {
+      "tk": "Etil spirti we dimetil efiri mysalyna serediň.",
+      "ru": "Вспомните пример этанола и диметилового эфира."
+     },
+     "explain": {
+      "tk": "Izomerleriň düzümi birmeňzeş, gurluşy dürli, şonuň üçin häsiýetleri hem dürli.",
+      "ru": "У изомеров одинаковый состав, но разное строение, поэтому и свойства разные."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Haýsy jübüt gomologlardyr?",
+      "ru": "Какая пара веществ является гомологами?"
+     },
+     "options": [
+      {
+       "tk": "CH₄ we C₂H₆",
+       "ru": "CH₄ и C₂H₆"
+      },
+      {
+       "tk": "C₂H₄ we C₂H₆",
+       "ru": "C₂H₄ и C₂H₆"
+      },
+      {
+       "tk": "CH₃–CH₂–OH we CH₃–O–CH₃",
+       "ru": "CH₃–CH₂–OH и CH₃–O–CH₃"
+      }
+     ],
+     "answer": 0,
+     "hint": {
+      "tk": "Gomologlar CH₂ toparyna tapawutlanýar we gurluşy meňzeş.",
+      "ru": "Гомологи отличаются на группу CH₂ и имеют сходное строение."
+     },
+     "explain": {
+      "tk": "Metan we etan iki hem alkan, C₂H₆ − CH₄ = CH₂. Üçünji jübüt izomerler, ikinjisi bolsa dürli klaslaryň maddalary.",
+      "ru": "Метан и этан — оба алканы, C₂H₆ − CH₄ = CH₂. Третья пара — изомеры, вторая — вещества разных классов."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Butlerow himiki gurluş nazaryýetini haýsy ýylda beýan etdi?",
+      "ru": "В каком году Бутлеров изложил теорию химического строения?"
+     },
+     "answer": "1861",
+     "hint": {
+      "tk": "XIX asyryň 60-njy ýyllarynyň başy.",
+      "ru": "Начало 60-х годов XIX века."
+     },
+     "explain": {
+      "tk": "A. M. Butlerow nazaryýetini 1861-nji ýylda Şpeýer şäherindäki nemes tebigatçylarynyň gurultaýynda yglan etdi.",
+      "ru": "А. М. Бутлеров представил теорию в 1861 году на съезде немецких естествоиспытателей в Шпейере."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "1828-nji ýylda nemes himigi Fridrih Wýoler organiki däl maddadan (ammoniý sianatdan) karbamidi (moçewinany) aldy. Şondan öň organiki maddalary diňe janly organizmler döredip biler diýip pikir edýärdiler. Bu tejribe organiki sinteze ýol açdy.",
+      "ru": "В 1828 году немецкий химик Фридрих Вёлер получил мочевину из неорганического вещества (цианата аммония). До этого считалось, что органические вещества могут создавать только живые организмы. Этот опыт открыл путь органическому синтезу."
+     }
+    }
+   ]
+  },
+  {
+   "id": "chemistry-10-alkanes",
+   "grade": 10,
+   "title": {
+    "tk": "Alkanlar (doýgun uglewodorodlar)",
+    "ru": "Алканы (предельные углеводороды)"
+   },
+   "minutes": 10,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Alkanlar — uglerod atomlary diňe ýeke baglanyşyklar bilen birleşen uglewodorodlar. Umumy formula: CₙH₂ₙ₊₂.\nUglerod atomlary sp³-gibridleşen, burç 109°28′ (tetraedr).\n\nGomologik hatar: metan CH₄, etan C₂H₆, propan C₃H₈, butan C₄H₁₀, pentan C₅H₁₂ ...\nButandan başlap gurluş izomeriýasy bar (butan we izobutan).\n\nHäsiýetleri:\n• C₁–C₄ — gazlar, C₅–C₁₅ — suwuklyklar, galanlary gaty; suwda ereýmeýär.\n• Himiki taýdan durnukly; esasy reaksiýalary — orun alyşma we ýanma.\n• Galogenlemek (ýagtylykda): CH₄ + Cl₂ → CH₃Cl + HCl.\n• Ýanma: CH₄ + 2O₂ → CO₂ + 2H₂O + ýylylyk.\n• Gyzdyrylanda krekinge we degidrirlemä sezewar bolýar.",
+      "ru": "Алканы — углеводороды, в которых атомы углерода соединены только одинарными связями. Общая формула: CₙH₂ₙ₊₂.\nАтомы углерода в sp³-гибридизации, угол 109°28′ (тетраэдр).\n\nГомологический ряд: метан CH₄, этан C₂H₆, пропан C₃H₈, бутан C₄H₁₀, пентан C₅H₁₂ ...\nНачиная с бутана существует структурная изомерия (бутан и изобутан).\n\nСвойства:\n• C₁–C₄ — газы, C₅–C₁₅ — жидкости, остальные — твёрдые; в воде не растворяются.\n• Химически устойчивы; основные реакции — замещение и горение.\n• Галогенирование (на свету): CH₄ + Cl₂ → CH₃Cl + HCl.\n• Горение: CH₄ + 2O₂ → CO₂ + 2H₂O + теплота.\n• При нагревании подвергаются крекингу и дегидрированию."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Propanyň ýanma deňlemesini düzüň.\n\n1) C₃H₈ + O₂ → CO₂ + H₂O.\n2) Uglerod: 3 atom → 3CO₂.\n3) Wodorod: 8 atom → 4H₂O.\n4) Kislorod sagda: 3·2 + 4·1 = 10 atom → 5O₂.\nJogap: C₃H₈ + 5O₂ → 3CO₂ + 4H₂O.\nPropan-butan garyndysy gaz ballonlarynda ulanylýar.",
+      "ru": "Составьте уравнение горения пропана.\n\n1) C₃H₈ + O₂ → CO₂ + H₂O.\n2) Углерод: 3 атома → 3CO₂.\n3) Водород: 8 атомов → 4H₂O.\n4) Кислород справа: 3·2 + 4·1 = 10 атомов → 5O₂.\nОтвет: C₃H₈ + 5O₂ → 3CO₂ + 4H₂O.\nПропан-бутановая смесь используется в газовых баллонах."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Alkanyň molekulasynda 6 uglerod atomy bar. Onda näçe wodorod atomy bar?",
+      "ru": "В молекуле алкана 6 атомов углерода. Сколько в ней атомов водорода?"
+     },
+     "answer": "14",
+     "hint": {
+      "tk": "CₙH₂ₙ₊₂.",
+      "ru": "CₙH₂ₙ₊₂."
+     },
+     "explain": {
+      "tk": "2·6 + 2 = 14. Bu geksan C₆H₁₄.",
+      "ru": "2·6 + 2 = 14. Это гексан C₆H₁₄."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Metan üçin haýsy reaksiýa häsiýetli?",
+      "ru": "Какая реакция характерна для метана?"
+     },
+     "options": [
+      {
+       "tk": "Bromly suw bilen birleşme",
+       "ru": "Присоединение бромной воды"
+      },
+      {
+       "tk": "Ýagtylykda hlor bilen orun alyşma",
+       "ru": "Замещение с хлором на свету"
+      },
+      {
+       "tk": "Polimerleşme",
+       "ru": "Полимеризация"
+      }
+     ],
+     "answer": 1,
+     "hint": {
+      "tk": "Alkanlarda goşa baglanyşyk barmy?",
+      "ru": "Есть ли в алканах кратные связи?"
+     },
+     "explain": {
+      "tk": "Alkanlar doýgun, goşa baglanyşyk ýok, şonuň üçin birleşme we polimerleşme reaksiýalaryna girmeýär. Olar üçin orun alyşma häsiýetli.",
+      "ru": "Алканы предельные, кратных связей нет, поэтому они не вступают в присоединение и полимеризацию. Для них характерно замещение."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Butanyň iki gurluş izomeri bar.",
+      "ru": "У бутана существуют два структурных изомера."
+     },
+     "answer": true,
+     "hint": {
+      "tk": "Dört uglerod atomyny göni ýa-da şahalanan zynjyra ýerleşdirip bolýar.",
+      "ru": "Четыре атома углерода можно расположить в прямую или разветвлённую цепь."
+     },
+     "explain": {
+      "tk": "C₄H₁₀: n-butan CH₃–CH₂–CH₂–CH₃ we izobutan (2-metilpropan) CH₃–CH(CH₃)–CH₃.",
+      "ru": "C₄H₁₀: н-бутан CH₃–CH₂–CH₂–CH₃ и изобутан (2-метилпропан) CH₃–CH(CH₃)–CH₃."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "1 mol metan doly ýananda näçe mol kislorod sarp edilýär?",
+      "ru": "Сколько моль кислорода расходуется при полном сгорании 1 моль метана?"
+     },
+     "answer": "2",
+     "hint": {
+      "tk": "CH₄ + ?O₂ → CO₂ + 2H₂O.",
+      "ru": "CH₄ + ?O₂ → CO₂ + 2H₂O."
+     },
+     "explain": {
+      "tk": "Sagda kislorod: 2 (CO₂) + 2 (2H₂O) = 4 atom = 2O₂. Diýmek, 2 mol.",
+      "ru": "Кислород справа: 2 (CO₂) + 2 (2H₂O) = 4 атома = 2O₂. Значит, 2 моль."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Tebigy gazyň esasy düzümi metandyr. Metanyň hiç hili ysy ýok, şonuň üçin turbalara iberilýän gaza ýörite ýakymsyz ysly maddalar (merkaptanlar) goşulýar — şeýdip, gaz syzanda ony duýmak bolýar.",
+      "ru": "Основной компонент природного газа — метан. Метан не имеет запаха, поэтому в газ, подаваемый по трубам, специально добавляют вещества с резким запахом (меркаптаны) — так утечку можно почувствовать."
+     }
+    }
+   ]
+  },
+  {
+   "id": "chemistry-10-alkenes-alkynes",
+   "grade": 10,
+   "title": {
+    "tk": "Alkenler we alkinler",
+    "ru": "Алкены и алкины"
+   },
+   "minutes": 10,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Alkenler — bir goşa C=C baglanyşykly doýmadyk uglewodorodlar. Umumy formula: CₙH₂ₙ (n ≥ 2). Ilkinji wekili — eten (etilen) CH₂=CH₂.\nGoşa baglanyşyk bir σ- we bir π-baglanyşykdan durýar; π-baglanyşyk ýeňil üzülýär.\n\nAlkinler — bir üçlenen C≡C baglanyşykly uglewodorodlar. Umumy formula: CₙH₂ₙ₋₂ (n ≥ 2). Ilkinji wekili — etin (asetilen) HC≡CH.\n\nHäsiýetli reaksiýalar — birleşme:\n• gidrirleme: CH₂=CH₂ + H₂ → CH₃–CH₃;\n• galogenleme: CH₂=CH₂ + Br₂ → CH₂Br–CH₂Br (bromly suw reňksizlenýär — doýmadyk baglanyşygyň hil reaksiýasy);\n• gidratasiýa: CH₂=CH₂ + H₂O → C₂H₅OH;\n• polimerleşme: n CH₂=CH₂ → (–CH₂–CH₂–)ₙ — polietilen.\nAsetileniň ýanmasy örän gyzgyn ýalyn berýär (metallary kesmekde we kebşirlemekde ulanylýar).",
+      "ru": "Алкены — непредельные углеводороды с одной двойной связью C=C. Общая формула: CₙH₂ₙ (n ≥ 2). Первый представитель — этен (этилен) CH₂=CH₂.\nДвойная связь состоит из одной σ- и одной π-связи; π-связь легко разрывается.\n\nАлкины — углеводороды с одной тройной связью C≡C. Общая формула: CₙH₂ₙ₋₂ (n ≥ 2). Первый представитель — этин (ацетилен) HC≡CH.\n\nХарактерные реакции — присоединение:\n• гидрирование: CH₂=CH₂ + H₂ → CH₃–CH₃;\n• галогенирование: CH₂=CH₂ + Br₂ → CH₂Br–CH₂Br (бромная вода обесцвечивается — качественная реакция на кратную связь);\n• гидратация: CH₂=CH₂ + H₂O → C₂H₅OH;\n• полимеризация: n CH₂=CH₂ → (–CH₂–CH₂–)ₙ — полиэтилен.\nГорение ацетилена даёт очень горячее пламя (используется для резки и сварки металлов)."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Gaz etanmy ýa-da etenmi — nädip anyklamaly?\n\n1) Gazy bromly suwdan (sary-goňur reňkli) geçirýäris.\n2) Eger reňk ýitse, gazda goşa baglanyşyk bar: CH₂=CH₂ + Br₂ → CH₂Br–CH₂Br. Bu eten.\n3) Eger reňk saklansa — doýgun gaz, ýagny etan (ol adaty şertlerde brom bilen birleşmeýär).\n\nŞeýle hem: 1 mol asetilen 2 mol H₂ birleşdirip, etana öwrülýär: HC≡CH + 2H₂ → CH₃–CH₃.",
+      "ru": "Как определить, этан это или этен?\n\n1) Пропускаем газ через бромную воду (жёлто-бурого цвета).\n2) Если окраска исчезла — в газе есть двойная связь: CH₂=CH₂ + Br₂ → CH₂Br–CH₂Br. Это этен.\n3) Если окраска сохранилась — газ предельный, то есть этан (при обычных условиях с бромом не присоединяется).\n\nТакже: 1 моль ацетилена присоединяет 2 моль H₂ и превращается в этан: HC≡CH + 2H₂ → CH₃–CH₃."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "C₃H₄ haýsy klasa degişli bolup biler?",
+      "ru": "К какому классу может относиться C₃H₄?"
+     },
+     "options": [
+      {
+       "tk": "Alkanlar",
+       "ru": "Алканы"
+      },
+      {
+       "tk": "Alkenler",
+       "ru": "Алкены"
+      },
+      {
+       "tk": "Alkinler",
+       "ru": "Алкины"
+      }
+     ],
+     "answer": 2,
+     "hint": {
+      "tk": "n = 3 üçin umumy formulalary barlaň.",
+      "ru": "Проверьте общие формулы при n = 3."
+     },
+     "explain": {
+      "tk": "CₙH₂ₙ₋₂: 2·3 − 2 = 4. Bu propin HC≡C–CH₃. Alkan C₃H₈, alken C₃H₆ bolardy.",
+      "ru": "CₙH₂ₙ₋₂: 2·3 − 2 = 4. Это пропин HC≡C–CH₃. Алкан был бы C₃H₈, алкен — C₃H₆."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Etilen bromly suwy reňksizlendirýär.",
+      "ru": "Этилен обесцвечивает бромную воду."
+     },
+     "answer": true,
+     "hint": {
+      "tk": "Etileniň molekulasynda nähili baglanyşyk bar?",
+      "ru": "Какая связь есть в молекуле этилена?"
+     },
+     "explain": {
+      "tk": "Etileniň goşa baglanyşygy brom birleşdirýär we dibrometan emele gelýär, reňk ýitýär.",
+      "ru": "По двойной связи этилена присоединяется бром, образуется дибромэтан, окраска исчезает."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "1 mol propin (C₃H₄) doly gidrirlemek üçin näçe mol wodorod gerek?",
+      "ru": "Сколько моль водорода нужно для полного гидрирования 1 моль пропина (C₃H₄)?"
+     },
+     "answer": "2",
+     "hint": {
+      "tk": "Üçlenen baglanyşykda iki π-baglanyşyk bar.",
+      "ru": "В тройной связи две π-связи."
+     },
+     "explain": {
+      "tk": "C₃H₄ + 2H₂ → C₃H₈. Her π-baglanyşyk bir H₂ molekulasyny birleşdirýär.",
+      "ru": "C₃H₄ + 2H₂ → C₃H₈. Каждая π-связь присоединяет одну молекулу H₂."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Polietilen haýsy reaksiýa netijesinde alynýar?",
+      "ru": "В результате какой реакции получают полиэтилен?"
+     },
+     "options": [
+      {
+       "tk": "Etileniň polimerleşmesi",
+       "ru": "Полимеризация этилена"
+      },
+      {
+       "tk": "Metanyň ýanmasy",
+       "ru": "Горение метана"
+      },
+      {
+       "tk": "Etanyň hlorlanmasy",
+       "ru": "Хлорирование этана"
+      }
+     ],
+     "answer": 0,
+     "hint": {
+      "tk": "Adynda monomeriň ady bar.",
+      "ru": "В названии есть название мономера."
+     },
+     "explain": {
+      "tk": "Köp sanly etilen molekulasy goşa baglanyşyklary açylyp, uzyn zynjyra birleşýär: n CH₂=CH₂ → (–CH₂–CH₂–)ₙ.",
+      "ru": "Множество молекул этилена за счёт раскрытия двойных связей соединяются в длинную цепь: n CH₂=CH₂ → (–CH₂–CH₂–)ₙ."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Etilen ösümlik gormonydyr: bişen miweler ony bölüp çykarýar we bu golaýdaky miweleriň bişmegini çaltlandyrýar. Şonuň üçin ýaşyl banany bişen alma bilen bir halta salsaň, ol çalt sarýalýar.",
+      "ru": "Этилен — растительный гормон: спелые плоды выделяют его, и это ускоряет созревание соседних плодов. Поэтому зелёный банан в одном пакете со спелым яблоком быстрее желтеет."
+     }
+    }
+   ]
+  },
+  {
+   "id": "chemistry-10-arenes",
+   "grade": 10,
+   "title": {
+    "tk": "Arenler: benzol",
+    "ru": "Арены: бензол"
+   },
+   "minutes": 9,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Arenler (aromatik uglewodorodlar) — molekulasynda benzol halkasy bolan uglewodorodlar. Benzol gomologlarynyň umumy formulasy: CₙH₂ₙ₋₆ (n ≥ 6).\n\nBenzol C₆H₆:\n• alty uglerod atomy dogry altyburçluk emele getirýär, ähli C–C baglanyşyklar deň (0,140 nm);\n• alty p-elektron bitewi π-elektron bulutyny (aromatik ulgamy) emele getirýär — şonuň üçin benzol durnukly;\n• reňksiz, ýörite ysly suwuklyk, suwda ereýmeýär, zäherli.\n\nReaksiýalary:\n• orun alyşma (has häsiýetli): nitrlemek C₆H₆ + HNO₃ → C₆H₅NO₂ + H₂O (H₂SO₄ katalizator); galogenlemek C₆H₆ + Br₂ → C₆H₅Br + HBr (FeBr₃ katalizator);\n• birleşme kyn şertlerde: C₆H₆ + 3H₂ → C₆H₁₂ (siklogeksan);\n• bromly suwy we KMnO₄ ergini reňksizlendirmeýär.\nToluol C₆H₅–CH₃ — benzolyň iň ýakyn gomology.",
+      "ru": "Арены (ароматические углеводороды) — углеводороды, в молекуле которых есть бензольное кольцо. Общая формула гомологов бензола: CₙH₂ₙ₋₆ (n ≥ 6).\n\nБензол C₆H₆:\n• шесть атомов углерода образуют правильный шестиугольник, все связи C–C одинаковы (0,140 нм);\n• шесть p-электронов образуют единое π-электронное облако (ароматическую систему) — поэтому бензол устойчив;\n• бесцветная жидкость с характерным запахом, в воде не растворяется, ядовит.\n\nРеакции:\n• замещение (наиболее характерно): нитрование C₆H₆ + HNO₃ → C₆H₅NO₂ + H₂O (катализатор H₂SO₄); галогенирование C₆H₆ + Br₂ → C₆H₅Br + HBr (катализатор FeBr₃);\n• присоединение в жёстких условиях: C₆H₆ + 3H₂ → C₆H₁₂ (циклогексан);\n• не обесцвечивает бромную воду и раствор KMnO₄.\nТолуол C₆H₅–CH₃ — ближайший гомолог бензола."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Benzolyň molýar massasyny we ondaky uglerodyň massa paýyny hasaplaň.\n\n1) M(C₆H₆) = 6·12 + 6·1 = 72 + 6 = 78 g/mol.\n2) w(C) = 72 / 78 ≈ 0,923 = 92,3 %.\n\nUglerodyň paýy ýokary bolany üçin benzol tüssä ýanýar: howada ony doly ýakmaga kislorod ýetmeýär.\nDoly ýanma: 2C₆H₆ + 15O₂ → 12CO₂ + 6H₂O.",
+      "ru": "Вычислите молярную массу бензола и массовую долю углерода в нём.\n\n1) M(C₆H₆) = 6·12 + 6·1 = 72 + 6 = 78 г/моль.\n2) w(C) = 72 / 78 ≈ 0,923 = 92,3 %.\n\nИз-за высокой доли углерода бензол горит коптящим пламенем: на воздухе кислорода не хватает для полного сгорания.\nПолное горение: 2C₆H₆ + 15O₂ → 12CO₂ + 6H₂O."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Toluolyň (C₇H₈) molýar massasy näçe g/mol?",
+      "ru": "Чему равна молярная масса толуола (C₇H₈) в г/моль?"
+     },
+     "answer": "92",
+     "hint": {
+      "tk": "C = 12, H = 1.",
+      "ru": "C = 12, H = 1."
+     },
+     "explain": {
+      "tk": "7·12 + 8·1 = 84 + 8 = 92 g/mol.",
+      "ru": "7·12 + 8·1 = 84 + 8 = 92 г/моль."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Benzol üçin haýsy reaksiýa iň häsiýetli?",
+      "ru": "Какая реакция наиболее характерна для бензола?"
+     },
+     "options": [
+      {
+       "tk": "Bromly suw bilen birleşme",
+       "ru": "Присоединение бромной воды"
+      },
+      {
+       "tk": "Polimerleşme",
+       "ru": "Полимеризация"
+      },
+      {
+       "tk": "Katalizator bilen orun alyşma",
+       "ru": "Замещение в присутствии катализатора"
+      }
+     ],
+     "answer": 2,
+     "hint": {
+      "tk": "Aromatik halka durnukly we ony bozmak kyn.",
+      "ru": "Ароматическое кольцо устойчиво, его трудно разрушить."
+     },
+     "explain": {
+      "tk": "Orun alyşmada aromatik ulgam saklanýar, şonuň üçin benzol ýeňil nitrlenýär we galogenlenýär, birleşme bolsa diňe kyn şertlerde bolýar.",
+      "ru": "При замещении ароматическая система сохраняется, поэтому бензол легко нитруется и галогенируется, а присоединение идёт только в жёстких условиях."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Benzolyň molekulasynda ýeke we goşa baglanyşyklaryň uzynlygy dürli.",
+      "ru": "В молекуле бензола длины одинарных и двойных связей различны."
+     },
+     "answer": false,
+     "hint": {
+      "tk": "π-elektronlar nähili paýlanýar?",
+      "ru": "Как распределены π-электроны?"
+     },
+     "explain": {
+      "tk": "Benzolda aýratyn ýeke we goşa baglanyşyklar ýok: π-elektronlar tutuş halka boýunça deň paýlanan, ähli C–C baglanyşyklar deň.",
+      "ru": "В бензоле нет отдельных одинарных и двойных связей: π-электроны равномерно распределены по кольцу, все связи C–C одинаковы."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "1 mol benzoly siklogeksana öwürmek üçin näçe mol wodorod gerek?",
+      "ru": "Сколько моль водорода нужно, чтобы превратить 1 моль бензола в циклогексан?"
+     },
+     "answer": "3",
+     "hint": {
+      "tk": "C₆H₆ → C₆H₁₂: näçe wodorod atomy goşulýar?",
+      "ru": "C₆H₆ → C₆H₁₂: сколько атомов водорода добавляется?"
+     },
+     "explain": {
+      "tk": "12 − 6 = 6 atom H = 3 H₂ molekula: C₆H₆ + 3H₂ → C₆H₁₂.",
+      "ru": "12 − 6 = 6 атомов H = 3 молекулы H₂: C₆H₆ + 3H₂ → C₆H₁₂."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Benzoly 1825-nji ýylda Maýkl Faradeý açdy. Onuň halka görnüşli gurluşyny 1865-nji ýylda nemes himigi Awgust Kekule teklip etdi. Kekule soňra bu pikiriň ýarym ukuda öz guýrugyny dişlän ýylan görnüşinde gelendigini gürrüň beripdir.",
+      "ru": "Бензол открыл Майкл Фарадей в 1825 году. Циклическое строение его молекулы предложил немецкий химик Август Кекуле в 1865 году. Позже Кекуле рассказывал, что идея пришла ему в полудрёме в виде змеи, кусающей свой хвост."
+     }
+    }
+   ]
+  },
+  {
+   "id": "chemistry-10-alcohols",
+   "grade": 10,
+   "title": {
+    "tk": "Spirtler",
+    "ru": "Спирты"
+   },
+   "minutes": 10,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Spirtler — molekulasynda doýgun uglerod atomy bilen birleşen bir ýa-da birnäçe gidroksil topary (–OH) bolan organiki maddalar.\nBir atomly doýgun spirtleriň umumy formulasy: CₙH₂ₙ₊₁OH.\n• Metanol CH₃OH — örän zäherli.\n• Etanol C₂H₅OH.\nKöp atomly spirtler: etilenglikol HO–CH₂–CH₂–OH, gliserin C₃H₅(OH)₃.\n\nMolekulalaryň arasyndaky wodorod baglanyşyklary sebäpli spirtleriň gaýnama temperaturasy degişli uglewodorodlaryňkydan has ýokary.\n\nHimiki häsiýetleri:\n• işjeň metallar bilen: 2C₂H₅OH + 2Na → 2C₂H₅ONa + H₂↑;\n• ýanma: C₂H₅OH + 3O₂ → 2CO₂ + 3H₂O;\n• degidratasiýa (H₂SO₄, >140 °C): C₂H₅OH → CH₂=CH₂ + H₂O;\n• okislenme (CuO): aldegidler emele gelýär.\nKöp atomly spirtleriň hil reaksiýasy — Cu(OH)₂ bilen açyk gök ergin.",
+      "ru": "Спирты — органические вещества, в молекулах которых одна или несколько гидроксильных групп (–OH) связаны с насыщенным атомом углерода.\nОбщая формула предельных одноатомных спиртов: CₙH₂ₙ₊₁OH.\n• Метанол CH₃OH — очень ядовит.\n• Этанол C₂H₅OH.\nМногоатомные спирты: этиленгликоль HO–CH₂–CH₂–OH, глицерин C₃H₅(OH)₃.\n\nИз-за водородных связей между молекулами температуры кипения спиртов намного выше, чем у соответствующих углеводородов.\n\nХимические свойства:\n• с активными металлами: 2C₂H₅OH + 2Na → 2C₂H₅ONa + H₂↑;\n• горение: C₂H₅OH + 3O₂ → 2CO₂ + 3H₂O;\n• дегидратация (H₂SO₄, >140 °C): C₂H₅OH → CH₂=CH₂ + H₂O;\n• окисление (CuO): образуются альдегиды.\nКачественная реакция на многоатомные спирты — ярко-синий раствор с Cu(OH)₂."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "9,2 g etanol natriý bilen reaksiýa girende näçe litr wodorod (adaty şertlerde) bölünip çykýar?\n\n1) M(C₂H₅OH) = 2·12 + 6·1 + 16 = 46 g/mol.\n2) ν(C₂H₅OH) = 9,2 / 46 = 0,2 mol.\n3) Deňleme boýunça 2 mol spirtden 1 mol H₂: ν(H₂) = 0,1 mol.\n4) V(H₂) = 0,1 · 22,4 = 2,24 L.",
+      "ru": "Сколько литров водорода (н. у.) выделится при реакции 9,2 г этанола с натрием?\n\n1) M(C₂H₅OH) = 2·12 + 6·1 + 16 = 46 г/моль.\n2) ν(C₂H₅OH) = 9,2 / 46 = 0,2 моль.\n3) По уравнению из 2 моль спирта — 1 моль H₂: ν(H₂) = 0,1 моль.\n4) V(H₂) = 0,1 · 22,4 = 2,24 л."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Haýsy madda bir atomly doýgun spirt?",
+      "ru": "Какое вещество является предельным одноатомным спиртом?"
+     },
+     "options": [
+      {
+       "tk": "C₃H₇OH",
+       "ru": "C₃H₇OH"
+      },
+      {
+       "tk": "C₃H₅(OH)₃",
+       "ru": "C₃H₅(OH)₃"
+      },
+      {
+       "tk": "C₆H₆",
+       "ru": "C₆H₆"
+      }
+     ],
+     "answer": 0,
+     "hint": {
+      "tk": "CₙH₂ₙ₊₁OH formulasyny barlaň.",
+      "ru": "Проверьте формулу CₙH₂ₙ₊₁OH."
+     },
+     "explain": {
+      "tk": "C₃H₇OH (propanol): n = 3, 2·3 + 1 = 7. Gliserin üç atomly spirt, benzol bolsa aren.",
+      "ru": "C₃H₇OH (пропанол): n = 3, 2·3 + 1 = 7. Глицерин — трёхатомный спирт, бензол — арен."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Etanolyň gaýnama temperaturasy deňeşdirerlik molýar massaly etanyňkydan ýokary, sebäbi spirtiň molekulalarynyň arasynda wodorod baglanyşyklary bar.",
+      "ru": "Температура кипения этанола выше, чем у этана с близкой молярной массой, потому что между молекулами спирта есть водородные связи."
+     },
+     "answer": true,
+     "hint": {
+      "tk": "–OH toparynyň wodorody beýleki molekulanyň kislorody bilen täsirleşýär.",
+      "ru": "Водород группы –OH взаимодействует с кислородом соседней молекулы."
+     },
+     "explain": {
+      "tk": "Etanol 78 °C-de gaýnaýar, etan bolsa −89 °C-de. Tapawudy wodorod baglanyşyklary döredýär.",
+      "ru": "Этанол кипит при 78 °C, этан — при −89 °C. Разницу создают водородные связи."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Metanolyň (CH₃OH) molýar massasy näçe g/mol?",
+      "ru": "Какова молярная масса метанола (CH₃OH) в г/моль?"
+     },
+     "answer": "32",
+     "hint": {
+      "tk": "C = 12, H = 1, O = 16; wodorod atomlary 4.",
+      "ru": "C = 12, H = 1, O = 16; атомов водорода 4."
+     },
+     "explain": {
+      "tk": "12 + 4·1 + 16 = 32 g/mol.",
+      "ru": "12 + 4·1 + 16 = 32 г/моль."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Täze alnan Cu(OH)₂ bilen açyk gök ergin emele getirýän madda haýsy?",
+      "ru": "Какое вещество образует ярко-синий раствор со свежеосаждённым Cu(OH)₂?"
+     },
+     "options": [
+      {
+       "tk": "Etanol",
+       "ru": "Этанол"
+      },
+      {
+       "tk": "Gliserin",
+       "ru": "Глицерин"
+      },
+      {
+       "tk": "Metan",
+       "ru": "Метан"
+      }
+     ],
+     "answer": 1,
+     "hint": {
+      "tk": "Bu köp atomly spirtleriň hil reaksiýasy.",
+      "ru": "Это качественная реакция на многоатомные спирты."
+     },
+     "explain": {
+      "tk": "Gliserin üç atomly spirt; goňşy –OH toparlary mis bilen açyk gök kompleks emele getirýär. Etanol bu reaksiýany bermeýär.",
+      "ru": "Глицерин — трёхатомный спирт; соседние группы –OH образуют с медью ярко-синий комплекс. Этанол такой реакции не даёт."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Braziliýa 1970-nji ýyllardan bäri şeker gamyşyndan alnan etanoly awtomobil ýangyjy hökmünde giňden ulanýar. Ol ýerde satylýan benzine etanol goşulýar, köp awtomobiller bolsa arassa etanolda hem işläp bilýär.",
+      "ru": "Бразилия с 1970-х годов широко использует этанол из сахарного тростника как автомобильное топливо. В продаваемый там бензин добавляют этанол, а многие автомобили могут ездить и на чистом этаноле."
+     }
+    }
+   ]
+  },
+  {
+   "id": "chemistry-10-oil-natural-gas",
+   "grade": 10,
+   "title": {
+    "tk": "Nebit we tebigy gaz",
+    "ru": "Нефть и природный газ"
+   },
+   "minutes": 10,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Tebigy gaz — esasan metandan (adatça 80–98 %) ybarat, etan, propan, butan we beýleki gazlaryň goşundysy bolan garyndy. Ol arassa ýangyç we himiýa senagaty üçin çig mal.\nIlaýly nebit gazy nebit bilen bile çykýar we propan-butan garyndysyna baý.\n\nNebit — esasan uglewodorodlaryň (alkanlar, sikloalkanlar, arenler) çylşyrymly garyndysy. Onuň belli bir formulasy we gaýnama temperaturasy ýok.\n\nNebiti gaýtadan işlemek:\n• Fraksiýalara bölmek (distillýasiýa) — fiziki proses, gaýnama temperaturasy boýunça bölmek: benzin (~40–200 °C), ligroin, kerosin, dizel ýangyjy; galyndy — mazut.\n• Kreking — himiki proses, uzyn molekulalary gysga bölmek: C₁₆H₃₄ → C₈H₁₈ + C₈H₁₆. Benziniň çykymyny artdyrýar.\n• Riforming — benziniň hilini (oktan sanyny) ýokarlandyrmak, şol sanda arenleri almak.\n\nBenziniň oktan sany — onuň detonasiýa durnuklylygy: izooktan = 100, n-geptan = 0.",
+      "ru": "Природный газ — смесь, состоящая в основном из метана (обычно 80–98 %) с примесью этана, пропана, бутана и других газов. Это чистое топливо и сырьё для химической промышленности.\nПопутный нефтяной газ добывается вместе с нефтью и богат пропан-бутановой смесью.\n\nНефть — сложная смесь в основном углеводородов (алканов, циклоалканов, аренов). У неё нет определённой формулы и температуры кипения.\n\nПереработка нефти:\n• Фракционная перегонка (ректификация) — физический процесс, разделение по температурам кипения: бензин (~40–200 °C), лигроин, керосин, дизельное топливо; остаток — мазут.\n• Крекинг — химический процесс, расщепление длинных молекул на короткие: C₁₆H₃₄ → C₈H₁₈ + C₈H₁₆. Повышает выход бензина.\n• Риформинг — повышение качества (октанового числа) бензина, в том числе получение аренов.\n\nОктановое число бензина — его детонационная стойкость: изооктан = 100, н-гептан = 0."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Kreking reaksiýasynda gekzadekandan C₁₆H₃₄ oktan C₈H₁₈ we başga bir madda emele geldi. Ol näme?\n\n1) C₁₆H₃₄ → C₈H₁₈ + X.\n2) Uglerod: 16 − 8 = 8; wodorod: 34 − 18 = 16. X = C₈H₁₆.\n3) C₈H₁₆ umumy formula CₙH₂ₙ laýyk gelýär — bu alken (okten).\nKrekingde hemişe doýgun we doýmadyk uglewodorodlar bile emele gelýär.",
+      "ru": "При крекинге гексадекана C₁₆H₃₄ образовались октан C₈H₁₈ и ещё одно вещество. Какое?\n\n1) C₁₆H₃₄ → C₈H₁₈ + X.\n2) Углерод: 16 − 8 = 8; водород: 34 − 18 = 16. X = C₈H₁₆.\n3) C₈H₁₆ соответствует общей формуле CₙH₂ₙ — это алкен (октен).\nПри крекинге всегда образуются одновременно предельные и непредельные углеводороды."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Tebigy gazyň esasy düzüm bölegi haýsy?",
+      "ru": "Каков основной компонент природного газа?"
+     },
+     "options": [
+      {
+       "tk": "Propan",
+       "ru": "Пропан"
+      },
+      {
+       "tk": "Metan",
+       "ru": "Метан"
+      },
+      {
+       "tk": "Wodorod",
+       "ru": "Водород"
+      }
+     ],
+     "answer": 1,
+     "hint": {
+      "tk": "Iň ýönekeý alkan.",
+      "ru": "Самый простой алкан."
+     },
+     "explain": {
+      "tk": "Tebigy gazyň köp bölegi metan CH₄; propan we butan az mukdarda bolýar.",
+      "ru": "Природный газ в основном состоит из метана CH₄; пропан и бутан присутствуют в небольших количествах."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Nebitiň fraksiýalara bölünmegi himiki prosesdir.",
+      "ru": "Фракционная перегонка нефти — химический процесс."
+     },
+     "answer": false,
+     "hint": {
+      "tk": "Bu prosesde täze maddalar emele gelýärmi?",
+      "ru": "Образуются ли при этом новые вещества?"
+     },
+     "explain": {
+      "tk": "Distillýasiýada maddalar diňe gaýnama temperaturasy boýunça bölünýär, täze maddalar emele gelmeýär — bu fiziki proses. Kreking bolsa himiki proses.",
+      "ru": "При перегонке вещества лишь разделяются по температурам кипения, новые вещества не образуются — это физический процесс. А крекинг — химический."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Kreking: C₁₀H₂₂ → C₅H₁₂ + CₓH₁₀. x näçä deň?",
+      "ru": "Крекинг: C₁₀H₂₂ → C₅H₁₂ + CₓH₁₀. Чему равно x?"
+     },
+     "answer": "5",
+     "hint": {
+      "tk": "Uglerod atomlarynyň sany saklanýar.",
+      "ru": "Число атомов углерода сохраняется."
+     },
+     "explain": {
+      "tk": "10 − 5 = 5, ikinji önüm C₅H₁₀ (penten). Wodorod barlagy: 12 + 10 = 22.",
+      "ru": "10 − 5 = 5, второй продукт C₅H₁₀ (пентен). Проверка по водороду: 12 + 10 = 22."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Haýsy proses benziniň oktan sanyny ýokarlandyrmak üçin ulanylýar?",
+      "ru": "Какой процесс используется для повышения октанового числа бензина?"
+     },
+     "options": [
+      {
+       "tk": "Fraksiýalara bölmek",
+       "ru": "Фракционная перегонка"
+      },
+      {
+       "tk": "Ýakmak",
+       "ru": "Сжигание"
+      },
+      {
+       "tk": "Riforming",
+       "ru": "Риформинг"
+      }
+     ],
+     "answer": 2,
+     "hint": {
+      "tk": "Bu proses molekulalaryň gurluşyny üýtgedýär.",
+      "ru": "Этот процесс меняет строение молекул."
+     },
+     "explain": {
+      "tk": "Riformingde göni zynjyrly alkanlar şahalanan alkanlara we arenlere öwrülýär, olaryň detonasiýa durnuklylygy ýokary.",
+      "ru": "При риформинге неразветвлённые алканы превращаются в разветвлённые и арены, у которых высокая детонационная стойкость."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Türkmenistandaky Galkynyş gaz käni dünýäniň iň uly tebigy gaz känleriniň biri hasaplanýar. Ondan çykarylan gaz Merkezi Aziýa — Hytaý gaz geçirijisi arkaly Hytaýa iberilýär.",
+      "ru": "Месторождение Галкыныш в Туркменистане считается одним из крупнейших месторождений природного газа в мире. Добытый там газ поставляется в Китай по газопроводу Центральная Азия — Китай."
+     }
+    }
+   ]
+  },
+  {
+   "id": "chemistry-11-aldehydes",
+   "grade": 11,
+   "title": {
+    "tk": "Aldegidler",
+    "ru": "Альдегиды"
+   },
+   "minutes": 9,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Aldegidler — molekulasynda aldegid topary −CHO (karbonil topary C=O, uglerodda wodorod bilen) bolan organiki birleşmeler.\n• Umumy formula (doýgun): CₙH₂ₙO ýa-da R−CHO.\n• Metanal (formaldegid) HCHO; etanal (asetaldegid) CH₃CHO; propanal C₂H₅CHO.\n• Atlandyrylyşy: alkanyň adyna «-al» goşulýar.\n\nAlnyşy:\n• Birlenji spirtleri okislendirmek: CH₃CH₂OH + CuO → CH₃CHO + Cu + H₂O (gyzdyrylanda).\n• Kuçerowyň reaksiýasy: C₂H₂ + H₂O → CH₃CHO (Hg²⁺ katalizatory).\n\nHimiki häsiýetleri:\n• Okislenme → karbon kislotasy. «Kümüş aýna» reaksiýasy: R−CHO + Ag₂O (ammiak ergini) → R−COOH + 2Ag↓.\n• Cu(OH)₂ bilen gyzdyrylanda gyzyl Cu₂O çökündisi düşýär.\n• Wodorod bilen dikeldilme → birlenji spirt: CH₃CHO + H₂ → C₂H₅OH.",
+      "ru": "Альдегиды — органические соединения, в молекулах которых есть альдегидная группа −CHO (карбонильная группа C=O, у атома углерода которой есть водород).\n• Общая формула (предельные): CₙH₂ₙO или R−CHO.\n• Метаналь (формальдегид) HCHO; этаналь (ацетальдегид) CH₃CHO; пропаналь C₂H₅CHO.\n• Названия: к названию алкана добавляют суффикс «-аль».\n\nПолучение:\n• Окисление первичных спиртов: CH₃CH₂OH + CuO → CH₃CHO + Cu + H₂O (при нагревании).\n• Реакция Кучерова: C₂H₂ + H₂O → CH₃CHO (катализатор Hg²⁺).\n\nХимические свойства:\n• Окисление → карбоновая кислота. Реакция «серебряного зеркала»: R−CHO + Ag₂O (аммиачный р-р) → R−COOH + 2Ag↓.\n• При нагревании с Cu(OH)₂ выпадает красный осадок Cu₂O.\n• Восстановление водородом → первичный спирт: CH₃CHO + H₂ → C₂H₅OH."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Mesele: 4,4 g etanal «kümüş aýna» reaksiýasyna girdi. Näçe gram kümüş bölünip çykar?\n1) M(CH₃CHO) = 2·12 + 4·1 + 16 = 44 g/mol\n2) n(etanal) = 4,4 / 44 = 0,1 mol\n3) Deňleme boýunça 1 mol aldegide 2 mol Ag: n(Ag) = 0,2 mol\n4) m(Ag) = 0,2 · 108 = 21,6 g\nJogap: 21,6 g kümüş.",
+      "ru": "Задача: 4,4 г этаналя вступили в реакцию «серебряного зеркала». Сколько граммов серебра выделится?\n1) M(CH₃CHO) = 2·12 + 4·1 + 16 = 44 г/моль\n2) n(этаналя) = 4,4 / 44 = 0,1 моль\n3) По уравнению на 1 моль альдегида — 2 моль Ag: n(Ag) = 0,2 моль\n4) m(Ag) = 0,2 · 108 = 21,6 г\nОтвет: 21,6 г серебра."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Etanalyň formulasy haýsy?",
+      "ru": "Какая формула у этаналя?"
+     },
+     "options": [
+      "HCHO",
+      "CH₃COOH",
+      "CH₃CHO"
+     ],
+     "answer": 2,
+     "hint": {
+      "tk": "«Et-» — iki uglerod atomy, «-al» — aldegid topary.",
+      "ru": "«Эт-» — два атома углерода, «-аль» — альдегидная группа."
+     },
+     "explain": {
+      "tk": "CH₃CHO — iki uglerodly aldegid. HCHO — metanal, CH₃COOH — sirke kislotasy.",
+      "ru": "CH₃CHO — альдегид с двумя атомами углерода. HCHO — метаналь, CH₃COOH — уксусная кислота."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Aldegidler wodorod bilen dikeldilende birlenji spirtlere öwrülýär.",
+      "ru": "При восстановлении водородом альдегиды превращаются в первичные спирты."
+     },
+     "answer": true,
+     "hint": {
+      "tk": "Aldegidler birlenji spirtleriň okislenmeginden alynýar — tersine prosesi göz öňüne getiriň.",
+      "ru": "Альдегиды получают окислением первичных спиртов — представьте обратный процесс."
+     },
+     "explain": {
+      "tk": "R−CHO + H₂ → R−CH₂OH, mysal üçin etanaldan etanol alynýar.",
+      "ru": "R−CHO + H₂ → R−CH₂OH, например из этаналя получается этанол."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Metanalyň (HCHO) molýar massasy näçe g/mol?",
+      "ru": "Чему равна молярная масса метаналя (HCHO) в г/моль?"
+     },
+     "answer": "30",
+     "hint": {
+      "tk": "C = 12, H = 1, O = 16.",
+      "ru": "C = 12, H = 1, O = 16."
+     },
+     "explain": {
+      "tk": "M = 2·1 + 12 + 16 = 30 g/mol.",
+      "ru": "M = 2·1 + 12 + 16 = 30 г/моль."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Haýsy reaktiw aldegidleri tanamak üçin ulanylýar?",
+      "ru": "Какой реактив используют для распознавания альдегидов?"
+     },
+     "options": [
+      {
+       "tk": "Kümüş oksidiniň ammiakly ergini",
+       "ru": "Аммиачный раствор оксида серебра"
+      },
+      {
+       "tk": "Fenolftalein",
+       "ru": "Фенолфталеин"
+      },
+      {
+       "tk": "Natriý hloridi",
+       "ru": "Хлорид натрия"
+      }
+     ],
+     "answer": 0,
+     "hint": {
+      "tk": "Probirkanyň diwarynda ýalpyldawuk gatlak emele gelýär.",
+      "ru": "На стенках пробирки образуется блестящий налёт."
+     },
+     "explain": {
+      "tk": "Aldegid Ag₂O-ny metal kümüşe çenli dikeldýär — «kümüş aýna» emele gelýär.",
+      "ru": "Альдегид восстанавливает Ag₂O до металлического серебра — образуется «серебряное зеркало»."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Formaldegidiň suwdaky 40 %-li ergini formalin diýlip atlandyrylýar. Ol biologiki nusgalary saklamak üçin ulanylýar we fenol-formaldegid smolalaryny (bakelit) öndürmekde esasy çig maldyr. Wanilin hem aldegidler toparyna degişli — ol wanilin ysyny berýär.",
+      "ru": "Водный раствор формальдегида с массовой долей около 40 % называют формалином. Его используют для хранения биологических препаратов, а сам формальдегид — основное сырьё для фенолформальдегидных смол (бакелита). Ванилин, дающий запах ванили, тоже относится к альдегидам."
+     }
+    }
+   ]
+  },
+  {
+   "id": "chemistry-11-carboxylic-acids",
+   "grade": 11,
+   "title": {
+    "tk": "Karbon kislotalary",
+    "ru": "Карбоновые кислоты"
+   },
+   "minutes": 10,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Karbon kislotalary — molekulasynda karboksil topary −COOH bolan organiki birleşmeler.\n• Doýgun birnegizli kislotalaryň umumy formulasy: CₙH₂ₙ₊₁COOH (ýa-da CₙH₂ₙO₂).\n• Garynja (metan) kislotasy HCOOH; sirke (etan) kislotasy CH₃COOH; stearin kislotasy C₁₇H₃₅COOH.\n\nHäsiýetleri:\n• Gowşak kislotalar: suwda az dissosirlenýär: CH₃COOH ⇌ CH₃COO⁻ + H⁺.\n• Metallar, esasly oksidler, esaslar we karbonatlar bilen duzlary emele getirýär:\n2CH₃COOH + Mg → (CH₃COO)₂Mg + H₂↑\nCH₃COOH + NaOH → CH₃COONa + H₂O\n2CH₃COOH + Na₂CO₃ → 2CH₃COONa + H₂O + CO₂↑\n• Spirtler bilen eterleşme reaksiýasy (H₂SO₄ katalizatory) — çylşyrymly efirler emele gelýär:\nCH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O (etilasetat).",
+      "ru": "Карбоновые кислоты — органические соединения, содержащие карбоксильную группу −COOH.\n• Общая формула предельных одноосновных кислот: CₙH₂ₙ₊₁COOH (или CₙH₂ₙO₂).\n• Муравьиная (метановая) кислота HCOOH; уксусная (этановая) CH₃COOH; стеариновая C₁₇H₃₅COOH.\n\nСвойства:\n• Слабые кислоты: в воде диссоциируют частично: CH₃COOH ⇌ CH₃COO⁻ + H⁺.\n• С металлами, основными оксидами, основаниями и карбонатами образуют соли:\n2CH₃COOH + Mg → (CH₃COO)₂Mg + H₂↑\nCH₃COOH + NaOH → CH₃COONa + H₂O\n2CH₃COOH + Na₂CO₃ → 2CH₃COONa + H₂O + CO₂↑\n• Со спиртами вступают в реакцию этерификации (катализатор H₂SO₄) с образованием сложных эфиров:\nCH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O (этилацетат)."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Mesele: 12 g sirke kislotasyny doly neýtrallaşdyrmak üçin näçe gram NaOH gerek?\n1) M(CH₃COOH) = 60 g/mol → n = 12 / 60 = 0,2 mol\n2) CH₃COOH + NaOH → CH₃COONa + H₂O, gatnaşyk 1 : 1\n3) n(NaOH) = 0,2 mol; M(NaOH) = 40 g/mol\n4) m(NaOH) = 0,2 · 40 = 8 g\nJogap: 8 g.",
+      "ru": "Задача: сколько граммов NaOH нужно для полной нейтрализации 12 г уксусной кислоты?\n1) M(CH₃COOH) = 60 г/моль → n = 12 / 60 = 0,2 моль\n2) CH₃COOH + NaOH → CH₃COONa + H₂O, соотношение 1 : 1\n3) n(NaOH) = 0,2 моль; M(NaOH) = 40 г/моль\n4) m(NaOH) = 0,2 · 40 = 8 г\nОтвет: 8 г."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Sirke kislotasynyň (CH₃COOH) molýar massasy näçe g/mol?",
+      "ru": "Чему равна молярная масса уксусной кислоты (CH₃COOH) в г/моль?"
+     },
+     "answer": "60",
+     "hint": {
+      "tk": "Molekulada 2 C, 4 H we 2 O bar.",
+      "ru": "В молекуле 2 C, 4 H и 2 O."
+     },
+     "explain": {
+      "tk": "M = 2·12 + 4·1 + 2·16 = 24 + 4 + 32 = 60 g/mol.",
+      "ru": "M = 2·12 + 4·1 + 2·16 = 24 + 4 + 32 = 60 г/моль."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Sirke kislotasy bilen etanolyň reaksiýasyndan näme emele gelýär?",
+      "ru": "Что образуется при реакции уксусной кислоты с этанолом?"
+     },
+     "options": [
+      {
+       "tk": "Aldegid",
+       "ru": "Альдегид"
+      },
+      {
+       "tk": "Çylşyrymly efir",
+       "ru": "Сложный эфир"
+      },
+      {
+       "tk": "Alkan",
+       "ru": "Алкан"
+      }
+     ],
+     "answer": 1,
+     "hint": {
+      "tk": "Bu reaksiýa eterleşme diýilýär.",
+      "ru": "Эта реакция называется этерификацией."
+     },
+     "explain": {
+      "tk": "Kislota + spirt → çylşyrymly efir (etilasetat) + suw.",
+      "ru": "Кислота + спирт → сложный эфир (этилацетат) + вода."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Sirke kislotasy soda (Na₂CO₃) bilen täsirleşende kömürturşy gazy bölünip çykýar.",
+      "ru": "При взаимодействии уксусной кислоты с содой (Na₂CO₃) выделяется углекислый газ."
+     },
+     "answer": true,
+     "hint": {
+      "tk": "Sirke kislotasy kömür kislotasyndan güýçlimi?",
+      "ru": "Сильнее ли уксусная кислота, чем угольная?"
+     },
+     "explain": {
+      "tk": "Sirke kislotasy kömür kislotasyny onuň duzundan gysyp çykarýar, H₂CO₃ bolsa H₂O we CO₂-a dargaýar.",
+      "ru": "Уксусная кислота вытесняет более слабую угольную кислоту из соли, а H₂CO₃ распадается на H₂O и CO₂."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Garynja kislotasy ilkinji gezek 1671-nji ýylda iňlis tebigatçysy Jon Reý tarapyndan garynjalary distillirläp alnypdyr — ady hem şondan gelip çykýar. Ol gyjyndyrgyç otuň tüýjagazlarynda hem bar. Aşhanadaky sirke bolsa sirke kislotasynyň takmynan 6–9 %-li ergini.",
+      "ru": "Муравьиную кислоту впервые выделил английский натуралист Джон Рей в 1671 году, перегоняя муравьёв, — отсюда и её название. Она содержится и в жгучих волосках крапивы. Столовый уксус — это примерно 6–9 % раствор уксусной кислоты."
+     }
+    }
+   ]
+  },
+  {
+   "id": "chemistry-11-fats",
+   "grade": 11,
+   "title": {
+    "tk": "Ýaglar",
+    "ru": "Жиры"
+   },
+   "minutes": 9,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Ýaglar — gliseriniň (üçatomly spirt C₃H₅(OH)₃) we ýokary ýag kislotalarynyň çylşyrymly efirleri (trigliseridler).\n\nÝag kislotalary:\n• Doýgun: palmitin C₁₅H₃₁COOH, stearin C₁₇H₃₅COOH — gaty ýaglarda (mal ýagy).\n• Doýmadyk: olein C₁₇H₃₃COOH (bir C=C), linol C₁₇H₃₁COOH (iki C=C) — suwuk ýaglarda (ösümlik ýaglary).\n\nHimiki häsiýetleri:\n• Gidroliz (suw bilen, kislotaly gurşawda) → gliserin + ýag kislotalary.\n• Sabynlaşma (aşgarly gidroliz): ýag + 3NaOH → gliserin + 3 C₁₇H₃₅COONa (sabyn).\n• Gidrogenleşme: suwuk ýaglara wodorod birikdirip (Ni katalizatory) gaty ýag — margarin alynýar.\n\nBiologiki ähmiýeti: 1 g ýag okislenende takmynan 39 kJ (9 kkal) energiýa berýär — beloklardan we uglewodlardan iki esse köp.",
+      "ru": "Жиры — сложные эфиры глицерина (трёхатомного спирта C₃H₅(OH)₃) и высших жирных кислот (триглицериды).\n\nЖирные кислоты:\n• Насыщенные: пальмитиновая C₁₅H₃₁COOH, стеариновая C₁₇H₃₅COOH — преобладают в твёрдых жирах (животных).\n• Ненасыщенные: олеиновая C₁₇H₃₃COOH (одна C=C), линолевая C₁₇H₃₁COOH (две C=C) — в жидких жирах (растительных маслах).\n\nХимические свойства:\n• Гидролиз (водой, в кислой среде) → глицерин + жирные кислоты.\n• Омыление (щелочной гидролиз): жир + 3NaOH → глицерин + 3 C₁₇H₃₅COONa (мыло).\n• Гидрирование: присоединение водорода к жидким маслам (катализатор Ni) даёт твёрдый жир — маргарин.\n\nБиологическая роль: при окислении 1 г жира выделяется около 39 кДж (9 ккал) — примерно вдвое больше, чем из белков или углеводов."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Mesele: Tristearin (gliseriniň we stearin kislotasynyň trigliseridi) NaOH bilen sabynlaşdyryldy. 1 mol ýagdan näçe mol sabyn we gliserin alynýar?\n1) Trigliseridiň molekulasynda üç sany ýag kislotasynyň galyndysy bar.\n2) Her galyndy bir NaOH molekulasy bilen täsirleşýär → 3 mol C₁₇H₃₅COONa (natriý stearaty — sabyn).\n3) Gliseriniň galyndysy bir → 1 mol gliserin.\nJogap: 3 mol sabyn, 1 mol gliserin; 3 mol NaOH harçlanýar.",
+      "ru": "Задача: тристеарин (триглицерид глицерина и стеариновой кислоты) омылили раствором NaOH. Сколько моль мыла и глицерина получается из 1 моль жира?\n1) В молекуле триглицерида три остатка жирной кислоты.\n2) Каждый остаток реагирует с одной молекулой NaOH → 3 моль C₁₇H₃₅COONa (стеарат натрия — мыло).\n3) Остаток глицерина один → 1 моль глицерина.\nОтвет: 3 моль мыла и 1 моль глицерина; расходуется 3 моль NaOH."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Ýaglar haýsy birleşmeler synpyna degişli?",
+      "ru": "К какому классу соединений относятся жиры?"
+     },
+     "options": [
+      {
+       "tk": "Çylşyrymly efirler",
+       "ru": "Сложные эфиры"
+      },
+      {
+       "tk": "Aldegidler",
+       "ru": "Альдегиды"
+      },
+      {
+       "tk": "Aminokislotalar",
+       "ru": "Аминокислоты"
+      }
+     ],
+     "answer": 0,
+     "hint": {
+      "tk": "Ýag gliserin bilen kislotadan emele gelýär.",
+      "ru": "Жир образован глицерином и кислотами."
+     },
+     "explain": {
+      "tk": "Spirt + kislota → çylşyrymly efir; ýaglar gliseriniň çylşyrymly efirleri.",
+      "ru": "Спирт + кислота → сложный эфир; жиры — сложные эфиры глицерина."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Ösümlik ýaglary köplenç suwuk, sebäbi olarda doýmadyk ýag kislotalary agdyklyk edýär.",
+      "ru": "Растительные масла обычно жидкие, потому что в них преобладают остатки ненасыщенных жирных кислот."
+     },
+     "answer": true,
+     "hint": {
+      "tk": "Goşa baglanyşyklar molekulanyň zynjyryny epýär.",
+      "ru": "Двойные связи изгибают углеводородную цепь."
+     },
+     "explain": {
+      "tk": "Doýmadyk kislotalaryň zynjyrlary egrelen, molekulalar dykyz ýerleşmeýär, şonuň üçin ereme temperaturasy pes.",
+      "ru": "Цепи ненасыщенных кислот изогнуты, молекулы упаковываются неплотно, поэтому температура плавления низкая."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "1 mol trigliseridi doly sabynlaşdyrmak üçin näçe mol NaOH gerek?",
+      "ru": "Сколько моль NaOH нужно для полного омыления 1 моль триглицерида?"
+     },
+     "answer": "3",
+     "hint": {
+      "tk": "Trigliseridde näçe efir topary bar?",
+      "ru": "Сколько сложноэфирных групп в триглицериде?"
+     },
+     "explain": {
+      "tk": "Üç efir topary — her birine bir NaOH, jemi 3 mol.",
+      "ru": "Три сложноэфирные группы — по одному NaOH на каждую, всего 3 моль."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Margarin almak üçin suwuk ýaglar bilen haýsy reaksiýa geçirilýär?",
+      "ru": "Какую реакцию проводят с жидкими маслами, чтобы получить маргарин?"
+     },
+     "options": [
+      {
+       "tk": "Sabynlaşma",
+       "ru": "Омыление"
+      },
+      {
+       "tk": "Okislenme",
+       "ru": "Окисление"
+      },
+      {
+       "tk": "Gidrogenleşme",
+       "ru": "Гидрирование"
+      }
+     ],
+     "answer": 2,
+     "hint": {
+      "tk": "Goşa baglanyşyklary doýurmaly.",
+      "ru": "Нужно насытить двойные связи."
+     },
+     "explain": {
+      "tk": "Ni katalizatory bilen H₂ birikdirilýär, C=C baglanyşyklary doýýar we ýag gatylýar.",
+      "ru": "В присутствии Ni присоединяется H₂, связи C=C насыщаются, и жир затвердевает."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Fransuz himigi Mişel Şewrýol XIX asyryň başynda ýaglaryň gliserinden we ýag kislotalaryndan durýandygyny subut etdi. Ýaglary gidrogenleşdirmegiň usuly 1902-nji ýylda nemes himigi Wilhelm Normanyň adyna patentlendi we margarin önümçiliginiň esasy boldy.",
+      "ru": "Французский химик Мишель Шеврёль в начале XIX века доказал, что жиры состоят из глицерина и жирных кислот. Способ гидрирования жиров запатентовал в 1902 году немецкий химик Вильгельм Норман — это стало основой производства маргарина."
+     }
+    }
+   ]
+  },
+  {
+   "id": "chemistry-11-carbohydrates",
+   "grade": 11,
+   "title": {
+    "tk": "Uglewodlar",
+    "ru": "Углеводы"
+   },
+   "minutes": 10,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Uglewodlar — köpüsiniň umumy formulasy Cₙ(H₂O)ₘ bolan tebigy organiki maddalar. Olar köp atomly spirtleriň we aldegidleriň ýa-da ketonlaryň häsiýetlerini özünde jemleýär.\n\nToparlary:\n• Monosaharidler: glýukoza we fruktoza C₆H₁₂O₆ (izomerler). Glýukoza — aldegidospirt, fruktoza — ketospirt.\n• Disaharidler: saharoza C₁₂H₂₂O₁₁ (glýukoza + fruktoza galyndylary), laktoza, maltoza.\n• Polisaharidler: krahmal we sellýuloza (C₆H₁₀O₅)ₙ.\n\nEsasy reaksiýalar:\n• Fotosintez: 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂ (ýagtylykda, hlorofil).\n• Glýukozanyň spirtli aşgarlanmasy: C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂.\n• Glýukoza aldegid hökmünde «kümüş aýna» reaksiýasyny berýär.\n• Krahmal ýod bilen gök reňk berýär; gidroliz edilende glýukoza alynýar.",
+      "ru": "Углеводы — природные органические вещества, многие из которых имеют общую формулу Cₙ(H₂O)ₘ. Они сочетают свойства многоатомных спиртов и альдегидов или кетонов.\n\nГруппы:\n• Моносахариды: глюкоза и фруктоза C₆H₁₂O₆ (изомеры). Глюкоза — альдегидоспирт, фруктоза — кетоноспирт.\n• Дисахариды: сахароза C₁₂H₂₂O₁₁ (остатки глюкозы и фруктозы), лактоза, мальтоза.\n• Полисахариды: крахмал и целлюлоза (C₆H₁₀O₅)ₙ.\n\nОсновные реакции:\n• Фотосинтез: 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂ (на свету, хлорофилл).\n• Спиртовое брожение глюкозы: C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂.\n• Глюкоза как альдегид даёт реакцию «серебряного зеркала».\n• Крахмал с иодом даёт синее окрашивание; при гидролизе образует глюкозу."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Mesele: 90 g glýukoza spirtli aşgarlandy. Näçe gram etanol alynýar?\n1) M(C₆H₁₂O₆) = 6·12 + 12·1 + 6·16 = 180 g/mol\n2) n(glýukoza) = 90 / 180 = 0,5 mol\n3) C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂, diýmek n(C₂H₅OH) = 1 mol\n4) M(C₂H₅OH) = 46 g/mol → m = 46 g\nJogap: 46 g etanol.",
+      "ru": "Задача: 90 г глюкозы подвергли спиртовому брожению. Сколько граммов этанола получится?\n1) M(C₆H₁₂O₆) = 6·12 + 12·1 + 6·16 = 180 г/моль\n2) n(глюкозы) = 90 / 180 = 0,5 моль\n3) C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂, значит n(C₂H₅OH) = 1 моль\n4) M(C₂H₅OH) = 46 г/моль → m = 46 г\nОтвет: 46 г этанола."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Glýukozanyň (C₆H₁₂O₆) molýar massasy näçe g/mol?",
+      "ru": "Чему равна молярная масса глюкозы (C₆H₁₂O₆) в г/моль?"
+     },
+     "answer": "180",
+     "hint": {
+      "tk": "C = 12, H = 1, O = 16.",
+      "ru": "C = 12, H = 1, O = 16."
+     },
+     "explain": {
+      "tk": "72 + 12 + 96 = 180 g/mol.",
+      "ru": "72 + 12 + 96 = 180 г/моль."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Haýsy uglewod polisaharid?",
+      "ru": "Какой углевод является полисахаридом?"
+     },
+     "options": [
+      {
+       "tk": "Saharoza",
+       "ru": "Сахароза"
+      },
+      {
+       "tk": "Sellýuloza",
+       "ru": "Целлюлоза"
+      },
+      {
+       "tk": "Fruktoza",
+       "ru": "Фруктоза"
+      }
+     ],
+     "answer": 1,
+     "hint": {
+      "tk": "Polisaharid — müňlerçe monosaharid galyndysyndan durýan polimer.",
+      "ru": "Полисахарид — полимер из тысяч остатков моносахаридов."
+     },
+     "explain": {
+      "tk": "Sellýuloza (C₆H₁₀O₅)ₙ — glýukoza galyndylaryndan durýan polimer. Saharoza — disaharid, fruktoza — monosaharid.",
+      "ru": "Целлюлоза (C₆H₁₀O₅)ₙ — полимер из остатков глюкозы. Сахароза — дисахарид, фруктоза — моносахарид."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Krahmal ýodyň ergini bilen gök reňk berýär.",
+      "ru": "Крахмал с раствором иода даёт синее окрашивание."
+     },
+     "answer": true,
+     "hint": {
+      "tk": "Bu krahmala hil reaksiýasy.",
+      "ru": "Это качественная реакция на крахмал."
+     },
+     "explain": {
+      "tk": "Ýod krahmalyň spiral molekulalarynyň içine girip, gök-gyrmyzy reňkli toplum emele getirýär.",
+      "ru": "Иод встраивается в спиральные молекулы крахмала и образует сине-фиолетовый комплекс."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Fotosintezde 1 mol glýukoza emele gelende näçe mol O₂ bölünip çykýar?",
+      "ru": "Сколько моль O₂ выделяется при образовании 1 моль глюкозы в фотосинтезе?"
+     },
+     "answer": "6",
+     "hint": {
+      "tk": "Fotosintez deňlemesine serediň.",
+      "ru": "Посмотрите на уравнение фотосинтеза."
+     },
+     "explain": {
+      "tk": "6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂, diýmek 6 mol O₂.",
+      "ru": "6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂, значит 6 моль O₂."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Sellýuloza Ýer ýüzündäki iň köp ýaýran organiki madda hasaplanýar: ol ösümlikleriň öýjük diwarlarynyň esasy bölegi. Pagta süýüminiň 90 %-den gowragy sellýulozadan ybarat. Adamyň bedeni sellýulozany siňdirip bilmeýär, ýöne iýmit süýümi hökmünde ol içegeleriň işine kömek edýär.",
+      "ru": "Целлюлоза считается самым распространённым органическим веществом на Земле: из неё в основном состоят клеточные стенки растений. Хлопковое волокно больше чем на 90 % состоит из целлюлозы. Организм человека не может её переварить, но как пищевое волокно она важна для работы кишечника."
+     }
+    }
+   ]
+  },
+  {
+   "id": "chemistry-11-amino-acids-proteins",
+   "grade": 11,
+   "title": {
+    "tk": "Aminokislotalar we beloklar",
+    "ru": "Аминокислоты и белки"
+   },
+   "minutes": 10,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Aminokislotalar — molekulasynda amin topary −NH₂ we karboksil topary −COOH bolan birleşmeler. Iň ýönekeýi — glisin (aminosirke kislotasy) H₂N−CH₂−COOH.\n• Amfoter häsiýetli: kislotalar bilen hem, aşgarlar bilen hem duz emele getirýär.\n• Beloklaryň düzüminde 20 sany esasy aminokislota bar; olaryň käbiri çalşylmaýan, ýagny iýmit bilen gelmeli.\n\nBeloklar — aminokislota galyndylarynyň peptid baglanyşyklary (−CO−NH−) bilen birikmeginden emele gelýän biopolimerler.\nGurluşynyň derejeleri:\n• Birlenji — aminokislotalaryň yzygiderligi.\n• Ikilenji — α-spiral ýa-da β-gatlak (wodorod baglanyşyklary).\n• Üçlenji — zynjyryň giňişlikdäki şekili.\n• Dördlenji — birnäçe zynjyryň birleşmegi (mysal: gemoglobin).\n\nHäsiýetleri: denaturasiýa (gyzdyrmakda gurluş bozulýar), gidroliz → aminokislotalar. Hil reaksiýalary: biuret (Cu²⁺ bilen gyrmyzy reňk), ksantoprotein (HNO₃ bilen sary reňk).",
+      "ru": "Аминокислоты — соединения, в молекулах которых есть аминогруппа −NH₂ и карбоксильная группа −COOH. Простейшая — глицин (аминоуксусная кислота) H₂N−CH₂−COOH.\n• Амфотерны: образуют соли и с кислотами, и со щелочами.\n• В состав белков входят 20 основных аминокислот; часть из них незаменимые, то есть должны поступать с пищей.\n\nБелки — биополимеры из остатков аминокислот, соединённых пептидными связями (−CO−NH−).\nУровни структуры:\n• Первичная — последовательность аминокислот.\n• Вторичная — α-спираль или β-слой (водородные связи).\n• Третичная — пространственная форма цепи.\n• Четвертичная — объединение нескольких цепей (пример: гемоглобин).\n\nСвойства: денатурация (разрушение структуры при нагревании), гидролиз → аминокислоты. Качественные реакции: биуретовая (с Cu²⁺ фиолетовое окрашивание), ксантопротеиновая (с HNO₃ жёлтое окрашивание)."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Mysal: iki molekula glisinden dipeptid emele gelişi.\n1) Birinji glisiniň −COOH topary ikinjisiniň −NH₂ topary bilen täsirleşýär.\n2) Bir molekula suw bölünip çykýar.\n3) H₂N−CH₂−COOH + H₂N−CH₂−COOH → H₂N−CH₂−CO−NH−CH₂−COOH + H₂O\n4) −CO−NH− — peptid baglanyşygy.\nNetije: n aminokislotadan zynjyr emele gelende (n − 1) peptid baglanyşygy we (n − 1) suw molekulasy emele gelýär.",
+      "ru": "Пример: образование дипептида из двух молекул глицина.\n1) Группа −COOH первого глицина реагирует с группой −NH₂ второго.\n2) Отщепляется одна молекула воды.\n3) H₂N−CH₂−COOH + H₂N−CH₂−COOH → H₂N−CH₂−CO−NH−CH₂−COOH + H₂O\n4) −CO−NH− — пептидная связь.\nВывод: при образовании цепи из n аминокислот возникает (n − 1) пептидных связей и выделяется (n − 1) молекул воды."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "10 aminokislota galyndysyndan durýan peptidde näçe peptid baglanyşygy bar?",
+      "ru": "Сколько пептидных связей в пептиде из 10 остатков аминокислот?"
+     },
+     "answer": "9",
+     "hint": {
+      "tk": "Baglanyşyk iki goňşy galyndynyň arasynda bolýar.",
+      "ru": "Связь образуется между двумя соседними остатками."
+     },
+     "explain": {
+      "tk": "n − 1 = 10 − 1 = 9 peptid baglanyşygy.",
+      "ru": "n − 1 = 10 − 1 = 9 пептидных связей."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Aminokislotalaryň amfoter häsiýetini haýsy toparlar kesgitleýär?",
+      "ru": "Какие группы определяют амфотерность аминокислот?"
+     },
+     "options": [
+      {
+       "tk": "−OH we −CHO",
+       "ru": "−OH и −CHO"
+      },
+      {
+       "tk": "−NH₂ we −COOH",
+       "ru": "−NH₂ и −COOH"
+      },
+      {
+       "tk": "−NO₂ we −CH₃",
+       "ru": "−NO₂ и −CH₃"
+      }
+     ],
+     "answer": 1,
+     "hint": {
+      "tk": "Bir topar esas, beýlekisi kislota häsiýetini berýär.",
+      "ru": "Одна группа даёт основные свойства, другая — кислотные."
+     },
+     "explain": {
+      "tk": "−NH₂ — esasly topar, −COOH — kislotaly topar.",
+      "ru": "−NH₂ — основная группа, −COOH — кислотная."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Ýumurtgany gaýnadanyňda beloklaryň birlenji gurluşy, ýagny aminokislotalaryň yzygiderligi bozulýar.",
+      "ru": "При варке яйца разрушается первичная структура белка, то есть последовательность аминокислот."
+     },
+     "answer": false,
+     "hint": {
+      "tk": "Denaturasiýa peptid baglanyşyklaryny üzýärmi?",
+      "ru": "Разрывает ли денатурация пептидные связи?"
+     },
+     "explain": {
+      "tk": "Denaturasiýada ikilenji, üçlenji we dördlenji gurluşlar bozulýar, peptid baglanyşyklary we birlenji gurluş saklanýar.",
+      "ru": "При денатурации разрушаются вторичная, третичная и четвертичная структуры, а пептидные связи и первичная структура сохраняются."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Belok HNO₃ bilen gyzdyrylanda haýsy reňk emele gelýär?",
+      "ru": "Какое окрашивание появляется при нагревании белка с HNO₃?"
+     },
+     "options": [
+      {
+       "tk": "Sary",
+       "ru": "Жёлтое"
+      },
+      {
+       "tk": "Gök",
+       "ru": "Синее"
+      },
+      {
+       "tk": "Ýaşyl",
+       "ru": "Зелёное"
+      }
+     ],
+     "answer": 0,
+     "hint": {
+      "tk": "Reaksiýanyň ady grek sözi «ksantos» — «sary» sözünden.",
+      "ru": "Название реакции происходит от греческого «ксантос» — «жёлтый»."
+     },
+     "explain": {
+      "tk": "Ksantoprotein reaksiýasy: aromatik halkaly aminokislotalar nitrirlenip sary reňk berýär.",
+      "ru": "Ксантопротеиновая реакция: аминокислоты с ароматическим кольцом нитруются и дают жёлтое окрашивание."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Britan biohimigi Frederik Senger 1955-nji ýyla çenli ilkinji gezek belogyň — insuliniň — doly aminokislota yzygiderligini kesgitledi we 1958-nji ýylda Nobel baýragyna mynasyp boldy. 2020-nji ýylda AlphaFold atly emeli aň ulgamy beloklaryň üç ölçegli gurluşyny ýokary takyklyk bilen çaklap başlady; bu iş üçin 2024-nji ýylyň himiýa boýunça Nobel baýragy berildi.",
+      "ru": "Британский биохимик Фредерик Сенгер к 1955 году впервые полностью определил последовательность аминокислот белка — инсулина — и в 1958 году получил Нобелевскую премию. В 2020 году система искусственного интеллекта AlphaFold научилась с высокой точностью предсказывать трёхмерную структуру белков; за эту работу присуждена Нобелевская премия по химии 2024 года."
+     }
+    }
+   ]
+  },
+  {
+   "id": "chemistry-11-polymers",
+   "grade": 11,
+   "title": {
+    "tk": "Polimerler",
+    "ru": "Полимеры"
+   },
+   "minutes": 9,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Polimerler — köp sanly gaýtalanýan bölejiklerden (struktura birliklerinden) durýan ýokary molekulýar birleşmeler.\n• Monomer — polimeriň emele gelýän ýönekeý maddasy.\n• Polimerleşme derejesi n — zynjyrdaky monomer birlikleriniň sany. M(polimer) = n · M(birlik).\n\nAlnyş usullary:\n• Polimerleşme — goşa baglanyşykly monomerleriň goşmaça önümsiz birikmegi: nCH₂=CH₂ → (−CH₂−CH₂−)ₙ (polietilen).\n• Polikondensasiýa — ýönekeý molekula (köplenç suw) bölünip çykmak bilen: kapron, lawsan, fenol-formaldegid smolalary.\n\nMysallar:\n• Polietilen, polipropilen, poliwinilhlorid (PWH), polistirol, teflon (−CF₂−CF₂−)ₙ.\n• Tebigy polimerler: krahmal, sellýuloza, beloklar, tebigy kauçuk.\n\nTermoplastlar gyzdyrylanda ýumşaýar we gaýtadan şekillendirilýär; termoreaktiw polimerler gatap galýar we gaýtadan eredilmeýär.",
+      "ru": "Полимеры — высокомолекулярные соединения, молекулы которых состоят из множества повторяющихся звеньев (структурных единиц).\n• Мономер — простое вещество, из которого образуется полимер.\n• Степень полимеризации n — число звеньев в цепи. M(полимера) = n · M(звена).\n\nСпособы получения:\n• Полимеризация — соединение мономеров с кратными связями без побочных продуктов: nCH₂=CH₂ → (−CH₂−CH₂−)ₙ (полиэтилен).\n• Поликонденсация — с выделением низкомолекулярного вещества (обычно воды): капрон, лавсан, фенолформальдегидные смолы.\n\nПримеры:\n• Полиэтилен, полипропилен, поливинилхлорид (ПВХ), полистирол, тефлон (−CF₂−CF₂−)ₙ.\n• Природные полимеры: крахмал, целлюлоза, белки, натуральный каучук.\n\nТермопласты при нагревании размягчаются и могут быть переформованы; термореактивные полимеры необратимо твердеют и повторно не плавятся."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Mesele: Polietileniň orta molýar massasy 28 000 g/mol. Polimerleşme derejesini tapyň.\n1) Struktura birligi −CH₂−CH₂−: M = 2·12 + 4·1 = 28 g/mol\n2) n = M(polimer) / M(birlik) = 28 000 / 28 = 1000\nJogap: n = 1000, ýagny zynjyrda ortaça 1000 etilen birligi bar.",
+      "ru": "Задача: средняя молярная масса полиэтилена 28 000 г/моль. Найдите степень полимеризации.\n1) Структурное звено −CH₂−CH₂−: M = 2·12 + 4·1 = 28 г/моль\n2) n = M(полимера) / M(звена) = 28 000 / 28 = 1000\nОтвет: n = 1000, то есть в цепи в среднем 1000 звеньев этилена."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Polietileniň monomeri haýsy?",
+      "ru": "Какой мономер у полиэтилена?"
+     },
+     "options": [
+      {
+       "tk": "Etan C₂H₆",
+       "ru": "Этан C₂H₆"
+      },
+      {
+       "tk": "Asetilen C₂H₂",
+       "ru": "Ацетилен C₂H₂"
+      },
+      {
+       "tk": "Etilen C₂H₄",
+       "ru": "Этилен C₂H₄"
+      }
+     ],
+     "answer": 2,
+     "hint": {
+      "tk": "Polimerleşme üçin goşa baglanyşyk gerek.",
+      "ru": "Для полимеризации нужна двойная связь."
+     },
+     "explain": {
+      "tk": "Etilen CH₂=CH₂ goşa baglanyşygyny açyp, polietilen zynjyryny emele getirýär.",
+      "ru": "Этилен CH₂=CH₂ раскрывает двойную связь и образует цепь полиэтилена."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Polikondensasiýada monomerlerden başga hiç hili önüm emele gelmeýär.",
+      "ru": "При поликонденсации, кроме полимера, никаких других продуктов не образуется."
+     },
+     "answer": false,
+     "hint": {
+      "tk": "Polimerleşme bilen polikondensasiýanyň tapawudyny ýatlaň.",
+      "ru": "Вспомните, чем поликонденсация отличается от полимеризации."
+     },
+     "explain": {
+      "tk": "Polikondensasiýada pes molekulýar önüm, köplenç suw, bölünip çykýar. Goşmaça önümsiz geçýän prosess — polimerleşme.",
+      "ru": "При поликонденсации выделяется низкомолекулярный продукт, чаще вода. Без побочных продуктов идёт полимеризация."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Polipropileniň struktura birliginiň (−CH₂−CH(CH₃)−) molýar massasy 42 g/mol. Polimeriň molýar massasy 84 000 g/mol bolsa, polimerleşme derejesi näçe?",
+      "ru": "Молярная масса звена полипропилена (−CH₂−CH(CH₃)−) 42 г/моль. Если молярная масса полимера 84 000 г/моль, чему равна степень полимеризации?"
+     },
+     "answer": "2000",
+     "hint": {
+      "tk": "n = M(polimer) / M(birlik).",
+      "ru": "n = M(полимера) / M(звена)."
+     },
+     "explain": {
+      "tk": "n = 84 000 / 42 = 2000.",
+      "ru": "n = 84 000 / 42 = 2000."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Ilkinji doly sintetik plastmassa — bakelit — 1907-nji ýylda Leo Bakelend tarapyndan fenol bilen formaldegidden alyndy. Teflony 1938-nji ýylda Roý Plankett tötänleýin açdy. Häzirki wagtda plastik galyndylary uly ekologik mesele, şonuň üçin gaýtadan işlemek we biologiki dargaýan polimerler işjeň öwrenilýär.",
+      "ru": "Первую полностью синтетическую пластмассу — бакелит — получил Лео Бакеланд в 1907 году из фенола и формальдегида. Тефлон в 1938 году случайно открыл Рой Планкетт. Сегодня пластиковые отходы — серьёзная экологическая проблема, поэтому активно развиваются переработка и биоразлагаемые полимеры."
+     }
+    }
+   ]
+  },
+  {
+   "id": "chemistry-12-metals",
+   "grade": 12,
+   "title": {
+    "tk": "Metallar: häsiýetleri we işjeňlik hatary",
+    "ru": "Металлы: свойства и ряд активности"
+   },
+   "minutes": 10,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Metallar Mendeleýewiň tablisasynda elementleriň köpüsini emele getirýär. Olaryň atomlarynyň daşky gatlagynda az elektron bolýar we olar elektronlaryny aňsat berýär — gaýtaryjydyrlar.\n\nFiziki häsiýetleri metal baglanyşygy bilen düşündirilýär (položitel ionlar we erkin «elektron gazy»):\n• ýylylygy we elektrik togy gowy geçirýär;\n• metal ýalpyldysy;\n• plastiklik (çekip, ýukaldyp bolýar).\n\nMetallaryň elektrohimiki işjeňlik hatary (gysgaldyp):\nLi K Ca Na Mg Al Zn Fe Ni Sn Pb (H) Cu Hg Ag Pt Au\n• Wodoroddan çepdäki metallar kislotalardan wodorody çykarýar: Zn + 2HCl → ZnCl₂ + H₂↑.\n• Işjeň metal az işjeň metaly onuň duzunyň erginden çykarýar: Fe + CuSO₄ → FeSO₄ + Cu.\n• Iň işjeňler (Li, Na, K, Ca) suw bilen adaty şertlerde reaksiýa girýär: 2Na + 2H₂O → 2NaOH + H₂↑.\n\nKorroziýa — metallaryň daşky gurşawyň täsirinde dargamagy (meselem, demriň poslamagy).",
+      "ru": "Металлы составляют большинство элементов таблицы Менделеева. На внешнем слое их атомов мало электронов, и они легко их отдают — являются восстановителями.\n\nФизические свойства объясняются металлической связью (положительные ионы и свободный «электронный газ»):\n• хорошая тепло- и электропроводность;\n• металлический блеск;\n• пластичность (можно ковать и вытягивать).\n\nЭлектрохимический ряд активности металлов (сокращённо):\nLi K Ca Na Mg Al Zn Fe Ni Sn Pb (H) Cu Hg Ag Pt Au\n• Металлы левее водорода вытесняют водород из кислот: Zn + 2HCl → ZnCl₂ + H₂↑.\n• Более активный металл вытесняет менее активный из раствора его соли: Fe + CuSO₄ → FeSO₄ + Cu.\n• Самые активные (Li, Na, K, Ca) реагируют с водой при обычных условиях: 2Na + 2H₂O → 2NaOH + H₂↑.\n\nКоррозия — разрушение металлов под действием окружающей среды (например, ржавление железа)."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Mesele: 6,5 g sink artykmaç duz kislotasy bilen reaksiýa girýär. Näçe litr wodorod (n.ş.) bölünip çykýar?\n\n1) Deňleme: Zn + 2HCl → ZnCl₂ + H₂↑.\n2) n(Zn) = m/M = 6,5 / 65 = 0,1 mol.\n3) Deňlemä görä n(H₂) = n(Zn) = 0,1 mol.\n4) V(H₂) = n·Vm = 0,1 · 22,4 = 2,24 l.",
+      "ru": "Задача: 6,5 г цинка реагируют с избытком соляной кислоты. Сколько литров водорода (н.у.) выделится?\n\n1) Уравнение: Zn + 2HCl → ZnCl₂ + H₂↑.\n2) n(Zn) = m/M = 6,5 / 65 = 0,1 моль.\n3) По уравнению n(H₂) = n(Zn) = 0,1 моль.\n4) V(H₂) = n·Vm = 0,1 · 22,4 = 2,24 л."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Haýsy metal duz kislotasyndan wodorody çykarmaýar?",
+      "ru": "Какой металл не вытесняет водород из соляной кислоты?"
+     },
+     "options": [
+      {
+       "tk": "Magniý",
+       "ru": "Магний"
+      },
+      {
+       "tk": "Demir",
+       "ru": "Железо"
+      },
+      {
+       "tk": "Mis",
+       "ru": "Медь"
+      }
+     ],
+     "answer": 2,
+     "hint": {
+      "tk": "Işjeňlik hatarynda wodorodyň nirede durandygyna serediň.",
+      "ru": "Посмотрите, где в ряду активности стоит водород."
+     },
+     "explain": {
+      "tk": "Mis (Cu) işjeňlik hatarynda wodoroddan sagda durýar, şonuň üçin HCl bilen reaksiýa girmeýär.",
+      "ru": "Медь (Cu) стоит в ряду активности правее водорода, поэтому с HCl не реагирует."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Mis sulfatynyň ergine demir çüý salnanda, çüýüň üstünde mis çökýär.",
+      "ru": "Если опустить железный гвоздь в раствор сульфата меди, на гвозде осаждается медь."
+     },
+     "answer": true,
+     "hint": {
+      "tk": "Haýsy metal işjeň: Fe ýa-da Cu?",
+      "ru": "Какой металл активнее: Fe или Cu?"
+     },
+     "explain": {
+      "tk": "Demir misden işjeň: Fe + CuSO₄ → FeSO₄ + Cu. Çüý gyzylymtyl mis gatlagy bilen örtülýär.",
+      "ru": "Железо активнее меди: Fe + CuSO₄ → FeSO₄ + Cu. Гвоздь покрывается красноватым слоем меди."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "2,4 g magniý artykmaç kislota bilen reaksiýa girende näçe mol wodorod bölünip çykýar? (M(Mg) = 24)",
+      "ru": "Сколько моль водорода выделится при реакции 2,4 г магния с избытком кислоты? (M(Mg) = 24)"
+     },
+     "answer": "0.1|0,1",
+     "hint": {
+      "tk": "Mg + 2HCl → MgCl₂ + H₂: magniýiň we wodorodyň mol sany deň.",
+      "ru": "Mg + 2HCl → MgCl₂ + H₂: количества магния и водорода равны."
+     },
+     "explain": {
+      "tk": "n(Mg) = 2,4 / 24 = 0,1 mol ⇒ n(H₂) = 0,1 mol.",
+      "ru": "n(Mg) = 2,4 / 24 = 0,1 моль ⇒ n(H₂) = 0,1 моль."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Metallaryň elektrik togyny gowy geçirmeginiň sebäbi näme?",
+      "ru": "Почему металлы хорошо проводят электрический ток?"
+     },
+     "options": [
+      {
+       "tk": "Kristalda erkin elektronlar bar",
+       "ru": "В кристалле есть свободные электроны"
+      },
+      {
+       "tk": "Olarda kowalent baglanyşyk bar",
+       "ru": "В них ковалентная связь"
+      },
+      {
+       "tk": "Olaryň molekulalary uly",
+       "ru": "У них крупные молекулы"
+      }
+     ],
+     "answer": 0,
+     "hint": {
+      "tk": "Metal baglanyşygynyň gurluşyny ýatlaň.",
+      "ru": "Вспомните строение металлической связи."
+     },
+     "explain": {
+      "tk": "Metal kristalynda položitel ionlaryň arasynda erkin hereket edýän elektronlar bar — olar togy geçirýär.",
+      "ru": "В металлическом кристалле между положительными ионами свободно движутся электроны — они и переносят ток."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Alýuminiý Ýer gabygynda iň köp ýaýran metal, ýöne XIX asyryň ortalarynda ol altyndan gymmat bolupdyr. 1886-njy ýylda Çarlz Holl (ABŞ) we Pol Eru (Fransiýa) biri-birine garaşsyz alýuminiýi eredilen kriolitdäki alýuminiý oksidinden elektroliz arkaly almagyň usulyny tapdylar we ol arzan metala öwrüldi.",
+      "ru": "Алюминий — самый распространённый металл в земной коре, но в середине XIX века он стоил дороже золота. В 1886 году Чарльз Холл (США) и Поль Эру (Франция) независимо друг от друга нашли способ получать алюминий электролизом оксида алюминия в расплаве криолита, и он стал дешёвым металлом."
+     }
+    }
+   ]
+  },
+  {
+   "id": "chemistry-12-nonmetals",
+   "grade": 12,
+   "title": {
+    "tk": "Metal däller we olaryň birleşmeleri",
+    "ru": "Неметаллы и их соединения"
+   },
+   "minutes": 10,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Metal däller tablisanyň sag ýokarky böleginde ýerleşýär: H, C, N, O, F, P, S, Cl, Br, I, inert gazlar we başgalar.\n\n• Atomlarynyň daşky gatlagynda köp elektron bar (4–8), elektron kabul etmäge ýykgyn — köplenç okislendirijiler.\n• Elektrootrisatellik: F > O > N ≈ Cl > Br > I > S > C > H. Ftor — iň güýçli okislendiriji.\n• Allotropiýa — bir elementiň birnäçe ýönekeý madda emele getirmegi: uglerod — almaz, grafit, fulleren; kislorod — O₂ we ozon O₃; fosfor — ak we gyzyl.\n• Wodorodly birleşmeleri: CH₄, NH₃, H₂O, HF, H₂S, HCl.\n• Ýokary oksidleri kislota häsiýetli: CO₂, SO₃, P₂O₅, N₂O₅ — olara H₂CO₃, H₂SO₄, H₃PO₄, HNO₃ kislotalary laýyk gelýär.\n\nGalogenleriň işjeňligi topar boýunça aşak kemelýär: Cl₂ + 2KBr → 2KCl + Br₂.",
+      "ru": "Неметаллы расположены в правой верхней части таблицы: H, C, N, O, F, P, S, Cl, Br, I, благородные газы и другие.\n\n• На внешнем слое атомов много электронов (4–8), склонны принимать электроны — чаще окислители.\n• Электроотрицательность: F > O > N ≈ Cl > Br > I > S > C > H. Фтор — самый сильный окислитель.\n• Аллотропия — образование одним элементом нескольких простых веществ: углерод — алмаз, графит, фуллерен; кислород — O₂ и озон O₃; фосфор — белый и красный.\n• Водородные соединения: CH₄, NH₃, H₂O, HF, H₂S, HCl.\n• Высшие оксиды имеют кислотный характер: CO₂, SO₃, P₂O₅, N₂O₅ — им соответствуют кислоты H₂CO₃, H₂SO₄, H₃PO₄, HNO₃.\n\nАктивность галогенов уменьшается вниз по группе: Cl₂ + 2KBr → 2KCl + Br₂."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Mesele: ammiak NH₃ senagatda Haber–Boş usuly bilen alynýar: N₂ + 3H₂ ⇌ 2NH₃.\n56 g azotdan näçe gram ammiak almak bolar (doly çykyşda)?\n\n1) n(N₂) = 56 / 28 = 2 mol.\n2) Deňlemä görä n(NH₃) = 2·n(N₂) = 4 mol.\n3) m(NH₃) = 4 · 17 = 68 g.",
+      "ru": "Задача: аммиак NH₃ в промышленности получают методом Габера–Боша: N₂ + 3H₂ ⇌ 2NH₃.\nСколько граммов аммиака можно получить из 56 г азота (при полном выходе)?\n\n1) n(N₂) = 56 / 28 = 2 моль.\n2) По уравнению n(NH₃) = 2·n(N₂) = 4 моль.\n3) m(NH₃) = 4 · 17 = 68 г."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Haýsy element iň ýokary elektrootrisatellige eýe?",
+      "ru": "У какого элемента самая высокая электроотрицательность?"
+     },
+     "options": [
+      {
+       "tk": "Kislorod",
+       "ru": "Кислород"
+      },
+      {
+       "tk": "Ftor",
+       "ru": "Фтор"
+      },
+      {
+       "tk": "Hlor",
+       "ru": "Хлор"
+      }
+     ],
+     "answer": 1,
+     "hint": {
+      "tk": "Bu element 2-nji döwrüň we 17-nji toparyň kesişmesinde.",
+      "ru": "Этот элемент на пересечении 2-го периода и 17-й группы."
+     },
+     "explain": {
+      "tk": "Ftor (F) iň elektrootrisatel element we iň güýçli okislendiriji.",
+      "ru": "Фтор (F) — самый электроотрицательный элемент и сильнейший окислитель."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Almaz we grafit — bir elementiň, ugleroduň allotrop görnüşleri.",
+      "ru": "Алмаз и графит — аллотропные модификации одного элемента, углерода."
+     },
+     "answer": true,
+     "hint": {
+      "tk": "Olaryň ikisi hem ýakylanda diňe CO₂ berýär.",
+      "ru": "При сгорании оба дают только CO₂."
+     },
+     "explain": {
+      "tk": "Ikisi hem diňe uglerod atomlaryndan durýar, ýöne kristal gözenegi dürli — şonuň üçin häsiýetleri düýpgöter tapawutlanýar.",
+      "ru": "Оба состоят только из атомов углерода, но кристаллические решётки разные — поэтому свойства сильно отличаются."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Kükürt kislotasyna (H₂SO₄) haýsy oksid laýyk gelýär? Formulasyny ýazyň.",
+      "ru": "Какой оксид соответствует серной кислоте (H₂SO₄)? Запишите формулу."
+     },
+     "answer": "SO3|SO₃",
+     "hint": {
+      "tk": "H₂SO₄-de kükürdiň okislenme derejesi +6.",
+      "ru": "Степень окисления серы в H₂SO₄ равна +6."
+     },
+     "explain": {
+      "tk": "SO₃ + H₂O → H₂SO₄. SO₂ bolsa kükürtli kislota H₂SO₃ berýär.",
+      "ru": "SO₃ + H₂O → H₂SO₄. А SO₂ даёт сернистую кислоту H₂SO₃."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Haýsy reaksiýa geçýär?",
+      "ru": "Какая реакция протекает?"
+     },
+     "options": [
+      "I₂ + 2KCl → 2KI + Cl₂",
+      "Cl₂ + 2KI → 2KCl + I₂",
+      "Br₂ + 2KCl → 2KBr + Cl₂"
+     ],
+     "answer": 1,
+     "hint": {
+      "tk": "Işjeň galogen az işjeň galogeni onuň duzundan çykarýar.",
+      "ru": "Более активный галоген вытесняет менее активный из его соли."
+     },
+     "explain": {
+      "tk": "Hlor ýoddan işjeň, şonuň üçin ýody kaliý ýodidinden çykarýar. Beýleki iki reaksiýa geçmeýär.",
+      "ru": "Хлор активнее йода, поэтому вытесняет его из иодида калия. Две другие реакции не идут."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Ammiagy howadaky azotdan sintez etmegiň usulyny Frits Haber açdy, Karl Boş bolsa ony senagat ölçegine geçirdi. Ikisi hem Nobel baýragyna mynasyp boldy. Bu usul bilen öndürilýän azot dökünleri häzirki wagtda adamzadyň ýarysyna golaýyny iýmit bilen üpjün etmäge kömek edýär diýip hasaplanýar.",
+      "ru": "Способ синтеза аммиака из азота воздуха открыл Фриц Габер, а Карл Бош перенёс его в промышленный масштаб. Оба получили Нобелевские премии. Считается, что азотные удобрения, получаемые этим способом, помогают обеспечивать пищей около половины человечества."
+     }
+    }
+   ]
+  },
+  {
+   "id": "chemistry-12-electrolysis",
+   "grade": 12,
+   "title": {
+    "tk": "Elektroliz we Faradeýiň kanuny",
+    "ru": "Электролиз и закон Фарадея"
+   },
+   "minutes": 11,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Elektroliz — elektrolitiň eredilen ýa-da erginiň üstünden hemişelik tok geçende elektrodlarda bolup geçýän okislenme-gaýtarylma prosesi.\n\n• Katod (−): gaýtarylma — kationlar elektron kabul edýär.\n• Anod (+): okislenme — anionlar elektron berýär.\n\nSuw erginlerinde katodda:\n• işjeň metallar (Li…Al) — metal däl-de, suwdan H₂ bölünýär;\n• Mn…Pb — metal we köplenç H₂ bilelikde;\n• Cu, Ag, Au we beýleki az işjeň metallar — diňe metal.\n\nAnodda (inert elektrod): Cl⁻, Br⁻, I⁻ → galogenler; SO₄²⁻, NO₃⁻ okislenmeýär — suwdan O₂ bölünýär.\n\nFaradeýiň kanuny: m = M·I·t / (z·F), F ≈ 96 500 Kl/mol (Faradeý hemişeligi), z — iony emele getirýän elektronlaryň sany.",
+      "ru": "Электролиз — окислительно-восстановительный процесс на электродах при прохождении постоянного тока через расплав или раствор электролита.\n\n• Катод (−): восстановление — катионы принимают электроны.\n• Анод (+): окисление — анионы отдают электроны.\n\nВ водных растворах на катоде:\n• активные металлы (Li…Al) — выделяется не металл, а H₂ из воды;\n• Mn…Pb — металл и часто одновременно H₂;\n• Cu, Ag, Au и другие малоактивные металлы — только металл.\n\nНа аноде (инертном): Cl⁻, Br⁻, I⁻ → галогены; SO₄²⁻, NO₃⁻ не окисляются — из воды выделяется O₂.\n\nЗакон Фарадея: m = M·I·t / (z·F), F ≈ 96 500 Кл/моль (постоянная Фарадея), z — число электронов, образующих ион."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "1) Eredilen NaCl-iň elektrolizi:\nKatod: Na⁺ + e⁻ → Na. Anod: 2Cl⁻ − 2e⁻ → Cl₂.\nJemi: 2NaCl → 2Na + Cl₂.\n\n2) NaCl erginiň elektrolizi:\nKatod: 2H₂O + 2e⁻ → H₂ + 2OH⁻. Anod: 2Cl⁻ − 2e⁻ → Cl₂.\nJemi: 2NaCl + 2H₂O → H₂ + Cl₂ + 2NaOH.\n\n3) Mesele: CuSO₄ erginiň üstünden 9650 Kl zarýad geçdi. Katodda näçe mis çökýär?\nn(e⁻) = 9650 / 96 500 = 0,1 mol; Cu²⁺ + 2e⁻ → Cu, n(Cu) = 0,05 mol;\nm = 0,05 · 64 = 3,2 g.",
+      "ru": "1) Электролиз расплава NaCl:\nКатод: Na⁺ + e⁻ → Na. Анод: 2Cl⁻ − 2e⁻ → Cl₂.\nИтого: 2NaCl → 2Na + Cl₂.\n\n2) Электролиз раствора NaCl:\nКатод: 2H₂O + 2e⁻ → H₂ + 2OH⁻. Анод: 2Cl⁻ − 2e⁻ → Cl₂.\nИтого: 2NaCl + 2H₂O → H₂ + Cl₂ + 2NaOH.\n\n3) Задача: через раствор CuSO₄ прошёл заряд 9650 Кл. Сколько меди осядет на катоде?\nn(e⁻) = 9650 / 96 500 = 0,1 моль; Cu²⁺ + 2e⁻ → Cu, n(Cu) = 0,05 моль;\nm = 0,05 · 64 = 3,2 г."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Kaliý sulfatynyň (K₂SO₄) suw ergini elektroliz edilende katodda näme bölünýär?",
+      "ru": "Что выделяется на катоде при электролизе водного раствора сульфата калия (K₂SO₄)?"
+     },
+     "options": [
+      {
+       "tk": "Kaliý",
+       "ru": "Калий"
+      },
+      {
+       "tk": "Kislorod",
+       "ru": "Кислород"
+      },
+      {
+       "tk": "Wodorod",
+       "ru": "Водород"
+      }
+     ],
+     "answer": 2,
+     "hint": {
+      "tk": "Kaliý örän işjeň metal.",
+      "ru": "Калий — очень активный металл."
+     },
+     "explain": {
+      "tk": "K⁺ suw erginde gaýtarylmaýar, ýerine suw gaýtarylýar: 2H₂O + 2e⁻ → H₂ + 2OH⁻. Kislorod anodda bölünýär.",
+      "ru": "K⁺ в водном растворе не восстанавливается, вместо него восстанавливается вода: 2H₂O + 2e⁻ → H₂ + 2OH⁻. Кислород выделяется на аноде."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "AgNO₃ erginiň üstünden 96 500 Kl zarýad geçdi. Katodda näçe gram kümüş çökýär? (M(Ag) = 108)",
+      "ru": "Через раствор AgNO₃ прошёл заряд 96 500 Кл. Сколько граммов серебра осядет на катоде? (M(Ag) = 108)"
+     },
+     "answer": "108",
+     "hint": {
+      "tk": "Ag⁺ + 1e⁻ → Ag; 96 500 Kl = 1 mol elektron.",
+      "ru": "Ag⁺ + 1e⁻ → Ag; 96 500 Кл = 1 моль электронов."
+     },
+     "explain": {
+      "tk": "1 mol elektron 1 mol Ag berýär: m = 108 g.",
+      "ru": "1 моль электронов даёт 1 моль Ag: m = 108 г."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Elektroliz wagtynda anodda okislenme bolup geçýär.",
+      "ru": "При электролизе на аноде происходит окисление."
+     },
+     "answer": true,
+     "hint": {
+      "tk": "Anod položitel zarýadly, oňa anionlar barýar.",
+      "ru": "Анод заряжен положительно, к нему идут анионы."
+     },
+     "explain": {
+      "tk": "Anionlar anoda elektronlaryny berýär — bu okislenme. Katodda bolsa gaýtarylma.",
+      "ru": "Анионы отдают электроны аноду — это окисление. На катоде — восстановление."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Natriý metalyny senagatda nähili alýarlar?",
+      "ru": "Как в промышленности получают металлический натрий?"
+     },
+     "options": [
+      {
+       "tk": "Eredilen NaCl-iň elektrolizi bilen",
+       "ru": "Электролизом расплава NaCl"
+      },
+      {
+       "tk": "NaCl erginiň elektrolizi bilen",
+       "ru": "Электролизом раствора NaCl"
+      },
+      {
+       "tk": "NaCl-i demir bilen gaýtaryp",
+       "ru": "Восстановлением NaCl железом"
+      }
+     ],
+     "answer": 0,
+     "hint": {
+      "tk": "Natriý suw bilen derrew reaksiýa girýär.",
+      "ru": "Натрий бурно реагирует с водой."
+     },
+     "explain": {
+      "tk": "Ergin elektroliz edilende natriý däl-de, wodorod bölünýär. Demir natriýden az işjeň, ony çykaryp bilmeýär. Diňe eredilen duzuň elektrolizi natriý berýär.",
+      "ru": "При электролизе раствора выделяется водород, а не натрий. Железо менее активно и вытеснить натрий не может. Натрий даёт только электролиз расплава."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Hemfri Deýwi 1807–1808-nji ýyllarda elektroliziň kömegi bilen ilkinji gezek kaliý, natriý, kalsiý, magniý we başga metallary arassa görnüşde aldy. Onuň kömekçisi Maýkl Faradeý soňra elektroliziň mukdar kanunlaryny açdy we «elektrod», «anod», «katod», «ion» sözlerini ylma girizdi.",
+      "ru": "Хамфри Дэви в 1807–1808 годах с помощью электролиза впервые получил в чистом виде калий, натрий, кальций, магний и другие металлы. Его ассистент Майкл Фарадей позже открыл количественные законы электролиза и ввёл в науку слова «электрод», «анод», «катод», «ион»."
+     }
+    }
+   ]
+  },
+  {
+   "id": "chemistry-12-chemical-kinetics",
+   "grade": 12,
+   "title": {
+    "tk": "Himiki kinetika: reaksiýanyň tizligi",
+    "ru": "Химическая кинетика: скорость реакции"
+   },
+   "minutes": 10,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Himiki kinetika reaksiýalaryň tizligini we mehanizmini öwrenýär.\n\nOrtaça tizlik: v = Δc / Δt (mol/(l·s)).\n\nTizlige täsir edýän faktorlar:\n• Maddalaryň tebigaty.\n• Konsentrasiýa — täsir edýän massalar kanuny: aA + bB → … üçin v = k·[A]ᵃ·[B]ᵇ (ýönekeý reaksiýalar üçin); k — tizlik hemişeligi.\n• Temperatura — Wantgoffyň düzgüni: temperatura her 10 °C ýokarlananda tizlik 2–4 esse artýar: v₂ = v₁·γ^(ΔT/10).\n• Galtaşma meýdany (gaty maddalar üçin) — owradylan madda çalt reaksiýa girýär.\n• Katalizator — reaksiýany çaltlandyrýar, aktiwasiýa energiýasyny peseldýär, özi bolsa reaksiýanyň ahyrynda üýtgemeýär. Biologiki katalizatorlar — fermentler.\n\nAktiwasiýa energiýasy Eₐ — bölejikleriň netijeli çaknyşmagy üçin zerur bolan iň az artykmaç energiýa.",
+      "ru": "Химическая кинетика изучает скорость и механизм реакций.\n\nСредняя скорость: v = Δc / Δt (моль/(л·с)).\n\nФакторы, влияющие на скорость:\n• Природа веществ.\n• Концентрация — закон действующих масс: для aA + bB → … v = k·[A]ᵃ·[B]ᵇ (для простых реакций); k — константа скорости.\n• Температура — правило Вант-Гоффа: при повышении температуры на каждые 10 °C скорость возрастает в 2–4 раза: v₂ = v₁·γ^(ΔT/10).\n• Площадь соприкосновения (для твёрдых веществ) — измельчённое вещество реагирует быстрее.\n• Катализатор — ускоряет реакцию, снижая энергию активации, а сам в конце реакции не расходуется. Биологические катализаторы — ферменты.\n\nЭнергия активации Eₐ — минимальная избыточная энергия, нужная для эффективного столкновения частиц."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Mesele 1: maddanyň konsentrasiýasy 20 s-da 0,8 mol/l-den 0,4 mol/l-e çenli peseldi. Ortaça tizlik:\nv = (0,8 − 0,4) / 20 = 0,02 mol/(l·s).\n\nMesele 2: γ = 2. Temperatura 20 °C-den 50 °C-e çenli ýokarlandy. Tizlik näçe esse artýar?\nΔT/10 = 30/10 = 3; 2³ = 8 esse.\n\nMesele 3: 2NO + O₂ → 2NO₂, v = k[NO]²[O₂]. NO-nyň konsentrasiýasy 3 esse artdyrylsa, tizlik 3² = 9 esse artýar.",
+      "ru": "Задача 1: концентрация вещества за 20 с снизилась с 0,8 моль/л до 0,4 моль/л. Средняя скорость:\nv = (0,8 − 0,4) / 20 = 0,02 моль/(л·с).\n\nЗадача 2: γ = 2. Температуру повысили с 20 °C до 50 °C. Во сколько раз возрастёт скорость?\nΔT/10 = 30/10 = 3; 2³ = 8 раз.\n\nЗадача 3: 2NO + O₂ → 2NO₂, v = k[NO]²[O₂]. Если увеличить концентрацию NO в 3 раза, скорость возрастёт в 3² = 9 раз."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Temperatura koeffisiýenti γ = 3. Temperatura 20 °C ýokarlananda tizlik näçe esse artýar?",
+      "ru": "Температурный коэффициент γ = 3. Во сколько раз возрастёт скорость при повышении температуры на 20 °C?"
+     },
+     "answer": "9",
+     "hint": {
+      "tk": "v₂/v₁ = γ^(ΔT/10).",
+      "ru": "v₂/v₁ = γ^(ΔT/10)."
+     },
+     "explain": {
+      "tk": "3^(20/10) = 3² = 9 esse.",
+      "ru": "3^(20/10) = 3² = 9 раз."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Katalizator reaksiýany nähili çaltlandyrýar?",
+      "ru": "Как катализатор ускоряет реакцию?"
+     },
+     "options": [
+      {
+       "tk": "Temperaturany ýokarlandyrýar",
+       "ru": "Повышает температуру"
+      },
+      {
+       "tk": "Aktiwasiýa energiýasyny peseldýär",
+       "ru": "Снижает энергию активации"
+      },
+      {
+       "tk": "Önümleriň mukdaryny artdyrýar",
+       "ru": "Увеличивает количество продуктов"
+      }
+     ],
+     "answer": 1,
+     "hint": {
+      "tk": "Katalizator reaksiýa üçin başga, «aňsat» ýol açýar.",
+      "ru": "Катализатор открывает для реакции другой, «более лёгкий» путь."
+     },
+     "explain": {
+      "tk": "Katalizator aktiwasiýa energiýasy pes bolan başga mehanizm döredýär. Ol deňagramlylygy süýşürmeýär we önümleriň mukdaryny üýtgetmeýär.",
+      "ru": "Катализатор создаёт другой механизм с меньшей энергией активации. Он не смещает равновесие и не меняет выход продуктов."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Owradylan hek daşy bitin bölekden has çalt kislota bilen reaksiýa girýär.",
+      "ru": "Измельчённый мрамор реагирует с кислотой быстрее, чем цельный кусок."
+     },
+     "answer": true,
+     "hint": {
+      "tk": "Owradylanda galtaşma meýdany nähili üýtgeýär?",
+      "ru": "Как меняется площадь соприкосновения при измельчении?"
+     },
+     "explain": {
+      "tk": "Owradylanda üstüň meýdany artýar, kislota bilen çaknyşmalar köpelýär, şonuň üçin tizlik ýokarlanýar.",
+      "ru": "При измельчении площадь поверхности увеличивается, столкновений с кислотой больше, поэтому скорость растёт."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "A + B → C reaksiýa üçin v = k[A][B]. A-nyň we B-niň konsentrasiýalary 2 esse artdyrylsa, tizlik näçe esse artýar?",
+      "ru": "Для реакции A + B → C v = k[A][B]. Во сколько раз возрастёт скорость, если концентрации A и B увеличить в 2 раза?"
+     },
+     "answer": "4",
+     "hint": {
+      "tk": "Her köpeldijiniň täsirini köpeldiň.",
+      "ru": "Перемножьте влияние каждого множителя."
+     },
+     "explain": {
+      "tk": "2 · 2 = 4 esse.",
+      "ru": "2 · 2 = 4 раза."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Awtoulaglaryň çykaryş turbasyndaky katalitik neýtralizatorda platina, palladiý we rodiý ulanylýar. Olar zäherli uglerod monooksidini (CO), azot oksidlerini we ýanmadyk uglewodorodlary has zyýansyz CO₂, N₂ we H₂O-a öwürýär. Wantgoff bolsa himiki kinetika boýunça işleri üçin 1901-nji ýylda himiýa boýunça ilkinji Nobel baýragyny aldy.",
+      "ru": "В каталитическом нейтрализаторе выхлопной системы автомобилей используются платина, палладий и родий. Они превращают ядовитый угарный газ (CO), оксиды азота и несгоревшие углеводороды в менее вредные CO₂, N₂ и H₂O. А Вант-Гофф в 1901 году получил первую Нобелевскую премию по химии — в том числе за работы по химической кинетике."
+     }
+    }
+   ]
+  },
+  {
+   "id": "chemistry-12-chemical-equilibrium",
+   "grade": 12,
+   "title": {
+    "tk": "Himiki deňagramlylyk we Le Şatelýeniň ýörelgesi",
+    "ru": "Химическое равновесие и принцип Ле Шателье"
+   },
+   "minutes": 11,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Öwrülişikli reaksiýalarda göni we ters reaksiýalaryň tizlikleri deňleşende himiki deňagramlylyk ýüze çykýar. Bu dinamiki deňagramlylyk: iki reaksiýa hem dowam edýär, ýöne konsentrasiýalar üýtgemeýär.\n\naA + bB ⇌ cC + dD üçin deňagramlylyk hemişeligi:\nK = [C]ᶜ[D]ᵈ / ([A]ᵃ[B]ᵇ) (gaty maddalar we erginde suw ýazylmaýar).\nK diňe temperatura bagly.\n\nLe Şatelýeniň ýörelgesi: deňagramlylykdaky ulgama daşky täsir edilse, deňagramlylyk şol täsiri gowşadýan tarapa süýşýär.\n• Başlangyç maddanyň konsentrasiýasy artdyrylsa → önümlere tarap.\n• Basyş ýokarlandyrylsa → gaz molekulalary az bolan tarapa.\n• Temperatura ýokarlandyrylsa → endotermiki (ýylylyk siňdirýän) tarapa.\n• Katalizator deňagramlylygy süýşürmeýär, diňe oňa çalt ýetmäge kömek edýär.",
+      "ru": "В обратимых реакциях, когда скорости прямой и обратной реакций выравниваются, наступает химическое равновесие. Это динамическое равновесие: обе реакции продолжаются, но концентрации не меняются.\n\nДля aA + bB ⇌ cC + dD константа равновесия:\nK = [C]ᶜ[D]ᵈ / ([A]ᵃ[B]ᵇ) (твёрдые вещества и вода в растворе не записываются).\nK зависит только от температуры.\n\nПринцип Ле Шателье: если на систему в равновесии оказать внешнее воздействие, равновесие смещается в сторону, ослабляющую это воздействие.\n• Увеличение концентрации исходного вещества → в сторону продуктов.\n• Повышение давления → в сторону меньшего числа молекул газа.\n• Повышение температуры → в сторону эндотермической (поглощающей теплоту) реакции.\n• Катализатор не смещает равновесие, а лишь ускоряет его достижение."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Ammiagyň sintezi: N₂ + 3H₂ ⇌ 2NH₃ + Q (ekzotermiki).\n\n1) Basyş: çepde 1 + 3 = 4 molekula gaz, sagda 2. Basyş ýokarlandyrylsa → saga (NH₃ köpelýär).\n2) Temperatura: göni reaksiýa ýylylyk bölýär. Temperatura ýokarlandyrylsa → çepe (NH₃ azalýar).\n3) NH₃ ulgamdan aýrylsa → saga.\n\nŞonuň üçin senagatda ýokary basyş, orta temperatura (≈ 400–500 °C, tizlik üçin) we demir katalizatory ulanylýar.\n\nK hasaplamak: deňagramlylykda [N₂] = 1, [H₂] = 2, [NH₃] = 4 mol/l bolsa, K = 4² / (1 · 2³) = 16/8 = 2.",
+      "ru": "Синтез аммиака: N₂ + 3H₂ ⇌ 2NH₃ + Q (экзотермическая).\n\n1) Давление: слева 1 + 3 = 4 молекулы газа, справа 2. При повышении давления → вправо (NH₃ больше).\n2) Температура: прямая реакция выделяет теплоту. При повышении температуры → влево (NH₃ меньше).\n3) Если выводить NH₃ из системы → вправо.\n\nПоэтому в промышленности используют высокое давление, умеренную температуру (≈ 400–500 °C, ради скорости) и железный катализатор.\n\nРасчёт K: если в равновесии [N₂] = 1, [H₂] = 2, [NH₃] = 4 моль/л, то K = 4² / (1 · 2³) = 16/8 = 2."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "2SO₂ + O₂ ⇌ 2SO₃ + Q. Deňagramlylygy saga süýşürmek üçin näme etmeli?",
+      "ru": "2SO₂ + O₂ ⇌ 2SO₃ + Q. Что нужно сделать, чтобы сместить равновесие вправо?"
+     },
+     "options": [
+      {
+       "tk": "Basyşy peseltmeli",
+       "ru": "Понизить давление"
+      },
+      {
+       "tk": "Temperaturany ýokarlandyrmaly",
+       "ru": "Повысить температуру"
+      },
+      {
+       "tk": "Basyşy ýokarlandyrmaly",
+       "ru": "Повысить давление"
+      }
+     ],
+     "answer": 2,
+     "hint": {
+      "tk": "Iki tarapdaky gaz molekulalaryny sanaň: 3 we 2.",
+      "ru": "Посчитайте молекулы газа с обеих сторон: 3 и 2."
+     },
+     "explain": {
+      "tk": "Sagda gaz molekulalary az, şonuň üçin basyş ýokarlananda deňagramlylyk saga süýşýär. Reaksiýa ekzotermiki, temperatura ýokarlansa çepe süýşerdi.",
+      "ru": "Справа молекул газа меньше, поэтому при повышении давления равновесие смещается вправо. Реакция экзотермическая, нагрев сместил бы её влево."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Katalizator goşulsa, deňagramlylyk önümlere tarap süýşýär.",
+      "ru": "Добавление катализатора смещает равновесие в сторону продуктов."
+     },
+     "answer": false,
+     "hint": {
+      "tk": "Katalizator göni we ters reaksiýalaryň haýsysyny çaltlandyrýar?",
+      "ru": "Какую реакцию ускоряет катализатор — прямую или обратную?"
+     },
+     "explain": {
+      "tk": "Katalizator göni we ters reaksiýalary deň derejede çaltlandyrýar, şonuň üçin deňagramlylyk süýşmeýär — oňa diňe çalt ýetilýär.",
+      "ru": "Катализатор одинаково ускоряет прямую и обратную реакции, поэтому равновесие не смещается — оно лишь быстрее устанавливается."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "H₂ + I₂ ⇌ 2HI. Deňagramlylykda [H₂] = 0,5, [I₂] = 0,5, [HI] = 2 mol/l. K näçä deň?",
+      "ru": "H₂ + I₂ ⇌ 2HI. В равновесии [H₂] = 0,5, [I₂] = 0,5, [HI] = 2 моль/л. Чему равна K?"
+     },
+     "answer": "16",
+     "hint": {
+      "tk": "K = [HI]² / ([H₂][I₂]).",
+      "ru": "K = [HI]² / ([H₂][I₂])."
+     },
+     "explain": {
+      "tk": "K = 2² / (0,5 · 0,5) = 4 / 0,25 = 16.",
+      "ru": "K = 2² / (0,5 · 0,5) = 4 / 0,25 = 16."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "H₂ + I₂ ⇌ 2HI (hemme maddalar gaz). Basyş ýokarlandyrylsa deňagramlylyk nirä süýşýär?",
+      "ru": "H₂ + I₂ ⇌ 2HI (все вещества — газы). Куда сместится равновесие при повышении давления?"
+     },
+     "options": [
+      {
+       "tk": "Saga",
+       "ru": "Вправо"
+      },
+      {
+       "tk": "Çepe",
+       "ru": "Влево"
+      },
+      {
+       "tk": "Süýşmeýär",
+       "ru": "Не сместится"
+      }
+     ],
+     "answer": 2,
+     "hint": {
+      "tk": "Iki tarapda näçe gaz molekulasy bar?",
+      "ru": "Сколько молекул газа с каждой стороны?"
+     },
+     "explain": {
+      "tk": "Çepde 1 + 1 = 2, sagda 2 molekula — basyş deňagramlylyga täsir etmeýär.",
+      "ru": "Слева 1 + 1 = 2, справа 2 молекулы — давление на равновесие не влияет."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Gemoglobiniň kislorod bilen baglanyşmagy hem deňagramlylyk prosesi. Belentlikde kislorodyň basyşy pes bolany üçin deňagramlylyk oksigemoglobiniň az emele gelýän tarapyna süýşýär — dag çykýanlaryň çalt ýadamagynyň bir sebäbi şu. Birnäçe hepdäniň dowamynda organizm gyzyl gan öýjüklerini köpeldip uýgunlaşýar.",
+      "ru": "Связывание гемоглобина с кислородом — тоже равновесный процесс. На высоте давление кислорода ниже, и равновесие смещается в сторону меньшего образования оксигемоглобина — одна из причин быстрой утомляемости альпинистов. За несколько недель организм приспосабливается, вырабатывая больше эритроцитов."
+     }
+    }
+   ]
+  },
+  {
+   "id": "chemistry-12-chemistry-and-ecology",
+   "grade": 12,
+   "title": {
+    "tk": "Himiýa we ekologiýa",
+    "ru": "Химия и экология"
+   },
+   "minutes": 9,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Adamyň hojalyk işi atmosfera, suwa we topraga himiki maddalary çykarýar.\n\n• Parnik effekti: CO₂, CH₄, N₂O we suw buglary Ýeriň infragyzyl şöhlelenmesini saklaýar. Ýangyçlaryň ýakylmagy atmosferada CO₂-ni köpeldýär → global ýylylyk.\n• Kislota ýagyşlary: SO₂ we azot oksidleri (NOₓ) suw bilen kislotalary emele getirýär: SO₂ + H₂O → H₂SO₃, 2SO₂ + O₂ → 2SO₃, SO₃ + H₂O → H₂SO₄. Arassa ýagyşyň pH-y ≈ 5,6; kislota ýagyşlarynda has pes.\n• Ozon gatlagy (O₃) Güneşiň ultramelewşe şöhlelerini siňdirýär. Ony freonlar (hlorftoruglewodorodlar) dargadýar; 1987-nji ýyldaky Monreal protokoly olaryň önümçiligini çäklendirdi.\n• Suwlaryň hapalanmagy: azot we fosfor dökünleri suw howdanlarynda suwotularyň aşa köpelmegine (ewtrofikasiýa) getirýär; agyr metallar (Hg, Pb, Cd) zäherli.\n\n«Ýaşyl himiýa» — galyndylary azaldýan, howpsuz erginleri we katalizatorlary ulanýan himiýa.",
+      "ru": "Хозяйственная деятельность человека выбрасывает химические вещества в атмосферу, воду и почву.\n\n• Парниковый эффект: CO₂, CH₄, N₂O и водяной пар задерживают инфракрасное излучение Земли. Сжигание топлива увеличивает CO₂ в атмосфере → глобальное потепление.\n• Кислотные дожди: SO₂ и оксиды азота (NOₓ) с водой образуют кислоты: SO₂ + H₂O → H₂SO₃, 2SO₂ + O₂ → 2SO₃, SO₃ + H₂O → H₂SO₄. pH чистого дождя ≈ 5,6; у кислотных дождей ниже.\n• Озоновый слой (O₃) поглощает ультрафиолетовое излучение Солнца. Его разрушают фреоны (хлорфторуглероды); Монреальский протокол 1987 года ограничил их производство.\n• Загрязнение вод: азотные и фосфорные удобрения вызывают чрезмерный рост водорослей в водоёмах (эвтрофикация); тяжёлые металлы (Hg, Pb, Cd) токсичны.\n\n«Зелёная химия» — химия, которая сокращает отходы и использует безопасные растворители и катализаторы."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Mesele: 1 kg kömür (diňe uglerod diýip alyň) doly ýakylanda näçe kg CO₂ emele gelýär?\n\n1) C + O₂ → CO₂.\n2) n(C) = 1000 / 12 ≈ 83,3 mol.\n3) n(CO₂) = n(C) ≈ 83,3 mol.\n4) m(CO₂) = 83,3 · 44 ≈ 3667 g ≈ 3,7 kg.\n\nÝagny 1 kg uglerod ýakylanda massasy takmynan 3,7 esse köp CO₂ emele gelýär — sebäbi kislorodyň atomlary goşulýar.",
+      "ru": "Задача: сколько кг CO₂ образуется при полном сгорании 1 кг угля (считаем, что это чистый углерод)?\n\n1) C + O₂ → CO₂.\n2) n(C) = 1000 / 12 ≈ 83,3 моль.\n3) n(CO₂) = n(C) ≈ 83,3 моль.\n4) m(CO₂) = 83,3 · 44 ≈ 3667 г ≈ 3,7 кг.\n\nТо есть при сжигании 1 кг углерода образуется примерно в 3,7 раза больше по массе CO₂ — за счёт присоединённых атомов кислорода."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Kislota ýagyşlarynyň esasy sebäbi haýsy gazlar?",
+      "ru": "Какие газы — главная причина кислотных дождей?"
+     },
+     "options": [
+      {
+       "tk": "SO₂ we NOₓ",
+       "ru": "SO₂ и NOₓ"
+      },
+      {
+       "tk": "N₂ we O₂",
+       "ru": "N₂ и O₂"
+      },
+      {
+       "tk": "He we Ar",
+       "ru": "He и Ar"
+      }
+     ],
+     "answer": 0,
+     "hint": {
+      "tk": "Suw bilen güýçli kislotalary emele getirýän oksidleri saýlaň.",
+      "ru": "Выберите оксиды, которые с водой дают сильные кислоты."
+     },
+     "explain": {
+      "tk": "SO₂ kükürt kislotasyna, NOₓ azot kislotasyna öwrülýär. N₂, O₂ we inert gazlar howanyň adaty düzüm bölekleri.",
+      "ru": "SO₂ превращается в серную кислоту, NOₓ — в азотную. N₂, O₂ и инертные газы — обычные компоненты воздуха."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Ozon gatlagy Ýeri Günüň ultramelewşe şöhlelerinden goraýar.",
+      "ru": "Озоновый слой защищает Землю от ультрафиолетового излучения Солнца."
+     },
+     "answer": true,
+     "hint": {
+      "tk": "Ozon stratosferada näme siňdirýär?",
+      "ru": "Что поглощает озон в стратосфере?"
+     },
+     "explain": {
+      "tk": "Stratosferadaky O₃ zyýanly ultramelewşe şöhleleriň köp bölegini siňdirýär.",
+      "ru": "Озон O₃ в стратосфере поглощает большую часть вредного ультрафиолета."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Arassa ýagyş suwunyň pH-y takmynan näçä deň? (bir onluk belgi bilen)",
+      "ru": "Каков примерно pH чистой дождевой воды? (с одним знаком после запятой)"
+     },
+     "answer": "5.6|5,6",
+     "hint": {
+      "tk": "Ýagyş suwy howadaky CO₂-ni ereýär we gowşak kislotaly bolýar.",
+      "ru": "Дождевая вода растворяет CO₂ из воздуха и становится слабокислой."
+     },
+     "explain": {
+      "tk": "Erän CO₂ gowşak kömür kislotasyny berýär, pH ≈ 5,6. Kislota ýagyşlarynyň pH-y mundan pes.",
+      "ru": "Растворённый CO₂ даёт слабую угольную кислоту, pH ≈ 5,6. pH кислотных дождей ниже."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Suw howdanlarynda suwotularyň aşa köpelmegine (ewtrofikasiýa) näme getirýär?",
+      "ru": "Что вызывает чрезмерный рост водорослей в водоёмах (эвтрофикацию)?"
+     },
+     "options": [
+      {
+       "tk": "Inert gazlar",
+       "ru": "Инертные газы"
+      },
+      {
+       "tk": "Azotly we fosforly dökünler",
+       "ru": "Азотные и фосфорные удобрения"
+      },
+      {
+       "tk": "Natriý hloridi",
+       "ru": "Хлорид натрия"
+      }
+     ],
+     "answer": 1,
+     "hint": {
+      "tk": "Ösümlikleriň ösmegi üçin haýsy iýmit elementleri gerek?",
+      "ru": "Какие питательные элементы нужны для роста растений?"
+     },
+     "explain": {
+      "tk": "Ekin meýdanlaryndan akyp gelýän N we P suwotular üçin iýmit bolýar. Olar köpelip, soňra çüýrände suwda kislorod azalýar we balyklar ölýär.",
+      "ru": "Стекающие с полей N и P становятся пищей для водорослей. Они разрастаются, а при их гниении в воде падает кислород и гибнет рыба."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "1985-nji ýylda britan alymlary Antarktidanyň üstünde ozon gatlagynyň möwsümleýin ep-esli ýukalýandygyny — «ozon deşigini» — habar berdiler. Bu açyş Monreal protokolynyň kabul edilmegine itergi berdi. Freonlaryň ulanylyşy azaldylandan soň, ylmy synlar ozon gatlagynyň ýuwaş-ýuwaşdan dikelýändigini görkezýär.",
+      "ru": "В 1985 году британские учёные сообщили о сезонном сильном истончении озонового слоя над Антарктидой — «озоновой дыре». Это открытие подтолкнуло к принятию Монреальского протокола. После сокращения использования фреонов научные наблюдения показывают постепенное восстановление озонового слоя."
+     }
+    }
+   ]
+  }
+ ]
+}

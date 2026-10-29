@@ -1,0 +1,312 @@
+{
+  "grade": 4,
+  "subject": "reading",
+  "lessons": [
+    {
+      "id": "reading-4-myth-legend",
+      "grade": 4,
+      "topic": 0,
+      "title": {"tk": "Mif we rowaýat", "ru": "Миф и легенда"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Mif — gadymy adamlaryň dünýäniň, tebigatyň, hudaýlaryň we gahrymanlaryň döreýşi barada düzen hekaýasy. Mifler “Gün näme üçin dogýar?”, “Ýyldyrym nireden gelýär?” ýaly soraglara jogap gözläpdir.\nRowaýat — hakyky ýaşan adam, ýer ýa-da waka bilen baglanyşykly, emma geň-taňlyklar goşulan hekaýa.\n• Mifde köplenç hudaýlar we jadyly güýçler bolýar.\n• Rowaýatda hakykat bilen toslama garyşýar.",
+          "ru": "Миф — древнее сказание о происхождении мира, природы, о богах и героях. Мифы искали ответы на вопросы: «Почему встаёт солнце?», «Откуда берётся молния?»\nЛегенда (rowaýat) — рассказ, связанный с реально жившим человеком, местом или событием, но с добавлением чудес.\n• В мифе обычно действуют боги и волшебные силы.\n• В легенде правда переплетается с вымыслом."
+        }},
+        {"type": "example", "text": {
+          "tk": "Gadymy grek mifinde Prometeý atly titan hudaýlardan oty ogurlap, adamlara beripdir. Bu mif adamlaryň oty nädip ele salandygyny düşündirmäge synanyşýar.\nIňlis rowaýatynda bolsa Robin Gud baýlardan alyp, garyplara kömek edipdir. Taryhçylar onuň hakykatdan ýaşandygyny takyk bilmeýärler, ýöne rowaýat Angliýanyň hakyky ýerleri — Şerwud tokaýy bilen baglanyşykly.",
+          "ru": "В древнегреческом мифе титан Прометей похитил у богов огонь и отдал его людям. Миф пытается объяснить, как люди получили огонь.\nВ английской легенде Робин Гуд отнимал богатства у богачей и помогал бедным. Историки точно не знают, жил ли он на самом деле, но легенда связана с реальными местами Англии — Шервудским лесом."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Prometeý hakyndaky hekaýa näme?", "ru": "Чем является рассказ о Прометее?"},
+          "options": [{"tk": "mif", "ru": "миф"}, {"tk": "terjimehal", "ru": "биография"}, {"tk": "pýesa", "ru": "пьеса"}],
+          "answer": 0,
+          "hint": {"tk": "Bu hekaýada hudaýlar we titanlar bar.", "ru": "В этом рассказе действуют боги и титаны."},
+          "explain": {"tk": "Hudaýlar we tebigatyň (otuň) gelip çykyşy barada gürrüň berýär — bu mif.", "ru": "Рассказ о богах и происхождении огня — это миф."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Rowaýat hemişe diňe hakyky wakalardan ybarat bolýar.", "ru": "Легенда всегда состоит только из реальных событий."},
+          "answer": false,
+          "hint": {"tk": "Rowaýatda geň-taňlyklar barmy?", "ru": "Бывают ли в легенде чудеса?"},
+          "explain": {"tk": "Rowaýat hakyky adam ýa-da ýer bilen baglanyşykly bolsa-da, oňa toslama we geň-taňlyklar goşulýar.", "ru": "Легенда связана с реальным человеком или местом, но в неё добавлены вымысел и чудеса."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Mifler köplenç haýsy soraga jogap gözleýär?", "ru": "На какой вопрос часто ищут ответ мифы?"},
+          "options": [
+            {"tk": "Haýsy dükanda ýumurtga arzan?", "ru": "В каком магазине дешевле яйца?"},
+            {"tk": "Ertir sapak näçede başlanýar?", "ru": "Во сколько завтра начинаются уроки?"},
+            {"tk": "Dünýä nähili döräpdir?", "ru": "Как возник мир?"}
+          ],
+          "answer": 2,
+          "hint": {"tk": "Mifler gadymy adamlaryň uly soraglary bilen baglanyşykly.", "ru": "Мифы связаны с большими вопросами древних людей."},
+          "explain": {"tk": "Mifler dünýäniň, tebigatyň, adamlaryň gelip çykyşyny düşündirmäge synanyşýar.", "ru": "Мифы пытаются объяснить происхождение мира, природы и людей."}
+        },
+        {"type": "input",
+          "q": {"tk": "Gadymy grek miflerinde hudaýlaryň patyşasy Zews haýsy dagda ýaşapdyr? (bir söz)", "ru": "На какой горе, по древнегреческим мифам, жил царь богов Зевс? (одно слово)"},
+          "answer": "Olimp|Олимп|Olymp|Olympus",
+          "hint": {"tk": "Olimpiýa oýunlarynyň adyna meňzeş.", "ru": "Похоже на название Олимпийских игр."},
+          "explain": {"tk": "Grek hudaýlary Olimp dagynda ýaşapdyr. Bu dag Gresiýada hakykatdan hem bar.", "ru": "Греческие боги жили на горе Олимп. Эта гора действительно есть в Греции."}
+        },
+        {"type": "world", "text": {
+          "tk": "Gün ulgamyndaky planetalaryň köpüsi rim hudaýlarynyň adyny göterýär: Merkuriý, Wenera, Mars, Ýupiter, Saturn, Neptun. Gadymy mifler häzir hem asmanda “ýaşaýar”!",
+          "ru": "Большинство планет Солнечной системы носят имена римских богов: Меркурий, Венера, Марс, Юпитер, Сатурн, Нептун. Древние мифы до сих пор «живут» на небе!"
+        }}
+      ]
+    },
+    {
+      "id": "reading-4-dessan",
+      "grade": 4,
+      "topic": 1,
+      "title": {"tk": "Dessan bilen tanyşlyk", "ru": "Знакомство с дастаном"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Dessan — gahrymanlaryň başdan geçirmelerini, söýgüsini we batyrlygyny beýan edýän uly göwrümli eser. Gündogar halklarynda giň ýaýrandyr.\n• Dessanda proza (adaty gürrüň) bilen goşgy bölekleri gezekleşýär.\n• Dessanlary bagşylar dutaryň sazy bilen aýdyp beripdirler.\n• Köp dessanlar asyrlar boýy dilden-dile geçip, soňra ýazga geçirilipdir.\nMeşhur türkmen dessanlary: “Görogly”, “Leýli-Mežnun”, “Zöhre-Tahyr”, “Şasenem-Garyp”, “Hüýrlukga-Hemra”.",
+          "ru": "Дастан (dessan) — большое произведение о приключениях, любви и отваге героев. Дастаны широко распространены у народов Востока.\n• В дастане прозаический рассказ чередуется со стихотворными частями.\n• Дастаны исполняли бахши под звуки дутара.\n• Многие дастаны веками передавались из уст в уста и лишь потом были записаны.\nИзвестные туркменские дастаны: «Гёроглы», «Лейли и Меджнун», «Зохре и Тахир», «Шасенем и Гариб», «Хуйрлукга и Хемра»."
+        }},
+        {"type": "example", "text": {
+          "tk": "“Görogly” — türkmen halkynyň gahrymançylyk eposy. Onuň baş gahrymany Görogly — adalatly we batyr serdar. Ol Çandybil ýurdunyň ýolbaşçysy bolup, öz halkyny goraýar. Onuň wepaly aty Gyrat hem dessanyň meşhur gahrymanydyr.\nDessany okanyňyzda şu soraglara jogap beriň:\n• Baş gahryman kim?\n• Ol nähili häsiýetli?\n• Ol haýsy kynçylyklary ýeňýär?",
+          "ru": "«Гёроглы» — героический эпос туркменского народа. Его главный герой Гёроглы — справедливый и отважный предводитель. Он правит страной Чандыбиль и защищает свой народ. Его верный конь Гырат — тоже знаменитый герой дастана.\nЧитая дастан, отвечайте на вопросы:\n• Кто главный герой?\n• Какой у него характер?\n• Какие трудности он преодолевает?"
+        }},
+        {"type": "choice",
+          "q": {"tk": "Göroglynyň wepaly atynyň ady näme?", "ru": "Как зовут верного коня Гёроглы?"},
+          "options": [{"tk": "Akbilek", "ru": "Акбилек"}, {"tk": "Gyrat", "ru": "Гырат"}, {"tk": "Bozat", "ru": "Бозат"}],
+          "answer": 1,
+          "hint": {"tk": "“Gyr” — çal reňkli at diýmekdir.", "ru": "«Гыр» означает серая масть коня."},
+          "explain": {"tk": "Göroglynyň aty Gyrat — dessanda ol çaltlygy we akyllylygy bilen tapawutlanýar.", "ru": "Коня Гёроглы зовут Гырат — в дастане он славится быстротой и умом."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Dessanlarda proza bilen goşgy gezekleşip gelýär.", "ru": "В дастанах проза чередуется со стихами."},
+          "answer": true,
+          "hint": {"tk": "Bagşylar dessanyň käbir böleklerini aýdym edip aýdýarlar.", "ru": "Бахши некоторые части дастана исполняют как песни."},
+          "explain": {"tk": "Dessanda waka proza bilen gürrüň berilýär, gahrymanlaryň duýgulary bolsa goşgy bilen aýdylýar.", "ru": "В дастане события излагаются прозой, а чувства героев выражаются в стихах."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Dessanlary halk arasynda kimler ýerine ýetiripdir?", "ru": "Кто исполнял дастаны в народе?"},
+          "options": [{"tk": "mugallymlar", "ru": "учителя"}, {"tk": "söwdagärler", "ru": "купцы"}, {"tk": "bagşylar", "ru": "бахши"}],
+          "answer": 2,
+          "hint": {"tk": "Olar dutar çalyp aýdym aýdýarlar.", "ru": "Они поют, играя на дутаре."},
+          "explain": {"tk": "Bagşylar dessanlary dutaryň sazy bilen ýatdan aýdyp beripdirler.", "ru": "Бахши исполняли дастаны наизусть под звуки дутара."}
+        },
+        {"type": "input",
+          "q": {"tk": "Göroglynyň ýurdunyň ady näme?", "ru": "Как называется страна Гёроглы?"},
+          "answer": "Çandybil|Чандыбиль|Chandybil|Çandybyl",
+          "hint": {"tk": "Ol “Ç” harpy bilen başlanýar.", "ru": "Начинается на «Ч»."},
+          "explain": {"tk": "Dessanda Görogly Çandybil ýurdunyň serdary.", "ru": "В дастане Гёроглы — правитель страны Чандыбиль."}
+        },
+        {"type": "world", "text": {
+          "tk": "2015-nji ýylda türkmenleriň “Görogly” dessan-ýerine ýetirijilik sungaty ÝUNESKO-nyň Adamzadyň maddy däl medeni mirasynyň sanawyna girizildi.",
+          "ru": "В 2015 году туркменское эпическое искусство исполнения дастана «Гёроглы» было включено в список нематериального культурного наследия человечества ЮНЕСКО."
+        }}
+      ]
+    },
+    {
+      "id": "reading-4-fantasy-science-fiction",
+      "grade": 4,
+      "topic": 2,
+      "title": {"tk": "Fantastika", "ru": "Фантастика"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Fantastika — hakykatda bolmadyk ýa-da entek bolmadyk zatlar barada ýazylan eserler.\n• Ylmy fantastika — geljekdäki tehnologiýalar, kosmos syýahatlary, robotlar barada. Awtor ylma daýanýar.\n• Fentezi (jadyly fantastika) — jadygöýler, aždarhalar, toslama dünýäler barada.\nFantastika okyja “Eger… bolsa näme bolardy?” diýen soragy bermäge we hyýaly ösdürmäge kömek edýär.",
+          "ru": "Фантастика — произведения о том, чего в реальности нет или ещё нет.\n• Научная фантастика — о будущих технологиях, космических путешествиях, роботах. Автор опирается на науку.\n• Фэнтези — о волшебниках, драконах, выдуманных мирах.\nФантастика учит читателя спрашивать «А что, если…?» и развивает воображение."
+        }},
+        {"type": "example", "text": {
+          "tk": "Fransuz ýazyjysy Žýul Wern (1828–1905) “Deňiz astynda ýigrimi müň lýe” romanynda kapitan Nemonyň “Nautilus” suwasty gämisini suratlandyrypdyr. Şol döwürde beýle güýçli suwasty gämi entek ýokdy. Kitapda tehnika barada ylmy maglumatlar köp, şonuň üçin bu ylmy fantastika.",
+          "ru": "Французский писатель Жюль Верн (1828–1905) в романе «Двадцать тысяч льё под водой» описал подводную лодку «Наутилус» капитана Немо. В то время таких мощных подводных лодок ещё не было. В книге много научных сведений о технике, поэтому это научная фантастика."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Haýsy kitap ylmy fantastika?", "ru": "Какая книга — научная фантастика?"},
+          "options": [
+            {"tk": "Marsa uçýan robot hakynda powest", "ru": "Повесть о роботе, летящем на Марс"},
+            {"tk": "Aždarha bilen söweşýän jadygöý hakynda ertek", "ru": "Сказка о волшебнике, сражающемся с драконом"},
+            {"tk": "Meşhur alymyň terjimehaly", "ru": "Биография известного учёного"}
+          ],
+          "answer": 0,
+          "hint": {"tk": "Ylmy fantastika tehnika we ylym bilen baglanyşykly.", "ru": "Научная фантастика связана с техникой и наукой."},
+          "explain": {"tk": "Robotlar we kosmos syýahaty — ylmy fantastikanyň temasy. Jadygöý we aždarha — fentezi.", "ru": "Роботы и космические полёты — тема научной фантастики. Волшебник и дракон — фэнтези."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Žýul Wern suwasty gämi hakynda roman ýazypdyr.", "ru": "Жюль Верн написал роман о подводной лодке."},
+          "answer": true,
+          "hint": {"tk": "Kapitan Nemony ýadyňyza salyň.", "ru": "Вспомните капитана Немо."},
+          "explain": {"tk": "“Deňiz astynda ýigrimi müň lýe” romanynda “Nautilus” suwasty gämisi suratlandyrylýar.", "ru": "В романе «Двадцать тысяч льё под водой» описана подводная лодка «Наутилус»."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Fentezi eserlerinde köplenç näme bolýar?", "ru": "Что чаще всего встречается в фэнтези?"},
+          "options": [
+            {"tk": "takyk taryhy seneler", "ru": "точные исторические даты"},
+            {"tk": "jady we toslama dünýäler", "ru": "волшебство и выдуманные миры"},
+            {"tk": "matematika meseleleri", "ru": "математические задачи"}
+          ],
+          "answer": 1,
+          "hint": {"tk": "Aždarhalary we jadygöýleri ýadyňyza salyň.", "ru": "Вспомните драконов и волшебников."},
+          "explain": {"tk": "Fentezide jadyly güýçler, toslama jandarlar we dünýäler bolýar.", "ru": "В фэнтези есть волшебные силы, вымышленные существа и миры."}
+        },
+        {"type": "input",
+          "q": {"tk": "Žýul Wern haýsy ýurduň ýazyjysy?", "ru": "Писателем какой страны был Жюль Верн?"},
+          "answer": "Fransiýa|Франция|fransuz|французский|France",
+          "hint": {"tk": "Bu ýurduň paýtagty Pariž.", "ru": "Столица этой страны — Париж."},
+          "explain": {"tk": "Žýul Wern Fransiýada doglan fransuz ýazyjysy.", "ru": "Жюль Верн — французский писатель, родился во Франции."}
+        },
+        {"type": "world", "text": {
+          "tk": "Žýul Wern “Ýerden Aýa” romanynda adamlaryň Aýa uçuşyny suratlandyrypdyr. Takmynan 100 ýyldan soň, 1969-njy ýylda “Apollon-11” ekipažy hakykatdan hem Aýa gondy. Fantastika köplenç geljegiň çaklamasyna öwrülýär!",
+          "ru": "В романе «С Земли на Луну» Жюль Верн описал полёт людей к Луне. Примерно через 100 лет, в 1969 году, экипаж «Аполлона-11» действительно высадился на Луне. Фантастика нередко становится предсказанием будущего!"
+        }}
+      ]
+    },
+    {
+      "id": "reading-4-biography",
+      "grade": 4,
+      "topic": 3,
+      "title": {"tk": "Terjimehal", "ru": "Биография"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Terjimehal — hakyky adamyň durmuşy barada gürrüň berýän eser.\n• Terjimehalda adamyň doglan ýeri we wagty, okuwy, işleri, gazananlary aýdylýar.\n• Wakalar köplenç wagt tertibinde (çagalykdan ulalyşa) beýan edilýär.\n• Awtobiografiýa — adamyň öz durmuşy barada özüniň ýazany.\nTerjimehal hakyky faktlara daýanýar, toslama goşulmaýar.",
+          "ru": "Биография — произведение о жизни реального человека.\n• В биографии рассказывается, где и когда человек родился, как учился, чем занимался, чего достиг.\n• События обычно идут в хронологическом порядке (от детства к зрелости).\n• Автобиография — рассказ человека о собственной жизни, написанный им самим.\nБиография опирается на реальные факты, вымысла в ней нет."
+        }},
+        {"type": "example", "text": {
+          "tk": "Gysga terjimehal mysaly:\nMagtymguly Pyragy XVIII asyrda ýaşan beýik türkmen şahyry we akyldary. Ol Etrek sebitinde doglupdyr. Kakasy Döwletmämmet Azady hem şahyr we alym bolupdyr. Magtymguly medreselerde okapdyr, köp ýurtlara syýahat edipdir. Onuň goşgulary halkyň agzybirligine, adalata we watana söýgä bagyşlanýar.\nGörşüňiz ýaly: doglan ýeri → maşgalasy → okuwy → işi.",
+          "ru": "Пример краткой биографии:\nМахтумкули Фраги — великий туркменский поэт и мыслитель, живший в XVIII веке. Он родился в долине Атрека. Его отец Довлетмамед Азади тоже был поэтом и учёным. Махтумкули учился в медресе, путешествовал по многим странам. Его стихи посвящены единству народа, справедливости и любви к родине.\nПорядок: место рождения → семья → учёба → дело жизни."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Terjimehalda adatça näme bolmaýar?", "ru": "Чего обычно нет в биографии?"},
+          "options": [
+            {"tk": "doglan ýyly", "ru": "года рождения"},
+            {"tk": "toslanan jadyly jandarlar", "ru": "выдуманных волшебных существ"},
+            {"tk": "gazanan üstünlikleri", "ru": "достижений человека"}
+          ],
+          "answer": 1,
+          "hint": {"tk": "Terjimehal hakyky faktlara daýanýar.", "ru": "Биография опирается на реальные факты."},
+          "explain": {"tk": "Jadyly jandarlar toslama, olar erteklerde we fentezide bolýar.", "ru": "Волшебные существа — вымысел, они бывают в сказках и фэнтези."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Adamyň öz durmuşy barada özüniň ýazan eserine awtobiografiýa diýilýär.", "ru": "Произведение, в котором человек сам пишет о своей жизни, называется автобиографией."},
+          "answer": true,
+          "hint": {"tk": "“Awto” — “öz” diýmegi aňladýar.", "ru": "«Авто» означает «сам»."},
+          "explain": {"tk": "Awtobiografiýa — öz-özüň hakynda ýazylan terjimehal.", "ru": "Автобиография — биография, написанная о самом себе."}
+        },
+        {"type": "input",
+          "q": {"tk": "Magtymgulynyň kakasynyň ady näme?", "ru": "Как звали отца Махтумкули?"},
+          "answer": "Döwletmämmet|Döwletmämmet Azady|Azady|Довлетмамед|Довлетмамед Азади|Азади",
+          "hint": {"tk": "Ol hem şahyr bolupdyr, edebi lakamy — Azady.", "ru": "Он тоже был поэтом, его литературное имя — Азади."},
+          "explain": {"tk": "Magtymgulynyň kakasy — Döwletmämmet Azady.", "ru": "Отец Махтумкули — Довлетмамед Азади."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Terjimehalda wakalar köplenç nähili tertipde beýan edilýär?", "ru": "В каком порядке обычно излагаются события в биографии?"},
+          "options": [
+            {"tk": "tötänleýin", "ru": "в случайном порядке"},
+            {"tk": "elipbiý tertibinde", "ru": "в алфавитном порядке"},
+            {"tk": "wagt tertibinde", "ru": "в хронологическом порядке"}
+          ],
+          "answer": 2,
+          "hint": {"tk": "Adamyň durmuşy çagalykdan başlanýar.", "ru": "Жизнь человека начинается с детства."},
+          "explain": {"tk": "Terjimehal adatça dogluşdan başlap, wagt yzygiderliliginde gürrüň berýär.", "ru": "Биография обычно рассказывает о жизни по порядку, начиная с рождения."}
+        },
+        {"type": "world", "text": {
+          "tk": "Gadymy grek ýazyjysy Plutarh (takmynan 46–120 ý.) meşhur grekleriň we rimlileriň durmuşyny jübüt-jübüt deňeşdirip ýazypdyr. Onuň “Deňeşdirme terjimehallary” dünýäde iň meşhur terjimehal kitaplarynyň biridir.",
+          "ru": "Древнегреческий писатель Плутарх (около 46–120 гг.) описал жизни знаменитых греков и римлян, сравнивая их попарно. Его «Сравнительные жизнеописания» — одна из самых известных книг-биографий в мире."
+        }}
+      ]
+    },
+    {
+      "id": "reading-4-play",
+      "grade": 4,
+      "topic": 4,
+      "title": {"tk": "Pýesa", "ru": "Пьеса"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Pýesa — sahnada oýnamak üçin ýazylan eser. Ol hekaýadan tapawutlanýar:\n• Pýesa esasan gahrymanlaryň gepleşiginden (dialogdan) ybarat.\n• Her sözüň öňünde kimiň gepleýändigi ýazylýar.\n• Remarkalar — ýaýyň içinde ýazylan gysga düşündirişler: gahrymanyň näme edýändigi, nähili gepleýändigi, waka nirede bolýandygy.\n• Pýesa hereketlere (aktlara) we sahnalara bölünýär.\nPýesany sahnada aktýorlar oýnaýarlar.",
+          "ru": "Пьеса — произведение, написанное для постановки на сцене. Чем она отличается от рассказа:\n• Пьеса почти целиком состоит из разговоров героев (диалогов).\n• Перед каждой репликой указано, кто говорит.\n• Ремарки — короткие пояснения в скобках: что делает герой, как говорит, где происходит действие.\n• Пьеса делится на действия (акты) и сцены.\nПьесу на сцене играют актёры."
+        }},
+        {"type": "example", "text": {
+          "tk": "Pýesadan bölek:\n(Mekdep howlusy. Säher.)\nMEREDOW: Salam, Aýgül! Sen sapaga taýynmy?\nAÝGÜL (ýylgyryp): Hawa! Men düýn agşam kitap okadym.\nMEREDOW (gamgyn): Men bolsa unutdym…\nBu ýerde ýaýyň içindäki “Mekdep howlusy. Säher.”, “ýylgyryp”, “gamgyn” — remarkalar.",
+          "ru": "Отрывок из пьесы:\n(Школьный двор. Утро.)\nМЕРЕДОВ: Привет, Айгуль! Ты готова к уроку?\nАЙГУЛЬ (улыбаясь): Да! Я вчера вечером читала книгу.\nМЕРЕДОВ (грустно): А я забыл…\nЗдесь «Школьный двор. Утро.», «улыбаясь», «грустно» в скобках — это ремарки."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Pýesada ýaýyň içinde ýazylan düşündirişe näme diýilýär?", "ru": "Как называется пояснение в скобках в пьесе?"},
+          "options": [{"tk": "remarka", "ru": "ремарка"}, {"tk": "kapiýa", "ru": "рифма"}, {"tk": "abzas", "ru": "абзац"}],
+          "answer": 0,
+          "hint": {"tk": "Bu söz “bellik” diýen manyny berýär.", "ru": "Это слово означает «пометка, замечание»."},
+          "explain": {"tk": "Remarka aktýora we režissýora gahrymanyň hereketi ýa-da ýagdaýy barada maglumat berýär.", "ru": "Ремарка подсказывает актёру и режиссёру, что делает герой и в какой обстановке."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Pýesa esasan gahrymanlaryň gepleşiginden ybarat.", "ru": "Пьеса в основном состоит из разговоров героев."},
+          "answer": true,
+          "hint": {"tk": "Sahnada aktýorlar näme edýär?", "ru": "Что делают актёры на сцене?"},
+          "explain": {"tk": "Pýesada awtoryň gürrüňi däl-de, gahrymanlaryň dialogy esasy orny tutýar.", "ru": "В пьесе главное — не рассказ автора, а диалоги героев."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Meşhur “Romeo we Julýetta” pýesasyny kim ýazypdyr?", "ru": "Кто написал знаменитую пьесу «Ромео и Джульетта»?"},
+          "options": [{"tk": "Žýul Wern", "ru": "Жюль Верн"}, {"tk": "Plutarh", "ru": "Плутарх"}, {"tk": "Uilýam Şekspir", "ru": "Уильям Шекспир"}],
+          "answer": 2,
+          "hint": {"tk": "Ol XVI–XVII asyrlarda ýaşan iňlis dramaturgy.", "ru": "Это английский драматург XVI–XVII веков."},
+          "explain": {"tk": "“Romeo we Julýettany” iňlis dramaturgy Uilýam Şekspir ýazypdyr.", "ru": "«Ромео и Джульетту» написал английский драматург Уильям Шекспир."}
+        },
+        {"type": "input",
+          "q": {"tk": "Mysaldaky pýesa böleginde näçe gahryman gepleýär? (san bilen)", "ru": "Сколько героев говорит в отрывке из примера? (цифрой)"},
+          "answer": "2",
+          "hint": {"tk": "Uly harplar bilen ýazylan atlary sanaň.", "ru": "Посчитайте имена, написанные заглавными буквами."},
+          "explain": {"tk": "Meredow we Aýgül — iki gahryman.", "ru": "Мередов и Айгуль — два героя."}
+        },
+        {"type": "world", "text": {
+          "tk": "Teatr gadymy Gresiýada döräpdir. Afinadaky Dionis teatry müňlerçe tomaşaçyny ýerleşdiripdir, onuň harabalary häzir hem saklanýar. “Teatr” sözi grekçe “tomaşa edilýän ýer” diýmegi aňladýar.",
+          "ru": "Театр зародился в Древней Греции. Театр Диониса в Афинах вмещал тысячи зрителей, его развалины сохранились до сих пор. Слово «театр» по-гречески означает «место для зрелищ»."
+        }}
+      ]
+    },
+    {
+      "id": "reading-4-choosing-a-book",
+      "grade": 4,
+      "topic": 5,
+      "title": {"tk": "Kitap saýlamak", "ru": "Как выбрать книгу"},
+      "minutes": 7,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Gowy kitap saýlamak üçin:\n• Ady we sahypasy — kitabyň daşynda ady, awtory we surat bar.\n• Annotasiýa — kitabyň arka tarapyndaky gysga beýan. Ol kitabyň näme hakdadygyny aýdýar.\n• Mazmuny — kitabyň başynda ýa-da ahyrynda bölümleriň sanawy.\n• “Bäş barmak” düzgüni: islendik sahypany açyň we okaň. Düşünmeýän sözleriňizde bir barmagyňyzy epiň. 0–1 söz — aňsat, 2–3 — laýyk, 4–5 we ondan köp — häzirlikçe kyn.",
+          "ru": "Как выбрать хорошую книгу:\n• Название и обложка — на обложке есть название, автор и рисунок.\n• Аннотация — краткое описание на обороте книги. Она говорит, о чём книга.\n• Оглавление — список глав в начале или в конце книги.\n• Правило «пяти пальцев»: откройте любую страницу и читайте. На каждом непонятном слове загибайте палец. 0–1 слово — легко, 2–3 — в самый раз, 4–5 и больше — пока трудновато."
+        }},
+        {"type": "example", "text": {
+          "tk": "Merjen kosmos barada kitap gözleýär.\n1) Kitaphana tekjesinden ady “Ýyldyzlara syýahat” bolan kitaby aldy.\n2) Annotasiýany okady: “Planetalar we ýyldyzlar hakynda gyzykly hekaýalar.” — Oňa gerek tema!\n3) Bir sahypany okady, 2 sany düşünmeýän sözi boldy — kitap oňa laýyk.\nNetije: Merjen kitaby aldy.",
+          "ru": "Мерджен ищет книгу о космосе.\n1) На полке библиотеки она нашла книгу «Путешествие к звёздам».\n2) Прочитала аннотацию: «Интересные рассказы о планетах и звёздах». — Нужная тема!\n3) Прочитала одну страницу — встретилось 2 незнакомых слова, книга ей подходит.\nИтог: Мерджен взяла книгу."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Kitabyň näme hakdadygyny gysgaça haýsy ýerden bilip bolýar?", "ru": "Где можно коротко узнать, о чём книга?"},
+          "options": [{"tk": "sahypa belgisinden", "ru": "из номера страницы"}, {"tk": "annotasiýadan", "ru": "из аннотации"}, {"tk": "kitabyň bahasyndan", "ru": "из цены книги"}],
+          "answer": 1,
+          "hint": {"tk": "Ol köplenç kitabyň arka tarapynda bolýar.", "ru": "Она обычно на обороте книги."},
+          "explain": {"tk": "Annotasiýa kitabyň mazmunyny gysgaça beýan edýär.", "ru": "Аннотация кратко описывает содержание книги."}
+        },
+        {"type": "input",
+          "q": {"tk": "“Bäş barmak” düzgüni boýunça sahypada 5 sany düşünmeýän söz boldy. Kitap aňsatmy, laýykmy ýa kynmy? (bir söz: aňsat / laýyk / kyn)", "ru": "По правилу «пяти пальцев» на странице 5 незнакомых слов. Книга лёгкая, подходящая или трудная? (одно слово: лёгкая / подходящая / трудная)"},
+          "answer": "kyn|трудная|трудно|сложная",
+          "hint": {"tk": "4–5 we ondan köp söz bolsa…", "ru": "Если 4–5 и больше слов…"},
+          "explain": {"tk": "5 söz — kitap häzirlikçe kyn. Ony biraz soňrak ýa-da ulularyň kömegi bilen okamak bolar.", "ru": "5 слов — книга пока трудная. Её можно прочитать позже или вместе со взрослым."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Mazmuny kitabyň bölümleriniň sanawyny görkezýär.", "ru": "Оглавление показывает список глав книги."},
+          "answer": true,
+          "hint": {"tk": "Mazmuny boýunça gerekli bölümi tapyp bolýar.", "ru": "По оглавлению можно найти нужную главу."},
+          "explain": {"tk": "Mazmunda bölümleriň atlary we sahypalary görkezilýär.", "ru": "В оглавлении указаны названия глав и номера страниц."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýwanlary halaýan okuwça haýsy kitap has laýyk?", "ru": "Какая книга больше подойдёт ученику, который любит животных?"},
+          "options": [
+            {"tk": "“Gündelik aşhana reseptleri”", "ru": "«Рецепты на каждый день»"},
+            {"tk": "“Awtoulag abatlaýyş gollanmasy”", "ru": "«Руководство по ремонту автомобиля»"},
+            {"tk": "“Çölüň gizlin ýaşaýjylary”", "ru": "«Тайные обитатели пустыни»"}
+          ],
+          "answer": 2,
+          "hint": {"tk": "Haýsy kitabyň ady haýwanlar bilen baglanyşykly?", "ru": "Название какой книги связано с животными?"},
+          "explain": {"tk": "“Çölüň gizlin ýaşaýjylary” çöl haýwanlary barada bolmagy ähtimal.", "ru": "«Тайные обитатели пустыни», скорее всего, рассказывает о животных пустыни."}
+        },
+        {"type": "world", "text": {
+          "tk": "Gadymy Müsürdäki Aleksandriýa kitaphanasy gadymy dünýäniň iň uly kitaphanasy bolupdyr. Häzir bolsa iň uly kitaphanalaryň biri — Waşingtondaky ABŞ Kongresiniň kitaphanasy, onda millionlarça kitap saklanýar.",
+          "ru": "Александрийская библиотека в Древнем Египте была крупнейшей библиотекой древнего мира. А сегодня одна из крупнейших библиотек — Библиотека Конгресса США в Вашингтоне, где хранятся миллионы книг."
+        }}
+      ]
+    }
+  ]
+}

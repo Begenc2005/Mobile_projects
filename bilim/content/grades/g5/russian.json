@@ -1,0 +1,243 @@
+{
+  "grade": 5,
+  "subject": "russian",
+  "lessons": [
+    {
+      "id": "russian-5-fonetika",
+      "grade": 5,
+      "topic": 0,
+      "title": {"tk": "Fonetika: sesler we harplar", "ru": "Фонетика: звуки и буквы"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Fonetika — dilin seslerini öwrenýän bölüm.\nSesi eşidýäris we aýdýarys, harpy bolsa görýäris we ýazýarys.\n\n• Rus elipbiýinde 33 harp bar.\n• 10 çekimli harp: а, о, у, э, ы, и, е, ё, ю, я.\n• Emma çekimli ses diňe 6: [а], [о], [у], [э], [ы], [и].\n• 21 çekimsiz harp bar.\n• ь we ъ harplary ses bermeýär: ь öňündäki çekimsizi ýumşadýar.\n\nе, ё, ю, я harplary sözüň başynda ýa-da çekimliden soň iki sesi berýär: я = [й'а].",
+          "ru": "Фонетика — раздел науки о языке, который изучает звуки речи.\nЗвуки мы слышим и произносим, а буквы видим и пишем.\n\n• В русском алфавите 33 буквы.\n• 10 гласных букв: а, о, у, э, ы, и, е, ё, ю, я.\n• Но гласных звуков только 6: [а], [о], [у], [э], [ы], [и].\n• 21 согласная буква.\n• Буквы ь и ъ звуков не обозначают: ь показывает мягкость предыдущего согласного.\n\nБуквы е, ё, ю, я в начале слова и после гласной обозначают два звука: я = [й'а]."}},
+        {"type": "example", "text": {
+          "tk": "Sözlerde harplary we sesleri sanalyň.\n\n• конь: к-о-н-ь — 4 harp. Sesler: [к], [о], [н'] — 3 ses (ь ses bermeýär).\n• яма: я-м-а — 3 harp. Sesler: [й'], [а], [м], [а] — 4 ses (я başda iki ses).\n• дом: 3 harp, 3 ses.\n\nNetije: harplaryň we sesleriň sany elmydama deň däl.",
+          "ru": "Посчитаем буквы и звуки в словах.\n\n• конь: к-о-н-ь — 4 буквы. Звуки: [к], [о], [н'] — 3 звука (ь звука не даёт).\n• яма: я-м-а — 3 буквы. Звуки: [й'], [а], [м], [а] — 4 звука (я в начале — два звука).\n• дом: 3 буквы, 3 звука.\n\nВывод: количество букв и звуков совпадает не всегда."}},
+        {"type": "input",
+          "q": {"tk": "«мель» sözünde näçe ses bar?", "ru": "Сколько звуков в слове «мель»?"},
+          "answer": "3",
+          "hint": {"tk": "ь harpy ses berýärmi?", "ru": "Обозначает ли буква ь звук?"},
+          "explain": {"tk": "м-е-л-ь — 4 harp, emma ь ses bermeýär: [м'], [э], [л'] — 3 ses.", "ru": "м-е-л-ь — 4 буквы, но ь звука не обозначает: [м'], [э], [л'] — 3 звука."}},
+        {"type": "choice",
+          "q": {"tk": "Haýsy harp ses bermeýär?", "ru": "Какая буква не обозначает звука?"},
+          "options": ["я", "ь", "й"],
+          "answer": 1,
+          "hint": {"tk": "Bu harp diňe ýumşaklygy görkezýär.", "ru": "Эта буква только показывает мягкость."},
+          "explain": {"tk": "Ýumşaklyk belgisi ь ses bermeýär, öňündäki çekimsiziň ýumşakdygyny görkezýär.", "ru": "Мягкий знак ь звука не обозначает, он показывает мягкость предыдущего согласного."}},
+        {"type": "truefalse",
+          "q": {"tk": "Rus dilinde 10 çekimli ses bar.", "ru": "В русском языке 10 гласных звуков."},
+          "answer": false,
+          "hint": {"tk": "Harplary we sesleri garyşdyrmaň.", "ru": "Не путайте буквы и звуки."},
+          "explain": {"tk": "Çekimli harp 10, emma çekimli ses 6: [а], [о], [у], [э], [ы], [и].", "ru": "Гласных букв 10, а гласных звуков 6: [а], [о], [у], [э], [ы], [и]."}},
+        {"type": "input",
+          "q": {"tk": "Rus elipbiýinde näçe harp bar?", "ru": "Сколько букв в русском алфавите?"},
+          "answer": "33",
+          "hint": {"tk": "Bu san 30-dan biraz köp.", "ru": "Это число чуть больше 30."},
+          "explain": {"tk": "Häzirki rus elipbiýinde 33 harp bar: 10 çekimli, 21 çekimsiz we ь, ъ.", "ru": "В современном русском алфавите 33 буквы: 10 гласных, 21 согласная и знаки ь, ъ."}},
+        {"type": "world", "text": {
+          "tk": "Rus elipbiýi kirill ýazuwyna esaslanýar. Ol IX asyrda slawýan ýazuwyny dörden doganlar Kirilliň we Mefodiniň adyna dakylypdyr. Ё harpy bolsa elipbiýe has giç — 1783-nji ýylda Ylymlar akademiýasynyň mejlisinde teklip edildi.",
+          "ru": "Русский алфавит основан на кириллице. Она названа в честь братьев Кирилла и Мефодия, создателей славянской письменности в IX веке. А букву Ё предложили гораздо позже — в 1783 году на заседании Академии наук."}}
+      ]
+    },
+    {
+      "id": "russian-5-sostav-slova",
+      "grade": 5,
+      "topic": 1,
+      "title": {"tk": "Sözüň düzümi", "ru": "Состав слова"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Rus sözi birnäçe bölekden (morfemadan) durýar:\n\n• Kök — sözüň esasy manysy. Ýakyn sözlerde kök birmeňzeş: лес, лесной, лесник.\n• Prefiks (pristawka) — kökden öň durýar: при-ехать, у-ехать.\n• Suffiks — kökden soň durýar, täze söz ýasaýar: дом-ик, учи-тель.\n• Ahyrky goşulma (okonçaniýe) — sözüň formasyny üýtgedýär: книг-а, книг-и, книг-у.\n• Esas (osnowa) — sözüň ahyrky goşulmasyz bölegi.\n\nTürkmen dilinde prefiks seýrek bolýar, rus dilinde bolsa olar köp.",
+          "ru": "Русское слово состоит из частей (морфем):\n\n• Корень — общая часть родственных слов, главный смысл: лес, лесной, лесник.\n• Приставка — стоит перед корнем: при-ехать, у-ехать.\n• Суффикс — стоит после корня и образует новые слова: дом-ик, учи-тель.\n• Окончание — изменяемая часть слова, образует его формы: книг-а, книг-и, книг-у.\n• Основа — часть слова без окончания.\n\nВ туркменском языке приставок почти нет, а в русском их очень много."}},
+        {"type": "example", "text": {
+          "tk": "«подснежник» sözüni bölekleýäris.\n\n1. Ýakyn sözler: снег, снежный → kök: -снеж- (г/ж çalşygy).\n2. Kökden öň: под- — prefiks.\n3. Kökden soň: -ник — suffiks.\n4. Sözi üýtgedýäris: подснежник-а, подснежник-и → ahyrky goşulma ýok (nol).\n\nNetije: под-снеж-ник-□, esas: подснежник.",
+          "ru": "Разберём слово «подснежник».\n\n1. Родственные слова: снег, снежный → корень -снеж- (чередование г/ж).\n2. Перед корнем: под- — приставка.\n3. После корня: -ник — суффикс.\n4. Изменяем слово: подснежник-а, подснежник-и → в начальной форме окончание нулевое.\n\nИтог: под-снеж-ник-□, основа: подснежник."}},
+        {"type": "choice",
+          "q": {"tk": "«лесник» sözüniň köki haýsy?", "ru": "Какой корень в слове «лесник»?"},
+          "options": ["лес", "лесн", "ник"],
+          "answer": 0,
+          "hint": {"tk": "Ýakyn sözleri tapyň: лес, лесной…", "ru": "Подберите родственные слова: лес, лесной…"},
+          "explain": {"tk": "лес, лесной, лесник — umumy bölek лес. -ник bolsa suffiks.", "ru": "лес, лесной, лесник — общая часть лес. А -ник — суффикс."}},
+        {"type": "input",
+          "q": {"tk": "«книга» sözüniň ahyrky goşulmasy (okonçaniýesi) haýsy harp?", "ru": "Какое окончание в слове «книга»? (одна буква)"},
+          "answer": "а|a",
+          "hint": {"tk": "Sözi üýtgediň: книги, книгу. Haýsy bölek üýtgeýär?", "ru": "Измените слово: книги, книгу. Какая часть меняется?"},
+          "explain": {"tk": "книг-а, книг-и, книг-у — üýtgeýän bölek ahyrky goşulma: -а.", "ru": "книг-а, книг-и, книг-у — меняется окончание: -а."}},
+        {"type": "truefalse",
+          "q": {"tk": "Prefiks (pristawka) kökden soň durýar.", "ru": "Приставка стоит после корня."},
+          "answer": false,
+          "hint": {"tk": "при-ехать sözüne serediň.", "ru": "Посмотрите на слово при-ехать."},
+          "explain": {"tk": "Prefiks kökden ÖŇ durýar. Kökden soň suffiks durýar.", "ru": "Приставка стоит ПЕРЕД корнем. После корня стоит суффикс."}},
+        {"type": "choice",
+          "q": {"tk": "«домик» sözüniň suffiksi haýsy?", "ru": "Какой суффикс в слове «домик»?"},
+          "options": ["до", "м", "ик"],
+          "answer": 2,
+          "hint": {"tk": "Kök — дом. Ondan soň näme galýar?", "ru": "Корень — дом. Что остаётся после него?"},
+          "explain": {"tk": "дом-ик: -ик kiçeltme suffiksi, «kiçijik öý» manysyny berýär.", "ru": "дом-ик: -ик — уменьшительный суффикс, значит «маленький дом»."}},
+        {"type": "world", "text": {
+          "tk": "XIX asyrda Wladimir Dal rus diliniň uly düşündiriş sözlügini düzdi, onda takmynan 200 müň söz bar. Dal sözleri köpüsinde elipbiý tertibinde däl-de, köki boýunça «höwürtgelere» toplady: bir köküň ähli sözleri bile durýar.",
+          "ru": "В XIX веке Владимир Даль составил «Толковый словарь живого великорусского языка» — около 200 тысяч слов. Даль во многом располагал слова не строго по алфавиту, а «гнёздами» по корню: родственные слова стоят вместе."}}
+      ]
+    },
+    {
+      "id": "russian-5-bezudarnye-glasnye",
+      "grade": 5,
+      "topic": 2,
+      "title": {"tk": "Kökdäki urgusyz çekimliler", "ru": "Безударные гласные в корне"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Rus dilinde urgy islendik bogna düşüp biler. Urgusyz çekimli aýdylyşda başgaça eşidilýär: вода sözünde [а] eşidilýär, ýöne о ýazylýar.\n\nDüzgün: kökdäki urgusyz çekimlini barlamak üçin sözi üýtgetmeli ýa-da ýakyn söz tapmaly, şonda bu çekimli urgy astyna düşsün.\n\n• вода → вóды\n• гора → гóры\n• лиса → лúсы\n\nUrgulyda näme ýazylsa, urgusyzda hem şol ýazylýar.",
+          "ru": "В русском языке ударение может падать на любой слог. Безударный гласный звучит неясно: в слове вода слышится [а], а пишется о.\n\nПравило: чтобы проверить безударный гласный в корне, нужно изменить слово или подобрать родственное так, чтобы этот гласный стал ударным.\n\n• вода → вóды\n• гора → гóры\n• лиса → лúсы\n\nКакая буква пишется под ударением, такая и без ударения."}},
+        {"type": "example", "text": {
+          "tk": "Mesele: з_мля — haýsy harp ýazylýar: е ýa-da и?\n\n1. Kök: -земл-/-зимл-?\n2. Sözi üýtgedýäris: зéмли — urgy kökdäki çekimlä düşdi.\n3. Urgulyda е eşidilýär.\n\nJogap: земля.\n\nÜns beriň: barlag sözi şol bir manydaky ýakyn söz bolmaly.",
+          "ru": "Задача: з_мля — какую букву писать: е или и?\n\n1. Корень: -земл-/-зимл-?\n2. Изменяем слово: зéмли — ударение упало на гласный корня.\n3. Под ударением слышится е.\n\nОтвет: земля.\n\nВнимание: проверочное слово должно быть родственным и близким по смыслу."}},
+        {"type": "choice",
+          "q": {"tk": "«гора» sözi üçin barlag sözi haýsy?", "ru": "Какое проверочное слово к слову «гора»?"},
+          "options": ["горе", "горы", "горизонт"],
+          "answer": 1,
+          "hint": {"tk": "Barlag sözi ýakyn manyly bolmaly, urgy kökdäki о harpyna düşmeli.", "ru": "Проверочное слово должно быть родственным, ударение — на о в корне."},
+          "explain": {"tk": "гóры — şol bir sözüň formasy, urgy kökde. горе (gaýgy) we горизонт başga manyly sözler.", "ru": "гóры — форма того же слова, ударение на корне. горе и горизонт — слова с другим значением, они не родственные."}},
+        {"type": "input",
+          "q": {"tk": "Harpy goýuň: л_сной (лес). Haýsy harp?", "ru": "Вставьте букву: л_сной (лес). Какая буква?"},
+          "answer": "е|e",
+          "hint": {"tk": "Barlag sözi ýaýyň içinde.", "ru": "Проверочное слово дано в скобках."},
+          "explain": {"tk": "лес — urgy е harpyna düşýär, şonuň üçin лесной.", "ru": "лес — под ударением е, значит лесной."}},
+        {"type": "truefalse",
+          "q": {"tk": "«трава» sözüni «травы» sözi bilen barlap bolýar.", "ru": "Слово «трава» можно проверить словом «травы»."},
+          "answer": true,
+          "hint": {"tk": "«травы» sözünde urgy nirä düşýär?", "ru": "Куда падает ударение в слове «травы»?"},
+          "explain": {"tk": "трáвы — urgy kökdäki а harpyna düşýär, diýmek трава.", "ru": "трáвы — ударение падает на а в корне, значит трава."}},
+        {"type": "choice",
+          "q": {"tk": "Harpy goýuň: д_ждливый", "ru": "Вставьте букву: д_ждливый"},
+          "options": ["а", "о", "е"],
+          "answer": 1,
+          "hint": {"tk": "Asmandan näme ýagýar? Şol sözi aýdyň.", "ru": "Что идёт с неба? Назовите это слово."},
+          "explain": {"tk": "дóждь — urgy о harpyna düşýär: дождливый.", "ru": "дóждь — под ударением о: дождливый."}},
+        {"type": "world", "text": {
+          "tk": "Moskwa sebitinde urgusyz о harpy köplenç [а] ýaly aýdylýar — muňa «akanýe» diýilýär. Russiýanyň demirgazyk gepleşiklerinde bolsa urgusyz о hem [о] ýaly aýdylýar — bu «okanýe». Edebi dil Moskwa aýdylyşyna esaslanýar, şonuň üçin barlag düzgüni gerek.",
+          "ru": "В Москве и вокруг неё безударное о произносится как [а] — это называется «аканье». А в северных русских говорах безударное о звучит как [о] — «оканье». Литературное произношение основано на московском, поэтому правило проверки так нужно."}}
+      ]
+    },
+    {
+      "id": "russian-5-spryazhenie",
+      "grade": 5,
+      "topic": 3,
+      "title": {"tk": "Işligiň üýtgeýşi (spräženiýe)", "ru": "Спряжение глагола"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Işlik häzirki we geljek zamanda ýöňkeme we san boýunça üýtgeýär. Muňa spräženiýe diýilýär. Iki görnüşi bar:\n\n• I spräženiýe goşulmalary: -у/-ю, -ешь, -ет, -ем, -ете, -ут/-ют.\n• II spräženiýe goşulmalary: -у/-ю, -ишь, -ит, -им, -ите, -ат/-ят.\n\nII spräženiýä degişli:\n• -ить bilen gutarýan işlikleriň hemmesi (брить, стелить mundan çykýar);\n• 7 sany -еть işlik: смотреть, видеть, ненавидеть, терпеть, обидеть, зависеть, вертеть;\n• 4 sany -ать işlik: гнать, держать, дышать, слышать.\nGalanlarynyň hemmesi — I spräženiýe.",
+          "ru": "Глагол в настоящем и будущем времени изменяется по лицам и числам. Это называется спряжением. Есть два спряжения:\n\n• I спряжение: -у/-ю, -ешь, -ет, -ем, -ете, -ут/-ют.\n• II спряжение: -у/-ю, -ишь, -ит, -им, -ите, -ат/-ят.\n\nКо II спряжению относятся:\n• все глаголы на -ить (кроме брить, стелить);\n• 7 глаголов на -еть: смотреть, видеть, ненавидеть, терпеть, обидеть, зависеть, вертеть;\n• 4 глагола на -ать: гнать, держать, дышать, слышать.\nВсе остальные — I спряжение."}},
+        {"type": "example", "text": {
+          "tk": "читать (I) we говорить (II) işliklerini üýtgedýäris:\n\n• я чита-ю — я говор-ю\n• ты чита-ешь — ты говор-ишь\n• он чита-ет — он говор-ит\n• мы чита-ем — мы говор-им\n• вы чита-ете — вы говор-ите\n• они чита-ют — они говор-ят\n\nGoşulmanyň urgusyz wagty, haýsy harpy ýazmalydygyny näbelli formadan (-ть) anyklaýarys.",
+          "ru": "Проспрягаем читать (I) и говорить (II):\n\n• я чита-ю — я говор-ю\n• ты чита-ешь — ты говор-ишь\n• он чита-ет — он говор-ит\n• мы чита-ем — мы говор-им\n• вы чита-ете — вы говор-ите\n• они чита-ют — они говор-ят\n\nЕсли окончание безударное, спряжение определяем по неопределённой форме (на -ть)."}},
+        {"type": "choice",
+          "q": {"tk": "Haýsy işlik II spräženiýä degişli?", "ru": "Какой глагол относится ко II спряжению?"},
+          "options": ["писать", "играть", "строить"],
+          "answer": 2,
+          "hint": {"tk": "-ить bilen gutarýan işligi gözläň.", "ru": "Ищите глагол на -ить."},
+          "explain": {"tk": "строить -ить bilen gutarýar we kadadan çykma däl → II spräženiýe.", "ru": "строить оканчивается на -ить и не является исключением → II спряжение."}},
+        {"type": "input",
+          "q": {"tk": "Harpy goýuň: он пиш_т (писать)", "ru": "Вставьте букву: он пиш_т (писать)"},
+          "answer": "е|e",
+          "hint": {"tk": "писать — -ать, emma kadadan çykmalaryň sanawynda barmy?", "ru": "писать — на -ать, но есть ли он среди 4 исключений?"},
+          "explain": {"tk": "писать — I spräženiýe, şonuň üçin -ет: он пишет.", "ru": "писать — I спряжение, поэтому окончание -ет: он пишет."}},
+        {"type": "truefalse",
+          "q": {"tk": "«видеть» işligi I spräženiýä degişli.", "ru": "Глагол «видеть» относится к I спряжению."},
+          "answer": false,
+          "hint": {"tk": "7 sany -еть kadadan çykmany ýadyňyza salyň.", "ru": "Вспомните 7 исключений на -еть."},
+          "explain": {"tk": "видеть — kadadan çykma, II spräženiýe: ты видишь, они видят.", "ru": "видеть — исключение, II спряжение: ты видишь, они видят."}},
+        {"type": "input",
+          "q": {"tk": "Harpy goýuň: они слыш_т (слышать)", "ru": "Вставьте букву: они слыш_т (слышать)"},
+          "answer": "а|a",
+          "hint": {"tk": "слышать — 4 sany -ать kadadan çykmanyň biri.", "ru": "слышать — одно из 4 исключений на -ать."},
+          "explain": {"tk": "слышать — II spräženiýe, köplükde -ат/-ят: они слышат.", "ru": "слышать — II спряжение, во множественном числе -ат/-ят: они слышат."}},
+        {"type": "world", "text": {
+          "tk": "Käbir rus işliklerinde birinji ýöňkemäniň birlik sanynda formasy ýok. Mysal üçin, «победить» işliginden «я победю» ýa-da «я побежу» diýlip aýdylmaýar. Rus dilinde gürleýänler ýerine «я одержу победу» ýa-da «я смогу победить» diýýärler.",
+          "ru": "У некоторых русских глаголов нет формы 1-го лица единственного числа. Например, от глагола «победить» не говорят ни «победю», ни «побежу». Вместо этого говорят «я одержу победу» или «я смогу победить». Такие глаголы называют недостаточными."}}
+      ]
+    },
+    {
+      "id": "russian-5-slovosochetanie",
+      "grade": 5,
+      "topic": 4,
+      "title": {"tk": "Söz düzümi (slowosoçetaniýe)", "ru": "Словосочетание"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Söz düzümi — many we grammatika taýdan baglanyşykly iki ýa-da birnäçe söz.\n\n• Onda baş söz we garaşly söz bolýar.\n• Baş sözden garaşly söze sorag berilýär.\n• Mysal: читать (что?) книгу; красивый (какой?) ← цветок: цветок (какой?) красивый.\n\nSöz düzümi DÄL:\n• eýe bilen habar: Мама пришла (bu sözlemiň grammatik esasy);\n• predlog bilen at: в лесу;\n• birjynsly agzalar: мама и папа.",
+          "ru": "Словосочетание — это два или несколько слов, связанных по смыслу и грамматически.\n\n• В нём есть главное и зависимое слово.\n• От главного слова к зависимому задаётся вопрос.\n• Пример: читать (что?) книгу; цветок (какой?) красивый.\n\nНЕ являются словосочетаниями:\n• подлежащее со сказуемым: Мама пришла (это грамматическая основа);\n• предлог с существительным: в лесу;\n• однородные члены: мама и папа."}},
+        {"type": "example", "text": {
+          "tk": "Sözlem: Мальчик читает интересную книгу.\n\n1. Grammatik esas: мальчик читает — bu söz düzümi däl.\n2. читает (что?) книгу — söz düzümi, baş söz: читает.\n3. книгу (какую?) интересную — söz düzümi, baş söz: книгу.\n\nNetije: bu sözlemde 2 söz düzümi bar.",
+          "ru": "Предложение: Мальчик читает интересную книгу.\n\n1. Грамматическая основа: мальчик читает — это не словосочетание.\n2. читает (что?) книгу — словосочетание, главное слово: читает.\n3. книгу (какую?) интересную — словосочетание, главное слово: книгу.\n\nИтог: в предложении 2 словосочетания."}},
+        {"type": "truefalse",
+          "q": {"tk": "«Мальчик бежит» — söz düzümi.", "ru": "«Мальчик бежит» — это словосочетание."},
+          "answer": false,
+          "hint": {"tk": "Bu sözlemiň haýsy agzalary?", "ru": "Какие это члены предложения?"},
+          "explain": {"tk": "мальчик — eýe, бежит — habar. Olar grammatik esas, söz düzümi däl.", "ru": "мальчик — подлежащее, бежит — сказуемое. Это грамматическая основа, а не словосочетание."}},
+        {"type": "choice",
+          "q": {"tk": "«красивый цветок» söz düzüminde baş söz haýsy?", "ru": "Какое главное слово в словосочетании «красивый цветок»?"},
+          "options": ["красивый", "цветок", {"tk": "baş söz ýok", "ru": "главного слова нет"}],
+          "answer": 1,
+          "hint": {"tk": "Haýsy sözden sorag berip bolýar: какой?", "ru": "От какого слова можно задать вопрос «какой?»"},
+          "explain": {"tk": "цветок (какой?) красивый — sorag цветок sözünden berilýär, diýmek ol baş söz.", "ru": "цветок (какой?) красивый — вопрос задаём от слова цветок, значит оно главное."}},
+        {"type": "choice",
+          "q": {"tk": "Haýsysy söz düzümi?", "ru": "Что из этого является словосочетанием?"},
+          "options": ["пить воду", "в лесу", "мама пришла"],
+          "answer": 0,
+          "hint": {"tk": "Baş söz we garaşly söz bolmaly, eýe-habar bolmaly däl.", "ru": "Нужны главное и зависимое слово, а не подлежащее со сказуемым."},
+          "explain": {"tk": "пить (что?) воду — söz düzümi. в лесу — predlog bilen at, мама пришла — grammatik esas.", "ru": "пить (что?) воду — словосочетание. в лесу — предлог с существительным, мама пришла — грамматическая основа."}},
+        {"type": "input",
+          "q": {"tk": "«идти в школу»: идти (…?) в школу. Haýsy sorag? (bir söz)", "ru": "«идти в школу»: идти (…?) в школу. Какой вопрос? (одно слово)"},
+          "answer": "куда|куда?",
+          "hint": {"tk": "Bu sorag ugry (nirä?) görkezýär.", "ru": "Этот вопрос обозначает направление."},
+          "explain": {"tk": "идти (куда?) в школу — sorag «куда?», ýagny «nirä?».", "ru": "идти (куда?) в школу — вопрос «куда?»."}},
+        {"type": "world", "text": {
+          "tk": "Käbir söz düzümleri dilde bitewi, durnukly aňlatma bolup galypdyr — olara frazeologizmler diýilýär. Mysal üçin, «бить баклуши» hiç zat etmän wagt geçirmek diýmegi aňladýar. Gadym wagtda «баклуши» — çemçe ýasamak üçin agaç bölejikleri; olary taýýarlamak iň ýeňil iş hasaplanypdyr.",
+          "ru": "Некоторые словосочетания превратились в устойчивые выражения — фразеологизмы. Например, «бить баклуши» значит бездельничать. Баклуши — это чурки для изготовления деревянных ложек; заготовить их считалось самой лёгкой работой."}}
+      ]
+    },
+    {
+      "id": "russian-5-tekst-i-tema",
+      "grade": 5,
+      "topic": 5,
+      "title": {"tk": "Tekst we onuň temasy", "ru": "Текст и его тема"},
+      "minutes": 7,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Tekst — birnäçe sözlemden durýan, bir tema we pikir bilen baglanyşykly bitewi bölek.\n\n• Tema — tekstde NÄME ýa-da KIM hakda gürrüň edilýär.\n• Esasy pikir — awtor NÄME aýtmak isleýär, näme öwredýär.\n• Sözbaşy köplenç temany ýa-da esasy pikiri görkezýär.\n\nTekstdäki sözlemler tertipli ýerleşýär we biri-biri bilen baglanyşýar. Garyşyk sözlemler tekst däl.",
+          "ru": "Текст — это несколько предложений, связанных одной темой и основной мыслью.\n\n• Тема — О ЧЁМ или О КОМ говорится в тексте.\n• Основная мысль — ЧТО хочет сказать автор, чему он учит.\n• Заголовок часто отражает тему или основную мысль.\n\nПредложения в тексте стоят в определённом порядке и связаны между собой. Набор случайных предложений — не текст."}},
+        {"type": "example", "text": {
+          "tk": "Teksti okaň:\n«Осенью птицы улетают на юг. Им холодно и мало корма. Весной они возвращаются домой.»\n\n1. Tema: guşlaryň göçüşi (о перелёте птиц).\n2. Esasy pikir: guşlar sowukdan we açlykdan gaçyp, ýylyň belli wagtynda göçýärler.\n3. Laýyk sözbaşy: «Перелётные птицы».",
+          "ru": "Прочитайте текст:\n«Осенью птицы улетают на юг. Им холодно и мало корма. Весной они возвращаются домой.»\n\n1. Тема: о перелёте птиц.\n2. Основная мысль: птицы улетают от холода и голода и весной возвращаются.\n3. Подходящий заголовок: «Перелётные птицы»."}},
+        {"type": "choice",
+          "q": {"tk": "Tekstiň temasy näme?", "ru": "Что такое тема текста?"},
+          "options": [
+            {"tk": "tekstdäki iň uzyn sözlem", "ru": "самое длинное предложение текста"},
+            {"tk": "tekstde näme hakda gürrüň edilýändigi", "ru": "то, о чём говорится в тексте"},
+            {"tk": "awtoryň ady", "ru": "имя автора"}
+          ],
+          "answer": 1,
+          "hint": {"tk": "Soraga jogap berýär: näme hakda?", "ru": "Отвечает на вопрос: о чём?"},
+          "explain": {"tk": "Tema — tekstiň näme ýa-da kim hakdadygy.", "ru": "Тема — это то, о чём или о ком текст."}},
+        {"type": "truefalse",
+          "q": {"tk": "Biri-biri bilen baglanyşyksyz sözlemler hem tekst bolup bilýär.", "ru": "Не связанные между собой предложения тоже образуют текст."},
+          "answer": false,
+          "hint": {"tk": "Tekstde umumy tema bolmaly.", "ru": "У текста должна быть общая тема."},
+          "explain": {"tk": "Tekstiň sözlemleri bir tema we pikir bilen baglanyşykly bolmaly.", "ru": "Предложения текста связаны общей темой и мыслью, иначе это не текст."}},
+        {"type": "choice",
+          "q": {"tk": "«Кошка Мурка любит спать на окне. Днём она греется на солнце, а вечером ловит мышей.» Haýsy sözbaşy laýyk?", "ru": "«Кошка Мурка любит спать на окне. Днём она греется на солнце, а вечером ловит мышей.» Какой заголовок подходит?"},
+          "options": ["Наша кошка Мурка", "Зимний лес", "Как ловить рыбу"],
+          "answer": 0,
+          "hint": {"tk": "Tekst kim hakda?", "ru": "О ком этот текст?"},
+          "explain": {"tk": "Tekst pişik Murka hakda, şonuň üçin «Наша кошка Мурка» laýyk.", "ru": "Текст о кошке Мурке, поэтому подходит «Наша кошка Мурка»."}},
+        {"type": "world", "text": {
+          "tk": "«Tekst» sözi latyn dilindäki textus sözünden gelýär, ol «dokalan mata, örülen zat» diýmegi aňladýar. Hakykatdanam, gowy tekstde sözlemler mata sapaklary ýaly biri-birine örülip baglanyşýar.",
+          "ru": "Слово «текст» происходит от латинского textus — «ткань, сплетение». И правда: в хорошем тексте предложения переплетены и связаны, как нити в ткани."}}
+      ]
+    }
+  ]
+}

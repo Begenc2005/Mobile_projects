@@ -1,0 +1,285 @@
+{
+  "grade": 2,
+  "subject": "math",
+  "lessons": [
+    {
+      "id": "math-2-numbers-to-100",
+      "grade": 2,
+      "topic": 0,
+      "title": {"tk": "100-e çenli sanlar", "ru": "Числа до 100"},
+      "minutes": 7,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Biz 100-e çenli sanap bilýäris! 💯\n• Iki belgili sanlar: 10-dan 99-a çenli.\n• Her sanyň goňşulary bar: öňki we soňky san. 46-nyň goňşulary — 45 we 47.\n• Sanlary deňeşdirýäris: > (uly), < (kiçi), = (deň).\n• 100 — ilkinji üç belgili san.",
+          "ru": "Мы умеем считать до 100! 💯\n• Двузначные числа: от 10 до 99.\n• У каждого числа есть соседи: предыдущее и следующее. Соседи 46 — это 45 и 47.\n• Числа сравниваем знаками: > (больше), < (меньше), = (равно).\n• 100 — первое трёхзначное число."
+        }},
+        {"type": "example", "text": {
+          "tk": "Haýsy san uly: 58 ýa-da 85?\n1) Ilki onluklary deňeşdirýäris: 58-de 5 onluk, 85-de 8 onluk.\n2) 8 > 5, diýmek 85 uly.\nJogap: 58 < 85.\nEger onluklar deň bolsa (43 we 47), birliklere seredýäris: 3 < 7, diýmek 43 < 47.",
+          "ru": "Какое число больше: 58 или 85?\n1) Сначала сравниваем десятки: в 58 — 5 десятков, в 85 — 8 десятков.\n2) 8 > 5, значит 85 больше.\nОтвет: 58 < 85.\nЕсли десятки равны (43 и 47), смотрим на единицы: 3 < 7, значит 43 < 47."
+        }},
+        {"type": "input",
+          "q": {"tk": "69-dan soň haýsy san gelýär?", "ru": "Какое число идёт после 69?"},
+          "answer": "70",
+          "hint": {"tk": "9 birlige ýene 1 goşsaň, täze onluk bolýar.", "ru": "Если к 9 единицам добавить 1, получится новый десяток."},
+          "explain": {"tk": "69 + 1 = 70. Soňky san — 70.", "ru": "69 + 1 = 70. Следующее число — 70."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy ýazgy dogry?", "ru": "Какая запись верна?"},
+          "options": ["72 > 27", "72 < 27", "72 = 27"],
+          "answer": 0,
+          "hint": {"tk": "Onluklary deňeşdir: 7 we 2.", "ru": "Сравни десятки: 7 и 2."},
+          "explain": {"tk": "72-de 7 onluk, 27-de 2 onluk. 7 > 2, şonuň üçin 72 > 27.", "ru": "В 72 — 7 десятков, в 27 — 2 десятка. 7 > 2, поэтому 72 > 27."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "100 — iki belgili san.", "ru": "100 — двузначное число."},
+          "answer": false,
+          "hint": {"tk": "100 sanynda näçe sifr bar?", "ru": "Сколько цифр в записи 100?"},
+          "explain": {"tk": "100 üç sifrden ybarat: 1, 0, 0. Ol üç belgili san.", "ru": "100 записывается тремя цифрами: 1, 0, 0. Это трёхзначное число."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy san 50 bilen 60-yň arasynda?", "ru": "Какое число между 50 и 60?"},
+          "options": ["49", "61", "54"],
+          "answer": 2,
+          "hint": {"tk": "Ol 5 onlukdan başlanmaly.", "ru": "Оно должно начинаться с 5 десятков."},
+          "explain": {"tk": "54 — 50-den uly, 60-dan kiçi. 49 we 61 aralykdan daşarda.", "ru": "54 больше 50 и меньше 60. 49 и 61 — вне промежутка."}
+        },
+        {"type": "world", "text": {
+          "tk": "Biz sanlary 10-luk bilen sanaýarys, sebäbi elimizde 10 barmak bar 🖐️🖐️. Gadymy Wawilonda bolsa 60-lyk bilen sanapdyrlar. Şonuň üçin häzir hem bir sagatda 60 minut, bir minutda 60 sekunt bar!",
+          "ru": "Мы считаем десятками, потому что у нас 10 пальцев 🖐️🖐️. А в древнем Вавилоне считали шестидесятками. Поэтому до сих пор в часе 60 минут, а в минуте 60 секунд!"
+        }}
+      ]
+    },
+    {
+      "id": "math-2-tens-and-ones",
+      "grade": 2,
+      "topic": 1,
+      "title": {"tk": "Onluklar we birlikler", "ru": "Десятки и единицы"},
+      "minutes": 7,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "10 birlik = 1 onluk. 📦 = 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹\nIki belgili sanda:\n• çepdäki sifr — onluklar;\n• sagdaky sifr — birlikler.\n35 = 3 onluk we 5 birlik = 30 + 5.",
+          "ru": "10 единиц = 1 десяток. 📦 = 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹\nВ двузначном числе:\n• левая цифра — десятки;\n• правая цифра — единицы.\n35 = 3 десятка и 5 единиц = 30 + 5."
+        }},
+        {"type": "example", "text": {
+          "tk": "Bizde 4 gutujyk galam bar, her birinde 10 galam ✏️. Ýene 7 galam aýry ýatyr.\n• 4 gutujyk = 4 onluk = 40.\n• Aýry galamlar = 7 birlik.\n• Jemi: 40 + 7 = 47 galam.",
+          "ru": "У нас 4 коробки карандашей, в каждой по 10 ✏️. И ещё 7 карандашей лежат отдельно.\n• 4 коробки = 4 десятка = 40.\n• Отдельные карандаши = 7 единиц.\n• Всего: 40 + 7 = 47 карандашей."
+        }},
+        {"type": "input",
+          "q": {"tk": "6 onluk we 2 birlik — bu haýsy san?", "ru": "6 десятков и 2 единицы — какое это число?"},
+          "answer": "62",
+          "hint": {"tk": "Onluklar çepde, birlikler sagda.", "ru": "Десятки слева, единицы справа."},
+          "explain": {"tk": "60 + 2 = 62.", "ru": "60 + 2 = 62."}
+        },
+        {"type": "choice",
+          "q": {"tk": "58 sanynda näçe onluk bar?", "ru": "Сколько десятков в числе 58?"},
+          "options": ["8", "5", "58"],
+          "answer": 1,
+          "hint": {"tk": "Çepdäki sifre seret.", "ru": "Посмотри на левую цифру."},
+          "explain": {"tk": "58 = 50 + 8. Onluklar — 5, birlikler — 8.", "ru": "58 = 50 + 8. Десятков — 5, единиц — 8."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "90 = 9 onluk we 0 birlik.", "ru": "90 = 9 десятков и 0 единиц."},
+          "answer": true,
+          "hint": {"tk": "Sagdaky sifr 0.", "ru": "Правая цифра — 0."},
+          "explain": {"tk": "Dogry: 90 = 90 + 0. Birlik ýok.", "ru": "Верно: 90 = 90 + 0. Единиц нет."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy ýazgy 73 sanyna deň?", "ru": "Какая запись равна числу 73?"},
+          "options": ["7 + 3", "30 + 7", "70 + 3"],
+          "answer": 2,
+          "hint": {"tk": "7 onluk näçe bolýar?", "ru": "Сколько будет 7 десятков?"},
+          "explain": {"tk": "73 = 7 onluk (70) we 3 birlik: 70 + 3.", "ru": "73 = 7 десятков (70) и 3 единицы: 70 + 3."}
+        },
+        {"type": "world", "text": {
+          "tk": "Sanlary ýazmak üçin bize diňe 10 sifr gerek: 0-dan 9-a çenli. Bu usuly Hindistanda oýlap tapypdyrlar. Soň ol arap alymlary arkaly Ýewropa ýetipdir. Şonuň üçin bu sifrlere köplenç «arap sifrleri» diýilýär.",
+          "ru": "Чтобы записать любое число, нужно всего 10 цифр: от 0 до 9. Этот способ придумали в Индии. Потом через арабских учёных он попал в Европу. Поэтому такие цифры часто называют «арабскими»."
+        }}
+      ]
+    },
+    {
+      "id": "math-2-add-subtract-100",
+      "grade": 2,
+      "topic": 2,
+      "title": {"tk": "100-e çenli goşmak we aýyrmak", "ru": "Сложение и вычитание до 100"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Iki belgili sanlary goşanymyzda we aýyranymyzda:\n• onluklary — onluklar bilen;\n• birlikleri — birlikler bilen.\nEger birlikler 10-dan geçse, 10 birlik täze onluk bolýar.\nAýyranyňda birlik ýetmese, 1 onlugy 10 birlige çalyşýarys.",
+          "ru": "Когда складываем и вычитаем двузначные числа:\n• десятки — с десятками;\n• единицы — с единицами.\nЕсли единиц стало 10 и больше, 10 единиц становятся новым десятком.\nЕсли при вычитании единиц не хватает, меняем 1 десяток на 10 единиц."
+        }},
+        {"type": "example", "text": {
+          "tk": "1) 34 + 25:\n• onluklar: 30 + 20 = 50\n• birlikler: 4 + 5 = 9\n• jemi: 50 + 9 = 59\n2) 38 + 27:\n• onluklar: 30 + 20 = 50\n• birlikler: 8 + 7 = 15 = 1 onluk we 5\n• jemi: 50 + 15 = 65\n3) 52 − 17:\n• 52 − 10 = 42\n• 42 − 7 = 35",
+          "ru": "1) 34 + 25:\n• десятки: 30 + 20 = 50\n• единицы: 4 + 5 = 9\n• всего: 50 + 9 = 59\n2) 38 + 27:\n• десятки: 30 + 20 = 50\n• единицы: 8 + 7 = 15 = 1 десяток и 5\n• всего: 50 + 15 = 65\n3) 52 − 17:\n• 52 − 10 = 42\n• 42 − 7 = 35"
+        }},
+        {"type": "input",
+          "q": {"tk": "43 + 36 = ?", "ru": "43 + 36 = ?"},
+          "answer": "79",
+          "hint": {"tk": "40 + 30 we 3 + 6.", "ru": "40 + 30 и 3 + 6."},
+          "explain": {"tk": "40 + 30 = 70, 3 + 6 = 9. 70 + 9 = 79.", "ru": "40 + 30 = 70, 3 + 6 = 9. 70 + 9 = 79."}
+        },
+        {"type": "input",
+          "q": {"tk": "61 − 24 = ?", "ru": "61 − 24 = ?"},
+          "answer": "37",
+          "hint": {"tk": "Ilki 20-ni aýyr, soň 4-i.", "ru": "Сначала вычти 20, потом 4."},
+          "explain": {"tk": "61 − 20 = 41, 41 − 4 = 37.", "ru": "61 − 20 = 41, 41 − 4 = 37."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Sebetde 28 alma bar 🍎. Ýene 15 alma goýdular. Näçe alma boldy?", "ru": "В корзине 28 яблок 🍎. Положили ещё 15. Сколько стало?"},
+          "options": ["33", "43", "313"],
+          "answer": 1,
+          "hint": {"tk": "8 + 5 = 13 — bu 1 onluk we 3.", "ru": "8 + 5 = 13 — это 1 десяток и 3."},
+          "explain": {"tk": "20 + 10 = 30, 8 + 5 = 13. 30 + 13 = 43.", "ru": "20 + 10 = 30, 8 + 5 = 13. 30 + 13 = 43."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "100 − 45 = 55", "ru": "100 − 45 = 55"},
+          "answer": true,
+          "hint": {"tk": "Barlag: 55 + 45 näçe?", "ru": "Проверка: сколько 55 + 45?"},
+          "explain": {"tk": "Dogry: 55 + 45 = 100, diýmek 100 − 45 = 55.", "ru": "Верно: 55 + 45 = 100, значит 100 − 45 = 55."}
+        },
+        {"type": "world", "text": {
+          "tk": "Nemes matematigi Karl Fridrih Gauss barada gürrüň bar: mugallym çagalara 1-den 100-e çenli ähli sanlary goşmagy tabşyrypdyr. Kiçijik Gauss jübütleri goşupdyr: 1 + 100, 2 + 99, 3 + 98... Her jübüt 101 berýär, jübüt bolsa 50 sany. Jogap: 5050!",
+          "ru": "О немецком математике Карле Фридрихе Гауссе рассказывают: учитель задал классу сложить все числа от 1 до 100. Маленький Гаусс складывал пары: 1 + 100, 2 + 99, 3 + 98... Каждая пара даёт 101, а пар — 50. Ответ: 5050!"
+        }}
+      ]
+    },
+    {
+      "id": "math-2-what-is-multiplication",
+      "grade": 2,
+      "topic": 3,
+      "title": {"tk": "Köpeltmek näme?", "ru": "Что такое умножение"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Köpeltmek — deň sanlary gysgaça goşmak.\n🍎🍎🍎 + 🍎🍎🍎 = 3 + 3 = 6\nMuny şeýle ýazýarys: 3 · 2 = 6 (3-i 2 gezek alýarys).\n• · ýa-da × — köpeltmek belgisi.\n• Sanlaryň ornuny çalşyrsaň, netije üýtgemeýär: 3 · 2 = 2 · 3 = 6.",
+          "ru": "Умножение — это быстрый способ сложить одинаковые числа.\n🍎🍎🍎 + 🍎🍎🍎 = 3 + 3 = 6\nЗаписываем так: 3 · 2 = 6 (берём 3 два раза).\n• · или × — знак умножения.\n• От перестановки множителей результат не меняется: 3 · 2 = 2 · 3 = 6."
+        }},
+        {"type": "example", "text": {
+          "tk": "Her tabakda 4 sany köke bar, tabak bolsa 3 sany 🍪.\n🍪🍪🍪🍪\n🍪🍪🍪🍪\n🍪🍪🍪🍪\nGoşmak bilen: 4 + 4 + 4 = 12.\nKöpeltmek bilen: 4 · 3 = 12.\nJogap: 12 köke.",
+          "ru": "На каждой тарелке 4 печенья, а тарелок 3 🍪.\n🍪🍪🍪🍪\n🍪🍪🍪🍪\n🍪🍪🍪🍪\nСложением: 4 + 4 + 4 = 12.\nУмножением: 4 · 3 = 12.\nОтвет: 12 печений."
+        }},
+        {"type": "choice",
+          "q": {"tk": "5 + 5 + 5 jemini köpeltmek bilen nädip ýazmaly?", "ru": "Как записать 5 + 5 + 5 умножением?"},
+          "options": ["5 · 5", "5 · 3", "3 + 5"],
+          "answer": 1,
+          "hint": {"tk": "5 näçe gezek gaýtalanýar?", "ru": "Сколько раз повторяется 5?"},
+          "explain": {"tk": "5 üç gezek: 5 · 3 = 15.", "ru": "5 повторяется три раза: 5 · 3 = 15."}
+        },
+        {"type": "input",
+          "q": {"tk": "Bir pişigiň 4 aýagy bar 🐱. 2 pişigiň näçe aýagy bar?", "ru": "У кошки 4 лапы 🐱. Сколько лап у 2 кошек?"},
+          "answer": "8",
+          "hint": {"tk": "4 · 2 = 4 + 4.", "ru": "4 · 2 = 4 + 4."},
+          "explain": {"tk": "4 · 2 = 8 aýak.", "ru": "4 · 2 = 8 лап."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "2 · 6 we 6 · 2 deň.", "ru": "2 · 6 и 6 · 2 равны."},
+          "answer": true,
+          "hint": {"tk": "Ornuny çalşyrmak düzgünini ýatla.", "ru": "Вспомни переместительное правило."},
+          "explain": {"tk": "Dogry: ikisi hem 12. 2 + 2 + 2 + 2 + 2 + 2 = 6 + 6 = 12.", "ru": "Верно: оба равны 12. 2 + 2 + 2 + 2 + 2 + 2 = 6 + 6 = 12."}
+        },
+        {"type": "input",
+          "q": {"tk": "10 · 3 = ?", "ru": "10 · 3 = ?"},
+          "answer": "30",
+          "hint": {"tk": "10 + 10 + 10.", "ru": "10 + 10 + 10."},
+          "explain": {"tk": "3 onluk = 30.", "ru": "3 десятка = 30."}
+        },
+        {"type": "world", "text": {
+          "tk": "Köpeltmek tablisasyny Pifagoryň tablisasy hem diýýärler. Ýöne iň gadymy köpeltmek tablisalarynyň biri Hytaýda tapyldy. Ol bambuk taýajyklarynda ýazylan we takmynan 2300 ýyl öň ýasalan!",
+          "ru": "Таблицу умножения называют ещё таблицей Пифагора. Но одна из самых древних таблиц умножения найдена в Китае. Она записана на бамбуковых дощечках, и ей около 2300 лет!"
+        }}
+      ]
+    },
+    {
+      "id": "math-2-time-clock",
+      "grade": 2,
+      "topic": 4,
+      "title": {"tk": "Wagt we sagat", "ru": "Время и часы"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Sagadyň iki diltigi bar 🕒:\n• Gysga diltik — sagady görkezýär.\n• Uzyn diltik — minudy görkezýär.\nÝatda sakla:\n• 1 sagat = 60 minut\n• 1 gije-gündiz = 24 sagat\n• 1 hepde = 7 gün\nUzyn diltik 12-de bolsa — tegelek sagat. 6-da bolsa — ýarym sagat (30 minut).",
+          "ru": "У часов две стрелки 🕒:\n• Короткая стрелка показывает часы.\n• Длинная стрелка показывает минуты.\nЗапомни:\n• 1 час = 60 минут\n• 1 сутки = 24 часа\n• 1 неделя = 7 дней\nДлинная стрелка на 12 — ровно столько-то часов. На 6 — половина часа (30 минут)."
+        }},
+        {"type": "example", "text": {
+          "tk": "1) Gysga diltik 3-de, uzyn diltik 12-de 🕒 → sagat 3:00.\n2) Gysga diltik 7 bilen 8-iň arasynda, uzyn diltik 6-da 🕢 → sagat 7:30.\n3) Sapak 9:00-da başlanýar we 45 minut dowam edýär. Ol 9:45-de gutarýar.",
+          "ru": "1) Короткая стрелка на 3, длинная на 12 🕒 → 3:00.\n2) Короткая стрелка между 7 и 8, длинная на 6 🕢 → 7:30.\n3) Урок начинается в 9:00 и длится 45 минут. Он заканчивается в 9:45."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Bir sagatda näçe minut bar?", "ru": "Сколько минут в одном часе?"},
+          "options": ["100", "24", "60"],
+          "answer": 2,
+          "hint": {"tk": "Uzyn diltik bir aýlanýança...", "ru": "Пока длинная стрелка делает полный круг..."},
+          "explain": {"tk": "1 sagat = 60 minut.", "ru": "1 час = 60 минут."}
+        },
+        {"type": "input",
+          "q": {"tk": "Multfilm 4:00-da başlady we 30 minut dowam etdi 📺. Ol haçan gutardy? (meselem 5:15)", "ru": "Мультфильм начался в 4:00 и шёл 30 минут 📺. Когда он закончился? (например 5:15)"},
+          "answer": "4:30",
+          "hint": {"tk": "4:00-a 30 minut goş.", "ru": "Прибавь 30 минут к 4:00."},
+          "explain": {"tk": "4:00 + 30 minut = 4:30.", "ru": "4:00 + 30 минут = 4:30."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Gysga diltik minutlary görkezýär.", "ru": "Короткая стрелка показывает минуты."},
+          "answer": false,
+          "hint": {"tk": "Haýsy diltik çalt aýlanýar?", "ru": "Какая стрелка движется быстрее?"},
+          "explain": {"tk": "Ýalňyş: gysga diltik — sagady, uzyn diltik — minudy görkezýär.", "ru": "Неверно: короткая показывает часы, длинная — минуты."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Bir hepdede näçe gün bar? 📅", "ru": "Сколько дней в неделе? 📅"},
+          "options": ["7", "5", "10"],
+          "answer": 0,
+          "hint": {"tk": "Duşenbe, sişenbe, çarşenbe...", "ru": "Понедельник, вторник, среда..."},
+          "explain": {"tk": "Hepdede 7 gün: duşenbe, sişenbe, çarşenbe, penşenbe, anna, şenbe, ýekşenbe.", "ru": "В неделе 7 дней: понедельник, вторник, среда, четверг, пятница, суббота, воскресенье."}
+        },
+        {"type": "world", "text": {
+          "tk": "Londondaky meşhur «Big Ben» — aslynda sagadyň däl, onuň içindäki uly jaňyň ady 🔔. Bu sagat 1859-njy ýyldan bäri işleýär, onuň minut diltigi 4 metrden uzyn!",
+          "ru": "Знаменитый лондонский «Биг-Бен» — это на самом деле имя не часов, а большого колокола внутри башни 🔔. Часы работают с 1859 года, а их минутная стрелка длиннее 4 метров!"
+        }}
+      ]
+    },
+    {
+      "id": "math-2-length-units",
+      "grade": 2,
+      "topic": 5,
+      "title": {"tk": "Uzynlyk ölçegleri", "ru": "Меры длины"},
+      "minutes": 7,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Uzynlygy çyzgyç bilen ölçeýäris 📏.\n• santimetr (sm) — kiçi zatlar üçin: galam, kitap.\n• metr (m) — uly zatlar üçin: otag, gapy.\n• 1 m = 100 sm\n• 1 sm = 10 mm (millimetr)\nElimizdäki kiçi barmagyň dyrnagynyň ini takmynan 1 sm.",
+          "ru": "Длину измеряем линейкой 📏.\n• сантиметр (см) — для маленьких вещей: карандаш, книга.\n• метр (м) — для больших: комната, дверь.\n• 1 м = 100 см\n• 1 см = 10 мм (миллиметров)\nШирина ногтя на мизинце — примерно 1 см."
+        }},
+        {"type": "example", "text": {
+          "tk": "Galamyň uzynlygy 15 sm, öçürgiçiň uzynlygy 4 sm ✏️.\n• Bilelikde: 15 + 4 = 19 sm.\n• Galam näçe uzyn: 15 − 4 = 11 sm.\nÖlçänimizde çyzgyjyň 0-yndan başlaýarys!",
+          "ru": "Длина карандаша 15 см, ластика — 4 см ✏️.\n• Вместе: 15 + 4 = 19 см.\n• Насколько карандаш длиннее: 15 − 4 = 11 см.\nИзмеряя, начинаем с 0 на линейке!"
+        }},
+        {"type": "input",
+          "q": {"tk": "1 metrde näçe santimetr bar?", "ru": "Сколько сантиметров в 1 метре?"},
+          "answer": "100",
+          "hint": {"tk": "«Santi» — «ýüzden bir» diýmek.", "ru": "«Санти» значит «сотая часть»."},
+          "explain": {"tk": "1 m = 100 sm.", "ru": "1 м = 100 см."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Synp otagynyň uzynlygyny haýsy ölçeg bilen ölçemek amatly?", "ru": "В чём удобнее измерить длину класса?"},
+          "options": [{"tk": "millimetr", "ru": "в миллиметрах"}, {"tk": "metr", "ru": "в метрах"}, {"tk": "santimetr", "ru": "в сантиметрах"}],
+          "answer": 1,
+          "hint": {"tk": "Otag uly.", "ru": "Класс большой."},
+          "explain": {"tk": "Uly aralyklar metr bilen ölçenýär: otag takmynan 8–10 m.", "ru": "Большие расстояния измеряют в метрах: класс примерно 8–10 м."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "1 sm = 10 mm.", "ru": "1 см = 10 мм."},
+          "answer": true,
+          "hint": {"tk": "Çyzgyçdaky kiçi çyzyklary sana.", "ru": "Посчитай маленькие чёрточки на линейке."},
+          "explain": {"tk": "Dogry: 1 santimetrde 10 millimetr bar.", "ru": "Верно: в 1 сантиметре 10 миллиметров."}
+        },
+        {"type": "input",
+          "q": {"tk": "Lenta 50 sm. Ondan 18 sm kesdiler. Näçe sm galdy?", "ru": "Лента 50 см. От неё отрезали 18 см. Сколько см осталось?"},
+          "answer": "32",
+          "hint": {"tk": "50 − 10, soň − 8.", "ru": "50 − 10, потом − 8."},
+          "explain": {"tk": "50 − 18 = 32 sm.", "ru": "50 − 18 = 32 см."}
+        },
+        {"type": "world", "text": {
+          "tk": "Metr Fransiýada XVIII asyryň ahyrynda oýlanyp tapyldy. Ol Ýeriň meridianynyň uzynlygyndan hasaplanypdy. Häzir metri ýagtylyk bilen kesgitleýärler: ýagtylyk wakuumda bir sekundyň 299 792 458-den bir bölegine geçýän ýoly — 1 metr.",
+          "ru": "Метр придумали во Франции в конце XVIII века. Его вычислили по длине земного меридиана. Сейчас метр определяют через свет: это путь, который свет проходит в вакууме за 1/299 792 458 долю секунды."
+        }}
+      ]
+    }
+  ]
+}

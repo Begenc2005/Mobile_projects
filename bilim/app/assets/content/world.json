@@ -1,0 +1,3018 @@
+{
+ "id": "world",
+ "icon": "🌳",
+ "color": "#5C940D",
+ "title": {
+  "tk": "Daşky dünýä",
+  "ru": "Окружающий мир"
+ },
+ "lessons": [
+  {
+   "id": "world-1-me-and-my-family",
+   "grade": 1,
+   "title": {
+    "tk": "Men we maşgalam",
+    "ru": "Я и моя семья"
+   },
+   "minutes": 6,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Maşgala — bu iň ýakyn adamlar. 👨‍👩‍👧‍👦\nMaşgalada kimler bar?\n• Ejem 👩 we kakam 👨\n• Doganlarym: agam, aýal doganym, jigim 👦👧\n• Enem 👵 we atam 👴\nMaşgalada hemmeler biri-birini söýýär. ❤️\nHemmeler biri-birine kömek edýär. 🤝",
+      "ru": "Семья — это самые близкие люди. 👨‍👩‍👧‍👦\nКто есть в семье?\n• Мама 👩 и папа 👨\n• Братья и сёстры 👦👧\n• Бабушка 👵 и дедушка 👴\nВ семье все любят друг друга. ❤️\nВсе помогают друг другу. 🤝"
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Aýna 6 ýaşynda. 👧\nOnuň öýünde: ejesi 👩, kakasy 👨, agasy 👦 we enesi 👵.\nSanalyň: 👩 👨 👦 👵 — 4 adam.\nAýnanyň özi hem bar! 👧\n4 + 1 = 5.\nAýnanyň maşgalasynda 5 adam bar.",
+      "ru": "Айне 6 лет. 👧\nДома у неё: мама 👩, папа 👨, старший брат 👦 и бабушка 👵.\nСчитаем: 👩 👨 👦 👵 — 4 человека.\nИ сама Айна тоже! 👧\n4 + 1 = 5.\nВ семье Айны 5 человек."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Ejeňiň ejesi saňa kim bolýar?",
+      "ru": "Мама твоей мамы — кто она тебе?"
+     },
+     "options": [
+      {
+       "tk": "Agaň",
+       "ru": "Брат"
+      },
+      {
+       "tk": "Eneň",
+       "ru": "Бабушка"
+      },
+      {
+       "tk": "Jigiň",
+       "ru": "Сестрёнка"
+      }
+     ],
+     "answer": 1,
+     "hint": {
+      "tk": "Ol ejeňden hem uly.",
+      "ru": "Она старше твоей мамы."
+     },
+     "explain": {
+      "tk": "Ejeňiň ejesi — seniň eneň. 👵",
+      "ru": "Мама твоей мамы — твоя бабушка. 👵"
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Maşgala: 👨 👩 👧 👦 👦. Näçe adam bar?",
+      "ru": "Семья: 👨 👩 👧 👦 👦. Сколько человек?"
+     },
+     "answer": "5",
+     "hint": {
+      "tk": "Her suraty barmagyň bilen sana.",
+      "ru": "Посчитай каждую картинку пальцем."
+     },
+     "explain": {
+      "tk": "1, 2, 3, 4, 5. Maşgalada 5 adam bar.",
+      "ru": "1, 2, 3, 4, 5. В семье 5 человек."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Öý işine diňe ulular kömek edýär.",
+      "ru": "Дома помогают только взрослые."
+     },
+     "answer": false,
+     "hint": {
+      "tk": "Sen hem bir zat edip bilýärmiň?",
+      "ru": "А ты тоже можешь что-то сделать?"
+     },
+     "explain": {
+      "tk": "Çagalar hem kömek edip bilýär: oýnawaçlaryny ýygnaýar, saçak düzýär. 🧸🍽",
+      "ru": "Дети тоже помогают: убирают игрушки, накрывают на стол. 🧸🍽"
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Kakaň ogly, ýöne senden uly. Ol kim?",
+      "ru": "Сын твоего папы, но старше тебя. Кто он?"
+     },
+     "options": [
+      {
+       "tk": "Jigiň",
+       "ru": "Младший брат"
+      },
+      {
+       "tk": "Ataň",
+       "ru": "Дедушка"
+      },
+      {
+       "tk": "Agaň",
+       "ru": "Старший брат"
+      }
+     ],
+     "answer": 2,
+     "hint": {
+      "tk": "Ol seniň doganyň. Ol senden uly.",
+      "ru": "Это твой брат. Он старше тебя."
+     },
+     "explain": {
+      "tk": "Senden uly erkek dogan — agaň. 👦",
+      "ru": "Брат, который старше тебя, — старший брат. 👦"
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Pilleriň hem maşgalasy bar! 🐘\nPiller topar bolup ýaşaýar. Topary iň uly we iň tejribeli ene pil ýolbaşçylyk edýär. Ol suwy we iýmiti nirede tapmalydygyny bilýär.",
+      "ru": "У слонов тоже есть семья! 🐘\nСлоны живут семейными группами. Группу ведёт самая старшая и опытная слониха. Она знает, где найти воду и еду."
+     }
+    }
+   ]
+  },
+  {
+   "id": "world-1-school",
+   "grade": 1,
+   "title": {
+    "tk": "Mekdep",
+    "ru": "Школа"
+   },
+   "minutes": 6,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Mekdepde biz okamagy, ýazmagy we sanamagy öwrenýäris. 🏫📖✏️\nBize mugallym öwredýär. 👩‍🏫\nSapakdan soň arakesme bolýar. Jaň kakylýar. 🔔\nMekdep düzgünleri:\n• Sapaga wagtynda gel. ⏰\n• Mugallym gürlände diňle. 👂\n• Sorag bermek isleseň, eliňi göter. ✋\n• Synpdaşlaryňa hormat goý. 🤝",
+      "ru": "В школе мы учимся читать, писать и считать. 🏫📖✏️\nНас учит учитель. 👩‍🏫\nПосле урока бывает перемена. Звенит звонок. 🔔\nПравила школы:\n• Приходи на урок вовремя. ⏰\n• Слушай, когда говорит учитель. 👂\n• Хочешь спросить — подними руку. ✋\n• Уважай одноклассников. 🤝"
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Bu gün 4 sapak bar. 📚📚📚📚\nSapaklaryň arasynda arakesme bolýar:\nsapak — arakesme — sapak — arakesme — sapak — arakesme — sapak.\nArakesmeleri sanalyň: 1, 2, 3.\nBu gün 3 arakesme bar.",
+      "ru": "Сегодня 4 урока. 📚📚📚📚\nМежду уроками бывают перемены:\nурок — перемена — урок — перемена — урок — перемена — урок.\nСчитаем перемены: 1, 2, 3.\nСегодня 3 перемены."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Synpda sorag bermek isleseň näme etmeli?",
+      "ru": "Что делать, если хочешь задать вопрос на уроке?"
+     },
+     "options": [
+      {
+       "tk": "Gygyrmaly",
+       "ru": "Кричать"
+      },
+      {
+       "tk": "Eliňi götermeli ✋",
+       "ru": "Поднять руку ✋"
+      },
+      {
+       "tk": "Ylgamaly",
+       "ru": "Бегать по классу"
+      }
+     ],
+     "answer": 1,
+     "hint": {
+      "tk": "Mekdep düzgünlerini ýatla.",
+      "ru": "Вспомни правила школы."
+     },
+     "explain": {
+      "tk": "Eliňi göterseň, mugallym seni görýär we saňa söz berýär.",
+      "ru": "Когда ты поднимаешь руку, учитель видит тебя и даёт слово."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Arakesmede dynç alyp bolýar.",
+      "ru": "На перемене можно отдохнуть."
+     },
+     "answer": true,
+     "hint": {
+      "tk": "Arakesme näme üçin gerek?",
+      "ru": "Зачем нужна перемена?"
+     },
+     "explain": {
+      "tk": "Hawa! Arakesmede dynç alýarys we indiki sapaga taýýarlanýarys.",
+      "ru": "Да! На перемене мы отдыхаем и готовимся к следующему уроку."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Synpda 9 gyz we 8 oglan bar. Jemi näçe okuwçy?",
+      "ru": "В классе 9 девочек и 8 мальчиков. Сколько всего учеников?"
+     },
+     "answer": "17",
+     "hint": {
+      "tk": "9-a 8-i goş.",
+      "ru": "Сложи 9 и 8."
+     },
+     "explain": {
+      "tk": "9 + 8 = 17. Synpda 17 okuwçy bar.",
+      "ru": "9 + 8 = 17. В классе 17 учеников."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Mekdepde kim sapak berýär?",
+      "ru": "Кто ведёт уроки в школе?"
+     },
+     "options": [
+      {
+       "tk": "Mugallym 👩‍🏫",
+       "ru": "Учитель 👩‍🏫"
+      },
+      {
+       "tk": "Aşpez 👨‍🍳",
+       "ru": "Повар 👨‍🍳"
+      },
+      {
+       "tk": "Sürüji 🚌",
+       "ru": "Водитель 🚌"
+      }
+     ],
+     "answer": 0,
+     "hint": {
+      "tk": "Ol synpda tagtanyň ýanynda durýar.",
+      "ru": "Он стоит у доски в классе."
+     },
+     "explain": {
+      "tk": "Sapagy mugallym berýär. Aşpez nahar bişirýär, sürüji awtobus sürýär.",
+      "ru": "Урок ведёт учитель. Повар готовит еду, водитель водит автобус."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Dünýäde iň köne işleýän okuw jaýy Marokkoda, Fes şäherinde ýerleşýär. 🏛\nOny 859-njy ýylda Fatima al-Fihri atly aýal açypdyr. Ol häzir hem işleýär!",
+      "ru": "Старейшее действующее учебное заведение мира находится в Марокко, в городе Фес. 🏛\nЕго основала женщина по имени Фатима аль-Фихри в 859 году. Оно работает до сих пор!"
+     }
+    }
+   ]
+  },
+  {
+   "id": "world-1-seasons",
+   "grade": 1,
+   "title": {
+    "tk": "Ýylyň pasyllary",
+    "ru": "Времена года"
+   },
+   "minutes": 6,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Ýylda 4 pasyl bar:\n• Gyş ❄️ — sowuk, käte gar ýagýar.\n• Ýaz 🌷 — güller açylýar, guşlar gaýdyp gelýär.\n• Tomus ☀️ — yssy, miweler bişýär.\n• Güýz 🍂 — ýapraklar saralýar we gaçýar.\nPasyllar hemişe şu tertipde gelýär:\ngyş → ýaz → tomus → güýz → ýene gyş.",
+      "ru": "В году 4 времени года:\n• Зима ❄️ — холодно, иногда идёт снег.\n• Весна 🌷 — расцветают цветы, возвращаются птицы.\n• Лето ☀️ — жарко, созревают фрукты.\n• Осень 🍂 — листья желтеют и опадают.\nВремена года всегда идут по порядку:\nзима → весна → лето → осень → снова зима."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Her pasylda 3 aý bar.\nGyş — 3 aý, ýaz — 3 aý, tomus — 3 aý, güýz — 3 aý.\n3 + 3 + 3 + 3 = 12.\nDiýmek, ýylda 12 aý bar. 📅",
+      "ru": "В каждом времени года 3 месяца.\nЗима — 3 месяца, весна — 3, лето — 3, осень — 3.\n3 + 3 + 3 + 3 = 12.\nЗначит, в году 12 месяцев. 📅"
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Haýsy pasylda gar ýagýar? ☃️",
+      "ru": "В какое время года идёт снег? ☃️"
+     },
+     "options": [
+      {
+       "tk": "Tomus",
+       "ru": "Летом"
+      },
+      {
+       "tk": "Ýaz",
+       "ru": "Весной"
+      },
+      {
+       "tk": "Gyş",
+       "ru": "Зимой"
+      }
+     ],
+     "answer": 2,
+     "hint": {
+      "tk": "Bu iň sowuk pasyl.",
+      "ru": "Это самое холодное время года."
+     },
+     "explain": {
+      "tk": "Gar gyşda ýagýar, sebäbi gyşda howa sowuk bolýar. ❄️",
+      "ru": "Снег идёт зимой, потому что зимой холодно. ❄️"
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Ýazdan soň tomus gelýär.",
+      "ru": "После весны наступает лето."
+     },
+     "answer": true,
+     "hint": {
+      "tk": "Tertibi ýatla: gyş → ýaz → …",
+      "ru": "Вспомни порядок: зима → весна → …"
+     },
+     "explain": {
+      "tk": "Dogry: gyş → ýaz → tomus → güýz.",
+      "ru": "Верно: зима → весна → лето → осень."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Ýylda näçe pasyl bar?",
+      "ru": "Сколько времён года в году?"
+     },
+     "answer": "4",
+     "hint": {
+      "tk": "Gyş, ýaz, … sanap gör.",
+      "ru": "Зима, весна, … посчитай."
+     },
+     "explain": {
+      "tk": "Gyş, ýaz, tomus, güýz — 4 pasyl.",
+      "ru": "Зима, весна, лето, осень — 4 времени года."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Ýapraklar saralyp gaçýar. 🍂 Bu haýsy pasyl?",
+      "ru": "Листья желтеют и опадают. 🍂 Какое это время года?"
+     },
+     "options": [
+      {
+       "tk": "Güýz",
+       "ru": "Осень"
+      },
+      {
+       "tk": "Ýaz",
+       "ru": "Весна"
+      },
+      {
+       "tk": "Tomus",
+       "ru": "Лето"
+      }
+     ],
+     "answer": 0,
+     "hint": {
+      "tk": "Bu pasyl tomusdan soň gelýär.",
+      "ru": "Это время года наступает после лета."
+     },
+     "explain": {
+      "tk": "Güýzde ýapraklar sary we gyzyl bolýar, soň gaçýar. 🍁",
+      "ru": "Осенью листья становятся жёлтыми и красными, потом опадают. 🍁"
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Bizde tomus bolanda, Awstraliýada gyş bolýar! 🇦🇺\nSebäbi Awstraliýa Ýer şarynyň beýleki — günorta ýarymynda ýerleşýär. Ol ýerde Täze ýyl tomusda bellenýär. ☀️🎄",
+      "ru": "Когда у нас лето, в Австралии зима! 🇦🇺\nПотому что Австралия находится в другой — южной — половине Земли. Там Новый год встречают летом. ☀️🎄"
+     }
+    }
+   ]
+  },
+  {
+   "id": "world-1-domestic-animals",
+   "grade": 1,
+   "title": {
+    "tk": "Öý haýwanlary",
+    "ru": "Домашние животные"
+   },
+   "minutes": 6,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Öý haýwanlary adamyň ýanynda ýaşaýar. Adam olara iýmit berýär we ideg edýär.\n• It 🐕 — öýi goraýar.\n• Pişik 🐈 — syçan tutýar.\n• Sygyr 🐄 — süýt berýär.\n• Goýun 🐑 — ýüň berýär.\n• Towuk 🐔 — ýumurtga berýär.\n• At 🐎 — oňa münýärler. Ahalteke aty — türkmen bedewi!\n• Düýe 🐪 — çölde ýük göterýär, çal berýär.\nMöjek, tilki, aýy — ýabany haýwanlar. Olar tokaýda, çölde, dagda ýaşaýar.",
+      "ru": "Домашние животные живут рядом с человеком. Человек кормит их и заботится о них.\n• Собака 🐕 — охраняет дом.\n• Кошка 🐈 — ловит мышей.\n• Корова 🐄 — даёт молоко.\n• Овца 🐑 — даёт шерсть.\n• Курица 🐔 — несёт яйца.\n• Лошадь 🐎 — на ней ездят. Ахалтекинская лошадь — туркменский скакун!\n• Верблюд 🐪 — возит грузы в пустыне, даёт молоко (чал).\nВолк, лиса, медведь — дикие животные. Они живут в лесу, пустыне, горах."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Fermada: 🐄🐄🐄 we 🐑🐑🐑🐑.\nSygyr — 3, goýun — 4.\n3 + 4 = 7.\nFermada 7 haýwan bar.",
+      "ru": "На ферме: 🐄🐄🐄 и 🐑🐑🐑🐑.\nКоров — 3, овец — 4.\n3 + 4 = 7.\nНа ферме 7 животных."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Kim bize süýt berýär? 🥛",
+      "ru": "Кто даёт нам молоко? 🥛"
+     },
+     "options": [
+      {
+       "tk": "Pişik 🐈",
+       "ru": "Кошка 🐈"
+      },
+      {
+       "tk": "Sygyr 🐄",
+       "ru": "Корова 🐄"
+      },
+      {
+       "tk": "Towuk 🐔",
+       "ru": "Курица 🐔"
+      }
+     ],
+     "answer": 1,
+     "hint": {
+      "tk": "Bu uly haýwan, ol «mö-ö» diýýär.",
+      "ru": "Это большое животное, оно говорит «му-у»."
+     },
+     "explain": {
+      "tk": "Sygyr süýt berýär. Towuk ýumurtga berýär, pişik syçan tutýar.",
+      "ru": "Корова даёт молоко. Курица несёт яйца, а кошка ловит мышей."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "🐔🐔🐔🐔🐔 we ýene 🐔🐔🐔. Näçe towuk?",
+      "ru": "🐔🐔🐔🐔🐔 и ещё 🐔🐔🐔. Сколько куриц?"
+     },
+     "answer": "8",
+     "hint": {
+      "tk": "5-e 3-i goş.",
+      "ru": "Сложи 5 и 3."
+     },
+     "explain": {
+      "tk": "5 + 3 = 8 towuk.",
+      "ru": "5 + 3 = 8 куриц."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Möjek — öý haýwany.",
+      "ru": "Волк — домашнее животное."
+     },
+     "answer": false,
+     "hint": {
+      "tk": "Möjek adamyň öýünde ýaşaýarmy?",
+      "ru": "Живёт ли волк в доме у человека?"
+     },
+     "explain": {
+      "tk": "Möjek — ýabany haýwan. Ol tebigatda ýaşaýar we iýmitini özi tapýar. 🐺",
+      "ru": "Волк — дикое животное. Он живёт на природе и сам добывает еду. 🐺"
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Haýsy haýwan çölde köp gün suwsuz ýöräp bilýär?",
+      "ru": "Какое животное может много дней идти по пустыне без воды?"
+     },
+     "options": [
+      {
+       "tk": "Pişik",
+       "ru": "Кошка"
+      },
+      {
+       "tk": "Towuk",
+       "ru": "Курица"
+      },
+      {
+       "tk": "Düýe",
+       "ru": "Верблюд"
+      }
+     ],
+     "answer": 2,
+     "hint": {
+      "tk": "Onuň arkasynda örküç bar. 🐪",
+      "ru": "У него на спине горб. 🐪"
+     },
+     "explain": {
+      "tk": "Düýe çölde ýaşamaga öwrenişen. Örküjinde ýag saklanýar, ol köp gün suwsuz çydap bilýär.",
+      "ru": "Верблюд приспособлен к пустыне. В горбу хранится жир, и он может много дней обходиться без воды."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "It — adamyň iň ilkinji öwreden haýwany. 🐕\nAlymlar itleriň adam bilen müňlerçe ýyl mundan ozal dostlaşandygyny aýdýarlar. Şondan bäri it adamyň iň wepaly dosty.",
+      "ru": "Собака — самое первое животное, которое приручил человек. 🐕\nУчёные считают, что собаки подружились с людьми много тысяч лет назад. С тех пор собака — самый верный друг человека."
+     }
+    }
+   ]
+  },
+  {
+   "id": "world-1-plants",
+   "grade": 1,
+   "title": {
+    "tk": "Ösümlikler",
+    "ru": "Растения"
+   },
+   "minutes": 6,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Ösümlik hem janly! Ol ösýär. 🌱\nÖsümligiň bölekleri:\n• Kök — topragyň içinde, suwy içýär.\n• Baldak — ösümligi dik saklaýar.\n• Ýaprak 🍃 — Gün şöhlesini tutýar.\n• Gül 🌸 — owadan, ondan miwe bolýar.\n• Miwe 🍎 — içinde tohum bar.\nÖsümlige näme gerek?\n• Suw 💧\n• Gün şöhlesi ☀️\n• Howa 🌬\n• Toprak 🟫",
+      "ru": "Растение тоже живое! Оно растёт. 🌱\nЧасти растения:\n• Корень — в земле, пьёт воду.\n• Стебель — держит растение прямо.\n• Лист 🍃 — ловит солнечный свет.\n• Цветок 🌸 — красивый, из него получается плод.\n• Плод 🍎 — внутри семена.\nЧто нужно растению?\n• Вода 💧\n• Солнечный свет ☀️\n• Воздух 🌬\n• Почва 🟫"
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Tohumdan alma agajy nähili ösýär?\n1. Tohumy topraga ekýäris. 🌰\n2. Suw berýäris. 💧\n3. Nahal çykýar. 🌱\n4. Agaç ulalýar. 🌳\n5. Gül açýar. 🌸\n6. Alma bolýar! 🍎\nAlmanyň içinde täze tohumlar bar.",
+      "ru": "Как из семечка вырастает яблоня?\n1. Сажаем семечко в землю. 🌰\n2. Поливаем. 💧\n3. Появляется росток. 🌱\n4. Дерево растёт. 🌳\n5. Оно цветёт. 🌸\n6. Появляется яблоко! 🍎\nВнутри яблока — новые семена."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Ösümligiň haýsy bölegi topragyň içinde?",
+      "ru": "Какая часть растения находится в земле?"
+     },
+     "options": [
+      {
+       "tk": "Ýaprak",
+       "ru": "Лист"
+      },
+      {
+       "tk": "Gül",
+       "ru": "Цветок"
+      },
+      {
+       "tk": "Kök",
+       "ru": "Корень"
+      }
+     ],
+     "answer": 2,
+     "hint": {
+      "tk": "Bu bölek suwy içýär.",
+      "ru": "Эта часть пьёт воду."
+     },
+     "explain": {
+      "tk": "Kök topragyň içinde. Ol suwy içýär we ösümligi berk saklaýar.",
+      "ru": "Корень находится в земле. Он пьёт воду и крепко держит растение."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Ösümlige suw gerek däl.",
+      "ru": "Растению не нужна вода."
+     },
+     "answer": false,
+     "hint": {
+      "tk": "Gül suwarylmasa näme bolar? 🥀",
+      "ru": "Что будет с цветком, если его не поливать? 🥀"
+     },
+     "explain": {
+      "tk": "Suwsuz ösümlik solýar. Ösümlige suw hökman gerek. 💧",
+      "ru": "Без воды растение вянет. Вода растению обязательно нужна. 💧"
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Bir gülde 5 gülýaprak bar. 🌸🌸 Iki gülde näçe gülýaprak?",
+      "ru": "У одного цветка 5 лепестков. 🌸🌸 Сколько лепестков у двух цветков?"
+     },
+     "answer": "10",
+     "hint": {
+      "tk": "5 + 5 = ?",
+      "ru": "5 + 5 = ?"
+     },
+     "explain": {
+      "tk": "5 + 5 = 10 gülýaprak.",
+      "ru": "5 + 5 = 10 лепестков."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Almanyň içinde näme bar? 🍎",
+      "ru": "Что есть внутри яблока? 🍎"
+     },
+     "options": [
+      {
+       "tk": "Tohum",
+       "ru": "Семена"
+      },
+      {
+       "tk": "Daş",
+       "ru": "Камень"
+      },
+      {
+       "tk": "Gum",
+       "ru": "Песок"
+      }
+     ],
+     "answer": 0,
+     "hint": {
+      "tk": "Ondan täze agaç ösüp çykyp biler.",
+      "ru": "Из этого может вырасти новое дерево."
+     },
+     "explain": {
+      "tk": "Almanyň içinde tohum bar. Tohumdan täze alma agajy ösýär.",
+      "ru": "Внутри яблока семена. Из семечка вырастает новая яблоня."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Dünýäde iň beýik agaçlar ABŞ-nyň Kaliforniýa ştatynda ösýän gyzyl agaçlar (sekwoýalar). 🌲\nOlaryň käbiri 100 metrden hem beýik — uly köp gatly jaýdan hem beýik!",
+      "ru": "Самые высокие деревья в мире — секвойи (красное дерево) в Калифорнии, США. 🌲\nНекоторые из них выше 100 метров — выше большого многоэтажного дома!"
+     }
+    }
+   ]
+  },
+  {
+   "id": "world-1-health-hygiene",
+   "grade": 1,
+   "title": {
+    "tk": "Saglyk we arassaçylyk",
+    "ru": "Здоровье и гигиена"
+   },
+   "minutes": 6,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Sagdyn bolmak üçin:\n• Nahardan öň we hajathanadan soň elleriňi sabynlap ýuw. 🧼\n• Dişleriňi irden we agşam arassala. 🪥\n• Miwe we gök önüm iý. 🍎🥕\n• Suw iç. 💧\n• Köp hereket et, oýna. ⚽\n• Ir ýat we gowy uka. 😴\nArassa eller — sagdyn beden!",
+      "ru": "Чтобы быть здоровым:\n• Мой руки с мылом перед едой и после туалета. 🧼\n• Чисти зубы утром и вечером. 🪥\n• Ешь фрукты и овощи. 🍎🥕\n• Пей воду. 💧\n• Больше двигайся, играй. ⚽\n• Ложись спать рано и высыпайся. 😴\nЧистые руки — здоровое тело!"
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Elleri nähili ýuwmaly?\n1. Elleriňi suw bilen öl. 💧\n2. Sabyn al. 🧼\n3. Elleriňi sürt we 20-ä çenli sana: 1, 2, 3 … 20.\n4. Köpügi suw bilen ýuw.\n5. Arassa süpürgiç bilen gurat.\nTaýýar! Elleriň arassa. ✨",
+      "ru": "Как правильно мыть руки?\n1. Намочи руки водой. 💧\n2. Возьми мыло. 🧼\n3. Три руки и считай до 20: 1, 2, 3 … 20.\n4. Смой пену водой.\n5. Вытри чистым полотенцем.\nГотово! Руки чистые. ✨"
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Elleri haçan ýuwmaly?",
+      "ru": "Когда нужно мыть руки?"
+     },
+     "options": [
+      {
+       "tk": "Diňe ýatmazdan öň",
+       "ru": "Только перед сном"
+      },
+      {
+       "tk": "Nahardan öň",
+       "ru": "Перед едой"
+      },
+      {
+       "tk": "Hiç haçan",
+       "ru": "Никогда"
+      }
+     ],
+     "answer": 1,
+     "hint": {
+      "tk": "Biz nahary ellerimiz bilen alýarys.",
+      "ru": "Мы берём еду руками."
+     },
+     "explain": {
+      "tk": "Nahardan öň el ýuwmaly. Şonda mikroblar agzymyza düşmeýär.",
+      "ru": "Руки нужно мыть перед едой. Тогда микробы не попадут в рот."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Dişleri günde näçe gezek arassalamaly? 🪥",
+      "ru": "Сколько раз в день нужно чистить зубы? 🪥"
+     },
+     "answer": "2",
+     "hint": {
+      "tk": "Irden we …",
+      "ru": "Утром и …"
+     },
+     "explain": {
+      "tk": "Irden we agşam — günde 2 gezek.",
+      "ru": "Утром и вечером — 2 раза в день."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Köp süýji iýmek dişlere peýdaly.",
+      "ru": "Есть много сладкого полезно для зубов."
+     },
+     "answer": false,
+     "hint": {
+      "tk": "Konfetden soň dişlere näme bolýar?",
+      "ru": "Что бывает с зубами от конфет?"
+     },
+     "explain": {
+      "tk": "Köp süýji dişleri zaýalaýar. Süýjüden soň agzyňy çaýka we dişleriňi arassala.",
+      "ru": "Много сладкого портит зубы. После сладкого полощи рот и чисти зубы."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Haýsysy saglyga has peýdaly?",
+      "ru": "Что полезнее для здоровья?"
+     },
+     "options": [
+      {
+       "tk": "Konfet 🍬",
+       "ru": "Конфета 🍬"
+      },
+      {
+       "tk": "Gazly içgi 🥤",
+       "ru": "Газировка 🥤"
+      },
+      {
+       "tk": "Käşir 🥕",
+       "ru": "Морковь 🥕"
+      }
+     ],
+     "answer": 2,
+     "hint": {
+      "tk": "Bu gök önüm.",
+      "ru": "Это овощ."
+     },
+     "explain": {
+      "tk": "Käşir — gök önüm. Onda witaminler köp. 🥕",
+      "ru": "Морковь — овощ. В ней много витаминов. 🥕"
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "1840-njy ýyllarda Wenada (Awstriýa) lukman Ignaz Zemmelweýs bir möhüm zady açdy. 👨‍⚕️\nLukmanlar näsaga golaýlaşmazdan öň ellerini ýuwanlarynda, näsaglar has az kesel bolupdyr. Şondan bäri el ýuwmak saglygyň esasy düzgüni.",
+      "ru": "В 1840-х годах в Вене (Австрия) врач Игнац Земмельвейс сделал важное открытие. 👨‍⚕️\nКогда врачи мыли руки перед осмотром больных, люди болели намного меньше. С тех пор мытьё рук — главное правило здоровья."
+     }
+    }
+   ]
+  },
+  {
+   "id": "world-2-human-body",
+   "grade": 2,
+   "title": {
+    "tk": "Adamyň bedeni",
+    "ru": "Тело человека"
+   },
+   "minutes": 8,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Biziň bedenimiz köp bölekden durýar 🙋\n• Kelle, boýun, göwre, eller we aýaklar.\n• Içimizde ýürek ❤️, öýken 🫁 we beýni 🧠 bar.\nÝürek gany bütin bedene ýetirýär.\nÖýken bilen dem alýarys.\nBeýni bütin bedeni dolandyrýar.\nBedeniň içinde süňkler bar 🦴. Olar bedeni berk saklaýar.",
+      "ru": "Наше тело состоит из многих частей 🙋\n• Голова, шея, туловище, руки и ноги.\n• Внутри у нас есть сердце ❤️, лёгкие 🫁 и мозг 🧠.\nСердце гонит кровь по всему телу.\nЛёгкими мы дышим.\nМозг управляет всем телом.\nВнутри тела есть кости 🦴. Они делают тело крепким."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Mysal: sen ylgaýarsyň 🏃\n1. Aýaklaryň we elleriň hereket edýär.\n2. Ýüregiň çalt urup başlaýar ❤️.\n3. Sen tiz-tiz dem alýarsyň — öýkeniň köp howa alýar 🫁.\n4. Beýniň hemme zady dolandyrýar: haýsy aýagyňy götermelidigini hem ol aýdýar 🧠.",
+      "ru": "Пример: ты бежишь 🏃\n1. Двигаются ноги и руки.\n2. Сердце начинает биться быстрее ❤️.\n3. Ты часто дышишь — лёгкие набирают много воздуха 🫁.\n4. Мозг всем управляет: даже какую ногу поднять, решает он 🧠."
+     }
+    },
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Bizde bäş duýgy bar:\n👀 Göz bilen görýäris.\n👂 Gulak bilen eşidýäris.\n👃 Burun bilen ys alýarys.\n👅 Dil bilen tagamy duýýarys.\n✋ Deri bilen yssyny, sowugy, gatyny we ýumşagy duýýarys.",
+      "ru": "У нас пять чувств:\n👀 Глазами мы видим.\n👂 Ушами слышим.\n👃 Носом чувствуем запахи.\n👅 Языком чувствуем вкус.\n✋ Кожей чувствуем горячее и холодное, твёрдое и мягкое."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Biz haýsy organ bilen dem alýarys?",
+      "ru": "Каким органом мы дышим?"
+     },
+     "options": [
+      {
+       "tk": "Ýürek",
+       "ru": "Сердце"
+      },
+      {
+       "tk": "Öýken",
+       "ru": "Лёгкие"
+      },
+      {
+       "tk": "Aşgazan",
+       "ru": "Желудок"
+      }
+     ],
+     "answer": 1,
+     "hint": {
+      "tk": "Ylganyňda ol köp howa alýar.",
+      "ru": "Когда бежишь, он набирает много воздуха."
+     },
+     "explain": {
+      "tk": "Öýken howany içine alýar we çykarýar. Ýürek bolsa gany sorýar.",
+      "ru": "Лёгкие вдыхают и выдыхают воздух. А сердце качает кровь."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Adamda näçe duýgy bar? San bilen ýaz.",
+      "ru": "Сколько чувств у человека? Напиши число."
+     },
+     "answer": "5",
+     "hint": {
+      "tk": "Göz, gulak, burun... ýene-de sana.",
+      "ru": "Глаза, уши, нос... считай дальше."
+     },
+     "explain": {
+      "tk": "Görmek, eşitmek, ys almak, tagam duýmak we deri bilen duýmak — jemi 5.",
+      "ru": "Зрение, слух, обоняние, вкус и осязание — всего 5."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Biz gulak bilen ys alýarys.",
+      "ru": "Мы чувствуем запахи ушами."
+     },
+     "answer": false,
+     "hint": {
+      "tk": "👃 ýa 👂?",
+      "ru": "👃 или 👂?"
+     },
+     "explain": {
+      "tk": "Ýalňyş. Ysy burun bilen alýarys, gulak bilen bolsa eşidýäris.",
+      "ru": "Неверно. Запахи мы чувствуем носом, а ушами слышим."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Haýsy organ bütin bedeni dolandyrýar?",
+      "ru": "Какой орган управляет всем телом?"
+     },
+     "options": [
+      {
+       "tk": "Süňkler",
+       "ru": "Кости"
+      },
+      {
+       "tk": "Saç",
+       "ru": "Волосы"
+      },
+      {
+       "tk": "Beýni",
+       "ru": "Мозг"
+      }
+     ],
+     "answer": 2,
+     "hint": {
+      "tk": "Ol kelläniň içinde ýerleşýär 🧠.",
+      "ru": "Он находится внутри головы 🧠."
+     },
+     "explain": {
+      "tk": "Beýni pikir edýär we bedene buýruk berýär.",
+      "ru": "Мозг думает и отдаёт команды телу."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Uly adamyň bedeninde 206 süňk bar 🦴. Täze doglan çaganyň süňkleri has köp: ösdügiçe käbiri birleşýär. Iň uzyn süňk — but süňki, iň kiçi süňk bolsa gulagyň içinde.",
+      "ru": "У взрослого человека 206 костей 🦴. У новорождённого их больше: с ростом некоторые срастаются. Самая длинная кость — бедренная, а самая маленькая находится внутри уха."
+     }
+    }
+   ]
+  },
+  {
+   "id": "world-2-weather-seasons",
+   "grade": 2,
+   "title": {
+    "tk": "Howa we pasyllar",
+    "ru": "Погода и сезоны"
+   },
+   "minutes": 8,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Howa her gün üýtgeýär: güneşli ☀️, bulutly ☁️, ýagyşly 🌧️, garly ❄️, şemally 🌬️.\nÝylda 4 pasyl bar:\n• Gyş ❄️ — dekabr, ýanwar, fewral\n• Ýaz 🌷 — mart, aprel, maý\n• Tomus ☀️ — iýun, iýul, awgust\n• Güýz 🍂 — sentýabr, oktýabr, noýabr\nHer pasylda 3 aý bar: 3 + 3 + 3 + 3 = 12 aý.",
+      "ru": "Погода меняется каждый день: солнечно ☀️, облачно ☁️, дождь 🌧️, снег ❄️, ветер 🌬️.\nВ году 4 сезона:\n• Зима ❄️ — декабрь, январь, февраль\n• Весна 🌷 — март, апрель, май\n• Лето ☀️ — июнь, июль, август\n• Осень 🍂 — сентябрь, октябрь, ноябрь\nВ каждом сезоне 3 месяца: 3 + 3 + 3 + 3 = 12 месяцев."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Haýsy pasyl? 🤔\n1. Agaçlaryň ýapraklary sararýar we gaçýar 🍂.\n2. Howa salkynlaýar.\n3. Käbir guşlar ýyly ýurtlara uçup gidýär.\nDiýmek, bu — güýz!\nHowanyň gyzgynlygyny termometr bilen ölçeýäris 🌡️. Tomusda +35°C-dan hem ýokary bolup biler, gyşda bolsa 0°C-dan aşak düşüp biler.",
+      "ru": "Какой это сезон? 🤔\n1. Листья на деревьях желтеют и опадают 🍂.\n2. Становится прохладно.\n3. Некоторые птицы улетают в тёплые края.\nЗначит, это — осень!\nТемпературу воздуха измеряют термометром 🌡️. Летом бывает выше +35°C, а зимой бывает ниже 0°C."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Iýul haýsy pasylda bolýar?",
+      "ru": "В каком сезоне июль?"
+     },
+     "options": [
+      {
+       "tk": "Gyşda",
+       "ru": "Зимой"
+      },
+      {
+       "tk": "Güýzde",
+       "ru": "Осенью"
+      },
+      {
+       "tk": "Tomusda",
+       "ru": "Летом"
+      }
+     ],
+     "answer": 2,
+     "hint": {
+      "tk": "Iýun, iýul, awgust — iň yssy aýlar ☀️.",
+      "ru": "Июнь, июль, август — самые жаркие месяцы ☀️."
+     },
+     "explain": {
+      "tk": "Iýul tomsuň ikinji aýy.",
+      "ru": "Июль — второй месяц лета."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Bir pasylda näçe aý bar?",
+      "ru": "Сколько месяцев в одном сезоне?"
+     },
+     "answer": "3",
+     "hint": {
+      "tk": "Gyş: dekabr, ýanwar, fewral — sana.",
+      "ru": "Зима: декабрь, январь, февраль — посчитай."
+     },
+     "explain": {
+      "tk": "12 aý 4 pasyla bölünýär, her pasylda 3 aý.",
+      "ru": "12 месяцев делятся на 4 сезона, в каждом по 3 месяца."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Gar köplenç tomusda ýagýar.",
+      "ru": "Снег обычно идёт летом."
+     },
+     "answer": false,
+     "hint": {
+      "tk": "Gar ýagmak üçin howa sowuk bolmaly ❄️.",
+      "ru": "Для снега нужен холод ❄️."
+     },
+     "explain": {
+      "tk": "Ýalňyş. Gar sowuk howada, köplenç gyşda ýagýar.",
+      "ru": "Неверно. Снег идёт в холод, обычно зимой."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Howanyň gyzgynlygyny näme bilen ölçeýärler?",
+      "ru": "Чем измеряют температуру воздуха?"
+     },
+     "options": [
+      {
+       "tk": "Termometr 🌡️",
+       "ru": "Термометр 🌡️"
+      },
+      {
+       "tk": "Sagat ⏰",
+       "ru": "Часы ⏰"
+      },
+      {
+       "tk": "Çyzgyç 📏",
+       "ru": "Линейка 📏"
+      }
+     ],
+     "answer": 0,
+     "hint": {
+      "tk": "Keselläňde hem ony ulanýarlar.",
+      "ru": "Его используют и когда ты болеешь."
+     },
+     "explain": {
+      "tk": "Termometr gyzgynlygy gradusda (°C) görkezýär.",
+      "ru": "Термометр показывает температуру в градусах (°C)."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Ýeriň günorta ýarymynda pasyllar tersine bolýar. Bizde gyş bolanda, Awstraliýada tomus bolýar! Şonuň üçin ol ýerde Täze ýyly köplenç yssy howada, kenarda garşylaýarlar 🏖️.",
+      "ru": "В южном полушарии Земли сезоны наоборот. Когда у нас зима, в Австралии лето! Поэтому там Новый год часто встречают в жару, на пляже 🏖️."
+     }
+    }
+   ]
+  },
+  {
+   "id": "world-2-water-states",
+   "grade": 2,
+   "title": {
+    "tk": "Suw we onuň ýagdaýlary",
+    "ru": "Вода и её состояния"
+   },
+   "minutes": 8,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Suw üç ýagdaýda bolup bilýär:\n🧊 Buz — gaty. Ol öz şekilini saklaýar.\n💧 Suw — suwuk. Ol akýar we gabyň şekilini alýar.\n♨️ Bug — gaz. Ol gaýnap duran çaýnekden çykýar.\nSuw 0°C-da doňup, buza öwrülýär.\nSuw 100°C-da gaýnap, buga öwrülýär.",
+      "ru": "Вода бывает в трёх состояниях:\n🧊 Лёд — твёрдый. Он сохраняет свою форму.\n💧 Вода — жидкая. Она течёт и принимает форму сосуда.\n♨️ Пар — газ. Он выходит из кипящего чайника.\nПри 0°C вода замерзает и становится льдом.\nПри 100°C вода кипит и превращается в пар."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Tejribe 🔬\n1. Buzy stakana salyp, güne goý ☀️. Buz ereýär → suw bolýar 💧.\n2. Suwy gazana guýup, gaýnat. Bug çykýar ♨️.\n3. Bug sowuk gapagyň üstüne degse, ýene suw damjalaryna öwrülýär 💧.\nSuw bir ýagdaýdan beýlekisine geçip bilýär!",
+      "ru": "Опыт 🔬\n1. Положи лёд в стакан и поставь на солнце ☀️. Лёд тает → получается вода 💧.\n2. Налей воду в кастрюлю и вскипяти. Идёт пар ♨️.\n3. Пар попадает на холодную крышку и снова становится каплями воды 💧.\nВода может переходить из одного состояния в другое!"
+     }
+    },
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Tebigatda suw aýlanýar 🔄\n• Gün deňizdäki suwy ýylydýar ☀️.\n• Suw buga öwrülip, ýokary galýar.\n• Ýokarda bug sowap, bulut bolýar ☁️.\n• Bulutdan ýagyş ýa-da gar bolup, ýere gaýdyp gelýär 🌧️.",
+      "ru": "В природе вода путешествует по кругу 🔄\n• Солнце нагревает воду в море ☀️.\n• Вода превращается в пар и поднимается вверх.\n• Наверху пар остывает и образует облака ☁️.\n• Из облаков вода возвращается на землю дождём или снегом 🌧️."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Buz nähili?",
+      "ru": "Какой лёд?"
+     },
+     "options": [
+      {
+       "tk": "Suwuk",
+       "ru": "Жидкий"
+      },
+      {
+       "tk": "Gaty",
+       "ru": "Твёрдый"
+      },
+      {
+       "tk": "Gaz",
+       "ru": "Газ"
+      }
+     ],
+     "answer": 1,
+     "hint": {
+      "tk": "Buz öz şekilini saklaýar 🧊.",
+      "ru": "Лёд сохраняет свою форму 🧊."
+     },
+     "explain": {
+      "tk": "Buz — suwuň gaty ýagdaýy.",
+      "ru": "Лёд — твёрдое состояние воды."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Suw näçe gradusda gaýnaýar? San bilen ýaz.",
+      "ru": "При скольких градусах кипит вода? Напиши число."
+     },
+     "answer": "100|100°C|100 °C",
+     "hint": {
+      "tk": "Bu san 99-dan soň gelýär.",
+      "ru": "Это число идёт после 99."
+     },
+     "explain": {
+      "tk": "Suw 100°C-da gaýnaýar we buga öwrülýär.",
+      "ru": "Вода кипит при 100°C и превращается в пар."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Bulutlar suwdan ýasalýar.",
+      "ru": "Облака состоят из воды."
+     },
+     "answer": true,
+     "hint": {
+      "tk": "Ýagyş nireden ýagýar? 🌧️",
+      "ru": "Откуда идёт дождь? 🌧️"
+     },
+     "explain": {
+      "tk": "Dogry. Bulut — howada asylyp duran örän kiçi suw damjalary ýa-da buz bölejikleri.",
+      "ru": "Верно. Облако — это крошечные капельки воды или льдинки в воздухе."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Suw näçe gradusda doňýar?",
+      "ru": "При скольких градусах замерзает вода?"
+     },
+     "options": [
+      "100°C",
+      "50°C",
+      "0°C"
+     ],
+     "answer": 2,
+     "hint": {
+      "tk": "Bu iň kiçi san.",
+      "ru": "Это самое маленькое число."
+     },
+     "explain": {
+      "tk": "0°C-da suw doňup, buza öwrülýär 🧊.",
+      "ru": "При 0°C вода замерзает и становится льдом 🧊."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Ýer şarynyň ýüzüniň üçden ikisinden köprägi suw bilen örtülen 🌊. Şonuň üçin kosmosdan Ýer gök görünýär. Ýöne bu suwuň köp bölegi duzly deňiz suwy, içip bolýan süýji suw bolsa az — ony aýap ulanmaly 💧.",
+      "ru": "Больше двух третей поверхности Земли покрыто водой 🌊. Поэтому из космоса Земля кажется голубой. Но почти вся эта вода — солёная морская, а пресной воды для питья мало — её нужно беречь 💧."
+     }
+    }
+   ]
+  },
+  {
+   "id": "world-2-wild-animals",
+   "grade": 2,
+   "title": {
+    "tk": "Ýabany haýwanlar",
+    "ru": "Дикие животные"
+   },
+   "minutes": 8,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Ýabany haýwanlar tebigatda ýaşaýar. Olar iýmitini özleri tapýar.\n• Ýyrtyjylar beýleki haýwanlary iýýär: möjek 🐺, şir 🦁, tilki 🦊.\n• Ot iýijiler ösümlik iýýär: towşan 🐇, jeren, žiraf 🦒.\n• Aýy 🐻 hem et, hem miwe, hem bal iýýär.\nHer haýwanyň öz öýi bar: tilkiniň — hini, guşuň — höwürtgesi 🪺, balygyň — suw 🐟.",
+      "ru": "Дикие животные живут в природе. Они сами добывают себе пищу.\n• Хищники едят других животных: волк 🐺, лев 🦁, лиса 🦊.\n• Травоядные едят растения: заяц 🐇, джейран, жираф 🦒.\n• Медведь 🐻 ест и мясо, и ягоды, и мёд.\nУ каждого животного свой дом: у лисы — нора, у птицы — гнездо 🪺, у рыбы — вода 🐟."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Haýsy haýwan ýabany? 🐄 Sygyr, 🐺 Möjek, 🐈 Pişik.\n1. Sygra adam seredýär, ol öýüň ýanynda ýaşaýar — öý haýwany.\n2. Pişik hem öýde ýaşaýar — öý haýwany.\n3. Möjek dagda, çölde, tokaýda ýaşaýar, iýmitini özi tapýar — ýabany haýwan ✅.",
+      "ru": "Какое животное дикое? 🐄 Корова, 🐺 Волк, 🐈 Кошка.\n1. О корове заботится человек, она живёт рядом с домом — домашнее животное.\n2. Кошка тоже живёт дома — домашнее животное.\n3. Волк живёт в горах, пустыне, лесу и сам добывает еду — дикое животное ✅."
+     }
+    },
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Türkmenistanyň tebigatynda jeren, gulan, kertenkele 🦎, ýylan 🐍 we çöl tilkisi ýaşaýar.\nÇöl haýwanlary yssa öwrenişen: köpüsi gündiz hinde gizlenýär, gije bolsa iýmit gözläp çykýar 🌙.",
+      "ru": "В природе Туркменистана живут джейран, кулан, ящерицы 🦎, змеи 🐍 и пустынные лисы.\nЖивотные пустыни привыкли к жаре: многие днём прячутся в норах, а ночью выходят искать еду 🌙."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Haýsy haýwan ýyrtyjy?",
+      "ru": "Какое животное хищник?"
+     },
+     "options": [
+      {
+       "tk": "Towşan 🐇",
+       "ru": "Заяц 🐇"
+      },
+      {
+       "tk": "Möjek 🐺",
+       "ru": "Волк 🐺"
+      },
+      {
+       "tk": "Jeren",
+       "ru": "Джейран"
+      }
+     ],
+     "answer": 1,
+     "hint": {
+      "tk": "Ýyrtyjy beýleki haýwanlary aw edýär.",
+      "ru": "Хищник охотится на других животных."
+     },
+     "explain": {
+      "tk": "Möjek et iýýär — ol ýyrtyjy. Towşan we jeren ot iýýär.",
+      "ru": "Волк ест мясо — он хищник. Заяц и джейран едят траву."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Sygyr ýabany haýwan.",
+      "ru": "Корова — дикое животное."
+     },
+     "answer": false,
+     "hint": {
+      "tk": "Sygra kim seredýär?",
+      "ru": "Кто заботится о корове?"
+     },
+     "explain": {
+      "tk": "Ýalňyş. Sygra adam seredýär, ol öý haýwany.",
+      "ru": "Неверно. О корове заботится человек, это домашнее животное."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Sowuk ýurtlarda aýy gyşda näme edýär? 🐻",
+      "ru": "Что делает медведь зимой в холодных краях? 🐻"
+     },
+     "options": [
+      {
+       "tk": "Gyş ukusyna gidýär",
+       "ru": "Впадает в спячку"
+      },
+      {
+       "tk": "Ýyly ýurda uçýar",
+       "ru": "Улетает в тёплые края"
+      },
+      {
+       "tk": "Deňizde ýüzýär",
+       "ru": "Плавает в море"
+      }
+     ],
+     "answer": 0,
+     "hint": {
+      "tk": "Aýynyň ganaty ýok 😉.",
+      "ru": "У медведя нет крыльев 😉."
+     },
+     "explain": {
+      "tk": "Aýy güýzde köp iýip semreýär, soň gyşy ugrunda uklap geçirýär.",
+      "ru": "Осенью медведь много ест и толстеет, а зиму проводит во сне в берлоге."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Möjegiň näçe aýagy bar? 🐺",
+      "ru": "Сколько ног у волка? 🐺"
+     },
+     "answer": "4",
+     "hint": {
+      "tk": "It ýaly sana 🐕.",
+      "ru": "Посчитай, как у собаки 🐕."
+     },
+     "explain": {
+      "tk": "Möjegiň 4 aýagy bar: 2 öňde, 2 yzda.",
+      "ru": "У волка 4 лапы: 2 спереди и 2 сзади."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Gepard — ýerde iň çalt ylgaýan haýwan 🐆. Gysga aralykda ol sagatda 90 km-den hem çalt ylgap bilýär — edil awtoulag ýaly!",
+      "ru": "Гепард — самое быстрое животное на суше 🐆. На короткой дистанции он бежит быстрее 90 км в час — как автомобиль!"
+     }
+    }
+   ]
+  },
+  {
+   "id": "world-2-road-safety",
+   "grade": 2,
+   "title": {
+    "tk": "Ýol hereketiniň düzgünleri",
+    "ru": "Правила дорожного движения"
+   },
+   "minutes": 7,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Ýolda howpsuz bolmak üçin düzgünler bar 🚦\n• Gyzyl 🔴 — dur!\n• Sary 🟡 — garaş, taýýarlan.\n• Ýaşyl 🟢 — geçip bolýar.\nÝoly diňe pyýada geçelgesinden — «zebradan» geç 🦓.\nGeçmezden öň dur we seret: ilki çepe ⬅️, soň saga ➡️.\nÝolda oýnamaly däl. Maşynda howpsuzlyk kemerini dak 🚗.",
+      "ru": "Чтобы быть в безопасности на дороге, есть правила 🚦\n• Красный 🔴 — стой!\n• Жёлтый 🟡 — жди, приготовься.\n• Зелёный 🟢 — можно идти.\nПереходи дорогу только по пешеходному переходу — «зебре» 🦓.\nПеред переходом остановись и посмотри: сначала налево ⬅️, потом направо ➡️.\nНа дороге нельзя играть. В машине пристёгивай ремень безопасности 🚗."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Aýna mekdebe barýar 🎒. Ol ýoly geçmeli.\n1. Ol pyýada geçelgesini tapýar 🦓.\n2. Swetoforda gyzyl yşyk ýanýar — Aýna garaşýar 🔴.\n3. Ýaşyl yşyk ýandy 🟢. Aýna ilki çepe, soň saga seredýär.\n4. Maşyn saklandy. Aýna ýoly ylgaman, ýöräp geçýär 🚶‍♀️.",
+      "ru": "Айна идёт в школу 🎒. Ей нужно перейти дорогу.\n1. Она находит пешеходный переход 🦓.\n2. На светофоре горит красный — Айна ждёт 🔴.\n3. Загорелся зелёный 🟢. Айна смотрит сначала налево, потом направо.\n4. Машины остановились. Айна переходит дорогу шагом, не бегом 🚶‍♀️."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Swetoforyň haýsy reňkinde ýoly geçýärler?",
+      "ru": "На какой сигнал светофора переходят дорогу?"
+     },
+     "options": [
+      {
+       "tk": "Gyzyl 🔴",
+       "ru": "Красный 🔴"
+      },
+      {
+       "tk": "Sary 🟡",
+       "ru": "Жёлтый 🟡"
+      },
+      {
+       "tk": "Ýaşyl 🟢",
+       "ru": "Зелёный 🟢"
+      }
+     ],
+     "answer": 2,
+     "hint": {
+      "tk": "Bu reňk ot-çöpüň reňki ýaly 🌿.",
+      "ru": "Этот цвет как у травы 🌿."
+     },
+     "explain": {
+      "tk": "Ýaşyl yşyk — ýol açyk. Gyzylda durýarys, saryda garaşýarys.",
+      "ru": "Зелёный — путь открыт. На красный стоим, на жёлтый ждём."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Ýoly islän ýeriňden ylgap geçip bolýar.",
+      "ru": "Дорогу можно перебегать в любом месте."
+     },
+     "answer": false,
+     "hint": {
+      "tk": "«Zebrany» ýada sal 🦓.",
+      "ru": "Вспомни про «зебру» 🦓."
+     },
+     "explain": {
+      "tk": "Ýalňyş. Ýoly diňe pyýada geçelgesinden, ýöräp geçmeli.",
+      "ru": "Неверно. Дорогу переходят только по пешеходному переходу и шагом."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Ýoly nireden geçmeli?",
+      "ru": "Где нужно переходить дорогу?"
+     },
+     "options": [
+      {
+       "tk": "Iki maşynyň arasyndan",
+       "ru": "Между двумя машинами"
+      },
+      {
+       "tk": "Pyýada geçelgesinden 🦓",
+       "ru": "По пешеходному переходу 🦓"
+      },
+      {
+       "tk": "Ýoluň öwrüminden",
+       "ru": "На повороте дороги"
+      }
+     ],
+     "answer": 1,
+     "hint": {
+      "tk": "Ol ýerde ak-gara zolaklar bar.",
+      "ru": "Там нарисованы белые полосы."
+     },
+     "explain": {
+      "tk": "Pyýada geçelgesinde sürüjiler pyýadalary görýär we saklanýar.",
+      "ru": "На переходе водители видят пешеходов и останавливаются."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Swetoforda näçe reňk bar? San bilen ýaz.",
+      "ru": "Сколько цветов у светофора? Напиши число."
+     },
+     "answer": "3",
+     "hint": {
+      "tk": "🔴🟡🟢 — sana.",
+      "ru": "🔴🟡🟢 — посчитай."
+     },
+     "explain": {
+      "tk": "Gyzyl, sary we ýaşyl — 3 reňk.",
+      "ru": "Красный, жёлтый и зелёный — 3 цвета."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Dünýäde ilkinji swetofor 1868-nji ýylda Londonda goýlupdyr 🚦. Ol gaz bilen ýanýardy we ony polisiýa işgäri el bilen dolandyrýardy.",
+      "ru": "Первый в мире светофор поставили в Лондоне в 1868 году 🚦. Он работал на газе, и им вручную управлял полицейский."
+     }
+    }
+   ]
+  },
+  {
+   "id": "world-2-planet-earth",
+   "grade": 2,
+   "title": {
+    "tk": "Biziň planetamyz Ýer",
+    "ru": "Наша планета Земля"
+   },
+   "minutes": 8,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Biz Ýer planetasynda ýaşaýarys 🌍.\n• Ýer top ýaly tegelek.\n• Ýer öz okunyň daşyndan aýlanýar. Şonuň üçin gije we gündiz bolýar 🌞🌙. Bir aýlaw — 24 sagat.\n• Ýer Günüň daşyndan hem aýlanýar ☀️. Bir aýlaw — 1 ýyl.\n• Ýeriň hemrasy — Aý 🌕.",
+      "ru": "Мы живём на планете Земля 🌍.\n• Земля круглая, как мяч.\n• Земля вращается вокруг своей оси. Поэтому бывают день и ночь 🌞🌙. Один оборот — 24 часа.\n• Земля движется и вокруг Солнца ☀️. Один круг — 1 год.\n• Спутник Земли — Луна 🌕."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Gije we gündiz nädip bolýar? 🔦🌍\n1. Çyrany (bu — Gün) we topy (bu — Ýer) al.\n2. Çyra topuň bir tarapyny ýagtyldýar — ol ýerde gündiz ☀️.\n3. Beýleki tarapy garaňky — ol ýerde gije 🌙.\n4. Topy aýlasaň, gündiz bilen gije çalşyp başlaýar. Ýer hem şeýle aýlanýar!",
+      "ru": "Как получаются день и ночь? 🔦🌍\n1. Возьми фонарик (это Солнце) и мяч (это Земля).\n2. Фонарик освещает одну сторону мяча — там день ☀️.\n3. Другая сторона тёмная — там ночь 🌙.\n4. Если вращать мяч, день и ночь сменяют друг друга. Так вращается и Земля!"
+     }
+    },
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Gün ulgamynda 8 planeta bar: Merkuriý, Wenera, Ýer, Mars, Ýupiter, Saturn, Uran, Neptun.\nÝer Günden üçünji planeta.\nÝerde howa, suw we janly-jandarlar bar. Häzirki bilşimiz ýaly, ýaşaýyş diňe Ýerde bar 🌱.",
+      "ru": "В Солнечной системе 8 планет: Меркурий, Венера, Земля, Марс, Юпитер, Сатурн, Уран, Нептун.\nЗемля — третья планета от Солнца.\nНа Земле есть воздух, вода и живые существа. Насколько мы знаем, жизнь есть только на Земле 🌱."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Bir gije-gündiz näçe sagat?",
+      "ru": "Сколько часов в сутках?"
+     },
+     "answer": "24",
+     "hint": {
+      "tk": "Ýer öz okunyň daşyndan bir gezek aýlanýança.",
+      "ru": "Столько длится один оборот Земли вокруг оси."
+     },
+     "explain": {
+      "tk": "Ýer 24 sagatda öz okunyň daşyndan bir gezek aýlanýar.",
+      "ru": "Земля делает один оборот вокруг своей оси за 24 часа."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Ýeriň hemrasy näme?",
+      "ru": "Что является спутником Земли?"
+     },
+     "options": [
+      {
+       "tk": "Aý 🌕",
+       "ru": "Луна 🌕"
+      },
+      {
+       "tk": "Mars",
+       "ru": "Марс"
+      },
+      {
+       "tk": "Gün ☀️",
+       "ru": "Солнце ☀️"
+      }
+     ],
+     "answer": 0,
+     "hint": {
+      "tk": "Ony gije asmanda görýäris.",
+      "ru": "Её мы видим ночью на небе."
+     },
+     "explain": {
+      "tk": "Aý Ýeriň daşyndan aýlanýar — ol Ýeriň hemrasy. Gün — ýyldyz, Mars — planeta.",
+      "ru": "Луна вращается вокруг Земли — это её спутник. Солнце — звезда, Марс — планета."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Ýer Günüň daşyndan aýlanýar.",
+      "ru": "Земля движется вокруг Солнца."
+     },
+     "answer": true,
+     "hint": {
+      "tk": "Bir aýlaw — 1 ýyl.",
+      "ru": "Один круг — 1 год."
+     },
+     "explain": {
+      "tk": "Dogry. Ýer Günüň daşyndan bir ýylda bir gezek aýlanýar.",
+      "ru": "Верно. Земля делает круг вокруг Солнца за один год."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Ýer Günden näçenji planeta?",
+      "ru": "Какая по счёту Земля от Солнца?"
+     },
+     "options": [
+      {
+       "tk": "Birinji",
+       "ru": "Первая"
+      },
+      {
+       "tk": "Üçünji",
+       "ru": "Третья"
+      },
+      {
+       "tk": "Bäşinji",
+       "ru": "Пятая"
+      }
+     ],
+     "answer": 1,
+     "hint": {
+      "tk": "Merkuriý, Wenera, soň...",
+      "ru": "Меркурий, Венера, потом..."
+     },
+     "explain": {
+      "tk": "Merkuriý — 1, Wenera — 2, Ýer — 3.",
+      "ru": "Меркурий — 1, Венера — 2, Земля — 3."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "1961-nji ýylyň 12-nji aprelinde Ýuriý Gagarin kosmosa uçan ilkinji adam boldy 🚀. Ol Ýeri ýokardan gördi we onuň gök öwüşgin bilen gözel görünýändigini aýtdy.",
+      "ru": "12 апреля 1961 года Юрий Гагарин стал первым человеком, полетевшим в космос 🚀. Он увидел Землю сверху и рассказал, что она окружена красивым голубым ореолом."
+     }
+    }
+   ]
+  },
+  {
+   "id": "world-3-solar-system",
+   "grade": 3,
+   "title": {
+    "tk": "Gün ulgamy",
+    "ru": "Солнечная система"
+   },
+   "minutes": 8,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Gün — bu ýyldyz. Ol özünden ýagtylyk we ýylylyk çykarýar.\nGünüň daşyndan 8 planeta aýlanýar. Olaryň hemmesi bilelikde Gün ulgamy diýilýär.\n• Merkuriý — Güne iň ýakyn planeta.\n• Ýer — Günden 3-nji planeta, biziň öýümiz.\n• Ýupiter — iň uly planeta.\n• Neptun — Günden iň uzakdaky planeta.\nAý Ýeriň daşyndan aýlanýar. Ol Ýeriň hemrasydyr.",
+      "ru": "Солнце — это звезда. Оно само излучает свет и тепло.\nВокруг Солнца вращаются 8 планет. Всё вместе называется Солнечной системой.\n• Меркурий — ближайшая к Солнцу планета.\n• Земля — третья планета от Солнца, наш дом.\n• Юпитер — самая большая планета.\n• Нептун — самая далёкая от Солнца планета.\nЛуна вращается вокруг Земли. Она — спутник Земли."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Planetalary Günden başlap tertip bilen sanalyň:\n1. Merkuriý\n2. Wenera\n3. Ýer\n4. Mars\n5. Ýupiter\n6. Saturn\n7. Uran\n8. Neptun\nÝatda saklamak üçin: Ýer — Merkuriýden we Weneradan soň gelýär, diýmek, ol 3-nji.",
+      "ru": "Посчитаем планеты по порядку от Солнца:\n1. Меркурий\n2. Венера\n3. Земля\n4. Марс\n5. Юпитер\n6. Сатурн\n7. Уран\n8. Нептун\nЧтобы запомнить: Земля идёт после Меркурия и Венеры, значит, она третья."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Gün ulgamynyň iň uly planetasy haýsy?",
+      "ru": "Какая планета самая большая в Солнечной системе?"
+     },
+     "options": [
+      {
+       "tk": "Merkuriý",
+       "ru": "Меркурий"
+      },
+      {
+       "tk": "Ýupiter",
+       "ru": "Юпитер"
+      },
+      {
+       "tk": "Mars",
+       "ru": "Марс"
+      }
+     ],
+     "answer": 1,
+     "hint": {
+      "tk": "Bu planetanyň adyny sanawda «iň uly» diýip okadyk.",
+      "ru": "Об этой планете в списке было сказано «самая большая»."
+     },
+     "explain": {
+      "tk": "Ýupiter iň uly planeta. Onuň içine müňden gowrak Ýer sygyp bilerdi.",
+      "ru": "Юпитер — самая большая планета. В него поместилось бы больше тысячи Земель."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Gün ulgamynda näçe planeta bar?",
+      "ru": "Сколько планет в Солнечной системе?"
+     },
+     "answer": "8",
+     "hint": {
+      "tk": "Mysaldaky sanawy sanap gör.",
+      "ru": "Посчитай планеты в списке из примера."
+     },
+     "explain": {
+      "tk": "Merkuriýden Neptuna çenli 8 planeta bar.",
+      "ru": "От Меркурия до Нептуна — 8 планет."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Gün — bu ýyldyz.",
+      "ru": "Солнце — это звезда."
+     },
+     "answer": true,
+     "hint": {
+      "tk": "Gün özünden ýagtylyk çykarýarmy?",
+      "ru": "Светит ли Солнце само?"
+     },
+     "explain": {
+      "tk": "Dogry. Gün ýyldyz, ol bize iň ýakyn ýyldyzdyr.",
+      "ru": "Верно. Солнце — звезда, самая близкая к нам."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Ýeriň daşyndan näme aýlanýar?",
+      "ru": "Что вращается вокруг Земли?"
+     },
+     "options": [
+      {
+       "tk": "Gün",
+       "ru": "Солнце"
+      },
+      {
+       "tk": "Mars",
+       "ru": "Марс"
+      },
+      {
+       "tk": "Aý",
+       "ru": "Луна"
+      }
+     ],
+     "answer": 2,
+     "hint": {
+      "tk": "Ýeriň hemrasy hakda oýlan.",
+      "ru": "Подумай о спутнике Земли."
+     },
+     "explain": {
+      "tk": "Aý Ýeriň hemrasy, ol Ýeriň daşyndan aýlanýar. Ýer bolsa Günüň daşyndan aýlanýar.",
+      "ru": "Луна — спутник Земли, она вращается вокруг Земли. А Земля вращается вокруг Солнца."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Plutony öň 9-njy planeta hasaplaýardylar. 2006-njy ýylda alymlar ony «mitti planeta» diýip atlandyrdylar, sebäbi ol gaty kiçi. Şonuň üçin indi Gün ulgamynda 8 planeta bar.",
+      "ru": "Плутон раньше считали девятой планетой. В 2006 году учёные назвали его «карликовой планетой», потому что он очень маленький. Поэтому теперь в Солнечной системе 8 планет."
+     }
+    }
+   ]
+  },
+  {
+   "id": "world-3-air-atmosphere",
+   "grade": 3,
+   "title": {
+    "tk": "Howa we atmosfera",
+    "ru": "Воздух и атмосфера"
+   },
+   "minutes": 8,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Ýeriň daşyny howa gatlagy gurşap alýar. Ol atmosfera diýilýär.\nHowa görünmeýär, ýöne ol bar: biz ony şemalda duýýarys.\nHowa birnäçe gazdan durýar:\n• azot — iň köp gaz;\n• kislorod — ony adamlar we haýwanlar dem alýar;\n• kömürturşy gazy — ony ösümlikler siňdirýär.\nAtmosfera bizi Günüň zyýanly şöhlelerinden goraýar we Ýeri ýyly saklaýar.",
+      "ru": "Землю окружает слой воздуха. Он называется атмосферой.\nВоздух невидим, но он есть: мы чувствуем его, когда дует ветер.\nВоздух состоит из нескольких газов:\n• азот — его больше всего;\n• кислород — им дышат люди и животные;\n• углекислый газ — его поглощают растения.\nАтмосфера защищает нас от вредных лучей Солнца и сохраняет тепло на Земле."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Tejribe: ýanyp duran şemiň üstüni stakan bilen ýapalyň.\n1. Ilki şem ýanýar.\n2. Stakanyň içindäki kislorod azalýar.\n3. Biraz wagtdan şem söner.\nNetije: ot ýanmak üçin hem kislorod gerek.\n(Bu tejribäni diňe uly adam bilen et!)",
+      "ru": "Опыт: накроем горящую свечу стаканом.\n1. Сначала свеча горит.\n2. Кислорода под стаканом становится меньше.\n3. Через немного времени свеча гаснет.\nВывод: огню для горения тоже нужен кислород.\n(Делай этот опыт только со взрослым!)"
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Biz dem alanymyzda haýsy gaz bize gerek?",
+      "ru": "Какой газ нам нужен, когда мы дышим?"
+     },
+     "options": [
+      {
+       "tk": "Azot",
+       "ru": "Азот"
+      },
+      {
+       "tk": "Kömürturşy gazy",
+       "ru": "Углекислый газ"
+      },
+      {
+       "tk": "Kislorod",
+       "ru": "Кислород"
+      }
+     ],
+     "answer": 2,
+     "hint": {
+      "tk": "Şem hem şu gaz bolmasa söndi.",
+      "ru": "Без этого газа погасла и свеча."
+     },
+     "explain": {
+      "tk": "Adamlar we haýwanlar kislorod bilen dem alýarlar.",
+      "ru": "Люди и животные дышат кислородом."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Howanyň agramy ýok.",
+      "ru": "Воздух ничего не весит."
+     },
+     "answer": false,
+     "hint": {
+      "tk": "Howa — bu madda. Maddalaryň agramy bolýarmy?",
+      "ru": "Воздух — это вещество. Есть ли вес у веществ?"
+     },
+     "explain": {
+      "tk": "Nädogry. Howanyň hem agramy bar, ýöne ol örän ýeňil.",
+      "ru": "Неверно. Воздух тоже имеет вес, просто он очень лёгкий."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Howanyň 100 böleginden takmynan 78-si azot. Näçe bölegi azot däl?",
+      "ru": "Из 100 частей воздуха примерно 78 — азот. Сколько частей — не азот?"
+     },
+     "answer": "22",
+     "hint": {
+      "tk": "100-den 78-i aýyr.",
+      "ru": "Вычти 78 из 100."
+     },
+     "explain": {
+      "tk": "100 − 78 = 22. Olaryň köpüsi kislorod.",
+      "ru": "100 − 78 = 22. Большая их часть — кислород."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Hereket edýän howa näme diýilýär?",
+      "ru": "Как называется движущийся воздух?"
+     },
+     "options": [
+      {
+       "tk": "Şemal",
+       "ru": "Ветер"
+      },
+      {
+       "tk": "Bulut",
+       "ru": "Облако"
+      },
+      {
+       "tk": "Gyrow",
+       "ru": "Иней"
+      }
+     ],
+     "answer": 0,
+     "hint": {
+      "tk": "Ol agaçlaryň ýapraklaryny yraýar.",
+      "ru": "Он качает листья на деревьях."
+     },
+     "explain": {
+      "tk": "Şemal — bu hereket edýän howa.",
+      "ru": "Ветер — это движущийся воздух."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Atmosferanyň ýokarsynda ozon gatlagy bar. Ol Günüň zyýanly şöhlelerini saklaýar. 1987-nji ýylda dünýäniň ýurtlary ozon gatlagyny goramak üçin Monreal şertnamasyna gol çekdiler.",
+      "ru": "Высоко в атмосфере есть озоновый слой. Он задерживает вредные лучи Солнца. В 1987 году страны мира подписали Монреальский протокол, чтобы защитить озоновый слой."
+     }
+    }
+   ]
+  },
+  {
+   "id": "world-3-soil",
+   "grade": 3,
+   "title": {
+    "tk": "Toprak",
+    "ru": "Почва"
+   },
+   "minutes": 7,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Toprak — Ýeriň ýokarky ýumşak gatlagy. Ösümlikler toprakda ösýär.\nToprak nämeden emele gelýär?\n• owranan daşlardan: gum we toýun;\n• çüýrän ýapraklardan we ösümliklerden — çirindiden (gumusdan);\n• suwdan we howadan.\nÇirindi topraga gara reňk berýär. Ol näçe köp bolsa, toprak şonça hasylly.\nToprak örän haýal emele gelýär — ýüzlerçe ýyllaryň dowamynda.",
+      "ru": "Почва — это верхний рыхлый слой Земли. В почве растут растения.\nИз чего состоит почва?\n• из измельчённых горных пород: песка и глины;\n• из перегноя (гумуса) — сгнивших листьев и растений;\n• из воды и воздуха.\nПерегной делает почву тёмной. Чем его больше, тем почва плодороднее.\nПочва образуется очень медленно — сотни лет."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Tejribe: bir bölek topragy suwly stakana salalyň.\n1. Suwda kiçijik köpürjikler çykýar — diýmek, toprakda howa bar.\n2. Biraz garaşalyň: aşakda gum, onuň üstünde toýun, iň ýokarda bolsa çirindiniň bölejikleri ýüzýär.\nNetije: toprak birnäçe bölekden durýar.",
+      "ru": "Опыт: положим комочек почвы в стакан с водой.\n1. Из воды выходят пузырьки — значит, в почве есть воздух.\n2. Подождём: внизу осядет песок, над ним глина, а сверху будут плавать кусочки перегноя.\nВывод: почва состоит из нескольких частей."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Topragy gara we hasylly edýän bölek haýsy?",
+      "ru": "Какая часть делает почву тёмной и плодородной?"
+     },
+     "options": [
+      {
+       "tk": "Çirindi (gumus)",
+       "ru": "Перегной (гумус)"
+      },
+      {
+       "tk": "Gum",
+       "ru": "Песок"
+      },
+      {
+       "tk": "Daş",
+       "ru": "Камень"
+      }
+     ],
+     "answer": 0,
+     "hint": {
+      "tk": "Ol çüýrän ýapraklardan emele gelýär.",
+      "ru": "Он образуется из сгнивших листьев."
+     },
+     "explain": {
+      "tk": "Çirindi ösümlikler üçin iýmit berýär we topragy garaldýar.",
+      "ru": "Перегной даёт растениям питание и делает почву тёмной."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Ýagyş gurçuklary topraga zyýan berýär.",
+      "ru": "Дождевые черви вредят почве."
+     },
+     "answer": false,
+     "hint": {
+      "tk": "Gurçuklar toprakda ýollar gazýarlar. Bu howa we suw üçin gowumy?",
+      "ru": "Черви роют в почве ходы. Хорошо ли это для воздуха и воды?"
+     },
+     "explain": {
+      "tk": "Nädogry. Gurçuklar topragy ýumşadýarlar, oňa howa we suw geçirýärler, ýapraklary çirindä öwürýärler.",
+      "ru": "Неверно. Черви рыхлят почву, пропускают в неё воздух и воду и превращают листья в перегной."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Toprakly stakanda köpürjikler çykdy. Bu näme görkezýär?",
+      "ru": "В стакане с почвой появились пузырьки. Что это показывает?"
+     },
+     "options": [
+      {
+       "tk": "Toprakda gum bar",
+       "ru": "В почве есть песок"
+      },
+      {
+       "tk": "Toprakda howa bar",
+       "ru": "В почве есть воздух"
+      },
+      {
+       "tk": "Toprakda duz bar",
+       "ru": "В почве есть соль"
+      }
+     ],
+     "answer": 1,
+     "hint": {
+      "tk": "Köpürjikleriň içinde näme bolýar?",
+      "ru": "Что находится внутри пузырьков?"
+     },
+     "explain": {
+      "tk": "Köpürjikler — bu howa. Diýmek, toprakda howa bar.",
+      "ru": "Пузырьки — это воздух. Значит, в почве есть воздух."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Meşhur alym Çarlz Darwin ýagyş gurçuklaryny köp ýyllap öwrenipdir. 1881-nji ýylda ol gurçuklaryň topragy nähili döredýändigi barada kitap ýazypdyr.",
+      "ru": "Знаменитый учёный Чарльз Дарвин много лет изучал дождевых червей. В 1881 году он написал книгу о том, как черви создают почву."
+     }
+    }
+   ]
+  },
+  {
+   "id": "world-3-food-chain",
+   "grade": 3,
+   "title": {
+    "tk": "Iýmit zynjyry",
+    "ru": "Пищевая цепь"
+   },
+   "minutes": 8,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Tebigatda her bir jandar kimdir birini iýýär ýa-da kimdir biri üçin iýmit bolýar. Bu iýmit zynjyry diýilýär.\n• Ösümlikler zynjyry başlaýar: olar Günüň ýagtylygy bilen öz iýmitini döredýärler.\n• Ot iýýän haýwanlar ösümlikleri iýýär (towşan, sygyr).\n• Ýyrtyjy haýwanlar beýleki haýwanlary iýýär (tilki, möjek).\n• Kömelekler we bakteriýalar ölen jandarlary dargadyp, topragy baýlaşdyrýar.",
+      "ru": "В природе каждое живое существо кого-то ест или само служит кому-то пищей. Это называется пищевой цепью.\n• Цепь начинают растения: они сами создают себе пищу с помощью солнечного света.\n• Травоядные животные едят растения (заяц, корова).\n• Хищники едят других животных (лиса, волк).\n• Грибы и бактерии разлагают погибших существ и обогащают почву."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Zynjyr düzeliň:\not 🌿 → towşan 🐇 → tilki 🦊\n1. Ot Günüň ýagtylygyndan ösýär.\n2. Towşan ot iýýär — ol ot iýýän haýwan.\n3. Tilki towşany iýýär — ol ýyrtyjy.\nBu zynjyrda 3 halka bar.",
+      "ru": "Составим цепь:\nтрава 🌿 → заяц 🐇 → лиса 🦊\n1. Трава растёт благодаря солнечному свету.\n2. Заяц ест траву — он травоядный.\n3. Лиса ест зайца — она хищник.\nВ этой цепи 3 звена."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "ot → çekirtge → gurbaga → ýylan. Bu zynjyrda näçe halka bar?",
+      "ru": "трава → кузнечик → лягушка → змея. Сколько звеньев в этой цепи?"
+     },
+     "answer": "4",
+     "hint": {
+      "tk": "Her jandary bir halka hasapla.",
+      "ru": "Каждое живое существо — одно звено."
+     },
+     "explain": {
+      "tk": "Ot, çekirtge, gurbaga, ýylan — jemi 4 halka.",
+      "ru": "Трава, кузнечик, лягушка, змея — всего 4 звена."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Adatça iýmit zynjyry näme bilen başlanýar?",
+      "ru": "С чего обычно начинается пищевая цепь?"
+     },
+     "options": [
+      {
+       "tk": "Ýyrtyjy haýwan bilen",
+       "ru": "С хищника"
+      },
+      {
+       "tk": "Ösümlik bilen",
+       "ru": "С растения"
+      },
+      {
+       "tk": "Kömelek bilen",
+       "ru": "С гриба"
+      }
+     ],
+     "answer": 1,
+     "hint": {
+      "tk": "Kim öz iýmitini Günüň ýagtylygy bilen döredýär?",
+      "ru": "Кто сам создаёт себе пищу с помощью солнечного света?"
+     },
+     "explain": {
+      "tk": "Ösümlikler öz iýmitini özleri döredýärler, şonuň üçin zynjyr olardan başlanýar.",
+      "ru": "Растения сами создают себе пищу, поэтому цепь начинается с них."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Tilki ot iýýän haýwan.",
+      "ru": "Лиса — травоядное животное."
+     },
+     "answer": false,
+     "hint": {
+      "tk": "Mysalda tilki kimi iýdi?",
+      "ru": "Кого ела лиса в примере?"
+     },
+     "explain": {
+      "tk": "Nädogry. Tilki beýleki haýwanlary iýýär, ol ýyrtyjy.",
+      "ru": "Неверно. Лиса ест других животных, она хищник."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "ot → çekirtge → gurbaga. Çekirtgäni kim iýýär?",
+      "ru": "трава → кузнечик → лягушка. Кто ест кузнечика?"
+     },
+     "options": [
+      {
+       "tk": "Ot",
+       "ru": "Трава"
+      },
+      {
+       "tk": "Towşan",
+       "ru": "Заяц"
+      },
+      {
+       "tk": "Gurbaga",
+       "ru": "Лягушка"
+      }
+     ],
+     "answer": 2,
+     "hint": {
+      "tk": "Peýkamyň yzyndan gelýän jandara seret.",
+      "ru": "Посмотри, кто стоит после стрелки."
+     },
+     "explain": {
+      "tk": "Peýkam «kime iýmit bolýar» diýmegi aňladýar: çekirtge → gurbaga, diýmek, gurbaga çekirtgäni iýýär.",
+      "ru": "Стрелка означает «служит пищей для»: кузнечик → лягушка, значит, лягушка ест кузнечика."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "1977-nji ýylda alymlar ummanyň düýbünde, Gün ýagtylygy düşmeýän ýerde, gyzgyn çeşmeleriň ýanynda ýaşaýan jandarlary tapdylar. Ol ýerde zynjyr ösümlikden däl-de, ýörite bakteriýalardan başlanýar.",
+      "ru": "В 1977 году учёные нашли на дне океана, куда не проникает солнечный свет, живых существ возле горячих источников. Там пищевая цепь начинается не с растений, а с особых бактерий."
+     }
+    }
+   ]
+  },
+  {
+   "id": "world-3-continents-oceans",
+   "grade": 3,
+   "title": {
+    "tk": "Materikler we ummanlar",
+    "ru": "Материки и океаны"
+   },
+   "minutes": 8,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Ýeriň ýüzüniň köp bölegini suw tutýar — takmynan 70 göterimi.\nUly gury ýerlere materik diýilýär. Olar 6:\n• Ýewraziýa — iň uly materik;\n• Afrika;\n• Demirgazyk Amerika;\n• Günorta Amerika;\n• Awstraliýa — iň kiçi materik;\n• Antarktida — iň sowuk materik.\nUly suw giňişliklerine umman diýilýär. Iň uly umman — Ýuwaş umman. Atlantik, Hindi, Demirgazyk Buzly we Günorta ummanlar hem bar.",
+      "ru": "Большую часть поверхности Земли занимает вода — примерно 70 процентов.\nБольшие участки суши называются материками. Их 6:\n• Евразия — самый большой материк;\n• Африка;\n• Северная Америка;\n• Южная Америка;\n• Австралия — самый маленький материк;\n• Антарктида — самый холодный материк.\nБольшие водные пространства называются океанами. Самый большой — Тихий океан. Есть ещё Атлантический, Индийский, Северный Ледовитый и Южный океаны."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Türkmenistan haýsy materikde?\n1. Kartada Türkmenistany tapalyň — ol Aziýada, Hazar deňziniň gündogarynda.\n2. Aziýa we Ýewropa bilelikde bir uly materigi emele getirýär — Ýewraziýany.\n3. Diýmek, Türkmenistan Ýewraziýa materiginde ýerleşýär.",
+      "ru": "На каком материке Туркменистан?\n1. Найдём Туркменистан на карте — он в Азии, к востоку от Каспийского моря.\n2. Азия и Европа вместе образуют один большой материк — Евразию.\n3. Значит, Туркменистан находится на материке Евразия."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Iň uly umman haýsy?",
+      "ru": "Какой океан самый большой?"
+     },
+     "options": [
+      {
+       "tk": "Atlantik umman",
+       "ru": "Атлантический"
+      },
+      {
+       "tk": "Hindi ummany",
+       "ru": "Индийский"
+      },
+      {
+       "tk": "Ýuwaş umman",
+       "ru": "Тихий"
+      }
+     ],
+     "answer": 2,
+     "hint": {
+      "tk": "Onuň ady «asuda» diýen manyny berýär.",
+      "ru": "Его название означает «спокойный»."
+     },
+     "explain": {
+      "tk": "Ýuwaş umman iň uly we iň çuň umman.",
+      "ru": "Тихий океан — самый большой и самый глубокий."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Ýerde näçe materik bar?",
+      "ru": "Сколько материков на Земле?"
+     },
+     "answer": "6",
+     "hint": {
+      "tk": "Sanawdaky materikleri sana.",
+      "ru": "Посчитай материки в списке."
+     },
+     "explain": {
+      "tk": "Ýewraziýa, Afrika, Demirgazyk Amerika, Günorta Amerika, Awstraliýa, Antarktida — 6 materik.",
+      "ru": "Евразия, Африка, Северная Америка, Южная Америка, Австралия, Антарктида — 6 материков."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Türkmenistan Ýewraziýa materiginde ýerleşýär.",
+      "ru": "Туркменистан находится на материке Евразия."
+     },
+     "answer": true,
+     "hint": {
+      "tk": "Mysaly ýene bir gezek oka.",
+      "ru": "Перечитай пример."
+     },
+     "explain": {
+      "tk": "Dogry. Türkmenistan Aziýada, Aziýa bolsa Ýewraziýanyň bir bölegi.",
+      "ru": "Верно. Туркменистан в Азии, а Азия — часть Евразии."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Iň sowuk materik haýsy?",
+      "ru": "Какой материк самый холодный?"
+     },
+     "options": [
+      {
+       "tk": "Afrika",
+       "ru": "Африка"
+      },
+      {
+       "tk": "Antarktida",
+       "ru": "Антарктида"
+      },
+      {
+       "tk": "Awstraliýa",
+       "ru": "Австралия"
+      }
+     ],
+     "answer": 1,
+     "hint": {
+      "tk": "Ol Ýeriň iň günortasynda, buz bilen örtülen.",
+      "ru": "Он на самом юге Земли и покрыт льдом."
+     },
+     "explain": {
+      "tk": "Antarktida doly diýen ýaly buz bilen örtülen we ol iň sowuk materik.",
+      "ru": "Антарктида почти полностью покрыта льдом — это самый холодный материк."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Ýerdäki iň çuň ýer — Ýuwaş ummandaky Mariana çöketligi. Onuň çuňlugy 11 kilometre golaý. Eger ol ýere Ewerest dagyny goýsaň, onuň depesi hem suwuň aşagynda galardy.",
+      "ru": "Самое глубокое место на Земле — Марианская впадина в Тихом океане. Её глубина почти 11 километров. Если поставить туда гору Эверест, её вершина тоже оказалась бы под водой."
+     }
+    }
+   ]
+  },
+  {
+   "id": "world-3-nature-protection",
+   "grade": 3,
+   "title": {
+    "tk": "Tebigaty goramak",
+    "ru": "Охрана природы"
+   },
+   "minutes": 7,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Tebigat bize howa, suw, iýmit we öý berýär. Ony goramak her birimiziň borjumyz.\nNäme edip bileris?\n• Zir-zibili diňe ýörite gaba taşla.\n• Suwy we elektrik togy tygşytla.\n• Agaç ek, ösümliklere ideg et.\n• Haýwanlary we guşlary kemsitme.\n• Plastik çüýşeleri we kagyzy gaýtadan işlemäge tabşyr.\nSeýrek duş gelýän haýwanlar we ösümlikler «Gyzyl kitaba» ýazylýar. Olary ýörite goraghanalarda goraýarlar.",
+      "ru": "Природа даёт нам воздух, воду, пищу и дом. Беречь её — обязанность каждого.\nЧто мы можем сделать?\n• Бросать мусор только в урну.\n• Экономить воду и электричество.\n• Сажать деревья и ухаживать за растениями.\n• Не обижать животных и птиц.\n• Сдавать пластиковые бутылки и бумагу на переработку.\nРедкие животные и растения заносят в «Красную книгу». Их охраняют в заповедниках."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Suwy nädip tygşytlamaly?\n1. Dişiňi arassalanyňda krany ýap.\n2. Krany diňe çotgany öllemek ýa-da agzyňy çaýkamak üçin aç.\n3. Şeýdip, her gün birnäçe litr suwy tygşytlap bolýar.\nKiçi işler hem tebigata uly kömek edýär.",
+      "ru": "Как экономить воду?\n1. Когда чистишь зубы, закрывай кран.\n2. Открывай его, только когда нужно смочить щётку или прополоскать рот.\n3. Так каждый день можно сберечь несколько литров воды.\nДаже маленькие дела очень помогают природе."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Haýsy iş tebigata kömek edýär?",
+      "ru": "Какое дело помогает природе?"
+     },
+     "options": [
+      {
+       "tk": "Zibili derýa taşlamak",
+       "ru": "Бросать мусор в реку"
+      },
+      {
+       "tk": "Agaç ekmek",
+       "ru": "Сажать дерево"
+      },
+      {
+       "tk": "Şahalary döwmek",
+       "ru": "Ломать ветки"
+      }
+     ],
+     "answer": 1,
+     "hint": {
+      "tk": "Haýsy iş tebigatda täze janly zat döredýär?",
+      "ru": "Какое дело создаёт в природе что-то новое и живое?"
+     },
+     "explain": {
+      "tk": "Agaç kislorod berýär, guşlara öý bolýar. Beýleki iki iş tebigata zyýan berýär.",
+      "ru": "Дерево даёт кислород и становится домом для птиц. Два других дела вредят природе."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "«Gyzyl kitaba» seýrek duş gelýän haýwanlar we ösümlikler ýazylýar.",
+      "ru": "В «Красную книгу» заносят редкие животные и растения."
+     },
+     "answer": true,
+     "hint": {
+      "tk": "Teoriýanyň soňky setirlerini oka.",
+      "ru": "Прочитай последние строки теории."
+     },
+     "explain": {
+      "tk": "Dogry. Gyzyl kitap ýitip gitmek howpy bar bolan jandarlary görkezýär.",
+      "ru": "Верно. Красная книга показывает виды, которым грозит исчезновение."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Bir maşgala her gün 2 sany plastik çüýşäni gaýtadan işlemäge tabşyrýar. Bir hepdede näçe çüýşe bolar?",
+      "ru": "Семья каждый день сдаёт на переработку 2 пластиковые бутылки. Сколько бутылок будет за неделю?"
+     },
+     "answer": "14",
+     "hint": {
+      "tk": "Hepdede 7 gün bar.",
+      "ru": "В неделе 7 дней."
+     },
+     "explain": {
+      "tk": "2 × 7 = 14 çüýşe.",
+      "ru": "2 × 7 = 14 бутылок."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Dişiňi arassalanyňda krany ýapmak näme berýär?",
+      "ru": "Что даёт закрытый кран, когда чистишь зубы?"
+     },
+     "options": [
+      {
+       "tk": "Suwy tygşytlaýar",
+       "ru": "Экономит воду"
+      },
+      {
+       "tk": "Dişleri ak edýär",
+       "ru": "Делает зубы белыми"
+      },
+      {
+       "tk": "Howany arassalaýar",
+       "ru": "Очищает воздух"
+      }
+     ],
+     "answer": 0,
+     "hint": {
+      "tk": "Kran açyk bolsa, näme biderek akýar?",
+      "ru": "Что зря утекает, если кран открыт?"
+     },
+     "explain": {
+      "tk": "Kran ýapyk bolsa, suw biderek akmaýar — ol tygşytlanýar.",
+      "ru": "Если кран закрыт, вода не утекает зря — она экономится."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Dünýäde ilkinji milli seýilgäh — ABŞ-daky Ýellouston — 1872-nji ýylda döredildi. Türkmenistanda hem goraghanalar bar, mysal üçin, Garagum çölündäki Repetek goraghanasy 1928-nji ýylda döredilipdir.",
+      "ru": "Первый в мире национальный парк — Йеллоустон в США — создан в 1872 году. В Туркменистане тоже есть заповедники, например Репетекский заповедник в пустыне Каракумы, основанный в 1928 году."
+     }
+    }
+   ]
+  },
+  {
+   "id": "world-4-natural-zones",
+   "grade": 4,
+   "title": {
+    "tk": "Tebigy zolaklar",
+    "ru": "Природные зоны"
+   },
+   "minutes": 8,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Ýer ýüzünde howa hemme ýerde birmeňzeş däl. Polýuslarda sowuk, ekwatorda bolsa yssy. Şonuň üçin dürli ýerlerde dürli ösümlikler we haýwanlar ýaşaýar. Şeýle uly meýdanlara tebigy zolaklar diýilýär.\n\n• Arktika çölleri — buz we gar, ak aýy, morž.\n• Tundra — gysga tomus, mamyk we kiçi gyrymsy agaçlar, demirgazyk sugunlary.\n• Tokaý zolagy — gür agaçlar, aýy, möjek, tilki.\n• Step — otly giň düzlük, az agaç, gemrijiler, tilki.\n• Çöl — az ýagyş, gum, sazak, kertenkele, düýe.\n• Tropiki tokaý — yssy we çygly, maýmynlar, tutylar.",
+      "ru": "Климат на Земле везде разный. У полюсов холодно, у экватора жарко. Поэтому в разных местах растут разные растения и живут разные животные. Такие большие области называются природными зонами.\n\n• Арктические пустыни — лёд и снег, белый медведь, морж.\n• Тундра — короткое лето, мхи и низкие кустарники, северные олени.\n• Лесная зона — густые деревья, медведь, волк, лиса.\n• Степь — травы, мало деревьев, грызуны, лисы.\n• Пустыня — мало дождей, песок, саксаул, ящерицы, верблюды.\n• Тропический лес — жарко и влажно, обезьяны, попугаи."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Göz öňüne getir: biz Demirgazyk polýusdan ekwatora tarap syýahat edýäris.\n1) Ilki buz we gar — Arktika çölleri.\n2) Soňra agaçsyz, mamykly ýerler — tundra.\n3) Soňra uly tokaýlar.\n4) Soňra otly giň düzlükler — step.\n5) Soňra gumly, gurak ýerler — çöl. Garagum hem şeýle çöl.\n6) Ekwatora ýakyn — yssy tropiki tokaý.\nNetije: ekwatora ýakynlaşdygyňça howa ýylaýar.",
+      "ru": "Представь: мы путешествуем от Северного полюса к экватору.\n1) Сначала лёд и снег — арктические пустыни.\n2) Потом безлесные места со мхами — тундра.\n3) Потом большие леса.\n4) Потом широкие травянистые равнины — степь.\n5) Потом песчаные сухие места — пустыня. Каракумы — тоже пустыня.\n6) Ближе к экватору — жаркий тропический лес.\nВывод: чем ближе к экватору, тем теплее."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Ak aýy haýsy tebigy zolakda ýaşaýar?",
+      "ru": "В какой природной зоне живёт белый медведь?"
+     },
+     "options": [
+      {
+       "tk": "Arktika çöllerinde",
+       "ru": "В арктических пустынях"
+      },
+      {
+       "tk": "Tropiki tokaýda",
+       "ru": "В тропическом лесу"
+      },
+      {
+       "tk": "Stepde",
+       "ru": "В степи"
+      }
+     ],
+     "answer": 0,
+     "hint": {
+      "tk": "Ak aýynyň galyň ýüňi bar we ol buzuň üstünde aw edýär.",
+      "ru": "У белого медведя густой мех, и он охотится на льду."
+     },
+     "explain": {
+      "tk": "Ak aýy buzly we sowuk Arktikada ýaşaýar. Galyň ýüňi ony sowukdan goraýar.",
+      "ru": "Белый медведь живёт в ледяной холодной Арктике. Густой мех защищает его от холода."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Tundrada beýik we gür agaçlar köp ösýär.",
+      "ru": "В тундре растёт много высоких густых деревьев."
+     },
+     "answer": false,
+     "hint": {
+      "tk": "Tundrada tomus gysga we sowuk.",
+      "ru": "В тундре лето короткое и холодное."
+     },
+     "explain": {
+      "tk": "Ýalňyş. Tundrada tomus gysga, ýer aşagy doňak, şonuň üçin diňe mamyk, öwüsgen we kiçi gyrymsy agaçlar ösýär.",
+      "ru": "Неверно. В тундре короткое лето и мёрзлая земля, поэтому там растут только мхи, лишайники и низкие кустарники."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Garagum haýsy tebigy zolaga degişli?",
+      "ru": "К какой природной зоне относятся Каракумы?"
+     },
+     "options": [
+      {
+       "tk": "Tundra",
+       "ru": "Тундра"
+      },
+      {
+       "tk": "Tokaý",
+       "ru": "Лес"
+      },
+      {
+       "tk": "Çöl",
+       "ru": "Пустыня"
+      }
+     ],
+     "answer": 2,
+     "hint": {
+      "tk": "«Gum» sözüne üns ber.",
+      "ru": "Обрати внимание на слово «кум» — по-туркменски «песок»."
+     },
+     "explain": {
+      "tk": "Garagum — gumly, gurak we yssy ýer, ýagyş az ýagýar. Bu çöl zolagy.",
+      "ru": "Каракумы — песчаная, сухая и жаркая местность, где мало дождей. Это зона пустынь."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Haýsy zolakda ýyl boýy yssy we köp ýagyş ýagýar?",
+      "ru": "В какой зоне весь год жарко и идёт много дождей?"
+     },
+     "options": [
+      {
+       "tk": "Arktika çölünde",
+       "ru": "В арктической пустыне"
+      },
+      {
+       "tk": "Tropiki tokaýda",
+       "ru": "В тропическом лесу"
+      },
+      {
+       "tk": "Tundrada",
+       "ru": "В тундре"
+      }
+     ],
+     "answer": 1,
+     "hint": {
+      "tk": "Bu zolak ekwatora ýakyn.",
+      "ru": "Эта зона находится у экватора."
+     },
+     "explain": {
+      "tk": "Tropiki tokaýlar ekwatoryň golaýynda. Ol ýerde hemişe yssy we çygly, şonuň üçin ösümlikler gür ösýär.",
+      "ru": "Тропические леса находятся у экватора. Там всегда жарко и влажно, поэтому растения растут очень густо."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Günorta Amerikadaky Amazon tokaýy — dünýäniň iň uly tropiki tokaýy. Onda müňlerçe görnüşli ösümlikler, guşlar we mör-möjekler ýaşaýar, olaryň köpüsi başga hiç ýerde ýok.",
+      "ru": "Амазонский лес в Южной Америке — самый большой тропический лес в мире. В нём живут тысячи видов растений, птиц и насекомых, многих из них больше нигде нет."
+     }
+    }
+   ]
+  },
+  {
+   "id": "world-4-minerals",
+   "grade": 4,
+   "title": {
+    "tk": "Peýdaly gazylyp alynýan baýlyklar",
+    "ru": "Полезные ископаемые"
+   },
+   "minutes": 8,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Peýdaly gazylyp alynýan baýlyklar — adamlaryň ýer astyndan ýa-da ýeriň üstünden alyp ulanýan tebigy baýlyklary.\n\n• Ýangyç: nebit, tebigy gaz, kömür. Olar ýakylanda ýylylyk berýär.\n• Magdan: demir, mis, altyn. Olardan metal alynýar.\n• Gurluşyk üçin: granit, mermer, çäge, hek daşy.\n• Duz — biz ony nahara goşýarys.\n\nTürkmenistan tebigy gaza we nebite baý. «Galkynyş» gaz käni dünýäniň iň uly gaz känleriniň biri.",
+      "ru": "Полезные ископаемые — это природные богатства, которые люди добывают из-под земли или с её поверхности.\n\n• Топливо: нефть, природный газ, уголь. При сжигании они дают тепло.\n• Руды: железная, медная, золото. Из них получают металлы.\n• Для строительства: гранит, мрамор, песок, известняк.\n• Соль — мы добавляем её в еду.\n\nТуркменистан богат природным газом и нефтью. Газовое месторождение «Галкыныш» — одно из крупнейших в мире."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Nebitiň ýoluny yzarlalyň:\n1) Nebit ýeriň aşagyndan buraw guýusy arkaly çykarylýar.\n2) Ol zawodda arassalanýar we bölünýär.\n3) Ondan benzin, dizel ýangyjy we plastmassa üçin çig mal alynýar.\nNetije: maşynyň benzini we plastik çüýşe — ikisi hem nebitden.",
+      "ru": "Проследим путь нефти:\n1) Нефть достают из-под земли через буровую скважину.\n2) На заводе её очищают и разделяют.\n3) Из неё получают бензин, дизельное топливо и сырьё для пластмассы.\nВывод: бензин для машины и пластиковая бутылка — и то и другое из нефти."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Haýsy baýlyk ýangyç hökmünde ulanylýar?",
+      "ru": "Какое ископаемое используют как топливо?"
+     },
+     "options": [
+      {
+       "tk": "Granit",
+       "ru": "Гранит"
+      },
+      {
+       "tk": "Kömür",
+       "ru": "Уголь"
+      },
+      {
+       "tk": "Duz",
+       "ru": "Соль"
+      }
+     ],
+     "answer": 1,
+     "hint": {
+      "tk": "Haýsysy ýanýar we ýylylyk berýär?",
+      "ru": "Что горит и даёт тепло?"
+     },
+     "explain": {
+      "tk": "Kömür ýanýar we köp ýylylyk berýär, şonuň üçin ol ýangyç. Granit gurluşykda, duz bolsa nahar üçin ulanylýar.",
+      "ru": "Уголь горит и даёт много тепла, поэтому это топливо. Гранит используют в строительстве, а соль — в еде."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Demir magdanyndan metal alynýar.",
+      "ru": "Из железной руды получают металл."
+     },
+     "answer": true,
+     "hint": {
+      "tk": "Magdan näme üçin gerek?",
+      "ru": "Для чего нужна руда?"
+     },
+     "explain": {
+      "tk": "Dogry. Demir magdany peçlerde eredilýär we ondan demir we polat alynýar.",
+      "ru": "Верно. Железную руду плавят в печах и получают из неё железо и сталь."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Türkmenistan haýsy baýlyga aýratyn baý?",
+      "ru": "Каким богатством особенно богат Туркменистан?"
+     },
+     "options": [
+      {
+       "tk": "Altyna",
+       "ru": "Золотом"
+      },
+      {
+       "tk": "Almaza",
+       "ru": "Алмазами"
+      },
+      {
+       "tk": "Tebigy gaza",
+       "ru": "Природным газом"
+      }
+     ],
+     "answer": 2,
+     "hint": {
+      "tk": "«Galkynyş» känini ýatla.",
+      "ru": "Вспомни месторождение «Галкыныш»."
+     },
+     "explain": {
+      "tk": "Türkmenistanda tebigy gazyň örän uly gorlary bar. «Galkynyş» — dünýäniň iň uly gaz känleriniň biri.",
+      "ru": "В Туркменистане очень большие запасы природного газа. «Галкыныш» — одно из крупнейших газовых месторождений мира."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Plastik önümler üçin çig mal nebitden alynýar.",
+      "ru": "Сырьё для пластмассы получают из нефти."
+     },
+     "answer": true,
+     "hint": {
+      "tk": "Mysaly ýatla.",
+      "ru": "Вспомни пример."
+     },
+     "explain": {
+      "tk": "Dogry. Plastmassalaryň köpüsi nebitden we gazdan alnan maddalardan ýasalýar.",
+      "ru": "Верно. Большинство пластмасс делают из веществ, полученных из нефти и газа."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Almaz — tebigatdaky iň gaty mineral. Ol diňe uglerod atomlaryndan durýar. Ýöne ýumşak grafit (galamyň içi) hem uglerod! Tapawut atomlaryň nähili ýerleşişinde.",
+      "ru": "Алмаз — самый твёрдый природный минерал. Он состоит только из атомов углерода. Но мягкий графит (грифель карандаша) — тоже углерод! Разница в том, как расположены атомы."
+     }
+    }
+   ]
+  },
+  {
+   "id": "world-4-energy-sources",
+   "grade": 4,
+   "title": {
+    "tk": "Energiýa çeşmeleri",
+    "ru": "Источники энергии"
+   },
+   "minutes": 8,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Energiýa — işi ýerine ýetirmek ukyby. Çyra ýanmagy, maşynyň ýöremegi, öýüň ýylamagy üçin energiýa gerek.\n\nEnergiýa çeşmeleri iki topara bölünýär:\n• Täzelenýän — gutarmaýar: Gün, ýel, akýan suw.\n• Täzelenmeýän — wagtyň geçmegi bilen gutarýar: nebit, gaz, kömür.\n\nNebit, gaz we kömür ýakylanda howa tüsse we gaz çykýar. Gün we ýel energiýasy howany hapalamaýar.",
+      "ru": "Энергия — это способность совершать работу. Энергия нужна, чтобы горела лампа, ехала машина, грелся дом.\n\nИсточники энергии делятся на две группы:\n• Возобновляемые — не заканчиваются: Солнце, ветер, текущая вода.\n• Невозобновляемые — со временем заканчиваются: нефть, газ, уголь.\n\nПри сжигании нефти, газа и угля в воздух выходят дым и газы. Энергия Солнца и ветра воздух не загрязняет."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Öýüňdäki çyra nireden ýanýar?\n1) Elektrik stansiýasynda gaz ýakylýar.\n2) Ýylylyk suwy buga öwürýär.\n3) Bug turbinany aýlaýar, turbina generatory aýlaýar.\n4) Generator elektrik toguny öndürýär.\n5) Tok simler arkaly öýüňe gelýär.\nGün panelinde bolsa ýagtylyk göni elektrik toguna öwrülýär.",
+      "ru": "Откуда берётся свет в твоём доме?\n1) На электростанции сжигают газ.\n2) Тепло превращает воду в пар.\n3) Пар вращает турбину, турбина вращает генератор.\n4) Генератор вырабатывает электрический ток.\n5) Ток по проводам приходит в твой дом.\nА в солнечной панели свет сразу превращается в электрический ток."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Haýsy energiýa çeşmesi täzelenýär?",
+      "ru": "Какой источник энергии возобновляемый?"
+     },
+     "options": [
+      {
+       "tk": "Ýel",
+       "ru": "Ветер"
+      },
+      {
+       "tk": "Kömür",
+       "ru": "Уголь"
+      },
+      {
+       "tk": "Nebit",
+       "ru": "Нефть"
+      }
+     ],
+     "answer": 0,
+     "hint": {
+      "tk": "Haýsysy hiç haçan gutarmaýar?",
+      "ru": "Что никогда не закончится?"
+     },
+     "explain": {
+      "tk": "Ýel ýene-ýene öwüsýär, ol gutarmaýar. Kömür we nebit bolsa ýer astynda millionlarça ýylyň dowamynda emele gelipdir we gutarýar.",
+      "ru": "Ветер дует снова и снова, он не заканчивается. А уголь и нефть образовывались под землёй миллионы лет и заканчиваются."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Gün paneli ýagtylygy elektrik toguna öwürýär.",
+      "ru": "Солнечная панель превращает свет в электрический ток."
+     },
+     "answer": true,
+     "hint": {
+      "tk": "Mysala seret.",
+      "ru": "Посмотри на пример."
+     },
+     "explain": {
+      "tk": "Dogry. Gün paneli Günüň ýagtylygyny göni elektrik energiýasyna öwürýär.",
+      "ru": "Верно. Солнечная панель превращает солнечный свет прямо в электрическую энергию."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Ýakylanda howany hapalaýan çeşme haýsy?",
+      "ru": "Какой источник загрязняет воздух при сжигании?"
+     },
+     "options": [
+      {
+       "tk": "Gün",
+       "ru": "Солнце"
+      },
+      {
+       "tk": "Akýan suw",
+       "ru": "Текущая вода"
+      },
+      {
+       "tk": "Kömür",
+       "ru": "Уголь"
+      }
+     ],
+     "answer": 2,
+     "hint": {
+      "tk": "Haýsysyny ýakmak gerek?",
+      "ru": "Что нужно сжигать?"
+     },
+     "explain": {
+      "tk": "Kömür ýakylanda tüsse we zyýanly gazlar çykýar. Gün we suw energiýasy üçin hiç zat ýakylmaýar.",
+      "ru": "При сжигании угля выходят дым и вредные газы. Для энергии Солнца и воды ничего сжигать не нужно."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Sanawda näçe täzelenýän çeşme bar? Gün, nebit, ýel, gaz, akýan suw.",
+      "ru": "Сколько возобновляемых источников в списке? Солнце, нефть, ветер, газ, текущая вода."
+     },
+     "answer": "3",
+     "hint": {
+      "tk": "Gutarmaýanlaryny sana.",
+      "ru": "Посчитай те, что не заканчиваются."
+     },
+     "explain": {
+      "tk": "Gün, ýel we akýan suw — 3 sany täzelenýän çeşme. Nebit we gaz täzelenmeýär.",
+      "ru": "Солнце, ветер и текущая вода — 3 возобновляемых источника. Нефть и газ не возобновляются."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Günüň ýagtylygy Ýere takmynan 8 minutda gelýär. Ösümlikler bu ýagtylygy iýmite öwürýär, biz bolsa ösümlikleri iýýäris — diýmek, biziň energiýamyz hem Günden gelýär!",
+      "ru": "Свет Солнца долетает до Земли примерно за 8 минут. Растения превращают этот свет в пищу, а мы едим растения — значит, наша энергия тоже приходит от Солнца!"
+     }
+    }
+   ]
+  },
+  {
+   "id": "world-4-internal-organs",
+   "grade": 4,
+   "title": {
+    "tk": "Adamyň iç organlary",
+    "ru": "Внутренние органы человека"
+   },
+   "minutes": 8,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Bedenimiziň içinde möhüm işleri ýerine ýetirýän organlar bar:\n\n• Beýni — kellede. Ol bedeni dolandyrýar, biz onuň bilen pikirlenýäris.\n• Ýürek — döşde. Ol nasos ýaly gany bütin bedene ýetirýär.\n• Öýken — iki sany. Biz olar bilen dem alýarys.\n• Aşgazan — iýmit şu ýerde siňdirilip başlaýar.\n• Içegeler — iýmitden peýdaly maddalary alýarlar.\n• Bagyr — gany arassalamaga kömek edýär.\n• Böwrekler — iki sany. Olar gany süzýär we peşew emele getirýär.",
+      "ru": "Внутри нашего тела есть органы, которые выполняют важную работу:\n\n• Мозг — в голове. Он управляет телом, им мы думаем.\n• Сердце — в груди. Оно, как насос, гонит кровь по всему телу.\n• Лёгкие — их два. Ими мы дышим.\n• Желудок — здесь начинает перевариваться пища.\n• Кишечник — забирает из пищи полезные вещества.\n• Печень — помогает очищать кровь.\n• Почки — их две. Они фильтруют кровь и образуют мочу."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Alma iýeniňde näme bolýar?\n1) Agyzda dişler almany çeýneýär.\n2) Ol aşgazana barýar we bölünýär.\n3) Içegelerde peýdaly maddalar gana geçýär.\n4) Ýürek bu gany bütin bedene ýetirýär.\n5) Beýni we myşsalar bu energiýany ulanýar.\nGörşüň ýaly, organlar bilelikde işleýär.",
+      "ru": "Что происходит, когда ты ешь яблоко?\n1) Во рту зубы пережёвывают яблоко.\n2) Оно попадает в желудок и расщепляется.\n3) В кишечнике полезные вещества переходят в кровь.\n4) Сердце разносит эту кровь по всему телу.\n5) Мозг и мышцы используют эту энергию.\nКак видишь, органы работают вместе."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Haýsy organ gany bütin bedene ýetirýär?",
+      "ru": "Какой орган гонит кровь по всему телу?"
+     },
+     "options": [
+      {
+       "tk": "Aşgazan",
+       "ru": "Желудок"
+      },
+      {
+       "tk": "Ýürek",
+       "ru": "Сердце"
+      },
+      {
+       "tk": "Öýken",
+       "ru": "Лёгкие"
+      }
+     ],
+     "answer": 1,
+     "hint": {
+      "tk": "Ol nasos ýaly işleýär we urýar.",
+      "ru": "Он работает как насос и бьётся."
+     },
+     "explain": {
+      "tk": "Ýürek ýygrylyp gany damarlara iterýär. Şonuň üçin biz ýüregiň urşuny duýýarys.",
+      "ru": "Сердце сжимается и выталкивает кровь в сосуды. Поэтому мы чувствуем, как оно бьётся."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Adamyň näçe öýkeni bar?",
+      "ru": "Сколько лёгких у человека?"
+     },
+     "answer": "2",
+     "hint": {
+      "tk": "Döşüň sag we çep tarapyny ýatla.",
+      "ru": "Вспомни правую и левую сторону груди."
+     },
+     "explain": {
+      "tk": "Adamyň 2 öýkeni bar: sagda we çepde.",
+      "ru": "У человека 2 лёгких: справа и слева."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Biz aşgazan bilen pikirlenýäris.",
+      "ru": "Мы думаем желудком."
+     },
+     "answer": false,
+     "hint": {
+      "tk": "Bedeni haýsy organ dolandyrýar?",
+      "ru": "Какой орган управляет телом?"
+     },
+     "explain": {
+      "tk": "Ýalňyş. Biz beýni bilen pikirlenýäris. Aşgazan iýmiti siňdirýär.",
+      "ru": "Неверно. Мы думаем мозгом. Желудок переваривает пищу."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Gany süzüp, peşew emele getirýän organlar haýsylar?",
+      "ru": "Какие органы фильтруют кровь и образуют мочу?"
+     },
+     "options": [
+      {
+       "tk": "Öýkenler",
+       "ru": "Лёгкие"
+      },
+      {
+       "tk": "Beýni",
+       "ru": "Мозг"
+      },
+      {
+       "tk": "Böwrekler",
+       "ru": "Почки"
+      }
+     ],
+     "answer": 2,
+     "hint": {
+      "tk": "Olar hem iki sany, bil tarapynda ýerleşýär.",
+      "ru": "Их тоже две, они находятся у поясницы."
+     },
+     "explain": {
+      "tk": "Böwrekler gandaky artyk suwy we zyýanly maddalary süzüp, peşew emele getirýär.",
+      "ru": "Почки отфильтровывают из крови лишнюю воду и вредные вещества и образуют мочу."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "1628-nji ýylda iňlis lukmany Uilýam Garweý ganyň bedende tegelek boýunça aýlanýandygyny we ony ýüregiň iterýändigini düşündirdi. Bu açyş lukmançylygy düýpli üýtgetdi.",
+      "ru": "В 1628 году английский врач Уильям Гарвей объяснил, что кровь движется по телу по кругу и её гонит сердце. Это открытие сильно изменило медицину."
+     }
+    }
+   ]
+  },
+  {
+   "id": "world-4-ancient-civilizations",
+   "grade": 4,
+   "title": {
+    "tk": "Gadymy siwilizasiýalar",
+    "ru": "Древние цивилизации"
+   },
+   "minutes": 9,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Siwilizasiýa — şäherleri, ýazuwy, kanunlary we hünärleri bolan uly jemgyýet. Ilkinji siwilizasiýalar uly derýalaryň boýunda döräpdir, sebäbi suw ekin üçin gerek.\n\n• Gadymy Müsür — Nil derýasy, piramidalar, iýeroglif ýazuwy.\n• Mesopotamiýa — Tigr we Ýewfrat derýalary, mismar ýazuwy, ilkinji tigirleriň biri.\n• Gadymy Hytaý — kagyz, ýüpek, Beýik Hytaý diwary.\n• Gadymy Gresiýa — Olimpiýa oýunlary, teatr, filosofiýa.\n• Marguş — häzirki Türkmenistanyň çäginde, Murgap derýasynyň boýunda. Gönür depe şäheri takmynan 4000 ýyl ozal gülläp ösüpdir.",
+      "ru": "Цивилизация — это большое общество с городами, письменностью, законами и ремёслами. Первые цивилизации возникли у больших рек, потому что вода нужна для посевов.\n\n• Древний Египет — река Нил, пирамиды, иероглифы.\n• Месопотамия — реки Тигр и Евфрат, клинопись, одно из первых колёс.\n• Древний Китай — бумага, шёлк, Великая Китайская стена.\n• Древняя Греция — Олимпийские игры, театр, философия.\n• Маргуш (Маргиана) — на территории нынешнего Туркменистана, у реки Мургаб. Город Гонур-депе процветал около 4000 лет назад."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Gadymy müsürliler piramidany näme üçin gurupdyrlar?\n1) Olar patyşalary — fyragunlary aýratyn hormatlapdyrlar.\n2) Fyragun ölenden soň onuň jaýy hökmünde piramida gurlupdyr.\n3) Müňlerçe işçi uly daş bloklaryny ýyllar boýy daşapdyr.\nŞeýdip, piramidalar dini ynançlaryň we ussatlygyň alamatyna öwrülipdir.",
+      "ru": "Зачем древние египтяне строили пирамиды?\n1) Они особенно почитали своих царей — фараонов.\n2) После смерти фараона для него строили пирамиду как гробницу.\n3) Тысячи рабочих годами перевозили огромные каменные блоки.\nТак пирамиды стали знаком веры и мастерства."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Gadymy Müsür haýsy derýanyň boýunda döräpdir?",
+      "ru": "У какой реки возник Древний Египет?"
+     },
+     "options": [
+      {
+       "tk": "Nil",
+       "ru": "Нил"
+      },
+      {
+       "tk": "Murgap",
+       "ru": "Мургаб"
+      },
+      {
+       "tk": "Ýewfrat",
+       "ru": "Евфрат"
+      }
+     ],
+     "answer": 0,
+     "hint": {
+      "tk": "Bu derýa Afrikada.",
+      "ru": "Эта река в Африке."
+     },
+     "explain": {
+      "tk": "Müsür Nil derýasynyň boýunda döräpdir. Nil her ýyl daşyp, ekin üçin hasylly palçyk getiripdir.",
+      "ru": "Египет возник на берегах Нила. Нил каждый год разливался и приносил плодородный ил для посевов."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Gönür depe gadymy şäheri häzirki Türkmenistanyň çäginde ýerleşýär.",
+      "ru": "Древний город Гонур-депе находится на территории нынешнего Туркменистана."
+     },
+     "answer": true,
+     "hint": {
+      "tk": "Marguş siwilizasiýasyny ýatla.",
+      "ru": "Вспомни цивилизацию Маргуш."
+     },
+     "explain": {
+      "tk": "Dogry. Gönür depe Marguş siwilizasiýasynyň merkezi bolupdyr, ol Murgap derýasynyň köne hanasynyň golaýynda.",
+      "ru": "Верно. Гонур-депе был центром цивилизации Маргуш, он находится у древнего русла реки Мургаб."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Olimpiýa oýunlary haýsy ýurtda döräpdir?",
+      "ru": "В какой стране появились Олимпийские игры?"
+     },
+     "options": [
+      {
+       "tk": "Gadymy Hytaýda",
+       "ru": "В Древнем Китае"
+      },
+      {
+       "tk": "Gadymy Gresiýada",
+       "ru": "В Древней Греции"
+      },
+      {
+       "tk": "Gadymy Müsürde",
+       "ru": "В Древнем Египте"
+      }
+     ],
+     "answer": 1,
+     "hint": {
+      "tk": "Olimpiýa — bu ýurtdaky ýeriň ady.",
+      "ru": "Олимпия — название места в этой стране."
+     },
+     "explain": {
+      "tk": "Olimpiýa oýunlary Gadymy Gresiýada, Olimpiýa diýen ýerde geçirilipdir.",
+      "ru": "Олимпийские игры проводились в Древней Греции, в месте под названием Олимпия."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Kagyz ilkinji gezek nirede oýlanyp tapylypdyr?",
+      "ru": "Где впервые изобрели бумагу?"
+     },
+     "options": [
+      {
+       "tk": "Mesopotamiýada",
+       "ru": "В Месопотамии"
+      },
+      {
+       "tk": "Gadymy Gresiýada",
+       "ru": "В Древней Греции"
+      },
+      {
+       "tk": "Gadymy Hytaýda",
+       "ru": "В Древнем Китае"
+      }
+     ],
+     "answer": 2,
+     "hint": {
+      "tk": "Bu ýurt ýüpegi we uly diwary bilen hem meşhur.",
+      "ru": "Эта страна знаменита также шёлком и великой стеной."
+     },
+     "explain": {
+      "tk": "Kagyz Gadymy Hytaýda oýlanyp tapylypdyr. Mesopotamiýada bolsa palçyk tagtajyklara ýazypdyrlar.",
+      "ru": "Бумагу изобрели в Древнем Китае. А в Месопотамии писали на глиняных табличках."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Gizadaky Beýik piramida 3800 ýyldan gowrak wagtyň dowamynda adamlaryň guran iň beýik binasy bolup galypdyr. Ol gadymy dünýäniň ýedi täsinliginden häzire çenli saklanyp galan ýeke-täk täsinlik.",
+      "ru": "Великая пирамида в Гизе более 3800 лет оставалась самым высоким сооружением, построенным людьми. Это единственное из семи чудес древнего мира, сохранившееся до наших дней."
+     }
+    }
+   ]
+  },
+  {
+   "id": "world-4-map-compass",
+   "grade": 4,
+   "title": {
+    "tk": "Karta we kompas",
+    "ru": "Карта и компас"
+   },
+   "minutes": 8,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Karta — Ýeriň ýüzüniň kiçeldilen şekili.\n\n• Kartanyň ýokarsy adatça demirgazyk, aşagy günorta, sagy gündogar, çepi günbatar.\n• Masştab — kartada 1 sm hakykatda näçe uzaklyga deňdigini görkezýär.\n• Şertli belgiler — kartadaky reňkler we nyşanlar. Gök — suw, ýaşyl — pes düzlükler, goňur — daglar.\n\nKompas — tarapy tapmak üçin gural. Onuň magnit peýkamy hemişe demirgazyga tarap görkezýär.",
+      "ru": "Карта — это уменьшенное изображение земной поверхности.\n\n• Вверху карты обычно север, внизу юг, справа восток, слева запад.\n• Масштаб показывает, какому расстоянию на местности равен 1 см на карте.\n• Условные знаки — цвета и значки на карте. Синий — вода, зелёный — низменности, коричневый — горы.\n\nКомпас — прибор для определения сторон горизонта. Его магнитная стрелка всегда показывает на север."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Masştab: 1 sm = 10 km. Kartada iki obanyň arasy 4 sm.\n1) Her sm — 10 km.\n2) 4 × 10 = 40.\nJogap: obalaryň arasy 40 km.\n\nKompas bilen: ýüzüňi demirgazyga öwür. Onda sag eliň gündogary, çep eliň günbatary, arkaň bolsa günortany görkezýär.",
+      "ru": "Масштаб: 1 см = 10 км. На карте между двумя сёлами 4 см.\n1) Каждый сантиметр — 10 км.\n2) 4 × 10 = 40.\nОтвет: между сёлами 40 км.\n\nС компасом: повернись лицом на север. Тогда правая рука показывает на восток, левая — на запад, а спина — на юг."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Masştab: 1 sm = 10 km. Kartada şäherleriň arasy 6 sm. Hakykatda näçe km?",
+      "ru": "Масштаб: 1 см = 10 км. На карте между городами 6 см. Сколько это км на самом деле?"
+     },
+     "answer": "60",
+     "hint": {
+      "tk": "Santimetrleri 10-a köpelt.",
+      "ru": "Умножь сантиметры на 10."
+     },
+     "explain": {
+      "tk": "6 × 10 = 60. Şäherleriň arasy 60 km.",
+      "ru": "6 × 10 = 60. Между городами 60 км."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Kompasyň peýkamy haýsy tarapy görkezýär?",
+      "ru": "Куда показывает стрелка компаса?"
+     },
+     "options": [
+      {
+       "tk": "Günortany",
+       "ru": "На юг"
+      },
+      {
+       "tk": "Demirgazygy",
+       "ru": "На север"
+      },
+      {
+       "tk": "Gündogary",
+       "ru": "На восток"
+      }
+     ],
+     "answer": 1,
+     "hint": {
+      "tk": "Bu tarap kartanyň ýokarsynda.",
+      "ru": "Эта сторона наверху карты."
+     },
+     "explain": {
+      "tk": "Kompasyň magnit peýkamy Ýeriň magnit meýdany sebäpli demirgazyga öwrülýär.",
+      "ru": "Магнитная стрелка компаса поворачивается на север из-за магнитного поля Земли."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Kartada daglar köplenç haýsy reňk bilen görkezilýär?",
+      "ru": "Каким цветом на карте обычно показывают горы?"
+     },
+     "options": [
+      {
+       "tk": "Gök",
+       "ru": "Синим"
+      },
+      {
+       "tk": "Ýaşyl",
+       "ru": "Зелёным"
+      },
+      {
+       "tk": "Goňur",
+       "ru": "Коричневым"
+      }
+     ],
+     "answer": 2,
+     "hint": {
+      "tk": "Gök — suw, ýaşyl — düzlük.",
+      "ru": "Синий — вода, зелёный — равнина."
+     },
+     "explain": {
+      "tk": "Daglar goňur reňk bilen görkezilýär. Dag näçe beýik bolsa, goňur reňk şonça goýy.",
+      "ru": "Горы показывают коричневым. Чем выше гора, тем темнее коричневый цвет."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Gün gündogardan dogýar.",
+      "ru": "Солнце встаёт на востоке."
+     },
+     "answer": true,
+     "hint": {
+      "tk": "Irden Günüň nireden çykýandygyny ýatla.",
+      "ru": "Вспомни, где появляется Солнце утром."
+     },
+     "explain": {
+      "tk": "Dogry. Gün gündogardan dogup, günbatarda ýaşýar. Kompasyň ýok wagty hem tarapy şeýdip tapyp bolýar.",
+      "ru": "Верно. Солнце встаёт на востоке и садится на западе. Так можно найти стороны света даже без компаса."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Ilkinji magnit kompaslary Gadymy Hytaýda ýasalypdyr. Soňra kompas deňizçilere açyk deňizde ýol tapmaga kömek edip, uly deňiz syýahatlaryna ýol açypdyr.",
+      "ru": "Первые магнитные компасы сделали в Древнем Китае. Позже компас помог морякам находить путь в открытом море и открыл дорогу великим морским путешествиям."
+     }
+    }
+   ]
+  }
+ ]
+}

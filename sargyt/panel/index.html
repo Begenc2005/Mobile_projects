@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="tk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SARGYT — Partner</title>
+<style>
+:root{--bg:#f5f6f8;--card:#fff;--text:#16191d;--muted:#6b7280;--line:#e5e7eb;--brand:#0a8f5a;--brand2:#e8f6ef;--warn:#c2410c;--warn2:#fff4ed;--blue:#1d4ed8}
+*{box-sizing:border-box}body{margin:0;font:15px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--text)}
+header{display:flex;align-items:center;gap:12px;padding:12px 16px;background:var(--card);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5}
+header b{font-size:20px;color:var(--brand);letter-spacing:.3px}header .sp{flex:1}
+nav{display:flex;gap:4px;flex-wrap:wrap}nav button{background:none;border:0;padding:8px 12px;border-radius:8px;cursor:pointer;font:inherit;color:var(--muted)}
+nav button.on{background:var(--brand2);color:var(--brand);font-weight:600}
+main{max-width:1100px;margin:0 auto;padding:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;margin-bottom:12px}
+h2{margin:0 0 12px;font-size:18px}h3{margin:0 0 8px;font-size:16px}
+input,select,textarea{width:100%;padding:9px 10px;border:1px solid var(--line);border-radius:8px;font:inherit;background:#fff}
+label{display:block;font-size:13px;color:var(--muted);margin:8px 0 4px}
+.btn{display:inline-block;padding:9px 14px;border-radius:8px;border:0;background:var(--brand);color:#fff;font:inherit;font-weight:600;cursor:pointer}
+.btn.s{background:#eef0f3;color:var(--text)}.btn.r{background:var(--warn)}.btn.sm{padding:6px 10px;font-size:13px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}.row>*{flex:1}
+.muted{color:var(--muted)}.pill{display:inline-block;padding:2px 8px;border-radius:99px;font-size:12px;background:#eef0f3}
+.pill.new{background:var(--warn2);color:var(--warn)}.pill.active,.pill.delivered{background:var(--brand2);color:var(--brand)}
+.kanban{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}@media(max-width:800px){.kanban{grid-template-columns:1fr}}
+.col{background:#eceef1;border-radius:12px;padding:8px;min-height:120px}.col h4{margin:4px 6px 8px;font-size:13px;color:var(--muted);text-transform:uppercase}
+.order{background:var(--card);border-radius:10px;padding:10px;margin-bottom:8px;border:1px solid var(--line)}
+.order.fresh{border-color:var(--warn);box-shadow:0 0 0 2px var(--warn2)}
+.order .items{font-size:13px;margin:6px 0;color:#374151}
+table{width:100%;border-collapse:collapse}td,th{padding:8px;border-bottom:1px solid var(--line);text-align:left;font-size:14px}th{color:var(--muted);font-weight:500}
+.stat{font-size:24px;font-weight:700}.hide{display:none}.err{color:var(--warn);margin-top:8px}
+.prod{display:flex;gap:10px;align-items:center;padding:8px 0;border-bottom:1px solid var(--line)}.prod img{width:48px;height:48px;object-fit:cover;border-radius:8px;background:#eee}
+.prod .n{flex:1}.toggle{cursor:pointer}
+</style>
+</head>
+<body>
+<header>
+  <b>SARGYT</b><span class="muted" data-t="panel"></span><span class="sp"></span>
+  <nav id="nav"></nav>
+  <select id="lang" style="width:auto"><option value="tk">TM</option><option value="ru">RU</option></select>
+  <button class="btn s sm hide" id="logout" data-t="logout"></button>
+</header>
+<main id="main"></main>
+
+<script>
+const T = {
+  tk: { panel:'Hyzmatdaş paneli', logout:'Çykmak', phone:'Telefon belgisi', getCode:'Kod almak', code:'SMS kod', enter:'Girmek',
+    orders:'Sargytlar', menu:'Menýu', venue:'Edara', report:'Hasabat', admin:'Admin', newVenue:'Täze edarany birikdirmek',
+    st_new:'Täze', st_accepted:'Kabul edildi', st_preparing:'Taýýarlanýar', st_on_the_way:'Ýolda', st_delivered:'Eltildi', st_rejected:'Ret edildi', st_cancelled:'Ýatyryldy', st_awaiting_payment:'Töleg garaşylýar',
+    accept:'Kabul et', reject:'Ret et', next_preparing:'Taýýarlanýar', next_on_the_way:'Ýola çykdy', next_delivered:'Eltildi',
+    card:'Kart', cash:'Nagt', paid:'Tölenen', open:'Açyk', closed:'Ýapyk', pending:'Barlagda', active:'Işjeň', blocked:'Bloklandy',
+    save:'Ýatda sakla', add:'Goş', category:'Kategoriýa', product:'Haryt / nahar', price:'Bahasy', nameRu:'Ady (rusça)', nameTk:'Ady (türkmençe)',
+    type:'Görnüşi', city:'Şäher', address:'Salgy', myLoc:'Meniň ýerim', deliveryFee:'Eltip bermek bahasy', minOrder:'Iň az sargyt', radius:'Eltip bermek radiusy, km',
+    prep:'Taýýarlamak wagty, min', acceptsCash:'Nagt kabul edýär', legalName:'Hukuk ady (HJ/TE)', taxId:'SBB', photo:'Surat',
+    from:'Başy', to:'Ahyry', show:'Görkez', gmv:'Dolanyşyk', commission:'Komissiýa', cardTotal:'Kart bilen', cashTotal:'Nagt bilen',
+    payable:'Size geçiriljek', owed:'Siziň tölejek komissiýaňyz', ordersN:'Sargyt sany', noVenue:'Entek edaraňyz ýok.', submitted:'Arza iberildi. Admin barlandan soň işjeňleşer.',
+    approve:'Tassykla', block:'Blokla', contractNo:'Şertnama №', stats:'Statistika', users:'Ulanyjylar', today:'Şu gün', reason:'Ret etmegiň sebäbi',
+    t_restaurant:'Restoran', t_cafe:'Kafe', t_grocery:'Azyk dükany', t_pharmacy:'Dermanhana', t_shop:'Dükan', available:'Bar', none:'Ýok' },
+  ru: { panel:'Панель партнёра', logout:'Выйти', phone:'Номер телефона', getCode:'Получить код', code:'Код из SMS', enter:'Войти',
+    orders:'Заказы', menu:'Меню', venue:'Заведение', report:'Отчёт', admin:'Админ', newVenue:'Подключить новое заведение',
+    st_new:'Новые', st_accepted:'Принят', st_preparing:'Готовится', st_on_the_way:'В пути', st_delivered:'Доставлен', st_rejected:'Отклонён', st_cancelled:'Отменён', st_awaiting_payment:'Ждёт оплаты',
+    accept:'Принять', reject:'Отклонить', next_preparing:'Готовится', next_on_the_way:'Отправлен', next_delivered:'Доставлен',
+    card:'Карта', cash:'Наличные', paid:'Оплачен', open:'Открыто', closed:'Закрыто', pending:'На проверке', active:'Активно', blocked:'Заблокировано',
+    save:'Сохранить', add:'Добавить', category:'Категория', product:'Товар / блюдо', price:'Цена', nameRu:'Название (рус)', nameTk:'Название (туркм)',
+    type:'Тип', city:'Город', address:'Адрес', myLoc:'Моё место', deliveryFee:'Стоимость доставки', minOrder:'Мин. заказ', radius:'Радиус доставки, км',
+    prep:'Время приготовления, мин', acceptsCash:'Принимает наличные', legalName:'Юр. название (ХО/ИП)', taxId:'ИНН', photo:'Фото',
+    from:'С', to:'По', show:'Показать', gmv:'Оборот', commission:'Комиссия', cardTotal:'Картой', cashTotal:'Наличными',
+    payable:'К перечислению вам', owed:'Ваша комиссия к оплате', ordersN:'Заказов', noVenue:'У вас пока нет заведения.', submitted:'Заявка отправлена. Станет активной после проверки.',
+    approve:'Одобрить', block:'Заблокировать', contractNo:'Договор №', stats:'Статистика', users:'Пользователи', today:'Сегодня', reason:'Причина отказа',
+    t_restaurant:'Ресторан', t_cafe:'Кафе', t_grocery:'Продукты', t_pharmacy:'Аптека', t_shop:'Магазин', available:'В наличии', none:'Нет' },
+};
+let lang = localStorage.lang || 'tk';
+const t = (k) => T[lang][k] ?? k;
+const $ = (s, el = document) => el.querySelector(s);
+const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[c]));
+const nm = (o) => esc(lang === 'ru' ? o.name_ru : o.name_tk);
+const money = (n) => `${Number(n).toFixed(2)} TMT`;
+const state = { token: localStorage.token, user: null, venues: [], venueId: Number(localStorage.venueId) || null, tab: 'orders', seen: new Set(), cities: [] };
+
+async function api(path, opts = {}) {
+  const headers = { ...(opts.body && !(opts.body instanceof FormData) ? { 'content-type': 'application/json' } : {}),
+    ...(state.token ? { authorization: `Bearer ${state.token}` } : {}) };
+  const res = await fetch(path, { ...opts, headers, body: opts.body && !(opts.body instanceof FormData) ? JSON.stringify(opts.body) : opts.body });
+  const data = await res.json().catch(() => ({}));
+  if (res.status === 401) { logout(); throw new Error('unauthorized'); }
+  if (!res.ok) throw new Error(data.message || data.error || res.status);
+  return data;
+}
+function logout() { localStorage.removeItem('token'); state.token = null; state.user = null; render(); }
+
+function i18nStatic() { document.querySelectorAll('[data-t]').forEach((e) => (e.textContent = t(e.dataset.t))); }
+$('#lang').value = lang;
+$('#lang').onchange = (e) => { lang = localStorage.lang = e.target.value; render(); };
+$('#logout').onclick = logout;
+
+// ---------- вход ----------
+function renderLogin() {
+  $('#main').innerHTML = `<div class="card" style="max-width:380px;margin:40px auto">
+    <h2>${t('enter')}</h2>
+    <label>${t('phone')}</label><input id="ph" placeholder="+993 6X XXXXXX" inputmode="tel">
+    <button class="btn" id="go" style="margin-top:12px;width:100%">${t('getCode')}</button>
+    <div id="step2" class="hide"><label>${t('code')}</label><input id="code" inputmode="numeric" maxlength="4">
+    <button class="btn" id="ver" style="margin-top:12px;width:100%">${t('enter')}</button></div>
+    <div class="err" id="err"></div></div>`;
+  $('#go').onclick = async () => {
+    try {
+      const r = await api('/api/auth/otp', { method: 'POST', body: { phone: $('#ph').value } });
+      $('#step2').classList.remove('hide'); if (r.devCode) $('#code').value = r.devCode;
+    } catch (e) { $('#err').textContent = e.message; }
+  };
+  $('#ver').onclick = async () => {
+    try {
+      const r = await api('/api/auth/verify', { method: 'POST', body: { phone: $('#ph').value, code: $('#code').value, lang } });
+      state.token = localStorage.token = r.token; state.user = r.user; await boot();
+    } catch (e) { $('#err').textContent = e.message; }
+  };
+}
+
+// ---------- общие ----------
+async function boot() {
+  try {
+    const me = await api('/api/me');
+    state.user = me.user; state.token = localStorage.token = me.token;
+    state.cities = await api('/api/cities');
+    if (['partner', 'admin'].includes(state.user.role)) state.venues = await api('/api/partner/venues');
+    if (!state.venues.find((v) => v.id === state.venueId)) state.venueId = state.venues[0]?.id || null;
+    if (!state.venues.length) state.tab = state.user.role === 'admin' ? 'admin' : 'venue';
+  } catch { return render(); }
+  render();
+}
+
+function render() {
+  i18nStatic();
+  $('#logout').classList.toggle('hide', !state.token);
+  if (!state.token || !state.user) { $('#nav').innerHTML = ''; return renderLogin(); }
+  const tabs = ['orders', 'menu', 'venue', 'report'];
+  if (state.user.role === 'admin') tabs.push('admin');
+  $('#nav').innerHTML = tabs.map((k) => `<button data-tab="${k}" class="${state.tab === k ? 'on' : ''}">${t(k)}</button>`).join('');
+  $('#nav').onclick = (e) => { if (e.target.dataset.tab) { state.tab = e.target.dataset.tab; render(); } };
+  const venuePicker = state.venues.length > 1
+    ? `<select id="vp" style="max-width:320px;margin-bottom:12px">${state.venues.map((v) => `<option value="${v.id}" ${v.id === state.venueId ? 'selected' : ''}>${nm(v)}</option>`).join('')}</select>` : '';
+  $('#main').innerHTML = venuePicker + '<div id="view"></div>';
+  if ($('#vp')) $('#vp').onchange = (e) => { state.venueId = Number(e.target.value); localStorage.venueId = state.venueId; render(); };
+  ({ orders: viewOrders, menu: viewMenu, venue: viewVenue, report: viewReport, admin: viewAdmin })[state.tab]();
+}
+const view = () => $('#view');
+const needVenue = () => {
+  if (state.venueId) return false;
+  view().innerHTML = `<div class="card">${t('noVenue')} <button class="btn sm" onclick="state.tab='venue';render()">${t('newVenue')}</button></div>`;
+  return true;
+};
+
+// ---------- заказы (опрос каждые 5 сек + звук) ----------
+let pollTimer;
+function beep() { try { const a = new AudioContext(), o = a.createOscillator(); o.frequency.value = 880; o.connect(a.destination); o.start(); setTimeout(() => { o.stop(); a.close(); }, 400); } catch {} }
+async function viewOrders() {
+  if (needVenue()) return;
+  clearTimeout(pollTimer);
+  let orders = [];
+  try { orders = await api(`/api/partner/orders?venue_id=${state.venueId}&active=true`); } catch (e) { return; }
+  if (state.tab !== 'orders') return;
+  const fresh = orders.filter((o) => o.status === 'new' && !state.seen.has(o.id));
+  if (fresh.length && state.seen.size) beep();
+  orders.forEach((o) => state.seen.add(o.id));
+  const cols = ['new', 'accepted', 'preparing', 'on_the_way'];
+  const next = { accepted: 'preparing', preparing: 'on_the_way', on_the_way: 'delivered' };
+  view().innerHTML = `<div class="kanban">${cols.map((c) => `<div class="col"><h4>${t('st_' + c)}</h4>
+    ${orders.filter((o) => o.status === c).map((o) => `<div class="order ${c === 'new' ? 'fresh' : ''}">
+      <div class="row"><b>#${o.id}</b><span class="muted" style="text-align:right">${new Date(o.created_at).toLocaleTimeString().slice(0, 5)}</span></div>
+      <div class="items">${o.items.map((i) => `${i.qty} × ${nm(i)}`).join('<br>')}</div>
+      <div><b>${money(o.total)}</b> · <span class="pill">${o.payment_method === 'card' ? t('card') + ' ✓' : t('cash')}</span></div>
+      <div class="muted" style="font-size:13px;margin:6px 0">📍 ${esc(o.address)}<br>📞 <a href="tel:${esc(o.phone)}">${esc(o.phone)}</a>${o.comment ? '<br>💬 ' + esc(o.comment) : ''}</div>
+      <div class="row">${c === 'new'
+        ? `<button class="btn sm" data-id="${o.id}" data-s="accepted">${t('accept')}</button><button class="btn sm r" data-id="${o.id}" data-s="rejected">${t('reject')}</button>`
+        : `<button class="btn sm" data-id="${o.id}" data-s="${next[c]}">${t('next_' + next[c])} →</button>`}</div>
+    </div>`).join('')}</div>`).join('')}</div>`;
+  view().onclick = async (e) => {
+    const b = e.target.closest('button[data-s]'); if (!b) return;
+    const body = { status: b.dataset.s };
+    if (body.status === 'rejected') { body.reason = prompt(t('reason')) || ''; }
+    b.disabled = true;
+    try { await api(`/api/partner/orders/${b.dataset.id}/status`, { method: 'POST', body }); } catch (err) { alert(err.message); }
+    viewOrders();
+  };
+  pollTimer = setTimeout(() => state.tab === 'orders' && viewOrders(), 5000);
+}
+
+// ---------- меню ----------
+async function uploadImage(file) {
+  const fd = new FormData(); fd.append('file', file);
+  return (await api('/api/partner/upload', { method: 'POST', body: fd })).url;
+}
+async function viewMenu() {
+  if (needVenue()) return;
+  const v = await api(`/api/partner/venues/${state.venueId}`);
+  const catOpts = (sel) => `<option value="">—</option>` + v.categories.map((c) => `<option value="${c.id}" ${c.id === sel ? 'selected' : ''}>${nm(c)}</option>`).join('');
+  const group = (cid) => v.products.filter((p) => (p.category_id || null) === cid);
+  const prodRow = (p) => `<div class="prod">${p.image_url ? `<img src="${esc(p.image_url)}">` : '<img>'}
+    <div class="n"><b>${nm(p)}</b><div class="muted" style="font-size:13px">${esc(lang === 'ru' ? p.name_tk : p.name_ru)}</div></div>
+    <input type="number" step="0.01" value="${p.price}" style="width:100px" data-price="${p.id}">
+    <label class="toggle"><input type="checkbox" data-av="${p.id}" ${p.available ? 'checked' : ''} style="width:auto"> ${t('available')}</label>
+    <button class="btn s sm" data-del="${p.id}">✕</button></div>`;
+  view().innerHTML = `
+    <div class="card"><h3>${t('add')}: ${t('category')}</h3><div class="row">
+      <input id="cru" placeholder="${t('nameRu')}"><input id="ctk" placeholder="${t('nameTk')}"><button class="btn" id="addCat" style="flex:0">${t('add')}</button></div></div>
+    <div class="card"><h3>${t('add')}: ${t('product')}</h3><div class="grid">
+      <div><label>${t('nameRu')}</label><input id="pru"></div><div><label>${t('nameTk')}</label><input id="ptk"></div>
+      <div><label>${t('price')}, TMT</label><input id="ppr" type="number" step="0.01"></div>
+      <div><label>${t('category')}</label><select id="pcat">${catOpts()}</select></div>
+      <div><label>${t('photo')}</label><input id="pimg" type="file" accept="image/*"></div></div>
+      <button class="btn" id="addProd" style="margin-top:12px">${t('add')}</button><div class="err" id="perr"></div></div>
+    ${[...v.categories, { id: null, name_ru: '—', name_tk: '—' }].map((c) => {
+      const ps = group(c.id); if (!ps.length && c.id === null) return '';
+      return `<div class="card"><div class="row"><h3>${nm(c)}</h3>${c.id ? `<button class="btn s sm" style="flex:0" data-delcat="${c.id}">✕</button>` : ''}</div>${ps.map(prodRow).join('') || '<span class="muted">—</span>'}</div>`;
+    }).join('')}`;
+  $('#addCat').onclick = async () => {
+    await api(`/api/partner/venues/${v.id}/categories`, { method: 'POST', body: { name_ru: $('#cru').value, name_tk: $('#ctk').value, sort: v.categories.length } });
+    viewMenu();
+  };
+  $('#addProd').onclick = async () => {
+    try {
+      const f = $('#pimg').files[0];
+      const image_url = f ? await uploadImage(f) : null;
+      await api(`/api/partner/venues/${v.id}/products`, { method: 'POST', body: {
+        name_ru: $('#pru').value, name_tk: $('#ptk').value, price: Number($('#ppr').value),
+        category_id: $('#pcat').value ? Number($('#pcat').value) : null, image_url } });
+      viewMenu();
+    } catch (e) { $('#perr').textContent = e.message; }
+  };
+  view().onchange = async (e) => {
+    if (e.target.dataset.price) await api(`/api/partner/products/${e.target.dataset.price}`, { method: 'PATCH', body: { price: Number(e.target.value) } });
+    if (e.target.dataset.av) await api(`/api/partner/products/${e.target.dataset.av}`, { method: 'PATCH', body: { available: e.target.checked } });
+  };
+  view().onclick = async (e) => {
+    if (e.target.dataset.del && confirm('?')) { await api(`/api/partner/products/${e.target.dataset.del}`, { method: 'DELETE' }); viewMenu(); }
+    if (e.target.dataset.delcat && confirm('?')) { await api(`/api/partner/categories/${e.target.dataset.delcat}`, { method: 'DELETE' }); viewMenu(); }
+  };
+}
+
+// ---------- заведение: заявка / настройки ----------
+function viewVenue() {
+  const v = state.venues.find((x) => x.id === state.venueId) || {};
+  const isNew = !v.id;
+  const f = (k, label, type = 'text', extra = '') => `<div><label>${t(label)}</label><input id="f_${k}" type="${type}" value="${esc(v[k] ?? '')}" ${extra}></div>`;
+  view().innerHTML = `<div class="card">
+    <div class="row"><h2>${isNew ? t('newVenue') : nm(v)}</h2>${isNew ? '' : `<span class="pill ${v.status}" style="flex:0">${t(v.status)}</span>`}</div>
+    ${isNew ? '' : `<div class="row" style="margin-bottom:8px"><button class="btn ${v.is_open ? 'r' : ''}" id="toggleOpen" style="flex:0">${v.is_open ? t('closed') + ' ⏸' : t('open') + ' ▶'}</button>
+      <span class="muted">${v.is_open ? '🟢 ' + t('open') : '⚪ ' + t('closed')}</span></div>`}
+    <div class="grid">
+      <div><label>${t('type')}</label><select id="f_type" ${isNew ? '' : 'disabled'}>${['restaurant', 'cafe', 'grocery', 'pharmacy', 'shop'].map((x) => `<option value="${x}" ${v.type === x ? 'selected' : ''}>${t('t_' + x)}</option>`).join('')}</select></div>
+      <div><label>${t('city')}</label><select id="f_city_id">${state.cities.map((c) => `<option value="${c.id}" ${v.city_id === c.id ? 'selected' : ''}>${nm(c)}</option>`).join('')}</select></div>
+      ${f('name_ru', 'nameRu')}${f('name_tk', 'nameTk')}${f('address', 'address')}${f('phone', 'phone')}
+      ${f('lat', 'Lat', 'number', 'step="0.000001"')}${f('lng', 'Lng', 'number', 'step="0.000001"')}
+      ${f('delivery_fee', 'deliveryFee', 'number', 'step="0.5"')}${f('min_order', 'minOrder', 'number')}${f('delivery_radius_km', 'radius', 'number', 'step="0.5"')}
+      ${f('prep_minutes', 'prep', 'number')}${f('legal_name', 'legalName')}${f('tax_id', 'taxId')}
+      <div><label>${t('acceptsCash')}</label><select id="f_accepts_cash"><option value="1">✓</option><option value="0" ${v.accepts_cash === false ? 'selected' : ''}>✕</option></select></div>
+      <div><label>Logo</label><input type="file" id="f_logo" accept="image/*"></div>
+    </div>
+    <div class="row" style="margin-top:12px"><button class="btn s" id="loc" style="flex:0">📍 ${t('myLoc')}</button><button class="btn" id="saveV" style="flex:0">${t('save')}</button></div>
+    <div class="err" id="verr"></div></div>`;
+  $('#loc').onclick = () => navigator.geolocation.getCurrentPosition((p) => { $('#f_lat').value = p.coords.latitude.toFixed(6); $('#f_lng').value = p.coords.longitude.toFixed(6); });
+  if ($('#toggleOpen')) $('#toggleOpen').onclick = async () => {
+    try { await api(`/api/partner/venues/${v.id}`, { method: 'PATCH', body: { is_open: !v.is_open } }); await boot(); } catch (e) { $('#verr').textContent = e.message; }
+  };
+  $('#saveV').onclick = async () => {
+    const num = (k) => ($(`#f_${k}`).value === '' ? undefined : Number($(`#f_${k}`).value));
+    const body = { name_ru: $('#f_name_ru').value, name_tk: $('#f_name_tk').value, address: $('#f_address').value, phone: $('#f_phone').value,
+      city_id: Number($('#f_city_id').value), lat: num('lat'), lng: num('lng'), delivery_fee: num('delivery_fee'), min_order: num('min_order'),
+      delivery_radius_km: num('delivery_radius_km'), prep_minutes: num('prep_minutes'), accepts_cash: $('#f_accepts_cash').value === '1',
+      legal_name: $('#f_legal_name').value || undefined, tax_id: $('#f_tax_id').value || undefined };
+    Object.keys(body).forEach((k) => body[k] === undefined && delete body[k]);
+    try {
+      if ($('#f_logo').files[0]) body.logo_url = await uploadImage($('#f_logo').files[0]);
+      if (isNew) {
+        body.type = $('#f_type').value;
+        const r = await api('/api/partner/venues', { method: 'POST', body });
+        state.token = localStorage.token = r.token; state.venueId = r.venue.id; localStorage.venueId = r.venue.id;
+        alert(t('submitted'));
+      } else await api(`/api/partner/venues/${v.id}`, { method: 'PATCH', body });
+      await boot();
+    } catch (e) { $('#verr').textContent = e.message; }
+  };
+}
+
+// ---------- отчёт ----------
+const monthStart = () => new Date().toISOString().slice(0, 8) + '01';
+const todayStr = () => new Date().toISOString().slice(0, 10);
+function settlementCards(s) {
+  return `<div class="grid">${[['ordersN', s.orders, 1], ['gmv', s.gmv], ['commission', s.commission], ['cardTotal', s.card_total], ['cashTotal', s.cash_total],
+    ['payable', s.payable_to_venue], ['owed', s.owed_by_venue]].map(([k, val, raw]) => `<div class="card"><div class="muted">${t(k)}</div><div class="stat">${raw ? val : money(val)}</div></div>`).join('')}</div>`;
+}
+function viewReport() {
+  if (needVenue()) return;
+  view().innerHTML = `<div class="card row"><div><label>${t('from')}</label><input type="date" id="rf" value="${monthStart()}"></div>
+    <div><label>${t('to')}</label><input type="date" id="rt" value="${todayStr()}"></div><button class="btn" id="rgo" style="flex:0;align-self:end">${t('show')}</button></div><div id="rres"></div>`;
+  const load = async () => { $('#rres').innerHTML = settlementCards(await api(`/api/partner/report?venue_id=${state.venueId}&from=${$('#rf').value}&to=${$('#rt').value}`)); };
+  $('#rgo').onclick = load; load();
+}
+
+// ---------- админ ----------
+async function viewAdmin() {
+  const [s, venues] = await Promise.all([api('/api/admin/stats'), api('/api/admin/venues')]);
+  view().innerHTML = `<div class="grid">${[['users', s.users, 1], ['active', s.venues_active, 1], ['pending', s.venues_pending, 1], ['ordersN', s.orders_today, 1], ['gmv', s.gmv_today], ['commission', s.commission_today]]
+      .map(([k, val, raw]) => `<div class="card"><div class="muted">${t(k)}${['ordersN', 'gmv', 'commission'].includes(k) ? ' · ' + t('today') : ''}</div><div class="stat">${raw ? val : money(val)}</div></div>`).join('')}</div>
+    <div class="card"><h3>${t('venue')}</h3><div style="overflow:auto"><table><tr><th>#</th><th>${t('nameRu')}</th><th>${t('city')}</th><th>${t('phone')}</th><th>${t('contractNo')}</th><th>%</th><th></th><th></th></tr>
+    ${venues.map((v) => `<tr><td>${v.id}</td><td><b>${esc(v.name_ru)}</b><br><span class="muted">${t('t_' + v.type)} · ${esc(v.legal_name || '')}</span></td><td>${esc(v.city_name)}</td>
+      <td>${esc(v.owner_phone)}</td><td><input data-k="contract_no" data-id="${v.id}" value="${esc(v.contract_no || '')}" style="width:110px"></td>
+      <td><input data-k="commission_pct" data-id="${v.id}" type="number" step="0.5" value="${v.commission_pct}" style="width:70px"></td>
+      <td><span class="pill ${v.status}">${t(v.status)}</span></td>
+      <td>${v.status !== 'active' ? `<button class="btn sm" data-act="active" data-id="${v.id}">${t('approve')}</button>` : `<button class="btn sm r" data-act="blocked" data-id="${v.id}">${t('block')}</button>`}</td></tr>`).join('')}</table></div></div>
+    <div class="card"><h3>${t('report')}</h3><div class="row"><input type="date" id="af" value="${monthStart()}"><input type="date" id="at" value="${todayStr()}"><button class="btn" id="ago" style="flex:0">${t('show')}</button></div><div id="ares"></div></div>`;
+  view().onchange = async (e) => {
+    const { k, id } = e.target.dataset; if (!k) return;
+    try { await api(`/api/admin/venues/${id}`, { method: 'PATCH', body: { [k]: k === 'commission_pct' ? Number(e.target.value) : e.target.value } }); } catch (err) { alert(err.message); }
+  };
+  view().onclick = async (e) => {
+    const { act, id } = e.target.dataset; if (!act) return;
+    try { await api(`/api/admin/venues/${id}`, { method: 'PATCH', body: { status: act } }); viewAdmin(); } catch (err) { alert(err.message); }
+  };
+  $('#ago').onclick = async () => {
+    const r = await api(`/api/admin/report?from=${$('#af').value}&to=${$('#at').value}`);
+    $('#ares').innerHTML = settlementCards(r.totals) + `<table><tr><th>${t('venue')}</th><th>${t('contractNo')}</th><th>${t('ordersN')}</th><th>${t('gmv')}</th><th>${t('commission')}</th><th>${t('payable')}</th><th>${t('owed')}</th></tr>
+      ${r.venues.map((v) => `<tr><td>${esc(v.name_ru)}</td><td>${esc(v.contract_no || '')}</td><td>${v.orders}</td><td>${money(v.gmv)}</td><td>${money(v.commission)}</td><td>${money(v.payable_to_venue)}</td><td>${money(v.owed_by_venue)}</td></tr>`).join('')}</table>`;
+  };
+}
+
+state.token ? boot() : render();
+</script>
+</body>
+</html>

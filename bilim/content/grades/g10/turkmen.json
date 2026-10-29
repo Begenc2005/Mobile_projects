@@ -1,0 +1,240 @@
+{
+  "grade": 10,
+  "subject": "turkmen",
+  "lessons": [
+    {
+      "id": "turkmen-10-language-and-society",
+      "grade": 10,
+      "topic": 0,
+      "title": {"tk": "Dil we jemgyýet", "ru": "Язык и общество"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Dil — adamlaryň aragatnaşyk serişdesi we pikirlenmegiň guraly. Dil jemgyýetden daşarda ýaşamaýar: jemgyýet üýtgedigiçe dil hem üýtgeýär.\n\nDiliň esasy wezipeleri:\n• aragatnaşyk (kommunikatiw) — maglumat alyşmak;\n• pikirlenme (kognitiw) — pikiri sözler arkaly düzmek;\n• toplaýjy (kumulýatiw) — halkyň tejribesini, medeniýetini nesilden-nesle geçirmek;\n• täsir ediji — ynandyrmak, haýyş etmek, buýurmak.\n\nDili jemgyýet bilen baglanyşykda öwrenýän ylym sosiolingwistika diýlip atlandyrylýar. Türkmen dili Türkmenistanyň döwlet dilidir.",
+          "ru": "Язык — средство общения людей и орудие мышления. Язык не существует вне общества: меняется общество — меняется и язык.\n\nОсновные функции языка:\n• коммуникативная — обмен информацией;\n• когнитивная (мыслительная) — оформление мысли словами;\n• кумулятивная (накопительная) — передача опыта и культуры народа из поколения в поколение;\n• воздействующая — убеждение, просьба, приказ.\n\nНаука, изучающая язык в связи с обществом, называется социолингвистикой. Туркменский язык — государственный язык Туркменистана."}},
+        {"type": "example", "text": {
+          "tk": "Jemgyýetiň diliň sözlügine täsiri:\n\n1) Täze zatlar peýda bolanda täze sözler döreýär: «kompýuter», «internet», «smartfon».\n2) Käbir zatlar ulanyşdan çykanda sözler hem könelýär (arhaizmler): mysal üçin, köne agram we uzynlyk ölçegleriniň atlary.\n3) Dil öz serişdeleri bilen hem söz ýasaýar: «ýükdaşyjy», «ulgam», «sanly».\n\nNetije: sözlük — diliň jemgyýetdäki üýtgeşmelere iň çalt jogap berýän bölegi.",
+          "ru": "Влияние общества на словарный состав языка:\n\n1) Появляются новые предметы — появляются новые слова: «kompýuter», «internet», «smartfon».\n2) Когда предметы выходят из употребления, слова устаревают (архаизмы): например, названия старых мер веса и длины.\n3) Язык создаёт слова и своими средствами: «ýükdaşyjy» (грузовик), «ulgam» (система), «sanly» (цифровой).\n\nВывод: словарный состав — часть языка, которая быстрее всего откликается на изменения в обществе."}},
+        {"type": "choice",
+          "q": {"tk": "Dede-babalaryň tejribesiniň nakyllar arkaly nesillere geçmegi diliň haýsy wezipesi?", "ru": "Передача опыта предков через пословицы — какая функция языка?"},
+          "options": [{"tk": "toplaýjy (kumulýatiw)", "ru": "кумулятивная"}, {"tk": "täsir ediji", "ru": "воздействующая"}, {"tk": "pikirlenme", "ru": "мыслительная"}],
+          "answer": 0,
+          "hint": {"tk": "Bu wezipe bilimi «ýygnaýar we saklaýar».", "ru": "Эта функция «накапливает и хранит» знания."},
+          "explain": {"tk": "Halkyň tejribesini toplap, nesilden-nesle geçirýän wezipe — toplaýjy (kumulýatiw) wezipe.", "ru": "Функция, которая накапливает опыт народа и передаёт его поколениям, — кумулятивная."}},
+        {"type": "truefalse",
+          "q": {"tk": "Diliň sözlük düzümi wagtyň geçmegi bilen asla üýtgemeýär.", "ru": "Словарный состав языка со временем совсем не меняется."},
+          "answer": false,
+          "hint": {"tk": "«Smartfon» sözüni 50 ýyl mundan öň ulanypdyrlarmy?", "ru": "Использовали ли слово «смартфон» 50 лет назад?"},
+          "explain": {"tk": "Sözlük hemişe üýtgeýär: täze sözler (neologizmler) döreýär, käbir sözler könelýär.", "ru": "Словарь постоянно меняется: появляются новые слова (неологизмы), некоторые устаревают."}},
+        {"type": "choice",
+          "q": {"tk": "Dili jemgyýet bilen baglanyşykda öwrenýän ylym:", "ru": "Наука, изучающая язык в связи с обществом:"},
+          "options": [{"tk": "fonetika", "ru": "фонетика"}, {"tk": "morfologiýa", "ru": "морфология"}, {"tk": "sosiolingwistika", "ru": "социолингвистика"}],
+          "answer": 2,
+          "hint": {"tk": "Adynda «sosio-» (jemgyýet) bölegi bar.", "ru": "В названии есть часть «социо-» (общество)."},
+          "explain": {"tk": "Sosiolingwistika = sosio (jemgyýet) + lingwistika (dil bilimi).", "ru": "Социолингвистика = социо (общество) + лингвистика (языкознание)."}},
+        {"type": "input",
+          "q": {"tk": "«Haýyş, ýapsana gapyny» diýen sözlemde diliň haýsy wezipesi has-da görünýär: aragatnaşyk ýa-da täsir? (bir söz ýazyň: täsir ýa-da aragatnaşyk)", "ru": "Какая функция ярче всего видна в предложении «Haýyş, ýapsana gapyny» (Закрой, пожалуйста, дверь): коммуникативная или воздействующая? Напишите одно слово по-туркменски: täsir или aragatnaşyk"},
+          "answer": "täsir|tasir",
+          "hint": {"tk": "Gürleýji diňleýjiniň bir zat etmegini isleýär.", "ru": "Говорящий хочет, чтобы слушатель что-то сделал."},
+          "explain": {"tk": "Haýyş we buýruk diňleýjä täsir etmäge gönükdirilen, şonuň üçin bu täsir ediji wezipe.", "ru": "Просьба и приказ направлены на воздействие на слушателя, поэтому это воздействующая функция."}},
+        {"type": "world", "text": {
+          "tk": "Dünýäde takmynan 7000 dil bar. UNESKO-nyň maglumatlaryna görä, olaryň köpüsi ýitip gitmek howpy astynda. Dilleriň köpdürlüligini goramak üçin UNESKO 21-nji fewraly Halkara ene dili güni diýip yglan etdi.",
+          "ru": "В мире около 7000 языков. По данным ЮНЕСКО, многие из них находятся под угрозой исчезновения. Чтобы сохранить языковое разнообразие, ЮНЕСКО объявила 21 февраля Международным днём родного языка."}}
+      ]
+    },
+    {
+      "id": "turkmen-10-turkic-language-family",
+      "grade": 10,
+      "topic": 1,
+      "title": {"tk": "Türki diller maşgalasy", "ru": "Тюркская языковая семья"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Türkmen dili türki diller maşgalasyna degişli. Bu maşgalada 30-dan gowrak dil bar. Esasy toparlar:\n• Oguz topary: türkmen, türk, azerbaýjan, gagauz dilleri;\n• Gypjak topary: gazak, gyrgyz, tatar, başgyrt dilleri;\n• Garluk topary: özbek, uýgur dilleri;\n• Sibir dilleri: ýakut (saha), tuwa dilleri;\n• Bulgar (Ogur) topary: çuwaş dili.\n\nUmumy aýratynlyklary:\n• agglýutinasiýa — goşulmalar sözüň yzyna yzygider goşulýar;\n• sesleriň sazlaşygy (singarmonizm);\n• sözlemde işlik köplenç ahyrda gelýär.",
+          "ru": "Туркменский язык относится к тюркской языковой семье. В ней более 30 языков. Основные группы:\n• огузская: туркменский, турецкий, азербайджанский, гагаузский;\n• кыпчакская: казахский, киргизский, татарский, башкирский;\n• карлукская: узбекский, уйгурский;\n• сибирские: якутский (саха), тувинский;\n• булгарская (огурская): чувашский.\n\nОбщие черты:\n• агглютинация — аффиксы последовательно присоединяются к концу слова;\n• гармония гласных (сингармонизм);\n• глагол в предложении обычно стоит в конце."}},
+        {"type": "example", "text": {
+          "tk": "Agglýutinasiýa mysaly:\nmekdep → mekdep-ler → mekdep-ler-imiz → mekdep-ler-imiz-de\n(mekdeplerimizde — «в наших школах»).\n\nHer goşulmanyň bir manysy bar: -ler (köplük), -imiz (eýelik, «biziň»), -de (ýer düşümi).\n\nOguz dilleriniň ýakynlygy: «suw» sözi türk dilinde «su», azerbaýjan dilinde «su», türkmen dilinde «suw». Türkmen dili gadymy uzyn çekimlileri gowy saklapdyr: «at» (ат, лошадь) we «a:t» (ат, имя) diňe çekimliniň uzynlygy bilen tapawutlanýar.",
+          "ru": "Пример агглютинации:\nmekdep → mekdep-ler → mekdep-ler-imiz → mekdep-ler-imiz-de\n(mekdeplerimizde — «в наших школах»).\n\nУ каждого аффикса одно значение: -ler (множественное число), -imiz (принадлежность, «наш»), -de (местный падеж).\n\nБлизость огузских языков: «вода» — в турецком «su», в азербайджанском «su», в туркменском «suw». Туркменский хорошо сохранил древние долгие гласные: «at» (лошадь) и «a:t» (имя) различаются только долготой гласного."}},
+        {"type": "choice",
+          "q": {"tk": "Haýsy dil türkmen dili bilen bir topara (oguz) girýär?", "ru": "Какой язык входит в одну группу (огузскую) с туркменским?"},
+          "options": [{"tk": "gazak dili", "ru": "казахский"}, {"tk": "azerbaýjan dili", "ru": "азербайджанский"}, {"tk": "ýakut dili", "ru": "якутский"}],
+          "answer": 1,
+          "hint": {"tk": "Oguz toparyna türk, azerbaýjan we gagauz dilleri girýär.", "ru": "В огузскую группу входят турецкий, азербайджанский и гагаузский."},
+          "explain": {"tk": "Azerbaýjan dili oguz toparyna degişli. Gazak dili gypjak, ýakut dili sibir toparyna girýär.", "ru": "Азербайджанский относится к огузской группе. Казахский — кыпчакская, якутский — сибирская."}},
+        {"type": "input",
+          "q": {"tk": "«kitaplarymyzda» sözünde näçe goşulma bar? (sözüň köki — kitap)", "ru": "Сколько аффиксов в слове «kitaplarymyzda»? (корень — kitap)"},
+          "answer": "3",
+          "hint": {"tk": "Köplük, eýelik we düşüm goşulmalaryny tapyň.", "ru": "Найдите аффиксы множественного числа, принадлежности и падежа."},
+          "explain": {"tk": "kitap + lar (köplük) + ymyz (eýelik) + da (ýer düşümi) — 3 goşulma.", "ru": "kitap + lar (мн. число) + ymyz (принадлежность) + da (местный падеж) — 3 аффикса."}},
+        {"type": "truefalse",
+          "q": {"tk": "Çuwaş dili türki diller maşgalasyna degişli.", "ru": "Чувашский язык относится к тюркской языковой семье."},
+          "answer": true,
+          "hint": {"tk": "Bulgar (ogur) toparyny ýada salyň.", "ru": "Вспомните булгарскую (огурскую) группу."},
+          "explain": {"tk": "Çuwaş dili türki dilleriň bulgar (ogur) toparynyň häzirki ýeke-täk dili.", "ru": "Чувашский — единственный живой язык булгарской (огурской) группы тюркских языков."}},
+        {"type": "world", "text": {
+          "tk": "Türki dilleriň iň gadymy uly ýazgylary — VIII asyrda häzirki Mongoliýanyň çäginde goýlan Orhon-Ýeniseý daş ýazgylary. Olary 1893-nji ýylda daniýaly alym Wilhelm Tomsen okady. XI asyrda Mahmyt Kaşgarly «Diwanu lugat at-türk» atly ilkinji uly türki sözlügi düzdi.",
+          "ru": "Древнейшие крупные памятники тюркских языков — орхоно-енисейские каменные надписи VIII века на территории нынешней Монголии. Их расшифровал в 1893 году датский учёный Вильгельм Томсен. В XI веке Махмуд Кашгари составил первый большой тюркский словарь «Диван лугат ат-тюрк»."}}
+      ]
+    },
+    {
+      "id": "turkmen-10-literary-language-and-dialects",
+      "grade": 10,
+      "topic": 2,
+      "title": {"tk": "Edebi dil we şiweler", "ru": "Литературный язык и диалекты"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Edebi dil — kadalaşdyrylan, hemmeler üçin umumy dil. Ol mekdepde, metbugatda, resmi resminamalarda, kitaplarda ulanylýar. Edebi diliň kadalary (orfografiýa, orfoepiýa, grammatika) sözlüklerde we gollanmalarda berkidilýär.\n\nŞiwe (dialekt) — diliň belli bir sebitde ýa-da toparda ulanylýan görnüşi. Türkmen diliniň esasy şiweleri: teke, ýomut, ärsary, salyr, saryk, çowdur we başgalar; mundan başga ata, nohur, mukry ýaly gepleşikler hem bar.\n\nŞiweler biri-birinden aýdylyşy, käbir sözleri we goşulmalary bilen tapawutlanýar. Häzirki edebi türkmen dili köp şiwäniň, esasan-da teke we ýomut şiweleriniň esasynda kemala geldi.",
+          "ru": "Литературный язык — нормированный, общий для всех вариант языка. Его используют в школе, прессе, официальных документах, книгах. Нормы литературного языка (орфография, орфоэпия, грамматика) закрепляются в словарях и пособиях.\n\nДиалект (şiwe) — разновидность языка, которой пользуются в определённой местности или группе. Основные диалекты туркменского языка: текинский, йомудский, эрсаринский, салырский, сарыкский, човдурский и др.; кроме того, есть говоры ата, нохур, мукры и другие.\n\nДиалекты различаются произношением, некоторыми словами и аффиксами. Современный литературный туркменский сложился на основе многих диалектов, прежде всего текинского и йомудского."}},
+        {"type": "example", "text": {
+          "tk": "Gündelik gepleşik we edebi dil:\n• gepleşikde: «Men häzir gelýän.»\n• edebi dilde: «Men häzir gelýärin.»\n\nGepleşikde sözler köplenç gysgaldylýar, ýöne ýazuwda edebi kadany saklamaly. Mysal üçin, synag inşasynda, resmi hatda ýa-da habar tekstinde edebi görnüş ulanylýar.\n\nŞiwe sözleri çeper eserlerde gahrymanyň gepleşigini janly görkezmek üçin ulanylyp bilner.",
+          "ru": "Разговорная речь и литературный язык:\n• в разговоре: «Men häzir gelýän.» (Я сейчас иду.)\n• в литературном языке: «Men häzir gelýärin.»\n\nВ устной речи слова часто сокращаются, но на письме нужно соблюдать литературную норму. Например, в экзаменационном сочинении, официальном письме или новостном тексте используется литературная форма.\n\nДиалектные слова могут употребляться в художественных произведениях, чтобы живо передать речь героя."}},
+        {"type": "truefalse",
+          "q": {"tk": "Resmi hatda şiwe sözlerini ulanmak maslahat berilýär.", "ru": "В официальном письме рекомендуется использовать диалектные слова."},
+          "answer": false,
+          "hint": {"tk": "Resmi hat hemmeler üçin düşnükli bolmaly.", "ru": "Официальное письмо должно быть понятно всем."},
+          "explain": {"tk": "Resmi stilde edebi diliň kadalary saklanýar, şiwe sözleri diňe çeper eserlerde ýa-da gündelik gepleşikde ýerlikli.", "ru": "В официальном стиле соблюдаются нормы литературного языка; диалектные слова уместны лишь в художественной литературе или бытовой речи."}},
+        {"type": "choice",
+          "q": {"tk": "Haýsy sözlem edebi kada laýyk?", "ru": "Какое предложение соответствует литературной норме?"},
+          "options": ["Biz ertir barýas.", "Biz ertir barýarys.", "Biz ertir barýaz."],
+          "answer": 1,
+          "hint": {"tk": "Edebi dilde häzirki zamanyň goşulmasy doly ýazylýar.", "ru": "В литературном языке аффикс настоящего времени пишется полностью."},
+          "explain": {"tk": "Edebi görnüş: «barýarys» (bar + ýar + ys). Galan görnüşler gepleşik ýa-da şiwe görnüşleri.", "ru": "Литературная форма: «barýarys» (bar + ýar + ys). Остальные — разговорные или диалектные формы."}},
+        {"type": "choice",
+          "q": {"tk": "Häzirki edebi türkmen dili esasan haýsy şiweleriň esasynda kemala geldi?", "ru": "На основе каких диалектов главным образом сложился современный литературный туркменский язык?"},
+          "options": [{"tk": "ata we nohur", "ru": "ата и нохур"}, {"tk": "saryk we salyr", "ru": "сарык и салыр"}, {"tk": "teke we ýomut", "ru": "текинский и йомудский"}],
+          "answer": 2,
+          "hint": {"tk": "Iň köp ýaýran iki uly şiwe.", "ru": "Два самых крупных и распространённых диалекта."},
+          "explain": {"tk": "Edebi dil köp şiwäniň aýratynlyklaryny özüne siňdirdi, ýöne onuň esasy — teke we ýomut şiweleri.", "ru": "Литературный язык вобрал черты многих диалектов, но его основа — текинский и йомудский."}},
+        {"type": "input",
+          "q": {"tk": "Diliň belli bir sebitde ulanylýan görnüşine türkmençe näme diýilýär? (bir söz)", "ru": "Как по-туркменски называется разновидность языка, используемая в определённой местности? (одно слово)"},
+          "answer": "şiwe|siwe|dialekt",
+          "hint": {"tk": "Rusça «диалект».", "ru": "По-русски «диалект»."},
+          "explain": {"tk": "Bu şiwe (dialekt). Edebi dil bolsa ähli şiweler üçin umumy kadalaşdyrylan görnüş.", "ru": "Это şiwe (диалект). Литературный язык — общая нормированная форма для всех диалектов."}},
+        {"type": "world", "text": {
+          "tk": "Häzirki italýan edebi dili esasan Toskana (Florensiýa) şiwesiniň esasynda döredi. Munda Dante Aligýeriniň «Ylahy komediýasynyň» uly täsiri boldy, sebäbi şahyr ony latyn dilinde däl-de, öz ýerli dilinde ýazypdy.",
+          "ru": "Современный литературный итальянский язык сложился в основном на базе тосканского (флорентийского) диалекта. Большую роль сыграла «Божественная комедия» Данте Алигьери, написанная не на латыни, а на родном местном наречии."}}
+      ]
+    },
+    {
+      "id": "turkmen-10-dictionaries",
+      "grade": 10,
+      "topic": 3,
+      "title": {"tk": "Sözlükler we olaryň görnüşleri", "ru": "Словари и их виды"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Sözlük — sözleri belli bir tertipde (köplenç elipbiý tertibinde) ýygnap, olar barada maglumat berýän kitap ýa-da elektron çeşme. Sözlükleri düzmek bilen leksikografiýa meşgul bolýar.\n\nEsasy görnüşleri:\n• düşündiriş sözlügi — sözüň manysyny düşündirýär;\n• orfografik sözlük — sözüň dogry ýazylyşyny görkezýär;\n• terjime sözlügi — sözüň başga dildäki deňligini berýär (türkmen-rus);\n• sinonimler we antonimler sözlügi;\n• frazeologik sözlük — durnukly söz düzümlerini düşündirýär;\n• etimologik sözlük — sözüň gelip çykyşyny düşündirýär;\n• termin sözlükleri — ylmyň belli bir pudagynyň sözleri.",
+          "ru": "Словарь — книга или электронный ресурс, где слова собраны в определённом порядке (обычно по алфавиту) и даны сведения о них. Составлением словарей занимается лексикография.\n\nОсновные виды:\n• толковый словарь — объясняет значение слова;\n• орфографический — показывает правильное написание;\n• переводной — даёт соответствие в другом языке (туркменско-русский);\n• словари синонимов и антонимов;\n• фразеологический — объясняет устойчивые сочетания;\n• этимологический — объясняет происхождение слова;\n• терминологические — слова определённой отрасли науки."}},
+        {"type": "example", "text": {
+          "tk": "Sözlükden söz gözlemek. Türkmen elipbiýi (30 harp):\nA B Ç D E Ä F G H I J Ž K L M N Ň O Ö P R S Ş T U Ü W Y Ý Z\n\nMesele: «ýyldyz», «ýagyş», «ýüzük» sözlerini sözlükdäki tertibinde ýerleşdiriň.\n1) Üçüsi hem Ý harpyndan başlanýar — ikinji harpa seredýäris: a, y, ü.\n2) Elipbiýde: A … U Ü W Y … — diýmek a < ü < y.\n3) Tertip: ýagyş, ýüzük, ýyldyz.",
+          "ru": "Поиск слова в словаре. Туркменский алфавит (30 букв):\nA B Ç D E Ä F G H I J Ž K L M N Ň O Ö P R S Ş T U Ü W Y Ý Z\n\nЗадача: расположите слова «ýyldyz», «ýagyş», «ýüzük» в словарном порядке.\n1) Все три начинаются на Ý — смотрим на вторую букву: a, y, ü.\n2) В алфавите: A … U Ü W Y … — значит a < ü < y.\n3) Порядок: ýagyş, ýüzük, ýyldyz."}},
+        {"type": "choice",
+          "q": {"tk": "«Gözüň ýagyny iýmek» aňlatmasynyň manysyny haýsy sözlükden tapmak has amatly?", "ru": "В каком словаре удобнее всего найти значение выражения «gözüň ýagyny iýmek»?"},
+          "options": [{"tk": "orfografik", "ru": "орфографический"}, {"tk": "frazeologik", "ru": "фразеологический"}, {"tk": "etimologik", "ru": "этимологический"}],
+          "answer": 1,
+          "hint": {"tk": "Bu durnukly söz düzümi (frazeologizm).", "ru": "Это устойчивое сочетание (фразеологизм)."},
+          "explain": {"tk": "Durnukly söz düzümleriniň manysy frazeologik sözlükde düşündirilýär.", "ru": "Значения устойчивых сочетаний объясняются во фразеологическом словаре."}},
+        {"type": "truefalse",
+          "q": {"tk": "Türkmen elipbiýinde Ä harpy E harpyndan soň gelýär.", "ru": "В туркменском алфавите буква Ä идёт после E."},
+          "answer": true,
+          "hint": {"tk": "Elipbiýiň başyny ýada salyň: A B Ç D E …", "ru": "Вспомните начало алфавита: A B Ç D E …"},
+          "explain": {"tk": "Tertip: A B Ç D E Ä F … — Ä harpy E-den soň gelýär.", "ru": "Порядок: A B Ç D E Ä F … — Ä стоит после E."}},
+        {"type": "choice",
+          "q": {"tk": "Sözlükde haýsy söz birinji gelýär?", "ru": "Какое слово в словаре стоит первым?"},
+          "options": ["çaý", "dag", "bag"],
+          "answer": 2,
+          "hint": {"tk": "B, Ç we D harplarynyň tertibi.", "ru": "Порядок букв B, Ç и D."},
+          "explain": {"tk": "Elipbiýde B, soň Ç, soň D gelýär: bag, çaý, dag.", "ru": "В алфавите B, затем Ç, затем D: bag, çaý, dag."}},
+        {"type": "input",
+          "q": {"tk": "Türkmen elipbiýinde näçe harp bar?", "ru": "Сколько букв в туркменском алфавите?"},
+          "answer": "30",
+          "hint": {"tk": "Ýokardaky elipbiýi sanaň.", "ru": "Посчитайте буквы алфавита выше."},
+          "explain": {"tk": "Häzirki türkmen latyn elipbiýinde 30 harp bar.", "ru": "В современном туркменском латинском алфавите 30 букв."}},
+        {"type": "world", "text": {
+          "tk": "Iňlis diliniň iň meşhur uly sözlügi — Oksford iňlis dili sözlügi. Onuň ilkinji bölümi 1884-nji ýylda çykdy, ilkinji doly neşiri bolsa 1928-nji ýylda tamamlandy. Sözlük her sözüň taryhyny we ulanylyşynyň mysallaryny berýär.",
+          "ru": "Самый известный большой словарь английского языка — Оксфордский словарь английского языка. Его первый выпуск вышел в 1884 году, а первое полное издание было завершено в 1928 году. Словарь даёт историю каждого слова и примеры его употребления."}}
+      ]
+    },
+    {
+      "id": "turkmen-10-spelling-rules",
+      "grade": 10,
+      "topic": 4,
+      "title": {"tk": "Orfografiýa kadalary", "ru": "Орфографические нормы"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Orfografiýa — sözleriň dogry ýazylyş kadalary. Türkmen diliniň esasy kadalary:\n\n• Goşulmalar sesleriň sazlaşygyna boýun egýär: kitap-lar, depder-ler; mekdep-de, oba-da.\n• Jübüt sözler defis bilen ýazylýar: ata-ene, gap-gaç, uly-kiçi.\n• Goşma sözleriň köpüsi bilelikde ýazylýar: gündogar, günbatar, demirýol.\n• Goşma sanlar aýry ýazylýar: on bir, iki ýüz elli.\n• Sanlara goşulýan goşulmalar defis bilen ýazylýar: 5-nji, 6-njy, 2026-njy ýyl.\n• Sorag kömekçisi -my/-mi sözüň yzyna bilelikde ýazylýar: geldiňmi, okadyňmy.\n• Adam atlary, ýer-ýurt atlary baş harp bilen ýazylýar.",
+          "ru": "Орфография — правила правильного написания слов. Основные правила туркменского языка:\n\n• Аффиксы подчиняются гармонии гласных: kitap-lar, depder-ler; mekdep-de, oba-da.\n• Парные слова пишутся через дефис: ata-ene, gap-gaç, uly-kiçi.\n• Большинство сложных слов пишется слитно: gündogar (восток), günbatar (запад), demirýol (железная дорога).\n• Составные числительные пишутся раздельно: on bir, iki ýüz elli.\n• Аффиксы к числам, записанным цифрами, пишутся через дефис: 5-nji, 6-njy, 2026-njy ýyl.\n• Вопросительная частица -my/-mi пишется слитно: geldiňmi, okadyňmy.\n• Имена людей и географические названия пишутся с заглавной буквы."}},
+        {"type": "example", "text": {
+          "tk": "Ýalňyşlary düzedeliň:\n«5-ci synp okuwçylary ata ene bilen Gün dogar tarapa gitdiler. Sen gördüňmi?»\n\n1) «5-ci» → «5-nji» (bäşinji).\n2) «ata ene» → «ata-ene» (jübüt söz).\n3) «Gün dogar» → «gündogar» (goşma söz, bilelikde, umumy at).\n4) «gördüňmi» — dogry, sorag kömekçisi bilelikde.\n\nDogry: «5-nji synp okuwçylary ata-ene bilen gündogar tarapa gitdiler. Sen gördüňmi?»",
+          "ru": "Исправим ошибки:\n«5-ci synp okuwçylary ata ene bilen Gün dogar tarapa gitdiler. Sen gördüňmi?»\n\n1) «5-ci» → «5-nji» (пятый).\n2) «ata ene» → «ata-ene» (парное слово).\n3) «Gün dogar» → «gündogar» (сложное слово, слитно, нарицательное).\n4) «gördüňmi» — верно, частица пишется слитно.\n\nПравильно: «5-nji synp okuwçylary ata-ene bilen gündogar tarapa gitdiler. Sen gördüňmi?»"}},
+        {"type": "choice",
+          "q": {"tk": "Haýsy ýazgy dogry?", "ru": "Какое написание верное?"},
+          "options": ["gap gaç", "gap-gaç", "gapgaç"],
+          "answer": 1,
+          "hint": {"tk": "Bu jübüt söz.", "ru": "Это парное слово."},
+          "explain": {"tk": "Jübüt sözler defis bilen ýazylýar: gap-gaç.", "ru": "Парные слова пишутся через дефис: gap-gaç."}},
+        {"type": "input",
+          "q": {"tk": "Goşulmany goşuň: «depder» + köplük goşulmasy = ?", "ru": "Добавьте аффикс: «depder» + аффикс множественного числа = ?"},
+          "answer": "depderler",
+          "hint": {"tk": "Sözde inçe çekimliler bar: e.", "ru": "В слове переднерядные гласные: e."},
+          "explain": {"tk": "Inçe çekimlili sözlere -ler goşulýar: depderler.", "ru": "К словам с переднерядными гласными присоединяется -ler: depderler."}},
+        {"type": "truefalse",
+          "q": {"tk": "«on iki» sany bilelikde «oniki» diýip ýazylýar.", "ru": "Число «on iki» (двенадцать) пишется слитно: «oniki»."},
+          "answer": false,
+          "hint": {"tk": "Goşma sanlaryň ýazylyşyny ýada salyň.", "ru": "Вспомните правило написания составных числительных."},
+          "explain": {"tk": "Goşma sanlar aýry ýazylýar: on iki.", "ru": "Составные числительные пишутся раздельно: on iki."}},
+        {"type": "choice",
+          "q": {"tk": "«6» sanyna tertip goşulmasyny dogry goşuň:", "ru": "Правильно добавьте к числу «6» порядковый аффикс:"},
+          "options": ["6-njy", "6-nji", "6-ny"],
+          "answer": 0,
+          "hint": {"tk": "Sany sözde aýdyň: «alty» — çekimlisi ýogyn.", "ru": "Произнесите число словом: «alty» — гласные заднего ряда."},
+          "explain": {"tk": "alty → altynjy, şonuň üçin 6-njy. Inçe çekimlili sanlarda -nji: 5-nji (bäşinji).", "ru": "alty → altynjy, поэтому 6-njy. У чисел с переднерядными гласными -nji: 5-nji (bäşinji)."}},
+        {"type": "world", "text": {
+          "tk": "Türkmen dili dürli döwürlerde dürli elipbiýlerde ýazyldy: arap elipbiýinde, 1920–1930-njy ýyllarda latyn elipbiýinde, 1940-njy ýyldan kiril elipbiýinde. 1993-nji ýylda häzirki täze türkmen latyn elipbiýi kabul edildi.",
+          "ru": "Туркменский язык в разные эпохи записывался разными алфавитами: арабским, в 1920–1930-х годах латиницей, с 1940 года кириллицей. В 1993 году был принят нынешний новый туркменский латинский алфавит."}}
+      ]
+    },
+    {
+      "id": "turkmen-10-business-correspondence",
+      "grade": 10,
+      "topic": 5,
+      "title": {"tk": "Işewür hat alyşmak", "ru": "Деловая переписка"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Işewür hat — guramalaryň, kärhanalaryň we adamlaryň arasynda resmi işler boýunça ýazylýan hat. Ol resmi-iş stilinde ýazylýar: gysga, takyk, sypaýy, duýgusyz.\n\nHatyň gurluşy:\n• hat ýazýan guramanyň ady, salgysy (blank);\n• senesi we belgisi;\n• kime ýüzlenilýär (alyjy);\n• ýüzlenme: «Hormatly … !»;\n• esasy tekst: sebäp → haýyş/teklip → netije;\n• jemleýji söz: «Hormat bilen, …»;\n• wezipesi, ady we goly.\n\nGörnüşleri: haýyş haty, teklip haty, minnetdarlyk haty, maglumat haty, kepillik haty, jogap haty.\nHatda «Siz» sözi hormat üçin baş harp bilen ýazylýar.",
+          "ru": "Деловое письмо — письмо по официальным вопросам между организациями, предприятиями и людьми. Пишется в официально-деловом стиле: кратко, точно, вежливо, без эмоций.\n\nСтруктура письма:\n• название и адрес организации-отправителя (бланк);\n• дата и номер;\n• адресат;\n• обращение: «Hormatly … !» (Уважаемый …!);\n• основной текст: причина → просьба/предложение → итог;\n• заключительная формула: «Hormat bilen, …» (С уважением, …);\n• должность, имя и подпись.\n\nВиды: письмо-просьба, письмо-предложение, благодарственное, информационное, гарантийное, ответное.\nВ письме «Siz» (Вы) из уважения пишется с заглавной буквы."}},
+        {"type": "example", "text": {
+          "tk": "Haýyş hatynyň mysaly:\n\n«Hormatly Merdan Atajanowiç!\n\nMekdebimiziň 10-njy synp okuwçylary «Ylym we tehnika» temasy boýunça taslama taýýarlaýarlar. Şunuň bilen baglylykda, Sizden 15-nji noýabrda okuwçylarymyza kärhanaňyzyň önümçilik bölümini görkezmegiňizi haýyş edýäris.\n\nGezelençe 20 okuwçy we 2 mugallym gatnaşar.\n\nHormat bilen,\nmekdebiň müdiri A. Durdyýewa»\n\nBellik: sebäp, anyk haýyş, sene we sanlar takyk görkezilen.",
+          "ru": "Пример письма-просьбы (перевод):\n\n«Уважаемый Мердан Атаджанович!\n\nУченики 10-го класса нашей школы готовят проект по теме «Наука и техника». В связи с этим просим Вас 15 ноября показать нашим ученикам производственный цех Вашего предприятия.\n\nВ экскурсии примут участие 20 учеников и 2 учителя.\n\nС уважением,\nдиректор школы А. Дурдыева»\n\nЗаметьте: причина, конкретная просьба, дата и числа указаны точно."}},
+        {"type": "choice",
+          "q": {"tk": "Işewür haty haýsy jemleýji söz bilen tamamlamak dogry?", "ru": "Какой заключительной формулой правильно закончить деловое письмо?"},
+          "options": ["Sag bol, dostum!", "Hormat bilen,", "Görüşýänçäk!"],
+          "answer": 1,
+          "hint": {"tk": "Resmi-iş stiline laýyk gelýän sypaýy aňlatma.", "ru": "Вежливая формула, подходящая официально-деловому стилю."},
+          "explain": {"tk": "«Hormat bilen» — resmi hatlaryň adaty jemleýji sözi. Beýleki iki aňlatma dostlukly gepleşik üçin.", "ru": "«Hormat bilen» — стандартная концовка официальных писем. Две другие формулы — для дружеского общения."}},
+        {"type": "truefalse",
+          "q": {"tk": "Işewür hatda duýgulary güýçli beýan etmek we ýüzlenmede ýönekeý «Salam, jigim!» diýmek kada laýyk.", "ru": "В деловом письме уместно ярко выражать эмоции и обращаться просто «Salam, jigim!» (Привет, братишка!)."},
+          "answer": false,
+          "hint": {"tk": "Resmi-iş stiliniň aýratynlyklaryny ýada salyň.", "ru": "Вспомните черты официально-делового стиля."},
+          "explain": {"tk": "Resmi-iş stili duýgusyz we sypaýy bolmaly; ýüzlenme «Hormatly …!» görnüşinde bolýar.", "ru": "Официально-деловой стиль нейтрален и вежлив; обращение — в форме «Hormatly …!»."}},
+        {"type": "choice",
+          "q": {"tk": "Kärhana bilen bilelikde iş geçirmegi teklip edýän hat haýsy görnüşe degişli?", "ru": "К какому виду относится письмо, предлагающее предприятию совместную работу?"},
+          "options": [{"tk": "minnetdarlyk haty", "ru": "благодарственное"}, {"tk": "kepillik haty", "ru": "гарантийное"}, {"tk": "teklip haty", "ru": "письмо-предложение"}],
+          "answer": 2,
+          "hint": {"tk": "Hatyň esasy maksady näme?", "ru": "Какова главная цель письма?"},
+          "explain": {"tk": "Bilelikde iş teklip edilýär, diýmek bu teklip haty.", "ru": "В письме предлагается сотрудничество, значит это письмо-предложение."}},
+        {"type": "input",
+          "q": {"tk": "Işewür hatda hormat üçin baş harp bilen ýazylýan çalyşma haýsy? (bir söz)", "ru": "Какое местоимение в деловом письме пишется с заглавной буквы из уважения? (одно слово по-туркменски)"},
+          "answer": "Siz|siz",
+          "hint": {"tk": "Rusça «Вы».", "ru": "По-русски «Вы»."},
+          "explain": {"tk": "Bir adama ýüzlenilende «Siz», «Sizden», «Size» baş harp bilen ýazylýar.", "ru": "При обращении к одному адресату «Siz», «Sizden», «Size» пишутся с заглавной буквы."}},
+        {"type": "world", "text": {
+          "tk": "Dünýäde saklanyp galan iň gadymy diplomatik hatlaryň biri — Amarna hatlary. Olar biziň eramyzdan öňki XIV asyrda gil tagtajyklara akkad dilinde ýazylypdyr we Müsür patyşalary bilen goňşy döwletleriň hökümdarlarynyň arasyndaky hat alyşmany görkezýär.",
+          "ru": "Одни из древнейших сохранившихся дипломатических писем — Амарнский архив. Письма написаны в XIV веке до н. э. на глиняных табличках на аккадском языке и отражают переписку египетских фараонов с правителями соседних государств."}}
+      ]
+    }
+  ]
+}

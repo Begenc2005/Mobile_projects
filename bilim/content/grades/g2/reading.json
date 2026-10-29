@@ -1,0 +1,288 @@
+{
+  "grade": 2,
+  "subject": "reading",
+  "lessons": [
+    {
+      "id": "reading-2-poem-rhythm",
+      "grade": 2,
+      "topic": 0,
+      "title": {"tk": "Goşgy we ritm", "ru": "Стихи и ритм"},
+      "minutes": 7,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Goşgy setirlerden durýar. Goşgyny aýdym ýaly okaýarys 🎵.\n• Ritm — goşgynyň «ýüregi». Setirler deň gaýtalanýan ädim ýaly okalýar.\n• Kapyýa — setirleriň ahyrynda meňzeş ses: boldy — doldy.\n• Türkmen goşgusynda bogunlar sanalýar. Setirlerde bogun sany köplenç deň bolýar.",
+          "ru": "Стихотворение состоит из строк. Стихи мы читаем почти как песню 🎵.\n• Ритм — «сердце» стиха. Строки звучат ровно, как шаги.\n• Рифма — похожие звуки в конце строк: boldy — doldy.\n• В туркменских стихах считают слоги. Во всех строках обычно одинаковое число слогов."
+        }},
+        {"type": "example", "text": {
+          "tk": "Kiçijik goşgy düzeliň:\n«Gün dogdy, ýagty boldy,\nBag-bakja güle doldy.» 🌷\nBogunlary sanaýarys:\n• Gün-dog-dy-ýag-ty-bol-dy — 7\n• Bag-bak-ja-gü-le-dol-dy — 7\nKapyýa: boldy — doldy. Ritm deň, kapyýa bar!",
+          "ru": "Сочиним маленький стишок:\n«Gün dogdy, ýagty boldy,\nBag-bakja güle doldy.» (Взошло солнце, стало светло, сад наполнился цветами.) 🌷\nСчитаем слоги:\n• Gün-dog-dy-ýag-ty-bol-dy — 7\n• Bag-bak-ja-gü-le-dol-dy — 7\nРифма: boldy — doldy. Ритм ровный, рифма есть!"
+        }},
+        {"type": "choice",
+          "q": {"tk": "Haýsy söz «gül» sözi bilen kapyýalaşýar?", "ru": "Какое слово рифмуется со словом «gül»?"},
+          "options": [{"tk": "gyş", "ru": "gyş (зима)"}, {"tk": "bülbül", "ru": "bülbül (соловей)"}, {"tk": "agaç", "ru": "agaç (дерево)"}],
+          "answer": 1,
+          "hint": {"tk": "Sözleriň ahyryndaky sesleri diňle.", "ru": "Послушай звуки в конце слов."},
+          "explain": {"tk": "gül — bülbül: ikisi hem «-ül» bilen gutarýar 🌹🐦.", "ru": "gül — bülbül: оба оканчиваются на «-ül» 🌹🐦."}
+        },
+        {"type": "input",
+          "q": {"tk": "«Ga-wun» sözünde näçe bogun bar? 🍈", "ru": "Сколько слогов в слове «ga-wun» (дыня)? 🍈"},
+          "answer": "2",
+          "hint": {"tk": "Çeňňegiňi iýegiň aşagynda sakla-da sözi aýt.", "ru": "Положи ладонь под подбородок и произнеси слово."},
+          "explain": {"tk": "Ga-wun — 2 bogun. Her bogunda bir çekimli bar: a, u.", "ru": "Ga-wun — 2 слога. В каждом слоге одна гласная: a, u."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Kapyýa — setirleriň ahyrynda meňzeş sesler.", "ru": "Рифма — это похожие звуки в конце строк."},
+          "answer": true,
+          "hint": {"tk": "boldy — doldy mysalyny ýatla.", "ru": "Вспомни пример boldy — doldy."},
+          "explain": {"tk": "Dogry: kapyýa setirleriň ahyrynda bolýar.", "ru": "Верно: рифма звучит в конце строк."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Goşgyny nähili okamaly?", "ru": "Как нужно читать стихотворение?"},
+          "options": [{"tk": "Ritmi saklap, aýdyň okamaly", "ru": "Чётко, сохраняя ритм"}, {"tk": "Gaty çalt, dem almazdan", "ru": "Очень быстро, без остановок"}, {"tk": "Pyşyrdap, hiç kime eşitdirmän", "ru": "Шёпотом, чтобы никто не слышал"}],
+          "answer": 0,
+          "hint": {"tk": "Goşgy aýdyma meňzeýär.", "ru": "Стих похож на песню."},
+          "explain": {"tk": "Goşgyny ritmi saklap, aýdyň we duýgy bilen okaýarys.", "ru": "Стихи читаем чётко, с ритмом и с выражением."}
+        },
+        {"type": "world", "text": {
+          "tk": "Magtymguly Pyragy — XVIII asyrda ýaşan beýik türkmen şahyry. Onuň goşgulary ýüzlerçe ýyl bäri halk arasynda okalýar we aýdym bolup aýdylýar. Olar dünýäniň köp dillerine terjime edildi.",
+          "ru": "Махтумкули Фраги — великий туркменский поэт, живший в XVIII веке. Его стихи уже сотни лет читают и поют в народе. Их перевели на многие языки мира."
+        }}
+      ]
+    },
+    {
+      "id": "reading-2-folk-tales",
+      "grade": 2,
+      "topic": 1,
+      "title": {"tk": "Halk ertekileri", "ru": "Народные сказки"},
+      "minutes": 7,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Halk ertekisini bir adam ýazmandyr. Ony halk düzüpdir we atadan ogla geçiripdir.\nErtekiniň alamatlary:\n• Başy köplenç şeýle: «Bir bar eken, bir ýok eken...»\n• Gudratly zatlar bolýar: gepleýän haýwanlar 🦊, jadyly zatlar ✨.\n• Ýagşylyk ýamanlygy ýeňýär.\n• Köplenç üç gezek gaýtalanýar: üç dogan, üç synag.",
+          "ru": "Народную сказку не сочинил один человек. Её придумал народ и передавал из поколения в поколение.\nПризнаки сказки:\n• Начало часто такое: «Жили-были...» (по-туркменски: «Bir bar eken, bir ýok eken...»).\n• Бывают чудеса: говорящие звери 🦊, волшебные предметы ✨.\n• Добро побеждает зло.\n• Часто всё повторяется три раза: три брата, три испытания."
+        }},
+        {"type": "example", "text": {
+          "tk": "Erteki: «Bir garry adamyň üç ogly bar eken. Iki uly ogly ýalta eken, kiçisi bolsa zähmetsöýer. Kiçi ogul garry aýala kömek edipdir. Aýal oňa jadyly ýüzük beripdir 💍. Ýüzük oňa kyn ýagdaýda kömek edipdir.»\nAlamatlary tapýarys:\n• Üç dogan — üç gaýtalanýar.\n• Jadyly ýüzük — gudrat.\n• Ýagşy kiçi ogul ýeňýär.",
+          "ru": "Сказка: «У старика было три сына. Двое старших были ленивыми, а младший — трудолюбивым. Младший помог старушке. Она подарила ему волшебное кольцо 💍. Кольцо помогло ему в трудную минуту.»\nНаходим признаки:\n• Три брата — повтор «три».\n• Волшебное кольцо — чудо.\n• Побеждает добрый младший сын."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Halk ertekisini kim düzüpdir?", "ru": "Кто сочинил народную сказку?"},
+          "options": [{"tk": "Bir meşhur ýazyjy", "ru": "Один известный писатель"}, {"tk": "Mugallym", "ru": "Учитель"}, {"tk": "Halk", "ru": "Народ"}],
+          "answer": 2,
+          "hint": {"tk": "Adyna seret: «halk» ertekisi.", "ru": "Посмотри на название: «народная» сказка."},
+          "explain": {"tk": "Halk ertekisini halk düzüpdir we dilden-dile geçiripdir.", "ru": "Народную сказку сочинил народ и передавал из уст в уста."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Ertekilerde haýwanlar gürläp bilýär.", "ru": "В сказках звери могут разговаривать."},
+          "answer": true,
+          "hint": {"tk": "Ertekide gudrat bolýar.", "ru": "В сказке бывают чудеса."},
+          "explain": {"tk": "Dogry: ertekide tilki, möjek, towşan gürleýär 🦊🐺🐰.", "ru": "Верно: в сказках говорят лиса, волк, заяц 🦊🐺🐰."}
+        },
+        {"type": "input",
+          "q": {"tk": "Mysaldaky garry adamyň näçe ogly bar eken?", "ru": "Сколько сыновей было у старика в примере?"},
+          "answer": "3",
+          "hint": {"tk": "Ertekilerde köp gaýtalanýan sany ýatla.", "ru": "Вспомни число, которое часто повторяется в сказках."},
+          "explain": {"tk": "Üç ogly bar eken. Üç — ertekiniň söýgüli sany.", "ru": "У него было три сына. Три — любимое число сказок."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Ertekiniň ahyrynda köplenç näme bolýar?", "ru": "Чем обычно заканчивается сказка?"},
+          "options": [{"tk": "Ýagşylyk ýeňýär", "ru": "Добро побеждает"}, {"tk": "Hemme kişi aglaýar", "ru": "Все плачут"}, {"tk": "Hiç zat bolmaýar", "ru": "Ничего не происходит"}],
+          "answer": 0,
+          "hint": {"tk": "Ýagşy gahryman näme bolýar?", "ru": "Что случается с добрым героем?"},
+          "explain": {"tk": "Ertekide ýagşylyk ýamanlygy ýeňýär — bu ertekiniň esasy düzgüni.", "ru": "В сказке добро побеждает зло — это главное правило сказки."}
+        },
+        {"type": "world", "text": {
+          "tk": "Nemes doganlary Ýakob we Wilgelm Grimmler halk ertekilerini ýygnapdyrlar. Olaryň ilkinji ýygyndysy 1812-nji ýylda çykypdyr. Şol ertekileri, meselem, «Zolushkany» häzir bütin dünýäde çagalar okaýar.",
+          "ru": "Немецкие братья Якоб и Вильгельм Гримм собирали народные сказки. Их первый сборник вышел в 1812 году. Эти сказки, например «Золушку», теперь читают дети во всём мире."
+        }}
+      ]
+    },
+    {
+      "id": "reading-2-nature-stories",
+      "grade": 2,
+      "topic": 2,
+      "title": {"tk": "Tebigat hakynda hekaýalar", "ru": "Рассказы о природе"},
+      "minutes": 7,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Tebigat hakyndaky hekaýalarda ýazyjy haýwanlary, guşlary, agaçlary, pasyllary suratlandyrýar 🌳🐿️.\n• Ertekiden tapawudy: bu ýerde gudrat ýok, hemme zat hakykatdaky ýaly.\n• Ýazyjy üns berip görýär: guşuň nähili saýraýandygyny, ýapragyň reňkini.\n• Okap, tebigaty söýmegi we goramagy öwrenýäris.",
+          "ru": "В рассказах о природе писатель описывает зверей, птиц, деревья, времена года 🌳🐿️.\n• Отличие от сказки: тут нет чудес, всё как на самом деле.\n• Писатель внимательно наблюдает: как поёт птица, какого цвета лист.\n• Читая, мы учимся любить и беречь природу."
+        }},
+        {"type": "example", "text": {
+          "tk": "Hekaýa: «Güýz geldi 🍂. Agaçlaryň ýapraklary saralyp, ýere düşdi. Tomzaklar ýuwaşady. Leýlekler uzak ýyly ýurtlara uçup gitdi.»\nSoraglar:\n• Haýsy pasyl? — Güýz.\n• Nireden bildik? — Ýapraklar saraldy, guşlar uçup gitdi.\n• Gudrat barmy? — Ýok, bu hakyky tebigat.",
+          "ru": "Рассказ: «Пришла осень 🍂. Листья на деревьях пожелтели и упали на землю. Жуки затихли. Аисты улетели в далёкие тёплые страны.»\nВопросы:\n• Какое время года? — Осень.\n• Как мы узнали? — Листья пожелтели, птицы улетели.\n• Есть ли чудо? — Нет, это настоящая природа."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Mysaldaky hekaýa haýsy pasyl hakynda?", "ru": "О каком времени года рассказ из примера?"},
+          "options": [{"tk": "Ýaz", "ru": "Весна"}, {"tk": "Güýz", "ru": "Осень"}, {"tk": "Tomus", "ru": "Лето"}],
+          "answer": 1,
+          "hint": {"tk": "Ýapraklar saralýar 🍂.", "ru": "Листья желтеют 🍂."},
+          "explain": {"tk": "Ýapraklar saralyp düşýär, guşlar ýyly ýurtlara uçýar — bu güýz.", "ru": "Листья желтеют и опадают, птицы улетают на юг — это осень."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Tebigat hakyndaky hekaýada agaç adam ýaly gürleýär.", "ru": "В рассказе о природе дерево разговаривает, как человек."},
+          "answer": false,
+          "hint": {"tk": "Bu hekaýa ertekimi?", "ru": "Этот рассказ — сказка?"},
+          "explain": {"tk": "Ýok. Gepleýän agaç — ertekide bolýar. Tebigat hekaýasynda hemme zat hakyky.", "ru": "Нет. Говорящее дерево бывает в сказке. В рассказе о природе всё настоящее."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Tebigat hakyndaky hekaýalar bize näme öwredýär?", "ru": "Чему учат рассказы о природе?"},
+          "options": [{"tk": "Agaçlary döwmegi", "ru": "Ломать деревья"}, {"tk": "Haýwanlardan gorkmagy", "ru": "Бояться животных"}, {"tk": "Tebigaty söýmegi we goramagy", "ru": "Любить и беречь природу"}],
+          "answer": 2,
+          "hint": {"tk": "Ýazyjy tebigaty nähili görýär?", "ru": "Как писатель относится к природе?"},
+          "explain": {"tk": "Bu hekaýalar tebigata söýgi we alada bilen garamagy öwredýär 💚.", "ru": "Такие рассказы учат относиться к природе с любовью и заботой 💚."}
+        },
+        {"type": "input",
+          "q": {"tk": "Bir ýylda näçe pasyl bar?", "ru": "Сколько времён года в году?"},
+          "answer": "4",
+          "hint": {"tk": "Ýaz, tomus, ...", "ru": "Весна, лето, ..."},
+          "explain": {"tk": "4 pasyl: ýaz 🌷, tomus ☀️, güýz 🍂, gyş ❄️.", "ru": "4 времени года: весна 🌷, лето ☀️, осень 🍂, зима ❄️."}
+        },
+        {"type": "world", "text": {
+          "tk": "Rus ýazyjysy Witaliý Bianki tokaý hakynda kitap ýazypdyr — «Tokaý gazeti». Ol gazet ýaly düzülen: her aý üçin tokaýdan «habarlar» bar — haýwanlar we guşlar näme edýär. Kitap çagalara tebigaty synlamagy öwredýär.",
+          "ru": "Русский писатель Виталий Бианки написал «Лесную газету». Книга устроена как газета: для каждого месяца есть «новости» из леса — что делают звери и птицы. Она учит детей наблюдать за природой."
+        }}
+      ]
+    },
+    {
+      "id": "reading-2-friendship",
+      "grade": 2,
+      "topic": 3,
+      "title": {"tk": "Dostluk hakynda", "ru": "О дружбе"},
+      "minutes": 7,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Köp kitaplar dostluk hakynda. Olar bize hakyky dostuň nähili bolýandygyny öwredýär 🤝.\nHakyky dost:\n• kyn wagtyňda kömek edýär;\n• ýalan sözlemeýär;\n• seniň bilen begenýär we gynanýar;\n• başgaça bolsaň hem seni kabul edýär.",
+          "ru": "Многие книги рассказывают о дружбе. Они учат, каким бывает настоящий друг 🤝.\nНастоящий друг:\n• помогает в трудную минуту;\n• не обманывает;\n• радуется и грустит вместе с тобой;\n• принимает тебя, даже если ты не такой, как он."
+        }},
+        {"type": "example", "text": {
+          "tk": "Hekaýa: «Merdan bilen Döwlet ýoldaş eken. Bir gün Merdanyň galamy döwüldi ✏️. Döwlet öz galamyny ikä bölüp, ýarysyny oňa berdi. Ertesi Döwlet keselläp, mekdebe gelmedi. Merdan oňa sapaklary düşündirmäge bardy.»\nNäme öwrenýäris?\n• Iki oglan hem biri-birine kömek etdi.\n• Dostluk — iki taraplaýyn alada.",
+          "ru": "Рассказ: «Мердан и Довлет дружили. Однажды у Мердана сломался карандаш ✏️. Довлет разломил свой карандаш пополам и отдал половину другу. На следующий день Довлет заболел и не пришёл в школу. Мердан пришёл к нему объяснить уроки.»\nЧему учимся?\n• Оба мальчика помогли друг другу.\n• Дружба — это забота с обеих сторон."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Döwlet dostuna nähili kömek etdi?", "ru": "Как Довлет помог другу?"},
+          "options": [{"tk": "Galamynyň ýarysyny berdi", "ru": "Отдал половину карандаша"}, {"tk": "Sapaklary düşündirdi", "ru": "Объяснил уроки"}, {"tk": "Täze sumka satyn aldy", "ru": "Купил новый рюкзак"}],
+          "answer": 0,
+          "hint": {"tk": "Merdanyň näme döwüldi?", "ru": "Что сломалось у Мердана?"},
+          "explain": {"tk": "Döwlet galamyny ikä bölüp, ýarysyny berdi. Sapaklary bolsa Merdan düşündirdi.", "ru": "Довлет разломил карандаш и отдал половину. А уроки объяснял Мердан."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Hakyky dost diňe oýnanyňda ýanyňda bolýar, kyn wagtyňda gaçýar.", "ru": "Настоящий друг рядом, только когда весело, а в беде убегает."},
+          "answer": false,
+          "hint": {"tk": "Hakyky dostuň alamatlaryny ýatla.", "ru": "Вспомни признаки настоящего друга."},
+          "explain": {"tk": "Ýalňyş. Hakyky dost kyn wagtyňda-da ýanyňda bolýar.", "ru": "Неверно. Настоящий друг рядом и в трудную минуту."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Dostuň gynanýar 😢. Näme etmeli?", "ru": "Твой друг грустит 😢. Что сделать?"},
+          "options": [{"tk": "Ondan gülmeli", "ru": "Посмеяться над ним"}, {"tk": "Ýanyna baryp, näme bolanyny soramaly", "ru": "Подойти и спросить, что случилось"}, {"tk": "Üns bermän geçmeli", "ru": "Пройти мимо"}],
+          "answer": 1,
+          "hint": {"tk": "Sen gynananyňda näme isleýärsiň?", "ru": "Чего хочешь ты, когда тебе грустно?"},
+          "explain": {"tk": "Dost alada edýär: ýanyna barýar, diňleýär, kömek edýär.", "ru": "Друг заботится: подходит, слушает, помогает."}
+        },
+        {"type": "input",
+          "q": {"tk": "Merdan bilen Döwlet hekaýada näçe gezek biri-birine kömek etdi?", "ru": "Сколько раз Мердан и Довлет помогли друг другу в рассказе?"},
+          "answer": "2",
+          "hint": {"tk": "Galam we sapaklar.", "ru": "Карандаш и уроки."},
+          "explain": {"tk": "2 gezek: Döwlet galam berdi, Merdan sapaklary düşündirdi.", "ru": "2 раза: Довлет дал карандаш, Мердан объяснил уроки."}
+        },
+        {"type": "world", "text": {
+          "tk": "Iňlis ýazyjysy Alan Miln «Winni-Puh» kitabyny ogly Kristoferiň oýnawaçlary hakynda ýazypdyr 🧸. Kitap dostluk hakynda. Şol hakyky oýnawaç aýylar we onuň dostlary häzir Nýu-Ýorkuň jemgyýetçilik kitaphanasynda saklanýar.",
+          "ru": "Английский писатель Алан Милн написал книгу «Винни-Пух» об игрушках своего сына Кристофера 🧸. Это книга о дружбе. Настоящие игрушечный медвежонок и его друзья сейчас хранятся в Публичной библиотеке Нью-Йорка."
+        }}
+      ]
+    },
+    {
+      "id": "reading-2-proverbs",
+      "grade": 2,
+      "topic": 4,
+      "title": {"tk": "Nakyllar", "ru": "Пословицы"},
+      "minutes": 7,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Nakyl — halkyň gysga we akylly sözi. Onda uly durmuş tejribesi bar.\n• Nakyl gysga: köplenç bir sözlem.\n• Ol maslahat berýär ýa-da bir zady öwredýär.\n• Manysy göni däl bolup biler — oýlanmaly 🤔.",
+          "ru": "Пословица (nakyl) — короткое мудрое изречение народа. В ней большой жизненный опыт.\n• Пословица короткая: обычно одно предложение.\n• Она даёт совет или чему-то учит.\n• Её смысл может быть не прямым — надо подумать 🤔."
+        }},
+        {"type": "example", "text": {
+          "tk": "Nakyl: «Dama-dama köl bolar.» 💧💧💧\n• Göni manysy: damjalar ýygnanyp, köl bolýar.\n• Gizlin manysy: az-azdan köp bolýar. Her gün azajyk okasaň, köp zat öwrenersiň.\nNakyl: «Işlän dişlär.» — kim işlese, şonuň iýmegi bolar.",
+          "ru": "Пословица: «Dama-dama köl bolar.» (Капля за каплей — озеро.) 💧💧💧\n• Прямой смысл: капли собираются в озеро.\n• Скрытый смысл: понемногу набирается много. Учишься каждый день понемножку — узнаешь много.\nПословица: «Işlän dişlär.» (Кто трудится, тот ест) — кто работает, у того и будет еда. Похоже на русское «Без труда не выловишь и рыбку из пруда»."
+        }},
+        {"type": "choice",
+          "q": {"tk": "«Ýeke elden ses çykmaz» nakylynyň manysy näme? 👏", "ru": "Что значит пословица «Ýeke elden ses çykmaz» (Одной рукой не хлопнешь)? 👏"},
+          "options": [{"tk": "El çarpmak gerek däl", "ru": "Хлопать не нужно"}, {"tk": "Bilelikde işlesek, güýçli bolýarys", "ru": "Вместе мы сильнее"}, {"tk": "Gol agyrýar", "ru": "Болит рука"}],
+          "answer": 1,
+          "hint": {"tk": "Ses çykarmak üçin iki el gerek.", "ru": "Чтобы хлопнуть, нужны две руки."},
+          "explain": {"tk": "Iki el bilelikde ses çykarýar. Adamlar hem bilelikde köp iş edýär.", "ru": "Только две руки вместе дают хлопок. Так и люди вместе могут больше."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Nakyly bir meşhur ýazyjy oýlap tapypdyr.", "ru": "Пословицу придумал один известный писатель."},
+          "answer": false,
+          "hint": {"tk": "Nakyl kimiň sözi?", "ru": "Чьё это изречение?"},
+          "explain": {"tk": "Nakyly halk düzüpdir, ony asyrlar boýy dilden-dile geçiripdir.", "ru": "Пословицы сложил народ и веками передавал из уст в уста."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy nakyl zähmet hakynda?", "ru": "Какая пословица о труде?"},
+          "options": [{"tk": "Ýeke elden ses çykmaz", "ru": "Ýeke elden ses çykmaz (Одной рукой не хлопнешь)"}, {"tk": "Dama-dama köl bolar", "ru": "Dama-dama köl bolar (Капля за каплей — озеро)"}, {"tk": "Işlän dişlär", "ru": "Işlän dişlär (Кто трудится, тот ест)"}],
+          "answer": 2,
+          "hint": {"tk": "«Işlemek» sözüni gözle.", "ru": "Ищи слово «işlemek» (работать)."},
+          "explain": {"tk": "«Işlän dişlär» — kim işlese, şol hem netijesini görýär.", "ru": "«Işlän dişlär» — кто трудится, тот и получает результат."}
+        },
+        {"type": "input",
+          "q": {"tk": "Her gün 1 täze söz öwrenseň, 10 günde näçe söz öwrenersiň? (Dama-dama köl bolar! 💧)", "ru": "Если учить 1 новое слово в день, сколько слов выучишь за 10 дней? (Капля за каплей — озеро! 💧)"},
+          "answer": "10",
+          "hint": {"tk": "1 + 1 + 1 ... on gezek.", "ru": "1 + 1 + 1 ... десять раз."},
+          "explain": {"tk": "10 günde 10 söz. Azajykdan köp bolýar — nakylyň manysy hem şu.", "ru": "За 10 дней — 10 слов. Из малого складывается многое — в этом смысл пословицы."}
+        },
+        {"type": "world", "text": {
+          "tk": "Meňzeş nakyllar dürli halklarda bar. «Dama-dama köl bolar» ýaly, ruslar «Капля камень точит» («Damja daşy deşýär») diýýärler. Bu pikiri 2000 ýyl mundan ozal Rim şahyry Owidiý hem ýazypdyr. Dürli halklar şol bir akylly pikire gelipdir.",
+          "ru": "Похожие пословицы есть у разных народов. Как туркменское «Dama-dama köl bolar», русские говорят: «Капля камень точит». Эту мысль ещё 2000 лет назад записал римский поэт Овидий. Разные народы пришли к одной мудрой мысли."
+        }}
+      ]
+    },
+    {
+      "id": "reading-2-main-idea",
+      "grade": 2,
+      "topic": 5,
+      "title": {"tk": "Tekstiň esasy pikiri", "ru": "Главная мысль текста"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Her tekstiň esasy pikiri bar. Bu — awtoryň bize aýtjak bolýan iň möhüm zady.\nEsasy pikiri nädip tapmaly?\n• Teksti üns bilen oka.\n• Sora: «Bu tekst näme hakynda?»\n• Sora: «Awtor bize näme öwretjek bolýar?»\n• Jogaby bir gysga sözlem bilen aýt.",
+          "ru": "У каждого текста есть главная мысль. Это самое важное, что автор хочет нам сказать.\nКак найти главную мысль?\n• Внимательно прочитай текст.\n• Спроси: «О чём этот текст?»\n• Спроси: «Чему автор хочет нас научить?»\n• Скажи ответ одним коротким предложением."
+        }},
+        {"type": "example", "text": {
+          "tk": "Tämsil «Pyşdyl bilen towşan» 🐢🐇:\n«Towşan pyşdyldan gülüp: \"Sen haýal!\" diýdi. Olar ýaryşdylar. Towşan çalt ylgady, soň ýatyp galdy 😴. Pyşdyl bolsa haýal, emma saklanman ýöräpdir. Ilki pyşdyl geldi.»\n• Näme hakynda? — Ýaryş hakynda.\n• Esasy pikir: Tekepbir bolma. Haýal, emma yhlasly gitseň, ýeňersiň.",
+          "ru": "Басня «Черепаха и заяц» 🐢🐇:\n«Заяц смеялся над черепахой: \"Ты медленная!\" Они устроили гонку. Заяц быстро убежал, а потом уснул 😴. Черепаха шла медленно, но без остановок. Первой пришла черепаха.»\n• О чём текст? — О гонке.\n• Главная мысль: не зазнавайся. Медленно, но упорно — и победишь."
+        }},
+        {"type": "choice",
+          "q": {"tk": "«Pyşdyl bilen towşan» tämsilinde ýaryşda kim ýeňdi?", "ru": "Кто победил в басне «Черепаха и заяц»?"},
+          "options": [{"tk": "Towşan", "ru": "Заяц"}, {"tk": "Hiç kim", "ru": "Никто"}, {"tk": "Pyşdyl", "ru": "Черепаха"}],
+          "answer": 2,
+          "hint": {"tk": "Kim ýatyp galdy?", "ru": "Кто уснул?"},
+          "explain": {"tk": "Towşan ýatyp galdy, pyşdyl bolsa saklanman ýöräp, ilki geldi.", "ru": "Заяц уснул, а черепаха шла без остановок и пришла первой."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Tekst: «Aýna her gün güllere suw berdi 🌷. Bir aýdan bag güle doldy.» Esasy pikir haýsy?", "ru": "Текст: «Айна каждый день поливала цветы 🌷. Через месяц сад был полон цветов.» Какая главная мысль?"},
+          "options": [{"tk": "Alada we zähmet gowy netije berýär", "ru": "Забота и труд дают хороший результат"}, {"tk": "Güller gyzyl bolýar", "ru": "Цветы бывают красными"}, {"tk": "Bir aýda 30 gün bar", "ru": "В месяце 30 дней"}],
+          "answer": 0,
+          "hint": {"tk": "Awtor bize näme öwredýär?", "ru": "Чему нас учит автор?"},
+          "explain": {"tk": "Aýna her gün alada etdi — netijede bag güle doldy. Esasy pikir: zähmet netije berýär.", "ru": "Айна заботилась каждый день — и сад расцвёл. Главная мысль: труд даёт результат."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Esasy pikir — tekstdäki iň uzyn söz.", "ru": "Главная мысль — это самое длинное слово в тексте."},
+          "answer": false,
+          "hint": {"tk": "Esasy pikir awtoryň näme aýdýandygy hakynda.", "ru": "Главная мысль — о том, что хочет сказать автор."},
+          "explain": {"tk": "Ýalňyş. Esasy pikir — awtoryň öwretjek bolýan iň möhüm zady.", "ru": "Неверно. Главная мысль — самое важное, чему учит автор."}
+        },
+        {"type": "input",
+          "q": {"tk": "Esasy pikiri näçe sözlem bilen aýtmaga çalyşýarys? San bilen ýaz.", "ru": "Сколькими предложениями стараемся сказать главную мысль? Напиши цифрой."},
+          "answer": "1",
+          "hint": {"tk": "Teoriýadaky soňky bölegi ýatla.", "ru": "Вспомни последний пункт теории."},
+          "explain": {"tk": "Esasy pikiri bir gysga sözlem bilen aýdýarys.", "ru": "Главную мысль говорим одним коротким предложением."}
+        },
+        {"type": "world", "text": {
+          "tk": "«Pyşdyl bilen towşan» tämsilini gadymy grek Ezop bilen baglanyşdyrýarlar. Ol takmynan 2500 ýyl ozal ýaşapdyr. Ezopyň tämsilleriniň ahyrynda köplenç esasy pikir aç-açan aýdylýar — oňa «tämsiliň öwüdi» diýilýär.",
+          "ru": "Басню «Черепаха и заяц» связывают с древнегреческим баснописцем Эзопом. Он жил около 2500 лет назад. В конце басен Эзопа главная мысль часто сказана прямо — это называют «моралью»."
+        }}
+      ]
+    }
+  ]
+}

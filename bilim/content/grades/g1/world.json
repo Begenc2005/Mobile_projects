@@ -1,0 +1,288 @@
+{
+  "grade": 1,
+  "subject": "world",
+  "lessons": [
+    {
+      "id": "world-1-me-and-my-family",
+      "grade": 1,
+      "topic": 0,
+      "title": {"tk": "Men we maşgalam", "ru": "Я и моя семья"},
+      "minutes": 6,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Maşgala — bu iň ýakyn adamlar. 👨‍👩‍👧‍👦\nMaşgalada kimler bar?\n• Ejem 👩 we kakam 👨\n• Doganlarym: agam, aýal doganym, jigim 👦👧\n• Enem 👵 we atam 👴\nMaşgalada hemmeler biri-birini söýýär. ❤️\nHemmeler biri-birine kömek edýär. 🤝",
+          "ru": "Семья — это самые близкие люди. 👨‍👩‍👧‍👦\nКто есть в семье?\n• Мама 👩 и папа 👨\n• Братья и сёстры 👦👧\n• Бабушка 👵 и дедушка 👴\nВ семье все любят друг друга. ❤️\nВсе помогают друг другу. 🤝"
+        }},
+        {"type": "example", "text": {
+          "tk": "Aýna 6 ýaşynda. 👧\nOnuň öýünde: ejesi 👩, kakasy 👨, agasy 👦 we enesi 👵.\nSanalyň: 👩 👨 👦 👵 — 4 adam.\nAýnanyň özi hem bar! 👧\n4 + 1 = 5.\nAýnanyň maşgalasynda 5 adam bar.",
+          "ru": "Айне 6 лет. 👧\nДома у неё: мама 👩, папа 👨, старший брат 👦 и бабушка 👵.\nСчитаем: 👩 👨 👦 👵 — 4 человека.\nИ сама Айна тоже! 👧\n4 + 1 = 5.\nВ семье Айны 5 человек."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Ejeňiň ejesi saňa kim bolýar?", "ru": "Мама твоей мамы — кто она тебе?"},
+          "options": [{"tk": "Agaň", "ru": "Брат"}, {"tk": "Eneň", "ru": "Бабушка"}, {"tk": "Jigiň", "ru": "Сестрёнка"}],
+          "answer": 1,
+          "hint": {"tk": "Ol ejeňden hem uly.", "ru": "Она старше твоей мамы."},
+          "explain": {"tk": "Ejeňiň ejesi — seniň eneň. 👵", "ru": "Мама твоей мамы — твоя бабушка. 👵"}
+        },
+        {"type": "input",
+          "q": {"tk": "Maşgala: 👨 👩 👧 👦 👦. Näçe adam bar?", "ru": "Семья: 👨 👩 👧 👦 👦. Сколько человек?"},
+          "answer": "5",
+          "hint": {"tk": "Her suraty barmagyň bilen sana.", "ru": "Посчитай каждую картинку пальцем."},
+          "explain": {"tk": "1, 2, 3, 4, 5. Maşgalada 5 adam bar.", "ru": "1, 2, 3, 4, 5. В семье 5 человек."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Öý işine diňe ulular kömek edýär.", "ru": "Дома помогают только взрослые."},
+          "answer": false,
+          "hint": {"tk": "Sen hem bir zat edip bilýärmiň?", "ru": "А ты тоже можешь что-то сделать?"},
+          "explain": {"tk": "Çagalar hem kömek edip bilýär: oýnawaçlaryny ýygnaýar, saçak düzýär. 🧸🍽", "ru": "Дети тоже помогают: убирают игрушки, накрывают на стол. 🧸🍽"}
+        },
+        {"type": "choice",
+          "q": {"tk": "Kakaň ogly, ýöne senden uly. Ol kim?", "ru": "Сын твоего папы, но старше тебя. Кто он?"},
+          "options": [{"tk": "Jigiň", "ru": "Младший брат"}, {"tk": "Ataň", "ru": "Дедушка"}, {"tk": "Agaň", "ru": "Старший брат"}],
+          "answer": 2,
+          "hint": {"tk": "Ol seniň doganyň. Ol senden uly.", "ru": "Это твой брат. Он старше тебя."},
+          "explain": {"tk": "Senden uly erkek dogan — agaň. 👦", "ru": "Брат, который старше тебя, — старший брат. 👦"}
+        },
+        {"type": "world", "text": {
+          "tk": "Pilleriň hem maşgalasy bar! 🐘\nPiller topar bolup ýaşaýar. Topary iň uly we iň tejribeli ene pil ýolbaşçylyk edýär. Ol suwy we iýmiti nirede tapmalydygyny bilýär.",
+          "ru": "У слонов тоже есть семья! 🐘\nСлоны живут семейными группами. Группу ведёт самая старшая и опытная слониха. Она знает, где найти воду и еду."
+        }}
+      ]
+    },
+    {
+      "id": "world-1-school",
+      "grade": 1,
+      "topic": 1,
+      "title": {"tk": "Mekdep", "ru": "Школа"},
+      "minutes": 6,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Mekdepde biz okamagy, ýazmagy we sanamagy öwrenýäris. 🏫📖✏️\nBize mugallym öwredýär. 👩‍🏫\nSapakdan soň arakesme bolýar. Jaň kakylýar. 🔔\nMekdep düzgünleri:\n• Sapaga wagtynda gel. ⏰\n• Mugallym gürlände diňle. 👂\n• Sorag bermek isleseň, eliňi göter. ✋\n• Synpdaşlaryňa hormat goý. 🤝",
+          "ru": "В школе мы учимся читать, писать и считать. 🏫📖✏️\nНас учит учитель. 👩‍🏫\nПосле урока бывает перемена. Звенит звонок. 🔔\nПравила школы:\n• Приходи на урок вовремя. ⏰\n• Слушай, когда говорит учитель. 👂\n• Хочешь спросить — подними руку. ✋\n• Уважай одноклассников. 🤝"
+        }},
+        {"type": "example", "text": {
+          "tk": "Bu gün 4 sapak bar. 📚📚📚📚\nSapaklaryň arasynda arakesme bolýar:\nsapak — arakesme — sapak — arakesme — sapak — arakesme — sapak.\nArakesmeleri sanalyň: 1, 2, 3.\nBu gün 3 arakesme bar.",
+          "ru": "Сегодня 4 урока. 📚📚📚📚\nМежду уроками бывают перемены:\nурок — перемена — урок — перемена — урок — перемена — урок.\nСчитаем перемены: 1, 2, 3.\nСегодня 3 перемены."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Synpda sorag bermek isleseň näme etmeli?", "ru": "Что делать, если хочешь задать вопрос на уроке?"},
+          "options": [{"tk": "Gygyrmaly", "ru": "Кричать"}, {"tk": "Eliňi götermeli ✋", "ru": "Поднять руку ✋"}, {"tk": "Ylgamaly", "ru": "Бегать по классу"}],
+          "answer": 1,
+          "hint": {"tk": "Mekdep düzgünlerini ýatla.", "ru": "Вспомни правила школы."},
+          "explain": {"tk": "Eliňi göterseň, mugallym seni görýär we saňa söz berýär.", "ru": "Когда ты поднимаешь руку, учитель видит тебя и даёт слово."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Arakesmede dynç alyp bolýar.", "ru": "На перемене можно отдохнуть."},
+          "answer": true,
+          "hint": {"tk": "Arakesme näme üçin gerek?", "ru": "Зачем нужна перемена?"},
+          "explain": {"tk": "Hawa! Arakesmede dynç alýarys we indiki sapaga taýýarlanýarys.", "ru": "Да! На перемене мы отдыхаем и готовимся к следующему уроку."}
+        },
+        {"type": "input",
+          "q": {"tk": "Synpda 9 gyz we 8 oglan bar. Jemi näçe okuwçy?", "ru": "В классе 9 девочек и 8 мальчиков. Сколько всего учеников?"},
+          "answer": "17",
+          "hint": {"tk": "9-a 8-i goş.", "ru": "Сложи 9 и 8."},
+          "explain": {"tk": "9 + 8 = 17. Synpda 17 okuwçy bar.", "ru": "9 + 8 = 17. В классе 17 учеников."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Mekdepde kim sapak berýär?", "ru": "Кто ведёт уроки в школе?"},
+          "options": [{"tk": "Mugallym 👩‍🏫", "ru": "Учитель 👩‍🏫"}, {"tk": "Aşpez 👨‍🍳", "ru": "Повар 👨‍🍳"}, {"tk": "Sürüji 🚌", "ru": "Водитель 🚌"}],
+          "answer": 0,
+          "hint": {"tk": "Ol synpda tagtanyň ýanynda durýar.", "ru": "Он стоит у доски в классе."},
+          "explain": {"tk": "Sapagy mugallym berýär. Aşpez nahar bişirýär, sürüji awtobus sürýär.", "ru": "Урок ведёт учитель. Повар готовит еду, водитель водит автобус."}
+        },
+        {"type": "world", "text": {
+          "tk": "Dünýäde iň köne işleýän okuw jaýy Marokkoda, Fes şäherinde ýerleşýär. 🏛\nOny 859-njy ýylda Fatima al-Fihri atly aýal açypdyr. Ol häzir hem işleýär!",
+          "ru": "Старейшее действующее учебное заведение мира находится в Марокко, в городе Фес. 🏛\nЕго основала женщина по имени Фатима аль-Фихри в 859 году. Оно работает до сих пор!"
+        }}
+      ]
+    },
+    {
+      "id": "world-1-seasons",
+      "grade": 1,
+      "topic": 2,
+      "title": {"tk": "Ýylyň pasyllary", "ru": "Времена года"},
+      "minutes": 6,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Ýylda 4 pasyl bar:\n• Gyş ❄️ — sowuk, käte gar ýagýar.\n• Ýaz 🌷 — güller açylýar, guşlar gaýdyp gelýär.\n• Tomus ☀️ — yssy, miweler bişýär.\n• Güýz 🍂 — ýapraklar saralýar we gaçýar.\nPasyllar hemişe şu tertipde gelýär:\ngyş → ýaz → tomus → güýz → ýene gyş.",
+          "ru": "В году 4 времени года:\n• Зима ❄️ — холодно, иногда идёт снег.\n• Весна 🌷 — расцветают цветы, возвращаются птицы.\n• Лето ☀️ — жарко, созревают фрукты.\n• Осень 🍂 — листья желтеют и опадают.\nВремена года всегда идут по порядку:\nзима → весна → лето → осень → снова зима."
+        }},
+        {"type": "example", "text": {
+          "tk": "Her pasylda 3 aý bar.\nGyş — 3 aý, ýaz — 3 aý, tomus — 3 aý, güýz — 3 aý.\n3 + 3 + 3 + 3 = 12.\nDiýmek, ýylda 12 aý bar. 📅",
+          "ru": "В каждом времени года 3 месяца.\nЗима — 3 месяца, весна — 3, лето — 3, осень — 3.\n3 + 3 + 3 + 3 = 12.\nЗначит, в году 12 месяцев. 📅"
+        }},
+        {"type": "choice",
+          "q": {"tk": "Haýsy pasylda gar ýagýar? ☃️", "ru": "В какое время года идёт снег? ☃️"},
+          "options": [{"tk": "Tomus", "ru": "Летом"}, {"tk": "Ýaz", "ru": "Весной"}, {"tk": "Gyş", "ru": "Зимой"}],
+          "answer": 2,
+          "hint": {"tk": "Bu iň sowuk pasyl.", "ru": "Это самое холодное время года."},
+          "explain": {"tk": "Gar gyşda ýagýar, sebäbi gyşda howa sowuk bolýar. ❄️", "ru": "Снег идёт зимой, потому что зимой холодно. ❄️"}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Ýazdan soň tomus gelýär.", "ru": "После весны наступает лето."},
+          "answer": true,
+          "hint": {"tk": "Tertibi ýatla: gyş → ýaz → …", "ru": "Вспомни порядок: зима → весна → …"},
+          "explain": {"tk": "Dogry: gyş → ýaz → tomus → güýz.", "ru": "Верно: зима → весна → лето → осень."}
+        },
+        {"type": "input",
+          "q": {"tk": "Ýylda näçe pasyl bar?", "ru": "Сколько времён года в году?"},
+          "answer": "4",
+          "hint": {"tk": "Gyş, ýaz, … sanap gör.", "ru": "Зима, весна, … посчитай."},
+          "explain": {"tk": "Gyş, ýaz, tomus, güýz — 4 pasyl.", "ru": "Зима, весна, лето, осень — 4 времени года."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Ýapraklar saralyp gaçýar. 🍂 Bu haýsy pasyl?", "ru": "Листья желтеют и опадают. 🍂 Какое это время года?"},
+          "options": [{"tk": "Güýz", "ru": "Осень"}, {"tk": "Ýaz", "ru": "Весна"}, {"tk": "Tomus", "ru": "Лето"}],
+          "answer": 0,
+          "hint": {"tk": "Bu pasyl tomusdan soň gelýär.", "ru": "Это время года наступает после лета."},
+          "explain": {"tk": "Güýzde ýapraklar sary we gyzyl bolýar, soň gaçýar. 🍁", "ru": "Осенью листья становятся жёлтыми и красными, потом опадают. 🍁"}
+        },
+        {"type": "world", "text": {
+          "tk": "Bizde tomus bolanda, Awstraliýada gyş bolýar! 🇦🇺\nSebäbi Awstraliýa Ýer şarynyň beýleki — günorta ýarymynda ýerleşýär. Ol ýerde Täze ýyl tomusda bellenýär. ☀️🎄",
+          "ru": "Когда у нас лето, в Австралии зима! 🇦🇺\nПотому что Австралия находится в другой — южной — половине Земли. Там Новый год встречают летом. ☀️🎄"
+        }}
+      ]
+    },
+    {
+      "id": "world-1-domestic-animals",
+      "grade": 1,
+      "topic": 3,
+      "title": {"tk": "Öý haýwanlary", "ru": "Домашние животные"},
+      "minutes": 6,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Öý haýwanlary adamyň ýanynda ýaşaýar. Adam olara iýmit berýär we ideg edýär.\n• It 🐕 — öýi goraýar.\n• Pişik 🐈 — syçan tutýar.\n• Sygyr 🐄 — süýt berýär.\n• Goýun 🐑 — ýüň berýär.\n• Towuk 🐔 — ýumurtga berýär.\n• At 🐎 — oňa münýärler. Ahalteke aty — türkmen bedewi!\n• Düýe 🐪 — çölde ýük göterýär, çal berýär.\nMöjek, tilki, aýy — ýabany haýwanlar. Olar tokaýda, çölde, dagda ýaşaýar.",
+          "ru": "Домашние животные живут рядом с человеком. Человек кормит их и заботится о них.\n• Собака 🐕 — охраняет дом.\n• Кошка 🐈 — ловит мышей.\n• Корова 🐄 — даёт молоко.\n• Овца 🐑 — даёт шерсть.\n• Курица 🐔 — несёт яйца.\n• Лошадь 🐎 — на ней ездят. Ахалтекинская лошадь — туркменский скакун!\n• Верблюд 🐪 — возит грузы в пустыне, даёт молоко (чал).\nВолк, лиса, медведь — дикие животные. Они живут в лесу, пустыне, горах."
+        }},
+        {"type": "example", "text": {
+          "tk": "Fermada: 🐄🐄🐄 we 🐑🐑🐑🐑.\nSygyr — 3, goýun — 4.\n3 + 4 = 7.\nFermada 7 haýwan bar.",
+          "ru": "На ферме: 🐄🐄🐄 и 🐑🐑🐑🐑.\nКоров — 3, овец — 4.\n3 + 4 = 7.\nНа ферме 7 животных."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Kim bize süýt berýär? 🥛", "ru": "Кто даёт нам молоко? 🥛"},
+          "options": [{"tk": "Pişik 🐈", "ru": "Кошка 🐈"}, {"tk": "Sygyr 🐄", "ru": "Корова 🐄"}, {"tk": "Towuk 🐔", "ru": "Курица 🐔"}],
+          "answer": 1,
+          "hint": {"tk": "Bu uly haýwan, ol «mö-ö» diýýär.", "ru": "Это большое животное, оно говорит «му-у»."},
+          "explain": {"tk": "Sygyr süýt berýär. Towuk ýumurtga berýär, pişik syçan tutýar.", "ru": "Корова даёт молоко. Курица несёт яйца, а кошка ловит мышей."}
+        },
+        {"type": "input",
+          "q": {"tk": "🐔🐔🐔🐔🐔 we ýene 🐔🐔🐔. Näçe towuk?", "ru": "🐔🐔🐔🐔🐔 и ещё 🐔🐔🐔. Сколько куриц?"},
+          "answer": "8",
+          "hint": {"tk": "5-e 3-i goş.", "ru": "Сложи 5 и 3."},
+          "explain": {"tk": "5 + 3 = 8 towuk.", "ru": "5 + 3 = 8 куриц."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Möjek — öý haýwany.", "ru": "Волк — домашнее животное."},
+          "answer": false,
+          "hint": {"tk": "Möjek adamyň öýünde ýaşaýarmy?", "ru": "Живёт ли волк в доме у человека?"},
+          "explain": {"tk": "Möjek — ýabany haýwan. Ol tebigatda ýaşaýar we iýmitini özi tapýar. 🐺", "ru": "Волк — дикое животное. Он живёт на природе и сам добывает еду. 🐺"}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy haýwan çölde köp gün suwsuz ýöräp bilýär?", "ru": "Какое животное может много дней идти по пустыне без воды?"},
+          "options": [{"tk": "Pişik", "ru": "Кошка"}, {"tk": "Towuk", "ru": "Курица"}, {"tk": "Düýe", "ru": "Верблюд"}],
+          "answer": 2,
+          "hint": {"tk": "Onuň arkasynda örküç bar. 🐪", "ru": "У него на спине горб. 🐪"},
+          "explain": {"tk": "Düýe çölde ýaşamaga öwrenişen. Örküjinde ýag saklanýar, ol köp gün suwsuz çydap bilýär.", "ru": "Верблюд приспособлен к пустыне. В горбу хранится жир, и он может много дней обходиться без воды."}
+        },
+        {"type": "world", "text": {
+          "tk": "It — adamyň iň ilkinji öwreden haýwany. 🐕\nAlymlar itleriň adam bilen müňlerçe ýyl mundan ozal dostlaşandygyny aýdýarlar. Şondan bäri it adamyň iň wepaly dosty.",
+          "ru": "Собака — самое первое животное, которое приручил человек. 🐕\nУчёные считают, что собаки подружились с людьми много тысяч лет назад. С тех пор собака — самый верный друг человека."
+        }}
+      ]
+    },
+    {
+      "id": "world-1-plants",
+      "grade": 1,
+      "topic": 4,
+      "title": {"tk": "Ösümlikler", "ru": "Растения"},
+      "minutes": 6,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Ösümlik hem janly! Ol ösýär. 🌱\nÖsümligiň bölekleri:\n• Kök — topragyň içinde, suwy içýär.\n• Baldak — ösümligi dik saklaýar.\n• Ýaprak 🍃 — Gün şöhlesini tutýar.\n• Gül 🌸 — owadan, ondan miwe bolýar.\n• Miwe 🍎 — içinde tohum bar.\nÖsümlige näme gerek?\n• Suw 💧\n• Gün şöhlesi ☀️\n• Howa 🌬\n• Toprak 🟫",
+          "ru": "Растение тоже живое! Оно растёт. 🌱\nЧасти растения:\n• Корень — в земле, пьёт воду.\n• Стебель — держит растение прямо.\n• Лист 🍃 — ловит солнечный свет.\n• Цветок 🌸 — красивый, из него получается плод.\n• Плод 🍎 — внутри семена.\nЧто нужно растению?\n• Вода 💧\n• Солнечный свет ☀️\n• Воздух 🌬\n• Почва 🟫"
+        }},
+        {"type": "example", "text": {
+          "tk": "Tohumdan alma agajy nähili ösýär?\n1. Tohumy topraga ekýäris. 🌰\n2. Suw berýäris. 💧\n3. Nahal çykýar. 🌱\n4. Agaç ulalýar. 🌳\n5. Gül açýar. 🌸\n6. Alma bolýar! 🍎\nAlmanyň içinde täze tohumlar bar.",
+          "ru": "Как из семечка вырастает яблоня?\n1. Сажаем семечко в землю. 🌰\n2. Поливаем. 💧\n3. Появляется росток. 🌱\n4. Дерево растёт. 🌳\n5. Оно цветёт. 🌸\n6. Появляется яблоко! 🍎\nВнутри яблока — новые семена."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Ösümligiň haýsy bölegi topragyň içinde?", "ru": "Какая часть растения находится в земле?"},
+          "options": [{"tk": "Ýaprak", "ru": "Лист"}, {"tk": "Gül", "ru": "Цветок"}, {"tk": "Kök", "ru": "Корень"}],
+          "answer": 2,
+          "hint": {"tk": "Bu bölek suwy içýär.", "ru": "Эта часть пьёт воду."},
+          "explain": {"tk": "Kök topragyň içinde. Ol suwy içýär we ösümligi berk saklaýar.", "ru": "Корень находится в земле. Он пьёт воду и крепко держит растение."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Ösümlige suw gerek däl.", "ru": "Растению не нужна вода."},
+          "answer": false,
+          "hint": {"tk": "Gül suwarylmasa näme bolar? 🥀", "ru": "Что будет с цветком, если его не поливать? 🥀"},
+          "explain": {"tk": "Suwsuz ösümlik solýar. Ösümlige suw hökman gerek. 💧", "ru": "Без воды растение вянет. Вода растению обязательно нужна. 💧"}
+        },
+        {"type": "input",
+          "q": {"tk": "Bir gülde 5 gülýaprak bar. 🌸🌸 Iki gülde näçe gülýaprak?", "ru": "У одного цветка 5 лепестков. 🌸🌸 Сколько лепестков у двух цветков?"},
+          "answer": "10",
+          "hint": {"tk": "5 + 5 = ?", "ru": "5 + 5 = ?"},
+          "explain": {"tk": "5 + 5 = 10 gülýaprak.", "ru": "5 + 5 = 10 лепестков."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Almanyň içinde näme bar? 🍎", "ru": "Что есть внутри яблока? 🍎"},
+          "options": [{"tk": "Tohum", "ru": "Семена"}, {"tk": "Daş", "ru": "Камень"}, {"tk": "Gum", "ru": "Песок"}],
+          "answer": 0,
+          "hint": {"tk": "Ondan täze agaç ösüp çykyp biler.", "ru": "Из этого может вырасти новое дерево."},
+          "explain": {"tk": "Almanyň içinde tohum bar. Tohumdan täze alma agajy ösýär.", "ru": "Внутри яблока семена. Из семечка вырастает новая яблоня."}
+        },
+        {"type": "world", "text": {
+          "tk": "Dünýäde iň beýik agaçlar ABŞ-nyň Kaliforniýa ştatynda ösýän gyzyl agaçlar (sekwoýalar). 🌲\nOlaryň käbiri 100 metrden hem beýik — uly köp gatly jaýdan hem beýik!",
+          "ru": "Самые высокие деревья в мире — секвойи (красное дерево) в Калифорнии, США. 🌲\nНекоторые из них выше 100 метров — выше большого многоэтажного дома!"
+        }}
+      ]
+    },
+    {
+      "id": "world-1-health-hygiene",
+      "grade": 1,
+      "topic": 5,
+      "title": {"tk": "Saglyk we arassaçylyk", "ru": "Здоровье и гигиена"},
+      "minutes": 6,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Sagdyn bolmak üçin:\n• Nahardan öň we hajathanadan soň elleriňi sabynlap ýuw. 🧼\n• Dişleriňi irden we agşam arassala. 🪥\n• Miwe we gök önüm iý. 🍎🥕\n• Suw iç. 💧\n• Köp hereket et, oýna. ⚽\n• Ir ýat we gowy uka. 😴\nArassa eller — sagdyn beden!",
+          "ru": "Чтобы быть здоровым:\n• Мой руки с мылом перед едой и после туалета. 🧼\n• Чисти зубы утром и вечером. 🪥\n• Ешь фрукты и овощи. 🍎🥕\n• Пей воду. 💧\n• Больше двигайся, играй. ⚽\n• Ложись спать рано и высыпайся. 😴\nЧистые руки — здоровое тело!"
+        }},
+        {"type": "example", "text": {
+          "tk": "Elleri nähili ýuwmaly?\n1. Elleriňi suw bilen öl. 💧\n2. Sabyn al. 🧼\n3. Elleriňi sürt we 20-ä çenli sana: 1, 2, 3 … 20.\n4. Köpügi suw bilen ýuw.\n5. Arassa süpürgiç bilen gurat.\nTaýýar! Elleriň arassa. ✨",
+          "ru": "Как правильно мыть руки?\n1. Намочи руки водой. 💧\n2. Возьми мыло. 🧼\n3. Три руки и считай до 20: 1, 2, 3 … 20.\n4. Смой пену водой.\n5. Вытри чистым полотенцем.\nГотово! Руки чистые. ✨"
+        }},
+        {"type": "choice",
+          "q": {"tk": "Elleri haçan ýuwmaly?", "ru": "Когда нужно мыть руки?"},
+          "options": [{"tk": "Diňe ýatmazdan öň", "ru": "Только перед сном"}, {"tk": "Nahardan öň", "ru": "Перед едой"}, {"tk": "Hiç haçan", "ru": "Никогда"}],
+          "answer": 1,
+          "hint": {"tk": "Biz nahary ellerimiz bilen alýarys.", "ru": "Мы берём еду руками."},
+          "explain": {"tk": "Nahardan öň el ýuwmaly. Şonda mikroblar agzymyza düşmeýär.", "ru": "Руки нужно мыть перед едой. Тогда микробы не попадут в рот."}
+        },
+        {"type": "input",
+          "q": {"tk": "Dişleri günde näçe gezek arassalamaly? 🪥", "ru": "Сколько раз в день нужно чистить зубы? 🪥"},
+          "answer": "2",
+          "hint": {"tk": "Irden we …", "ru": "Утром и …"},
+          "explain": {"tk": "Irden we agşam — günde 2 gezek.", "ru": "Утром и вечером — 2 раза в день."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Köp süýji iýmek dişlere peýdaly.", "ru": "Есть много сладкого полезно для зубов."},
+          "answer": false,
+          "hint": {"tk": "Konfetden soň dişlere näme bolýar?", "ru": "Что бывает с зубами от конфет?"},
+          "explain": {"tk": "Köp süýji dişleri zaýalaýar. Süýjüden soň agzyňy çaýka we dişleriňi arassala.", "ru": "Много сладкого портит зубы. После сладкого полощи рот и чисти зубы."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsysy saglyga has peýdaly?", "ru": "Что полезнее для здоровья?"},
+          "options": [{"tk": "Konfet 🍬", "ru": "Конфета 🍬"}, {"tk": "Gazly içgi 🥤", "ru": "Газировка 🥤"}, {"tk": "Käşir 🥕", "ru": "Морковь 🥕"}],
+          "answer": 2,
+          "hint": {"tk": "Bu gök önüm.", "ru": "Это овощ."},
+          "explain": {"tk": "Käşir — gök önüm. Onda witaminler köp. 🥕", "ru": "Морковь — овощ. В ней много витаминов. 🥕"}
+        },
+        {"type": "world", "text": {
+          "tk": "1840-njy ýyllarda Wenada (Awstriýa) lukman Ignaz Zemmelweýs bir möhüm zady açdy. 👨‍⚕️\nLukmanlar näsaga golaýlaşmazdan öň ellerini ýuwanlarynda, näsaglar has az kesel bolupdyr. Şondan bäri el ýuwmak saglygyň esasy düzgüni.",
+          "ru": "В 1840-х годах в Вене (Австрия) врач Игнац Земмельвейс сделал важное открытие. 👨‍⚕️\nКогда врачи мыли руки перед осмотром больных, люди болели намного меньше. С тех пор мытьё рук — главное правило здоровья."
+        }}
+      ]
+    }
+  ]
+}

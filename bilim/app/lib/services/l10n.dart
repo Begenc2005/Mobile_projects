@@ -1,0 +1,47 @@
+/// UI strings. Content itself is bilingual in JSON.
+const _s = <String, List<String>>{
+  // key: [tk, ru]
+  'hello': ['Salam', 'Привет'],
+  'subjects': ['Dersler', 'Предметы'],
+  'continue': ['Dowam et', 'Продолжить'],
+  'review': ['Gaýtalamak', 'Повторение'],
+  'review_due': ['gaýtalamaly sorag', 'вопросов на повторение'],
+  'review_none': ['Bu gün gaýtalamaly zat ýok 🎉', 'Сегодня повторять нечего 🎉'],
+  'grade': ['synp', 'класс'],
+  'min': ['min', 'мин'],
+  'check': ['Barla', 'Проверить'],
+  'next': ['Indiki', 'Далее'],
+  'hint': ['Kömek', 'Подсказка'],
+  'correct': ['Dogry! 👏', 'Верно! 👏'],
+  'wrong': ['Ýalňyş. Düşündiriş:', 'Неверно. Объяснение:'],
+  'answer_here': ['Jogabyňyz', 'Ваш ответ'],
+  'true': ['Dogry', 'Верно'],
+  'false': ['Ýalňyş', 'Неверно'],
+  'done': ['Sapak tamamlandy!', 'Урок завершён!'],
+  'score': ['Dogry jogaplar', 'Правильных ответов'],
+  'xp': ['bal', 'очков'],
+  'streak': ['gün yzygiderli', 'дней подряд'],
+  'finish': ['Tamamla', 'Завершить'],
+  'retry': ['Täzeden', 'Ещё раз'],
+  'help': ['Kömek', 'Помощь'],
+  'ask': ['Soragyňyzy ýazyň…', 'Напишите вопрос…'],
+  'send': ['Iber', 'Отправить'],
+  'support': ['Goldaw gullugy', 'Служба поддержки'],
+  'profile': ['Profil', 'Профиль'],
+  'lang': ['Dil', 'Язык'],
+  'phone': ['Telefon belgiňiz', 'Ваш номер телефона'],
+  'get_code': ['Kod al', 'Получить код'],
+  'code': ['SMS kody', 'Код из SMS'],
+  'name': ['Adyňyz', 'Ваше имя'],
+  'login': ['Gir', 'Войти'],
+  'world': ['Dünýä bilimi', 'Мир знаний'],
+  'offline': ['Internet ýok — ýatdaky sapaklar açyk', 'Нет интернета — доступны сохранённые уроки'],
+  'home': ['Baş sahypa', 'Главная'],
+  'logout': ['Çykmak', 'Выйти'],
+  'tutor_hi': [
+    'Salam! Men Bilim kömekçisi. Sapak boýunça islendik soragyňyzy beriň.',
+    'Привет! Я помощник Bilim. Задайте любой вопрос по уроку.'
+  ],
+};
+
+String tr(String key, String lang) => (_s[key] ?? [key, key])[lang == 'ru' ? 1 : 0];

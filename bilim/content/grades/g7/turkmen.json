@@ -1,0 +1,294 @@
+{
+  "grade": 7,
+  "subject": "turkmen",
+  "lessons": [
+    {
+      "id": "turkmen-7-secondary-members",
+      "grade": 7,
+      "topic": 0,
+      "title": {"tk": "Aýyklaýjy, doldurgyç, hal", "ru": "Определение, дополнение, обстоятельство"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Sözlemiň baş agzalary — ega we habar. Olardan başga ikinji derejeli agzalar hem bar.\n\n• Aýyklaýjy — zadyň alamatyny görkezýär. Soraglary: haýsy? nähili? näçe? kimiň? nämäniň? niçinji? Aşagy tolkunly çyzyk bilen çyzylýar.\n  Mysal: gök asman, meniň kitabym, bäş kitap.\n• Doldurgyç — işligiň manysyny doldurýar, zady ýa-da adamy görkezýär. Soraglary: kime? nämä? kimi? nämäni? kimde? kimden? kim bilen? Aşagy kesik-kesik çyzyk bilen çyzylýar.\n  Mysal: dostuma ýazdym, kitaby okadym.\n• Hal — hereketiň wagtyny, ornuny, ýagdaýyny, sebäbini, maksadyny görkezýär. Soraglary: haçan? nirede? nirä? nireden? nähili? näme üçin? Aşagy nokat-tire bilen çyzylýar.\n  Mysal: ertir geler, mekdepde okaýar, çalt ylgady.",
+          "ru": "Главные члены предложения — подлежащее и сказуемое. Кроме них есть второстепенные члены.\n\n• Определение (aýyklaýjy) — обозначает признак предмета. Вопросы: haýsy? nähili? näçe? kimiň? nämäniň? niçinji? (какой? чей? сколько? который?). Подчёркивается волнистой линией.\n  Пример: gök asman, meniň kitabym, bäş kitap.\n• Дополнение (doldurgyç) — дополняет смысл глагола, обозначает предмет или лицо. Вопросы: kime? nämä? kimi? nämäni? kimde? kimden? kim bilen? (кому? что? кого? у кого? от кого? с кем?). Подчёркивается пунктиром.\n  Пример: dostuma ýazdym, kitaby okadym.\n• Обстоятельство (hal) — обозначает время, место, образ действия, причину, цель. Вопросы: haçan? nirede? nirä? nireden? nähili? näme üçin? (когда? где? куда? откуда? как? почему?). Подчёркивается точкой с тире.\n  Пример: ertir geler, mekdepde okaýar, çalt ylgady."}},
+        {"type": "example", "text": {
+          "tk": "Sözlemi derňäliň: «Batyr düýn kitaphanadan gyzykly kitap aldy.»\n1) Ega: Batyr (kim?). Habar: aldy (näme etdi?).\n2) düýn — haçan aldy? → hal (wagt haly).\n3) kitaphanadan — nireden aldy? → hal (orun haly).\n4) kitap — näme aldy? → doldurgyç.\n5) gyzykly — nähili kitap? → aýyklaýjy.\nÝatda saklaň: soragy dogry goýsaňyz, agzany hem dogry taparsyňyz.",
+          "ru": "Разберём предложение: «Batyr düýn kitaphanadan gyzykly kitap aldy.» (Батыр вчера взял в библиотеке интересную книгу.)\n1) Подлежащее: Batyr (кто?). Сказуемое: aldy (что сделал?).\n2) düýn — когда взял? → обстоятельство времени.\n3) kitaphanadan — откуда взял? → обстоятельство места.\n4) kitap — что взял? → дополнение.\n5) gyzykly — какую книгу? → определение.\nЗапомните: правильно поставленный вопрос помогает найти член предложения."}},
+        {"type": "choice",
+          "q": {"tk": "«Ejem bize süýji çörek bişirdi.» Bu sözlemde «süýji» haýsy agza?", "ru": "«Ejem bize süýji çörek bişirdi.» Каким членом предложения является «süýji»?"},
+          "options": [
+            {"tk": "Aýyklaýjy", "ru": "Определение"},
+            {"tk": "Doldurgyç", "ru": "Дополнение"},
+            {"tk": "Hal", "ru": "Обстоятельство"}
+          ],
+          "answer": 0,
+          "hint": {"tk": "«Nähili çörek?» diýip sorag beriň.", "ru": "Задайте вопрос «nähili çörek?» (какой хлеб?)."},
+          "explain": {"tk": "«Süýji» çöregiň alamatyny görkezýär we «nähili?» soragyna jogap berýär, diýmek aýyklaýjy.", "ru": "«Süýji» обозначает признак хлеба и отвечает на вопрос «nähili?» (какой?), значит это определение."}},
+        {"type": "choice",
+          "q": {"tk": "«Agşam biz parkda gezdik.» Bu sözlemde «parkda» haýsy agza?", "ru": "«Agşam biz parkda gezdik.» Каким членом предложения является «parkda»?"},
+          "options": [
+            {"tk": "Doldurgyç", "ru": "Дополнение"},
+            {"tk": "Hal", "ru": "Обстоятельство"},
+            {"tk": "Aýyklaýjy", "ru": "Определение"}
+          ],
+          "answer": 1,
+          "hint": {"tk": "«Nirede gezdik?» soragyny goýuň.", "ru": "Поставьте вопрос «nirede?» (где?)."},
+          "explain": {"tk": "«Parkda» hereketiň ornuny görkezýär we «nirede?» soragyna jogap berýär — bu orun haly.", "ru": "«Parkda» указывает место действия и отвечает на вопрос «nirede?» (где?) — это обстоятельство места."}},
+        {"type": "truefalse",
+          "q": {"tk": "«Haçan?» soragyna jogap berýän söz sözlemde hal bolýar.", "ru": "Слово, отвечающее на вопрос «haçan?» (когда?), является обстоятельством."},
+          "answer": true,
+          "hint": {"tk": "Hal hereketiň wagtyny hem görkezýär.", "ru": "Обстоятельство может обозначать время действия."},
+          "explain": {"tk": "«Haçan?» soragy wagt halyny tapmaga kömek edýär: ertir, düýn, agşam, ýazda.", "ru": "Вопрос «haçan?» помогает найти обстоятельство времени: ertir, düýn, agşam, ýazda."}},
+        {"type": "input",
+          "q": {"tk": "«Men dostuma hat ýazdym.» Bu sözlemde näçe doldurgyç bar?", "ru": "«Men dostuma hat ýazdym.» Сколько дополнений в этом предложении?"},
+          "answer": "2",
+          "hint": {"tk": "«Kime?» we «näme?» soraglaryny goýuň.", "ru": "Задайте вопросы «kime?» (кому?) и «näme?» (что?)."},
+          "explain": {"tk": "dostuma (kime ýazdym?) we hat (näme ýazdym?) — iki doldurgyç.", "ru": "dostuma (кому написал?) и hat (что написал?) — два дополнения."}},
+        {"type": "world", "text": {
+          "tk": "Türkmen dilinde habar köplenç sözlemiň ahyrynda durýar: ega — doldurgyç — habar (SOV tertibi). Dilçileriň hasaplamalaryna görä, bu tertip dünýä dilleriniň arasynda iň giň ýaýran söz tertibidir. Ol ýapon, koreý, hindi we beýleki köp dillerde hem bar.",
+          "ru": "В туркменском языке сказуемое обычно стоит в конце: подлежащее — дополнение — сказуемое (порядок SOV). По подсчётам лингвистов, это самый распространённый порядок слов среди языков мира. Он есть также в японском, корейском, хинди и многих других языках."}}
+      ]
+    },
+    {
+      "id": "turkmen-7-complex-sentences",
+      "grade": 7,
+      "topic": 1,
+      "title": {"tk": "Goşma sözlemler", "ru": "Сложные предложения"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Ýönekeý sözlemde bir grammatik esas (ega + habar) bolýar. Goşma sözlemde bolsa iki ýa-da ondan köp grammatik esas bar.\n\nGoşma sözlemleriň iki görnüşi:\n• Deňlenen goşma sözlem — bölekleri deň hukukly, biri-birine bagly däl. Olar baglaýjylar (we, hem, ýöne, emma, ýogsa, ýa-da) bilen ýa-da baglaýjysyz birleşýär.\n  Mysal: Gün dogdy, guşlar saýrap başlady.\n  Mysal: Men jaň etdim, ýöne ol jogap bermedi.\n• Eýerjeň goşma sözlem — bir bölegi baş sözlem, beýlekisi oňa bagly eýerjeň sözlem. Eýerjeň sözlem köplenç şert şekili (-sa/-se), diýip, sebäbi ýaly serişdeler bilen birleşýär.\n  Mysal: Ýagyş ýagsa, biz öýde galarys.\n\nDyngy belgisi: goşma sözlemiň bölekleriniň arasynda adatça otur goýulýar; «ýöne», «emma» baglaýjylaryndan öň hökman otur goýulýar.",
+          "ru": "В простом предложении одна грамматическая основа (подлежащее + сказуемое). В сложном — две и более.\n\nДва вида сложных предложений:\n• Сложносочинённое (deňlenen) — части равноправны и не зависят друг от друга. Они соединяются союзами (we, hem, ýöne, emma, ýogsa, ýa-da) или без союзов.\n  Пример: Gün dogdy, guşlar saýrap başlady. (Взошло солнце, запели птицы.)\n  Пример: Men jaň etdim, ýöne ol jogap bermedi. (Я позвонил, но он не ответил.)\n• Сложноподчинённое (eýerjeň) — одна часть главная (baş sözlem), другая зависит от неё (eýerjeň sözlem). Придаточная часть часто присоединяется с помощью условной формы (-sa/-se), слов diýip, sebäbi и др.\n  Пример: Ýagyş ýagsa, biz öýde galarys. (Если пойдёт дождь, мы останемся дома.)\n\nПунктуация: между частями сложного предложения обычно ставится запятая; перед союзами «ýöne», «emma» запятая обязательна."}},
+        {"type": "example", "text": {
+          "tk": "Sözlemi derňäliň: «Mekdebiň jaňy kakyldy, okuwçylar synpa girdiler.»\n1) Birinji grammatik esas: jaňy (näme?) — kakyldy (näme boldy?).\n2) Ikinji grammatik esas: okuwçylar (kim?) — girdiler (näme etdiler?).\n3) Iki esas bar → goşma sözlem.\n4) Bölekler deň hukukly, biri beýlekisine bagly däl, baglaýjy ýok → baglaýjysyz deňlenen goşma sözlem.\n\nDeňeşdiriň: «Jaň kakylsa, okuwçylar synpa girerler.» Bu ýerde birinji bölek şerti görkezýär we ikinji bölege bagly → eýerjeň goşma sözlem.",
+          "ru": "Разберём предложение: «Mekdebiň jaňy kakyldy, okuwçylar synpa girdiler.» (Прозвенел школьный звонок, ученики вошли в класс.)\n1) Первая основа: jaňy (что?) — kakyldy (что сделал?).\n2) Вторая основа: okuwçylar (кто?) — girdiler (что сделали?).\n3) Две основы → сложное предложение.\n4) Части равноправны, союза нет → бессоюзное сложносочинённое.\n\nСравните: «Jaň kakylsa, okuwçylar synpa girerler.» (Если прозвенит звонок, ученики войдут в класс.) Первая часть выражает условие и зависит от второй → сложноподчинённое."}},
+        {"type": "input",
+          "q": {"tk": "«Daň atdy, kenarda guşlar saýraşdy, çopan sürüsini öri meýdanyna sürdi.» Bu sözlemde näçe grammatik esas bar?", "ru": "«Daň atdy, kenarda guşlar saýraşdy, çopan sürüsini öri meýdanyna sürdi.» Сколько грамматических основ в предложении?"},
+          "answer": "3",
+          "hint": {"tk": "Her habary we onuň egasyny tapyň.", "ru": "Найдите каждое сказуемое и его подлежащее."},
+          "explain": {"tk": "daň — atdy; guşlar — saýraşdy; çopan — sürdi. Üç grammatik esas.", "ru": "daň — atdy; guşlar — saýraşdy; çopan — sürdi. Три грамматические основы."}},
+        {"type": "choice",
+          "q": {"tk": "«Sen tiz gelseň, biz wagtynda ýetişeris.» Bu nähili sözlem?", "ru": "«Sen tiz gelseň, biz wagtynda ýetişeris.» Какое это предложение?"},
+          "options": [
+            {"tk": "Ýönekeý sözlem", "ru": "Простое"},
+            {"tk": "Deňlenen goşma sözlem", "ru": "Сложносочинённое"},
+            {"tk": "Eýerjeň goşma sözlem", "ru": "Сложноподчинённое"}
+          ],
+          "answer": 2,
+          "hint": {"tk": "«Gelseň» sözi nämäni aňladýar — şerti ýa-da deň hukukly wakany?", "ru": "Что выражает форма «gelseň» — условие или равноправное событие?"},
+          "explain": {"tk": "Iki grammatik esas bar. Birinji bölek (-seň şekili) şerti aňladýar we ikinji bölege bagly, şonuň üçin bu eýerjeň goşma sözlem.", "ru": "Две основы. Первая часть (форма на -seň) выражает условие и зависит от второй, поэтому предложение сложноподчинённое."}},
+        {"type": "truefalse",
+          "q": {"tk": "«Men bazardan gyzyl alma aldym.» — bu goşma sözlem.", "ru": "«Men bazardan gyzyl alma aldym.» — это сложное предложение."},
+          "answer": false,
+          "hint": {"tk": "Sözlemde näçe habar bar?", "ru": "Сколько сказуемых в предложении?"},
+          "explain": {"tk": "Bu ýerde bir grammatik esas bar (men — aldym), şonuň üçin ol ýönekeý sözlem.", "ru": "Здесь одна грамматическая основа (men — aldym), поэтому предложение простое."}},
+        {"type": "choice",
+          "q": {"tk": "«Men jaň etdim ýöne ol jogap bermedi.» Otur nirede goýulmaly?", "ru": "«Men jaň etdim ýöne ol jogap bermedi.» Где нужно поставить запятую?"},
+          "options": [
+            {"tk": "«etdim» bilen «ýöne» arasynda", "ru": "Между «etdim» и «ýöne»"},
+            {"tk": "«ýöne» bilen «ol» arasynda", "ru": "Между «ýöne» и «ol»"},
+            {"tk": "Otur gerek däl", "ru": "Запятая не нужна"}
+          ],
+          "answer": 0,
+          "hint": {"tk": "Garşylyk baglaýjylaryndan öň näme goýulýar?", "ru": "Что ставится перед противительными союзами?"},
+          "explain": {"tk": "«Ýöne» baglaýjysy goşma sözlemiň böleklerini birleşdirýär, ondan öň otur goýulýar: Men jaň etdim, ýöne ol jogap bermedi.", "ru": "Союз «ýöne» соединяет части сложного предложения, перед ним ставится запятая: Men jaň etdim, ýöne ol jogap bermedi."}},
+        {"type": "world", "text": {
+          "tk": "Fransuz ýazyjysy Marsel Prust «Ýitirilen wagtyň yzyndan» romanynda örän uzyn goşma sözlemleri bilen meşhurdyr: käbir sözlemleri kitabyň bir sahypasyna golaý ýer tutýar. Bu roman Ginnesiň rekordlar kitabyna iň uzyn roman hökmünde girizilipdir.",
+          "ru": "Французский писатель Марсель Пруст знаменит очень длинными сложными предложениями в романе «В поисках утраченного времени»: некоторые из них занимают почти страницу. Этот роман внесён в Книгу рекордов Гиннесса как самый длинный роман."}}
+      ]
+    },
+    {
+      "id": "turkmen-7-direct-indirect-speech",
+      "grade": 7,
+      "topic": 2,
+      "title": {"tk": "Göni we gytaklaýyn gürrüň", "ru": "Прямая и косвенная речь"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Başga biriniň sözüni iki usul bilen berip bolýar.\n\n• Göni gürrüň — sözler hiç üýtgedilmän berilýär we dyrnaga («») alynýar. Ony girizýän sözler awtoryň sözi diýilýär.\n  1) Awtoryň sözi öňde bolsa, ondan soň iki nokat goýulýar:\n  Mugallym aýtdy: «Ertir synag bolar».\n  2) Göni gürrüň öňde bolsa, ondan soň otur we tire goýulýar:\n  «Ertir synag bolar», — diýip, mugallym aýtdy.\n\n• Gytaklaýyn gürrüň — sözüň diňe manysy berilýär, dyrnak ulanylmaýar. Birinji we ikinji ýöňkeme üçünji ýöňkemä geçýär, işlik köplenç -dygyny/-jakdygyny şekilinde bolýar.\n  Mugallym ertir synag boljakdygyny aýtdy.",
+          "ru": "Чужие слова можно передать двумя способами.\n\n• Прямая речь (göni gürrüň) — слова передаются без изменений и берутся в кавычки («»). Слова, вводящие её, называются словами автора.\n  1) Если слова автора впереди, после них ставится двоеточие:\n  Mugallym aýtdy: «Ertir synag bolar».\n  2) Если прямая речь впереди, после неё ставятся запятая и тире:\n  «Ertir synag bolar», — diýip, mugallym aýtdy.\n\n• Косвенная речь (gytaklaýyn gürrüň) — передаётся только смысл, кавычки не нужны. 1-е и 2-е лицо меняется на 3-е, глагол часто принимает форму на -dygyny/-jakdygyny.\n  Mugallym ertir synag boljakdygyny aýtdy. (Учитель сказал, что завтра будет экзамен.)"}},
+        {"type": "example", "text": {
+          "tk": "Göni gürrüňi gytaklaýyn gürrüňe öwreliň:\nAýna: «Men kitaby okadym», — diýdi.\n1) Dyrnaklary aýyrýarys.\n2) «Men» → Aýnanyň özi barada gürrüň gidýär, üçünji ýöňkemä geçýär.\n3) «okadym» → «okandygyny».\n4) «diýdi» → «aýtdy».\nNetije: Aýna kitaby okandygyny aýtdy.\n\nÝene bir mysal: Kakam: «Ertir ir turuň», — diýdi. → Kakam ertir ir turmagymyzy aýtdy.",
+          "ru": "Превратим прямую речь в косвенную:\nAýna: «Men kitaby okadym», — diýdi. (Айна сказала: «Я прочитала книгу».)\n1) Убираем кавычки.\n2) «Men» — речь идёт о самой Айне, переходим к 3-му лицу.\n3) «okadym» → «okandygyny».\n4) «diýdi» → «aýtdy».\nИтог: Aýna kitaby okandygyny aýtdy. (Айна сказала, что прочитала книгу.)\n\nЕщё пример: Kakam: «Ertir ir turuň», — diýdi. → Kakam ertir ir turmagymyzy aýtdy. (Папа сказал, чтобы мы завтра встали рано.)"}},
+        {"type": "choice",
+          "q": {"tk": "Haýsy sözlemde göni gürrüň dogry ýazylan?", "ru": "В каком предложении прямая речь записана правильно?"},
+          "options": [
+            "Merdan «men geldim diýip» aýtdy.",
+            "«Men geldim», — diýip, Merdan aýtdy.",
+            "Merdan aýtdy men geldim."
+          ],
+          "answer": 1,
+          "hint": {"tk": "Göni gürrüň dyrnakda bolmaly, ondan soň otur we tire.", "ru": "Прямая речь — в кавычках, после неё запятая и тире."},
+          "explain": {"tk": "Göni gürrüň öňde durýar, dyrnaga alnan, ondan soň otur we tire goýlan — hemme zat dogry.", "ru": "Прямая речь стоит впереди, взята в кавычки, после неё запятая и тире — всё правильно."}},
+        {"type": "truefalse",
+          "q": {"tk": "Gytaklaýyn gürrüň hem dyrnaga alynýar.", "ru": "Косвенная речь тоже берётся в кавычки."},
+          "answer": false,
+          "hint": {"tk": "Gytaklaýyn gürrüňde sözler üýtgedilýärmi?", "ru": "Меняются ли слова в косвенной речи?"},
+          "explain": {"tk": "Gytaklaýyn gürrüňde diňe many berilýär, ol awtoryň sözüniň içine girýär, şonuň üçin dyrnak goýulmaýar.", "ru": "В косвенной речи передаётся только смысл, она входит в предложение автора, поэтому кавычки не ставятся."}},
+        {"type": "choice",
+          "q": {"tk": "«Men suratçy bolaryn», — diýip, Leýli aýtdy. Gytaklaýyn gürrüňi saýlaň.", "ru": "«Men suratçy bolaryn», — diýip, Leýli aýtdy. Выберите косвенную речь."},
+          "options": [
+            "Leýli: «Ol suratçy bolar», — diýdi.",
+            "Leýli men suratçy bolaryn aýtdy.",
+            "Leýli suratçy boljakdygyny aýtdy."
+          ],
+          "answer": 2,
+          "hint": {"tk": "Dyrnaksyz we üçünji ýöňkemedäki görnüşi gözläň.", "ru": "Ищите вариант без кавычек и в 3-м лице."},
+          "explain": {"tk": "«Bolaryn» → «boljakdygyny», «men» aýrylýar, dyrnak ýok — bu dogry gytaklaýyn gürrüň.", "ru": "«Bolaryn» → «boljakdygyny», «men» убрано, кавычек нет — это правильная косвенная речь."}},
+        {"type": "input",
+          "q": {"tk": "Göni gürrüň haýsy belgileriň içine alynýar? (bir söz)", "ru": "В какие знаки заключается прямая речь? (одно слово)"},
+          "answer": "dyrnak|dyrnaklar|dyrnaga|«»|кавычки|кавычка",
+          "hint": {"tk": "Olar şeýle görnüşde: « ».", "ru": "Они выглядят так: « »."},
+          "explain": {"tk": "Göni gürrüň dyrnaga («») alynýar.", "ru": "Прямая речь заключается в кавычки («»)."}},
+        {"type": "world", "text": {
+          "tk": "Gadymy grek we latyn golýazmalarynda dyrnak ýokdy — başganyň sözüni okyjy manysyndan tanapdyr. Dyrnaklar kitap çap etmek ýaýrandan soň ornaşypdyr. Häzir olar dürli dillerde dürli görnüşde: türkmen we rus dillerinde « » («arçajyk»), iňlis dilinde “ ”, nemes dilinde bolsa köplenç „ “ ulanylýar.",
+          "ru": "В древнегреческих и латинских рукописях кавычек не было — чужую речь читатель узнавал по смыслу. Кавычки закрепились после распространения книгопечатания. Сейчас в разных языках они разные: в туркменском и русском — « » («ёлочки»), в английском — “ ”, в немецком чаще „ “ («лапки»)."}}
+      ]
+    },
+    {
+      "id": "turkmen-7-punctuation",
+      "grade": 7,
+      "topic": 3,
+      "title": {"tk": "Dyngy belgileri", "ru": "Знаки препинания"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Dyngy belgileri teksti dogry okamaga we düşünmäge kömek edýär.\n\nSözlemiň ahyrynda:\n• Nokat (.) — habar sözleminde.\n• Sorag belgisi (?) — sorag sözleminde.\n• Ýüzlenme belgisi (!) — ýüzlenme we duýgy sözleminde.\n\nSözlemiň içinde:\n• Otur (,) — birjynsly agzalaryň arasynda (we, hem baglaýjylaryndan öň goýulmaýar); ýüzlenmäni aýyrmak üçin; giriş sözlerden soň (elbetde, belki); goşma sözlemiň bölekleriniň arasynda.\n• Iki nokat (:) — umumylaşdyryjy sözden soň birjynsly agzalaryň öňünde; göni gürrüňden öň.\n• Tire (—) — ega we habar at bolup, baglaýjysyz gelende: Aşgabat — paýtagt.\n• Nokatly otur (;), köp nokat (...), dyrnak («»), ýaý ( ).",
+          "ru": "Знаки препинания помогают правильно читать и понимать текст.\n\nВ конце предложения:\n• Точка (nokat) — в повествовательном.\n• Вопросительный знак (sorag belgisi) — в вопросительном.\n• Восклицательный знак (ýüzlenme belgisi) — в восклицательном.\n\nВнутри предложения:\n• Запятая (otur) — между однородными членами (перед союзами we, hem не ставится); при обращении; после вводных слов (elbetde, belki); между частями сложного предложения.\n• Двоеточие (iki nokat) — после обобщающего слова перед однородными членами; перед прямой речью.\n• Тире — между подлежащим и сказуемым, выраженными существительными, без связки: Aşgabat — paýtagt.\n• Точка с запятой (nokatly otur), многоточие (köp nokat), кавычки (dyrnak), скобки (ýaý)."}},
+        {"type": "example", "text": {
+          "tk": "Dyngy belgilerini goýalyň:\n1) «Bagda alma erik üzüm we nar bar» → Bagda alma, erik, üzüm we nar bar. (birjynsly agzalar, «we»-den öň otur ýok)\n2) «Bagda dürli miweler bar alma erik üzüm» → Bagda dürli miweler bar: alma, erik, üzüm. (umumylaşdyryjy söz «miweler»)\n3) «Dostum bärik gel» → Dostum, bärik gel! (ýüzlenme otur bilen aýrylýar)\n4) «Kitap bilimiň çeşmesi» → Kitap — bilimiň çeşmesi. (ega we habar at)",
+          "ru": "Расставим знаки препинания:\n1) «Bagda alma erik üzüm we nar bar» → Bagda alma, erik, üzüm we nar bar. (однородные члены, перед «we» запятой нет)\n2) «Bagda dürli miweler bar alma erik üzüm» → Bagda dürli miweler bar: alma, erik, üzüm. (обобщающее слово «miweler»)\n3) «Dostum bärik gel» → Dostum, bärik gel! (обращение выделяется запятой)\n4) «Kitap bilimiň çeşmesi» → Kitap — bilimiň çeşmesi. (подлежащее и сказуемое — существительные)"}},
+        {"type": "choice",
+          "q": {"tk": "«Kitap ... bilimiň çeşmesi.» Boş ýere haýsy belgi goýulýar?", "ru": "«Kitap ... bilimiň çeşmesi.» Какой знак ставится на месте пропуска?"},
+          "options": [
+            {"tk": "Otur", "ru": "Запятая"},
+            {"tk": "Tire", "ru": "Тире"},
+            {"tk": "Iki nokat", "ru": "Двоеточие"}
+          ],
+          "answer": 1,
+          "hint": {"tk": "Ega we habar haýsy söz toparyna degişli?", "ru": "Какими частями речи выражены подлежащее и сказуемое?"},
+          "explain": {"tk": "Ega (kitap) we habar (çeşmesi) — atlar, olaryň arasynda tire goýulýar.", "ru": "Подлежащее (kitap) и сказуемое (çeşmesi) — существительные, между ними ставится тире."}},
+        {"type": "input",
+          "q": {"tk": "«Okuwçylar sapakda okadylar ýazdylar we çyzdylar.» Bu sözlemde näçe otur gerek?", "ru": "«Okuwçylar sapakda okadylar ýazdylar we çyzdylar.» Сколько запятых нужно в этом предложении?"},
+          "answer": "1",
+          "hint": {"tk": "«We» baglaýjysyndan öň otur goýulýarmy?", "ru": "Ставится ли запятая перед союзом «we»?"},
+          "explain": {"tk": "Okuwçylar sapakda okadylar, ýazdylar we çyzdylar. «Okadylar» bilen «ýazdylar» arasynda otur bar, «we»-den öň ýok — jemi 1.", "ru": "Okuwçylar sapakda okadylar, ýazdylar we çyzdylar. Запятая между «okadylar» и «ýazdylar», перед «we» её нет — всего 1."}},
+        {"type": "truefalse",
+          "q": {"tk": "«Merjen, kitaby getir.» — bu sözlemde otur dogry goýlupdyr.", "ru": "«Merjen, kitaby getir.» — в этом предложении запятая стоит правильно."},
+          "answer": true,
+          "hint": {"tk": "«Merjen» sözi bu ýerde nämäni aňladýar?", "ru": "Чем является слово «Merjen» в этом предложении?"},
+          "explain": {"tk": "«Merjen» — ýüzlenme, ol sözlemiň beýleki böleginden otur bilen aýrylýar.", "ru": "«Merjen» — обращение, оно отделяется от остальной части предложения запятой."}},
+        {"type": "choice",
+          "q": {"tk": "«Sebetde miweler bar ... alma, armyt, nar.» Haýsy belgi gerek?", "ru": "«Sebetde miweler bar ... alma, armyt, nar.» Какой знак нужен?"},
+          "options": [
+            {"tk": "Tire", "ru": "Тире"},
+            {"tk": "Otur", "ru": "Запятая"},
+            {"tk": "Iki nokat", "ru": "Двоеточие"}
+          ],
+          "answer": 2,
+          "hint": {"tk": "Umumylaşdyryjy söz birjynsly agzalardan öňde dur.", "ru": "Обобщающее слово стоит перед однородными членами."},
+          "explain": {"tk": "«Miweler» — umumylaşdyryjy söz, ondan soň birjynsly agzalaryň öňünde iki nokat goýulýar.", "ru": "«Miweler» — обобщающее слово, после него перед однородными членами ставится двоеточие."}},
+        {"type": "world", "text": {
+          "tk": "Gadymy döwürde sözler köplenç arasy açylman we dyngy belgisiz ýazylypdyr. Takmynan miladydan öňki 200-nji ýyllarda Aleksandriýa kitaphanasynyň alymy Wizantiýaly Aristofan okaýan adamyň nirede dem almalydygyny görkezýän nokatlar ulgamyny teklip edipdir. Häzirki dyngy belgileriniň köpüsi şeýle düzgünlerden ösüp çykypdyr.",
+          "ru": "В древности слова часто писали без пробелов и знаков препинания. Примерно в 200-х годах до н. э. учёный Александрийской библиотеки Аристофан Византийский предложил систему точек, показывающих чтецу, где сделать паузу. Многие современные знаки препинания выросли из подобных правил."}}
+      ]
+    },
+    {
+      "id": "turkmen-7-publicistic-style",
+      "grade": 7,
+      "topic": 4,
+      "title": {"tk": "Publisistik stil", "ru": "Публицистический стиль"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Diliň funksional stilleri: gepleşik, çeper, ylmy, resmi-iş we publisistik.\n\nPublisistik stil — gazet-žurnallaryň, telewideniýäniň, radionyň, internet neşirleriniň we jemgyýetçilik çykyşlarynyň stili.\nOnuň iki maksady bar:\n• habar bermek — wakalar, faktlar barada;\n• täsir etmek — okyjyny ynandyrmak, pikirlendirmek, hereket etmäge çagyrmak.\n\nAýratynlyklary:\n• jemgyýet üçin möhüm temalar;\n• takyk faktlar, senäler, sanlar;\n• ritorik soraglar, ýüzlenmeler, çagyryşlar («Geliň, ...!»);\n• täsirli, duýgulandyryjy sözler.\n\nŽanrlary: habar (maglumat), reportaž, interwýu (söhbetdeşlik), makala, oçerk, felýeton.",
+          "ru": "Функциональные стили языка: разговорный, художественный, научный, официально-деловой и публицистический.\n\nПублицистический стиль — стиль газет и журналов, телевидения, радио, интернет-изданий и общественных выступлений.\nУ него две цели:\n• сообщать — о событиях и фактах;\n• воздействовать — убеждать читателя, заставлять задуматься, призывать к действию.\n\nОсобенности:\n• общественно важные темы;\n• точные факты, даты, числа;\n• риторические вопросы, обращения, призывы («Geliň, ...!» — «Давайте…!»);\n• выразительная, эмоциональная лексика.\n\nЖанры: заметка (habar), репортаж, интервью (söhbetdeşlik), статья (makala), очерк, фельетон."}},
+        {"type": "example", "text": {
+          "tk": "Tekst: «Suw — durmuşyň çeşmesi! Her gün näçe litr suwy biderek akdyrýandygymyzy bilýärsiňizmi? Açyk galan bir krandan bir günde onlarça litr suw ýitip bilýär. Geliň, suwy aýawly saklalyň!»\n\nDerňew:\n1) Tema — suwy tygşytlamak, jemgyýet üçin möhüm.\n2) Ritorik sorag: «...bilýärsiňizmi?» — okyjyny pikirlendirýär.\n3) Fakt: açyk krandan suwuň ýitmegi.\n4) Çagyryş: «Geliň, ... saklalyň!»\n5) Ýüzlenme belgileri duýgy döredýär.\nNetije: bu publisistik stildäki tekst.",
+          "ru": "Текст: «Suw — durmuşyň çeşmesi! Her gün näçe litr suwy biderek akdyrýandygymyzy bilýärsiňizmi? Açyk galan bir krandan bir günde onlarça litr suw ýitip bilýär. Geliň, suwy aýawly saklalyň!» (Вода — источник жизни! Знаете ли вы, сколько литров воды мы зря тратим каждый день? Из одного открытого крана за день могут утечь десятки литров. Давайте беречь воду!)\n\nАнализ:\n1) Тема — экономия воды, общественно важная.\n2) Риторический вопрос: «...bilýärsiňizmi?» — заставляет задуматься.\n3) Факт: потеря воды из открытого крана.\n4) Призыв: «Geliň, ... saklalyň!»\n5) Восклицательные знаки создают эмоцию.\nВывод: текст публицистического стиля."}},
+        {"type": "choice",
+          "q": {"tk": "Haýsy tekst publisistik stilde ýazylan?", "ru": "Какой текст написан в публицистическом стиле?"},
+          "options": [
+            "Suw wodoroddan we kisloroddan ybarat birleşmedir.",
+            "Meni zähmet rugsadyna goýbermegiňizi haýyş edýärin.",
+            "Geliň, şäherimizi bilelikde arassa saklalyň!"
+          ],
+          "answer": 2,
+          "hint": {"tk": "Okyjyny hereket etmäge çagyrýan teksti gözläň.", "ru": "Ищите текст, который призывает к действию."},
+          "explain": {"tk": "Birinji — ylmy stil, ikinji — resmi-iş stili (arza), üçünji — çagyryşly publisistik tekst.", "ru": "Первый — научный стиль, второй — официально-деловой (заявление), третий — публицистический призыв."}},
+        {"type": "truefalse",
+          "q": {"tk": "Publisistik stiliň maksady diňe habar bermek, ol okyja täsir etmäge synanyşmaýar.", "ru": "Цель публицистического стиля — только сообщать, он не стремится воздействовать на читателя."},
+          "answer": false,
+          "hint": {"tk": "Publisistikanyň iki maksadyny ýatlaň.", "ru": "Вспомните две цели публицистики."},
+          "explain": {"tk": "Publisistik stil habar berýär hem-de okyja täsir edýär, ony ynandyrmaga we hereket etmäge çagyrýar.", "ru": "Публицистический стиль и сообщает, и воздействует: убеждает читателя и призывает к действию."}},
+        {"type": "choice",
+          "q": {"tk": "Žurnalistiň bir adam bilen soragly-jogaply söhbetdeşligi haýsy žanr?", "ru": "Как называется жанр — беседа журналиста с человеком в форме вопросов и ответов?"},
+          "options": [
+            {"tk": "Oçerk", "ru": "Очерк"},
+            {"tk": "Interwýu", "ru": "Интервью"},
+            {"tk": "Felýeton", "ru": "Фельетон"}
+          ],
+          "answer": 1,
+          "hint": {"tk": "Bu söz iňlis dilinden gelýär we «söhbetdeşlik» diýmekdir.", "ru": "Это слово пришло из английского и значит «беседа»."},
+          "explain": {"tk": "Interwýu — sorag-jogap görnüşindäki söhbetdeşlik. Oçerk — hakyky adam ýa-da waka barada beýan, felýeton — satirik makala.", "ru": "Интервью — беседа в форме вопросов и ответов. Очерк — рассказ о реальном человеке или событии, фельетон — сатирическая статья."}},
+        {"type": "input",
+          "q": {"tk": "Bu sapakda diliň näçe funksional stili agzaldy?", "ru": "Сколько функциональных стилей языка названо в этом уроке?"},
+          "answer": "5",
+          "hint": {"tk": "Gepleşik, çeper, ylmy, ...", "ru": "Разговорный, художественный, научный, ..."},
+          "explain": {"tk": "Bäş stil: gepleşik, çeper, ylmy, resmi-iş we publisistik.", "ru": "Пять стилей: разговорный, художественный, научный, официально-деловой и публицистический."}},
+        {"type": "world", "text": {
+          "tk": "Dünýäde ilkinji çap edilen gazet 1605-nji ýylda Strasburg şäherinde Ýohan Karolus tarapyndan neşir edilen «Relation» gazeti hasaplanýar. Ol hepdede bir gezek çykypdyr we Ýewropanyň dürli şäherlerinden habarlary beripdir.",
+          "ru": "Первой в мире печатной газетой считается «Relation», которую Иоганн Каролус начал издавать в Страсбурге в 1605 году. Она выходила раз в неделю и сообщала новости из разных городов Европы."}}
+      ]
+    },
+    {
+      "id": "turkmen-7-summary-writing",
+      "grade": 7,
+      "topic": 5,
+      "title": {"tk": "Beýan ýazmak", "ru": "Изложение"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Beýan — diňlenen ýa-da okalan teksti öz sözleriň bilen ýazyp bermek. Ol ýatkeşligi, sözlük baýlygyny we pikiri yzygiderli beýan etmegi ösdürýär.\n\nBeýanyň görnüşleri:\n• Doly (giňişleýin) beýan — teksti ähli möhüm jikme-jiklikleri bilen yzygiderli aýtmak.\n• Gysga (gysgaldylan) beýan — diňe esasy mazmuny saklap, teksti gysgaltmak.\n• Saýlap beýan — tekstiň diňe bir bölegini, meselem, bir gahryman ýa-da bir waka barada ýazmak.\n• Döredijilik ýumuşly beýan — tekste öz pikiriňi ýa-da dowamyny goşmak.\n\nIş tertibi:\n1) Teksti üns bilen diňle ýa-da oka.\n2) Temany we esasy pikiri kesgitle.\n3) Meýilnama düz: giriş — esasy bölüm — jemleme.\n4) Açar sözleri we atlary ýatda sakla.\n5) Ýaz, soňra sowatlylygyňy barla.",
+          "ru": "Изложение (beýan) — пересказ прослушанного или прочитанного текста своими словами в письменной форме. Оно развивает память, словарный запас и умение последовательно излагать мысли.\n\nВиды изложения:\n• Подробное — пересказ текста последовательно, со всеми важными деталями.\n• Сжатое — сохраняется только основное содержание.\n• Выборочное — пишут лишь о части текста, например об одном герое или событии.\n• С творческим заданием — к тексту добавляют своё мнение или продолжение.\n\nПорядок работы:\n1) Внимательно прослушать или прочитать текст.\n2) Определить тему и основную мысль.\n3) Составить план: вступление — основная часть — заключение.\n4) Запомнить ключевые слова и имена.\n5) Написать и проверить грамотность."}},
+        {"type": "example", "text": {
+          "tk": "Tekst (gysgaça): «Ýaz geldi. Kerim mekdebiň howlusynda bir tut nahalyny oturtdy. Her gün oňa suw berdi, töweregini otdan arassalady. Birnäçe ýyldan soň tut uly agaja öwrüldi we okuwçylar onuň kölegesinde dynç alýardylar. Kerim zähmetiniň miwesini görüp begendi.»\n\nMeýilnama:\n1) Nahal oturdylýar (giriş).\n2) Kerimiň aladasy (esasy bölüm).\n3) Agajyň peýdasy (jemleme).\n\nGysga beýan: «Kerim mekdebiň howlusynda tut nahalyny oturdyp, oňa yzygiderli ideg etdi. Ýyllar geçip, tut uly agaja öwrüldi, okuwçylar onuň kölegesinde dynç alýarlar.»\nEsasy pikir: zähmet we alada hökman öz miwesini berýär.",
+          "ru": "Текст (кратко): «Пришла весна. Керим посадил во дворе школы саженец тутовника. Каждый день он поливал его и очищал от сорняков. Через несколько лет тутовник стал большим деревом, и ученики отдыхали в его тени. Керим радовался плодам своего труда.»\n\nПлан:\n1) Посадка саженца (вступление).\n2) Забота Керима (основная часть).\n3) Польза дерева (заключение).\n\nСжатое изложение (по-туркменски): «Kerim mekdebiň howlusynda tut nahalyny oturdyp, oňa yzygiderli ideg etdi. Ýyllar geçip, tut uly agaja öwrüldi, okuwçylar onuň kölegesinde dynç alýarlar.»\nОсновная мысль: труд и забота обязательно приносят плоды."}},
+        {"type": "choice",
+          "q": {"tk": "Gysga beýan näme?", "ru": "Что такое сжатое изложение?"},
+          "options": [
+            {"tk": "Teksti söz-sözüne göçürmek", "ru": "Списывание текста слово в слово"},
+            {"tk": "Esasy mazmuny saklap, teksti gysgaldyp ýazmak", "ru": "Сокращённый пересказ с сохранением основного содержания"},
+            {"tk": "Tekste täze wakalar goşmak", "ru": "Добавление в текст новых событий"}
+          ],
+          "answer": 1,
+          "hint": {"tk": "Adynda jogaby bar: «gysga».", "ru": "Ответ подсказывает само название: «сжатое»."},
+          "explain": {"tk": "Gysga beýanda ikinji derejeli jikme-jiklikler aýrylýar, esasy mazmun we esasy pikir bolsa saklanýar.", "ru": "В сжатом изложении второстепенные детали убираются, а основное содержание и главная мысль сохраняются."}},
+        {"type": "truefalse",
+          "q": {"tk": "Beýan ýazanyňda tekstiň esasy pikirini üýtgetmek bolmaz.", "ru": "При написании изложения нельзя менять основную мысль текста."},
+          "answer": true,
+          "hint": {"tk": "Beýan kimiň pikirini berýär?", "ru": "Чью мысль передаёт изложение?"},
+          "explain": {"tk": "Beýan awtoryň tekstini öz sözleriň bilen gaýtalamakdyr, şonuň üçin esasy pikir we wakalaryň tertibi saklanmaly.", "ru": "Изложение — это пересказ авторского текста своими словами, поэтому основная мысль и порядок событий должны сохраняться."}},
+        {"type": "input",
+          "q": {"tk": "Beýanyň meýilnamasy adatça näçe esasy bölümden ybarat?", "ru": "Из скольких основных частей обычно состоит план изложения?"},
+          "answer": "3",
+          "hint": {"tk": "Giriş, ... , jemleme.", "ru": "Вступление, ..., заключение."},
+          "explain": {"tk": "Üç bölüm: giriş, esasy bölüm we jemleme.", "ru": "Три части: вступление, основная часть и заключение."}},
+        {"type": "choice",
+          "q": {"tk": "Tekstdäki diňe bir gahryman barada ýazylýan beýan nähili atlandyrylýar?", "ru": "Как называется изложение, в котором пишут только об одном герое текста?"},
+          "options": [
+            {"tk": "Saýlap beýan", "ru": "Выборочное"},
+            {"tk": "Doly beýan", "ru": "Подробное"},
+            {"tk": "Gysga beýan", "ru": "Сжатое"}
+          ],
+          "answer": 0,
+          "hint": {"tk": "Tekstden bir bölegi «saýlap» alýarys.", "ru": "Мы «выбираем» из текста одну часть."},
+          "explain": {"tk": "Saýlap beýanda tekstiň diňe bir bölegi — gahryman, waka ýa-da tebigat suraty — beýan edilýär.", "ru": "В выборочном изложении передаётся только часть текста — герой, событие или описание природы."}},
+        {"type": "world", "text": {
+          "tk": "1807-nji ýylda iňlis ýazyjylary uýa-dogan Çarlz we Meri Lemler Şekspiriň pýesalaryny çagalar üçin hekaýa görnüşinde gysgaça gaýtadan beýan edip, «Şekspirden hekaýalar» kitabyny çykarypdyrlar. Bu kitap iki ýüz ýyldan gowrak wagt bäri neşir edilýär we köp nesil Şekspir bilen ilkinji gezek şonuň üsti bilen tanyşypdyr.",
+          "ru": "В 1807 году английские писатели брат и сестра Чарльз и Мэри Лэм пересказали пьесы Шекспира для детей в виде рассказов и выпустили книгу «Рассказы из Шекспира». Её переиздают уже более двухсот лет, и многие поколения впервые познакомились с Шекспиром именно через неё."}}
+      ]
+    }
+  ]
+}

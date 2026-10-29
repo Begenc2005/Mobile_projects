@@ -1,0 +1,281 @@
+{
+  "grade": 8,
+  "subject": "geography",
+  "lessons": [
+    {
+      "id": "geography-8-central-asia-nature",
+      "grade": 8,
+      "topic": 0,
+      "title": {"tk": "Merkezi Aziýanyň tebigaty", "ru": "Природа Центральной Азии"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Merkezi Aziýa — Ýewraziýanyň içki bölegi. Oňa adatça Türkmenistan, Gazagystan, Özbegistan, Gyrgyzystan we Täjigistan girizilýär.\n\nRelýefi:\n• Günbatarynda we merkezinde giň düzlükler we çöller: Garagum, Gyzylgum.\n• Günortasynda we gündogarynda beýik daglar: Pamir, Týan-Şan, Köpetdag.\n• Iň beýik nokatlar: Ysmaýyl Somoni depesi (Pamir, 7495 m), Ýeňiş depesi (Týan-Şan, 7439 m).\n\nHowasy — ýiti kontinental: tomsy gyzgyn we gurak, gyşy sowuk, ygal az. Sebäbi — ummanlardan uzakda ýerleşmegi.\n\nUly derýalar: Amyderýa we Syrderýa. Olar daglardaky buzluklardan we gardan iýmitlenýär.",
+          "ru": "Центральная Азия — внутренняя часть Евразии. Обычно к ней относят Туркменистан, Казахстан, Узбекистан, Кыргызстан и Таджикистан.\n\nРельеф:\n• На западе и в центре — обширные равнины и пустыни: Каракумы, Кызылкум.\n• На юге и востоке — высокие горы: Памир, Тянь-Шань, Копетдаг.\n• Высшие точки: пик Исмоили Сомони (Памир, 7495 м), пик Победы (Тянь-Шань, 7439 м).\n\nКлимат резко континентальный: лето жаркое и сухое, зима холодная, осадков мало. Причина — удалённость от океанов.\n\nКрупные реки: Амударья и Сырдарья. Они питаются ледниками и снегом гор."
+        }},
+        {"type": "example", "text": {
+          "tk": "Howanyň kontinentallygyny hasaplalyň. Aşgabatda iýulyň ortaça temperaturasy takmynan +31 °C, ýanwaryňky bolsa takmynan +2 °C.\n1) Ýyllyk amplituda = iň ýyly aý − iň sowuk aý.\n2) 31 − 2 = 29 °C.\nDeňeşdirmek üçin: ummanyň golaýyndaky şäherlerde bu tapawut köplenç 10–15 °C bolýar. Uly amplituda — kontinental howanyň alamaty.",
+          "ru": "Оценим континентальность климата. В Ашхабаде средняя температура июля около +31 °C, января — около +2 °C.\n1) Годовая амплитуда = самый тёплый месяц − самый холодный.\n2) 31 − 2 = 29 °C.\nДля сравнения: в приморских городах эта разница часто 10–15 °C. Большая амплитуда — признак континентального климата."
+        }},
+        {"type": "input",
+          "q": {"tk": "Bir şäherde iýulyň ortaça temperaturasy +28 °C, ýanwaryňky −6 °C. Ýyllyk amplituda näçe gradus?", "ru": "В городе средняя температура июля +28 °C, января −6 °C. Какова годовая амплитуда в градусах?"},
+          "answer": "34",
+          "hint": {"tk": "Minus sany aýyranyňda goşulýar.", "ru": "При вычитании отрицательного числа оно прибавляется."},
+          "explain": {"tk": "28 − (−6) = 28 + 6 = 34 °C.", "ru": "28 − (−6) = 28 + 6 = 34 °C."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Merkezi Aziýanyň howasy näme üçin gurak we kontinental?", "ru": "Почему климат Центральной Азии сухой и континентальный?"},
+          "options": [{"tk": "Ekwatoryň golaýynda ýerleşýär", "ru": "Она расположена у экватора"}, {"tk": "Ummanlardan uzakda ýerleşýär", "ru": "Она удалена от океанов"}, {"tk": "Polýar tegelegiň aňyrsynda ýerleşýär", "ru": "Она лежит за полярным кругом"}],
+          "answer": 1,
+          "hint": {"tk": "Çyglylygy esasan nireden gelýän howa massalary getirýär?", "ru": "Откуда в основном приносят влагу воздушные массы?"},
+          "explain": {"tk": "Ummandan gelýän çyg howa massalary materigiň içine ýetýänçä ygalyny dökýär, şonuň üçin içki ýerler gurak.", "ru": "Влажные океанские воздушные массы теряют влагу, пока доходят до глубины материка, поэтому внутренние районы сухие."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Amyderýa we Syrderýa esasan ýagyş suwundan iýmitlenýär.", "ru": "Амударья и Сырдарья питаются в основном дождевой водой."},
+          "answer": false,
+          "hint": {"tk": "Bu derýalar nireden başlanýar?", "ru": "Где берут начало эти реки?"},
+          "explain": {"tk": "Ýalňyş. Olar Pamiriň we Týan-Şanyň buzluklaryndan we garyndan iýmitlenýär, şonuň üçin tomus suwy köp bolýar.", "ru": "Неверно. Они питаются ледниками и снегом Памира и Тянь-Шаня, поэтому многоводны летом."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy çöl esasan Türkmenistanyň çäginde ýerleşýär?", "ru": "Какая пустыня расположена в основном на территории Туркменистана?"},
+          "options": [{"tk": "Gyzylgum", "ru": "Кызылкум"}, {"tk": "Gobi", "ru": "Гоби"}, {"tk": "Garagum", "ru": "Каракумы"}],
+          "answer": 2,
+          "hint": {"tk": "Onuň ady «gara gum» diýmegi aňladýar.", "ru": "Её название означает «чёрные пески»."},
+          "explain": {"tk": "Garagum Türkmenistanyň çäginiň uly bölegini tutýar. Gyzylgum Amyderýa bilen Syrderýanyň arasynda, Gobi bolsa Mongoliýada we Hytaýda.", "ru": "Каракумы занимают большую часть Туркменистана. Кызылкум — между Амударьёй и Сырдарьёй, а Гоби — в Монголии и Китае."}
+        },
+        {"type": "world", "text": {
+          "tk": "Garagumdaky Derweze gaz krateri 1970-nji ýyllardan bäri ýanýar. Ol dünýäde «Dowzahyň derwezesi» ady bilen tanalýar we syýahatçylary özüne çekýär.",
+          "ru": "Газовый кратер Дарваза в Каракумах горит с 1970-х годов. Он известен в мире как «Врата ада» и привлекает путешественников."
+        }}
+      ]
+    },
+    {
+      "id": "geography-8-caspian-sea",
+      "grade": 8,
+      "topic": 1,
+      "title": {"tk": "Hazar deňzi", "ru": "Каспийское море"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Hazar — Ýer ýüzündäki iň uly ýapyk suw howdany (ony köplenç iň uly köl hem diýýärler). Ol okean bilen birikmeýär.\n\n• Meýdany — takmynan 371 müň km².\n• Suw derejesi dünýä okeanynyň derejesinden takmynan 28 m pes.\n• Iň uly çuňlugy — 1000 m-den gowrak (günorta bölegi). Demirgazyk bölegi bolsa örän ýalpak.\n• Suwy az şor — okean suwundan takmynan üç esse süýji.\n• Kenarýaka döwletleri: Türkmenistan, Gazagystan, Russiýa, Azerbaýjan, Eýran.\n• Oňa guýýan iň uly derýa — Wolga (gelýän suwuň takmynan 80%-i).\n\nTürkmenistanyň kenarynda Garabogazköl aýlagy bar — ol örän şor we mineral duzlara baý.",
+          "ru": "Каспий — крупнейший на Земле замкнутый водоём (его часто называют крупнейшим озером). Он не связан с океаном.\n\n• Площадь — около 371 тыс. км².\n• Уровень воды примерно на 28 м ниже уровня Мирового океана.\n• Наибольшая глубина — более 1000 м (южная часть). Северная часть очень мелкая.\n• Вода слабосолёная — примерно в три раза преснее океанской.\n• Прикаспийские государства: Туркменистан, Казахстан, Россия, Азербайджан, Иран.\n• Крупнейшая впадающая река — Волга (около 80% притока).\n\nУ берегов Туркменистана находится залив Кара-Богаз-Гол — очень солёный и богатый минеральными солями."
+        }},
+        {"type": "example", "text": {
+          "tk": "Hazaryň suw deňagramlylygy:\n1) Girýän suw: derýalar (esasan Wolga) + ygal.\n2) Çykýan suw: diňe bugarmak (we Garabogazköle akyp gitmek). Derýa arkaly okeana çykalga ýok.\n3) Eger girýän suw bugarandan köp bolsa, dereje ýokary galýar; az bolsa — peselýär.\nŞonuň üçin Hazaryň derejesi taryhda birnäçe gezek ep-esli üýtgäpdir.",
+          "ru": "Водный баланс Каспия:\n1) Приход: реки (прежде всего Волга) + осадки.\n2) Расход: только испарение (и сток в Кара-Богаз-Гол). Выхода в океан через реки нет.\n3) Если приход больше испарения, уровень растёт; если меньше — падает.\nПоэтому уровень Каспия в истории не раз заметно менялся."
+        }},
+        {"type": "input",
+          "q": {"tk": "Hazar deňziniň näçe kenarýaka döwleti bar? (san)", "ru": "Сколько прикаспийских государств? (число)"},
+          "answer": "5",
+          "hint": {"tk": "Türkmenistandan başlap, kenar boýunça aýlan.", "ru": "Начни с Туркменистана и обойди берег по кругу."},
+          "explain": {"tk": "Bäş: Türkmenistan, Gazagystan, Russiýa, Azerbaýjan we Eýran.", "ru": "Пять: Туркменистан, Казахстан, Россия, Азербайджан и Иран."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Hazaryň haýsy bölegi iň çuň?", "ru": "Какая часть Каспия самая глубокая?"},
+          "options": [{"tk": "Günorta", "ru": "Южная"}, {"tk": "Demirgazyk", "ru": "Северная"}, {"tk": "Hemme ýeri deň", "ru": "Везде одинаково"}],
+          "answer": 0,
+          "hint": {"tk": "Wolganyň deltasynyň golaýynda suw diňe birnäçe metr çuňlukda.", "ru": "У дельты Волги глубина всего несколько метров."},
+          "explain": {"tk": "Günorta Hazarda çuňluk 1000 m-den geçýär, demirgazykda bolsa ortaça birnäçe metr.", "ru": "В Южном Каспии глубина превышает 1000 м, а на севере в среднем лишь несколько метров."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Hazaryň suwy dünýä okeanynyň suwundan şor.", "ru": "Вода Каспия солонее воды Мирового океана."},
+          "answer": false,
+          "hint": {"tk": "Oňa köp süýji derýa suwy guýýar.", "ru": "В него впадает много пресной речной воды."},
+          "explain": {"tk": "Ýalňyş. Hazaryň şorlugy okeanyňkydan takmynan üç esse az. Diňe Garabogazköl örän şor.", "ru": "Неверно. Солёность Каспия примерно в три раза ниже океанской. Очень солёный лишь Кара-Богаз-Гол."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Hazaryň derejesi näme üçin okeanyňka bagly däl?", "ru": "Почему уровень Каспия не зависит от океана?"},
+          "options": [{"tk": "Ol okeandan beýikde ýerleşýär", "ru": "Он расположен выше океана"}, {"tk": "Ondan derýalar akyp çykýar", "ru": "Из него вытекают реки"}, {"tk": "Ol okean bilen birikmeýär", "ru": "Он не соединён с океаном"}],
+          "answer": 2,
+          "hint": {"tk": "«Ýapyk suw howdany» näme diýmek?", "ru": "Что значит «замкнутый водоём»?"},
+          "explain": {"tk": "Hazar ýapyk howdan: onuň derejesini diňe derýa akymy, ygal we bugarma kesgitleýär.", "ru": "Каспий — замкнутый водоём: его уровень определяют только речной приток, осадки и испарение."}
+        },
+        {"type": "world", "text": {
+          "tk": "Hazar dünýädäki gara uwulyryň (osetr balyklarynyň) iň uly ýaşaýan ýerleriniň biri. Bu gadymy balyklaryň köp görnüşi häzir ýitip gitmek howpy astynda we goralýar.",
+          "ru": "Каспий — одно из крупнейших в мире мест обитания осетровых рыб. Многие виды этих древних рыб сейчас находятся под угрозой исчезновения и охраняются."
+        }}
+      ]
+    },
+    {
+      "id": "geography-8-climate-zones",
+      "grade": 8,
+      "topic": 2,
+      "title": {"tk": "Howa guşaklyklary", "ru": "Климатические пояса"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Howa guşaklygy — howasy meňzeş, giňlik boýunça uzalyp gidýän uly zolak. Olar ekwatordan polýuslara tarap Günüň şöhlesiniň düşüş burçy kiçelýändigi sebäpli emele gelýär.\n\nEsasy guşaklyklar (bütin ýylda bir howa massasy agdyklyk edýär):\n• Ekwatorial — yssy we çyg.\n• Tropiki (2) — yssy we köplenç gurak, uly çöller (Sahara).\n• Mylaýym (2) — dört möwsüm aýdyň.\n• Arktiki we Antarktiki — örän sowuk.\n\nGeçiş guşaklyklary (howa massasy möwsüme görä çalyşýar): subekwatorial, subtropiki, subarktiki we subantarktiki.\n\nTürkmenistan subtropiki we mylaýym guşaklyklaryň serhedinde ýerleşýär.",
+          "ru": "Климатический пояс — обширная полоса со сходным климатом, вытянутая по широте. Пояса возникают потому, что от экватора к полюсам угол падения солнечных лучей уменьшается.\n\nОсновные пояса (весь год господствует одна воздушная масса):\n• Экваториальный — жарко и влажно.\n• Тропические (2) — жарко и часто сухо, крупные пустыни (Сахара).\n• Умеренные (2) — чётко выражены четыре сезона.\n• Арктический и Антарктический — очень холодно.\n\nПереходные пояса (воздушная масса меняется по сезонам): субэкваториальные, субтропические, субарктический и субантарктический.\n\nТуркменистан лежит на границе субтропического и умеренного поясов."
+        }},
+        {"type": "example", "text": {
+          "tk": "Esasy guşaklyklary sanalyň:\n1) Ekwatorial — 1.\n2) Tropiki — demirgazyk we günorta ýarymşarda: 2.\n3) Mylaýym — 2.\n4) Arktiki we Antarktiki — 2.\nJemi: 1 + 2 + 2 + 2 = 7 esasy guşaklyk.\nŞol bir tertip bilen geçiş guşaklyklaryny sanasaň: 2 subekwatorial + 2 subtropiki + subarktiki + subantarktiki = 6.",
+          "ru": "Посчитаем основные пояса:\n1) Экваториальный — 1.\n2) Тропические — в Северном и Южном полушариях: 2.\n3) Умеренные — 2.\n4) Арктический и Антарктический — 2.\nИтого: 1 + 2 + 2 + 2 = 7 основных поясов.\nТак же считаем переходные: 2 субэкваториальных + 2 субтропических + субарктический + субантарктический = 6."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Amazonkanyň tokaýlary haýsy guşaklykda ýerleşýär?", "ru": "В каком поясе находятся леса Амазонии?"},
+          "options": [{"tk": "Mylaýym", "ru": "Умеренном"}, {"tk": "Ekwatorial", "ru": "Экваториальном"}, {"tk": "Tropiki", "ru": "Тропическом"}],
+          "answer": 1,
+          "hint": {"tk": "Amazonka derýasy ekwatoryň golaýyndan akýar.", "ru": "Река Амазонка течёт вблизи экватора."},
+          "explain": {"tk": "Amazoniýa ekwatorial guşaklykda: ýyl boýy yssy we köp ýagyş ýagýar, şonuň üçin dykyz çygly tokaý ösýär.", "ru": "Амазония — в экваториальном поясе: круглый год жарко и много дождей, поэтому там густые влажные леса."}
+        },
+        {"type": "input",
+          "q": {"tk": "Ýer ýüzünde näçe esasy howa guşaklygy bar? (san)", "ru": "Сколько на Земле основных климатических поясов? (число)"},
+          "answer": "7",
+          "hint": {"tk": "Ekwatorial bir, galanlary jübüt.", "ru": "Экваториальный один, остальные парные."},
+          "explain": {"tk": "1 ekwatorial + 2 tropiki + 2 mylaýym + arktiki + antarktiki = 7.", "ru": "1 экваториальный + 2 тропических + 2 умеренных + арктический + антарктический = 7."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Geçiş guşaklyklarynda howa massalary möwsüme görä çalyşýar.", "ru": "В переходных поясах воздушные массы меняются по сезонам."},
+          "answer": true,
+          "hint": {"tk": "Olaryň adynyň öňündäki «sub-» goşulmasyny ýatla.", "ru": "Вспомни приставку «суб-» в их названиях."},
+          "explain": {"tk": "Dogry. Mysal üçin, subtropiki guşaklykda tomus tropiki, gyş mylaýym howa massalary agdyklyk edýär.", "ru": "Верно. Например, в субтропиках летом господствует тропический воздух, а зимой — умеренный."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Sahara çöli haýsy guşaklykda?", "ru": "В каком поясе находится пустыня Сахара?"},
+          "options": [{"tk": "Subarktiki", "ru": "Субарктическом"}, {"tk": "Ekwatorial", "ru": "Экваториальном"}, {"tk": "Tropiki", "ru": "Тропическом"}],
+          "answer": 2,
+          "hint": {"tk": "Ol Demirgazyk tropigiň (Rak tropiginiň) töwereginde ýerleşýär.", "ru": "Она лежит вокруг Северного тропика (тропика Рака)."},
+          "explain": {"tk": "Tropiki guşaklykda ýokary basyş we gury howa agdyklyk edýär — şonuň üçin dünýäniň iň uly gyzgyn çölleri şu ýerde.", "ru": "В тропическом поясе господствует высокое давление и сухой воздух — поэтому здесь крупнейшие жаркие пустыни мира."}
+        },
+        {"type": "world", "text": {
+          "tk": "Ýer ýüzünde ölçenen iň pes howa temperaturasy (−89,2 °C) 1983-nji ýylda Antarktidadaky «Wostok» stansiýasynda hasaba alnypdyr.",
+          "ru": "Самая низкая измеренная на Земле температура воздуха (−89,2 °C) зафиксирована в 1983 году на станции «Восток» в Антарктиде."
+        }}
+      ]
+    },
+    {
+      "id": "geography-8-world-population",
+      "grade": 8,
+      "topic": 3,
+      "title": {"tk": "Dünýäniň ilaty", "ru": "Население мира"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "BMG-niň maglumatlaryna görä, 2022-nji ýylyň noýabrynda dünýäniň ilaty 8 milliarda ýetdi.\n\nEsasy düşünjeler:\n• Tebigy ösüş = dogluş − ölüm (köplenç 1000 adama hasaplanýar, ‰).\n• Ilatyň dykyzlygy = ilatyň sany ÷ meýdan (adam/km²).\n• Urbanizasiýa — şäherleriň we şäher ilatynyň paýynyň ösmegi. Häzir adamlaryň ýarysyndan gowragy şäherlerde ýaşaýar.\n• Migrasiýa — adamlaryň bir ýerden beýleki ýere göçmegi.\n\nIň köp ilatly ýurtlar — Hindistan we Hytaý (her biri 1,4 milliarddan gowrak). Ilat deň ýerleşmeýär: köpüsi kenarlarda, derýa jülgelerinde we düzlüklerde ýaşaýar.",
+          "ru": "По данным ООН, в ноябре 2022 года население мира достигло 8 миллиардов.\n\nОсновные понятия:\n• Естественный прирост = рождаемость − смертность (часто на 1000 человек, ‰).\n• Плотность населения = численность ÷ площадь (чел./км²).\n• Урбанизация — рост городов и доли городского населения. Сейчас больше половины людей живут в городах.\n• Миграция — переселение людей.\n\nСамые населённые страны — Индия и Китай (каждая более 1,4 миллиарда). Население размещено неравномерно: больше всего людей на побережьях, в долинах рек и на равнинах."
+        }},
+        {"type": "example", "text": {
+          "tk": "Bir ýurduň meýdany 200 000 km², ilaty 7 000 000 adam. Ýylda 1000 adama 20 çaga dogulýar, 6 adam ölýär.\n1) Dykyzlyk: 7 000 000 ÷ 200 000 = 35 adam/km².\n2) Tebigy ösüş: 20 − 6 = 14 ‰.\n3) Ýylda goşulýan adam: 7 000 × 14 = 98 000 (sebäbi 7 000 000-da 7 000 sany müňlük bar).",
+          "ru": "Площадь страны 200 000 км², население 7 000 000 человек. За год на 1000 человек рождается 20 детей и умирает 6 человек.\n1) Плотность: 7 000 000 ÷ 200 000 = 35 чел./км².\n2) Естественный прирост: 20 − 6 = 14 ‰.\n3) Прирост за год: 7 000 × 14 = 98 000 человек (в 7 000 000 содержится 7 000 тысяч)."
+        }},
+        {"type": "input",
+          "q": {"tk": "Ýurduň ilaty 6 000 000, meýdany 120 000 km². Ilatyň dykyzlygy näçe adam/km²?", "ru": "Население страны 6 000 000, площадь 120 000 км². Какова плотность населения (чел./км²)?"},
+          "answer": "50",
+          "hint": {"tk": "Ilaty meýdana böl; nollary gysgaltmak aňsatlaşdyrýar.", "ru": "Раздели население на площадь; сократи нули."},
+          "explain": {"tk": "6 000 000 ÷ 120 000 = 600 ÷ 12 = 50 adam/km².", "ru": "6 000 000 ÷ 120 000 = 600 ÷ 12 = 50 чел./км²."}
+        },
+        {"type": "choice",
+          "q": {"tk": "1000 adama 12 doglan we 15 ölen ýagdaýynda tebigy ösüş nähili?", "ru": "Каков естественный прирост, если на 1000 человек родилось 12 и умерло 15?"},
+          "options": [{"tk": "+3 ‰", "ru": "+3 ‰"}, {"tk": "−3 ‰", "ru": "−3 ‰"}, {"tk": "27 ‰", "ru": "27 ‰"}],
+          "answer": 1,
+          "hint": {"tk": "Dogluşdan ölümi aýyr.", "ru": "Из рождаемости вычти смертность."},
+          "explain": {"tk": "12 − 15 = −3 ‰. Bu tebigy kemelme — ilat tebigy ýol bilen azalýar (käbir Ýewropa ýurtlarynda şeýle).", "ru": "12 − 15 = −3 ‰. Это естественная убыль — население сокращается (так в ряде стран Европы)."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Häzir dünýäde şäherlerde ýaşaýan adamlar oba ýerlerinde ýaşaýanlardan köp.", "ru": "Сейчас в мире в городах живёт больше людей, чем в сельской местности."},
+          "answer": true,
+          "hint": {"tk": "Urbanizasiýa barada okanlaryňy ýatla.", "ru": "Вспомни, что сказано об урбанизации."},
+          "explain": {"tk": "Dogry. BMG-niň maglumatlaryna görä, 2000-nji ýyllaryň ahyrynda şäher ilaty oba ilatyndan geçdi.", "ru": "Верно. По данным ООН, в конце 2000-х годов городское население превысило сельское."}
+        },
+        {"type": "world", "text": {
+          "tk": "1800-nji ýyllaryň başynda Ýer ýüzünde takmynan 1 milliard adam ýaşapdyr. Ilatyň 8 milliarda çenli ösmegi lukmançylygyň, sanitariýanyň we oba hojalygynyň ösüşi bilen baglanyşykly.",
+          "ru": "В начале 1800-х годов на Земле жило около 1 миллиарда человек. Рост до 8 миллиардов связан с развитием медицины, санитарии и сельского хозяйства."
+        }}
+      ]
+    },
+    {
+      "id": "geography-8-natural-resources",
+      "grade": 8,
+      "topic": 4,
+      "title": {"tk": "Tebigy baýlyklar", "ru": "Природные ресурсы"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Tebigy baýlyklar — adamyň durmuşda we önümçilikde ulanýan tebigat zatlary.\n\nGörnüşleri:\n• Mineral baýlyklar: nebit, gaz, kömür, metal magdanlary, duzlar.\n• Suw, ýer (toprak), tokaý, biologik baýlyklar.\n• Howa we kosmos baýlyklary: Gün, ýel energiýasy.\n\nTükenmek taýdan:\n• Tükenýän, dikeldilmeýän: nebit, gaz, kömür, magdanlar — olar millionlarça ýylda emele gelýär.\n• Tükenýän, dikeldilýän: tokaý, toprak, balyk — dogry peýdalanylsa dikelýär.\n• Tükenmeýän: Gün, ýel energiýasy.\n\nBaýlyk bilen üpjünçilik = gorlar ÷ ýyllyk alynýan mukdar (ýyl).",
+          "ru": "Природные ресурсы — объекты природы, которые человек использует в жизни и производстве.\n\nВиды:\n• Минеральные: нефть, газ, уголь, руды металлов, соли.\n• Водные, земельные, лесные, биологические.\n• Климатические и космические: энергия Солнца, ветра.\n\nПо исчерпаемости:\n• Исчерпаемые невозобновимые: нефть, газ, уголь, руды — они образуются миллионы лет.\n• Исчерпаемые возобновимые: лес, почва, рыба — восстанавливаются при разумном использовании.\n• Неисчерпаемые: энергия Солнца, ветра.\n\nРесурсообеспеченность = запасы ÷ годовая добыча (в годах)."
+        }},
+        {"type": "example", "text": {
+          "tk": "Bir käniň gorlary 600 million tonna, ýylda 20 million tonna çykarylýar.\n1) Üpjünçilik = 600 ÷ 20 = 30 ýyl.\n2) Eger çykarylyş 30 million tonna çenli ýokarlansa: 600 ÷ 30 = 20 ýyl.\nNetije: çykarylyş näçe köp bolsa, gorlar şonça çalt gutarýar. Täze ýataklary gözlemek we tygşytly ulanmak möhüm.",
+          "ru": "Запасы месторождения 600 млн т, добыча 20 млн т в год.\n1) Обеспеченность = 600 ÷ 20 = 30 лет.\n2) Если добычу увеличить до 30 млн т: 600 ÷ 30 = 20 лет.\nВывод: чем больше добыча, тем быстрее иссякнут запасы. Важно искать новые месторождения и экономно использовать ресурсы."
+        }},
+        {"type": "input",
+          "q": {"tk": "Gorlar 450 million tonna, ýyllyk çykarylyş 15 million tonna. Üpjünçilik näçe ýyl?", "ru": "Запасы 450 млн т, годовая добыча 15 млн т. На сколько лет хватит?"},
+          "answer": "30",
+          "hint": {"tk": "Gorlary ýyllyk çykarylyşa böl.", "ru": "Раздели запасы на годовую добычу."},
+          "explain": {"tk": "450 ÷ 15 = 30 ýyl.", "ru": "450 ÷ 15 = 30 лет."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy baýlyk dikeldilýän?", "ru": "Какой ресурс является возобновимым?"},
+          "options": [{"tk": "Tokaý", "ru": "Лес"}, {"tk": "Tebigy gaz", "ru": "Природный газ"}, {"tk": "Demir magdany", "ru": "Железная руда"}],
+          "answer": 0,
+          "hint": {"tk": "Haýsysy adamyň ömrüniň dowamynda täzeden ösüp biler?", "ru": "Что может вырасти заново за время жизни человека?"},
+          "explain": {"tk": "Tokaý täzeden ekilip we ösdürilip bilner. Gaz we magdan millionlarça ýylda emele gelýär.", "ru": "Лес можно посадить и вырастить заново. Газ и руда образуются миллионы лет."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Gün energiýasy tükenmeýän baýlyklara degişli.", "ru": "Солнечная энергия относится к неисчерпаемым ресурсам."},
+          "answer": true,
+          "hint": {"tk": "Adam Günüň energiýasyny näçe ulansa-da, ol azalarmy?", "ru": "Уменьшится ли энергия Солнца, сколько бы её ни использовали люди?"},
+          "explain": {"tk": "Dogry. Adamyň ulanmagy Günüň şöhlelenmesini azaltmaýar.", "ru": "Верно. Использование человеком не уменьшает излучение Солнца."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Türkmenistan haýsy baýlygyň gorlary boýunça dünýäde öňdäki ýurtlaryň biri?", "ru": "По запасам какого ресурса Туркменистан входит в число мировых лидеров?"},
+          "options": [{"tk": "Altyn", "ru": "Золото"}, {"tk": "Agaç", "ru": "Древесина"}, {"tk": "Tebigy gaz", "ru": "Природный газ"}],
+          "answer": 2,
+          "hint": {"tk": "Galkynyş ýatagyny ýatla.", "ru": "Вспомни месторождение Галкыныш."},
+          "explain": {"tk": "Türkmenistan tebigy gazyň gorlary boýunça dünýäde iň baý ýurtlaryň biri. Galkynyş ýatagy dünýädäki iň uly gaz ýataklarynyň biri hasaplanýar.", "ru": "Туркменистан — одна из самых богатых природным газом стран мира. Месторождение Галкыныш считается одним из крупнейших газовых месторождений мира."}
+        },
+        {"type": "world", "text": {
+          "tk": "Soňky onýyllykda Gün panelleriniň bahasy birnäçe esse arzanlady. Şonuň üçin köp ýurtlarda Gün elektrik stansiýalary iň arzan täze elektrik çeşmeleriniň birine öwrüldi.",
+          "ru": "За последнее десятилетие солнечные панели подешевели в несколько раз. Поэтому во многих странах солнечные электростанции стали одним из самых дешёвых новых источников электроэнергии."
+        }}
+      ]
+    },
+    {
+      "id": "geography-8-environmental-problems",
+      "grade": 8,
+      "topic": 5,
+      "title": {"tk": "Ekologiki meseleler", "ru": "Экологические проблемы"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Ekologiki mesele — adamyň işi sebäpli tebigy gurşawyň zaýalanmagy.\n\nDünýä derejesindäki esasy meseleler:\n• Howanyň üýtgemegi — kömürturşy gazy (CO₂) ýaly parnik gazlarynyň köpelmegi sebäpli ortaça temperaturanyň ýokarlanmagy.\n• Ozon gatlagynyň inçelmegi — freonlar sebäpli; 1987-nji ýyldaky Monreal protokoly olary gadagan etdi.\n• Howanyň, suwuň, topragyň hapalanmagy, plastik galyndylar.\n• Tokaýlaryň kesilmegi we biologik dürlüligiň azalmagy.\n• Çölleşme — gurak ýerlerde topragyň hasyllylygyny ýitirmegi.\n\nSebit meselesi: Aral deňziniň guramagy — Amyderýa we Syrderýa suwunyň suwarmak üçin köp alynmagy sebäpli.",
+          "ru": "Экологическая проблема — ухудшение природной среды из-за деятельности человека.\n\nГлавные глобальные проблемы:\n• Изменение климата — рост средней температуры из-за накопления парниковых газов, например углекислого газа (CO₂).\n• Разрушение озонового слоя — из-за фреонов; Монреальский протокол 1987 года запретил их.\n• Загрязнение воздуха, воды, почвы, пластиковые отходы.\n• Вырубка лесов и сокращение биоразнообразия.\n• Опустынивание — потеря плодородия земель в засушливых районах.\n\nРегиональная проблема: высыхание Аральского моря — из-за большого забора воды Амударьи и Сырдарьи на орошение."
+        }},
+        {"type": "example", "text": {
+          "tk": "Aral deňziniň meselesini sebäp-netije zynjyry görnüşinde düzeliň:\n1) 1960-njy ýyllardan başlap derýalardan pagta we beýleki ekinler üçin köp suw alyndy.\n2) Arala gelýän suw ep-esli azaldy.\n3) Bugarma suwuň gelmeginden köp boldy → deňiz kiçeldi we bölündi.\n4) Netijeler: suw şorlaşdy, balykçylyk ýitdi, guran düýbünden duzly tozan ýaýrady, howa has kontinental boldy.\nSapak: tebigatdaky bir üýtgeşme tutuş zynjyr netijeleri döredýär.",
+          "ru": "Разберём проблему Арала как цепочку причин и следствий:\n1) С 1960-х годов из рек стали забирать много воды на хлопок и другие культуры.\n2) Приток воды в Арал резко сократился.\n3) Испарение превысило приток → море уменьшилось и распалось на части.\n4) Последствия: вода осолонилась, рыболовство исчезло, с обсохшего дна разносится солевая пыль, климат стал более континентальным.\nУрок: одно изменение в природе запускает целую цепь последствий."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Ozon gatlagyny esasan haýsy maddalar zaýalaýar?", "ru": "Какие вещества в основном разрушают озоновый слой?"},
+          "options": [{"tk": "Freonlar", "ru": "Фреоны"}, {"tk": "Kislorod", "ru": "Кислород"}, {"tk": "Suw buglary", "ru": "Водяной пар"}],
+          "answer": 0,
+          "hint": {"tk": "Bu maddalar öň sowadyjylarda we aerozollarda ulanylýardy.", "ru": "Эти вещества раньше применялись в холодильниках и аэрозолях."},
+          "explain": {"tk": "Freonlar (hlorftoruglewodorodlar) ýokary atmosferada ozony dargadýar, şonuň üçin olar Monreal protokoly bilen gadagan edildi.", "ru": "Фреоны (хлорфторуглероды) разрушают озон в верхних слоях атмосферы, поэтому их запретил Монреальский протокол."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Aral deňziniň guramagynyň esasy sebäbi — derýa suwunyň suwarmak üçin köp alynmagy.", "ru": "Главная причина высыхания Аральского моря — большой забор речной воды на орошение."},
+          "answer": true,
+          "hint": {"tk": "Aral haýsy derýalardan iýmitlenýärdi we olaryň suwy nirä gitdi?", "ru": "Какими реками питался Арал и куда ушла их вода?"},
+          "explain": {"tk": "Dogry. Amyderýanyň we Syrderýanyň suwunyň köp bölegi ekin meýdanlaryna gönükdirildi.", "ru": "Верно. Большая часть воды Амударьи и Сырдарьи была направлена на поля."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy gaz parnik täsirini güýçlendirýär?", "ru": "Какой газ усиливает парниковый эффект?"},
+          "options": [{"tk": "Azot", "ru": "Азот"}, {"tk": "Kömürturşy gazy", "ru": "Углекислый газ"}, {"tk": "Argon", "ru": "Аргон"}],
+          "answer": 1,
+          "hint": {"tk": "Bu gaz nebit, gaz we kömür ýakylanda bölünip çykýar.", "ru": "Этот газ выделяется при сжигании нефти, газа и угля."},
+          "explain": {"tk": "CO₂ Ýerden gidýän ýylylygy saklaýar; ýangyç ýakylanda onuň mukdary köpelýär.", "ru": "CO₂ задерживает тепло, уходящее от Земли; при сжигании топлива его становится больше."}
+        },
+        {"type": "input",
+          "q": {"tk": "Ozon gatlagyny goramak baradaky Monreal protokoly haýsy ýylda kabul edildi?", "ru": "В каком году был принят Монреальский протокол об охране озонового слоя?"},
+          "answer": "1987",
+          "hint": {"tk": "1980-nji ýyllaryň ikinji ýarymy.", "ru": "Вторая половина 1980-х."},
+          "explain": {"tk": "1987-nji ýylda. Ol dünýäniň ähli döwletleri tarapyndan tassyklanan ilkinji BMG şertnamasy boldy.", "ru": "В 1987 году. Это первый договор ООН, ратифицированный всеми государствами мира."}
+        },
+        {"type": "world", "text": {
+          "tk": "Monreal protokoly iň üstünlikli halkara ekologiki şertnamalaryň biri hasaplanýar: alymlaryň baha bermegine görä, ozon gatlagy haýal-haýal dikelýär we XXI asyryň ortalaryna çenli dikelip biler.",
+          "ru": "Монреальский протокол считается одним из самых успешных международных экологических договоров: по оценкам учёных, озоновый слой медленно восстанавливается и может восстановиться к середине XXI века."
+        }}
+      ]
+    }
+  ]
+}

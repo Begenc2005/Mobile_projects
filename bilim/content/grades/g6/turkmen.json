@@ -1,0 +1,289 @@
+{
+  "grade": 6,
+  "subject": "turkmen",
+  "lessons": [
+    {
+      "id": "turkmen-6-adjective-degrees",
+      "grade": 6,
+      "topic": 0,
+      "title": {"tk": "Sypatlaryň derejeleri", "ru": "Степени прилагательных"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Sypat zadyň alamatyny görkezýär: uly, gyzyl, süýji. Alamat az ýa-da köp bolup biler, şonuň üçin sypatlaryň derejeleri bar.\n\n• Adaty dereje — alamat adaty ölçegde: uly öý, ak kagyz.\n• Azaltma dereje — alamat azrak ýa-da başga zat bilen deňeşdirilýär. Goşulmalar: -rak/-räk (ulurak, kiçiräk), -ymtyl/-imtil, -umtyl/-ümtil (gyzylymtyl, sarymtyl, gögümtil).\n• Artykmaç dereje — alamat örän güýçli. Ýasalyşy:\n  – söz başyny gaýtalamak: ap-ak, gap-gara, gyp-gyzyl, sap-sary, göm-gök;\n  – kömekçi sözler: iň, has, örän, gaty (iň uly, örän owadan).",
+          "ru": "Прилагательное (sypat) обозначает признак предмета: uly (большой), gyzyl (красный), süýji (сладкий). Признак может быть слабее или сильнее, поэтому у прилагательных есть степени.\n\n• Обычная степень (adaty dereje) — признак в обычной мере: uly öý (большой дом), ak kagyz (белая бумага).\n• Уменьшительная степень (azaltma dereje) — признак слабее или сравнивается с другим предметом. Аффиксы: -rak/-räk (ulurak — побольше, kiçiräk — поменьше), -ymtyl/-imtil, -umtyl/-ümtil (gyzylymtyl — красноватый, sarymtyl — желтоватый, gögümtil — голубоватый).\n• Превосходная степень (artykmaç dereje) — признак очень сильный. Образуется:\n  – повтором начала слова: ap-ak (белоснежный), gap-gara (чёрный-пречёрный), gyp-gyzyl (ярко-красный), sap-sary, göm-gök;\n  – служебными словами: iň (самый), has (более), örän, gaty (очень): iň uly, örän owadan."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mysal: «gara» sözüniň derejeleri.\n1. Adaty: gara pişik.\n2. Azaltma: garamtyl (-mtyl) ýa-da gararak (-rak). Mysal: Bu mata öňküsinden gararak.\n3. Artykmaç: gap-gara gije — başky bogun «ga» alnyp, oňa «p» goşulýar we sözüň özi goşulýar: ga + p → gap-gara.\n4. Kömekçi söz bilen: iň gara bulut.",
+          "ru": "Пример: степени слова «gara» (чёрный).\n1. Обычная: gara pişik — чёрная кошка.\n2. Уменьшительная: garamtyl (черноватый) или gararak (чернее). Пример: Bu mata öňküsinden gararak — Эта ткань темнее прежней.\n3. Превосходная: gap-gara gije — непроглядно чёрная ночь. Берём начальный слог «ga», добавляем «p» и затем всё слово: ga + p → gap-gara.\n4. Со служебным словом: iň gara bulut — самая чёрная туча."
+        }},
+        {"type": "choice",
+          "q": {"tk": "«Gyzyl» sözüniň artykmaç derejesini saýla.", "ru": "Выбери превосходную степень слова «gyzyl»."},
+          "options": ["gyzylymtyl", "gyp-gyzyl", "gyzyl"],
+          "answer": 1,
+          "hint": {"tk": "Artykmaç dereje söz başyny gaýtalap ýasalýar.", "ru": "Превосходная степень образуется повтором начала слова."},
+          "explain": {"tk": "Gyp-gyzyl — artykmaç dereje: gy + p + gyzyl. Gyzylymtyl — azaltma dereje, gyzyl — adaty dereje.", "ru": "Gyp-gyzyl — превосходная степень: gy + p + gyzyl. Gyzylymtyl — уменьшительная, gyzyl — обычная степень."}
+        },
+        {"type": "input",
+          "q": {"tk": "«Uly» sözüne -rak goşulmasyny goş. Haýsy söz emele gelýär?", "ru": "Добавь к слову «uly» аффикс -rak. Какое слово получится?"},
+          "answer": "ulurak",
+          "hint": {"tk": "Sözüň ahyrky «y» sesi goşulma bilen sazlaşýar.", "ru": "Конечный звук «y» меняется при присоединении аффикса."},
+          "explain": {"tk": "Uly + rak → ulurak. Mysal: Meniň otagym seniňkiden ulurak.", "ru": "Uly + rak → ulurak (побольше). Пример: Meniň otagym seniňkiden ulurak — Моя комната больше твоей."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«Iň beýik dag» söz düzüminde sypat artykmaç derejede.", "ru": "В сочетании «iň beýik dag» прилагательное стоит в превосходной степени."},
+          "answer": true,
+          "hint": {"tk": "«Iň» kömekçi sözi näme görkezýär?", "ru": "Что показывает служебное слово «iň»?"},
+          "explain": {"tk": "Dogry. «Iň» sözi alamatyň iň ýokary derejesini görkezýär.", "ru": "Верно. Слово «iň» (самый) указывает на высшую степень признака."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy sözde azaltma derejäniň goşulmasy bar?", "ru": "В каком слове есть аффикс уменьшительной степени?"},
+          "options": ["sarymtyl", "sap-sary", "sary"],
+          "answer": 0,
+          "hint": {"tk": "-mtyl/-mtil goşulmasyny gözle.", "ru": "Ищи аффикс -mtyl/-mtil."},
+          "explain": {"tk": "Sarymtyl = sary + mtyl — azaltma dereje. Sap-sary — artykmaç, sary — adaty dereje.", "ru": "Sarymtyl (желтоватый) = sary + mtyl — уменьшительная степень. Sap-sary — превосходная, sary — обычная."}
+        },
+        {"type": "world", "text": {
+          "tk": "Dürli dillerde sypatlaryň derejeleri dürli ýol bilen ýasalýar. Iňlis dilinde goşulma bilen (big — bigger — biggest), rus dilinde hem goşulma bilen (большой — больше — самый большой), türki dillerde bolsa söz başyny gaýtalamak (ap-ak, gap-gara) aýratyn häsiýetli usul bolup durýar.",
+          "ru": "В разных языках степени прилагательных образуются по-разному. В английском — суффиксами (big — bigger — biggest), в русском — суффиксами и словами (большой — больше — самый большой), а для тюркских языков характерен особый способ — повтор начала слова (ap-ak, gap-gara)."
+        }}
+      ]
+    },
+    {
+      "id": "turkmen-6-numeral-types",
+      "grade": 6,
+      "topic": 1,
+      "title": {"tk": "Sanlaryň görnüşleri", "ru": "Разряды числительных"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "San zatlaryň mukdaryny ýa-da tertibini görkezýär. Many boýunça sanlaryň görnüşleri:\n\n• Mukdar sanlary — näçe? bir, bäş, on iki, ýüz.\n• Tertip sanlary — näçenji? -ynjy/-inji, -unjy/-ünji, wokaldan soň -njy/-nji: birinji, ikinji, üçünji, altynjy, onunjy.\n• Çaklama sanlary — takmyny mukdar: -larça/-lerçe (onlarça, ýüzlerçe), iki sany bilelikde (bäş-alty, on-on bäş).\n• Toparlaýyn sanlar — adamlaryň topary: -öw/-ow (ikiöw, üçöw, dördöw, bäşöw).\n• Üleşdirme sanlary — her kime näçeden? -dan/-den, -ar/-er: ikiden, birden, birer.\n• Drob sanlary — bölek: ýarym, üçden bir, dörtden üç.",
+          "ru": "Числительное (san) обозначает количество или порядок предметов. По значению выделяют разряды:\n\n• Количественные (mukdar sanlary) — сколько? bir (один), bäş (пять), on iki (двенадцать), ýüz (сто).\n• Порядковые (tertip sanlary) — который по счёту? -ynjy/-inji, -unjy/-ünji, после гласной -njy/-nji: birinji (первый), ikinji (второй), üçünji (третий), altynjy (шестой), onunjy (десятый).\n• Приблизительные (çaklama sanlary): -larça/-lerçe (onlarça — десятки, ýüzlerçe — сотни), два числа вместе (bäş-alty — пять-шесть).\n• Собирательные (toparlaýyn sanlar) — группа людей: -öw/-ow (ikiöw — вдвоём, üçöw — втроём, dördöw, bäşöw).\n• Разделительные (üleşdirme sanlary) — по сколько каждому? -dan/-den, -ar/-er: ikiden (по два), birden, birer (по одному).\n• Дробные (drob sanlary): ýarym (половина), üçden bir (одна третья), dörtden üç (три четверти)."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mysal: «Synpymyzda ýigrimi bäş okuwçy bar. Biz üçünji gatda okaýarys. Mugallym her okuwça ikiden depder berdi. Mekdebe ýüzlerçe kitap getirildi. Men we dostum ikiöw kitaphana gitdik.»\n\n1. ýigrimi bäş — mukdar sany.\n2. üçünji — tertip sany (üç + ünji).\n3. ikiden — üleşdirme sany (iki + den).\n4. ýüzlerçe — çaklama sany.\n5. ikiöw — toparlaýyn san.",
+          "ru": "Пример: «Synpymyzda ýigrimi bäş okuwçy bar. Biz üçünji gatda okaýarys. Mugallym her okuwça ikiden depder berdi. Mekdebe ýüzlerçe kitap getirildi. Men we dostum ikiöw kitaphana gitdik.»\n(В нашем классе 25 учеников. Мы учимся на третьем этаже. Учитель дал каждому по две тетради. В школу привезли сотни книг. Мы с другом вдвоём пошли в библиотеку.)\n\n1. ýigrimi bäş — количественное.\n2. üçünji — порядковое (üç + ünji).\n3. ikiden — разделительное (iki + den).\n4. ýüzlerçe — приблизительное.\n5. ikiöw — собирательное."
+        }},
+        {"type": "input",
+          "q": {"tk": "«Bäş» sanyndan tertip sanyny ýasa.", "ru": "Образуй порядковое числительное от «bäş»."},
+          "answer": "bäşinji",
+          "hint": {"tk": "Söz çekimsiz bilen gutarýar we inçe çekimli: -inji.", "ru": "Слово оканчивается на согласный, гласный мягкий: -inji."},
+          "explain": {"tk": "Bäş + inji → bäşinji: bäşinji synp.", "ru": "Bäş + inji → bäşinji (пятый): bäşinji synp — пятый класс."}
+        },
+        {"type": "choice",
+          "q": {"tk": "«Onlarça» sözi sanyň haýsy görnüşine degişli?", "ru": "К какому разряду относится слово «onlarça»?"},
+          "options": [{"tk": "Tertip sany", "ru": "Порядковое"}, {"tk": "Toparlaýyn san", "ru": "Собирательное"}, {"tk": "Çaklama sany", "ru": "Приблизительное"}],
+          "answer": 2,
+          "hint": {"tk": "-larça/-lerçe goşulmasy takyk sany görkezýärmi?", "ru": "Показывает ли аффикс -larça/-lerçe точное число?"},
+          "explain": {"tk": "Onlarça — takmyny mukdar, ýagny çaklama sany.", "ru": "Onlarça (десятки) — примерное количество, значит, приблизительное числительное."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«Üçöw» — toparlaýyn san.", "ru": "«Üçöw» — собирательное числительное."},
+          "answer": true,
+          "hint": {"tk": "-öw/-ow goşulmasyny ýatla.", "ru": "Вспомни аффикс -öw/-ow."},
+          "explain": {"tk": "Dogry. Üç + öw → üçöw, adamlaryň toparyny görkezýär: Biz üçöw geldik.", "ru": "Верно. Üç + öw → üçöw (втроём) обозначает группу людей: Biz üçöw geldik — Мы пришли втроём."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy söz üleşdirme sanydyr?", "ru": "Какое слово — разделительное числительное?"},
+          "options": ["ikiden", "ikinji", "ikiöw"],
+          "answer": 0,
+          "hint": {"tk": "«Her kime näçeden?» soragyna jogap berýänini tap.", "ru": "Найди слово, отвечающее на вопрос «по сколько каждому?»."},
+          "explain": {"tk": "Ikiden — üleşdirme sany. Ikinji — tertip, ikiöw — toparlaýyn san.", "ru": "Ikiden (по два) — разделительное. Ikinji — порядковое, ikiöw — собирательное."}
+        },
+        {"type": "world", "text": {
+          "tk": "Biziň ulanýan 0, 1, 2 … 9 sifrlerimiz Hindistanda döräp, arap alymlarynyň üsti bilen Ýewropa ýaýrapdyr. Şonuň üçin olara köplenç «hindi-arap sifrleri» diýilýär. Bu ýaýramakda al-Horezminiň hasaplamak barada ýazan kitaby uly rol oýnapdyr.",
+          "ru": "Привычные цифры 0, 1, 2 … 9 возникли в Индии и через арабских учёных распространились в Европе. Поэтому их называют «индо-арабскими цифрами». Большую роль в этом сыграла книга аль-Хорезми о счёте."
+        }}
+      ]
+    },
+    {
+      "id": "turkmen-6-pronoun-types",
+      "grade": 6,
+      "topic": 2,
+      "title": {"tk": "Çalyşmalaryň görnüşleri", "ru": "Разряды местоимений"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Çalyşma at, sypat ýa-da sanyň ýerine ulanylýar, ýöne zady göni atlandyrman, oňa salgylanýar. Görnüşleri:\n\n• Ýöňkeme çalyşmalary: men, sen, ol, biz, siz, olar.\n• Görkezme çalyşmalary: bu, şu, ol, şol, hol, şeýle, beýle.\n• Sorag çalyşmalary: kim? näme? haýsy? nähili? näçe? nire?\n• Özlük çalyşmasy: öz (özüm, özüň, özi).\n• Kesgitlik çalyşmalary: hemme, ähli, her, bütin.\n• Kesgitsizlik çalyşmalary: käbir, birnäçe, kimdir biri, nämedir bir zat.\n• Ýokluk çalyşmalary: hiç, hiç kim, hiç zat.",
+          "ru": "Местоимение (çalyşma) употребляется вместо существительного, прилагательного или числительного: оно не называет предмет, а указывает на него. Разряды:\n\n• Личные (ýöňkeme): men (я), sen (ты), ol (он/она), biz (мы), siz (вы), olar (они).\n• Указательные (görkezme): bu (этот), şu (этот вот), ol, şol (тот), hol (вон тот), şeýle, beýle (такой).\n• Вопросительные (sorag): kim? (кто?) näme? (что?) haýsy? (который?) nähili? (какой?) näçe? (сколько?) nire? (где/куда?)\n• Возвратное (özlük): öz (özüm — я сам, özüň — ты сам, özi — он сам).\n• Определительные (kesgitlik): hemme, ähli (все), her (каждый), bütin (весь).\n• Неопределённые (kesgitsizlik): käbir (некоторый), birnäçe (несколько), kimdir biri (кто-то), nämedir bir zat (что-то).\n• Отрицательные (ýokluk): hiç (никакой), hiç kim (никто), hiç zat (ничего)."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mysal: «Şu kitaby kim getirdi? Ony men özüm getirdim. Her okuwçy ony okamaly. Hiç kim gijä galmasyn.»\n\n1. Şu — görkezme.\n2. Kim — sorag.\n3. Ony (ol), men — ýöňkeme.\n4. Özüm — özlük.\n5. Her — kesgitlik.\n6. Hiç kim — ýokluk.",
+          "ru": "Пример: «Şu kitaby kim getirdi? Ony men özüm getirdim. Her okuwçy ony okamaly. Hiç kim gijä galmasyn.»\n(Кто принёс эту книгу? Её принёс я сам. Каждый ученик должен её прочитать. Пусть никто не опаздывает.)\n\n1. Şu — указательное.\n2. Kim — вопросительное.\n3. Ony (ol), men — личные.\n4. Özüm — возвратное.\n5. Her — определительное.\n6. Hiç kim — отрицательное."
+        }},
+        {"type": "choice",
+          "q": {"tk": "«Käbir okuwçylar gijä galdy» sözleminde «käbir» haýsy çalyşma?", "ru": "Каким местоимением является «käbir» в предложении «Käbir okuwçylar gijä galdy»?"},
+          "options": [{"tk": "Kesgitlik", "ru": "Определительное"}, {"tk": "Kesgitsizlik", "ru": "Неопределённое"}, {"tk": "Görkezme", "ru": "Указательное"}],
+          "answer": 1,
+          "hint": {"tk": "Haýsy okuwçylardygy belli edilýärmi?", "ru": "Понятно ли, какие именно ученики?"},
+          "explain": {"tk": "«Käbir» anyk kimdigini görkezmeýär, şonuň üçin kesgitsizlik çalyşmasydyr.", "ru": "«Käbir» (некоторые) не уточняет, кто именно, поэтому это неопределённое местоимение."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«Nähili?» — sorag çalyşmasy.", "ru": "«Nähili?» — вопросительное местоимение."},
+          "answer": true,
+          "hint": {"tk": "Ol sorag berýärmi?", "ru": "Задаёт ли оно вопрос?"},
+          "explain": {"tk": "Dogry. «Nähili?» sypatyň ýerine durýan sorag çalyşmasydyr: Nähili kitap? — Gyzykly kitap.", "ru": "Верно. «Nähili?» (какой?) — вопросительное местоимение вместо прилагательного: Nähili kitap? — Gyzykly kitap (Интересная книга)."}
+        },
+        {"type": "input",
+          "q": {"tk": "Ýöňkeme çalyşmalary näçe? (men, sen …)", "ru": "Сколько личных местоимений? (men, sen …)"},
+          "answer": "6|alty",
+          "hint": {"tk": "Üç ýöňkeme, birlik we köplük san.", "ru": "Три лица, единственное и множественное число."},
+          "explain": {"tk": "Men, sen, ol (birlik) we biz, siz, olar (köplük) — jemi 6.", "ru": "Men, sen, ol (ед. ч.) и biz, siz, olar (мн. ч.) — всего 6."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy söz özlük çalyşmasy?", "ru": "Какое слово является возвратным местоимением?"},
+          "options": ["hemme", "şol", "özümiz"],
+          "answer": 2,
+          "hint": {"tk": "«Öz» sözi bilen başlanýanyny gözle.", "ru": "Ищи слово с основой «öz»."},
+          "explain": {"tk": "Özümiz = öz + ümiz — özlük çalyşmasy. Hemme — kesgitlik, şol — görkezme.", "ru": "Özümiz (мы сами) = öz + ümiz — возвратное. Hemme — определительное, şol — указательное."}
+        },
+        {"type": "world", "text": {
+          "tk": "Türkmen dilinde «ol» çalyşmasy oglan üçin hem, gyz üçin hem, zat üçin hem ulanylýar — jyns tapawudy ýok. Rus dilinde bolsa «он», «она», «оно» bar. Türk, gazak, özbek, fin we wenger dillerinde hem üçünji ýöňkemede jyns tapawudy ýok.",
+          "ru": "В туркменском языке местоимение «ol» используется и для мальчика, и для девочки, и для предмета — рода нет. В русском же есть «он», «она», «оно». В турецком, казахском, узбекском, финском и венгерском языках тоже нет рода у местоимения третьего лица."
+        }}
+      ]
+    },
+    {
+      "id": "turkmen-6-imperative-conditional",
+      "grade": 6,
+      "topic": 3,
+      "title": {"tk": "Buýruk we şert formalary", "ru": "Повелительная и условная формы"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Buýruk formasy — buýrugy, haýyşy, maslahaty ýa-da isleg aňladýar.\n• I ýöňkeme: ýazaýyn, ýazalyň (-aýyn/-eýin, -alyň/-eliň)\n• II ýöňkeme: ýaz (birlik), ýazyň (köplük ýa-da sylag bilen)\n• III ýöňkeme: ýazsyn, ýazsynlar (-syn/-sin)\nYumşak haýyş üçin -sana/-säne goşulmasy ulanylýar: ýazsana, görkezsene, gelsene.\n\nŞert formasy — bir hereketiň başga hereket üçin şertdigini görkezýär. Goşulmasy -sa/-se + ýöňkeme goşulmasy:\n• ýazsam, ýazsaň, ýazsa\n• ýazsak, ýazsaňyz, ýazsalar\nMysal: Tagalla etseň, başararsyň.",
+          "ru": "Повелительная форма (buýruk formasy) выражает приказ, просьбу, совет или пожелание.\n• 1-е лицо: ýazaýyn (давай я напишу), ýazalyň (давайте напишем) — -aýyn/-eýin, -alyň/-eliň\n• 2-е лицо: ýaz (пиши), ýazyň (пишите — мн. ч. или вежливо)\n• 3-е лицо: ýazsyn, ýazsynlar (пусть пишет/пишут) — -syn/-sin\nДля мягкой просьбы используется -sana/-säne: ýazsana (напиши-ка), görkezsene (покажи-ка), gelsene (приходи-ка).\n\nУсловная форма (şert formasy) показывает, что одно действие — условие другого. Аффикс -sa/-se + личное окончание:\n• ýazsam (если я напишу), ýazsaň, ýazsa\n• ýazsak, ýazsaňyz, ýazsalar\nПример: Tagalla etseň, başararsyň — Если постараешься, сможешь."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mysal: «okamak» işligi.\n1. Düýbi: oka.\n2. Buýruk, II ýöňkeme: Kitaby oka! Sylag bilen: Kitaby okaň! Ýumşak: Kitaby okasana.\n3. Buýruk, I ýöňkeme köplük: Geliň, bilelikde okalyň.\n4. Şert: Her gün okasaň (oka + sa + ň), köp zat öwrenersiň.\n5. Şert köplük: Okasak, synagdan geçeris.",
+          "ru": "Пример: глагол «okamak» (читать).\n1. Основа: oka.\n2. Повелительная, 2-е лицо: Kitaby oka! (Читай книгу!) Вежливо: Kitaby okaň! Мягко: Kitaby okasana.\n3. Повелительная, 1-е лицо мн. ч.: Geliň, bilelikde okalyň — Давайте читать вместе.\n4. Условная: Her gün okasaň (oka + sa + ň), köp zat öwrenersiň — Если будешь читать каждый день, многое узнаешь.\n5. Условная мн. ч.: Okasak, synagdan geçeris — Если будем читать, сдадим экзамен."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Haýsy söz şert formasynda?", "ru": "Какое слово стоит в условной форме?"},
+          "options": ["gelsin", "gelseň", "gelsene"],
+          "answer": 1,
+          "hint": {"tk": "Şert formasy -sa/-se + ýöňkeme goşulmasy.", "ru": "Условная форма: -sa/-se + личное окончание."},
+          "explain": {"tk": "Gelseň = gel + se + ň — şert formasy (eger sen gelseň). Gelsin — III ýöňkeme buýruk, gelsene — ýumşak haýyş.", "ru": "Gelseň = gel + se + ň — условная форма (если ты придёшь). Gelsin — повелительная 3-го лица, gelsene — мягкая просьба."}
+        },
+        {"type": "input",
+          "q": {"tk": "«Görmek» işliginden III ýöňkeme birlikde buýruk formasyny ýaz (-syn/-sin).", "ru": "Образуй от «görmek» повелительную форму 3-го лица ед. ч. (-syn/-sin)."},
+          "answer": "görsün",
+          "hint": {"tk": "Düýbi: gör. Dodak çekimlisinden soň goşulma -sün bolýar.", "ru": "Основа: gör. После огублённого гласного аффикс становится -sün."},
+          "explain": {"tk": "Gör + sün → görsün: Ol hem görsün.", "ru": "Gör + sün → görsün (пусть увидит): Ol hem görsün — Пусть и он увидит."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«Ýazsana» sözi ýumşak haýyşy aňladýar.", "ru": "Слово «ýazsana» выражает мягкую просьбу."},
+          "answer": true,
+          "hint": {"tk": "-sana/-säne goşulmasyny ýatla.", "ru": "Вспомни аффикс -sana/-säne."},
+          "explain": {"tk": "Dogry. «Ýaz» gönüden-göni buýruk, «ýazsana» bolsa mylaýym haýyş.", "ru": "Верно. «Ýaz» — прямой приказ, а «ýazsana» — вежливая, мягкая просьба."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Sözlemi doldur: «Wagtynda … , gijä galmarsyň.»", "ru": "Дополни предложение: «Wagtynda … , gijä galmarsyň.» (Если … вовремя, не опоздаешь.)"},
+          "options": ["çyksaň", "çyk", "çyksyn"],
+          "answer": 0,
+          "hint": {"tk": "Bu ýerde şert gerek: «eger sen…».", "ru": "Здесь нужно условие: «если ты…»."},
+          "explain": {"tk": "«Çyksaň» — II ýöňkeme şert formasy: Wagtynda çyksaň, gijä galmarsyň.", "ru": "«Çyksaň» — условная форма 2-го лица: Если выйдешь вовремя, не опоздаешь."}
+        },
+        {"type": "world", "text": {
+          "tk": "Türki dillerde, şol sanda türkmen dilinde, sözler düýbe goşulmalary yzly-yzyna goşmak arkaly ýasalýar — bu dillere aglýutinatiw diller diýilýär. Mysal: oka-ma-sa-ňyz (okamasaňyz). Fin, wenger, ýapon we koreý dilleri hem şeýle häsiýete eýe.",
+          "ru": "В тюркских языках, в том числе в туркменском, слова строятся последовательным присоединением аффиксов к основе — такие языки называют агглютинативными. Пример: oka-ma-sa-ňyz (если вы не прочитаете). Этим свойством обладают также финский, венгерский, японский и корейский языки."
+        }}
+      ]
+    },
+    {
+      "id": "turkmen-6-idioms",
+      "grade": 6,
+      "topic": 4,
+      "title": {"tk": "Durnukly söz düzümleri", "ru": "Фразеологизмы"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Durnukly söz düzümi (frazeologizm) — iki ýa-da birnäçe sözden ybarat, ýöne bir many aňladýan taýýar aňlatma. Onuň manysy aýry sözleriň manysyndan gelip çykmaýar.\n\nAýratynlyklary:\n• Sözleriň ýerini üýtgedip ýa-da başga söz bilen çalşyp bolmaýar.\n• Köplenç bir söz bilen düşündirilýär.\n\nMysallar:\n• eli açyk — sahy\n• dili süýji — mylaýym gürleýän\n• göz-gulak bolmak — seretmek, gözegçilik etmek\n• gulak asmak — diňlemek, sözüne eýermek\n• burnuny sokmak — başgalaryň işine goşulmak",
+          "ru": "Фразеологизм (durnukly söz düzümi) — устойчивое выражение из двух и более слов, которое имеет одно общее значение. Его смысл не складывается из значений отдельных слов.\n\nОсобенности:\n• Нельзя переставить слова или заменить их другими.\n• Часто его можно объяснить одним словом.\n\nПримеры:\n• eli açyk (букв. «рука открыта») — щедрый\n• dili süýji (букв. «язык сладкий») — говорящий ласково\n• göz-gulak bolmak (букв. «быть глазом-ухом») — присматривать\n• gulak asmak (букв. «повесить ухо») — слушаться\n• burnuny sokmak (букв. «сунуть нос») — вмешиваться в чужие дела"
+        }},
+        {"type": "example", "text": {
+          "tk": "Mysal: «Ejem bazara gitdi, maňa jigime göz-gulak bolmagy tabşyrdy.»\n1. «Göz» we «gulak» aýratynlykda bedeniň agzalarydyr.\n2. Bilelikde olar täze many berýär: seretmek, gözegçilik etmek.\n3. Bir söz bilen çalyşalyň: «…jigime seretmegi tabşyrdy» — many saklanýar.\n4. Diýmek, «göz-gulak bolmak» — durnukly söz düzümi.",
+          "ru": "Пример: «Ejem bazara gitdi, maňa jigime göz-gulak bolmagy tabşyrdy.» (Мама ушла на базар и поручила мне присматривать за младшим.)\n1. «Göz» (глаз) и «gulak» (ухо) по отдельности — части тела.\n2. Вместе они дают новое значение: присматривать, следить.\n3. Заменим одним словом: «…jigime seretmegi tabşyrdy» — смысл сохраняется.\n4. Значит, «göz-gulak bolmak» — фразеологизм."
+        }},
+        {"type": "choice",
+          "q": {"tk": "«Eli açyk adam» näme diýmek?", "ru": "Что значит «eli açyk adam»?"},
+          "options": [{"tk": "Sahy adam", "ru": "Щедрый человек"}, {"tk": "Elinde zat ýok adam", "ru": "Человек с пустыми руками"}, {"tk": "Eli ýaralanan adam", "ru": "Человек с раненой рукой"}],
+          "answer": 0,
+          "hint": {"tk": "Bu ýerde söz göni manyda däl.", "ru": "Слова здесь не в прямом значении."},
+          "explain": {"tk": "«Eli açyk» — başgalara ýeňillik bilen berýän, sahy adam.", "ru": "«Eli açyk» — человек, который легко делится, то есть щедрый."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Durnukly söz düzümindäki sözleri islän sinonimiňe çalşyp bolýar.", "ru": "Слова во фразеологизме можно свободно заменять синонимами."},
+          "answer": false,
+          "hint": {"tk": "Olara näme üçin «durnukly» diýilýär?", "ru": "Почему их называют «устойчивыми»?"},
+          "explain": {"tk": "Ýalňyş. Durnukly söz düzüminiň düzümi üýtgemeýär: «burnuny sokmak» ýerine «agzyny sokmak» diýilmeýär.", "ru": "Неверно. Состав фразеологизма неизменен: вместо «burnuny sokmak» нельзя сказать «agzyny sokmak»."}
+        },
+        {"type": "choice",
+          "q": {"tk": "«Başgalaryň işine goşulmak» manysyny haýsy aňlatma berýär?", "ru": "Какое выражение значит «вмешиваться в чужие дела»?"},
+          "options": ["gulak asmak", "dili süýji", "burnuny sokmak"],
+          "answer": 2,
+          "hint": {"tk": "Rus dilinde hem şuňa meňzeş aňlatma bar: «совать нос».", "ru": "В русском есть похожее: «совать нос»."},
+          "explain": {"tk": "«Burnuny sokmak» — özüne degişli bolmadyk işe goşulmak.", "ru": "«Burnuny sokmak» — совать нос в то, что тебя не касается."}
+        },
+        {"type": "choice",
+          "q": {"tk": "«Gulak asmak» haýsy söz bilen manydaş?", "ru": "С каким словом совпадает по смыслу «gulak asmak»?"},
+          "options": ["uklamak", "diňlemek", "ylgamak"],
+          "answer": 1,
+          "hint": {"tk": "Gulak näme üçin gerek?", "ru": "Для чего нужно ухо?"},
+          "explain": {"tk": "«Gulak asmak» — diňlemek, maslahata eýermek: Ol atasynyň sözüne gulak asdy.", "ru": "«Gulak asmak» — слушать, следовать совету: Ol atasynyň sözüne gulak asdy — Он прислушался к словам деда."}
+        },
+        {"type": "world", "text": {
+          "tk": "Käbir durnukly aňlatmalar dürli dillerde birmeňzeş: türkmençe «burnuny sokmak», rusça «совать нос», iňlisçe «to poke one's nose». Bu adamlaryň durmuşy we pikirlenişi meňzeş bolany üçin şeýle bolýar.",
+          "ru": "Некоторые фразеологизмы совпадают в разных языках: туркменское «burnuny sokmak», русское «совать нос», английское «to poke one's nose». Так бывает, потому что у людей похожий опыт и образ мыслей."
+        }}
+      ]
+    },
+    {
+      "id": "turkmen-6-application-letter",
+      "grade": 6,
+      "topic": 5,
+      "title": {"tk": "Arza ýazmak", "ru": "Пишем заявление"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Arza — bir adamyň edara ýa-da wezipeli adama ýazmaça haýyşy. Arza resmi ýazgy, şonuň üçin onuň berk gurluşy bar:\n\n1. Kime — sahypanyň sag ýokarsynda: edaranyň ady we ýolbaşçynyň familiýasy, ady (ýöneliş düşümde: «…müdirine»).\n2. Kimden — onuň aşagynda: kimdigiň we familiýaň, adyň (çykyş düşümde: «…-dan/-den»).\n3. Ady — sahypanyň ortasynda: ARZA.\n4. Mazmuny — gysga we takyk haýyş: «Sizden … haýyş edýärin.» Sebäbi görkezilýär.\n5. Sene we gol — aşakda: çepde sene, sagda gol.",
+          "ru": "Заявление (arza) — письменная просьба человека в организацию или должностному лицу. Это официальный документ, поэтому у него строгая структура:\n\n1. Кому — в правом верхнем углу: организация и фамилия, имя руководителя (в дательном падеже: «…müdirine» — директору…).\n2. От кого — ниже: кто ты, фамилия и имя (в исходном падеже: «…-dan/-den»; в русском — «от …»).\n3. Название — по центру: ARZA (заявление).\n4. Содержание — краткая и точная просьба: «Sizden … haýyş edýärin» (Прошу Вас …), с указанием причины.\n5. Дата и подпись — внизу: дата слева, подпись справа."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mysal:\n\n                    12-nji orta mekdebiň müdiri\n                    A. Annaýewa\n                    6 «B» synpyň okuwçysy\n                    Meredow Batyrdan\n\n                         ARZA\n\nSizden 3-nji noýabrda ýaşlar arasyndaky küşt ýaryşyna gatnaşmagym sebäpli, şol gün sapaklardan boşadylmagymy haýyş edýärin.\n\n01.11.2026                                   (gol)",
+          "ru": "Пример (на туркменском, с переводом):\n\n                    12-nji orta mekdebiň müdiri\n                    A. Annaýewa\n                    (Директору средней школы № 12 А. Аннаевой)\n                    6 «B» synpyň okuwçysy\n                    Meredow Batyrdan\n                    (от ученика 6 «Б» класса Мередова Батыра)\n\n                         ARZA (ЗАЯВЛЕНИЕ)\n\nSizden 3-nji noýabrda ýaşlar arasyndaky küşt ýaryşyna gatnaşmagym sebäpli, şol gün sapaklardan boşadylmagymy haýyş edýärin.\n(Прошу освободить меня от уроков 3 ноября в связи с участием в юношеском шахматном турнире.)\n\n01.11.2026                                   (подпись)"
+        }},
+        {"type": "choice",
+          "q": {"tk": "Arzada «kime» bölegi nirede ýazylýar?", "ru": "Где в заявлении пишется часть «кому»?"},
+          "options": [{"tk": "Sahypanyň aşagynda", "ru": "Внизу страницы"}, {"tk": "Ortada, ARZA sözünden soň", "ru": "В центре после слова ARZA"}, {"tk": "Sag ýokarky burçda", "ru": "В правом верхнем углу"}],
+          "answer": 2,
+          "hint": {"tk": "Mysala seret: ilki kime ýazylýany görünýär.", "ru": "Посмотри на пример: сначала видно, кому адресовано."},
+          "explain": {"tk": "«Kime» we «kimden» sag ýokarky burçda ýazylýar.", "ru": "«Кому» и «от кого» пишутся в правом верхнем углу."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Arzada «Kimden» bölegi çykyş düşümde ýazylýar: «Meredow Batyrdan».", "ru": "В заявлении часть «от кого» пишется в исходном падеже: «Meredow Batyrdan»."},
+          "answer": true,
+          "hint": {"tk": "-dan/-den haýsy düşümiň goşulmasy?", "ru": "Окончание какого падежа -dan/-den?"},
+          "explain": {"tk": "Dogry. -dan/-den — çykyş düşümiň goşulmasy, ol haýyşyň kimden gelýändigini görkezýär.", "ru": "Верно. -dan/-den — окончание исходного падежа, оно показывает, от кого исходит просьба."}
+        },
+        {"type": "input",
+          "q": {"tk": "Bu sapakda arzanyň näçe esasy bölegi görkezildi?", "ru": "Сколько основных частей заявления названо в этом уроке?"},
+          "answer": "5|bäş",
+          "hint": {"tk": "Kime, kimden, ady … dowam et.", "ru": "Кому, от кого, название … продолжи."},
+          "explain": {"tk": "Kime, kimden, ady, mazmuny, sene we gol — 5 bölek.", "ru": "Кому, от кого, название, содержание, дата и подпись — 5 частей."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Arzanyň mazmunyna haýsy sözlem has laýyk?", "ru": "Какое предложение лучше подходит для текста заявления?"},
+          "options": [{"tk": "Meni ertir mekdepden goýberiň-dä!", "ru": "Ну отпустите меня завтра из школы!"}, {"tk": "Sizden 5-nji noýabrda maşgala ýagdaýy sebäpli sapaklardan boşadylmagymy haýyş edýärin.", "ru": "Прошу освободить меня от уроков 5 ноября по семейным обстоятельствам."}, {"tk": "Salam! Men ertir gelmerin.", "ru": "Привет! Я завтра не приду."}],
+          "answer": 1,
+          "hint": {"tk": "Arza resmi ýazgy: takyk sene, sebäp we sypaýy haýyş.", "ru": "Заявление — официальный документ: точная дата, причина и вежливая просьба."},
+          "explain": {"tk": "Ikinji sözlemde sene, sebäp we resmi haýyş bar. Beýlekileri gündelik gepleşik usulynda.", "ru": "Во втором предложении есть дата, причина и официальная просьба. Остальные — в разговорном стиле."}
+        },
+        {"type": "world", "text": {
+          "tk": "Gadymy Mesopotamiýada adamlar arzalaryny we hatlaryny palçyk tagtajyklaryna mih şekilli ýazuw bilen ýazypdyrlar. Arheologlar şeýle haýyş hatlarynyň, şikaýatlaryň we iş ýazgylarynyň müňlerçesini tapdylar — olaryň käbiri dört müň ýyldan hem köne.",
+          "ru": "В Древней Месопотамии люди писали прошения и письма клинописью на глиняных табличках. Археологи нашли тысячи таких просьб, жалоб и деловых записей — некоторым из них больше четырёх тысяч лет."
+        }}
+      ]
+    }
+  ]
+}

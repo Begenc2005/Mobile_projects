@@ -1,0 +1,251 @@
+{
+  "grade": 11,
+  "subject": "physics",
+  "lessons": [
+    {
+      "id": "physics-11-electrostatics",
+      "grade": 11,
+      "topic": 0,
+      "title": {"tk": "Elektrostatika: Kulonyň kanuny we elektrik meýdany", "ru": "Электростатика: закон Кулона и электрическое поле"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Elektrostatika — ýerinde duran zarýadlaryň özara täsirini öwrenýär.\n• Zarýadlaryň iki görnüşi bar: položitel we otrisatel. Meňzeş zarýadlar biri-birini itýär, dürli zarýadlar özüne çekýär.\n• Zarýad birligi — kulon (Kl). Elementar zarýad e ≈ 1,6·10⁻¹⁹ Kl.\n• Zarýadyň saklanma kanuny: ýapyk ulgamda zarýadlaryň algebraik jemi üýtgemeýär.\n\nKulonyň kanuny:\nF = k·|q₁|·|q₂| / r², k ≈ 9·10⁹ N·m²/Kl²\n\nElektrik meýdanynyň güýjenmesi: E = F / q (N/Kl ýa-da W/m).\nNokatlaýyn zarýadyň meýdany: E = k·|q| / r².\nPotensiallar tapawudy (naprýaženiýe): U = A / q, birligi — wolt (W).",
+          "ru": "Электростатика изучает взаимодействие неподвижных зарядов.\n• Заряды бывают двух видов: положительные и отрицательные. Одноимённые отталкиваются, разноимённые притягиваются.\n• Единица заряда — кулон (Кл). Элементарный заряд e ≈ 1,6·10⁻¹⁹ Кл.\n• Закон сохранения заряда: в замкнутой системе алгебраическая сумма зарядов постоянна.\n\nЗакон Кулона:\nF = k·|q₁|·|q₂| / r², k ≈ 9·10⁹ Н·м²/Кл²\n\nНапряжённость электрического поля: E = F / q (Н/Кл или В/м).\nПоле точечного заряда: E = k·|q| / r².\nРазность потенциалов (напряжение): U = A / q, единица — вольт (В)."}},
+        {"type": "example", "text": {
+          "tk": "Mesele: q₁ = 2·10⁻⁶ Kl we q₂ = 3·10⁻⁶ Kl zarýadlar 0,3 m uzaklykda. Täsir güýjüni tapyň.\n1) F = k·q₁·q₂ / r²\n2) F = 9·10⁹ · 2·10⁻⁶ · 3·10⁻⁶ / 0,09\n3) Sanawjy: 9·10⁹ · 6·10⁻¹² = 54·10⁻³ = 0,054\n4) F = 0,054 / 0,09 = 0,6 N\nZarýadlar meňzeş (ikisi hem položitel), şonuň üçin olar biri-birini itýär.",
+          "ru": "Задача: заряды q₁ = 2·10⁻⁶ Кл и q₂ = 3·10⁻⁶ Кл находятся на расстоянии 0,3 м. Найдите силу взаимодействия.\n1) F = k·q₁·q₂ / r²\n2) F = 9·10⁹ · 2·10⁻⁶ · 3·10⁻⁶ / 0,09\n3) Числитель: 9·10⁹ · 6·10⁻¹² = 54·10⁻³ = 0,054\n4) F = 0,054 / 0,09 = 0,6 Н\nЗаряды одноимённые (оба положительные), поэтому они отталкиваются."}},
+        {"type": "choice",
+          "q": {"tk": "Iki zarýadyň arasyndaky uzaklygy 3 esse ulaltsak, Kulon güýji nähili üýtgär?", "ru": "Как изменится сила Кулона, если расстояние между зарядами увеличить в 3 раза?"},
+          "options": [
+            {"tk": "3 esse azalar", "ru": "Уменьшится в 3 раза"},
+            {"tk": "9 esse ulalar", "ru": "Увеличится в 9 раз"},
+            {"tk": "9 esse azalar", "ru": "Уменьшится в 9 раз"}
+          ],
+          "answer": 2,
+          "hint": {"tk": "Güýç r²-a ters proporsional.", "ru": "Сила обратно пропорциональна r²."},
+          "explain": {"tk": "F ~ 1/r², r 3 esse ulalsa, F 3² = 9 esse azalýar.", "ru": "F ~ 1/r², при увеличении r в 3 раза сила уменьшается в 3² = 9 раз."}},
+        {"type": "input",
+          "q": {"tk": "2·10⁻⁶ Kl zarýada meýdan 0,01 N güýç bilen täsir edýär. Meýdanyň güýjenmesi näçe N/Kl?", "ru": "На заряд 2·10⁻⁶ Кл поле действует с силой 0,01 Н. Чему равна напряжённость поля в Н/Кл?"},
+          "answer": "5000|5·10³|5e3",
+          "hint": {"tk": "E = F / q.", "ru": "E = F / q."},
+          "explain": {"tk": "E = 0,01 / (2·10⁻⁶) = 5000 N/Kl.", "ru": "E = 0,01 / (2·10⁻⁶) = 5000 Н/Кл."}},
+        {"type": "truefalse",
+          "q": {"tk": "Bir elektronyň zarýady 1 kulona deň.", "ru": "Заряд одного электрона равен 1 кулону."},
+          "answer": false,
+          "hint": {"tk": "Elementar zarýadyň bahasyny ýatlaň.", "ru": "Вспомните значение элементарного заряда."},
+          "explain": {"tk": "Elektronyň zarýady −1,6·10⁻¹⁹ Kl; 1 Kl zarýad üçin takmynan 6,25·10¹⁸ elektron gerek.", "ru": "Заряд электрона −1,6·10⁻¹⁹ Кл; для заряда 1 Кл нужно около 6,25·10¹⁸ электронов."}},
+        {"type": "input",
+          "q": {"tk": "2 Kl zarýad meýdanda süýşende meýdan 24 J iş edýär. Naprýaženiýe näçe wolt?", "ru": "При перемещении заряда 2 Кл поле совершает работу 24 Дж. Чему равно напряжение в вольтах?"},
+          "answer": "12",
+          "hint": {"tk": "U = A / q.", "ru": "U = A / q."},
+          "explain": {"tk": "U = 24 / 2 = 12 W.", "ru": "U = 24 / 2 = 12 В."}},
+        {"type": "world", "text": {
+          "tk": "1785-nji ýylda fransuz fizigi Şarl Kulon burulma terezisi bilen zarýadlaryň özara täsir güýjüni ölçäp, öz kanunyny açdy. 1909-njy ýyldan başlap Robert Milliken ýag damjalary bilen geçiren tejribelerinde elektronyň zarýadyny ölçedi we 1923-nji ýylda Nobel baýragyny aldy.",
+          "ru": "В 1785 году французский физик Шарль Кулон с помощью крутильных весов измерил силу взаимодействия зарядов и установил свой закон. Начиная с 1909 года Роберт Милликен в опытах с масляными каплями измерил заряд электрона и в 1923 году получил Нобелевскую премию."}}
+      ]
+    },
+    {
+      "id": "physics-11-capacitor",
+      "grade": 11,
+      "topic": 1,
+      "title": {"tk": "Kondensator we elektrik sygymy", "ru": "Конденсатор и электроёмкость"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Kondensator — dielektrik bilen bölünen iki geçirijiden (örtükden) ybarat, zarýady we energiýany toplaýan enjam.\n\n• Sygym: C = q / U, birligi — farad (F). Köplenç μF, nF, pF ulanylýar.\n• Tekiz kondensator: C = ε·ε₀·S / d, bu ýerde S — örtügiň meýdany, d — aralyk, ε — dielektrik syzyjylygy, ε₀ ≈ 8,85·10⁻¹² F/m.\n• Energiýa: W = C·U² / 2 = q·U / 2 = q² / (2C).\n\nBirikdirmek:\n• Parallel: C = C₁ + C₂ + …\n• Yzygider: 1/C = 1/C₁ + 1/C₂ + …",
+          "ru": "Конденсатор — устройство из двух проводников (обкладок), разделённых диэлектриком, которое накапливает заряд и энергию.\n\n• Ёмкость: C = q / U, единица — фарад (Ф). Чаще используют мкФ, нФ, пФ.\n• Плоский конденсатор: C = ε·ε₀·S / d, где S — площадь обкладки, d — расстояние между ними, ε — диэлектрическая проницаемость, ε₀ ≈ 8,85·10⁻¹² Ф/м.\n• Энергия: W = C·U² / 2 = q·U / 2 = q² / (2C).\n\nСоединения:\n• Параллельное: C = C₁ + C₂ + …\n• Последовательное: 1/C = 1/C₁ + 1/C₂ + …"}},
+        {"type": "example", "text": {
+          "tk": "Mesele: Sygymy 100 μF bolan kondensator 20 W naprýaženiýä çenli zarýadlandyryldy. Zarýady we energiýany tapyň.\n1) C = 100·10⁻⁶ F = 10⁻⁴ F\n2) q = C·U = 10⁻⁴ · 20 = 2·10⁻³ Kl\n3) W = C·U² / 2 = 10⁻⁴ · 400 / 2 = 0,02 J\nJogap: q = 2 mKl, W = 20 mJ.",
+          "ru": "Задача: конденсатор ёмкостью 100 мкФ заряжен до напряжения 20 В. Найдите заряд и энергию.\n1) C = 100·10⁻⁶ Ф = 10⁻⁴ Ф\n2) q = C·U = 10⁻⁴ · 20 = 2·10⁻³ Кл\n3) W = C·U² / 2 = 10⁻⁴ · 400 / 2 = 0,02 Дж\nОтвет: q = 2 мКл, W = 20 мДж."}},
+        {"type": "input",
+          "q": {"tk": "Sygymlary 2 μF we 3 μF bolan kondensatorlar parallel birikdirildi. Umumy sygym näçe μF?", "ru": "Конденсаторы ёмкостью 2 мкФ и 3 мкФ соединены параллельно. Чему равна общая ёмкость в мкФ?"},
+          "answer": "5",
+          "hint": {"tk": "Parallel birikdirmede sygymlar goşulýar.", "ru": "При параллельном соединении ёмкости складываются."},
+          "explain": {"tk": "C = 2 + 3 = 5 μF.", "ru": "C = 2 + 3 = 5 мкФ."}},
+        {"type": "choice",
+          "q": {"tk": "Sygymlary 6 μF we 3 μF bolan kondensatorlar yzygider birikdirildi. Umumy sygym:", "ru": "Конденсаторы 6 мкФ и 3 мкФ соединены последовательно. Общая ёмкость:"},
+          "options": ["9 μF", "2 μF", "4,5 μF"],
+          "answer": 1,
+          "hint": {"tk": "1/C = 1/C₁ + 1/C₂.", "ru": "1/C = 1/C₁ + 1/C₂."},
+          "explain": {"tk": "1/C = 1/6 + 1/3 = 1/6 + 2/6 = 3/6 = 1/2, diýmek C = 2 μF.", "ru": "1/C = 1/6 + 1/3 = 1/6 + 2/6 = 3/6 = 1/2, значит C = 2 мкФ."}},
+        {"type": "truefalse",
+          "q": {"tk": "Tekiz kondensatoryň örtükleriniň arasyndaky aralygy ulaltsak, onuň sygymy ulalýar.", "ru": "Если увеличить расстояние между обкладками плоского конденсатора, его ёмкость увеличится."},
+          "answer": false,
+          "hint": {"tk": "C = ε·ε₀·S / d formulada d nirede dur?", "ru": "Где стоит d в формуле C = ε·ε₀·S / d?"},
+          "explain": {"tk": "d maýdalawjyda, şonuň üçin d ulalanda sygym azalýar.", "ru": "d стоит в знаменателе, поэтому при увеличении d ёмкость уменьшается."}},
+        {"type": "input",
+          "q": {"tk": "Sygymy 2 F bolan kondensator 3 W-a çenli zarýadlandyryldy. Energiýasy näçe J?", "ru": "Конденсатор ёмкостью 2 Ф заряжен до 3 В. Чему равна его энергия в Дж?"},
+          "answer": "9",
+          "hint": {"tk": "W = C·U² / 2.", "ru": "W = C·U² / 2."},
+          "explain": {"tk": "W = 2 · 9 / 2 = 9 J.", "ru": "W = 2 · 9 / 2 = 9 Дж."}},
+        {"type": "world", "text": {
+          "tk": "Ilkinji kondensator — «Leýden bankasy» — 1745–1746-njy ýyllarda Ewald fon Kleýst we Leýdende Piter wan Mussenbruk tarapyndan biri-birinden garaşsyz oýlanyp tapyldy. Häzirki defibrillýatorlar kondensatorda toplanan energiýany bir pursatda göýberip, ýüregiň ritmini dikeldýär.",
+          "ru": "Первый конденсатор — «лейденская банка» — был независимо изобретён в 1745–1746 годах Эвальдом фон Клейстом и Питером ван Мушенбруком в Лейдене. Современные дефибрилляторы мгновенно отдают энергию, накопленную в конденсаторе, чтобы восстановить ритм сердца."}}
+      ]
+    },
+    {
+      "id": "physics-11-direct-current",
+      "grade": 11,
+      "topic": 2,
+      "title": {"tk": "Hemişelik tok we Omuň kanuny", "ru": "Постоянный ток и закон Ома"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Elektrik togy — zarýadly bölejikleriň ugrukdyrylan hereketi.\n• Tok güýji: I = q / t, birligi — amper (A).\n• Garşylyk: R = ρ·l / S, birligi — om (Om); ρ — udel garşylyk.\n• Zynjyryň bölegi üçin Omuň kanuny: I = U / R.\n• Doly zynjyr üçin Omuň kanuny: I = ℰ / (R + r), ℰ — EHG, r — çeşmäniň içki garşylygy.\n\nBirikdirmek:\n• Yzygider: R = R₁ + R₂; tok birmeňzeş, naprýaženiýeler goşulýar.\n• Parallel: 1/R = 1/R₁ + 1/R₂; naprýaženiýe birmeňzeş, toklar goşulýar.\n\nIş we kuwwat: A = U·I·t, P = U·I = I²R = U²/R.\nDžoul–Lensiň kanuny: Q = I²·R·t.",
+          "ru": "Электрический ток — упорядоченное движение заряженных частиц.\n• Сила тока: I = q / t, единица — ампер (А).\n• Сопротивление: R = ρ·l / S, единица — ом (Ом); ρ — удельное сопротивление.\n• Закон Ома для участка цепи: I = U / R.\n• Закон Ома для полной цепи: I = ℰ / (R + r), ℰ — ЭДС, r — внутреннее сопротивление источника.\n\nСоединения:\n• Последовательное: R = R₁ + R₂; ток одинаков, напряжения складываются.\n• Параллельное: 1/R = 1/R₁ + 1/R₂; напряжение одинаково, токи складываются.\n\nРабота и мощность: A = U·I·t, P = U·I = I²R = U²/R.\nЗакон Джоуля–Ленца: Q = I²·R·t."}},
+        {"type": "example", "text": {
+          "tk": "Mesele: EHG ℰ = 12 W, içki garşylyk r = 1 Om bolan batareýa R = 5 Om garşylyga birikdirildi. Tok güýjüni, daşky naprýaženiýäni we kuwwaty tapyň.\n1) I = ℰ / (R + r) = 12 / 6 = 2 A\n2) U = I·R = 2 · 5 = 10 W (2 W içki garşylykda «ýitýär»)\n3) P = U·I = 10 · 2 = 20 Wt\nJogap: 2 A, 10 W, 20 Wt.",
+          "ru": "Задача: батарея с ЭДС ℰ = 12 В и внутренним сопротивлением r = 1 Ом подключена к резистору R = 5 Ом. Найдите ток, внешнее напряжение и мощность.\n1) I = ℰ / (R + r) = 12 / 6 = 2 А\n2) U = I·R = 2 · 5 = 10 В (2 В «теряется» на внутреннем сопротивлении)\n3) P = U·I = 10 · 2 = 20 Вт\nОтвет: 2 А, 10 В, 20 Вт."}},
+        {"type": "input",
+          "q": {"tk": "Garşylygy 4 Om bolan geçirijiniň uçlaryndaky naprýaženiýe 12 W. Tok güýji näçe amper?", "ru": "Напряжение на проводнике сопротивлением 4 Ом равно 12 В. Чему равна сила тока в амперах?"},
+          "answer": "3",
+          "hint": {"tk": "I = U / R.", "ru": "I = U / R."},
+          "explain": {"tk": "I = 12 / 4 = 3 A.", "ru": "I = 12 / 4 = 3 А."}},
+        {"type": "choice",
+          "q": {"tk": "Garşylyklary 6 Om we 3 Om bolan rezistorlar parallel birikdirildi. Umumy garşylyk:", "ru": "Резисторы 6 Ом и 3 Ом соединены параллельно. Общее сопротивление:"},
+          "options": [
+            {"tk": "2 Om", "ru": "2 Ом"},
+            {"tk": "9 Om", "ru": "9 Ом"},
+            {"tk": "4,5 Om", "ru": "4,5 Ом"}
+          ],
+          "answer": 0,
+          "hint": {"tk": "Parallel birikdirmede umumy garşylyk iň kiçisinden hem kiçi bolýar.", "ru": "При параллельном соединении общее сопротивление меньше наименьшего."},
+          "explain": {"tk": "R = 6·3 / (6 + 3) = 18 / 9 = 2 Om.", "ru": "R = 6·3 / (6 + 3) = 18 / 9 = 2 Ом."}},
+        {"type": "truefalse",
+          "q": {"tk": "Şol bir materialdan bolan geçirijiniň uzynlygyny 2 esse ulaltsak, onuň garşylygy 2 esse ulalýar.", "ru": "Если увеличить длину проводника из того же материала в 2 раза, его сопротивление увеличится в 2 раза."},
+          "answer": true,
+          "hint": {"tk": "R = ρ·l / S.", "ru": "R = ρ·l / S."},
+          "explain": {"tk": "Garşylyk uzynlyga göni proporsional, kesik meýdany üýtgemese R 2 esse ulalýar.", "ru": "Сопротивление прямо пропорционально длине; при неизменном сечении R растёт в 2 раза."}},
+        {"type": "input",
+          "q": {"tk": "220 W naprýaženiýede işleýän çäýnek 5 A tok sarp edýär. Kuwwaty näçe watt?", "ru": "Чайник при напряжении 220 В потребляет ток 5 А. Чему равна его мощность в ваттах?"},
+          "answer": "1100",
+          "hint": {"tk": "P = U·I.", "ru": "P = U·I."},
+          "explain": {"tk": "P = 220 · 5 = 1100 Wt = 1,1 kWt.", "ru": "P = 220 · 5 = 1100 Вт = 1,1 кВт."}},
+        {"type": "world", "text": {
+          "tk": "Nemes fizigi Georg Om tok güýji, naprýaženiýe we garşylyk arasyndaky baglanyşygy 1827-nji ýylda çap etdi. Ilki onuň işi ykrar edilmedi, ýöne soňra garşylyk birligine onuň ady dakyldy. 1800-nji ýylda Alessandro Wolta ilkinji himiki tok çeşmesini — «Wolta sütünini» döretdi.",
+          "ru": "Немецкий физик Георг Ом опубликовал связь силы тока, напряжения и сопротивления в 1827 году. Сначала его работу не признали, но позже его именем назвали единицу сопротивления. В 1800 году Алессандро Вольта создал первый химический источник тока — «вольтов столб»."}}
+      ]
+    },
+    {
+      "id": "physics-11-magnetic-field",
+      "grade": 11,
+      "topic": 3,
+      "title": {"tk": "Magnit meýdany: Amperiň we Lorensiň güýji", "ru": "Магнитное поле: сила Ампера и сила Лоренца"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Magnit meýdany hereket edýän zarýadlaryň (toklaryň) we magnitleriň daşynda döreýär we diňe hereket edýän zarýadlara täsir edýär.\n• Magnit induksiýasy B — meýdanyň güýç häsiýetnamasy, birligi — tesla (Tl).\n• Induksiýa çyzyklary ýapyk; ugry sag wint (burawjyk) düzgüni bilen kesgitlenýär.\n\nAmperiň güýji (tokly geçirijä täsir):\nF_A = I·B·l·sin α\n\nLorensiň güýji (hereket edýän zarýada täsir):\nF_L = |q|·v·B·sin α\nUgry çep el düzgüni bilen tapylýar. Lorens güýji tizlige perpendikulýar, şonuň üçin iş etmeýär we bölejigiň tizliginiň modulyny üýtgetmeýär: bölejik töwerek boýunça hereket edýär, r = m·v / (|q|·B).",
+          "ru": "Магнитное поле создаётся движущимися зарядами (токами) и магнитами и действует только на движущиеся заряды.\n• Магнитная индукция B — силовая характеристика поля, единица — тесла (Тл).\n• Линии индукции замкнуты; их направление определяют правилом буравчика (правого винта).\n\nСила Ампера (действие на проводник с током):\nF_A = I·B·l·sin α\n\nСила Лоренца (действие на движущийся заряд):\nF_L = |q|·v·B·sin α\nНаправление — по правилу левой руки. Сила Лоренца перпендикулярна скорости, поэтому не совершает работы и не меняет модуль скорости: частица движется по окружности, r = m·v / (|q|·B)."}},
+        {"type": "example", "text": {
+          "tk": "Mesele: Uzynlygy 0,5 m bolan geçirijiden 4 A tok geçýär. Ol B = 0,2 Tl bolan meýdanda induksiýa çyzyklaryna perpendikulýar ýerleşýär. Amper güýjüni tapyň.\n1) α = 90°, sin 90° = 1\n2) F_A = I·B·l = 4 · 0,2 · 0,5 = 0,4 N\nEger geçiriji çyzyklara parallel bolsa (α = 0°), güýç nola deň bolardy.",
+          "ru": "Задача: проводник длиной 0,5 м с током 4 А расположен в поле B = 0,2 Тл перпендикулярно линиям индукции. Найдите силу Ампера.\n1) α = 90°, sin 90° = 1\n2) F_A = I·B·l = 4 · 0,2 · 0,5 = 0,4 Н\nЕсли бы проводник был параллелен линиям (α = 0°), сила была бы равна нулю."}},
+        {"type": "input",
+          "q": {"tk": "Uzynlygy 2 m, togy 5 A bolan geçiriji B = 0,1 Tl meýdanda çyzyklara perpendikulýar. Amper güýji näçe N?", "ru": "Проводник длиной 2 м с током 5 А находится в поле B = 0,1 Тл перпендикулярно линиям. Чему равна сила Ампера в Н?"},
+          "answer": "1",
+          "hint": {"tk": "F = I·B·l, sin 90° = 1.", "ru": "F = I·B·l, sin 90° = 1."},
+          "explain": {"tk": "F = 5 · 0,1 · 2 = 1 N.", "ru": "F = 5 · 0,1 · 2 = 1 Н."}},
+        {"type": "choice",
+          "q": {"tk": "Bir jynsly magnit meýdanyna induksiýa çyzyklaryna perpendikulýar uçup giren elektron nähili hereket eder?", "ru": "Как будет двигаться электрон, влетевший в однородное магнитное поле перпендикулярно линиям индукции?"},
+          "options": [
+            {"tk": "Göni çyzyk boýunça tizlenip", "ru": "Прямолинейно с ускорением"},
+            {"tk": "Hemişelik tizlik bilen göni çyzyk boýunça", "ru": "Прямолинейно с постоянной скоростью"},
+            {"tk": "Töwerek boýunça", "ru": "По окружности"}
+          ],
+          "answer": 2,
+          "hint": {"tk": "Lorens güýji elmydama tizlige perpendikulýar.", "ru": "Сила Лоренца всегда перпендикулярна скорости."},
+          "explain": {"tk": "Tizlige perpendikulýar hemişelik güýç merkeze ymtylýan tizlenme berýär — bölejik töwerek boýunça aýlanýar.", "ru": "Постоянная сила, перпендикулярная скорости, создаёт центростремительное ускорение — частица движется по окружности."}},
+        {"type": "truefalse",
+          "q": {"tk": "Lorens güýji bölejigiň kinetik energiýasyny artdyryp bilýär.", "ru": "Сила Лоренца может увеличить кинетическую энергию частицы."},
+          "answer": false,
+          "hint": {"tk": "Güýç süýşmä perpendikulýar bolsa, iş näçä deň?", "ru": "Чему равна работа силы, перпендикулярной перемещению?"},
+          "explain": {"tk": "Lorens güýji tizlige perpendikulýar, iş nola deň, şonuň üçin kinetik energiýa üýtgemeýär.", "ru": "Сила Лоренца перпендикулярна скорости, её работа равна нулю, поэтому кинетическая энергия не меняется."}},
+        {"type": "world", "text": {
+          "tk": "1820-nji ýylda daniýaly alym Hans Kristian Ersted tokly geçirijiniň ýanyndaky kompas peýkamynyň öwrülýändigini gördi — bu elektrik bilen magnitizmiň baglanyşygynyň ilkinji subutnamasy boldy. Ýeriň magnit meýdany Gün ýelini sowup, bizi zarýadly bölejiklerden goraýar; polýar şuglalary şol bölejikleriň atmosfera bilen täsirleşmeginden döreýär.",
+          "ru": "В 1820 году датский учёный Ханс Кристиан Эрстед заметил, что стрелка компаса поворачивается рядом с проводником с током, — это было первое доказательство связи электричества и магнетизма. Магнитное поле Земли отклоняет солнечный ветер и защищает нас от заряженных частиц; полярные сияния возникают при их взаимодействии с атмосферой."}}
+      ]
+    },
+    {
+      "id": "physics-11-electromagnetic-induction",
+      "grade": 11,
+      "topic": 4,
+      "title": {"tk": "Elektromagnit induksiýa", "ru": "Электромагнитная индукция"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Elektromagnit induksiýa — ýapyk kontury kesip geçýän magnit akymy üýtgände, onda tok (induksiýa togy) döremegi.\n\n• Magnit akymy: Φ = B·S·cos α, birligi — weber (Wb).\n• Faradeýiň kanuny: ℰᵢ = −ΔΦ / Δt; N sargyly tegek üçin ℰᵢ = −N·ΔΦ / Δt.\n• Lensiň düzgüni: induksiýa togy özüni döreden magnit akymynyň üýtgemegine päsgel berýär (minus belgisi şony aňladýar).\n• Hereket edýän geçirijide: ℰᵢ = B·v·l·sin α.\n\nÖz-özünden induksiýa: ℰ = −L·ΔI / Δt, L — induktiwlik, birligi — genri (Gn).\nTegegiň magnit meýdanynyň energiýasy: W = L·I² / 2.",
+          "ru": "Электромагнитная индукция — возникновение тока (индукционного тока) в замкнутом контуре при изменении магнитного потока через него.\n\n• Магнитный поток: Φ = B·S·cos α, единица — вебер (Вб).\n• Закон Фарадея: ℰᵢ = −ΔΦ / Δt; для катушки из N витков ℰᵢ = −N·ΔΦ / Δt.\n• Правило Ленца: индукционный ток препятствует изменению магнитного потока, которое его вызвало (на это указывает знак минус).\n• В движущемся проводнике: ℰᵢ = B·v·l·sin α.\n\nСамоиндукция: ℰ = −L·ΔI / Δt, L — индуктивность, единица — генри (Гн).\nЭнергия магнитного поля катушки: W = L·I² / 2."}},
+        {"type": "example", "text": {
+          "tk": "Mesele: 100 sargyly tegekden geçýän magnit akymy 0,2 s içinde 0,01 Wb-dan 0,05 Wb-a çenli deňölçegli artdy. Induksiýa EHG-sini tapyň.\n1) ΔΦ = 0,05 − 0,01 = 0,04 Wb\n2) |ℰᵢ| = N·ΔΦ / Δt = 100 · 0,04 / 0,2 = 20 W\nLensiň düzgüni boýunça induksiýa togy akymyň artmagyna garşy ugrukdyrylýar.",
+          "ru": "Задача: магнитный поток через катушку из 100 витков равномерно вырос с 0,01 Вб до 0,05 Вб за 0,2 с. Найдите ЭДС индукции.\n1) ΔΦ = 0,05 − 0,01 = 0,04 Вб\n2) |ℰᵢ| = N·ΔΦ / Δt = 100 · 0,04 / 0,2 = 20 В\nПо правилу Ленца индукционный ток направлен так, чтобы препятствовать росту потока."}},
+        {"type": "input",
+          "q": {"tk": "Bir sargyly konturdan geçýän akym 0,5 s içinde 0,3 Wb üýtgedi. Induksiýa EHG-si (moduly) näçe wolt?", "ru": "Поток через контур из одного витка изменился на 0,3 Вб за 0,5 с. Чему равен модуль ЭДС индукции в вольтах?"},
+          "answer": "0.6|0,6",
+          "hint": {"tk": "|ℰ| = ΔΦ / Δt.", "ru": "|ℰ| = ΔΦ / Δt."},
+          "explain": {"tk": "|ℰ| = 0,3 / 0,5 = 0,6 W.", "ru": "|ℰ| = 0,3 / 0,5 = 0,6 В."}},
+        {"type": "choice",
+          "q": {"tk": "Haýsy ýagdaýda halkada induksiýa togy döremeýär?", "ru": "В каком случае в кольце НЕ возникает индукционный ток?"},
+          "options": [
+            {"tk": "Magnit halka içine salnanda", "ru": "Магнит вдвигают в кольцо"},
+            {"tk": "Magnit halkanyň içinde hereketsiz duranda", "ru": "Магнит неподвижно лежит внутри кольца"},
+            {"tk": "Magnit halkadan çykarylanda", "ru": "Магнит выдвигают из кольца"}
+          ],
+          "answer": 1,
+          "hint": {"tk": "Tok diňe akym ÜÝTGÄNDE döreýär.", "ru": "Ток возникает только при ИЗМЕНЕНИИ потока."},
+          "explain": {"tk": "Magnit hereketsiz bolsa, akym hemişelik, ΔΦ = 0, diýmek ℰ = 0 we tok ýok.", "ru": "Если магнит неподвижен, поток постоянен, ΔΦ = 0, значит ℰ = 0 и тока нет."}},
+        {"type": "truefalse",
+          "q": {"tk": "Lensiň düzgüni energiýanyň saklanma kanunynyň netijesidir.", "ru": "Правило Ленца является следствием закона сохранения энергии."},
+          "answer": true,
+          "hint": {"tk": "Eger induksiýa togy akymyň üýtgemegine kömek etse, näme bolardy?", "ru": "Что было бы, если бы индукционный ток помогал изменению потока?"},
+          "explain": {"tk": "Şeýle bolsa, energiýa hiç zatdan özbaşdak artardy. Magniti hereket etdirmek üçin iş etmeli bolýar we bu iş tokuň energiýasyna öwrülýär.", "ru": "Иначе энергия возрастала бы сама собой из ничего. Чтобы двигать магнит, нужно совершать работу, и именно она превращается в энергию тока."}},
+        {"type": "input",
+          "q": {"tk": "Induktiwligi 0,4 Gn bolan tegekden 5 A tok geçýär. Magnit meýdanynyň energiýasy näçe J?", "ru": "Через катушку индуктивностью 0,4 Гн течёт ток 5 А. Чему равна энергия магнитного поля в Дж?"},
+          "answer": "5",
+          "hint": {"tk": "W = L·I² / 2.", "ru": "W = L·I² / 2."},
+          "explain": {"tk": "W = 0,4 · 25 / 2 = 5 J.", "ru": "W = 0,4 · 25 / 2 = 5 Дж."}},
+        {"type": "world", "text": {
+          "tk": "Maýkl Faradeý elektromagnit induksiýany 1831-nji ýylda açdy. Bu açyş häzirki zaman energetikasynyň esasy: elektrik stansiýalarynyň generatorlary, transformatorlar, induksion plitalar we telefonlaryň simsiz zarýadlaýjylary hut şu hadysa esasynda işleýär.",
+          "ru": "Майкл Фарадей открыл электромагнитную индукцию в 1831 году. Это открытие — основа современной энергетики: генераторы электростанций, трансформаторы, индукционные плиты и беспроводные зарядки телефонов работают именно на этом явлении."}}
+      ]
+    },
+    {
+      "id": "physics-11-alternating-current",
+      "grade": 11,
+      "topic": 5,
+      "title": {"tk": "Üýtgeýän tok we transformator", "ru": "Переменный ток и трансформатор"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Üýtgeýän tok — ululygy we ugry wagt boýunça periodik üýtgeýän tok. Ony generator döredýär: magnit meýdanynda aýlanýan çarçuwada sinusoidal EHG ýüze çykýar.\n• u = U_m·sin(ωt), ω = 2πν; Türkmenistanda we Ýewropada ýygylyk ν = 50 Gs.\n• Täsir ediji (effektiw) bahalar: U = U_m / √2, I = I_m / √2. Torda «220 W» — bu täsir ediji baha, amplitudasy ≈ 311 W.\n\nGarşylyklar:\n• Induktiw: X_L = ωL\n• Sygym: X_C = 1 / (ωC)\n• Rezonans: X_L = X_C, ýagny ω₀ = 1/√(LC).\n\nTransformator — naprýaženiýäni üýtgedýän enjam:\nU₁ / U₂ = N₁ / N₂ = k. k > 1 — peseldiji, k < 1 — ýokarlandyryjy.\nElektrik energiýasy uzak aralyga ýokary naprýaženiýede iberilýär, sebäbi şonda tok kiçi bolýar we simlerdäki ýitgi (I²R) azalýar.",
+          "ru": "Переменный ток — ток, величина и направление которого периодически меняются во времени. Его создаёт генератор: в рамке, вращающейся в магнитном поле, возникает синусоидальная ЭДС.\n• u = U_m·sin(ωt), ω = 2πν; в Туркменистане и Европе частота ν = 50 Гц.\n• Действующие значения: U = U_m / √2, I = I_m / √2. «220 В» в сети — действующее значение, амплитуда ≈ 311 В.\n\nСопротивления:\n• Индуктивное: X_L = ωL\n• Ёмкостное: X_C = 1 / (ωC)\n• Резонанс: X_L = X_C, то есть ω₀ = 1/√(LC).\n\nТрансформатор — устройство для изменения напряжения:\nU₁ / U₂ = N₁ / N₂ = k. k > 1 — понижающий, k < 1 — повышающий.\nЭнергию на большие расстояния передают при высоком напряжении: тогда ток мал и потери в проводах (I²R) уменьшаются."}},
+        {"type": "example", "text": {
+          "tk": "Mesele: Transformatoryň birinji sargysynda 2000, ikinjisinde 100 sargy bar. Birinji sargyya 220 W berilýär. Çykyşdaky naprýaženiýäni tapyň.\n1) k = N₁ / N₂ = 2000 / 100 = 20 (peseldiji)\n2) U₂ = U₁ / k = 220 / 20 = 11 W\nÝitgiler bolmasa kuwwat saklanýar: U₁I₁ = U₂I₂, şonuň üçin ikinji sargydaky tok 20 esse uly.",
+          "ru": "Задача: первичная обмотка трансформатора имеет 2000 витков, вторичная — 100. На первичную подано 220 В. Найдите напряжение на выходе.\n1) k = N₁ / N₂ = 2000 / 100 = 20 (понижающий)\n2) U₂ = U₁ / k = 220 / 20 = 11 В\nБез потерь мощность сохраняется: U₁I₁ = U₂I₂, поэтому ток во вторичной обмотке в 20 раз больше."}},
+        {"type": "choice",
+          "q": {"tk": "Ýygylygy 50 Gs bolan üýtgeýän tokuň periody näçe?", "ru": "Чему равен период переменного тока частотой 50 Гц?"},
+          "options": ["0,02 s / с", "0,5 s / с", "50 s / с"],
+          "answer": 0,
+          "hint": {"tk": "T = 1 / ν.", "ru": "T = 1 / ν."},
+          "explain": {"tk": "T = 1 / 50 = 0,02 s = 20 ms.", "ru": "T = 1 / 50 = 0,02 с = 20 мс."}},
+        {"type": "input",
+          "q": {"tk": "Transformatorda N₁ = 500, N₂ = 1500. U₁ = 100 W bolsa, U₂ näçe wolt?", "ru": "У трансформатора N₁ = 500, N₂ = 1500. Если U₁ = 100 В, чему равно U₂ в вольтах?"},
+          "answer": "300",
+          "hint": {"tk": "U₂ / U₁ = N₂ / N₁.", "ru": "U₂ / U₁ = N₂ / N₁."},
+          "explain": {"tk": "U₂ = 100 · 1500 / 500 = 300 W — bu ýokarlandyryjy transformator.", "ru": "U₂ = 100 · 1500 / 500 = 300 В — это повышающий трансформатор."}},
+        {"type": "truefalse",
+          "q": {"tk": "Transformator hemişelik tok bilen hem işleýär.", "ru": "Трансформатор работает и на постоянном токе."},
+          "answer": false,
+          "hint": {"tk": "Transformatoryň işi haýsy hadysa esaslanýar?", "ru": "На каком явлении основана работа трансформатора?"},
+          "explain": {"tk": "Transformator elektromagnit induksiýa esaslanýar. Hemişelik tokda magnit akymy üýtgemeýär, şonuň üçin ikinji sargyda EHG döremeýär.", "ru": "Трансформатор основан на электромагнитной индукции. При постоянном токе магнитный поток не меняется, поэтому во вторичной обмотке ЭДС не возникает."}},
+        {"type": "input",
+          "q": {"tk": "Üýtgeýän naprýaženiýäniň amplitudasy 100 W. Täsir ediji bahasy takmynan näçe wolt? (bitin sana çenli tegelekläň)", "ru": "Амплитуда переменного напряжения 100 В. Чему примерно равно действующее значение в вольтах? (округлите до целого)"},
+          "answer": "71|70.7|70,7",
+          "hint": {"tk": "U = U_m / √2, √2 ≈ 1,414.", "ru": "U = U_m / √2, √2 ≈ 1,414."},
+          "explain": {"tk": "U = 100 / 1,414 ≈ 70,7 ≈ 71 W.", "ru": "U = 100 / 1,414 ≈ 70,7 ≈ 71 В."}},
+        {"type": "world", "text": {
+          "tk": "XIX asyryň ahyrynda ABŞ-da «toklaryň söweşi» boldy: Tomas Edison hemişelik togy, Nikola Tesla we Jorj Westinghaus bolsa üýtgeýän togy goldaýardy. Transformator arkaly naprýaženiýäni aňsat üýtgedip bolýandygy üçin üýtgeýän tok ýeňdi we häzir dünýäniň elektrik torlarynyň esasy bolup durýar.",
+          "ru": "В конце XIX века в США шла «война токов»: Томас Эдисон продвигал постоянный ток, а Никола Тесла и Джордж Вестингауз — переменный. Победил переменный ток, потому что его напряжение легко менять с помощью трансформатора, и сегодня он лежит в основе электросетей мира."}}
+      ]
+    }
+  ]
+}

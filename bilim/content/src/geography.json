@@ -1,0 +1,47 @@
+{
+  "id": "geography",
+  "icon": "🌍",
+  "color": "#0C8599",
+  "title": {"tk": "Geografiýa", "ru": "География"},
+  "lessons": [
+    {
+      "id": "geo-6-turkmenistan",
+      "grade": 6,
+      "title": {"tk": "Türkmenistanyň tebigaty", "ru": "Природа Туркменистана"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Türkmenistanyň meýdany 491 müň km²-den gowrak.\n• Garagum çöli ýurduň takmynan 80%-ini eýeleýär.\n• Günortada — Köpetdag dag gerşi.\n• Günbatarda — Hazar deňzi, dünýäniň iň uly köli.\n• Iň uly derýa — Amyderýa.",
+          "ru": "Площадь Туркменистана — более 491 тыс. км².\n• Пустыня Каракумы занимает около 80% территории.\n• На юге — хребет Копетдаг.\n• На западе — Каспийское море, крупнейшее озеро мира.\n• Самая крупная река — Амударья."}},
+        {"type": "choice",
+          "q": {"tk": "Ýurduň takmynan 80%-ini näme eýeleýär?", "ru": "Что занимает около 80% территории страны?"},
+          "options": [
+            {"tk": "Garagum çöli", "ru": "Пустыня Каракумы"},
+            {"tk": "Köpetdag", "ru": "Копетдаг"},
+            {"tk": "Tokaýlar", "ru": "Леса"}
+          ],
+          "answer": 0,
+          "hint": {"tk": "«Gara gum» — gara çäge.", "ru": "«Кара кум» — чёрный песок."},
+          "explain": {"tk": "Garagum — Merkezi Aziýanyň iň uly çölleriniň biri.", "ru": "Каракумы — одна из крупнейших пустынь Центральной Азии."}},
+        {"type": "truefalse",
+          "q": {"tk": "Hazar deňzi aslynda dünýäniň iň uly köli.", "ru": "Каспийское море на самом деле крупнейшее озеро мира."},
+          "answer": true,
+          "hint": {"tk": "Onuň umman bilen göni baglanyşygy ýok.", "ru": "У него нет прямой связи с океаном."},
+          "explain": {"tk": "Dogry: Hazar — ýapyk suw howdany, meýdany boýunça dünýäde iň uly köl.", "ru": "Верно: Каспий — замкнутый водоём, крупнейшее по площади озеро мира."}},
+        {"type": "choice",
+          "q": {"tk": "Köpetdag ýurduň haýsy tarapynda?", "ru": "Где расположен Копетдаг?"},
+          "options": [
+            {"tk": "Günortada", "ru": "На юге"},
+            {"tk": "Demirgazykda", "ru": "На севере"},
+            {"tk": "Gündogarda", "ru": "На востоке"}
+          ],
+          "answer": 0,
+          "hint": {"tk": "Aşgabat onuň eteginde ýerleşýär.", "ru": "Ашхабад расположен у его подножия."},
+          "explain": {"tk": "Köpetdag günortada, Eýran bilen serhediň ugrunda.", "ru": "Копетдаг — на юге, вдоль границы с Ираном."}},
+        {"type": "world", "text": {
+          "tk": "Dünýäniň iň uly gyzgyn çöli — Sahara (9 mln km²-den gowrak). Emma iň uly çöl diýlende Antarktida hem agzalýar: ol hem «çöl», sebäbi ýagyn örän az düşýär.",
+          "ru": "Крупнейшая жаркая пустыня мира — Сахара (более 9 млн км²). Но крупнейшей пустыней называют и Антарктиду: осадков там выпадает очень мало."}}
+      ]
+    }
+  ]
+}

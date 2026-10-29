@@ -1,0 +1,295 @@
+{
+  "grade": 3,
+  "subject": "math",
+  "lessons": [
+    {
+      "id": "math-3-multiplication-table",
+      "grade": 3,
+      "topic": 0,
+      "title": {"tk": "Köpeltmek tablisasy", "ru": "Таблица умножения"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Köpeltmek — birmeňzeş sanlary gysga goşmak.\n3 × 4 = 4 + 4 + 4 = 12\n• 3 we 4 — köpeldijiler, 12 — köpeltmek hasyly.\n• Köpeldijileriň ýerini çalyşsaň, netije üýtgemeýär: 3 × 4 = 4 × 3 = 12.\n• Islendik san × 1 = şol san: 7 × 1 = 7.\n• Islendik san × 0 = 0: 9 × 0 = 0.\n• Islendik san × 10 = sanyň yzyna 0 goşulýar: 6 × 10 = 60.",
+          "ru": "Умножение — это быстрое сложение одинаковых чисел.\n3 × 4 = 4 + 4 + 4 = 12\n• 3 и 4 — множители, 12 — произведение.\n• От перестановки множителей произведение не меняется: 3 × 4 = 4 × 3 = 12.\n• Любое число × 1 = это же число: 7 × 1 = 7.\n• Любое число × 0 = 0: 9 × 0 = 0.\n• Любое число × 10 — к числу приписываем 0: 6 × 10 = 60."
+        }},
+        {"type": "example", "text": {
+          "tk": "7 × 8 näçe? Ýatdan bilmeseň, bölüp hasapla:\n1) 7 × 8 = 7 × 5 + 7 × 3\n2) 7 × 5 = 35\n3) 7 × 3 = 21\n4) 35 + 21 = 56\nJogap: 7 × 8 = 56.",
+          "ru": "Сколько будет 7 × 8? Если не помнишь, разложи:\n1) 7 × 8 = 7 × 5 + 7 × 3\n2) 7 × 5 = 35\n3) 7 × 3 = 21\n4) 35 + 21 = 56\nОтвет: 7 × 8 = 56."
+        }},
+        {"type": "input",
+          "q": {"tk": "6 × 7 = ?", "ru": "6 × 7 = ?"},
+          "answer": "42",
+          "hint": {"tk": "6 × 5 = 30, ýene iki gezek 6 goş.", "ru": "6 × 5 = 30, прибавь ещё два раза по 6."},
+          "explain": {"tk": "6 × 5 = 30, 6 × 2 = 12, 30 + 12 = 42.", "ru": "6 × 5 = 30, 6 × 2 = 12, 30 + 12 = 42."}
+        },
+        {"type": "choice",
+          "q": {"tk": "9 × 4 = ?", "ru": "9 × 4 = ?"},
+          "options": ["32", "36", "45"],
+          "answer": 1,
+          "hint": {"tk": "10 × 4 = 40, bir 4-i aýyr.", "ru": "10 × 4 = 40, отними одну четвёрку."},
+          "explain": {"tk": "9 × 4 = 10 × 4 − 4 = 40 − 4 = 36.", "ru": "9 × 4 = 10 × 4 − 4 = 40 − 4 = 36."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "8 × 0 = 8", "ru": "8 × 0 = 8"},
+          "answer": false,
+          "hint": {"tk": "Nola köpeltmegiň düzgünini ýatla.", "ru": "Вспомни правило умножения на ноль."},
+          "explain": {"tk": "Ýalňyş. Islendik san × 0 = 0. Diýmek, 8 × 0 = 0.", "ru": "Неверно. Любое число × 0 = 0. Значит, 8 × 0 = 0."}
+        },
+        {"type": "input",
+          "q": {"tk": "Bir gutuda 8 sany galam bar. 5 gutuda näçe galam bar?", "ru": "В одной коробке 8 карандашей. Сколько карандашей в 5 коробках?"},
+          "answer": "40",
+          "hint": {"tk": "8-i 5 gezek al.", "ru": "Возьми 8 пять раз."},
+          "explain": {"tk": "8 × 5 = 40 galam.", "ru": "8 × 5 = 40 карандашей."}
+        },
+        {"type": "world", "text": {
+          "tk": "Arheologlar Gadymy Wawilonda 4000 ýyl çemesi öň palçyk plitalara ýazylan köpeltmek tablisalaryny tapdylar. Diýmek, adamlar köpeltmek tablisasyny müňlerçe ýyl bäri öwrenýärler.",
+          "ru": "Археологи нашли в Древнем Вавилоне таблицы умножения, записанные на глиняных табличках около 4000 лет назад. Значит, люди учат таблицу умножения уже тысячи лет."
+        }}
+      ]
+    },
+    {
+      "id": "math-3-division",
+      "grade": 3,
+      "topic": 1,
+      "title": {"tk": "Bölmek", "ru": "Деление"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Bölmek — deň paýlara bölmek.\n12 : 3 = 4 — 12 almany 3 çaga deň paýlasaň, her biri 4 alma alýar.\n• 12 — bölünýän, 3 — bölüji, 4 — paý.\n• Bölmek köpeltmegiň tersi: 3 × 4 = 12 bolsa, 12 : 3 = 4 we 12 : 4 = 3.\n• San : 1 = şol san: 9 : 1 = 9.\n• San : şol san = 1: 7 : 7 = 1.\n• Nola bölmek bolmaýar!",
+          "ru": "Деление — это разделение на равные части.\n12 : 3 = 4 — если 12 яблок разделить поровну между 3 детьми, каждый получит 4 яблока.\n• 12 — делимое, 3 — делитель, 4 — частное.\n• Деление — действие, обратное умножению: если 3 × 4 = 12, то 12 : 3 = 4 и 12 : 4 = 3.\n• Число : 1 = это же число: 9 : 1 = 9.\n• Число : само себя = 1: 7 : 7 = 1.\n• На ноль делить нельзя!"
+        }},
+        {"type": "example", "text": {
+          "tk": "56 : 8 näçe?\n1) Sorag: 8-i näçä köpeltsek 56 bolýar?\n2) Tablisany ýatlaýarys: 8 × 7 = 56.\n3) Diýmek, 56 : 8 = 7.\nBarlag: 7 × 8 = 56 ✓",
+          "ru": "Сколько будет 56 : 8?\n1) Вопрос: на какое число нужно умножить 8, чтобы получить 56?\n2) Вспоминаем таблицу: 8 × 7 = 56.\n3) Значит, 56 : 8 = 7.\nПроверка: 7 × 8 = 56 ✓"
+        }},
+        {"type": "input",
+          "q": {"tk": "42 : 6 = ?", "ru": "42 : 6 = ?"},
+          "answer": "7",
+          "hint": {"tk": "6 × ? = 42", "ru": "6 × ? = 42"},
+          "explain": {"tk": "6 × 7 = 42, şonuň üçin 42 : 6 = 7.", "ru": "6 × 7 = 42, поэтому 42 : 6 = 7."}
+        },
+        {"type": "choice",
+          "q": {"tk": "27 : 3 = ?", "ru": "27 : 3 = ?"},
+          "options": ["8", "6", "9"],
+          "answer": 2,
+          "hint": {"tk": "3 × ? = 27", "ru": "3 × ? = 27"},
+          "explain": {"tk": "3 × 9 = 27, diýmek 27 : 3 = 9.", "ru": "3 × 9 = 27, значит 27 : 3 = 9."}
+        },
+        {"type": "input",
+          "q": {"tk": "Mugallym 32 depderi 4 topara deň paýlady. Her topar näçe depder aldy?", "ru": "Учитель разделил 32 тетради поровну между 4 группами. Сколько тетрадей получила каждая группа?"},
+          "answer": "8",
+          "hint": {"tk": "32-ni 4-e böl.", "ru": "Раздели 32 на 4."},
+          "explain": {"tk": "32 : 4 = 8, sebäbi 4 × 8 = 32.", "ru": "32 : 4 = 8, потому что 4 × 8 = 32."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "5 : 5 = 1", "ru": "5 : 5 = 1"},
+          "answer": true,
+          "hint": {"tk": "Sany özüne bölseň näçe bolýar?", "ru": "Сколько будет, если число разделить само на себя?"},
+          "explain": {"tk": "Dogry. Islendik san (noldan başga) özüne bölünse, 1 bolýar.", "ru": "Верно. Любое число (кроме нуля), делённое само на себя, равно 1."}
+        },
+        {"type": "world", "text": {
+          "tk": "Bölmegiň «÷» belgisini ilkinji gezek 1659-njy ýylda şweýsariýaly matematik Ýohann Ran ulanypdyr. Häzir köp ýurtlarda bölmek üçin iki nokat «:» hem ulanylýar.",
+          "ru": "Знак деления «÷» впервые использовал швейцарский математик Иоганн Ран в 1659 году. Сейчас во многих странах для деления используют и двоеточие «:»."
+        }}
+      ]
+    },
+    {
+      "id": "math-3-division-with-remainder",
+      "grade": 3,
+      "topic": 2,
+      "title": {"tk": "Galyndyly bölmek", "ru": "Деление с остатком"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Käwagt san deň bölünmeýär we artyk galýar. Muňa galyndy diýilýär.\n14 : 4 = 3 (galyndy 2), sebäbi 4 × 3 = 12, 14 − 12 = 2.\nWajyp düzgün: galyndy elmydama bölüjiden kiçi bolmaly!\nBarlag: paý × bölüji + galyndy = bölünýän\n3 × 4 + 2 = 14 ✓",
+          "ru": "Иногда число не делится нацело, и что-то остаётся. Это называется остатком.\n14 : 4 = 3 (остаток 2), потому что 4 × 3 = 12, 14 − 12 = 2.\nВажное правило: остаток всегда меньше делителя!\nПроверка: частное × делитель + остаток = делимое\n3 × 4 + 2 = 14 ✓"
+        }},
+        {"type": "example", "text": {
+          "tk": "23 : 5 näçe?\n1) 23-den uly bolmadyk, 5-e bölünýän iň uly sany tap: 20 (5 × 4).\n2) Paý: 4.\n3) Galyndy: 23 − 20 = 3.\n4) 3 < 5 — dogry.\nJogap: 23 : 5 = 4 (galyndy 3).\nBarlag: 4 × 5 + 3 = 23 ✓",
+          "ru": "Сколько будет 23 : 5?\n1) Найди наибольшее число, не больше 23, которое делится на 5: 20 (5 × 4).\n2) Частное: 4.\n3) Остаток: 23 − 20 = 3.\n4) 3 < 5 — верно.\nОтвет: 23 : 5 = 4 (остаток 3).\nПроверка: 4 × 5 + 3 = 23 ✓"
+        }},
+        {"type": "input",
+          "q": {"tk": "17 : 5 = 3. Galyndy näçe?", "ru": "17 : 5 = 3. Какой остаток?"},
+          "answer": "2",
+          "hint": {"tk": "5 × 3 = 15. 17-den 15-i aýyr.", "ru": "5 × 3 = 15. Отними 15 от 17."},
+          "explain": {"tk": "17 − 15 = 2. Diýmek, 17 : 5 = 3 (galyndy 2).", "ru": "17 − 15 = 2. Значит, 17 : 5 = 3 (остаток 2)."}
+        },
+        {"type": "choice",
+          "q": {"tk": "29 : 6 = ?", "ru": "29 : 6 = ?"},
+          "options": [
+            {"tk": "4 (galyndy 5)", "ru": "4 (остаток 5)"},
+            {"tk": "5 (galyndy 1)", "ru": "5 (остаток 1)"},
+            {"tk": "3 (galyndy 11)", "ru": "3 (остаток 11)"}
+          ],
+          "answer": 0,
+          "hint": {"tk": "6 × 4 = 24, 6 × 5 = 30. Haýsy 29-dan uly däl?", "ru": "6 × 4 = 24, 6 × 5 = 30. Какое не больше 29?"},
+          "explain": {"tk": "6 × 4 = 24, 29 − 24 = 5, 5 < 6. Jogap: 4 (galyndy 5). «3 (galyndy 11)» dogry däl, sebäbi galyndy bölüjiden uly.", "ru": "6 × 4 = 24, 29 − 24 = 5, 5 < 6. Ответ: 4 (остаток 5). «3 (остаток 11)» неверно, потому что остаток больше делителя."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "4-e bölenimizde galyndy 4 bolup biler.", "ru": "При делении на 4 остаток может быть равен 4."},
+          "answer": false,
+          "hint": {"tk": "Galyndy bölüji bilen deňeşdirilende nähili bolmaly?", "ru": "Каким должен быть остаток по сравнению с делителем?"},
+          "explain": {"tk": "Ýalňyş. Galyndy bölüjiden kiçi bolmaly: 4-e bölenimizde galyndy diňe 0, 1, 2 ýa-da 3 bolup biler.", "ru": "Неверно. Остаток меньше делителя: при делении на 4 остаток может быть только 0, 1, 2 или 3."}
+        },
+        {"type": "input",
+          "q": {"tk": "26 sany okuwçy 4 orunly maşynlara münýär. Hemmeler gitmek üçin iň az näçe maşyn gerek?", "ru": "26 учеников едут в машинах по 4 места. Какое наименьшее число машин нужно, чтобы уехали все?"},
+          "answer": "7",
+          "hint": {"tk": "26 : 4 hasapla we galyndy barada pikirlen.", "ru": "Посчитай 26 : 4 и подумай об остатке."},
+          "explain": {"tk": "26 : 4 = 6 (galyndy 2). 6 maşyn doly, galan 2 okuwçy üçin ýene bir maşyn gerek: 6 + 1 = 7.", "ru": "26 : 4 = 6 (остаток 2). 6 машин заполнены, для оставшихся 2 учеников нужна ещё одна машина: 6 + 1 = 7."}
+        },
+        {"type": "world", "text": {
+          "tk": "Sagat galyndyly bölmegi ulanýar! Sagadyň milleri 12-ä çenli aýlanýar. Şonuň üçin 15 sagat geçende, 15 : 12 = 1 (galyndy 3) — sagadyň 3-i görkezýär.",
+          "ru": "Часы используют деление с остатком! Стрелки обходят циферблат до 12. Поэтому 15 часов на циферблате — это 15 : 12 = 1 (остаток 3): стрелка показывает 3."
+        }}
+      ]
+    },
+    {
+      "id": "math-3-numbers-to-1000",
+      "grade": 3,
+      "topic": 3,
+      "title": {"tk": "1000-e çenli sanlar", "ru": "Числа до 1000"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Üç belgili sanlarda üç orun bar:\n• ýüzlükler • onluklar • birlikler\n482 = 4 ýüzlük + 8 onluk + 2 birlik = 400 + 80 + 2\nÝadyňda sakla:\n• 10 birlik = 1 onluk\n• 10 onluk = 1 ýüzlük\n• 10 ýüzlük = 1 müňlük (1000)\nSanlary deňeşdirmek: ilki ýüzlükleri, soň onluklary, soň birlikleri deňeşdir.",
+          "ru": "В трёхзначных числах три разряда:\n• сотни • десятки • единицы\n482 = 4 сотни + 8 десятков + 2 единицы = 400 + 80 + 2\nЗапомни:\n• 10 единиц = 1 десяток\n• 10 десятков = 1 сотня\n• 10 сотен = 1 тысяча (1000)\nСравнение чисел: сначала сравни сотни, потом десятки, потом единицы."
+        }},
+        {"type": "example", "text": {
+          "tk": "Haýsy uly: 637 ýa-da 673?\n1) Ýüzlükler: 6 we 6 — deň.\n2) Onluklar: 3 we 7 — 7 uly.\n3) Diýmek, 673 > 637.\n\nSany ýaz: 5 ýüzlük, 0 onluk, 9 birlik → 509. Onluk ýok bolsa, onuň ýerine 0 ýazýarys!",
+          "ru": "Что больше: 637 или 673?\n1) Сотни: 6 и 6 — равны.\n2) Десятки: 3 и 7 — 7 больше.\n3) Значит, 673 > 637.\n\nЗапиши число: 5 сотен, 0 десятков, 9 единиц → 509. Если десятков нет, на их месте пишем 0!"
+        }},
+        {"type": "input",
+          "q": {"tk": "3 ýüzlük, 4 onluk we 7 birlik. Bu haýsy san?", "ru": "3 сотни, 4 десятка и 7 единиц. Какое это число?"},
+          "answer": "347",
+          "hint": {"tk": "300 + 40 + 7", "ru": "300 + 40 + 7"},
+          "explain": {"tk": "300 + 40 + 7 = 347.", "ru": "300 + 40 + 7 = 347."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy san iň uly?", "ru": "Какое число самое большое?"},
+          "options": ["589", "598", "958"],
+          "answer": 2,
+          "hint": {"tk": "Ilki ýüzlükleri deňeşdir.", "ru": "Сначала сравни сотни."},
+          "explain": {"tk": "958-de 9 ýüzlük bar, beýlekilerde 5. Diýmek, 958 iň uly.", "ru": "В 958 — 9 сотен, у остальных — 5. Значит, 958 самое большое."}
+        },
+        {"type": "choice",
+          "q": {"tk": "706 sanynda näçe onluk bar (onluklar ornunda)?", "ru": "Какая цифра стоит в разряде десятков числа 706?"},
+          "options": ["7", "0", "6"],
+          "answer": 1,
+          "hint": {"tk": "Ortadaky sifr onluklary görkezýär.", "ru": "Средняя цифра показывает десятки."},
+          "explain": {"tk": "706 = 7 ýüzlük, 0 onluk, 6 birlik.", "ru": "706 = 7 сотен, 0 десятков, 6 единиц."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "999 + 1 = 1000", "ru": "999 + 1 = 1000"},
+          "answer": true,
+          "hint": {"tk": "999-dan soň haýsy san gelýär?", "ru": "Какое число идёт после 999?"},
+          "explain": {"tk": "Dogry. 999-a 1 goşsak, 10 ýüzlük, ýagny 1000 bolýar.", "ru": "Верно. Если к 999 прибавить 1, получится 10 сотен, то есть 1000."}
+        },
+        {"type": "world", "text": {
+          "tk": "Biziň ulanýan sifrlerimiz (0, 1, 2 … 9) Hindistanda döräpdir, soňra arap alymlary arkaly Ýewropa ýaýrapdyr. Şonuň üçin olara «arap sifrleri» diýilýär. Bu ulgamda sifriň manysy onuň ornuna bagly: 5, 50 we 500.",
+          "ru": "Цифры, которыми мы пользуемся (0, 1, 2 … 9), появились в Индии, а затем через арабских учёных пришли в Европу. Поэтому их называют «арабскими цифрами». В этой системе значение цифры зависит от её места: 5, 50 и 500."
+        }}
+      ]
+    },
+    {
+      "id": "math-3-perimeter",
+      "grade": 3,
+      "topic": 4,
+      "title": {"tk": "Perimetr", "ru": "Периметр"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Perimetr — şekiliň ähli taraplarynyň uzynlyklarynyň jemi. Ýagny şekiliň daşyndan aýlanyp çykanyňda geçen ýoluň.\n• Üçburçluk: P = a + b + c\n• Gönüburçluk: P = (uzynlyk + giňlik) × 2\n• Kwadrat: P = tarap × 4\nPerimetr uzynlyk birliklerinde ölçelýär: sm, dm, m.",
+          "ru": "Периметр — сумма длин всех сторон фигуры. То есть путь, который ты пройдёшь, обойдя фигуру по краю.\n• Треугольник: P = a + b + c\n• Прямоугольник: P = (длина + ширина) × 2\n• Квадрат: P = сторона × 4\nПериметр измеряется в единицах длины: см, дм, м."
+        }},
+        {"type": "example", "text": {
+          "tk": "Gönüburçlugyň uzynlygy 7 sm, giňligi 3 sm. Perimetri näçe?\n1) Uzynlygy we giňligi goş: 7 + 3 = 10 sm.\n2) Gönüburçlukda iki uzynlyk we iki giňlik bar, şonuň üçin 2-ä köpelt: 10 × 2 = 20 sm.\nJogap: P = 20 sm.\nBarlag: 7 + 3 + 7 + 3 = 20 ✓",
+          "ru": "Длина прямоугольника 7 см, ширина 3 см. Чему равен периметр?\n1) Сложи длину и ширину: 7 + 3 = 10 см.\n2) В прямоугольнике две длины и две ширины, поэтому умножь на 2: 10 × 2 = 20 см.\nОтвет: P = 20 см.\nПроверка: 7 + 3 + 7 + 3 = 20 ✓"
+        }},
+        {"type": "input",
+          "q": {"tk": "Kwadratyň tarapy 6 sm. Onuň perimetri näçe sm?", "ru": "Сторона квадрата 6 см. Чему равен его периметр в см?"},
+          "answer": "24",
+          "hint": {"tk": "Kwadratyň 4 tarapy deň.", "ru": "У квадрата 4 равные стороны."},
+          "explain": {"tk": "P = 6 × 4 = 24 sm.", "ru": "P = 6 × 4 = 24 см."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Üçburçlugyň taraplary 5 sm, 6 sm we 8 sm. Perimetri näçe?", "ru": "Стороны треугольника 5 см, 6 см и 8 см. Чему равен периметр?"},
+          "options": [
+            {"tk": "19 sm", "ru": "19 см"},
+            {"tk": "14 sm", "ru": "14 см"},
+            {"tk": "240 sm", "ru": "240 см"}
+          ],
+          "answer": 0,
+          "hint": {"tk": "Ähli taraplary goş.", "ru": "Сложи все стороны."},
+          "explain": {"tk": "5 + 6 + 8 = 19 sm. Perimetrde taraplar köpeldilmeýär, goşulýar.", "ru": "5 + 6 + 8 = 19 см. Стороны в периметре складываются, а не умножаются."}
+        },
+        {"type": "input",
+          "q": {"tk": "Baglyk gönüburçluk görnüşinde: uzynlygy 12 m, giňligi 8 m. Daşyny aýlamak üçin näçe metr çit gerek?", "ru": "Огород имеет форму прямоугольника: длина 12 м, ширина 8 м. Сколько метров забора нужно, чтобы его огородить?"},
+          "answer": "40",
+          "hint": {"tk": "Bu perimetr: (uzynlyk + giňlik) × 2.", "ru": "Это периметр: (длина + ширина) × 2."},
+          "explain": {"tk": "(12 + 8) × 2 = 20 × 2 = 40 m.", "ru": "(12 + 8) × 2 = 20 × 2 = 40 м."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Gönüburçlugyň uzynlygy 5 sm, giňligi 2 sm bolsa, perimetri 10 sm.", "ru": "Если длина прямоугольника 5 см, а ширина 2 см, его периметр 10 см."},
+          "answer": false,
+          "hint": {"tk": "Ähli dört tarapy goşup gör.", "ru": "Попробуй сложить все четыре стороны."},
+          "explain": {"tk": "Ýalňyş. (5 + 2) × 2 = 14 sm. 10 — bu 5 × 2, ýagny meýdany, perimetr däl.", "ru": "Неверно. (5 + 2) × 2 = 14 см. 10 — это 5 × 2, то есть площадь, а не периметр."}
+        },
+        {"type": "world", "text": {
+          "tk": "«Perimetr» sözi grek dilinden gelýär: «peri» — töwerek, «metron» — ölçeg. Futbol meýdanynyň çyzyklaryny çekmek üçin hem işçiler onuň perimetrini hasaplaýarlar.",
+          "ru": "Слово «периметр» пришло из греческого языка: «пери» — вокруг, «метрон» — мера. Даже чтобы разметить линии футбольного поля, рабочие вычисляют его периметр."
+        }}
+      ]
+    },
+    {
+      "id": "math-3-word-problems",
+      "grade": 3,
+      "topic": 5,
+      "title": {"tk": "Meseleler çözmek", "ru": "Решение задач"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Meseläni çözmegiň 4 ädimi:\n1) Oka we düşün: näme belli? näme soralýar?\n2) Meýilnama düz: haýsy amal gerek? (+, −, ×, :)\n3) Hasapla.\n4) Barla we jogaby ýaz.\nKömekçi sözler:\n• «jemi», «hemmesi» — köplenç goşmak\n• «galdy», «näçe az» — aýyrmak\n• «her birinde … näçe gezek» — köpeltmek\n• «deň paýlady» — bölmek",
+          "ru": "4 шага решения задачи:\n1) Прочитай и пойми: что известно? что спрашивают?\n2) Составь план: какое действие нужно? (+, −, ×, :)\n3) Вычисли.\n4) Проверь и запиши ответ.\nСлова-подсказки:\n• «всего», «вместе» — часто сложение\n• «осталось», «на сколько меньше» — вычитание\n• «в каждой по …», «в несколько раз» — умножение\n• «разделили поровну» — деление"
+        }},
+        {"type": "example", "text": {
+          "tk": "Mesele: Dükanda 5 gutu alma bar, her gutuda 9 alma. 12 alma satyldy. Näçe alma galdy?\n1) Belli: 5 gutu, her birinde 9; 12 satyldy. Soralýar: näçe galdy?\n2) Meýilnama: ilki jemi tap (×), soň satylany aýyr (−).\n3) 5 × 9 = 45 alma; 45 − 12 = 33 alma.\n4) Barlag: 33 + 12 = 45 ✓\nJogap: 33 alma galdy.",
+          "ru": "Задача: В магазине 5 ящиков яблок, в каждом по 9 яблок. Продали 12 яблок. Сколько яблок осталось?\n1) Известно: 5 ящиков по 9; продали 12. Спрашивают: сколько осталось?\n2) План: сначала найти, сколько всего (×), потом вычесть проданные (−).\n3) 5 × 9 = 45 яблок; 45 − 12 = 33 яблока.\n4) Проверка: 33 + 12 = 45 ✓\nОтвет: осталось 33 яблока."
+        }},
+        {"type": "input",
+          "q": {"tk": "Merjende 24 manat bar. Ol her biri 3 manatdan 4 sany depder satyn aldy. Onda näçe manat galdy?", "ru": "У Мерджен 24 маната. Она купила 4 тетради по 3 маната. Сколько манатов у неё осталось?"},
+          "answer": "12",
+          "hint": {"tk": "Ilki depderleriň bahasyny tap.", "ru": "Сначала найди стоимость тетрадей."},
+          "explain": {"tk": "4 × 3 = 12 manat — depderler. 24 − 12 = 12 manat galdy.", "ru": "4 × 3 = 12 манатов — тетради. 24 − 12 = 12 манатов осталось."}
+        },
+        {"type": "choice",
+          "q": {"tk": "36 okuwçy 4 topara deň bölündi. Bir toparda näçe okuwçy bar? Haýsy amal gerek?", "ru": "36 учеников разделили поровну на 4 группы. Сколько учеников в одной группе? Какое действие нужно?"},
+          "options": [
+            {"tk": "36 × 4", "ru": "36 × 4"},
+            {"tk": "36 − 4", "ru": "36 − 4"},
+            {"tk": "36 : 4", "ru": "36 : 4"}
+          ],
+          "answer": 2,
+          "hint": {"tk": "«Deň bölündi» sözlerine üns ber.", "ru": "Обрати внимание на слова «разделили поровну»."},
+          "explain": {"tk": "Deň paýlamak — bölmek: 36 : 4 = 9 okuwçy.", "ru": "Разделить поровну — это деление: 36 : 4 = 9 учеников."}
+        },
+        {"type": "input",
+          "q": {"tk": "Awtobusda 45 ýolagçy bardy. Duralgada 18 adam düşdi, 7 adam mündi. Awtobusda näçe ýolagçy boldy?", "ru": "В автобусе было 45 пассажиров. На остановке 18 вышли, 7 вошли. Сколько пассажиров стало в автобусе?"},
+          "answer": "34",
+          "hint": {"tk": "Ilki düşenleri aýyr, soň münenleri goş.", "ru": "Сначала вычти вышедших, потом прибавь вошедших."},
+          "explain": {"tk": "45 − 18 = 27; 27 + 7 = 34 ýolagçy.", "ru": "45 − 18 = 27; 27 + 7 = 34 пассажира."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Aýnada 8 marka, Mähride Aýnadan 3 esse köp marka bar. Mähride 11 marka bar.", "ru": "У Айны 8 марок, у Мяхри в 3 раза больше. У Мяхри 11 марок."},
+          "answer": false,
+          "hint": {"tk": "«3 esse köp» — goşmakmy ýa köpeltmek?", "ru": "«В 3 раза больше» — это сложение или умножение?"},
+          "explain": {"tk": "Ýalňyş. «3 esse köp» — köpeltmek: 8 × 3 = 24 marka. 11 bolsa «3 sany artyk» (8 + 3) bolardy.", "ru": "Неверно. «В 3 раза больше» — умножение: 8 × 3 = 24 марки. 11 было бы при «на 3 больше» (8 + 3)."}
+        },
+        {"type": "world", "text": {
+          "tk": "Wenger matematigi Jorj Polýa 1945-nji ýylda «Meseläni nädip çözmeli» atly kitap ýazypdyr. Onda meseläni çözmegiň 4 ädimi beýan edilýär: düşünmek, meýilnama düzmek, ýerine ýetirmek we barlamak. Bu usul häzir hem dünýäniň mekdeplerinde ulanylýar.",
+          "ru": "Венгерский математик Дьёрдь Пойа в 1945 году написал книгу «Как решать задачу». В ней описаны 4 шага: понять задачу, составить план, выполнить его и проверить. Этот метод и сейчас используют в школах всего мира."
+        }}
+      ]
+    }
+  ]
+}

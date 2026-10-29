@@ -1,0 +1,391 @@
+{
+  "grade": 11,
+  "subject": "biology",
+  "lessons": [
+    {
+      "id": "biology-11-human-genetics",
+      "grade": 11,
+      "topic": 0,
+      "title": {"tk": "Adamyň genetikasy: kariotip we nesil yzarlanýan keseller", "ru": "Генетика человека: кариотип и наследственные болезни"},
+      "minutes": 10,
+      "steps": [
+        {
+          "type": "theory",
+          "text": {
+            "tk": "Adamyň somatik öýjüginde 46 hromosoma (23 jübüt) bar. Olaryň 22 jübüti — autosomalar, 1 jübüti — jyns hromosomalary: aýallarda XX, erkeklerde XY. Hromosomalaryň doly toplumyna kariotip diýilýär.\n\nAdamyň genetikasyny öwrenmegiň esasy usullary:\n• Genealogik usul — maşgalanyň nesil şejeresini düzmek we alamatyň nähili geçýänini yzarlamak.\n• Ekizler usuly — bir ýumurtgadan we iki ýumurtgadan dörän ekizleri deňeşdirip, nesil we daşky gurşaw täsirini aýyrmak.\n• Sitogenetik usul — mikroskopda kariotipi öwrenmek.\n• Biohimiki we molekulýar usullar — belokleri we DNK-ny derňemek.\n\nNesil keselleriniň mysallary:\n• Daun sindromy — 21-nji hromosomanyň trisomiýasy (47 hromosoma).\n• Gemofiliýa we daltonizm — X hromosoma bilen ilteşikli resessiw keseller, şonuň üçin erkeklerde has köp duşýar.",
+            "ru": "В соматической клетке человека 46 хромосом (23 пары). Из них 22 пары — аутосомы, 1 пара — половые хромосомы: у женщин XX, у мужчин XY. Полный набор хромосом называется кариотипом.\n\nОсновные методы генетики человека:\n• Генеалогический — составление родословной и анализ того, как передаётся признак.\n• Близнецовый — сравнение однояйцевых и разнояйцевых близнецов, чтобы разделить влияние наследственности и среды.\n• Цитогенетический — изучение кариотипа под микроскопом.\n• Биохимический и молекулярный — анализ белков и ДНК.\n\nПримеры наследственных болезней:\n• Синдром Дауна — трисомия по 21-й хромосоме (47 хромосом).\n• Гемофилия и дальтонизм — рецессивные болезни, сцепленные с X-хромосомой, поэтому чаще встречаются у мужчин."
+          }
+        },
+        {
+          "type": "example",
+          "text": {
+            "tk": "Mesele: Ejesi gemofiliýa geniniň göterijisi (XᴴXʰ), kakasy sagdyn (XᴴY). Çagalar nähili bolup biler?\n\n1) Ejäniň gametalary: Xᴴ we Xʰ. Kakanyň gametalary: Xᴴ we Y.\n2) Punnet tablisasy:\n• XᴴXᴴ — sagdyn gyz\n• XᴴXʰ — göteriji gyz\n• XᴴY — sagdyn oglan\n• XʰY — gemofiliýaly oglan\n3) Netije: gyzlaryň hiç biri kesel däl (ýöne 50%-i göteriji), oglanlaryň 50%-i gemofiliýaly bolup biler.",
+            "ru": "Задача: мать — носительница гена гемофилии (XᴴXʰ), отец здоров (XᴴY). Какими могут быть дети?\n\n1) Гаметы матери: Xᴴ и Xʰ. Гаметы отца: Xᴴ и Y.\n2) Решётка Пеннета:\n• XᴴXᴴ — здоровая дочь\n• XᴴXʰ — дочь-носительница\n• XᴴY — здоровый сын\n• XʰY — сын с гемофилией\n3) Вывод: ни одна дочь не больна (но 50% — носительницы), у сыновей вероятность гемофилии 50%."
+          }
+        },
+        {
+          "type": "input",
+          "q": {"tk": "Adamyň somatik öýjüginde näçe autosoma bar?", "ru": "Сколько аутосом в соматической клетке человека?"},
+          "answer": "44",
+          "hint": {"tk": "23 jübütden jyns hromosomalarynyň jübütini aýyryň we jübütleri iki esse köpeldiň.", "ru": "Из 23 пар уберите пару половых хромосом и умножьте число пар на два."},
+          "explain": {"tk": "46 hromosomadan 2-si jyns hromosomasy (XX ýa-da XY), galan 44-i autosoma, ýagny 22 jübüt.", "ru": "Из 46 хромосом 2 — половые (XX или XY), остальные 44 — аутосомы, то есть 22 пары."}
+        },
+        {
+          "type": "choice",
+          "q": {"tk": "Daun sindromynyň sebäbi näme?", "ru": "Какова причина синдрома Дауна?"},
+          "options": [
+            {"tk": "X hromosomasynyň ýoklugy", "ru": "Отсутствие X-хромосомы"},
+            {"tk": "21-nji hromosomanyň trisomiýasy", "ru": "Трисомия по 21-й хромосоме"},
+            {"tk": "Bir geniň X hromosomadaky resessiw mutasiýasy", "ru": "Рецессивная мутация одного гена в X-хромосоме"}
+          ],
+          "answer": 1,
+          "hint": {"tk": "Bu sindromda kariotipde 47 hromosoma bolýar.", "ru": "При этом синдроме в кариотипе 47 хромосом."},
+          "explain": {"tk": "Daun sindromynda 21-nji hromosoma iki däl-de, üç sany bolýar — bu trisomiýa. Şonuň üçin hromosomalaryň umumy sany 47.", "ru": "При синдроме Дауна 21-я хромосома представлена не двумя, а тремя копиями — это трисомия. Поэтому всего 47 хромосом."}
+        },
+        {
+          "type": "truefalse",
+          "q": {"tk": "Daltonizm erkeklerde aýallara garanyňda has köp duşýar.", "ru": "Дальтонизм у мужчин встречается чаще, чем у женщин."},
+          "answer": true,
+          "hint": {"tk": "Erkeklerde näçe X hromosoma bar?", "ru": "Сколько X-хромосом у мужчин?"},
+          "explain": {"tk": "Daltonizmiň geni X hromosomada ýerleşýär we resessiwdir. Erkekde X hromosoma bir sany, şonuň üçin bir resessiw gen hem alamaty görkezýär. Aýalda bolsa iki resessiw gen gerek.", "ru": "Ген дальтонизма находится в X-хромосоме и рецессивен. У мужчины одна X-хромосома, поэтому достаточно одного рецессивного гена. Женщине нужны два таких гена."}
+        },
+        {
+          "type": "choice",
+          "q": {"tk": "Haýsy usul bir ýumurtgadan we iki ýumurtgadan dörän ekizleri deňeşdirýär?", "ru": "Какой метод сравнивает однояйцевых и разнояйцевых близнецов?"},
+          "options": [
+            {"tk": "Sitogenetik usul", "ru": "Цитогенетический метод"},
+            {"tk": "Genealogik usul", "ru": "Генеалогический метод"},
+            {"tk": "Ekizler usuly", "ru": "Близнецовый метод"}
+          ],
+          "answer": 2,
+          "hint": {"tk": "Usulyň ady soragyň özünde gizlenýär.", "ru": "Название метода подсказано в самом вопросе."},
+          "explain": {"tk": "Ekizler usuly bir ýumurtgadan dörän (genetiki taýdan meňzeş) we iki ýumurtgadan dörän ekizleri deňeşdirip, alamata nesliň we gurşawyň täsirini bahalandyrýar.", "ru": "Близнецовый метод сравнивает однояйцевых (генетически одинаковых) и разнояйцевых близнецов и так оценивает вклад наследственности и среды."}
+        }
+        ,
+        {
+          "type": "world",
+          "text": {
+            "tk": "«Adamyň genomy» halkara taslamasy 1990-njy ýylda başlanyp, 2003-nji ýylda tamamlandy. Alymlar adamyň DNK-synyň nukleotid yzygiderliginiň aglaba bölegini okadylar we adamda belok kodlaýan genleriň ýigrimi müňe golaý bolup çykandygyny anykladylar — bu öňki çaklamalardan has az.",
+            "ru": "Международный проект «Геном человека» начался в 1990 году и был завершён в 2003 году. Учёные прочитали большую часть последовательности ДНК человека и выяснили, что белок-кодирующих генов у человека около двадцати тысяч — гораздо меньше, чем предполагали раньше."
+          }
+        }
+      ]
+    },
+    {
+      "id": "biology-11-breeding",
+      "grade": 11,
+      "topic": 1,
+      "title": {"tk": "Seleksiýa: täze sortlary we tohumlary döretmek", "ru": "Селекция: создание новых сортов и пород"},
+      "minutes": 9,
+      "steps": [
+        {
+          "type": "theory",
+          "text": {
+            "tk": "Seleksiýa — adam üçin peýdaly alamatlary bolan ösümlik sortlaryny, haýwan tohumlaryny we mikroorganizm ştammlaryny döretmek baradaky ylym.\n\nN. I. Wawilow medeni ösümlikleriň gelip çykyş merkezlerini (Günorta-Aziýa tropik, Gündogar-Aziýa, Günorta-Günbatar Aziýa, Ortaýer deňzi, Abissiniýa, Merkezi Amerika, Günorta Amerika) kesgitledi. Bu merkezlerde ösümlikleriň genetik dürlüligi iň uly.\n\nEsasy usullar:\n• Emeli saýlama — köpçülikleýin we aýratyn (ýeke-täk) saýlama.\n• Gibridizasiýa — dürli sortlary ýa-da tohumlary çaknyşdyrmak.\n• Geterozis — birinji nesil (F1) gibridleriniň ene-atasyndan güýçli bolmagy.\n• Poliploidiýa — hromosoma toplumyny köpeltmek (köplenç ösümliklerde).\n• Eksperimental mutagenez — şöhle ýa-da himiki maddalar bilen mutasiýalary döretmek.",
+            "ru": "Селекция — наука о создании сортов растений, пород животных и штаммов микроорганизмов с полезными для человека признаками.\n\nН. И. Вавилов установил центры происхождения культурных растений (Южноазиатский тропический, Восточноазиатский, Юго-Западноазиатский, Средиземноморский, Абиссинский, Центральноамериканский, Южноамериканский). В этих центрах генетическое разнообразие растений наибольшее.\n\nОсновные методы:\n• Искусственный отбор — массовый и индивидуальный.\n• Гибридизация — скрещивание разных сортов или пород.\n• Гетерозис — превосходство гибридов первого поколения (F1) над родителями.\n• Полиплоидия — кратное увеличение набора хромосом (чаще у растений).\n• Экспериментальный мутагенез — получение мутаций с помощью излучения или химических веществ."
+          }
+        },
+        {
+          "type": "example",
+          "text": {
+            "tk": "Mysal: mekgejöweniň geterozisi.\n\n1) Seleksioner mekgejöweniň iki «arassa» liniýasyny birnäçe ýylyň dowamynda öz-özünden tozanlandyryp alýar. Olar gomozigot, ýöne hasyly pes.\n2) Bu iki liniýany çaknyşdyrýar. F1 gibridi köp genlerde geterozigot bolýar.\n3) Netije: F1 ösümlikleri güýçli, hasyly ene-atasyndan ep-esli ýokary.\n4) Ýöne F1 tohumlaryny indiki ýyl ekseň, F2-de alamatlar bölünýär we geterozis gowşaýar. Şonuň üçin daýhanlar gibrid tohumlaryny her ýyl täzeden satyn alýarlar.",
+            "ru": "Пример: гетерозис у кукурузы.\n\n1) Селекционер несколько лет путём самоопыления получает две «чистые» линии кукурузы. Они гомозиготны, но урожай у них низкий.\n2) Эти линии скрещивают. Гибрид F1 гетерозиготен по многим генам.\n3) Результат: растения F1 мощные, урожай заметно выше, чем у родителей.\n4) Но если посеять семена F1 на следующий год, в F2 признаки расщепляются, и гетерозис ослабевает. Поэтому фермеры каждый год заново покупают гибридные семена."
+          }
+        },
+        {
+          "type": "choice",
+          "q": {"tk": "Medeni ösümlikleriň gelip çykyş merkezleri baradaky taglymaty kim döretdi?", "ru": "Кто создал учение о центрах происхождения культурных растений?"},
+          "options": [
+            {"tk": "N. I. Wawilow", "ru": "Н. И. Вавилов"},
+            {"tk": "G. Mendel", "ru": "Г. Мендель"},
+            {"tk": "Ç. Darwin", "ru": "Ч. Дарвин"}
+          ],
+          "answer": 0,
+          "hint": {"tk": "Bu rus alymy dünýäniň köp ýurtlaryna ekspedisiýa gurap, uly tohum ýygyndysyny döretdi.", "ru": "Этот русский учёный организовал экспедиции по всему миру и собрал огромную коллекцию семян."},
+          "explain": {"tk": "Nikolaý Wawilow ekspedisiýalaryň netijesinde medeni ösümlikleriň dürlüliginiň iň köp ýerlerini — gelip çykyş merkezlerini kesgitledi.", "ru": "Николай Вавилов по итогам экспедиций выделил места наибольшего разнообразия культурных растений — центры их происхождения."}
+        },
+        {
+          "type": "truefalse",
+          "q": {"tk": "Geterozis effekti gibridleriň köp nesillerinde üýtgewsiz saklanýar.", "ru": "Эффект гетерозиса сохраняется без изменений во многих поколениях гибридов."},
+          "answer": false,
+          "hint": {"tk": "F2 neslinde Mendeliň haýsy kanuny işleýär?", "ru": "Какой закон Менделя действует во втором поколении?"},
+          "explain": {"tk": "Geterozis esasan F1-de güýçli bolýar. Indiki nesillerde alamatlar bölünýär, gomozigot formalar köpelýär we effekt gowşaýar.", "ru": "Гетерозис сильнее всего проявляется в F1. В следующих поколениях происходит расщепление, растёт доля гомозигот, и эффект ослабевает."}
+        },
+        {
+          "type": "input",
+          "q": {"tk": "Ýumşak bugdaý geksaploid (6n) we onuň öýjüginde 42 hromosoma bar. Esasy hromosoma toplumynda (x) näçe hromosoma bar?", "ru": "Мягкая пшеница — гексаплоид (6n), в её клетке 42 хромосомы. Сколько хромосом в основном наборе (x)?"},
+          "answer": "7",
+          "hint": {"tk": "42-ni toplumlaryň sanyna bölüň.", "ru": "Разделите 42 на число наборов."},
+          "explain": {"tk": "Geksaploidde esasy toplum alty gezek gaýtalanýar: 42 : 6 = 7.", "ru": "У гексаплоида основной набор повторяется шесть раз: 42 : 6 = 7."}
+        },
+        {
+          "type": "choice",
+          "q": {"tk": "Haýsy usul täze mutasiýalary emeli ýol bilen döretmäge esaslanýar?", "ru": "Какой метод основан на искусственном получении новых мутаций?"},
+          "options": [
+            {"tk": "Köpçülikleýin saýlama", "ru": "Массовый отбор"},
+            {"tk": "Eksperimental mutagenez", "ru": "Экспериментальный мутагенез"},
+            {"tk": "Geterozis", "ru": "Гетерозис"}
+          ],
+          "answer": 1,
+          "hint": {"tk": "Usulyň adynda «mutasiýa» sözüniň köki bar.", "ru": "В названии метода есть корень слова «мутация»."},
+          "explain": {"tk": "Eksperimental mutagenezde tohumlara şöhle ýa-da himiki mutagenler bilen täsir edilýär, soňra peýdaly mutasiýaly ösümlikler saýlanyp alynýar.", "ru": "При экспериментальном мутагенезе семена обрабатывают излучением или химическими мутагенами, а затем отбирают растения с полезными мутациями."}
+        },
+        {
+          "type": "world",
+          "text": {
+            "tk": "Amerikan seleksioneri Norman Borlaug ýokary hasylly, ýatmaýan pakga bugdaý sortlaryny döretdi. Olar Meksikada, Hindistanda we Pakistanda gallanyň önümini birnäçe esse artdyryp, «Ýaşyl rewolýusiýa» diýlip atlandyryldy. Borlaug 1970-nji ýylda Parahatçylyk boýunça Nobel baýragyna mynasyp boldy.",
+            "ru": "Американский селекционер Норман Борлоуг вывел высокоурожайные полукарликовые сорта пшеницы, устойчивые к полеганию. Они многократно увеличили сборы зерна в Мексике, Индии и Пакистане — это назвали «Зелёной революцией». В 1970 году Борлоуг получил Нобелевскую премию мира."
+          }
+        }
+      ]
+    },
+    {
+      "id": "biology-11-biotechnology",
+      "grade": 11,
+      "topic": 2,
+      "title": {"tk": "Biotehnologiýa we gen inženerligi", "ru": "Биотехнология и генная инженерия"},
+      "minutes": 10,
+      "steps": [
+        {
+          "type": "theory",
+          "text": {
+            "tk": "Biotehnologiýa — janly organizmleri we biologik prosesleri önümçilikde, lukmançylykda we oba hojalygynda ulanmak. Çörek bişirmek, gatyk we peýnir taýýarlamak gadymy biotehnologiýanyň mysallarydyr.\n\nHäzirki zaman biotehnologiýasynyň esasy ugurlary:\n• Gen inženerligi — bir organizmiň genini başga organizme geçirmek (rekombinant DNK).\n• Restriksiýa fermentleri DNK-ny belli ýerlerde kesýär, ligaza bolsa bölekleri birleşdirýär.\n• Plazmidalar — bakteriýalaryň kiçi halkaly DNK-sy, olar geni geçirýän «wektor» bolup hyzmat edýär.\n• PZR (polimeraza zynjyr reaksiýasy) — DNK-nyň bölegini millionlarça gezek köpeltmek usuly (K. Mullis, 1983).\n• Klonlamak — genetiki taýdan meňzeş organizm almak (Dolli goýny, 1996).\n• CRISPR-Cas9 — genomy takyk redaktirlemek usuly (2012).",
+            "ru": "Биотехнология — использование живых организмов и биологических процессов в производстве, медицине и сельском хозяйстве. Хлебопечение, приготовление йогурта и сыра — примеры древней биотехнологии.\n\nОсновные направления современной биотехнологии:\n• Генная инженерия — перенос гена одного организма в другой (рекомбинантная ДНК).\n• Рестриктазы разрезают ДНК в определённых местах, а лигаза сшивает фрагменты.\n• Плазмиды — небольшие кольцевые ДНК бактерий, служат «вектором» для переноса гена.\n• ПЦР (полимеразная цепная реакция) — метод многократного копирования участка ДНК (К. Муллис, 1983).\n• Клонирование — получение генетически идентичного организма (овечка Долли, 1996).\n• CRISPR-Cas9 — метод точного редактирования генома (2012)."
+          }
+        },
+        {
+          "type": "example",
+          "text": {
+            "tk": "Mysal: adam insulinini bakteriýada öndürmek.\n\n1) Adamyň insulin geni bolan DNK bölegi alynýar.\n2) Plazmida we gen şol bir restriksiýa fermenti bilen kesilýär — uçlary biri-birine gabat gelýär.\n3) Ligaza fermenti geni plazmida «tikýär» — rekombinant plazmida emele gelýär.\n4) Plazmida içege taýajygyna (E. coli) girizilýär.\n5) Bakteriýalar çalt köpelýär we adam insulinini sintezleýär. Ol arassalanyp, süýji diabetli näsaglar üçin derman hökmünde ulanylýar.\nBu usulda öndürilen insulin 1982-nji ýylda ulanmaga rugsat berlen ilkinji gen inženerlik dermanydyr.",
+            "ru": "Пример: производство человеческого инсулина в бактериях.\n\n1) Получают фрагмент ДНК с геном инсулина человека.\n2) Плазмиду и ген разрезают одной и той же рестриктазой — концы совпадают.\n3) Фермент лигаза «вшивает» ген в плазмиду — получается рекомбинантная плазмида.\n4) Плазмиду вводят в кишечную палочку (E. coli).\n5) Бактерии быстро размножаются и синтезируют человеческий инсулин. Его очищают и применяют для лечения больных сахарным диабетом.\nТакой инсулин, одобренный в 1982 году, стал первым генно-инженерным лекарством."
+          }
+        },
+        {
+          "type": "choice",
+          "q": {"tk": "DNK-ny belli nukleotid yzygiderliginde kesýän ferment nähili atlandyrylýar?", "ru": "Как называется фермент, разрезающий ДНК в определённой последовательности нуклеотидов?"},
+          "options": [
+            {"tk": "Ligaza", "ru": "Лигаза"},
+            {"tk": "Amilaza", "ru": "Амилаза"},
+            {"tk": "Restriksiýa fermenti (restriktaza)", "ru": "Рестриктаза (фермент рестрикции)"}
+          ],
+          "answer": 2,
+          "hint": {"tk": "Ligaza kesmeýär, tersine, birleşdirýär.", "ru": "Лигаза не разрезает, а наоборот — сшивает."},
+          "explain": {"tk": "Restriktazalar DNK-da belli «tanaýan» yzygiderlikleri tapyp, şol ýerde kesýär. Ligaza bölekleri birleşdirýär, amilaza bolsa krahmaly dargadýar.", "ru": "Рестриктазы находят в ДНК определённые «узнаваемые» последовательности и разрезают её там. Лигаза сшивает фрагменты, а амилаза расщепляет крахмал."}
+        },
+        {
+          "type": "input",
+          "q": {"tk": "PZR-iň her siklinde DNK-nyň sany iki esse artýar. 1 molekuladan 10 siklden soň näçe molekula bolar?", "ru": "В каждом цикле ПЦР число молекул ДНК удваивается. Сколько молекул получится из 1 молекулы через 10 циклов?"},
+          "answer": "1024",
+          "hint": {"tk": "2-ni 10-njy derejä göteriň.", "ru": "Возведите 2 в 10-ю степень."},
+          "explain": {"tk": "Her siklde iki esse: 1 → 2 → 4 → … → 2¹⁰ = 1024 molekula.", "ru": "Каждый цикл — удвоение: 1 → 2 → 4 → … → 2¹⁰ = 1024 молекулы."}
+        },
+        {
+          "type": "truefalse",
+          "q": {"tk": "Dolli goýny ulular goýnunyň somatik öýjüginiň ýadrosyndan klonlanyp alyndy.", "ru": "Овечка Долли была клонирована из ядра соматической клетки взрослой овцы."},
+          "answer": true,
+          "hint": {"tk": "Ýadro ýelin mäzi öýjüginden alnypdy.", "ru": "Ядро было взято из клетки молочной железы."},
+          "explain": {"tk": "Alymlar ulular goýnunyň ýelin mäzi öýjüginiň ýadrosyny ýadrosy aýrylan ýumurtga öýjügine geçirdiler. Bu ulular somatik öýjüginden klonlanan ilkinji süýdemdiriji boldy.", "ru": "Учёные пересадили ядро клетки молочной железы взрослой овцы в яйцеклетку без ядра. Долли стала первым млекопитающим, клонированным из взрослой соматической клетки."}
+        },
+        {
+          "type": "world",
+          "text": {
+            "tk": "2020-nji ýylda Himiýa boýunça Nobel baýragy Emmanuel Şarpante bilen Jennifer Daudna berildi. Olar CRISPR-Cas9 «genetik gaýçysyny» işläp düzdüler. Bu usul bakteriýalaryň wiruslardan goranyş ulgamyna esaslanýar we häzir ylmy barlaglarda, oba hojalygynda we nesil keselleriniň bejergisinde ulanylýar.",
+            "ru": "В 2020 году Нобелевскую премию по химии получили Эмманюэль Шарпантье и Дженнифер Дудна за создание «генетических ножниц» CRISPR-Cas9. Метод основан на защитной системе бактерий против вирусов и сейчас применяется в науке, сельском хозяйстве и в лечении наследственных болезней."
+          }
+        }
+      ]
+    },
+    {
+      "id": "biology-11-immunity",
+      "grade": 11,
+      "topic": 3,
+      "title": {"tk": "Immunitet we waksinasiýa", "ru": "Иммунитет и вакцинация"},
+      "minutes": 10,
+      "steps": [
+        {
+          "type": "theory",
+          "text": {
+            "tk": "Immunitet — organizmiň ýokanç keselleri döredijilerden we ýat maddalardan (antigenlerden) goranmak ukyby.\n\nIki derejesi bar:\n• Tebigy (nespesifik) immunitet — deri, nemli perdeler, fagositler (I. I. Meçnikow açdy), gyzzyrma. Ol çalt, ýöne «ýatda saklamaýar».\n• Uýgunlaşdyrylan (spesifik) immunitet — limfositler arkaly:\n  – B-limfositler antitelaleri (immunoglobulinleri) öndürýär — gumoral immunitet;\n  – T-limfositler ýokaşan öýjükleri ýok edýär we immun jogabyny dolandyrýar — öýjük immuniteti;\n  – ýat öýjükleri antigeni uzak wagtlap «ýatda saklaýar».\n\nImmunitetiň görnüşleri:\n• Işjeň — organizm antitelalary özi öndürýär (keselden soň ýa-da waksinadan soň).\n• Passiw — taýýar antitelalar daşyndan gelýär (ene süýdi, bejeriş syworotkasy).",
+            "ru": "Иммунитет — способность организма защищаться от возбудителей болезней и чужеродных веществ (антигенов).\n\nДва уровня защиты:\n• Врождённый (неспецифический) иммунитет — кожа, слизистые, фагоциты (открыл И. И. Мечников), лихорадка. Он быстрый, но «не запоминает».\n• Приобретённый (специфический) иммунитет — с помощью лимфоцитов:\n  – B-лимфоциты вырабатывают антитела (иммуноглобулины) — гуморальный иммунитет;\n  – T-лимфоциты уничтожают заражённые клетки и управляют иммунным ответом — клеточный иммунитет;\n  – клетки памяти надолго «запоминают» антиген.\n\nВиды иммунитета:\n• Активный — организм сам вырабатывает антитела (после болезни или прививки).\n• Пассивный — готовые антитела поступают извне (с молоком матери, лечебная сыворотка)."
+          }
+        },
+        {
+          "type": "example",
+          "text": {
+            "tk": "Mysal: waksina nähili işleýär?\n\n1) Waksinada gowşadylan ýa-da öldürilen mikrob, onuň bölegi ýa-da antigen barada maglumat bolýar. Ol keseli döretmeýär.\n2) Birinji immun jogaby: B- we T-limfositler antigeni «tanaýar», antitelalar birnäçe günüň içinde haýal köpelýär.\n3) Ýat öýjükleri emele gelýär.\n4) Hakyky mikrob soňra girse, ikinji immun jogaby başlanýar: ýat öýjükleri sebäpli antitelalar has çalt we has köp öndürilýär.\n5) Netije: adam ýa-da asla kesellemeýär, ýa-da ýeňil keselleýär. Bu emeli işjeň immunitetdir.",
+            "ru": "Пример: как работает вакцина?\n\n1) Вакцина содержит ослабленный или убитый микроб, его часть или информацию об антигене. Болезнь она не вызывает.\n2) Первичный иммунный ответ: B- и T-лимфоциты «узнают» антиген, антитела накапливаются медленно, за несколько дней.\n3) Образуются клетки памяти.\n4) Если позже попадёт настоящий микроб, начнётся вторичный ответ: благодаря клеткам памяти антитела вырабатываются быстрее и в большем количестве.\n5) Итог: человек не заболевает или болеет легко. Это искусственный активный иммунитет."
+          }
+        },
+        {
+          "type": "choice",
+          "q": {"tk": "Antitelalary haýsy öýjükler öndürýär?", "ru": "Какие клетки вырабатывают антитела?"},
+          "options": [
+            {"tk": "B-limfositler (plazma öýjükleri)", "ru": "B-лимфоциты (плазматические клетки)"},
+            {"tk": "Eritrositler", "ru": "Эритроциты"},
+            {"tk": "Trombositler", "ru": "Тромбоциты"}
+          ],
+          "answer": 0,
+          "hint": {"tk": "Bu öýjükler gumoral immuniteti üpjün edýär.", "ru": "Эти клетки обеспечивают гуморальный иммунитет."},
+          "explain": {"tk": "B-limfositler antigen bilen duşuşandan soň plazma öýjüklerine öwrülip, antitelalary bölüp çykarýar. Eritrositler kislorod daşaýar, trombositler gan uýamagyna gatnaşýar.", "ru": "После встречи с антигеном B-лимфоциты превращаются в плазматические клетки и выделяют антитела. Эритроциты переносят кислород, тромбоциты участвуют в свёртывании крови."}
+        },
+        {
+          "type": "truefalse",
+          "q": {"tk": "Bejeriş syworotkasy organizmde işjeň immunitet döredýär.", "ru": "Лечебная сыворотка создаёт в организме активный иммунитет."},
+          "answer": false,
+          "hint": {"tk": "Syworotkada antitelalar eýýäm taýýar görnüşde bar.", "ru": "В сыворотке антитела уже содержатся в готовом виде."},
+          "explain": {"tk": "Syworotka taýýar antitelalary berýär, ýagny passiw immunitet döredýär. Ol çalt täsir edýär, ýöne gysga wagtlap dowam edýär, sebäbi ýat öýjükleri emele gelmeýär.", "ru": "Сыворотка даёт готовые антитела, то есть создаёт пассивный иммунитет. Он действует быстро, но недолго, потому что клетки памяти не образуются."}
+        },
+        {
+          "type": "choice",
+          "q": {"tk": "Bäbegiň ene süýdi bilen alýan immuniteti haýsy görnüşe degişli?", "ru": "К какому виду относится иммунитет, который младенец получает с молоком матери?"},
+          "options": [
+            {"tk": "Emeli işjeň", "ru": "Искусственный активный"},
+            {"tk": "Tebigy passiw", "ru": "Естественный пассивный"},
+            {"tk": "Emeli passiw", "ru": "Искусственный пассивный"}
+          ],
+          "answer": 1,
+          "hint": {"tk": "Antitelalary bäbek özi öndürýärmi? Bu ýagdaý lukmanyň gatnaşmagynda bolýarmy?", "ru": "Вырабатывает ли ребёнок антитела сам? Участвует ли в этом врач?"},
+          "explain": {"tk": "Antitelalar ejeden taýýar gelýär — diýmek passiw. Bu tebigy ýol bilen bolýar — diýmek tebigy passiw immunitet.", "ru": "Антитела приходят от матери готовыми — значит, пассивный. Это происходит естественным путём — значит, естественный пассивный иммунитет."}
+        },
+        {
+          "type": "input",
+          "q": {"tk": "Edward Jenner sygyr çapyry arkaly ilkinji waksinasiýany haýsy ýylda geçirdi?", "ru": "В каком году Эдвард Дженнер провёл первую вакцинацию с помощью коровьей оспы?"},
+          "answer": "1796",
+          "hint": {"tk": "XVIII asyryň ahyry, Fransuz rewolýusiýasyndan birnäçe ýyl soň.", "ru": "Конец XVIII века, через несколько лет после Французской революции."},
+          "explain": {"tk": "1796-njy ýylda Jenner oglana sygyr çapyrynyň materialyny ýokuşdyrdy, soňra ol çapyra garşy durnukly boldy. «Waksina» sözi latynça «vacca» — «sygyr» sözünden gelip çykýar.", "ru": "В 1796 году Дженнер привил мальчику материал коровьей оспы, после чего тот оказался невосприимчив к натуральной оспе. Слово «вакцина» происходит от латинского vacca — «корова»."}
+        },
+        {
+          "type": "world",
+          "text": {
+            "tk": "Bütindünýä saglyk guramasy 1980-nji ýylda çapyryň (natural ospa) Ýer ýüzünde doly ýok edilendigini resmi taýdan yglan etdi. Bu adamzadyň waksinasiýa arkaly doly ýeňen ilkinji ýokanç keselidir.",
+            "ru": "В 1980 году Всемирная организация здравоохранения официально объявила, что натуральная оспа полностью ликвидирована на Земле. Это первая инфекционная болезнь человека, полностью побеждённая с помощью вакцинации."
+          }
+        }
+      ]
+    },
+    {
+      "id": "biology-11-origin-of-life",
+      "grade": 11,
+      "topic": 4,
+      "title": {"tk": "Ýer ýüzünde ýaşaýşyň döreýşi", "ru": "Происхождение жизни на Земле"},
+      "minutes": 10,
+      "steps": [
+        {
+          "type": "theory",
+          "text": {
+            "tk": "Ýeriň ýaşy takmynan 4,5 milliard ýyl. Iň gadymy ýaşaýyş yzlary (stromatolitler — bakteriýalaryň gatlakly galyndylary) 3,5 milliard ýyldan gadymy.\n\nGaýybana (öz-özünden) döreýiş baradaky köne pikir tejribeler bilen ret edildi:\n• F. Redi (XVII asyr) — ýapyk gapdaky etde gurçuk peýda bolmaýar.\n• L. Paster (1860-njy ýyllar) — «guw boýunly» kolbada gaýnadylan iýmit bulaşmaýar.\n\nAbiogenez gipotezasy (A. I. Oparin, 1924; J. Holdeýn, 1929):\n1) Gadymy atmosferada erkin kislorod azdy, ondaky gazlardan (CH₄, NH₃, H₂, H₂O) ýyldyrym we ultramelewşe şöhleleriň täsiri bilen ýönekeý organiki maddalar emele geldi.\n2) Olar okeanda toplanyp, «ilkinji buljumy» döretdi.\n3) Has çylşyrymly polimerler we koaserwat damjalary emele geldi.\n4) Öz-özüni köpeldýän molekulalar we ilkinji öýjükler peýda boldy.\n\n«RNK dünýäsi» gipotezasy: ilkinji nesil molekulasy RNK bolupdyr, sebäbi ol hem maglumat saklap, hem katalizator (ribozim) bolup bilýär.",
+            "ru": "Возраст Земли — около 4,5 миллиарда лет. Самые древние следы жизни (строматолиты — слоистые постройки бактерий) старше 3,5 миллиарда лет.\n\nСтарая идея самопроизвольного зарождения была опровергнута опытами:\n• Ф. Реди (XVII век) — в закрытом сосуде на мясе не появляются личинки.\n• Л. Пастер (1860-е годы) — прокипячённый бульон в колбе с S-образным горлышком не портится.\n\nГипотеза абиогенеза (А. И. Опарин, 1924; Дж. Холдейн, 1929):\n1) В древней атмосфере почти не было свободного кислорода; из её газов (CH₄, NH₃, H₂, H₂O) под действием молний и ультрафиолета возникли простые органические вещества.\n2) Они накапливались в океане — «первичный бульон».\n3) Образовались более сложные полимеры и коацерватные капли.\n4) Появились самовоспроизводящиеся молекулы и первые клетки.\n\nГипотеза «мира РНК»: первой молекулой наследственности была РНК, так как она может и хранить информацию, и работать катализатором (рибозим)."
+          }
+        },
+        {
+          "type": "example",
+          "text": {
+            "tk": "Mysal: Milleriň — Ýuriniň tejribesi (1953).\n\n1) Stenli Miller ýapyk aýna gurluşa metan, ammiak, wodorod we suw buguny goýberdi — gadymy atmosferanyň modeli.\n2) Suwy gaýnadyp («okean»), gazlaryň üstünden elektrik uçgunlaryny geçirdi («ýyldyrym»).\n3) Bug sowadylyp, ýene «okeana» akyp gelýärdi.\n4) Bir hepdeden soň suwda birnäçe aminokislota tapyldy.\nNetije: belokleriň «gerpiçleri» bolan aminokislotalar janly organizmleriň gatnaşmagyndan daşary, ýönekeý gazlardan emele gelip bilýär. Bu Oparin — Holdeýn gipotezasyny tejribe arkaly goldady.",
+            "ru": "Пример: опыт Миллера — Юри (1953).\n\n1) Стэнли Миллер заполнил замкнутую стеклянную установку метаном, аммиаком, водородом и водяным паром — моделью древней атмосферы.\n2) Воду кипятили («океан»), а через газы пропускали электрические разряды («молнии»).\n3) Пар охлаждался и стекал обратно в «океан».\n4) Через неделю в воде обнаружили несколько аминокислот.\nВывод: аминокислоты — «кирпичики» белков — могут образоваться из простых газов без участия живых организмов. Это экспериментально поддержало гипотезу Опарина — Холдейна."
+          }
+        },
+        {
+          "type": "choice",
+          "q": {"tk": "Guw boýunly kolbalar bilen tejribe geçirip, gaýybana döreýiş pikirini ret eden alym kim?", "ru": "Кто опроверг идею самозарождения опытами с колбами с S-образным горлышком?"},
+          "options": [
+            {"tk": "A. I. Oparin", "ru": "А. И. Опарин"},
+            {"tk": "S. Miller", "ru": "С. Миллер"},
+            {"tk": "L. Paster", "ru": "Л. Пастер"}
+          ],
+          "answer": 2,
+          "hint": {"tk": "Bu fransuz alymy süýdi gyzdyryp arassalamak usulyny hem oýlap tapdy.", "ru": "Этот французский учёный также придумал способ обеззараживания молока нагреванием."},
+          "explain": {"tk": "Lui Paster kolbanyň egrelen boýnunda mikroblaryň tozan bilen saklanyp galýandygyny we iýmitiň bulaşmaýandygyny görkezdi. Boýny döwlende bolsa iýmit tiz bulaşýardy.", "ru": "Луи Пастер показал, что микробы с пылью задерживаются в изгибе горлышка и бульон не портится. Стоило отломить горлышко — бульон быстро портился."}
+        },
+        {
+          "type": "input",
+          "q": {"tk": "Milleriň gadymy atmosferany modelleýän tejribesi haýsy ýylda geçirildi?", "ru": "В каком году был проведён опыт Миллера, моделирующий древнюю атмосферу?"},
+          "answer": "1953",
+          "hint": {"tk": "DNK-nyň goşa spiraly hem şol ýyl açyldy.", "ru": "В том же году была открыта двойная спираль ДНК."},
+          "explain": {"tk": "Stenli Miller tejribäni 1953-nji ýylda Harold Ýuriniň laboratoriýasynda geçirdi.", "ru": "Стэнли Миллер провёл опыт в 1953 году в лаборатории Гарольда Юри."}
+        },
+        {
+          "type": "truefalse",
+          "q": {"tk": "«RNK dünýäsi» gipotezasynyň esasy delili — RNK-nyň hem maglumat saklap, hem himiki reaksiýalary tizleşdirip bilmegi.", "ru": "Главный довод гипотезы «мира РНК» — РНК может и хранить информацию, и ускорять химические реакции."},
+          "answer": true,
+          "hint": {"tk": "Ribozimler näme?", "ru": "Что такое рибозимы?"},
+          "explain": {"tk": "Ribozimler — katalitik işjeňligi bolan RNK molekulalary. Diýmek, RNK DNK-nyň (maglumat) we belokleriň (ferment) wezipelerini bilelikde ýerine ýetirip bilýär.", "ru": "Рибозимы — молекулы РНК с каталитической активностью. Значит, РНК может совмещать функции ДНК (информация) и белков (ферменты)."}
+        },
+        {
+          "type": "world",
+          "text": {
+            "tk": "Awstraliýanyň günbataryndaky Şark-Beý aýlagynda häzir hem «janly» stromatolitler ösýär — olary sianobakteriýalar gurýar. Edil şeýle gurluşlaryň galyndylary Ýeriň iň gadymy jynslarynda tapylýar. Gadymy sianobakteriýalaryň fotosintezi milliardlarça ýylyň dowamynda atmosferany kislorod bilen baýlaşdyrdy.",
+            "ru": "В заливе Шарк-Бей на западе Австралии до сих пор растут «живые» строматолиты, которые строят цианобактерии. Окаменелости точно таких же построек находят в самых древних породах Земли. Фотосинтез древних цианобактерий за миллиарды лет насытил атмосферу кислородом."
+          }
+        }
+      ]
+    },
+    {
+      "id": "biology-11-human-evolution",
+      "grade": 11,
+      "topic": 5,
+      "title": {"tk": "Adamyň ewolýusiýasy", "ru": "Эволюция человека"},
+      "minutes": 10,
+      "steps": [
+        {
+          "type": "theory",
+          "text": {
+            "tk": "Adam we şimpanze umumy ata-babadan gelip çykýar: olaryň ýollary takmynan 6–7 million ýyl ozal Afrikada aýrylyşdy. Adam häzirki şimpanzeden gelip çykmandyr.\n\nEsasy tapgyrlar (takmyny senelerde):\n• Awstralopitekler (4–2 mln ýyl ozal) — iki aýakda ýöreýärdi, beýnisi kiçidi. Meşhur tapyndy — «Lýusi» (Efiopiýa, 1974).\n• Homo habilis — «ussat adam» (takm. 2,4–1,5 mln ýyl ozal) — ilkinji daş gurallar.\n• Homo erectus — «dik ýöreýän adam» (takm. 1,9 mln ýyl ozal peýda bolan) — oduň ulanylyşy, Afrikadan Ýewraziýa ýaýramak.\n• Neandertallar — Ýewropada we Günbatar Aziýada ýaşapdyrlar, takmynan 40 müň ýyl ozal ýitip gidipdirler.\n• Homo sapiens — «akylly adam» — takmynan 300 müň ýyl ozal Afrikada peýda bolup, soňra ähli materiklere ýaýrapdyr.\n\nAntropogeniň hereketlendiriji güýçleri: biologik faktorlar (mutasiýalar, tebigy saýlama) we sosial faktorlar (zähmet, dil, topar bolup ýaşamak).",
+            "ru": "Человек и шимпанзе произошли от общего предка: их линии разошлись около 6–7 миллионов лет назад в Африке. Человек не произошёл от современного шимпанзе.\n\nОсновные этапы (даты приблизительные):\n• Австралопитеки (4–2 млн лет назад) — ходили на двух ногах, мозг был небольшим. Знаменитая находка — «Люси» (Эфиопия, 1974).\n• Homo habilis — «человек умелый» (ок. 2,4–1,5 млн лет назад) — первые каменные орудия.\n• Homo erectus — «человек прямоходящий» (появился ок. 1,9 млн лет назад) — использование огня, расселение из Африки в Евразию.\n• Неандертальцы — жили в Европе и Западной Азии, исчезли около 40 тысяч лет назад.\n• Homo sapiens — «человек разумный» — появился около 300 тысяч лет назад в Африке и затем расселился по всем континентам.\n\nДвижущие силы антропогенеза: биологические факторы (мутации, естественный отбор) и социальные (труд, речь, жизнь в группе)."
+          }
+        },
+        {
+          "type": "example",
+          "text": {
+            "tk": "Mysal: tapyndylary wagt boýunça tertipläliň.\n\nBerlen: Homo erectus, awstralopitek «Lýusi», Homo sapiens, Homo habilis.\n\n1) «Lýusi» — takm. 3,2 mln ýyl ozal → iň gadymy.\n2) Homo habilis — takm. 2,4 mln ýyl ozal başlanýar.\n3) Homo erectus — takm. 1,9 mln ýyl ozal.\n4) Homo sapiens — takm. 0,3 mln (300 müň) ýyl ozal → iň täze.\n\nTertip: Lýusi → H. habilis → H. erectus → H. sapiens. Bu tertipde beýniniň göwrüminiň artýandygy we gurallaryň çylşyrymlaşýandygy görünýär. Ýöne ewolýusiýa düzgün «basgançak» däl-de, köp şahaly «agaç»: käbir görnüşler bir wagtda ýaşapdyr.",
+            "ru": "Пример: расположим находки по времени.\n\nДано: Homo erectus, австралопитек «Люси», Homo sapiens, Homo habilis.\n\n1) «Люси» — ок. 3,2 млн лет назад → самая древняя.\n2) Homo habilis — начиная примерно с 2,4 млн лет назад.\n3) Homo erectus — ок. 1,9 млн лет назад.\n4) Homo sapiens — ок. 0,3 млн (300 тысяч) лет назад → самый молодой.\n\nПорядок: Люси → H. habilis → H. erectus → H. sapiens. Видно, как растёт объём мозга и усложняются орудия. Но эволюция — не «лестница», а ветвистое «дерево»: некоторые виды жили одновременно."
+          }
+        },
+        {
+          "type": "truefalse",
+          "q": {"tk": "Adam häzirki zaman şimpanzesinden gelip çykypdyr.", "ru": "Человек произошёл от современного шимпанзе."},
+          "answer": false,
+          "hint": {"tk": "Şimpanze hem biziň bilen bir wagtda ewolýusiýa geçipdir.", "ru": "Шимпанзе тоже эволюционировали всё это время параллельно с нами."},
+          "explain": {"tk": "Adam bilen şimpanzäniň umumy ata-babasy bolupdyr. Takmynan 6–7 mln ýyl ozal iki ugur aýrylyşypdyr we her biri öz ýoly bilen ösüpdir.", "ru": "У человека и шимпанзе был общий предок. Около 6–7 млн лет назад линии разошлись, и каждая развивалась своим путём."}
+        },
+        {
+          "type": "choice",
+          "q": {"tk": "Ilkinji daş gurallary ýasanlar hasaplanýan görnüş haýsy?", "ru": "Какой вид считают создателем первых каменных орудий?"},
+          "options": [
+            {"tk": "Neandertal", "ru": "Неандерталец"},
+            {"tk": "Homo habilis", "ru": "Homo habilis"},
+            {"tk": "Homo sapiens", "ru": "Homo sapiens"}
+          ],
+          "answer": 1,
+          "hint": {"tk": "Görnüşiň latynça ady «ussat» diýmegi aňladýar.", "ru": "Латинское название вида означает «умелый»."},
+          "explain": {"tk": "Homo habilis — «ussat adam» — ýönekeý daş gurallar bilen baglanyşykly. Neandertallar we Homo sapiens has giçki we has kämil gurallary ulanypdyrlar.", "ru": "Homo habilis — «человек умелый» — связывают с простыми каменными орудиями. Неандертальцы и Homo sapiens пользовались более поздними и совершенными орудиями."}
+        },
+        {
+          "type": "input",
+          "q": {"tk": "Awstralopitek «Lýusiniň» skeleti Efiopiýada haýsy ýylda tapyldy?", "ru": "В каком году в Эфиопии нашли скелет австралопитека «Люси»?"},
+          "answer": "1974",
+          "hint": {"tk": "XX asyryň 70-nji ýyllarynyň ortasy.", "ru": "Середина 1970-х годов."},
+          "explain": {"tk": "«Lýusi» 1974-nji ýylda Efiopiýanyň Afar sebitinde tapyldy. Onuň ýaşy takmynan 3,2 mln ýyl, ol iki aýakda ýöräpdir.", "ru": "«Люси» нашли в 1974 году в районе Афар в Эфиопии. Её возраст — около 3,2 млн лет, она ходила на двух ногах."}
+        },
+        {
+          "type": "choice",
+          "q": {"tk": "Homo sapiens ilkinji gezek nirede peýda bolupdyr?", "ru": "Где впервые появился Homo sapiens?"},
+          "options": [
+            {"tk": "Afrikada", "ru": "В Африке"},
+            {"tk": "Ýewropada", "ru": "В Европе"},
+            {"tk": "Awstraliýada", "ru": "В Австралии"}
+          ],
+          "answer": 0,
+          "hint": {"tk": "Iň gadymy Homo sapiens galyndylary Marokkoda tapyldy.", "ru": "Самые древние останки Homo sapiens найдены в Марокко."},
+          "explain": {"tk": "Galyndylar we genetik maglumatlar Homo sapiens-iň Afrikada döräp, soňra Aziýa, Ýewropa, Awstraliýa we Amerika ýaýrandygyny görkezýär.", "ru": "Окаменелости и генетические данные показывают, что Homo sapiens возник в Африке и затем расселился в Азию, Европу, Австралию и Америку."}
+        },
+        {
+          "type": "world",
+          "text": {
+            "tk": "Şwed alymy Swante Paabo neandertallaryň genomyny gadymy süňklerden okady we 2022-nji ýylda Fiziologiýa we lukmançylyk boýunça Nobel baýragyny aldy. Onuň işleri Afrikadan daşarda ýaşaýan häzirki adamlaryň DNK-synyň az bölegi neandertallardan geçendigini görkezdi.",
+            "ru": "Шведский учёный Сванте Пэабо прочитал геном неандертальцев по древним костям и в 2022 году получил Нобелевскую премию по физиологии и медицине. Его работы показали, что небольшая часть ДНК современных людей, живущих за пределами Африки, унаследована от неандертальцев."
+          }
+        }
+      ]
+    }
+  ]
+}

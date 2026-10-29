@@ -1,0 +1,243 @@
+{
+  "grade": 9,
+  "subject": "geometry",
+  "lessons": [
+    {
+      "id": "geometry-9-vectors",
+      "grade": 9,
+      "topic": 0,
+      "title": {"tk": "Wektorlar", "ru": "Векторы"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Wektor — ugry görkezilen kesim. Onuň başlangyjy we soňy bar: AB⃗ ýa-da a⃗ diýip belleýärler.\n\n• Wektoryň uzynlygy (moduly): |a⃗|.\n• Deň wektorlaryň uzynlygy hem, ugry hem deňdir.\n• Bir gönüde ýa-da parallel göni çyzyklarda ýatýan wektorlara kollinear wektorlar diýilýär.\n\nKoordinatalarda: a⃗(x; y), |a⃗| = √(x² + y²).\n• Jem: a⃗ + b⃗ = (x₁ + x₂; y₁ + y₂)\n• Tapawut: a⃗ − b⃗ = (x₁ − x₂; y₁ − y₂)\n• San bilen köpeltmek: k·a⃗ = (kx; ky)\n• A(x₁; y₁), B(x₂; y₂) bolsa, AB⃗ = (x₂ − x₁; y₂ − y₁).",
+          "ru": "Вектор — направленный отрезок. У него есть начало и конец: обозначают AB⃗ или a⃗.\n\n• Длина (модуль) вектора: |a⃗|.\n• Равные векторы имеют одинаковую длину и одинаковое направление.\n• Векторы, лежащие на одной прямой или на параллельных прямых, называются коллинеарными.\n\nВ координатах: a⃗(x; y), |a⃗| = √(x² + y²).\n• Сумма: a⃗ + b⃗ = (x₁ + x₂; y₁ + y₂)\n• Разность: a⃗ − b⃗ = (x₁ − x₂; y₁ − y₂)\n• Умножение на число: k·a⃗ = (kx; ky)\n• Если A(x₁; y₁), B(x₂; y₂), то AB⃗ = (x₂ − x₁; y₂ − y₁)."}},
+        {"type": "example", "text": {
+          "tk": "a⃗(3; 4) we b⃗(1; −2) berlen.\n\n1) a⃗ + b⃗ = (3 + 1; 4 + (−2)) = (4; 2)\n2) 2b⃗ = (2·1; 2·(−2)) = (2; −4)\n3) |a⃗| = √(3² + 4²) = √25 = 5\n\nJogap: (4; 2), (2; −4), 5.",
+          "ru": "Даны a⃗(3; 4) и b⃗(1; −2).\n\n1) a⃗ + b⃗ = (3 + 1; 4 + (−2)) = (4; 2)\n2) 2b⃗ = (2·1; 2·(−2)) = (2; −4)\n3) |a⃗| = √(3² + 4²) = √25 = 5\n\nОтвет: (4; 2), (2; −4), 5."}},
+        {"type": "input",
+          "q": {"tk": "a⃗(6; 8) wektoryň uzynlygyny tapyň.", "ru": "Найдите длину вектора a⃗(6; 8)."},
+          "answer": "10",
+          "hint": {"tk": "|a⃗| = √(x² + y²) formulany ulanyň.", "ru": "Используйте формулу |a⃗| = √(x² + y²)."},
+          "explain": {"tk": "√(36 + 64) = √100 = 10.", "ru": "√(36 + 64) = √100 = 10."}},
+        {"type": "choice",
+          "q": {"tk": "a⃗(2; 5) we b⃗(1; 3) bolsa, a⃗ − b⃗ näçä deň?", "ru": "Если a⃗(2; 5) и b⃗(1; 3), чему равно a⃗ − b⃗?"},
+          "options": ["(3; 8)", "(1; 2)", "(2; 15)"],
+          "answer": 1,
+          "hint": {"tk": "Degişli koordinatalary aýyryň.", "ru": "Вычтите соответствующие координаты."},
+          "explain": {"tk": "(2 − 1; 5 − 3) = (1; 2).", "ru": "(2 − 1; 5 − 3) = (1; 2)."}},
+        {"type": "truefalse",
+          "q": {"tk": "Uzynlyklary deň, ýöne ugurlary garşylykly iki wektor deň wektorlardyr.", "ru": "Два вектора одинаковой длины, но противоположного направления, равны."},
+          "answer": false,
+          "hint": {"tk": "Deň wektorlar üçin iki şerti ýadyňyza salyň.", "ru": "Вспомните два условия равенства векторов."},
+          "explain": {"tk": "Deň wektorlaryň diňe uzynlygy däl, ugry hem gabat gelmeli. Garşylykly ugurly wektorlar deň däl.", "ru": "У равных векторов должны совпадать не только длины, но и направления. Противоположно направленные векторы не равны."}},
+        {"type": "input",
+          "q": {"tk": "A(1; 2) we B(4; 6) nokatlar berlen. AB⃗ wektoryň uzynlygyny tapyň.", "ru": "Даны точки A(1; 2) и B(4; 6). Найдите длину вектора AB⃗."},
+          "answer": "5",
+          "hint": {"tk": "Ilki AB⃗ wektoryň koordinatalaryny tapyň: soňuň koordinatalaryndan başlangyjyňkyny aýyryň.", "ru": "Сначала найдите координаты AB⃗: из координат конца вычтите координаты начала."},
+          "explain": {"tk": "AB⃗ = (3; 4), |AB⃗| = √(9 + 16) = 5.", "ru": "AB⃗ = (3; 4), |AB⃗| = √(9 + 16) = 5."}},
+        {"type": "world", "text": {
+          "tk": "«Wektor» adalgasyny XIX asyrda irlandiýaly matematik Uilýam Hamilton ylma girizipdir. Häzir wektorlar fizikada güýji, tizligi we tizlenmäni, kompýuter oýunlarynda bolsa gahrymanlaryň hereketini we ýagtylygyň ugruny hasaplamak üçin ulanylýar.",
+          "ru": "Термин «вектор» ввёл в науку в XIX веке ирландский математик Уильям Гамильтон. Сегодня векторами в физике описывают силу, скорость и ускорение, а в компьютерных играх — движение персонажей и направление света."}}
+      ]
+    },
+    {
+      "id": "geometry-9-coordinate-method",
+      "grade": 9,
+      "topic": 1,
+      "title": {"tk": "Koordinatalar usuly", "ru": "Метод координат"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Koordinatalar usulynda geometrik meseleler sanlar we formulalar arkaly çözülýär.\n\n• Iki nokadyň arasyndaky uzaklyk: d = √((x₂ − x₁)² + (y₂ − y₁)²)\n• AB kesimiň ortasy: M((x₁ + x₂)/2; (y₁ + y₂)/2)\n• Merkezi (a; b), radiusy r bolan töweregiň deňlemesi: (x − a)² + (y − b)² = r²\n• Göni çyzygyň deňlemesi: ax + by + c = 0 ýa-da y = kx + m\n\nNokat figuranyň üstünde ýatýan bolsa, onuň koordinatalary figuranyň deňlemesini kanagatlandyrýar.",
+          "ru": "В методе координат геометрические задачи решаются с помощью чисел и формул.\n\n• Расстояние между двумя точками: d = √((x₂ − x₁)² + (y₂ − y₁)²)\n• Середина отрезка AB: M((x₁ + x₂)/2; (y₁ + y₂)/2)\n• Уравнение окружности с центром (a; b) и радиусом r: (x − a)² + (y − b)² = r²\n• Уравнение прямой: ax + by + c = 0 или y = kx + m\n\nЕсли точка лежит на фигуре, её координаты удовлетворяют уравнению фигуры."}},
+        {"type": "example", "text": {
+          "tk": "A(−1; 3) we B(5; −5) berlen.\n\n1) Ortasy: M((−1 + 5)/2; (3 + (−5))/2) = M(2; −1)\n2) Uzynlygy: AB = √(6² + (−8)²) = √(36 + 64) = √100 = 10\n3) AB diametr bolan töweregiň merkezi M(2; −1), radiusy 5:\n(x − 2)² + (y + 1)² = 25",
+          "ru": "Даны A(−1; 3) и B(5; −5).\n\n1) Середина: M((−1 + 5)/2; (3 + (−5))/2) = M(2; −1)\n2) Длина: AB = √(6² + (−8)²) = √(36 + 64) = √100 = 10\n3) Окружность с диаметром AB имеет центр M(2; −1) и радиус 5:\n(x − 2)² + (y + 1)² = 25"}},
+        {"type": "input",
+          "q": {"tk": "(x − 1)² + (y + 2)² = 49 töweregiň radiusy näçä deň?", "ru": "Чему равен радиус окружности (x − 1)² + (y + 2)² = 49?"},
+          "answer": "7",
+          "hint": {"tk": "Sag tarapda r² dur.", "ru": "В правой части стоит r²."},
+          "explain": {"tk": "r² = 49, diýmek r = 7.", "ru": "r² = 49, значит r = 7."}},
+        {"type": "choice",
+          "q": {"tk": "(x − 3)² + (y + 5)² = 16 töweregiň merkezini tapyň.", "ru": "Найдите центр окружности (x − 3)² + (y + 5)² = 16."},
+          "options": ["(−3; 5)", "(3; 5)", "(3; −5)"],
+          "answer": 2,
+          "hint": {"tk": "Deňlemede (x − a) we (y − b) ýazylýar — alamatlara üns beriň.", "ru": "В уравнении записано (x − a) и (y − b) — следите за знаками."},
+          "explain": {"tk": "x − 3 → a = 3; y + 5 = y − (−5) → b = −5. Merkez (3; −5).", "ru": "x − 3 → a = 3; y + 5 = y − (−5) → b = −5. Центр (3; −5)."}},
+        {"type": "truefalse",
+          "q": {"tk": "(3; 4) nokat x² + y² = 25 töweregiň üstünde ýatýar.", "ru": "Точка (3; 4) лежит на окружности x² + y² = 25."},
+          "answer": true,
+          "hint": {"tk": "Nokadyň koordinatalaryny deňlemä goýuň.", "ru": "Подставьте координаты точки в уравнение."},
+          "explain": {"tk": "3² + 4² = 9 + 16 = 25 — deňleme ýerine ýetýär.", "ru": "3² + 4² = 9 + 16 = 25 — уравнение выполняется."}},
+        {"type": "input",
+          "q": {"tk": "O(0; 0) we P(5; 12) nokatlaryň arasyndaky uzaklygy tapyň.", "ru": "Найдите расстояние между точками O(0; 0) и P(5; 12)."},
+          "answer": "13",
+          "hint": {"tk": "√(5² + 12²) hasaplaň.", "ru": "Вычислите √(5² + 12²)."},
+          "explain": {"tk": "√(25 + 144) = √169 = 13.", "ru": "√(25 + 144) = √169 = 13."}},
+        {"type": "world", "text": {
+          "tk": "Koordinatalar usulyny fransuz alymy Rene Dekart 1637-nji ýylda çap edilen «Geometriýa» eserinde beýan edipdir. Şol döwürde Pýer Ferma hem bu pikire özbaşdak gelipdir. Gönüburçly koordinatalar ulgamyna şonuň üçin «dekart ulgamy» diýilýär, GPS-navigatorlar bolsa häzir hem koordinatalar bilen işleýär.",
+          "ru": "Метод координат изложил французский учёный Рене Декарт в труде «Геометрия», изданном в 1637 году. Независимо от него к этой идее пришёл Пьер Ферма. Поэтому прямоугольную систему координат называют «декартовой», а GPS-навигаторы и сегодня работают с координатами."}}
+      ]
+    },
+    {
+      "id": "geometry-9-sin-cos-tan",
+      "grade": 9,
+      "topic": 2,
+      "title": {"tk": "Sinus, kosinus, tangens", "ru": "Синус, косинус, тангенс"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Gönüburçly üçburçlukda ýiti α burç üçin:\n• sin α = garşysyndaky katet / gipotenuza\n• cos α = ýanaşyk katet / gipotenuza\n• tg α = garşysyndaky katet / ýanaşyk katet = sin α / cos α\n\nEsasy toždestwo: sin²α + cos²α = 1.\n\nMöhüm bahalar:\n• sin 30° = 1/2, cos 30° = √3/2\n• sin 45° = cos 45° = √2/2, tg 45° = 1\n• sin 60° = √3/2, cos 60° = 1/2",
+          "ru": "В прямоугольном треугольнике для острого угла α:\n• sin α = противолежащий катет / гипотенуза\n• cos α = прилежащий катет / гипотенуза\n• tg α = противолежащий катет / прилежащий катет = sin α / cos α\n\nОсновное тождество: sin²α + cos²α = 1.\n\nВажные значения:\n• sin 30° = 1/2, cos 30° = √3/2\n• sin 45° = cos 45° = √2/2, tg 45° = 1\n• sin 60° = √3/2, cos 60° = 1/2"}},
+        {"type": "example", "text": {
+          "tk": "Gönüburçly üçburçlugyň katetleri 3 we 4, gipotenuzasy 5. Uzynlygy 3 bolan katetiň garşysyndaky A burçy alalyň.\n\n• sin A = 3/5 = 0,6\n• cos A = 4/5 = 0,8\n• tg A = 3/4 = 0,75\n\nBarlag: 0,6² + 0,8² = 0,36 + 0,64 = 1 ✓",
+          "ru": "Катеты прямоугольного треугольника равны 3 и 4, гипотенуза 5. Возьмём угол A, лежащий против катета 3.\n\n• sin A = 3/5 = 0,6\n• cos A = 4/5 = 0,8\n• tg A = 3/4 = 0,75\n\nПроверка: 0,6² + 0,8² = 0,36 + 0,64 = 1 ✓"}},
+        {"type": "theory", "text": {
+          "tk": "0°-dan 180°-a çenli burçlar birlik töweregiň kömegi bilen kesgitlenýär: töweregiň üstündäki nokadyň koordinatalary (cos α; sin α).\n\nGetiriş formulalary:\n• sin(180° − α) = sin α\n• cos(180° − α) = −cos α\n\nŞonuň üçin kütek burçuň kosinusy otrisateldir: cos 120° = −cos 60° = −1/2.",
+          "ru": "Углы от 0° до 180° определяют с помощью единичной окружности: точка на окружности имеет координаты (cos α; sin α).\n\nФормулы приведения:\n• sin(180° − α) = sin α\n• cos(180° − α) = −cos α\n\nПоэтому косинус тупого угла отрицателен: cos 120° = −cos 60° = −1/2."}},
+        {"type": "input",
+          "q": {"tk": "sin 30° näçä deň? (onluk drob ýa-da adaty drob)", "ru": "Чему равен sin 30°? (десятичной или обыкновенной дробью)"},
+          "answer": "0.5|0,5|1/2",
+          "hint": {"tk": "Gipotenuzanyň ýarysyna deň katet 30°-lyk burçuň garşysynda ýatýar.", "ru": "Катет, лежащий против угла 30°, равен половине гипотенузы."},
+          "explain": {"tk": "30°-lyk burçuň garşysyndaky katet gipotenuzanyň ýarysy, şonuň üçin sin 30° = 1/2.", "ru": "Катет против угла 30° равен половине гипотенузы, поэтому sin 30° = 1/2."}},
+        {"type": "choice",
+          "q": {"tk": "cos 120° näçä deň?", "ru": "Чему равен cos 120°?"},
+          "options": ["1/2", "−1/2", "√3/2"],
+          "answer": 1,
+          "hint": {"tk": "120° = 180° − 60°.", "ru": "120° = 180° − 60°."},
+          "explain": {"tk": "cos 120° = −cos 60° = −1/2.", "ru": "cos 120° = −cos 60° = −1/2."}},
+        {"type": "truefalse",
+          "q": {"tk": "Ýiti α burç üçin sin α = 0,6 bolsa, cos α = 0,8.", "ru": "Если для острого угла α sin α = 0,6, то cos α = 0,8."},
+          "answer": true,
+          "hint": {"tk": "sin²α + cos²α = 1 ulanyň.", "ru": "Используйте sin²α + cos²α = 1."},
+          "explain": {"tk": "cos²α = 1 − 0,36 = 0,64, ýiti burç üçin cos α > 0, diýmek cos α = 0,8.", "ru": "cos²α = 1 − 0,36 = 0,64; для острого угла cos α > 0, значит cos α = 0,8."}},
+        {"type": "input",
+          "q": {"tk": "tg 45° näçä deň?", "ru": "Чему равен tg 45°?"},
+          "answer": "1",
+          "hint": {"tk": "45°-lyk gönüburçly üçburçlukda katetler deň.", "ru": "В прямоугольном треугольнике с углом 45° катеты равны."},
+          "explain": {"tk": "Katetler deň bolany üçin olaryň gatnaşygy 1.", "ru": "Катеты равны, поэтому их отношение равно 1."}},
+        {"type": "world", "text": {
+          "tk": "«Sinus» sözüniň gelip çykyşy gyzykly: hindi alymlarynyň «jýa» (ýaýyň kirşi) diýen adalgasy arap diline geçipdir, soň latyn diline terjime edilende «sinus» (eplenen ýer, aýlag) sözi bilen berlipdir. Orta asyrlarda trigonometrik tablisalary düzmekde musulman Gündogarynyň alymlary uly işler bitiripdirler.",
+          "ru": "У слова «синус» интересная история: индийский термин «джья» (тетива лука) перешёл в арабский язык, а при переводе на латынь его передали словом «sinus» (изгиб, залив). В Средние века большой вклад в составление тригонометрических таблиц внесли учёные мусульманского Востока."}}
+      ]
+    },
+    {
+      "id": "geometry-9-law-of-sines-cosines",
+      "grade": 9,
+      "topic": 3,
+      "title": {"tk": "Sinuslar we kosinuslar teoremasy", "ru": "Теоремы синусов и косинусов"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Islendik ABC üçburçlukda (a, b, c — A, B, C burçlaryň garşysyndaky taraplar):\n\nSinuslar teoremasy:\na / sin A = b / sin B = c / sin C = 2R,\nbu ýerde R — üçburçlugyň daşyndan çyzylan töweregiň radiusy.\n\nKosinuslar teoremasy:\nc² = a² + b² − 2ab·cos C\n\n• C = 90° bolsa, cos C = 0 we teorema Pifagoryň teoremasyna öwrülýär.\n• Uly burçuň garşysynda uly tarap ýatýar.",
+          "ru": "В любом треугольнике ABC (a, b, c — стороны, лежащие против углов A, B, C):\n\nТеорема синусов:\na / sin A = b / sin B = c / sin C = 2R,\nгде R — радиус описанной окружности.\n\nТеорема косинусов:\nc² = a² + b² − 2ab·cos C\n\n• При C = 90° cos C = 0, и теорема превращается в теорему Пифагора.\n• Против большего угла лежит большая сторона."}},
+        {"type": "example", "text": {
+          "tk": "a = 5, b = 8, C = 60°. c tarapy tapyň.\n\nc² = 5² + 8² − 2·5·8·cos 60°\nc² = 25 + 64 − 80·0,5 = 89 − 40 = 49\nc = 7\n\nJogap: 7.",
+          "ru": "a = 5, b = 8, C = 60°. Найдите сторону c.\n\nc² = 5² + 8² − 2·5·8·cos 60°\nc² = 25 + 64 − 80·0,5 = 89 − 40 = 49\nc = 7\n\nОтвет: 7."}},
+        {"type": "input",
+          "q": {"tk": "Üçburçlukda a = 3, b = 5, C = 120°. c tarapy tapyň.", "ru": "В треугольнике a = 3, b = 5, C = 120°. Найдите сторону c."},
+          "answer": "7",
+          "hint": {"tk": "cos 120° = −1/2. Minus alamata üns beriň.", "ru": "cos 120° = −1/2. Будьте внимательны со знаком."},
+          "explain": {"tk": "c² = 9 + 25 − 2·3·5·(−0,5) = 34 + 15 = 49, c = 7.", "ru": "c² = 9 + 25 − 2·3·5·(−0,5) = 34 + 15 = 49, c = 7."}},
+        {"type": "choice",
+          "q": {"tk": "Üçburçlukda a / sin A = 10. Daşyndan çyzylan töweregiň radiusy R näçä deň?", "ru": "В треугольнике a / sin A = 10. Чему равен радиус описанной окружности R?"},
+          "options": ["5", "10", "20"],
+          "answer": 0,
+          "hint": {"tk": "Gatnaşyk 2R-e deň.", "ru": "Отношение равно 2R."},
+          "explain": {"tk": "2R = 10, diýmek R = 5.", "ru": "2R = 10, значит R = 5."}},
+        {"type": "truefalse",
+          "q": {"tk": "Üçburçlukda uly tarap kiçi burçuň garşysynda ýatýar.", "ru": "В треугольнике большая сторона лежит против меньшего угла."},
+          "answer": false,
+          "hint": {"tk": "Sinuslar teoremasy: tarap burçuň sinusyna proporsional.", "ru": "По теореме синусов сторона пропорциональна синусу противолежащего угла."},
+          "explain": {"tk": "Tersine: uly burçuň garşysynda uly tarap ýatýar.", "ru": "Наоборот: против большего угла лежит большая сторона."}},
+        {"type": "input",
+          "q": {"tk": "Üçburçlukda a = 6, A = 30°, B = 90°. b tarapy tapyň.", "ru": "В треугольнике a = 6, A = 30°, B = 90°. Найдите сторону b."},
+          "answer": "12",
+          "hint": {"tk": "b = a · sin B / sin A.", "ru": "b = a · sin B / sin A."},
+          "explain": {"tk": "b = 6 · 1 / 0,5 = 12.", "ru": "b = 6 · 1 / 0,5 = 12."}},
+        {"type": "world", "text": {
+          "tk": "XIII asyrda ýaşan alym Nasyreddin Tusy tekiz we sferik üçburçluklar üçin sinuslar teoremasyny öz eserinde beýan edipdir. Bu teoremalar triangulýasiýada — uzak aralyklary ölçemegiň usulynda — ulanylýar: şeýle ölçegler arkaly kartalar düzülipdir we Ýeriň ölçegleri anyklanypdyr.",
+          "ru": "Учёный XIII века Насир ад-Дин ат-Туси изложил теорему синусов для плоских и сферических треугольников. Эти теоремы применяются в триангуляции — способе измерения больших расстояний: с её помощью составляли карты и уточняли размеры Земли."}}
+      ]
+    },
+    {
+      "id": "geometry-9-regular-polygons",
+      "grade": 9,
+      "topic": 4,
+      "title": {"tk": "Dogry köpburçluklar", "ru": "Правильные многоугольники"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Ähli taraplary we ähli burçlary deň bolan güberçek köpburçluga dogry köpburçluk diýilýär (deňtaraply üçburçluk, kwadrat, dogry altyburçluk...).\n\n• n-burçlugyň içki burçlarynyň jemi: 180°·(n − 2)\n• Dogry n-burçlugyň bir içki burçy: 180°·(n − 2) / n\n• Daşky burçlarynyň jemi: 360°, bir daşky burçy: 360° / n\n• Islendik dogry köpburçlugyň içinden we daşyndan töwerek çyzyp bolýar, olaryň merkezi umumy.\n\nDaşyndan çyzylan töweregiň radiusy R bilen tarap a:\n• üçburçluk: a = R√3\n• kwadrat: a = R√2\n• altyburçluk: a = R",
+          "ru": "Правильным называется выпуклый многоугольник, у которого все стороны равны и все углы равны (равносторонний треугольник, квадрат, правильный шестиугольник...).\n\n• Сумма внутренних углов n-угольника: 180°·(n − 2)\n• Один внутренний угол правильного n-угольника: 180°·(n − 2) / n\n• Сумма внешних углов: 360°, один внешний угол: 360° / n\n• В любой правильный многоугольник можно вписать окружность и около него описать окружность; их центры совпадают.\n\nСвязь стороны a с радиусом описанной окружности R:\n• треугольник: a = R√3\n• квадрат: a = R√2\n• шестиугольник: a = R"}},
+        {"type": "example", "text": {
+          "tk": "Dogry sekizburçlugyň burçlaryny tapalyň.\n\n1) Içki burçlaryň jemi: 180°·(8 − 2) = 1080°\n2) Bir içki burç: 1080° / 8 = 135°\n3) Bir daşky burç: 360° / 8 = 45°\n\nBarlag: 135° + 45° = 180° ✓",
+          "ru": "Найдём углы правильного восьмиугольника.\n\n1) Сумма внутренних углов: 180°·(8 − 2) = 1080°\n2) Один внутренний угол: 1080° / 8 = 135°\n3) Один внешний угол: 360° / 8 = 45°\n\nПроверка: 135° + 45° = 180° ✓"}},
+        {"type": "input",
+          "q": {"tk": "Dogry altyburçlugyň içki burçy näçe gradus?", "ru": "Сколько градусов составляет внутренний угол правильного шестиугольника?"},
+          "answer": "120",
+          "hint": {"tk": "180°·(n − 2) / n, n = 6.", "ru": "180°·(n − 2) / n, n = 6."},
+          "explain": {"tk": "180°·4 / 6 = 120°.", "ru": "180°·4 / 6 = 120°."}},
+        {"type": "choice",
+          "q": {"tk": "Dogry köpburçlugyň içki burçy 140°. Onuň näçe tarapy bar?", "ru": "Внутренний угол правильного многоугольника равен 140°. Сколько у него сторон?"},
+          "options": ["8", "10", "9"],
+          "answer": 2,
+          "hint": {"tk": "Ilki daşky burçy tapyň.", "ru": "Сначала найдите внешний угол."},
+          "explain": {"tk": "Daşky burç 180° − 140° = 40°, n = 360° / 40° = 9.", "ru": "Внешний угол 180° − 140° = 40°, n = 360° / 40° = 9."}},
+        {"type": "truefalse",
+          "q": {"tk": "Dogry altyburçlugyň tarapy onuň daşyndan çyzylan töweregiň radiusyna deň.", "ru": "Сторона правильного шестиугольника равна радиусу описанной окружности."},
+          "answer": true,
+          "hint": {"tk": "Altyburçlugy merkezden alty üçburçluga bölüň.", "ru": "Разбейте шестиугольник из центра на шесть треугольников."},
+          "explain": {"tk": "Merkezden geçirilen kesimler ony 6 sany deňtaraply üçburçluga bölýär, şonuň üçin a = R.", "ru": "Отрезки из центра делят его на 6 равносторонних треугольников, поэтому a = R."}},
+        {"type": "input",
+          "q": {"tk": "Dogry bäşburçlugyň daşky burçy näçe gradus?", "ru": "Сколько градусов составляет внешний угол правильного пятиугольника?"},
+          "answer": "72",
+          "hint": {"tk": "Daşky burçlaryň jemi 360°.", "ru": "Сумма внешних углов 360°."},
+          "explain": {"tk": "360° / 5 = 72°.", "ru": "360° / 5 = 72°."}},
+        {"type": "world", "text": {
+          "tk": "Bal arylary öýjüklerini dogry altyburçluk görnüşinde gurýar. Tekizligi deň meýdanly böleklere bölmegiň iň az serhet uzynlykly usulynyň dogry altyburçluklar bolýandygyny amerikan matematigi Tomas Heýls 1999-njy ýylda subut edipdir.",
+          "ru": "Пчёлы строят соты в форме правильных шестиугольников. То, что разбиение плоскости на равные по площади части с наименьшей общей длиной границ даёт именно правильные шестиугольники, доказал американский математик Томас Хейлс в 1999 году."}}
+      ]
+    },
+    {
+      "id": "geometry-9-circle-length-area",
+      "grade": 9,
+      "topic": 5,
+      "title": {"tk": "Töweregiň uzynlygy we tegelegiň meýdany", "ru": "Длина окружности и площадь круга"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Islendik töweregiň uzynlygynyň diametrine gatnaşygy hemişelik sandyr: π ≈ 3,14.\n\n• Töweregiň uzynlygy: C = 2πr = πd\n• Tegelegiň meýdany: S = πr²\n• α gradusly duganyň uzynlygy: l = πrα / 180°\n• α gradusly sektoryň meýdany: S = πr²α / 360°",
+          "ru": "Отношение длины любой окружности к её диаметру — постоянное число: π ≈ 3,14.\n\n• Длина окружности: C = 2πr = πd\n• Площадь круга: S = πr²\n• Длина дуги в α градусов: l = πrα / 180°\n• Площадь сектора в α градусов: S = πr²α / 360°"}},
+        {"type": "example", "text": {
+          "tk": "r = 5 sm bolan tegelek.\n\n1) C = 2π·5 = 10π ≈ 31,4 sm\n2) S = π·5² = 25π ≈ 78,5 sm²\n3) 72°-lyk duganyň uzynlygy: l = π·5·72 / 180 = 2π ≈ 6,28 sm",
+          "ru": "Круг радиуса r = 5 см.\n\n1) C = 2π·5 = 10π ≈ 31,4 см\n2) S = π·5² = 25π ≈ 78,5 см²\n3) Длина дуги в 72°: l = π·5·72 / 180 = 2π ≈ 6,28 см"}},
+        {"type": "input",
+          "q": {"tk": "Radiusy 10 sm bolan tegelegiň meýdanyny tapyň (π = 3,14). Jogaby sm²-de ýazyň.", "ru": "Найдите площадь круга радиусом 10 см (π = 3,14). Ответ в см²."},
+          "answer": "314",
+          "hint": {"tk": "S = πr².", "ru": "S = πr²."},
+          "explain": {"tk": "3,14 · 100 = 314 sm².", "ru": "3,14 · 100 = 314 см²."}},
+        {"type": "choice",
+          "q": {"tk": "Tegelegiň radiusy 2 esse ulaldylsa, meýdany näçe esse ulalar?", "ru": "Во сколько раз увеличится площадь круга, если радиус увеличить в 2 раза?"},
+          "options": [{"tk": "2 esse", "ru": "в 2 раза"}, {"tk": "4 esse", "ru": "в 4 раза"}, {"tk": "π esse", "ru": "в π раз"}],
+          "answer": 1,
+          "hint": {"tk": "Meýdan radiusyň kwadratyna proporsional.", "ru": "Площадь пропорциональна квадрату радиуса."},
+          "explain": {"tk": "π(2r)² = 4πr² — meýdan 4 esse ulalýar.", "ru": "π(2r)² = 4πr² — площадь увеличивается в 4 раза."}},
+        {"type": "truefalse",
+          "q": {"tk": "90°-lyk sektoryň meýdany tegelegiň meýdanynyň ýarysyna deň.", "ru": "Площадь сектора в 90° равна половине площади круга."},
+          "answer": false,
+          "hint": {"tk": "90° tutuş 360°-nyň haýsy bölegi?", "ru": "Какую часть от 360° составляет 90°?"},
+          "explain": {"tk": "90° / 360° = 1/4, diýmek sektor tegelegiň dörtden biri.", "ru": "90° / 360° = 1/4, значит сектор — четверть круга."}},
+        {"type": "input",
+          "q": {"tk": "Töweregiň uzynlygy 6π. Onuň radiusyny tapyň.", "ru": "Длина окружности равна 6π. Найдите её радиус."},
+          "answer": "3",
+          "hint": {"tk": "2πr = 6π.", "ru": "2πr = 6π."},
+          "explain": {"tk": "r = 6π / 2π = 3.", "ru": "r = 6π / 2π = 3."}},
+        {"type": "world", "text": {
+          "tk": "Gadymy grek alymy Arhimed tegelegiň içinden we daşyndan 96 burçly dogry köpburçluklary çyzyp, π sanyň 3 10/71 bilen 3 1/7 aralygynda ýatýandygyny subut edipdir. Häzirki kompýuterler π sanyň trillionlarça onluk belgisini hasaplady.",
+          "ru": "Древнегреческий учёный Архимед, вписав в круг и описав около него правильные 96-угольники, доказал, что π лежит между 3 10/71 и 3 1/7. Современные компьютеры вычислили триллионы десятичных знаков числа π."}}
+      ]
+    }
+  ]
+}

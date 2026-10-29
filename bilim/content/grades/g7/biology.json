@@ -1,0 +1,246 @@
+{
+  "grade": 7,
+  "subject": "biology",
+  "lessons": [
+    {
+      "id": "biology-7-animal-classification",
+      "grade": 7,
+      "topic": 0,
+      "title": {"tk": "Haýwanlaryň klassifikasiýasy", "ru": "Классификация животных"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Ýer ýüzünde 1,5 milliondan gowrak haýwan görnüşi suratlandyryldy. Olary öwrenmek üçin alymlar haýwanlary meňzeşlik we garyndaşlyk boýunça toparlara bölýärler. Bu ylma sistematika (taksonomiýa) diýilýär.\n\nEsasy derejeler (ulydan kiçä):\n• Patyşalyk — Haýwanlar\n• Tip — mysal üçin, Hordalylar\n• Synp — mysal üçin, Süýdemdirijiler\n• Otrýad — mysal üçin, Ýyrtyjylar\n• Maşgala — mysal üçin, Pişikler\n• Urug — mysal üçin, Panthera\n• Görnüş — mysal üçin, Arslan\n\nGörnüş — iň kiçi esasy birlik. Bir görnüşiň wekilleri biri-birine meňzeýär we önelijili nesil berýär.\n\nŞwed alymy Karl Linneý (1707–1778) iki sözli at ulgamyny (binar nomenklaturany) girizdi: birinji söz — urug, ikinji söz — görnüş. Mysal: Panthera leo — arslan. Bu atlar latynça ýazylýar we bütin dünýäde birmeňzeş.",
+          "ru": "На Земле описано более 1,5 миллиона видов животных. Чтобы их изучать, учёные объединяют животных в группы по сходству и родству. Эта наука называется систематикой (таксономией).\n\nОсновные ранги (от крупного к мелкому):\n• Царство — Животные\n• Тип — например, Хордовые\n• Класс — например, Млекопитающие\n• Отряд — например, Хищные\n• Семейство — например, Кошачьи\n• Род — например, Panthera\n• Вид — например, Лев\n\nВид — наименьшая основная единица. Особи одного вида похожи друг на друга и дают плодовитое потомство.\n\nШведский учёный Карл Линней (1707–1778) ввёл систему двойных названий (бинарную номенклатуру): первое слово — род, второе — вид. Пример: Panthera leo — лев. Названия пишутся по-латыни и одинаковы во всём мире."
+        }},
+        {"type": "example", "text": {
+          "tk": "Gurdy klassifikasiýalalyň:\n1) Ol köp öýjükli, taýýar organiki maddalar bilen iýmitlenýär → Patyşalyk: Haýwanlar.\n2) Onuň oňurga sütüni (hordasy) bar → Tip: Hordalylar.\n3) Bedeni ýüň bilen örtülen, çagalaryny süýt bilen iýmitlendirýär → Synp: Süýdemdirijiler.\n4) Ýyrtyjy dişleri bar, et iýýär → Otrýad: Ýyrtyjylar.\n5) Itler, şagallar, tilkiler bilen meňzeş → Maşgala: Itler.\n6) Urug: Canis.\n7) Görnüş: Canis lupus — möjek (gurt).\n\nIt hem şol uruga degişli, şonuň üçin it we gurt ýakyn garyndaşlar.",
+          "ru": "Классифицируем волка:\n1) Многоклеточный, питается готовыми органическими веществами → Царство: Животные.\n2) Есть позвоночник (хорда) → Тип: Хордовые.\n3) Тело покрыто шерстью, детёнышей выкармливает молоком → Класс: Млекопитающие.\n4) Есть хищные зубы, питается мясом → Отряд: Хищные.\n5) Похож на собак, шакалов, лис → Семейство: Псовые.\n6) Род: Canis.\n7) Вид: Canis lupus — волк.\n\nСобака относится к тому же роду, поэтому собака и волк — близкие родственники."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Sistematikanyň iň kiçi esasy birligi haýsy?", "ru": "Какая единица систематики — наименьшая основная?"},
+          "options": [{"tk": "Synp", "ru": "Класс"}, {"tk": "Maşgala", "ru": "Семейство"}, {"tk": "Görnüş", "ru": "Вид"}],
+          "answer": 2,
+          "hint": {"tk": "Sanawyň iň soňky derejesini ýadyňa sal.", "ru": "Вспомни последний ранг в списке."},
+          "explain": {"tk": "Tertip: patyşalyk → tip → synp → otrýad → maşgala → urug → görnüş. Görnüş iň kiçi esasy birlik.", "ru": "Порядок: царство → тип → класс → отряд → семейство → род → вид. Вид — наименьшая основная единица."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Canis lupus adynda birinji söz urugy, ikinji söz görnüşi aňladýar.", "ru": "В названии Canis lupus первое слово обозначает род, а второе — вид."},
+          "answer": true,
+          "hint": {"tk": "Linneýiň iki sözli ulgamyny ýatla.", "ru": "Вспомни двойные названия Линнея."},
+          "explain": {"tk": "Dogry. Canis — urug, lupus — görnüş ady. Ikisi bilelikde görnüşiň doly ylmy adyny berýär.", "ru": "Верно. Canis — род, lupus — видовой эпитет. Вместе они дают полное научное название вида."}
+        },
+        {"type": "input",
+          "q": {"tk": "Linneýiň ulgamynda görnüşiň ylmy ady näçe sözden ybarat?", "ru": "Из скольких слов состоит научное название вида в системе Линнея?"},
+          "answer": "2|iki|два",
+          "hint": {"tk": "Ulgamyň ady «binar» — bu nämäni aňladýar?", "ru": "Система называется «бинарной» — что это значит?"},
+          "explain": {"tk": "«Binar» — «iki bölekli». Ady urugdan we görnüşden ybarat: 2 söz.", "ru": "«Бинарный» — «двойной». Название состоит из рода и вида: 2 слова."}
+        },
+        {"type": "world", "text": {
+          "tk": "Karl Linneý 1735-nji ýylda «Tebigatyň ulgamy» (Systema Naturae) kitabyny çap etdi. Onuň 1758-nji ýyldaky 10-njy neşiri häzir hem haýwanlaryň ylmy atlarynyň resmi başlangyç nokady hasaplanýar.",
+          "ru": "Карл Линней в 1735 году издал книгу «Система природы» (Systema Naturae). Её 10-е издание 1758 года до сих пор считается официальной отправной точкой научных названий животных."
+        }}
+      ]
+    },
+    {
+      "id": "biology-7-invertebrates",
+      "grade": 7,
+      "topic": 1,
+      "title": {"tk": "Oňurgasyzlar", "ru": "Беспозвоночные"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Oňurgasyzlar — oňurga sütüni bolmadyk haýwanlar. Olar ähli haýwan görnüşleriniň 95%-den gowragyny düzýär.\n\nEsasy toparlar:\n• Gubkalar — iň ýönekeý, suwda berkidilip ýaşaýar.\n• Içegeboşluklylar — gidra, meduzalar, marjanlar; ýakýan öýjükleri bar.\n• Gurçuklar — ýasy (planariýa), tegelek (askarida), halkaly (ýagyş gurçugy).\n• Mollýusklar — ulitkalar, midiýalar, osminoglar; bedeni ýumşak, köplenç çanagy bar.\n• Buwnaýaklylar — mör-möjekler, möýler, şeýle hem rak şekilliler; daşky skeleti we bölekli aýaklary bar.\n• Iňňetenliler — deňiz ýyldyzlary, deňiz kirpileri.\n\nKöp oňurgasyzlaryň daşky skeleti (çanagy ýa-da hitin örtügi) bolýar, ýöne käbirleri düýbünden skeletsiz.",
+          "ru": "Беспозвоночные — животные без позвоночника. Они составляют более 95% всех видов животных.\n\nОсновные группы:\n• Губки — самые простые, живут в воде, прикреплённо.\n• Кишечнополостные — гидра, медузы, кораллы; есть стрекательные клетки.\n• Черви — плоские (планария), круглые (аскарида), кольчатые (дождевой червь).\n• Моллюски — улитки, мидии, осьминоги; мягкое тело, часто есть раковина.\n• Членистоногие — насекомые, пауки, ракообразные; наружный скелет и членистые конечности.\n• Иглокожие — морские звёзды, морские ежи.\n\nУ многих беспозвоночных есть наружный скелет (раковина или хитиновый покров), а некоторые вообще не имеют скелета."
+        }},
+        {"type": "example", "text": {
+          "tk": "Ýagyş gurçugyny öwreneliň:\n1) Bedeni köp sanly halkalardan (segmentlerden) ybarat → halkaly gurçuklar.\n2) Kölegede, çygly toprakda ýaşaýar, deri arkaly dem alýar — şonuň üçin ýagyşdan soň ýeriň ýüzüne çykýar.\n3) Çüýreýän ösümlik galyndylary bilen iýmitlenýär, topragy gazyp gowşadýar we dökünleýär.\n4) Netije: ýagyş gurçugy — ekerançylyk üçin peýdaly oňurgasyz haýwan.",
+          "ru": "Изучим дождевого червя:\n1) Тело состоит из множества колец (сегментов) → кольчатые черви.\n2) Живёт во влажной почве, дышит через кожу — поэтому после дождя выползает на поверхность.\n3) Питается гниющими остатками растений, рыхлит и удобряет почву.\n4) Вывод: дождевой червь — полезное для земледелия беспозвоночное."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Osminog haýsy topara degişli?", "ru": "К какой группе относится осьминог?"},
+          "options": [{"tk": "Mollýusklar", "ru": "Моллюски"}, {"tk": "Gurçuklar", "ru": "Черви"}, {"tk": "Iňňetenliler", "ru": "Иглокожие"}],
+          "answer": 0,
+          "hint": {"tk": "Osminogyň bedeni ýumşak, ulitka bilen garyndaş.", "ru": "Тело осьминога мягкое, он родственник улитки."},
+          "explain": {"tk": "Osminog — kelleaýakly mollýusk. Onuň çanagy ýok, ýöne bedeniniň gurluşy boýunça ulitkalar we midiýalar bilen bir topara girýär.", "ru": "Осьминог — головоногий моллюск. Раковины у него нет, но по строению тела он в одной группе с улитками и мидиями."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Meduzanyň oňurga sütüni bar.", "ru": "У медузы есть позвоночник."},
+          "answer": false,
+          "hint": {"tk": "Meduza haýsy topara girýär?", "ru": "К какой группе относится медуза?"},
+          "explain": {"tk": "Ýalňyş. Meduza — içegeboşlukly oňurgasyz haýwan, onuň hiç hili süňki ýok.", "ru": "Неверно. Медуза — кишечнополостное беспозвоночное, у неё нет никаких костей."}
+        },
+        {"type": "input",
+          "q": {"tk": "Möýüň näçe aýagy bar?", "ru": "Сколько ног у паука?"},
+          "answer": "8",
+          "hint": {"tk": "Mör-möjeklerden has köp.", "ru": "Больше, чем у насекомых."},
+          "explain": {"tk": "Möýlerde 4 jübüt, ýagny 8 aýak bar. Mör-möjeklerde bolsa 6 aýak. Şonuň üçin möý mör-möjek däl.", "ru": "У пауков 4 пары, то есть 8 ног. У насекомых — 6. Поэтому паук не насекомое."}
+        },
+        {"type": "world", "text": {
+          "tk": "Osminogyň üç ýüregi bar: ikisi gany galsamalara (jemlere), biri bolsa bütin bedene iberýär. Onuň gany gök reňkli, sebäbi kislorody demir däl-de, mis saklaýan belok (gemosianin) daşaýar.",
+          "ru": "У осьминога три сердца: два качают кровь через жабры, а третье — по всему телу. Кровь у него голубая, потому что кислород переносит не железо, а медьсодержащий белок гемоцианин."
+        }}
+      ]
+    },
+    {
+      "id": "biology-7-insects",
+      "grade": 7,
+      "topic": 2,
+      "title": {"tk": "Mör-möjekler: gurluşy we ösüşi", "ru": "Насекомые: строение и развитие"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Mör-möjekler — buwnaýaklylaryň iň köp sanly synpy: 1 milliondan gowrak görnüşi suratlandyryldy.\n\nGurluşynyň esasy alamatlary:\n• Bedeni 3 bölekden ybarat: kelle, döş, garyn.\n• Döşünde 3 jübüt (6) aýak bar.\n• Köplenç 2 jübüt ganaty bar (siňeklerde — 1 jübüt).\n• Kellesinde 1 jübüt murtjagazy (antennasy) we köp sanly ýönekeý gözlerden düzülen ýüzlükli gözleri bar.\n• Daşky skeleti hitinden ybarat; ösmek üçin mör-möjek deri taşlaýar.\n• Traheýalar (howa turbajyklary) arkaly dem alýar.\n\nÖsüşiň iki görnüşi:\n• Doly öwrülişik: ýumurtga → liçinka → gurjak → ulalan (kebelek, tomzak, ary, siňek).\n• Doly däl öwrülişik: ýumurtga → liçinka (nimfa) → ulalan; gurjak tapgyry ýok (çekirtge, iňňeguýruk, ganatlylar).",
+          "ru": "Насекомые — самый многочисленный класс членистоногих: описано более 1 миллиона видов.\n\nГлавные признаки строения:\n• Тело из 3 отделов: голова, грудь, брюшко.\n• На груди 3 пары (6) ног.\n• Обычно 2 пары крыльев (у мух — 1 пара).\n• На голове 1 пара усиков (антенн) и фасеточные глаза из множества простых глазков.\n• Наружный скелет из хитина; чтобы расти, насекомое линяет.\n• Дышат трахеями (воздушными трубочками).\n\nДва типа развития:\n• С полным превращением: яйцо → личинка → куколка → взрослое (бабочки, жуки, пчёлы, мухи).\n• С неполным превращением: яйцо → личинка (нимфа) → взрослое; стадии куколки нет (кузнечики, стрекозы, клопы)."
+        }},
+        {"type": "example", "text": {
+          "tk": "Ýüpek gurçugynyň (Bombyx mori) ösüşini yzarlalyň:\n1) Kebelek ýumurtga goýýar.\n2) Ýumurtgadan liçinka — «ýüpek gurçugy» çykýar. Ol tut ýapragy bilen iýmitlenýär we birnäçe gezek deri taşlap ulalýar.\n3) Liçinka ýüpek sapagyndan pile örüp, onuň içinde gurjaga öwrülýär.\n4) Gurjakdan ulalan kebelek çykýar.\n\nGurjak tapgyry bar → bu doly öwrülişik. Ýüpek sapagy hut şu pileden alynýar.",
+          "ru": "Проследим развитие тутового шелкопряда (Bombyx mori):\n1) Бабочка откладывает яйца.\n2) Из яйца выходит личинка — «шелковичный червь». Она питается листьями шелковицы (тута) и растёт, несколько раз линяя.\n3) Личинка плетёт кокон из шёлковой нити и внутри превращается в куколку.\n4) Из куколки выходит взрослая бабочка.\n\nЕсть стадия куколки → это полное превращение. Шёлковую нить получают именно из кокона."
+        }},
+        {"type": "input",
+          "q": {"tk": "Mör-möjegiň näçe aýagy bar?", "ru": "Сколько ног у насекомого?"},
+          "answer": "6|alty|шесть",
+          "hint": {"tk": "Döşüniň her böleginde bir jübüt aýak bar, döş 3 bölekden ybarat.", "ru": "На каждом из 3 сегментов груди — по паре ног."},
+          "explain": {"tk": "3 jübüt × 2 = 6 aýak. Bu mör-möjekleriň esasy alamatlarynyň biri.", "ru": "3 пары × 2 = 6 ног. Это один из главных признаков насекомых."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy mör-möjek doly däl öwrülişik bilen ösýär?", "ru": "Какое насекомое развивается с неполным превращением?"},
+          "options": [{"tk": "Kebelek", "ru": "Бабочка"}, {"tk": "Çekirtge", "ru": "Кузнечик"}, {"tk": "Ary", "ru": "Пчела"}],
+          "answer": 1,
+          "hint": {"tk": "Gurjak tapgyry bolmadyk mör-möjegi gözle.", "ru": "Ищи насекомое без стадии куколки."},
+          "explain": {"tk": "Çekirtgäniň liçinkasy ulalan çekirtgä meňzeýär we gurjaksyz ulalýar. Kebelek we ary gurjak tapgyryny geçýär.", "ru": "Личинка кузнечика похожа на взрослого и растёт без куколки. Бабочка и пчела проходят стадию куколки."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Möý mör-möjeklere degişli.", "ru": "Паук относится к насекомым."},
+          "answer": false,
+          "hint": {"tk": "Aýaklaryny we bedeniniň böleklerini sana.", "ru": "Посчитай ноги и отделы тела."},
+          "explain": {"tk": "Ýalňyş. Möýüň 8 aýagy we 2 bölekli bedeni bar, murtjagazy we ganaty ýok. Ol möýşekilliler synpyna girýär.", "ru": "Неверно. У паука 8 ног и тело из 2 отделов, нет усиков и крыльев. Он относится к классу паукообразных."}
+        },
+        {"type": "world", "text": {
+          "tk": "Tomzaklar (Coleoptera) — haýwanlaryň iň köp görnüşli otrýady: 350 müňden gowrak görnüşi belli. Bu ýer ýüzünde suratlandyrylan ähli haýwan görnüşleriniň takmynan dörtden birine barabar.",
+          "ru": "Жуки (Coleoptera) — самый богатый видами отряд животных: известно более 350 тысяч видов. Это примерно четверть всех описанных видов животных на Земле."
+        }}
+      ]
+    },
+    {
+      "id": "biology-7-fish",
+      "grade": 7,
+      "topic": 3,
+      "title": {"tk": "Balyklar", "ru": "Рыбы"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Balyklar — suwda ýaşaýan oňurgaly haýwanlar. Olar 35 müňden gowrak görnüş bilen oňurgalylaryň iň köp sanly toparydyr.\n\nSuwda ýaşamaga uýgunlaşmalary:\n• Bedeni süýrümtik, akymly; köplenç teňňejikler (gabyk) bilen örtülen we ýylmyşak bilen ýaglanan.\n• Ýüzgüçleri hereket etmäge we deňagramlylygy saklamaga kömek edýär.\n• Galsamalar (jemler) suwda erän kislorody alýar.\n• Gapdal çyzygy suwuň hereketini we basyşyny duýýar.\n• Köp balyklarda ýüzüş haltasy bar — ol suwda çümmegi we ýokary galmagy düzgünleşdirýär.\n• Ýüregi iki kameraly (bir ýürekçe, bir mädejik).\n• Beden temperaturasy daşky gurşawa bagly (sowukganly).\n\nIki esasy topar:\n• Kemirçekli balyklar — akulalar, skatlar: skeleti kemirçekden, ýüzüş haltasy ýok.\n• Süňkli balyklar — sazan, losos, bekre we başgalar: skeleti süňkden.",
+          "ru": "Рыбы — позвоночные животные, живущие в воде. Это самая многочисленная группа позвоночных — более 35 тысяч видов.\n\nПриспособления к жизни в воде:\n• Обтекаемое тело, обычно покрытое чешуёй и слизью.\n• Плавники помогают двигаться и держать равновесие.\n• Жабры извлекают растворённый в воде кислород.\n• Боковая линия чувствует движение и давление воды.\n• У многих рыб есть плавательный пузырь — он регулирует погружение и всплытие.\n• Сердце двухкамерное (одно предсердие, один желудочек).\n• Температура тела зависит от среды (холоднокровные).\n\nДве главные группы:\n• Хрящевые рыбы — акулы, скаты: скелет из хряща, плавательного пузыря нет.\n• Костные рыбы — карп, лосось, осётр и другие: скелет костный."
+        }},
+        {"type": "example", "text": {
+          "tk": "Balyk nähili dem alýar?\n1) Balyk agzyny açyp suw alýar.\n2) Agzyny ýapýar we suwy galsamalaryň üstünden itekläp çykarýar.\n3) Galsama ýapraklarynda inçe gan damarlary köp. Suwda erän kislorod gana geçýär, kömürturşy gaz bolsa suwa çykýar.\n4) Suw galsama gapakjyklarynyň aşagyndan daşary çykýar.\n\nŞonuň üçin suwdan çykarylan balyk howada kislorod köp bolsa-da dem alyp bilmeýär: galsamalar gurap, biri-birine ýapyşýar.",
+          "ru": "Как дышит рыба?\n1) Рыба открывает рот и набирает воду.\n2) Закрывает рот и проталкивает воду через жабры.\n3) В жаберных лепестках много тонких кровеносных сосудов. Растворённый кислород переходит в кровь, а углекислый газ — в воду.\n4) Вода выходит из-под жаберных крышек наружу.\n\nПоэтому рыба, вынутая из воды, задыхается, хотя кислорода в воздухе много: жабры высыхают и слипаются."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Akulanyň skeleti nämeden ybarat?", "ru": "Из чего состоит скелет акулы?"},
+          "options": [{"tk": "Süňkden", "ru": "Из кости"}, {"tk": "Hitinden", "ru": "Из хитина"}, {"tk": "Kemirçekden", "ru": "Из хряща"}],
+          "answer": 2,
+          "hint": {"tk": "Akula balyklaryň haýsy toparyna girýär?", "ru": "К какой группе рыб относится акула?"},
+          "explain": {"tk": "Akula — kemirçekli balyk, onuň skeleti ýeňil we çeýe kemirçekden ybarat. Hitin — mör-möjekleriň daşky örtügi.", "ru": "Акула — хрящевая рыба, её скелет из лёгкого и гибкого хряща. Хитин — покров насекомых."}
+        },
+        {"type": "input",
+          "q": {"tk": "Balygyň ýüregi näçe kameraly?", "ru": "Сколько камер в сердце рыбы?"},
+          "answer": "2|iki|два",
+          "hint": {"tk": "Bir ýürekçe we bir mädejik.", "ru": "Одно предсердие и один желудочек."},
+          "explain": {"tk": "1 ýürekçe + 1 mädejik = 2 kamera. Gan ýürekden galsamalara, soň bolsa bütin bedene gidýär.", "ru": "1 предсердие + 1 желудочек = 2 камеры. Кровь идёт от сердца к жабрам, а затем по всему телу."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Gapdal çyzygy balyga suwuň hereketini duýmaga kömek edýär.", "ru": "Боковая линия помогает рыбе чувствовать движение воды."},
+          "answer": true,
+          "hint": {"tk": "Teoriýadaky uýgunlaşmalaryň sanawyna seret.", "ru": "Посмотри список приспособлений в теории."},
+          "explain": {"tk": "Dogry. Gapdal çyzygyň duýujy öýjükleri suwuň yrgyldysyny duýýar. Şonuň üçin balyk garaňkyda hem päsgelçilikleri we ýyrtyjylary saýgarýar.", "ru": "Верно. Чувствительные клетки боковой линии улавливают колебания воды. Поэтому рыба замечает препятствия и хищников даже в темноте."}
+        },
+        {"type": "world", "text": {
+          "tk": "Iň uly balyk — kit akulasy. Ol ullakan bolsa-da adam üçin howpsuz: suwy süzüp, ownuk planktonlar we balyjaklar bilen iýmitlenýär.",
+          "ru": "Самая крупная рыба — китовая акула. Несмотря на огромные размеры, она безопасна для человека: она фильтрует воду и питается планктоном и мелкой рыбой."
+        }}
+      ]
+    },
+    {
+      "id": "biology-7-birds",
+      "grade": 7,
+      "topic": 4,
+      "title": {"tk": "Guşlar we uçuşa uýgunlaşma", "ru": "Птицы и приспособления к полёту"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Guşlar — bedeni ýelek bilen örtülen, ýylyganly oňurgaly haýwanlar. Dünýäde 10 müňden gowrak guş görnüşi bar.\n\nEsasy alamatlary:\n• Bedeni ýelekler bilen örtülen.\n• Öňki aýaklary ganata öwrülen.\n• Dişsiz şahly çüňki bar.\n• Ýüregi dört kameraly, beden temperaturasy hemişelik (takmynan 40–42 °C).\n• Gaty gabykly ýumurtga guzlaýar we köplenç ony basyp çykarýar.\n\nUçuşa uýgunlaşmalar:\n• Köp süňkleri içi boş (howaly) — skelet ýeňil.\n• Döş süňkünde gyr (kil) bar, oňa güýçli uçuş myşsalary berkidilýär.\n• Öýkenine birikdirilen howa haltalary bar — dem alyş netijeli bolýar.\n• Dişler we agyr äňler ýok.\n• Iýmit çalt siňdirilýär, guş artykmaç agramy göterip ýörmeýär.",
+          "ru": "Птицы — теплокровные позвоночные, тело которых покрыто перьями. В мире более 10 тысяч видов птиц.\n\nГлавные признаки:\n• Тело покрыто перьями.\n• Передние конечности превратились в крылья.\n• Роговой клюв без зубов.\n• Сердце четырёхкамерное, температура тела постоянная (около 40–42 °C).\n• Откладывают яйца с твёрдой скорлупой и обычно насиживают их.\n\nПриспособления к полёту:\n• Многие кости полые (с воздухом) — скелет лёгкий.\n• На грудине есть киль, к нему крепятся мощные летательные мышцы.\n• К лёгким присоединены воздушные мешки — дыхание очень эффективное.\n• Нет зубов и тяжёлых челюстей.\n• Пища переваривается быстро, птица не носит лишний вес."
+        }},
+        {"type": "example", "text": {
+          "tk": "Guş uçanda nähili dem alýar?\n1) Ganatlaryny galdyranda bedeni giňelýär — howa öýkenden geçip, yzky howa haltalaryna dolýar.\n2) Ganatlaryny aşak indirende beden gysylýar — haltalardaky howa ýene öýkenden geçip, daşary çykýar.\n3) Diýmek, arassa howa öýkenden iki gezek geçýär: dem alanda hem, dem çykaranda hem. Bu «goşa dem alyş» diýlip atlandyrylýar.\n\nNetije: guş köp energiýa talap edýän uçuş üçin ýeterlik kislorod alýar.",
+          "ru": "Как дышит птица в полёте?\n1) Когда крылья поднимаются, тело расширяется — воздух проходит через лёгкие и заполняет задние воздушные мешки.\n2) Когда крылья опускаются, тело сжимается — воздух из мешков снова проходит через лёгкие и выходит наружу.\n3) Значит, свежий воздух проходит через лёгкие дважды: и на вдохе, и на выдохе. Это называется «двойным дыханием».\n\nВывод: птица получает достаточно кислорода для энергозатратного полёта."
+        }},
+        {"type": "input",
+          "q": {"tk": "Guşuň ýüregi näçe kameraly?", "ru": "Сколько камер в сердце птицы?"},
+          "answer": "4|dört|четыре",
+          "hint": {"tk": "Balykdakydan iki esse köp.", "ru": "Вдвое больше, чем у рыбы."},
+          "explain": {"tk": "Guşuň ýüregi 2 ýürekçeden we 2 mädejikden ybarat — 4 kamera. Arterial we wenoz gan garyşmaýar, bu bolsa hemişelik ýokary temperaturany saklamaga kömek edýär.", "ru": "Сердце птицы — 2 предсердия и 2 желудочка, 4 камеры. Артериальная и венозная кровь не смешиваются, что помогает поддерживать постоянную высокую температуру."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsysy uçuşa uýgunlaşma DÄL?", "ru": "Что из этого НЕ приспособление к полёту?"},
+          "options": [{"tk": "Içi boş süňkler", "ru": "Полые кости"}, {"tk": "Agyr dişli äňler", "ru": "Тяжёлые челюсти с зубами"}, {"tk": "Döş süňkündäki gyr", "ru": "Киль на грудине"}],
+          "answer": 1,
+          "hint": {"tk": "Haýsysy guşy agyrlaşdyrardy?", "ru": "Что сделало бы птицу тяжелее?"},
+          "explain": {"tk": "Häzirki guşlaryň dişi ýok, ýeňil çüňki bar. Agyr dişli äňler uçmaga päsgel bererdi.", "ru": "У современных птиц нет зубов, есть лёгкий клюв. Тяжёлые челюсти с зубами мешали бы летать."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Ähli guşlar uçup bilýär.", "ru": "Все птицы умеют летать."},
+          "answer": false,
+          "hint": {"tk": "Pingwini we düýeguşy ýatla.", "ru": "Вспомни пингвина и страуса."},
+          "explain": {"tk": "Ýalňyş. Düýeguş, pingwin, kiwi uçup bilmeýär. Düýeguş çalt ylgaýar, pingwin bolsa ganatlary bilen suwda ýüzýär.", "ru": "Неверно. Страус, пингвин, киви не летают. Страус быстро бегает, а пингвин «летает» крыльями под водой."}
+        },
+        {"type": "world", "text": {
+          "tk": "Arktika garaçaýy (polýar krajkasy) haýwanlaryň arasynda iň uzak göçi amala aşyrýar: her ýyl Arktikadan Antarktida çenli we yzyna uçýar. Şeýlelikde, ol beýleki haýwanlardan has köp gündiz ýagtylygyny görýär.",
+          "ru": "Полярная крачка совершает самую длинную миграцию среди животных: каждый год она летит из Арктики в Антарктику и обратно. Благодаря этому она видит больше дневного света, чем любое другое животное."
+        }}
+      ]
+    },
+    {
+      "id": "biology-7-mammals",
+      "grade": 7,
+      "topic": 5,
+      "title": {"tk": "Süýdemdirijiler", "ru": "Млекопитающие"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Süýdemdirijiler — çagalaryny süýt bilen iýmitlendirýän ýylyganly oňurgaly haýwanlar. Takmynan 6 müňden gowrak görnüşi bar, adam hem şu synpa degişli.\n\nEsasy alamatlary:\n• Süýt mäzleri — çagalaryny süýt bilen iýmitlendirýär.\n• Bedeni ýüň (gyl) bilen örtülen.\n• Ýüregi 4 kameraly, beden temperaturasy hemişelik.\n• Diafragma — döş we garyn boşluklaryny bölýän myşsa, dem alyşa kömek edýär.\n• Dişleri dürli görnüşli: kesijiler, gazyklar, uly we kiçi azy dişler.\n• Kellebeýni has ösen.\n• Boýun oňurgalary köplenç 7 sany (žirafda hem, syçanda hem).\n\nÜç topar:\n• Ýumurtga guzlaýanlar — ördekburun (platipus), ehidna.\n• Haltalylar — kenguru, koala: çagasy örän kiçi dogulýar we haltada ösýär.\n• Ýatgylylar (plasentalylar) — esasy bölegi: çaga enäniň içinde plasenta arkaly iýmitlenýär.",
+          "ru": "Млекопитающие — теплокровные позвоночные, выкармливающие детёнышей молоком. Известно более 6 тысяч видов, к этому классу относится и человек.\n\nГлавные признаки:\n• Млечные железы — выкармливают детёнышей молоком.\n• Тело покрыто шерстью (волосами).\n• Сердце четырёхкамерное, температура тела постоянная.\n• Диафрагма — мышца между грудной и брюшной полостями, помогает дыханию.\n• Зубы разные: резцы, клыки, малые и большие коренные.\n• Головной мозг развит лучше всего.\n• Шейных позвонков, как правило, 7 (и у жирафа, и у мыши).\n\nТри группы:\n• Яйцекладущие — утконос, ехидна.\n• Сумчатые — кенгуру, коала: детёныш рождается очень маленьким и развивается в сумке.\n• Плацентарные — большинство: детёныш развивается в теле матери и питается через плаценту."
+        }},
+        {"type": "example", "text": {
+          "tk": "Delfin balykmy ýa-da süýdemdiriji? Alamatlary barlalyň:\n1) Dem alyşy: delfin galsama däl, öýkeni bilen dem alýar we howa almak üçin suwuň ýüzüne çykýar → süýdemdiriji.\n2) Köpelişi: diri çaga dogurýar we ony süýt bilen iýmitlendirýär → süýdemdiriji.\n3) Ýüregi: 4 kameraly, ýylyganly → süýdemdiriji.\n4) Guýrugy: dik däl-de, keseligine ýerleşen, ýokary-aşak hereket edýär (balyklarda guýruk dik).\n\nNetije: delfin balyga meňzeýär, ýöne ol kit şekilliler otrýadyndan bolan süýdemdiriji.",
+          "ru": "Дельфин — рыба или млекопитающее? Проверим признаки:\n1) Дыхание: дельфин дышит не жабрами, а лёгкими и всплывает за воздухом → млекопитающее.\n2) Размножение: рождает живого детёныша и кормит его молоком → млекопитающее.\n3) Сердце: четырёхкамерное, теплокровный → млекопитающее.\n4) Хвост: лопасть расположена горизонтально и движется вверх-вниз (у рыб хвост вертикальный).\n\nВывод: дельфин похож на рыбу, но это млекопитающее из отряда китообразных."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Haýsy süýdemdiriji ýumurtga guzlaýar?", "ru": "Какое млекопитающее откладывает яйца?"},
+          "options": [{"tk": "Kenguru", "ru": "Кенгуру"}, {"tk": "Ýarganat", "ru": "Летучая мышь"}, {"tk": "Ördekburun", "ru": "Утконос"}],
+          "answer": 2,
+          "hint": {"tk": "Bu haýwanyň ördegiňkä meňzeş burny bar.", "ru": "У этого животного нос похож на утиный клюв."},
+          "explain": {"tk": "Ördekburun (platipus) ýumurtga guzlaýar, ýöne çagalaryny süýt bilen iýmitlendirýär. Kenguru — haltaly, ýarganat — ýatgyly süýdemdiriji.", "ru": "Утконос откладывает яйца, но выкармливает детёнышей молоком. Кенгуру — сумчатое, летучая мышь — плацентарное."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Kit — balyk.", "ru": "Кит — это рыба."},
+          "answer": false,
+          "hint": {"tk": "Kit nähili dem alýar we çagasyny nähili iýmitlendirýär?", "ru": "Как кит дышит и чем кормит детёныша?"},
+          "explain": {"tk": "Ýalňyş. Kit öýkeni bilen dem alýar, ýylyganly, çagasyny süýt bilen iýmitlendirýär — ol süýdemdiriji.", "ru": "Неверно. Кит дышит лёгкими, теплокровный и выкармливает детёныша молоком — это млекопитающее."}
+        },
+        {"type": "input",
+          "q": {"tk": "Žirafyň boýnunda näçe oňurga bar?", "ru": "Сколько позвонков в шее жирафа?"},
+          "answer": "7|ýedi|семь",
+          "hint": {"tk": "Süýdemdirijileriň köpüsinde boýun oňurgalarynyň sany birmeňzeş.", "ru": "У большинства млекопитающих число шейных позвонков одинаково."},
+          "explain": {"tk": "Žirafyň hem, adamyň hem 7 boýun oňurgasy bar. Žirafda olar diňe örän uzyn.", "ru": "У жирафа, как и у человека, 7 шейных позвонков. Просто у жирафа они очень длинные."}
+        },
+        {"type": "world", "text": {
+          "tk": "Gök kit — ýer ýüzünde haçan-da bolsa ýaşan iň uly haýwan. Onuň uzynlygy 30 metre ýakyn bolup biler, ýöne ol esasan ownuk deňiz rak şekillileri — krill bilen iýmitlenýär.",
+          "ru": "Синий кит — самое крупное животное, когда-либо жившее на Земле. Его длина может достигать почти 30 метров, а питается он в основном мелкими морскими рачками — крилем."
+        }}
+      ]
+    }
+  ]
+}

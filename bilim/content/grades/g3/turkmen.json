@@ -1,0 +1,288 @@
+{
+  "grade": 3,
+  "subject": "turkmen",
+  "lessons": [
+    {
+      "id": "turkmen-3-root-and-affix",
+      "grade": 3,
+      "topic": 0,
+      "title": {"tk": "Sözüň düzümi: kök we goşulma", "ru": "Состав слова: корень и аффикс"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Söz böleklerden durýar.\n• Kök — sözüň esasy, manyly bölegi. Ol aýratyn hem söz bolup bilýär: gül, iş, balyk.\n• Goşulma — köke goşulýan bölek. Ol sözüň manysyny üýtgedýär ýa-da täze söz ýasaýar: gül + ler = güller, iş + çi = işçi.\nTürkmen dilinde goşulmalar elmydama kökden soň gelýär.",
+          "ru": "Слово состоит из частей.\n• Корень — главная, смысловая часть слова. Он может быть и отдельным словом: gül (цветок), iş (работа), balyk (рыба).\n• Аффикс (goşulma) — часть, которая присоединяется к корню. Он меняет форму слова или образует новое слово: gül + ler = güller (цветы), iş + çi = işçi (рабочий).\nВ туркменском языке аффиксы всегда стоят после корня."
+        }},
+        {"type": "example", "text": {
+          "tk": "Söz: balykçylar\n1) Sözüň manysy näme bilen baglanyşykly? — balyk bilen. Diýmek, kök: balyk.\n2) -çy goşulmasy täze söz ýasaýar: balykçy (balyk tutýan adam).\n3) -lar goşulmasy köplügi görkezýär: balykçylar.\nNetije: balyk + çy + lar.",
+          "ru": "Слово: balykçylar (рыбаки)\n1) С чем связан смысл слова? — с рыбой (balyk). Значит, корень: balyk.\n2) Аффикс -çy образует новое слово: balykçy (тот, кто ловит рыбу).\n3) Аффикс -lar показывает множественное число: balykçylar.\nИтог: balyk + çy + lar."
+        }},
+        {"type": "choice",
+          "q": {"tk": "«Daglar» sözüniň köki haýsy?", "ru": "Какой корень у слова «daglar» (горы)?"},
+          "options": ["dag", "daglar", "lar"],
+          "answer": 0,
+          "hint": {"tk": "Goşulmany aýyr, galan bölek manyly bolmaly.", "ru": "Отбрось аффикс — оставшаяся часть должна иметь смысл."},
+          "explain": {"tk": "-lar — köplük goşulmasy. Ony aýyrsaň, «dag» galýar. Bu kök.", "ru": "-lar — аффикс множественного числа. Если его убрать, остаётся «dag» (гора). Это корень."}
+        },
+        {"type": "input",
+          "q": {"tk": "«Suwçy» sözüniň köküni ýaz.", "ru": "Напиши корень слова «suwçy» (водовоз, поливальщик)."},
+          "answer": "suw",
+          "hint": {"tk": "Bu söz haýsy zat bilen baglanyşykly?", "ru": "С каким предметом связано это слово?"},
+          "explain": {"tk": "suw + çy = suwçy. Kök — «suw».", "ru": "suw + çy = suwçy. Корень — «suw» (вода)."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy sözüň köki «gül»?", "ru": "У какого слова корень «gül» (цветок)?"},
+          "options": ["gün", "güller", "gürrüň"],
+          "answer": 1,
+          "hint": {"tk": "Sözüň manysy gül bilen baglanyşykly bolmaly.", "ru": "Смысл слова должен быть связан с цветком."},
+          "explain": {"tk": "güller = gül + ler. «Gün» we «gürrüň» başga sözler, olaryň manysy gül bilen baglanyşykly däl.", "ru": "güller = gül + ler (цветы). «Gün» (солнце) и «gürrüň» (беседа) — другие слова, их смысл не связан с цветком."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Türkmen dilinde goşulma köküň öňünde durýar.", "ru": "В туркменском языке аффикс стоит перед корнем."},
+          "answer": false,
+          "hint": {"tk": "«iş + çi» sözüne seret.", "ru": "Посмотри на слово «iş + çi»."},
+          "explain": {"tk": "Ýalňyş. Goşulmalar kökden soň gelýär: iş + çi, kitap + lar.", "ru": "Неверно. Аффиксы идут после корня: iş + çi, kitap + lar."}
+        },
+        {"type": "world", "text": {
+          "tk": "Türkmen, türk, gazak, özbek dilleri goşulmaly diller toparyna degişli. Bu dillerde bir köke birnäçe goşulma yzly-yzyna goşulyp, uzyn sözler emele gelýär. Fin we wenger dilleri hem şeýle ýörelge bilen işleýär.",
+          "ru": "Туркменский, турецкий, казахский, узбекский языки относятся к агглютинативным языкам. В них к одному корню можно присоединять несколько аффиксов подряд, и получаются длинные слова. По такому же принципу устроены финский и венгерский языки."
+        }}
+      ]
+    },
+    {
+      "id": "turkmen-3-plural",
+      "grade": 3,
+      "topic": 1,
+      "title": {"tk": "Köplük san: -lar we -ler", "ru": "Множественное число: -lar и -ler"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Bir zady aňladýan söz — birlik sanda: kitap, öý.\nKöp zady aňladýan söz — köplük sanda: kitaplar, öýler.\nKöplük -lar ýa-da -ler goşulmasy bilen ýasalýar:\n• Sözüň soňky çekimlisi ýogyn (a, o, u, y) bolsa — -lar: at — atlar, okuwçy — okuwçylar.\n• Sözüň soňky çekimlisi inçe (e, ä, ö, ü, i) bolsa — -ler: depder — depderler, gül — güller.",
+          "ru": "Слово, обозначающее один предмет, стоит в единственном числе: kitap (книга), öý (дом).\nСлово, обозначающее много предметов, — во множественном числе: kitaplar, öýler.\nМножественное число образуется аффиксом -lar или -ler:\n• если последняя гласная слова твёрдая (a, o, u, y) — -lar: at — atlar, okuwçy — okuwçylar;\n• если последняя гласная мягкая (e, ä, ö, ü, i) — -ler: depder — depderler, gül — güller."
+        }},
+        {"type": "example", "text": {
+          "tk": "Söz: mekdep\n1) Soňky çekimlini tap: mekd-e-p → «e».\n2) «e» — inçe çekimli.\n3) Diýmek, -ler goşýarys: mekdepler.\n\nSöz: alma\n1) Soňky çekimli — «a».\n2) «a» — ýogyn çekimli.\n3) -lar goşýarys: almalar.",
+          "ru": "Слово: mekdep (школа)\n1) Найди последнюю гласную: mekd-e-p → «e».\n2) «e» — мягкая гласная.\n3) Значит, добавляем -ler: mekdepler.\n\nСлово: alma (яблоко)\n1) Последняя гласная — «a».\n2) «a» — твёрдая гласная.\n3) Добавляем -lar: almalar."
+        }},
+        {"type": "input",
+          "q": {"tk": "«Kitap» sözüni köplük sanda ýaz.", "ru": "Напиши слово «kitap» (книга) во множественном числе."},
+          "answer": "kitaplar",
+          "hint": {"tk": "Soňky çekimli «a» — ýogynmy ýa inçe?", "ru": "Последняя гласная «a» — твёрдая или мягкая?"},
+          "explain": {"tk": "Soňky çekimli «a» — ýogyn, şonuň üçin -lar: kitaplar.", "ru": "Последняя гласная «a» твёрдая, поэтому -lar: kitaplar."}
+        },
+        {"type": "choice",
+          "q": {"tk": "«Göz» sözüniň köplügi haýsy dogry?", "ru": "Какая форма множественного числа слова «göz» (глаз) правильная?"},
+          "options": ["gözlar", "gözlär", "gözler"],
+          "answer": 2,
+          "hint": {"tk": "«ö» — inçe çekimli.", "ru": "«ö» — мягкая гласная."},
+          "explain": {"tk": "«ö» inçe çekimli, şonuň üçin -ler: gözler.", "ru": "«ö» — мягкая гласная, поэтому -ler: gözler."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«Mugallym» sözüniň köplügi — «mugallymlar».", "ru": "Множественное число слова «mugallym» (учитель) — «mugallymlar»."},
+          "answer": true,
+          "hint": {"tk": "Soňky çekimli «y».", "ru": "Последняя гласная — «y»."},
+          "explain": {"tk": "Dogry. «y» ýogyn çekimli, şonuň üçin -lar: mugallymlar.", "ru": "Верно. «y» — твёрдая гласная, поэтому -lar: mugallymlar."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy söz köplük sanda?", "ru": "Какое слово стоит во множественном числе?"},
+          "options": ["öýler", "öý", "ýol"],
+          "answer": 0,
+          "hint": {"tk": "-lar ýa -ler goşulmasyny gözle.", "ru": "Ищи аффикс -lar или -ler."},
+          "explain": {"tk": "«öýler» sözünde -ler goşulmasy bar, ol köp öýi aňladýar.", "ru": "В слове «öýler» есть аффикс -ler, оно обозначает много домов."}
+        },
+        {"type": "world", "text": {
+          "tk": "Sözüň ähli goşulmalarynyň çekimlileriniň köküň çekimlisine laýyk gelmegine «çekimlileriň sazlaşygy» diýilýär. Bu düzgün türkmen dilinden başga-da türk, gazak, fin we wenger dillerinde hem bar.",
+          "ru": "То, что гласные в аффиксах подстраиваются под гласные корня, называется «гармонией гласных». Это правило есть не только в туркменском, но и в турецком, казахском, финском и венгерском языках."
+        }}
+      ]
+    },
+    {
+      "id": "turkmen-3-cases",
+      "grade": 3,
+      "topic": 2,
+      "title": {"tk": "Düşümler bilen tanyşlyk", "ru": "Знакомство с падежами"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Söz sözlemde başga sözler bilen baglanyşanda, onuň ahyry üýtgeýär. Bu üýtgemä düşüm diýilýär. Türkmen dilinde 6 düşüm bar:\n• Baş düşüm — kim? näme? — şäher\n• Eýelik düşüm — kimiň? nämäniň? — şäheriň\n• Ýöneliş düşüm — kime? nämä? nirä? — şähere\n• Ýeňiş düşüm — kimi? nämäni? — şäheri\n• Wagt-orun düşüm — kimde? nämede? nirede? — şäherde\n• Çykyş düşüm — kimden? nämeden? nireden? — şäherden",
+          "ru": "Когда слово связывается в предложении с другими словами, его окончание меняется. Это изменение называется падежом. В туркменском языке 6 падежей:\n• Основной (именительный) — кто? что? — şäher (город)\n• Родительный — чей? чего? — şäheriň\n• Дательно-направительный — кому? куда? — şähere\n• Винительный — кого? что? — şäheri\n• Местный — у кого? где? — şäherde\n• Исходный — от кого? откуда? — şäherden"
+        }},
+        {"type": "example", "text": {
+          "tk": "Sözlem: Men mekdepden öýe gaýtdym.\n1) «mekdepden» — nireden? → çykyş düşüm (-den).\n2) «öýe» — nirä? → ýöneliş düşüm (-e).\nSoragy dogry goýsaň, düşümi aňsat tapýarsyň.",
+          "ru": "Предложение: Men mekdepden öýe gaýtdym. (Я вернулся из школы домой.)\n1) «mekdepden» — откуда? → исходный падеж (-den).\n2) «öýe» — куда? → дательно-направительный падеж (-e).\nЕсли правильно задать вопрос, падеж найти легко."
+        }},
+        {"type": "input",
+          "q": {"tk": "Türkmen dilinde näçe düşüm bar?", "ru": "Сколько падежей в туркменском языке?"},
+          "answer": "6",
+          "hint": {"tk": "Baş, eýelik, ýöneliş… sanap gör.", "ru": "Основной, родительный, направительный… посчитай."},
+          "explain": {"tk": "6 düşüm: baş, eýelik, ýöneliş, ýeňiş, wagt-orun, çykyş.", "ru": "6 падежей: основной, родительный, направительный, винительный, местный, исходный."}
+        },
+        {"type": "choice",
+          "q": {"tk": "«Biz bagda oýnadyk». «Bagda» haýsy düşümde?", "ru": "«Biz bagda oýnadyk» (Мы играли в саду). В каком падеже слово «bagda»?"},
+          "options": [{"tk": "Çykyş düşüm", "ru": "Исходный"}, {"tk": "Wagt-orun düşüm", "ru": "Местный"}, {"tk": "Ýöneliş düşüm", "ru": "Направительный"}],
+          "answer": 1,
+          "hint": {"tk": "Sorag goý: nirede oýnadyk?", "ru": "Задай вопрос: где мы играли?"},
+          "explain": {"tk": "«bagda» — nirede? soragyna jogap berýär, -da goşulmasy bar. Bu wagt-orun düşüm.", "ru": "«bagda» отвечает на вопрос «где?», у него аффикс -da. Это местный падеж."}
+        },
+        {"type": "choice",
+          "q": {"tk": "«Nireden?» soragyna haýsy düşüm jogap berýär?", "ru": "Какой падеж отвечает на вопрос «откуда?»?"},
+          "options": [{"tk": "Eýelik düşüm", "ru": "Родительный"}, {"tk": "Ýeňiş düşüm", "ru": "Винительный"}, {"tk": "Çykyş düşüm", "ru": "Исходный"}],
+          "answer": 2,
+          "hint": {"tk": "Bu düşümiň goşulmasy -dan / -den.", "ru": "Аффикс этого падежа -dan / -den."},
+          "explain": {"tk": "Çykyş düşüm kimden? nämeden? nireden? soraglaryna jogap berýär: şäherden.", "ru": "Исходный падеж отвечает на вопросы «от кого? от чего? откуда?»: şäherden."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«Şäheriň» sözi eýelik düşümde dur.", "ru": "Слово «şäheriň» стоит в родительном падеже."},
+          "answer": true,
+          "hint": {"tk": "Haýsy düşüm «nämäniň?» soragyna jogap berýär?", "ru": "Какой падеж отвечает на вопрос «чего? чей?»"},
+          "explain": {"tk": "Dogry. «şäheriň» — nämäniň? soragyna jogap berýär, -iň goşulmasy bar.", "ru": "Верно. «şäheriň» отвечает на вопрос «чего? чей?», у него аффикс -iň."}
+        },
+        {"type": "world", "text": {
+          "tk": "Diller düşümleriň sany boýunça tapawutlanýar. Rus dilinde 6 düşüm bar, iňlis dilinde atlarda düşüm goşulmalary hemen hemen ýok, fin dilinde bolsa 15 düşüm bar.",
+          "ru": "Языки сильно различаются по числу падежей. В русском языке 6 падежей, в английском у существительных падежных окончаний почти нет, а в финском языке 15 падежей."
+        }}
+      ]
+    },
+    {
+      "id": "turkmen-3-verb-tenses",
+      "grade": 3,
+      "topic": 3,
+      "title": {"tk": "Işligiň zamanlary", "ru": "Времена глагола"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Işlik hereketi aňladýar: oka, ýaz, git. Hereket haçan bolýar? Muny zaman görkezýär.\n• Öten zaman — hereket eýýäm boldy: Men düýn kitap okadym.\n• Häzirki zaman — hereket häzir bolýar: Men häzir kitap okaýaryn.\n• Geljek zaman — hereket soň bolar: Men ertir kitap okajak.\nKömekçi sözler: düýn, öten hepde — öten zaman; häzir, şu wagt — häzirki zaman; ertir, soň — geljek zaman.",
+          "ru": "Глагол обозначает действие: oka (читай), ýaz (пиши), git (иди). Когда происходит действие? Это показывает время.\n• Прошедшее время — действие уже было: Men düýn kitap okadym. (Я вчера читал книгу.)\n• Настоящее время — действие происходит сейчас: Men häzir kitap okaýaryn. (Я сейчас читаю книгу.)\n• Будущее время — действие будет потом: Men ertir kitap okajak. (Я завтра буду читать книгу.)\nСлова-помощники: düýn (вчера) — прошедшее; häzir (сейчас) — настоящее; ertir (завтра) — будущее."
+        }},
+        {"type": "example", "text": {
+          "tk": "Işlik: ýaz\n• Öten zaman: Men hat ýazdym.\n• Häzirki zaman: Men hat ýazýaryn.\n• Geljek zaman: Men hat ýazjak.\nKök şol bir — «ýaz», diňe goşulmasy üýtgeýär.",
+          "ru": "Глагол: ýaz (писать)\n• Прошедшее: Men hat ýazdym. (Я написал письмо.)\n• Настоящее: Men hat ýazýaryn. (Я пишу письмо.)\n• Будущее: Men hat ýazjak. (Я напишу письмо.)\nКорень один и тот же — «ýaz», меняется только аффикс."
+        }},
+        {"type": "choice",
+          "q": {"tk": "«Düýn biz parka gitdik». Işlik haýsy zamanda?", "ru": "«Düýn biz parka gitdik» (Вчера мы ходили в парк). В каком времени глагол?"},
+          "options": [{"tk": "Öten zaman", "ru": "Прошедшее"}, {"tk": "Häzirki zaman", "ru": "Настоящее"}, {"tk": "Geljek zaman", "ru": "Будущее"}],
+          "answer": 0,
+          "hint": {"tk": "«Düýn» sözüne üns ber.", "ru": "Обрати внимание на слово «düýn» (вчера)."},
+          "explain": {"tk": "Hereket düýn boldy, ol eýýäm geçdi. Bu öten zaman.", "ru": "Действие было вчера, оно уже прошло. Это прошедшее время."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy sözlem geljek zamanda?", "ru": "Какое предложение стоит в будущем времени?"},
+          "options": [{"tk": "Ol surat çekýär.", "ru": "Ol surat çekýär. (Он рисует.)"}, {"tk": "Ol surat çekdi.", "ru": "Ol surat çekdi. (Он нарисовал.)"}, {"tk": "Ol surat çekjek.", "ru": "Ol surat çekjek. (Он будет рисовать.)"}],
+          "answer": 2,
+          "hint": {"tk": "Hereket heniz bolmadyk sözlemi tap.", "ru": "Найди предложение, где действие ещё не произошло."},
+          "explain": {"tk": "«çekjek» — hereket soň bolar, bu geljek zaman.", "ru": "«çekjek» — действие будет потом, это будущее время."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«Men häzir okaýaryn» — häzirki zamandaky sözlem.", "ru": "«Men häzir okaýaryn» — предложение в настоящем времени."},
+          "answer": true,
+          "hint": {"tk": "«häzir» näme diýmek?", "ru": "Что значит «häzir»?"},
+          "explain": {"tk": "Dogry. «häzir» we «-ýar» goşulmasy hereketiň şu wagt bolýandygyny görkezýär.", "ru": "Верно. Слово «häzir» (сейчас) и аффикс «-ýar» показывают, что действие происходит сейчас."}
+        },
+        {"type": "input",
+          "q": {"tk": "Sözlemi dowam et: «Ertir men mekdebe …» (git — geljek zaman).", "ru": "Закончи предложение: «Ertir men mekdebe …» (git — будущее время)."},
+          "answer": "gitjek|giderin",
+          "hint": {"tk": "«okajak», «ýazjak» ýaly goşulma goş.", "ru": "Добавь аффикс, как в «okajak», «ýazjak»."},
+          "explain": {"tk": "git + jek = gitjek. Ertir men mekdebe gitjek.", "ru": "git + jek = gitjek. Ertir men mekdebe gitjek. (Завтра я пойду в школу.)"}
+        },
+        {"type": "world", "text": {
+          "tk": "Ähli dillerde işlik zamanlary birmeňzeş däl. Mysal üçin, hytaý dilinde işlik zamana görä üýtgemeýär — haçandygyny «düýn», «ertir» ýaly sözler görkezýär.",
+          "ru": "Не во всех языках глагол меняется по временам. Например, в китайском языке глагол не изменяется — когда было действие, показывают слова вроде «вчера» или «завтра»."
+        }}
+      ]
+    },
+    {
+      "id": "turkmen-3-pronouns",
+      "grade": 3,
+      "topic": 4,
+      "title": {"tk": "Şahs çalyşmalary", "ru": "Личные местоимения"},
+      "minutes": 7,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Çalyşma — adyň ýerine ulanylýan söz. Ol bir sözi gaýtalamazlyga kömek edýär.\nŞahs çalyşmalary:\n• Birlik: men, sen, ol\n• Köplük: biz, siz, olar\nMysal: Aýna kitap okaýar. Ol kitaby gowy görýär. («Ol» = Aýna)",
+          "ru": "Местоимение (çalyşma) — слово, которое употребляется вместо имени. Оно помогает не повторять одно и то же слово.\nЛичные местоимения:\n• Единственное число: men (я), sen (ты), ol (он, она, оно)\n• Множественное число: biz (мы), siz (вы), olar (они)\nПример: Aýna kitap okaýar. Ol kitaby gowy görýär. (Айна читает книгу. Она любит книги.) «Ol» = Aýna."
+        }},
+        {"type": "example", "text": {
+          "tk": "Işlik çalyşma bilen ylalaşýar:\n• Men okaýaryn\n• Sen okaýarsyň\n• Ol okaýar\n• Biz okaýarys\n• Siz okaýarsyňyz\n• Olar okaýarlar\nÜns ber: çalyşma üýtgände, işligiň ahyry hem üýtgeýär.",
+          "ru": "Глагол согласуется с местоимением:\n• Men okaýaryn (я читаю)\n• Sen okaýarsyň (ты читаешь)\n• Ol okaýar (он читает)\n• Biz okaýarys (мы читаем)\n• Siz okaýarsyňyz (вы читаете)\n• Olar okaýarlar (они читают)\nОбрати внимание: меняется местоимение — меняется и окончание глагола."
+        }},
+        {"type": "choice",
+          "q": {"tk": "«Merjen we Aýgül» sözleriniň ýerine haýsy çalyşma gelýär?", "ru": "Какое местоимение можно поставить вместо «Merjen we Aýgül»?"},
+          "options": ["ol", "olar", "siz"],
+          "answer": 1,
+          "hint": {"tk": "Bu iki adam, olar barada gürrüň edýäris.", "ru": "Это два человека, мы говорим о них."},
+          "explain": {"tk": "Iki we ondan köp adam barada gürrüň edilse, «olar» ulanylýar.", "ru": "Когда говорим о двух и более людях, используем «olar» (они)."}
+        },
+        {"type": "input",
+          "q": {"tk": "Boş ýeri doldur: «… mekdebe gidýäris.»", "ru": "Заполни пропуск: «… mekdebe gidýäris.» (… идём в школу.)"},
+          "answer": "biz|Biz",
+          "hint": {"tk": "Işligiň ahyry «-ys / -is» — bu köplük, birinji şahs.", "ru": "Окончание глагола «-is» — это множественное число, первое лицо."},
+          "explain": {"tk": "«gidýäris» işligi «biz» çalyşmasy bilen ylalaşýar: Biz mekdebe gidýäris.", "ru": "Глагол «gidýäris» согласуется с местоимением «biz» (мы): Biz mekdebe gidýäris."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«Sen» — köplük sandaky çalyşma.", "ru": "«Sen» — местоимение множественного числа."},
+          "answer": false,
+          "hint": {"tk": "«Sen» näçe adama aýdylýar?", "ru": "Скольким людям говорят «sen»?"},
+          "explain": {"tk": "Ýalňyş. «Sen» bir adama aýdylýar, ol birlik sanda. Köplügi — «siz».", "ru": "Неверно. «Sen» (ты) говорят одному человеку, это единственное число. Множественное — «siz» (вы)."}
+        },
+        {"type": "choice",
+          "q": {"tk": "«… surat çekýär.» Haýsy çalyşma dogry?", "ru": "«… surat çekýär.» (… рисует.) Какое местоимение подходит?"},
+          "options": ["Ol", "Men", "Biz"],
+          "answer": 0,
+          "hint": {"tk": "Işligiň ahyrynda şahs goşulmasy ýok.", "ru": "У глагола нет личного окончания."},
+          "explain": {"tk": "«çekýär» işligi «ol» bilen ulanylýar: Ol surat çekýär. «Men» bilen «çekýärin», «biz» bilen «çekýäris» bolardy.", "ru": "«çekýär» употребляется с «ol»: Ol surat çekýär. С «men» было бы «çekýärin», с «biz» — «çekýäris»."}
+        },
+        {"type": "world", "text": {
+          "tk": "Türkmen dilinde «siz» çalyşmasy diňe köp adama däl, eýsem uly adama hormat bilen ýüzlenmek üçin hem ulanylýar. Rus, fransuz we nemes dillerinde hem şeýle hormat formasy bar.",
+          "ru": "В туркменском языке местоимение «siz» (вы) используется не только для многих людей, но и для вежливого обращения к старшему. Такая вежливая форма есть и в русском, французском и немецком языках."
+        }}
+      ]
+    },
+    {
+      "id": "turkmen-3-writing-a-letter",
+      "grade": 3,
+      "topic": 5,
+      "title": {"tk": "Hat ýazmak", "ru": "Пишем письмо"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Hat üç bölekden durýar:\n1) Başlangyç — ýüzlenme we salam: «Eziz dostum Merdan!», «Hormatly mugallymym!»\n2) Esasy bölüm — habarlaryň, soraglaryň, duýgularyň.\n3) Jemleýji bölüm — hoşlaşmak we gol: «Saglykda gal! Dostuň Aman.»\nHatyň ýokarsynda ýa-da aşagynda senäni ýazmak bolýar.",
+          "ru": "Письмо состоит из трёх частей:\n1) Начало — обращение и приветствие: «Eziz dostum Merdan!» (Дорогой друг Мердан!), «Hormatly mugallymym!» (Уважаемый учитель!)\n2) Основная часть — новости, вопросы, чувства.\n3) Заключение — прощание и подпись: «Saglykda gal! Dostuň Aman.» (Будь здоров! Твой друг Аман.)\nДату можно написать вверху или внизу письма."
+        }},
+        {"type": "example", "text": {
+          "tk": "Eziz mamajan!\nSalam! Siz nähili? Men gowy okaýaryn. Şu hepde matematikadan «bäş» aldym. Biziň synpymyz sergä gitdi, men ol ýerde köne gämileri gördüm.\nSizi gaty küýseýärin. Tomusda size myhmana gelerin.\nSaglykda galyň!\nAgtygyňyz Myrat.",
+          "ru": "Eziz mamajan! (Дорогая бабушка!)\nПриветствие, затем новости: внук хорошо учится, получил «пятёрку» по математике, класс ходил на выставку, где он видел старинные корабли.\nЧувства и планы: он скучает и летом приедет в гости.\nПрощание: «Saglykda galyň!» (Будьте здоровы!) и подпись: «Agtygyňyz Myrat» (Ваш внук Мырат).\nОбрати внимание: к бабушке обращаются на «Siz» — из уважения."
+        }},
+        {"type": "input",
+          "q": {"tk": "Hat näçe esasy bölekden durýar?", "ru": "Из скольких основных частей состоит письмо?"},
+          "answer": "3",
+          "hint": {"tk": "Başlangyç, esasy bölüm we …", "ru": "Начало, основная часть и …"},
+          "explain": {"tk": "3 bölek: başlangyç, esasy bölüm, jemleýji bölüm.", "ru": "3 части: начало, основная часть, заключение."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Hat nämeden başlanýar?", "ru": "С чего начинается письмо?"},
+          "options": [{"tk": "Gol çekmekden", "ru": "С подписи"}, {"tk": "Ýüzlenmeden we salamdan", "ru": "С обращения и приветствия"}, {"tk": "Hoşlaşmakdan", "ru": "С прощания"}],
+          "answer": 1,
+          "hint": {"tk": "Biri bilen duşuşanyňda ilki näme diýýärsiň?", "ru": "Что ты говоришь первым, когда встречаешь кого-то?"},
+          "explain": {"tk": "Hat ýüzlenme we salam bilen başlanýar, gol bolsa iň soňunda bolýar.", "ru": "Письмо начинается с обращения и приветствия, а подпись ставится в самом конце."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Mugallyma hat ýazanyňda «Hormatly» diýip ýüzlenmek bolýar.", "ru": "В письме учителю можно обратиться словом «Hormatly» (Уважаемый)."},
+          "answer": true,
+          "hint": {"tk": "Uly adama nähili ýüzlenýäris?", "ru": "Как мы обращаемся к старшим?"},
+          "explain": {"tk": "Dogry. «Hormatly» — uly adamlara sylag bilen ýüzlenmegiň görnüşi.", "ru": "Верно. «Hormatly» — уважительное обращение к старшим."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy sözlem hatyň jemleýji bölegine laýyk?", "ru": "Какое предложение подходит для заключения письма?"},
+          "options": [{"tk": "Eziz dostum!", "ru": "Eziz dostum! (Дорогой друг!)"}, {"tk": "Men täze welosiped aldym.", "ru": "Men täze welosiped aldym. (Я купил новый велосипед.)"}, {"tk": "Saglykda gal! Dostuň Aýdogdy.", "ru": "Saglykda gal! Dostuň Aýdogdy. (Будь здоров! Твой друг Айдогды.)"}],
+          "answer": 2,
+          "hint": {"tk": "Jemleýji bölümde hoşlaşýarys.", "ru": "В заключении мы прощаемся."},
+          "explain": {"tk": "«Saglykda gal!» — hoşlaşma, soňra gol. Birinji sözlem — başlangyç, ikinjisi — esasy bölüm.", "ru": "«Saglykda gal!» — прощание, затем подпись. Первое предложение — начало, второе — основная часть."}
+        },
+        {"type": "world", "text": {
+          "tk": "Dünýäde ilkinji ýelmeşýän poçta markasy 1840-njy ýylda Beýik Britaniýada çykaryldy. Ol gara reňkli bolany üçin «Gara penni» (Penny Black) diýlip atlandyryldy.",
+          "ru": "Первая в мире клеящаяся почтовая марка вышла в Великобритании в 1840 году. Из-за чёрного цвета её назвали «Чёрный пенни» (Penny Black)."
+        }}
+      ]
+    }
+  ]
+}

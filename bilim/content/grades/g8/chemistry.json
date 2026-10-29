@@ -1,0 +1,643 @@
+{
+  "grade": 8,
+  "subject": "chemistry",
+  "lessons": [
+    {
+      "id": "chemistry-8-what-chemistry-studies",
+      "grade": 8,
+      "topic": 0,
+      "title": {
+        "tk": "Himiýa näme öwrenýär",
+        "ru": "Что изучает химия"
+      },
+      "minutes": 7,
+      "steps": [
+        {
+          "type": "theory",
+          "text": {
+            "tk": "Himiýa — maddalary, olaryň düzümini, gurluşyny, häsiýetlerini we bir maddanyň başga madda öwrülmegini öwrenýän ylym.\n\n• Jisim — belli bir şekilli zat (çüý, stakan).\n• Madda — jisimiň nämeden ýasalandygy (demir, aýna).\nBir maddadan dürli jisimler, bir jisimi dürli maddalardan ýasap bolýar.\n\nHadysalar:\n• Fiziki — madda üýtgemeýär, diňe ýagdaýy ýa-da şekili üýtgeýär (buzuň eremegi, aýnanyň döwülmegi).\n• Himiki — täze madda emele gelýär (demiriň poslamagy, kagyzyň ýanmagy, süýdüň turşamagy).\n\nHimiki hadysanyň alamatlary: reňkiň üýtgemegi, gazyň bölünip çykmagy, çökündiniň emele gelmegi, ýylylygyň ýa-da ýagtylygyň bölünip çykmagy, ysyň peýda bolmagy.",
+            "ru": "Химия — наука о веществах, их составе, строении, свойствах и превращениях одних веществ в другие.\n\n• Тело — предмет определённой формы (гвоздь, стакан).\n• Вещество — то, из чего состоит тело (железо, стекло).\nИз одного вещества можно сделать разные тела, а одно тело — из разных веществ.\n\nЯвления:\n• Физические — вещество не меняется, меняется только состояние или форма (таяние льда, разбивание стекла).\n• Химические — образуется новое вещество (ржавление железа, горение бумаги, скисание молока).\n\nПризнаки химического явления: изменение цвета, выделение газа, образование осадка, выделение теплоты или света, появление запаха."
+          }
+        },
+        {
+          "type": "example",
+          "text": {
+            "tk": "Şem ýakanyňyzda iki hadysa bolýar:\n\n1) Şem eräp, suwuk mum emele gelýär — bu fiziki hadysa, sebäbi mum mum bolup galýar.\n2) Pilte ýanýar, ýagtylyk we ýylylyk bölünip çykýar, kömürturşy gazy we suw bugy emele gelýär — bu himiki hadysa, sebäbi täze maddalar döreýär.",
+            "ru": "Когда горит свеча, происходят два явления:\n\n1) Свеча плавится, образуется жидкий парафин — это физическое явление: парафин остаётся парафином.\n2) Фитиль горит, выделяются свет и тепло, образуются углекислый газ и водяной пар — это химическое явление: возникают новые вещества."
+          }
+        },
+        {
+          "type": "choice",
+          "q": {
+            "tk": "Haýsysy himiki hadysa?",
+            "ru": "Какое явление химическое?"
+          },
+          "options": [
+            {
+              "tk": "Suwuň doňmagy",
+              "ru": "Замерзание воды"
+            },
+            {
+              "tk": "Demiriň poslamagy",
+              "ru": "Ржавление железа"
+            },
+            {
+              "tk": "Şekeriň suwda eremegi",
+              "ru": "Растворение сахара в воде"
+            }
+          ],
+          "answer": 1,
+          "hint": {
+            "tk": "Haýsy ýagdaýda täze madda emele gelýär?",
+            "ru": "В каком случае образуется новое вещество?"
+          },
+          "explain": {
+            "tk": "Pos — demir bilen kislorodyň we suwuň täze birleşmesi. Beýleki iki ýagdaýda madda üýtgemeýär.",
+            "ru": "Ржавчина — новое соединение железа с кислородом и водой. В двух других случаях вещество не меняется."
+          }
+        },
+        {
+          "type": "truefalse",
+          "q": {
+            "tk": "«Alýumin» — jisim, «alýumin gaşyk» — madda.",
+            "ru": "«Алюминий» — это тело, а «алюминиевая ложка» — вещество."
+          },
+          "answer": false,
+          "hint": {
+            "tk": "Haýsysynyň şekili bar?",
+            "ru": "У чего есть форма?"
+          },
+          "explain": {
+            "tk": "Tersine: alýumin — madda, gaşyk — jisim.",
+            "ru": "Наоборот: алюминий — вещество, ложка — тело."
+          }
+        },
+        {
+          "type": "choice",
+          "q": {
+            "tk": "Haýsysy himiki reaksiýanyň alamaty DÄL?",
+            "ru": "Что НЕ является признаком химической реакции?"
+          },
+          "options": [
+            {
+              "tk": "Gazyň bölünip çykmagy",
+              "ru": "Выделение газа"
+            },
+            {
+              "tk": "Çökündiniň emele gelmegi",
+              "ru": "Образование осадка"
+            },
+            {
+              "tk": "Şekiliň üýtgemegi",
+              "ru": "Изменение формы"
+            }
+          ],
+          "answer": 2,
+          "hint": {
+            "tk": "Kagyzy büklemek täze madda döredýärmi?",
+            "ru": "Создаёт ли новое вещество сгибание бумаги?"
+          },
+          "explain": {
+            "tk": "Şekiliň üýtgemegi fiziki hadysa, madda şol bolup galýar.",
+            "ru": "Изменение формы — физическое явление, вещество остаётся тем же."
+          }
+        },
+        {
+          "type": "world",
+          "text": {
+            "tk": "Fransuz alymy Antuan Lawuazýe XVIII asyryň ahyrynda reaksiýalardan öň we soň maddalary takyk agramlap, ýanmagyň kislorod bilen birleşmekdigini düşündiripdir. Ony köplenç «häzirki zaman himiýasynyň atasy» diýip atlandyrýarlar.",
+            "ru": "Французский учёный Антуан Лавуазье в конце XVIII века точно взвешивал вещества до и после реакций и объяснил, что горение — это соединение с кислородом. Его часто называют «отцом современной химии»."
+          }
+        }
+      ]
+    },
+    {
+      "id": "chemistry-8-pure-substances-mixtures",
+      "grade": 8,
+      "topic": 1,
+      "title": {
+        "tk": "Arassa maddalar we garyndylar",
+        "ru": "Чистые вещества и смеси"
+      },
+      "minutes": 8,
+      "steps": [
+        {
+          "type": "theory",
+          "text": {
+            "tk": "Arassa madda — hemişelik düzümli we häsiýetli madda (distillirlenen suw, kislorod, mis). Onuň ereme we gaýnama temperaturalary takyk.\n\nGarynda — iki ýa-da birnäçe maddanyň birleşmesi, her madda öz häsiýetini saklaýar.\n• Birjynsly (gomogen) — düzümler görünmeýär: duzly suw, howa, çaý.\n• Dürlijynsly (geterogen) — düzümler görünýär: gum bilen suw, ýag bilen suw, granit.\n\nGaryndylary bölmegiň usullary:\n• Çökdürmek we süzmek — suwda eremeýän gaty bölejikler üçin.\n• Bugartmak — erän gaty maddany almak üçin (duz).\n• Distillýasiýa (gaýnatmak we kondensirlemek) — arassa suwuk almak üçin.\n• Magnit — demir bölejikleri üçin.\n• Bölüji guýgy — garyşmaýan suwuklyklar üçin (ýag we suw).",
+            "ru": "Чистое вещество — вещество с постоянным составом и свойствами (дистиллированная вода, кислород, медь). У него чёткие температуры плавления и кипения.\n\nСмесь — сочетание двух или более веществ, каждое из которых сохраняет свои свойства.\n• Однородная (гомогенная) — компоненты не видны: солёная вода, воздух, чай.\n• Неоднородная (гетерогенная) — компоненты видны: песок с водой, масло с водой, гранит.\n\nСпособы разделения смесей:\n• Отстаивание и фильтрование — для нерастворимых твёрдых частиц.\n• Выпаривание — чтобы получить растворённое твёрдое вещество (соль).\n• Дистилляция (кипячение и конденсация) — чтобы получить чистую жидкость.\n• Магнит — для железных частиц.\n• Делительная воронка — для несмешивающихся жидкостей (масло и вода)."
+          }
+        },
+        {
+          "type": "example",
+          "text": {
+            "tk": "Mesele: duz, gum we demir ownuklarynyň garyndysyny nädip bölmeli?\n\n1) Magnit bilen demir ownuklaryny aýyrýarys.\n2) Galan garyndyny suwa salýarys: duz ereýär, gum eremeýär.\n3) Süzýäris: gum süzgüçde galýar.\n4) Duzly suwy bugardýarys: gapda duz galýar.",
+            "ru": "Задача: как разделить смесь соли, песка и железных опилок?\n\n1) Магнитом убираем железные опилки.\n2) Остаток высыпаем в воду: соль растворяется, песок нет.\n3) Фильтруем: песок остаётся на фильтре.\n4) Выпариваем солёную воду: в чашке остаётся соль."
+          }
+        },
+        {
+          "type": "choice",
+          "q": {
+            "tk": "Haýsysy arassa madda?",
+            "ru": "Что из этого — чистое вещество?"
+          },
+          "options": [
+            {
+              "tk": "Distillirlenen suw",
+              "ru": "Дистиллированная вода"
+            },
+            {
+              "tk": "Howa",
+              "ru": "Воздух"
+            },
+            {
+              "tk": "Deňiz suwy",
+              "ru": "Морская вода"
+            }
+          ],
+          "answer": 0,
+          "hint": {
+            "tk": "Haýsysynda diňe bir madda bar?",
+            "ru": "В чём содержится только одно вещество?"
+          },
+          "explain": {
+            "tk": "Distillirlenen suw diňe H₂O. Howa — gazlaryň garyndysy, deňiz suwy — duzlaryň suwdaky garyndysy.",
+            "ru": "Дистиллированная вода — только H₂O. Воздух — смесь газов, морская вода — смесь солей с водой."
+          }
+        },
+        {
+          "type": "choice",
+          "q": {
+            "tk": "Ýag bilen suwy haýsy usulda bölmek amatly?",
+            "ru": "Каким способом удобнее разделить масло и воду?"
+          },
+          "options": [
+            {
+              "tk": "Magnit bilen",
+              "ru": "Магнитом"
+            },
+            {
+              "tk": "Bugartmak bilen",
+              "ru": "Выпариванием"
+            },
+            {
+              "tk": "Bölüji guýgy bilen",
+              "ru": "Делительной воронкой"
+            }
+          ],
+          "answer": 2,
+          "hint": {
+            "tk": "Bu iki suwuklyk garyşmaýar we gatlaklara bölünýär.",
+            "ru": "Эти жидкости не смешиваются и образуют слои."
+          },
+          "explain": {
+            "tk": "Bölüji guýgyda aşaky gatlak (suw) aýratyn akdyrylýar, ýag ýokarda galýar.",
+            "ru": "В делительной воронке нижний слой (воду) сливают отдельно, масло остаётся сверху."
+          }
+        },
+        {
+          "type": "truefalse",
+          "q": {
+            "tk": "Duzly suw birjynsly garyndydyr.",
+            "ru": "Солёная вода — однородная смесь."
+          },
+          "answer": true,
+          "hint": {
+            "tk": "Duzuň bölejiklerini gözüňiz bilen görüp bilersiňizmi?",
+            "ru": "Можно ли увидеть частицы соли глазом?"
+          },
+          "explain": {
+            "tk": "Dogry: duz doly ereýär, garynda hemme ýerde birmeňzeş.",
+            "ru": "Верно: соль полностью растворяется, смесь везде одинакова."
+          }
+        },
+        {
+          "type": "world",
+          "text": {
+            "tk": "Howa garyndy bolup, onuň takmynan 78 %-i azot, 21 %-i kislorod we 1 %-e golaýy argon hem-de beýleki gazlar. Senagatda bu gazlar suwuk howany distillirlemek arkaly bölünýär: dürli gazlaryň gaýnama temperaturasy dürli.",
+            "ru": "Воздух — смесь: примерно 78 % азота, 21 % кислорода и около 1 % аргона и других газов. В промышленности эти газы разделяют дистилляцией жидкого воздуха: температуры кипения у них разные."
+          }
+        }
+      ]
+    },
+    {
+      "id": "chemistry-8-elements-formulas",
+      "grade": 8,
+      "topic": 2,
+      "title": {
+        "tk": "Himiki elementler, nyşanlar we formulalar",
+        "ru": "Химические элементы, знаки и формулы"
+      },
+      "minutes": 9,
+      "steps": [
+        {
+          "type": "theory",
+          "text": {
+            "tk": "Himiki element — atomlarynyň ýadrosynda protonlaryň sany birmeňzeş bolan atomlaryň görnüşi. Häzir 118 element belli.\n\nNyşanlar latyn atlaryndan alynýar: H — wodorod, O — kislorod, C — uglerod, N — azot, Na — natriý, Fe — demir (ferrum), Cu — mis (cuprum), Ag — kümüş (argentum).\n\nHimiki formula maddanyň düzümini görkezýär:\n• H₂O: 2 wodorod atomy we 1 kislorod atomy.\n• Indeks (aşaky kiçi san) — molekuladaky atomlaryň sany.\n• Koeffisiýent (öňündäki uly san) — molekulalaryň sany: 3H₂O — üç molekula suw.\n\nÝönekeý maddalar bir elementden (O₂, Fe), çylşyrymly maddalar birnäçe elementden (H₂O, CO₂) durýar.\n\nOtnositel molekulýar massa (Mr) — molekuladaky ähli atomlaryň otnositel atom massalarynyň jemi.\nAr bahalary: H = 1, C = 12, N = 14, O = 16, Na = 23, S = 32, Cl = 35,5.",
+            "ru": "Химический элемент — вид атомов с одинаковым числом протонов в ядре. Сейчас известно 118 элементов.\n\nЗнаки берутся из латинских названий: H — водород, O — кислород, C — углерод, N — азот, Na — натрий, Fe — железо (ferrum), Cu — медь (cuprum), Ag — серебро (argentum).\n\nХимическая формула показывает состав вещества:\n• H₂O: 2 атома водорода и 1 атом кислорода.\n• Индекс (маленькая цифра внизу) — число атомов в молекуле.\n• Коэффициент (большая цифра впереди) — число молекул: 3H₂O — три молекулы воды.\n\nПростые вещества состоят из одного элемента (O₂, Fe), сложные — из нескольких (H₂O, CO₂).\n\nОтносительная молекулярная масса (Mr) — сумма относительных атомных масс всех атомов в молекуле.\nЗначения Ar: H = 1, C = 12, N = 14, O = 16, Na = 23, S = 32, Cl = 35,5."
+          }
+        },
+        {
+          "type": "example",
+          "text": {
+            "tk": "Kömürturşy gazynyň (CO₂) Mr-ni hasaplalyň.\n\n1) Düzümi: 1 C we 2 O.\n2) Mr = 12 + 2 · 16 = 12 + 32 = 44.\n\nSuw üçin: Mr(H₂O) = 2 · 1 + 16 = 18.",
+            "ru": "Вычислим Mr углекислого газа (CO₂).\n\n1) Состав: 1 C и 2 O.\n2) Mr = 12 + 2 · 16 = 12 + 32 = 44.\n\nДля воды: Mr(H₂O) = 2 · 1 + 16 = 18."
+          }
+        },
+        {
+          "type": "input",
+          "q": {
+            "tk": "H₂SO₄ molekulasynda jemi näçe atom bar?",
+            "ru": "Сколько всего атомов в молекуле H₂SO₄?"
+          },
+          "answer": "7",
+          "hint": {
+            "tk": "Indeksleri goşuň; indeks ýok bolsa, ol 1.",
+            "ru": "Сложите индексы; если индекса нет, он равен 1."
+          },
+          "explain": {
+            "tk": "2 (H) + 1 (S) + 4 (O) = 7.",
+            "ru": "2 (H) + 1 (S) + 4 (O) = 7."
+          }
+        },
+        {
+          "type": "input",
+          "q": {
+            "tk": "Metanyň (CH₄) otnositel molekulýar massasyny hasaplaň.",
+            "ru": "Вычислите относительную молекулярную массу метана (CH₄)."
+          },
+          "answer": "16",
+          "hint": {
+            "tk": "C = 12, H = 1.",
+            "ru": "C = 12, H = 1."
+          },
+          "explain": {
+            "tk": "Mr = 12 + 4 · 1 = 16.",
+            "ru": "Mr = 12 + 4 · 1 = 16."
+          }
+        },
+        {
+          "type": "choice",
+          "q": {
+            "tk": "«Fe» nyşany haýsy elemente degişli?",
+            "ru": "Какому элементу принадлежит знак «Fe»?"
+          },
+          "options": [
+            {
+              "tk": "Ftor",
+              "ru": "Фтор"
+            },
+            {
+              "tk": "Demir",
+              "ru": "Железо"
+            },
+            {
+              "tk": "Fosfor",
+              "ru": "Фосфор"
+            }
+          ],
+          "answer": 1,
+          "hint": {
+            "tk": "Latynça «ferrum».",
+            "ru": "По-латыни «ferrum»."
+          },
+          "explain": {
+            "tk": "Fe — demir. Ftor — F, fosfor — P.",
+            "ru": "Fe — железо. Фтор — F, фосфор — P."
+          }
+        },
+        {
+          "type": "truefalse",
+          "q": {
+            "tk": "O₂ — ýönekeý madda.",
+            "ru": "O₂ — простое вещество."
+          },
+          "answer": true,
+          "hint": {
+            "tk": "Formulada näçe dürli element bar?",
+            "ru": "Сколько разных элементов в формуле?"
+          },
+          "explain": {
+            "tk": "Dogry: O₂ diňe kislorod elementinden durýar.",
+            "ru": "Верно: O₂ состоит только из элемента кислорода."
+          }
+        },
+        {
+          "type": "world",
+          "text": {
+            "tk": "Elementleriň häzirki harply nyşanlaryny 1810-njy ýyllarda şwed himigi Ýöns Ýakob Berselius hödürläpdir. Ondan öň alhimikler we himikler elementleri dürli şekiller — tegelekler, ýyldyzlar, Aý we Gün nyşanlary bilen belgiläpdirler.",
+            "ru": "Современные буквенные символы элементов предложил в 1810-х годах шведский химик Йёнс Якоб Берцелиус. До этого алхимики и химики обозначали элементы разными значками — кружками, звёздочками, символами Луны и Солнца."
+          }
+        }
+      ]
+    },
+    {
+      "id": "chemistry-8-valence",
+      "grade": 8,
+      "topic": 3,
+      "title": {
+        "tk": "Walentlik we formulalary düzmek",
+        "ru": "Валентность и составление формул"
+      },
+      "minutes": 9,
+      "steps": [
+        {
+          "type": "theory",
+          "text": {
+            "tk": "Walentlik — bir elementiň atomynyň başga atomlar bilen näçe baglanyşyk emele getirip bilýändigini görkezýän san. Rim sanlary bilen ýazylýar.\n\n• Hemişelik walentlik: H — I, O — II, Na, K — I, Mg, Ca, Zn — II, Al — III.\n• Üýtgeýän walentlik: Fe — II ýa-da III, Cu — I ýa-da II, C — II ýa-da IV, S — II, IV, VI.\n\nEsasy düzgün: iki elementli birleşmede bir elementiň ähli atomlarynyň walentlikleriniň jemi beýleki elementiňkä deň.\nAᵃₓ Bᵇᵧ üçin: a · x = b · y.",
+            "ru": "Валентность — число, показывающее, сколько связей атом элемента может образовать с другими атомами. Записывается римскими цифрами.\n\n• Постоянная валентность: H — I, O — II, Na, K — I, Mg, Ca, Zn — II, Al — III.\n• Переменная валентность: Fe — II или III, Cu — I или II, C — II или IV, S — II, IV, VI.\n\nГлавное правило: в бинарном соединении сумма валентностей всех атомов одного элемента равна сумме валентностей атомов другого.\nДля Aᵃₓ Bᵇᵧ: a · x = b · y."
+          }
+        },
+        {
+          "type": "example",
+          "text": {
+            "tk": "Alýumin oksidiniň formulasyny düzeliň (Al — III, O — II).\n\n1) Walentlikleriň iň kiçi umumy kratnysy: III we II → 6.\n2) Al atomlarynyň sany: 6 / 3 = 2.\n3) O atomlarynyň sany: 6 / 2 = 3.\n4) Formula: Al₂O₃.\nBarlag: 3 · 2 = 6, 2 · 3 = 6.",
+            "ru": "Составим формулу оксида алюминия (Al — III, O — II).\n\n1) Наименьшее общее кратное валентностей III и II → 6.\n2) Число атомов Al: 6 / 3 = 2.\n3) Число атомов O: 6 / 2 = 3.\n4) Формула: Al₂O₃.\nПроверка: 3 · 2 = 6, 2 · 3 = 6."
+          }
+        },
+        {
+          "type": "choice",
+          "q": {
+            "tk": "Magniý (II) bilen kislorod (II) birleşmesiniň formulasy haýsy?",
+            "ru": "Какова формула соединения магния (II) с кислородом (II)?"
+          },
+          "options": [
+            "Mg₂O",
+            "MgO₂",
+            "MgO"
+          ],
+          "answer": 2,
+          "hint": {
+            "tk": "Walentlikler deň bolsa, atomlaryň sany hem deň.",
+            "ru": "Если валентности равны, то и числа атомов равны."
+          },
+          "explain": {
+            "tk": "II · 1 = II · 1, şonuň üçin MgO.",
+            "ru": "II · 1 = II · 1, поэтому MgO."
+          }
+        },
+        {
+          "type": "input",
+          "q": {
+            "tk": "Fe₂O₃ birleşmesinde demiriň walentligi näçe? (Arap sany bilen ýazyň)",
+            "ru": "Какова валентность железа в Fe₂O₃? (Напишите арабской цифрой)"
+          },
+          "answer": "3|III",
+          "hint": {
+            "tk": "Kislorodyň jemi walentligini hasaplaň: 3 · II.",
+            "ru": "Посчитайте суммарную валентность кислорода: 3 · II."
+          },
+          "explain": {
+            "tk": "O: 3 · 2 = 6. Fe: 6 / 2 = 3, ýagny III.",
+            "ru": "O: 3 · 2 = 6. Fe: 6 / 2 = 3, то есть III."
+          }
+        },
+        {
+          "type": "input",
+          "q": {
+            "tk": "CO₂-de uglerodyň walentligi näçe? (Arap sany bilen)",
+            "ru": "Какова валентность углерода в CO₂? (Арабской цифрой)"
+          },
+          "answer": "4|IV",
+          "hint": {
+            "tk": "Iki kislorod atomy, her biri II.",
+            "ru": "Два атома кислорода, каждый II."
+          },
+          "explain": {
+            "tk": "2 · 2 = 4, uglerod bir atom, şonuň üçin IV.",
+            "ru": "2 · 2 = 4, атом углерода один, поэтому IV."
+          }
+        },
+        {
+          "type": "truefalse",
+          "q": {
+            "tk": "Wodorod birleşmelerinde hemişe I walentlidir.",
+            "ru": "Водород в соединениях всегда одновалентен."
+          },
+          "answer": true,
+          "hint": {
+            "tk": "Wodorod hemişelik walentlikli elementleriň sanawynda.",
+            "ru": "Водород в списке элементов с постоянной валентностью."
+          },
+          "explain": {
+            "tk": "Dogry: wodorod atomy diňe bir baglanyşyk emele getirýär, şonuň üçin ol walentligi ölçemek üçin binýat hökmünde ulanylýar.",
+            "ru": "Верно: атом водорода образует только одну связь, поэтому его используют как эталон для определения валентности."
+          }
+        },
+        {
+          "type": "world",
+          "text": {
+            "tk": "Walentlik düşünjesini 1850-nji ýyllarda iňlis himigi Edward Frankland girizipdir. Ol her elementiň atomynyň başga atomlary belli bir «san» bilen birikdirýändigini görüpdir. Bu pikir soňra Mendeleýewiň elementleri ulgamlaşdyrmagyna kömek edipdir.",
+            "ru": "Понятие валентности ввёл в 1850-х годах английский химик Эдуард Франкленд. Он заметил, что атом каждого элемента присоединяет определённое «число» других атомов. Эта идея позже помогла Менделееву систематизировать элементы."
+          }
+        }
+      ]
+    },
+    {
+      "id": "chemistry-8-chemical-reactions",
+      "grade": 8,
+      "topic": 4,
+      "title": {
+        "tk": "Himiki reaksiýalar we deňlemeler",
+        "ru": "Химические реакции и уравнения"
+      },
+      "minutes": 10,
+      "steps": [
+        {
+          "type": "theory",
+          "text": {
+            "tk": "Himiki reaksiýa — başlangyç maddalardan (reagentlerden) täze maddalaryň (önümleriň) emele gelmegi.\n\nMassanyň saklanma kanuny (Lomonosow, Lawuazýe): reaksiýa girýän maddalaryň massasy emele gelýän maddalaryň massasyna deň. Sebäbi atomlar ýok bolmaýar we täzeden döremeýär, diňe täzeden birleşýär.\n\nŞonuň üçin deňlemede her elementiň atomlarynyň sany çepde we sagda deň bolmaly. Muny koeffisiýentler bilen deňleşdirýäris (indeksleri üýtgetmek bolmaz!).\n\nReaksiýalaryň görnüşleri:\n• Birleşme: A + B → AB\n• Dargama: AB → A + B\n• Orun çalşma: A + BC → AC + B\n• Çalşyk: AB + CD → AD + CB",
+            "ru": "Химическая реакция — образование новых веществ (продуктов) из исходных веществ (реагентов).\n\nЗакон сохранения массы (Ломоносов, Лавуазье): масса веществ, вступивших в реакцию, равна массе образовавшихся веществ. Ведь атомы не исчезают и не возникают, а лишь перегруппировываются.\n\nПоэтому в уравнении число атомов каждого элемента слева и справа должно быть одинаковым. Его уравнивают коэффициентами (индексы менять нельзя!).\n\nТипы реакций:\n• Соединение: A + B → AB\n• Разложение: AB → A + B\n• Замещение: A + BC → AC + B\n• Обмен: AB + CD → AD + CB"
+          }
+        },
+        {
+          "type": "example",
+          "text": {
+            "tk": "Wodorodyň ýanmagyny deňleşdireliň: H₂ + O₂ → H₂O.\n\n1) Çepde 2 O, sagda 1 O. Suwuň öňüne 2 goýýarys: H₂ + O₂ → 2H₂O.\n2) Indi sagda 4 H, çepde 2 H. Wodorodyň öňüne 2 goýýarys.\n3) 2H₂ + O₂ → 2H₂O.\nBarlag: H: 4 = 4, O: 2 = 2. Bu birleşme reaksiýasy.",
+            "ru": "Уравняем горение водорода: H₂ + O₂ → H₂O.\n\n1) Слева 2 O, справа 1 O. Ставим 2 перед водой: H₂ + O₂ → 2H₂O.\n2) Теперь справа 4 H, слева 2 H. Ставим 2 перед водородом.\n3) 2H₂ + O₂ → 2H₂O.\nПроверка: H: 4 = 4, O: 2 = 2. Это реакция соединения."
+          }
+        },
+        {
+          "type": "choice",
+          "q": {
+            "tk": "CaCO₃ → CaO + CO₂ reaksiýasynyň görnüşi haýsy?",
+            "ru": "К какому типу относится реакция CaCO₃ → CaO + CO₂?"
+          },
+          "options": [
+            {
+              "tk": "Birleşme",
+              "ru": "Соединение"
+            },
+            {
+              "tk": "Dargama",
+              "ru": "Разложение"
+            },
+            {
+              "tk": "Çalşyk",
+              "ru": "Обмен"
+            }
+          ],
+          "answer": 1,
+          "hint": {
+            "tk": "Bir maddadan näçe madda emele gelýär?",
+            "ru": "Сколько веществ образуется из одного?"
+          },
+          "explain": {
+            "tk": "Bir çylşyrymly maddadan iki madda emele gelýär — dargama.",
+            "ru": "Из одного сложного вещества образуются два — это разложение."
+          }
+        },
+        {
+          "type": "input",
+          "q": {
+            "tk": "Deňlemäni doldurlyň: 4Al + 3O₂ → _Al₂O₃. Boşlukdaky koeffisiýent näçe?",
+            "ru": "Дополните уравнение: 4Al + 3O₂ → _Al₂O₃. Какой коэффициент на месте пропуска?"
+          },
+          "answer": "2",
+          "hint": {
+            "tk": "Çepde 4 Al atomy bar, Al₂O₃-de bolsa 2.",
+            "ru": "Слева 4 атома Al, а в Al₂O₃ их 2."
+          },
+          "explain": {
+            "tk": "4 / 2 = 2. Barlag: O: 3 · 2 = 6 we 2 · 3 = 6.",
+            "ru": "4 / 2 = 2. Проверка: O: 3 · 2 = 6 и 2 · 3 = 6."
+          }
+        },
+        {
+          "type": "input",
+          "q": {
+            "tk": "12 g uglerod 32 g kislorod bilen doly reaksiýa girdi. Näçe gram CO₂ emele geldi?",
+            "ru": "12 г углерода полностью прореагировали с 32 г кислорода. Сколько граммов CO₂ образовалось?"
+          },
+          "answer": "44",
+          "hint": {
+            "tk": "Massanyň saklanma kanunyny ulanyň.",
+            "ru": "Используйте закон сохранения массы."
+          },
+          "explain": {
+            "tk": "12 + 32 = 44 g.",
+            "ru": "12 + 32 = 44 г."
+          }
+        },
+        {
+          "type": "truefalse",
+          "q": {
+            "tk": "Deňlemäni deňleşdirmek üçin formuladaky indeksleri üýtgedip bolýar.",
+            "ru": "Чтобы уравнять уравнение, можно менять индексы в формулах."
+          },
+          "answer": false,
+          "hint": {
+            "tk": "H₂O-ny H₂O₂ edip üýtgetsek näme bolar?",
+            "ru": "Что будет, если H₂O заменить на H₂O₂?"
+          },
+          "explain": {
+            "tk": "Ýalňyş: indeksi üýtgetmek maddany üýtgedýär (H₂O₂ — wodorod peroksidi). Diňe koeffisiýentler goýulýar.",
+            "ru": "Неверно: изменение индекса меняет вещество (H₂O₂ — пероксид водорода). Ставят только коэффициенты."
+          }
+        },
+        {
+          "type": "world",
+          "text": {
+            "tk": "Feýerwerkleriň reňkleri himiki reaksiýalaryň netijesi: dürli metallaryň birleşmeleri ýananda dürli reňkli ýagtylyk berýär. Mysal üçin, stronsiý gyzyl, barij ýaşyl, natriý sary, mis gök-ýaşyl reňk berýär.",
+            "ru": "Цвета фейерверков — результат химических реакций: соединения разных металлов при горении дают свет разного цвета. Например, стронций даёт красный, барий — зелёный, натрий — жёлтый, медь — сине-зелёный цвет."
+          }
+        }
+      ]
+    },
+    {
+      "id": "chemistry-8-oxygen-water",
+      "grade": 8,
+      "topic": 5,
+      "title": {
+        "tk": "Kislorod we suw",
+        "ru": "Кислород и вода"
+      },
+      "minutes": 9,
+      "steps": [
+        {
+          "type": "theory",
+          "text": {
+            "tk": "Kislorod (O, ýönekeý maddasy O₂) — reňksiz, yssyz gaz, suwda az ereýär, howadan birneme agyr. Ýer gabygynda iň köp ýaýran element.\n• Dem almak we ýanmak üçin zerur.\n• Maddalar kislorod bilen birleşip, oksidleri emele getirýär: C + O₂ → CO₂, 2Mg + O₂ → 2MgO.\n• Laboratoriýada almak: 2H₂O₂ → 2H₂O + O₂ (katalizator MnO₂) ýa-da kaliý permanganatyny gyzdyrmak.\n• Tanamak: ýylpyldap ýanýan çöp kislorodda gaýtadan alawlanýar.\n\nSuw (H₂O) — Ýerde iň köp ýaýran suwuklyk.\n• 0 °C-da doňýar, 100 °C-da gaýnaýar, dykyzlygy iň uly 4 °C-da.\n• Gowy erediji — köp maddalar suwda ereýär.\n• Aktiw metallar bilen reaksiýa girýär: 2Na + 2H₂O → 2NaOH + H₂.\n• Elektrik togy bilen dargaýar: 2H₂O → 2H₂ + O₂.",
+            "ru": "Кислород (O, простое вещество O₂) — бесцветный газ без запаха, мало растворим в воде, немного тяжелее воздуха. Самый распространённый элемент в земной коре.\n• Необходим для дыхания и горения.\n• Вещества соединяются с кислородом, образуя оксиды: C + O₂ → CO₂, 2Mg + O₂ → 2MgO.\n• Получение в лаборатории: 2H₂O₂ → 2H₂O + O₂ (катализатор MnO₂) или нагревание перманганата калия.\n• Распознавание: тлеющая лучинка в кислороде вспыхивает.\n\nВода (H₂O) — самая распространённая жидкость на Земле.\n• Замерзает при 0 °C, кипит при 100 °C, наибольшая плотность при 4 °C.\n• Хороший растворитель — в ней растворяются многие вещества.\n• Реагирует с активными металлами: 2Na + 2H₂O → 2NaOH + H₂.\n• Разлагается электрическим током: 2H₂O → 2H₂ + O₂."
+          }
+        },
+        {
+          "type": "example",
+          "text": {
+            "tk": "Suwda kislorodyň massa paýyny hasaplalyň.\n\n1) Mr(H₂O) = 2 · 1 + 16 = 18.\n2) Kislorodyň paýy: 16 / 18 ≈ 0,89, ýagny ≈ 89 %.\n\nDiýmek, 1 kg suwuň takmynan 890 g-y kislorod.",
+            "ru": "Вычислим массовую долю кислорода в воде.\n\n1) Mr(H₂O) = 2 · 1 + 16 = 18.\n2) Доля кислорода: 16 / 18 ≈ 0,89, то есть ≈ 89 %.\n\nЗначит, примерно 890 г из 1 кг воды приходится на кислород."
+          }
+        },
+        {
+          "type": "choice",
+          "q": {
+            "tk": "Kislorody nädip tanap bolýar?",
+            "ru": "Как можно распознать кислород?"
+          },
+          "options": [
+            {
+              "tk": "Ýylpyldap ýanýan çöp alawlanýar",
+              "ru": "Тлеющая лучинка вспыхивает"
+            },
+            {
+              "tk": "Hek suwy bulançak bolýar",
+              "ru": "Известковая вода мутнеет"
+            },
+            {
+              "tk": "Gaz «pop» ses bilen ýarylýar",
+              "ru": "Газ сгорает с хлопком"
+            }
+          ],
+          "answer": 0,
+          "hint": {
+            "tk": "Kislorod ýanmany güýçlendirýär.",
+            "ru": "Кислород усиливает горение."
+          },
+          "explain": {
+            "tk": "Kislorodda çöp alawlanýar. Hek suwy CO₂-ni, «pop» sesi wodorody görkezýär.",
+            "ru": "В кислороде лучинка вспыхивает. Известковая вода выявляет CO₂, хлопок — водород."
+          }
+        },
+        {
+          "type": "truefalse",
+          "q": {
+            "tk": "Buz suwuň üstünde ýüzýär, sebäbi buzuň dykyzlygy suwuňkydan kiçi.",
+            "ru": "Лёд плавает на воде, потому что плотность льда меньше плотности воды."
+          },
+          "answer": true,
+          "hint": {
+            "tk": "Suw doňanda göwrümi nähili üýtgeýär?",
+            "ru": "Как меняется объём воды при замерзании?"
+          },
+          "explain": {
+            "tk": "Dogry: doňanda suw giňelýär, buzuň dykyzlygy takmynan 0,9 g/sm³.",
+            "ru": "Верно: при замерзании вода расширяется, плотность льда около 0,9 г/см³."
+          }
+        },
+        {
+          "type": "input",
+          "q": {
+            "tk": "Suwuň elektrolizinde: 2H₂O → 2H₂ + O₂. Bir molekula O₂ emele gelende, näçe molekula H₂ emele gelýär?",
+            "ru": "При электролизе воды: 2H₂O → 2H₂ + O₂. Сколько молекул H₂ образуется на одну молекулу O₂?"
+          },
+          "answer": "2",
+          "hint": {
+            "tk": "Deňlemedäki koeffisiýentlere serediň.",
+            "ru": "Посмотрите на коэффициенты в уравнении."
+          },
+          "explain": {
+            "tk": "Koeffisiýentler 2 : 1, şonuň üçin wodorodyň göwrümi kislorodyňkydan iki esse köp.",
+            "ru": "Коэффициенты 2 : 1, поэтому водорода по объёму получается вдвое больше, чем кислорода."
+          }
+        },
+        {
+          "type": "world",
+          "text": {
+            "tk": "Kislorody 1770-nji ýyllarda şwed himigi Karl Şeele we iňlis alymy Jozef Pristli biri-birinden habarsyz açypdyrlar. «Kislorod» adyny Lawuazýe beripdir — fransuz dilindäki «oxygène» «turşy döredýän» diýmegi aňladýar.",
+            "ru": "Кислород в 1770-х годах независимо друг от друга открыли шведский химик Карл Шееле и английский учёный Джозеф Пристли. Название дал Лавуазье — французское «oxygène» означает «рождающий кислоты»."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,288 @@
+{
+  "grade": 6,
+  "subject": "biology",
+  "lessons": [
+    {
+      "id": "biology-6-properties-of-life",
+      "grade": 6,
+      "topic": 0,
+      "title": {"tk": "Janlylaryň häsiýetleri", "ru": "Свойства живого"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Janly organizmler jansyz zatlardan birnäçe umumy häsiýetleri bilen tapawutlanýar:\n• Öýjükli gurluş – ähli janlylar öýjüklerden ybarat.\n• Iýmitlenme we dem alma – energiýa almak.\n• Zat çalşygy – maddalary kabul etmek we galyndylary çykarmak.\n• Ösüş we kemala geliş.\n• Gyjyndyrmalara jogap bermek (ýagtylyga, temperatura, degmä).\n• Köpelmek – özüne meňzeş nesil galdyrmak.\n• Hereket – haýwanlar ýöreýär, ösümlikler ýagtylyga tarap öwrülýär.",
+          "ru": "Живые организмы отличаются от неживых тел рядом общих свойств:\n• Клеточное строение – все живые существа состоят из клеток.\n• Питание и дыхание – получение энергии.\n• Обмен веществ – поглощение веществ и выведение отходов.\n• Рост и развитие.\n• Раздражимость – ответ на раздражители (свет, температуру, прикосновение).\n• Размножение – воспроизведение себе подобных.\n• Движение – животные передвигаются, растения поворачиваются к свету."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mysal: pişik we kristal deňeşdirilýär.\n1) Kristal hem \"ulalýar\", ýöne diňe daşyndan täze gatlaklar goşulýar – ol iýmitlenmeýär we dem almaýar.\n2) Pişik iýmitlenýär, dem alýar, ösýär, sese jogap berýär we balalaýar.\nNetije: kristalda janlylaryň häsiýetleriniň diňe biri ýaly bir zat bar, pişikde bolsa hemmesi bar. Şonuň üçin pişik – janly, kristal – jansyz.",
+          "ru": "Пример: сравним кошку и кристалл.\n1) Кристалл тоже «растёт», но только за счёт новых слоёв снаружи – он не питается и не дышит.\n2) Кошка питается, дышит, растёт, реагирует на звук и приносит котят.\nВывод: у кристалла лишь что-то похожее на одно свойство живого, у кошки – все. Поэтому кошка – живая, кристалл – неживой."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Günebakaryň gün tarapa öwrülmegi janlylaryň haýsy häsiýetini görkezýär?", "ru": "Поворот подсолнечника к солнцу показывает какое свойство живого?"},
+          "options": [{"tk": "Köpelmek", "ru": "Размножение"}, {"tk": "Gyjyndyrmalara jogap", "ru": "Раздражимость"}, {"tk": "Dem alma", "ru": "Дыхание"}],
+          "answer": 1,
+          "hint": {"tk": "Ösümlik ýagtylyga jogap berýär.", "ru": "Растение реагирует на свет."},
+          "explain": {"tk": "Ýagtylyk – gyjyndyryjy, ösümligiň öwrülmegi – oňa jogap.", "ru": "Свет – раздражитель, поворот растения – ответ на него."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Ähli janly organizmler öýjüklerden ybarat.", "ru": "Все живые организмы состоят из клеток."},
+          "answer": true,
+          "hint": {"tk": "Bakteriýa hem bir öýjükden ybarat.", "ru": "Бактерия тоже состоит из одной клетки."},
+          "explain": {"tk": "Dogry. Käbir organizmler bir öýjükden (bakteriýalar), beýlekiler köp öýjükden (adam, agaç) ybarat.", "ru": "Верно. Одни организмы одноклеточные (бактерии), другие многоклеточные (человек, дерево)."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy zat janly?", "ru": "Что из этого живое?"},
+          "options": [{"tk": "Bulut", "ru": "Облако"}, {"tk": "Ot (ýangyn)", "ru": "Огонь"}, {"tk": "Kömelek", "ru": "Гриб"}],
+          "answer": 2,
+          "hint": {"tk": "Haýsysy öýjüklerden ybarat we köpelýär?", "ru": "Что состоит из клеток и размножается?"},
+          "explain": {"tk": "Kömelek – janly organizm. Ot hem \"ösýän\" ýaly görünýär, ýöne onda öýjük ýok.", "ru": "Гриб – живой организм. Огонь тоже как будто «растёт», но клеток у него нет."}
+        },
+        {"type": "input",
+          "q": {"tk": "Teoriýada janlylaryň näçe häsiýeti sanaldy? (san bilen)", "ru": "Сколько свойств живого перечислено в теории? (числом)"},
+          "answer": "7",
+          "hint": {"tk": "\"•\" belgileri sanaň.", "ru": "Посчитайте пункты со знаком «•»."},
+          "explain": {"tk": "Öýjükli gurluş, iýmitlenme we dem alma, zat çalşygy, ösüş, gyjyndyrmalara jogap, köpelmek, hereket – 7.", "ru": "Клеточное строение, питание и дыхание, обмен веществ, рост, раздражимость, размножение, движение – 7."}
+        },
+        {"type": "world", "text": {
+          "tk": "Ýer ýüzündäki iň uzak ýaşaýan janlylaryň biri – ABŞ-nyň Kaliforniýa ştatynda ösýän Pinus longaeva sosnasy. Käbir agaçlaryň ýaşy 4 müň ýyldan geçýär.",
+          "ru": "Одни из самых долгоживущих организмов на Земле – остистые сосны (Pinus longaeva) в Калифорнии, США. Возраст некоторых деревьев превышает 4 тысячи лет."
+        }}
+      ]
+    },
+    {
+      "id": "biology-6-microscope",
+      "grade": 6,
+      "topic": 1,
+      "title": {"tk": "Mikroskop", "ru": "Микроскоп"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Mikroskop – göz bilen görünmeýän ownuk zatlary ulaldyp görkezýän abzal.\nÝagtylyk mikroskopynyň bölekleri:\n• Okulýar – göz bilen seredilýän linza.\n• Obýektiw – obýekte ýakyn linzalar.\n• Predmet stoly – preparat goýulýan ýer.\n• Aýna ýa-da çyra – ýagtylyk berýär.\n• Wintler – aýdyňlygy sazlamak üçin.\nUlaldyş = okulýaryň ulaldyşy × obýektiwiň ulaldyşy.",
+          "ru": "Микроскоп – прибор, который увеличивает мелкие объекты, невидимые глазом.\nЧасти светового микроскопа:\n• Окуляр – линза, в которую смотрят глазом.\n• Объектив – линзы рядом с объектом.\n• Предметный столик – место для препарата.\n• Зеркало или лампа – дают свет.\n• Винты – для настройки резкости.\nУвеличение = увеличение окуляра × увеличение объектива."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mysal: sogan gabygynyň preparatyny taýýarlamak.\n1) Predmet aýnasyna bir damja suw damdyrýarys.\n2) Sogandan inçe, aç-açan gabyk aýryp, suwa goýýarys.\n3) Üstüni örtüji aýna bilen ýapýarys.\n4) Okulýar ×10, obýektiw ×10 – ulaldyş 10 × 10 = 100 esse.\n5) Wintler bilen aýdyňlygy sazlaýarys – gönüburçly öýjükleri görýäris.",
+          "ru": "Пример: готовим препарат кожицы лука.\n1) На предметное стекло капаем каплю воды.\n2) Снимаем с лука тонкую прозрачную кожицу и кладём в воду.\n3) Накрываем покровным стеклом.\n4) Окуляр ×10, объектив ×10 – увеличение 10 × 10 = 100 раз.\n5) Винтами настраиваем резкость – видим прямоугольные клетки."
+        }},
+        {"type": "input",
+          "q": {"tk": "Okulýar ×10, obýektiw ×40. Mikroskop näçe esse ulaldýar?", "ru": "Окуляр ×10, объектив ×40. Во сколько раз увеличивает микроскоп?"},
+          "answer": "400",
+          "hint": {"tk": "Iki ulaldyşy köpeldiň.", "ru": "Перемножьте два увеличения."},
+          "explain": {"tk": "10 × 40 = 400 esse.", "ru": "10 × 40 = 400 раз."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Mikroskopyň haýsy bölegine göz bilen seredilýär?", "ru": "В какую часть микроскопа смотрят глазом?"},
+          "options": [{"tk": "Obýektiw", "ru": "Объектив"}, {"tk": "Predmet stoly", "ru": "Предметный столик"}, {"tk": "Okulýar", "ru": "Окуляр"}],
+          "answer": 2,
+          "hint": {"tk": "Bu sözüň köki latynça \"göz\" diýmegi aňladýar.", "ru": "Корень этого слова по-латыни означает «глаз»."},
+          "explain": {"tk": "Okulýar (latynça oculus – göz) – ýokarky linza, oňa göz bilen seredilýär.", "ru": "Окуляр (лат. oculus – глаз) – верхняя линза, в которую смотрят."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Mikroskop bilen seretmek üçin obýekt inçe we ýagtylyk geçirýän bolmaly.", "ru": "Чтобы рассмотреть объект в световой микроскоп, он должен быть тонким и пропускать свет."},
+          "answer": true,
+          "hint": {"tk": "Ýagtylyk aşakdan obýektiň içinden geçýär.", "ru": "Свет идёт снизу сквозь объект."},
+          "explain": {"tk": "Dogry. Galyň obýektiň içinden ýagtylyk geçmeýär, şonuň üçin inçe preparat taýýarlanýar.", "ru": "Верно. Через толстый объект свет не проходит, поэтому делают тонкий препарат."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Ilkinji gezek mikroskopda janly mikroorganizmleri gören alym kim?", "ru": "Какой учёный первым увидел в микроскоп живые микроорганизмы?"},
+          "options": [{"tk": "Antoni wan Lewenguk", "ru": "Антони ван Левенгук"}, {"tk": "Isaak Nýuton", "ru": "Исаак Ньютон"}, {"tk": "Galileo Galileý", "ru": "Галилео Галилей"}],
+          "answer": 0,
+          "hint": {"tk": "Ol niderlandly, özi linzalary ýonupdyr.", "ru": "Он голландец и сам шлифовал линзы."},
+          "explain": {"tk": "Antoni wan Lewenguk XVII asyrda öz ýasan mikroskoplary bilen suwda \"ownuk haýwanjyklary\" görüpdir.", "ru": "Антони ван Левенгук в XVII веке увидел в воде «маленьких зверьков» в свои самодельные микроскопы."}
+        },
+        {"type": "world", "text": {
+          "tk": "1665-nji ýylda iňlis alymy Robert Huk mikroskopda probkanyň inçe kesimine seredip, kiçijik \"otaglary\" görüpdir we olary \"öýjükler\" (cells) diýip atlandyrypdyr. Biologiýadaky \"öýjük\" adalgasy şondan gelip çykýar.",
+          "ru": "В 1665 году английский учёный Роберт Гук рассмотрел в микроскоп тонкий срез пробки, увидел крошечные «комнатки» и назвал их «клетками» (cells). Отсюда и пошёл биологический термин «клетка»."
+        }}
+      ]
+    },
+    {
+      "id": "biology-6-bacteria-fungi",
+      "grade": 6,
+      "topic": 2,
+      "title": {"tk": "Bakteriýalar we kömelekler", "ru": "Бактерии и грибы"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Bakteriýalar – iň ownuk bir öýjükli organizmler. Olaryň öýjüginde ýadro ýok.\n• Görnüşleri boýunça: şar şekilli (kokklar), taýajyk şekilli (batsillalar), towlanan (spirillalar).\n• Peýdaly bakteriýalar: gatyk we peýnir öndürmekde, içegede siňdirişe kömek edýär.\n• Zyýanly bakteriýalar keselleri döredýär.\nKömelekler – aýratyn janly dünýäsi (ösümlik hem däl, haýwan hem däl).\n• Olaryň öýjüginde ýadro bar, ýöne hlorofil ýok – özleri iýmit döretmeýärler.\n• Bedeni inçe sapajyklardan – miseliýden ybarat.\n• Mysallar: şlýapaly kömelekler, köküş, aşgatyk (drožžy).",
+          "ru": "Бактерии – мельчайшие одноклеточные организмы. В их клетке нет ядра.\n• По форме: шаровидные (кокки), палочковидные (бациллы), извитые (спириллы).\n• Полезные бактерии: помогают делать кефир и сыр, переваривать пищу в кишечнике.\n• Вредные бактерии вызывают болезни.\nГрибы – отдельное царство живых организмов (не растения и не животные).\n• В их клетках есть ядро, но нет хлорофилла – сами пищу не создают.\n• Тело состоит из тонких нитей – мицелия (грибницы).\n• Примеры: шляпочные грибы, плесень, дрожжи."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mysal: çörek nähili köpelýär?\n1) Hamyra aşgatyk (drožžy) goşulýar – bu bir öýjükli kömelek.\n2) Aşgatyk unuň içindäki şekeri iýip, kömürturşy gazyny çykarýar.\n3) Gaz köpürjikleri hamyry galdyrýar – çörek ýumşak we gözenekli bolýar.\nNetije: kömelekler biziň her günki iýmitimizi taýýarlamaga kömek edýär.",
+          "ru": "Пример: почему поднимается тесто?\n1) В тесто добавляют дрожжи – это одноклеточные грибы.\n2) Дрожжи питаются сахаром из муки и выделяют углекислый газ.\n3) Пузырьки газа поднимают тесто – хлеб становится мягким и пористым.\nВывод: грибы помогают готовить нашу повседневную еду."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Bakteriýa öýjüginde näme ýok?", "ru": "Чего нет в клетке бактерии?"},
+          "options": [{"tk": "Ýadro", "ru": "Ядра"}, {"tk": "Öýjük membranasy", "ru": "Клеточной мембраны"}, {"tk": "Sitoplazma", "ru": "Цитоплазмы"}],
+          "answer": 0,
+          "hint": {"tk": "Bu ýerde nesil maglumaty adatça saklanýar.", "ru": "Обычно здесь хранится наследственная информация."},
+          "explain": {"tk": "Bakteriýalarda ýadro ýok, olaryň DNK-sy göni sitoplazmada ýerleşýär.", "ru": "У бактерий нет ядра, их ДНК находится прямо в цитоплазме."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Kömelekler fotosintez edip, öz iýmitini döredýär.", "ru": "Грибы сами создают себе пищу с помощью фотосинтеза."},
+          "answer": false,
+          "hint": {"tk": "Kömeleklerde hlorofil barmy?", "ru": "Есть ли у грибов хлорофилл?"},
+          "explain": {"tk": "Nädogry. Kömeleklerde hlorofil ýok, olar taýýar organiki maddalar bilen iýmitlenýär.", "ru": "Неверно. У грибов нет хлорофилла, они питаются готовыми органическими веществами."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy önüm bakteriýalaryň kömegi bilen taýýarlanýar?", "ru": "Какой продукт готовят с помощью бактерий?"},
+          "options": [{"tk": "Şeker", "ru": "Сахар"}, {"tk": "Gatyk", "ru": "Кефир (катык)"}, {"tk": "Duz", "ru": "Соль"}],
+          "answer": 1,
+          "hint": {"tk": "Bu süýtden taýýarlanýan turşy önüm.", "ru": "Это кисломолочный продукт."},
+          "explain": {"tk": "Süýt turşusy bakteriýalary süýdi gatyga öwürýär.", "ru": "Молочнокислые бактерии превращают молоко в кисломолочные продукты."}
+        },
+        {"type": "input",
+          "q": {"tk": "Bakteriýa her 20 minutda ikä bölünýär. 1 bakteriýadan 1 sagatdan soň näçe bakteriýa bolar?", "ru": "Бактерия делится надвое каждые 20 минут. Сколько бактерий получится из одной через 1 час?"},
+          "answer": "8",
+          "hint": {"tk": "1 sagatda 3 bölünme bolýar: 1 → 2 → ...", "ru": "За 1 час будет 3 деления: 1 → 2 → ..."},
+          "explain": {"tk": "1 → 2 → 4 → 8. Üç bölünmeden soň 8 bakteriýa.", "ru": "1 → 2 → 4 → 8. После трёх делений – 8 бактерий."}
+        },
+        {"type": "world", "text": {
+          "tk": "1928-nji ýylda şotlandiýaly alym Aleksandr Fleming bakteriýaly okarada ösen köküş kömeleginiň töweregindäki bakteriýalaryň ölendigini görüpdir. Şeýdip ilkinji antibiotik – penisillin açylypdyr. Ol millionlarça adamyň janyny halas edipdir.",
+          "ru": "В 1928 году шотландский учёный Александр Флеминг заметил, что вокруг плесневого гриба, выросшего в чашке с бактериями, бактерии погибли. Так был открыт первый антибиотик – пенициллин. Он спас миллионы жизней."
+        }}
+      ]
+    },
+    {
+      "id": "biology-6-plant-structure",
+      "grade": 6,
+      "topic": 3,
+      "title": {"tk": "Ösümligiň gurluşy", "ru": "Строение растения"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Gülli ösümligiň organlary iki topara bölünýär.\nWegetatiw organlar (ösüş we iýmitlenme):\n• Kök – ösümligi topraga berkidýär, suwy we mineral duzlary sorýar.\n• Baldak – ýapraklary saklaýar, suwy we maddalary geçirýär.\n• Ýaprak – fotosintez, dem alma we suwy bugartmak.\nGeneratiw organlar (köpelmek):\n• Gül, miwe, tohum.\nKök ulgamynyň iki görnüşi bar: ok kök (bir esasy kök – mysal üçin, käşir) we saçak kök (köp deň kökler – mysal üçin, bugdaý).",
+          "ru": "Органы цветкового растения делятся на две группы.\nВегетативные органы (рост и питание):\n• Корень – закрепляет растение в почве, всасывает воду и минеральные соли.\n• Стебель – держит листья, проводит воду и вещества.\n• Лист – фотосинтез, дыхание и испарение воды.\nГенеративные органы (размножение):\n• Цветок, плод, семя.\nКорневые системы бывают двух типов: стержневая (один главный корень – например, морковь) и мочковатая (много одинаковых корней – например, пшеница)."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mysal: suwuň ýoly.\n1) Kök tüýjükleri topragdan suwy sorýar.\n2) Suw kökden baldaga, baldagyň damarlary arkaly ýokary galýar.\n3) Suw ýapraklara ýetýär, bir bölegi fotosinteze gidýär.\n4) Galanlary ýapragyň aşagyndaky ownuk deşiklerden – agyzjyklardan (ustisalar) bug bolup çykýar.\nTejribe: ak gülüň baldagyny reňkli suwa goýsaňyz, birnäçe sagatdan gül ýapraklary reňklenýär.",
+          "ru": "Пример: путь воды.\n1) Корневые волоски всасывают воду из почвы.\n2) Вода поднимается из корня в стебель по его сосудам.\n3) Вода доходит до листьев, часть идёт на фотосинтез.\n4) Остальное испаряется через крошечные отверстия на нижней стороне листа – устьица.\nОпыт: если поставить белый цветок в подкрашенную воду, через несколько часов лепестки окрасятся."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Haýsy organ generatiw organ?", "ru": "Какой орган является генеративным?"},
+          "options": [{"tk": "Kök", "ru": "Корень"}, {"tk": "Ýaprak", "ru": "Лист"}, {"tk": "Gül", "ru": "Цветок"}],
+          "answer": 2,
+          "hint": {"tk": "Generatiw organlar köpelmek üçin gerek.", "ru": "Генеративные органы нужны для размножения."},
+          "explain": {"tk": "Gül tohum we miwe emele getirmek üçin hyzmat edýär, şonuň üçin ol generatiw organ.", "ru": "Цветок служит для образования семян и плодов, поэтому это генеративный орган."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Bugdaýyň kök ulgamy haýsy görnüşde?", "ru": "Какая корневая система у пшеницы?"},
+          "options": [{"tk": "Ok kök", "ru": "Стержневая"}, {"tk": "Saçak kök", "ru": "Мочковатая"}, {"tk": "Kök ýok", "ru": "Корней нет"}],
+          "answer": 1,
+          "hint": {"tk": "Bugdaýda esasy kök görnenok, köp deň kökler bar.", "ru": "У пшеницы главный корень не выделяется, много одинаковых корней."},
+          "explain": {"tk": "Bugdaý, mekgejöwen, sogan – saçak kökli ösümlikler. Käşir we şugundyr – ok kökli.", "ru": "Пшеница, кукуруза, лук – растения с мочковатыми корнями. Морковь и свёкла – со стержневыми."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Suw ösümlige esasan ýapraklar arkaly girýär.", "ru": "Вода поступает в растение в основном через листья."},
+          "answer": false,
+          "hint": {"tk": "Haýsy organ toprakda ýerleşýär?", "ru": "Какой орган находится в почве?"},
+          "explain": {"tk": "Nädogry. Suwy kökler sorýar, ýapraklar bolsa suwy bugardýar.", "ru": "Неверно. Воду всасывают корни, а листья её испаряют."}
+        },
+        {"type": "input",
+          "q": {"tk": "Gülli ösümligiň näçe wegetatiw organy bar? (san bilen)", "ru": "Сколько вегетативных органов у цветкового растения? (числом)"},
+          "answer": "3",
+          "hint": {"tk": "Kök, baldak we ...", "ru": "Корень, стебель и ..."},
+          "explain": {"tk": "Üç: kök, baldak, ýaprak. (Baldak bilen ýapraklar bilelikde \"pudak\" diýlip hem atlandyrylýar.)", "ru": "Три: корень, стебель, лист. (Стебель с листьями вместе называют также «побег».)"}
+        },
+        {"type": "world", "text": {
+          "tk": "Dünýäniň iň beýik agajy – ABŞ-nyň Kaliforniýa ştatyndaky \"Hiperion\" atly gyrmyzy sekwoýa. Onuň beýikligi takmynan 116 metr – bu 35–40 gatly jaýa barabar.",
+          "ru": "Самое высокое дерево в мире – секвойя вечнозелёная по имени «Гиперион» в Калифорнии, США. Её высота около 116 метров – это примерно как 35–40-этажный дом."
+        }}
+      ]
+    },
+    {
+      "id": "biology-6-photosynthesis",
+      "grade": 6,
+      "topic": 4,
+      "title": {"tk": "Fotosintez", "ru": "Фотосинтез"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Fotosintez – ösümlikleriň Gün ýagtylygynyň energiýasyny ulanyp, organiki maddalary döretmegi.\n• Ol ýaprak öýjükleriniň hloroplastlarynda bolup geçýär.\n• Hloroplastlarda ýaşyl pigment – hlorofil bar, ol ýagtylygy siňdirýär.\nFotosintez üçin gerek: kömürturşy gazy (howadan), suw (kökden), ýagtylyk.\nNetijede emele gelýär: glýukoza (şeker) we kislorod.\nGysga ýazgy:\nkömürturşy gazy + suw → (ýagtylyk, hlorofil) → glýukoza + kislorod",
+          "ru": "Фотосинтез – образование растениями органических веществ с использованием энергии солнечного света.\n• Он происходит в хлоропластах клеток листа.\n• В хлоропластах есть зелёный пигмент – хлорофилл, он поглощает свет.\nДля фотосинтеза нужны: углекислый газ (из воздуха), вода (из корня), свет.\nВ результате образуются: глюкоза (сахар) и кислород.\nКраткая запись:\nуглекислый газ + вода → (свет, хлорофилл) → глюкоза + кислород"
+        }},
+        {"type": "example", "text": {
+          "tk": "Mysal: suw ösümligi bilen tejribe.\n1) Elodeýa suw ösümligini suwly gaba salýarys.\n2) Gaby güneşli penjireniň ýanynda goýýarys.\n3) Birnäçe minutdan soň ýapraklardan kiçijik gaz köpürjikleri çykýar – bu kislorod.\n4) Gaby garaňky ýere geçirsek, köpürjikler kem-kemden azalýar.\nNetije: fotosintez üçin ýagtylyk zerur.",
+          "ru": "Пример: опыт с водным растением.\n1) Водное растение элодею помещаем в сосуд с водой.\n2) Ставим сосуд у солнечного окна.\n3) Через несколько минут от листьев поднимаются пузырьки газа – это кислород.\n4) Если перенести сосуд в темноту, пузырьков становится всё меньше.\nВывод: для фотосинтеза необходим свет."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Fotosintez ösümlik öýjüginiň haýsy böleginde bolup geçýär?", "ru": "В какой части клетки растения происходит фотосинтез?"},
+          "options": [{"tk": "Ýadroda", "ru": "В ядре"}, {"tk": "Hloroplastda", "ru": "В хлоропласте"}, {"tk": "Wakuolda", "ru": "В вакуоли"}],
+          "answer": 1,
+          "hint": {"tk": "Bu bölekde ýaşyl hlorofil bar.", "ru": "В этой части есть зелёный хлорофилл."},
+          "explain": {"tk": "Hloroplastlarda hlorofil ýagtylygy siňdirýär we fotosintez geçýär.", "ru": "В хлоропластах хлорофилл поглощает свет, и идёт фотосинтез."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Fotosintez wagtynda howa haýsy gaz bölünip çykýar?", "ru": "Какой газ выделяется в воздух при фотосинтезе?"},
+          "options": [{"tk": "Azot", "ru": "Азот"}, {"tk": "Kömürturşy gazy", "ru": "Углекислый газ"}, {"tk": "Kislorod", "ru": "Кислород"}],
+          "answer": 2,
+          "hint": {"tk": "Biz bu gaz bilen dem alýarys.", "ru": "Этим газом мы дышим."},
+          "explain": {"tk": "Ösümlikler kömürturşy gazyny sorup, kislorody bölüp çykarýar.", "ru": "Растения поглощают углекислый газ и выделяют кислород."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Garaňkyda fotosintez bolup geçmeýär.", "ru": "В темноте фотосинтез не происходит."},
+          "answer": true,
+          "hint": {"tk": "Fotosintez üçin energiýa nireden alynýar?", "ru": "Откуда берётся энергия для фотосинтеза?"},
+          "explain": {"tk": "Dogry. Ýagtylyk bolmasa, fotosintez togtaýar. Emma dem alma gije-gündiz dowam edýär.", "ru": "Верно. Без света фотосинтез останавливается. А дыхание продолжается и днём, и ночью."}
+        },
+        {"type": "input",
+          "q": {"tk": "Fotosintez üçin näçe zat zerur: kömürturşy gazy, suw we ýene näme? Jemi näçe? (san bilen)", "ru": "Сколько условий нужно для фотосинтеза: углекислый газ, вода и что ещё? Всего сколько? (числом)"},
+          "answer": "3",
+          "hint": {"tk": "Üçünji zat Günden gelýär.", "ru": "Третье приходит от Солнца."},
+          "explain": {"tk": "Üç: kömürturşy gazy, suw we ýagtylyk (hlorofil hem gerek, ýöne ol ösümligiň özünde bar).", "ru": "Три: углекислый газ, вода и свет (нужен и хлорофилл, но он уже есть в самом растении)."}
+        },
+        {"type": "world", "text": {
+          "tk": "1771-nji ýylda iňlis alymy Jozef Pristli ýapyk gapdaky şemiň öçenden soň, şol gaba ýalpyz ösümligini goýupdyr. Birnäçe günden soň howa ýene şemiň ýanmagyna ýaramly bolupdyr. Şeýdip ösümlikleriň howany \"arassalaýandygy\" ilkinji gezek görkezilipdir.",
+          "ru": "В 1771 году английский учёный Джозеф Пристли поставил веточку мяты под колпак, где погасла свеча. Через несколько дней воздух снова стал пригоден для горения свечи. Так впервые было показано, что растения «исправляют» воздух."
+        }}
+      ]
+    },
+    {
+      "id": "biology-6-plant-reproduction",
+      "grade": 6,
+      "topic": 5,
+      "title": {"tk": "Ösümlikleriň köpelişi", "ru": "Размножение растений"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Ösümlikler iki usulda köpelýär.\n1) Jynsy köpeliş – tohum arkaly:\n• Gülde tozanlyk (erkek bölegi) we tohumlyk (aýal bölegi) bar.\n• Tozanlanma – tozanyň tohumlygyň başyna düşmegi (ýel, mör-möjekler arkaly).\n• Tozanlanmadan we tohumlanmadan soň tohum we miwe emele gelýär.\n2) Wegetatiw köpeliş – ösümligiň bölekleri arkaly:\n• çybyk (gat, gyzylgül), mürçe (kartoşka), sogançak (sogan, sarymsak), ýerden ýaýrap ösýän pudaklar – murtlar (ýertudana).\nWegetatiw köpelişde täze ösümlik ene ösümlige doly meňzeş bolýar.",
+          "ru": "Растения размножаются двумя способами.\n1) Половое размножение – семенами:\n• В цветке есть тычинки (мужская часть) и пестик (женская часть).\n• Опыление – перенос пыльцы на рыльце пестика (ветром, насекомыми).\n• После опыления и оплодотворения образуются семя и плод.\n2) Вегетативное размножение – частями растения:\n• черенками (смородина, роза), клубнями (картофель), луковицами (лук, чеснок), стелющимися побегами – усами (земляника).\nПри вегетативном размножении новое растение полностью похоже на материнское."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mysal: almadan nähili miwe emele gelýär?\n1) Ýazda alma agajy gülleýär.\n2) Arylar nektar ýygnap, bir gülden beýlekisine tozan geçirýärler – tozanlanma.\n3) Tohumlanmadan soň gül ýapraklary düşýär.\n4) Tohumlygyň aşaky bölegi ulalyp, alma miwesine öwrülýär, içinde tohumlar bar.\nNetije: arylar bolmasa, alma hasyly ep-esli azalardy.",
+          "ru": "Пример: как из цветка получается яблоко?\n1) Весной яблоня цветёт.\n2) Пчёлы собирают нектар и переносят пыльцу с цветка на цветок – опыление.\n3) После оплодотворения лепестки опадают.\n4) Нижняя часть пестика разрастается и превращается в плод – яблоко, внутри которого семена.\nВывод: без пчёл урожай яблок был бы намного меньше."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Kartoşka adatça nähili köpeldilýär?", "ru": "Как обычно размножают картофель?"},
+          "options": [{"tk": "Mürçeler bilen", "ru": "Клубнями"}, {"tk": "Sporalar bilen", "ru": "Спорами"}, {"tk": "Murtlar bilen", "ru": "Усами"}],
+          "answer": 0,
+          "hint": {"tk": "Biz kartoşkanyň haýsy bölegini iýýäris?", "ru": "Какую часть картофеля мы едим?"},
+          "explain": {"tk": "Kartoşka mürçeleri ýere ekilýär – bu wegetatiw köpeliş.", "ru": "Клубни картофеля сажают в землю – это вегетативное размножение."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Tozanlanma – tozanyň tohumlygyň başyna düşmegi.", "ru": "Опыление – это перенос пыльцы на рыльце пестика."},
+          "answer": true,
+          "hint": {"tk": "Teoriýadaky kesgitlemäni ýatlaň.", "ru": "Вспомните определение из теории."},
+          "explain": {"tk": "Dogry. Tozan ýel, mör-möjekler, käte guşlar arkaly geçirilýär.", "ru": "Верно. Пыльцу переносят ветер, насекомые, иногда птицы."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Ýertudana nähili köpelýär?", "ru": "Как размножается земляника?"},
+          "options": [{"tk": "Sogançaklar bilen", "ru": "Луковицами"}, {"tk": "Mürçeler bilen", "ru": "Клубнями"}, {"tk": "Murtlar bilen", "ru": "Усами"}],
+          "answer": 2,
+          "hint": {"tk": "Ondan ýeriň üstünde uzyn pudaklar ýaýraýar.", "ru": "От неё по земле расползаются длинные побеги."},
+          "explain": {"tk": "Ýertudananyň murtlary köklenip, täze ösümlik berýär.", "ru": "Усы земляники укореняются и дают новые растения."}
+        },
+        {"type": "input",
+          "q": {"tk": "Bir alma agajynda 50 alma bar, her almada 6 tohum. Jemi näçe tohum?", "ru": "На яблоне 50 яблок, в каждом 6 семян. Сколько всего семян?"},
+          "answer": "300",
+          "hint": {"tk": "Almalaryň sanyny bir almadaky tohuma köpeldiň.", "ru": "Умножьте число яблок на семена в одном яблоке."},
+          "explain": {"tk": "50 × 6 = 300 tohum.", "ru": "50 × 6 = 300 семян."}
+        },
+        {"type": "world", "text": {
+          "tk": "Dünýäniň iň uly tohumy – Seýşel adalarynda ösýän deňiz kokos palmasynyň (Lodoicea maldivica) tohumy. Onuň agyrlygy 15 kilogramdan hem geçip bilýär.",
+          "ru": "Самое большое семя в мире – у сейшельской пальмы (Lodoicea maldivica), растущей на Сейшельских островах. Оно может весить больше 15 килограммов."
+        }}
+      ]
+    }
+  ]
+}

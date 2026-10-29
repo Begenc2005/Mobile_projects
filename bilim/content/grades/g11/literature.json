@@ -1,0 +1,256 @@
+{
+  "grade": 11,
+  "subject": "literature",
+  "lessons": [
+    {
+      "id": "literature-11-jules-verne",
+      "grade": 11,
+      "topic": 0,
+      "title": {"tk": "Žýul Wern we ylmy fantastika", "ru": "Жюль Верн и научная фантастика"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Ylmy fantastika — ylym we tehnikanyň ösüşi esasynda bolup biljek geljegi, açyşlary we syýahatlary suratlandyrýan edebiýat. Onuň ilkinji nusgalarynyň biri — Meri Şelliniň «Frankenşteýn» (1818) romany.\n\nŽýul Wern (1828–1905) — fransuz ýazyjysy, žanryň esaslandyryjylarynyň biri. Neşirçi Pýer-Žýul Etsel bilen bilelikde «Adatdan daşary syýahatlar» atly uly roman toplumyny döretdi.\n\nEsasy eserleri:\n• «Howa şarynda bäş hepde» (1863);\n• «Ýerden Aýa» (1865) — toppdan atylan snarýad bilen Aýa uçuş;\n• «Suwuň astynda ýigrimi müň lýe» (1870) — kapitan Nemo we «Nautilus» suwasty gämisi;\n• «Segsen günde dünýäni aýlanyp» (1872) — Filias Fogguň bäsleşigi;\n• «Syrly ada» (1875).\n\nAýratynlyklary: ylmy maglumatlara daýanmak, tehnikany jikme-jik suratlandyrmak, gyzykly sýužet, bilime we ynsan paýhasyna ynam.",
+          "ru": "Научная фантастика — литература, описывающая возможное будущее, открытия и путешествия на основе развития науки и техники. Один из её первых образцов — роман Мэри Шелли «Франкенштейн» (1818).\n\nЖюль Верн (1828–1905) — французский писатель, один из основателей жанра. Вместе с издателем Пьер-Жюлем Этцелем создал большой цикл романов «Необыкновенные путешествия».\n\nГлавные произведения:\n• «Пять недель на воздушном шаре» (1863);\n• «С Земли на Луну» (1865) — полёт к Луне в снаряде, выпущенном из пушки;\n• «Двадцать тысяч льё под водой» (1870) — капитан Немо и подводная лодка «Наутилус»;\n• «Вокруг света за восемьдесят дней» (1872) — пари Филеаса Фогга;\n• «Таинственный остров» (1875).\n\nОсобенности: опора на научные данные, подробное описание техники, увлекательный сюжет, вера в знание и человеческий разум."
+        }},
+        {"type": "example", "text": {
+          "tk": "«Segsen günde dünýäni aýlanyp» romanynyň derňewi:\n\n1) Sýužet: londonly jenap Filias Fogg dünýäni 80 günde aýlanyp boljakdygy barada pul bäsleşigini edýär we hyzmatkäri Paspartu bilen ýola çykýar.\n2) Ylmy esas: roman ýazylan döwürde Süweýş kanaly (1869) açylypdy we Hindistanda demir ýol gurlupdy — şeýle syýahat hakykatdan mümkin bolupdy.\n3) Düwün: Fogg bir gün gijä galdym öýdýär, emma gündogara syýahat edeni üçin bir gün «utandygyny» soňra bilýär — sene çyzygynyň täsiri.\n4) Netije: roman wagt, geografiýa we tehnika baradaky bilimi gyzykly sýužet bilen birleşdirýär.",
+          "ru": "Анализ романа «Вокруг света за восемьдесят дней»:\n\n1) Сюжет: лондонский джентльмен Филеас Фогг заключает денежное пари, что объедет мир за 80 дней, и отправляется в путь со слугой Паспарту.\n2) Научная основа: ко времени написания уже был открыт Суэцкий канал (1869) и построены железные дороги в Индии — такое путешествие стало реально возможным.\n3) Развязка: Фогг думает, что опоздал на день, но потом узнаёт, что, двигаясь на восток, «выиграл» сутки — эффект линии перемены дат.\n4) Итог: роман соединяет знания о времени, географии и технике с захватывающим сюжетом."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Kapitan Nemo haýsy romanyň gahrymany?", "ru": "Капитан Немо — герой какого романа?"},
+          "options": [{"tk": "«Howa şarynda bäş hepde»", "ru": "«Пять недель на воздушном шаре»"}, {"tk": "«Suwuň astynda ýigrimi müň lýe»", "ru": "«Двадцать тысяч льё под водой»"}, {"tk": "«Ýerden Aýa»", "ru": "«С Земли на Луну»"}],
+          "answer": 1,
+          "hint": {"tk": "Nemonyň «Nautilus» atly gämisi bar.", "ru": "У Немо есть корабль «Наутилус»."},
+          "explain": {"tk": "Kapitan Nemo «Nautilus» suwasty gämisinde ummanlary gezýär — «Suwuň astynda ýigrimi müň lýe» (1870). Ol «Syrly ada» romanynda hem peýda bolýar.", "ru": "Капитан Немо путешествует по океанам на подводной лодке «Наутилус» — «Двадцать тысяч льё под водой» (1870). Он появляется и в «Таинственном острове»."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Žýul Wern iňlis ýazyjysydyr. Dogrymy?", "ru": "Жюль Верн — английский писатель. Верно?"},
+          "answer": false,
+          "hint": {"tk": "Ol Nant şäherinde doguldy.", "ru": "Он родился в городе Нант."},
+          "explain": {"tk": "Ýalňyş: Žýul Wern fransuz ýazyjysy, Fransiýanyň Nant şäherinde doglan.", "ru": "Неверно: Жюль Верн — французский писатель, родился в Нанте (Франция)."}
+        },
+        {"type": "input",
+          "q": {"tk": "Filias Fogg dünýäni näçe günde aýlanmalydy? Sany ýazyň.", "ru": "За сколько дней Филеас Фогг должен был объехать мир? Напишите число."},
+          "answer": "80",
+          "hint": {"tk": "Jogap romanyň adynda.", "ru": "Ответ — в названии романа."},
+          "explain": {"tk": "Roman «Segsen günde dünýäni aýlanyp» diýlip atlandyrylýar — 80 gün.", "ru": "Роман называется «Вокруг света за восемьдесят дней» — 80 дней."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Ylmy fantastikanyň ilkinji romanlarynyň biri hasaplanýan «Frankenşteýni» kim ýazdy?", "ru": "Кто написал «Франкенштейна», один из первых научно-фантастических романов?"},
+          "options": [{"tk": "Meri Şelli", "ru": "Мэри Шелли"}, {"tk": "Žýul Wern", "ru": "Жюль Верн"}, {"tk": "Çarlz Dikkens", "ru": "Чарльз Диккенс"}],
+          "answer": 0,
+          "hint": {"tk": "Roman 1818-nji ýylda, Wern doglandan öň çykdy.", "ru": "Роман вышел в 1818 году, ещё до рождения Верна."},
+          "explain": {"tk": "«Frankenşteýni» iňlis ýazyjysy Meri Şelli ýazdy (1818); Wern şol wagt entek dogulmandy.", "ru": "«Франкенштейна» написала англичанка Мэри Шелли (1818); Верн тогда ещё не родился."}
+        },
+        {"type": "world", "text": {
+          "tk": "1954-nji ýylda suwa düşürilen dünýäde ilkinji atom suwasty gämisi USS Nautilus Žýul Werniň romanyndaky kapitan Nemonyň gämisiniň adyny göterýär. 1958-nji ýylda bu gämi ilkinji bolup Demirgazyk polýusyň astyndan geçdi.",
+          "ru": "Первая в мире атомная подводная лодка USS Nautilus, спущенная на воду в 1954 году, носит имя корабля капитана Немо из романа Жюля Верна. В 1958 году она первой прошла подо льдом Северного полюса."
+        }}
+      ]
+    },
+    {
+      "id": "literature-11-chekhov",
+      "grade": 11,
+      "topic": 1,
+      "title": {"tk": "Anton Çehow: hekaýalar we pýesalar", "ru": "Антон Чехов: рассказы и пьесы"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Anton Pawlowiç Çehow (1860–1904) — rus ýazyjysy we dramaturgy, gysga hekaýanyň we täze drama ussady. Taganrog şäherinde doguldy, Moskwa uniwersitetiniň lukmançylyk fakultetini tamamlap, ömrüniň ahyryna çenli lukman bolup hem işledi.\n\nGysga hekaýalar:\n• «Ýogyn we inçe» (1883), «Hameleon» (1884) — adamlaryň ýaranjaňlygy we iki ýüzlüligi;\n• «Gap içindäki adam» (1898) — täzelikden gorkýan adam;\n• «Itli hanym» (1899).\n\nPýesalar: «Çagala» (1896), «Waným daýy», «Üç uýa» (1901), «Wişnýa bagy» (1904).\n\nAýratynlyklary:\n• gysgalyk — Çehowyň meşhur pikiri: «Gysgalyk — zehiniň uýasy»;\n• gündelik durmuşdaky ownuk jikme-jiklikler arkaly uly meseleleri görkezmek;\n• awtor okyja taýýar netije bermeýär, özüne pikirlenmäge mümkinçilik goýýar;\n• degişme bilen gamlylygyň utgaşmasy.",
+          "ru": "Антон Павлович Чехов (1860–1904) — русский писатель и драматург, мастер короткого рассказа и новой драмы. Родился в Таганроге, окончил медицинский факультет Московского университета и всю жизнь работал также врачом.\n\nРассказы:\n• «Толстый и тонкий» (1883), «Хамелеон» (1884) — угодничество и двуличие;\n• «Человек в футляре» (1898) — человек, боящийся всего нового;\n• «Дама с собачкой» (1899).\n\nПьесы: «Чайка» (1896), «Дядя Ваня», «Три сестры» (1901), «Вишнёвый сад» (1904).\n\nОсобенности:\n• краткость — его знаменитая мысль: «Краткость — сестра таланта»;\n• большие проблемы показаны через мелкие детали повседневной жизни;\n• автор не даёт готовых выводов, оставляя читателю место для размышления;\n• сочетание юмора и грусти."
+        }},
+        {"type": "example", "text": {
+          "tk": "«Hameleon» hekaýasynyň derňewi:\n\n1) Waka: bazar meýdançasynda bir it adamyň barmagyny dişleýär. Polisiýa gözegçisi Oçumelow bu işi çözmeli.\n2) Esasy usul: it kimiňki diýlen pikire görä Oçumelowyň hökümi birnäçe gezek üýtgeýär. «Ýönekeý adamyňky» diýilse — iti ýok etmeli; «generalyňky» diýilse — it «ajaýyp, näzik» bolýar.\n3) At-simwol: hameleon reňkini daşky gurşawa görä üýtgedýär — gahryman hem pikirini güýçlüleriň islegine görä üýtgedýär.\n4) Ideýa: ýaranjaňlyk we ynsabyň ýoklugy gülküli we şol bir wagtda gynandyryjy.",
+          "ru": "Анализ рассказа «Хамелеон»:\n\n1) Событие: на базарной площади собака кусает человека за палец. Полицейский надзиратель Очумелов должен разобраться.\n2) Главный приём: в зависимости от того, чья собака, решение Очумелова меняется несколько раз. Сказали «простого человека» — собаку надо уничтожить; сказали «генеральская» — собака вдруг «нежная, славная».\n3) Название-символ: хамелеон меняет цвет под окружение — герой меняет мнение под волю сильных.\n4) Идея: угодничество и беспринципность смешны и одновременно печальны."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Çehowyň haýsy pýesasy onuň iň soňky eseri?", "ru": "Какая пьеса Чехова стала его последней?"},
+          "options": [{"tk": "«Çagala»", "ru": "«Чайка»"}, {"tk": "«Üç uýa»", "ru": "«Три сестры»"}, {"tk": "«Wişnýa bagy»", "ru": "«Вишнёвый сад»"}],
+          "answer": 2,
+          "hint": {"tk": "Pýesa ýazyjynyň aradan çykan ýyly sahnalaşdyryldy.", "ru": "Пьеса была поставлена в год смерти писателя."},
+          "explain": {"tk": "«Wişnýa bagy» 1904-nji ýylda sahnalaşdyryldy; şol ýyl Çehow aradan çykdy.", "ru": "«Вишнёвый сад» поставлен в 1904 году; в том же году Чехов умер."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Çehow hünäri boýunça lukmandy. Dogrymy?", "ru": "Чехов по профессии был врачом. Верно?"},
+          "answer": true,
+          "hint": {"tk": "Ol haýsy fakulteti tamamlady?", "ru": "Какой факультет он окончил?"},
+          "explain": {"tk": "Dogry: Çehow Moskwa uniwersitetiniň lukmançylyk fakultetini tamamlap, näsaglary bejerdi.", "ru": "Верно: Чехов окончил медицинский факультет Московского университета и лечил больных."}
+        },
+        {"type": "choice",
+          "q": {"tk": "«Gap içindäki adam» hekaýasynyň gahrymany Belikow nähili adam?", "ru": "Каков Беликов, герой рассказа «Человек в футляре»?"},
+          "options": [{"tk": "batyr syýahatçy", "ru": "смелый путешественник"}, {"tk": "her bir täzelikden gorkýan adam", "ru": "человек, боящийся всего нового"}, {"tk": "şadyýan sazanda", "ru": "весёлый музыкант"}],
+          "answer": 1,
+          "hint": {"tk": "«Gap» — ol özüni dünýäden nähili gorap ýaşaýar?", "ru": "«Футляр» — как он отгораживается от мира?"},
+          "explain": {"tk": "Belikow hemişe «bir zat bolaýmasyn» diýip gorkýar, özüni dünýäden gap ýaly ýapýar — bu durgunlygyň nyşany.", "ru": "Беликов всегда боится, «как бы чего не вышло», и прячется от мира как в футляре — символ застоя."}
+        },
+        {"type": "world", "text": {
+          "tk": "«Çehowyň tüpeňi» diýen düzgün dünýä dramaturgiýasynda we kinosynda giňden ulanylýar: eger birinji perdede diwarda tüpeň asylgy dursa, ol soňra atylmaly. Başgaça aýdylanda, eserde artykmaç jikme-jiklik bolmaly däl. Moskwa çeper teatrynyň nyşany bolsa şu güne çenli Çehowyň pýesasyna bagyşlanan çagaladyr.",
+          "ru": "Правило «чеховского ружья» широко используется в драматургии и кино всего мира: если в первом акте на стене висит ружьё, оно должно выстрелить. Иначе говоря, в произведении не должно быть лишних деталей. А эмблема Московского Художественного театра до сих пор — чайка, в честь пьесы Чехова."
+        }}
+      ]
+    },
+    {
+      "id": "literature-11-hemingway",
+      "grade": 11,
+      "topic": 2,
+      "title": {"tk": "Ernest Hemingueý we «buzdag» usuly", "ru": "Эрнест Хемингуэй и «принцип айсберга»"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Ernest Hemingueý (1899–1961) — amerikan ýazyjysy we žurnalisti. Birinji jahan urşunda Italiýada tiz kömek maşynynyň sürüjisi boldy we 1918-nji ýylda agyr ýaralandy. Ispaniýadaky raýatlyk urşunda habarçy bolup işledi.\n\nEsasy eserleri:\n• «Gün hem dogýar» (1926);\n• «Ýarag bilen hoşlaşyk!» (1929) — uruş we söýgi;\n• «Jaň kimiň üçin kakylýar» (1940) — Ispaniýadaky uruş;\n• «Garry we deňiz» (1952) — 1953-nji ýylda Pulitser baýragy.\n\n1954-nji ýylda edebiýat boýunça Nobel baýragyna mynasyp boldy.\n\n«Buzdag usuly» (aýtmazlyk usuly): buzdagyň diňe kiçi bölegi suwuň üstünde görünýär. Hemingueý hem esasy duýgulary göni aýtmaýar; olar gysga sözlemlerde, dialoglarda we hereketlerde gizlenýär. Okyjy düşünmeli zady özi duýýar.",
+          "ru": "Эрнест Хемингуэй (1899–1961) — американский писатель и журналист. В Первую мировую войну был водителем санитарной машины в Италии и в 1918 году получил тяжёлое ранение. Во время гражданской войны в Испании работал корреспондентом.\n\nГлавные произведения:\n• «И восходит солнце» («Фиеста», 1926);\n• «Прощай, оружие!» (1929) — война и любовь;\n• «По ком звонит колокол» (1940) — война в Испании;\n• «Старик и море» (1952) — Пулитцеровская премия 1953 года.\n\nВ 1954 году получил Нобелевскую премию по литературе.\n\n«Принцип айсберга» (теория умолчания): над водой видна лишь малая часть айсберга. Так и Хемингуэй не называет главные чувства прямо; они скрыты в коротких фразах, диалогах и поступках. Читатель сам ощущает то, что не сказано."
+        }},
+        {"type": "example", "text": {
+          "tk": "«Garry we deňiz» powestiniň derňewi:\n\n1) Sýužet: kubaly garry balykçy Santýago 84 gün balyk tutup bilmeýär. Ol açyk deňze çykyp, ägirt uly marlin balygyny tutýar we üç gün onuň bilen göreşýär.\n2) Çözgüt: kenara gaýdyp gelýänçä akulalar balygy iýip gutarýar, garry diňe onuň süňküni getirýär.\n3) Buzdag usuly: Santýagonyň duýgulary barada az aýdylýar, emma onuň sabyrly hereketleri, gysga sözleri içki güýjüni görkezýär.\n4) Ideýa: adamy ýok edip bolar, emma ýeňip bolmaz — ynsanyň mertligi netijeden däl, göreşden bilinýär.",
+          "ru": "Анализ повести «Старик и море»:\n\n1) Сюжет: старый кубинский рыбак Сантьяго 84 дня не может поймать рыбу. Он уходит в открытое море, ловит огромного марлина и три дня борется с ним.\n2) Развязка: пока он возвращается к берегу, акулы съедают рыбу, и старик привозит лишь её скелет.\n3) Принцип айсберга: о чувствах Сантьяго сказано мало, но его терпеливые действия и скупые слова показывают внутреннюю силу.\n4) Идея: человека можно уничтожить, но нельзя победить — мужество определяется борьбой, а не результатом."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Hemingueý haýsy eseri üçin Pulitser baýragyny aldy?", "ru": "За какое произведение Хемингуэй получил Пулитцеровскую премию?"},
+          "options": [{"tk": "«Garry we deňiz»", "ru": "«Старик и море»"}, {"tk": "«Ýarag bilen hoşlaşyk!»", "ru": "«Прощай, оружие!»"}, {"tk": "«Gün hem dogýar»", "ru": "«И восходит солнце»"}],
+          "answer": 0,
+          "hint": {"tk": "Baýrak 1953-nji ýylda berildi.", "ru": "Премия была вручена в 1953 году."},
+          "explain": {"tk": "1952-nji ýylda çykan «Garry we deňiz» 1953-nji ýylda Pulitser baýragyna mynasyp boldy.", "ru": "Вышедшая в 1952 году повесть «Старик и море» получила Пулитцеровскую премию в 1953 году."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«Buzdag usulynda» ýazyjy gahrymanyň ähli duýgularyny jikme-jik düşündirýär. Dogrymy?", "ru": "По «принципу айсберга» писатель подробно объясняет все чувства героя. Верно?"},
+          "answer": false,
+          "hint": {"tk": "Buzdagyň köp bölegi nirede?", "ru": "Где находится большая часть айсберга?"},
+          "explain": {"tk": "Ýalňyş: esasy many «suwuň astynda» — göni aýdylmaýar, okyjy ony kiçi jikme-jiklikden duýýar.", "ru": "Неверно: главный смысл «под водой» — он не высказан прямо, читатель чувствует его по деталям."}
+        },
+        {"type": "input",
+          "q": {"tk": "Hemingueý edebiýat boýunça Nobel baýragyny haýsy ýylda aldy?", "ru": "В каком году Хемингуэй получил Нобелевскую премию по литературе?"},
+          "answer": "1954",
+          "hint": {"tk": "Pulitser baýragyndan bir ýyl soň.", "ru": "Через год после Пулитцеровской премии."},
+          "explain": {"tk": "Pulitser — 1953, Nobel — 1954.", "ru": "Пулитцеровская — 1953, Нобелевская — 1954."}
+        },
+        {"type": "world", "text": {
+          "tk": "Ýaş Hemingueý «Kanzas-Siti Star» gazetinde işläp, onuň stil düzgünlerini öwrendi: gysga sözlemler ulanmak, birinji abzasy gysga etmek, güýçli dil ulanmak. Ýazyjy soňra bu düzgünleri ýazmak barada alan iň gowy maslahatlary diýip ýatlapdyr.",
+          "ru": "Молодой Хемингуэй работал в газете «Канзас-Сити Стар» и усвоил её правила стиля: использовать короткие предложения, делать первый абзац коротким, писать энергичным языком. Позже писатель вспоминал их как лучшие советы о письме, которые он получил."
+        }}
+      ]
+    },
+    {
+      "id": "literature-11-aitmatov",
+      "grade": 11,
+      "topic": 3,
+      "title": {"tk": "Çingiz Aýtmatow", "ru": "Чингиз Айтматов"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Çingiz Aýtmatow (1928–2008) — gyrgyz ýazyjysy, gyrgyz we rus dillerinde ýazdy. Talas jülgesindäki Şeker obasynda doguldy. Eserleri ýüzden gowrak dile terjime edildi.\n\nEsasy eserleri:\n• «Jamyla» (1958) — urşuň ýyllarynda obada dörän söýgi hakynda powest;\n• «Ilkinji mugallym» (1962) — obada mekdep açan mugallymyň ykbaly;\n• «Hoş gal, Gülsary!» (1966) — adam we onuň aty;\n• «Ak gämi» (1970) — Mylakar Maral Ene rowaýaty we çaganyň arassa dünýäsi;\n• «Asyrdan uzak gün» («Burannyý demir ýol duralgasy», 1980) — mankurt rowaýaty;\n• «Öldüriş tagtasy» (1986).\n\nAýratynlyklary: halk rowaýatlary we mifler häzirki durmuş bilen birleşýär; tebigat we haýwanlar adam bilen deň gahryman; ýat, ynsap we adamkärçilik meseleleri.",
+          "ru": "Чингиз Айтматов (1928–2008) — киргизский писатель, писал на киргизском и русском языках. Родился в селе Шекер в Таласской долине. Его произведения переведены более чем на сто языков.\n\nГлавные произведения:\n• «Джамиля» (1958) — повесть о любви, возникшей в аиле в годы войны;\n• «Первый учитель» (1962) — судьба учителя, открывшего школу в аиле;\n• «Прощай, Гульсары!» (1966) — человек и его конь;\n• «Белый пароход» (1970) — легенда о Рогатой матери-оленихе и чистый мир ребёнка;\n• «И дольше века длится день» («Буранный полустанок», 1980) — легенда о манкурте;\n• «Плаха» (1986).\n\nОсобенности: народные легенды и мифы соединяются с современной жизнью; природа и животные — равноправные герои; темы памяти, совести и человечности."
+        }},
+        {"type": "example", "text": {
+          "tk": "«Asyrdan uzak gün» romanyndaky mankurt rowaýatynyň derňewi:\n\n1) Rowaýat: duşmanlar ýesirleriň kellesine çig düýe derisini geýdirýärler; deri guranda gysyp, adamyň ýadyny ýok edýär. Şeýle adama mankurt diýilýär — ol kimdigini, ata-enesini bilmeýär we diňe hojaýynyna boýun bolýar.\n2) Waka: ene Naýman-Ana ogluny tapýar, emma mankurt ony tanamaýar.\n3) Simwol: «mankurt» — öz geçmişini, köklerini unudan adamyň nyşany.\n4) Many: ýat adamyň şahsyýetiniň esasy. Bu söz soňra rus we türki dillerinde umumy düşünjä öwrüldi.",
+          "ru": "Анализ легенды о манкурте из романа «И дольше века длится день»:\n\n1) Легенда: враги надевают пленникам на голову сырую верблюжью кожу; высыхая, она сжимает голову и лишает человека памяти. Такого человека называют манкуртом — он не знает, кто он, не помнит родителей и подчиняется только хозяину.\n2) Событие: мать Найман-Ана находит сына, но манкурт её не узнаёт.\n3) Символ: «манкурт» — образ человека, забывшего своё прошлое и корни.\n4) Смысл: память — основа личности. Позже это слово стало нарицательным в русском и тюркских языках."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Aýtmatowyň eserlerinde «mankurt» näme aňladýar?", "ru": "Что означает «манкурт» в творчестве Айтматова?"},
+          "options": [{"tk": "batyr söweşiji", "ru": "храбрый воин"}, {"tk": "akyldar garry", "ru": "мудрый старец"}, {"tk": "ýadyny we köklerini ýitiren adam", "ru": "человек, потерявший память и корни"}],
+          "answer": 2,
+          "hint": {"tk": "Rowaýatdaky düýe derisiniň täsirini ýatlaň.", "ru": "Вспомните, к чему приводила верблюжья кожа в легенде."},
+          "explain": {"tk": "Mankurt — ýady zorlukda ýok edilen, kim bolandygyny bilmeýän adam; geçmişini unudan adamyň nyşany.", "ru": "Манкурт — человек, насильно лишённый памяти и не знающий, кто он; символ забвения прошлого."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Aýtmatow diňe rus dilinde ýazypdyr. Dogrymy?", "ru": "Айтматов писал только на русском языке. Верно?"},
+          "answer": false,
+          "hint": {"tk": "Ol haýsy halkyň ýazyjysy?", "ru": "Писателем какого народа он был?"},
+          "explain": {"tk": "Ýalňyş: Aýtmatow iki dilde — gyrgyz we rus dillerinde ýazdy; ilkinji eserleri gyrgyzça çykdy.", "ru": "Неверно: Айтматов писал на двух языках — киргизском и русском; первые произведения вышли на киргизском."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy powestde obada mekdep açan mugallymyň ykbaly suratlandyrylýar?", "ru": "В какой повести описана судьба учителя, открывшего школу в аиле?"},
+          "options": [{"tk": "«Ilkinji mugallym»", "ru": "«Первый учитель»"}, {"tk": "«Ak gämi»", "ru": "«Белый пароход»"}, {"tk": "«Jamyla»", "ru": "«Джамиля»"}],
+          "answer": 0,
+          "hint": {"tk": "Jogap powestiň adynda.", "ru": "Ответ — в названии повести."},
+          "explain": {"tk": "«Ilkinji mugallym» (1962) — Düýşen atly mugallymyň obanyň çagalaryny okatmak üçin göreşi hakynda.", "ru": "«Первый учитель» (1962) — о борьбе учителя Дюйшена за обучение детей аила."}
+        },
+        {"type": "world", "text": {
+          "tk": "Fransuz ýazyjysy Lui Aragon «Jamyla» powestini fransuz diline terjime edip, ony «dünýädäki iň owadan söýgi hekaýasy» diýip atlandyrdy. Şondan soň Aýtmatowyň ady Ýewropada giňden tanaldy.",
+          "ru": "Французский писатель Луи Арагон перевёл «Джамилю» на французский язык и назвал её «самой прекрасной повестью о любви на свете». После этого имя Айтматова стало широко известно в Европе."
+        }}
+      ]
+    },
+    {
+      "id": "literature-11-marquez",
+      "grade": 11,
+      "topic": 4,
+      "title": {"tk": "Gabriel Garsiýa Markes we jadyly realizm", "ru": "Габриэль Гарсиа Маркес и магический реализм"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Gabriel Garsiýa Markes (1927–2014) — kolumbiýaly ýazyjy we žurnalist. Arakataka şäherçesinde doguldy; çagalygyny atasy bilen enesiniň öýünde geçirdi, enesiniň gürrüň beren täsin wakalary onuň döredijiligine uly täsir etdi.\n\nEsasy eserleri:\n• «Polkownige hiç kim hat ýazanok» (1961);\n• «Ýüz ýyllyk ýalňyzlyk» (1967) — Makondo şäherçesi we Buendiýa maşgalasynyň birnäçe nesliniň taryhy;\n• «Öňünden yglan edilen ölümiň hronikasy» (1981);\n• «Wabadaky söýgi» (1985).\n\n1982-nji ýylda edebiýat boýunça Nobel baýragyny aldy.\n\nJadyly realizm — gündelik hakyky durmuşda täsin, jadyly wakalaryň adaty zat hökmünde suratlandyrylmagy. Gahrymanlar gudratlara geň galmaýar; bu usul halkyň aňyny, rowaýatlaryny we taryhyny bir wagtda görkezýär.",
+          "ru": "Габриэль Гарсиа Маркес (1927–2014) — колумбийский писатель и журналист. Родился в городке Аракатака; детство провёл в доме деда и бабушки, и удивительные истории бабушки сильно повлияли на его творчество.\n\nГлавные произведения:\n• «Полковнику никто не пишет» (1961);\n• «Сто лет одиночества» (1967) — городок Макондо и история нескольких поколений семьи Буэндиа;\n• «Хроника объявленной смерти» (1981);\n• «Любовь во время холеры» (1985).\n\nВ 1982 году получил Нобелевскую премию по литературе.\n\nМагический реализм — изображение чудесных, волшебных событий в реальной повседневности как чего-то обычного. Герои не удивляются чудесам; этот приём одновременно показывает сознание народа, его легенды и историю."
+        }},
+        {"type": "example", "text": {
+          "tk": "«Ýüz ýyllyk ýalňyzlyk» romanynda jadyly realizmiň mysallary:\n\n1) Makondoda bütin şäherçe ukusyzlyk keselinden ýadyny ýitirip başlaýar; adamlar zatlaryň adyny unutmazlyk üçin olara ýazgy ýelmeýärler.\n2) Gözel Remedios bir gün ak mata bilen asmana göterilip gidýär — maşgala muňa haýran galman, adaty ýagdaý ýaly kabul edýär.\n3) Birnäçe ýyllap dowam edýän ýagyş.\n\nDerňew: täsin wakalar okyjyny geňirgendirýär, emma gahrymanlar üçin olar adaty. Bu usul arkaly ýazyjy ýalňyzlyk, wagtyň aýlanyşy we taryhyň gaýtalanmagy ýaly çuň temalary açýar.",
+          "ru": "Примеры магического реализма в романе «Сто лет одиночества»:\n\n1) Жители Макондо заболевают бессонницей и начинают терять память; чтобы не забыть названия вещей, они приклеивают к ним надписи.\n2) Красавица Ремедиос однажды возносится на небо вместе с белыми простынями — семья не удивляется и принимает это как обычное событие.\n3) Дождь, идущий несколько лет подряд.\n\nАнализ: чудеса удивляют читателя, но для героев они обыденны. Через этот приём писатель раскрывает глубокие темы: одиночество, цикличность времени и повторяемость истории."
+        }},
+        {"type": "choice",
+          "q": {"tk": "«Ýüz ýyllyk ýalňyzlyk» romanynyň wakalary haýsy şäherçede bolup geçýär?", "ru": "В каком городке происходит действие романа «Сто лет одиночества»?"},
+          "options": [{"tk": "Arakataka", "ru": "Аракатака"}, {"tk": "Makondo", "ru": "Макондо"}, {"tk": "Bogota", "ru": "Богота"}],
+          "answer": 1,
+          "hint": {"tk": "Bu toslama şäherçe, emma Markesiň doglan ýerine meňzeýär.", "ru": "Это вымышленный городок, похожий на родину Маркеса."},
+          "explain": {"tk": "Makondo — toslama şäherçe; onuň keşbine ýazyjynyň doglan ýeri Arakataka täsir edipdir.", "ru": "Макондо — вымышленный городок; его прообразом во многом стала родная Аракатака писателя."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Jadyly realizmde gahrymanlar gudratlara uly geň galmak bilen garaýarlar. Dogrymy?", "ru": "В магическом реализме герои воспринимают чудеса с большим удивлением. Верно?"},
+          "answer": false,
+          "hint": {"tk": "Remediosyň asmana göterilmegine maşgala nähili garaýar?", "ru": "Как семья реагирует на вознесение Ремедиос?"},
+          "explain": {"tk": "Ýalňyş: jadyly realizmiň esasy alamaty — gudrat adaty zat ýaly kabul edilýär.", "ru": "Неверно: главный признак магического реализма — чудо воспринимается как обыденность."}
+        },
+        {"type": "input",
+          "q": {"tk": "Markes Nobel baýragyny haýsy ýylda aldy?", "ru": "В каком году Маркес получил Нобелевскую премию?"},
+          "answer": "1982",
+          "hint": {"tk": "«Öňünden yglan edilen ölümiň hronikasy» çykandan bir ýyl soň.", "ru": "Через год после выхода «Хроники объявленной смерти»."},
+          "explain": {"tk": "«Hronika» 1981-nji ýylda çykdy, Nobel baýragy 1982-nji ýylda berildi.", "ru": "«Хроника» вышла в 1981 году, Нобелевская премия — в 1982-м."}
+        },
+        {"type": "world", "text": {
+          "tk": "Markes ýaş wagtynda köp ýyl žurnalist bolup işledi. Ol žurnalistikany «dünýädäki iň gowy hünär» diýip atlandyrypdyr. «Ýüz ýyllyk ýalňyzlyk» romany bolsa ispan dilinde ýazylan iň köp okalýan eserleriň biri bolup, onlarça million nusgada ýaýrady.",
+          "ru": "В молодости Маркес много лет работал журналистом и называл журналистику «лучшей профессией в мире». А роман «Сто лет одиночества» стал одной из самых читаемых книг на испанском языке и разошёлся десятками миллионов экземпляров."
+        }}
+      ]
+    },
+    {
+      "id": "literature-11-modern-poetry",
+      "grade": 11,
+      "topic": 5,
+      "title": {"tk": "Häzirki zaman poeziýasy", "ru": "Современная поэзия"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "XX–XXI asyrlaryň poeziýasy köp ugurly we täzeçil.\n\nEsasy aýratynlyklar:\n• Erkin goşgy (werlibr) — kapiýasyz we hemişelik ölçegsiz goşgy; onuň ritmi pikiriň we dem alşyň äheňine daýanýar. Amerikan şahyry Uolt Uitmen «Ot ýapraklary» (1855) kitaby bilen onuň ýaýramagyna uly goşant goşdy.\n• Gündelik dil we ýönekeý zatlar arkaly filosofik pikirleri aýtmak.\n• Täze görnüşler: wizual goşgy, kiçi göwrümli goşgy, sahnada okalýan poeziýa.\n\nDünýä şahyrlary: Iosif Brodskiý (Nobel, 1987), Wislawa Şimborska (Polşa, Nobel, 1996), Luiza Glýuk (ABŞ, Nobel, 2020).\n\nTürkmen poeziýasy: XX asyrda Kerim Gurbannepesow we Gurbannazar Ezizow ýaly şahyrlar türkmen goşgusyna täze keşpler, erkin äheň we çuň pikir getirdiler, şol bir wagtda nusgawy däplere daýandylar.",
+          "ru": "Поэзия XX–XXI веков многообразна и новаторска.\n\nГлавные черты:\n• Свободный стих (верлибр) — стих без рифмы и постоянного размера; его ритм опирается на интонацию мысли и дыхания. Американский поэт Уолт Уитмен своей книгой «Листья травы» (1855) во многом способствовал его распространению.\n• Философские мысли через повседневный язык и простые вещи.\n• Новые формы: визуальная поэзия, миниатюры, поэзия для чтения со сцены.\n\nМировые поэты: Иосиф Бродский (Нобелевская премия, 1987), Вислава Шимборская (Польша, Нобелевская премия, 1996), Луиза Глик (США, Нобелевская премия, 2020).\n\nТуркменская поэзия: в XX веке такие поэты, как Керим Курбаннепесов и Курбанназар Эзизов, принесли в туркменский стих новые образы, свободную интонацию и глубокую мысль, опираясь при этом на классические традиции."
+        }},
+        {"type": "example", "text": {
+          "tk": "Häzirki zaman goşgusyny nädip okamaly? Meýilnama:\n\n1) Tema: goşgy näme hakynda? (mysal üçin, adam we wagt).\n2) Gurluş: kapiýa barmy? Ölçeg hemişelikmi ýa-da erkin goşgumy?\n3) Keşpler: haýsy gündelik zatlar (penjire, çaý, ýol) nyşana öwrülýär?\n4) Äheň: goşgy gürrüňe meňzeýärmi, ýüzlenmemi, ýa-da içki pikir ýöretmemi?\n5) Esasy pikir: şahyr okyja haýsy duýgyny ýa-da soragy goýýar?\n\nMysal: Şimborskanyň goşgularynda adaty zatlar — daş, sanaw, gum dänesi — barlyk we ylym barada çuň soraglara getirýär; ol köplenç degişme bilen pikirlenýär.",
+          "ru": "Как читать современное стихотворение? План:\n\n1) Тема: о чём стихотворение? (например, человек и время).\n2) Строение: есть ли рифма? Размер постоянный или это верлибр?\n3) Образы: какие бытовые вещи (окно, чай, дорога) становятся символами?\n4) Интонация: стих похож на разговор, обращение или внутреннее размышление?\n5) Главная мысль: какое чувство или вопрос поэт оставляет читателю?\n\nПример: в стихах Шимборской обычные вещи — камень, список, песчинка — ведут к глубоким вопросам о бытии и познании; она часто размышляет с юмором."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Werlibr näme?", "ru": "Что такое верлибр?"},
+          "options": [{"tk": "on dört setirli kapiýaly goşgy", "ru": "рифмованное стихотворение из 14 строк"}, {"tk": "kapiýasyz we hemişelik ölçegsiz erkin goşgy", "ru": "свободный стих без рифмы и постоянного размера"}, {"tk": "halk aýdymy", "ru": "народная песня"}],
+          "answer": 1,
+          "hint": {"tk": "Fransuzça vers libre — «erkin goşgy».", "ru": "По-французски vers libre — «свободный стих»."},
+          "explain": {"tk": "Werlibr — erkin goşgy: onda kapiýa we hemişelik ölçeg bolmaýar. On dört setirli goşgy — sonet.", "ru": "Верлибр — свободный стих без рифмы и постоянного размера. Стихотворение из 14 строк — сонет."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy şahyr 1996-njy ýylda Nobel baýragyny aldy?", "ru": "Кто из поэтов получил Нобелевскую премию в 1996 году?"},
+          "options": [{"tk": "Wislawa Şimborska", "ru": "Вислава Шимборская"}, {"tk": "Iosif Brodskiý", "ru": "Иосиф Бродский"}, {"tk": "Uolt Uitmen", "ru": "Уолт Уитмен"}],
+          "answer": 0,
+          "hint": {"tk": "Bu polýak şahyry.", "ru": "Это польская поэтесса."},
+          "explain": {"tk": "Şimborska — 1996, Brodskiý — 1987; Uitmen XIX asyrda ýaşapdyr we Nobel baýragy ol aradan çykandan soň döredildi.", "ru": "Шимборская — 1996, Бродский — 1987; Уитмен жил в XIX веке, а Нобелевская премия появилась уже после его смерти."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Uolt Uitmeniň «Ot ýapraklary» kitaby erkin goşgynyň ýaýramagyna täsir etdi. Dogrymy?", "ru": "Книга Уолта Уитмена «Листья травы» повлияла на распространение свободного стиха. Верно?"},
+          "answer": true,
+          "hint": {"tk": "Teoriýadaky werlibr barada bölümi ýatlaň.", "ru": "Вспомните раздел о верлибре в теории."},
+          "explain": {"tk": "Dogry: 1855-nji ýylda çykan bu kitapdaky uzyn, kapiýasyz setirler köp şahyrlara täsir etdi.", "ru": "Верно: длинные нерифмованные строки этой книги 1855 года повлияли на многих поэтов."}
+        },
+        {"type": "world", "text": {
+          "tk": "ÝUNESKO 1999-njy ýylda 21-nji marty Bütindünýä poeziýa güni diýip yglan etdi. Bu gün dünýäniň dürli dillerindäki poeziýany goldamak we ýok bolup barýan dilleriň sesini eşitdirmek maksady bilen bellenilýär.",
+          "ru": "В 1999 году ЮНЕСКО объявила 21 марта Всемирным днём поэзии. Его отмечают, чтобы поддержать поэзию на разных языках мира и дать голос исчезающим языкам."
+        }}
+      ]
+    }
+  ]
+}

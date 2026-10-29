@@ -1,0 +1,22 @@
+# Сервер SARGYT: API + панель партнёров + PostgreSQL. Запуск: docker compose up -d
+services:
+  db:
+    image: postgres:16-alpine
+    restart: always
+    environment:
+      POSTGRES_DB: sargyt
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+    volumes: [pgdata:/var/lib/postgresql/data]
+  api:
+    build: { context: .., dockerfile: server/Dockerfile }
+    restart: always
+    depends_on: [db]
+    env_file: .env
+    environment:
+      DATABASE_URL: postgres://postgres:${DB_PASSWORD}@db:5432/sargyt
+      UPLOAD_DIR: /data/uploads
+    volumes: [uploads:/data/uploads]
+    ports: ["127.0.0.1:8080:8080"]
+volumes:
+  pgdata:
+  uploads:

@@ -1,0 +1,304 @@
+{
+  "grade": 2,
+  "subject": "world",
+  "lessons": [
+    {
+      "id": "world-2-human-body",
+      "grade": 2,
+      "topic": 0,
+      "title": {"tk": "Adamyň bedeni", "ru": "Тело человека"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Biziň bedenimiz köp bölekden durýar 🙋\n• Kelle, boýun, göwre, eller we aýaklar.\n• Içimizde ýürek ❤️, öýken 🫁 we beýni 🧠 bar.\nÝürek gany bütin bedene ýetirýär.\nÖýken bilen dem alýarys.\nBeýni bütin bedeni dolandyrýar.\nBedeniň içinde süňkler bar 🦴. Olar bedeni berk saklaýar.",
+          "ru": "Наше тело состоит из многих частей 🙋\n• Голова, шея, туловище, руки и ноги.\n• Внутри у нас есть сердце ❤️, лёгкие 🫁 и мозг 🧠.\nСердце гонит кровь по всему телу.\nЛёгкими мы дышим.\nМозг управляет всем телом.\nВнутри тела есть кости 🦴. Они делают тело крепким."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mysal: sen ylgaýarsyň 🏃\n1. Aýaklaryň we elleriň hereket edýär.\n2. Ýüregiň çalt urup başlaýar ❤️.\n3. Sen tiz-tiz dem alýarsyň — öýkeniň köp howa alýar 🫁.\n4. Beýniň hemme zady dolandyrýar: haýsy aýagyňy götermelidigini hem ol aýdýar 🧠.",
+          "ru": "Пример: ты бежишь 🏃\n1. Двигаются ноги и руки.\n2. Сердце начинает биться быстрее ❤️.\n3. Ты часто дышишь — лёгкие набирают много воздуха 🫁.\n4. Мозг всем управляет: даже какую ногу поднять, решает он 🧠."
+        }},
+        {"type": "theory", "text": {
+          "tk": "Bizde bäş duýgy bar:\n👀 Göz bilen görýäris.\n👂 Gulak bilen eşidýäris.\n👃 Burun bilen ys alýarys.\n👅 Dil bilen tagamy duýýarys.\n✋ Deri bilen yssyny, sowugy, gatyny we ýumşagy duýýarys.",
+          "ru": "У нас пять чувств:\n👀 Глазами мы видим.\n👂 Ушами слышим.\n👃 Носом чувствуем запахи.\n👅 Языком чувствуем вкус.\n✋ Кожей чувствуем горячее и холодное, твёрдое и мягкое."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Biz haýsy organ bilen dem alýarys?", "ru": "Каким органом мы дышим?"},
+          "options": [{"tk": "Ýürek", "ru": "Сердце"}, {"tk": "Öýken", "ru": "Лёгкие"}, {"tk": "Aşgazan", "ru": "Желудок"}],
+          "answer": 1,
+          "hint": {"tk": "Ylganyňda ol köp howa alýar.", "ru": "Когда бежишь, он набирает много воздуха."},
+          "explain": {"tk": "Öýken howany içine alýar we çykarýar. Ýürek bolsa gany sorýar.", "ru": "Лёгкие вдыхают и выдыхают воздух. А сердце качает кровь."}
+        },
+        {"type": "input",
+          "q": {"tk": "Adamda näçe duýgy bar? San bilen ýaz.", "ru": "Сколько чувств у человека? Напиши число."},
+          "answer": "5",
+          "hint": {"tk": "Göz, gulak, burun... ýene-de sana.", "ru": "Глаза, уши, нос... считай дальше."},
+          "explain": {"tk": "Görmek, eşitmek, ys almak, tagam duýmak we deri bilen duýmak — jemi 5.", "ru": "Зрение, слух, обоняние, вкус и осязание — всего 5."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Biz gulak bilen ys alýarys.", "ru": "Мы чувствуем запахи ушами."},
+          "answer": false,
+          "hint": {"tk": "👃 ýa 👂?", "ru": "👃 или 👂?"},
+          "explain": {"tk": "Ýalňyş. Ysy burun bilen alýarys, gulak bilen bolsa eşidýäris.", "ru": "Неверно. Запахи мы чувствуем носом, а ушами слышим."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy organ bütin bedeni dolandyrýar?", "ru": "Какой орган управляет всем телом?"},
+          "options": [{"tk": "Süňkler", "ru": "Кости"}, {"tk": "Saç", "ru": "Волосы"}, {"tk": "Beýni", "ru": "Мозг"}],
+          "answer": 2,
+          "hint": {"tk": "Ol kelläniň içinde ýerleşýär 🧠.", "ru": "Он находится внутри головы 🧠."},
+          "explain": {"tk": "Beýni pikir edýär we bedene buýruk berýär.", "ru": "Мозг думает и отдаёт команды телу."}
+        },
+        {"type": "world", "text": {
+          "tk": "Uly adamyň bedeninde 206 süňk bar 🦴. Täze doglan çaganyň süňkleri has köp: ösdügiçe käbiri birleşýär. Iň uzyn süňk — but süňki, iň kiçi süňk bolsa gulagyň içinde.",
+          "ru": "У взрослого человека 206 костей 🦴. У новорождённого их больше: с ростом некоторые срастаются. Самая длинная кость — бедренная, а самая маленькая находится внутри уха."
+        }}
+      ]
+    },
+    {
+      "id": "world-2-weather-seasons",
+      "grade": 2,
+      "topic": 1,
+      "title": {"tk": "Howa we pasyllar", "ru": "Погода и сезоны"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Howa her gün üýtgeýär: güneşli ☀️, bulutly ☁️, ýagyşly 🌧️, garly ❄️, şemally 🌬️.\nÝylda 4 pasyl bar:\n• Gyş ❄️ — dekabr, ýanwar, fewral\n• Ýaz 🌷 — mart, aprel, maý\n• Tomus ☀️ — iýun, iýul, awgust\n• Güýz 🍂 — sentýabr, oktýabr, noýabr\nHer pasylda 3 aý bar: 3 + 3 + 3 + 3 = 12 aý.",
+          "ru": "Погода меняется каждый день: солнечно ☀️, облачно ☁️, дождь 🌧️, снег ❄️, ветер 🌬️.\nВ году 4 сезона:\n• Зима ❄️ — декабрь, январь, февраль\n• Весна 🌷 — март, апрель, май\n• Лето ☀️ — июнь, июль, август\n• Осень 🍂 — сентябрь, октябрь, ноябрь\nВ каждом сезоне 3 месяца: 3 + 3 + 3 + 3 = 12 месяцев."
+        }},
+        {"type": "example", "text": {
+          "tk": "Haýsy pasyl? 🤔\n1. Agaçlaryň ýapraklary sararýar we gaçýar 🍂.\n2. Howa salkynlaýar.\n3. Käbir guşlar ýyly ýurtlara uçup gidýär.\nDiýmek, bu — güýz!\nHowanyň gyzgynlygyny termometr bilen ölçeýäris 🌡️. Tomusda +35°C-dan hem ýokary bolup biler, gyşda bolsa 0°C-dan aşak düşüp biler.",
+          "ru": "Какой это сезон? 🤔\n1. Листья на деревьях желтеют и опадают 🍂.\n2. Становится прохладно.\n3. Некоторые птицы улетают в тёплые края.\nЗначит, это — осень!\nТемпературу воздуха измеряют термометром 🌡️. Летом бывает выше +35°C, а зимой бывает ниже 0°C."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Iýul haýsy pasylda bolýar?", "ru": "В каком сезоне июль?"},
+          "options": [{"tk": "Gyşda", "ru": "Зимой"}, {"tk": "Güýzde", "ru": "Осенью"}, {"tk": "Tomusda", "ru": "Летом"}],
+          "answer": 2,
+          "hint": {"tk": "Iýun, iýul, awgust — iň yssy aýlar ☀️.", "ru": "Июнь, июль, август — самые жаркие месяцы ☀️."},
+          "explain": {"tk": "Iýul tomsuň ikinji aýy.", "ru": "Июль — второй месяц лета."}
+        },
+        {"type": "input",
+          "q": {"tk": "Bir pasylda näçe aý bar?", "ru": "Сколько месяцев в одном сезоне?"},
+          "answer": "3",
+          "hint": {"tk": "Gyş: dekabr, ýanwar, fewral — sana.", "ru": "Зима: декабрь, январь, февраль — посчитай."},
+          "explain": {"tk": "12 aý 4 pasyla bölünýär, her pasylda 3 aý.", "ru": "12 месяцев делятся на 4 сезона, в каждом по 3 месяца."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Gar köplenç tomusda ýagýar.", "ru": "Снег обычно идёт летом."},
+          "answer": false,
+          "hint": {"tk": "Gar ýagmak üçin howa sowuk bolmaly ❄️.", "ru": "Для снега нужен холод ❄️."},
+          "explain": {"tk": "Ýalňyş. Gar sowuk howada, köplenç gyşda ýagýar.", "ru": "Неверно. Снег идёт в холод, обычно зимой."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Howanyň gyzgynlygyny näme bilen ölçeýärler?", "ru": "Чем измеряют температуру воздуха?"},
+          "options": [{"tk": "Termometr 🌡️", "ru": "Термометр 🌡️"}, {"tk": "Sagat ⏰", "ru": "Часы ⏰"}, {"tk": "Çyzgyç 📏", "ru": "Линейка 📏"}],
+          "answer": 0,
+          "hint": {"tk": "Keselläňde hem ony ulanýarlar.", "ru": "Его используют и когда ты болеешь."},
+          "explain": {"tk": "Termometr gyzgynlygy gradusda (°C) görkezýär.", "ru": "Термометр показывает температуру в градусах (°C)."}
+        },
+        {"type": "world", "text": {
+          "tk": "Ýeriň günorta ýarymynda pasyllar tersine bolýar. Bizde gyş bolanda, Awstraliýada tomus bolýar! Şonuň üçin ol ýerde Täze ýyly köplenç yssy howada, kenarda garşylaýarlar 🏖️.",
+          "ru": "В южном полушарии Земли сезоны наоборот. Когда у нас зима, в Австралии лето! Поэтому там Новый год часто встречают в жару, на пляже 🏖️."
+        }}
+      ]
+    },
+    {
+      "id": "world-2-water-states",
+      "grade": 2,
+      "topic": 2,
+      "title": {"tk": "Suw we onuň ýagdaýlary", "ru": "Вода и её состояния"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Suw üç ýagdaýda bolup bilýär:\n🧊 Buz — gaty. Ol öz şekilini saklaýar.\n💧 Suw — suwuk. Ol akýar we gabyň şekilini alýar.\n♨️ Bug — gaz. Ol gaýnap duran çaýnekden çykýar.\nSuw 0°C-da doňup, buza öwrülýär.\nSuw 100°C-da gaýnap, buga öwrülýär.",
+          "ru": "Вода бывает в трёх состояниях:\n🧊 Лёд — твёрдый. Он сохраняет свою форму.\n💧 Вода — жидкая. Она течёт и принимает форму сосуда.\n♨️ Пар — газ. Он выходит из кипящего чайника.\nПри 0°C вода замерзает и становится льдом.\nПри 100°C вода кипит и превращается в пар."
+        }},
+        {"type": "example", "text": {
+          "tk": "Tejribe 🔬\n1. Buzy stakana salyp, güne goý ☀️. Buz ereýär → suw bolýar 💧.\n2. Suwy gazana guýup, gaýnat. Bug çykýar ♨️.\n3. Bug sowuk gapagyň üstüne degse, ýene suw damjalaryna öwrülýär 💧.\nSuw bir ýagdaýdan beýlekisine geçip bilýär!",
+          "ru": "Опыт 🔬\n1. Положи лёд в стакан и поставь на солнце ☀️. Лёд тает → получается вода 💧.\n2. Налей воду в кастрюлю и вскипяти. Идёт пар ♨️.\n3. Пар попадает на холодную крышку и снова становится каплями воды 💧.\nВода может переходить из одного состояния в другое!"
+        }},
+        {"type": "theory", "text": {
+          "tk": "Tebigatda suw aýlanýar 🔄\n• Gün deňizdäki suwy ýylydýar ☀️.\n• Suw buga öwrülip, ýokary galýar.\n• Ýokarda bug sowap, bulut bolýar ☁️.\n• Bulutdan ýagyş ýa-da gar bolup, ýere gaýdyp gelýär 🌧️.",
+          "ru": "В природе вода путешествует по кругу 🔄\n• Солнце нагревает воду в море ☀️.\n• Вода превращается в пар и поднимается вверх.\n• Наверху пар остывает и образует облака ☁️.\n• Из облаков вода возвращается на землю дождём или снегом 🌧️."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Buz nähili?", "ru": "Какой лёд?"},
+          "options": [{"tk": "Suwuk", "ru": "Жидкий"}, {"tk": "Gaty", "ru": "Твёрдый"}, {"tk": "Gaz", "ru": "Газ"}],
+          "answer": 1,
+          "hint": {"tk": "Buz öz şekilini saklaýar 🧊.", "ru": "Лёд сохраняет свою форму 🧊."},
+          "explain": {"tk": "Buz — suwuň gaty ýagdaýy.", "ru": "Лёд — твёрдое состояние воды."}
+        },
+        {"type": "input",
+          "q": {"tk": "Suw näçe gradusda gaýnaýar? San bilen ýaz.", "ru": "При скольких градусах кипит вода? Напиши число."},
+          "answer": "100|100°C|100 °C",
+          "hint": {"tk": "Bu san 99-dan soň gelýär.", "ru": "Это число идёт после 99."},
+          "explain": {"tk": "Suw 100°C-da gaýnaýar we buga öwrülýär.", "ru": "Вода кипит при 100°C и превращается в пар."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Bulutlar suwdan ýasalýar.", "ru": "Облака состоят из воды."},
+          "answer": true,
+          "hint": {"tk": "Ýagyş nireden ýagýar? 🌧️", "ru": "Откуда идёт дождь? 🌧️"},
+          "explain": {"tk": "Dogry. Bulut — howada asylyp duran örän kiçi suw damjalary ýa-da buz bölejikleri.", "ru": "Верно. Облако — это крошечные капельки воды или льдинки в воздухе."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Suw näçe gradusda doňýar?", "ru": "При скольких градусах замерзает вода?"},
+          "options": ["100°C", "50°C", "0°C"],
+          "answer": 2,
+          "hint": {"tk": "Bu iň kiçi san.", "ru": "Это самое маленькое число."},
+          "explain": {"tk": "0°C-da suw doňup, buza öwrülýär 🧊.", "ru": "При 0°C вода замерзает и становится льдом 🧊."}
+        },
+        {"type": "world", "text": {
+          "tk": "Ýer şarynyň ýüzüniň üçden ikisinden köprägi suw bilen örtülen 🌊. Şonuň üçin kosmosdan Ýer gök görünýär. Ýöne bu suwuň köp bölegi duzly deňiz suwy, içip bolýan süýji suw bolsa az — ony aýap ulanmaly 💧.",
+          "ru": "Больше двух третей поверхности Земли покрыто водой 🌊. Поэтому из космоса Земля кажется голубой. Но почти вся эта вода — солёная морская, а пресной воды для питья мало — её нужно беречь 💧."
+        }}
+      ]
+    },
+    {
+      "id": "world-2-wild-animals",
+      "grade": 2,
+      "topic": 3,
+      "title": {"tk": "Ýabany haýwanlar", "ru": "Дикие животные"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Ýabany haýwanlar tebigatda ýaşaýar. Olar iýmitini özleri tapýar.\n• Ýyrtyjylar beýleki haýwanlary iýýär: möjek 🐺, şir 🦁, tilki 🦊.\n• Ot iýijiler ösümlik iýýär: towşan 🐇, jeren, žiraf 🦒.\n• Aýy 🐻 hem et, hem miwe, hem bal iýýär.\nHer haýwanyň öz öýi bar: tilkiniň — hini, guşuň — höwürtgesi 🪺, balygyň — suw 🐟.",
+          "ru": "Дикие животные живут в природе. Они сами добывают себе пищу.\n• Хищники едят других животных: волк 🐺, лев 🦁, лиса 🦊.\n• Травоядные едят растения: заяц 🐇, джейран, жираф 🦒.\n• Медведь 🐻 ест и мясо, и ягоды, и мёд.\nУ каждого животного свой дом: у лисы — нора, у птицы — гнездо 🪺, у рыбы — вода 🐟."
+        }},
+        {"type": "example", "text": {
+          "tk": "Haýsy haýwan ýabany? 🐄 Sygyr, 🐺 Möjek, 🐈 Pişik.\n1. Sygra adam seredýär, ol öýüň ýanynda ýaşaýar — öý haýwany.\n2. Pişik hem öýde ýaşaýar — öý haýwany.\n3. Möjek dagda, çölde, tokaýda ýaşaýar, iýmitini özi tapýar — ýabany haýwan ✅.",
+          "ru": "Какое животное дикое? 🐄 Корова, 🐺 Волк, 🐈 Кошка.\n1. О корове заботится человек, она живёт рядом с домом — домашнее животное.\n2. Кошка тоже живёт дома — домашнее животное.\n3. Волк живёт в горах, пустыне, лесу и сам добывает еду — дикое животное ✅."
+        }},
+        {"type": "theory", "text": {
+          "tk": "Türkmenistanyň tebigatynda jeren, gulan, kertenkele 🦎, ýylan 🐍 we çöl tilkisi ýaşaýar.\nÇöl haýwanlary yssa öwrenişen: köpüsi gündiz hinde gizlenýär, gije bolsa iýmit gözläp çykýar 🌙.",
+          "ru": "В природе Туркменистана живут джейран, кулан, ящерицы 🦎, змеи 🐍 и пустынные лисы.\nЖивотные пустыни привыкли к жаре: многие днём прячутся в норах, а ночью выходят искать еду 🌙."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Haýsy haýwan ýyrtyjy?", "ru": "Какое животное хищник?"},
+          "options": [{"tk": "Towşan 🐇", "ru": "Заяц 🐇"}, {"tk": "Möjek 🐺", "ru": "Волк 🐺"}, {"tk": "Jeren", "ru": "Джейран"}],
+          "answer": 1,
+          "hint": {"tk": "Ýyrtyjy beýleki haýwanlary aw edýär.", "ru": "Хищник охотится на других животных."},
+          "explain": {"tk": "Möjek et iýýär — ol ýyrtyjy. Towşan we jeren ot iýýär.", "ru": "Волк ест мясо — он хищник. Заяц и джейран едят траву."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Sygyr ýabany haýwan.", "ru": "Корова — дикое животное."},
+          "answer": false,
+          "hint": {"tk": "Sygra kim seredýär?", "ru": "Кто заботится о корове?"},
+          "explain": {"tk": "Ýalňyş. Sygra adam seredýär, ol öý haýwany.", "ru": "Неверно. О корове заботится человек, это домашнее животное."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Sowuk ýurtlarda aýy gyşda näme edýär? 🐻", "ru": "Что делает медведь зимой в холодных краях? 🐻"},
+          "options": [{"tk": "Gyş ukusyna gidýär", "ru": "Впадает в спячку"}, {"tk": "Ýyly ýurda uçýar", "ru": "Улетает в тёплые края"}, {"tk": "Deňizde ýüzýär", "ru": "Плавает в море"}],
+          "answer": 0,
+          "hint": {"tk": "Aýynyň ganaty ýok 😉.", "ru": "У медведя нет крыльев 😉."},
+          "explain": {"tk": "Aýy güýzde köp iýip semreýär, soň gyşy ugrunda uklap geçirýär.", "ru": "Осенью медведь много ест и толстеет, а зиму проводит во сне в берлоге."}
+        },
+        {"type": "input",
+          "q": {"tk": "Möjegiň näçe aýagy bar? 🐺", "ru": "Сколько ног у волка? 🐺"},
+          "answer": "4",
+          "hint": {"tk": "It ýaly sana 🐕.", "ru": "Посчитай, как у собаки 🐕."},
+          "explain": {"tk": "Möjegiň 4 aýagy bar: 2 öňde, 2 yzda.", "ru": "У волка 4 лапы: 2 спереди и 2 сзади."}
+        },
+        {"type": "world", "text": {
+          "tk": "Gepard — ýerde iň çalt ylgaýan haýwan 🐆. Gysga aralykda ol sagatda 90 km-den hem çalt ylgap bilýär — edil awtoulag ýaly!",
+          "ru": "Гепард — самое быстрое животное на суше 🐆. На короткой дистанции он бежит быстрее 90 км в час — как автомобиль!"
+        }}
+      ]
+    },
+    {
+      "id": "world-2-road-safety",
+      "grade": 2,
+      "topic": 4,
+      "title": {"tk": "Ýol hereketiniň düzgünleri", "ru": "Правила дорожного движения"},
+      "minutes": 7,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Ýolda howpsuz bolmak üçin düzgünler bar 🚦\n• Gyzyl 🔴 — dur!\n• Sary 🟡 — garaş, taýýarlan.\n• Ýaşyl 🟢 — geçip bolýar.\nÝoly diňe pyýada geçelgesinden — «zebradan» geç 🦓.\nGeçmezden öň dur we seret: ilki çepe ⬅️, soň saga ➡️.\nÝolda oýnamaly däl. Maşynda howpsuzlyk kemerini dak 🚗.",
+          "ru": "Чтобы быть в безопасности на дороге, есть правила 🚦\n• Красный 🔴 — стой!\n• Жёлтый 🟡 — жди, приготовься.\n• Зелёный 🟢 — можно идти.\nПереходи дорогу только по пешеходному переходу — «зебре» 🦓.\nПеред переходом остановись и посмотри: сначала налево ⬅️, потом направо ➡️.\nНа дороге нельзя играть. В машине пристёгивай ремень безопасности 🚗."
+        }},
+        {"type": "example", "text": {
+          "tk": "Aýna mekdebe barýar 🎒. Ol ýoly geçmeli.\n1. Ol pyýada geçelgesini tapýar 🦓.\n2. Swetoforda gyzyl yşyk ýanýar — Aýna garaşýar 🔴.\n3. Ýaşyl yşyk ýandy 🟢. Aýna ilki çepe, soň saga seredýär.\n4. Maşyn saklandy. Aýna ýoly ylgaman, ýöräp geçýär 🚶‍♀️.",
+          "ru": "Айна идёт в школу 🎒. Ей нужно перейти дорогу.\n1. Она находит пешеходный переход 🦓.\n2. На светофоре горит красный — Айна ждёт 🔴.\n3. Загорелся зелёный 🟢. Айна смотрит сначала налево, потом направо.\n4. Машины остановились. Айна переходит дорогу шагом, не бегом 🚶‍♀️."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Swetoforyň haýsy reňkinde ýoly geçýärler?", "ru": "На какой сигнал светофора переходят дорогу?"},
+          "options": [{"tk": "Gyzyl 🔴", "ru": "Красный 🔴"}, {"tk": "Sary 🟡", "ru": "Жёлтый 🟡"}, {"tk": "Ýaşyl 🟢", "ru": "Зелёный 🟢"}],
+          "answer": 2,
+          "hint": {"tk": "Bu reňk ot-çöpüň reňki ýaly 🌿.", "ru": "Этот цвет как у травы 🌿."},
+          "explain": {"tk": "Ýaşyl yşyk — ýol açyk. Gyzylda durýarys, saryda garaşýarys.", "ru": "Зелёный — путь открыт. На красный стоим, на жёлтый ждём."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Ýoly islän ýeriňden ylgap geçip bolýar.", "ru": "Дорогу можно перебегать в любом месте."},
+          "answer": false,
+          "hint": {"tk": "«Zebrany» ýada sal 🦓.", "ru": "Вспомни про «зебру» 🦓."},
+          "explain": {"tk": "Ýalňyş. Ýoly diňe pyýada geçelgesinden, ýöräp geçmeli.", "ru": "Неверно. Дорогу переходят только по пешеходному переходу и шагом."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Ýoly nireden geçmeli?", "ru": "Где нужно переходить дорогу?"},
+          "options": [{"tk": "Iki maşynyň arasyndan", "ru": "Между двумя машинами"}, {"tk": "Pyýada geçelgesinden 🦓", "ru": "По пешеходному переходу 🦓"}, {"tk": "Ýoluň öwrüminden", "ru": "На повороте дороги"}],
+          "answer": 1,
+          "hint": {"tk": "Ol ýerde ak-gara zolaklar bar.", "ru": "Там нарисованы белые полосы."},
+          "explain": {"tk": "Pyýada geçelgesinde sürüjiler pyýadalary görýär we saklanýar.", "ru": "На переходе водители видят пешеходов и останавливаются."}
+        },
+        {"type": "input",
+          "q": {"tk": "Swetoforda näçe reňk bar? San bilen ýaz.", "ru": "Сколько цветов у светофора? Напиши число."},
+          "answer": "3",
+          "hint": {"tk": "🔴🟡🟢 — sana.", "ru": "🔴🟡🟢 — посчитай."},
+          "explain": {"tk": "Gyzyl, sary we ýaşyl — 3 reňk.", "ru": "Красный, жёлтый и зелёный — 3 цвета."}
+        },
+        {"type": "world", "text": {
+          "tk": "Dünýäde ilkinji swetofor 1868-nji ýylda Londonda goýlupdyr 🚦. Ol gaz bilen ýanýardy we ony polisiýa işgäri el bilen dolandyrýardy.",
+          "ru": "Первый в мире светофор поставили в Лондоне в 1868 году 🚦. Он работал на газе, и им вручную управлял полицейский."
+        }}
+      ]
+    },
+    {
+      "id": "world-2-planet-earth",
+      "grade": 2,
+      "topic": 5,
+      "title": {"tk": "Biziň planetamyz Ýer", "ru": "Наша планета Земля"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Biz Ýer planetasynda ýaşaýarys 🌍.\n• Ýer top ýaly tegelek.\n• Ýer öz okunyň daşyndan aýlanýar. Şonuň üçin gije we gündiz bolýar 🌞🌙. Bir aýlaw — 24 sagat.\n• Ýer Günüň daşyndan hem aýlanýar ☀️. Bir aýlaw — 1 ýyl.\n• Ýeriň hemrasy — Aý 🌕.",
+          "ru": "Мы живём на планете Земля 🌍.\n• Земля круглая, как мяч.\n• Земля вращается вокруг своей оси. Поэтому бывают день и ночь 🌞🌙. Один оборот — 24 часа.\n• Земля движется и вокруг Солнца ☀️. Один круг — 1 год.\n• Спутник Земли — Луна 🌕."
+        }},
+        {"type": "example", "text": {
+          "tk": "Gije we gündiz nädip bolýar? 🔦🌍\n1. Çyrany (bu — Gün) we topy (bu — Ýer) al.\n2. Çyra topuň bir tarapyny ýagtyldýar — ol ýerde gündiz ☀️.\n3. Beýleki tarapy garaňky — ol ýerde gije 🌙.\n4. Topy aýlasaň, gündiz bilen gije çalşyp başlaýar. Ýer hem şeýle aýlanýar!",
+          "ru": "Как получаются день и ночь? 🔦🌍\n1. Возьми фонарик (это Солнце) и мяч (это Земля).\n2. Фонарик освещает одну сторону мяча — там день ☀️.\n3. Другая сторона тёмная — там ночь 🌙.\n4. Если вращать мяч, день и ночь сменяют друг друга. Так вращается и Земля!"
+        }},
+        {"type": "theory", "text": {
+          "tk": "Gün ulgamynda 8 planeta bar: Merkuriý, Wenera, Ýer, Mars, Ýupiter, Saturn, Uran, Neptun.\nÝer Günden üçünji planeta.\nÝerde howa, suw we janly-jandarlar bar. Häzirki bilşimiz ýaly, ýaşaýyş diňe Ýerde bar 🌱.",
+          "ru": "В Солнечной системе 8 планет: Меркурий, Венера, Земля, Марс, Юпитер, Сатурн, Уран, Нептун.\nЗемля — третья планета от Солнца.\nНа Земле есть воздух, вода и живые существа. Насколько мы знаем, жизнь есть только на Земле 🌱."
+        }},
+        {"type": "input",
+          "q": {"tk": "Bir gije-gündiz näçe sagat?", "ru": "Сколько часов в сутках?"},
+          "answer": "24",
+          "hint": {"tk": "Ýer öz okunyň daşyndan bir gezek aýlanýança.", "ru": "Столько длится один оборот Земли вокруг оси."},
+          "explain": {"tk": "Ýer 24 sagatda öz okunyň daşyndan bir gezek aýlanýar.", "ru": "Земля делает один оборот вокруг своей оси за 24 часа."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Ýeriň hemrasy näme?", "ru": "Что является спутником Земли?"},
+          "options": [{"tk": "Aý 🌕", "ru": "Луна 🌕"}, {"tk": "Mars", "ru": "Марс"}, {"tk": "Gün ☀️", "ru": "Солнце ☀️"}],
+          "answer": 0,
+          "hint": {"tk": "Ony gije asmanda görýäris.", "ru": "Её мы видим ночью на небе."},
+          "explain": {"tk": "Aý Ýeriň daşyndan aýlanýar — ol Ýeriň hemrasy. Gün — ýyldyz, Mars — planeta.", "ru": "Луна вращается вокруг Земли — это её спутник. Солнце — звезда, Марс — планета."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Ýer Günüň daşyndan aýlanýar.", "ru": "Земля движется вокруг Солнца."},
+          "answer": true,
+          "hint": {"tk": "Bir aýlaw — 1 ýyl.", "ru": "Один круг — 1 год."},
+          "explain": {"tk": "Dogry. Ýer Günüň daşyndan bir ýylda bir gezek aýlanýar.", "ru": "Верно. Земля делает круг вокруг Солнца за один год."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Ýer Günden näçenji planeta?", "ru": "Какая по счёту Земля от Солнца?"},
+          "options": [{"tk": "Birinji", "ru": "Первая"}, {"tk": "Üçünji", "ru": "Третья"}, {"tk": "Bäşinji", "ru": "Пятая"}],
+          "answer": 1,
+          "hint": {"tk": "Merkuriý, Wenera, soň...", "ru": "Меркурий, Венера, потом..."},
+          "explain": {"tk": "Merkuriý — 1, Wenera — 2, Ýer — 3.", "ru": "Меркурий — 1, Венера — 2, Земля — 3."}
+        },
+        {"type": "world", "text": {
+          "tk": "1961-nji ýylyň 12-nji aprelinde Ýuriý Gagarin kosmosa uçan ilkinji adam boldy 🚀. Ol Ýeri ýokardan gördi we onuň gök öwüşgin bilen gözel görünýändigini aýtdy.",
+          "ru": "12 апреля 1961 года Юрий Гагарин стал первым человеком, полетевшим в космос 🚀. Он увидел Землю сверху и рассказал, что она окружена красивым голубым ореолом."
+        }}
+      ]
+    }
+  ]
+}

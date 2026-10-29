@@ -1,0 +1,45 @@
+{
+  "id": "math",
+  "icon": "➗",
+  "color": "#2F6FEB",
+  "title": {"tk": "Matematika", "ru": "Математика"},
+  "lessons": [
+    {
+      "id": "math-7-linear",
+      "grade": 7,
+      "title": {"tk": "Çyzykly deňlemeler", "ru": "Линейные уравнения"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Deňleme — näbelli san (köplenç x) bolan deňlik. Deňlemäni çözmek — x-iň deňligi dogry edýän bahasyny tapmak.\n\nDüzgün: deňlemäniň iki tarapyna hem şol bir sany goşup, aýryp, köpeldip ýa-da (noldan başga) bölüp bolýar — deňlik bozulmaýar.",
+          "ru": "Уравнение — равенство с неизвестным числом (обычно x). Решить уравнение — найти значение x, при котором равенство верно.\n\nПравило: к обеим частям можно прибавить, вычесть, умножить или разделить (на число ≠ 0) одно и то же — равенство сохранится."}},
+        {"type": "example", "text": {
+          "tk": "2x + 5 = 13\n1) Iki tarapdan 5 aýyrýarys: 2x = 8\n2) Iki tarapy 2-ä bölýäris: x = 4\nBarlag: 2·4 + 5 = 13 ✓",
+          "ru": "2x + 5 = 13\n1) Вычитаем 5 из обеих частей: 2x = 8\n2) Делим обе части на 2: x = 4\nПроверка: 2·4 + 5 = 13 ✓"}},
+        {"type": "choice",
+          "q": {"tk": "3x − 4 = 11 deňlemäni çözmek üçin ilki näme etmeli?", "ru": "Что сделать первым шагом в уравнении 3x − 4 = 11?"},
+          "options": [
+            {"tk": "Iki tarapa 4 goşmaly", "ru": "Прибавить 4 к обеим частям"},
+            {"tk": "Iki tarapy 4-e bölmeli", "ru": "Разделить обе части на 4"},
+            {"tk": "Diňe çep tarapa 4 goşmaly", "ru": "Прибавить 4 только слева"}
+          ],
+          "answer": 0,
+          "hint": {"tk": "x-i ýeke galdyrmak üçin −4-den dynmaly.", "ru": "Чтобы x остался один, нужно избавиться от −4."},
+          "explain": {"tk": "Iki tarapa 4 goşsak: 3x = 15. Diňe bir tarapa goşmak deňligi bozýar.", "ru": "Прибавив 4 к обеим частям, получаем 3x = 15. Менять только одну часть нельзя."}},
+        {"type": "input",
+          "q": {"tk": "3x − 4 = 11. x = ?", "ru": "3x − 4 = 11. x = ?"},
+          "answer": "5",
+          "hint": {"tk": "3x = 15 boldy. Indi iki tarapy 3-e bölüň.", "ru": "Получили 3x = 15. Теперь разделите обе части на 3."},
+          "explain": {"tk": "3x = 15 → x = 5. Barlag: 3·5 − 4 = 11 ✓", "ru": "3x = 15 → x = 5. Проверка: 3·5 − 4 = 11 ✓"}},
+        {"type": "input",
+          "q": {"tk": "5x + 2 = 3x + 10. x = ?", "ru": "5x + 2 = 3x + 10. x = ?"},
+          "answer": "4",
+          "hint": {"tk": "x-li agzalary çepe, sanlary saga geçiriň: 5x − 3x = 10 − 2.", "ru": "Перенесите x влево, числа вправо: 5x − 3x = 10 − 2."},
+          "explain": {"tk": "2x = 8 → x = 4. Barlag: 22 = 22 ✓", "ru": "2x = 8 → x = 4. Проверка: 22 = 22 ✓"}},
+        {"type": "world", "text": {
+          "tk": "Bilýärsiňizmi? «Algebra» sözi IX asyryň alymy Muhammet al-Horezminiň kitabynyň adyndaky «al-jabr» sözünden gelýär. «Algoritm» sözi hem onuň adyndan gelip çykýar.",
+          "ru": "Знаете ли вы? Слово «алгебра» происходит от «аль-джабр» из названия книги учёного IX века Мухаммеда аль-Хорезми. От его имени произошло и слово «алгоритм»."}}
+      ]
+    }
+  ]
+}

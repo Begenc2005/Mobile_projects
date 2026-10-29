@@ -1,0 +1,3982 @@
+{
+ "id": "physics",
+ "icon": "⚡",
+ "color": "#E8590C",
+ "title": {
+  "tk": "Fizika",
+  "ru": "Физика"
+ },
+ "lessons": [
+  {
+   "id": "physics-7-speed",
+   "grade": 7,
+   "title": {
+    "tk": "Tizlik, ýol we wagt",
+    "ru": "Скорость, путь и время"
+   },
+   "minutes": 8,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Tizlik — jisimiň wagt birliginde geçýän ýoly.\n\nv = s / t\nv — tizlik, s — ýol, t — wagt.\nHalkara ölçeg ulgamynda (SI) tizlik m/s-da ölçenýär.",
+      "ru": "Скорость — путь, проходимый телом за единицу времени.\n\nv = s / t\nv — скорость, s — путь, t — время.\nВ системе СИ скорость измеряется в м/с."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Awtobus 2 sagatda 120 km geçdi.\nv = 120 km / 2 sag = 60 km/sag.\n\nkm/sag → m/s: 3,6-a bölmeli. 72 km/sag = 20 m/s.",
+      "ru": "Автобус проехал 120 км за 2 часа.\nv = 120 км / 2 ч = 60 км/ч.\n\nкм/ч → м/с: делим на 3,6. 72 км/ч = 20 м/с."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Welosipedçi 10 s-da 50 m geçdi. Tizligi näçe m/s?",
+      "ru": "Велосипедист проехал 50 м за 10 с. Какова скорость в м/с?"
+     },
+     "answer": "5",
+     "hint": {
+      "tk": "v = s / t formulasyny ulanyň.",
+      "ru": "Используйте формулу v = s / t."
+     },
+     "explain": {
+      "tk": "v = 50 / 10 = 5 m/s.",
+      "ru": "v = 50 / 10 = 5 м/с."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Ýoly tapmagyň formulasy haýsy?",
+      "ru": "Какая формула для нахождения пути?"
+     },
+     "options": [
+      "s = v · t",
+      "s = v / t",
+      "s = t / v"
+     ],
+     "answer": 0,
+     "hint": {
+      "tk": "v = s / t deňlemäniň iki tarapyny t-e köpeldiň.",
+      "ru": "Умножьте обе части v = s / t на t."
+     },
+     "explain": {
+      "tk": "v = s/t → s = v·t.",
+      "ru": "v = s/t → s = v·t."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Otly 90 km/sag tizlik bilen 3 sagat gitdi. Näçe km ýol geçdi?",
+      "ru": "Поезд ехал 3 часа со скоростью 90 км/ч. Какой путь он прошёл (км)?"
+     },
+     "answer": "270",
+     "hint": {
+      "tk": "s = v · t",
+      "ru": "s = v · t"
+     },
+     "explain": {
+      "tk": "s = 90 · 3 = 270 km.",
+      "ru": "s = 90 · 3 = 270 км."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Ýagtylygyň tizligi takmynan 300 000 km/s. Gün şöhlesi Ýere ortaça 8 minut 20 sekuntda ýetýär.",
+      "ru": "Скорость света — около 300 000 км/с. Солнечный свет доходит до Земли в среднем за 8 минут 20 секунд."
+     }
+    }
+   ]
+  },
+  {
+   "id": "physics-7-what-is-physics",
+   "grade": 7,
+   "title": {
+    "tk": "Fizika näme öwrenýär",
+    "ru": "Что изучает физика"
+   },
+   "minutes": 8,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Fizika — tebigatyň iň umumy kanunlaryny öwrenýän ylym. «Fizika» sözi grekçe «physis» — «tebigat» sözünden gelýär.\n\nFiziki hadysalaryň görnüşleri:\n• Mehaniki — hereket (top togalanýar)\n• Ýylylyk — gyzmak, eremek (buz ereýär)\n• Elektrik we magnit — tok, magnit\n• Ýagtylyk — şöhleleriň serpilmegi, kölegeler\n• Ses — yrgyldylar we tolkunlar\n\nFizikanyň usullary: synlamak → gipoteza → tejribe → ölçemek → kanun.\n\nFiziki ululyk ölçenýär we birligi bar. Halkara birlikler ulgamy (SI): uzynlyk — metr (m), massa — kilogram (kg), wagt — sekunt (s).",
+      "ru": "Физика — наука, изучающая самые общие законы природы. Слово «физика» происходит от греческого «physis» — «природа».\n\nВиды физических явлений:\n• Механические — движение (катится мяч)\n• Тепловые — нагревание, плавление (тает лёд)\n• Электрические и магнитные — ток, магнит\n• Световые — отражение лучей, тени\n• Звуковые — колебания и волны\n\nМетоды физики: наблюдение → гипотеза → опыт → измерение → закон.\n\nФизическая величина измеряется и имеет единицу. Международная система единиц (СИ): длина — метр (м), масса — килограмм (кг), время — секунда (с)."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Menzurkanyň bölüm bahasyny tapalyň.\n1) Iki iň ýakyn ýazgyly çyzyk alýarys: 20 ml we 30 ml.\n2) Olaryň arasynda 5 bölüm (aralyk) bar.\n3) Bölüm bahasy = (30 − 20) : 5 = 2 ml.\n4) Suwuň derejesi 30-dan 3 bölüm ýokarda bolsa: 30 + 3·2 = 36 ml.",
+      "ru": "Найдём цену деления мензурки.\n1) Берём два ближайших штриха с числами: 20 мл и 30 мл.\n2) Между ними 5 делений (промежутков).\n3) Цена деления = (30 − 20) : 5 = 2 мл.\n4) Если уровень воды на 3 деления выше 30: 30 + 3·2 = 36 мл."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Haýsy hadysa ýylylyk hadysasy?",
+      "ru": "Какое явление тепловое?"
+     },
+     "options": [
+      {
+       "tk": "Gar ereýär",
+       "ru": "Тает снег"
+      },
+      {
+       "tk": "Ýyldyrym çakýar",
+       "ru": "Сверкает молния"
+      },
+      {
+       "tk": "Ýaprak gaçýar",
+       "ru": "Падает лист"
+      }
+     ],
+     "answer": 0,
+     "hint": {
+      "tk": "Haýsy ýagdaýda temperatura esasy rol oýnaýar?",
+      "ru": "В каком случае главную роль играет температура?"
+     },
+     "explain": {
+      "tk": "Eremek — ýylylyk hadysasy. Ýyldyrym — elektrik, ýapragyň gaçmagy — mehaniki hadysa.",
+      "ru": "Плавление — тепловое явление. Молния — электрическое, падение листа — механическое."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Çyzgyçda 0 we 1 sm ýazgylaryň arasynda 10 bölüm bar. Bölüm bahasy näçe mm?",
+      "ru": "На линейке между отметками 0 и 1 см — 10 делений. Цена деления в мм?"
+     },
+     "answer": "1",
+     "hint": {
+      "tk": "1 sm = 10 mm.",
+      "ru": "1 см = 10 мм."
+     },
+     "explain": {
+      "tk": "10 mm : 10 = 1 mm.",
+      "ru": "10 мм : 10 = 1 мм."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "SI ulgamynda massanyň esasy birligi gram.",
+      "ru": "В системе СИ основная единица массы — грамм."
+     },
+     "answer": false,
+     "hint": {
+      "tk": "SI-iň üç esasy mehaniki birligini ýatla.",
+      "ru": "Вспомните три основные механические единицы СИ."
+     },
+     "explain": {
+      "tk": "SI-de massanyň birligi kilogram (kg). 1 kg = 1000 g.",
+      "ru": "В СИ единица массы — килограмм (кг). 1 кг = 1000 г."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "2,5 km näçe metr?",
+      "ru": "Сколько метров в 2,5 км?"
+     },
+     "answer": "2500",
+     "hint": {
+      "tk": "1 km = 1000 m.",
+      "ru": "1 км = 1000 м."
+     },
+     "explain": {
+      "tk": "2,5 · 1000 = 2500 m.",
+      "ru": "2,5 · 1000 = 2500 м."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Italýan alymy Galileo Galileý (1564–1642) tebigaty diňe pikirlenmek bilen däl, eýsem tejribe we ölçeg arkaly öwrenmegiň esaslaryny goýdy. Ol eňňit üstünde togalanýan şarlar bilen tejribe geçirip, hereketiň kanunlaryny ölçeg bilen barlapdyr. Şonuň üçin ony köplenç tejribe fizikasynyň atasy diýip atlandyrýarlar.",
+      "ru": "Итальянский учёный Галилео Галилей (1564–1642) заложил основы изучения природы не только размышлением, но опытом и измерением. Он ставил опыты с шарами, скатывающимися по наклонной плоскости, и проверял законы движения измерениями. Поэтому его часто называют отцом экспериментальной физики."
+     }
+    }
+   ]
+  },
+  {
+   "id": "physics-7-structure-of-matter",
+   "grade": 7,
+   "title": {
+    "tk": "Maddanyň gurluşy",
+    "ru": "Строение вещества"
+   },
+   "minutes": 9,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Ähli maddalar örän kiçi bölejiklerden — molekulalardan we atomlardan durýar.\n\nMolekulýar-kinetik nazaryýetiň üç düzgüni:\n1) Madda bölejiklerden durýar, olaryň arasynda boşluk bar.\n2) Bölejikler yzygiderli, düzgünsiz hereket edýär.\n3) Bölejikler biri-birini özüne çekýär we iteklýär.\n\nDiffuziýa — bir maddanyň bölejikleriniň beýleki maddanyň bölejikleriniň arasyna öz-özünden aralaşmagy. Temperatura näçe ýokary bolsa, diffuziýa şonça çalt.\n\nMaddanyň üç agregat ýagdaýy:\n• Gaty — bölejikler ýakyn, görnüşini we göwrümini saklaýar\n• Suwuk — göwrümini saklaýar, görnüşini saklamaýar\n• Gaz — bölejikler uzakda, tutuş gaby doldurýar",
+      "ru": "Все вещества состоят из очень маленьких частиц — молекул и атомов.\n\nТри положения молекулярно-кинетической теории:\n1) Вещество состоит из частиц, между которыми есть промежутки.\n2) Частицы непрерывно и беспорядочно движутся.\n3) Частицы притягиваются и отталкиваются друг от друга.\n\nДиффузия — самопроизвольное проникновение частиц одного вещества между частицами другого. Чем выше температура, тем быстрее диффузия.\n\nТри агрегатных состояния вещества:\n• Твёрдое — частицы близко, сохраняет форму и объём\n• Жидкое — сохраняет объём, но не форму\n• Газообразное — частицы далеко, заполняет весь сосуд"
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Tejribe: iki stakana suw guýýarys — birine sowuk, beýlekisine gyzgyn. Her birine bir çaý paketini salýarys.\n1) Gyzgyn suwda reňk birnäçe sekuntda ýaýraýar.\n2) Sowuk suwda bu has haýal bolýar.\n3) Netije: ýokary temperaturada molekulalar çalt hereket edýär, şonuň üçin diffuziýa çalt geçýär.",
+      "ru": "Опыт: наливаем в два стакана воду — в один холодную, в другой горячую. В каждый опускаем пакетик чая.\n1) В горячей воде цвет расходится за несколько секунд.\n2) В холодной — гораздо медленнее.\n3) Вывод: при высокой температуре молекулы движутся быстрее, поэтому диффузия идёт быстрее."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Haýsy ýagdaýda madda öz görnüşini saklaýar?",
+      "ru": "В каком состоянии вещество сохраняет свою форму?"
+     },
+     "options": [
+      {
+       "tk": "Suwuk",
+       "ru": "Жидком"
+      },
+      {
+       "tk": "Gaz",
+       "ru": "Газообразном"
+      },
+      {
+       "tk": "Gaty",
+       "ru": "Твёрдом"
+      }
+     ],
+     "answer": 2,
+     "hint": {
+      "tk": "Haýsysynda bölejikler orunlaryndan diýen ýaly süýşmeýär?",
+      "ru": "В каком состоянии частицы почти не покидают своих мест?"
+     },
+     "explain": {
+      "tk": "Gaty jisimde bölejikler deňagramlylyk ýagdaýynyň töwereginde yrgyldaýar, şonuň üçin görnüş saklanýar.",
+      "ru": "В твёрдом теле частицы колеблются около положений равновесия, поэтому форма сохраняется."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Atyryň ysynyň otaga ýaýramagy — diffuziýanyň mysaly.",
+      "ru": "Распространение запаха духов по комнате — пример диффузии."
+     },
+     "answer": true,
+     "hint": {
+      "tk": "Atyr molekulalary howanyň molekulalarynyň arasyna aralaşýarmy?",
+      "ru": "Проникают ли молекулы духов между молекулами воздуха?"
+     },
+     "explain": {
+      "tk": "Hawa, atyryň molekulalary howa molekulalarynyň arasyna aralaşyp, tutuş otaga ýaýraýar.",
+      "ru": "Да, молекулы духов проникают между молекулами воздуха и распространяются по всей комнате."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Näme üçin gazy aňsat gysyp bolýar?",
+      "ru": "Почему газ легко сжать?"
+     },
+     "options": [
+      {
+       "tk": "Molekulalary has kiçi",
+       "ru": "Его молекулы меньше"
+      },
+      {
+       "tk": "Molekulalaryň arasyndaky aralyk uly",
+       "ru": "Расстояния между молекулами большие"
+      },
+      {
+       "tk": "Molekulalary hereket etmeýär",
+       "ru": "Его молекулы не движутся"
+      }
+     ],
+     "answer": 1,
+     "hint": {
+      "tk": "Bölejikleriň ölçegi däl, olaryň ýerleşişi hakda pikirlen.",
+      "ru": "Подумайте не о размере частиц, а об их расположении."
+     },
+     "explain": {
+      "tk": "Gazda molekulalaryň arasyndaky aralyk molekulalaryň özünden köp esse uly, şonuň üçin olary golaýlaşdyrmak aňsat.",
+      "ru": "В газе расстояния между молекулами во много раз больше самих молекул, поэтому их легко сблизить."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "1827-nji ýylda iňlis botanigi Robert Broun mikroskopda suwdaky tozan bölejikleriniň düzgünsiz «tans edýändigini» gördi. 1905-nji ýylda Albert Eýnşteýn bu hereketiň suw molekulalarynyň urgularyndan döreýändigini düşündirdi, 1908-nji ýylda Žan Perren muny tejribede tassyklady — bu atomlaryň barlygynyň möhüm subutnamasy boldy.",
+      "ru": "В 1827 году английский ботаник Роберт Броун увидел в микроскоп, что частицы пыльцы в воде беспорядочно «пляшут». В 1905 году Альберт Эйнштейн объяснил это движение ударами молекул воды, а в 1908 году Жан Перрен подтвердил это опытами — это стало важным доказательством существования атомов."
+     }
+    }
+   ]
+  },
+  {
+   "id": "physics-7-mass-density",
+   "grade": 7,
+   "title": {
+    "tk": "Massa we dykyzlyk",
+    "ru": "Масса и плотность"
+   },
+   "minutes": 10,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Massa (m) — jisimiň inertligini görkezýän ululyk: massasy uly jisimiň tizligini üýtgetmek kyn. SI birligi — kilogram (kg). Massa terezi bilen ölçenýär.\n\nDykyzlyk (ρ, «ro») — maddanyň göwrüm birligindäki massasy:\nρ = m / V\nBirligi: kg/m³ ýa-da g/sm³. 1 g/sm³ = 1000 kg/m³.\n\nKäbir dykyzlyklar:\n• Suw — 1000 kg/m³ (1 g/sm³)\n• Buz — 900 kg/m³\n• Alýuminiý — 2700 kg/m³\n• Demir — 7800 kg/m³\n\nFormuladan: m = ρ·V, V = m / ρ.",
+      "ru": "Масса (m) — величина, характеризующая инертность тела: телу с большой массой труднее изменить скорость. Единица в СИ — килограмм (кг). Массу измеряют весами.\n\nПлотность (ρ, «ро») — масса вещества в единице объёма:\nρ = m / V\nЕдиницы: кг/м³ или г/см³. 1 г/см³ = 1000 кг/м³.\n\nНекоторые плотности:\n• Вода — 1000 кг/м³ (1 г/см³)\n• Лёд — 900 кг/м³\n• Алюминий — 2700 кг/м³\n• Железо — 7800 кг/м³\n\nИз формулы: m = ρ·V, V = m / ρ."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Metal bölejiginiň massasy 540 g, göwrümi 200 sm³. Bu haýsy metal?\n1) ρ = m / V = 540 g : 200 sm³ = 2,7 g/sm³.\n2) 2,7 g/sm³ = 2700 kg/m³.\n3) Tablisa bilen deňeşdirýäris: bu alýuminiý.",
+      "ru": "Масса куска металла 540 г, объём 200 см³. Что это за металл?\n1) ρ = m / V = 540 г : 200 см³ = 2,7 г/см³.\n2) 2,7 г/см³ = 2700 кг/м³.\n3) Сравниваем с таблицей: это алюминий."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Göwrümi 0,5 m³ bolan suwuň massasy näçe kg? (ρ = 1000 kg/m³)",
+      "ru": "Какова масса воды объёмом 0,5 м³ в кг? (ρ = 1000 кг/м³)"
+     },
+     "answer": "500",
+     "hint": {
+      "tk": "m = ρ·V.",
+      "ru": "m = ρ·V."
+     },
+     "explain": {
+      "tk": "m = 1000 · 0,5 = 500 kg.",
+      "ru": "m = 1000 · 0,5 = 500 кг."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Deň göwrümli kublaryň haýsysynyň massasy iň uly?",
+      "ru": "У какого из кубиков одинакового объёма самая большая масса?"
+     },
+     "options": [
+      {
+       "tk": "Buz",
+       "ru": "Лёд"
+      },
+      {
+       "tk": "Alýuminiý",
+       "ru": "Алюминий"
+      },
+      {
+       "tk": "Demir",
+       "ru": "Железо"
+      }
+     ],
+     "answer": 2,
+     "hint": {
+      "tk": "Göwrüm deň bolanda massa dykyzlyga baglydyr.",
+      "ru": "При равном объёме масса зависит от плотности."
+     },
+     "explain": {
+      "tk": "Demiriň dykyzlygy iň uly (7800 kg/m³), şonuň üçin onuň massasy hem iň uly.",
+      "ru": "У железа самая большая плотность (7800 кг/м³), поэтому и масса больше всех."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Buz suwda ýüzýär, sebäbi buzuň dykyzlygy suwuňkydan kiçi.",
+      "ru": "Лёд плавает в воде, потому что плотность льда меньше плотности воды."
+     },
+     "answer": true,
+     "hint": {
+      "tk": "900 we 1000 kg/m³ deňeşdir.",
+      "ru": "Сравните 900 и 1000 кг/м³."
+     },
+     "explain": {
+      "tk": "900 < 1000 — buz suwdan ýeňil, şonuň üçin ýüzýär. Suw doňanda giňelýär.",
+      "ru": "900 < 1000 — лёд легче воды, поэтому плавает. Вода при замерзании расширяется."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Massasy 78 g bolan demir boltuň göwrümi näçe sm³? (ρ = 7,8 g/sm³)",
+      "ru": "Каков объём железного болта массой 78 г в см³? (ρ = 7,8 г/см³)"
+     },
+     "answer": "10",
+     "hint": {
+      "tk": "V = m / ρ.",
+      "ru": "V = m / ρ."
+     },
+     "explain": {
+      "tk": "V = 78 : 7,8 = 10 sm³.",
+      "ru": "V = 78 : 7,8 = 10 см³."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Osmiý — tebigatda duşýan iň dykyz madda: onuň dykyzlygy takmynan 22,6 g/sm³, ýagny suwuňkydan 22 esseden-de köp. Litr gabyna sygýan osmiýniň massasy 22 kg-dan geçer.",
+      "ru": "Осмий — самое плотное вещество, встречающееся в природе: его плотность около 22,6 г/см³, то есть больше чем в 22 раза выше, чем у воды. Литровая банка осмия весила бы больше 22 кг."
+     }
+    }
+   ]
+  },
+  {
+   "id": "physics-7-force-gravity",
+   "grade": 7,
+   "title": {
+    "tk": "Güýç we agyrlyk güýji",
+    "ru": "Сила и сила тяжести"
+   },
+   "minutes": 10,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Güýç (F) — bir jisimiň beýleki jisime täsiriniň ölçegi. Güýç jisimiň tizligini ýa-da görnüşini üýtgedýär. Güýjüň ululygy, ugry we goýulma nokady bar (wektor).\nBirligi — nýuton (N). Dinamometr bilen ölçenýär.\n\nAgyrlyk güýji — Ýeriň jisimi özüne çekýän güýji:\nF = m·g\ng ≈ 9,8 N/kg (meselelerde köplenç 10 N/kg alynýar).\nAgyrlyk güýji hemişe Ýeriň merkezine — aşak gönükdirilen.\n\nMaýyşgaklyk güýji — deformasiýa wagtynda döreýär. Guk kanuny: F = k·x (k — gatylyk, x — uzalma).\n\nBir göni çyzyk boýunça bir ugra gönükdirilen güýçler goşulýar, garşylykly ugurlara gönükdirilenler aýrylýar.",
+      "ru": "Сила (F) — мера действия одного тела на другое. Сила изменяет скорость тела или его форму. У силы есть величина, направление и точка приложения (это вектор).\nЕдиница — ньютон (Н). Измеряют динамометром.\n\nСила тяжести — сила, с которой Земля притягивает тело:\nF = m·g\ng ≈ 9,8 Н/кг (в задачах часто берут 10 Н/кг).\nСила тяжести всегда направлена к центру Земли — вниз.\n\nСила упругости возникает при деформации. Закон Гука: F = k·x (k — жёсткость, x — удлинение).\n\nСилы вдоль одной прямой в одну сторону складываются, в противоположные — вычитаются."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Massasy 3 kg bolan gaba Ýer nähili güýç bilen täsir edýär? (g = 10 N/kg)\n1) F = m·g.\n2) F = 3 kg · 10 N/kg = 30 N.\n\nDeňeşdirmek üçin: Aýda g ≈ 1,6 N/kg. Şol gap üçin F = 3 · 1,6 = 4,8 N — alty esse diýen ýaly az, ýöne massa şol bir 3 kg bolup galýar.",
+      "ru": "С какой силой Земля действует на сумку массой 3 кг? (g = 10 Н/кг)\n1) F = m·g.\n2) F = 3 кг · 10 Н/кг = 30 Н.\n\nДля сравнения: на Луне g ≈ 1,6 Н/кг. Для той же сумки F = 3 · 1,6 = 4,8 Н — почти в шесть раз меньше, но масса остаётся теми же 3 кг."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Massasy 50 kg bolan okuwça täsir edýän agyrlyk güýji näçe N? (g = 10 N/kg)",
+      "ru": "Какая сила тяжести действует на ученика массой 50 кг, в Н? (g = 10 Н/кг)"
+     },
+     "answer": "500",
+     "hint": {
+      "tk": "F = m·g.",
+      "ru": "F = m·g."
+     },
+     "explain": {
+      "tk": "F = 50 · 10 = 500 N.",
+      "ru": "F = 50 · 10 = 500 Н."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Iki adam arabany bir ugra 200 N we 150 N güýç bilen itekleýär. Deňtäsir ediji güýç näçe?",
+      "ru": "Два человека толкают тележку в одну сторону с силами 200 Н и 150 Н. Чему равна равнодействующая?"
+     },
+     "options": [
+      "50 N",
+      "350 N",
+      "175 N"
+     ],
+     "answer": 1,
+     "hint": {
+      "tk": "Güýçler bir ugra gönükdirilen.",
+      "ru": "Силы направлены в одну сторону."
+     },
+     "explain": {
+      "tk": "Bir ugra gönükdirilen güýçler goşulýar: 200 + 150 = 350 N.",
+      "ru": "Силы, направленные в одну сторону, складываются: 200 + 150 = 350 Н."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Aýda jisimiň massasy Ýerdäkiden alty esse az.",
+      "ru": "На Луне масса тела в шесть раз меньше, чем на Земле."
+     },
+     "answer": false,
+     "hint": {
+      "tk": "Haýsy ululyk üýtgeýär: massamy ýa-da agyrlyk güýjümi?",
+      "ru": "Какая величина меняется: масса или сила тяжести?"
+     },
+     "explain": {
+      "tk": "Massa jisimiň öz häsiýeti, ol üýtgemeýär. Aýda takmynan alty esse az bolýan agyrlyk güýji.",
+      "ru": "Масса — свойство самого тела, она не меняется. На Луне примерно в шесть раз меньше сила тяжести."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Pružiniň gatylygy 100 N/m. Ony 0,05 m uzaltmak üçin näçe N güýç gerek?",
+      "ru": "Жёсткость пружины 100 Н/м. Какая сила в Н нужна, чтобы растянуть её на 0,05 м?"
+     },
+     "answer": "5",
+     "hint": {
+      "tk": "Guk kanuny: F = k·x.",
+      "ru": "Закон Гука: F = k·x."
+     },
+     "explain": {
+      "tk": "F = 100 · 0,05 = 5 N.",
+      "ru": "F = 100 · 0,05 = 5 Н."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Güýjüň birligi iňlis alymy Isaak Nýutonyň (1643–1727) adyny göterýär. Ol 1687-nji ýylda çap edilen «Tebigat filosofiýasynyň matematiki başlangyçlary» kitabynda Bütindünýä dartyş kanunyny beýan edip, almanyň gaçmagyny we Aýyň Ýeriň daşynda aýlanmagyny şol bir güýç bilen düşündirdi.",
+      "ru": "Единица силы названа в честь английского учёного Исаака Ньютона (1643–1727). В книге «Математические начала натуральной философии», изданной в 1687 году, он сформулировал закон всемирного тяготения и объяснил одной и той же силой и падение яблока, и движение Луны вокруг Земли."
+     }
+    }
+   ]
+  },
+  {
+   "id": "physics-7-pressure",
+   "grade": 7,
+   "title": {
+    "tk": "Basyş",
+    "ru": "Давление"
+   },
+   "minutes": 10,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Basyş (p) — üstüň meýdan birligine perpendikulýar täsir edýän güýç:\np = F / S\nBirligi — paskal (Pa): 1 Pa = 1 N/m². 1 kPa = 1000 Pa.\n\nMeýdan näçe kiçi bolsa, şol bir güýçde basyş şonça uly: pyçagyň ýiti ujy kesýär, giň lyžalar gara batmaýar.\n\nSuwuklygyň basyşy çuňluga bagly:\np = ρ·g·h\n(ρ — suwuklygyň dykyzlygy, h — çuňluk). Paskalyň kanuny: suwuklyk we gaz özüne berlen basyşy ähli ugurlara deň geçirýär.\n\nAtmosfera basyşy — howanyň agramynyň döredýän basyşy. Deňiz derejesinde takmynan 101 300 Pa (760 mm sim. süt.).",
+      "ru": "Давление (p) — сила, действующая перпендикулярно на единицу площади поверхности:\np = F / S\nЕдиница — паскаль (Па): 1 Па = 1 Н/м². 1 кПа = 1000 Па.\n\nЧем меньше площадь, тем больше давление при той же силе: острый нож режет, а широкие лыжи не проваливаются в снег.\n\nДавление жидкости зависит от глубины:\np = ρ·g·h\n(ρ — плотность жидкости, h — глубина). Закон Паскаля: жидкости и газы передают давление одинаково во все стороны.\n\nАтмосферное давление создаётся весом воздуха. На уровне моря оно около 101 300 Па (760 мм рт. ст.)."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Basseýniň 2 m çuňlugynda suwuň basyşy näçe? (ρ = 1000 kg/m³, g = 10 N/kg)\n1) p = ρ·g·h.\n2) p = 1000 · 10 · 2 = 20 000 Pa = 20 kPa.\n\nIkinji mysal: 600 N agramly adam 0,03 m² meýdanly aýakgap bilen dur.\np = 600 : 0,03 = 20 000 Pa — şol bir 20 kPa.",
+      "ru": "Каково давление воды в бассейне на глубине 2 м? (ρ = 1000 кг/м³, g = 10 Н/кг)\n1) p = ρ·g·h.\n2) p = 1000 · 10 · 2 = 20 000 Па = 20 кПа.\n\nВторой пример: человек весом 600 Н стоит в обуви площадью 0,03 м².\np = 600 : 0,03 = 20 000 Па — те же 20 кПа."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "200 N güýç 0,5 m² meýdana basýar. Basyş näçe Pa?",
+      "ru": "Сила 200 Н давит на площадь 0,5 м². Каково давление в Па?"
+     },
+     "answer": "400",
+     "hint": {
+      "tk": "p = F / S.",
+      "ru": "p = F / S."
+     },
+     "explain": {
+      "tk": "p = 200 : 0,5 = 400 Pa.",
+      "ru": "p = 200 : 0,5 = 400 Па."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Näme üçin pyçagy ýitileýärler?",
+      "ru": "Зачем точат нож?"
+     },
+     "options": [
+      {
+       "tk": "Güýji kemeltmek üçin",
+       "ru": "Чтобы уменьшить силу"
+      },
+      {
+       "tk": "Meýdany ulaltmak üçin",
+       "ru": "Чтобы увеличить площадь"
+      },
+      {
+       "tk": "Meýdany kiçeldip, basyşy ulaltmak üçin",
+       "ru": "Чтобы уменьшить площадь и увеличить давление"
+      }
+     ],
+     "answer": 2,
+     "hint": {
+      "tk": "p = F / S formulada S kiçelse näme bolýar?",
+      "ru": "Что происходит в формуле p = F / S, если S уменьшается?"
+     },
+     "explain": {
+      "tk": "Ýiti tygyň meýdany kiçi, şonuň üçin şol bir güýç has uly basyş döredýär.",
+      "ru": "У острого лезвия площадь маленькая, поэтому та же сила создаёт гораздо большее давление."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Suwuklygyň çuňlugy artdygyça onuň basyşy hem artýar.",
+      "ru": "С увеличением глубины давление жидкости увеличивается."
+     },
+     "answer": true,
+     "hint": {
+      "tk": "p = ρ·g·h formulada h-a seret.",
+      "ru": "Посмотрите на h в формуле p = ρ·g·h."
+     },
+     "explain": {
+      "tk": "Basyş çuňluga göni proporsional: h iki esse artsa, p hem iki esse artýar.",
+      "ru": "Давление прямо пропорционально глубине: если h вырастет вдвое, p тоже вырастет вдвое."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Deňizde (ρ ≈ 1000 kg/m³, g = 10 N/kg) 10 m çuňlukda suwuň basyşy näçe kPa?",
+      "ru": "Каково давление воды в море на глубине 10 м в кПа? (ρ ≈ 1000 кг/м³, g = 10 Н/кг)"
+     },
+     "answer": "100",
+     "hint": {
+      "tk": "Ilki Pa-da hasapla, soň 1000-e böl.",
+      "ru": "Сначала посчитайте в Па, потом разделите на 1000."
+     },
+     "explain": {
+      "tk": "p = 1000 · 10 · 10 = 100 000 Pa = 100 kPa — takmynan bir atmosfera.",
+      "ru": "p = 1000 · 10 · 10 = 100 000 Па = 100 кПа — примерно одна атмосфера."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "1643-nji ýylda italýan alymy Ewanjelista Torriçelli simaply turbajyk bilen tejribe geçirip, atmosfera basyşyny ilkinji gezek ölçedi we ilkinji barometri döretdi. Basyşyň birligi bolsa fransuz alymy Blez Paskalyň adyny göterýär.",
+      "ru": "В 1643 году итальянский учёный Эванджелиста Торричелли провёл опыт с трубкой, заполненной ртутью, впервые измерил атмосферное давление и создал первый барометр. А единица давления названа в честь французского учёного Блеза Паскаля."
+     }
+    }
+   ]
+  },
+  {
+   "id": "physics-7-archimedes-force",
+   "grade": 7,
+   "title": {
+    "tk": "Arhimed güýji we jisimleriň ýüzmegi",
+    "ru": "Сила Архимеда и плавание тел"
+   },
+   "minutes": 10,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Suwuklyga (ýa-da gaza) çümdürilen jisime ýokary gönükdirilen itekleýji güýç — Arhimed güýji täsir edýär:\nFA = ρs·g·V\n(ρs — suwuklygyň dykyzlygy, V — jisimiň suwuklykdaky böleginiň göwrümi).\nArhimed güýji jisim tarapyndan gysylyp çykarylan suwuklygyň agramyna deň.\n\nJisimleriň ýüzmegi:\n• FA < m·g (ρ jisim > ρ suwuklyk) — jisim çümýär\n• FA = m·g — jisim suwuklygyň içinde deňagramlykda durýar\n• FA > m·g (ρ jisim < ρ suwuklyk) — jisim ýokary çykyp, ýüzýär\n\nŞonuň üçin demir gämi ýüzýär: onuň içi boş, umumy ortaça dykyzlygy suwuňkydan kiçi.",
+      "ru": "На тело, погружённое в жидкость (или газ), действует выталкивающая сила, направленная вверх, — сила Архимеда:\nFA = ρж·g·V\n(ρж — плотность жидкости, V — объём погружённой части тела).\nСила Архимеда равна весу жидкости, вытесненной телом.\n\nПлавание тел:\n• FA < m·g (ρ тела > ρ жидкости) — тело тонет\n• FA = m·g — тело находится в равновесии внутри жидкости\n• FA > m·g (ρ тела < ρ жидкости) — тело всплывает и плавает\n\nПоэтому железный корабль плавает: внутри он пустой, и его средняя плотность меньше плотности воды."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Göwrümi 0,002 m³ bolan daş suwa doly çümdürilen. Oňa täsir edýän Arhimed güýji näçe? (ρ = 1000 kg/m³, g = 10 N/kg)\n1) FA = ρs·g·V.\n2) FA = 1000 · 10 · 0,002 = 20 N.\n3) Eger daşyň agyrlyk güýji 50 N bolsa, suwda ony saklamak üçin 50 − 20 = 30 N gerek — şonuň üçin suwda zatlar «ýeňil» duýulýar.",
+      "ru": "Камень объёмом 0,002 м³ полностью погружён в воду. Какая сила Архимеда на него действует? (ρ = 1000 кг/м³, g = 10 Н/кг)\n1) FA = ρж·g·V.\n2) FA = 1000 · 10 · 0,002 = 20 Н.\n3) Если сила тяжести камня 50 Н, в воде его удерживать нужно с силой 50 − 20 = 30 Н — поэтому в воде предметы кажутся «легче»."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Göwrümi 0,01 m³ bolan jisim suwa doly çümdürildi. Arhimed güýji näçe N? (ρ = 1000 kg/m³, g = 10 N/kg)",
+      "ru": "Тело объёмом 0,01 м³ полностью погружено в воду. Чему равна сила Архимеда в Н? (ρ = 1000 кг/м³, g = 10 Н/кг)"
+     },
+     "answer": "100",
+     "hint": {
+      "tk": "FA = ρ·g·V.",
+      "ru": "FA = ρ·g·V."
+     },
+     "explain": {
+      "tk": "1000 · 10 · 0,01 = 100 N.",
+      "ru": "1000 · 10 · 0,01 = 100 Н."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Agaç (ρ ≈ 600 kg/m³) bölegi suwa goýberildi. Näme bolar?",
+      "ru": "Кусок дерева (ρ ≈ 600 кг/м³) опустили в воду. Что произойдёт?"
+     },
+     "options": [
+      {
+       "tk": "Ýüzer",
+       "ru": "Будет плавать"
+      },
+      {
+       "tk": "Çümer",
+       "ru": "Утонет"
+      },
+      {
+       "tk": "Suwuň içinde asylyp durar",
+       "ru": "Зависнет в толще воды"
+      }
+     ],
+     "answer": 0,
+     "hint": {
+      "tk": "Agajyň we suwuň dykyzlyklaryny deňeşdir.",
+      "ru": "Сравните плотности дерева и воды."
+     },
+     "explain": {
+      "tk": "600 < 1000, agaç suwdan ýeňil — ýüzýär.",
+      "ru": "600 < 1000, дерево легче воды — плавает."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Şol bir jisime duzly suwda süýji suwdakydan has uly Arhimed güýji täsir edýär (doly çümdürilende).",
+      "ru": "На одно и то же полностью погружённое тело в солёной воде действует большая сила Архимеда, чем в пресной."
+     },
+     "answer": true,
+     "hint": {
+      "tk": "Duzly suwuň dykyzlygy has ulymy ýa-da kiçimi?",
+      "ru": "Плотность солёной воды больше или меньше?"
+     },
+     "explain": {
+      "tk": "Duzly suw has dykyz, FA = ρ·g·V formulada ρ uly, şonuň üçin itekleýji güýç hem uly.",
+      "ru": "Солёная вода плотнее, в формуле FA = ρ·g·V ρ больше, поэтому и выталкивающая сила больше."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Arhimed güýji haýsy ululyga bagly däl?",
+      "ru": "От какой величины сила Архимеда НЕ зависит?"
+     },
+     "options": [
+      {
+       "tk": "Suwuklygyň dykyzlygyna",
+       "ru": "От плотности жидкости"
+      },
+      {
+       "tk": "Çümen böleginiň göwrümine",
+       "ru": "От объёма погружённой части"
+      },
+      {
+       "tk": "Jisimiň öz dykyzlygyna",
+       "ru": "От плотности самого тела"
+      }
+     ],
+     "answer": 2,
+     "hint": {
+      "tk": "FA = ρs·g·V formulasyna seret.",
+      "ru": "Посмотрите на формулу FA = ρж·g·V."
+     },
+     "explain": {
+      "tk": "Formulada diňe suwuklygyň dykyzlygy we çümen göwrüm bar. Jisimiň dykyzlygy onuň ýüzjekdigini ýa-da çümjekdigini kesgitleýär, ýöne FA-nyň özüne girmeýär.",
+      "ru": "В формулу входят только плотность жидкости и погружённый объём. Плотность тела определяет, утонет оно или всплывёт, но в саму FA не входит."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Ölüdeňziň suwy örän duzly — onuň dykyzlygy takmynan 1240 kg/m³, adam bedeniniňkiden ep-esli uly. Şonuň üçin ol ýerde adamlar hiç zat etmän suwuň ýüzünde ýatyp, hatda gazet okap bilýärler. Rowaýata görä, Arhimed öz kanunyny wannada otyrka açyp, «Ewrika!» («Tapdym!») diýip gygyrypdyr.",
+      "ru": "Вода Мёртвого моря очень солёная — её плотность около 1240 кг/м³, заметно больше плотности человеческого тела. Поэтому там люди могут лежать на поверхности без усилий и даже читать газету. По легенде, Архимед открыл свой закон, сидя в ванне, и воскликнул: «Эврика!» («Нашёл!»)."
+     }
+    }
+   ]
+  },
+  {
+   "id": "physics-8-thermal-phenomena",
+   "grade": 8,
+   "title": {
+    "tk": "Ýylylyk hadysalary we ýylylyk geçirijilik",
+    "ru": "Тепловые явления и теплопередача"
+   },
+   "minutes": 8,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Ähli maddalar hemişe hereketde bolan bölejiklerden (atomlardan we molekulalardan) durýar. Temperatura — bu bölejikleriň orta kinetik energiýasynyň ölçegi: jisim näçe gyzgyn bolsa, bölejikler şonça çalt hereket edýär.\n\nIçki energiýa — jisimiň ähli bölejikleriniň hereket we özara täsir energiýalarynyň jemi. Ony iki ýol bilen üýtgedip bolýar:\n• iş ýerine ýetirmek (sürtmek, urmak, gysmak);\n• ýylylyk geçirmek.\n\nÝylylyk geçirmegiň üç görnüşi:\n• Ýylylyk geçirijilik — gönüden-göni galtaşmada (metal çemçe gyzýar).\n• Konweksiýa — suwuklyk we gaz akymlary bilen (otagda ýyly howa ýokary galýar).\n• Şöhlelenme — elektromagnit tolkunlary bilen, boşlukda hem (Günüň ýylysy).",
+      "ru": "Все вещества состоят из частиц (атомов и молекул), которые непрерывно движутся. Температура — мера средней кинетической энергии этих частиц: чем горячее тело, тем быстрее движутся частицы.\n\nВнутренняя энергия — сумма энергий движения и взаимодействия всех частиц тела. Её можно изменить двумя способами:\n• совершить работу (трение, удар, сжатие);\n• осуществить теплопередачу.\n\nТри вида теплопередачи:\n• Теплопроводность — при непосредственном контакте (металлическая ложка нагревается).\n• Конвекция — потоками жидкости или газа (тёплый воздух в комнате поднимается вверх).\n• Излучение — электромагнитными волнами, даже в вакууме (тепло Солнца)."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Gyşda elleriňizi biri-birine sürtseňiz, olar gyzýar. Näme bolýar?\n\n1) Siz sürtmek arkaly iş ýerine ýetirýärsiňiz.\n2) Bu iş derideki bölejikleriň hereketini çaltlandyrýar.\n3) Içki energiýa artýar, temperatura ýokarlanýar.\n\nSoňra ýyly elleriňizi sowuk metala degirseňiz, ýylylyk geçirijilik arkaly energiýa metala geçýär — eliňiz sowaýar.",
+      "ru": "Зимой, если потереть ладони друг о друга, они нагреваются. Что происходит?\n\n1) Трением вы совершаете работу.\n2) Эта работа ускоряет движение частиц кожи.\n3) Внутренняя энергия растёт, температура повышается.\n\nЕсли затем коснуться тёплой рукой холодного металла, энергия перейдёт к металлу за счёт теплопроводности — рука остынет."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Gün ýylysy Ýere haýsy ýol bilen gelýär?",
+      "ru": "Каким способом тепло Солнца доходит до Земли?"
+     },
+     "options": [
+      {
+       "tk": "Konweksiýa",
+       "ru": "Конвекция"
+      },
+      {
+       "tk": "Şöhlelenme",
+       "ru": "Излучение"
+      },
+      {
+       "tk": "Ýylylyk geçirijilik",
+       "ru": "Теплопроводность"
+      }
+     ],
+     "answer": 1,
+     "hint": {
+      "tk": "Gün bilen Ýeriň arasynda howa ýok — kosmos boşlugy.",
+      "ru": "Между Солнцем и Землёй нет воздуха — космический вакуум."
+     },
+     "explain": {
+      "tk": "Boşlukda diňe şöhlelenme işleýär, çünki oňa madda gerek däl.",
+      "ru": "В вакууме работает только излучение: ему не нужно вещество."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Otagyň batareýasy konweksiýa sebäpli ähli otagy gyzdyrýar.",
+      "ru": "Батарея отопления прогревает всю комнату в основном благодаря конвекции."
+     },
+     "answer": true,
+     "hint": {
+      "tk": "Batareýanyň üstündäki ýyly howa nirä hereket edýär?",
+      "ru": "Куда движется тёплый воздух над батареей?"
+     },
+     "explain": {
+      "tk": "Dogry: ýyly howa ýeňil bolup ýokary galýar, sowuk howa aşak düşýär — howa aýlanýar.",
+      "ru": "Верно: тёплый воздух легче и поднимается, холодный опускается — воздух циркулирует."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Haýsy ýagdaýda içki energiýa iş arkaly üýtgeýär?",
+      "ru": "В каком случае внутренняя энергия меняется за счёт совершения работы?"
+     },
+     "options": [
+      {
+       "tk": "Çaý bulgury elde gyzýar",
+       "ru": "Стакан с чаем греет руку"
+      },
+      {
+       "tk": "Gün aşagynda daş gyzýar",
+       "ru": "Камень нагревается на солнце"
+      },
+      {
+       "tk": "Tigir nasosy urlanda gyzýar",
+       "ru": "Велосипедный насос нагревается при накачке"
+      }
+     ],
+     "answer": 2,
+     "hint": {
+      "tk": "Haýsy ýagdaýda kimdir biri güýç bilen hereket edýär?",
+      "ru": "В каком случае кто-то прикладывает силу и перемещает?"
+     },
+     "explain": {
+      "tk": "Nasosda howa gysylýar we sürtülme bar — bu iş. Beýleki ikisi ýylylyk geçirmek.",
+      "ru": "В насосе воздух сжимается и есть трение — это работа. Два других случая — теплопередача."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Şwed alymy Anders Selsiý 1742-nji ýylda öz temperatura şkalasyny hödürläpdir. Gyzyklysy, başda onda suwuň gaýnaýan nokady 0°, doňýan nokady 100° bolupdyr. Şkala soňra tersine öwrülip, häzirki görnüşini alypdyr.",
+      "ru": "Шведский учёный Андерс Цельсий предложил свою температурную шкалу в 1742 году. Интересно, что изначально точка кипения воды на ней была 0°, а точка замерзания — 100°. Позже шкалу перевернули, и она приняла привычный вид."
+     }
+    }
+   ]
+  },
+  {
+   "id": "physics-8-quantity-of-heat",
+   "grade": 8,
+   "title": {
+    "tk": "Ýylylyk mukdary we udel ýylylyk sygymy",
+    "ru": "Количество теплоты и удельная теплоёмкость"
+   },
+   "minutes": 10,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Ýylylyk mukdary (Q) — ýylylyk geçirmekde jisimiň alýan ýa-da berýän energiýasy. Birligi — joul (J).\n\nFormula: Q = c · m · (t₂ − t₁)\n• c — udel ýylylyk sygymy, J/(kg·°C): 1 kg maddany 1 °C gyzdyrmak üçin gerek energiýa;\n• m — massa (kg);\n• t₁, t₂ — başky we ahyrky temperatura.\n\nKäbir bahalar: suw — 4200, alýumin — 920, demir — 460, mis — 400 J/(kg·°C).\n\nÝangyç ýakylanda: Q = q · m, bu ýerde q — ýangyjyň udel ýanma ýylylygy.",
+      "ru": "Количество теплоты (Q) — энергия, которую тело получает или отдаёт при теплопередаче. Единица — джоуль (Дж).\n\nФормула: Q = c · m · (t₂ − t₁)\n• c — удельная теплоёмкость, Дж/(кг·°C): энергия для нагрева 1 кг вещества на 1 °C;\n• m — масса (кг);\n• t₁, t₂ — начальная и конечная температура.\n\nНекоторые значения: вода — 4200, алюминий — 920, железо — 460, медь — 400 Дж/(кг·°C).\n\nПри сгорании топлива: Q = q · m, где q — удельная теплота сгорания топлива."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Mesele: 2 kg suwy 20 °C-dan 70 °C-a çenli gyzdyrmak üçin näçe ýylylyk gerek?\n\n1) c = 4200 J/(kg·°C), m = 2 kg, Δt = 70 − 20 = 50 °C.\n2) Q = 4200 · 2 · 50 = 420 000 J.\n3) 420 000 J = 420 kJ.\n\nJogap: 420 kJ.",
+      "ru": "Задача: сколько теплоты нужно, чтобы нагреть 2 кг воды от 20 °C до 70 °C?\n\n1) c = 4200 Дж/(кг·°C), m = 2 кг, Δt = 70 − 20 = 50 °C.\n2) Q = 4200 · 2 · 50 = 420 000 Дж.\n3) 420 000 Дж = 420 кДж.\n\nОтвет: 420 кДж."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "1 kg suwy 10 °C gyzdyrmak üçin näçe joul gerek? (c = 4200 J/(kg·°C))",
+      "ru": "Сколько джоулей нужно, чтобы нагреть 1 кг воды на 10 °C? (c = 4200 Дж/(кг·°C))"
+     },
+     "answer": "42000",
+     "hint": {
+      "tk": "Q = c · m · Δt.",
+      "ru": "Q = c · m · Δt."
+     },
+     "explain": {
+      "tk": "Q = 4200 · 1 · 10 = 42 000 J.",
+      "ru": "Q = 4200 · 1 · 10 = 42 000 Дж."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Deň massaly suw, demir we mis birmeňzeş ýylylyk alýar. Haýsysy iň az gyzar?",
+      "ru": "Вода, железо и медь одинаковой массы получают одинаковое количество теплоты. Что нагреется меньше всего?"
+     },
+     "options": [
+      {
+       "tk": "Mis",
+       "ru": "Медь"
+      },
+      {
+       "tk": "Suw",
+       "ru": "Вода"
+      },
+      {
+       "tk": "Demir",
+       "ru": "Железо"
+      }
+     ],
+     "answer": 1,
+     "hint": {
+      "tk": "Udel ýylylyk sygymy uly bolsa, temperatura haýal üýtgeýär.",
+      "ru": "Чем больше удельная теплоёмкость, тем медленнее меняется температура."
+     },
+     "explain": {
+      "tk": "Δt = Q / (c·m). Suwuň c-si iň uly (4200), şonuň üçin Δt iň kiçi.",
+      "ru": "Δt = Q / (c·m). У воды c наибольшая (4200), поэтому Δt наименьшая."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "0,5 kg demiri 100 °C gyzdyrmak üçin näçe joul gerek? (c = 460 J/(kg·°C))",
+      "ru": "Сколько джоулей нужно, чтобы нагреть 0,5 кг железа на 100 °C? (c = 460 Дж/(кг·°C))"
+     },
+     "answer": "23000",
+     "hint": {
+      "tk": "460-y 0,5-e we 100-e köpeldiň.",
+      "ru": "Умножьте 460 на 0,5 и на 100."
+     },
+     "explain": {
+      "tk": "Q = 460 · 0,5 · 100 = 23 000 J.",
+      "ru": "Q = 460 · 0,5 · 100 = 23 000 Дж."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Deňiz kenarynda klimat ýumşak, sebäbi suw haýal gyzýar we haýal sowaýar.",
+      "ru": "У моря климат мягче, потому что вода медленно нагревается и медленно остывает."
+     },
+     "answer": true,
+     "hint": {
+      "tk": "Suwuň udel ýylylyk sygymyny ýadyňyza salyň.",
+      "ru": "Вспомните удельную теплоёмкость воды."
+     },
+     "explain": {
+      "tk": "Dogry: suwuň ýylylyk sygymy uly, ol tomus ýylylygy toplaýar we gyşda berýär.",
+      "ru": "Верно: у воды большая теплоёмкость, летом она накапливает тепло, а зимой отдаёт."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Iňlis fizigi Jeýms Joul 1840-njy ýyllarda düşýän ýüküň aýlaýan pyçagy bilen suwy garyşdyryp, onuň birneme gyzýandygyny ölçäpdir. Şeýlelik bilen ol mehaniki işiň ýylylyga öwrülýändigini subut edipdir. Energiýanyň birligi — joul — onuň adyny göterýär.",
+      "ru": "Английский физик Джеймс Джоуль в 1840-х годах перемешивал воду лопастями, которые вращал падающий груз, и измерил, что вода немного нагревается. Так он доказал, что механическая работа превращается в теплоту. Единица энергии — джоуль — названа в его честь."
+     }
+    }
+   ]
+  },
+  {
+   "id": "physics-8-states-of-matter",
+   "grade": 8,
+   "title": {
+    "tk": "Maddanyň agregat ýagdaýlary we geçişler",
+    "ru": "Агрегатные состояния и фазовые переходы"
+   },
+   "minutes": 10,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Maddanyň üç esasy agregat ýagdaýy: gaty, suwuk, gaz.\n• Gaty — bölejikler berk tertipde, diňe yrgyldaýar; şekili we göwrümi hemişelik.\n• Suwuk — bölejikler ýakyn, ýöne süýşýär; göwrümi hemişelik, şekili gabyň şekli.\n• Gaz — bölejikler uzakda, erkin hereket edýär; ähli göwrümi doldurýar.\n\nGeçişler:\n• Eremek (gaty → suwuk) we gatamak (suwuk → gaty).\n• Bugarmak / gaýnamak (suwuk → gaz) we kondensasiýa (gaz → suwuk).\n\nEreme we gaýnama wagtynda temperatura üýtgemeýär: energiýa bölejikleriň arasyndaky baglanyşyklary üzmäge sarp edilýär.\n\nFormulalar:\n• Eremek: Q = λ · m, λ — udel ereme ýylylygy (buz üçin 3,4·10⁵ J/kg).\n• Bugarmak: Q = L · m, L — udel bugarma ýylylygy (suw üçin 2,3·10⁶ J/kg).\n\nSuw normal basyşda 0 °C-da doňýar we 100 °C-da gaýnaýar.",
+      "ru": "Три основных агрегатных состояния вещества: твёрдое, жидкое, газообразное.\n• Твёрдое — частицы в строгом порядке, лишь колеблются; форма и объём постоянны.\n• Жидкое — частицы близко, но перемещаются; объём постоянен, форма — как у сосуда.\n• Газ — частицы далеко, движутся свободно; занимает весь объём.\n\nПереходы:\n• Плавление (твёрдое → жидкое) и кристаллизация (жидкое → твёрдое).\n• Испарение / кипение (жидкое → газ) и конденсация (газ → жидкое).\n\nВо время плавления и кипения температура не меняется: энергия идёт на разрыв связей между частицами.\n\nФормулы:\n• Плавление: Q = λ · m, λ — удельная теплота плавления (для льда 3,4·10⁵ Дж/кг).\n• Парообразование: Q = L · m, L — удельная теплота парообразования (для воды 2,3·10⁶ Дж/кг).\n\nВода при нормальном давлении замерзает при 0 °C и кипит при 100 °C."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Mesele: 0 °C-daky 2 kg buzy eretmek üçin näçe ýylylyk gerek?\n\n1) λ = 3,4·10⁵ J/kg, m = 2 kg.\n2) Q = λ · m = 3,4·10⁵ · 2 = 6,8·10⁵ J.\n\nJogap: 680 000 J = 680 kJ. Bu wagtyň dowamynda buzuň temperaturasy 0 °C bolup galýar.",
+      "ru": "Задача: сколько теплоты нужно, чтобы расплавить 2 кг льда при 0 °C?\n\n1) λ = 3,4·10⁵ Дж/кг, m = 2 кг.\n2) Q = λ · m = 3,4·10⁵ · 2 = 6,8·10⁵ Дж.\n\nОтвет: 680 000 Дж = 680 кДж. Всё это время температура льда остаётся 0 °C."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Sowuk aýnanyň ýüzünde damjalaryň emele gelmegi näme diýlip atlandyrylýar?",
+      "ru": "Как называется появление капель на холодном стекле?"
+     },
+     "options": [
+      {
+       "tk": "Kondensasiýa",
+       "ru": "Конденсация"
+      },
+      {
+       "tk": "Eremek",
+       "ru": "Плавление"
+      },
+      {
+       "tk": "Bugarmak",
+       "ru": "Испарение"
+      }
+     ],
+     "answer": 0,
+     "hint": {
+      "tk": "Howadaky suw bugy suwuga öwrülýär.",
+      "ru": "Водяной пар из воздуха превращается в жидкость."
+     },
+     "explain": {
+      "tk": "Gaz → suwuk geçişi — kondensasiýa.",
+      "ru": "Переход газ → жидкость — конденсация."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Suw gaýnap durka, gyzdyrmagy dowam etseňiz, onuň temperaturasy 100 °C-dan ýokary galýar.",
+      "ru": "Если продолжать нагревать кипящую воду, её температура поднимется выше 100 °C (при нормальном давлении)."
+     },
+     "answer": false,
+     "hint": {
+      "tk": "Gaýnama wagtynda energiýa nämä sarp edilýär?",
+      "ru": "На что тратится энергия во время кипения?"
+     },
+     "explain": {
+      "tk": "Ýalňyş: energiýa suwy bug görnüşine geçirmäge gidýär, temperatura 100 °C-da galýar.",
+      "ru": "Неверно: энергия идёт на превращение воды в пар, температура остаётся 100 °C."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "0,5 kg suwy 100 °C-da doly buga öwürmek üçin näçe kJ gerek? (L = 2,3·10⁶ J/kg)",
+      "ru": "Сколько кДж нужно, чтобы полностью превратить в пар 0,5 кг воды при 100 °C? (L = 2,3·10⁶ Дж/кг)"
+     },
+     "answer": "1150",
+     "hint": {
+      "tk": "Q = L · m, soňra 1000-e bölüň.",
+      "ru": "Q = L · m, затем разделите на 1000."
+     },
+     "explain": {
+      "tk": "Q = 2 300 000 · 0,5 = 1 150 000 J = 1150 kJ.",
+      "ru": "Q = 2 300 000 · 0,5 = 1 150 000 Дж = 1150 кДж."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Daglarda howa basyşy pes, şonuň üçin suw 100 °C-dan pes temperaturada gaýnaýar. Ýewerest dagynyň depesinde suw takmynan 70 °C-da gaýnaýar — şonuň üçin ýokarda tagam bişirmek kyn, alpinistler käte basyşly gazanlary ulanýarlar.",
+      "ru": "В горах давление воздуха ниже, поэтому вода кипит при температуре ниже 100 °C. На вершине Эвереста вода кипит примерно при 70 °C — готовить там трудно, и альпинисты иногда используют скороварки."
+     }
+    }
+   ]
+  },
+  {
+   "id": "physics-8-electric-charge",
+   "grade": 8,
+   "title": {
+    "tk": "Elektrik zarýady we elektriklenme",
+    "ru": "Электрический заряд и электризация"
+   },
+   "minutes": 8,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Elektrik zarýady (q) — bölejikleriň elektromagnit täsirleşmä gatnaşmak ukyby. Birligi — kulon (Kl).\n\n• Zarýadlaryň iki görnüşi bar: položitel (+) we otrisatel (−).\n• Atly zarýadlar biri-birini itýär, dürli atly zarýadlar özüne çekýär.\n• Atom: merkezde položitel ýadro (protonlar we neýtronlar), daşynda otrisatel elektronlar. Adaty atom bitarap.\n• Elementar zarýad: e = 1,6·10⁻¹⁹ Kl (elektronyň zarýady −e).\n\nElektriklenme — jisimler sürtülende elektronlaryň birinden beýlekisine geçmegi. Elektron alan jisim otrisatel, elektron beren jisim položitel zarýadlanýar.\n\nZarýadyň saklanma kanuny: ýapyk ulgamda zarýadlaryň jemi üýtgemeýär.",
+      "ru": "Электрический заряд (q) — способность частиц участвовать в электромагнитном взаимодействии. Единица — кулон (Кл).\n\n• Существуют заряды двух видов: положительные (+) и отрицательные (−).\n• Одноимённые заряды отталкиваются, разноимённые притягиваются.\n• Атом: в центре положительное ядро (протоны и нейтроны), вокруг — отрицательные электроны. Обычный атом нейтрален.\n• Элементарный заряд: e = 1,6·10⁻¹⁹ Кл (заряд электрона −e).\n\nЭлектризация — переход электронов от одного тела к другому при трении. Тело, получившее электроны, заряжается отрицательно, отдавшее — положительно.\n\nЗакон сохранения заряда: в замкнутой системе сумма зарядов не меняется."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Plastik darak saçyňyza sürtülýär we soňra kagyz böleklerini özüne çekýär.\n\n1) Sürtülende elektronlar saçdan daraga geçýär.\n2) Darak otrisatel, saç položitel zarýadlanýar.\n3) Şonuň üçin saç daraga çekilýär, saç tüýleri bolsa (hemmesi +) biri-birinden itilýär we «dik durýar».",
+      "ru": "Пластиковую расчёску потёрли о волосы, и она притягивает кусочки бумаги.\n\n1) При трении электроны переходят с волос на расчёску.\n2) Расчёска заряжается отрицательно, волосы — положительно.\n3) Поэтому волосы притягиваются к расчёске, а сами волоски (все с «+») отталкиваются друг от друга и «встают дыбом»."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Iki otrisatel zarýadly şar biri-birine nähili täsir edýär?",
+      "ru": "Как взаимодействуют два отрицательно заряженных шарика?"
+     },
+     "options": [
+      {
+       "tk": "Biri-birini özüne çekýär",
+       "ru": "Притягиваются"
+      },
+      {
+       "tk": "Täsir etmeýär",
+       "ru": "Не взаимодействуют"
+      },
+      {
+       "tk": "Biri-birini itýär",
+       "ru": "Отталкиваются"
+      }
+     ],
+     "answer": 2,
+     "hint": {
+      "tk": "Zarýadlar atly ýa-da dürli atly?",
+      "ru": "Заряды одноимённые или разноимённые?"
+     },
+     "explain": {
+      "tk": "Atly zarýadlar itilýär.",
+      "ru": "Одноимённые заряды отталкиваются."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Elektriklenmede protonlar bir jisimden beýlekisine geçýär.",
+      "ru": "При электризации от одного тела к другому переходят протоны."
+     },
+     "answer": false,
+     "hint": {
+      "tk": "Protonlar atomyň haýsy böleginde?",
+      "ru": "В какой части атома находятся протоны?"
+     },
+     "explain": {
+      "tk": "Ýalňyş: protonlar ýadroda berk saklanýar, geçýän bölejikler — elektronlar.",
+      "ru": "Неверно: протоны прочно удерживаются в ядре, переходят электроны."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Bitarap jisim 5 elektron ýitirdi. Onuň zarýady näçe elementar zarýada deň? (Belgisi bilen, mysal: +3 ýa-da −3)",
+      "ru": "Нейтральное тело потеряло 5 электронов. Чему равен его заряд в элементарных зарядах? (Со знаком, например: +3 или −3)"
+     },
+     "answer": "+5|5|+5e|5e",
+     "hint": {
+      "tk": "Elektronlar otrisatel. Olary ýitirmek nähili zarýad galdyrýar?",
+      "ru": "Электроны отрицательны. Какой заряд останется, если их потерять?"
+     },
+     "explain": {
+      "tk": "5 otrisatel zarýad gitdi, şonuň üçin jisim +5e zarýadly boldy.",
+      "ru": "Ушли 5 отрицательных зарядов, поэтому тело получило заряд +5e."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "«Elektron» we «elektrik» sözleri grek dilindäki «elektron» — kähraba sözünden gelýär. Gadymy grekler ýüňe sürtülen kährabanyň ownuk zatlary özüne çekýändigini bilipdirler. 1752-nji ýylda Bençamin Franklin uçar ýylan bilen synag geçirip, ýyldyrymyň elektrik hadysasydygyny görkezipdir we ýyldyrymdan goraýjyny oýlap tapypdyr.",
+      "ru": "Слова «электрон» и «электричество» происходят от греческого «электрон» — янтарь. Древние греки знали, что натёртый шерстью янтарь притягивает мелкие предметы. В 1752 году Бенджамин Франклин в опыте с воздушным змеем показал, что молния — электрическое явление, и изобрёл громоотвод."
+     }
+    }
+   ]
+  },
+  {
+   "id": "physics-8-current-voltage",
+   "grade": 8,
+   "title": {
+    "tk": "Tok güýji we naprýaženiýe",
+    "ru": "Сила тока и напряжение"
+   },
+   "minutes": 9,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Elektrik togy — zarýadly bölejikleriň tertipli hereketi. Metallarda bular erkin elektronlar. Togy almak üçin tok çeşmesi (batareýa, akkumulýator) we ýapyk zynjyr gerek.\n\nTok güýji (I) — geçirijiniň kesiginden 1 sekuntda geçýän zarýad:\nI = q / t. Birligi — amper (A). Ampermetr bilen ölçenýär, zynjyra yzygiderli birikdirilýär.\n\nNaprýaženiýe (U) — 1 Kl zarýady geçirmek üçin elektrik meýdanynyň işi:\nU = A / q. Birligi — wolt (W). Woltmetr bilen ölçenýär, enjama parallel birikdirilýär.\n\nŞertleýin ugur: tok «+»-dan «−»-a akýar diýlip kabul edilýär (elektronlar tersine hereket edýär).",
+      "ru": "Электрический ток — упорядоченное движение заряженных частиц. В металлах это свободные электроны. Для тока нужны источник (батарейка, аккумулятор) и замкнутая цепь.\n\nСила тока (I) — заряд, проходящий через сечение проводника за 1 секунду:\nI = q / t. Единица — ампер (А). Измеряется амперметром, который включают в цепь последовательно.\n\nНапряжение (U) — работа электрического поля по переносу заряда 1 Кл:\nU = A / q. Единица — вольт (В). Измеряется вольтметром, который подключают параллельно прибору.\n\nУсловное направление: принято, что ток течёт от «+» к «−» (электроны движутся наоборот)."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Mesele: lampadan 2 minutda 240 Kl zarýad geçdi. Tok güýji näçe?\n\n1) Wagt sekuntda: t = 2 · 60 = 120 s.\n2) I = q / t = 240 / 120 = 2 A.\n\nJogap: 2 A.",
+      "ru": "Задача: через лампу за 2 минуты прошёл заряд 240 Кл. Какова сила тока?\n\n1) Время в секундах: t = 2 · 60 = 120 с.\n2) I = q / t = 240 / 120 = 2 А.\n\nОтвет: 2 А."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "10 s-da geçirijiden 5 Kl zarýad geçdi. Tok güýji näçe amper?",
+      "ru": "За 10 с через проводник прошёл заряд 5 Кл. Сколько ампер сила тока?"
+     },
+     "answer": "0.5|0,5|1/2",
+     "hint": {
+      "tk": "I = q / t.",
+      "ru": "I = q / t."
+     },
+     "explain": {
+      "tk": "I = 5 / 10 = 0,5 A.",
+      "ru": "I = 5 / 10 = 0,5 А."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Woltmetr zynjyra nähili birikdirilýär?",
+      "ru": "Как вольтметр подключают в цепь?"
+     },
+     "options": [
+      {
+       "tk": "Enjama parallel",
+       "ru": "Параллельно прибору"
+      },
+      {
+       "tk": "Yzygiderli",
+       "ru": "Последовательно"
+      },
+      {
+       "tk": "Islendik görnüşde",
+       "ru": "Как угодно"
+      }
+     ],
+     "answer": 0,
+     "hint": {
+      "tk": "Woltmetr iki nokadyň arasyndaky tapawudy ölçeýär.",
+      "ru": "Вольтметр измеряет разницу между двумя точками."
+     },
+     "explain": {
+      "tk": "Woltmetr enjamyň iki ujuna — parallel birikdirilýär; ampermetr bolsa yzygiderli.",
+      "ru": "Вольтметр подключают к двум концам прибора — параллельно; амперметр — последовательно."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Elektrik meýdany 2 Kl zarýady geçirip, 24 J iş etdi. Naprýaženiýe näçe wolt?",
+      "ru": "Электрическое поле, перенося заряд 2 Кл, совершило работу 24 Дж. Сколько вольт напряжение?"
+     },
+     "answer": "12",
+     "hint": {
+      "tk": "U = A / q.",
+      "ru": "U = A / q."
+     },
+     "explain": {
+      "tk": "U = 24 / 2 = 12 W.",
+      "ru": "U = 24 / 2 = 12 В."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Metal simde tok wagtynda elektronlar şertleýin tok ugruna ters tarapa hereket edýär.",
+      "ru": "В металлическом проводе электроны движутся против условного направления тока."
+     },
+     "answer": true,
+     "hint": {
+      "tk": "Elektronlar otrisatel, olar «+» tarapa çekilýär.",
+      "ru": "Электроны отрицательны и притягиваются к «+»."
+     },
+     "explain": {
+      "tk": "Dogry: şertleýin ugur «+» → «−», elektronlar «−» → «+» hereket edýär.",
+      "ru": "Верно: условное направление «+» → «−», а электроны движутся от «−» к «+»."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "1800-nji ýylda italýan alymy Alessandro Wolta sink we mis plastinkalaryndan hem-de duzly suwa çylanan kartondan ilkinji himiki tok çeşmesini — «Wolta sütünini» ýasapdyr. Naprýaženiýäniň birligi wolt onuň adyny göterýär.",
+      "ru": "В 1800 году итальянский учёный Алессандро Вольта собрал из цинковых и медных пластин и картона, смоченного солёной водой, первый химический источник тока — «вольтов столб». Единица напряжения вольт названа в его честь."
+     }
+    }
+   ]
+  },
+  {
+   "id": "physics-8-ohms-law",
+   "grade": 8,
+   "title": {
+    "tk": "Zynjyryň bölegi üçin Omuň kanuny",
+    "ru": "Закон Ома для участка цепи"
+   },
+   "minutes": 10,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Garşylyk (R) — geçirijiniň toga päsgel bermek ukyby. Birligi — om (Om).\n\nOmuň kanuny: zynjyryň bölegindäki tok güýji naprýaženiýä göni proporsional, garşylyga ters proporsional:\nI = U / R\nŞondan: U = I · R, R = U / I.\n\nSimiň garşylygy: R = ρ · l / S\n• ρ — udel garşylyk (maddanyň häsiýeti);\n• l — uzynlyk; S — kesigiň meýdany.\nSim näçe uzyn we inçe bolsa, garşylyk şonça uly.\n\nBirikdirmeler:\n• Yzygiderli: tok hemme ýerde birmeňzeş, R = R₁ + R₂, U = U₁ + U₂.\n• Parallel: naprýaženiýe birmeňzeş, I = I₁ + I₂, 1/R = 1/R₁ + 1/R₂.\nIki deň R parallel birikdirilse, umumy garşylyk R/2 bolýar.",
+      "ru": "Сопротивление (R) — свойство проводника препятствовать току. Единица — ом (Ом).\n\nЗакон Ома: сила тока на участке цепи прямо пропорциональна напряжению и обратно пропорциональна сопротивлению:\nI = U / R\nОтсюда: U = I · R, R = U / I.\n\nСопротивление провода: R = ρ · l / S\n• ρ — удельное сопротивление (свойство вещества);\n• l — длина; S — площадь сечения.\nЧем длиннее и тоньше провод, тем больше сопротивление.\n\nСоединения:\n• Последовательное: ток везде одинаков, R = R₁ + R₂, U = U₁ + U₂.\n• Параллельное: напряжение одинаково, I = I₁ + I₂, 1/R = 1/R₁ + 1/R₂.\nПри параллельном соединении двух одинаковых R общее сопротивление равно R/2."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Mesele: 220 W naprýaženiýede işleýän elektrik gyzdyryjynyň garşylygy 44 Om. Tok güýji näçe?\n\n1) I = U / R.\n2) I = 220 / 44 = 5 A.\n\nJogap: 5 A.",
+      "ru": "Задача: электронагреватель с сопротивлением 44 Ом работает при напряжении 220 В. Какова сила тока?\n\n1) I = U / R.\n2) I = 220 / 44 = 5 А.\n\nОтвет: 5 А."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Garşylyk 6 Om, naprýaženiýe 12 W. Tok güýji näçe amper?",
+      "ru": "Сопротивление 6 Ом, напряжение 12 В. Сколько ампер сила тока?"
+     },
+     "answer": "2",
+     "hint": {
+      "tk": "I = U / R.",
+      "ru": "I = U / R."
+     },
+     "explain": {
+      "tk": "I = 12 / 6 = 2 A.",
+      "ru": "I = 12 / 6 = 2 А."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Garşylygy 10 Om bolan rezistordan 0,3 A tok geçýär. Naprýaženiýe näçe wolt?",
+      "ru": "Через резистор сопротивлением 10 Ом идёт ток 0,3 А. Сколько вольт напряжение?"
+     },
+     "answer": "3",
+     "hint": {
+      "tk": "U = I · R.",
+      "ru": "U = I · R."
+     },
+     "explain": {
+      "tk": "U = 0,3 · 10 = 3 W.",
+      "ru": "U = 0,3 · 10 = 3 В."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "4 Om we 6 Om rezistorlar yzygiderli birikdirilen. Umumy garşylyk näçe?",
+      "ru": "Резисторы 4 Ом и 6 Ом соединены последовательно. Чему равно общее сопротивление?"
+     },
+     "options": [
+      "2,4 Om / Ом",
+      "10 Om / Ом",
+      "24 Om / Ом"
+     ],
+     "answer": 1,
+     "hint": {
+      "tk": "Yzygiderli birikdirmede garşylyklar goşulýar.",
+      "ru": "При последовательном соединении сопротивления складываются."
+     },
+     "explain": {
+      "tk": "R = 4 + 6 = 10 Om. (2,4 Om parallel birikdirmede bolardy.)",
+      "ru": "R = 4 + 6 = 10 Ом. (2,4 Ом было бы при параллельном соединении.)"
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Garşylyk üýtgemese, naprýaženiýäni iki esse artdyrsak, tok güýji hem iki esse artýar.",
+      "ru": "Если сопротивление не меняется, то при увеличении напряжения в 2 раза сила тока тоже увеличится в 2 раза."
+     },
+     "answer": true,
+     "hint": {
+      "tk": "I we U nähili baglanyşykly?",
+      "ru": "Как связаны I и U?"
+     },
+     "explain": {
+      "tk": "Dogry: I = U / R, I naprýaženiýä göni proporsional.",
+      "ru": "Верно: I = U / R, ток прямо пропорционален напряжению."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Nemes fizigi Georg Om bu kanuny 1827-nji ýylda çap edipdir. Başda onuň işi alymlar tarapyndan şübhe bilen garşylanypdyr, ýöne soňra ykrar edilipdir we 1881-nji ýylda garşylygyň birligine onuň ady berlipdir.",
+      "ru": "Немецкий физик Георг Ом опубликовал этот закон в 1827 году. Сначала его работу встретили с недоверием, но позже она получила признание, и в 1881 году единицу сопротивления назвали в его честь."
+     }
+    }
+   ]
+  },
+  {
+   "id": "physics-9-mechanical-motion",
+   "grade": 9,
+   "title": {
+    "tk": "Mehaniki hereket",
+    "ru": "Механическое движение"
+   },
+   "minutes": 10,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Mehaniki hereket — jisimiň beýleki jisimlere görä wagtyň geçmegi bilen ýerini üýtgetmegi. Hereket hemişe saýlanyp alnan hasap ulgamyna görä beýan edilýär.\n\n• Traýektoriýa — jisimiň geçen çyzygy; ýol s — traýektoriýanyň uzynlygy.\n• Orun üýtgetme — başlangyç nokatdan ahyrky nokada geçirilen wektor.\n• Deňölçegli gönüçyzykly hereket: v = s / t, x = x₀ + vt.\n• Deňölçegli tizlenýän hereket: a = (v − v₀) / t\n  v = v₀ + at\n  s = v₀t + at²/2\n\nBirlikler: tizlik m/s, tizlenme m/s².",
+      "ru": "Механическое движение — изменение положения тела относительно других тел с течением времени. Движение всегда описывается относительно выбранной системы отсчёта.\n\n• Траектория — линия, по которой движется тело; путь s — длина траектории.\n• Перемещение — вектор, соединяющий начальное и конечное положения.\n• Равномерное прямолинейное движение: v = s / t, x = x₀ + vt.\n• Равноускоренное движение: a = (v − v₀) / t\n  v = v₀ + at\n  s = v₀t + at²/2\n\nЕдиницы: скорость м/с, ускорение м/с²."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Awtomobil ýerinden gozganyp, 2 m/s² tizlenme bilen 5 s hereket edýär.\n\n1) v = v₀ + at = 0 + 2·5 = 10 m/s\n2) s = at²/2 = 2·25 / 2 = 25 m\n\nJogap: 10 m/s, 25 m.",
+      "ru": "Автомобиль трогается с места и движется 5 с с ускорением 2 м/с².\n\n1) v = v₀ + at = 0 + 2·5 = 10 м/с\n2) s = at²/2 = 2·25 / 2 = 25 м\n\nОтвет: 10 м/с, 25 м."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Welosipedçi deňölçegli hereket edip, 20 s-da 100 m geçdi. Onuň tizligi näçe m/s?",
+      "ru": "Велосипедист, двигаясь равномерно, проехал 100 м за 20 с. Какова его скорость в м/с?"
+     },
+     "answer": "5",
+     "hint": {
+      "tk": "v = s / t.",
+      "ru": "v = s / t."
+     },
+     "explain": {
+      "tk": "100 / 20 = 5 m/s.",
+      "ru": "100 / 20 = 5 м/с."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Jisimiň tizligi 4 s-da 2 m/s-dan 10 m/s-a çenli artdy. Tizlenmesi näçä deň?",
+      "ru": "Скорость тела за 4 с выросла с 2 м/с до 10 м/с. Чему равно ускорение?"
+     },
+     "options": [
+      "2 m/s²",
+      "2.5 m/s²",
+      "3 m/s²"
+     ],
+     "answer": 0,
+     "hint": {
+      "tk": "a = (v − v₀) / t.",
+      "ru": "a = (v − v₀) / t."
+     },
+     "explain": {
+      "tk": "(10 − 2) / 4 = 2 m/s².",
+      "ru": "(10 − 2) / 4 = 2 м/с²."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Otlynyň içinde oturan ýolagçy wagona görä dynçlykda, ýöne Ýere görä hereket edýär.",
+      "ru": "Пассажир, сидящий в поезде, покоится относительно вагона, но движется относительно Земли."
+     },
+     "answer": true,
+     "hint": {
+      "tk": "Hereket hasap ulgamyna bagly.",
+      "ru": "Движение зависит от системы отсчёта."
+     },
+     "explain": {
+      "tk": "Hereketiň otnositeldigi: bir hasap ulgamynda dynçlykda bolan jisim beýlekisinde hereket edip biler.",
+      "ru": "Относительность движения: тело, покоящееся в одной системе отсчёта, может двигаться в другой."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Daş başlangyç tizliksiz gaçýar (g = 10 m/s²). 3 s-dan soň onuň tizligi näçe m/s?",
+      "ru": "Камень падает без начальной скорости (g = 10 м/с²). Какова его скорость через 3 с в м/с?"
+     },
+     "answer": "30",
+     "hint": {
+      "tk": "v = gt.",
+      "ru": "v = gt."
+     },
+     "explain": {
+      "tk": "v = 10 · 3 = 30 m/s (howanyň garşylygyny hasaba almasak).",
+      "ru": "v = 10 · 3 = 30 м/с (без учёта сопротивления воздуха)."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Galileo Galileý XVII asyryň başynda ýapgyt kanaw boýunça togalanýan şarlary öwrenip, erkin gaçýan jisimleriň deňölçegli tizlenýändigini görkezipdir. 1971-nji ýylda «Apollon-15» ekspedisiýasynyň astronawty Dewid Skott howasyz Aýda çekiç bilen ýelegi bile goýberip, olaryň deň wagtda ýere düşýändigini görkezdi.",
+      "ru": "Галилео Галилей в начале XVII века, изучая шары, скатывающиеся по наклонному жёлобу, показал, что свободно падающие тела движутся равноускоренно. В 1971 году астронавт экспедиции «Аполлон-15» Дэвид Скотт на безвоздушной Луне одновременно отпустил молоток и перо — они упали одновременно."
+     }
+    }
+   ]
+  },
+  {
+   "id": "physics-9-newtons-laws",
+   "grade": 9,
+   "title": {
+    "tk": "Nýutonyň kanunlary",
+    "ru": "Законы Ньютона"
+   },
+   "minutes": 10,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Nýutonyň üç kanuny:\n\n1) Inersiýa kanuny: jisime güýç täsir etmeýän ýa-da güýçleriň deňtäsiredijisi nola deň bolsa, jisim dynçlykda galýar ýa-da deňölçegli gönüçyzykly hereket edýär (inersial hasap ulgamlarynda).\n\n2) F = ma: jisimiň tizlenmesi deňtäsiredijä göni, massasyna ters proporsional. Güýç nýutonda (N) ölçenýär: 1 N = 1 kg·m/s².\n\n3) Täsir garşy täsire deň: F₁₂ = −F₂₁. Güýçler ululygy boýunça deň, ugry boýunça garşylykly we dürli jisimlere goýlan.\n\nAgyrlyk güýji: F = mg, g ≈ 9,8 m/s².",
+      "ru": "Три закона Ньютона:\n\n1) Закон инерции: если на тело не действуют силы или их равнодействующая равна нулю, тело покоится или движется равномерно и прямолинейно (в инерциальных системах отсчёта).\n\n2) F = ma: ускорение тела прямо пропорционально равнодействующей силе и обратно пропорционально массе. Сила измеряется в ньютонах (Н): 1 Н = 1 кг·м/с².\n\n3) Действие равно противодействию: F₁₂ = −F₂₁. Силы равны по модулю, противоположны по направлению и приложены к разным телам.\n\nСила тяжести: F = mg, g ≈ 9,8 м/с²."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Massasy 1200 kg bolan awtomobile 3600 N deňtäsiredi güýç täsir edýär.\n\na = F / m = 3600 / 1200 = 3 m/s²\n\nEger massa 2 esse köp bolsa (2400 kg), şol güýç bilen tizlenme 2 esse az bolardy: 1,5 m/s².",
+      "ru": "На автомобиль массой 1200 кг действует равнодействующая сила 3600 Н.\n\na = F / m = 3600 / 1200 = 3 м/с²\n\nЕсли бы масса была вдвое больше (2400 кг), при той же силе ускорение было бы вдвое меньше: 1,5 м/с²."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Massasy 5 kg bolan jisime 2 m/s² tizlenme bermek üçin näçe nýuton güýç gerek?",
+      "ru": "Какая сила в ньютонах нужна, чтобы сообщить телу массой 5 кг ускорение 2 м/с²?"
+     },
+     "answer": "10",
+     "hint": {
+      "tk": "F = ma.",
+      "ru": "F = ma."
+     },
+     "explain": {
+      "tk": "5 · 2 = 10 N.",
+      "ru": "5 · 2 = 10 Н."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Awtobus birden tormoz berende ýolagçylar öňe ýykylýar. Munuň sebäbi näme?",
+      "ru": "При резком торможении автобуса пассажиры наклоняются вперёд. Почему?"
+     },
+     "options": [
+      {
+       "tk": "Olary öňe itýän güýç peýda bolýar",
+       "ru": "Появляется сила, толкающая их вперёд"
+      },
+      {
+       "tk": "Agyrlyk güýji artýar",
+       "ru": "Увеличивается сила тяжести"
+      },
+      {
+       "tk": "Inersiýa: beden öňki tizligini saklamaga ymtylýar",
+       "ru": "Инерция: тело стремится сохранить прежнюю скорость"
+      }
+     ],
+     "answer": 2,
+     "hint": {
+      "tk": "Nýutonyň birinji kanunyny ýadyňyza salyň.",
+      "ru": "Вспомните первый закон Ньютона."
+     },
+     "explain": {
+      "tk": "Awtobus haýallaýar, ýolagçynyň bedeni bolsa inersiýa boýunça öňki tizligi bilen hereketini dowam etdirýär.",
+      "ru": "Автобус замедляется, а тело пассажира по инерции продолжает двигаться с прежней скоростью."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Ýer almany özüne çekýär, alma bolsa Ýeri şol bir ululykdaky güýç bilen çekýär.",
+      "ru": "Земля притягивает яблоко, а яблоко притягивает Землю с силой такой же величины."
+     },
+     "answer": true,
+     "hint": {
+      "tk": "Üçünji kanun.",
+      "ru": "Третий закон."
+     },
+     "explain": {
+      "tk": "Güýçler deň, ýöne Ýeriň massasy örän uly bolany üçin onuň tizlenmesi bilinmeýär.",
+      "ru": "Силы равны, но масса Земли огромна, поэтому её ускорение незаметно."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Massasy 50 kg bolan okuwça täsir edýän agyrlyk güýji näçe nýuton? (g = 10 m/s²)",
+      "ru": "Какова сила тяжести в ньютонах, действующая на ученика массой 50 кг? (g = 10 м/с²)"
+     },
+     "answer": "500",
+     "hint": {
+      "tk": "F = mg.",
+      "ru": "F = mg."
+     },
+     "explain": {
+      "tk": "50 · 10 = 500 N.",
+      "ru": "50 · 10 = 500 Н."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Isaak Nýuton hereket kanunlaryny 1687-nji ýylda «Tebigy filosofiýanyň matematiki esaslary» atly kitabynda çap edipdir. Raketalaryň uçuşy üçünji kanuna esaslanýar: hereketlendiriji gazy yza zyňýar, gaz bolsa raketany öňe itýär — şonuň üçin raketa howasyz kosmosda hem tizlenip bilýär.",
+      "ru": "Исаак Ньютон опубликовал законы движения в 1687 году в книге «Математические начала натуральной философии». Полёт ракеты основан на третьем законе: двигатель отбрасывает газ назад, а газ толкает ракету вперёд — поэтому ракета разгоняется и в безвоздушном космосе."
+     }
+    }
+   ]
+  },
+  {
+   "id": "physics-9-momentum",
+   "grade": 9,
+   "title": {
+    "tk": "Impuls we onuň saklanma kanuny",
+    "ru": "Импульс и закон его сохранения"
+   },
+   "minutes": 9,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Jisimiň impulsy — massasynyň tizligine köpeltmek hasyly: p = mv. Bu wektor ululyk, ugry tizligiň ugry bilen gabat gelýär. Birligi: kg·m/s.\n\n• Güýjüň impulsy: FΔt = Δp — güýç näçe uzak täsir etse, impuls şonça köp üýtgeýär.\n• Impulsyň saklanma kanuny: ýapyk ulgamda jisimleriň impulslarynyň jemi üýtgemeýär:\nm₁v₁ + m₂v₂ = m₁v₁′ + m₂v₂′\n• Reaktiw hereket hem şu kanuna esaslanýar.",
+      "ru": "Импульс тела — произведение массы на скорость: p = mv. Это векторная величина, направленная так же, как скорость. Единица: кг·м/с.\n\n• Импульс силы: FΔt = Δp — чем дольше действует сила, тем сильнее меняется импульс.\n• Закон сохранения импульса: в замкнутой системе сумма импульсов тел не меняется:\nm₁v₁ + m₂v₂ = m₁v₁′ + m₂v₂′\n• На этом законе основано реактивное движение."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Massasy 2 kg, tizligi 3 m/s bolan araba dynçlykdaky 1 kg arabanyň yzyndan urulyp, olar birleşip hereket edýärler. Umumy tizligi tapalyň.\n\nÖň: p = 2·3 + 1·0 = 6 kg·m/s\nSoň: (2 + 1)·v = 6\nv = 2 m/s",
+      "ru": "Тележка массой 2 кг, движущаяся со скоростью 3 м/с, сталкивается с покоящейся тележкой массой 1 кг, и они движутся вместе. Найдём общую скорость.\n\nДо: p = 2·3 + 1·0 = 6 кг·м/с\nПосле: (2 + 1)·v = 6\nv = 2 м/с"
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Massasy 0,5 kg bolan top 20 m/s tizlik bilen uçýar. Onuň impulsy näçe kg·m/s?",
+      "ru": "Мяч массой 0,5 кг летит со скоростью 20 м/с. Каков его импульс в кг·м/с?"
+     },
+     "answer": "10",
+     "hint": {
+      "tk": "p = mv.",
+      "ru": "p = mv."
+     },
+     "explain": {
+      "tk": "0,5 · 20 = 10 kg·m/s.",
+      "ru": "0,5 · 20 = 10 кг·м/с."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Dynç duran 4 kg tüpeňden 0,01 kg ok 400 m/s tizlik bilen atylýar. Tüpeň haýsy tizlik bilen yza tepýär?",
+      "ru": "Из покоящегося ружья массой 4 кг вылетает пуля массой 0,01 кг со скоростью 400 м/с. С какой скоростью ружьё откатывается назад?"
+     },
+     "options": [
+      "4 m/s",
+      "1 m/s",
+      "0.1 m/s"
+     ],
+     "answer": 1,
+     "hint": {
+      "tk": "Atyşdan öň umumy impuls nola deň.",
+      "ru": "До выстрела общий импульс равен нулю."
+     },
+     "explain": {
+      "tk": "0,01·400 = 4·v → v = 4 / 4 = 1 m/s, ugry okuňka garşylykly.",
+      "ru": "0,01·400 = 4·v → v = 4 / 4 = 1 м/с, направлена противоположно пуле."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Impuls skalýar ululyk, onuň ugry ýok.",
+      "ru": "Импульс — скалярная величина, у него нет направления."
+     },
+     "answer": false,
+     "hint": {
+      "tk": "p = mv, tizlik bolsa wektor.",
+      "ru": "p = mv, а скорость — вектор."
+     },
+     "explain": {
+      "tk": "Impuls wektor ululyk, ugry tizligiň ugry bilen gabat gelýär.",
+      "ru": "Импульс — вектор, его направление совпадает с направлением скорости."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Beýiklikden bökende dyzlaryňy epmek näme üçin howpsuz?",
+      "ru": "Почему при прыжке с высоты безопаснее сгибать колени?"
+     },
+     "options": [
+      {
+       "tk": "Saklanmagyň wagty uzalýar, şonuň üçin urgy güýji azalýar",
+       "ru": "Время торможения растёт, поэтому сила удара уменьшается"
+      },
+      {
+       "tk": "Impuls ulalýar",
+       "ru": "Импульс увеличивается"
+      },
+      {
+       "tk": "Massa azalýar",
+       "ru": "Масса уменьшается"
+      }
+     ],
+     "answer": 0,
+     "hint": {
+      "tk": "FΔt = Δp formulany ulanyň.",
+      "ru": "Используйте FΔt = Δp."
+     },
+     "explain": {
+      "tk": "Impulsyň üýtgemegi şol bir bolýar, ýöne Δt uly bolsa, F kiçi bolýar.",
+      "ru": "Изменение импульса то же, но при большом Δt сила F меньше."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Awtoulaglaryň howpsuzlyk ýassyklary we urgyda ezilýän ýörite bölekleri impulsyň kanunyna esaslanýar: olar urgynyň wagtyny uzaldyp, adama täsir edýän güýji azaldýar. Raketalaryň hem kosmosda tizlenmegi impulsyň saklanma kanunynyň netijesidir.",
+      "ru": "Подушки безопасности и сминаемые зоны автомобилей основаны на законе импульса: они удлиняют время удара и тем самым уменьшают силу, действующую на человека. Разгон ракет в космосе — тоже следствие закона сохранения импульса."
+     }
+    }
+   ]
+  },
+  {
+   "id": "physics-9-work-energy",
+   "grade": 9,
+   "title": {
+    "tk": "Iş we energiýa",
+    "ru": "Работа и энергия"
+   },
+   "minutes": 10,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Mehaniki iş: A = F·s·cos α (α — güýç bilen orun üýtgetmäniň arasyndaky burç). Birligi — joul (J).\n\n• Kinetik energiýa (hereket energiýasy): Eₖ = mv²/2\n• Potensial energiýa (Ýeriň üstünden h beýiklikde): Eₚ = mgh\n• Kuwwat: N = A / t, birligi — watt (W).\n\nMehaniki energiýanyň saklanma kanuny: sürtülme bolmasa, Eₖ + Eₚ = const. Energiýa ýok bolmaýar, diňe bir görnüşden beýlekä geçýär.",
+      "ru": "Механическая работа: A = F·s·cos α (α — угол между силой и перемещением). Единица — джоуль (Дж).\n\n• Кинетическая энергия (энергия движения): Eₖ = mv²/2\n• Потенциальная энергия (на высоте h над Землёй): Eₚ = mgh\n• Мощность: N = A / t, единица — ватт (Вт).\n\nЗакон сохранения механической энергии: при отсутствии трения Eₖ + Eₚ = const. Энергия не исчезает, а лишь переходит из одного вида в другой."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Top 5 m beýiklikden gaçýar (g = 10 m/s², howanyň garşylygy ýok). Ýere ýetende tizligi näçe?\n\nmgh = mv²/2 → v² = 2gh = 2·10·5 = 100\nv = 10 m/s\n\nMassa gysgaldy — jogap topuň massasyna bagly däl.",
+      "ru": "Мяч падает с высоты 5 м (g = 10 м/с², сопротивления воздуха нет). Какова скорость у земли?\n\nmgh = mv²/2 → v² = 2gh = 2·10·5 = 100\nv = 10 м/с\n\nМасса сократилась — ответ не зависит от массы мяча."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Massasy 2 kg bolan jisim 3 m/s tizlik bilen hereket edýär. Onuň kinetik energiýasy näçe joul?",
+      "ru": "Тело массой 2 кг движется со скоростью 3 м/с. Какова его кинетическая энергия в джоулях?"
+     },
+     "answer": "9",
+     "hint": {
+      "tk": "Eₖ = mv²/2.",
+      "ru": "Eₖ = mv²/2."
+     },
+     "explain": {
+      "tk": "2 · 9 / 2 = 9 J.",
+      "ru": "2 · 9 / 2 = 9 Дж."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Kran 100 kg ýüki 10 s-da 20 m beýiklige galdyrdy (g = 10 m/s²). Onuň kuwwaty näçä deň?",
+      "ru": "Кран поднял груз 100 кг на высоту 20 м за 10 с (g = 10 м/с²). Какова его мощность?"
+     },
+     "options": [
+      "200 W",
+      "20 000 W",
+      "2000 W"
+     ],
+     "answer": 2,
+     "hint": {
+      "tk": "Ilki işi tapyň: A = mgh, soň N = A / t.",
+      "ru": "Сначала найдите работу A = mgh, затем N = A / t."
+     },
+     "explain": {
+      "tk": "A = 100·10·20 = 20 000 J; N = 20 000 / 10 = 2000 W.",
+      "ru": "A = 100·10·20 = 20 000 Дж; N = 20 000 / 10 = 2000 Вт."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Tizlik 2 esse artsa, kinetik energiýa hem 2 esse artýar.",
+      "ru": "Если скорость увеличить в 2 раза, кинетическая энергия тоже увеличится в 2 раза."
+     },
+     "answer": false,
+     "hint": {
+      "tk": "Formulada tizlik kwadratda.",
+      "ru": "В формуле скорость стоит в квадрате."
+     },
+     "explain": {
+      "tk": "Eₖ ~ v², şonuň üçin energiýa 4 esse artýar.",
+      "ru": "Eₖ ~ v², поэтому энергия увеличивается в 4 раза."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Jisime hereketiň ugry boýunça 50 N güýç täsir edip, ony 4 m süýşürdi. Edilen iş näçe joul?",
+      "ru": "Сила 50 Н, направленная вдоль движения, переместила тело на 4 м. Какую работу в джоулях она совершила?"
+     },
+     "answer": "200",
+     "hint": {
+      "tk": "Güýç we orun üýtgetme bir ugurda bolsa, cos 0° = 1.",
+      "ru": "Если сила и перемещение сонаправлены, cos 0° = 1."
+     },
+     "explain": {
+      "tk": "A = 50 · 4 = 200 J.",
+      "ru": "A = 50 · 4 = 200 Дж."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Energiýanyň birligi iňlis fizigi Jeýms Joulyň hormatyna atlandyrylypdyr: ol XIX asyrda mehaniki işiň ýylylyga öwrülýändigini we bu gatnaşygyň hemişelikdigini tejribede görkezipdir. Gidroelektrik stansiýalarynda suwuň potensial energiýasy turbinalaryň kömegi bilen elektrik energiýasyna öwrülýär.",
+      "ru": "Единица энергии названа в честь английского физика Джеймса Джоуля: в XIX веке он опытами показал, что механическая работа превращается в теплоту в постоянном соотношении. На гидроэлектростанциях потенциальная энергия воды с помощью турбин превращается в электрическую."
+     }
+    }
+   ]
+  },
+  {
+   "id": "physics-9-oscillations-waves",
+   "grade": 9,
+   "title": {
+    "tk": "Yrgyldylar we tolkunlar",
+    "ru": "Колебания и волны"
+   },
+   "minutes": 10,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Yrgyldy — belli wagtdan soň gaýtalanýan hereket (maýatnik, pružinadaky ýük).\n\n• Amplituda A — deňagramlylyk ýagdaýyndan iň uly gyşarma.\n• Period T — bir doly yrgyldynyň wagty (s).\n• Ýygylyk ν = 1 / T — 1 s-daky yrgyldylaryň sany, birligi gers (Hz).\n• Matematiki maýatnik: T = 2π√(l/g) — period ýüküň massasyna bagly däl.\n• Pružinaly maýatnik: T = 2π√(m/k).\n\nTolkun — yrgyldylaryň giňişlikde ýaýramagy. Tolkun energiýany geçirýär, maddany däl.\n• Tolkun uzynlygy λ — bir periodda ýaýraýan aralyk.\n• v = λν = λ / T.\n• Kese tolkunlar (yrgyldy ýaýraýyş ugruna perpendikulýar) we boýuna tolkunlar (ugry boýunça).",
+      "ru": "Колебания — движения, повторяющиеся через определённые промежутки времени (маятник, груз на пружине).\n\n• Амплитуда A — наибольшее отклонение от положения равновесия.\n• Период T — время одного полного колебания (с).\n• Частота ν = 1 / T — число колебаний за 1 с, единица — герц (Гц).\n• Математический маятник: T = 2π√(l/g) — период не зависит от массы груза.\n• Пружинный маятник: T = 2π√(m/k).\n\nВолна — распространение колебаний в пространстве. Волна переносит энергию, но не вещество.\n• Длина волны λ — расстояние, на которое волна распространяется за один период.\n• v = λν = λ / T.\n• Поперечные волны (колебания перпендикулярны направлению распространения) и продольные (вдоль него)."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Maýatnik 20 s-da 40 yrgyldy edýär.\n\nT = 20 / 40 = 0,5 s\nν = 1 / T = 2 Hz\n\nDeňizdäki tolkunyň uzynlygy 6 m, ýygylygy 0,5 Hz bolsa, onuň tizligi: v = 6 · 0,5 = 3 m/s.",
+      "ru": "Маятник совершает 40 колебаний за 20 с.\n\nT = 20 / 40 = 0,5 с\nν = 1 / T = 2 Гц\n\nЕсли морская волна имеет длину 6 м и частоту 0,5 Гц, её скорость: v = 6 · 0,5 = 3 м/с."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Yrgyldynyň periody 0,2 s. Onuň ýygylygy näçe gers?",
+      "ru": "Период колебаний 0,2 с. Какова частота в герцах?"
+     },
+     "answer": "5",
+     "hint": {
+      "tk": "ν = 1 / T.",
+      "ru": "ν = 1 / T."
+     },
+     "explain": {
+      "tk": "1 / 0,2 = 5 Hz.",
+      "ru": "1 / 0,2 = 5 Гц."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Matematiki maýatnigiň sapagy 4 esse uzaldylsa, period nähili üýtgär?",
+      "ru": "Как изменится период математического маятника, если длину нити увеличить в 4 раза?"
+     },
+     "options": [
+      {
+       "tk": "4 esse artar",
+       "ru": "увеличится в 4 раза"
+      },
+      {
+       "tk": "2 esse artar",
+       "ru": "увеличится в 2 раза"
+      },
+      {
+       "tk": "üýtgemez",
+       "ru": "не изменится"
+      }
+     ],
+     "answer": 1,
+     "hint": {
+      "tk": "T ~ √l.",
+      "ru": "T ~ √l."
+     },
+     "explain": {
+      "tk": "√4 = 2, şonuň üçin period 2 esse artýar.",
+      "ru": "√4 = 2, поэтому период увеличится в 2 раза."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Suw ýüzündäki tolkun suwy kenara tarap alyp gidýär.",
+      "ru": "Волна на поверхности воды переносит воду к берегу."
+     },
+     "answer": false,
+     "hint": {
+      "tk": "Tolkun näme geçirýär — energiýany ýa-da maddany?",
+      "ru": "Что переносит волна — энергию или вещество?"
+     },
+     "explain": {
+      "tk": "Bölejikler öz ýerinde yrgyldaýar, tolkun bolsa energiýany geçirýär. Muny suwdaky ýüzgüçde görmek bolýar: ol ýokary-aşak yrgyldaýar.",
+      "ru": "Частицы колеблются около своих положений, а волна переносит энергию. Это видно по поплавку: он качается вверх-вниз, оставаясь на месте."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Tolkunyň uzynlygy 2 m, ýygylygy 10 Hz. Onuň tizligi näçe m/s?",
+      "ru": "Длина волны 2 м, частота 10 Гц. Какова скорость волны в м/с?"
+     },
+     "answer": "20",
+     "hint": {
+      "tk": "v = λν.",
+      "ru": "v = λν."
+     },
+     "explain": {
+      "tk": "2 · 10 = 20 m/s.",
+      "ru": "2 · 10 = 20 м/с."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Galileý ybadathanada yrgyldaýan çyralara syn edip, maýatnigiň kiçi yrgyldylarynyň periodynyň amplituda bagly däldigini bellepdir. Şu häsiýete esaslanyp, 1656-njy ýylda Kristian Gýuýgens ilkinji maýatnikli sagady döredipdir, ol öňki sagatlardan has takyk işläpdir.",
+      "ru": "Галилей, наблюдая за качающимися светильниками в соборе, заметил, что период малых колебаний маятника не зависит от амплитуды. Опираясь на это свойство, Христиан Гюйгенс в 1656 году создал первые маятниковые часы, которые шли гораздо точнее прежних."
+     }
+    }
+   ]
+  },
+  {
+   "id": "physics-9-sound",
+   "grade": 9,
+   "title": {
+    "tk": "Ses",
+    "ru": "Звук"
+   },
+   "minutes": 9,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Ses — gaz, suwuk ýa-da gaty sredada ýaýraýan boýuna mehaniki tolkun. Wakuumda ses ýaýramaýar.\n\n• Adam 20 Hz-den 20 000 Hz-e çenli ýygylykdaky sesleri eşidýär.\n• 20 Hz-den pes — infrases, 20 kHz-den ýokary — ultrases.\n• Sesiň belentligi (ýogyn ýa-da inçe) ýygylyga bagly.\n• Sesiň güýçlüligi amplituda bagly; ses derejesi desibellerde (dB) ölçenýär.\n• Howada sesiň tizligi takmynan 340 m/s, suwda ~1500 m/s, polatda ~5000 m/s.\n• Ýaňlanma (eho) — päsgelçilikden serpigen ses.",
+      "ru": "Звук — продольная механическая волна, распространяющаяся в газе, жидкости или твёрдом теле. В вакууме звук не распространяется.\n\n• Человек слышит звуки частотой от 20 Гц до 20 000 Гц.\n• Ниже 20 Гц — инфразвук, выше 20 кГц — ультразвук.\n• Высота звука (низкий или высокий) зависит от частоты.\n• Громкость зависит от амплитуды; уровень звука измеряют в децибелах (дБ).\n• Скорость звука в воздухе около 340 м/с, в воде ~1500 м/с, в стали ~5000 м/с.\n• Эхо — звук, отражённый от препятствия."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Ýyldyrymyň ýalpyldysyndan 3 s soň gürlemesi eşidildi. Ýyldyrym näçe uzaklykda?\n\nÝagtylyk derrew diýen ýaly gelýär, ses bolsa 340 m/s tizlik bilen:\ns = v·t = 340 · 3 = 1020 m ≈ 1 km.",
+      "ru": "Гром услышали через 3 с после вспышки молнии. На каком расстоянии молния?\n\nСвет доходит практически мгновенно, а звук — со скоростью 340 м/с:\ns = v·t = 340 · 3 = 1020 м ≈ 1 км."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Näme üçin Aýdaky astronawtlar biri-biri bilen radio arkaly gürleşýärler?",
+      "ru": "Почему астронавты на Луне общаются по радио?"
+     },
+     "options": [
+      {
+       "tk": "Aýda gaty sowuk",
+       "ru": "На Луне очень холодно"
+      },
+      {
+       "tk": "Aýda howa ýok, ses wakuumda ýaýramaýar",
+       "ru": "На Луне нет воздуха, а звук в вакууме не распространяется"
+      },
+      {
+       "tk": "Skafandr sesi güýçlendirýär",
+       "ru": "Скафандр усиливает звук"
+      }
+     ],
+     "answer": 1,
+     "hint": {
+      "tk": "Sesiň ýaýramagy üçin näme gerek?",
+      "ru": "Что нужно для распространения звука?"
+     },
+     "explain": {
+      "tk": "Ses mehaniki tolkun, oňa sreda gerek. Radiotolkunlar bolsa elektromagnit tolkunlar, olar wakuumda hem ýaýraýar.",
+      "ru": "Звук — механическая волна, ему нужна среда. Радиоволны же электромагнитные и распространяются в вакууме."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Gaýa gygyrylanda, eho 2 s-dan soň gaýdyp geldi. Gaýa çenli uzaklyk näçe metr? (v = 340 m/s)",
+      "ru": "Крикнули в сторону скалы, эхо вернулось через 2 с. Каково расстояние до скалы в метрах? (v = 340 м/с)"
+     },
+     "answer": "340",
+     "hint": {
+      "tk": "Ses gaýa baryp, yzyna gaýdyp gelýär.",
+      "ru": "Звук идёт до скалы и обратно."
+     },
+     "explain": {
+      "tk": "Ses 2 s-da 680 m geçdi, bu iki esse uzaklyk: 680 / 2 = 340 m.",
+      "ru": "За 2 с звук прошёл 680 м — это двойное расстояние: 680 / 2 = 340 м."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Ýygylygy 30 000 Hz bolan sesi adam eşidip bilýär.",
+      "ru": "Человек может услышать звук частотой 30 000 Гц."
+     },
+     "answer": false,
+     "hint": {
+      "tk": "Eşidilýän diapazonyň ýokarky çägini ýadyňyza salyň.",
+      "ru": "Вспомните верхнюю границу слышимого диапазона."
+     },
+     "explain": {
+      "tk": "30 kHz > 20 kHz — bu ultrases. Ony itler we ýarganatlar eşidip bilýär.",
+      "ru": "30 кГц > 20 кГц — это ультразвук. Его могут слышать собаки и летучие мыши."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Ýarganatlar we delfinler ekolokasiýa ulanýar: olar ultrases çykaryp, onuň ehosyna görä daş-töweregini «görýärler». Şu ýörelge lukmançylykdaky UZI-de (ultrases barlagy) we gämilerdäki sonarlarda ulanylýar.",
+      "ru": "Летучие мыши и дельфины используют эхолокацию: они издают ультразвук и по его эху «видят» окружающее. Этот же принцип применяется в медицинском УЗИ и в корабельных сонарах."
+     }
+    }
+   ]
+  },
+  {
+   "id": "physics-10-kinematics",
+   "grade": 10,
+   "title": {
+    "tk": "Kinematika: deňölçegli üýtgeýän hereket",
+    "ru": "Кинематика: равноускоренное движение"
+   },
+   "minutes": 10,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Kinematika jisimleriň hereketini onuň sebäplerine garamazdan suratlandyrýar.\n\nEsasy ululyklar:\n• süýşme s (wektor) we geçilen ýol;\n• tizlik v = Δs / Δt (m/s);\n• tizlenme a = Δv / Δt (m/s²).\n\nDeňölçegli tizlenýän göni çyzykly hereket (a = const):\n• v = v₀ + a·t\n• s = v₀·t + a·t²/2\n• v² − v₀² = 2·a·s\n\nErkin gaçma — diňe agyrlyk güýjüniň täsirindäki hereket; tizlenme g ≈ 9,8 m/s² (meselelerde köplenç 10 m/s²).",
+      "ru": "Кинематика описывает движение тел без рассмотрения его причин.\n\nОсновные величины:\n• перемещение s (вектор) и пройденный путь;\n• скорость v = Δs / Δt (м/с);\n• ускорение a = Δv / Δt (м/с²).\n\nРавноускоренное прямолинейное движение (a = const):\n• v = v₀ + a·t\n• s = v₀·t + a·t²/2\n• v² − v₀² = 2·a·s\n\nСвободное падение — движение только под действием силы тяжести; ускорение g ≈ 9,8 м/с² (в задачах часто 10 м/с²)."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Awtomobil ýerinden gozgalyp, 2 m/s² tizlenme bilen hereket edýär. 5 s-dan soň onuň tizligi we geçen ýoly näçe?\n\n1) v₀ = 0, a = 2 m/s², t = 5 s.\n2) v = v₀ + a·t = 0 + 2·5 = 10 m/s (36 km/sag).\n3) s = a·t²/2 = 2·25/2 = 25 m.\nBarlag: v² = 2·a·s → 100 = 2·2·25 = 100. Dogry.",
+      "ru": "Автомобиль трогается с места с ускорением 2 м/с². Какими будут его скорость и путь через 5 с?\n\n1) v₀ = 0, a = 2 м/с², t = 5 с.\n2) v = v₀ + a·t = 0 + 2·5 = 10 м/с (36 км/ч).\n3) s = a·t²/2 = 2·25/2 = 25 м.\nПроверка: v² = 2·a·s → 100 = 2·2·25 = 100. Верно."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Daş 3 s erkin gaçýar (g = 10 m/s², v₀ = 0). Ol näçe metr beýiklikden gaçýar?",
+      "ru": "Камень свободно падает 3 с (g = 10 м/с², v₀ = 0). С какой высоты (в м) он упал?"
+     },
+     "answer": "45",
+     "hint": {
+      "tk": "h = g·t²/2.",
+      "ru": "h = g·t²/2."
+     },
+     "explain": {
+      "tk": "h = 10 · 3² / 2 = 10 · 9 / 2 = 45 m.",
+      "ru": "h = 10 · 3² / 2 = 10 · 9 / 2 = 45 м."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "72 km/sag näçe m/s-a deň?",
+      "ru": "Сколько м/с составляет 72 км/ч?"
+     },
+     "options": [
+      "7,2 m/s",
+      "20 m/s",
+      "36 m/s"
+     ],
+     "answer": 1,
+     "hint": {
+      "tk": "1 km/sag = 1000 m / 3600 s.",
+      "ru": "1 км/ч = 1000 м / 3600 с."
+     },
+     "explain": {
+      "tk": "72 · 1000 / 3600 = 72 / 3,6 = 20 m/s.",
+      "ru": "72 · 1000 / 3600 = 72 / 3,6 = 20 м/с."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Awtomobil 20 m/s tizlikden moduly 4 m/s² bolan tizlenme bilen tormozlap togtaýar. Togtamak ýoly näçe metr?",
+      "ru": "Автомобиль тормозит со скорости 20 м/с с ускорением 4 м/с² (по модулю). Каков тормозной путь (в м)?"
+     },
+     "answer": "50",
+     "hint": {
+      "tk": "v² − v₀² = 2·a·s formulany ulanyň, ahyrky tizlik nola deň.",
+      "ru": "Используйте v² − v₀² = 2·a·s, конечная скорость равна нулю."
+     },
+     "explain": {
+      "tk": "0 − 20² = 2·(−4)·s → s = 400 / 8 = 50 m.",
+      "ru": "0 − 20² = 2·(−4)·s → s = 400 / 8 = 50 м."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Howa garşylygy bolmasa, agyr we ýeňil jisim bir beýiklikden bir wagtda ýere düşýär.",
+      "ru": "Без сопротивления воздуха тяжёлое и лёгкое тело, брошенные с одной высоты, падают одновременно."
+     },
+     "answer": true,
+     "hint": {
+      "tk": "Erkin gaçmanyň tizlenmesi jisimiň massasyna baglymy?",
+      "ru": "Зависит ли ускорение свободного падения от массы тела?"
+     },
+     "explain": {
+      "tk": "Erkin gaçmanyň tizlenmesi g ähli jisimler üçin birmeňzeş, şonuň üçin olar bir wagtda düşýär.",
+      "ru": "Ускорение свободного падения g одинаково для всех тел, поэтому они падают одновременно."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "1971-nji ýylda «Apollon-15» ekspedisiýasynyň astronawty Deýwid Skott Aýda çekiç bilen guş ýelegini bir wagtda taşlady. Howa ýoklugy sebäpli olar bir wagtda ýere düşdi — muny Galileý asyrlar öň aýdypdy.",
+      "ru": "В 1971 году астронавт экспедиции «Аполлон-15» Дэвид Скотт на Луне одновременно уронил молоток и птичье перо. Из-за отсутствия воздуха они упали одновременно — как и предсказывал Галилей за века до этого."
+     }
+    }
+   ]
+  },
+  {
+   "id": "physics-10-circular-motion",
+   "grade": 10,
+   "title": {
+    "tk": "Töwerek boýunça deňölçegli hereket",
+    "ru": "Равномерное движение по окружности"
+   },
+   "minutes": 9,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Töwerek boýunça deňölçegli hereketde tizligiň moduly üýtgemeýär, ýöne ugry hemişe üýtgeýär. Tizlik töwerege galtaşma boýunça ugrukdyrylan.\n\nEsasy ululyklar:\n• Period T — bir doly aýlaw üçin wagt (s).\n• Ýygylyk ν = 1 / T (Gs ýa-da aýl/s).\n• Çyzykly tizlik v = 2πR / T.\n• Burç tizligi ω = 2π / T = 2πν (rad/s), v = ω·R.\n\nMerkeze ymtylýan tizlenme töweregiň merkezine ugrukdyrylan:\na = v² / R = ω²·R.\nŞeýle tizlenmäni döretmek üçin merkeze ugrukdyrylan güýç gerek: F = m·v² / R.",
+      "ru": "При равномерном движении по окружности модуль скорости не меняется, но её направление меняется постоянно. Скорость направлена по касательной к окружности.\n\nОсновные величины:\n• Период T — время одного полного оборота (с).\n• Частота ν = 1 / T (Гц или об/с).\n• Линейная скорость v = 2πR / T.\n• Угловая скорость ω = 2π / T = 2πν (рад/с), v = ω·R.\n\nЦентростремительное ускорение направлено к центру окружности:\na = v² / R = ω²·R.\nДля создания такого ускорения нужна сила, направленная к центру: F = m·v² / R."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Awtomobil radiusy 50 m bolan öwrümde 10 m/s tizlik bilen hereket edýär. Massasy 1000 kg. Merkeze ymtylýan tizlenmäni we güýji tapyň.\n\n1) a = v² / R = 100 / 50 = 2 m/s².\n2) F = m·a = 1000 · 2 = 2000 N.\nBu güýji tekerler bilen ýoluň arasyndaky sürtülme güýji döredýär. Ýol buzly bolsa, sürtülme ýetmezçilik edip, awtomobil typyp biler.",
+      "ru": "Автомобиль массой 1000 кг проходит поворот радиусом 50 м со скоростью 10 м/с. Найдите центростремительное ускорение и силу.\n\n1) a = v² / R = 100 / 50 = 2 м/с².\n2) F = m·a = 1000 · 2 = 2000 Н.\nЭту силу создаёт сила трения между шинами и дорогой. На гололёде трения может не хватить, и машину занесёт."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Tigir 2 s-da 10 aýlaw edýär. Onuň aýlanma ýygylygy näçe Gs?",
+      "ru": "Колесо делает 10 оборотов за 2 с. Какова частота вращения (в Гц)?"
+     },
+     "answer": "5",
+     "hint": {
+      "tk": "ν = N / t.",
+      "ru": "ν = N / t."
+     },
+     "explain": {
+      "tk": "ν = 10 / 2 = 5 Gs, period bolsa T = 0,2 s.",
+      "ru": "ν = 10 / 2 = 5 Гц, а период T = 0,2 с."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Töwerek boýunça deňölçegli hereketde tizlenme nirä ugrukdyrylan?",
+      "ru": "Куда направлено ускорение при равномерном движении по окружности?"
+     },
+     "options": [
+      {
+       "tk": "Töweregiň merkezine",
+       "ru": "К центру окружности"
+      },
+      {
+       "tk": "Tizligiň ugruna",
+       "ru": "По направлению скорости"
+      },
+      {
+       "tk": "Tizlenme ýok",
+       "ru": "Ускорения нет"
+      }
+     ],
+     "answer": 0,
+     "hint": {
+      "tk": "Tizligiň moduly üýtgemeýär, ýöne ugry näme?",
+      "ru": "Модуль скорости не меняется, а направление?"
+     },
+     "explain": {
+      "tk": "Tizligiň ugry üýtgeýär, diýmek, tizlenme bar. Ol merkeze ugrukdyrylan we merkeze ymtylýan tizlenme diýlip atlandyrylýar.",
+      "ru": "Направление скорости меняется, значит, ускорение есть. Оно направлено к центру и называется центростремительным."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Tizlik iki esse artanda, şol radiusda merkeze ymtylýan tizlenme hem iki esse artýar.",
+      "ru": "При увеличении скорости в 2 раза центростремительное ускорение на той же окружности тоже увеличивается в 2 раза."
+     },
+     "answer": false,
+     "hint": {
+      "tk": "a = v² / R formulada tizlik kwadratda.",
+      "ru": "В формуле a = v² / R скорость в квадрате."
+     },
+     "explain": {
+      "tk": "a ~ v², şonuň üçin tizlik 2 esse artanda tizlenme 4 esse artýar.",
+      "ru": "a ~ v², поэтому при увеличении скорости в 2 раза ускорение растёт в 4 раза."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Jisim radiusy 2 m bolan töwerek boýunça 4 m/s tizlik bilen hereket edýär. Merkeze ymtylýan tizlenme näçe m/s²?",
+      "ru": "Тело движется по окружности радиусом 2 м со скоростью 4 м/с. Найдите центростремительное ускорение (в м/с²)."
+     },
+     "answer": "8",
+     "hint": {
+      "tk": "a = v² / R.",
+      "ru": "a = v² / R."
+     },
+     "explain": {
+      "tk": "a = 4² / 2 = 16 / 2 = 8 m/s².",
+      "ru": "a = 4² / 2 = 16 / 2 = 8 м/с²."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Halkara kosmos stansiýasy Ýeriň daşyndan takmynan 400 km beýiklikde aýlanýar we bir aýlawy takmynan 90 minutda edýär. Onuň merkeze ymtylýan tizlenmesini Ýeriň dartyş güýji döredýär, şonuň üçin içindäki astronawtlar agramsyzlygy duýýar.",
+      "ru": "Международная космическая станция вращается вокруг Земли на высоте около 400 км и делает один оборот примерно за 90 минут. Её центростремительное ускорение создаёт притяжение Земли, поэтому космонавты внутри находятся в невесомости."
+     }
+    }
+   ]
+  },
+  {
+   "id": "physics-10-universal-gravitation",
+   "grade": 10,
+   "title": {
+    "tk": "Bütindünýä dartyşma kanuny",
+    "ru": "Закон всемирного тяготения"
+   },
+   "minutes": 9,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Isaak Nýuton (1687): islendik iki jisim biri-birine massalarynyň köpeltmek hasylyna göni proporsional we aralarynyň uzaklygynyň kwadratyna ters proporsional bolan güýç bilen dartylýar:\nF = G · m₁·m₂ / r²\nG ≈ 6,67·10⁻¹¹ N·m²/kg² — gravitasiýa hemişeligi.\n\n• Agyrlyk güýji: F = m·g, bu ýerde g = G·M / R² (M, R — planetanyň massasy we radiusy). Ýeriň üstünde g ≈ 9,8 m/s².\n• Beýiklik artdygyça g kemelýär.\n• Birinji kosmiki tizlik — tegelek orbita üçin tizlik: v₁ = √(g·R) = √(G·M / R). Ýer üçin ≈ 7,9 km/s.",
+      "ru": "Исаак Ньютон (1687): любые два тела притягиваются друг к другу с силой, прямо пропорциональной произведению их масс и обратно пропорциональной квадрату расстояния между ними:\nF = G · m₁·m₂ / r²\nG ≈ 6,67·10⁻¹¹ Н·м²/кг² — гравитационная постоянная.\n\n• Сила тяжести: F = m·g, где g = G·M / R² (M, R — масса и радиус планеты). У поверхности Земли g ≈ 9,8 м/с².\n• С высотой g уменьшается.\n• Первая космическая скорость — скорость для круговой орбиты: v₁ = √(g·R) = √(G·M / R). Для Земли ≈ 7,9 км/с."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Ýeriň merkezinden 2R uzaklykda (ýagny üstünden R beýiklikde) erkin gaçma tizlenmesi näçe?\n\n1) g ~ 1 / r². Uzaklyk R-den 2R-e çenli 2 esse artýar.\n2) g kemelýär 2² = 4 esse: g' = 9,8 / 4 ≈ 2,45 m/s².\nŞol beýiklikde massasy 80 kg bolan adamyň agyrlyk güýji: 80 · 2,45 = 196 N (Ýerde 784 N).",
+      "ru": "Каково ускорение свободного падения на расстоянии 2R от центра Земли (то есть на высоте R над поверхностью)?\n\n1) g ~ 1 / r². Расстояние увеличилось с R до 2R — в 2 раза.\n2) g уменьшается в 2² = 4 раза: g' = 9,8 / 4 ≈ 2,45 м/с².\nСила тяжести человека массой 80 кг там: 80 · 2,45 = 196 Н (на Земле 784 Н)."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Iki jisimiň arasyndaky uzaklyk 3 esse artdy. Dartyşma güýji nähili üýtgeýär?",
+      "ru": "Расстояние между двумя телами увеличили в 3 раза. Как изменится сила притяжения?"
+     },
+     "options": [
+      {
+       "tk": "3 esse kemelýär",
+       "ru": "Уменьшится в 3 раза"
+      },
+      {
+       "tk": "6 esse kemelýär",
+       "ru": "Уменьшится в 6 раз"
+      },
+      {
+       "tk": "9 esse kemelýär",
+       "ru": "Уменьшится в 9 раз"
+      }
+     ],
+     "answer": 2,
+     "hint": {
+      "tk": "Güýç uzaklygyň kwadratyna ters proporsional.",
+      "ru": "Сила обратно пропорциональна квадрату расстояния."
+     },
+     "explain": {
+      "tk": "F ~ 1 / r², 3² = 9, şonuň üçin güýç 9 esse kemelýär.",
+      "ru": "F ~ 1 / r², 3² = 9, поэтому сила уменьшится в 9 раз."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Aý Ýeri dartýan güýç Ýeriň Aýy dartýan güýjünden kiçidir.",
+      "ru": "Сила, с которой Луна притягивает Землю, меньше силы, с которой Земля притягивает Луну."
+     },
+     "answer": false,
+     "hint": {
+      "tk": "Nýutonyň üçünji kanunyny ýada salyň.",
+      "ru": "Вспомните третий закон Ньютона."
+     },
+     "explain": {
+      "tk": "Nýutonyň üçünji kanuny boýunça bu güýçler modul boýunça deň we garşylykly ugrukdyrylan. Ýöne Ýeriň massasy uly bolany üçin onuň tizlenmesi has kiçi.",
+      "ru": "По третьему закону Ньютона эти силы равны по модулю и противоположны по направлению. Но из-за большой массы Земли её ускорение намного меньше."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Ýeriň radiusyny R ≈ 6,4·10⁶ m, g = 10 m/s² alyp, birinji kosmiki tizligi km/s-da tapyň (iň ýakyn bitin sana tegelekläň).",
+      "ru": "Приняв R ≈ 6,4·10⁶ м и g = 10 м/с², найдите первую космическую скорость в км/с (округлите до целого)."
+     },
+     "answer": "8",
+     "hint": {
+      "tk": "v₁ = √(g·R).",
+      "ru": "v₁ = √(g·R)."
+     },
+     "explain": {
+      "tk": "v₁ = √(10 · 6,4·10⁶) = √(6,4·10⁷) = 8000 m/s = 8 km/s (takyk hasaplamada ≈ 7,9 km/s).",
+      "ru": "v₁ = √(10 · 6,4·10⁶) = √(6,4·10⁷) = 8000 м/с = 8 км/с (точнее ≈ 7,9 км/с)."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Aýda erkin gaçma tizlenmesi Ýerdäkiden takmynan näçe esse kiçi?",
+      "ru": "Во сколько примерно раз ускорение свободного падения на Луне меньше, чем на Земле?"
+     },
+     "options": [
+      {
+       "tk": "2 esse",
+       "ru": "В 2 раза"
+      },
+      {
+       "tk": "6 esse",
+       "ru": "В 6 раз"
+      },
+      {
+       "tk": "100 esse",
+       "ru": "В 100 раз"
+      }
+     ],
+     "answer": 1,
+     "hint": {
+      "tk": "Aýda g ≈ 1,6 m/s².",
+      "ru": "На Луне g ≈ 1,6 м/с²."
+     },
+     "explain": {
+      "tk": "9,8 / 1,6 ≈ 6. Şonuň üçin Aýda astronawtlar ýeňil bökýär.",
+      "ru": "9,8 / 1,6 ≈ 6. Поэтому астронавты на Луне легко прыгают."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Gravitasiýa hemişeligini ilkinji gezek 1798-nji ýylda iňlis alymy Genri Kawendiş tejribede ölçedi. Ol iňňe ýaly inçe sapakdaky towlanma terezisi bilen gurşun şarlaryň arasyndaky örän ejiz dartyşmany ölçäp, Ýeriň ortaça dykyzlygyny hasaplady.",
+      "ru": "Гравитационную постоянную впервые измерил на опыте английский учёный Генри Кавендиш в 1798 году. С помощью крутильных весов на тонкой нити он измерил крайне слабое притяжение свинцовых шаров и вычислил среднюю плотность Земли."
+     }
+    }
+   ]
+  },
+  {
+   "id": "physics-10-molecular-kinetic-theory",
+   "grade": 10,
+   "title": {
+    "tk": "Molekulýar-kinetik nazaryýetiň esaslary",
+    "ru": "Основы молекулярно-кинетической теории"
+   },
+   "minutes": 10,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Molekulýar-kinetik nazaryýetiň (MKN) üç esasy düzgüni:\n• madda bölejiklerden (atomlardan, molekulalardan) durýar;\n• bölejikler üznüksiz bulam-bujar hereket edýär;\n• bölejikler biri-biri bilen täsirleşýär (dartylýar we iterilýär).\nSubutnamalary: diffuziýa, Brown hereketi.\n\nModdanyň mukdary ν = N / N_A = m / M (mol).\nAwogadronyň sany N_A ≈ 6,02·10²³ mol⁻¹.\nM — molýar massa (kg/mol), mysal üçin suw üçin 0,018 kg/mol.\n\nIdeal gazyň esasy deňlemesi: p = ⅓·n·m₀·v̄² = ⅔·n·Ē,\nmolekulanyň ortaça kinetik energiýasy: Ē = (3/2)·k·T,\nk ≈ 1,38·10⁻²³ J/K — Bolsmanyň hemişeligi, T — absolýut temperatura (K): T = t + 273.",
+      "ru": "Три основных положения молекулярно-кинетической теории (МКТ):\n• вещество состоит из частиц (атомов, молекул);\n• частицы непрерывно и хаотически движутся;\n• частицы взаимодействуют друг с другом (притягиваются и отталкиваются).\nДоказательства: диффузия, броуновское движение.\n\nКоличество вещества ν = N / N_A = m / M (моль).\nЧисло Авогадро N_A ≈ 6,02·10²³ моль⁻¹.\nM — молярная масса (кг/моль), например для воды 0,018 кг/моль.\n\nОсновное уравнение МКТ идеального газа: p = ⅓·n·m₀·v̄² = ⅔·n·Ē,\nсредняя кинетическая энергия молекулы: Ē = (3/2)·k·T,\nk ≈ 1,38·10⁻²³ Дж/К — постоянная Больцмана, T — абсолютная температура (К): T = t + 273."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "36 g suwda näçe molekula bar?\n\n1) Suwuň molýar massasy: M(H₂O) = 2·1 + 16 = 18 g/mol.\n2) ν = m / M = 36 / 18 = 2 mol.\n3) N = ν · N_A = 2 · 6,02·10²³ ≈ 1,2·10²⁴ molekula.\nBir çemçe suwda hem Ýerdäki adamlardan milliardlarça esse köp molekula bar.",
+      "ru": "Сколько молекул в 36 г воды?\n\n1) Молярная масса воды: M(H₂O) = 2·1 + 16 = 18 г/моль.\n2) ν = m / M = 36 / 18 = 2 моль.\n3) N = ν · N_A = 2 · 6,02·10²³ ≈ 1,2·10²⁴ молекул.\nДаже в ложке воды молекул в миллиарды раз больше, чем людей на Земле."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "27 °C temperatura Kelwin şkalasynda näçe?",
+      "ru": "Сколько кельвинов составляет температура 27 °C?"
+     },
+     "answer": "300",
+     "hint": {
+      "tk": "T = t + 273.",
+      "ru": "T = t + 273."
+     },
+     "explain": {
+      "tk": "T = 27 + 273 = 300 K.",
+      "ru": "T = 27 + 273 = 300 К."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Gazyň absolýut temperaturasy 2 esse artanda molekulalaryň ortaça kinetik energiýasy nähili üýtgeýär?",
+      "ru": "Как изменится средняя кинетическая энергия молекул газа при увеличении абсолютной температуры в 2 раза?"
+     },
+     "options": [
+      {
+       "tk": "2 esse artýar",
+       "ru": "Увеличится в 2 раза"
+      },
+      {
+       "tk": "4 esse artýar",
+       "ru": "Увеличится в 4 раза"
+      },
+      {
+       "tk": "Üýtgemeýär",
+       "ru": "Не изменится"
+      }
+     ],
+     "answer": 0,
+     "hint": {
+      "tk": "Ē = (3/2)·k·T.",
+      "ru": "Ē = (3/2)·k·T."
+     },
+     "explain": {
+      "tk": "Ē absolýut temperaturasyna göni proporsional, şonuň üçin 2 esse artýar.",
+      "ru": "Ē прямо пропорциональна абсолютной температуре, поэтому увеличится в 2 раза."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Brown hereketi — bu suwuklykdaky ownuk bölejikleriň molekulalaryň urgularyndan döreýän bulam-bujar hereketi.",
+      "ru": "Броуновское движение — это хаотическое движение мелких частиц в жидкости, вызванное ударами молекул."
+     },
+     "answer": true,
+     "hint": {
+      "tk": "Bölejiklere näme täsir edýär?",
+      "ru": "Что действует на частицы?"
+     },
+     "explain": {
+      "tk": "Bölejigiň dürli taraplaryndan molekulalaryň urgulary deň däl, şonuň üçin ol bulam-bujar hereket edýär. Bu molekulalaryň hereketiniň göni subutnamasy.",
+      "ru": "Удары молекул с разных сторон частицы нескомпенсированы, поэтому она хаотически движется. Это прямое доказательство движения молекул."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "88 g kömürturşy gazda (CO₂) näçe mol madda bar? (M = 44 g/mol)",
+      "ru": "Сколько моль вещества в 88 г углекислого газа (CO₂)? (M = 44 г/моль)"
+     },
+     "answer": "2",
+     "hint": {
+      "tk": "ν = m / M.",
+      "ru": "ν = m / M."
+     },
+     "explain": {
+      "tk": "ν = 88 / 44 = 2 mol.",
+      "ru": "ν = 88 / 44 = 2 моль."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Şotland botanigi Robert Broun 1827-nji ýylda suwdaky tozan bölejikleriniň bulam-bujar hereketini mikroskopda gördi. 1905-nji ýylda Albert Eýnşteýn bu hereketiň nazaryýetini döretdi, fransuz alymy Žan Perren bolsa ony tejribede barlap, atomlaryň hakykatdan hem bardygyny subut etdi.",
+      "ru": "Шотландский ботаник Роберт Броун в 1827 году увидел в микроскоп хаотическое движение пылевых частиц в воде. В 1905 году Альберт Эйнштейн построил теорию этого движения, а француз Жан Перрен проверил её на опыте, доказав реальность атомов."
+     }
+    }
+   ]
+  },
+  {
+   "id": "physics-10-gas-laws",
+   "grade": 10,
+   "title": {
+    "tk": "Ideal gazyň hal deňlemesi we gaz kanunlary",
+    "ru": "Уравнение состояния идеального газа и газовые законы"
+   },
+   "minutes": 10,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Ideal gazyň hal deňlemesi (Mendeleýew–Klapeýron deňlemesi):\np·V = ν·R·T = (m / M)·R·T,\nR ≈ 8,31 J/(mol·K) — uniwersal gaz hemişeligi.\n\nGazyň massasy hemişelik bolsa: p·V / T = const.\n\nIzoprosesler:\n• Izotermik (T = const): p·V = const — Boýl–Mariotyň kanuny.\n• Izobarik (p = const): V / T = const — Geý-Lýussagyň kanuny.\n• Izohorik (V = const): p / T = const — Şarlyň kanuny.\n\nÝatda saklaň: formulalarda temperatura hemişe kelwinde alynýar.",
+      "ru": "Уравнение состояния идеального газа (уравнение Менделеева–Клапейрона):\np·V = ν·R·T = (m / M)·R·T,\nR ≈ 8,31 Дж/(моль·К) — универсальная газовая постоянная.\n\nДля постоянной массы газа: p·V / T = const.\n\nИзопроцессы:\n• Изотермический (T = const): p·V = const — закон Бойля–Мариотта.\n• Изобарный (p = const): V / T = const — закон Гей-Люссака.\n• Изохорный (V = const): p / T = const — закон Шарля.\n\nПомните: в формулах температура всегда в кельвинах."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Gaz 300 K-de 6 L göwrümi eýeleýär. Basyş üýtgemezden ony 400 K-e çenli gyzdyrdylar. Täze göwrüm näçe?\n\n1) p = const → Geý-Lýussagyň kanuny: V₁ / T₁ = V₂ / T₂.\n2) V₂ = V₁ · T₂ / T₁ = 6 · 400 / 300 = 8 L.\nJogap: 8 L.",
+      "ru": "Газ занимает 6 л при 300 К. Его нагрели до 400 К при постоянном давлении. Каков новый объём?\n\n1) p = const → закон Гей-Люссака: V₁ / T₁ = V₂ / T₂.\n2) V₂ = V₁ · T₂ / T₁ = 6 · 400 / 300 = 8 л.\nОтвет: 8 л."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Temperatura hemişelik. Gazyň göwrümi 3 esse kiçeldildi. Basyş näçe esse artýar?",
+      "ru": "Температура постоянна. Объём газа уменьшили в 3 раза. Во сколько раз увеличится давление?"
+     },
+     "answer": "3",
+     "hint": {
+      "tk": "Boýl–Mariotyň kanuny: p·V = const.",
+      "ru": "Закон Бойля–Мариотта: p·V = const."
+     },
+     "explain": {
+      "tk": "p·V = const bolany üçin V 3 esse kemelse, p 3 esse artýar.",
+      "ru": "Так как p·V = const, при уменьшении V в 3 раза давление p увеличится в 3 раза."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Ýapyk gapdaky (V = const) gazyň temperaturasy 27 °C-den 327 °C-e çenli ýokarlandy. Basyş nähili üýtgeýär?",
+      "ru": "Газ в закрытом сосуде (V = const) нагрели с 27 °C до 327 °C. Как изменится давление?"
+     },
+     "options": [
+      {
+       "tk": "Takmynan 12 esse artýar",
+       "ru": "Увеличится примерно в 12 раз"
+      },
+      {
+       "tk": "Üýtgemeýär",
+       "ru": "Не изменится"
+      },
+      {
+       "tk": "2 esse artýar",
+       "ru": "Увеличится в 2 раза"
+      }
+     ],
+     "answer": 2,
+     "hint": {
+      "tk": "Temperaturany kelwine geçiriň.",
+      "ru": "Переведите температуру в кельвины."
+     },
+     "explain": {
+      "tk": "T₁ = 300 K, T₂ = 600 K. p / T = const, şonuň üçin basyş 600 / 300 = 2 esse artýar.",
+      "ru": "T₁ = 300 К, T₂ = 600 К. p / T = const, поэтому давление увеличится в 600 / 300 = 2 раза."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Izobarik prosesde gazyň göwrümi Selsiý temperaturasyna göni proporsionaldyr.",
+      "ru": "При изобарном процессе объём газа прямо пропорционален температуре по Цельсию."
+     },
+     "answer": false,
+     "hint": {
+      "tk": "Haýsy temperatura şkalasy formulalarda ulanylýar?",
+      "ru": "Какая температурная шкала используется в формулах?"
+     },
+     "explain": {
+      "tk": "Göwrüm absolýut temperatura (K) bilen göni proporsional, Selsiý temperaturasyna däl. Mysal üçin, 0 °C-de göwrüm nola deň däl.",
+      "ru": "Объём пропорционален абсолютной температуре (К), а не температуре по Цельсию. Например, при 0 °C объём не равен нулю."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "2 mol ideal gaz 300 K temperaturada we 8,31·10⁴ Pa basyşda näçe kub metr göwrümi eýeleýär? (R = 8,31 J/(mol·K))",
+      "ru": "Какой объём (в м³) занимают 2 моль идеального газа при 300 К и давлении 8,31·10⁴ Па? (R = 8,31 Дж/(моль·К))"
+     },
+     "answer": "0.06|0,06",
+     "hint": {
+      "tk": "V = ν·R·T / p.",
+      "ru": "V = ν·R·T / p."
+     },
+     "explain": {
+      "tk": "V = 2 · 8,31 · 300 / (8,31·10⁴) = 600 / 10⁴ = 0,06 m³ (60 L).",
+      "ru": "V = 2 · 8,31 · 300 / (8,31·10⁴) = 600 / 10⁴ = 0,06 м³ (60 л)."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "1783-nji ýylda fransuz fizigi Žak Şarl wodorod bilen doldurylan şary asmana uçurdy, birnäçe aýdan soň bolsa özi wodorod şarynda uçdy. Häzirki howa şarlary gyzgyn howa bilen uçýar: gyzdyrylan howa giňelýär, onuň dykyzlygy azalýar we şar ýokary galýar.",
+      "ru": "В 1783 году французский физик Жак Шарль запустил в небо шар, наполненный водородом, а через несколько месяцев сам поднялся на водородном шаре. Современные воздушные шары летают на горячем воздухе: нагретый воздух расширяется, его плотность уменьшается, и шар поднимается."
+     }
+    }
+   ]
+  },
+  {
+   "id": "physics-10-thermodynamics",
+   "grade": 10,
+   "title": {
+    "tk": "Termodinamikanyň kanunlary",
+    "ru": "Законы термодинамики"
+   },
+   "minutes": 10,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Içki energiýa U — jisimiň bölejikleriniň hereket we täsirleşme energiýalarynyň jemi. Bir atomly ideal gaz üçin U = (3/2)·ν·R·T.\nIçki energiýa iki ýol bilen üýtgeýär: iş ýerine ýetirmek we ýylylyk geçirmek.\n\nGazyň işi (p = const): A' = p·ΔV.\n\nTermodinamikanyň birinji kanuny (energiýanyň saklanmagy):\nQ = ΔU + A',\nýagny gaza berlen ýylylyk onuň içki energiýasyny artdyrmaga we iş ýerine ýetirmäge sarp edilýär.\n\nIkinji kanun: ýylylyk öz-özünden diňe gyzgyn jisimden sowuk jisime geçýär.\n\nÝylylyk hereketlendirijisiniň PTK:\nη = (Q₁ − Q₂) / Q₁,\nKarno boýunça iň uly mümkin PTK: η_max = (T₁ − T₂) / T₁.",
+      "ru": "Внутренняя энергия U — сумма энергий движения и взаимодействия частиц тела. Для одноатомного идеального газа U = (3/2)·ν·R·T.\nВнутренняя энергия меняется двумя способами: совершением работы и теплопередачей.\n\nРабота газа (p = const): A' = p·ΔV.\n\nПервый закон термодинамики (сохранение энергии):\nQ = ΔU + A',\nто есть теплота, переданная газу, идёт на увеличение его внутренней энергии и на совершение работы.\n\nВторой закон: теплота самопроизвольно переходит только от горячего тела к холодному.\n\nКПД теплового двигателя:\nη = (Q₁ − Q₂) / Q₁,\nмаксимальный возможный КПД по Карно: η_max = (T₁ − T₂) / T₁."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Gaza 500 J ýylylyk berildi, gaz bolsa 200 J iş ýerine ýetirdi. Içki energiýa näçe üýtgedi?\n\n1) Birinji kanun: Q = ΔU + A'.\n2) ΔU = Q − A' = 500 − 200 = 300 J.\nIçki energiýa 300 J artdy, diýmek, gaz gyzdy.\n\nKarno mysaly: gyzdyryjy 600 K, sowadyjy 300 K bolsa, η_max = (600 − 300) / 600 = 0,5 = 50 %.",
+      "ru": "Газу передали 500 Дж теплоты, а газ совершил работу 200 Дж. Как изменилась внутренняя энергия?\n\n1) Первый закон: Q = ΔU + A'.\n2) ΔU = Q − A' = 500 − 200 = 300 Дж.\nВнутренняя энергия выросла на 300 Дж, значит, газ нагрелся.\n\nПример Карно: нагреватель 600 К, холодильник 300 К — η_max = (600 − 300) / 600 = 0,5 = 50 %."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Hereketlendiriji gyzdyryjydan 1000 J alýar we sowadyja 700 J berýär. Onuň PTK-sy näçe göterim?",
+      "ru": "Двигатель получает от нагревателя 1000 Дж и отдаёт холодильнику 700 Дж. Каков его КПД в процентах?"
+     },
+     "answer": "30",
+     "hint": {
+      "tk": "η = (Q₁ − Q₂) / Q₁.",
+      "ru": "η = (Q₁ − Q₂) / Q₁."
+     },
+     "explain": {
+      "tk": "η = (1000 − 700) / 1000 = 0,3 = 30 %.",
+      "ru": "η = (1000 − 700) / 1000 = 0,3 = 30 %."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Izotermik prosesde ideal gaza Q ýylylyk berilýär. Ol nämä sarp edilýär?",
+      "ru": "При изотермическом процессе идеальному газу передаётся теплота Q. На что она расходуется?"
+     },
+     "options": [
+      {
+       "tk": "Diňe içki energiýany artdyrmaga",
+       "ru": "Только на увеличение внутренней энергии"
+      },
+      {
+       "tk": "Tutuşlygyna gazyň işine",
+       "ru": "Целиком на работу газа"
+      },
+      {
+       "tk": "Hiç zada sarp edilmeýär",
+       "ru": "Ни на что не расходуется"
+      }
+     ],
+     "answer": 1,
+     "hint": {
+      "tk": "T = const bolsa, ideal gazyň içki energiýasy üýtgeýärmi?",
+      "ru": "Меняется ли внутренняя энергия идеального газа при T = const?"
+     },
+     "explain": {
+      "tk": "T = const → ΔU = 0, şonuň üçin Q = A': ähli ýylylyk işe öwrülýär.",
+      "ru": "T = const → ΔU = 0, поэтому Q = A': вся теплота идёт на работу."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "PTK-sy 100 % bolan ýylylyk hereketlendirijisini döretmek mümkin.",
+      "ru": "Можно создать тепловой двигатель с КПД 100 %."
+     },
+     "answer": false,
+     "hint": {
+      "tk": "Karnonyň formulasynda sowadyjynyň temperaturasy nola deň bolup bilermi?",
+      "ru": "Может ли температура холодильника в формуле Карно равняться нулю?"
+     },
+     "explain": {
+      "tk": "Termodinamikanyň ikinji kanuny boýunça ýylylygyň bir bölegi hökman sowadyja berilmeli. η = 1 bolmak üçin T₂ = 0 K gerek, bu bolsa ýetip bolmajak temperatura.",
+      "ru": "По второму закону термодинамики часть теплоты обязательно отдаётся холодильнику. Для η = 1 нужно T₂ = 0 К, а это недостижимая температура."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Gaz 2·10⁵ Pa hemişelik basyşda 0,01 m³-den 0,03 m³-e çenli giňeldi. Gaz näçe joul iş ýerine ýetirdi?",
+      "ru": "Газ расширился при постоянном давлении 2·10⁵ Па от 0,01 м³ до 0,03 м³. Какую работу (в Дж) совершил газ?"
+     },
+     "answer": "4000",
+     "hint": {
+      "tk": "A' = p·ΔV.",
+      "ru": "A' = p·ΔV."
+     },
+     "explain": {
+      "tk": "ΔV = 0,03 − 0,01 = 0,02 m³. A' = 2·10⁵ · 0,02 = 4000 J.",
+      "ru": "ΔV = 0,03 − 0,01 = 0,02 м³. A' = 2·10⁵ · 0,02 = 4000 Дж."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Fransuz inženeri Sadi Karno 1824-nji ýylda «Oduň hereketlendiriji güýji hakynda oýlanmalar» atly kitabyny çap etdi. Onda ol islendik ýylylyk hereketlendirijisiniň PTK-synyň diňe gyzdyryjynyň we sowadyjynyň temperaturalaryna bagly çäginiň bardygyny görkezdi — bu termodinamikanyň başlangyjy boldy.",
+      "ru": "Французский инженер Сади Карно в 1824 году опубликовал «Размышления о движущей силе огня». В ней он показал, что КПД любого теплового двигателя имеет предел, зависящий только от температур нагревателя и холодильника, — с этого началась термодинамика."
+     }
+    }
+   ]
+  },
+  {
+   "id": "physics-11-electrostatics",
+   "grade": 11,
+   "title": {
+    "tk": "Elektrostatika: Kulonyň kanuny we elektrik meýdany",
+    "ru": "Электростатика: закон Кулона и электрическое поле"
+   },
+   "minutes": 10,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Elektrostatika — ýerinde duran zarýadlaryň özara täsirini öwrenýär.\n• Zarýadlaryň iki görnüşi bar: položitel we otrisatel. Meňzeş zarýadlar biri-birini itýär, dürli zarýadlar özüne çekýär.\n• Zarýad birligi — kulon (Kl). Elementar zarýad e ≈ 1,6·10⁻¹⁹ Kl.\n• Zarýadyň saklanma kanuny: ýapyk ulgamda zarýadlaryň algebraik jemi üýtgemeýär.\n\nKulonyň kanuny:\nF = k·|q₁|·|q₂| / r², k ≈ 9·10⁹ N·m²/Kl²\n\nElektrik meýdanynyň güýjenmesi: E = F / q (N/Kl ýa-da W/m).\nNokatlaýyn zarýadyň meýdany: E = k·|q| / r².\nPotensiallar tapawudy (naprýaženiýe): U = A / q, birligi — wolt (W).",
+      "ru": "Электростатика изучает взаимодействие неподвижных зарядов.\n• Заряды бывают двух видов: положительные и отрицательные. Одноимённые отталкиваются, разноимённые притягиваются.\n• Единица заряда — кулон (Кл). Элементарный заряд e ≈ 1,6·10⁻¹⁹ Кл.\n• Закон сохранения заряда: в замкнутой системе алгебраическая сумма зарядов постоянна.\n\nЗакон Кулона:\nF = k·|q₁|·|q₂| / r², k ≈ 9·10⁹ Н·м²/Кл²\n\nНапряжённость электрического поля: E = F / q (Н/Кл или В/м).\nПоле точечного заряда: E = k·|q| / r².\nРазность потенциалов (напряжение): U = A / q, единица — вольт (В)."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Mesele: q₁ = 2·10⁻⁶ Kl we q₂ = 3·10⁻⁶ Kl zarýadlar 0,3 m uzaklykda. Täsir güýjüni tapyň.\n1) F = k·q₁·q₂ / r²\n2) F = 9·10⁹ · 2·10⁻⁶ · 3·10⁻⁶ / 0,09\n3) Sanawjy: 9·10⁹ · 6·10⁻¹² = 54·10⁻³ = 0,054\n4) F = 0,054 / 0,09 = 0,6 N\nZarýadlar meňzeş (ikisi hem položitel), şonuň üçin olar biri-birini itýär.",
+      "ru": "Задача: заряды q₁ = 2·10⁻⁶ Кл и q₂ = 3·10⁻⁶ Кл находятся на расстоянии 0,3 м. Найдите силу взаимодействия.\n1) F = k·q₁·q₂ / r²\n2) F = 9·10⁹ · 2·10⁻⁶ · 3·10⁻⁶ / 0,09\n3) Числитель: 9·10⁹ · 6·10⁻¹² = 54·10⁻³ = 0,054\n4) F = 0,054 / 0,09 = 0,6 Н\nЗаряды одноимённые (оба положительные), поэтому они отталкиваются."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Iki zarýadyň arasyndaky uzaklygy 3 esse ulaltsak, Kulon güýji nähili üýtgär?",
+      "ru": "Как изменится сила Кулона, если расстояние между зарядами увеличить в 3 раза?"
+     },
+     "options": [
+      {
+       "tk": "3 esse azalar",
+       "ru": "Уменьшится в 3 раза"
+      },
+      {
+       "tk": "9 esse ulalar",
+       "ru": "Увеличится в 9 раз"
+      },
+      {
+       "tk": "9 esse azalar",
+       "ru": "Уменьшится в 9 раз"
+      }
+     ],
+     "answer": 2,
+     "hint": {
+      "tk": "Güýç r²-a ters proporsional.",
+      "ru": "Сила обратно пропорциональна r²."
+     },
+     "explain": {
+      "tk": "F ~ 1/r², r 3 esse ulalsa, F 3² = 9 esse azalýar.",
+      "ru": "F ~ 1/r², при увеличении r в 3 раза сила уменьшается в 3² = 9 раз."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "2·10⁻⁶ Kl zarýada meýdan 0,01 N güýç bilen täsir edýär. Meýdanyň güýjenmesi näçe N/Kl?",
+      "ru": "На заряд 2·10⁻⁶ Кл поле действует с силой 0,01 Н. Чему равна напряжённость поля в Н/Кл?"
+     },
+     "answer": "5000|5·10³|5e3",
+     "hint": {
+      "tk": "E = F / q.",
+      "ru": "E = F / q."
+     },
+     "explain": {
+      "tk": "E = 0,01 / (2·10⁻⁶) = 5000 N/Kl.",
+      "ru": "E = 0,01 / (2·10⁻⁶) = 5000 Н/Кл."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Bir elektronyň zarýady 1 kulona deň.",
+      "ru": "Заряд одного электрона равен 1 кулону."
+     },
+     "answer": false,
+     "hint": {
+      "tk": "Elementar zarýadyň bahasyny ýatlaň.",
+      "ru": "Вспомните значение элементарного заряда."
+     },
+     "explain": {
+      "tk": "Elektronyň zarýady −1,6·10⁻¹⁹ Kl; 1 Kl zarýad üçin takmynan 6,25·10¹⁸ elektron gerek.",
+      "ru": "Заряд электрона −1,6·10⁻¹⁹ Кл; для заряда 1 Кл нужно около 6,25·10¹⁸ электронов."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "2 Kl zarýad meýdanda süýşende meýdan 24 J iş edýär. Naprýaženiýe näçe wolt?",
+      "ru": "При перемещении заряда 2 Кл поле совершает работу 24 Дж. Чему равно напряжение в вольтах?"
+     },
+     "answer": "12",
+     "hint": {
+      "tk": "U = A / q.",
+      "ru": "U = A / q."
+     },
+     "explain": {
+      "tk": "U = 24 / 2 = 12 W.",
+      "ru": "U = 24 / 2 = 12 В."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "1785-nji ýylda fransuz fizigi Şarl Kulon burulma terezisi bilen zarýadlaryň özara täsir güýjüni ölçäp, öz kanunyny açdy. 1909-njy ýyldan başlap Robert Milliken ýag damjalary bilen geçiren tejribelerinde elektronyň zarýadyny ölçedi we 1923-nji ýylda Nobel baýragyny aldy.",
+      "ru": "В 1785 году французский физик Шарль Кулон с помощью крутильных весов измерил силу взаимодействия зарядов и установил свой закон. Начиная с 1909 года Роберт Милликен в опытах с масляными каплями измерил заряд электрона и в 1923 году получил Нобелевскую премию."
+     }
+    }
+   ]
+  },
+  {
+   "id": "physics-11-capacitor",
+   "grade": 11,
+   "title": {
+    "tk": "Kondensator we elektrik sygymy",
+    "ru": "Конденсатор и электроёмкость"
+   },
+   "minutes": 9,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Kondensator — dielektrik bilen bölünen iki geçirijiden (örtükden) ybarat, zarýady we energiýany toplaýan enjam.\n\n• Sygym: C = q / U, birligi — farad (F). Köplenç μF, nF, pF ulanylýar.\n• Tekiz kondensator: C = ε·ε₀·S / d, bu ýerde S — örtügiň meýdany, d — aralyk, ε — dielektrik syzyjylygy, ε₀ ≈ 8,85·10⁻¹² F/m.\n• Energiýa: W = C·U² / 2 = q·U / 2 = q² / (2C).\n\nBirikdirmek:\n• Parallel: C = C₁ + C₂ + …\n• Yzygider: 1/C = 1/C₁ + 1/C₂ + …",
+      "ru": "Конденсатор — устройство из двух проводников (обкладок), разделённых диэлектриком, которое накапливает заряд и энергию.\n\n• Ёмкость: C = q / U, единица — фарад (Ф). Чаще используют мкФ, нФ, пФ.\n• Плоский конденсатор: C = ε·ε₀·S / d, где S — площадь обкладки, d — расстояние между ними, ε — диэлектрическая проницаемость, ε₀ ≈ 8,85·10⁻¹² Ф/м.\n• Энергия: W = C·U² / 2 = q·U / 2 = q² / (2C).\n\nСоединения:\n• Параллельное: C = C₁ + C₂ + …\n• Последовательное: 1/C = 1/C₁ + 1/C₂ + …"
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Mesele: Sygymy 100 μF bolan kondensator 20 W naprýaženiýä çenli zarýadlandyryldy. Zarýady we energiýany tapyň.\n1) C = 100·10⁻⁶ F = 10⁻⁴ F\n2) q = C·U = 10⁻⁴ · 20 = 2·10⁻³ Kl\n3) W = C·U² / 2 = 10⁻⁴ · 400 / 2 = 0,02 J\nJogap: q = 2 mKl, W = 20 mJ.",
+      "ru": "Задача: конденсатор ёмкостью 100 мкФ заряжен до напряжения 20 В. Найдите заряд и энергию.\n1) C = 100·10⁻⁶ Ф = 10⁻⁴ Ф\n2) q = C·U = 10⁻⁴ · 20 = 2·10⁻³ Кл\n3) W = C·U² / 2 = 10⁻⁴ · 400 / 2 = 0,02 Дж\nОтвет: q = 2 мКл, W = 20 мДж."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Sygymlary 2 μF we 3 μF bolan kondensatorlar parallel birikdirildi. Umumy sygym näçe μF?",
+      "ru": "Конденсаторы ёмкостью 2 мкФ и 3 мкФ соединены параллельно. Чему равна общая ёмкость в мкФ?"
+     },
+     "answer": "5",
+     "hint": {
+      "tk": "Parallel birikdirmede sygymlar goşulýar.",
+      "ru": "При параллельном соединении ёмкости складываются."
+     },
+     "explain": {
+      "tk": "C = 2 + 3 = 5 μF.",
+      "ru": "C = 2 + 3 = 5 мкФ."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Sygymlary 6 μF we 3 μF bolan kondensatorlar yzygider birikdirildi. Umumy sygym:",
+      "ru": "Конденсаторы 6 мкФ и 3 мкФ соединены последовательно. Общая ёмкость:"
+     },
+     "options": [
+      "9 μF",
+      "2 μF",
+      "4,5 μF"
+     ],
+     "answer": 1,
+     "hint": {
+      "tk": "1/C = 1/C₁ + 1/C₂.",
+      "ru": "1/C = 1/C₁ + 1/C₂."
+     },
+     "explain": {
+      "tk": "1/C = 1/6 + 1/3 = 1/6 + 2/6 = 3/6 = 1/2, diýmek C = 2 μF.",
+      "ru": "1/C = 1/6 + 1/3 = 1/6 + 2/6 = 3/6 = 1/2, значит C = 2 мкФ."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Tekiz kondensatoryň örtükleriniň arasyndaky aralygy ulaltsak, onuň sygymy ulalýar.",
+      "ru": "Если увеличить расстояние между обкладками плоского конденсатора, его ёмкость увеличится."
+     },
+     "answer": false,
+     "hint": {
+      "tk": "C = ε·ε₀·S / d formulada d nirede dur?",
+      "ru": "Где стоит d в формуле C = ε·ε₀·S / d?"
+     },
+     "explain": {
+      "tk": "d maýdalawjyda, şonuň üçin d ulalanda sygym azalýar.",
+      "ru": "d стоит в знаменателе, поэтому при увеличении d ёмкость уменьшается."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Sygymy 2 F bolan kondensator 3 W-a çenli zarýadlandyryldy. Energiýasy näçe J?",
+      "ru": "Конденсатор ёмкостью 2 Ф заряжен до 3 В. Чему равна его энергия в Дж?"
+     },
+     "answer": "9",
+     "hint": {
+      "tk": "W = C·U² / 2.",
+      "ru": "W = C·U² / 2."
+     },
+     "explain": {
+      "tk": "W = 2 · 9 / 2 = 9 J.",
+      "ru": "W = 2 · 9 / 2 = 9 Дж."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Ilkinji kondensator — «Leýden bankasy» — 1745–1746-njy ýyllarda Ewald fon Kleýst we Leýdende Piter wan Mussenbruk tarapyndan biri-birinden garaşsyz oýlanyp tapyldy. Häzirki defibrillýatorlar kondensatorda toplanan energiýany bir pursatda göýberip, ýüregiň ritmini dikeldýär.",
+      "ru": "Первый конденсатор — «лейденская банка» — был независимо изобретён в 1745–1746 годах Эвальдом фон Клейстом и Питером ван Мушенбруком в Лейдене. Современные дефибрилляторы мгновенно отдают энергию, накопленную в конденсаторе, чтобы восстановить ритм сердца."
+     }
+    }
+   ]
+  },
+  {
+   "id": "physics-11-direct-current",
+   "grade": 11,
+   "title": {
+    "tk": "Hemişelik tok we Omuň kanuny",
+    "ru": "Постоянный ток и закон Ома"
+   },
+   "minutes": 10,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Elektrik togy — zarýadly bölejikleriň ugrukdyrylan hereketi.\n• Tok güýji: I = q / t, birligi — amper (A).\n• Garşylyk: R = ρ·l / S, birligi — om (Om); ρ — udel garşylyk.\n• Zynjyryň bölegi üçin Omuň kanuny: I = U / R.\n• Doly zynjyr üçin Omuň kanuny: I = ℰ / (R + r), ℰ — EHG, r — çeşmäniň içki garşylygy.\n\nBirikdirmek:\n• Yzygider: R = R₁ + R₂; tok birmeňzeş, naprýaženiýeler goşulýar.\n• Parallel: 1/R = 1/R₁ + 1/R₂; naprýaženiýe birmeňzeş, toklar goşulýar.\n\nIş we kuwwat: A = U·I·t, P = U·I = I²R = U²/R.\nDžoul–Lensiň kanuny: Q = I²·R·t.",
+      "ru": "Электрический ток — упорядоченное движение заряженных частиц.\n• Сила тока: I = q / t, единица — ампер (А).\n• Сопротивление: R = ρ·l / S, единица — ом (Ом); ρ — удельное сопротивление.\n• Закон Ома для участка цепи: I = U / R.\n• Закон Ома для полной цепи: I = ℰ / (R + r), ℰ — ЭДС, r — внутреннее сопротивление источника.\n\nСоединения:\n• Последовательное: R = R₁ + R₂; ток одинаков, напряжения складываются.\n• Параллельное: 1/R = 1/R₁ + 1/R₂; напряжение одинаково, токи складываются.\n\nРабота и мощность: A = U·I·t, P = U·I = I²R = U²/R.\nЗакон Джоуля–Ленца: Q = I²·R·t."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Mesele: EHG ℰ = 12 W, içki garşylyk r = 1 Om bolan batareýa R = 5 Om garşylyga birikdirildi. Tok güýjüni, daşky naprýaženiýäni we kuwwaty tapyň.\n1) I = ℰ / (R + r) = 12 / 6 = 2 A\n2) U = I·R = 2 · 5 = 10 W (2 W içki garşylykda «ýitýär»)\n3) P = U·I = 10 · 2 = 20 Wt\nJogap: 2 A, 10 W, 20 Wt.",
+      "ru": "Задача: батарея с ЭДС ℰ = 12 В и внутренним сопротивлением r = 1 Ом подключена к резистору R = 5 Ом. Найдите ток, внешнее напряжение и мощность.\n1) I = ℰ / (R + r) = 12 / 6 = 2 А\n2) U = I·R = 2 · 5 = 10 В (2 В «теряется» на внутреннем сопротивлении)\n3) P = U·I = 10 · 2 = 20 Вт\nОтвет: 2 А, 10 В, 20 Вт."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Garşylygy 4 Om bolan geçirijiniň uçlaryndaky naprýaženiýe 12 W. Tok güýji näçe amper?",
+      "ru": "Напряжение на проводнике сопротивлением 4 Ом равно 12 В. Чему равна сила тока в амперах?"
+     },
+     "answer": "3",
+     "hint": {
+      "tk": "I = U / R.",
+      "ru": "I = U / R."
+     },
+     "explain": {
+      "tk": "I = 12 / 4 = 3 A.",
+      "ru": "I = 12 / 4 = 3 А."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Garşylyklary 6 Om we 3 Om bolan rezistorlar parallel birikdirildi. Umumy garşylyk:",
+      "ru": "Резисторы 6 Ом и 3 Ом соединены параллельно. Общее сопротивление:"
+     },
+     "options": [
+      {
+       "tk": "2 Om",
+       "ru": "2 Ом"
+      },
+      {
+       "tk": "9 Om",
+       "ru": "9 Ом"
+      },
+      {
+       "tk": "4,5 Om",
+       "ru": "4,5 Ом"
+      }
+     ],
+     "answer": 0,
+     "hint": {
+      "tk": "Parallel birikdirmede umumy garşylyk iň kiçisinden hem kiçi bolýar.",
+      "ru": "При параллельном соединении общее сопротивление меньше наименьшего."
+     },
+     "explain": {
+      "tk": "R = 6·3 / (6 + 3) = 18 / 9 = 2 Om.",
+      "ru": "R = 6·3 / (6 + 3) = 18 / 9 = 2 Ом."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Şol bir materialdan bolan geçirijiniň uzynlygyny 2 esse ulaltsak, onuň garşylygy 2 esse ulalýar.",
+      "ru": "Если увеличить длину проводника из того же материала в 2 раза, его сопротивление увеличится в 2 раза."
+     },
+     "answer": true,
+     "hint": {
+      "tk": "R = ρ·l / S.",
+      "ru": "R = ρ·l / S."
+     },
+     "explain": {
+      "tk": "Garşylyk uzynlyga göni proporsional, kesik meýdany üýtgemese R 2 esse ulalýar.",
+      "ru": "Сопротивление прямо пропорционально длине; при неизменном сечении R растёт в 2 раза."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "220 W naprýaženiýede işleýän çäýnek 5 A tok sarp edýär. Kuwwaty näçe watt?",
+      "ru": "Чайник при напряжении 220 В потребляет ток 5 А. Чему равна его мощность в ваттах?"
+     },
+     "answer": "1100",
+     "hint": {
+      "tk": "P = U·I.",
+      "ru": "P = U·I."
+     },
+     "explain": {
+      "tk": "P = 220 · 5 = 1100 Wt = 1,1 kWt.",
+      "ru": "P = 220 · 5 = 1100 Вт = 1,1 кВт."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Nemes fizigi Georg Om tok güýji, naprýaženiýe we garşylyk arasyndaky baglanyşygy 1827-nji ýylda çap etdi. Ilki onuň işi ykrar edilmedi, ýöne soňra garşylyk birligine onuň ady dakyldy. 1800-nji ýylda Alessandro Wolta ilkinji himiki tok çeşmesini — «Wolta sütünini» döretdi.",
+      "ru": "Немецкий физик Георг Ом опубликовал связь силы тока, напряжения и сопротивления в 1827 году. Сначала его работу не признали, но позже его именем назвали единицу сопротивления. В 1800 году Алессандро Вольта создал первый химический источник тока — «вольтов столб»."
+     }
+    }
+   ]
+  },
+  {
+   "id": "physics-11-magnetic-field",
+   "grade": 11,
+   "title": {
+    "tk": "Magnit meýdany: Amperiň we Lorensiň güýji",
+    "ru": "Магнитное поле: сила Ампера и сила Лоренца"
+   },
+   "minutes": 10,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Magnit meýdany hereket edýän zarýadlaryň (toklaryň) we magnitleriň daşynda döreýär we diňe hereket edýän zarýadlara täsir edýär.\n• Magnit induksiýasy B — meýdanyň güýç häsiýetnamasy, birligi — tesla (Tl).\n• Induksiýa çyzyklary ýapyk; ugry sag wint (burawjyk) düzgüni bilen kesgitlenýär.\n\nAmperiň güýji (tokly geçirijä täsir):\nF_A = I·B·l·sin α\n\nLorensiň güýji (hereket edýän zarýada täsir):\nF_L = |q|·v·B·sin α\nUgry çep el düzgüni bilen tapylýar. Lorens güýji tizlige perpendikulýar, şonuň üçin iş etmeýär we bölejigiň tizliginiň modulyny üýtgetmeýär: bölejik töwerek boýunça hereket edýär, r = m·v / (|q|·B).",
+      "ru": "Магнитное поле создаётся движущимися зарядами (токами) и магнитами и действует только на движущиеся заряды.\n• Магнитная индукция B — силовая характеристика поля, единица — тесла (Тл).\n• Линии индукции замкнуты; их направление определяют правилом буравчика (правого винта).\n\nСила Ампера (действие на проводник с током):\nF_A = I·B·l·sin α\n\nСила Лоренца (действие на движущийся заряд):\nF_L = |q|·v·B·sin α\nНаправление — по правилу левой руки. Сила Лоренца перпендикулярна скорости, поэтому не совершает работы и не меняет модуль скорости: частица движется по окружности, r = m·v / (|q|·B)."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Mesele: Uzynlygy 0,5 m bolan geçirijiden 4 A tok geçýär. Ol B = 0,2 Tl bolan meýdanda induksiýa çyzyklaryna perpendikulýar ýerleşýär. Amper güýjüni tapyň.\n1) α = 90°, sin 90° = 1\n2) F_A = I·B·l = 4 · 0,2 · 0,5 = 0,4 N\nEger geçiriji çyzyklara parallel bolsa (α = 0°), güýç nola deň bolardy.",
+      "ru": "Задача: проводник длиной 0,5 м с током 4 А расположен в поле B = 0,2 Тл перпендикулярно линиям индукции. Найдите силу Ампера.\n1) α = 90°, sin 90° = 1\n2) F_A = I·B·l = 4 · 0,2 · 0,5 = 0,4 Н\nЕсли бы проводник был параллелен линиям (α = 0°), сила была бы равна нулю."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Uzynlygy 2 m, togy 5 A bolan geçiriji B = 0,1 Tl meýdanda çyzyklara perpendikulýar. Amper güýji näçe N?",
+      "ru": "Проводник длиной 2 м с током 5 А находится в поле B = 0,1 Тл перпендикулярно линиям. Чему равна сила Ампера в Н?"
+     },
+     "answer": "1",
+     "hint": {
+      "tk": "F = I·B·l, sin 90° = 1.",
+      "ru": "F = I·B·l, sin 90° = 1."
+     },
+     "explain": {
+      "tk": "F = 5 · 0,1 · 2 = 1 N.",
+      "ru": "F = 5 · 0,1 · 2 = 1 Н."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Bir jynsly magnit meýdanyna induksiýa çyzyklaryna perpendikulýar uçup giren elektron nähili hereket eder?",
+      "ru": "Как будет двигаться электрон, влетевший в однородное магнитное поле перпендикулярно линиям индукции?"
+     },
+     "options": [
+      {
+       "tk": "Göni çyzyk boýunça tizlenip",
+       "ru": "Прямолинейно с ускорением"
+      },
+      {
+       "tk": "Hemişelik tizlik bilen göni çyzyk boýunça",
+       "ru": "Прямолинейно с постоянной скоростью"
+      },
+      {
+       "tk": "Töwerek boýunça",
+       "ru": "По окружности"
+      }
+     ],
+     "answer": 2,
+     "hint": {
+      "tk": "Lorens güýji elmydama tizlige perpendikulýar.",
+      "ru": "Сила Лоренца всегда перпендикулярна скорости."
+     },
+     "explain": {
+      "tk": "Tizlige perpendikulýar hemişelik güýç merkeze ymtylýan tizlenme berýär — bölejik töwerek boýunça aýlanýar.",
+      "ru": "Постоянная сила, перпендикулярная скорости, создаёт центростремительное ускорение — частица движется по окружности."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Lorens güýji bölejigiň kinetik energiýasyny artdyryp bilýär.",
+      "ru": "Сила Лоренца может увеличить кинетическую энергию частицы."
+     },
+     "answer": false,
+     "hint": {
+      "tk": "Güýç süýşmä perpendikulýar bolsa, iş näçä deň?",
+      "ru": "Чему равна работа силы, перпендикулярной перемещению?"
+     },
+     "explain": {
+      "tk": "Lorens güýji tizlige perpendikulýar, iş nola deň, şonuň üçin kinetik energiýa üýtgemeýär.",
+      "ru": "Сила Лоренца перпендикулярна скорости, её работа равна нулю, поэтому кинетическая энергия не меняется."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "1820-nji ýylda daniýaly alym Hans Kristian Ersted tokly geçirijiniň ýanyndaky kompas peýkamynyň öwrülýändigini gördi — bu elektrik bilen magnitizmiň baglanyşygynyň ilkinji subutnamasy boldy. Ýeriň magnit meýdany Gün ýelini sowup, bizi zarýadly bölejiklerden goraýar; polýar şuglalary şol bölejikleriň atmosfera bilen täsirleşmeginden döreýär.",
+      "ru": "В 1820 году датский учёный Ханс Кристиан Эрстед заметил, что стрелка компаса поворачивается рядом с проводником с током, — это было первое доказательство связи электричества и магнетизма. Магнитное поле Земли отклоняет солнечный ветер и защищает нас от заряженных частиц; полярные сияния возникают при их взаимодействии с атмосферой."
+     }
+    }
+   ]
+  },
+  {
+   "id": "physics-11-electromagnetic-induction",
+   "grade": 11,
+   "title": {
+    "tk": "Elektromagnit induksiýa",
+    "ru": "Электромагнитная индукция"
+   },
+   "minutes": 10,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Elektromagnit induksiýa — ýapyk kontury kesip geçýän magnit akymy üýtgände, onda tok (induksiýa togy) döremegi.\n\n• Magnit akymy: Φ = B·S·cos α, birligi — weber (Wb).\n• Faradeýiň kanuny: ℰᵢ = −ΔΦ / Δt; N sargyly tegek üçin ℰᵢ = −N·ΔΦ / Δt.\n• Lensiň düzgüni: induksiýa togy özüni döreden magnit akymynyň üýtgemegine päsgel berýär (minus belgisi şony aňladýar).\n• Hereket edýän geçirijide: ℰᵢ = B·v·l·sin α.\n\nÖz-özünden induksiýa: ℰ = −L·ΔI / Δt, L — induktiwlik, birligi — genri (Gn).\nTegegiň magnit meýdanynyň energiýasy: W = L·I² / 2.",
+      "ru": "Электромагнитная индукция — возникновение тока (индукционного тока) в замкнутом контуре при изменении магнитного потока через него.\n\n• Магнитный поток: Φ = B·S·cos α, единица — вебер (Вб).\n• Закон Фарадея: ℰᵢ = −ΔΦ / Δt; для катушки из N витков ℰᵢ = −N·ΔΦ / Δt.\n• Правило Ленца: индукционный ток препятствует изменению магнитного потока, которое его вызвало (на это указывает знак минус).\n• В движущемся проводнике: ℰᵢ = B·v·l·sin α.\n\nСамоиндукция: ℰ = −L·ΔI / Δt, L — индуктивность, единица — генри (Гн).\nЭнергия магнитного поля катушки: W = L·I² / 2."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Mesele: 100 sargyly tegekden geçýän magnit akymy 0,2 s içinde 0,01 Wb-dan 0,05 Wb-a çenli deňölçegli artdy. Induksiýa EHG-sini tapyň.\n1) ΔΦ = 0,05 − 0,01 = 0,04 Wb\n2) |ℰᵢ| = N·ΔΦ / Δt = 100 · 0,04 / 0,2 = 20 W\nLensiň düzgüni boýunça induksiýa togy akymyň artmagyna garşy ugrukdyrylýar.",
+      "ru": "Задача: магнитный поток через катушку из 100 витков равномерно вырос с 0,01 Вб до 0,05 Вб за 0,2 с. Найдите ЭДС индукции.\n1) ΔΦ = 0,05 − 0,01 = 0,04 Вб\n2) |ℰᵢ| = N·ΔΦ / Δt = 100 · 0,04 / 0,2 = 20 В\nПо правилу Ленца индукционный ток направлен так, чтобы препятствовать росту потока."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Bir sargyly konturdan geçýän akym 0,5 s içinde 0,3 Wb üýtgedi. Induksiýa EHG-si (moduly) näçe wolt?",
+      "ru": "Поток через контур из одного витка изменился на 0,3 Вб за 0,5 с. Чему равен модуль ЭДС индукции в вольтах?"
+     },
+     "answer": "0.6|0,6",
+     "hint": {
+      "tk": "|ℰ| = ΔΦ / Δt.",
+      "ru": "|ℰ| = ΔΦ / Δt."
+     },
+     "explain": {
+      "tk": "|ℰ| = 0,3 / 0,5 = 0,6 W.",
+      "ru": "|ℰ| = 0,3 / 0,5 = 0,6 В."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Haýsy ýagdaýda halkada induksiýa togy döremeýär?",
+      "ru": "В каком случае в кольце НЕ возникает индукционный ток?"
+     },
+     "options": [
+      {
+       "tk": "Magnit halka içine salnanda",
+       "ru": "Магнит вдвигают в кольцо"
+      },
+      {
+       "tk": "Magnit halkanyň içinde hereketsiz duranda",
+       "ru": "Магнит неподвижно лежит внутри кольца"
+      },
+      {
+       "tk": "Magnit halkadan çykarylanda",
+       "ru": "Магнит выдвигают из кольца"
+      }
+     ],
+     "answer": 1,
+     "hint": {
+      "tk": "Tok diňe akym ÜÝTGÄNDE döreýär.",
+      "ru": "Ток возникает только при ИЗМЕНЕНИИ потока."
+     },
+     "explain": {
+      "tk": "Magnit hereketsiz bolsa, akym hemişelik, ΔΦ = 0, diýmek ℰ = 0 we tok ýok.",
+      "ru": "Если магнит неподвижен, поток постоянен, ΔΦ = 0, значит ℰ = 0 и тока нет."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Lensiň düzgüni energiýanyň saklanma kanunynyň netijesidir.",
+      "ru": "Правило Ленца является следствием закона сохранения энергии."
+     },
+     "answer": true,
+     "hint": {
+      "tk": "Eger induksiýa togy akymyň üýtgemegine kömek etse, näme bolardy?",
+      "ru": "Что было бы, если бы индукционный ток помогал изменению потока?"
+     },
+     "explain": {
+      "tk": "Şeýle bolsa, energiýa hiç zatdan özbaşdak artardy. Magniti hereket etdirmek üçin iş etmeli bolýar we bu iş tokuň energiýasyna öwrülýär.",
+      "ru": "Иначе энергия возрастала бы сама собой из ничего. Чтобы двигать магнит, нужно совершать работу, и именно она превращается в энергию тока."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Induktiwligi 0,4 Gn bolan tegekden 5 A tok geçýär. Magnit meýdanynyň energiýasy näçe J?",
+      "ru": "Через катушку индуктивностью 0,4 Гн течёт ток 5 А. Чему равна энергия магнитного поля в Дж?"
+     },
+     "answer": "5",
+     "hint": {
+      "tk": "W = L·I² / 2.",
+      "ru": "W = L·I² / 2."
+     },
+     "explain": {
+      "tk": "W = 0,4 · 25 / 2 = 5 J.",
+      "ru": "W = 0,4 · 25 / 2 = 5 Дж."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Maýkl Faradeý elektromagnit induksiýany 1831-nji ýylda açdy. Bu açyş häzirki zaman energetikasynyň esasy: elektrik stansiýalarynyň generatorlary, transformatorlar, induksion plitalar we telefonlaryň simsiz zarýadlaýjylary hut şu hadysa esasynda işleýär.",
+      "ru": "Майкл Фарадей открыл электромагнитную индукцию в 1831 году. Это открытие — основа современной энергетики: генераторы электростанций, трансформаторы, индукционные плиты и беспроводные зарядки телефонов работают именно на этом явлении."
+     }
+    }
+   ]
+  },
+  {
+   "id": "physics-11-alternating-current",
+   "grade": 11,
+   "title": {
+    "tk": "Üýtgeýän tok we transformator",
+    "ru": "Переменный ток и трансформатор"
+   },
+   "minutes": 10,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Üýtgeýän tok — ululygy we ugry wagt boýunça periodik üýtgeýän tok. Ony generator döredýär: magnit meýdanynda aýlanýan çarçuwada sinusoidal EHG ýüze çykýar.\n• u = U_m·sin(ωt), ω = 2πν; Türkmenistanda we Ýewropada ýygylyk ν = 50 Gs.\n• Täsir ediji (effektiw) bahalar: U = U_m / √2, I = I_m / √2. Torda «220 W» — bu täsir ediji baha, amplitudasy ≈ 311 W.\n\nGarşylyklar:\n• Induktiw: X_L = ωL\n• Sygym: X_C = 1 / (ωC)\n• Rezonans: X_L = X_C, ýagny ω₀ = 1/√(LC).\n\nTransformator — naprýaženiýäni üýtgedýän enjam:\nU₁ / U₂ = N₁ / N₂ = k. k > 1 — peseldiji, k < 1 — ýokarlandyryjy.\nElektrik energiýasy uzak aralyga ýokary naprýaženiýede iberilýär, sebäbi şonda tok kiçi bolýar we simlerdäki ýitgi (I²R) azalýar.",
+      "ru": "Переменный ток — ток, величина и направление которого периодически меняются во времени. Его создаёт генератор: в рамке, вращающейся в магнитном поле, возникает синусоидальная ЭДС.\n• u = U_m·sin(ωt), ω = 2πν; в Туркменистане и Европе частота ν = 50 Гц.\n• Действующие значения: U = U_m / √2, I = I_m / √2. «220 В» в сети — действующее значение, амплитуда ≈ 311 В.\n\nСопротивления:\n• Индуктивное: X_L = ωL\n• Ёмкостное: X_C = 1 / (ωC)\n• Резонанс: X_L = X_C, то есть ω₀ = 1/√(LC).\n\nТрансформатор — устройство для изменения напряжения:\nU₁ / U₂ = N₁ / N₂ = k. k > 1 — понижающий, k < 1 — повышающий.\nЭнергию на большие расстояния передают при высоком напряжении: тогда ток мал и потери в проводах (I²R) уменьшаются."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Mesele: Transformatoryň birinji sargysynda 2000, ikinjisinde 100 sargy bar. Birinji sargyya 220 W berilýär. Çykyşdaky naprýaženiýäni tapyň.\n1) k = N₁ / N₂ = 2000 / 100 = 20 (peseldiji)\n2) U₂ = U₁ / k = 220 / 20 = 11 W\nÝitgiler bolmasa kuwwat saklanýar: U₁I₁ = U₂I₂, şonuň üçin ikinji sargydaky tok 20 esse uly.",
+      "ru": "Задача: первичная обмотка трансформатора имеет 2000 витков, вторичная — 100. На первичную подано 220 В. Найдите напряжение на выходе.\n1) k = N₁ / N₂ = 2000 / 100 = 20 (понижающий)\n2) U₂ = U₁ / k = 220 / 20 = 11 В\nБез потерь мощность сохраняется: U₁I₁ = U₂I₂, поэтому ток во вторичной обмотке в 20 раз больше."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Ýygylygy 50 Gs bolan üýtgeýän tokuň periody näçe?",
+      "ru": "Чему равен период переменного тока частотой 50 Гц?"
+     },
+     "options": [
+      "0,02 s / с",
+      "0,5 s / с",
+      "50 s / с"
+     ],
+     "answer": 0,
+     "hint": {
+      "tk": "T = 1 / ν.",
+      "ru": "T = 1 / ν."
+     },
+     "explain": {
+      "tk": "T = 1 / 50 = 0,02 s = 20 ms.",
+      "ru": "T = 1 / 50 = 0,02 с = 20 мс."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Transformatorda N₁ = 500, N₂ = 1500. U₁ = 100 W bolsa, U₂ näçe wolt?",
+      "ru": "У трансформатора N₁ = 500, N₂ = 1500. Если U₁ = 100 В, чему равно U₂ в вольтах?"
+     },
+     "answer": "300",
+     "hint": {
+      "tk": "U₂ / U₁ = N₂ / N₁.",
+      "ru": "U₂ / U₁ = N₂ / N₁."
+     },
+     "explain": {
+      "tk": "U₂ = 100 · 1500 / 500 = 300 W — bu ýokarlandyryjy transformator.",
+      "ru": "U₂ = 100 · 1500 / 500 = 300 В — это повышающий трансформатор."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Transformator hemişelik tok bilen hem işleýär.",
+      "ru": "Трансформатор работает и на постоянном токе."
+     },
+     "answer": false,
+     "hint": {
+      "tk": "Transformatoryň işi haýsy hadysa esaslanýar?",
+      "ru": "На каком явлении основана работа трансформатора?"
+     },
+     "explain": {
+      "tk": "Transformator elektromagnit induksiýa esaslanýar. Hemişelik tokda magnit akymy üýtgemeýär, şonuň üçin ikinji sargyda EHG döremeýär.",
+      "ru": "Трансформатор основан на электромагнитной индукции. При постоянном токе магнитный поток не меняется, поэтому во вторичной обмотке ЭДС не возникает."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Üýtgeýän naprýaženiýäniň amplitudasy 100 W. Täsir ediji bahasy takmynan näçe wolt? (bitin sana çenli tegelekläň)",
+      "ru": "Амплитуда переменного напряжения 100 В. Чему примерно равно действующее значение в вольтах? (округлите до целого)"
+     },
+     "answer": "71|70.7|70,7",
+     "hint": {
+      "tk": "U = U_m / √2, √2 ≈ 1,414.",
+      "ru": "U = U_m / √2, √2 ≈ 1,414."
+     },
+     "explain": {
+      "tk": "U = 100 / 1,414 ≈ 70,7 ≈ 71 W.",
+      "ru": "U = 100 / 1,414 ≈ 70,7 ≈ 71 В."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "XIX asyryň ahyrynda ABŞ-da «toklaryň söweşi» boldy: Tomas Edison hemişelik togy, Nikola Tesla we Jorj Westinghaus bolsa üýtgeýän togy goldaýardy. Transformator arkaly naprýaženiýäni aňsat üýtgedip bolýandygy üçin üýtgeýän tok ýeňdi we häzir dünýäniň elektrik torlarynyň esasy bolup durýar.",
+      "ru": "В конце XIX века в США шла «война токов»: Томас Эдисон продвигал постоянный ток, а Никола Тесла и Джордж Вестингауз — переменный. Победил переменный ток, потому что его напряжение легко менять с помощью трансформатора, и сегодня он лежит в основе электросетей мира."
+     }
+    }
+   ]
+  },
+  {
+   "id": "physics-12-geometric-optics",
+   "grade": 12,
+   "title": {
+    "tk": "Optika: serpilme, döwülme we linzalar",
+    "ru": "Оптика: отражение, преломление и линзы"
+   },
+   "minutes": 11,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Geometrik optika ýagtylygy göni çyzykly şöhleler hökmünde öwrenýär.\n\n• Serpilme kanuny: düşme burçy serpilme burçuna deň (α = γ).\n• Döwülme kanuny (Snelliusyň kanuny): n₁·sin α = n₂·sin β.\n• Absolýut döwülme görkezijisi: n = c / v (c ≈ 3·10⁸ m/s — wakuumda ýagtylygyň tizligi).\n• Doly içki serpilme: ýagtylyk optiki dykyz gurşawdan seýrek gurşawa geçende, düşme burçy çäk burçundan uly bolsa, ol doly serpilýär: sin α(çäk) = 1/n.\n\nInçe linzanyň formulasy: 1/F = 1/d + 1/f.\n• d — predmetden linza çenli, f — linzadan şekile çenli aralyk, F — fokus aralygy.\n• Optiki güýç: D = 1/F (dioptriýa, dptr).\n• Çyzykly ulaltma: Γ = f/d.",
+      "ru": "Геометрическая оптика рассматривает свет как прямолинейные лучи.\n\n• Закон отражения: угол падения равен углу отражения (α = γ).\n• Закон преломления (закон Снеллиуса): n₁·sin α = n₂·sin β.\n• Абсолютный показатель преломления: n = c / v (c ≈ 3·10⁸ м/с — скорость света в вакууме).\n• Полное внутреннее отражение: при переходе света из оптически более плотной среды в менее плотную при угле падения больше предельного свет полностью отражается: sin α(пред) = 1/n.\n\nФормула тонкой линзы: 1/F = 1/d + 1/f.\n• d — расстояние от предмета до линзы, f — от линзы до изображения, F — фокусное расстояние.\n• Оптическая сила: D = 1/F (диоптрии, дптр).\n• Линейное увеличение: Γ = f/d."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Mesele: predmet fokus aralygy F = 10 sm bolan ýygnaýjy linzadan d = 30 sm uzaklykda dur. Şekil nirede bolar we ol nähili?\n\n1) 1/f = 1/F − 1/d = 1/10 − 1/30 = 3/30 − 1/30 = 2/30.\n2) f = 15 sm (f > 0 — şekil hakyky, linzanyň beýleki tarapynda).\n3) Γ = f/d = 15/30 = 0,5.\n\nJogap: şekil hakyky, tersine öwrülen, iki esse kiçeldilen.",
+      "ru": "Задача: предмет находится на расстоянии d = 30 см от собирающей линзы с фокусным расстоянием F = 10 см. Где будет изображение и каково оно?\n\n1) 1/f = 1/F − 1/d = 1/10 − 1/30 = 3/30 − 1/30 = 2/30.\n2) f = 15 см (f > 0 — изображение действительное, по другую сторону линзы).\n3) Γ = f/d = 15/30 = 0,5.\n\nОтвет: изображение действительное, перевёрнутое, уменьшенное в 2 раза."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Linzanyň fokus aralygy 0,25 m. Onuň optiki güýji näçe dioptriýa?",
+      "ru": "Фокусное расстояние линзы 0,25 м. Какова её оптическая сила в диоптриях?"
+     },
+     "answer": "4",
+     "hint": {
+      "tk": "D = 1/F, F metrlerde.",
+      "ru": "D = 1/F, F в метрах."
+     },
+     "explain": {
+      "tk": "D = 1/0,25 = 4 dptr.",
+      "ru": "D = 1/0,25 = 4 дптр."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Aýnanyň döwülme görkezijisi 1,5. Aýnada ýagtylygyň tizligi näçä deň?",
+      "ru": "Показатель преломления стекла 1,5. Какова скорость света в стекле?"
+     },
+     "options": [
+      "4,5·10⁸ m/s",
+      "3·10⁸ m/s",
+      "2·10⁸ m/s"
+     ],
+     "answer": 2,
+     "hint": {
+      "tk": "v = c / n.",
+      "ru": "v = c / n."
+     },
+     "explain": {
+      "tk": "v = 3·10⁸ / 1,5 = 2·10⁸ m/s. Gurşawda ýagtylyk wakuumdakydan haýal hereket edýär.",
+      "ru": "v = 3·10⁸ / 1,5 = 2·10⁸ м/с. В среде свет движется медленнее, чем в вакууме."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Ýagtylyk howadan suwa geçende doly içki serpilme bolup biler.",
+      "ru": "Полное внутреннее отражение может произойти, когда свет переходит из воздуха в воду."
+     },
+     "answer": false,
+     "hint": {
+      "tk": "Doly içki serpilme haýsy ugurda bolýar: dykyz gurşawdan seýrege ýa-da tersine?",
+      "ru": "В каком направлении возможно полное внутреннее отражение: из плотной среды в менее плотную или наоборот?"
+     },
+     "explain": {
+      "tk": "Doly içki serpilme diňe optiki dykyz gurşawdan (suw) seýrek gurşawa (howa) geçende bolýar.",
+      "ru": "Полное внутреннее отражение возможно только при переходе из оптически более плотной среды (вода) в менее плотную (воздух)."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Gurşawyň döwülme görkezijisi n = 2. Doly içki serpilmäniň çäk burçy näçe gradus?",
+      "ru": "Показатель преломления среды n = 2. Чему равен предельный угол полного внутреннего отражения в градусах?"
+     },
+     "answer": "30",
+     "hint": {
+      "tk": "sin α(çäk) = 1/n.",
+      "ru": "sin α(пред) = 1/n."
+     },
+     "explain": {
+      "tk": "sin α = 1/2 ⇒ α = 30°.",
+      "ru": "sin α = 1/2 ⇒ α = 30°."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Optiki süýümler (internet kabelleri) doly içki serpilmä esaslanýar: ýagtylyk inçe aýna süýüminiň içinde diwarlardan gaýtalanyp serpilip, uly aralyklara geçýär. Çarlz Kao aýna süýümleri arkaly uzak aralyga maglumat ibermek boýunça işleri üçin 2009-njy ýylda fizika boýunça Nobel baýragyny aldy.",
+      "ru": "Оптоволокно (интернет-кабели) основано на полном внутреннем отражении: свет многократно отражается от стенок тонкого стеклянного волокна и проходит большие расстояния. Чарльз Као получил Нобелевскую премию по физике 2009 года за работы по передаче информации по стекловолокну на большие расстояния."
+     }
+    }
+   ]
+  },
+  {
+   "id": "physics-12-wave-optics",
+   "grade": 12,
+   "title": {
+    "tk": "Ýagtylygyň tolkun häsiýetleri",
+    "ru": "Волновые свойства света"
+   },
+   "minutes": 11,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Ýagtylyk — elektromagnit tolkun. Muny aşakdaky hadysalar subut edýär:\n\n• Interferensiýa — kogerent tolkunlaryň goşulmagy. Ýol tapawudy Δ = kλ bolsa — maksimum (ýagty zolak), Δ = (2k + 1)λ/2 bolsa — minimum (garaňky zolak).\n• Difraksiýa — tolkunyň päsgelçiligiň daşyndan aýlanyp geçmegi. Difraksiýa gözenegi üçin: d·sin φ = kλ (d — gözenegiň periody).\n• Polýarizasiýa — ýagtylygyň kese tolkundygyny görkezýär.\n• Dispersiýa — döwülme görkezijisiniň tolkun uzynlygyna baglylygy; prizmada ak ýagtylyk spektre dargaýar.\n\nÝungyň tejribesi (iki ýaryk): zolaklaryň arasyndaky aralyk Δx = λL/d (L — ekrana çenli aralyk, d — ýaryklaryň arasy).\n\nGörünýän ýagtylyk: takmynan 380–750 nm.",
+      "ru": "Свет — электромагнитная волна. Это доказывают следующие явления:\n\n• Интерференция — сложение когерентных волн. При разности хода Δ = kλ — максимум (светлая полоса), при Δ = (2k + 1)λ/2 — минимум (тёмная полоса).\n• Дифракция — огибание волной препятствий. Для дифракционной решётки: d·sin φ = kλ (d — период решётки).\n• Поляризация — показывает, что свет — поперечная волна.\n• Дисперсия — зависимость показателя преломления от длины волны; в призме белый свет разлагается в спектр.\n\nОпыт Юнга (две щели): расстояние между полосами Δx = λL/d (L — расстояние до экрана, d — расстояние между щелями).\n\nВидимый свет: примерно 380–750 нм."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Mesele: difraksiýa gözeneginde 1 mm-de 500 çyzyk bar. Oňa λ = 600 nm ýagtylyk düşýär. Birinji maksimumyň burçuny we iň uly tertibi tapyň.\n\n1) Period: d = 1 mm / 500 = 2·10⁻⁶ m.\n2) sin φ₁ = λ/d = 6·10⁻⁷ / 2·10⁻⁶ = 0,3 ⇒ φ₁ ≈ 17,5°.\n3) sin φ ≤ 1 ⇒ k ≤ d/λ = 3,33.\n4) Iň uly tertip: k = 3.",
+      "ru": "Задача: дифракционная решётка имеет 500 штрихов на 1 мм. На неё падает свет с λ = 600 нм. Найдите угол первого максимума и наибольший порядок.\n\n1) Период: d = 1 мм / 500 = 2·10⁻⁶ м.\n2) sin φ₁ = λ/d = 6·10⁻⁷ / 2·10⁻⁶ = 0,3 ⇒ φ₁ ≈ 17,5°.\n3) sin φ ≤ 1 ⇒ k ≤ d/λ = 3,33.\n4) Наибольший порядок: k = 3."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Iki kogerent tolkunyň ýol tapawudy 1,5λ. Bu nokatda näme synlanýar?",
+      "ru": "Разность хода двух когерентных волн равна 1,5λ. Что наблюдается в этой точке?"
+     },
+     "options": [
+      {
+       "tk": "Maksimum",
+       "ru": "Максимум"
+      },
+      {
+       "tk": "Minimum",
+       "ru": "Минимум"
+      },
+      {
+       "tk": "Interferensiýa bolmaýar",
+       "ru": "Интерференции нет"
+      }
+     ],
+     "answer": 1,
+     "hint": {
+      "tk": "1,5λ = 3·λ/2 — ýarym tolkunlaryň täk sany.",
+      "ru": "1,5λ = 3·λ/2 — нечётное число полуволн."
+     },
+     "explain": {
+      "tk": "Δ = (2k + 1)λ/2, k = 1 bolanda. Tolkunlar garşylykly fazada goşulýar — minimum.",
+      "ru": "Δ = (2k + 1)λ/2 при k = 1. Волны складываются в противофазе — минимум."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Ýungyň tejribesinde λ = 500 nm, L = 2 m, d = 0,5 mm. Zolaklaryň arasyndaky aralyk näçe mm?",
+      "ru": "В опыте Юнга λ = 500 нм, L = 2 м, d = 0,5 мм. Каково расстояние между полосами в мм?"
+     },
+     "answer": "2",
+     "hint": {
+      "tk": "Δx = λL/d, ähli ululyklary metre geçiriň.",
+      "ru": "Δx = λL/d, переведите все величины в метры."
+     },
+     "explain": {
+      "tk": "Δx = 5·10⁻⁷·2 / 5·10⁻⁴ = 2·10⁻³ m = 2 mm.",
+      "ru": "Δx = 5·10⁻⁷·2 / 5·10⁻⁴ = 2·10⁻³ м = 2 мм."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Polýarizasiýa hadysasy ýagtylygyň kese tolkundygyny subut edýär.",
+      "ru": "Явление поляризации доказывает, что свет — поперечная волна."
+     },
+     "answer": true,
+     "hint": {
+      "tk": "Uzyn tolkunlar (meselem, howadaky ses) polýarizasiýa bolup bilýärmi?",
+      "ru": "Могут ли продольные волны (например, звук в воздухе) поляризоваться?"
+     },
+     "explain": {
+      "tk": "Diňe kese tolkunlarda yrgyldylaryň ugry saýlanyp bilner. Uzyn tolkunlar polýarizasiýa bolmaýar.",
+      "ru": "Только у поперечных волн можно выделить направление колебаний. Продольные волны не поляризуются."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Ak ýagtylygyň prizmada reňklere dargamagy nähili atlandyrylýar?",
+      "ru": "Как называется разложение белого света призмой на цвета?"
+     },
+     "options": [
+      {
+       "tk": "Dispersiýa",
+       "ru": "Дисперсия"
+      },
+      {
+       "tk": "Polýarizasiýa",
+       "ru": "Поляризация"
+      },
+      {
+       "tk": "Serpilme",
+       "ru": "Отражение"
+      }
+     ],
+     "answer": 0,
+     "hint": {
+      "tk": "Dürli reňkler üçin döwülme görkezijisi dürli.",
+      "ru": "Для разных цветов показатель преломления разный."
+     },
+     "explain": {
+      "tk": "Dispersiýa: n tolkun uzynlygyna bagly, şonuň üçin her reňk dürli burç bilen döwülýär. Göýdürüm hem şeýle emele gelýär.",
+      "ru": "Дисперсия: n зависит от длины волны, поэтому каждый цвет преломляется под своим углом. Так же образуется радуга."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "XIX asyryň başynda Tomas Ýung iki ýaryk bilen geçiren tejribesinde ekranda ýagty we garaňky zolaklary gördi. Bu ýagtylygyň tolkun tebigatyny ýüze çykardy. Sabyn köpürjiklerindäki we suwuň ýüzündäki ýagyň reňkli öwüşginleri hem inçe gatlaklarda interferensiýanyň netijesidir.",
+      "ru": "В начале XIX века Томас Юнг в опыте с двумя щелями увидел на экране чередование светлых и тёмных полос. Это показало волновую природу света. Радужные переливы мыльных пузырей и масляной плёнки на воде — тоже результат интерференции в тонких плёнках."
+     }
+    }
+   ]
+  },
+  {
+   "id": "physics-12-relativity",
+   "grade": 12,
+   "title": {
+    "tk": "Ýörite otnositellik nazaryýeti",
+    "ru": "Специальная теория относительности"
+   },
+   "minutes": 11,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "1905-nji ýylda Albert Eýnşteýn ýörite otnositellik nazaryýetini (ÝON) döretdi. Onuň iki postulaty:\n1) Ähli inersial hasaplaýyş ulgamlarynda fizikanyň kanunlary birmeňzeş.\n2) Wakuumda ýagtylygyň tizligi c ≈ 3·10⁸ m/s ähli inersial ulgamlarda birmeňzeş we çeşmäniň tizligine bagly däl.\n\nNetijeler (γ = 1/√(1 − v²/c²) — Lorens faktory):\n• Wagtyň haýallamagy: Δt = γ·Δt₀ (Δt₀ — hususy wagt).\n• Uzynlygyň gysgalmagy: l = l₀/γ.\n• Massa we energiýanyň baglanyşygy: E₀ = mc².\n• Massasy bolan jisim c tizlige ýetip bilmeýär.",
+      "ru": "В 1905 году Альберт Эйнштейн создал специальную теорию относительности (СТО). Её два постулата:\n1) Во всех инерциальных системах отсчёта законы физики одинаковы.\n2) Скорость света в вакууме c ≈ 3·10⁸ м/с одинакова во всех инерциальных системах и не зависит от скорости источника.\n\nСледствия (γ = 1/√(1 − v²/c²) — лоренц-фактор):\n• Замедление времени: Δt = γ·Δt₀ (Δt₀ — собственное время).\n• Сокращение длины: l = l₀/γ.\n• Связь массы и энергии: E₀ = mc².\n• Тело с массой не может достичь скорости c."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Mesele: kosmos gämisi v = 0,8c tizlik bilen uçýar. Gämidäki sagada görä ýol 3 ýyl dowam etdi. Ýerdäki synçy üçin ol näçe dowam etdi?\n\n1) v²/c² = 0,64; 1 − 0,64 = 0,36; √0,36 = 0,6.\n2) γ = 1/0,6 = 5/3.\n3) Δt = γ·Δt₀ = (5/3)·3 = 5 ýyl.\n\nŞol tizlikde 10 m uzynlykdaky gämi Ýerden ölçelende 10·0,6 = 6 m bolup görüner.",
+      "ru": "Задача: космический корабль летит со скоростью v = 0,8c. По часам корабля полёт длился 3 года. Сколько он длился для наблюдателя на Земле?\n\n1) v²/c² = 0,64; 1 − 0,64 = 0,36; √0,36 = 0,6.\n2) γ = 1/0,6 = 5/3.\n3) Δt = γ·Δt₀ = (5/3)·3 = 5 лет.\n\nПри той же скорости корабль длиной 10 м при измерении с Земли будет иметь длину 10·0,6 = 6 м."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "v = 0,6c tizlikde Lorens faktory γ näçä deň?",
+      "ru": "Чему равен лоренц-фактор γ при скорости v = 0,6c?"
+     },
+     "answer": "1.25|1,25|5/4",
+     "hint": {
+      "tk": "1 − 0,36 = 0,64, onuň kwadrat köki 0,8.",
+      "ru": "1 − 0,36 = 0,64, квадратный корень из него 0,8."
+     },
+     "explain": {
+      "tk": "γ = 1/√(1 − 0,36) = 1/0,8 = 1,25.",
+      "ru": "γ = 1/√(1 − 0,36) = 1/0,8 = 1,25."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "1 g maddanyň dynçlyk energiýasy takmynan näçä deň?",
+      "ru": "Чему примерно равна энергия покоя 1 г вещества?"
+     },
+     "options": [
+      "9·10¹³ J",
+      "3·10⁵ J",
+      "9·10¹⁶ J"
+     ],
+     "answer": 0,
+     "hint": {
+      "tk": "E = mc², m = 0,001 kg, c² = 9·10¹⁶ m²/s².",
+      "ru": "E = mc², m = 0,001 кг, c² = 9·10¹⁶ м²/с²."
+     },
+     "explain": {
+      "tk": "E = 10⁻³·9·10¹⁶ = 9·10¹³ J. 9·10¹⁶ J — 1 kg üçin.",
+      "ru": "E = 10⁻³·9·10¹⁶ = 9·10¹³ Дж. 9·10¹⁶ Дж — это для 1 кг."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Ýeterlik uly güýç berilse, massasy bolan jisimi ýagtylygyň tizligine çenli tizlendirip bolar.",
+      "ru": "Если приложить достаточно большую силу, тело с массой можно разогнать до скорости света."
+     },
+     "answer": false,
+     "hint": {
+      "tk": "v → c bolanda γ we energiýa näme bolýar?",
+      "ru": "Что происходит с γ и энергией при v → c?"
+     },
+     "explain": {
+      "tk": "v → c bolanda γ tükeniksizlige ymtylýar, ýagny tükeniksiz energiýa gerek bolardy. Şonuň üçin bu mümkin däl.",
+      "ru": "При v → c γ стремится к бесконечности, то есть потребовалась бы бесконечная энергия. Поэтому это невозможно."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Hususy uzynlygy 10 m bolan çybyk 0,8c tizlik bilen hereket edýär. Hereketsiz synçy üçin onuň uzynlygy näçe metr?",
+      "ru": "Стержень с собственной длиной 10 м движется со скоростью 0,8c. Какова его длина для неподвижного наблюдателя в метрах?"
+     },
+     "answer": "6",
+     "hint": {
+      "tk": "l = l₀·√(1 − v²/c²).",
+      "ru": "l = l₀·√(1 − v²/c²)."
+     },
+     "explain": {
+      "tk": "l = 10·√(1 − 0,64) = 10·0,6 = 6 m.",
+      "ru": "l = 10·√(1 − 0,64) = 10·0,6 = 6 м."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "GPS hemralaryndaky atom sagatlary otnositellik täsirleri sebäpli Ýerdäki sagatlardan günde takmynan 38 mikrosekunt öňe gidýär (tizlik olary haýalladýar, gowşak agyrlyk güýji bolsa çaltlandyrýar). Bu düzediş girizilmese, ýeriň kesgitlenmegindäki ýalňyşlyk her gün kilometrlerçe artardy.",
+      "ru": "Атомные часы на спутниках GPS из-за эффектов относительности уходят вперёд относительно земных примерно на 38 микросекунд в сутки (скорость их замедляет, а более слабая гравитация ускоряет). Без этой поправки ошибка определения координат росла бы на километры каждый день."
+     }
+    }
+   ]
+  },
+  {
+   "id": "physics-12-quantum-physics",
+   "grade": 12,
+   "title": {
+    "tk": "Kwant fizikasy: fotonlar we fotoeffekt",
+    "ru": "Квантовая физика: фотоны и фотоэффект"
+   },
+   "minutes": 11,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "1900-nji ýylda Maks Plank ýagtylygyň porsiýalar — kwantlar bilen şöhlelenýändigini çaklady. Fotonyň energiýasy:\nE = hν = hc/λ, h ≈ 6,63·10⁻³⁴ J·s — Plankyň hemişeligi.\nFotonyň impulsy: p = h/λ.\n\nFotoeffekt — ýagtylygyň täsirinde metaldan elektronlaryň çykmagy. Eýnşteýniň deňlemesi (1905):\nhν = A + mv²/2 (A — çykyş işi).\n• Elektronlaryň iň uly kinetik energiýasy ýagtylygyň ýygylygyna bagly, intensiwligine bagly däl.\n• Intensiwlik diňe çykýan elektronlaryň sanyny kesgitleýär.\n• Gyzyl araçäk: ν(min) = A/h — ondan pes ýygylykda fotoeffekt bolmaýar.\n\nKorpuskulýar-tolkun dualizmi: de Broýl (1924) her bölejigiň tolkun häsiýetiniň bardygyny görkezdi: λ = h/p.\n\n1 eV = 1,6·10⁻¹⁹ J.",
+      "ru": "В 1900 году Макс Планк предположил, что свет излучается порциями — квантами. Энергия фотона:\nE = hν = hc/λ, h ≈ 6,63·10⁻³⁴ Дж·с — постоянная Планка.\nИмпульс фотона: p = h/λ.\n\nФотоэффект — вырывание электронов из металла под действием света. Уравнение Эйнштейна (1905):\nhν = A + mv²/2 (A — работа выхода).\n• Максимальная кинетическая энергия электронов зависит от частоты света, а не от интенсивности.\n• Интенсивность определяет лишь число вырванных электронов.\n• Красная граница: ν(min) = A/h — при меньшей частоте фотоэффекта нет.\n\nКорпускулярно-волновой дуализм: де Бройль (1924) показал, что у любой частицы есть волновые свойства: λ = h/p.\n\n1 эВ = 1,6·10⁻¹⁹ Дж."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Mesele: tolkun uzynlygy λ = 500 nm bolan fotonyň energiýasyny tapyň.\n\n1) E = hc/λ = 6,63·10⁻³⁴ · 3·10⁸ / 5·10⁻⁷.\n2) Sanawjy: 19,89·10⁻²⁶ ≈ 1,99·10⁻²⁵.\n3) E ≈ 1,99·10⁻²⁵ / 5·10⁻⁷ ≈ 3,98·10⁻¹⁹ J.\n4) eV-da: 3,98·10⁻¹⁹ / 1,6·10⁻¹⁹ ≈ 2,5 eV.\n\nEger metalyň çykyş işi 2 eV bolsa, elektronlaryň iň uly kinetik energiýasy ≈ 0,5 eV bolar.",
+      "ru": "Задача: найдите энергию фотона с длиной волны λ = 500 нм.\n\n1) E = hc/λ = 6,63·10⁻³⁴ · 3·10⁸ / 5·10⁻⁷.\n2) Числитель: 19,89·10⁻²⁶ ≈ 1,99·10⁻²⁵.\n3) E ≈ 1,99·10⁻²⁵ / 5·10⁻⁷ ≈ 3,98·10⁻¹⁹ Дж.\n4) В эВ: 3,98·10⁻¹⁹ / 1,6·10⁻¹⁹ ≈ 2,5 эВ.\n\nЕсли работа выхода металла 2 эВ, максимальная кинетическая энергия электронов ≈ 0,5 эВ."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Metalyň çykyş işi 2 eV. Oňa energiýasy 5 eV bolan fotonlar düşýär. Elektronlaryň iň uly kinetik energiýasy näçe eV?",
+      "ru": "Работа выхода металла 2 эВ. На него падают фотоны с энергией 5 эВ. Какова максимальная кинетическая энергия электронов в эВ?"
+     },
+     "answer": "3",
+     "hint": {
+      "tk": "Fotonyň energiýasy = çykyş işi + kinetik energiýa.",
+      "ru": "Энергия фотона = работа выхода + кинетическая энергия."
+     },
+     "explain": {
+      "tk": "E(k) = hν − A = 5 − 2 = 3 eV.",
+      "ru": "E(к) = hν − A = 5 − 2 = 3 эВ."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Fotoelektronlaryň iň uly kinetik energiýasy nämä bagly?",
+      "ru": "От чего зависит максимальная кинетическая энергия фотоэлектронов?"
+     },
+     "options": [
+      {
+       "tk": "Ýagtylygyň intensiwligine",
+       "ru": "От интенсивности света"
+      },
+      {
+       "tk": "Ýagtylandyrmagyň dowamlylygyna",
+       "ru": "От длительности освещения"
+      },
+      {
+       "tk": "Ýagtylygyň ýygylygyna",
+       "ru": "От частоты света"
+      }
+     ],
+     "answer": 2,
+     "hint": {
+      "tk": "Eýnşteýniň deňlemesine serediň: hν = A + E(k).",
+      "ru": "Посмотрите на уравнение Эйнштейна: hν = A + E(к)."
+     },
+     "explain": {
+      "tk": "E(k) = hν − A — diňe ýygylyga we metalyň görnüşine bagly. Intensiwlik elektronlaryň sanyny üýtgedýär.",
+      "ru": "E(к) = hν − A — зависит только от частоты и вида металла. Интенсивность меняет число электронов."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Gyzyl araçäkden ýokary ýygylykda ýagtylygyň intensiwligi artdyrylsa, fotoelektronlaryň sany artýar.",
+      "ru": "Если при частоте выше красной границы увеличить интенсивность света, число фотоэлектронов возрастёт."
+     },
+     "answer": true,
+     "hint": {
+      "tk": "Intensiwlik — bir sekuntda düşýän fotonlaryň sany.",
+      "ru": "Интенсивность — это число фотонов, падающих за секунду."
+     },
+     "explain": {
+      "tk": "Fotonlar köp bolsa, olar köp elektrony çykarýar. Ýöne her elektronyň energiýasy üýtgemeýär.",
+      "ru": "Больше фотонов — больше вырванных электронов. Но энергия каждого электрона не меняется."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Elektronlaryň tolkun häsiýetini haýsy tejribe tassyklady?",
+      "ru": "Какой опыт подтвердил волновые свойства электронов?"
+     },
+     "options": [
+      {
+       "tk": "Elektronlaryň kristalda difraksiýasy",
+       "ru": "Дифракция электронов на кристалле"
+      },
+      {
+       "tk": "Rezerfordyň tejribesi",
+       "ru": "Опыт Резерфорда"
+      },
+      {
+       "tk": "Milikeniň tejribesi",
+       "ru": "Опыт Милликена"
+      }
+     ],
+     "answer": 0,
+     "hint": {
+      "tk": "Difraksiýa — tolkunlara mahsus hadysa.",
+      "ru": "Дифракция — явление, характерное для волн."
+     },
+     "explain": {
+      "tk": "1927-nji ýylda Dewisson we Džermer elektronlaryň kristalda difraksiýasyny synladylar — bu de Broýlyň gipotezasyny tassyklady.",
+      "ru": "В 1927 году Дэвиссон и Джермер наблюдали дифракцию электронов на кристалле — это подтвердило гипотезу де Бройля."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Albert Eýnşteýn 1921-nji ýyl üçin fizika boýunça Nobel baýragyny otnositellik nazaryýeti üçin däl-de, fotoeffektiň kanunyny açandygy üçin aldy. Fotoeffekt häzirki wagtda gün panellerinde, fotokameralaryň datçiklerinde we awtomatik gapylaryň datçiklerinde ulanylýar.",
+      "ru": "Альберт Эйнштейн получил Нобелевскую премию по физике за 1921 год не за теорию относительности, а за открытие закона фотоэффекта. Сегодня фотоэффект используется в солнечных панелях, матрицах фотокамер и датчиках автоматических дверей."
+     }
+    }
+   ]
+  },
+  {
+   "id": "physics-12-atomic-nucleus",
+   "grade": 12,
+   "title": {
+    "tk": "Atom ýadrosy we radioaktiwlik",
+    "ru": "Атомное ядро и радиоактивность"
+   },
+   "minutes": 11,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Atom ýadrosy protonlardan we neýtronlardan (nuklonlardan) durýar.\n• Z — protonlaryň sany (zarýad sany), N — neýtronlaryň sany, A = Z + N — massa sany.\n• Izotoplar — Z-i birmeňzeş, N-i dürli bolan ýadrolar (meselem, ¹²C we ¹⁴C).\n• Massa defekti: ýadronyň massasy onuň nuklonlarynyň massalarynyň jeminden kiçi. Baglanyşyk energiýasy: E = Δm·c².\n\nRadioaktiw dargama:\n• α-dargama: ýadro ⁴He çykarýar → Z − 2, A − 4.\n• β⁻-dargama: neýtron protona öwrülýär, elektron çykýar → Z + 1, A üýtgemeýär.\n• γ-şöhlelenme: ýokary energiýaly foton, Z we A üýtgemeýär.\n\nÝarym dargama döwri T: N = N₀·2^(−t/T).\n\nÝadro reaksiýalary: agyr ýadrolaryň bölünmegi (AES-de uran) we ýeňil ýadrolaryň sintezi (Günde wodorodyň geliýe öwrülmegi).",
+      "ru": "Атомное ядро состоит из протонов и нейтронов (нуклонов).\n• Z — число протонов (зарядовое число), N — число нейтронов, A = Z + N — массовое число.\n• Изотопы — ядра с одинаковым Z, но разным N (например, ¹²C и ¹⁴C).\n• Дефект массы: масса ядра меньше суммы масс его нуклонов. Энергия связи: E = Δm·c².\n\nРадиоактивный распад:\n• α-распад: ядро испускает ⁴He → Z − 2, A − 4.\n• β⁻-распад: нейтрон превращается в протон, вылетает электрон → Z + 1, A не меняется.\n• γ-излучение: фотон высокой энергии, Z и A не меняются.\n\nПериод полураспада T: N = N₀·2^(−t/T).\n\nЯдерные реакции: деление тяжёлых ядер (уран на АЭС) и синтез лёгких ядер (превращение водорода в гелий на Солнце)."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Mesele 1: ²³⁸U (Z = 92) α-dargamany başdan geçirýär. Nähili ýadro emele gelýär?\nZ = 92 − 2 = 90 (torii), A = 238 − 4 = 234 → ²³⁴Th.\n\nMesele 2: radioaktiw maddanyň 80 g-y bar, T = 5 gün. 15 günden soň näçe galar?\n1) t/T = 15/5 = 3 ýarym dargama döwri.\n2) m = 80·2⁻³ = 80/8 = 10 g.",
+      "ru": "Задача 1: ²³⁸U (Z = 92) испытывает α-распад. Какое ядро образуется?\nZ = 92 − 2 = 90 (торий), A = 238 − 4 = 234 → ²³⁴Th.\n\nЗадача 2: имеется 80 г радиоактивного вещества, T = 5 суток. Сколько останется через 15 суток?\n1) t/T = 15/5 = 3 периода полураспада.\n2) m = 80·2⁻³ = 80/8 = 10 г."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Uglerod-14 (¹⁴C, Z = 6) ýadrosynda näçe neýtron bar?",
+      "ru": "Сколько нейтронов в ядре углерода-14 (¹⁴C, Z = 6)?"
+     },
+     "answer": "8",
+     "hint": {
+      "tk": "N = A − Z.",
+      "ru": "N = A − Z."
+     },
+     "explain": {
+      "tk": "N = 14 − 6 = 8.",
+      "ru": "N = 14 − 6 = 8."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "β⁻-dargamada ýadronyň zarýad sany Z nähili üýtgeýär?",
+      "ru": "Как меняется зарядовое число Z ядра при β⁻-распаде?"
+     },
+     "options": [
+      {
+       "tk": "2-ä kemelýär",
+       "ru": "Уменьшается на 2"
+      },
+      {
+       "tk": "1-e artýar",
+       "ru": "Увеличивается на 1"
+      },
+      {
+       "tk": "Üýtgemeýär",
+       "ru": "Не меняется"
+      }
+     ],
+     "answer": 1,
+     "hint": {
+      "tk": "Ýadroda neýtron näme öwrülýär?",
+      "ru": "Во что превращается нейтрон в ядре?"
+     },
+     "explain": {
+      "tk": "Neýtron protona öwrülýär (n → p + e⁻ + antineýtrino), şonuň üçin Z bir birlik artýar, A bolsa üýtgemeýär.",
+      "ru": "Нейтрон превращается в протон (n → p + e⁻ + антинейтрино), поэтому Z увеличивается на 1, а A не меняется."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Üç ýarym dargama döwründen soň radioaktiw ýadrolaryň haýsy bölegi galýar? (drob görnüşinde)",
+      "ru": "Какая доля радиоактивных ядер останется через три периода полураспада? (в виде дроби)"
+     },
+     "answer": "1/8|0.125|0,125|12.5%|12,5%",
+     "hint": {
+      "tk": "Her döwürde ýadrolaryň sany iki esse azalýar.",
+      "ru": "За каждый период число ядер уменьшается вдвое."
+     },
+     "explain": {
+      "tk": "½·½·½ = 1/8, ýagny 12,5 %.",
+      "ru": "½·½·½ = 1/8, то есть 12,5 %."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Günüň energiýasynyň esasy çeşmesi — wodorod ýadrolarynyň geliý ýadrolaryna sintezi.",
+      "ru": "Главный источник энергии Солнца — синтез ядер водорода в ядра гелия."
+     },
+     "answer": true,
+     "hint": {
+      "tk": "Günüň merkezinde temperatura we basyş juda ýokary.",
+      "ru": "В центре Солнца очень высокие температура и давление."
+     },
+     "explain": {
+      "tk": "Günüň ýadrosynda termoýadro sintezi bolup geçýär: dört proton netijede bir geliý-4 ýadrosyna öwrülýär we massa defekti energiýa hökmünde bölünip çykýar.",
+      "ru": "В ядре Солнца идёт термоядерный синтез: четыре протона в итоге превращаются в ядро гелия-4, а дефект массы выделяется в виде энергии."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "Radioaktiwligi 1896-njy ýylda Anri Bekkerel uran duzlarynyň gara kagyza dolanan fotoplastinkany garaldýandygyny görüp açdy. Soňra Mariýa we Pýer Kýuriler poloniý we radiý elementlerini açdylar. Bekkerel we Kýuriler 1903-nji ýylda Nobel baýragyny bölüşdiler.",
+      "ru": "Радиоактивность открыл Анри Беккерель в 1896 году, заметив, что соли урана засвечивают фотопластинку, завёрнутую в чёрную бумагу. Затем Мария и Пьер Кюри открыли элементы полоний и радий. Беккерель и супруги Кюри разделили Нобелевскую премию 1903 года."
+     }
+    }
+   ]
+  },
+  {
+   "id": "physics-12-astrophysics",
+   "grade": 12,
+   "title": {
+    "tk": "Astrofizika: ýyldyzlar we Älem",
+    "ru": "Астрофизика: звёзды и Вселенная"
+   },
+   "minutes": 10,
+   "steps": [
+    {
+     "type": "theory",
+     "text": {
+      "tk": "Astrofizika asman jisimleriniň fiziki tebigatyny öwrenýär.\n\n• Aralyk birlikleri: astronomik birlik (a.b. ≈ 150 mln km — Ýerden Güne çenli), ýagtylyk ýyly (ýagtylygyň bir ýylda geçýän ýoly ≈ 9,46·10¹² km), parsek (≈ 3,26 ýagtylyk ýyly).\n• Ýyldyzlar termoýadro sintezi arkaly şöhle saçýar. Gersşprung–Rassel diagrammasy ýyldyzlaryň ýagtylygyny we temperaturasyny baglanyşdyrýar; köp ýyldyzlar (Gün hem) Esasy yzygiderlikde ýerleşýär.\n• Ýyldyzyň ömrüniň soňy massasyna bagly: Gün ýaly ýyldyzlar → gyzyl gigant → ak mitti; uly ýyldyzlar → üstün täze ýyldyz → neýtron ýyldyzy ýa-da gara deşik.\n• Habblyň kanuny: galaktikalar bizden uzaklaşýar, v = H₀·r, H₀ ≈ 70 km/(s·Mpk).\n• Uly partlama nazaryýetine görä Älemiň ýaşy ≈ 13,8 mlrd ýyl.",
+      "ru": "Астрофизика изучает физическую природу небесных тел.\n\n• Единицы расстояния: астрономическая единица (а.е. ≈ 150 млн км — от Земли до Солнца), световой год (путь света за год ≈ 9,46·10¹² км), парсек (≈ 3,26 светового года).\n• Звёзды светят за счёт термоядерного синтеза. Диаграмма Герцшпрунга–Рассела связывает светимость и температуру звёзд; большинство звёзд (и Солнце) находятся на Главной последовательности.\n• Конец жизни звезды зависит от массы: звёзды как Солнце → красный гигант → белый карлик; массивные звёзды → сверхновая → нейтронная звезда или чёрная дыра.\n• Закон Хаббла: галактики удаляются от нас, v = H₀·r, H₀ ≈ 70 км/(с·Мпк).\n• По теории Большого взрыва возраст Вселенной ≈ 13,8 млрд лет."
+     }
+    },
+    {
+     "type": "example",
+     "text": {
+      "tk": "Mesele: galaktika bizden r = 100 Mpk uzaklykda. Habblyň kanunyna görä ol nähili tizlik bilen uzaklaşýar?\n\nv = H₀·r = 70 · 100 = 7000 km/s.\n\nTers mesele: galaktika 3500 km/s tizlik bilen uzaklaşýar. Oňa çenli aralyk: r = v/H₀ = 3500/70 = 50 Mpk.",
+      "ru": "Задача: галактика находится на расстоянии r = 100 Мпк. С какой скоростью она удаляется по закону Хаббла?\n\nv = H₀·r = 70 · 100 = 7000 км/с.\n\nОбратная задача: галактика удаляется со скоростью 3500 км/с. Расстояние до неё: r = v/H₀ = 3500/70 = 50 Мпк."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Günüň ýagtylygy Ýere takmynan näçe wagtda ýetýär?",
+      "ru": "За какое время примерно свет Солнца доходит до Земли?"
+     },
+     "options": [
+      {
+       "tk": "8 sekunt",
+       "ru": "8 секунд"
+      },
+      {
+       "tk": "8 minut",
+       "ru": "8 минут"
+      },
+      {
+       "tk": "8 sagat",
+       "ru": "8 часов"
+      }
+     ],
+     "answer": 1,
+     "hint": {
+      "tk": "t = 1,5·10¹¹ m / 3·10⁸ m/s.",
+      "ru": "t = 1,5·10¹¹ м / 3·10⁸ м/с."
+     },
+     "explain": {
+      "tk": "t = 500 s ≈ 8,3 minut.",
+      "ru": "t = 500 с ≈ 8,3 минуты."
+     }
+    },
+    {
+     "type": "input",
+     "q": {
+      "tk": "Galaktika 14 000 km/s tizlik bilen uzaklaşýar. H₀ = 70 km/(s·Mpk) bolsa, oňa çenli aralyk näçe Mpk?",
+      "ru": "Галактика удаляется со скоростью 14 000 км/с. При H₀ = 70 км/(с·Мпк) каково расстояние до неё в Мпк?"
+     },
+     "answer": "200",
+     "hint": {
+      "tk": "r = v / H₀.",
+      "ru": "r = v / H₀."
+     },
+     "explain": {
+      "tk": "r = 14 000 / 70 = 200 Mpk.",
+      "ru": "r = 14 000 / 70 = 200 Мпк."
+     }
+    },
+    {
+     "type": "truefalse",
+     "q": {
+      "tk": "Gün ömrüniň soňunda gara deşige öwrüler.",
+      "ru": "В конце жизни Солнце превратится в чёрную дыру."
+     },
+     "answer": false,
+     "hint": {
+      "tk": "Gara deşik üçin ýyldyzyň massasy näçe bolmaly?",
+      "ru": "Какой должна быть масса звезды, чтобы образовалась чёрная дыра?"
+     },
+     "explain": {
+      "tk": "Gara deşik diňe Günden ençeme esse agyr ýyldyzlardan emele gelýär. Gün gyzyl gigant bolup, soňra ak mittä öwrüler.",
+      "ru": "Чёрные дыры образуются только из звёзд, во много раз массивнее Солнца. Солнце станет красным гигантом, а затем белым карликом."
+     }
+    },
+    {
+     "type": "choice",
+     "q": {
+      "tk": "Ýagtylyk ýyly nämäniň ölçeg birligi?",
+      "ru": "Единицей чего является световой год?"
+     },
+     "options": [
+      {
+       "tk": "Aralygyň",
+       "ru": "Расстояния"
+      },
+      {
+       "tk": "Wagtyň",
+       "ru": "Времени"
+      },
+      {
+       "tk": "Ýagtylyk güýjüniň",
+       "ru": "Силы света"
+      }
+     ],
+     "answer": 0,
+     "hint": {
+      "tk": "Adynda «ýyl» bar, ýöne ol ýagtylygyň geçýän ýoly.",
+      "ru": "В названии есть «год», но это путь, пройденный светом."
+     },
+     "explain": {
+      "tk": "Ýagtylyk ýyly — ýagtylygyň wakuumda bir ýylda geçýän aralygy, takmynan 9,46 trillion km.",
+      "ru": "Световой год — расстояние, которое свет проходит в вакууме за год, около 9,46 трлн км."
+     }
+    },
+    {
+     "type": "world",
+     "text": {
+      "tk": "2019-njy ýylda «Event Horizon Telescope» taslamasy gara deşigiň ilkinji suratyny — M87 galaktikasynyň merkezindäki gara deşigiň «kölegesini» halka çap etdi. Munuň üçin dünýäniň dürli ýerlerindäki radioteleskoplar bir ägirt uly teleskop ýaly bilelikde işledildi.",
+      "ru": "В 2019 году проект «Event Horizon Telescope» опубликовал первое изображение чёрной дыры — «тень» чёрной дыры в центре галактики M87. Для этого радиотелескопы в разных точках мира работали вместе как один гигантский телескоп."
+     }
+    }
+   ]
+  }
+ ]
+}

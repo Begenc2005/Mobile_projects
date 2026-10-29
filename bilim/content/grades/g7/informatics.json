@@ -1,0 +1,288 @@
+{
+  "grade": 7,
+  "subject": "informatics",
+  "lessons": [
+    {
+      "id": "informatics-7-computer-architecture",
+      "grade": 7,
+      "topic": 0,
+      "title": {"tk": "Kompýuter arhitekturasy", "ru": "Архитектура компьютера"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Häzirki kompýuterleriň köpüsi fon Neýmanyň arhitekturasy (1945) esasynda gurlan. Onuň esasy pikiri: programma hem, maglumat hem bir ýatda saklanýar.\n\nEsasy bölekleri:\n• Prosessor (CPU) — buýruklary ýerine ýetirýär. Içinde arifmetik-logiki blok (ALU) we dolandyryş bloky bar. Tizligi gigagerslerde (GHz) ölçenýär.\n• Operatiw ýat (RAM) — häzir işleýän programmalar we maglumatlar. Tok öçse, arassalanýar.\n• Hemişelik ýat (HDD, SSD) — faýllar uzak wagtlap saklanýar.\n• Giriziş enjamlary: klawiatura, syçanjyk, mikrofon, skaner.\n• Çykaryş enjamlary: monitor, printer, dinamikler.\n• Ana platasy (motherboard) we şina (bus) — ähli bölekleri birleşdirýär.\n\nMaglumat ölçegi: 1 bait = 8 bit; 1 KB = 1024 bait; 1 MB = 1024 KB; 1 GB = 1024 MB.",
+          "ru": "Большинство современных компьютеров построено по архитектуре фон Неймана (1945). Её главная идея: и программа, и данные хранятся в одной памяти.\n\nОсновные части:\n• Процессор (CPU) — выполняет команды. Внутри — арифметико-логическое устройство (АЛУ) и устройство управления. Тактовая частота измеряется в гигагерцах (ГГц).\n• Оперативная память (RAM, ОЗУ) — программы и данные, с которыми работают сейчас. При отключении питания стирается.\n• Долговременная память (HDD, SSD) — файлы хранятся долго.\n• Устройства ввода: клавиатура, мышь, микрофон, сканер.\n• Устройства вывода: монитор, принтер, колонки.\n• Материнская плата и шина — соединяют все части.\n\nЕдиницы информации: 1 байт = 8 бит; 1 КБ = 1024 байта; 1 МБ = 1024 КБ; 1 ГБ = 1024 МБ."
+        }},
+        {"type": "example", "text": {
+          "tk": "Sen surat redaktoryny açýarsyň. Näme bolýar?\n\n1. Programma SSD-de saklanýar.\n2. Ony işledeniňde, programma SSD-den RAM-a ýüklenýär (RAM has çalt).\n3. Prosessor buýruklary RAM-dan birin-birin alyp ýerine ýetirýär.\n4. Netije monitorda görkezilýär (çykaryş).\n5. Faýly «Save» edeniňde, ol ýene SSD-ä ýazylýar — ýogsam tok öçende ýitip biler.\n\nHasaplama: 2 MB näçe KB? 2 × 1024 = 2048 KB.",
+          "ru": "Ты открываешь графический редактор. Что происходит?\n\n1. Программа хранится на SSD.\n2. При запуске она загружается с SSD в оперативную память (RAM работает гораздо быстрее).\n3. Процессор по одной берёт команды из RAM и выполняет их.\n4. Результат выводится на монитор (вывод).\n5. Когда нажимаешь «Сохранить», файл записывается обратно на SSD — иначе при отключении питания он пропадёт.\n\nВычисление: сколько КБ в 2 МБ? 2 × 1024 = 2048 КБ."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Haýsy enjam buýruklary ýerine ýetirýär?", "ru": "Какое устройство выполняет команды?"},
+          "options": [{"tk": "monitor", "ru": "монитор"}, {"tk": "prosessor", "ru": "процессор"}, {"tk": "printer", "ru": "принтер"}],
+          "answer": 1,
+          "hint": {"tk": "Ony kompýuteriň «beýnisi» diýýärler.", "ru": "Его называют «мозгом» компьютера."},
+          "explain": {"tk": "Prosessor (CPU) buýruklary okap ýerine ýetirýär.", "ru": "Процессор (CPU) считывает и выполняет команды."}
+        },
+        {"type": "input",
+          "q": {"tk": "1 baýtda näçe bit bar?", "ru": "Сколько бит в 1 байте?"},
+          "answer": "8",
+          "hint": {"tk": "Bu san 2^3.", "ru": "Это число 2^3."},
+          "explain": {"tk": "1 bait = 8 bit.", "ru": "1 байт = 8 бит."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Tok öçende RAM-daky maglumatlar saklanyp galýar.", "ru": "При отключении питания данные в оперативной памяти сохраняются."},
+          "answer": false,
+          "hint": {"tk": "Näme üçin faýly «Save» etmeli?", "ru": "Зачем нужно нажимать «Сохранить»?"},
+          "explain": {"tk": "Ýalňyş: RAM tok bilen işleýär we öçende arassalanýar. Hemişelik saklamak üçin SSD/HDD gerek.", "ru": "Неверно: RAM энергозависима и очищается при отключении. Для долгого хранения нужен SSD/HDD."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsysy giriziş enjamy?", "ru": "Что из этого — устройство ввода?"},
+          "options": [{"tk": "klawiatura", "ru": "клавиатура"}, {"tk": "dinamik", "ru": "колонка"}, {"tk": "monitor", "ru": "монитор"}],
+          "answer": 0,
+          "hint": {"tk": "Haýsy enjam arkaly kompýutere maglumat berýärsiň?", "ru": "Через какое устройство ты передаёшь данные в компьютер?"},
+          "explain": {"tk": "Klawiatura maglumaty girizýär; dinamik we monitor çykarýar.", "ru": "Клавиатура вводит данные; колонка и монитор выводят."}
+        },
+        {"type": "world", "text": {
+          "tk": "Ilkinji uly elektron kompýuterleriň biri ENIAC (ABŞ, 1945–1946) takmynan 30 tonna agramly bolup, tutuş bir otagy eýeläpdir. Häzirki smartfon ondan millionlarça esse çalt işleýär.",
+          "ru": "Один из первых больших электронных компьютеров ENIAC (США, 1945–1946) весил около 30 тонн и занимал целый зал. Современный смартфон работает в миллионы раз быстрее."
+        }}
+      ]
+    },
+    {
+      "id": "informatics-7-operating-systems",
+      "grade": 7,
+      "topic": 1,
+      "title": {"tk": "Operasion ulgamlar", "ru": "Операционные системы"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Operasion ulgam (OS) — kompýuteriň enjamlaryny dolandyrýan we beýleki programmalaryň işlemegine şert döredýän esasy programma.\n\nOS-yň wezipeleri:\n• Prosessory we ýady programmalaryň arasynda paýlamak.\n• Faýllary we bukjalary dolandyrmak (faýl ulgamy).\n• Enjamlar bilen işlemek (draýwerler arkaly).\n• Ulanyjy interfeýsi: penjireler, ikonalar, menýular.\n• Howpsuzlyk: ulanyjylar, parollar, rugsatlar.\n\nMeşhur OS-lar:\n• Kompýuter üçin: Windows, macOS, Linux.\n• Telefon üçin: Android, iOS.\n\nFaýl ýoly mysaly: C:\\Users\\Aman\\Documents\\report.docx — bu ýerde .docx — faýlyň giňeltmesi (görnüşi).",
+          "ru": "Операционная система (ОС) — основная программа, которая управляет устройствами компьютера и обеспечивает работу других программ.\n\nФункции ОС:\n• Распределять процессор и память между программами.\n• Управлять файлами и папками (файловая система).\n• Работать с устройствами (через драйверы).\n• Интерфейс пользователя: окна, значки, команды.\n• Безопасность: пользователи, пароли, права доступа.\n\nИзвестные ОС:\n• Для компьютеров: Windows, macOS, Linux.\n• Для телефонов: Android, iOS.\n\nПример пути к файлу: C:\\Users\\Aman\\Documents\\report.docx — здесь .docx — расширение (тип) файла."
+        }},
+        {"type": "example", "text": {
+          "tk": "Sen bir wagtda aýdym diňleýärsiň, brauzerde maglumat gözleýärsiň we tekst ýazýarsyň.\n\n1. Üç programma hem RAM-a ýüklenýär — OS her birine ýat bölegini berýär.\n2. Prosessor bir wagtda diňe käbir buýrugy ýerine ýetirýär, ýöne OS programmalaryň arasynda örän çalt geçýär (sekundyň müňden bir bölekleri) — biz olary «bilelikde» işleýär diýip görýäris. Muňa köp meseleli işlemek (multitasking) diýilýär.\n3. Sesi dinamige ibermek üçin OS ses kartasynyň draýwerini ulanýar.\n4. Tekst faýlyny saklanyňda, OS ony diskde boş ýere ýazýar we faýl ulgamynda belleýär.",
+          "ru": "Ты одновременно слушаешь музыку, ищешь что-то в браузере и набираешь текст.\n\n1. Все три программы загружены в RAM — ОС выделяет каждой свой участок памяти.\n2. Процессор в каждый момент выполняет лишь некоторые команды, но ОС очень быстро переключается между программами (за доли миллисекунды) — и нам кажется, что они работают «одновременно». Это называется многозадачностью.\n3. Чтобы передать звук на колонки, ОС использует драйвер звуковой карты.\n4. Когда ты сохраняешь текст, ОС записывает его в свободное место на диске и отмечает в файловой системе."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Haýsysy operasion ulgam?", "ru": "Что из этого — операционная система?"},
+          "options": ["Microsoft Word", "Google Chrome", "Linux"],
+          "answer": 2,
+          "hint": {"tk": "Beýleki ikisi — OS-yň içinde işleýän programmalar.", "ru": "Остальные два — программы, которые работают внутри ОС."},
+          "explain": {"tk": "Linux — OS. Word — tekst redaktory, Chrome — brauzer.", "ru": "Linux — ОС. Word — текстовый редактор, Chrome — браузер."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Draýwer — OS-a belli bir enjam bilen işlemäge kömek edýän programma.", "ru": "Драйвер — программа, которая помогает ОС работать с определённым устройством."},
+          "answer": true,
+          "hint": {"tk": "Täze printer birikdirenimizde näme gurnaýarys?", "ru": "Что мы устанавливаем, когда подключаем новый принтер?"},
+          "explain": {"tk": "Dogry: draýwer OS bilen enjamyň arasynda «terjimeçi».", "ru": "Верно: драйвер — «переводчик» между ОС и устройством."}
+        },
+        {"type": "input",
+          "q": {"tk": "«photo.jpg» faýlynyň giňeltmesini nokatsyz ýaz.", "ru": "Напиши расширение файла «photo.jpg» без точки."},
+          "answer": "jpg",
+          "hint": {"tk": "Giňeltme soňky nokatdan soň gelýär.", "ru": "Расширение идёт после последней точки."},
+          "explain": {"tk": "Giňeltme — jpg, bu surat faýlydygyny görkezýär.", "ru": "Расширение — jpg, оно показывает, что это файл изображения."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy OS esasan smartfonlarda ulanylýar?", "ru": "Какая ОС используется в основном на смартфонах?"},
+          "options": ["Android", "Windows", "macOS"],
+          "answer": 0,
+          "hint": {"tk": "Onuň nyşany ýaşyl robot.", "ru": "Её символ — зелёный робот."},
+          "explain": {"tk": "Android we iOS — mobil OS-lar.", "ru": "Android и iOS — мобильные ОС."}
+        },
+        {"type": "world", "text": {
+          "tk": "Linux ýadrosyny 1991-nji ýylda finlýandiýaly talyp Linus Torwalds hobbi hökmünde döredipdir. Android hem Linux ýadrosynda gurlan, şonuň üçin Linux häzir dünýäde iň köp ýaýran ýadrolaryň biridir.",
+          "ru": "Ядро Linux в 1991 году создал как хобби финский студент Линус Торвальдс. Android тоже построен на ядре Linux, поэтому сегодня оно одно из самых распространённых в мире."
+        }}
+      ]
+    },
+    {
+      "id": "informatics-7-spreadsheet-formulas",
+      "grade": 7,
+      "topic": 2,
+      "title": {"tk": "Elektron tablisalarda formulalar", "ru": "Формулы в электронных таблицах"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Elektron tablisa (Excel, Google Sheets, LibreOffice Calc) — öýjüklerden ybarat tor. Her öýjügiň salgysy bar: sütün harpy + setir belgisi, mysal üçin B3.\n\nFormula hemişe = belgisi bilen başlanýar:\n• =A1+B1 — goşmak\n• =A1*2 — köpeltmek; / — bölmek; ^ — dereje\n\nEsasy funksiýalar:\n• =SUM(A1:A5) — jemi\n• =AVERAGE(A1:A5) — ortaça baha\n• =MAX(...), =MIN(...) — iň uly we iň kiçi\n• =IF(A1>=50; \"geçdi\"; \"geçmedi\") — şert (käbir programmalarda ; ýerine , ulanylýar)\n\nA1:A5 — diapazon (A1-den A5-e çenli).\n\nSalgylar:\n• Otnositel (A1) — formulany göçürende üýtgeýär.\n• Absolýut ($A$1) — göçürende üýtgemeýär.",
+          "ru": "Электронная таблица (Excel, Google Sheets, LibreOffice Calc) — сетка из ячеек. У каждой ячейки есть адрес: буква столбца + номер строки, например B3.\n\nФормула всегда начинается со знака =:\n• =A1+B1 — сложение\n• =A1*2 — умножение; / — деление; ^ — степень\n\nОсновные функции:\n• =SUM(A1:A5) — сумма (в русской версии СУММ)\n• =AVERAGE(A1:A5) — среднее (СРЗНАЧ)\n• =MAX(...), =MIN(...) — наибольшее и наименьшее\n• =IF(A1>=50; \"сдал\"; \"не сдал\") — условие (ЕСЛИ; в некоторых программах вместо ; ставится ,)\n\nA1:A5 — диапазон (от A1 до A5).\n\nАдреса:\n• Относительный (A1) — меняется при копировании формулы.\n• Абсолютный ($A$1) — при копировании не меняется."
+        }},
+        {"type": "example", "text": {
+          "tk": "Bahalar tablisasy: A2:A4 — atlar, B2:B4 — bahalar: 4, 5, 3.\n\n1. B5 öýjügine jemi: =SUM(B2:B4) → 4+5+3 = 12.\n2. B6 öýjügine ortaça: =AVERAGE(B2:B4) → 12 / 3 = 4.\n3. C2 öýjügine: =B2*10 → 40. Ony C3-e göçürseň, formula =B3*10 bolýar (otnositel salgy) → 50.\n4. Eger hemişe D1 öýjügindäki koeffisiýente köpeltmek gerek bolsa: =B2*$D$1 — göçürende $D$1 üýtgemeýär.",
+          "ru": "Таблица оценок: A2:A4 — имена, B2:B4 — оценки: 4, 5, 3.\n\n1. В ячейку B5 — сумма: =SUM(B2:B4) → 4+5+3 = 12.\n2. В ячейку B6 — среднее: =AVERAGE(B2:B4) → 12 / 3 = 4.\n3. В ячейку C2: =B2*10 → 40. Если скопировать её в C3, формула станет =B3*10 (относительный адрес) → 50.\n4. Если всегда нужно умножать на коэффициент из ячейки D1: =B2*$D$1 — при копировании $D$1 не изменится."
+        }},
+        {"type": "input",
+          "q": {"tk": "A1 = 6, A2 = 8, A3 = 10. =AVERAGE(A1:A3) netijesi näçe?", "ru": "A1 = 6, A2 = 8, A3 = 10. Чему равен результат =AVERAGE(A1:A3)?"},
+          "answer": "8",
+          "hint": {"tk": "Jemi tap we sanlaryň mukdaryna böl.", "ru": "Найди сумму и раздели на количество чисел."},
+          "explain": {"tk": "(6 + 8 + 10) / 3 = 24 / 3 = 8.", "ru": "(6 + 8 + 10) / 3 = 24 / 3 = 8."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Formula haýsy belgi bilen başlanýar?", "ru": "С какого знака начинается формула?"},
+          "options": ["#", "=", "$"],
+          "answer": 1,
+          "hint": {"tk": "Ol «deňdir» manysyny berýär.", "ru": "Он означает «равно»."},
+          "explain": {"tk": "Formula = bilen başlanýar. $ — absolýut salgy üçin.", "ru": "Формула начинается с =. Знак $ — для абсолютного адреса."}
+        },
+        {"type": "choice",
+          "q": {"tk": "C1 öýjüginde =A1+B1 formulasy bar. Ony C2-ä göçürsek, näme bolar?", "ru": "В ячейке C1 формула =A1+B1. Что получится, если скопировать её в C2?"},
+          "options": ["=A1+B1", "=A2+B1", "=A2+B2"],
+          "answer": 2,
+          "hint": {"tk": "Otnositel salgylaryň setir belgisi bir aşak süýşýär.", "ru": "У относительных адресов номер строки сдвигается на одну вниз."},
+          "explain": {"tk": "Iki salgy hem otnositel, şonuň üçin ikisi hem bir setir aşak süýşýär: =A2+B2.", "ru": "Оба адреса относительные, поэтому оба сдвигаются на строку вниз: =A2+B2."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "$A$1 salgysy formulany göçürende üýtgemeýär.", "ru": "Адрес $A$1 не меняется при копировании формулы."},
+          "answer": true,
+          "hint": {"tk": "$ belgisi salgyny «berkidýär».", "ru": "Знак $ «закрепляет» адрес."},
+          "explain": {"tk": "Dogry: $A$1 — absolýut salgy.", "ru": "Верно: $A$1 — абсолютный адрес."}
+        },
+        {"type": "world", "text": {
+          "tk": "Ilkinji meşhur elektron tablisa VisiCalc 1979-njy ýylda Dan Briklin we Bob Frankston tarapyndan Apple II kompýuteri üçin döredilipdir. Köp adamlar Apple II-ni diňe şu programma üçin satyn alypdyr.",
+          "ru": "Первая популярная электронная таблица VisiCalc была создана в 1979 году Дэном Бриклином и Бобом Френкстоном для компьютера Apple II. Многие покупали Apple II только ради этой программы."
+        }}
+      ]
+    },
+    {
+      "id": "informatics-7-computer-networks",
+      "grade": 7,
+      "topic": 3,
+      "title": {"tk": "Kompýuter torlary", "ru": "Компьютерные сети"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Kompýuter tory — maglumat alyşmak üçin birleşdirilen kompýuterler we enjamlar.\n\nGörnüşleri:\n• LAN (lokal tor) — bir otagda, mekdepde, ofisde.\n• WAN (giň tor) — şäherleri we ýurtlary birleşdirýär. Iň uly WAN — Internet.\n\nEnjamlar:\n• Router — torlary birleşdirýär we maglumaty dogry ýere ugradýar.\n• Switch (kommutator) — LAN-daky kompýuterleri birleşdirýär.\n• Wi-Fi — simsiz baglanyşyk.\n\nSalgylar:\n• IP salgy — tordaky enjamyň belgisi, mysal üçin 192.168.1.10 (IPv4: 0–255 aralygynda 4 san).\n• Domen ady — adamlar üçin aňsat at (example.com). DNS ony IP salga öwürýär.\n\nTizlik bit/sekuntda ölçenýär: Mbit/s. 100 Mbit/s ≈ sekuntda 12,5 MB.",
+          "ru": "Компьютерная сеть — компьютеры и устройства, соединённые для обмена данными.\n\nВиды:\n• LAN (локальная сеть) — в комнате, школе, офисе.\n• WAN (глобальная сеть) — соединяет города и страны. Самая большая WAN — Интернет.\n\nУстройства:\n• Маршрутизатор (router) — соединяет сети и направляет данные по нужному адресу.\n• Коммутатор (switch) — соединяет компьютеры в LAN.\n• Wi-Fi — беспроводное подключение.\n\nАдреса:\n• IP-адрес — номер устройства в сети, например 192.168.1.10 (IPv4: 4 числа от 0 до 255).\n• Доменное имя — удобное для людей имя (example.com). DNS превращает его в IP-адрес.\n\nСкорость измеряется в битах в секунду: Мбит/с. 100 Мбит/с ≈ 12,5 МБ в секунду."
+        }},
+        {"type": "example", "text": {
+          "tk": "Brauzere example.com ýazanyňda näme bolýar?\n\n1. Kompýuter DNS serwerinden soraýar: «example.com-yň IP salgysy näme?»\n2. DNS IP salgyny gaýtarýar.\n3. Brauzer şol IP salga sorag (request) iberýär — ol router arkaly Internete çykýar.\n4. Maglumat kiçi böleklere — paketlere bölünip, dürli ýollar bilen gidip biler.\n5. Serwer sahypany iberýär, kompýuter paketleri ýygnap, sahypany görkezýär.\n\nHasaplama: 40 Mbit faýl 8 Mbit/s tizlikde näçe sekunt ýüklenýär? 40 / 8 = 5 s.",
+          "ru": "Что происходит, когда ты вводишь в браузере example.com?\n\n1. Компьютер спрашивает у DNS-сервера: «Какой IP-адрес у example.com?»\n2. DNS возвращает IP-адрес.\n3. Браузер отправляет запрос (request) на этот IP — через маршрутизатор он уходит в Интернет.\n4. Данные делятся на небольшие части — пакеты, которые могут идти разными путями.\n5. Сервер отправляет страницу, компьютер собирает пакеты и показывает её.\n\nВычисление: за сколько секунд загрузится файл 40 Мбит при скорости 8 Мбит/с? 40 / 8 = 5 с."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Mekdebiň içindäki tor haýsy görnüşe degişli?", "ru": "К какому виду относится сеть внутри школы?"},
+          "options": ["WAN", "LAN", "DNS"],
+          "answer": 1,
+          "hint": {"tk": "Lokal — bir binanyň içinde.", "ru": "Локальная — в пределах одного здания."},
+          "explain": {"tk": "Bir binadaky tor — LAN. DNS tor görnüşi däl, at hyzmaty.", "ru": "Сеть в одном здании — LAN. DNS — не вид сети, а служба имён."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "192.168.1.300 — dogry IPv4 salgysy.", "ru": "192.168.1.300 — правильный IPv4-адрес."},
+          "answer": false,
+          "hint": {"tk": "Her san 0–255 aralygynda bolmaly.", "ru": "Каждое число должно быть от 0 до 255."},
+          "explain": {"tk": "Ýalňyş: 300 > 255, şonuň üçin bu salgy nädogry.", "ru": "Неверно: 300 > 255, поэтому адрес недопустим."}
+        },
+        {"type": "input",
+          "q": {"tk": "Tizlik 10 Mbit/s. 50 Mbit faýl näçe sekuntda ýüklenýär?", "ru": "Скорость 10 Мбит/с. За сколько секунд загрузится файл 50 Мбит?"},
+          "answer": "5",
+          "hint": {"tk": "Wagt = göwrüm / tizlik.", "ru": "Время = объём / скорость."},
+          "explain": {"tk": "50 / 10 = 5 sekunt.", "ru": "50 / 10 = 5 секунд."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Domen adyny IP salga öwürýän hyzmat haýsy?", "ru": "Какая служба превращает доменное имя в IP-адрес?"},
+          "options": ["DNS", "Wi-Fi", "USB"],
+          "answer": 0,
+          "hint": {"tk": "Ol Internetiň «telefon kitapçasy» ýaly.", "ru": "Её называют «телефонной книгой» Интернета."},
+          "explain": {"tk": "DNS (Domain Name System) domen atlaryny IP salgylara öwürýär.", "ru": "DNS (Domain Name System) переводит доменные имена в IP-адреса."}
+        },
+        {"type": "world", "text": {
+          "tk": "Internetiň ýurtlararasy maglumatynyň esasy bölegi deňiz düýbünde ýatan optiki-süýümli kabeller arkaly geçýär. Bu kabeller ummanlary kesip geçip, yklymlary birleşdirýär.",
+          "ru": "Основная часть межконтинентального интернет-трафика идёт по оптоволоконным кабелям, проложенным по дну морей и океанов. Эти кабели соединяют континенты."
+        }}
+      ]
+    },
+    {
+      "id": "informatics-7-python-intro",
+      "grade": 7,
+      "topic": 4,
+      "title": {"tk": "Python bilen tanyşlyk", "ru": "Знакомство с Python"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Python — ýönekeý we güýçli programmirleme dili. Ol ylymda, web-de, emeli intellektde, oýunlarda ulanylýar.\n\nEsasy düşünjeler:\n• print() — ekrana çykarmak: print(\"Salam!\")\n• Üýtgeýän ululyk (variable) — maglumaty saklaýan at: age = 13\n• Maglumat görnüşleri: int (bitin san: 5), float (drob: 2.5), str (tekst: \"Aman\"), bool (True/False).\n• input() — ulanyjydan maglumat almak; ol hemişe tekst gaýtarýar, san üçin int(input()).\n\nAmallar:\n• + - * / — adaty amallar (/ hemişe float berýär: 7 / 2 = 3.5)\n• // — bitin bölmek: 7 // 2 = 3\n• % — galyndy: 7 % 2 = 1\n• ** — dereje: 2 ** 3 = 8\n\n# bilen başlanýan setir — teswir, ol ýerine ýetirilmeýär.",
+          "ru": "Python — простой и мощный язык программирования. Его используют в науке, вебе, искусственном интеллекте, играх.\n\nОсновные понятия:\n• print() — вывод на экран: print(\"Привет!\")\n• Переменная — имя, которое хранит данные: age = 13\n• Типы данных: int (целое: 5), float (дробное: 2.5), str (строка: \"Aman\"), bool (True/False).\n• input() — получить данные от пользователя; всегда возвращает строку, для числа — int(input()).\n\nОперации:\n• + - * / — обычные операции (/ всегда даёт float: 7 / 2 = 3.5)\n• // — целочисленное деление: 7 // 2 = 3\n• % — остаток: 7 % 2 = 1\n• ** — степень: 2 ** 3 = 8\n\nСтрока, начинающаяся с #, — комментарий, она не выполняется."
+        }},
+        {"type": "example", "text": {
+          "tk": "Gönüburçlugyň meýdanyny hasaplaýan programma:\n\n# gönüburçlugyň meýdany\na = int(input(\"Uzynlygy: \"))\nb = int(input(\"Ini: \"))\ns = a * b\nprint(\"Meýdany:\", s)\n\nÝerine ýetirilişi (ulanyjy 5 we 3 girizýär):\n1. a = 5\n2. b = 3\n3. s = 5 * 3 = 15\n4. Ekranda: Meýdany: 15\n\nEger int() ýazmasak, a we b tekst bolar we a * b ýalňyşlyk berer.",
+          "ru": "Программа, вычисляющая площадь прямоугольника:\n\n# площадь прямоугольника\na = int(input(\"Длина: \"))\nb = int(input(\"Ширина: \"))\ns = a * b\nprint(\"Площадь:\", s)\n\nВыполнение (пользователь вводит 5 и 3):\n1. a = 5\n2. b = 3\n3. s = 5 * 3 = 15\n4. На экране: Площадь: 15\n\nЕсли не написать int(), a и b будут строками, и a * b вызовет ошибку."
+        }},
+        {"type": "input",
+          "q": {"tk": "Python näme çykarar? print(17 % 5)", "ru": "Что выведет Python? print(17 % 5)"},
+          "answer": "2",
+          "hint": {"tk": "% — bölmekden galyndy.", "ru": "% — остаток от деления."},
+          "explain": {"tk": "17 = 5 · 3 + 2, galyndy 2.", "ru": "17 = 5 · 3 + 2, остаток 2."}
+        },
+        {"type": "choice",
+          "q": {"tk": "x = 4, soňra x = x + 3. print(x) näme çykarar?", "ru": "x = 4, затем x = x + 3. Что выведет print(x)?"},
+          "options": ["4", "3", "7"],
+          "answer": 2,
+          "hint": {"tk": "Täze baha köne bahanyň üstüne 3 goşup alynýar.", "ru": "Новое значение — старое плюс 3."},
+          "explain": {"tk": "x = 4 + 3 = 7.", "ru": "x = 4 + 3 = 7."}
+        },
+        {"type": "choice",
+          "q": {"tk": "\"Aman\" bahasynyň görnüşi haýsy?", "ru": "Какой тип у значения \"Aman\"?"},
+          "options": ["str", "int", "bool"],
+          "answer": 0,
+          "hint": {"tk": "Dyrnaklaryň içindäki tekst.", "ru": "Текст в кавычках."},
+          "explain": {"tk": "Dyrnakdaky islendik tekst — str (setir).", "ru": "Любой текст в кавычках — str (строка)."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Python-da 7 // 2 netijesi 3.5-e deň.", "ru": "В Python результат 7 // 2 равен 3.5."},
+          "answer": false,
+          "hint": {"tk": "// we / tapawudyny ýatla.", "ru": "Вспомни разницу между // и /."},
+          "explain": {"tk": "Ýalňyş: // bitin bölmek, 7 // 2 = 3. 3.5 — bu 7 / 2.", "ru": "Неверно: // — целочисленное деление, 7 // 2 = 3. 3.5 — это 7 / 2."}
+        },
+        {"type": "world", "text": {
+          "tk": "Python dilini niderlandly programmist Gwido wan Rossum döredip, ilkinji gezek 1991-nji ýylda çap edipdir. Dil ýylany däl-de, Britan gülküli teleýaýlymy «Monty Python's Flying Circus»-yň adyny göterýär.",
+          "ru": "Язык Python создал нидерландский программист Гвидо ван Россум, первая версия вышла в 1991 году. Название дано не в честь змеи, а в честь британского комедийного шоу «Monty Python's Flying Circus»."
+        }}
+      ]
+    },
+    {
+      "id": "informatics-7-conditionals",
+      "grade": 7,
+      "topic": 5,
+      "title": {"tk": "Şertli operatorlar: if, elif, else", "ru": "Условные операторы: if, elif, else"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Şertli operator programma şerte görä dürli hereket etmäge mümkinçilik berýär.\n\nif şert:\n    buýruklar (şert dogry bolsa)\nelif başga_şert:\n    buýruklar\nelse:\n    buýruklar (hiç bir şert dogry däl bolsa)\n\nMöhüm:\n• Şertden soň iki nokat (:) goýulýar.\n• Içki buýruklar 4 boşluk bilen süýşürilýär (indentation) — Python üçin bu hökmany!\n\nDeňeşdirme amallary: == (deň), != (deň däl), >, <, >=, <=\n\nLogiki amallar:\n• and — iki şert hem dogry bolmaly\n• or — iň bolmanda biri dogry\n• not — tersine öwürýär\n\n= (baha bermek) bilen == (deňeşdirmek) gatyşdyrma!",
+          "ru": "Условный оператор позволяет программе действовать по-разному в зависимости от условия.\n\nif условие:\n    команды (если условие истинно)\nelif другое_условие:\n    команды\nelse:\n    команды (если ни одно условие не выполнилось)\n\nВажно:\n• После условия ставится двоеточие (:).\n• Вложенные команды сдвигаются на 4 пробела (отступ) — для Python это обязательно!\n\nОперации сравнения: == (равно), != (не равно), >, <, >=, <=\n\nЛогические операции:\n• and — оба условия истинны\n• or — хотя бы одно истинно\n• not — отрицание\n\nНе путай = (присваивание) и == (сравнение)!"
+        }},
+        {"type": "example", "text": {
+          "tk": "Synag balyna görä baha:\n\nball = int(input())\nif ball >= 85:\n    print(\"5\")\nelif ball >= 70:\n    print(\"4\")\nelif ball >= 50:\n    print(\"3\")\nelse:\n    print(\"2\")\n\nYzarlama (ball = 72):\n1. 72 >= 85? Ýok → indiki şert.\n2. 72 >= 70? Hawa → «4» çykarylýar.\n3. Galan şertler barlanmaýar.\n\nJübüt ýa-da täk:\nif n % 2 == 0:\n    print(\"jübüt\")\nelse:\n    print(\"täk\")",
+          "ru": "Оценка по баллам за тест:\n\nball = int(input())\nif ball >= 85:\n    print(\"5\")\nelif ball >= 70:\n    print(\"4\")\nelif ball >= 50:\n    print(\"3\")\nelse:\n    print(\"2\")\n\nТрассировка (ball = 72):\n1. 72 >= 85? Нет → следующее условие.\n2. 72 >= 70? Да → выводится «4».\n3. Остальные условия не проверяются.\n\nЧётное или нечётное:\nif n % 2 == 0:\n    print(\"чётное\")\nelse:\n    print(\"нечётное\")"
+        }},
+        {"type": "choice",
+          "q": {"tk": "Ýokardaky baha programmasynda ball = 50 bolsa, näme çykarylýar?", "ru": "Что выведет программа оценок выше при ball = 50?"},
+          "options": ["2", "4", "3"],
+          "answer": 2,
+          "hint": {"tk": ">= «uly ýa-da deň» diýmek.", "ru": ">= означает «больше или равно»."},
+          "explain": {"tk": "50 >= 85 — ýok, 50 >= 70 — ýok, 50 >= 50 — hawa → «3».", "ru": "50 >= 85 — нет, 50 >= 70 — нет, 50 >= 50 — да → «3»."}
+        },
+        {"type": "input",
+          "q": {"tk": "x = 15. Näme çykarylýar?\nif x > 10 and x < 20:\n    print(1)\nelse:\n    print(0)", "ru": "x = 15. Что будет выведено?\nif x > 10 and x < 20:\n    print(1)\nelse:\n    print(0)"},
+          "answer": "1",
+          "hint": {"tk": "Iki şerti hem aýratyn barla.", "ru": "Проверь оба условия по отдельности."},
+          "explain": {"tk": "15 > 10 — True, 15 < 20 — True; True and True = True → 1.", "ru": "15 > 10 — True, 15 < 20 — True; True and True = True → 1."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Python-da deňligi barlamak üçin bir = belgisi ulanylýar: if a = 5:", "ru": "В Python для проверки равенства используется один знак =: if a = 5:"},
+          "answer": false,
+          "hint": {"tk": "= baha berýär, deňeşdirmek üçin başga belgi bar.", "ru": "= присваивает значение, для сравнения есть другой знак."},
+          "explain": {"tk": "Ýalňyş: deňeşdirmek üçin == gerek: if a == 5:", "ru": "Неверно: для сравнения нужен ==: if a == 5:"}
+        },
+        {"type": "choice",
+          "q": {"tk": "n = 7 bolsa, «n % 2 == 0» şerti näme berýär?", "ru": "Что даёт условие «n % 2 == 0» при n = 7?"},
+          "options": ["False", "True", {"tk": "ýalňyşlyk", "ru": "ошибку"}],
+          "answer": 0,
+          "hint": {"tk": "7-ni 2-ä bölende galyndy näçe?", "ru": "Какой остаток при делении 7 на 2?"},
+          "explain": {"tk": "7 % 2 = 1, 1 == 0 — False. Diýmek, 7 täk san.", "ru": "7 % 2 = 1, 1 == 0 — False. Значит, 7 нечётное."}
+        },
+        {"type": "world", "text": {
+          "tk": "True we False bahalary bilen işleýän logika iňlis matematigi Jorj Bulyň (George Boole) adyny göterýär — ol 19-njy asyrda bu algebrany işläp düzüpdir. Şonuň üçin Python-daky bool görnüşi hem onuň adyndan gelýär.",
+          "ru": "Логика со значениями True и False названа в честь английского математика Джорджа Буля (George Boole), разработавшего эту алгебру в XIX веке. Поэтому и тип bool в Python носит его имя."
+        }}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "grade": 7,
+  "subject": "geography",
+  "lessons": [
+    {
+      "id": "geography-7-continents",
+      "grade": 7,
+      "topic": 0,
+      "title": {"tk": "Materikler we dünýä bölekleri", "ru": "Материки и части света"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Materik — her tarapyndan ummanlar we deňizler bilen gurşalan uly gury ýer bölegi. Ýer ýüzünde 6 materik bar (ulydan kiçä):\n• Ýewraziýa — takmynan 54 mln km²\n• Afrika — takmynan 30 mln km²\n• Demirgazyk Amerika — takmynan 24 mln km²\n• Günorta Amerika — takmynan 18 mln km²\n• Antarktida — takmynan 14 mln km²\n• Awstraliýa — takmynan 7,7 mln km²\n\nDünýä bölekleri taryhy-medeni düşünje: Ýewropa, Aziýa, Afrika, Amerika, Awstraliýa we Okeaniýa, Antarktida. Mysal üçin, Ýewraziýa materigi iki dünýä bölegine — Ýewropa we Aziýa bölünýär. Olaryň arasyndaky serhet adatça Ural daglary we Ural derýasy, Kaspi deňzi, Kuma–Manyç oýy, Gara deňiz we bogazlar boýunça geçirilýär.\n\nGury ýer Ýeriň üstüniň takmynan 29%-ini, suw bolsa 71%-ini tutýar.\n\nPlitalaryň tektonikasy: materikler litosfera plitalarynyň üstünde ýerleşýär we ýylda birnäçe santimetr süýşýär. 200 mln ýyl mundan ozal ähli materikler bir uly materik — Pangeýa bolupdyr.",
+          "ru": "Материк — крупный участок суши, со всех сторон окружённый океанами и морями. На Земле 6 материков (от большего к меньшему):\n• Евразия — около 54 млн км²\n• Африка — около 30 млн км²\n• Северная Америка — около 24 млн км²\n• Южная Америка — около 18 млн км²\n• Антарктида — около 14 млн км²\n• Австралия — около 7,7 млн км²\n\nЧасти света — историко-культурное понятие: Европа, Азия, Африка, Америка, Австралия и Океания, Антарктида. Например, материк Евразия делится на две части света — Европу и Азию. Границу между ними обычно проводят по Уральским горам и реке Урал, Каспийскому морю, Кумо-Манычской впадине, Чёрному морю и проливам.\n\nСуша занимает около 29% поверхности Земли, вода — около 71%.\n\nТектоника плит: материки лежат на литосферных плитах, которые смещаются на несколько сантиметров в год. Около 200 млн лет назад все материки составляли один сверхматерик — Пангею."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mesele: Ýewraziýa Awstraliýadan takmynan näçe esse uly?\n1) Ýewraziýa ≈ 54 mln km², Awstraliýa ≈ 7,7 mln km².\n2) 54 ÷ 7,7 ≈ 7.\n3) Jogap: Ýewraziýa Awstraliýadan takmynan 7 esse uly.\n\nIkinji mesele: Afrika bilen Günorta Amerikanyň meýdanlarynyň jemi näçe?\n30 + 18 = 48 mln km² — bu ýene-de Ýewraziýadan kiçi.",
+          "ru": "Задача: во сколько примерно раз Евразия больше Австралии?\n1) Евразия ≈ 54 млн км², Австралия ≈ 7,7 млн км².\n2) 54 ÷ 7,7 ≈ 7.\n3) Ответ: Евразия больше Австралии примерно в 7 раз.\n\nВторая задача: какова суммарная площадь Африки и Южной Америки?\n30 + 18 = 48 млн км² — это всё равно меньше Евразии."
+        }},
+        {"type": "input",
+          "q": {"tk": "Ýer ýüzünde näçe materik bar?", "ru": "Сколько материков на Земле?"},
+          "answer": "6|alty|шесть",
+          "hint": {"tk": "Amerikany iki materik hökmünde hasapla.", "ru": "Считай Америку двумя материками."},
+          "explain": {"tk": "Ýewraziýa, Afrika, Demirgazyk Amerika, Günorta Amerika, Antarktida, Awstraliýa — 6 materik.", "ru": "Евразия, Африка, Северная Америка, Южная Америка, Антарктида, Австралия — 6 материков."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Iň kiçi materik haýsy?", "ru": "Какой материк самый маленький?"},
+          "options": [{"tk": "Antarktida", "ru": "Антарктида"}, {"tk": "Awstraliýa", "ru": "Австралия"}, {"tk": "Günorta Amerika", "ru": "Южная Америка"}],
+          "answer": 1,
+          "hint": {"tk": "Onuň meýdany 10 mln km²-den hem kiçi.", "ru": "Его площадь меньше 10 млн км²."},
+          "explain": {"tk": "Awstraliýa ≈ 7,7 mln km² — iň kiçi materik. Antarktida ≈ 14 mln km², Günorta Amerika ≈ 18 mln km².", "ru": "Австралия ≈ 7,7 млн км² — самый маленький материк. Антарктида ≈ 14 млн км², Южная Америка ≈ 18 млн км²."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Ýeriň üstüniň köp bölegini gury ýer tutýar.", "ru": "Большую часть поверхности Земли занимает суша."},
+          "answer": false,
+          "hint": {"tk": "Göterimleri deňeşdir: 29% we 71%.", "ru": "Сравни проценты: 29% и 71%."},
+          "explain": {"tk": "Ýalňyş. Suw 71%, gury ýer bolsa diňe 29% tutýar.", "ru": "Неверно. Вода занимает 71%, а суша — лишь 29%."}
+        },
+        {"type": "world", "text": {
+          "tk": "Nemes alymy Alfred Wegener 1912-nji ýylda materikleriň süýşýändigi baradaky gipotezany öňe sürdi. Ol Afrikanyň we Günorta Amerikanyň kenarlarynyň mozaikanyň bölekleri ýaly gabat gelýändigine üns berdi. Onuň pikiri diňe 1960-njy ýyllarda plitalaryň tektonikasy nazaryýeti bilen tassyklandy.",
+          "ru": "Немецкий учёный Альфред Вегенер в 1912 году выдвинул гипотезу дрейфа материков. Он заметил, что берега Африки и Южной Америки совпадают, как кусочки пазла. Его идея подтвердилась лишь в 1960-х годах теорией тектоники плит."
+        }}
+      ]
+    },
+    {
+      "id": "geography-7-africa",
+      "grade": 7,
+      "topic": 1,
+      "title": {"tk": "Afrika", "ru": "Африка"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Afrika — meýdany boýunça ikinji materik (≈30 mln km²). Ony ekwator takmynan ortasyndan kesip geçýär, şonuň üçin Afrika iň yssy materik.\n\nRelýefi: esasan belent tekizlikler we platolar. Iň beýik nokady — Kilimanjaro wulkany (5895 m). Gündogarynda Gündogar Afrika ýaryklary (rift) bar.\n\nKlimat zonalary ekwatordan demirgazyga we günorta simmetrik ýerleşýär:\n• Ekwatorial — yssy we çygly, ygalyň köpdügi, ekwatorial tokaýlar.\n• Subekwatorial — çygly we gurak möwsümler, sawannalar.\n• Tropiki — örän gurak, çöller: Sahara (dünýäniň iň uly yssy çöli), Namib, Kalahari.\n• Subtropiki — demirgazyk we günorta çetlerinde.\n\nDerýalary: Nil (dünýäniň iň uzyn derýalarynyň biri, ≈6650 km), Kongo (iň suwly), Niger, Zambezi (Wiktoriýa şaglawugy). Iň uly köli — Wiktoriýa.",
+          "ru": "Африка — второй по площади материк (≈30 млн км²). Экватор пересекает её примерно посередине, поэтому Африка — самый жаркий материк.\n\nРельеф: в основном высокие равнины и плато. Высшая точка — вулкан Килиманджаро (5895 м). На востоке находятся Восточно-Африканские разломы (рифты).\n\nКлиматические пояса расположены симметрично к северу и югу от экватора:\n• Экваториальный — жарко и влажно, много осадков, экваториальные леса.\n• Субэкваториальный — влажный и сухой сезоны, саванны.\n• Тропический — очень сухо, пустыни: Сахара (крупнейшая жаркая пустыня мира), Намиб, Калахари.\n• Субтропический — на северной и южной окраинах.\n\nРеки: Нил (одна из длиннейших рек мира, ≈6650 км), Конго (самая полноводная), Нигер, Замбези (водопад Виктория). Крупнейшее озеро — Виктория."
+        }},
+        {"type": "example", "text": {
+          "tk": "Ekwatordan Sahara tarap syýahat edeliň:\n1) Kongo derýasynyň basseýni — ekwatorial tokaý: ýyl boýy yssy, her gün diýen ýaly ýagyş ýagýar.\n2) Demirgazyga hereket edýäris — sawanna: ot-çöp we aýry-aýry agaçlar (baobab, akasiýa), zürafalar, zebralar, arslanlar. Bu ýerde ýagyşly we gurak möwsümler bar.\n3) Has demirgazykda — Sahel: ýarym çöl, ýagyş az.\n4) Sahara — tropiki çöl: gündiz örän yssy, gije sowuk, ygal ýylda 100 mm-den hem az.\n\nNetije: ekwatordan uzaklaşdygyňça ygal azalýar we tebigy zonalar yzygiderli çalyşýar.",
+          "ru": "Совершим путешествие от экватора к Сахаре:\n1) Бассейн реки Конго — экваториальный лес: круглый год жарко, дожди почти каждый день.\n2) Движемся на север — саванна: травы и отдельные деревья (баобаб, акация), жирафы, зебры, львы. Здесь есть дождливый и сухой сезоны.\n3) Ещё севернее — Сахель: полупустыня, дождей мало.\n4) Сахара — тропическая пустыня: днём очень жарко, ночью холодно, осадков меньше 100 мм в год.\n\nВывод: по мере удаления от экватора осадков становится меньше, а природные зоны последовательно сменяются."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Afrikanyň iň beýik nokady haýsy?", "ru": "Какая точка Африки самая высокая?"},
+          "options": [{"tk": "Kilimanjaro", "ru": "Килиманджаро"}, {"tk": "Atlas daglary", "ru": "Горы Атлас"}, {"tk": "Kenýa dagy", "ru": "Гора Кения"}],
+          "answer": 0,
+          "hint": {"tk": "Bu wulkan 5895 m beýiklikde.", "ru": "Этот вулкан высотой 5895 м."},
+          "explain": {"tk": "Kilimanjaro (5895 m) Tanzaniýada ýerleşýär we Afrikanyň iň beýik nokadydyr. Kenýa dagy ikinji ýerde (≈5199 m).", "ru": "Килиманджаро (5895 м) находится в Танзании и является высшей точкой Африки. Гора Кения — вторая (≈5199 м)."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Ekwator Afrikany takmynan ortasyndan kesip geçýär.", "ru": "Экватор пересекает Африку примерно посередине."},
+          "answer": true,
+          "hint": {"tk": "Kongo basseýni nirede ýerleşýär?", "ru": "Где расположен бассейн Конго?"},
+          "explain": {"tk": "Dogry. Şonuň üçin Afrikanyň klimat zonalary ekwatordan demirgazyga we günorta simmetrik gaýtalanýar.", "ru": "Верно. Поэтому климатические пояса Африки симметрично повторяются к северу и югу от экватора."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Zebralar, žiraflar we baobab haýsy tebigy zonanyň mahsus alamaty?", "ru": "Зебры, жирафы и баобаб — типичные обитатели какой природной зоны?"},
+          "options": [{"tk": "Ekwatorial tokaý", "ru": "Экваториальный лес"}, {"tk": "Tropiki çöl", "ru": "Тропическая пустыня"}, {"tk": "Sawanna", "ru": "Саванна"}],
+          "answer": 2,
+          "hint": {"tk": "Ot-çöpli giň meýdanlar we aýry-aýry agaçlar.", "ru": "Широкие травянистые пространства с отдельными деревьями."},
+          "explain": {"tk": "Sawanna — ýagyşly we gurak möwsümli otly zona. Bu ýerde iri ot iýýän haýwanlar we baobab ýaly agaçlar mahsus.", "ru": "Саванна — травянистая зона с влажным и сухим сезонами. Для неё типичны крупные травоядные и деревья вроде баобаба."}
+        },
+        {"type": "world", "text": {
+          "tk": "Wiktoriýa şaglawugy Zambezi derýasynda ýerleşýär. Ýerli halk ony «Mosi-oa-Tunýa» — «Gürleýän tüsse» diýip atlandyrýar: suwuň sepgileri onlarça kilometr uzaklykdan görünýär.",
+          "ru": "Водопад Виктория находится на реке Замбези. Местные жители называют его «Моси-оа-Тунья» — «Гремящий дым»: облако брызг видно за десятки километров."
+        }}
+      ]
+    },
+    {
+      "id": "geography-7-eurasia",
+      "grade": 7,
+      "topic": 2,
+      "title": {"tk": "Ýewraziýa", "ru": "Евразия"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Ýewraziýa — Ýeriň iň uly materigi (≈54 mln km², gury ýeriň üçden birinden gowragy). Ony dört ummanyň suwlary ýuwýar: Atlantik, Ýuwaş, Hindi we Demirgazyk buzly.\n\nRelýefiň rekordlary:\n• Himalaý daglary — Ýeriň iň beýik daglary. Jomolungma (Ewerest) — 8849 m.\n• Ölü deňziň kenary — gury ýeriň iň pes nokady (deňiz derejesinden 400 m-den gowrak pes).\n• Kaspi deňzi — dünýäniň iň uly köli; onuň derejesi umman derejesinden takmynan 28 m pes.\n\nKlimat: Ýewraziýada ähli klimat zonalary bar — arktikadan ekwatoriala çenli. Gündogarynda we günortasynda mussonlar: tomusda ummandan çygly howa gelýär, gyşda bolsa gurak howa gury ýerden ummana tarap öwüsýär.\n\nIň uly derýalary: Ýangzy (Aziýanyň iň uzyny), Huanhe, Ob, Ýeniseý, Lena, Wolga (Ýewropanyň iň uzyny), Amyderýa.\n\nTürkmenistan Ýewraziýanyň merkezinde, Merkezi Aziýada ýerleşýär. Onuň çäginiň köp bölegini Garagum çöli tutýar.",
+          "ru": "Евразия — самый большой материк Земли (≈54 млн км², более трети всей суши). Её омывают воды всех четырёх океанов: Атлантического, Тихого, Индийского и Северного Ледовитого.\n\nРекорды рельефа:\n• Гималаи — самые высокие горы Земли. Джомолунгма (Эверест) — 8849 м.\n• Берег Мёртвого моря — самая низкая точка суши (более 400 м ниже уровня моря).\n• Каспийское море — крупнейшее озеро мира; его уровень примерно на 28 м ниже уровня океана.\n\nКлимат: в Евразии представлены все климатические пояса — от арктического до экваториального. На востоке и юге — муссоны: летом влажный воздух приходит с океана, зимой сухой воздух дует с суши к океану.\n\nКрупные реки: Янцзы (самая длинная в Азии), Хуанхэ, Обь, Енисей, Лена, Волга (самая длинная в Европе), Амударья.\n\nТуркменистан расположен в центре Евразии, в Центральной Азии. Большую часть его территории занимает пустыня Каракумы."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mesele: Ýewraziýanyň iň beýik we iň pes nokatlarynyň aralygy näçe?\n1) Jomolungma: +8849 m.\n2) Ölü deňziň kenary: takmynan −430 m.\n3) Tapawut: 8849 − (−430) = 8849 + 430 = 9279 m.\n\nJogap: takmynan 9,3 km. Bu tapawut ähli materikleriňkiden uly.",
+          "ru": "Задача: какова разница высот между высшей и низшей точками Евразии?\n1) Джомолунгма: +8849 м.\n2) Берег Мёртвого моря: примерно −430 м.\n3) Разница: 8849 − (−430) = 8849 + 430 = 9279 м.\n\nОтвет: около 9,3 км. Это наибольший перепад среди всех материков."
+        }},
+        {"type": "input",
+          "q": {"tk": "Ýewraziýa näçe ummanyň suwlary bilen ýuwulýar?", "ru": "Воды скольких океанов омывают Евразию?"},
+          "answer": "4|dört|четыре",
+          "hint": {"tk": "Ummanlaryň sanawyny ýatla.", "ru": "Вспомни список океанов."},
+          "explain": {"tk": "Atlantik, Ýuwaş, Hindi we Demirgazyk buzly — 4 umman. Bu ýeke-täk şeýle materik.", "ru": "Атлантический, Тихий, Индийский и Северный Ледовитый — 4 океана. Это единственный такой материк."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Dünýäniň iň uly köli haýsy?", "ru": "Какое озеро самое большое в мире?"},
+          "options": [{"tk": "Baýkal", "ru": "Байкал"}, {"tk": "Kaspi deňzi", "ru": "Каспийское море"}, {"tk": "Aral deňzi", "ru": "Аральское море"}],
+          "answer": 1,
+          "hint": {"tk": "Ady «deňiz» bolsa-da, ol hiç bir umman bilen birikmeýär.", "ru": "Хоть оно и называется «морем», оно не соединено с океаном."},
+          "explain": {"tk": "Kaspi — meýdany boýunça dünýäniň iň uly köli (≈370 müň km²). Baýkal iň çuň köl. Aral bolsa häzir ep-esli gurap gitdi.", "ru": "Каспий — крупнейшее по площади озеро мира (≈370 тыс. км²). Байкал — самое глубокое. Арал же сильно обмелел."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Mussonlar tomusda gury ýerden ummana tarap öwüsýär.", "ru": "Муссоны летом дуют с суши на океан."},
+          "answer": false,
+          "hint": {"tk": "Tomusda haýsy ýer çalt gyzýar — gury ýermi ýa umman?", "ru": "Что летом быстрее нагревается — суша или океан?"},
+          "explain": {"tk": "Ýalňyş. Tomusda gury ýer çalt gyzýar, onuň üstünde basyş peselýär we çygly howa ummandan gury ýere gelýär. Gyşda ugur tersine bolýar.", "ru": "Неверно. Летом суша прогревается быстрее, давление над ней падает, и влажный воздух идёт с океана на сушу. Зимой — наоборот."}
+        },
+        {"type": "world", "text": {
+          "tk": "Jomolungmanyň depesine ilkinji bolup 1953-nji ýylyň 29-njy maýynda Täze Zelandiýaly Edmund Hillari we nepally şerpa Tensing Norgeý çykdy.",
+          "ru": "Первыми на вершину Джомолунгмы 29 мая 1953 года поднялись новозеландец Эдмунд Хиллари и непальский шерпа Тенцинг Норгей."
+        }}
+      ]
+    },
+    {
+      "id": "geography-7-americas",
+      "grade": 7,
+      "topic": 3,
+      "title": {"tk": "Demirgazyk we Günorta Amerika", "ru": "Северная и Южная Америка"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Amerika iki materikden ybarat: Demirgazyk Amerika (≈24 mln km²) we Günorta Amerika (≈18 mln km²). Olar Panama boýny bilen birleşýär, onuň üstünden 1914-nji ýylda Panama kanaly gazyldy.\n\nDemirgazyk Amerika:\n• Günbatarynda Kordilýerler, gündogarynda gadymy Appalaç daglary.\n• Iň beýik nokady — Denali (≈6190 m, Alýaska).\n• Missisipi–Missuri derýa ulgamy, Uly köller (dünýädäki süýji suwuň uly gory), Niagara şaglawugy.\n• Grenlandiýa adasy — dünýäniň iň uly adasy.\n\nGünorta Amerika:\n• Günbatar kenary boýunça And daglary — dünýäniň iň uzyn gury ýer dag ulgamy (≈7000 km). Iň beýik nokady — Akonkagua (6961 m).\n• Amazonka — dünýäniň iň suwly derýasy, onuň basseýninde iň uly tropiki tokaý.\n• Atakama — dünýäniň iň gurak çölleriniň biri.\n• Anhel şaglawugy — dünýäniň iň beýik şaglawugy (≈979 m).",
+          "ru": "Америка — это два материка: Северная Америка (≈24 млн км²) и Южная Америка (≈18 млн км²). Они соединены Панамским перешейком, через который в 1914 году прорыт Панамский канал.\n\nСеверная Америка:\n• На западе Кордильеры, на востоке древние Аппалачи.\n• Высшая точка — Денали (≈6190 м, Аляска).\n• Речная система Миссисипи–Миссури, Великие озёра (огромный запас пресной воды), Ниагарский водопад.\n• Гренландия — крупнейший остров мира.\n\nЮжная Америка:\n• Вдоль западного побережья — Анды, самая длинная горная система на суше (≈7000 км). Высшая точка — Аконкагуа (6961 м).\n• Амазонка — самая полноводная река мира, в её бассейне — крупнейший тропический лес.\n• Атакама — одна из самых сухих пустынь мира.\n• Анхель — самый высокий водопад мира (≈979 м)."
+        }},
+        {"type": "example", "text": {
+          "tk": "Näme üçin Atakama çöli Ýuwaş ummanyň kenarynda ýerleşýär, ýöne şeýle gurak?\n1) Kenaryň boýunda sowuk Peru akymy geçýär. Ol aşaky howany sowadýar, sowuk howa bolsa ýokary galmaýar we bulut emele getirmeýär.\n2) Gündogardan gelýän çygly howany And daglary saklaýar — ygal daglaryň gündogar eňňidinde düşýär.\n3) Bu ýerde tropiki ýokary basyş zonasy bar — howa aşak inýär we gurak bolýar.\n\nNetije: üç sebäbiň bilelikde täsiri Atakamany dünýäniň iň gurak ýerleriniň birine öwürýär.",
+          "ru": "Почему пустыня Атакама лежит на берегу Тихого океана, но так суха?\n1) Вдоль побережья проходит холодное Перуанское течение. Оно охлаждает нижний слой воздуха, а холодный воздух не поднимается и не образует облаков.\n2) Влажный воздух с востока задерживают Анды — осадки выпадают на их восточных склонах.\n3) Здесь зона высокого тропического давления — воздух опускается и остаётся сухим.\n\nВывод: сочетание трёх причин делает Атакаму одним из самых сухих мест Земли."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Dünýäniň iň suwly derýasy haýsy?", "ru": "Какая река самая полноводная в мире?"},
+          "options": [{"tk": "Missisipi", "ru": "Миссисипи"}, {"tk": "Amazonka", "ru": "Амазонка"}, {"tk": "Parana", "ru": "Парана"}],
+          "answer": 1,
+          "hint": {"tk": "Onuň basseýninde dünýäniň iň uly tropiki tokaýy ýerleşýär.", "ru": "В её бассейне находится крупнейший тропический лес мира."},
+          "explain": {"tk": "Amazonka ummana beýleki derýalardan has köp suw guýýar — dünýädäki ähli derýa akymynyň takmynan bäşden birine golaý.", "ru": "Амазонка выносит в океан больше воды, чем любая другая река, — около пятой части всего речного стока мира."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "And daglary Günorta Amerikanyň gündogar kenary boýunça uzalyp gidýär.", "ru": "Анды тянутся вдоль восточного побережья Южной Америки."},
+          "answer": false,
+          "hint": {"tk": "Atakama mysalyny ýatla: daglar haýsy ummanyň ýakasynda?", "ru": "Вспомни пример с Атакамой: у какого океана горы?"},
+          "explain": {"tk": "Ýalňyş. And daglary günbatar kenar boýunça, Ýuwaş ummanyň ýakasynda ýerleşýär.", "ru": "Неверно. Анды тянутся вдоль западного побережья, у Тихого океана."}
+        },
+        {"type": "input",
+          "q": {"tk": "Panama kanaly haýsy ýylda açyldy?", "ru": "В каком году открыт Панамский канал?"},
+          "answer": "1914",
+          "hint": {"tk": "Teoriýada görkezilen; XX asyryň başy.", "ru": "Указано в теории; начало XX века."},
+          "explain": {"tk": "Panama kanaly 1914-nji ýylda açyldy. Ol Atlantik we Ýuwaş ummanlary birikdirip, gämileriň ýoluny müňlerçe kilometr gysgaltdy.", "ru": "Панамский канал открыт в 1914 году. Он соединил Атлантический и Тихий океаны и сократил путь судов на тысячи километров."}
+        },
+        {"type": "world", "text": {
+          "tk": "Anhel şaglawugy Wenesuelada ýerleşýär. Ol 1930-njy ýyllarda amerikan uçarmany Jimmi Enjeliň (Angel) adyny aldy — ol şaglawugyň üstünden uçup, ony dünýä mälim etdi.",
+          "ru": "Водопад Анхель находится в Венесуэле. Он получил имя американского лётчика Джимми Энджела (Angel), который в 1930-х годах пролетел над ним и сделал его известным миру."
+        }}
+      ]
+    },
+    {
+      "id": "geography-7-australia-antarctica",
+      "grade": 7,
+      "topic": 4,
+      "title": {"tk": "Awstraliýa we Antarktida", "ru": "Австралия и Антарктида"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Awstraliýa — iň kiçi (≈7,7 mln km²) we iň gurak ýaşaýyşly materik. Ol doly Günorta ýarymşarda ýerleşýär.\n• Merkezini çöller tutýar: Uly Wiktoriýa, Uly Gumly çöl, Gibson.\n• Iň uly derýasy — Mýurreý (Darling goşulany bilen).\n• Gündogar kenarynda Uly Bölüji gerşi; demirgazyk-gündogar kenarynyň golaýynda Uly Barýer rifi.\n• Endemikler köp — diňe şu ýerde ýaşaýan janly-jandarlar: kenguru, koala, ördekburun, ehidna, ewkalipt.\n\nAntarktida (≈14 mln km²) — Günorta polýusyň töwereginde ýerleşýän iň sowuk, iň ýelli we ortaça iň belent materik.\n• Onuň 98%-e golaýyny buz örtügi tutýar; buzuň ortaça galyňlygy 2 km töweregi, käbir ýerlerde 4 km-den hem geçýär.\n• Bu buzda Ýeriň süýji suwunyň takmynan 70%-i jemlenen.\n• Hemişelik ilaty ýok, diňe ylmy stansiýalar bar.\n• 1959-njy ýyldaky Antarktika şertnamasy materigi diňe parahatçylykly we ylmy maksatlar üçin ulanmagy kesgitledi.\n• Rus ekspedisiýasy (F. Bellinsgauzen we M. Lazarew) 1820-nji ýylda materigi açdy; Günorta polýusa ilkinji bolup 1911-nji ýylda Rual Amundsen ýetdi.",
+          "ru": "Австралия — самый маленький (≈7,7 млн км²) и самый сухой обитаемый материк. Она целиком лежит в Южном полушарии.\n• Центр занимают пустыни: Большая Пустыня Виктория, Большая Песчаная, Гибсона.\n• Крупнейшая река — Муррей (с притоком Дарлинг).\n• На востоке — Большой Водораздельный хребет; у северо-восточного побережья — Большой Барьерный риф.\n• Много эндемиков — организмов, живущих только здесь: кенгуру, коала, утконос, ехидна, эвкалипт.\n\nАнтарктида (≈14 млн км²) лежит вокруг Южного полюса — это самый холодный, самый ветреный и в среднем самый высокий материк.\n• Около 98% её поверхности покрыто льдом; средняя толщина льда около 2 км, местами — более 4 км.\n• В этом льду сосредоточено около 70% пресной воды Земли.\n• Постоянного населения нет, только научные станции.\n• Договор об Антарктике 1959 года закрепил использование материка только в мирных и научных целях.\n• Русская экспедиция (Ф. Беллинсгаузен и М. Лазарев) открыла материк в 1820 году; первым Южного полюса в 1911 году достиг Руаль Амундсен."
+        }},
+        {"type": "example", "text": {
+          "tk": "Näme üçin Antarktida Arktikadan has sowuk?\n1) Arktikanyň merkezinde umman bar. Suw ýylylygy uzak saklaýar we buzuň aşagyndan howany biraz ýylatýar.\n2) Antarktida bolsa materik, onuň üsti deňiz derejesinden ortaça 2 km-den gowrak belentlikde. Beýiklik ýokarlandygyça howa sowaýar.\n3) Ak buz Gün şöhlesiniň köp bölegini yzyna serpikdirýär.\n\nNetije: Antarktidada Ýeriň iň pes ölçelen temperaturasy hasaba alyndy: Wostok stansiýasynda −89,2 °C (1983 ý.).",
+          "ru": "Почему Антарктида холоднее Арктики?\n1) В центре Арктики — океан. Вода долго хранит тепло и снизу немного согревает воздух сквозь лёд.\n2) Антарктида — материк, её поверхность в среднем выше 2 км над уровнем моря. С высотой воздух холоднее.\n3) Белый лёд отражает большую часть солнечных лучей.\n\nВывод: в Антарктиде зарегистрирована самая низкая измеренная температура на Земле: −89,2 °C на станции Восток (1983 г.)."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Haýsy haýwan Awstraliýanyň endemigi?", "ru": "Какое животное — эндемик Австралии?"},
+          "options": [{"tk": "Koala", "ru": "Коала"}, {"tk": "Žiraf", "ru": "Жираф"}, {"tk": "Pingwin", "ru": "Пингвин"}],
+          "answer": 0,
+          "hint": {"tk": "Ol ewkalipt ýapraklary bilen iýmitlenýär.", "ru": "Он питается листьями эвкалипта."},
+          "explain": {"tk": "Koala diňe Awstraliýada ýaşaýar. Žiraf — Afrikada, pingwinler bolsa esasan Antarktidada we Günorta ýarymşaryň kenarlarynda.", "ru": "Коала живёт только в Австралии. Жираф — в Африке, а пингвины — в основном в Антарктиде и на побережьях Южного полушария."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Antarktidada hemişelik ýaşaýan ilat ýok.", "ru": "В Антарктиде нет постоянного населения."},
+          "answer": true,
+          "hint": {"tk": "Bu ýerde kimler we näçe wagtlap ýaşaýar?", "ru": "Кто и надолго ли там живёт?"},
+          "explain": {"tk": "Dogry. Antarktidada diňe ylmy stansiýalaryň işgärleri birnäçe aý ýa-da bir ýyl çalşyk bilen ýaşaýar.", "ru": "Верно. В Антарктиде живут только сотрудники научных станций, сменяясь через несколько месяцев или год."}
+        },
+        {"type": "input",
+          "q": {"tk": "Antarktida haýsy ýylda açyldy?", "ru": "В каком году открыта Антарктида?"},
+          "answer": "1820",
+          "hint": {"tk": "Bellinsgauzeniň we Lazarewiň ekspedisiýasy.", "ru": "Экспедиция Беллинсгаузена и Лазарева."},
+          "explain": {"tk": "1820-nji ýylyň ýanwarynda Bellinsgauzeniň we Lazarewiň gämileri Antarktidanyň buz kenaryna ýakynlaşdy.", "ru": "В январе 1820 года корабли Беллинсгаузена и Лазарева подошли к ледяному берегу Антарктиды."}
+        },
+        {"type": "world", "text": {
+          "tk": "Uly Barýer rifi — janly organizmleriň gurluşlaryndan durýan dünýäniň iň uly ulgamy. Onuň uzynlygy 2300 km-den gowrak, ony hatda kosmosdan hem görüp bolýar.",
+          "ru": "Большой Барьерный риф — крупнейшая в мире система, созданная живыми организмами. Его длина более 2300 км, его видно даже из космоса."
+        }}
+      ]
+    },
+    {
+      "id": "geography-7-world-ocean",
+      "grade": 7,
+      "topic": 5,
+      "title": {"tk": "Dünýä ummany", "ru": "Мировой океан"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Dünýä ummany — Ýeriň üstüniň takmynan 71%-ini tutýan bitewi suw giňişligi. Ol ummanlara bölünýär:\n• Ýuwaş — iň uly we iň çuň. Iň çuň ýeri — Mariana çöketligi (≈11 km).\n• Atlantik — ikinji uly, Ýewropa we Afrika bilen Amerikanyň arasynda.\n• Hindi — iň yssy umman.\n• Demirgazyk buzly — iň kiçi we iň sowuk.\n• Köp alymlar Antarktidanyň töweregindäki suwlary aýratyn Günorta umman hökmünde bölüp görkezýär.\n\nDeňiz suwunyň ortaça şorlugy — takmynan 35 ‰ (promille): 1 litr suwda takmynan 35 g duz bar.\n\nUmman akymlary — suwuň ummandaky uly akymlary. Ýyly akymlar (mysal üçin, Golfstrim) kenarlaryň klimatyny ýumşadýar, sowuk akymlar (Peru, Kanar) bolsa howany sowadýar we gurakladýar.\n\nUmman — iýmitiň (balyk, deňiz önümleri), nebitiň we gazyň, ulag ýollarynyň we kislorodyň möhüm çeşmesi.",
+          "ru": "Мировой океан — единое водное пространство, занимающее около 71% поверхности Земли. Его делят на океаны:\n• Тихий — самый большой и самый глубокий. Глубочайшее место — Марианский желоб (≈11 км).\n• Атлантический — второй по величине, между Европой и Африкой и Америкой.\n• Индийский — самый тёплый океан.\n• Северный Ледовитый — самый маленький и самый холодный.\n• Многие учёные выделяют воды вокруг Антарктиды в отдельный Южный океан.\n\nСредняя солёность морской воды — около 35 ‰ (промилле): в 1 литре воды около 35 г солей.\n\nОкеанические течения — крупные потоки воды в океане. Тёплые течения (например, Гольфстрим) смягчают климат побережий, холодные (Перуанское, Канарское) охлаждают и иссушают его.\n\nОкеан — важнейший источник пищи (рыба, морепродукты), нефти и газа, транспортных путей и кислорода."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mesele: 5 litr deňiz suwuny bugardanymyzda näçe duz galar?\n1) Şorluk 35 ‰ → 1 litr (≈1 kg) suwda ≈35 g duz.\n2) 5 litr: 35 × 5 = 175 g.\n\nJogap: takmynan 175 g duz.\n\nDeňeşdir: Gyzyl deňiz has şor (≈40 ‰), sebäbi ol ýerde bugarma köp, derýa suwy bolsa az gelýär. Baltika deňzi has süýji (5–10 ‰ töweregi), sebäbi oňa köp derýa guýýar.",
+          "ru": "Задача: сколько соли останется, если выпарить 5 литров морской воды?\n1) Солёность 35 ‰ → в 1 литре (≈1 кг) воды ≈35 г солей.\n2) 5 литров: 35 × 5 = 175 г.\n\nОтвет: около 175 г соли.\n\nСравни: Красное море солонее (≈40 ‰), потому что там сильное испарение и мало речной воды. Балтийское море гораздо преснее (около 5–10 ‰), потому что в него впадает много рек."
+        }},
+        {"type": "input",
+          "q": {"tk": "Şorlugy 35 ‰ bolan 2 litr deňiz suwunda takmynan näçe gram duz bar?", "ru": "Сколько граммов солей примерно в 2 литрах морской воды солёностью 35 ‰?"},
+          "answer": "70",
+          "hint": {"tk": "1 litrde 35 g.", "ru": "В 1 литре — 35 г."},
+          "explain": {"tk": "35 g × 2 = 70 g.", "ru": "35 г × 2 = 70 г."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy umman iň uly we iň çuň?", "ru": "Какой океан самый большой и самый глубокий?"},
+          "options": [{"tk": "Atlantik", "ru": "Атлантический"}, {"tk": "Hindi", "ru": "Индийский"}, {"tk": "Ýuwaş", "ru": "Тихий"}],
+          "answer": 2,
+          "hint": {"tk": "Mariana çöketligi şu ummanda.", "ru": "Марианский желоб находится в этом океане."},
+          "explain": {"tk": "Ýuwaş umman ähli gury ýerden hem uly meýdany tutýar, Mariana çöketligi hem onda ýerleşýär.", "ru": "Тихий океан по площади больше всей суши, и Марианский желоб тоже находится в нём."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Golfstrim — Ýewropanyň günbatar kenarlarynyň klimatyny ýumşadýan ýyly akym.", "ru": "Гольфстрим — тёплое течение, смягчающее климат западных берегов Европы."},
+          "answer": true,
+          "hint": {"tk": "Ýyly akymlar kenarlara näme getirýär?", "ru": "Что приносят тёплые течения к побережьям?"},
+          "explain": {"tk": "Dogry. Golfstrim we onuň dowamy bolan Demirgazyk Atlantik akymy ýylylyk getirýär. Şonuň üçin Norwegiýanyň käbir portlary gyşda doňmaýar.", "ru": "Верно. Гольфстрим и его продолжение — Северо-Атлантическое течение — приносят тепло. Поэтому некоторые порты Норвегии зимой не замерзают."}
+        },
+        {"type": "world", "text": {
+          "tk": "1960-njy ýylda Žak Pikar we Don Uolş «Triest» batiskafynda Mariana çöketliginiň düýbüne — Çellenjer çuňlugyna çümdüler. Bu adamyň ummanyň iň çuň nokadyna ilkinji gezek baryşydy.",
+          "ru": "В 1960 году Жак Пикар и Дон Уолш на батискафе «Триест» опустились на дно Марианского желоба — в Бездну Челленджера. Это было первое погружение человека в самую глубокую точку океана."
+        }}
+      ]
+    }
+  ]
+}

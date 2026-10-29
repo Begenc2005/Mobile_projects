@@ -1,0 +1,629 @@
+{
+  "grade": 8,
+  "subject": "physics",
+  "lessons": [
+    {
+      "id": "physics-8-thermal-phenomena",
+      "grade": 8,
+      "topic": 0,
+      "title": {
+        "tk": "Ýylylyk hadysalary we ýylylyk geçirijilik",
+        "ru": "Тепловые явления и теплопередача"
+      },
+      "minutes": 8,
+      "steps": [
+        {
+          "type": "theory",
+          "text": {
+            "tk": "Ähli maddalar hemişe hereketde bolan bölejiklerden (atomlardan we molekulalardan) durýar. Temperatura — bu bölejikleriň orta kinetik energiýasynyň ölçegi: jisim näçe gyzgyn bolsa, bölejikler şonça çalt hereket edýär.\n\nIçki energiýa — jisimiň ähli bölejikleriniň hereket we özara täsir energiýalarynyň jemi. Ony iki ýol bilen üýtgedip bolýar:\n• iş ýerine ýetirmek (sürtmek, urmak, gysmak);\n• ýylylyk geçirmek.\n\nÝylylyk geçirmegiň üç görnüşi:\n• Ýylylyk geçirijilik — gönüden-göni galtaşmada (metal çemçe gyzýar).\n• Konweksiýa — suwuklyk we gaz akymlary bilen (otagda ýyly howa ýokary galýar).\n• Şöhlelenme — elektromagnit tolkunlary bilen, boşlukda hem (Günüň ýylysy).",
+            "ru": "Все вещества состоят из частиц (атомов и молекул), которые непрерывно движутся. Температура — мера средней кинетической энергии этих частиц: чем горячее тело, тем быстрее движутся частицы.\n\nВнутренняя энергия — сумма энергий движения и взаимодействия всех частиц тела. Её можно изменить двумя способами:\n• совершить работу (трение, удар, сжатие);\n• осуществить теплопередачу.\n\nТри вида теплопередачи:\n• Теплопроводность — при непосредственном контакте (металлическая ложка нагревается).\n• Конвекция — потоками жидкости или газа (тёплый воздух в комнате поднимается вверх).\n• Излучение — электромагнитными волнами, даже в вакууме (тепло Солнца)."
+          }
+        },
+        {
+          "type": "example",
+          "text": {
+            "tk": "Gyşda elleriňizi biri-birine sürtseňiz, olar gyzýar. Näme bolýar?\n\n1) Siz sürtmek arkaly iş ýerine ýetirýärsiňiz.\n2) Bu iş derideki bölejikleriň hereketini çaltlandyrýar.\n3) Içki energiýa artýar, temperatura ýokarlanýar.\n\nSoňra ýyly elleriňizi sowuk metala degirseňiz, ýylylyk geçirijilik arkaly energiýa metala geçýär — eliňiz sowaýar.",
+            "ru": "Зимой, если потереть ладони друг о друга, они нагреваются. Что происходит?\n\n1) Трением вы совершаете работу.\n2) Эта работа ускоряет движение частиц кожи.\n3) Внутренняя энергия растёт, температура повышается.\n\nЕсли затем коснуться тёплой рукой холодного металла, энергия перейдёт к металлу за счёт теплопроводности — рука остынет."
+          }
+        },
+        {
+          "type": "choice",
+          "q": {
+            "tk": "Gün ýylysy Ýere haýsy ýol bilen gelýär?",
+            "ru": "Каким способом тепло Солнца доходит до Земли?"
+          },
+          "options": [
+            {
+              "tk": "Konweksiýa",
+              "ru": "Конвекция"
+            },
+            {
+              "tk": "Şöhlelenme",
+              "ru": "Излучение"
+            },
+            {
+              "tk": "Ýylylyk geçirijilik",
+              "ru": "Теплопроводность"
+            }
+          ],
+          "answer": 1,
+          "hint": {
+            "tk": "Gün bilen Ýeriň arasynda howa ýok — kosmos boşlugy.",
+            "ru": "Между Солнцем и Землёй нет воздуха — космический вакуум."
+          },
+          "explain": {
+            "tk": "Boşlukda diňe şöhlelenme işleýär, çünki oňa madda gerek däl.",
+            "ru": "В вакууме работает только излучение: ему не нужно вещество."
+          }
+        },
+        {
+          "type": "truefalse",
+          "q": {
+            "tk": "Otagyň batareýasy konweksiýa sebäpli ähli otagy gyzdyrýar.",
+            "ru": "Батарея отопления прогревает всю комнату в основном благодаря конвекции."
+          },
+          "answer": true,
+          "hint": {
+            "tk": "Batareýanyň üstündäki ýyly howa nirä hereket edýär?",
+            "ru": "Куда движется тёплый воздух над батареей?"
+          },
+          "explain": {
+            "tk": "Dogry: ýyly howa ýeňil bolup ýokary galýar, sowuk howa aşak düşýär — howa aýlanýar.",
+            "ru": "Верно: тёплый воздух легче и поднимается, холодный опускается — воздух циркулирует."
+          }
+        },
+        {
+          "type": "choice",
+          "q": {
+            "tk": "Haýsy ýagdaýda içki energiýa iş arkaly üýtgeýär?",
+            "ru": "В каком случае внутренняя энергия меняется за счёт совершения работы?"
+          },
+          "options": [
+            {
+              "tk": "Çaý bulgury elde gyzýar",
+              "ru": "Стакан с чаем греет руку"
+            },
+            {
+              "tk": "Gün aşagynda daş gyzýar",
+              "ru": "Камень нагревается на солнце"
+            },
+            {
+              "tk": "Tigir nasosy urlanda gyzýar",
+              "ru": "Велосипедный насос нагревается при накачке"
+            }
+          ],
+          "answer": 2,
+          "hint": {
+            "tk": "Haýsy ýagdaýda kimdir biri güýç bilen hereket edýär?",
+            "ru": "В каком случае кто-то прикладывает силу и перемещает?"
+          },
+          "explain": {
+            "tk": "Nasosda howa gysylýar we sürtülme bar — bu iş. Beýleki ikisi ýylylyk geçirmek.",
+            "ru": "В насосе воздух сжимается и есть трение — это работа. Два других случая — теплопередача."
+          }
+        },
+        {
+          "type": "world",
+          "text": {
+            "tk": "Şwed alymy Anders Selsiý 1742-nji ýylda öz temperatura şkalasyny hödürläpdir. Gyzyklysy, başda onda suwuň gaýnaýan nokady 0°, doňýan nokady 100° bolupdyr. Şkala soňra tersine öwrülip, häzirki görnüşini alypdyr.",
+            "ru": "Шведский учёный Андерс Цельсий предложил свою температурную шкалу в 1742 году. Интересно, что изначально точка кипения воды на ней была 0°, а точка замерзания — 100°. Позже шкалу перевернули, и она приняла привычный вид."
+          }
+        }
+      ]
+    },
+    {
+      "id": "physics-8-quantity-of-heat",
+      "grade": 8,
+      "topic": 1,
+      "title": {
+        "tk": "Ýylylyk mukdary we udel ýylylyk sygymy",
+        "ru": "Количество теплоты и удельная теплоёмкость"
+      },
+      "minutes": 10,
+      "steps": [
+        {
+          "type": "theory",
+          "text": {
+            "tk": "Ýylylyk mukdary (Q) — ýylylyk geçirmekde jisimiň alýan ýa-da berýän energiýasy. Birligi — joul (J).\n\nFormula: Q = c · m · (t₂ − t₁)\n• c — udel ýylylyk sygymy, J/(kg·°C): 1 kg maddany 1 °C gyzdyrmak üçin gerek energiýa;\n• m — massa (kg);\n• t₁, t₂ — başky we ahyrky temperatura.\n\nKäbir bahalar: suw — 4200, alýumin — 920, demir — 460, mis — 400 J/(kg·°C).\n\nÝangyç ýakylanda: Q = q · m, bu ýerde q — ýangyjyň udel ýanma ýylylygy.",
+            "ru": "Количество теплоты (Q) — энергия, которую тело получает или отдаёт при теплопередаче. Единица — джоуль (Дж).\n\nФормула: Q = c · m · (t₂ − t₁)\n• c — удельная теплоёмкость, Дж/(кг·°C): энергия для нагрева 1 кг вещества на 1 °C;\n• m — масса (кг);\n• t₁, t₂ — начальная и конечная температура.\n\nНекоторые значения: вода — 4200, алюминий — 920, железо — 460, медь — 400 Дж/(кг·°C).\n\nПри сгорании топлива: Q = q · m, где q — удельная теплота сгорания топлива."
+          }
+        },
+        {
+          "type": "example",
+          "text": {
+            "tk": "Mesele: 2 kg suwy 20 °C-dan 70 °C-a çenli gyzdyrmak üçin näçe ýylylyk gerek?\n\n1) c = 4200 J/(kg·°C), m = 2 kg, Δt = 70 − 20 = 50 °C.\n2) Q = 4200 · 2 · 50 = 420 000 J.\n3) 420 000 J = 420 kJ.\n\nJogap: 420 kJ.",
+            "ru": "Задача: сколько теплоты нужно, чтобы нагреть 2 кг воды от 20 °C до 70 °C?\n\n1) c = 4200 Дж/(кг·°C), m = 2 кг, Δt = 70 − 20 = 50 °C.\n2) Q = 4200 · 2 · 50 = 420 000 Дж.\n3) 420 000 Дж = 420 кДж.\n\nОтвет: 420 кДж."
+          }
+        },
+        {
+          "type": "input",
+          "q": {
+            "tk": "1 kg suwy 10 °C gyzdyrmak üçin näçe joul gerek? (c = 4200 J/(kg·°C))",
+            "ru": "Сколько джоулей нужно, чтобы нагреть 1 кг воды на 10 °C? (c = 4200 Дж/(кг·°C))"
+          },
+          "answer": "42000",
+          "hint": {
+            "tk": "Q = c · m · Δt.",
+            "ru": "Q = c · m · Δt."
+          },
+          "explain": {
+            "tk": "Q = 4200 · 1 · 10 = 42 000 J.",
+            "ru": "Q = 4200 · 1 · 10 = 42 000 Дж."
+          }
+        },
+        {
+          "type": "choice",
+          "q": {
+            "tk": "Deň massaly suw, demir we mis birmeňzeş ýylylyk alýar. Haýsysy iň az gyzar?",
+            "ru": "Вода, железо и медь одинаковой массы получают одинаковое количество теплоты. Что нагреется меньше всего?"
+          },
+          "options": [
+            {
+              "tk": "Mis",
+              "ru": "Медь"
+            },
+            {
+              "tk": "Suw",
+              "ru": "Вода"
+            },
+            {
+              "tk": "Demir",
+              "ru": "Железо"
+            }
+          ],
+          "answer": 1,
+          "hint": {
+            "tk": "Udel ýylylyk sygymy uly bolsa, temperatura haýal üýtgeýär.",
+            "ru": "Чем больше удельная теплоёмкость, тем медленнее меняется температура."
+          },
+          "explain": {
+            "tk": "Δt = Q / (c·m). Suwuň c-si iň uly (4200), şonuň üçin Δt iň kiçi.",
+            "ru": "Δt = Q / (c·m). У воды c наибольшая (4200), поэтому Δt наименьшая."
+          }
+        },
+        {
+          "type": "input",
+          "q": {
+            "tk": "0,5 kg demiri 100 °C gyzdyrmak üçin näçe joul gerek? (c = 460 J/(kg·°C))",
+            "ru": "Сколько джоулей нужно, чтобы нагреть 0,5 кг железа на 100 °C? (c = 460 Дж/(кг·°C))"
+          },
+          "answer": "23000",
+          "hint": {
+            "tk": "460-y 0,5-e we 100-e köpeldiň.",
+            "ru": "Умножьте 460 на 0,5 и на 100."
+          },
+          "explain": {
+            "tk": "Q = 460 · 0,5 · 100 = 23 000 J.",
+            "ru": "Q = 460 · 0,5 · 100 = 23 000 Дж."
+          }
+        },
+        {
+          "type": "truefalse",
+          "q": {
+            "tk": "Deňiz kenarynda klimat ýumşak, sebäbi suw haýal gyzýar we haýal sowaýar.",
+            "ru": "У моря климат мягче, потому что вода медленно нагревается и медленно остывает."
+          },
+          "answer": true,
+          "hint": {
+            "tk": "Suwuň udel ýylylyk sygymyny ýadyňyza salyň.",
+            "ru": "Вспомните удельную теплоёмкость воды."
+          },
+          "explain": {
+            "tk": "Dogry: suwuň ýylylyk sygymy uly, ol tomus ýylylygy toplaýar we gyşda berýär.",
+            "ru": "Верно: у воды большая теплоёмкость, летом она накапливает тепло, а зимой отдаёт."
+          }
+        },
+        {
+          "type": "world",
+          "text": {
+            "tk": "Iňlis fizigi Jeýms Joul 1840-njy ýyllarda düşýän ýüküň aýlaýan pyçagy bilen suwy garyşdyryp, onuň birneme gyzýandygyny ölçäpdir. Şeýlelik bilen ol mehaniki işiň ýylylyga öwrülýändigini subut edipdir. Energiýanyň birligi — joul — onuň adyny göterýär.",
+            "ru": "Английский физик Джеймс Джоуль в 1840-х годах перемешивал воду лопастями, которые вращал падающий груз, и измерил, что вода немного нагревается. Так он доказал, что механическая работа превращается в теплоту. Единица энергии — джоуль — названа в его честь."
+          }
+        }
+      ]
+    },
+    {
+      "id": "physics-8-states-of-matter",
+      "grade": 8,
+      "topic": 2,
+      "title": {
+        "tk": "Maddanyň agregat ýagdaýlary we geçişler",
+        "ru": "Агрегатные состояния и фазовые переходы"
+      },
+      "minutes": 10,
+      "steps": [
+        {
+          "type": "theory",
+          "text": {
+            "tk": "Maddanyň üç esasy agregat ýagdaýy: gaty, suwuk, gaz.\n• Gaty — bölejikler berk tertipde, diňe yrgyldaýar; şekili we göwrümi hemişelik.\n• Suwuk — bölejikler ýakyn, ýöne süýşýär; göwrümi hemişelik, şekili gabyň şekli.\n• Gaz — bölejikler uzakda, erkin hereket edýär; ähli göwrümi doldurýar.\n\nGeçişler:\n• Eremek (gaty → suwuk) we gatamak (suwuk → gaty).\n• Bugarmak / gaýnamak (suwuk → gaz) we kondensasiýa (gaz → suwuk).\n\nEreme we gaýnama wagtynda temperatura üýtgemeýär: energiýa bölejikleriň arasyndaky baglanyşyklary üzmäge sarp edilýär.\n\nFormulalar:\n• Eremek: Q = λ · m, λ — udel ereme ýylylygy (buz üçin 3,4·10⁵ J/kg).\n• Bugarmak: Q = L · m, L — udel bugarma ýylylygy (suw üçin 2,3·10⁶ J/kg).\n\nSuw normal basyşda 0 °C-da doňýar we 100 °C-da gaýnaýar.",
+            "ru": "Три основных агрегатных состояния вещества: твёрдое, жидкое, газообразное.\n• Твёрдое — частицы в строгом порядке, лишь колеблются; форма и объём постоянны.\n• Жидкое — частицы близко, но перемещаются; объём постоянен, форма — как у сосуда.\n• Газ — частицы далеко, движутся свободно; занимает весь объём.\n\nПереходы:\n• Плавление (твёрдое → жидкое) и кристаллизация (жидкое → твёрдое).\n• Испарение / кипение (жидкое → газ) и конденсация (газ → жидкое).\n\nВо время плавления и кипения температура не меняется: энергия идёт на разрыв связей между частицами.\n\nФормулы:\n• Плавление: Q = λ · m, λ — удельная теплота плавления (для льда 3,4·10⁵ Дж/кг).\n• Парообразование: Q = L · m, L — удельная теплота парообразования (для воды 2,3·10⁶ Дж/кг).\n\nВода при нормальном давлении замерзает при 0 °C и кипит при 100 °C."
+          }
+        },
+        {
+          "type": "example",
+          "text": {
+            "tk": "Mesele: 0 °C-daky 2 kg buzy eretmek üçin näçe ýylylyk gerek?\n\n1) λ = 3,4·10⁵ J/kg, m = 2 kg.\n2) Q = λ · m = 3,4·10⁵ · 2 = 6,8·10⁵ J.\n\nJogap: 680 000 J = 680 kJ. Bu wagtyň dowamynda buzuň temperaturasy 0 °C bolup galýar.",
+            "ru": "Задача: сколько теплоты нужно, чтобы расплавить 2 кг льда при 0 °C?\n\n1) λ = 3,4·10⁵ Дж/кг, m = 2 кг.\n2) Q = λ · m = 3,4·10⁵ · 2 = 6,8·10⁵ Дж.\n\nОтвет: 680 000 Дж = 680 кДж. Всё это время температура льда остаётся 0 °C."
+          }
+        },
+        {
+          "type": "choice",
+          "q": {
+            "tk": "Sowuk aýnanyň ýüzünde damjalaryň emele gelmegi näme diýlip atlandyrylýar?",
+            "ru": "Как называется появление капель на холодном стекле?"
+          },
+          "options": [
+            {
+              "tk": "Kondensasiýa",
+              "ru": "Конденсация"
+            },
+            {
+              "tk": "Eremek",
+              "ru": "Плавление"
+            },
+            {
+              "tk": "Bugarmak",
+              "ru": "Испарение"
+            }
+          ],
+          "answer": 0,
+          "hint": {
+            "tk": "Howadaky suw bugy suwuga öwrülýär.",
+            "ru": "Водяной пар из воздуха превращается в жидкость."
+          },
+          "explain": {
+            "tk": "Gaz → suwuk geçişi — kondensasiýa.",
+            "ru": "Переход газ → жидкость — конденсация."
+          }
+        },
+        {
+          "type": "truefalse",
+          "q": {
+            "tk": "Suw gaýnap durka, gyzdyrmagy dowam etseňiz, onuň temperaturasy 100 °C-dan ýokary galýar.",
+            "ru": "Если продолжать нагревать кипящую воду, её температура поднимется выше 100 °C (при нормальном давлении)."
+          },
+          "answer": false,
+          "hint": {
+            "tk": "Gaýnama wagtynda energiýa nämä sarp edilýär?",
+            "ru": "На что тратится энергия во время кипения?"
+          },
+          "explain": {
+            "tk": "Ýalňyş: energiýa suwy bug görnüşine geçirmäge gidýär, temperatura 100 °C-da galýar.",
+            "ru": "Неверно: энергия идёт на превращение воды в пар, температура остаётся 100 °C."
+          }
+        },
+        {
+          "type": "input",
+          "q": {
+            "tk": "0,5 kg suwy 100 °C-da doly buga öwürmek üçin näçe kJ gerek? (L = 2,3·10⁶ J/kg)",
+            "ru": "Сколько кДж нужно, чтобы полностью превратить в пар 0,5 кг воды при 100 °C? (L = 2,3·10⁶ Дж/кг)"
+          },
+          "answer": "1150",
+          "hint": {
+            "tk": "Q = L · m, soňra 1000-e bölüň.",
+            "ru": "Q = L · m, затем разделите на 1000."
+          },
+          "explain": {
+            "tk": "Q = 2 300 000 · 0,5 = 1 150 000 J = 1150 kJ.",
+            "ru": "Q = 2 300 000 · 0,5 = 1 150 000 Дж = 1150 кДж."
+          }
+        },
+        {
+          "type": "world",
+          "text": {
+            "tk": "Daglarda howa basyşy pes, şonuň üçin suw 100 °C-dan pes temperaturada gaýnaýar. Ýewerest dagynyň depesinde suw takmynan 70 °C-da gaýnaýar — şonuň üçin ýokarda tagam bişirmek kyn, alpinistler käte basyşly gazanlary ulanýarlar.",
+            "ru": "В горах давление воздуха ниже, поэтому вода кипит при температуре ниже 100 °C. На вершине Эвереста вода кипит примерно при 70 °C — готовить там трудно, и альпинисты иногда используют скороварки."
+          }
+        }
+      ]
+    },
+    {
+      "id": "physics-8-electric-charge",
+      "grade": 8,
+      "topic": 3,
+      "title": {
+        "tk": "Elektrik zarýady we elektriklenme",
+        "ru": "Электрический заряд и электризация"
+      },
+      "minutes": 8,
+      "steps": [
+        {
+          "type": "theory",
+          "text": {
+            "tk": "Elektrik zarýady (q) — bölejikleriň elektromagnit täsirleşmä gatnaşmak ukyby. Birligi — kulon (Kl).\n\n• Zarýadlaryň iki görnüşi bar: položitel (+) we otrisatel (−).\n• Atly zarýadlar biri-birini itýär, dürli atly zarýadlar özüne çekýär.\n• Atom: merkezde položitel ýadro (protonlar we neýtronlar), daşynda otrisatel elektronlar. Adaty atom bitarap.\n• Elementar zarýad: e = 1,6·10⁻¹⁹ Kl (elektronyň zarýady −e).\n\nElektriklenme — jisimler sürtülende elektronlaryň birinden beýlekisine geçmegi. Elektron alan jisim otrisatel, elektron beren jisim položitel zarýadlanýar.\n\nZarýadyň saklanma kanuny: ýapyk ulgamda zarýadlaryň jemi üýtgemeýär.",
+            "ru": "Электрический заряд (q) — способность частиц участвовать в электромагнитном взаимодействии. Единица — кулон (Кл).\n\n• Существуют заряды двух видов: положительные (+) и отрицательные (−).\n• Одноимённые заряды отталкиваются, разноимённые притягиваются.\n• Атом: в центре положительное ядро (протоны и нейтроны), вокруг — отрицательные электроны. Обычный атом нейтрален.\n• Элементарный заряд: e = 1,6·10⁻¹⁹ Кл (заряд электрона −e).\n\nЭлектризация — переход электронов от одного тела к другому при трении. Тело, получившее электроны, заряжается отрицательно, отдавшее — положительно.\n\nЗакон сохранения заряда: в замкнутой системе сумма зарядов не меняется."
+          }
+        },
+        {
+          "type": "example",
+          "text": {
+            "tk": "Plastik darak saçyňyza sürtülýär we soňra kagyz böleklerini özüne çekýär.\n\n1) Sürtülende elektronlar saçdan daraga geçýär.\n2) Darak otrisatel, saç položitel zarýadlanýar.\n3) Şonuň üçin saç daraga çekilýär, saç tüýleri bolsa (hemmesi +) biri-birinden itilýär we «dik durýar».",
+            "ru": "Пластиковую расчёску потёрли о волосы, и она притягивает кусочки бумаги.\n\n1) При трении электроны переходят с волос на расчёску.\n2) Расчёска заряжается отрицательно, волосы — положительно.\n3) Поэтому волосы притягиваются к расчёске, а сами волоски (все с «+») отталкиваются друг от друга и «встают дыбом»."
+          }
+        },
+        {
+          "type": "choice",
+          "q": {
+            "tk": "Iki otrisatel zarýadly şar biri-birine nähili täsir edýär?",
+            "ru": "Как взаимодействуют два отрицательно заряженных шарика?"
+          },
+          "options": [
+            {
+              "tk": "Biri-birini özüne çekýär",
+              "ru": "Притягиваются"
+            },
+            {
+              "tk": "Täsir etmeýär",
+              "ru": "Не взаимодействуют"
+            },
+            {
+              "tk": "Biri-birini itýär",
+              "ru": "Отталкиваются"
+            }
+          ],
+          "answer": 2,
+          "hint": {
+            "tk": "Zarýadlar atly ýa-da dürli atly?",
+            "ru": "Заряды одноимённые или разноимённые?"
+          },
+          "explain": {
+            "tk": "Atly zarýadlar itilýär.",
+            "ru": "Одноимённые заряды отталкиваются."
+          }
+        },
+        {
+          "type": "truefalse",
+          "q": {
+            "tk": "Elektriklenmede protonlar bir jisimden beýlekisine geçýär.",
+            "ru": "При электризации от одного тела к другому переходят протоны."
+          },
+          "answer": false,
+          "hint": {
+            "tk": "Protonlar atomyň haýsy böleginde?",
+            "ru": "В какой части атома находятся протоны?"
+          },
+          "explain": {
+            "tk": "Ýalňyş: protonlar ýadroda berk saklanýar, geçýän bölejikler — elektronlar.",
+            "ru": "Неверно: протоны прочно удерживаются в ядре, переходят электроны."
+          }
+        },
+        {
+          "type": "input",
+          "q": {
+            "tk": "Bitarap jisim 5 elektron ýitirdi. Onuň zarýady näçe elementar zarýada deň? (Belgisi bilen, mysal: +3 ýa-da −3)",
+            "ru": "Нейтральное тело потеряло 5 электронов. Чему равен его заряд в элементарных зарядах? (Со знаком, например: +3 или −3)"
+          },
+          "answer": "+5|5|+5e|5e",
+          "hint": {
+            "tk": "Elektronlar otrisatel. Olary ýitirmek nähili zarýad galdyrýar?",
+            "ru": "Электроны отрицательны. Какой заряд останется, если их потерять?"
+          },
+          "explain": {
+            "tk": "5 otrisatel zarýad gitdi, şonuň üçin jisim +5e zarýadly boldy.",
+            "ru": "Ушли 5 отрицательных зарядов, поэтому тело получило заряд +5e."
+          }
+        },
+        {
+          "type": "world",
+          "text": {
+            "tk": "«Elektron» we «elektrik» sözleri grek dilindäki «elektron» — kähraba sözünden gelýär. Gadymy grekler ýüňe sürtülen kährabanyň ownuk zatlary özüne çekýändigini bilipdirler. 1752-nji ýylda Bençamin Franklin uçar ýylan bilen synag geçirip, ýyldyrymyň elektrik hadysasydygyny görkezipdir we ýyldyrymdan goraýjyny oýlap tapypdyr.",
+            "ru": "Слова «электрон» и «электричество» происходят от греческого «электрон» — янтарь. Древние греки знали, что натёртый шерстью янтарь притягивает мелкие предметы. В 1752 году Бенджамин Франклин в опыте с воздушным змеем показал, что молния — электрическое явление, и изобрёл громоотвод."
+          }
+        }
+      ]
+    },
+    {
+      "id": "physics-8-current-voltage",
+      "grade": 8,
+      "topic": 4,
+      "title": {
+        "tk": "Tok güýji we naprýaženiýe",
+        "ru": "Сила тока и напряжение"
+      },
+      "minutes": 9,
+      "steps": [
+        {
+          "type": "theory",
+          "text": {
+            "tk": "Elektrik togy — zarýadly bölejikleriň tertipli hereketi. Metallarda bular erkin elektronlar. Togy almak üçin tok çeşmesi (batareýa, akkumulýator) we ýapyk zynjyr gerek.\n\nTok güýji (I) — geçirijiniň kesiginden 1 sekuntda geçýän zarýad:\nI = q / t. Birligi — amper (A). Ampermetr bilen ölçenýär, zynjyra yzygiderli birikdirilýär.\n\nNaprýaženiýe (U) — 1 Kl zarýady geçirmek üçin elektrik meýdanynyň işi:\nU = A / q. Birligi — wolt (W). Woltmetr bilen ölçenýär, enjama parallel birikdirilýär.\n\nŞertleýin ugur: tok «+»-dan «−»-a akýar diýlip kabul edilýär (elektronlar tersine hereket edýär).",
+            "ru": "Электрический ток — упорядоченное движение заряженных частиц. В металлах это свободные электроны. Для тока нужны источник (батарейка, аккумулятор) и замкнутая цепь.\n\nСила тока (I) — заряд, проходящий через сечение проводника за 1 секунду:\nI = q / t. Единица — ампер (А). Измеряется амперметром, который включают в цепь последовательно.\n\nНапряжение (U) — работа электрического поля по переносу заряда 1 Кл:\nU = A / q. Единица — вольт (В). Измеряется вольтметром, который подключают параллельно прибору.\n\nУсловное направление: принято, что ток течёт от «+» к «−» (электроны движутся наоборот)."
+          }
+        },
+        {
+          "type": "example",
+          "text": {
+            "tk": "Mesele: lampadan 2 minutda 240 Kl zarýad geçdi. Tok güýji näçe?\n\n1) Wagt sekuntda: t = 2 · 60 = 120 s.\n2) I = q / t = 240 / 120 = 2 A.\n\nJogap: 2 A.",
+            "ru": "Задача: через лампу за 2 минуты прошёл заряд 240 Кл. Какова сила тока?\n\n1) Время в секундах: t = 2 · 60 = 120 с.\n2) I = q / t = 240 / 120 = 2 А.\n\nОтвет: 2 А."
+          }
+        },
+        {
+          "type": "input",
+          "q": {
+            "tk": "10 s-da geçirijiden 5 Kl zarýad geçdi. Tok güýji näçe amper?",
+            "ru": "За 10 с через проводник прошёл заряд 5 Кл. Сколько ампер сила тока?"
+          },
+          "answer": "0.5|0,5|1/2",
+          "hint": {
+            "tk": "I = q / t.",
+            "ru": "I = q / t."
+          },
+          "explain": {
+            "tk": "I = 5 / 10 = 0,5 A.",
+            "ru": "I = 5 / 10 = 0,5 А."
+          }
+        },
+        {
+          "type": "choice",
+          "q": {
+            "tk": "Woltmetr zynjyra nähili birikdirilýär?",
+            "ru": "Как вольтметр подключают в цепь?"
+          },
+          "options": [
+            {
+              "tk": "Enjama parallel",
+              "ru": "Параллельно прибору"
+            },
+            {
+              "tk": "Yzygiderli",
+              "ru": "Последовательно"
+            },
+            {
+              "tk": "Islendik görnüşde",
+              "ru": "Как угодно"
+            }
+          ],
+          "answer": 0,
+          "hint": {
+            "tk": "Woltmetr iki nokadyň arasyndaky tapawudy ölçeýär.",
+            "ru": "Вольтметр измеряет разницу между двумя точками."
+          },
+          "explain": {
+            "tk": "Woltmetr enjamyň iki ujuna — parallel birikdirilýär; ampermetr bolsa yzygiderli.",
+            "ru": "Вольтметр подключают к двум концам прибора — параллельно; амперметр — последовательно."
+          }
+        },
+        {
+          "type": "input",
+          "q": {
+            "tk": "Elektrik meýdany 2 Kl zarýady geçirip, 24 J iş etdi. Naprýaženiýe näçe wolt?",
+            "ru": "Электрическое поле, перенося заряд 2 Кл, совершило работу 24 Дж. Сколько вольт напряжение?"
+          },
+          "answer": "12",
+          "hint": {
+            "tk": "U = A / q.",
+            "ru": "U = A / q."
+          },
+          "explain": {
+            "tk": "U = 24 / 2 = 12 W.",
+            "ru": "U = 24 / 2 = 12 В."
+          }
+        },
+        {
+          "type": "truefalse",
+          "q": {
+            "tk": "Metal simde tok wagtynda elektronlar şertleýin tok ugruna ters tarapa hereket edýär.",
+            "ru": "В металлическом проводе электроны движутся против условного направления тока."
+          },
+          "answer": true,
+          "hint": {
+            "tk": "Elektronlar otrisatel, olar «+» tarapa çekilýär.",
+            "ru": "Электроны отрицательны и притягиваются к «+»."
+          },
+          "explain": {
+            "tk": "Dogry: şertleýin ugur «+» → «−», elektronlar «−» → «+» hereket edýär.",
+            "ru": "Верно: условное направление «+» → «−», а электроны движутся от «−» к «+»."
+          }
+        },
+        {
+          "type": "world",
+          "text": {
+            "tk": "1800-nji ýylda italýan alymy Alessandro Wolta sink we mis plastinkalaryndan hem-de duzly suwa çylanan kartondan ilkinji himiki tok çeşmesini — «Wolta sütünini» ýasapdyr. Naprýaženiýäniň birligi wolt onuň adyny göterýär.",
+            "ru": "В 1800 году итальянский учёный Алессандро Вольта собрал из цинковых и медных пластин и картона, смоченного солёной водой, первый химический источник тока — «вольтов столб». Единица напряжения вольт названа в его честь."
+          }
+        }
+      ]
+    },
+    {
+      "id": "physics-8-ohms-law",
+      "grade": 8,
+      "topic": 5,
+      "title": {
+        "tk": "Zynjyryň bölegi üçin Omuň kanuny",
+        "ru": "Закон Ома для участка цепи"
+      },
+      "minutes": 10,
+      "steps": [
+        {
+          "type": "theory",
+          "text": {
+            "tk": "Garşylyk (R) — geçirijiniň toga päsgel bermek ukyby. Birligi — om (Om).\n\nOmuň kanuny: zynjyryň bölegindäki tok güýji naprýaženiýä göni proporsional, garşylyga ters proporsional:\nI = U / R\nŞondan: U = I · R, R = U / I.\n\nSimiň garşylygy: R = ρ · l / S\n• ρ — udel garşylyk (maddanyň häsiýeti);\n• l — uzynlyk; S — kesigiň meýdany.\nSim näçe uzyn we inçe bolsa, garşylyk şonça uly.\n\nBirikdirmeler:\n• Yzygiderli: tok hemme ýerde birmeňzeş, R = R₁ + R₂, U = U₁ + U₂.\n• Parallel: naprýaženiýe birmeňzeş, I = I₁ + I₂, 1/R = 1/R₁ + 1/R₂.\nIki deň R parallel birikdirilse, umumy garşylyk R/2 bolýar.",
+            "ru": "Сопротивление (R) — свойство проводника препятствовать току. Единица — ом (Ом).\n\nЗакон Ома: сила тока на участке цепи прямо пропорциональна напряжению и обратно пропорциональна сопротивлению:\nI = U / R\nОтсюда: U = I · R, R = U / I.\n\nСопротивление провода: R = ρ · l / S\n• ρ — удельное сопротивление (свойство вещества);\n• l — длина; S — площадь сечения.\nЧем длиннее и тоньше провод, тем больше сопротивление.\n\nСоединения:\n• Последовательное: ток везде одинаков, R = R₁ + R₂, U = U₁ + U₂.\n• Параллельное: напряжение одинаково, I = I₁ + I₂, 1/R = 1/R₁ + 1/R₂.\nПри параллельном соединении двух одинаковых R общее сопротивление равно R/2."
+          }
+        },
+        {
+          "type": "example",
+          "text": {
+            "tk": "Mesele: 220 W naprýaženiýede işleýän elektrik gyzdyryjynyň garşylygy 44 Om. Tok güýji näçe?\n\n1) I = U / R.\n2) I = 220 / 44 = 5 A.\n\nJogap: 5 A.",
+            "ru": "Задача: электронагреватель с сопротивлением 44 Ом работает при напряжении 220 В. Какова сила тока?\n\n1) I = U / R.\n2) I = 220 / 44 = 5 А.\n\nОтвет: 5 А."
+          }
+        },
+        {
+          "type": "input",
+          "q": {
+            "tk": "Garşylyk 6 Om, naprýaženiýe 12 W. Tok güýji näçe amper?",
+            "ru": "Сопротивление 6 Ом, напряжение 12 В. Сколько ампер сила тока?"
+          },
+          "answer": "2",
+          "hint": {
+            "tk": "I = U / R.",
+            "ru": "I = U / R."
+          },
+          "explain": {
+            "tk": "I = 12 / 6 = 2 A.",
+            "ru": "I = 12 / 6 = 2 А."
+          }
+        },
+        {
+          "type": "input",
+          "q": {
+            "tk": "Garşylygy 10 Om bolan rezistordan 0,3 A tok geçýär. Naprýaženiýe näçe wolt?",
+            "ru": "Через резистор сопротивлением 10 Ом идёт ток 0,3 А. Сколько вольт напряжение?"
+          },
+          "answer": "3",
+          "hint": {
+            "tk": "U = I · R.",
+            "ru": "U = I · R."
+          },
+          "explain": {
+            "tk": "U = 0,3 · 10 = 3 W.",
+            "ru": "U = 0,3 · 10 = 3 В."
+          }
+        },
+        {
+          "type": "choice",
+          "q": {
+            "tk": "4 Om we 6 Om rezistorlar yzygiderli birikdirilen. Umumy garşylyk näçe?",
+            "ru": "Резисторы 4 Ом и 6 Ом соединены последовательно. Чему равно общее сопротивление?"
+          },
+          "options": [
+            "2,4 Om / Ом",
+            "10 Om / Ом",
+            "24 Om / Ом"
+          ],
+          "answer": 1,
+          "hint": {
+            "tk": "Yzygiderli birikdirmede garşylyklar goşulýar.",
+            "ru": "При последовательном соединении сопротивления складываются."
+          },
+          "explain": {
+            "tk": "R = 4 + 6 = 10 Om. (2,4 Om parallel birikdirmede bolardy.)",
+            "ru": "R = 4 + 6 = 10 Ом. (2,4 Ом было бы при параллельном соединении.)"
+          }
+        },
+        {
+          "type": "truefalse",
+          "q": {
+            "tk": "Garşylyk üýtgemese, naprýaženiýäni iki esse artdyrsak, tok güýji hem iki esse artýar.",
+            "ru": "Если сопротивление не меняется, то при увеличении напряжения в 2 раза сила тока тоже увеличится в 2 раза."
+          },
+          "answer": true,
+          "hint": {
+            "tk": "I we U nähili baglanyşykly?",
+            "ru": "Как связаны I и U?"
+          },
+          "explain": {
+            "tk": "Dogry: I = U / R, I naprýaženiýä göni proporsional.",
+            "ru": "Верно: I = U / R, ток прямо пропорционален напряжению."
+          }
+        },
+        {
+          "type": "world",
+          "text": {
+            "tk": "Nemes fizigi Georg Om bu kanuny 1827-nji ýylda çap edipdir. Başda onuň işi alymlar tarapyndan şübhe bilen garşylanypdyr, ýöne soňra ykrar edilipdir we 1881-nji ýylda garşylygyň birligine onuň ady berlipdir.",
+            "ru": "Немецкий физик Георг Ом опубликовал этот закон в 1827 году. Сначала его работу встретили с недоверием, но позже она получила признание, и в 1881 году единицу сопротивления назвали в его честь."
+          }
+        }
+      ]
+    }
+  ]
+}

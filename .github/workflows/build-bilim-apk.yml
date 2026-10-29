@@ -1,0 +1,52 @@
+name: Build Bilim APK
+
+on:
+  workflow_dispatch:
+    inputs:
+      api_url:
+        description: "API URL (server address)"
+        default: "https://bilim.tm"
+  push:
+    branches: [main, master]
+    paths: ["bilim/app/**", "bilim/content/**", ".github/workflows/build-bilim-apk.yml"]
+
+jobs:
+  apk:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: bilim/app
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+
+      - name: Create android/ios folders
+        run: flutter create . --platforms=android,ios --org tm.bilim --project-name bilim
+
+      - name: Add INTERNET permission (needed in release builds)
+        run: |
+          M=android/app/src/main/AndroidManifest.xml
+          grep -q 'android.permission.INTERNET' $M || sed -i 's#<application#<uses-permission android:name="android.permission.INTERNET"/>\n    <application#' $M
+          sed -i 's#android:label="bilim"#android:label="Bilim"#' $M
+
+      - run: flutter pub get
+
+      - name: Generate launcher icons
+        run: dart run flutter_launcher_icons
+
+      - name: Build release APK
+        run: flutter build apk --release --dart-define=API=${{ github.event.inputs.api_url || 'https://bilim.tm' }}
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bilim-apk
+          path: bilim/app/build/app/outputs/flutter-apk/app-release.apk

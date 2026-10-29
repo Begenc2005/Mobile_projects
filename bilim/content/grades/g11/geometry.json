@@ -1,0 +1,244 @@
+{
+  "grade": 11,
+  "subject": "geometry",
+  "lessons": [
+    {
+      "id": "geometry-11-cylinder",
+      "grade": 11,
+      "topic": 0,
+      "title": {"tk": "Silindr: üstüň meýdany we göwrüm", "ru": "Цилиндр: площадь поверхности и объём"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Silindr — gönüburçlugyň bir tarapynyň daşyndan aýlanmagyndan emele gelýän aýlanma jisimi.\n• Esaslary — iki deň tegelek (radiusy r).\n• Beýikligi h — esaslaryň arasyndaky uzaklyk; göni silindrde ol emele getirijä deň.\n• Ok kesigi — taraplary 2r we h bolan gönüburçluk.\n\nFormulalar:\n• Gapdal üstüň meýdany: S_gap = 2πrh\n• Doly üstüň meýdany: S_doly = 2πr(r + h)\n• Göwrümi: V = πr²h",
+          "ru": "Цилиндр — тело вращения, которое получается при вращении прямоугольника вокруг одной из его сторон.\n• Основания — два равных круга радиуса r.\n• Высота h — расстояние между основаниями; у прямого цилиндра она равна образующей.\n• Осевое сечение — прямоугольник со сторонами 2r и h.\n\nФормулы:\n• Площадь боковой поверхности: S_бок = 2πrh\n• Площадь полной поверхности: S_полн = 2πr(r + h)\n• Объём: V = πr²h"}},
+        {"type": "example", "text": {
+          "tk": "Mesele: r = 3 sm, h = 5 sm. Üstüň meýdanlaryny we göwrümi tapyň.\n1) S_gap = 2π · 3 · 5 = 30π sm²\n2) S_doly = 2π · 3 · (3 + 5) = 48π sm² ≈ 150,8 sm²\n3) V = π · 3² · 5 = 45π sm³ ≈ 141,4 sm³\nJogap: 30π sm², 48π sm², 45π sm³.",
+          "ru": "Задача: r = 3 см, h = 5 см. Найдите площади поверхности и объём.\n1) S_бок = 2π · 3 · 5 = 30π см²\n2) S_полн = 2π · 3 · (3 + 5) = 48π см² ≈ 150,8 см²\n3) V = π · 3² · 5 = 45π см³ ≈ 141,4 см³\nОтвет: 30π см², 48π см², 45π см³."}},
+        {"type": "input",
+          "q": {"tk": "Silindriň radiusy 2, beýikligi 5. Gapdal üstüň meýdany näçe π? (diňe sany ýazyň)", "ru": "Радиус цилиндра 2, высота 5. Площадь боковой поверхности равна скольким π? (запишите только число)"},
+          "answer": "20",
+          "hint": {"tk": "S_gap = 2πrh formulany ulanyň.", "ru": "Используйте формулу S_бок = 2πrh."},
+          "explain": {"tk": "S_gap = 2π · 2 · 5 = 20π.", "ru": "S_бок = 2π · 2 · 5 = 20π."}},
+        {"type": "choice",
+          "q": {"tk": "Silindriň ok kesigi haýsy figura?", "ru": "Какая фигура является осевым сечением цилиндра?"},
+          "options": [
+            {"tk": "Üçburçluk", "ru": "Треугольник"},
+            {"tk": "Gönüburçluk", "ru": "Прямоугольник"},
+            {"tk": "Trapesiýa", "ru": "Трапеция"}
+          ],
+          "answer": 1,
+          "hint": {"tk": "Kesik iki emele getirijiden we iki diametrden ybarat.", "ru": "Сечение ограничено двумя образующими и двумя диаметрами."},
+          "explain": {"tk": "Ok kesiginiň taraplary 2r we h, burçlary göni — bu gönüburçluk.", "ru": "Стороны осевого сечения равны 2r и h, все углы прямые — это прямоугольник."}},
+        {"type": "truefalse",
+          "q": {"tk": "Silindriň radiusyny 2 esse ulaltsak, göwrümi hem 2 esse ulalýar.", "ru": "Если увеличить радиус цилиндра в 2 раза, его объём тоже увеличится в 2 раза."},
+          "answer": false,
+          "hint": {"tk": "Formulada radius kwadrat derejede.", "ru": "В формуле радиус стоит в квадрате."},
+          "explain": {"tk": "V = πr²h, şonuň üçin r 2 esse ulalsa, V 2² = 4 esse ulalýar.", "ru": "V = πr²h, поэтому при увеличении r в 2 раза объём растёт в 2² = 4 раза."}},
+        {"type": "input",
+          "q": {"tk": "Silindriň radiusy 4, beýikligi 3. Göwrümi näçe π?", "ru": "Радиус цилиндра 4, высота 3. Объём равен скольким π?"},
+          "answer": "48",
+          "hint": {"tk": "V = πr²h.", "ru": "V = πr²h."},
+          "explain": {"tk": "V = π · 16 · 3 = 48π.", "ru": "V = π · 16 · 3 = 48π."}},
+        {"type": "world", "text": {
+          "tk": "Awtoulag hereketlendirijisiniň «litr» bilen görkezilýän göwrümi porşenleriň silindrlerde süpürýän göwrümleriniň jemidir. Ony hasaplamak üçin hut V = πr²h formulasy ulanylýar: r — silindriň radiusy, h — porşeniň ýörişi.",
+          "ru": "Объём автомобильного двигателя в «литрах» — это сумма объёмов, которые поршни проходят в цилиндрах. Он считается именно по формуле V = πr²h, где r — радиус цилиндра, h — ход поршня."}}
+      ]
+    },
+    {
+      "id": "geometry-11-cone",
+      "grade": 11,
+      "topic": 1,
+      "title": {"tk": "Konus", "ru": "Конус"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Konus — gönüburçly üçburçlugyň bir katetiniň daşyndan aýlanmagyndan emele gelýän jisim.\n• Esasy — radiusy r bolan tegelek.\n• Beýikligi h — depesinden esasyna çenli uzaklyk.\n• Emele getirijisi l — depeden esasyň töweregine çenli kesim: l = √(r² + h²).\n• Ok kesigi — deňýanly üçburçluk.\n\nFormulalar:\n• S_gap = πrl\n• S_doly = πr(r + l)\n• V = ⅓πr²h\n\nKesik konus (esaslary R we r): S_gap = π(R + r)l.",
+          "ru": "Конус — тело, получаемое вращением прямоугольного треугольника вокруг одного из катетов.\n• Основание — круг радиуса r.\n• Высота h — расстояние от вершины до основания.\n• Образующая l — отрезок от вершины до окружности основания: l = √(r² + h²).\n• Осевое сечение — равнобедренный треугольник.\n\nФормулы:\n• S_бок = πrl\n• S_полн = πr(r + l)\n• V = ⅓πr²h\n\nУсечённый конус (радиусы оснований R и r): S_бок = π(R + r)l."}},
+        {"type": "example", "text": {
+          "tk": "Mesele: r = 3, h = 4. Konusy doly häsiýetlendiriň.\n1) l = √(3² + 4²) = √25 = 5\n2) S_gap = π · 3 · 5 = 15π\n3) S_doly = π · 3 · (3 + 5) = 24π\n4) V = ⅓ · π · 9 · 4 = 12π\nJogap: l = 5, S_gap = 15π, S_doly = 24π, V = 12π.",
+          "ru": "Задача: r = 3, h = 4. Найдите основные величины конуса.\n1) l = √(3² + 4²) = √25 = 5\n2) S_бок = π · 3 · 5 = 15π\n3) S_полн = π · 3 · (3 + 5) = 24π\n4) V = ⅓ · π · 9 · 4 = 12π\nОтвет: l = 5, S_бок = 15π, S_полн = 24π, V = 12π."}},
+        {"type": "input",
+          "q": {"tk": "Konusyň radiusy 6, beýikligi 8. Emele getirijisi näçä deň?", "ru": "Радиус конуса 6, высота 8. Чему равна образующая?"},
+          "answer": "10",
+          "hint": {"tk": "Pifagoryň teoremasy: l² = r² + h².", "ru": "Теорема Пифагора: l² = r² + h²."},
+          "explain": {"tk": "l = √(36 + 64) = √100 = 10.", "ru": "l = √(36 + 64) = √100 = 10."}},
+        {"type": "choice",
+          "q": {"tk": "Konus we silindr esaslary we beýiklikleri boýunça deň. Konusyň göwrümi silindriň göwrüminiň haýsy bölegi?", "ru": "У конуса и цилиндра равны основания и высоты. Какую часть объёма цилиндра составляет объём конуса?"},
+          "options": ["1/2", "2/3", "1/3"],
+          "answer": 2,
+          "hint": {"tk": "Formulalary deňeşdiriň: πr²h we ⅓πr²h.", "ru": "Сравните формулы: πr²h и ⅓πr²h."},
+          "explain": {"tk": "V_konus = ⅓πr²h = ⅓ · V_silindr.", "ru": "V_конуса = ⅓πr²h = ⅓ · V_цилиндра."}},
+        {"type": "truefalse",
+          "q": {"tk": "Konusyň ok kesigi deňýanly üçburçlukdyr.", "ru": "Осевое сечение конуса — равнобедренный треугольник."},
+          "answer": true,
+          "hint": {"tk": "Ok kesiginiň iki tarapy näme?", "ru": "Чем являются две боковые стороны осевого сечения?"},
+          "explain": {"tk": "Onuň gapdal taraplary iki emele getiriji, olar deň (l), esasy bolsa 2r.", "ru": "Его боковые стороны — две образующие, равные l, а основание равно 2r."}},
+        {"type": "input",
+          "q": {"tk": "r = 5, l = 7 bolan konusyň gapdal üstüniň meýdany näçe π?", "ru": "Площадь боковой поверхности конуса с r = 5, l = 7 равна скольким π?"},
+          "answer": "35",
+          "hint": {"tk": "S_gap = πrl.", "ru": "S_бок = πrl."},
+          "explain": {"tk": "S_gap = π · 5 · 7 = 35π.", "ru": "S_бок = π · 5 · 7 = 35π."}},
+        {"type": "world", "text": {
+          "tk": "Konusy dürli tekizlikler bilen kesip, töwerek, ellips, parabola we giperbola alynýar. Bu egrileri b.e.öň III asyrda grek alymy Apolloniý Pergskiý jikme-jik öwrenipdir. Müňlerçe ýyldan soň Kepler planetalaryň ellips boýunça hereket edýändigini açdy.",
+          "ru": "Рассекая конус разными плоскостями, получают окружность, эллипс, параболу и гиперболу. Эти кривые подробно изучил греческий учёный Аполлоний Пергский в III веке до н. э. Спустя почти два тысячелетия Кеплер установил, что планеты движутся по эллипсам."}}
+      ]
+    },
+    {
+      "id": "geometry-11-sphere-ball",
+      "grade": 11,
+      "topic": 2,
+      "title": {"tk": "Şar we sfera", "ru": "Шар и сфера"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Sfera — giňişlikde berlen O nokatdan (merkezden) deň R uzaklykda ýatan nokatlaryň köplügi. Şar — sfera bilen çäklenen jisim.\n\nEsasy formulalar:\n• Sferanyň meýdany: S = 4πR²\n• Şaryň göwrümi: V = ⁴⁄₃πR³\n\nTekizlik bilen kesik:\n• Şaryň tekizlik bilen kesigi — tegelek.\n• Eger tekizlik merkezden d uzaklykda bolsa, kesigiň radiusy r = √(R² − d²).\n• d = 0 bolanda iň uly («uly») tegelek alynýar.\n\nSfera galtaşma tekizligi galtaşma nokadyna geçirilen radiusa perpendikulýar.",
+          "ru": "Сфера — множество точек пространства, находящихся на расстоянии R от данной точки O (центра). Шар — тело, ограниченное сферой.\n\nОсновные формулы:\n• Площадь сферы: S = 4πR²\n• Объём шара: V = ⁴⁄₃πR³\n\nСечение плоскостью:\n• Сечение шара плоскостью — круг.\n• Если плоскость удалена от центра на d, радиус сечения r = √(R² − d²).\n• При d = 0 получается наибольший («большой») круг.\n\nКасательная плоскость перпендикулярна радиусу, проведённому в точку касания."}},
+        {"type": "example", "text": {
+          "tk": "Mesele: Şaryň radiusy R = 5 sm. Ony merkezden 3 sm uzaklykda tekizlik kesýär. Kesigiň meýdanyny tapyň.\n1) r = √(5² − 3²) = √16 = 4 sm\n2) S_kesik = πr² = 16π sm²\nGoşmaça: şaryň göwrümi V = ⁴⁄₃π · 125 = ⁵⁰⁰⁄₃π ≈ 523,6 sm³, sferanyň meýdany 4π · 25 = 100π sm².",
+          "ru": "Задача: радиус шара R = 5 см. Плоскость пересекает его на расстоянии 3 см от центра. Найдите площадь сечения.\n1) r = √(5² − 3²) = √16 = 4 см\n2) S_сеч = πr² = 16π см²\nДополнительно: объём шара V = ⁴⁄₃π · 125 = ⁵⁰⁰⁄₃π ≈ 523,6 см³, площадь сферы 4π · 25 = 100π см²."}},
+        {"type": "input",
+          "q": {"tk": "Radiusy 3 bolan sferanyň meýdany näçe π?", "ru": "Площадь сферы радиуса 3 равна скольким π?"},
+          "answer": "36",
+          "hint": {"tk": "S = 4πR².", "ru": "S = 4πR²."},
+          "explain": {"tk": "S = 4π · 9 = 36π.", "ru": "S = 4π · 9 = 36π."}},
+        {"type": "choice",
+          "q": {"tk": "Şaryň radiusyny 2 esse ulaltsak, göwrümi näçe esse ulalar?", "ru": "Во сколько раз увеличится объём шара, если радиус увеличить в 2 раза?"},
+          "options": ["8", "4", "2"],
+          "answer": 0,
+          "hint": {"tk": "Göwrüm R-iň kubuna proporsional.", "ru": "Объём пропорционален кубу радиуса."},
+          "explain": {"tk": "V ~ R³, şonuň üçin 2³ = 8 esse.", "ru": "V ~ R³, значит в 2³ = 8 раз."}},
+        {"type": "truefalse",
+          "q": {"tk": "Sfera galtaşma tekizligi galtaşma nokadyna geçirilen radiusa perpendikulýardyr.", "ru": "Касательная плоскость к сфере перпендикулярна радиусу, проведённому в точку касания."},
+          "answer": true,
+          "hint": {"tk": "Tegelegiň galtaşýan çyzygy bilen meňzeşligi ýatlaň.", "ru": "Вспомните аналогичное свойство касательной к окружности."},
+          "explain": {"tk": "Bu sferanyň galtaşma tekizliginiň esasy häsiýeti.", "ru": "Это основное свойство касательной плоскости к сфере."}},
+        {"type": "input",
+          "q": {"tk": "R = 10 bolan şary merkezden 6 uzaklykda tekizlik kesýär. Kesigiň radiusy näçe?", "ru": "Шар радиуса R = 10 пересечён плоскостью на расстоянии 6 от центра. Чему равен радиус сечения?"},
+          "answer": "8",
+          "hint": {"tk": "r = √(R² − d²).", "ru": "r = √(R² − d²)."},
+          "explain": {"tk": "r = √(100 − 36) = √64 = 8.", "ru": "r = √(100 − 36) = √64 = 8."}},
+        {"type": "world", "text": {
+          "tk": "Arhimed şaryň göwrüminiň oňa daşyndan çyzylan silindriň göwrüminiň 2/3 bölegine deňdigini subut edipdir; sferanyň we silindriň doly üstleriniň gatnaşygy hem 2 : 3. Ol bu açyşy iň uly üstünligi hasaplap, mazaryna şar bilen silindriň şekilini goýmagy wesýet edipdir.",
+          "ru": "Архимед доказал, что объём шара составляет 2/3 объёма описанного около него цилиндра; полные поверхности сферы и цилиндра тоже относятся как 2 : 3. Он считал это своим главным достижением и завещал изобразить шар в цилиндре на своей гробнице."}}
+      ]
+    },
+    {
+      "id": "geometry-11-volumes",
+      "grade": 11,
+      "topic": 3,
+      "title": {"tk": "Jisimleriň göwrümi", "ru": "Объёмы тел"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Göwrüm — jisimiň giňişlikde eýeleýän ölçegi; birligi m³, sm³, litr (1 l = 1 dm³).\n\nGöwrümiň häsiýetleri:\n• Deň jisimleriň göwrümleri deň.\n• Jisim böleklere bölünse, göwrüm bölekleriň göwrümleriniň jemine deň.\n\nEsasy formulalar (S — esasyň meýdany, h — beýiklik):\n• Gönüburçly parallelepiped: V = abc; kub: V = a³\n• Prizma: V = S·h\n• Piramida: V = ⅓S·h\n• Kesik piramida: V = ⅓h(S₁ + √(S₁S₂) + S₂)\n• Silindr: V = πr²h; konus: V = ⅓πr²h; şar: V = ⁴⁄₃πR³\n\nKawalýeriniň prinsipi: iki jisimiň islendik parallel tekizlik bilen kesikleriniň meýdanlary deň bolsa, olaryň göwrümleri hem deňdir.",
+          "ru": "Объём — мера того, сколько места тело занимает в пространстве; единицы — м³, см³, литр (1 л = 1 дм³).\n\nСвойства объёма:\n• Равные тела имеют равные объёмы.\n• Если тело разбито на части, его объём равен сумме объёмов частей.\n\nОсновные формулы (S — площадь основания, h — высота):\n• Прямоугольный параллелепипед: V = abc; куб: V = a³\n• Призма: V = S·h\n• Пирамида: V = ⅓S·h\n• Усечённая пирамида: V = ⅓h(S₁ + √(S₁S₂) + S₂)\n• Цилиндр: V = πr²h; конус: V = ⅓πr²h; шар: V = ⁴⁄₃πR³\n\nПринцип Кавальери: если сечения двух тел любой плоскостью, параллельной данной, имеют равные площади, то объёмы тел равны."}},
+        {"type": "example", "text": {
+          "tk": "Mesele: Dogry dörtburçly piramidanyň esasynyň tarapy 6 sm, beýikligi 5 sm. Göwrümini tapyň.\n1) Esas — kwadrat: S = 6² = 36 sm²\n2) V = ⅓ · 36 · 5 = 60 sm³\nDeňeşdiriň: şol esasly we beýiklikli prizmanyň göwrümi 36 · 5 = 180 sm³, ýagny 3 esse köp.",
+          "ru": "Задача: сторона основания правильной четырёхугольной пирамиды 6 см, высота 5 см. Найдите объём.\n1) Основание — квадрат: S = 6² = 36 см²\n2) V = ⅓ · 36 · 5 = 60 см³\nСравните: у призмы с тем же основанием и высотой объём 36 · 5 = 180 см³, то есть в 3 раза больше."}},
+        {"type": "input",
+          "q": {"tk": "Gönüburçly parallelepipediň ölçegleri 2, 3 we 4 sm. Göwrümi näçe sm³?", "ru": "Измерения прямоугольного параллелепипеда 2, 3 и 4 см. Чему равен объём в см³?"},
+          "answer": "24",
+          "hint": {"tk": "V = abc.", "ru": "V = abc."},
+          "explain": {"tk": "V = 2 · 3 · 4 = 24 sm³.", "ru": "V = 2 · 3 · 4 = 24 см³."}},
+        {"type": "choice",
+          "q": {"tk": "Üçburçly prizmanyň esasynyň meýdany 12 sm², beýikligi 10 sm. Göwrümi näçe?", "ru": "Площадь основания треугольной призмы 12 см², высота 10 см. Чему равен объём?"},
+          "options": ["40 sm³ / см³", "120 sm³ / см³", "60 sm³ / см³"],
+          "answer": 1,
+          "hint": {"tk": "Prizma üçin ⅓ köpeldiji ýok.", "ru": "У призмы нет множителя ⅓."},
+          "explain": {"tk": "V = S·h = 12 · 10 = 120 sm³.", "ru": "V = S·h = 12 · 10 = 120 см³."}},
+        {"type": "truefalse",
+          "q": {"tk": "Kubuň gyrasyny 3 esse ulaltsak, göwrümi 9 esse ulalýar.", "ru": "Если увеличить ребро куба в 3 раза, его объём увеличится в 9 раз."},
+          "answer": false,
+          "hint": {"tk": "V = a³.", "ru": "V = a³."},
+          "explain": {"tk": "Göwrüm 3³ = 27 esse ulalýar. 9 esse — bu üstüň meýdany.", "ru": "Объём увеличится в 3³ = 27 раз. В 9 раз увеличится площадь поверхности."}},
+        {"type": "input",
+          "q": {"tk": "Piramidanyň esasynyň meýdany 15 sm², beýikligi 8 sm. Göwrümi näçe sm³?", "ru": "Площадь основания пирамиды 15 см², высота 8 см. Чему равен объём в см³?"},
+          "answer": "40",
+          "hint": {"tk": "V = ⅓S·h.", "ru": "V = ⅓S·h."},
+          "explain": {"tk": "V = ⅓ · 15 · 8 = 40 sm³.", "ru": "V = ⅓ · 15 · 8 = 40 см³."}},
+        {"type": "world", "text": {
+          "tk": "Kesik piramidanyň göwrüminiň dogry formulasy eýýäm gadymy Müsürde mälim bolupdyr: ol takmynan b.e.öň XIX asyra degişli «Moskwa matematiki papirusynda» san mysaly bilen çözülen meseledir. Bu papirus häzir Moskwadaky Puşkin adyndaky muzeýde saklanýar.",
+          "ru": "Правильная формула объёма усечённой пирамиды была известна ещё в Древнем Египте: задача с её численным решением есть в «Московском математическом папирусе», датируемом примерно XIX веком до н. э. Сейчас папирус хранится в Музее имени Пушкина в Москве."}}
+      ]
+    },
+    {
+      "id": "geometry-11-space-coordinates",
+      "grade": 11,
+      "topic": 4,
+      "title": {"tk": "Giňişlikde gönüburçly koordinatalar", "ru": "Прямоугольные координаты в пространстве"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Giňişlikde gönüburçly koordinatalar ulgamy üç sany özara perpendikulýar okdan ybarat: Ox (absissa), Oy (ordinata), Oz (applikata). Her nokat üç san bilen berilýär: A(x; y; z).\n\n• Oy okunda ýatan nokat: (0; y; 0); Oxy tekizliginde: (x; y; 0).\n• Iki nokadyň arasyndaky uzaklyk:\nAB = √((x₂ − x₁)² + (y₂ − y₁)² + (z₂ − z₁)²)\n• Kesimiň ortasy:\nM((x₁ + x₂)/2; (y₁ + y₂)/2; (z₁ + z₂)/2)\n• Merkezi (a; b; c), radiusy R bolan sferanyň deňlemesi:\n(x − a)² + (y − b)² + (z − c)² = R²",
+          "ru": "Прямоугольная система координат в пространстве состоит из трёх попарно перпендикулярных осей: Ox (абсцисс), Oy (ординат), Oz (аппликат). Каждая точка задаётся тремя числами: A(x; y; z).\n\n• Точка на оси Oy: (0; y; 0); в плоскости Oxy: (x; y; 0).\n• Расстояние между двумя точками:\nAB = √((x₂ − x₁)² + (y₂ − y₁)² + (z₂ − z₁)²)\n• Середина отрезка:\nM((x₁ + x₂)/2; (y₁ + y₂)/2; (z₁ + z₂)/2)\n• Уравнение сферы с центром (a; b; c) и радиусом R:\n(x − a)² + (y − b)² + (z − c)² = R²"}},
+        {"type": "example", "text": {
+          "tk": "Mesele: A(1; 2; 3), B(3; 5; 9). AB uzynlygyny we ortasyny tapyň.\n1) Tapawutlar: 3 − 1 = 2, 5 − 2 = 3, 9 − 3 = 6\n2) AB = √(4 + 9 + 36) = √49 = 7\n3) M((1 + 3)/2; (2 + 5)/2; (3 + 9)/2) = M(2; 3,5; 6)\nJogap: AB = 7, M(2; 3,5; 6).",
+          "ru": "Задача: A(1; 2; 3), B(3; 5; 9). Найдите длину AB и середину отрезка.\n1) Разности: 3 − 1 = 2, 5 − 2 = 3, 9 − 3 = 6\n2) AB = √(4 + 9 + 36) = √49 = 7\n3) M((1 + 3)/2; (2 + 5)/2; (3 + 9)/2) = M(2; 3,5; 6)\nОтвет: AB = 7, M(2; 3,5; 6)."}},
+        {"type": "input",
+          "q": {"tk": "Koordinatalar başlangyjyndan A(1; 2; 2) nokada çenli uzaklyk näçe?", "ru": "Чему равно расстояние от начала координат до точки A(1; 2; 2)?"},
+          "answer": "3",
+          "hint": {"tk": "√(x² + y² + z²).", "ru": "√(x² + y² + z²)."},
+          "explain": {"tk": "√(1 + 4 + 4) = √9 = 3.", "ru": "√(1 + 4 + 4) = √9 = 3."}},
+        {"type": "choice",
+          "q": {"tk": "A(2; −4; 6) we B(4; 0; −2) kesimiň ortasy:", "ru": "Середина отрезка с концами A(2; −4; 6) и B(4; 0; −2):"},
+          "options": ["(1; 2; −4)", "(6; −4; 4)", "(3; −2; 2)"],
+          "answer": 2,
+          "hint": {"tk": "Her koordinatanyň orta arifmetik bahasyny alyň.", "ru": "Возьмите среднее арифметическое каждой координаты."},
+          "explain": {"tk": "((2 + 4)/2; (−4 + 0)/2; (6 − 2)/2) = (3; −2; 2).", "ru": "((2 + 4)/2; (−4 + 0)/2; (6 − 2)/2) = (3; −2; 2)."}},
+        {"type": "input",
+          "q": {"tk": "(x − 1)² + (y + 2)² + z² = 16 sferanyň radiusy näçe?", "ru": "Чему равен радиус сферы (x − 1)² + (y + 2)² + z² = 16?"},
+          "answer": "4",
+          "hint": {"tk": "Sag tarapda R² dur.", "ru": "Справа стоит R²."},
+          "explain": {"tk": "R² = 16, diýmek R = 4 (merkezi (1; −2; 0)).", "ru": "R² = 16, значит R = 4 (центр (1; −2; 0))."}},
+        {"type": "truefalse",
+          "q": {"tk": "(0; 5; 0) nokat Oy okunda ýatýar.", "ru": "Точка (0; 5; 0) лежит на оси Oy."},
+          "answer": true,
+          "hint": {"tk": "Oy okundaky nokatlaryň x we z koordinatalary nämä deň?", "ru": "Чему равны координаты x и z у точек оси Oy?"},
+          "explain": {"tk": "x = 0 we z = 0, diýmek nokat Oy okunda.", "ru": "x = 0 и z = 0, значит точка лежит на оси Oy."}},
+        {"type": "world", "text": {
+          "tk": "Koordinatalar usulyny 1637-nji ýylda Rene Dekart «Geometriýa» eserinde beýan edipdir, şonuň üçin gönüburçly koordinatalara «dekart koordinatalary» diýilýär. Häzirki GPS ulgamy hem kabul edijiniň ýerini hemralara çenli uzaklyklar arkaly üç ölçegli koordinatalarda kesgitleýär.",
+          "ru": "Метод координат изложил Рене Декарт в труде «Геометрия» 1637 года, поэтому прямоугольные координаты называют декартовыми. Современная система GPS тоже определяет положение приёмника в трёхмерных координатах по расстояниям до спутников."}}
+      ]
+    },
+    {
+      "id": "geometry-11-space-vectors",
+      "grade": 11,
+      "topic": 5,
+      "title": {"tk": "Giňişlikde wektorlar we skalýar köpeltmek hasyly", "ru": "Векторы в пространстве и скалярное произведение"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Wektor — ugry bolan kesim. Giňişlikde wektor üç koordinata bilen berilýär: a⃗(x; y; z).\n\n• A(x₁; y₁; z₁), B(x₂; y₂; z₂) bolsa: AB⃗ = (x₂ − x₁; y₂ − y₁; z₂ − z₁)\n• Uzynlygy: |a⃗| = √(x² + y² + z²)\n• Goşmak we sana köpeltmek koordinatalar boýunça ýerine ýetirilýär.\n• Kollinear wektorlar: koordinatalary proporsional (b⃗ = k·a⃗).\n\nSkalýar köpeltmek hasyly:\na⃗·b⃗ = x₁x₂ + y₁y₂ + z₁z₂ = |a⃗|·|b⃗|·cos φ\n• a⃗·b⃗ = 0 ⇔ wektorlar perpendikulýar.\n• a⃗·b⃗ > 0 — burç ýiti; a⃗·b⃗ < 0 — burç kütek.",
+          "ru": "Вектор — направленный отрезок. В пространстве вектор задаётся тремя координатами: a⃗(x; y; z).\n\n• Если A(x₁; y₁; z₁), B(x₂; y₂; z₂), то AB⃗ = (x₂ − x₁; y₂ − y₁; z₂ − z₁)\n• Длина: |a⃗| = √(x² + y² + z²)\n• Сложение и умножение на число выполняются покоординатно.\n• Коллинеарные векторы: координаты пропорциональны (b⃗ = k·a⃗).\n\nСкалярное произведение:\na⃗·b⃗ = x₁x₂ + y₁y₂ + z₁z₂ = |a⃗|·|b⃗|·cos φ\n• a⃗·b⃗ = 0 ⇔ векторы перпендикулярны.\n• a⃗·b⃗ > 0 — угол острый; a⃗·b⃗ < 0 — угол тупой."}},
+        {"type": "example", "text": {
+          "tk": "Mesele: a⃗(1; 2; 2), b⃗(2; −1; 0). |a⃗| we a⃗ bilen b⃗ arasyndaky burçy tapyň.\n1) |a⃗| = √(1 + 4 + 4) = 3\n2) a⃗·b⃗ = 1·2 + 2·(−1) + 2·0 = 2 − 2 + 0 = 0\n3) Skalýar köpeltmek hasyly nola deň, diýmek a⃗ ⊥ b⃗, burç 90°.",
+          "ru": "Задача: a⃗(1; 2; 2), b⃗(2; −1; 0). Найдите |a⃗| и угол между a⃗ и b⃗.\n1) |a⃗| = √(1 + 4 + 4) = 3\n2) a⃗·b⃗ = 1·2 + 2·(−1) + 2·0 = 2 − 2 + 0 = 0\n3) Скалярное произведение равно нулю, значит a⃗ ⊥ b⃗, угол 90°."}},
+        {"type": "input",
+          "q": {"tk": "a⃗(2; 3; −1) we b⃗(1; 0; 4). a⃗·b⃗ näçä deň?", "ru": "a⃗(2; 3; −1) и b⃗(1; 0; 4). Чему равно a⃗·b⃗?"},
+          "answer": "-2|−2",
+          "hint": {"tk": "Degişli koordinatalary köpeldip goşuň.", "ru": "Перемножьте соответствующие координаты и сложите."},
+          "explain": {"tk": "2·1 + 3·0 + (−1)·4 = 2 + 0 − 4 = −2. Bu wektorlaryň arasyndaky burç kütek.", "ru": "2·1 + 3·0 + (−1)·4 = 2 + 0 − 4 = −2. Угол между векторами тупой."}},
+        {"type": "choice",
+          "q": {"tk": "Haýsy wektor a⃗(1; −2; 3) wektor bilen kollinear?", "ru": "Какой вектор коллинеарен вектору a⃗(1; −2; 3)?"},
+          "options": ["(−2; 4; −6)", "(2; 4; 6)", "(3; −2; 1)"],
+          "answer": 0,
+          "hint": {"tk": "Ähli koordinatalary bir san bilen köpeldilen wektory gözläň.", "ru": "Ищите вектор, все координаты которого умножены на одно и то же число."},
+          "explain": {"tk": "(−2; 4; −6) = −2·(1; −2; 3), diýmek kollinear.", "ru": "(−2; 4; −6) = −2·(1; −2; 3), значит векторы коллинеарны."}},
+        {"type": "truefalse",
+          "q": {"tk": "(2; −3; 6) wektoryň uzynlygy 7-ä deň.", "ru": "Длина вектора (2; −3; 6) равна 7."},
+          "answer": true,
+          "hint": {"tk": "Koordinatalaryň kwadratlaryny goşuň.", "ru": "Сложите квадраты координат."},
+          "explain": {"tk": "√(4 + 9 + 36) = √49 = 7.", "ru": "√(4 + 9 + 36) = √49 = 7."}},
+        {"type": "input",
+          "q": {"tk": "A(1; 0; 2), B(4; 4; 2). AB⃗ wektoryň uzynlygy näçe?", "ru": "A(1; 0; 2), B(4; 4; 2). Чему равна длина вектора AB⃗?"},
+          "answer": "5",
+          "hint": {"tk": "Ilki AB⃗ koordinatalaryny tapyň: B − A.", "ru": "Сначала найдите координаты AB⃗: B − A."},
+          "explain": {"tk": "AB⃗ = (3; 4; 0), |AB⃗| = √(9 + 16 + 0) = 5.", "ru": "AB⃗ = (3; 4; 0), |AB⃗| = √(9 + 16 + 0) = 5."}},
+        {"type": "world", "text": {
+          "tk": "1843-nji ýylda irlandiýaly matematik Uilýam Gamilton kwaternionlary oýlap tapdy we «wektor» adalgasyny ylma girizdi. Häzirki wektor algebrasyny XIX asyryň ahyrynda Jozaýa Gibbs we Oliwer Hewisaýd döretdiler. Bu gün wektorlar fizikada, kompýuter oýunlarynyň 3D grafikasynda we robototehnikada esasy guraldyr.",
+          "ru": "В 1843 году ирландский математик Уильям Гамильтон открыл кватернионы и ввёл в науку термин «вектор». Современную векторную алгебру в конце XIX века создали Джозайя Гиббс и Оливер Хевисайд. Сегодня векторы — основной инструмент физики, 3D-графики в компьютерных играх и робототехники."}}
+      ]
+    }
+  ]
+}

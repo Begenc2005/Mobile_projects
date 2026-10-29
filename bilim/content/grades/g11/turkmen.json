@@ -1,0 +1,263 @@
+{
+  "grade": 11,
+  "subject": "turkmen",
+  "lessons": [
+    {
+      "id": "turkmen-11-text-structure",
+      "grade": 11,
+      "topic": 0,
+      "title": {"tk": "Tekst we onuň gurluşy", "ru": "Текст и его структура"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Tekst — umumy tema we esasy pikir bilen birleşen, manysy we grammatikasy taýdan baglanyşykly sözlemleriň toplumy.\n\nTekstiň alamatlary:\n• tema — tekst näme hakynda;\n• esasy pikir (ideýa) — awtor näme diýmek isleýär;\n• baglanyşyklylyk — sözlemler çalyşmalar, sinonimler, baglaýjylar (şeýlelikde, emma, şonuň üçin) arkaly birleşýär;\n• bitewilik — tekst tamamlanan pikiri berýär.\n\nGurluşy:\n• giriş — tema bilen tanyşdyrýar;\n• esasy bölüm — pikiri delillendirýär, mysallar getirýär;\n• netije — jemleýär.\n\nAbzas (azat setir) — tekstiň bir kiçi temany açýan bölegi. Abzasyň köplenç birinji sözlemi onuň esasy pikirini aňladýar.\n\nTekstiň görnüşleri: beýan etme (wakalar), suratlandyrma (alamatlar), pikir ýöretme (sebäp we netije).",
+          "ru": "Текст — группа предложений, объединённых общей темой и основной мыслью и связанных по смыслу и грамматически.\n\nПризнаки текста:\n• тема — о чём текст;\n• основная мысль (идея) — что хочет сказать автор;\n• связность — предложения связаны местоимениями, синонимами, союзами (таким образом, однако, поэтому);\n• целостность — текст передаёт законченную мысль.\n\nСтруктура:\n• вступление — знакомит с темой;\n• основная часть — доказывает мысль, приводит примеры;\n• заключение — подводит итог.\n\nАбзац (красная строка) — часть текста, раскрывающая одну микротему. Часто первое предложение абзаца выражает его главную мысль.\n\nТипы текста: повествование (события), описание (признаки), рассуждение (причины и выводы)."
+        }},
+        {"type": "example", "text": {
+          "tk": "Kiçi tekst we onuň derňewi:\n\n«Okamak adamy ösdürýär. Ol söz baýlygyny artdyrýar, pikirlenmegi öwredýär. Mysal üçin, köp okaýan okuwçy düzmäni has aňsat ýazýar. Şonuň üçin her gün azyndan ýarym sagat okamak peýdalydyr.»\n\n• Tema: okamagyň peýdasy.\n• 1-nji sözlem — giriş (tezis).\n• 2–3-nji sözlemler — esasy bölüm: delil we mysal. «Ol» çalyşmasy öňki sözlem bilen baglanyşdyrýar.\n• 4-nji sözlem — netije, «şonuň üçin» sözi bilen başlanýar.\n• Görnüşi: pikir ýöretme.",
+          "ru": "Небольшой текст и его анализ:\n\n«Okamak adamy ösdürýär. Ol söz baýlygyny artdyrýar, pikirlenmegi öwredýär. Mysal üçin, köp okaýan okuwçy düzmäni has aňsat ýazýar. Şonuň üçin her gün azyndan ýarym sagat okamak peýdalydyr.»\n(«Чтение развивает человека. Оно обогащает словарный запас, учит думать. Например, много читающий ученик легче пишет сочинение. Поэтому полезно читать хотя бы полчаса в день».)\n\n• Тема: польза чтения.\n• 1-е предложение — вступление (тезис).\n• 2–3-е — основная часть: довод и пример. Местоимение «ol» связывает с предыдущим предложением.\n• 4-е — вывод, начинается со слов «şonuň üçin».\n• Тип: рассуждение."
+        }},
+        {"type": "choice",
+          "q": {"tk": "«Gün ýaşdy. Asman gyzyl öwüsýärdi, ýeňil ýel otlary yrgaýardy.» Bu tekstiň görnüşi haýsy?", "ru": "«Gün ýaşdy. Asman gyzyl öwüsýärdi, ýeňil ýel otlary yrgaýardy.» Какой это тип текста?"},
+          "options": [{"tk": "pikir ýöretme", "ru": "рассуждение"}, {"tk": "suratlandyrma", "ru": "описание"}, {"tk": "resmi hat", "ru": "официальное письмо"}],
+          "answer": 1,
+          "hint": {"tk": "Tekstde sebäp-netije barmy ýa-da diňe bir pursatyň keşbi barmy?", "ru": "Есть ли тут причины и выводы или только картина одного момента?"},
+          "explain": {"tk": "Tekst asmanyň we tebigatyň alamatlaryny görkezýär — bu suratlandyrma.", "ru": "Текст показывает признаки неба и природы — это описание."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Abzas tekstiň bir kiçi temasyny açýan bölegidir. Dogrymy?", "ru": "Абзац — это часть текста, раскрывающая одну микротему. Верно?"},
+          "answer": true,
+          "hint": {"tk": "Teoriýadaky abzasyň kesgitlemesini ýatlaň.", "ru": "Вспомните определение абзаца из теории."},
+          "explain": {"tk": "Dogry: her abzas bir kiçi pikiri açýar, täze abzas täze kiçi temany görkezýär.", "ru": "Верно: каждый абзац раскрывает одну микротему, новый абзац сигнализирует о новой."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Tekstde netijäni girizmek üçin haýsy söz has laýyk?", "ru": "Какое слово лучше всего вводит вывод в тексте?"},
+          "options": [{"tk": "şeýlelikde", "ru": "şeýlelikde (таким образом)"}, {"tk": "ilki bilen", "ru": "ilki bilen (прежде всего)"}, {"tk": "mysal üçin", "ru": "mysal üçin (например)"}],
+          "answer": 0,
+          "hint": {"tk": "Haýsy söz jemlemegi aňladýar?", "ru": "Какое слово выражает подведение итога?"},
+          "explain": {"tk": "«Şeýlelikde» jemleýji söz. «Ilki bilen» sanawyň başyny, «mysal üçin» bolsa mysaly girizýär.", "ru": "«Şeýlelikde» — итоговое слово. «Ilki bilen» начинает перечисление, «mysal üçin» вводит пример."}
+        },
+        {"type": "input",
+          "q": {"tk": "Klassyky tekst gurluşy näçe esasy bölekden ybarat (giriş, esasy bölüm, ...)? Sany ýazyň.", "ru": "Из скольких основных частей состоит классическая структура текста (вступление, основная часть, ...)? Напишите число."},
+          "answer": "3",
+          "hint": {"tk": "Başy, ortasy we ...", "ru": "Начало, середина и ..."},
+          "explain": {"tk": "Giriş, esasy bölüm we netije — üç bölek.", "ru": "Вступление, основная часть и заключение — три части."}
+        },
+        {"type": "world", "text": {
+          "tk": "«Tekst» sözi latynça textus — «dokalan mata» sözünden gelip çykýar. Sözlemler hem mata ýüplükleri ýaly biri-biri bilen baglanyşyp, bitewi «mata» emele getirýär.",
+          "ru": "Слово «текст» происходит от латинского textus — «ткань, сплетение». Предложения, как нити ткани, переплетаются и образуют единое полотно."
+        }}
+      ]
+    },
+    {
+      "id": "turkmen-11-functional-styles",
+      "grade": 11,
+      "topic": 1,
+      "title": {"tk": "Diliň funksional stilleri", "ru": "Функциональные стили языка"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Funksional stil — belli bir aragatnaşyk ýagdaýynda ulanylýan dil serişdeleriniň ulgamy.\n\n• Gepleşik stili — gündelik söhbetdeşlik. Gysga sözlemler, duýgy, bölejikler (-da, -ow, hany).\n• Ylmy stil — ylmy işler, okuw kitaplary. Takyk terminler, kesgitlemeler, logiki yzygiderlik, duýgusyz.\n• Resmi-iş stili — kanunlar, arzalar, şertnamalar. Taýýar aňlatmalar (şu arza bilen ýüz tutýaryn...), takyklyk, bir manylylyk.\n• Publisistik stil — gazet, žurnal, internet makalalary, çykyşlar. Habar bermek we täsir etmek, ýüzlenmeler.\n• Çeper stil — edebi eserler. Keşpler, çeper dil serişdeleri, awtoryň duýgusy.\n\nStili saýlamak: kime ýazýarys? Näme maksat bilen? Haýsy ýagdaýda?",
+          "ru": "Функциональный стиль — система языковых средств, используемых в определённой сфере общения.\n\n• Разговорный стиль — бытовое общение. Короткие фразы, эмоции, частицы (-da, -ow, hany).\n• Научный стиль — научные работы, учебники. Точные термины, определения, логичность, без эмоций.\n• Официально-деловой стиль — законы, заявления, договоры. Готовые формулы («прошу...»), точность, однозначность.\n• Публицистический стиль — газеты, журналы, интернет-статьи, выступления. Информирует и воздействует, есть обращения.\n• Художественный стиль — литературные произведения. Образы, средства выразительности, чувства автора.\n\nВыбор стиля: кому пишем? С какой целью? В какой ситуации?"
+        }},
+        {"type": "example", "text": {
+          "tk": "Bir pikir dürli stillerde:\n\n• Gepleşik: «Ertir gelip bilmerin-dä, kesel boldum.»\n• Resmi-iş: «Näsaglygym sebäpli 5-nji noýabrda sapaga gatnaşyp bilmejekdigimi size habar berýärin.»\n• Ylmy: «Dümewiň ýaýramagynyň esasy sebäbi wirusyň howa-damjajyk ýoly arkaly geçmegidir.»\n• Publisistik: «Saglygyňyzy goraň! Güýz paslynda dümewden goranmak üçin ýönekeý düzgünleri berjaý ediň.»\n\nGörşüňiz ýaly, söz saýlawy, sözlemiň uzynlygy we äheňi stile görä üýtgeýär.",
+          "ru": "Одна мысль в разных стилях:\n\n• Разговорный: «Ertir gelip bilmerin-dä, kesel boldum.» («Завтра не смогу прийти, заболел».)\n• Официально-деловой: «Näsaglygym sebäpli 5-nji noýabrda sapaga gatnaşyp bilmejekdigimi size habar berýärin.» («Сообщаю, что по болезни не смогу присутствовать на занятиях 5 ноября».)\n• Научный: «Dümewiň ýaýramagynyň esasy sebäbi wirusyň howa-damjajyk ýoly arkaly geçmegidir.» («Основная причина распространения гриппа — воздушно-капельный путь передачи вируса».)\n• Публицистический: «Saglygyňyzy goraň! Güýz paslynda dümewden goranmak üçin ýönekeý düzgünleri berjaý ediň.» («Берегите здоровье! Соблюдайте простые правила защиты от гриппа осенью».)\n\nКак видно, выбор слов, длина предложений и интонация зависят от стиля."
+        }},
+        {"type": "choice",
+          "q": {"tk": "«Şu arza bilen meni işe kabul etmegiňizi Sizden haýyş edýärin» — haýsy stil?", "ru": "«Şu arza bilen meni işe kabul etmegiňizi Sizden haýyş edýärin» («Прошу принять меня на работу») — какой стиль?"},
+          "options": [{"tk": "çeper", "ru": "художественный"}, {"tk": "gepleşik", "ru": "разговорный"}, {"tk": "resmi-iş", "ru": "официально-деловой"}],
+          "answer": 2,
+          "hint": {"tk": "Bu sözlem haýsy resminamada ulanylýar?", "ru": "В каком документе используется эта фраза?"},
+          "explain": {"tk": "Arza resmi resminama; «haýyş edýärin» taýýar resmi aňlatma — resmi-iş stili.", "ru": "Заявление — официальный документ; «прошу» — готовая формула: официально-деловой стиль."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Ylmy stilde metaforalar we duýgulandyryjy sözler esasy serişdedir. Dogrymy?", "ru": "В научном стиле метафоры и эмоциональные слова — основные средства. Верно?"},
+          "answer": false,
+          "hint": {"tk": "Ylmy stiliň esasy talaby näme?", "ru": "Каково главное требование научного стиля?"},
+          "explain": {"tk": "Ýalňyş: ylmy stil takyklygy, terminleri we logikany talap edýär; metaforalar çeper stile mahsus.", "ru": "Неверно: научный стиль требует точности, терминов и логики; метафоры свойственны художественному стилю."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Gazetdäki «Ýaşlar, sport bilen meşgullanyň!» diýen makala ady haýsy stile degişli?", "ru": "Заголовок газетной статьи «Ýaşlar, sport bilen meşgullanyň!» («Молодёжь, занимайтесь спортом!») относится к какому стилю?"},
+          "options": [{"tk": "publisistik", "ru": "публицистический"}, {"tk": "ylmy", "ru": "научный"}, {"tk": "resmi-iş", "ru": "официально-деловой"}],
+          "answer": 0,
+          "hint": {"tk": "Köpçülige ýüzlenme we täsir etmek isleg — haýsy stiliň alamaty?", "ru": "Обращение к массовой аудитории и желание повлиять — признак какого стиля?"},
+          "explain": {"tk": "Köpçülige ýüzlenme, çagyryş we gazet — publisistik stiliň alamatlary.", "ru": "Обращение к массам, призыв и газета — признаки публицистического стиля."}
+        },
+        {"type": "input",
+          "q": {"tk": "Bu sapakda näçe funksional stil görkezildi? Sany ýazyň.", "ru": "Сколько функциональных стилей рассмотрено в этом уроке? Напишите число."},
+          "answer": "5",
+          "hint": {"tk": "Gepleşik, ylmy, resmi-iş... sanawy dowam ediň.", "ru": "Разговорный, научный, деловой... продолжите список."},
+          "explain": {"tk": "Gepleşik, ylmy, resmi-iş, publisistik we çeper — bäş stil.", "ru": "Разговорный, научный, официально-деловой, публицистический и художественный — пять стилей."}
+        },
+        {"type": "world", "text": {
+          "tk": "Stil baradaky ilkinji ylmy pikirler gadymy Gresiýa degişli: Aristotel «Ritorika» eserinde sözüň aýdyň, ýagdaýa we diňleýjä laýyk bolmalydygyny ýazypdyr. Bu pikir häzirki stilistikanyň esasyny düzýär.",
+          "ru": "Первые научные идеи о стиле восходят к Древней Греции: Аристотель в «Риторике» писал, что речь должна быть ясной и соответствовать ситуации и слушателю. Эта мысль лежит в основе современной стилистики."
+        }}
+      ]
+    },
+    {
+      "id": "turkmen-11-expressive-means",
+      "grade": 11,
+      "topic": 2,
+      "title": {"tk": "Çeper dil serişdeleri", "ru": "Средства художественной выразительности"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Çeper dil serişdeleri sözi has täsirli, keşpli edýär.\n\n• Epitet — keşpli kesgitleme: altyn güýz, demir erk.\n• Deňeşdirme — bir zady başga zada meňzetmek; «ýaly, kimin, deý, -dek» bilen: Aý ýaly ýüzi, gar kimin ak.\n• Metafora — gizlin deňeşdirme, «ýaly» sözsüz: ömrüň bahary, ýüregiň oty.\n• Janlandyrma — jansyz zada adamyň häsiýetini bermek: Ýel aglaýar. Daglar dymdy.\n• Giperbola (ulaltma) — bilkastlaýyn ulaltmak: Müň gezek aýtdym.\n• Litota (kiçeltme) — bilkastlaýyn kiçeltmek: Damja ýaly wagt.\n• Gaýtalama — sözi ýa-da setiri täsir üçin gaýtalamak.\n• Antiteza — garşylykly düşünjeleri deňeşdirmek: ak we gara, gije we gündiz.",
+          "ru": "Средства выразительности делают речь ярче и образнее.\n\n• Эпитет — образное определение: altyn güýz (золотая осень), demir erk (железная воля).\n• Сравнение — уподобление одного предмета другому; со словами «ýaly, kimin, deý, -dek»: Aý ýaly ýüzi (лицо, как луна), gar kimin ak (белый, как снег).\n• Метафора — скрытое сравнение без «ýaly»: ömrüň bahary (весна жизни), ýüregiň oty (огонь сердца).\n• Олицетворение — перенос свойств человека на неживое: Ýel aglaýar (ветер плачет). Daglar dymdy (горы замолчали).\n• Гипербола — намеренное преувеличение: Müň gezek aýtdym (тысячу раз говорил).\n• Литота — намеренное преуменьшение: Damja ýaly wagt (времени с каплю).\n• Повтор — повторение слова или строки для усиления.\n• Антитеза — противопоставление: ak we gara (белое и чёрное), gije we gündiz (ночь и день)."
+        }},
+        {"type": "example", "text": {
+          "tk": "Sözlem: «Altyn güýz baglara öz donuny geýdirdi, ýapraklar ýagyş ýaly ýere döküldi.»\n\nDerňew:\n1) «altyn güýz» — epitet (güýzüň reňkini keşpli aňladýar).\n2) «güýz ... donuny geýdirdi» — janlandyrma (güýz adam ýaly hereket edýär) we metafora (ýapraklar — don).\n3) «ýagyş ýaly döküldi» — deňeşdirme («ýaly» sözi bar).",
+          "ru": "Предложение: «Altyn güýz baglara öz donuny geýdirdi, ýapraklar ýagyş ýaly ýere döküldi.» («Золотая осень одела сады в свой халат, листья посыпались на землю, как дождь».)\n\nАнализ:\n1) «altyn güýz» — эпитет (образно передаёт цвет осени).\n2) «güýz ... donuny geýdirdi» — олицетворение (осень действует как человек) и метафора (листва — халат).\n3) «ýagyş ýaly döküldi» — сравнение (есть слово «ýaly»)."
+        }},
+        {"type": "choice",
+          "q": {"tk": "«Gözleri ýyldyz kimin ýalpyldaýardy» — haýsy serişde?", "ru": "«Gözleri ýyldyz kimin ýalpyldaýardy» («Глаза сверкали, как звёзды») — какое средство?"},
+          "options": [{"tk": "giperbola", "ru": "гипербола"}, {"tk": "deňeşdirme", "ru": "сравнение"}, {"tk": "litota", "ru": "литота"}],
+          "answer": 1,
+          "hint": {"tk": "«Kimin» sözüne üns beriň.", "ru": "Обратите внимание на слово «kimin»."},
+          "explain": {"tk": "«Kimin» deňeşdirme sözi — gözler ýyldyza meňzedilýär.", "ru": "«Kimin» — сравнительное слово: глаза уподобляются звёздам."}
+        },
+        {"type": "choice",
+          "q": {"tk": "«Derýa ýuwaşja aýdym aýdýardy» — haýsy serişde?", "ru": "«Derýa ýuwaşja aýdym aýdýardy» («Река тихонько пела») — какое средство?"},
+          "options": [{"tk": "antiteza", "ru": "антитеза"}, {"tk": "epitet", "ru": "эпитет"}, {"tk": "janlandyrma", "ru": "олицетворение"}],
+          "answer": 2,
+          "hint": {"tk": "Kim aýdym aýdyp bilýär?", "ru": "Кто умеет петь?"},
+          "explain": {"tk": "Aýdym aýtmak adama mahsus hereket, ol derýa berilýär — janlandyrma.", "ru": "Петь — действие человека, оно приписано реке — олицетворение."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«Bu sumka dag ýaly agyr» — sözleminde giperbola bar. Dogrymy?", "ru": "В предложении «Bu sumka dag ýaly agyr» («Эта сумка тяжёлая, как гора») есть гипербола. Верно?"},
+          "answer": true,
+          "hint": {"tk": "Sumka hakykatdan dag ýaly agyr bolup bilermi?", "ru": "Может ли сумка правда весить как гора?"},
+          "explain": {"tk": "Dogry: agyrlyk bilkastlaýyn ulaldylýar — giperbola (deňeşdirme görnüşinde).", "ru": "Верно: тяжесть намеренно преувеличена — гипербола (в форме сравнения)."}
+        },
+        {"type": "world", "text": {
+          "tk": "Gadymy grek şahyry Gomer «Iliada» we «Odisseýa» eposlarynda hemişelik epitetleri köp ulanypdyr, mysal üçin, daň «gülgüne barmakly» diýip atlandyrylýar. Bu gaýtalanýan epitetler aýdyjylara uly eposlary ýatda saklamaga kömek edipdir.",
+          "ru": "Древнегреческий поэт Гомер в «Илиаде» и «Одиссее» часто использовал постоянные эпитеты: например, заря у него «розовоперстая». Повторяющиеся эпитеты помогали сказителям запоминать огромные поэмы."
+        }}
+      ]
+    },
+    {
+      "id": "turkmen-11-translation",
+      "grade": 11,
+      "topic": 3,
+      "title": {"tk": "Terjime sungaty", "ru": "Искусство перевода"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Terjime — bir dildäki tekstiň manysyny we stilini başga dilde takyk bermek.\n\nTerjimäniň görnüşleri:\n• sözme-söz terjime — her söz aýratyn terjime edilýär; köplenç ýalňyş ýa-da emeli ses berýär;\n• adekwat (laýyk) terjime — many, stil we täsir saklanýar, dil düzgünleri berjaý edilýär;\n• çeper terjime — edebi eserleri terjime etmek, awtoryň keşplerini we äheňini saklamak.\n\nKyn ýerler:\n• söz tertibi: türkmen dilinde işlik köplenç sözlemiň ahyrynda bolýar;\n• frazeologizmler we nakyllar — manysy boýunça meňzeş aňlatma gözlenýär;\n• «ýalan dostlar» — meňzeş, emma manysy başga sözler;\n• medeni hakykatlar — kä halatda düşündiriş gerek.",
+          "ru": "Перевод — передача смысла и стиля текста с одного языка на другой.\n\nВиды перевода:\n• дословный — каждое слово переводится отдельно; часто звучит неверно или искусственно;\n• адекватный — сохранены смысл, стиль и воздействие, соблюдены нормы языка;\n• художественный — перевод литературы с сохранением образов и интонации автора.\n\nТрудности:\n• порядок слов: в туркменском глагол обычно в конце предложения;\n• фразеологизмы и пословицы — ищется аналог по смыслу;\n• «ложные друзья переводчика» — похожие слова с другим значением;\n• культурные реалии — иногда нужно пояснение."
+        }},
+        {"type": "example", "text": {
+          "tk": "Rus dilinden terjime:\n\n1) «Идёт дождь.»\n• Sözme-söz: «Ýagyş gidýär.» — ýalňyş.\n• Dogry: «Ýagyş ýagýar.»\n\n2) «У меня есть брат.»\n• Sözme-söz: «Meniň ýanymda dogan bar.» — manysy üýtgeýär.\n• Dogry: «Meniň doganym bar.»\n\n3) «Он носит очки.»\n• Sözme-söz: «Ol äýnek göterýär.» — gülkünç.\n• Dogry: «Ol äýnek dakynýar.»\n\nNetije: terjimeçi sözleri däl, manyny terjime edýär.",
+          "ru": "Перевод с русского:\n\n1) «Идёт дождь.»\n• Дословно: «Ýagyş gidýär.» — ошибка (gitmek = уходить).\n• Правильно: «Ýagyş ýagýar.»\n\n2) «У меня есть брат.»\n• Дословно: «Meniň ýanymda dogan bar.» — смысл меняется («рядом со мной есть брат»).\n• Правильно: «Meniň doganym bar.»\n\n3) «Он носит очки.»\n• Дословно: «Ol äýnek göterýär.» — смешно («таскает очки»).\n• Правильно: «Ol äýnek dakynýar.»\n\nВывод: переводчик переводит не слова, а смысл."
+        }},
+        {"type": "choice",
+          "q": {"tk": "«Я читаю книгу» sözleminiň iň dogry terjimesi haýsy?", "ru": "Какой перевод фразы «Я читаю книгу» наиболее правильный?"},
+          "options": ["Men okaýaryn kitaby.", "Men kitap okaýaryn.", "Men kitaby okamak."],
+          "answer": 1,
+          "hint": {"tk": "Türkmen dilinde işlik sözlemiň haýsy ýerinde durýar?", "ru": "Где стоит глагол в туркменском предложении?"},
+          "explain": {"tk": "Türkmen sözleminde işlik ahyrda: «Men kitap okaýaryn». Üçünji wariantda işlik zaman goşulmasyz.", "ru": "В туркменском глагол в конце: «Men kitap okaýaryn». В третьем варианте глагол без формы времени."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Nakyllary terjime edenimizde, köplenç başga dilde manysy meňzeş nakyl gözlemeli. Dogrymy?", "ru": "При переводе пословиц обычно нужно искать в другом языке пословицу с похожим смыслом. Верно?"},
+          "answer": true,
+          "hint": {"tk": "Nakyly sözme-söz terjime etsek näme bolar?", "ru": "Что будет, если перевести пословицу дословно?"},
+          "explain": {"tk": "Dogry: nakylyň keşbi dilden dile üýtgeýär, şonuň üçin manysy boýunça ekwiwalent gözlenýär.", "ru": "Верно: образы пословиц различаются в языках, поэтому ищут эквивалент по смыслу."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy terjime görnüşi many, stil we täsiri saklaýar?", "ru": "Какой вид перевода сохраняет смысл, стиль и воздействие?"},
+          "options": [{"tk": "adekwat terjime", "ru": "адекватный перевод"}, {"tk": "sözme-söz terjime", "ru": "дословный перевод"}, {"tk": "gysgaldylan beýan", "ru": "краткий пересказ"}],
+          "answer": 0,
+          "hint": {"tk": "«Laýyk» diýen manyny berýän termin.", "ru": "Термин, означающий «соответствующий»."},
+          "explain": {"tk": "Adekwat terjime asyl tekste laýyk gelýär: manysy hem, stili hem saklanýar.", "ru": "Адекватный перевод соответствует оригиналу: сохраняет и смысл, и стиль."}
+        },
+        {"type": "world", "text": {
+          "tk": "1799-njy ýylda Müsürde Rozetta daşy tapyldy: onda bir tekst üç ýazuwda — müsür ieroglifleri, demotik ýazuw we gadymy grek dilinde ýazylypdyr. Grekçe terjimä daýanyp, Žan-Fransua Şampolýon 1822-nji ýylda ieroglifleri okamagyň açaryny tapdy.",
+          "ru": "В 1799 году в Египте нашли Розеттский камень: на нём один текст записан тремя письменностями — египетскими иероглифами, демотическим письмом и по-древнегречески. Опираясь на греческий перевод, Жан-Франсуа Шампольон в 1822 году нашёл ключ к чтению иероглифов."
+        }}
+      ]
+    },
+    {
+      "id": "turkmen-11-abbreviations",
+      "grade": 11,
+      "topic": 4,
+      "title": {"tk": "Gysgaltmalar we olaryň ýazylyşy", "ru": "Сокращения и их написание"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Gysgaltma — birnäçe sözüň ýa-da sözüň bir böleginiň gysga ýazgysy.\n\n1) Harp gysgaltmalary — sözleriň baş harplaryndan düzülýär, baş harplar bilen, nokatsyz ýazylýar:\n• BMG — Birleşen Milletler Guramasy\n• ABŞ — Amerikanyň Birleşen Ştatlary\n\n2) Grafiki gysgaltmalar — diňe ýazuwda gysgaldylýar, okalanda doly aýdylýar; nokat goýulýar:\n• ş.m. — şuňa meňzeşler\n• b.e.öň — biziň eramyzdan öň\n• ý. — ýyl\n\n3) Ölçeg birlikleri — nokatsyz: km, kg, sm, m.\n\nGoşulmalar harp gysgaltmalaryna defis bilen goşulýar we gysgaltmanyň aýdylyşyna görä saýlanýar: BMG-niň, ABŞ-da.",
+          "ru": "Сокращение (аббревиатура) — краткая запись нескольких слов или части слова.\n\n1) Буквенные аббревиатуры — из начальных букв слов, пишутся заглавными без точек:\n• BMG — Birleşen Milletler Guramasy (ООН)\n• ABŞ — Amerikanyň Birleşen Ştatlary (США)\n\n2) Графические сокращения — сокращаются только на письме, читаются полностью; ставится точка:\n• ş.m. — şuňa meňzeşler (и т. п.)\n• b.e.öň — biziň eramyzdan öň (до н. э.)\n• ý. — ýyl (г.)\n\n3) Единицы измерения — без точки: km, kg, sm, m.\n\nАффиксы присоединяются к буквенным аббревиатурам через дефис и выбираются по произношению аббревиатуры: BMG-niň, ABŞ-da."
+        }},
+        {"type": "example", "text": {
+          "tk": "Sözlemi gysgaltmalar bilen ýazalyň:\n«Amerikanyň Birleşen Ştatlarynyň wekili Birleşen Milletler Guramasynyň mejlisinde çykyş etdi.»\n\n1) Amerikanyň Birleşen Ştatlary → ABŞ, «-nyň» goşulmasy defis bilen: ABŞ-nyň.\n2) Birleşen Milletler Guramasy → BMG; «ge» bilen gutarýar, inçe çekimli: BMG-niň.\n3) Netije: «ABŞ-nyň wekili BMG-niň mejlisinde çykyş etdi.»\n\nÜns beriň: ilkinji gezek tekstde gysgaltmanyň doly görnüşini bermek gowy endikdir.",
+          "ru": "Запишем предложение с сокращениями:\n«Amerikanyň Birleşen Ştatlarynyň wekili Birleşen Milletler Guramasynyň mejlisinde çykyş etdi.» («Представитель США выступил на заседании ООН».)\n\n1) Amerikanyň Birleşen Ştatlary → ABŞ, аффикс «-nyň» через дефис: ABŞ-nyň.\n2) Birleşen Milletler Guramasy → BMG; заканчивается на «ге», гласный мягкого ряда: BMG-niň.\n3) Итог: «ABŞ-nyň wekili BMG-niň mejlisinde çykyş etdi.»\n\nОбратите внимание: при первом упоминании в тексте полезно дать полную форму сокращения."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Haýsy ýazgy dogry?", "ru": "Какая запись правильная?"},
+          "options": ["B.M.G.", "BMG-niň", "bmg-nyň"],
+          "answer": 1,
+          "hint": {"tk": "Harp gysgaltmalarynda nokat we kiçi harp ulanylýarmy?", "ru": "Используются ли точки и строчные буквы в буквенных аббревиатурах?"},
+          "explain": {"tk": "Harp gysgaltmalary baş harplar bilen, nokatsyz ýazylýar, goşulma defis bilen: BMG-niň.", "ru": "Буквенные аббревиатуры пишутся заглавными без точек, аффикс через дефис: BMG-niň."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«km» gysgaltmasyndan soň nokat goýulmaýar. Dogrymy?", "ru": "После сокращения «km» точка не ставится. Верно?"},
+          "answer": true,
+          "hint": {"tk": "Ölçeg birlikleri barada düzgüni ýatlaň.", "ru": "Вспомните правило о единицах измерения."},
+          "explain": {"tk": "Dogry: ölçeg birlikleriniň gysgaltmalary (km, kg, sm) nokatsyz ýazylýar.", "ru": "Верно: сокращения единиц измерения (km, kg, sm) пишутся без точки."}
+        },
+        {"type": "choice",
+          "q": {"tk": "«ş.m.» gysgaltmasy nähili okalýar?", "ru": "Как читается сокращение «ş.m.»?"},
+          "options": [{"tk": "şäher merkezi", "ru": "şäher merkezi (центр города)"}, {"tk": "şol mahal", "ru": "şol mahal (в то время)"}, {"tk": "şuňa meňzeşler", "ru": "şuňa meňzeşler (и тому подобное)"}],
+          "answer": 2,
+          "hint": {"tk": "Bu gysgaltma sanawyň ahyrynda goýulýar.", "ru": "Это сокращение ставят в конце перечня."},
+          "explain": {"tk": "«ş.m.» — şuňa meňzeşler; sanaw dowam edip biljekdigini görkezýär (rusça «и т. п.»).", "ru": "«ş.m.» — şuňa meňzeşler; показывает, что перечень можно продолжить (как «и т. п.»)."}
+        },
+        {"type": "world", "text": {
+          "tk": "Dünýäde iň köp ulanylýan gysgaltmalaryň biri «OK» 1839-njy ýylda Boston gazetinde «oll korrect» («all correct» sözüniň oýunly ýazylyşy) gysgaltmasy hökmünde peýda bolupdyr. Soň ol telegraf işgärleriniň arasynda giňden ýaýrapdyr.",
+          "ru": "Одно из самых употребляемых сокращений в мире — «OK» — появилось в 1839 году в бостонской газете как сокращение шуточного написания «oll korrect» (вместо «all correct»). Позже оно широко распространилось, в том числе среди телеграфистов."
+        }}
+      ]
+    },
+    {
+      "id": "turkmen-11-resume",
+      "grade": 11,
+      "topic": 5,
+      "title": {"tk": "Rezýume ýazmak", "ru": "Пишем резюме"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Rezýume — iş ýa-da okuw ýeri üçin özüň barada gysga, takyk resminama. Ol resmi-iş stilinde ýazylýar.\n\nBölümleri:\n• Şahsy maglumatlar — familiýasy, ady, telefon, e-poçta.\n• Maksat — haýsy wezipä ýa-da maksatnama ýüz tutýandygyňyz (1–2 sözlem).\n• Bilimi — mekdep, uniwersitet, ýyllary.\n• Iş tejribesi — ters hronologiki tertipde (iň soňkusy birinji): wezipe, edara, ýyllar, gazananlaryňyz.\n• Başarnyklar — kompýuter, dil bilimi, hünär endikleri.\n• Goşmaça — sertifikatlar, olimpiadalar, meýletinçilik.\n\nDüzgünler:\n• 1 sahypa (tejribe köp bolsa — 2);\n• gysga, işjeň işlikler: «guramaga gatnaşdym», «taýýarladym»;\n• takyk sanlar: «30 okuwça sapak geçdim»;\n• ýalňyşsyz, bir görnüşli formatda.",
+          "ru": "Резюме — краткий и точный документ о себе для работы или учёбы. Пишется в официально-деловом стиле.\n\nРазделы:\n• Личные данные — фамилия, имя, телефон, e-mail.\n• Цель — на какую должность или программу вы претендуете (1–2 предложения).\n• Образование — школа, университет, годы.\n• Опыт работы — в обратном хронологическом порядке (последнее место первым): должность, организация, годы, достижения.\n• Навыки — компьютер, языки, профессиональные умения.\n• Дополнительно — сертификаты, олимпиады, волонтёрство.\n\nПравила:\n• 1 страница (при большом опыте — 2);\n• кратко, активные глаголы: «guramaga gatnaşdym» (участвовал в организации), «taýýarladym» (подготовил);\n• конкретные цифры: «30 okuwça sapak geçdim» (провёл занятия для 30 учеников);\n• без ошибок, единый формат."
+        }},
+        {"type": "example", "text": {
+          "tk": "11-nji synp okuwçysynyň rezýumesiniň bölegi:\n\nMaksat: Kompýuter merkezinde tomusky tejribe geçmek.\n\nBilimi:\n2015–2026 — 21-nji orta mekdep.\n\nTejribe:\n2025 — mekdebiň web sahypasyny täzelemäge gatnaşdym; 20-den gowrak habar taýýarladym.\n\nBaşarnyklar: Word, Excel, HTML esaslary; türkmen (ene dili), rus (erkin), iňlis (orta).\n\nGazananlary: informatika boýunça şäher olimpiadasynda 2-nji orun.\n\nÜns beriň: ähli bölümler gysga, sanlar bilen we bir formatda.",
+          "ru": "Фрагмент резюме ученика 11 класса:\n\nMaksat (Цель): Kompýuter merkezinde tomusky tejribe geçmek. (Пройти летнюю практику в компьютерном центре.)\n\nBilimi (Образование):\n2015–2026 — 21-nji orta mekdep. (средняя школа № 21)\n\nTejribe (Опыт):\n2025 — mekdebiň web sahypasyny täzelemäge gatnaşdym; 20-den gowrak habar taýýarladym. (Участвовал в обновлении школьного сайта; подготовил более 20 новостей.)\n\nBaşarnyklar (Навыки): Word, Excel, основы HTML; туркменский (родной), русский (свободно), английский (средний).\n\nGazananlary (Достижения): 2 место на городской олимпиаде по информатике.\n\nОбратите внимание: все разделы краткие, с цифрами и в одном формате."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Rezýumede iş tejribesi haýsy tertipde ýazylýar?", "ru": "В каком порядке в резюме указывают опыт работы?"},
+          "options": [{"tk": "elipbiý tertibinde", "ru": "в алфавитном порядке"}, {"tk": "iň köne işden başlap", "ru": "начиная с самой старой работы"}, {"tk": "iň soňky işden başlap", "ru": "начиная с последней работы"}],
+          "answer": 2,
+          "hint": {"tk": "Iş beriji ilki näme görmek isleýär?", "ru": "Что работодатель хочет увидеть в первую очередь?"},
+          "explain": {"tk": "Ters hronologiki tertip: iň täze tejribe ýokarda, sebäbi ol iň möhümi.", "ru": "Обратный хронологический порядок: самый свежий опыт сверху, потому что он самый важный."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Rezýumede «Men gaty gowy işgär, hemme zady bilýärin» ýaly umumy sözler has täsirli. Dogrymy?", "ru": "В резюме общие фразы вроде «Я очень хороший работник, всё умею» более убедительны. Верно?"},
+          "answer": false,
+          "hint": {"tk": "Haýsysy has ynandyryjy: umumy söz ýa-da takyk fakt?", "ru": "Что убедительнее: общие слова или конкретный факт?"},
+          "explain": {"tk": "Ýalňyş: takyk faktlar we sanlar («20 habar taýýarladym») umumy öwgüden has ynandyryjy.", "ru": "Неверно: конкретные факты и цифры («подготовил 20 новостей») убедительнее общей похвалы."}
+        },
+        {"type": "input",
+          "q": {"tk": "Az tejribeli adamyň rezýumesi adatça näçe sahypa bolmaly? Sany ýazyň.", "ru": "Сколько страниц обычно должно быть в резюме человека с небольшим опытом? Напишите число."},
+          "answer": "1",
+          "hint": {"tk": "Gysgalyk — rezýumäniň esasy düzgüni.", "ru": "Краткость — главное правило резюме."},
+          "explain": {"tk": "Bir sahypa ýeterlik: iş beriji rezýumä köplenç bary-ýogy birnäçe sekunt seredýär.", "ru": "Одной страницы достаточно: работодатель часто тратит на резюме лишь несколько секунд."}
+        },
+        {"type": "world", "text": {
+          "tk": "Leonardo da Winçiniň 1480-nji ýyllarda Milanyň hökümdary Lodowiko Sforsa iberen haty köplenç ilkinji rezýume diýlip atlandyrylýar. Ol hatda köprüler, harby enjamlar gurmak, heýkeltaraşlyk we surat çekmek ukyplaryny sanap geçipdir.",
+          "ru": "Письмо Леонардо да Винчи правителю Милана Лодовико Сфорце (1480-е годы) часто называют первым резюме. В нём он перечислил свои умения: строить мосты и военные машины, ваять скульптуры и писать картины."
+        }}
+      ]
+    }
+  ]
+}

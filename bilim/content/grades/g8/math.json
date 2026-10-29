@@ -1,0 +1,244 @@
+{
+  "grade": 8,
+  "subject": "math",
+  "lessons": [
+    {
+      "id": "math-8-square-roots",
+      "grade": 8,
+      "topic": 0,
+      "title": {"tk": "Kwadrat kökler", "ru": "Квадратные корни"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "a sanyň arifmetik kwadrat köki (√a) — kwadraty a deň bolan otrisatel däl san.\n• √a diňe a ≥ 0 bolanda kesgitlenýär.\n• √a ≥ 0 we (√a)² = a.\nEsasy häsiýetler:\n• √(ab) = √a · √b (a ≥ 0, b ≥ 0)\n• √(a/b) = √a / √b (a ≥ 0, b > 0)\n• √(a²) = |a|\nKäbir kökler bitin san bolmaýar: √2 ≈ 1,414… — bu irrasional san, ony adaty drob görnüşinde ýazyp bolmaýar.",
+          "ru": "Арифметический квадратный корень из числа a (√a) — это неотрицательное число, квадрат которого равен a.\n• √a определён только при a ≥ 0.\n• √a ≥ 0 и (√a)² = a.\nОсновные свойства:\n• √(ab) = √a · √b (a ≥ 0, b ≥ 0)\n• √(a/b) = √a / √b (a ≥ 0, b > 0)\n• √(a²) = |a|\nНекоторые корни не являются целыми: √2 ≈ 1,414… — это иррациональное число, его нельзя записать обыкновенной дробью."}},
+        {"type": "example", "text": {
+          "tk": "1) √72-ni ýönekeýleşdireliň.\n72 = 36 · 2, 36 — doly kwadrat.\n√72 = √36 · √2 = 6√2.\n\n2) √50 + √18 hasaplalyň.\n√50 = √(25·2) = 5√2\n√18 = √(9·2) = 3√2\n5√2 + 3√2 = 8√2.\n\n3) √((−7)²) = |−7| = 7 (−7 däl!).",
+          "ru": "1) Упростим √72.\n72 = 36 · 2, 36 — полный квадрат.\n√72 = √36 · √2 = 6√2.\n\n2) Вычислим √50 + √18.\n√50 = √(25·2) = 5√2\n√18 = √(9·2) = 3√2\n5√2 + 3√2 = 8√2.\n\n3) √((−7)²) = |−7| = 7 (а не −7!)."}},
+        {"type": "input",
+          "q": {"tk": "√144 näçä deň?", "ru": "Чему равен √144?"},
+          "answer": "12",
+          "hint": {"tk": "Haýsy sanyň kwadraty 144?", "ru": "Квадрат какого числа равен 144?"},
+          "explain": {"tk": "12² = 144, şonuň üçin √144 = 12.", "ru": "12² = 144, поэтому √144 = 12."}},
+        {"type": "choice",
+          "q": {"tk": "√((−5)²) näçä deň?", "ru": "Чему равен √((−5)²)?"},
+          "options": ["−5", "5", "25"],
+          "answer": 1,
+          "hint": {"tk": "√(a²) = |a| formulany ýatlaň.", "ru": "Вспомните формулу √(a²) = |a|."},
+          "explain": {"tk": "(−5)² = 25, √25 = 5. Arifmetik kök hiç wagt otrisatel bolmaýar: √(a²) = |a| = 5.", "ru": "(−5)² = 25, √25 = 5. Арифметический корень никогда не бывает отрицательным: √(a²) = |a| = 5."}},
+        {"type": "truefalse",
+          "q": {"tk": "√(9 + 16) = √9 + √16. Dogrumy?", "ru": "√(9 + 16) = √9 + √16. Верно?"},
+          "answer": false,
+          "hint": {"tk": "Iki tarapy aýratyn hasaplap görüň.", "ru": "Посчитайте обе части отдельно."},
+          "explain": {"tk": "√(9+16) = √25 = 5, emma √9 + √16 = 3 + 4 = 7. Jemiň köki kökleriň jemine deň däl.", "ru": "√(9+16) = √25 = 5, а √9 + √16 = 3 + 4 = 7. Корень из суммы не равен сумме корней."}},
+        {"type": "input",
+          "q": {"tk": "√48 = k√3. k näçä deň?", "ru": "√48 = k√3. Чему равно k?"},
+          "answer": "4",
+          "hint": {"tk": "48-i doly kwadrat bilen 3-üň köpeltmek hasyly görnüşinde ýazyň.", "ru": "Запишите 48 как произведение полного квадрата и 3."},
+          "explain": {"tk": "48 = 16 · 3, √48 = √16 · √3 = 4√3. Diýmek, k = 4.", "ru": "48 = 16 · 3, √48 = √16 · √3 = 4√3. Значит, k = 4."}},
+        {"type": "world", "text": {
+          "tk": "Takmynan 3700 ýyl ozal Wawilonda ýazylan YBC 7289 atly toýun tagtasynda √2-niň bahasy gaty takyk — 1,414213 töweregi — görkezilýär. Bu, kwadrat kök bilen işlemegiň iň gadymy subutnamalarynyň biri.",
+          "ru": "На вавилонской глиняной табличке YBC 7289, созданной примерно 3700 лет назад, значение √2 записано очень точно — около 1,414213. Это одно из древнейших свидетельств работы с квадратными корнями."}}
+      ]
+    },
+    {
+      "id": "math-8-quadratic-equations",
+      "grade": 8,
+      "topic": 1,
+      "title": {"tk": "Kwadrat deňlemeler", "ru": "Квадратные уравнения"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Kwadrat deňleme: ax² + bx + c = 0, bu ýerde a ≠ 0.\nDiskriminant: D = b² − 4ac.\n• D > 0 — iki dürli kök\n• D = 0 — bir kök (iki deň kök)\n• D < 0 — hakyky kök ýok\nKökleriň formulasy: x = (−b ± √D) / (2a).",
+          "ru": "Квадратное уравнение: ax² + bx + c = 0, где a ≠ 0.\nДискриминант: D = b² − 4ac.\n• D > 0 — два различных корня\n• D = 0 — один корень (два равных)\n• D < 0 — действительных корней нет\nФормула корней: x = (−b ± √D) / (2a)."}},
+        {"type": "example", "text": {
+          "tk": "x² − 5x + 6 = 0 çözeliň.\na = 1, b = −5, c = 6.\nD = (−5)² − 4·1·6 = 25 − 24 = 1.\nx = (5 ± 1) / 2.\nx₁ = 6/2 = 3, x₂ = 4/2 = 2.\nBarlag: 3² − 5·3 + 6 = 9 − 15 + 6 = 0 ✓",
+          "ru": "Решим x² − 5x + 6 = 0.\na = 1, b = −5, c = 6.\nD = (−5)² − 4·1·6 = 25 − 24 = 1.\nx = (5 ± 1) / 2.\nx₁ = 6/2 = 3, x₂ = 4/2 = 2.\nПроверка: 3² − 5·3 + 6 = 9 − 15 + 6 = 0 ✓"}},
+        {"type": "theory", "text": {
+          "tk": "Doly däl kwadrat deňlemeleri formulasyz çözmek aňsat:\n• ax² + bx = 0 → x(ax + b) = 0 → x = 0 ýa-da x = −b/a.\n  Mysal: 2x² − 8x = 0 → 2x(x − 4) = 0 → x = 0; x = 4.\n• ax² + c = 0 → x² = −c/a.\n  Mysal: x² − 9 = 0 → x² = 9 → x = ±3.",
+          "ru": "Неполные квадратные уравнения легко решить без формулы:\n• ax² + bx = 0 → x(ax + b) = 0 → x = 0 или x = −b/a.\n  Пример: 2x² − 8x = 0 → 2x(x − 4) = 0 → x = 0; x = 4.\n• ax² + c = 0 → x² = −c/a.\n  Пример: x² − 9 = 0 → x² = 9 → x = ±3."}},
+        {"type": "choice",
+          "q": {"tk": "2x² + 3x − 2 = 0 deňlemäniň diskriminanty näçä deň?", "ru": "Чему равен дискриминант уравнения 2x² + 3x − 2 = 0?"},
+          "options": ["−7", "1", "25"],
+          "answer": 2,
+          "hint": {"tk": "D = b² − 4ac, c otrisatel bolsa, −4ac položitel bolýar.", "ru": "D = b² − 4ac; если c отрицательно, то −4ac положительно."},
+          "explain": {"tk": "D = 3² − 4·2·(−2) = 9 + 16 = 25.", "ru": "D = 3² − 4·2·(−2) = 9 + 16 = 25."}},
+        {"type": "input",
+          "q": {"tk": "x² + 4x + 4 = 0 deňlemäniň näçe dürli köki bar?", "ru": "Сколько различных корней у уравнения x² + 4x + 4 = 0?"},
+          "answer": "1",
+          "hint": {"tk": "Diskriminanty hasaplaň.", "ru": "Вычислите дискриминант."},
+          "explain": {"tk": "D = 16 − 16 = 0, diýmek bir kök bar: x = −2. Hakykatdan-da, x² + 4x + 4 = (x + 2)².", "ru": "D = 16 − 16 = 0, значит корень один: x = −2. Действительно, x² + 4x + 4 = (x + 2)²."}},
+        {"type": "input",
+          "q": {"tk": "x² − 7x + 10 = 0 deňlemäniň uly köküni tapyň.", "ru": "Найдите больший корень уравнения x² − 7x + 10 = 0."},
+          "answer": "5",
+          "hint": {"tk": "D = 49 − 40.", "ru": "D = 49 − 40."},
+          "explain": {"tk": "D = 9, √D = 3. x = (7 ± 3)/2 → x₁ = 5, x₂ = 2. Uly kök — 5.", "ru": "D = 9, √D = 3. x = (7 ± 3)/2 → x₁ = 5, x₂ = 2. Больший корень — 5."}},
+        {"type": "truefalse",
+          "q": {"tk": "x² + 1 = 0 deňlemäniň hakyky köki ýok. Dogrumy?", "ru": "Уравнение x² + 1 = 0 не имеет действительных корней. Верно?"},
+          "answer": true,
+          "hint": {"tk": "Haýsy hakyky sanyň kwadraty otrisatel bolup biler?", "ru": "Может ли квадрат действительного числа быть отрицательным?"},
+          "explain": {"tk": "x² = −1 bolmaly, emma islendik hakyky sanyň kwadraty ≥ 0. D = 0 − 4 = −4 < 0.", "ru": "Нужно x² = −1, но квадрат любого действительного числа ≥ 0. D = 0 − 4 = −4 < 0."}},
+        {"type": "world", "text": {
+          "tk": "IX asyrda Bagdatda ýaşan alym Muhammet al-Horezmi kwadrat deňlemeleri çözmegiň usullaryny «Al-jabr» atly kitabynda düşündirdi. «Algebra» sözi şol kitabyň adyndan, «algoritm» sözi bolsa alymyň adyndan gelip çykýar.",
+          "ru": "В IX веке учёный Мухаммад аль-Хорезми, работавший в Багдаде, описал способы решения квадратных уравнений в книге «Аль-джабр». Слово «алгебра» происходит от названия этой книги, а слово «алгоритм» — от имени учёного."}}
+      ]
+    },
+    {
+      "id": "math-8-vieta-theorem",
+      "grade": 8,
+      "topic": 2,
+      "title": {"tk": "Wiýetiň teoremasy", "ru": "Теорема Виета"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Eger ax² + bx + c = 0 deňlemäniň x₁ we x₂ kökleri bar bolsa:\n• x₁ + x₂ = −b/a\n• x₁ · x₂ = c/a\nGetirilen deňleme üçin (x² + px + q = 0):\n• x₁ + x₂ = −p\n• x₁ · x₂ = q\nTers teorema: eger iki sanyň jemi −p, köpeltmek hasyly q bolsa, olar x² + px + q = 0 deňlemäniň kökleridir.",
+          "ru": "Если уравнение ax² + bx + c = 0 имеет корни x₁ и x₂, то:\n• x₁ + x₂ = −b/a\n• x₁ · x₂ = c/a\nДля приведённого уравнения (x² + px + q = 0):\n• x₁ + x₂ = −p\n• x₁ · x₂ = q\nОбратная теорема: если сумма двух чисел равна −p, а произведение равно q, то они — корни уравнения x² + px + q = 0."}},
+        {"type": "example", "text": {
+          "tk": "x² − 7x + 12 = 0 deňlemäni Wiýetiň teoremasy bilen çözeliň.\nx₁ + x₂ = 7, x₁ · x₂ = 12.\nKöpeltmek hasyly 12 bolan jübütler: 1 we 12, 2 we 6, 3 we 4.\nJemi 7 bolany — 3 we 4.\nJogap: x₁ = 3, x₂ = 4.",
+          "ru": "Решим x² − 7x + 12 = 0 с помощью теоремы Виета.\nx₁ + x₂ = 7, x₁ · x₂ = 12.\nПары с произведением 12: 1 и 12, 2 и 6, 3 и 4.\nСумма 7 только у пары 3 и 4.\nОтвет: x₁ = 3, x₂ = 4."}},
+        {"type": "input",
+          "q": {"tk": "x² + 5x − 14 = 0 deňlemäniň kökleriniň jemi näçä deň?", "ru": "Чему равна сумма корней уравнения x² + 5x − 14 = 0?"},
+          "answer": "-5|−5",
+          "hint": {"tk": "Jem = −p.", "ru": "Сумма = −p."},
+          "explain": {"tk": "p = 5, şonuň üçin x₁ + x₂ = −5. (Kökler: 2 we −7.)", "ru": "p = 5, поэтому x₁ + x₂ = −5. (Корни: 2 и −7.)"}},
+        {"type": "input",
+          "q": {"tk": "2x² − 6x + 4 = 0 deňlemäniň kökleriniň köpeltmek hasyly näçä deň?", "ru": "Чему равно произведение корней уравнения 2x² − 6x + 4 = 0?"},
+          "answer": "2",
+          "hint": {"tk": "Bu getirilen deňleme däl: c/a formulany ulanyň.", "ru": "Это не приведённое уравнение: используйте c/a."},
+          "explain": {"tk": "x₁ · x₂ = c/a = 4/2 = 2. (Kökler: 1 we 2.)", "ru": "x₁ · x₂ = c/a = 4/2 = 2. (Корни: 1 и 2.)"}},
+        {"type": "choice",
+          "q": {"tk": "x² − x − 6 = 0 deňlemäniň kökleri haýsylar?", "ru": "Какие числа являются корнями уравнения x² − x − 6 = 0?"},
+          "options": [{"tk": "−3 we 2", "ru": "−3 и 2"}, {"tk": "6 we −1", "ru": "6 и −1"}, {"tk": "3 we −2", "ru": "3 и −2"}],
+          "answer": 2,
+          "hint": {"tk": "Jemi 1, köpeltmek hasyly −6 bolmaly.", "ru": "Сумма должна быть 1, а произведение −6."},
+          "explain": {"tk": "3 + (−2) = 1 we 3 · (−2) = −6. Beýleki jübütleriň jemi 1 däl.", "ru": "3 + (−2) = 1 и 3 · (−2) = −6. У других пар сумма не равна 1."}},
+        {"type": "truefalse",
+          "q": {"tk": "x² + 3x + 2 = 0 deňlemäniň kökleri 1 we 2. Dogrumy?", "ru": "Корни уравнения x² + 3x + 2 = 0 — это 1 и 2. Верно?"},
+          "answer": false,
+          "hint": {"tk": "Kökleriň jemi −3 bolmaly.", "ru": "Сумма корней должна быть −3."},
+          "explain": {"tk": "Jem −3, köpeltmek hasyly 2 → kökler −1 we −2. 1 + 2 = 3 ≠ −3.", "ru": "Сумма −3, произведение 2 → корни −1 и −2. 1 + 2 = 3 ≠ −3."}},
+        {"type": "world", "text": {
+          "tk": "Fransuz alymy Fransua Wiýet (1540–1603) hünäri boýunça hukukçydy. Ol algebrada näbelli we belli ululyklary harplar bilen belgilemegi ilkinjiler hatarynda ulgamlaýyn ulandy. Şeýle hem ol fransuz koroly Genrih IV üçin ispan şifrlenen hatlaryny okap beripdir.",
+          "ru": "Французский учёный Франсуа Виет (1540–1603) по профессии был юристом. Он одним из первых стал систематически обозначать в алгебре буквами и неизвестные, и известные величины. Кроме того, он расшифровывал испанские тайные письма для французского короля Генриха IV."}}
+      ]
+    },
+    {
+      "id": "math-8-rational-fractions",
+      "grade": 8,
+      "topic": 3,
+      "title": {"tk": "Rasional droblar", "ru": "Рациональные дроби"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Rasional drob — P/Q görnüşli aňlatma, bu ýerde P we Q köpagzalar, Q ≠ 0.\n• Maýdalawjyny nola öwürýän bahalar rugsat berilmeýär.\n• Esasy häsiýet: sanawjyny we maýdalawjyny birmeňzeş nol däl aňlatma bölüp (köpeldip) bolýar.\nDroby gysgaltmak: ilki köpeldijilere dagytmaly, soňra umumy köpeldijini gysgaltmaly.\nAmallar adaty droblardaky ýaly: goşmak/aýyrmak — umumy maýdalawja getirip; köpeltmek — sanawjylary we maýdalawjylary köpeldip; bölmek — ikinji droby öwrüp köpeldip.",
+          "ru": "Рациональная дробь — выражение вида P/Q, где P и Q — многочлены, Q ≠ 0.\n• Значения, обращающие знаменатель в ноль, недопустимы.\n• Основное свойство: числитель и знаменатель можно разделить (умножить) на одно и то же ненулевое выражение.\nСокращение дроби: сначала разложить на множители, потом сократить общий множитель.\nДействия — как с обычными дробями: сложение/вычитание — через общий знаменатель; умножение — числитель на числитель, знаменатель на знаменатель; деление — умножение на перевёрнутую дробь."}},
+        {"type": "example", "text": {
+          "tk": "1) (x² − 9)/(x² + 3x) droby gysgaldalyň.\nx² − 9 = (x − 3)(x + 3), x² + 3x = x(x + 3).\n(x − 3)(x + 3) / (x(x + 3)) = (x − 3)/x, bu ýerde x ≠ 0, x ≠ −3.\n\n2) 1/x + 1/(x + 1) goşalyň.\nUmumy maýdalawjy: x(x + 1).\n(x + 1)/(x(x + 1)) + x/(x(x + 1)) = (2x + 1)/(x(x + 1)).",
+          "ru": "1) Сократим дробь (x² − 9)/(x² + 3x).\nx² − 9 = (x − 3)(x + 3), x² + 3x = x(x + 3).\n(x − 3)(x + 3) / (x(x + 3)) = (x − 3)/x, при x ≠ 0, x ≠ −3.\n\n2) Сложим 1/x + 1/(x + 1).\nОбщий знаменатель: x(x + 1).\n(x + 1)/(x(x + 1)) + x/(x(x + 1)) = (2x + 1)/(x(x + 1))."}},
+        {"type": "choice",
+          "q": {"tk": "x-iň haýsy bahasynda 5/(x − 2) drobuň manysy ýok?", "ru": "При каком значении x дробь 5/(x − 2) не имеет смысла?"},
+          "options": ["x = 2", "x = 0", "x = −2"],
+          "answer": 0,
+          "hint": {"tk": "Maýdalawjy nola deň bolmaly däl.", "ru": "Знаменатель не может быть равен нулю."},
+          "explain": {"tk": "x − 2 = 0 bolanda x = 2. Bu bahada nola bölmek ýüze çykýar.", "ru": "x − 2 = 0 при x = 2. При этом значении получается деление на ноль."}},
+        {"type": "input",
+          "q": {"tk": "(x² − 4)/(x − 2) droby gysgaldyň we x = 3 bolanda bahasyny tapyň.", "ru": "Сократите дробь (x² − 4)/(x − 2) и найдите её значение при x = 3."},
+          "answer": "5",
+          "hint": {"tk": "x² − 4 — kwadratlaryň tapawudy.", "ru": "x² − 4 — разность квадратов."},
+          "explain": {"tk": "(x − 2)(x + 2)/(x − 2) = x + 2. x = 3 bolanda 3 + 2 = 5.", "ru": "(x − 2)(x + 2)/(x − 2) = x + 2. При x = 3 получаем 3 + 2 = 5."}},
+        {"type": "truefalse",
+          "q": {"tk": "(a + b)/a = b — bu dogry gysgaltma. Dogrumy?", "ru": "(a + b)/a = b — это верное сокращение. Верно?"},
+          "answer": false,
+          "hint": {"tk": "Gysgaltmak diňe köpeldijiler üçin mümkin, goşulyjylar üçin däl.", "ru": "Сокращать можно только множители, а не слагаемые."},
+          "explain": {"tk": "Dogrusy: (a + b)/a = 1 + b/a. Meselem, a = 1, b = 2 bolsa: 3/1 = 3, emma b = 2.", "ru": "Правильно: (a + b)/a = 1 + b/a. Например, при a = 1, b = 2: 3/1 = 3, а b = 2."}},
+        {"type": "choice",
+          "q": {"tk": "(2/x) · (x²/4) näçä deň?", "ru": "Чему равно (2/x) · (x²/4)?"},
+          "options": ["2x", "x/2", "8/x³"],
+          "answer": 1,
+          "hint": {"tk": "Sanawjylary we maýdalawjylary köpeldip, soňra gysgaldyň.", "ru": "Перемножьте числители и знаменатели, затем сократите."},
+          "explain": {"tk": "(2 · x²)/(x · 4) = 2x²/(4x) = x/2 (x ≠ 0).", "ru": "(2 · x²)/(x · 4) = 2x²/(4x) = x/2 (x ≠ 0)."}},
+        {"type": "world", "text": {
+          "tk": "Elektrik zynjyrynda iki rezistor parallel birikdirilende umumy garşylyk 1/R = 1/R₁ + 1/R₂ formula bilen hasaplanýar. Bu — rasional droblary goşmagyň gündelik tehnikadaky hakyky ulanylyşy: R = R₁R₂/(R₁ + R₂).",
+          "ru": "При параллельном соединении двух резисторов общее сопротивление находят по формуле 1/R = 1/R₁ + 1/R₂. Это реальное применение сложения рациональных дробей в технике: R = R₁R₂/(R₁ + R₂)."}}
+      ]
+    },
+    {
+      "id": "math-8-inequalities",
+      "grade": 8,
+      "topic": 4,
+      "title": {"tk": "Çyzykly deňsizlikler", "ru": "Линейные неравенства"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Deňsizlik alamatlary: <, >, ≤, ≥.\nÇyzykly deňsizligi çözmegiň düzgünleri:\n• Iki tarapa birmeňzeş sany goşup ýa-da aýryp bolýar — alamat üýtgemeýär.\n• Položitel sana köpeldende/bölende alamat üýtgemeýär.\n• Otrisatel sana köpeldende/bölende alamat tersine öwrülýär!\nJogap aralyk bilen ýazylýar: x < 2 → (−∞; 2); x ≤ 3 → (−∞; 3]. Kwadrat ýaý — san girýär, tegelek ýaý — girmeýär.\nDeňsizlikler ulgamynda iki çözüwiň umumy bölegi alynýar.",
+          "ru": "Знаки неравенств: <, >, ≤, ≥.\nПравила решения линейного неравенства:\n• К обеим частям можно прибавить или вычесть одно и то же число — знак не меняется.\n• При умножении/делении на положительное число знак не меняется.\n• При умножении/делении на отрицательное число знак меняется на противоположный!\nОтвет записывают промежутком: x < 2 → (−∞; 2); x ≤ 3 → (−∞; 3]. Квадратная скобка — число входит, круглая — не входит.\nВ системе неравенств берут общую часть решений."}},
+        {"type": "example", "text": {
+          "tk": "−3x + 6 > 0 çözeliň.\n1) 6-ny sag tarapa geçireliň: −3x > −6.\n2) −3-e böleliň — alamat öwrülýär: x < 2.\nJogap: (−∞; 2).\nBarlag: x = 0 → 6 > 0 ✓; x = 3 → −3 > 0 ✗.",
+          "ru": "Решим −3x + 6 > 0.\n1) Перенесём 6 вправо: −3x > −6.\n2) Разделим на −3 — знак меняется: x < 2.\nОтвет: (−∞; 2).\nПроверка: x = 0 → 6 > 0 ✓; x = 3 → −3 > 0 ✗."}},
+        {"type": "choice",
+          "q": {"tk": "−2x < 10 deňsizligiň çözüwi:", "ru": "Решение неравенства −2x < 10:"},
+          "options": ["x < −5", "x > −5", "x > 5"],
+          "answer": 1,
+          "hint": {"tk": "Otrisatel sana bölende näme bolýar?", "ru": "Что происходит при делении на отрицательное число?"},
+          "explain": {"tk": "−2-ä bölýäris we alamaty öwürýäris: x > −5.", "ru": "Делим на −2 и меняем знак: x > −5."}},
+        {"type": "input",
+          "q": {"tk": "4x − 8 > 12 deňsizligiň iň kiçi bitin çözüwini tapyň.", "ru": "Найдите наименьшее целое решение неравенства 4x − 8 > 12."},
+          "answer": "6",
+          "hint": {"tk": "Ilki x-i tapyň, alamatyň berk (>) bolşuna üns beriň.", "ru": "Сначала найдите x; обратите внимание, что знак строгий (>)."},
+          "explain": {"tk": "4x > 20 → x > 5. 5 girmeýär, şonuň üçin iň kiçi bitin san 6.", "ru": "4x > 20 → x > 5. Число 5 не входит, поэтому наименьшее целое — 6."}},
+        {"type": "truefalse",
+          "q": {"tk": "x = 3 san 2x + 1 < 7 deňsizligiň çözüwi. Dogrumy?", "ru": "Число x = 3 является решением неравенства 2x + 1 < 7. Верно?"},
+          "answer": false,
+          "hint": {"tk": "x = 3 goýup barlaň.", "ru": "Подставьте x = 3."},
+          "explain": {"tk": "2·3 + 1 = 7, emma 7 < 7 ýalan. Çözüw x < 3, 3 girmeýär.", "ru": "2·3 + 1 = 7, но 7 < 7 — ложно. Решение x < 3, и 3 не входит."}},
+        {"type": "input",
+          "q": {"tk": "x > 1 we x ≤ 4 ulgamyň näçe bitin çözüwi bar?", "ru": "Сколько целых решений у системы x > 1 и x ≤ 4?"},
+          "answer": "3",
+          "hint": {"tk": "Aralyk (1; 4]. Haýsy bitin sanlar girýär?", "ru": "Промежуток (1; 4]. Какие целые числа в него входят?"},
+          "explain": {"tk": "Bitin çözüwler: 2, 3, 4 — jemi 3. 1 girmeýär, 4 girýär.", "ru": "Целые решения: 2, 3, 4 — всего 3. Число 1 не входит, 4 входит."}},
+        {"type": "world", "text": {
+          "tk": "Häzirki «<» we «>» alamatlaryny iňlis matematigi Tomas Harriot girizdi. Olar onuň aradan çykandan soň, 1631-nji ýylda neşir edilen kitabynda çap edildi.",
+          "ru": "Привычные знаки «<» и «>» ввёл английский математик Томас Хэрриот. Они были напечатаны в его книге, изданной в 1631 году, уже после его смерти."}}
+      ]
+    },
+    {
+      "id": "math-8-statistics-basics",
+      "grade": 8,
+      "topic": 5,
+      "title": {"tk": "Statistikanyň esaslary", "ru": "Основы статистики"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Statistika maglumatlary ýygnamak, tertipleşdirmek we düşündirmek bilen meşgullanýar.\nEsasy görkezijiler:\n• Ortaça arifmetik — ähli bahalaryň jemi, bahalaryň sanyna bölünen.\n• Mediana — tertipleşdirilen hataryň ortasyndaky baha (jübüt sanly bolsa, iki ortaky bahanyň ortaçasy).\n• Moda — iň köp gaýtalanýan baha.\n• Gerim (razmah) — iň uly we iň kiçi bahalaryň tapawudy.",
+          "ru": "Статистика занимается сбором, упорядочиванием и интерпретацией данных.\nОсновные показатели:\n• Среднее арифметическое — сумма всех значений, делённая на их количество.\n• Медиана — значение в середине упорядоченного ряда (если значений чётное число — среднее двух средних).\n• Мода — значение, которое встречается чаще всего.\n• Размах — разность наибольшего и наименьшего значений."}},
+        {"type": "example", "text": {
+          "tk": "Maglumatlar: 3, 7, 7, 2, 9, 8.\nTertipleşdirelim: 2, 3, 7, 7, 8, 9.\n• Ortaça: (2+3+7+7+8+9)/6 = 36/6 = 6.\n• Mediana: ortaky iki baha 7 we 7 → (7+7)/2 = 7.\n• Moda: 7 (iki gezek).\n• Gerim: 9 − 2 = 7.",
+          "ru": "Данные: 3, 7, 7, 2, 9, 8.\nУпорядочим: 2, 3, 7, 7, 8, 9.\n• Среднее: (2+3+7+7+8+9)/6 = 36/6 = 6.\n• Медиана: два средних значения 7 и 7 → (7+7)/2 = 7.\n• Мода: 7 (дважды).\n• Размах: 9 − 2 = 7."}},
+        {"type": "input",
+          "q": {"tk": "4, 8, 6, 10, 2 sanlaryň ortaça arifmetigini tapyň.", "ru": "Найдите среднее арифметическое чисел 4, 8, 6, 10, 2."},
+          "answer": "6",
+          "hint": {"tk": "Jemi tapyp, 5-e bölüň.", "ru": "Найдите сумму и разделите на 5."},
+          "explain": {"tk": "4 + 8 + 6 + 10 + 2 = 30; 30 : 5 = 6.", "ru": "4 + 8 + 6 + 10 + 2 = 30; 30 : 5 = 6."}},
+        {"type": "input",
+          "q": {"tk": "5, 1, 9, 3, 7 hataryň medianasyny tapyň.", "ru": "Найдите медиану ряда 5, 1, 9, 3, 7."},
+          "answer": "5",
+          "hint": {"tk": "Ilki sanlary artýan tertipde ýerleşdiriň.", "ru": "Сначала расположите числа по возрастанию."},
+          "explain": {"tk": "Tertipde: 1, 3, 5, 7, 9. Ortadaky (3-nji) baha — 5.", "ru": "По порядку: 1, 3, 5, 7, 9. Среднее (3-е) значение — 5."}},
+        {"type": "choice",
+          "q": {"tk": "2, 3, 3, 5, 5, 5, 8 hataryň modasy haýsy?", "ru": "Какова мода ряда 2, 3, 3, 5, 5, 5, 8?"},
+          "options": ["3", "8", "5"],
+          "answer": 2,
+          "hint": {"tk": "Haýsy san iň köp gaýtalanýar?", "ru": "Какое число повторяется чаще всего?"},
+          "explain": {"tk": "5 üç gezek gabat gelýär, 3 — iki gezek, beýlekiler — bir gezek. Moda = 5.", "ru": "5 встречается три раза, 3 — два раза, остальные — по одному. Мода = 5."}},
+        {"type": "truefalse",
+          "q": {"tk": "Hatarda bir gaty uly baha peýda bolsa, ol medianany ortaça arifmetikden has köp üýtgedýär. Dogrumy?", "ru": "Если в ряду появляется одно очень большое значение, оно меняет медиану сильнее, чем среднее арифметическое. Верно?"},
+          "answer": false,
+          "hint": {"tk": "1, 2, 3 we 1, 2, 300 hatarlaryny deňeşdiriň.", "ru": "Сравните ряды 1, 2, 3 и 1, 2, 300."},
+          "explain": {"tk": "1, 2, 3: ortaça 2, mediana 2. 1, 2, 300: ortaça 101, mediana ýene 2. Mediana aýratyn uly bahalara durnukly.", "ru": "1, 2, 3: среднее 2, медиана 2. 1, 2, 300: среднее 101, медиана по-прежнему 2. Медиана устойчива к выбросам."}},
+        {"type": "world", "text": {
+          "tk": "Şepagat uýasy Florens Naýtingeýl Krym urşy döwründe esgerleriň ölüm sebäplerini özüniň oýlap tapan tegelek diagrammalary bilen görkezdi. Ol arassaçylygyň durmuşy halas edýändigini sanlar bilen subut etdi we 1858-nji ýylda Korol statistika jemgyýetiniň ilkinji aýal agzasy boldy.",
+          "ru": "Медсестра Флоренс Найтингейл показала причины смертей солдат в Крымской войне с помощью придуманных ею круговых диаграмм. Она доказала цифрами, что гигиена спасает жизни, и в 1858 году стала первой женщиной — членом Королевского статистического общества."}}
+      ]
+    }
+  ]
+}

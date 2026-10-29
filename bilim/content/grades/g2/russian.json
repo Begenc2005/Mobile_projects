@@ -1,0 +1,288 @@
+{
+  "grade": 2,
+  "subject": "russian",
+  "lessons": [
+    {
+      "id": "russian-2-alphabet",
+      "grade": 2,
+      "topic": 0,
+      "title": {"tk": "Rus elipbiýi", "ru": "Русский алфавит"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Rus elipbiýinde 33 harp bar 🔤.\nOlar kiril harplary bilen ýazylýar.\n• 10 çekimli harp: А, Е, Ё, И, О, У, Ы, Э, Ю, Я.\n• 21 çekimsiz harp: Б, В, Г, Д, Ж, З, Й, К, Л, М, Н, П, Р, С, Т, Ф, Х, Ц, Ч, Ш, Щ.\n• 2 harp ses bermeýär: Ъ (gaty belgi) we Ь (ýumşak belgi).\n10 + 21 + 2 = 33.",
+          "ru": "В русском алфавите 33 буквы 🔤.\nОни пишутся кириллицей.\n• 10 гласных букв: А, Е, Ё, И, О, У, Ы, Э, Ю, Я.\n• 21 согласная буква: Б, В, Г, Д, Ж, З, Й, К, Л, М, Н, П, Р, С, Т, Ф, Х, Ц, Ч, Ш, Щ.\n• 2 буквы не обозначают звука: Ъ (твёрдый знак) и Ь (мягкий знак).\n10 + 21 + 2 = 33."
+        }},
+        {"type": "example", "text": {
+          "tk": "Käbir harplar türkmen harplaryna meňzeş, ýöne başga okalýar ⚠️\n• Р = r: рыба 🐟 (balyk)\n• С = s: сок 🧃 (şire)\n• Н = n: нос 👃 (burun)\n• В = w: вода 💧 (suw)\n• У = u: утка 🦆 (ördek)\nÝekeje harp bilen hem söz bolýar: «и» (we), «в» (-da/-de).",
+          "ru": "Некоторые буквы похожи на латинские, но читаются иначе ⚠️\n• Р = [р]: рыба 🐟\n• С = [с]: сок 🧃\n• Н = [н]: нос 👃\n• В = [в]: вода 💧\n• У = [у]: утка 🦆\nДаже одна буква может быть словом: «и», «в»."
+        }},
+        {"type": "input",
+          "q": {"tk": "Rus elipbiýinde näçe harp bar?", "ru": "Сколько букв в русском алфавите?"},
+          "answer": "33",
+          "hint": {"tk": "10 çekimli + 21 çekimsiz + 2 belgi.", "ru": "10 гласных + 21 согласная + 2 знака."},
+          "explain": {"tk": "10 + 21 + 2 = 33 harp.", "ru": "10 + 21 + 2 = 33 буквы."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy harp çekimli?", "ru": "Какая буква гласная?"},
+          "options": ["Б", "О", "Т"],
+          "answer": 1,
+          "hint": {"tk": "Çekimli harpy uzak aýdyp bolýar: ooo...", "ru": "Гласную можно тянуть: ооо..."},
+          "explain": {"tk": "О — çekimli. Б we Т — çekimsiz.", "ru": "О — гласная. Б и Т — согласные."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«Р» harpy rusça [r] diýip okalýar.", "ru": "Русская буква «Р» читается как [р]."},
+          "answer": true,
+          "hint": {"tk": "«рыба» sözüni ýada sal 🐟.", "ru": "Вспомни слово «рыба» 🐟."},
+          "explain": {"tk": "Dogry. Rus «Р» latyn «P» harpyna meňzeýär, ýöne [r] okalýar: рыба.", "ru": "Верно. Русская «Р» похожа на латинскую «P», но читается [р]: рыба."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy harp ses bermeýär?", "ru": "Какая буква не обозначает звука?"},
+          "options": ["Ь", "А", "М"],
+          "answer": 0,
+          "hint": {"tk": "Ol öňündäki harpy ýumşadýar.", "ru": "Она смягчает букву перед собой."},
+          "explain": {"tk": "Ь — ýumşak belgi. Ol ses bermeýär, ýöne öňündäki çekimsizi ýumşadýar: конь.", "ru": "Ь — мягкий знак. Он не обозначает звука, но смягчает согласный перед ним: конь."}
+        },
+        {"type": "world", "text": {
+          "tk": "Kiril elipbiýi IX–X asyrlarda döräpdir. Ol grek elipbiýiniň esasynda düzülipdir we adyny Kirill atly alymyň hormatyna alypdyr. Häzir kiril harplary rus, ukrain, bolgar, serb, gazak we başga dillerde ulanylýar.",
+          "ru": "Кириллица появилась в IX–X веках. Она создана на основе греческого алфавита и названа в честь учёного Кирилла. Сегодня кириллицей пишут на русском, украинском, болгарском, сербском, казахском и других языках."
+        }}
+      ]
+    },
+    {
+      "id": "russian-2-my-home",
+      "grade": 2,
+      "topic": 1,
+      "title": {"tk": "Öýüm", "ru": "Мой дом"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Öý bilen baglanyşykly rus sözleri 🏠\n• дом — öý\n• комната — otag\n• кухня — aşhana\n• окно — penjire 🪟\n• дверь — gapy 🚪\n• стол — stol, стул — oturgyç 🪑\n• кровать — krowat 🛏️\nÝatda sakla: «мой дом» (meniň öýüm), «моя комната» (meniň otagym), «моё окно» (meniň penjiräm).",
+          "ru": "Русские слова про дом 🏠\n• дом\n• комната\n• кухня\n• окно 🪟\n• дверь 🚪\n• стол, стул 🪑\n• кровать 🛏️\nЗапомни: «мой дом», «моя комната», «моё окно»."
+        }},
+        {"type": "example", "text": {
+          "tk": "Kiçi hekaýa okaýarys 📖\n«Это мой дом. В доме три комнаты. Это кухня. Здесь стол и стулья. Это моя комната. Здесь кровать и окно.»\nTerjimesi: Bu meniň öýüm. Öýde üç otag bar. Bu aşhana. Bu ýerde stol we oturgyçlar bar. Bu meniň otagym. Bu ýerde krowat we penjire bar.\n«Это» — «bu», «здесь» — «bu ýerde».",
+          "ru": "Читаем маленький рассказ 📖\n«Это мой дом. В доме три комнаты. Это кухня. Здесь стол и стулья. Это моя комната. Здесь кровать и окно.»\nСлово «это» помогает показать предмет, а «здесь» — указать место."
+        }},
+        {"type": "choice",
+          "q": {"tk": "«Penjire» rusça nähili bolýar? 🪟", "ru": "Как по-русски «penjire»? 🪟"},
+          "options": ["дверь", "стол", "окно"],
+          "answer": 2,
+          "hint": {"tk": "Ondan daşaryk seredýäris.", "ru": "Через него смотрят на улицу."},
+          "explain": {"tk": "окно — penjire. дверь — gapy, стол — stol.", "ru": "окно — penjire. дверь — gapy, стол — stol."}
+        },
+        {"type": "input",
+          "q": {"tk": "«Aşhana» rusça nähili? Kiril harplary bilen ýaz.", "ru": "Как по-русски «aşhana»? Напиши кириллицей."},
+          "answer": "кухня|Кухня",
+          "hint": {"tk": "к _ х н я", "ru": "к _ х н я"},
+          "explain": {"tk": "кухня — aşhana. Bu ýerde nahar bişirýärler 🍲.", "ru": "кухня — aşhana. Здесь готовят еду 🍲."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«кровать» — bu krowat 🛏️.", "ru": "«кровать» — это krowat 🛏️."},
+          "answer": true,
+          "hint": {"tk": "Onuň üstünde ýatýarys.", "ru": "На ней мы спим."},
+          "explain": {"tk": "Dogry. кровать — krowat, onuň üstünde ýatýarys.", "ru": "Верно. Кровать — на ней спят."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Dogry sözi saýla: «___ комната».", "ru": "Выбери правильное слово: «___ комната»."},
+          "options": ["мой", "моя", "моё"],
+          "answer": 1,
+          "hint": {"tk": "Söz «-а» bilen gutarýar: комнатА.", "ru": "Слово оканчивается на «-а»: комнатА."},
+          "explain": {"tk": "«-а» bilen gutarýan sözlere «моя» diýilýär: моя комната, моя кухня.", "ru": "С женским родом на «-а» говорим «моя»: моя комната, моя кухня."}
+        },
+        {"type": "world", "text": {
+          "tk": "Dünýäde iň beýik bina — Dubaýdaky «Burj Halifa» 🏙️. Onuň beýikligi 800 metrden geçýär we 160-dan gowrak gaty bar. Ol 2010-njy ýylda açyldy.",
+          "ru": "Самое высокое здание в мире — «Бурдж-Халифа» в Дубае 🏙️. Его высота больше 800 метров, в нём больше 160 этажей. Оно открылось в 2010 году."
+        }}
+      ]
+    },
+    {
+      "id": "russian-2-food",
+      "grade": 2,
+      "topic": 2,
+      "title": {"tk": "Iýmit", "ru": "Еда"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Iýmit barada rus sözleri 🍽️\n• хлеб — çörek 🍞\n• молоко — süýt 🥛\n• вода — suw 💧\n• яблоко — alma 🍎\n• суп — çorba 🍲\n• чай — çaý 🍵\n• мясо — et 🥩\nPeýdaly sözlemler:\n• «Я хочу есть» — Meniň iýesim gelýär.\n• «Я люблю яблоки» — Men almany halaýaryn.\n• «Спасибо!» — Sag boluň!",
+          "ru": "Слова про еду 🍽️\n• хлеб 🍞\n• молоко 🥛\n• вода 💧\n• яблоко 🍎\n• суп 🍲\n• чай 🍵\n• мясо 🥩\nПолезные фразы:\n• «Я хочу есть».\n• «Я люблю яблоки».\n• «Спасибо!»"
+        }},
+        {"type": "example", "text": {
+          "tk": "Saçakda gürrüňdeşlik 🍽️\n— Мама, я хочу есть!\n— Вот суп и хлеб.\n— А можно чай?\n— Да, конечно.\n— Спасибо!\nTerjimesi: — Eje, meniň iýesim gelýär! — Ine çorba we çörek. — Çaý bolarmy? — Hawa, elbetde. — Sag bol!",
+          "ru": "Разговор за столом 🍽️\n— Мама, я хочу есть!\n— Вот суп и хлеб.\n— А можно чай?\n— Да, конечно.\n— Спасибо!\nОбрати внимание: просьбу начинаем со слова «можно»."
+        }},
+        {"type": "choice",
+          "q": {"tk": "«Süýt» rusça nähili? 🥛", "ru": "Как по-русски «süýt»? 🥛"},
+          "options": ["молоко", "мясо", "хлеб"],
+          "answer": 0,
+          "hint": {"tk": "Ol ak we sygyrdan alynýar 🐄.", "ru": "Оно белое, его дают коровы 🐄."},
+          "explain": {"tk": "молоко — süýt. мясо — et, хлеб — çörek.", "ru": "молоко — süýt. мясо — et, хлеб — çörek."}
+        },
+        {"type": "input",
+          "q": {"tk": "🍞 rusça nähili? Kiril harplary bilen ýaz.", "ru": "Как по-русски 🍞? Напиши кириллицей."},
+          "answer": "хлеб|Хлеб",
+          "hint": {"tk": "4 harp: х _ _ б", "ru": "4 буквы: х _ _ б"},
+          "explain": {"tk": "хлеб — çörek.", "ru": "хлеб — çörek."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«Спасибо» — «Sag boluň» diýmekdir.", "ru": "«Спасибо» значит «Sag boluň»."},
+          "answer": true,
+          "hint": {"tk": "Bu sözi nahardan soň aýdýarys.", "ru": "Это слово говорят после еды."},
+          "explain": {"tk": "Dogry. «Спасибо» — minnetdarlyk sözi.", "ru": "Верно. «Спасибо» — слово благодарности."}
+        },
+        {"type": "choice",
+          "q": {"tk": "«Meniň iýesim gelýär» rusça nähili?", "ru": "Как по-русски «Meniň iýesim gelýär»?"},
+          "options": ["Я хочу пить", "Я люблю чай", "Я хочу есть"],
+          "answer": 2,
+          "hint": {"tk": "«есть» — iýmek, «пить» — içmek.", "ru": "«есть» — iýmek, «пить» — içmek."},
+          "explain": {"tk": "«Я хочу есть» — iýesim gelýär. «Я хочу пить» — içesim gelýär.", "ru": "«Я хочу есть» — когда голоден. «Я хочу пить» — когда хочешь пить."}
+        },
+        {"type": "world", "text": {
+          "tk": "Çaý — suwdan soň dünýäde iň köp içilýän içgi 🍵. Çaý ösümligi ilki Hytaýda ösdürilip başlanypdyr, soňra bolsa bütin dünýä ýaýrapdyr.",
+          "ru": "Чай — самый популярный напиток в мире после воды 🍵. Чайное растение начали выращивать в Китае, а потом чай распространился по всему миру."
+        }}
+      ]
+    },
+    {
+      "id": "russian-2-clothes",
+      "grade": 2,
+      "topic": 3,
+      "title": {"tk": "Egin-eşik", "ru": "Одежда"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Egin-eşik barada rus sözleri 👕\n• рубашка — köýnek 👔\n• платье — köýnek (gyzlaryňky) 👗\n• брюки — balak 👖\n• куртка — kurtka 🧥\n• шапка — börük, telpek 🧢\n• обувь — aýakgap 👟\n• носки — jorap 🧦\nGeýinmek: «Я надеваю куртку» — Men kurtkamy geýýärin.",
+          "ru": "Слова про одежду 👕\n• рубашка 👔\n• платье 👗\n• брюки 👖\n• куртка 🧥\n• шапка 🧢\n• обувь 👟\n• носки 🧦\nКак сказать: «Я надеваю куртку»."
+        }},
+        {"type": "example", "text": {
+          "tk": "Pasyla görä geýinýäris ❄️☀️\n«Зимой холодно. Я надеваю куртку и шапку.» — Gyşda sowuk. Men kurtka we telpek geýýärin.\n«Летом жарко. Я надеваю футболку.» — Tomusda yssy. Men futbolka geýýärin.\nReňkler hem goşulýar: «красная шапка» — gyzyl telpek, «синие брюки» — gök balak.",
+          "ru": "Одеваемся по погоде ❄️☀️\n«Зимой холодно. Я надеваю куртку и шапку.»\n«Летом жарко. Я надеваю футболку.»\nМожно добавить цвет: «красная шапка», «синие брюки»."
+        }},
+        {"type": "choice",
+          "q": {"tk": "«Balak» rusça nähili? 👖", "ru": "Как по-русски «balak»? 👖"},
+          "options": ["шапка", "брюки", "носки"],
+          "answer": 1,
+          "hint": {"tk": "Ony aýaklara geýýäris, ol uzyn.", "ru": "Их надевают на ноги, они длинные."},
+          "explain": {"tk": "брюки — balak. шапка — telpek, носки — jorap.", "ru": "брюки — balak. шапка — telpek, носки — jorap."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Gyşda «шапка» geýmek gowy.", "ru": "Зимой хорошо надевать «шапку»."},
+          "answer": true,
+          "hint": {"tk": "шапка kelläni sowukdan goraýar 🧢.", "ru": "Шапка защищает голову от холода 🧢."},
+          "explain": {"tk": "Dogry. Gyşda sowuk, telpek kelläni ýyly saklaýar.", "ru": "Верно. Зимой холодно, а шапка греет голову."}
+        },
+        {"type": "input",
+          "q": {"tk": "🧦 rusça nähili? Kiril harplary bilen ýaz.", "ru": "Как по-русски 🧦? Напиши кириллицей."},
+          "answer": "носки|Носки|носок",
+          "hint": {"tk": "н _ с к и", "ru": "н _ с к и"},
+          "explain": {"tk": "носки — jorap (köplükde). Bir jorap — носок.", "ru": "носки — множественное число. Один — носок."}
+        },
+        {"type": "choice",
+          "q": {"tk": "«Men kurtkamy geýýärin» rusça nähili?", "ru": "Как по-русски «Men kurtkamy geýýärin»?"},
+          "options": ["Я надеваю куртку", "Я люблю куртку", "Это моя куртка"],
+          "answer": 0,
+          "hint": {"tk": "«надевать» — geýmek.", "ru": "«надевать» — geýmek."},
+          "explain": {"tk": "«Я надеваю» — men geýýärin. «Я люблю» — men halaýaryn, «Это моя» — bu meniňki.", "ru": "«Я надеваю» — действие. «Я люблю» — чувство, «Это моя» — указание."}
+        },
+        {"type": "world", "text": {
+          "tk": "Jinsi balaklar XIX asyrda ABŞ-da işçiler üçin oýlanyp tapylypdyr 👖. Olar gaty berk bolupdyr. Häzir bolsa jinsi eşigi tutuş dünýäde çagalar hem, ulular hem geýýär.",
+          "ru": "Джинсы придумали в XIX веке в США для рабочих 👖. Они были очень прочными. А сейчас джинсы носят дети и взрослые по всему миру."
+        }}
+      ]
+    },
+    {
+      "id": "russian-2-days-of-week",
+      "grade": 2,
+      "topic": 4,
+      "title": {"tk": "Hepdäniň günleri", "ru": "Дни недели"},
+      "minutes": 7,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Hepdede 7 gün bar 📅\n1. понедельник — duşenbe\n2. вторник — sişenbe\n3. среда — çarşenbe\n4. четверг — penşenbe\n5. пятница — anna\n6. суббота — şenbe\n7. воскресенье — ýekşenbe\nRus dilinde günleriň atlary setiriň başynda bolmasa, kiçi harp bilen ýazylýar.",
+          "ru": "В неделе 7 дней 📅\n1. понедельник\n2. вторник\n3. среда\n4. четверг\n5. пятница\n6. суббота\n7. воскресенье\nВ русском языке дни недели пишутся с маленькой буквы."
+        }},
+        {"type": "example", "text": {
+          "tk": "Günleriň adyny ýatlamak aňsat 💡\n• вТОРник — «второй» (ikinji)\n• ЧЕТВЕРг — «четвёртый» (dördünji)\n• ПЯТница — «пятый» (bäşinji)\n• среда — hepdäniň ortasy\nSözlem: «Сегодня понедельник» — Şu gün duşenbe. «В субботу я играю» — Şenbe güni men oýnaýaryn.",
+          "ru": "Названия легко запомнить 💡\n• вторник — «второй»\n• четверг — «четвёртый»\n• пятница — «пятый»\n• среда — середина недели\nФразы: «Сегодня понедельник». «В субботу я играю»."
+        }},
+        {"type": "input",
+          "q": {"tk": "Hepdede näçe gün bar?", "ru": "Сколько дней в неделе?"},
+          "answer": "7",
+          "hint": {"tk": "понедельник-den воскресенье-ä çenli sana.", "ru": "Посчитай от понедельника до воскресенья."},
+          "explain": {"tk": "Hepdede 7 gün bar.", "ru": "В неделе 7 дней."}
+        },
+        {"type": "choice",
+          "q": {"tk": "«вторник»-den soň haýsy gün gelýär?", "ru": "Какой день идёт после вторника?"},
+          "options": ["понедельник", "четверг", "среда"],
+          "answer": 2,
+          "hint": {"tk": "Bu hepdäniň ortasy.", "ru": "Это середина недели."},
+          "explain": {"tk": "вторник → среда → четверг.", "ru": "вторник → среда → четверг."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«пятница» — bu anna güni.", "ru": "«пятница» — это anna."},
+          "answer": true,
+          "hint": {"tk": "«пять» — bäş. Bäşinji gün haýsy?", "ru": "«пять» — пятый день. Какой?"},
+          "explain": {"tk": "Dogry. пятница — hepdäniň bäşinji güni, anna.", "ru": "Верно. Пятница — пятый день недели."}
+        },
+        {"type": "choice",
+          "q": {"tk": "«Ýekşenbe» rusça nähili?", "ru": "Как по-русски «ýekşenbe»?"},
+          "options": ["суббота", "воскресенье", "понедельник"],
+          "answer": 1,
+          "hint": {"tk": "Bu hepdäniň soňky, ýedinji güni.", "ru": "Это последний, седьмой день недели."},
+          "explain": {"tk": "воскресенье — ýekşenbe. суббота — şenbe.", "ru": "воскресенье — ýekşenbe. суббота — şenbe."}
+        },
+        {"type": "world", "text": {
+          "tk": "Hepdäniň 7 günden ybarat bolmagy gadymy Wawilonda ulanylypdyr. Şol döwürde adamlar asmanda gözleri bilen 7 sany yşykly jisimi görüpdirler: Güni, Aýy we bäş planetany 🌞🌙.",
+          "ru": "Неделю из 7 дней использовали ещё в древнем Вавилоне. Тогда люди видели на небе невооружённым глазом 7 светил: Солнце, Луну и пять планет 🌞🌙."
+        }}
+      ]
+    },
+    {
+      "id": "russian-2-motion-verbs",
+      "grade": 2,
+      "topic": 5,
+      "title": {"tk": "Hereket işlikleri", "ru": "Глаголы движения"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Hereket işlikleri 🏃\n• идти — ýöremek 🚶\n• бежать — ylgamak 🏃\n• ехать — (ulagda) gitmek 🚗\n• лететь — uçmak ✈️\n• плыть — ýüzmek 🏊\n• прыгать — bökmek 🤸\n«Men» bilen: я иду, я бегу, я еду, я лечу, я плыву, я прыгаю.",
+          "ru": "Глаголы движения 🏃\n• идти 🚶\n• бежать 🏃\n• ехать 🚗\n• лететь ✈️\n• плыть 🏊\n• прыгать 🤸\nС местоимением «я»: я иду, я бегу, я еду, я лечу, я плыву, я прыгаю."
+        }},
+        {"type": "example", "text": {
+          "tk": "Kim nähili hereket edýär?\n• «Мальчик идёт в школу» — Oglan mekdebe ýöräp barýar 🚶.\n• «Папа едет на машине» — Kakam maşynda barýar 🚗.\n• «Птица летит» — Guş uçýar 🐦.\n• «Рыба плывёт» — Balyk ýüzýär 🐟.\nÝatda sakla: aýak bilen — идти, ulagda — ехать!",
+          "ru": "Кто как движется?\n• «Мальчик идёт в школу» 🚶.\n• «Папа едет на машине» 🚗.\n• «Птица летит» 🐦.\n• «Рыба плывёт» 🐟.\nЗапомни: пешком — идти, на транспорте — ехать!"
+        }},
+        {"type": "choice",
+          "q": {"tk": "Guş näme edýär? «Птица ___» 🐦", "ru": "Что делает птица? «Птица ___» 🐦"},
+          "options": ["летит", "плывёт", "едет"],
+          "answer": 0,
+          "hint": {"tk": "Guşuň ganaty bar.", "ru": "У птицы есть крылья."},
+          "explain": {"tk": "Guş uçýar — «летит».", "ru": "Птица летит — у неё крылья."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«Папа едет на машине» — kakam maşynda barýar.", "ru": "«Папа едет на машине» — папа передвигается на машине."},
+          "answer": true,
+          "hint": {"tk": "«ехать» — ulagda gitmek.", "ru": "«ехать» — на транспорте."},
+          "explain": {"tk": "Dogry. Maşynda gidýän bolsa, «ехать» diýýäris.", "ru": "Верно. На машине мы «едем»."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Mekdebe pyýada barýarsyň. Dogrusy haýsy?", "ru": "Ты идёшь в школу пешком. Как правильно?"},
+          "options": ["Я еду в школу", "Я лечу в школу", "Я иду в школу"],
+          "answer": 2,
+          "hint": {"tk": "Aýak bilen — ...", "ru": "Пешком — ..."},
+          "explain": {"tk": "Pyýada barýan bolsaň — «Я иду».", "ru": "Пешком — «я иду»."}
+        },
+        {"type": "input",
+          "q": {"tk": "Balyk näme edýär? «Рыба ___» (kiril bilen ýaz) 🐟", "ru": "Что делает рыба? «Рыба ___» (напиши) 🐟"},
+          "answer": "плывёт|плывет",
+          "hint": {"tk": "плыть → он/она пл_вёт", "ru": "плыть → она пл_вёт"},
+          "explain": {"tk": "Balyk ýüzýär — «плывёт».", "ru": "Рыба плывёт."}
+        },
+        {"type": "world", "text": {
+          "tk": "Ýamaýkaly ylgaýjy Useýn Bolt 2009-njy ýylda 100 metri 9,58 sekuntda ylgap geçdi 🏃. Bu rekordy häzire çenli hiç kim täzeläp bilmedi.",
+          "ru": "Бегун с Ямайки Усэйн Болт в 2009 году пробежал 100 метров за 9,58 секунды 🏃. Этот рекорд до сих пор никто не побил."
+        }}
+      ]
+    }
+  ]
+}

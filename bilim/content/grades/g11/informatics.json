@@ -1,0 +1,288 @@
+{
+  "grade": 11,
+  "subject": "informatics",
+  "lessons": [
+    {
+      "id": "informatics-11-algorithm-analysis",
+      "grade": 11,
+      "topic": 0,
+      "title": {"tk": "Algoritmleriň derňewi: Big O", "ru": "Анализ алгоритмов: нотация Big O"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Algoritmiň netijeliligi giriş maglumatlarynyň ölçegi n ulaldygyça amallaryň sanynyň nähili ösýändigi bilen bahalandyrylýar. Munuň üçin O-belgileme (Big O) ulanylýar — iň erbet ýagdaýdaky ösüş tizligi.\n• O(1) — hemişelik: massiwiň elementine indeks boýunça ýüzlenme.\n• O(log n) — logarifmik: ikili gözleg (binary search).\n• O(n) — çyzykly: sanawy bir gezek aýlanyp geçmek.\n• O(n log n) — birleşdirip tertipleşdirmek (merge sort).\n• O(n²) — kwadratik: köpürjik usuly (bubble sort), iki içki sikl.\n• O(2ⁿ) — eksponensial: ähli bölek köplükleri barlamak.\nKonstantalar we kiçi agzalar taşlanýar: 3n² + 5n + 7 → O(n²).\nWagtdan başga-da ýat boýunça çylşyrymlylyk (space complexity) hem bahalandyrylýar.",
+          "ru": "Эффективность алгоритма оценивают по тому, как растёт число операций при увеличении размера входных данных n. Для этого используют O-нотацию (Big O) — скорость роста в худшем случае.\n• O(1) — константная: доступ к элементу массива по индексу.\n• O(log n) — логарифмическая: двоичный поиск (binary search).\n• O(n) — линейная: один проход по списку.\n• O(n log n) — сортировка слиянием (merge sort).\n• O(n²) — квадратичная: сортировка пузырьком, два вложенных цикла.\n• O(2ⁿ) — экспоненциальная: перебор всех подмножеств.\nКонстанты и младшие члены отбрасываются: 3n² + 5n + 7 → O(n²).\nКроме времени оценивают и затраты памяти (space complexity)."
+        }},
+        {"type": "example", "text": {
+          "tk": "Kodyň çylşyrymlylygyny kesgitläliň:\nfor i in range(n):\n    for j in range(n):\n        print(i, j)\n1) Daşky sikl n gezek işleýär.\n2) Her gezek içki sikl n gezek işleýär.\n3) Jemi: n · n = n² amal → O(n²).\nDeňeşdiriň: n = 1000 bolanda O(n) ~ 1000 amal, O(n²) ~ 1 000 000 amal, O(log n) ~ 10 amal (log₂1000 ≈ 10).",
+          "ru": "Определим сложность кода:\nfor i in range(n):\n    for j in range(n):\n        print(i, j)\n1) Внешний цикл выполняется n раз.\n2) Каждый раз внутренний цикл выполняется n раз.\n3) Итого: n · n = n² операций → O(n²).\nСравните: при n = 1000 для O(n) ~ 1000 операций, для O(n²) ~ 1 000 000, для O(log n) ~ 10 (log₂1000 ≈ 10)."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Tertipleşdirilen massiwde ikili gözlegiň wagt çylşyrymlylygy näçe?", "ru": "Какова временная сложность двоичного поиска в отсортированном массиве?"},
+          "options": ["O(n)", "O(log n)", "O(n²)"],
+          "answer": 1,
+          "hint": {"tk": "Her ädimde gözleg aralygy iki esse kiçelýär.", "ru": "На каждом шаге область поиска уменьшается вдвое."},
+          "explain": {"tk": "Aralyk her gezek ikä bölünýär, şonuň üçin ädimleriň sany ≈ log₂n → O(log n).", "ru": "Диапазон каждый раз делится пополам, поэтому шагов ≈ log₂n → O(log n)."}
+        },
+        {"type": "input",
+          "q": {"tk": "1024 elementli aralygy ikä bölüp, 1 elemente çenli kiçeltmek üçin näçe ädim gerek?", "ru": "За сколько шагов деления пополам диапазон из 1024 элементов сокращается до 1 элемента?"},
+          "answer": "10",
+          "hint": {"tk": "2 näçenji derejede 1024 bolýar?", "ru": "В какую степень нужно возвести 2, чтобы получить 1024?"},
+          "explain": {"tk": "1024 = 2¹⁰, şonuň üçin 10 gezek ikä bölmek gerek: 1024 → 512 → … → 1.", "ru": "1024 = 2¹⁰, поэтому нужно 10 делений пополам: 1024 → 512 → … → 1."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "5n² + 100n algoritmiň çylşyrymlylygy O(n²).", "ru": "Сложность алгоритма с 5n² + 100n операциями — O(n²)."},
+          "answer": true,
+          "hint": {"tk": "Uly n-de haýsy agza agdyklyk edýär?", "ru": "Какой член доминирует при больших n?"},
+          "explain": {"tk": "Dogry: konstanta 5 we kiçi agza 100n taşlanýar, n² agdyklyk edýär.", "ru": "Верно: константа 5 и младший член 100n отбрасываются, доминирует n²."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy tertipleşdiriş algoritmi iň erbet ýagdaýda hem O(n log n)?", "ru": "Какая сортировка имеет сложность O(n log n) даже в худшем случае?"},
+          "options": ["merge sort", "bubble sort", "insertion sort"],
+          "answer": 0,
+          "hint": {"tk": "Bu algoritm «böl we eýeçilik et» ýörelgesine esaslanýar.", "ru": "Этот алгоритм основан на принципе «разделяй и властвуй»."},
+          "explain": {"tk": "Merge sort hemişe O(n log n). Bubble we insertion sort iň erbet ýagdaýda O(n²).", "ru": "Merge sort всегда O(n log n). Пузырьковая и вставками в худшем случае O(n²)."}
+        },
+        {"type": "world", "text": {
+          "tk": "Birleşdirip tertipleşdirmek (merge sort) algoritmini 1945-nji ýylda wenger-amerikan matematigi Jon fon Neýman oýlap tapdy. Ol häzirki kompýuterleriň arhitekturasynyň esaslandyryjylarynyň biri hökmünde hem tanalýar.",
+          "ru": "Сортировку слиянием (merge sort) придумал в 1945 году венгеро-американский математик Джон фон Нейман. Он также известен как один из создателей архитектуры современных компьютеров."
+        }}
+      ]
+    },
+    {
+      "id": "informatics-11-graphs",
+      "grade": 11,
+      "topic": 1,
+      "title": {"tk": "Graflar we olarda gözleg", "ru": "Графы и обход графов"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Graf G = (V, E) — depeler (V) we olary birleşdirýän gapyrgalar (E) köplügi.\n• Ugurlandyrylmadyk graf: dostluk (A–B).\n• Ugurlandyrylan graf: sosial ulgamda «yzarlamak» (A → B).\n• Agramly graf: gapyrgalaryň uzynlygy/bahasy bar (şäherleriň arasyndaky aralyk).\n• Depäniň derejesi — oňa birikýän gapyrgalaryň sany.\nKompýuterde görkezmek: goňşulyk matrisasy ýa-da goňşulyk sanawy.\nAýlanyp geçmek:\n• BFS (giňligine gözleg) — nobat (queue) bilen, gatlak-gatlak; agramsyz grafda iň gysga ýoly tapýar.\n• DFS (çuňlugyna gözleg) — stek ýa-da rekursiýa bilen, bir ugur boýunça ahyryna çenli.\nAgramly grafda iň gysga ýol — Deýkstranyň algoritmi.",
+          "ru": "Граф G = (V, E) — множество вершин (V) и соединяющих их рёбер (E).\n• Неориентированный граф: дружба (A–B).\n• Ориентированный граф: «подписка» в соцсети (A → B).\n• Взвешенный граф: у рёбер есть длина/стоимость (расстояния между городами).\n• Степень вершины — число инцидентных ей рёбер.\nПредставление в компьютере: матрица смежности или списки смежности.\nОбход:\n• BFS (поиск в ширину) — с очередью, слоями; находит кратчайший путь в невзвешенном графе.\n• DFS (поиск в глубину) — со стеком или рекурсией, идёт по одной ветви до конца.\nКратчайший путь во взвешенном графе — алгоритм Дейкстры."
+        }},
+        {"type": "example", "text": {
+          "tk": "Graf: A–B, A–C, B–D, C–D, D–E. A-dan BFS geçireliň:\n1) Nobat: [A]. A-ny alýarys, goňşulary B, C → nobat [B, C].\n2) B alýarys → täze goňşy D → [C, D].\n3) C alýarys → D eýýäm bar → [D].\n4) D alýarys → täze goňşy E → [E].\n5) E alýarys → nobat boş.\nTertip: A, B, C, D, E. A-dan E-ä iň gysga ýol 3 gapyrga: A–B–D–E.",
+          "ru": "Граф: A–B, A–C, B–D, C–D, D–E. Выполним BFS из A:\n1) Очередь: [A]. Берём A, соседи B, C → очередь [B, C].\n2) Берём B → новый сосед D → [C, D].\n3) Берём C → D уже в очереди → [D].\n4) Берём D → новый сосед E → [E].\n5) Берём E → очередь пуста.\nПорядок: A, B, C, D, E. Кратчайший путь из A в E — 3 ребра: A–B–D–E."
+        }},
+        {"type": "choice",
+          "q": {"tk": "BFS haýsy maglumat gurluşyny ulanýar?", "ru": "Какую структуру данных использует BFS?"},
+          "options": [{"tk": "Stek", "ru": "Стек"}, {"tk": "Agaç", "ru": "Дерево"}, {"tk": "Nobat", "ru": "Очередь"}],
+          "answer": 2,
+          "hint": {"tk": "Ilki giren ilki çykýar (FIFO).", "ru": "Первым пришёл — первым вышел (FIFO)."},
+          "explain": {"tk": "BFS nobat (FIFO) ulanýar, şonuň üçin depeler gatlak-gatlak açylýar. DFS stek ulanýar.", "ru": "BFS использует очередь (FIFO), поэтому вершины открываются слоями. DFS использует стек."}
+        },
+        {"type": "input",
+          "q": {"tk": "5 depeli doly ugurlandyrylmadyk grafda (her depe beýlekileriň hemmesi bilen birikdirilen) näçe gapyrga bar?", "ru": "Сколько рёбер в полном неориентированном графе с 5 вершинами (каждая соединена со всеми остальными)?"},
+          "answer": "10",
+          "hint": {"tk": "Formula: n(n − 1) / 2.", "ru": "Формула: n(n − 1) / 2."},
+          "explain": {"tk": "5 · 4 / 2 = 10. Her depäniň derejesi 4, derejeleriň jemi 20, her gapyrga iki gezek sanalýar.", "ru": "5 · 4 / 2 = 10. Степень каждой вершины 4, сумма степеней 20, каждое ребро учтено дважды."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Deýkstranyň algoritmi otrisatel agramly gapyrgalary bolan graflarda hem hemişe dogry işleýär.", "ru": "Алгоритм Дейкстры всегда работает правильно и на графах с рёбрами отрицательного веса."},
+          "answer": false,
+          "hint": {"tk": "Algoritm bir gezek tapylan aralygy soňra üýtgetmeýär.", "ru": "Алгоритм не пересматривает уже окончательно найденные расстояния."},
+          "explain": {"tk": "Nädogry: Deýkstra diňe otrisatel däl agramlar üçin. Otrisatel agramlar üçin Bellman–Ford algoritmi ulanylýar.", "ru": "Неверно: Дейкстра работает только с неотрицательными весами. Для отрицательных весов применяют алгоритм Беллмана–Форда."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Şäherleriň arasyndaky ýollaryň uzynlygy bilen kartany haýsy graf has gowy görkezýär?", "ru": "Какой граф лучше описывает карту дорог с длинами между городами?"},
+          "options": [{"tk": "Agramly graf", "ru": "Взвешенный граф"}, {"tk": "Agramsyz agaç", "ru": "Невзвешенное дерево"}, {"tk": "Boş graf", "ru": "Пустой граф"}],
+          "answer": 0,
+          "hint": {"tk": "Her ýoluň öz uzynlygy bar.", "ru": "У каждой дороги есть длина."},
+          "explain": {"tk": "Gapyrga = ýol, agram = uzynlyk. Şeýle grafda Deýkstra iň gysga marşruty tapýar.", "ru": "Ребро = дорога, вес = длина. На таком графе Дейкстра находит кратчайший маршрут."}
+        },
+        {"type": "world", "text": {
+          "tk": "Graflar teoriýasy 1736-njy ýylda Leonard Eýleriň Kýonigsbergiň ýedi köprüsi baradaky meselesinden başlandy: her köprüden diňe bir gezek geçip, şäheri aýlanyp bolmaýandygyny subut etdi. Häzir şuňa meňzeş algoritmler GPS-nawigatorlarda marşrut tapmak üçin ulanylýar.",
+          "ru": "Теория графов началась в 1736 году с задачи Леонарда Эйлера о семи мостах Кёнигсберга: он доказал, что нельзя обойти город, пройдя по каждому мосту ровно один раз. Сегодня алгоритмы на графах прокладывают маршруты в навигаторах."
+        }}
+      ]
+    },
+    {
+      "id": "informatics-11-javascript-basics",
+      "grade": 11,
+      "topic": 2,
+      "title": {"tk": "JavaScript: web sahypalaryň dili", "ru": "JavaScript: язык веб-страниц"},
+      "minutes": 11,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "JavaScript — brauzerde işleýän programmirleme dili. HTML sahypanyň gurluşyny, CSS daşky görnüşini, JavaScript bolsa özüni alyp barşyny (interaktiwligi) kesgitleýär.\nEsaslar:\n• Üýtgeýänler: let x = 5; const name = \"Aýna\"; (const — üýtgedip bolmaýar)\n• Görnüşler: number, string, boolean, null, undefined, object, array.\n• Funksiýa: function add(a, b) { return a + b; }  ýa-da  const add = (a, b) => a + b;\n• Şert: if (age >= 18) { … } else { … }\n• Sikl: for (let i = 0; i < 3; i++) { console.log(i); }\n• Massiw: const nums = [1, 2, 3]; nums.length → 3; nums.map(n => n * 2) → [2, 4, 6]\n• Deňeşdirme: === (görnüşi hem deňeşdirýär) we == (görnüşi özgerdýär). Hemişe === ulanyň.\n• DOM: document.querySelector(\"#btn\").addEventListener(\"click\", …) — düwmä basylanda hereket.\nJavaScript Node.js arkaly serwerde hem işleýär.",
+          "ru": "JavaScript — язык программирования, который работает в браузере. HTML задаёт структуру страницы, CSS — внешний вид, а JavaScript — поведение (интерактивность).\nОсновы:\n• Переменные: let x = 5; const name = \"Aýna\"; (const нельзя переприсвоить)\n• Типы: number, string, boolean, null, undefined, object, array.\n• Функция: function add(a, b) { return a + b; }  или  const add = (a, b) => a + b;\n• Условие: if (age >= 18) { … } else { … }\n• Цикл: for (let i = 0; i < 3; i++) { console.log(i); }\n• Массив: const nums = [1, 2, 3]; nums.length → 3; nums.map(n => n * 2) → [2, 4, 6]\n• Сравнение: === (сравнивает и тип) и == (приводит типы). Всегда используйте ===.\n• DOM: document.querySelector(\"#btn\").addEventListener(\"click\", …) — действие по нажатию кнопки.\nJavaScript работает и на сервере — через Node.js."
+        }},
+        {"type": "example", "text": {
+          "tk": "Massiwdäki jübüt sanlaryň jemini tapýan funksiýa:\nfunction sumEven(arr) {\n  let sum = 0;\n  for (const n of arr) {\n    if (n % 2 === 0) sum += n;\n  }\n  return sum;\n}\nsumEven([1, 2, 3, 4, 6]);\nÄdimler: 1 — täk, geçýäris; 2 → sum = 2; 3 — täk; 4 → sum = 6; 6 → sum = 12.\nNetije: 12.\nGysga görnüşi: arr.filter(n => n % 2 === 0).reduce((a, b) => a + b, 0).",
+          "ru": "Функция, которая находит сумму чётных чисел массива:\nfunction sumEven(arr) {\n  let sum = 0;\n  for (const n of arr) {\n    if (n % 2 === 0) sum += n;\n  }\n  return sum;\n}\nsumEven([1, 2, 3, 4, 6]);\nШаги: 1 — нечётное, пропускаем; 2 → sum = 2; 3 — нечётное; 4 → sum = 6; 6 → sum = 12.\nРезультат: 12.\nКороткая запись: arr.filter(n => n % 2 === 0).reduce((a, b) => a + b, 0)."
+        }},
+        {"type": "input",
+          "q": {"tk": "Bu kod näme çykarýar?\nconst a = [3, 5, 7];\nconsole.log(a.length + a[1]);", "ru": "Что выведет код?\nconst a = [3, 5, 7];\nconsole.log(a.length + a[1]);"},
+          "answer": "8",
+          "hint": {"tk": "Indeksler 0-dan başlanýar.", "ru": "Индексы начинаются с 0."},
+          "explain": {"tk": "a.length = 3, a[1] = 5 (ikinji element). 3 + 5 = 8.", "ru": "a.length = 3, a[1] = 5 (второй элемент). 3 + 5 = 8."}
+        },
+        {"type": "choice",
+          "q": {"tk": "5 === \"5\" aňlatmasynyň netijesi näme?", "ru": "Каков результат выражения 5 === \"5\"?"},
+          "options": ["true", "false", "undefined"],
+          "answer": 1,
+          "hint": {"tk": "=== görnüşleri hem deňeşdirýär: number we string.", "ru": "=== сравнивает и типы: number и string."},
+          "explain": {"tk": "Görnüşler dürli (san we setir), şonuň üçin === false berýär. 5 == \"5\" bolsa true bolar.", "ru": "Типы разные (число и строка), поэтому === даёт false. А 5 == \"5\" дало бы true."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "const bilen yglan edilen üýtgeýäne täze baha bermek (meselem const x = 1; x = 2;) ýalňyşlyga getirýär.", "ru": "Повторное присваивание переменной, объявленной через const (например, const x = 1; x = 2;), вызывает ошибку."},
+          "answer": true,
+          "hint": {"tk": "const sözi «constant» — hemişelik.", "ru": "const — от «constant», постоянная."},
+          "explain": {"tk": "Dogry: TypeError: Assignment to constant variable. Üýtgemeli baha üçin let ulanylýar.", "ru": "Верно: TypeError: Assignment to constant variable. Для изменяемых значений используют let."}
+        },
+        {"type": "choice",
+          "q": {"tk": "[1, 2, 3].map(x => x * x) näme gaýtarýar?", "ru": "Что вернёт [1, 2, 3].map(x => x * x)?"},
+          "options": ["[1, 4, 9]", "14", "[2, 4, 6]"],
+          "answer": 0,
+          "hint": {"tk": "map her elemente funksiýany ulanyp, täze massiw döredýär.", "ru": "map применяет функцию к каждому элементу и создаёт новый массив."},
+          "explain": {"tk": "Her element kwadrata göterilýär: 1, 4, 9 → [1, 4, 9].", "ru": "Каждый элемент возводится в квадрат: 1, 4, 9 → [1, 4, 9]."}
+        },
+        {"type": "world", "text": {
+          "tk": "JavaScript-i 1995-nji ýylda Netscape kompaniýasynda Brendan Aýk döretdi; ilkinji görnüşini ol takmynan 10 günde ýazdy. Ady Java-a meňzeýär, ýöne bu iki dil düýbünden başga. Häzir JavaScript dünýäde iň köp ulanylýan programmirleme dilleriniň biri.",
+          "ru": "JavaScript создал Брендан Эйк в компании Netscape в 1995 году; первую версию он написал примерно за 10 дней. Название похоже на Java, но это совершенно разные языки. Сегодня JavaScript — один из самых популярных языков программирования в мире."
+        }}
+      ]
+    },
+    {
+      "id": "informatics-11-cloud-computing",
+      "grade": 11,
+      "topic": 3,
+      "title": {"tk": "Bulut tehnologiýalary", "ru": "Облачные технологии"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Bulut hasaplamalary (cloud computing) — hasaplaýyş serişdelerini (serwerler, ýat, maglumat bazalary, programmalar) internet arkaly talap boýunça we köplenç ulanylyşa görä tölegli almak.\nHyzmat modelleri:\n• IaaS (Infrastructure as a Service) — wirtual maşynlar, toruň we diskleriň kärendesi.\n• PaaS (Platform as a Service) — programmany işletmek üçin taýýar platforma; serwerleri dolandyrmak gerek däl.\n• SaaS (Software as a Service) — brauzerde taýýar programma (e-poçta, onlaýn ofis).\nÝerleşdiriş görnüşleri: public (umumy), private (hususy), hybrid (garyşyk).\nArtykmaçlyklary: masştablamak, enjam satyn almagyň zerurlygy ýok, islendik ýerden elýeterlilik.\nKemçilikleri: internete baglylyk, maglumatlaryň howpsuzlygy we gizlinligi, üpjün edijä baglylyk (vendor lock-in).",
+          "ru": "Облачные вычисления (cloud computing) — получение вычислительных ресурсов (серверы, хранилище, базы данных, программы) через интернет по запросу и обычно с оплатой по факту использования.\nМодели услуг:\n• IaaS (Infrastructure as a Service) — аренда виртуальных машин, сетей и дисков.\n• PaaS (Platform as a Service) — готовая платформа для запуска приложений; серверами управлять не нужно.\n• SaaS (Software as a Service) — готовая программа в браузере (почта, онлайн-офис).\nМодели развёртывания: public (публичное), private (частное), hybrid (гибридное).\nПлюсы: масштабирование, не нужно покупать оборудование, доступ из любого места.\nМинусы: зависимость от интернета, безопасность и конфиденциальность данных, привязка к поставщику (vendor lock-in)."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mekdep onlaýn synag ulgamyny açmak isleýär. Saýlawlary deňeşdireliň:\n1) Öz serweri: enjam satyn almaly, otag, sowadyş, administrator gerek; ekzamen günlerinde ýük artanda serwer ýetmezçilik edip biler.\n2) IaaS: bulutda wirtual maşyn kärende alýarlar; ekzamen hepdesinde serwerleriň sanyny 2-den 10-a çenli artdyryp, soňra azaldýarlar — diňe ulanylan wagt üçin töleýärler.\n3) SaaS: taýýar onlaýn test hyzmatyny ulanýarlar — iň çalt, ýöne sazlamak mümkinçiligi az.\nNetije: saýlaw býujete, howpsuzlyk talaplaryna we tehniki toparyň bilimine bagly.",
+          "ru": "Школа хочет запустить систему онлайн-тестов. Сравним варианты:\n1) Свой сервер: нужно купить оборудование, помещение, охлаждение, администратора; в дни экзаменов при росте нагрузки сервер может не справиться.\n2) IaaS: арендуют виртуальную машину в облаке; на неделю экзаменов увеличивают число серверов с 2 до 10, затем уменьшают — платят только за использованное время.\n3) SaaS: используют готовый онлайн-сервис тестов — быстрее всего, но меньше возможностей настройки.\nВывод: выбор зависит от бюджета, требований безопасности и навыков команды."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Brauzerde açylýan e-poçta hyzmaty haýsy modele degişli?", "ru": "К какой модели относится почтовый сервис, открываемый в браузере?"},
+          "options": ["IaaS", "PaaS", "SaaS"],
+          "answer": 2,
+          "hint": {"tk": "Ulanyjy taýýar programmany ulanýar, serwer we platforma bilen işlemeýär.", "ru": "Пользователь работает с готовой программой, не касаясь серверов и платформы."},
+          "explain": {"tk": "Taýýar programma hyzmat hökmünde berilýär → SaaS.", "ru": "Готовая программа предоставляется как услуга → SaaS."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Bulut hyzmatlarynyň esasy artykmaçlyklarynyň biri — serişdeleri ýüke görä çalt artdyryp-azaltmak (masştablamak).", "ru": "Одно из главных преимуществ облака — возможность быстро увеличивать и уменьшать ресурсы под нагрузку (масштабирование)."},
+          "answer": true,
+          "hint": {"tk": "Mysaldaky ekzamen hepdesini ýatlaň.", "ru": "Вспомните неделю экзаменов из примера."},
+          "explain": {"tk": "Dogry: masştablamak bulut hasaplamalarynyň esasy häsiýetleriniň biri.", "ru": "Верно: масштабируемость — одно из ключевых свойств облачных вычислений."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Bir guramanyň öz maglumat merkezini we umumy bulut hyzmatlaryny bilelikde ulanmagy nähili atlandyrylýar?", "ru": "Как называется сочетание собственного дата-центра организации и публичного облака?"},
+          "options": [{"tk": "Gibrid bulut", "ru": "Гибридное облако"}, {"tk": "SaaS", "ru": "SaaS"}, {"tk": "Lokal tor", "ru": "Локальная сеть"}],
+          "answer": 0,
+          "hint": {"tk": "Iki görnüşiň garyndysy.", "ru": "Смесь двух моделей."},
+          "explain": {"tk": "Private + public = hybrid cloud (gibrid bulut).", "ru": "Private + public = hybrid cloud (гибридное облако)."}
+        },
+        {"type": "input",
+          "q": {"tk": "Wirtual maşyn sagatda 0,05 dollar durýar. 4 maşyn 10 sagat işlese, näçe dollar tölemeli?", "ru": "Виртуальная машина стоит 0,05 доллара в час. Сколько нужно заплатить, если 4 машины работали 10 часов?"},
+          "answer": "2|2.0|2,0",
+          "hint": {"tk": "Maşyn-sagatlaryň umumy sanyny tapyň.", "ru": "Найдите общее число машино-часов."},
+          "explain": {"tk": "4 · 10 = 40 maşyn-sagat; 40 · 0,05 = 2 dollar.", "ru": "4 · 10 = 40 машино-часов; 40 · 0,05 = 2 доллара."}
+        },
+        {"type": "world", "text": {
+          "tk": "Amazon kompaniýasy 2006-njy ýylda Amazon Web Services (AWS) çäginde S3 we EC2 hyzmatlaryny işe girizdi. Bu häzirki bulut hasaplamalarynyň giňden ýaýramagynyň başlangyjy hasaplanýar.",
+          "ru": "В 2006 году Amazon запустила сервисы S3 и EC2 в рамках Amazon Web Services (AWS). Это считается началом массового распространения современных облачных вычислений."
+        }}
+      ]
+    },
+    {
+      "id": "informatics-11-machine-learning",
+      "grade": 11,
+      "topic": 4,
+      "title": {"tk": "Maşyn öwrenmek", "ru": "Машинное обучение"},
+      "minutes": 11,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Maşyn öwrenmek (machine learning, ML) — kompýuteriň düzgünleri programmist ýazman, mysallardan (maglumatlardan) öwrenmegi.\nEsasy görnüşler:\n• Mugallymly öwrenmek (supervised): bellikli mysallar bar (surat → «pişik»). Meseleler: klassifikasiýa (synp saýlamak) we regressiýa (san çaklamak, meselem jaýyň bahasy).\n• Mugallymsyz öwrenmek (unsupervised): bellik ýok, model meňzeş zatlary toparlara bölýär (klasterleme).\n• Güýçlendirmek arkaly öwrenmek (reinforcement): agent baýrak/jeza alyp, synanyşyk arkaly öwrenýär (oýunlar, robotlar).\nIş tertibi: maglumat ýygnamak → train (öwretmek) we test toplumlaryna bölmek → modeli öwretmek → test toplumynda bahalandyrmak.\nOverfitting — model öwrediş mysallaryny ýatdan öwrenip, täze maglumatda erbet işleýär.\nNeýron torlary we çuň öwrenmek (deep learning) — ML-iň häzirki iň güýçli usullary.",
+          "ru": "Машинное обучение (machine learning, ML) — подход, при котором компьютер учится на примерах (данных), а не по правилам, написанным программистом.\nОсновные виды:\n• Обучение с учителем (supervised): есть размеченные примеры (фото → «кошка»). Задачи: классификация (выбор класса) и регрессия (предсказание числа, например цены дома).\n• Обучение без учителя (unsupervised): меток нет, модель сама группирует похожие объекты (кластеризация).\n• Обучение с подкреплением (reinforcement): агент учится методом проб, получая награды и штрафы (игры, роботы).\nПорядок работы: сбор данных → разделение на обучающую (train) и тестовую выборки → обучение модели → оценка на тестовой выборке.\nПереобучение (overfitting) — модель «зазубрила» обучающие примеры и плохо работает на новых данных.\nНейронные сети и глубокое обучение (deep learning) — самые мощные современные методы ML."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mesele: e-poçta hatynyň spamdygyny kesgitlemek.\n1) Maglumat: 10 000 hat, her biri «spam» ýa-da «spam däl» diýip bellenen → mugallymly öwrenmek, klassifikasiýa.\n2) Bölmek: 8000 hat öwretmek üçin, 2000 hat test üçin (80/20).\n3) Öwretmek: model «utuş», «mugt», köp «!» ýaly alamatlaryň spam bilen baglanyşygyny tapýar.\n4) Test: model 2000 hatdan 1900-üni dogry kesgitledi → takyklyk (accuracy) = 1900 / 2000 = 95%.\nModeli hiç haçan öwrediş maglumatynda däl-de, görmedik maglumatynda barlaýarys.",
+          "ru": "Задача: определить, является ли письмо спамом.\n1) Данные: 10 000 писем, каждое размечено «спам» или «не спам» → обучение с учителем, классификация.\n2) Разделение: 8000 писем для обучения, 2000 для теста (80/20).\n3) Обучение: модель находит связь признаков («выигрыш», «бесплатно», много «!») со спамом.\n4) Тест: модель правильно определила 1900 писем из 2000 → точность (accuracy) = 1900 / 2000 = 95%.\nМодель проверяют на данных, которых она не видела при обучении."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Jaýyň meýdany we ýerleşişi boýunça bahasyny çaklamak haýsy mesele?", "ru": "Предсказание цены дома по площади и району — это какая задача?"},
+          "options": [{"tk": "Klasterleme", "ru": "Кластеризация"}, {"tk": "Regressiýa", "ru": "Регрессия"}, {"tk": "Klassifikasiýa", "ru": "Классификация"}],
+          "answer": 1,
+          "hint": {"tk": "Netije — synp däl-de, üznüksiz san.", "ru": "Результат — не класс, а непрерывное число."},
+          "explain": {"tk": "San bahasyny çaklamak → regressiýa. Klassifikasiýa synp saýlaýar, klasterleme bellikleri ulanmaýar.", "ru": "Предсказание числа → регрессия. Классификация выбирает класс, кластеризация работает без меток."}
+        },
+        {"type": "input",
+          "q": {"tk": "Model 500 test suratyndan 450-sini dogry tanady. Takyklyk näçe göterim? (diňe san)", "ru": "Модель правильно распознала 450 из 500 тестовых изображений. Какова точность в процентах? (только число)"},
+          "answer": "90|90%",
+          "hint": {"tk": "Dogry jogaplary umumy sana bölüň we 100-e köpeldiň.", "ru": "Разделите правильные ответы на общее число и умножьте на 100."},
+          "explain": {"tk": "450 / 500 = 0,9 → 90%.", "ru": "450 / 500 = 0,9 → 90%."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Eger model öwrediş maglumatynda 100% takyklyk, test maglumatynda bolsa 60% görkezse, bu overfitting-iň alamaty.", "ru": "Если модель показывает 100% точности на обучающих данных и 60% на тестовых, это признак переобучения."},
+          "answer": true,
+          "hint": {"tk": "Model täze maglumatda näçe gowy işleýär?", "ru": "Насколько хорошо модель работает на новых данных?"},
+          "explain": {"tk": "Dogry: model mysallary ýatdan öwrenipdir, ýöne umumylaşdyryp bilmeýär — bu overfitting.", "ru": "Верно: модель запомнила примеры, но не умеет обобщать — это переобучение."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Şahmat ýa-da go oýnamagy öz-özi bilen oýnap öwrenýän ulgam haýsy görnüşi ulanýar?", "ru": "Какой вид обучения использует система, которая учится играть в шахматы или го, играя сама с собой?"},
+          "options": [{"tk": "Güýçlendirmek arkaly öwrenmek", "ru": "Обучение с подкреплением"}, {"tk": "Mugallymsyz öwrenmek", "ru": "Обучение без учителя"}, {"tk": "Regressiýa", "ru": "Регрессия"}],
+          "answer": 0,
+          "hint": {"tk": "Ýeňiş — baýrak, utulyş — jeza.", "ru": "Победа — награда, поражение — штраф."},
+          "explain": {"tk": "Agent hereketleriň netijesine görä baýrak alýar we strategiýasyny gowulandyrýar → reinforcement learning.", "ru": "Агент получает награду за результат действий и улучшает стратегию → обучение с подкреплением."}
+        },
+        {"type": "world", "text": {
+          "tk": "2016-njy ýylda DeepMind kompaniýasynyň AlphaGo programmasy go oýny boýunça dünýäniň iň güýçli oýunçylarynyň biri Li Sedoly 4:1 hasabynda ýeňdi. Go oýnunda mümkin bolan ýagdaýlaryň sany şeýle köp welin, olaryň hemmesini barlap bolmaýar.",
+          "ru": "В 2016 году программа AlphaGo компании DeepMind победила одного из сильнейших игроков в го Ли Седоля со счётом 4:1. В го так много возможных позиций, что перебрать их все невозможно."
+        }}
+      ]
+    },
+    {
+      "id": "informatics-11-data-ethics",
+      "grade": 11,
+      "topic": 5,
+      "title": {"tk": "Maglumat etikasy", "ru": "Этика данных"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Maglumat etikasy — maglumatlary ýygnamakda, saklamakda we ulanmakda adalatlylyk we jogapkärçilik ýörelgeleri.\nEsasy ýörelgeler:\n• Razylyk: adam maglumatynyň näme üçin ýygnalýandygyny bilmeli we razy bolmaly.\n• Minimallyk: diňe hakykatdan gerek maglumatlary ýygnamak.\n• Gizlinlik we howpsuzlyk: şifrlemek, elýeterliligi çäklendirmek.\n• Anonimleşdirmek: ady we şahsyýeti açýan maglumatlary aýyrmak.\n• Adalatlylyk: algoritm adamlary jynsy, milleti ýa-da ýaşy boýunça kemsitmeli däl. Öwrediş maglumaty deňsiz bolsa, model hem deňsiz (bias) bolýar.\n• Açyklyk: awtomatik kararyň nähili kabul edilendigini düşündirip bolmaly.\nMysal kanun: Ýewropa Bileleşiginiň GDPR düzgünnamasy (2018-nji ýyldan güýje girdi).",
+          "ru": "Этика данных — принципы честного и ответственного сбора, хранения и использования данных.\nОсновные принципы:\n• Согласие: человек должен знать, зачем собираются его данные, и дать согласие.\n• Минимизация: собирать только действительно нужные данные.\n• Конфиденциальность и безопасность: шифрование, ограничение доступа.\n• Анонимизация: удаление данных, раскрывающих личность.\n• Справедливость: алгоритм не должен дискриминировать по полу, национальности или возрасту. Если обучающие данные несбалансированы, модель тоже будет предвзятой (bias).\n• Прозрачность: должно быть можно объяснить, как принято автоматическое решение.\nПример закона: Общий регламент ЕС по защите данных GDPR (применяется с 2018 года)."
+        }},
+        {"type": "example", "text": {
+          "tk": "Ýagdaý: kompaniýa işe kabul etmek üçin rezýumeleri saýlaýan model döredýär we ony soňky 10 ýylyň işe alnanlarynyň maglumatlarynda öwredýär.\n1) Mesele: geçmişde işe alnanlaryň köpüsi bir topardan (meselem, diňe erkekler) bolan bolsa, model şol nusgany gaýtalap, beýlekileri pes bahalandyryp biler.\n2) Sebäp: maglumatdaky bias modele geçýär.\n3) Çözgütler: maglumaty deňagramlaşdyrmak, jyns ýaly duýgur alamatlary aýyrmak, netijeleri dürli toparlar boýunça barlamak, soňky karary adama galdyrmak.",
+          "ru": "Ситуация: компания создаёт модель для отбора резюме и обучает её на данных о тех, кого нанимали последние 10 лет.\n1) Проблема: если раньше нанимали в основном людей из одной группы (например, только мужчин), модель может повторить этот шаблон и занижать оценки остальным.\n2) Причина: предвзятость данных переходит в модель.\n3) Решения: сбалансировать данные, убрать чувствительные признаки вроде пола, проверять результаты по разным группам, оставить окончательное решение человеку."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Haýsy hereket maglumat minimallygy ýörelgesine laýyk?", "ru": "Какое действие соответствует принципу минимизации данных?"},
+          "options": [{"tk": "Ähli ulanyjylaryň kontaktlaryny «belki gerek bolar» diýip ýygnamak", "ru": "Собирать контакты всех пользователей «на всякий случай»"}, {"tk": "Hasaplaýjy programma üçin geolokasiýa soramak", "ru": "Запрашивать геолокацию для приложения-калькулятора"}, {"tk": "Habarnama ýazylmak üçin diňe e-poçta soramak", "ru": "Для подписки на рассылку запрашивать только e-mail"}],
+          "answer": 2,
+          "hint": {"tk": "Hyzmat üçin hakykatdan gerek bolan maglumat haýsy?", "ru": "Какие данные действительно нужны для услуги?"},
+          "explain": {"tk": "Habarnama ugratmak üçin diňe e-poçta gerek. Beýleki iki ýagdaýda zerur bolmadyk maglumat ýygnalýar.", "ru": "Для рассылки нужен только e-mail. В двух других случаях собираются лишние данные."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Eger öwrediş maglumatlary deňsiz bolsa, maşyn öwrenmek modeli hem deňsiz netijeler berip biler.", "ru": "Если обучающие данные несбалансированы, модель машинного обучения тоже может давать предвзятые результаты."},
+          "answer": true,
+          "hint": {"tk": "Model mysallardan öwrenýär.", "ru": "Модель учится на примерах."},
+          "explain": {"tk": "Dogry: model maglumatdaky nusgalary, şol sanda adalatsyz nusgalary hem gaýtalaýar.", "ru": "Верно: модель воспроизводит закономерности данных, в том числе несправедливые."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Maglumatlardan ady, telefon belgisini we salgyny aýyrmak nähili atlandyrylýar?", "ru": "Как называется удаление из данных имени, телефона и адреса?"},
+          "options": [{"tk": "Arhiwlemek", "ru": "Архивация"}, {"tk": "Anonimleşdirmek", "ru": "Анонимизация"}, {"tk": "Şifrlemek", "ru": "Шифрование"}],
+          "answer": 1,
+          "hint": {"tk": "Netijede maglumatyň kime degişlidigi belli bolmaýar.", "ru": "В результате нельзя понять, кому принадлежат данные."},
+          "explain": {"tk": "Şahsyýeti açýan maglumatlary aýyrmak — anonimleşdirmek. Şifrlemekde maglumat açar bilen dikeldilip bilner.", "ru": "Удаление идентифицирующих данных — анонимизация. Зашифрованные данные можно восстановить ключом."}
+        },
+        {"type": "input",
+          "q": {"tk": "Ýewropa Bileleşiginiň GDPR düzgünnamasy haýsy ýylda güýje girdi?", "ru": "В каком году начал применяться регламент ЕС GDPR?"},
+          "answer": "2018",
+          "hint": {"tk": "Teoriýa bölümine serediň.", "ru": "Посмотрите в теорию урока."},
+          "explain": {"tk": "GDPR 2016-njy ýylda kabul edildi we 2018-nji ýylyň 25-nji maýyndan güýje girdi.", "ru": "GDPR принят в 2016 году и применяется с 25 мая 2018 года."}
+        },
+        {"type": "world", "text": {
+          "tk": "2006-njy ýylda Netflix kompaniýasy bäsleşik üçin «anonim» film bahalandyrmalaryny çap etdi. Uniwersitet gözlegçileri bu maglumatlary açyk saýtlardaky bahalar bilen deňeşdirip, käbir ulanyjylary tanap bolýandygyny görkezdiler. Bu waka anonimleşdirmegiň kyn işdigini subut etdi.",
+          "ru": "В 2006 году Netflix опубликовала для конкурса «анонимные» оценки фильмов. Исследователи из университета показали, что, сопоставив их с оценками на открытых сайтах, можно узнать некоторых пользователей. Этот случай показал, как трудно по-настоящему анонимизировать данные."
+        }}
+      ]
+    }
+  ]
+}

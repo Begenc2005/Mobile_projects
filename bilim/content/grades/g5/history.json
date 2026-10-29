@@ -1,0 +1,290 @@
+{
+  "grade": 5,
+  "subject": "history",
+  "lessons": [
+    {
+      "id": "history-5-sources",
+      "grade": 5,
+      "topic": 0,
+      "title": {"tk": "Taryh we taryhy çeşmeler", "ru": "История и исторические источники"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Taryh — adamlaryň geçmişde nähili ýaşandygyny öwrenýän ylym.\n\nTaryhçylar geçmiş hakda çeşmelerden bilýärler:\n• Maddy çeşmeler — gurallar, gap-gaçlar, şaý-sepler, binalaryň galyndylary.\n• Ýazuw çeşmeleri — ýazgylar, kitaplar, hatlar, kanunlar.\n• Dilden-dile geçen çeşmeler — rowaýatlar, eposlar, aýdymlar.\n\nArheologlar ýeri gazyp, gadymy zatlary tapýarlar.\nWagt hasaby: biziň eramyzdan öň (b.e.ö.) we biziň eramyz (b.e.). B.e.ö. ýyllar yza tarap sanalýar: 500 ýyl 300 ýyldan has irki.",
+          "ru": "История — наука, которая изучает, как жили люди в прошлом.\n\nО прошлом историки узнают из источников:\n• Вещественные — орудия, посуда, украшения, остатки построек.\n• Письменные — надписи, книги, письма, законы.\n• Устные — легенды, эпосы, песни.\n\nАрхеологи раскапывают землю и находят древние предметы.\nЛетоисчисление: до нашей эры (до н.э.) и наша эра (н.э.). Годы до н.э. считаются назад: 500 год до н.э. раньше, чем 300 год до н.э."}},
+        {"type": "example", "text": {
+          "tk": "Mesele: Gadymy şäher b.e.ö. 300-nji ýylda gurlupdyr. Ol b.e. 200-nji ýylda taşlanypdyr. Şäher näçe ýyl ýaşapdyr?\n\n1. B.e.ö. 300-den eramyň başyna çenli — 300 ýyl.\n2. Eramyň başyndan b.e. 200-e çenli — 200 ýyl.\n3. 300 + 200 = 500 ýyl.\n\n(Takyk hasaplamada 0-njy ýylyň ýokdugyny göz öňünde tutýarlar, ýöne mekdepde ýönekeý goşmak ýeterlik.)",
+          "ru": "Задача: древний город построили в 300 году до н.э., а покинули в 200 году н.э. Сколько лет он существовал?\n\n1. От 300 г. до н.э. до начала эры — 300 лет.\n2. От начала эры до 200 г. н.э. — 200 лет.\n3. 300 + 200 = 500 лет.\n\n(Историки учитывают, что нулевого года нет, но в школе достаточно простого сложения.)"}},
+        {"type": "choice",
+          "q": {"tk": "Haýsysy ýazuw çeşmesi?", "ru": "Что из этого — письменный источник?"},
+          "options": [
+            {"tk": "toýun küýze", "ru": "глиняный кувшин"},
+            {"tk": "gadymy kanunlar ýazylan daş", "ru": "камень с записанными законами"},
+            {"tk": "daş palta", "ru": "каменный топор"}
+          ],
+          "answer": 1,
+          "hint": {"tk": "Onda harplar ýa-da belgiler bolmaly.", "ru": "На нём должны быть буквы или знаки."},
+          "explain": {"tk": "Ýazgyly daş — ýazuw çeşmesi. Küýze we palta — maddy çeşmeler.", "ru": "Камень с надписью — письменный источник. Кувшин и топор — вещественные."}},
+        {"type": "truefalse",
+          "q": {"tk": "B.e.ö. 1000-nji ýyl b.e.ö. 500-nji ýyldan irki.", "ru": "1000 год до н.э. был раньше, чем 500 год до н.э."},
+          "answer": true,
+          "hint": {"tk": "B.e.ö. ýyllar yza sanalýar.", "ru": "Годы до н.э. считаются назад."},
+          "explain": {"tk": "Eramyzdan öň san näçe uly bolsa, şonça irki: 1000 > 500, diýmek has irki.", "ru": "До н.э.: чем больше число, тем раньше: 1000 > 500, значит раньше."}},
+        {"type": "input",
+          "q": {"tk": "Bir asyr näçe ýyl?", "ru": "Сколько лет в одном веке?"},
+          "answer": "100",
+          "hint": {"tk": "«Asyr» — «ýüz ýyllyk».", "ru": "Век — «столетие»."},
+          "explain": {"tk": "1 asyr = 100 ýyl. Mysal: XXI asyr 2001–2100 ýyllar.", "ru": "1 век = 100 лет. Например, XXI век — 2001–2100 годы."}},
+        {"type": "choice",
+          "q": {"tk": "Ýeri gazyp, gadymy zatlary tapýan alym kim?", "ru": "Как называют учёного, который раскапывает землю и находит древние предметы?"},
+          "options": [
+            {"tk": "geolog", "ru": "геолог"},
+            {"tk": "astronom", "ru": "астроном"},
+            {"tk": "arheolog", "ru": "археолог"}
+          ],
+          "answer": 2,
+          "hint": {"tk": "Söz grekçe «gadymy» sözünden gelýär.", "ru": "Слово происходит от греческого «древний»."},
+          "explain": {"tk": "Arheolog — gadymy zatlary we ýadygärlikleri gazuw-agtaryş bilen öwrenýär.", "ru": "Археолог изучает древние предметы и памятники с помощью раскопок."}},
+        {"type": "world", "text": {
+          "tk": "Türkmenistanda Gonur depe — Mary welaýatynda, Murgap derýasynyň köne hanasynda tapylan b.e.ö. II müňýyllyga degişli gadymy şäher. Ony arheolog Wiktor Sarianidi uzak ýyllaryň dowamynda gazyp öwrenipdir. Tapyndylar — köşkler, ybadathanalar, gap-gaçlar — gadymy Margiana medeniýeti hakda gürrüň berýär.",
+          "ru": "В Туркменистане есть Гонур-депе — древний город II тысячелетия до н.э. в дельте реки Мургаб. Много лет его раскапывал археолог Виктор Сарианиди. Находки — дворцы, храмы, посуда — рассказывают о древней цивилизации Маргианы."}}
+      ]
+    },
+    {
+      "id": "history-5-stone-age",
+      "grade": 5,
+      "topic": 1,
+      "title": {"tk": "Daş asyry", "ru": "Каменный век"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Daş asyry — adamlaryň gurallary esasan daşdan ýasan döwri. Ol adamzat taryhynyň iň uzyn döwri.\n\n• Paleolit (gadymy daş asyry) — adamlar aw awlaýardylar, ýygnaýardylar, göçüp ýörýärdiler. Ot ulanmagy öwrendiler. Gowaklaryň diwarlarynda suratlar çekdiler.\n• Mezolit (orta daş asyry) — ok-ýaý, gaýyklar peýda boldy.\n• Neolit (täze daş asyry) — adamlar ekin ekip, mal saklap başladylar. Oturymly obalar, toýun gaplar, dokma peýda boldy. Bu üýtgeşmä «neolit rewolýusiýasy» diýilýär.",
+          "ru": "Каменный век — время, когда люди делали орудия в основном из камня. Это самый долгий период истории человечества.\n\n• Палеолит (древний каменный век) — люди охотились, собирали, кочевали. Научились пользоваться огнём. Рисовали на стенах пещер.\n• Мезолит (средний каменный век) — появились лук и стрелы, лодки.\n• Неолит (новый каменный век) — люди начали выращивать растения и разводить скот. Появились оседлые посёлки, глиняная посуда, ткачество. Этот переход называют «неолитической революцией»."}},
+        {"type": "example", "text": {
+          "tk": "Gadymy adamyň durmuşy nähili üýtgedi?\n\n• Paleolit: aw → et, deri; ýygnamak → miweler, köküler. Iýmit gutarsa — göçmeli.\n• Neolit: bugdaý we arpa ekmek → hasyl; geçi, goýun saklamak → süýt, ýüň. Iýmit hemişe ýanyňda — bir ýerde ýaşap bolýar.\n\nTürkmenistanda Jeýtun — Merkezi Aziýadaky iň irki ekerançylyk obalarynyň biri (b.e.ö. VI müňýyllyk).",
+          "ru": "Как изменилась жизнь древнего человека?\n\n• Палеолит: охота → мясо, шкуры; собирательство → плоды, коренья. Кончилась еда — нужно уходить.\n• Неолит: посев пшеницы и ячменя → урожай; разведение коз и овец → молоко, шерсть. Еда рядом — можно жить на одном месте.\n\nВ Туркменистане Джейтун — одно из самых ранних земледельческих поселений Средней Азии (VI тысячелетие до н.э.)."}},
+        {"type": "choice",
+          "q": {"tk": "Adamlar ekerançylyk bilen haýsy döwürde meşgullanyp başladylar?", "ru": "В какой период люди начали заниматься земледелием?"},
+          "options": [
+            {"tk": "paleolit", "ru": "палеолит"},
+            {"tk": "neolit", "ru": "неолит"},
+            {"tk": "mezolit", "ru": "мезолит"}
+          ],
+          "answer": 1,
+          "hint": {"tk": "«Täze daş asyry».", "ru": "«Новый каменный век»."},
+          "explain": {"tk": "Neolitde adamlar ekin ekip, mal saklap başladylar — neolit rewolýusiýasy.", "ru": "В неолите люди начали выращивать растения и разводить скот — неолитическая революция."}},
+        {"type": "truefalse",
+          "q": {"tk": "Paleolitde adamlar uly şäherlerde ýaşaýardylar.", "ru": "В палеолите люди жили в больших городах."},
+          "answer": false,
+          "hint": {"tk": "Olar aw bilen ýaşap, köp göçýärdiler.", "ru": "Они жили охотой и часто кочевали."},
+          "explain": {"tk": "Paleolitde şäher ýokdy: adamlar kiçi toparlarda göçüp ýaşaýardylar. Ilkinji şäherler has giç peýda boldy.", "ru": "В палеолите городов не было: люди кочевали небольшими группами. Города появились гораздо позже."}},
+        {"type": "choice",
+          "q": {"tk": "Daş asyrynda adamlar gurallary köplenç haýsy daşdan ýasapdyrlar?", "ru": "Из какого камня в каменном веке чаще всего делали орудия?"},
+          "options": [
+            {"tk": "çakmak daşy", "ru": "кремень"},
+            {"tk": "mermer", "ru": "мрамор"},
+            {"tk": "altyn", "ru": "золото"}
+          ],
+          "answer": 0,
+          "hint": {"tk": "Bu daş urlanda ýiti bölekleri döwülýär we uçgun berýär.", "ru": "Этот камень раскалывается на острые куски и даёт искры."},
+          "explain": {"tk": "Çakmak daşy berk we ýiti gyrly bölekler berýär, ondan pyçak, ok ujy ýasaýardylar.", "ru": "Кремень твёрдый и раскалывается с острыми краями — из него делали ножи и наконечники."}},
+        {"type": "input",
+          "q": {"tk": "Daş asyrynyň näçe esasy döwri bar (paleolit, mezolit, ...)?", "ru": "Сколько основных периодов в каменном веке (палеолит, мезолит, ...)?"},
+          "answer": "3",
+          "hint": {"tk": "Gadymy, orta we täze.", "ru": "Древний, средний и новый."},
+          "explain": {"tk": "Üç döwür: paleolit, mezolit, neolit.", "ru": "Три периода: палеолит, мезолит, неолит."}},
+        {"type": "world", "text": {
+          "tk": "1940-njy ýylda Fransiýada dört ýetginjek tötänleýin Lasko gowagyny tapdylar. Onuň diwarlarynda bizon, at, bugy ýaly haýwanlaryň ýüzlerçe suraty bar. Olar takmynan 17 müň ýyl ozal çekilipdir. Häzir Lasko ÝUNESKO-nyň Bütindünýä mirasynyň sanawynda.",
+          "ru": "В 1940 году во Франции четверо подростков случайно нашли пещеру Ласко. На её стенах — сотни изображений зубров, лошадей, оленей, созданных около 17 тысяч лет назад. Сейчас Ласко входит в список Всемирного наследия ЮНЕСКО."}}
+      ]
+    },
+    {
+      "id": "history-5-ancient-egypt",
+      "grade": 5,
+      "topic": 2,
+      "title": {"tk": "Gadymy Müsür", "ru": "Древний Египет"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Gadymy Müsür Nil derýasynyň boýunda döräpdir. Her ýyl Nil daşyp, ekin meýdanlaryna hasylly ylgal getiripdir. Şonuň üçin grek taryhçysy Gerodot Müsüri «Niliň sowgady» diýip atlandyrypdyr.\n\n• B.e.ö. 3100-nji ýyllar töweregi Ýokarky we Aşaky Müsür bir döwlete birleşdi.\n• Döwleti faraon dolandyrýardy — ol hudaýlaryň ýerdäki wekili hasaplanýardy.\n• Ýazuw — iýeroglifler; papirus — gamyşdan ýasalan kagyz.\n• Piramidalar — faraonlaryň gümmezleri.\n• Müsürliler ölenleri mumiýa edip saklapdyrlar.",
+          "ru": "Древний Египет возник на берегах реки Нил. Каждый год Нил разливался и приносил на поля плодородный ил. Поэтому греческий историк Геродот назвал Египет «даром Нила».\n\n• Около 3100 г. до н.э. Верхний и Нижний Египет объединились в одно государство.\n• Правил фараон — его считали представителем богов на земле.\n• Письменность — иероглифы; папирус — «бумага» из тростника.\n• Пирамиды — гробницы фараонов.\n• Египтяне мумифицировали умерших."}},
+        {"type": "example", "text": {
+          "tk": "Giza piramidalary:\n\n• Iň ulusy — faraon Hufunyň (Heopsyň) piramidasy, b.e.ö. 2560-njy ýyllar töweregi gurlupdyr.\n• Ilkibaşda beýikligi takmynan 146 metr bolupdyr.\n• Ol 2 milliondan gowrak daş blokdan durýar.\n\nHasaplalyň: b.e.ö. 2560-dan b.e. 2026-a çenli: 2560 + 2026 = 4586 ýyl töweregi geçipdir.",
+          "ru": "Пирамиды Гизы:\n\n• Самая большая — пирамида фараона Хуфу (Хеопса), построена около 2560 г. до н.э.\n• Изначальная высота — около 146 метров.\n• Она сложена из более чем 2 миллионов каменных блоков.\n\nПосчитаем: от 2560 г. до н.э. до 2026 г. н.э.: 2560 + 2026 ≈ 4586 лет."}},
+        {"type": "choice",
+          "q": {"tk": "Gadymy Müsür haýsy derýanyň boýunda ýerleşipdir?", "ru": "На какой реке находился Древний Египет?"},
+          "options": ["Nil / Нил", "Amyderýa / Амударья", "Tigr / Тигр"],
+          "answer": 0,
+          "hint": {"tk": "«... derýasynyň sowgady».", "ru": "«Дар ...»."},
+          "explain": {"tk": "Müsür Nil derýasynyň jülgesinde ýerleşipdir.", "ru": "Египет располагался в долине реки Нил."}},
+        {"type": "truefalse",
+          "q": {"tk": "Piramidalar faraonlaryň gümmezleri bolupdyr.", "ru": "Пирамиды были гробницами фараонов."},
+          "answer": true,
+          "hint": {"tk": "Içinde faraonyň mumiýasy goýlupdyr.", "ru": "Внутри помещали мумию фараона."},
+          "explain": {"tk": "Piramidalar faraonlary jaýlamak üçin gurlupdyr.", "ru": "Пирамиды строили для погребения фараонов."}},
+        {"type": "choice",
+          "q": {"tk": "Müsür iýerogliflerini ilkinji bolup kim okapdyr?", "ru": "Кто первым прочитал египетские иероглифы?"},
+          "options": [
+            {"tk": "Gerodot", "ru": "Геродот"},
+            {"tk": "Isaak Nýuton", "ru": "Исаак Ньютон"},
+            {"tk": "Žan-Fransua Şampolýon", "ru": "Жан-Франсуа Шампольон"}
+          ],
+          "answer": 2,
+          "hint": {"tk": "Fransuz alymy, XIX asyr.", "ru": "Французский учёный, XIX век."},
+          "explain": {"tk": "1822-nji ýylda Şampolýon Rozetta daşynyň kömegi bilen iýeroglifleri okady.", "ru": "В 1822 году Шампольон расшифровал иероглифы с помощью Розеттского камня."}},
+        {"type": "input",
+          "q": {"tk": "Müsüriň iki bölegi (Ýokarky we Aşaky) b.e.ö. haýsy ýyl töweregi birleşipdir? (san)", "ru": "Около какого года до н.э. объединились Верхний и Нижний Египет? (число)"},
+          "answer": "3100",
+          "hint": {"tk": "Takmynan 3000-den biraz irki.", "ru": "Чуть раньше 3000 года до н.э."},
+          "explain": {"tk": "B.e.ö. 3100-nji ýyllar töweregi Müsür bitewi döwlete öwrüldi.", "ru": "Около 3100 г. до н.э. Египет стал единым государством."}},
+        {"type": "world", "text": {
+          "tk": "1922-nji ýylda iňlis arheology Howard Karter faraon Tutanhamonyň gümmezini tapdy. Ol diýen ýaly talanmadyk ýagdaýda saklanypdyr: içinde müňlerçe zat, şol sanda meşhur altyn maska bar eken. Bu tapyndy arheologiýanyň iň meşhur açyşlarynyň biri boldy.",
+          "ru": "В 1922 году английский археолог Говард Картер нашёл гробницу фараона Тутанхамона. Она сохранилась почти неразграбленной: внутри были тысячи предметов, в том числе знаменитая золотая маска. Это одно из самых известных открытий в археологии."}}
+      ]
+    },
+    {
+      "id": "history-5-mesopotamia",
+      "grade": 5,
+      "topic": 3,
+      "title": {"tk": "Mesopotamiýa — derýalaryň arasy", "ru": "Месопотамия — Междуречье"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Mesopotamiýa grekçe «derýalaryň arasy» diýmek. Ol Tigr we Ýewfrat derýalarynyň arasynda (häzirki Yrak) ýerleşýär.\n\n• Şumerler bu ýerde dünýäde iň irki şäherleriň käbirini gurupdyrlar: Ur, Uruk.\n• B.e.ö. 3200-nji ýyllar töweregi şumerler ýazuwy oýlap tapypdyrlar — mismar ýazuwy (klinopis). Belgileri ýumşak toýun tagtajyklara gamyş bilen basypdyrlar.\n• Olar teker, suwaryş kanallary, 60-lyk san ulgamyny ulanypdyrlar.\n• Wawilon şasy Hammurapi (b.e.ö. XVIII asyr) iň gadymy kanunlar ýygyndylarynyň birini düzüpdir.",
+          "ru": "Месопотамия по-гречески — «Междуречье». Она находится между реками Тигр и Евфрат (современный Ирак).\n\n• Шумеры построили здесь одни из первых городов мира: Ур, Урук.\n• Около 3200 г. до н.э. шумеры изобрели письменность — клинопись. Знаки выдавливали тростниковой палочкой на мягких глиняных табличках.\n• Они использовали колесо, оросительные каналы, шестидесятеричную систему счёта.\n• Вавилонский царь Хаммурапи (XVIII в. до н.э.) создал один из древнейших сводов законов."}},
+        {"type": "example", "text": {
+          "tk": "Şumerleriň 60-lyk hasaby biziň durmuşymyzda häzir hem bar:\n\n• 1 sagat = 60 minut\n• 1 minut = 60 sekunt\n• Tegelek = 360 gradus (6 × 60)\n\nDiýmek, sagada seredeniňizde, 5000 ýyl mundan öňki şumer alymlarynyň oýlap tapyşyny ulanýarsyňyz.",
+          "ru": "Шестидесятеричный счёт шумеров живёт в нашей жизни до сих пор:\n\n• 1 час = 60 минут\n• 1 минута = 60 секунд\n• Круг = 360 градусов (6 × 60)\n\nГлядя на часы, вы пользуетесь изобретением, которому около 5000 лет."}},
+        {"type": "choice",
+          "q": {"tk": "Mesopotamiýa haýsy derýalaryň arasynda ýerleşýär?", "ru": "Между какими реками находится Месопотамия?"},
+          "options": [
+            {"tk": "Nil we Kongo", "ru": "Нил и Конго"},
+            {"tk": "Amyderýa we Syrderýa", "ru": "Амударья и Сырдарья"},
+            {"tk": "Tigr we Ýewfrat", "ru": "Тигр и Евфрат"}
+          ],
+          "answer": 2,
+          "hint": {"tk": "Häzirki Yragyň iki uly derýasy.", "ru": "Две большие реки современного Ирака."},
+          "explain": {"tk": "Mesopotamiýa — Tigr bilen Ýewfratyň arasy.", "ru": "Месопотамия — земля между Тигром и Евфратом."}},
+        {"type": "truefalse",
+          "q": {"tk": "Şumerler kagyz ýüzüne syýa bilen ýazypdyrlar.", "ru": "Шумеры писали чернилами на бумаге."},
+          "answer": false,
+          "hint": {"tk": "Olarda derýa toýny köpdi.", "ru": "У них было много речной глины."},
+          "explain": {"tk": "Şumerler mismar belgileri toýun tagtajyklara gamyş bilen basypdyrlar.", "ru": "Шумеры выдавливали клинописные знаки тростинкой на глиняных табличках."}},
+        {"type": "input",
+          "q": {"tk": "1 sagatda näçe sekunt bar?", "ru": "Сколько секунд в 1 часе?"},
+          "answer": "3600",
+          "hint": {"tk": "60 minut × 60 sekunt.", "ru": "60 минут × 60 секунд."},
+          "explain": {"tk": "60 × 60 = 3600 sekunt — şumer 60-lyk hasabynyň mirasy.", "ru": "60 × 60 = 3600 секунд — наследие шумерского счёта."}},
+        {"type": "choice",
+          "q": {"tk": "Meşhur kanunlar ýygyndysyny düzen Wawilon şasy kim?", "ru": "Какой царь Вавилона создал знаменитый свод законов?"},
+          "options": [
+            {"tk": "Hammurapi", "ru": "Хаммурапи"},
+            {"tk": "Tutanhamon", "ru": "Тутанхамон"},
+            {"tk": "Sezar", "ru": "Цезарь"}
+          ],
+          "answer": 0,
+          "hint": {"tk": "Tutanhamon — Müsür, Sezar — Rim.", "ru": "Тутанхамон — Египет, Цезарь — Рим."},
+          "explain": {"tk": "Hammurapiniň kanunlary uly daş sütüne ýazylypdyr, ol häzir Parižiň Luwr muzeýinde saklanýar.", "ru": "Законы Хаммурапи высечены на каменной стеле, которая хранится в Лувре в Париже."}},
+        {"type": "world", "text": {
+          "tk": "«Gilgameş hakda dessan» — Mesopotamiýada döredilen, dünýäde saklanyp galan iň gadymy edebi eserleriň biri. Onuň toýun tagtajyklardaky nusgalary XIX asyrda Ninewiýada tapyldy. Dessan Uruk şasy Gilgameşiň ölmezlik gözlegi hakda gürrüň berýär.",
+          "ru": "«Эпос о Гильгамеше» — одно из древнейших сохранившихся литературных произведений мира, созданное в Месопотамии. Глиняные таблички с ним нашли в XIX веке в Ниневии. Эпос рассказывает о поисках бессмертия царём Урука Гильгамешем."}}
+      ]
+    },
+    {
+      "id": "history-5-ancient-greece",
+      "grade": 5,
+      "topic": 4,
+      "title": {"tk": "Gadymy Gresiýa", "ru": "Древняя Греция"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Gadymy Gresiýa Balkan ýarymadasynda we Egeý deňziniň adalarynda ýerleşipdir. Daglar ýurdy köp kiçi bölege bölüpdir, şonuň üçin grekler aýratyn şäher-döwletlerde — polislerde ýaşapdyrlar.\n\n• Iň meşhur polisler: Afiny we Sparta.\n• Afinyda demokratiýa döräpdir — erkin erkek raýatlar halk ýygnagynda kanunlary kabul edipdirler (aýallar, gullar we daşary ýurtlular ses berip bilmändir).\n• Sparta — berk harby terbiýesi bilen meşhur.\n• Grekler filosofiýa, teatr, geometriýa ösdürdiler: Sokrat, Platon, Aristotel, Pifagor.\n• B.e.ö. 776-njy ýylda Olimpiýada ilkinji Olimpiýa oýunlary geçirilipdir.",
+          "ru": "Древняя Греция располагалась на Балканском полуострове и островах Эгейского моря. Горы делили страну на небольшие части, поэтому греки жили в отдельных городах-государствах — полисах.\n\n• Самые известные полисы: Афины и Спарта.\n• В Афинах возникла демократия — свободные граждане-мужчины принимали законы на народном собрании (женщины, рабы и иноземцы не голосовали).\n• Спарта славилась суровым военным воспитанием.\n• Греки развили философию, театр, геометрию: Сократ, Платон, Аристотель, Пифагор.\n• В 776 г. до н.э. в Олимпии прошли первые известные Олимпийские игры."}},
+        {"type": "example", "text": {
+          "tk": "Olimpiýa oýunlary her 4 ýyldan geçirilipdir.\n\nB.e.ö. 776-njy ýyldan soň indiki oýunlar haçan bolupdyr?\n• B.e.ö. ýyllar yza sanalýar, diýmek wagt geçdigiçe san KIÇELÝÄR.\n• 776 − 4 = 772.\n\nJogap: b.e.ö. 772-nji ýylda.",
+          "ru": "Олимпийские игры проводились каждые 4 года.\n\nКогда прошли следующие игры после 776 г. до н.э.?\n• Годы до н.э. идут назад, значит со временем число УМЕНЬШАЕТСЯ.\n• 776 − 4 = 772.\n\nОтвет: в 772 г. до н.э."}},
+        {"type": "choice",
+          "q": {"tk": "Gadymy grek şäher-döwleti nähili atlandyrylypdyr?", "ru": "Как назывался древнегреческий город-государство?"},
+          "options": [
+            {"tk": "piramida", "ru": "пирамида"},
+            {"tk": "polis", "ru": "полис"},
+            {"tk": "imperiýa", "ru": "империя"}
+          ],
+          "answer": 1,
+          "hint": {"tk": "«Politika», «metropolis» sözleri şu sözden gelýär.", "ru": "От этого слова произошли «политика», «мегаполис»."},
+          "explain": {"tk": "Polis — gadymy greklerde şäher we onuň töweregi, özbaşdak döwlet.", "ru": "Полис — у древних греков город с округой, самостоятельное государство."}},
+        {"type": "truefalse",
+          "q": {"tk": "Gadymy Afinyda ähli ýaşaýjylar, şol sanda aýallar we gullar ses berip bilipdir.", "ru": "В древних Афинах голосовать могли все жители, включая женщин и рабов."},
+          "answer": false,
+          "hint": {"tk": "Kim «raýat» hasaplanypdyr?", "ru": "Кто считался гражданином?"},
+          "explain": {"tk": "Diňe erkin erkek raýatlar ses beripdir; aýallar, gullar we daşary ýurtlular gatnaşmandyr.", "ru": "Голосовали только свободные граждане-мужчины; женщины, рабы и иноземцы — нет."}},
+        {"type": "input",
+          "q": {"tk": "Ilkinji Olimpiýa oýunlary b.e.ö. haýsy ýylda geçirilipdir?", "ru": "В каком году до н.э. прошли первые Олимпийские игры?"},
+          "answer": "776",
+          "hint": {"tk": "Üç sanly san, 7 bilen başlanýar.", "ru": "Трёхзначное число, начинается на 7."},
+          "explain": {"tk": "B.e.ö. 776-njy ýyl — Olimpiýa oýunlarynyň däp bolan başlangyç senesi.", "ru": "776 г. до н.э. — традиционная дата первых Олимпийских игр."}},
+        {"type": "choice",
+          "q": {"tk": "Haýsy grek polisi berk harby terbiýesi bilen meşhur bolupdyr?", "ru": "Какой греческий полис славился суровым военным воспитанием?"},
+          "options": [
+            {"tk": "Sparta", "ru": "Спарта"},
+            {"tk": "Afiny", "ru": "Афины"},
+            {"tk": "Wawilon", "ru": "Вавилон"}
+          ],
+          "answer": 0,
+          "hint": {"tk": "Wawilon — Mesopotamiýada.", "ru": "Вавилон — в Месопотамии."},
+          "explain": {"tk": "Spartada oglanlar 7 ýaşyndan harby terbiýe alypdyrlar.", "ru": "В Спарте мальчиков с 7 лет воспитывали как воинов."}},
+        {"type": "world", "text": {
+          "tk": "Häzirki zaman Olimpiýa oýunlary fransuz Pýer de Kuberteniň başlangyjy bilen dikeldildi. Ilkinji häzirki zaman oýunlary 1896-njy ýylda Gresiýanyň paýtagty Afinyda geçirildi. Marafon ylgawy hem grek rowaýatyndan gelýär.",
+          "ru": "Современные Олимпийские игры возродил француз Пьер де Кубертен. Первые игры нового времени прошли в 1896 году в Афинах. Марафонский бег тоже пришёл из греческой легенды — о гонце, бежавшем от Марафона в Афины."}}
+      ]
+    },
+    {
+      "id": "history-5-ancient-rome",
+      "grade": 5,
+      "topic": 5,
+      "title": {"tk": "Gadymy Rim", "ru": "Древний Рим"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Rim Apennin ýarymadasynda (häzirki Italiýa) Tibr derýasynyň boýunda döräpdir. Rowaýata görä, ony b.e.ö. 753-nji ýylda Romul esaslandyrypdyr.\n\n• Ilki Rimi şalar dolandyrypdyr, soňra respublika bolupdyr: her ýyl iki konsul saýlanypdyr, senat maslahat beripdir.\n• B.e.ö. 27-nji ýylda Oktawian Awgust ilkinji imperator boldy — Rim imperiýasy başlandy.\n• Rimliler ýollary, köprüleri, akwedukleri (suw geçirijileri), Kolizeý ýaly binalary gurupdyrlar.\n• Latyn dili köp Ýewropa dilleriniň esasy boldy.\n• 476-njy ýylda Günbatar Rim imperiýasy ýykyldy — bu sene adatça Gadymy dünýäniň soňy hasaplanýar.",
+          "ru": "Рим возник на Апеннинском полуострове (современная Италия) на реке Тибр. По легенде, его основал Ромул в 753 г. до н.э.\n\n• Сначала Римом правили цари, потом он стал республикой: ежегодно выбирали двух консулов, советом был сенат.\n• В 27 г. до н.э. Октавиан Август стал первым императором — началась Римская империя.\n• Римляне строили дороги, мосты, акведуки (водопроводы), Колизей.\n• Латынь стала основой многих европейских языков.\n• В 476 г. пала Западная Римская империя — эту дату обычно считают концом Древнего мира."}},
+        {"type": "example", "text": {
+          "tk": "Rim sanlary häzir hem ulanylýar (sagatlarda, asyrlarda):\n\nI = 1, V = 5, X = 10, L = 50, C = 100, D = 500, M = 1000\n\n• Uly belgi kiçiden öň bolsa — goşulýar: XV = 10 + 5 = 15.\n• Kiçi belgi ulydan öň bolsa — aýrylýar: IX = 10 − 1 = 9.\n• XXI asyr = 10 + 10 + 1 = 21-nji asyr.",
+          "ru": "Римские цифры используются до сих пор (на часах, в номерах веков):\n\nI = 1, V = 5, X = 10, L = 50, C = 100, D = 500, M = 1000\n\n• Большая цифра перед меньшей — складываем: XV = 10 + 5 = 15.\n• Меньшая перед большей — вычитаем: IX = 10 − 1 = 9.\n• XXI век = 10 + 10 + 1 = 21-й век."}},
+        {"type": "input",
+          "q": {"tk": "XIV rim sany näçä deň?", "ru": "Чему равно римское число XIV?"},
+          "answer": "14",
+          "hint": {"tk": "X = 10, IV = 5 − 1.", "ru": "X = 10, IV = 5 − 1."},
+          "explain": {"tk": "X (10) + IV (4) = 14.", "ru": "X (10) + IV (4) = 14."}},
+        {"type": "choice",
+          "q": {"tk": "Rim haýsy derýanyň boýunda döräpdir?", "ru": "На какой реке возник Рим?"},
+          "options": [
+            {"tk": "Nil", "ru": "Нил"},
+            {"tk": "Tibr", "ru": "Тибр"},
+            {"tk": "Dunaý", "ru": "Дунай"}
+          ],
+          "answer": 1,
+          "hint": {"tk": "Nil — Müsürde.", "ru": "Нил — в Египте."},
+          "explain": {"tk": "Rim Italiýada Tibr derýasynyň boýunda ýerleşýär.", "ru": "Рим стоит на реке Тибр в Италии."}},
+        {"type": "truefalse",
+          "q": {"tk": "Akweduk — Rim şäherlerine suw getirýän desga.", "ru": "Акведук — сооружение, которое подводило воду к римским городам."},
+          "answer": true,
+          "hint": {"tk": "Latynça aqua — «suw».", "ru": "По-латыни aqua — «вода»."},
+          "explain": {"tk": "Akweduk (aqua — suw, ducere — eltmek) dag çeşmelerinden şäherlere suw eltipdir.", "ru": "Акведук (aqua — вода, ducere — вести) доставлял воду из горных источников в города."}},
+        {"type": "choice",
+          "q": {"tk": "Rimiň ilkinji imperatory kim bolupdyr?", "ru": "Кто стал первым римским императором?"},
+          "options": [
+            {"tk": "Romul", "ru": "Ромул"},
+            {"tk": "Hammurapi", "ru": "Хаммурапи"},
+            {"tk": "Oktawian Awgust", "ru": "Октавиан Август"}
+          ],
+          "answer": 2,
+          "hint": {"tk": "B.e.ö. 27-nji ýyl; ýylyň bir aýy onuň adyny göterýär.", "ru": "27 г. до н.э.; в его честь назван один из месяцев."},
+          "explain": {"tk": "Oktawian Awgust b.e.ö. 27-nji ýylda ilkinji imperator boldy. Awgust aýy onuň adyny göterýär.", "ru": "Октавиан Август стал первым императором в 27 г. до н.э. Месяц август назван в его честь."}},
+        {"type": "world", "text": {
+          "tk": "Rim Kolizeýi biziň eramyzyň 80-nji ýylynda açylypdyr. Ol 50 müňe golaý tomaşaçyny sygdyrypdyr. Rimliler gurluşykda ýörite beton ulanypdyrlar; onuň käbir görnüşleri — mysal üçin, deňiz suwundaky desgalarda — iki müň ýyldan soň hem saklanyp galypdyr.",
+          "ru": "Римский Колизей открыли в 80 году н.э. Он вмещал около 50 тысяч зрителей. Римляне использовали особый бетон; некоторые их сооружения — например, морские причалы — простояли больше двух тысяч лет."}}
+      ]
+    }
+  ]
+}

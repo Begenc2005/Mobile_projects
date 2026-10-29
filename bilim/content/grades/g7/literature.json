@@ -1,0 +1,294 @@
+{
+  "grade": 7,
+  "subject": "literature",
+  "lessons": [
+    {
+      "id": "literature-7-gorkut-ata",
+      "grade": 7,
+      "topic": 0,
+      "title": {"tk": "«Gorkut ata» kitaby", "ru": "«Книга Деде Коркута»"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "«Gorkut ata» — oguz türkmenleriniň gahrymançylyk eposy. Onuň rowaýatlary asyrlar boýy agzeki aýdylyp, soňra kitap görnüşinde ýazga geçirilipdir.\n\n• Iň meşhur iki golýazmasy bar: Drezden golýazmasy (12 boý) we Watikan golýazmasy (6 boý).\n• Eposyň bölümleri «boý» diýip atlandyrylýar.\n• Gorkut ata — paýhasly ozan we akyldar. Ol çagalara at dakýar, kyn günde maslahat berýär, gopuz çalyp, boýlary jemleýär.\n• Esasy gahrymanlar: Salyr Gazan, Bamsy Beýrek, Dirse hanyň ogly Buga han, Basat, Däli Domrul.\n\nEposyň esasy temalary: Watana we il-güne wepalylyk, mertlik, dostluk, maşgala we ene-atanyň hormaty, myhmansöýerlik.\nEposda proza bilen goşgy gezekleşýär — bu oguz-türkmen eposlaryna mahsus aýratynlyk.",
+          "ru": "«Книга Деде Коркута» (Gorkut ata) — героический эпос огузов, предков туркмен. Его сказания веками передавались устно, а затем были записаны в виде книги.\n\n• Известны две главные рукописи: Дрезденская (12 сказаний) и Ватиканская (6 сказаний).\n• Части эпоса называются «бой» (boý) — сказание.\n• Горкут-ата — мудрый сказитель (озан) и наставник. Он даёт имена детям, помогает советом в трудный час, играет на гопузе и завершает сказания.\n• Главные герои: Салыр Газан, Бамсы Бейрек, Бугач — сын Дирсе-хана, Басат, Дели Домрул.\n\nГлавные темы: верность родине и народу, мужество, дружба, уважение к семье и родителям, гостеприимство.\nВ эпосе проза чередуется со стихами — характерная черта огузо-туркменских эпосов."}},
+        {"type": "example", "text": {
+          "tk": "«Basadyň Depegözi öldürşi» boýuny derňäliň.\n1) Waka: Depegöz — maňlaýynda ýeke gözi bolan äpet, oguz iline uly külpet getirýär.\n2) Konflikt: il her gün oňa salgyt bermeli bolýar, köp maşgala ogullaryndan aýrylýar.\n3) Gahryman: ýaş batyr Basat ilini halas etmek üçin ýeke özi äpediň garşysyna gidýär.\n4) Çözgüt: Basat güýç bilen däl-de, akyl we batyrlyk bilen äpediň gözüni kör edýär we ony ýeňýär.\n5) Esasy pikir: halk üçin edilen gahrymançylyk iň uly mertlikdir; akyl güýçden ýokarydyr.",
+          "ru": "Разберём сказание «Как Басат убил Депегёза».\n1) Завязка: Депегёз — великан с единственным глазом во лбу, приносит огузам великое бедствие.\n2) Конфликт: народ вынужден платить ему дань, многие семьи теряют сыновей.\n3) Герой: юный богатырь Басат в одиночку идёт против великана, чтобы спасти народ.\n4) Развязка: Басат побеждает не силой, а умом и отвагой — ослепляет великана и одолевает его.\n5) Основная мысль: подвиг ради народа — высшая доблесть; ум сильнее грубой силы."}},
+        {"type": "choice",
+          "q": {"tk": "«Gorkut ata» eposynyň bölümleri nähili atlandyrylýar?", "ru": "Как называются части эпоса «Горкут-ата»?"},
+          "options": [
+            {"tk": "Baplar", "ru": "Главы (bap)"},
+            {"tk": "Boýlar", "ru": "Бои (boý)"},
+            {"tk": "Kyssalar", "ru": "Кыссы"}
+          ],
+          "answer": 1,
+          "hint": {"tk": "Bu söz «Depegöz boýy» diýen atda bar.", "ru": "Это слово есть в названии «Depegöz boýy»."},
+          "explain": {"tk": "Eposyň her bir aýratyn rowaýaty «boý» diýip atlandyrylýar.", "ru": "Каждое отдельное сказание эпоса называется «бой» (boý)."}},
+        {"type": "input",
+          "q": {"tk": "Drezden golýazmasynda näçe boý bar?", "ru": "Сколько сказаний в Дрезденской рукописи?"},
+          "answer": "12",
+          "hint": {"tk": "Watikan golýazmasyndakydan iki esse köp.", "ru": "Вдвое больше, чем в Ватиканской."},
+          "explain": {"tk": "Drezden golýazmasynda 12 boý, Watikan golýazmasynda 6 boý bar.", "ru": "В Дрезденской рукописи 12 сказаний, в Ватиканской — 6."}},
+        {"type": "truefalse",
+          "q": {"tk": "Gorkut ata eposda esasy söweşiji batyr hökmünde äpetler bilen göreşýär.", "ru": "В эпосе Горкут-ата — главный воин, который сражается с великанами."},
+          "answer": false,
+          "hint": {"tk": "Gorkut ata ilde nähili orny eýeleýär?", "ru": "Какую роль Горкут-ата играет в народе?"},
+          "explain": {"tk": "Gorkut ata — paýhasly ozan we maslahatçy. Äpetler bilen batyrlar, meselem Basat göreşýär.", "ru": "Горкут-ата — мудрый сказитель и советчик. С великанами сражаются богатыри, например Басат."}},
+        {"type": "choice",
+          "q": {"tk": "Gorkut ata haýsy saz guralyny çalýar?", "ru": "На каком музыкальном инструменте играет Горкут-ата?"},
+          "options": [
+            {"tk": "Gopuz", "ru": "Гопуз"},
+            {"tk": "Gyjak", "ru": "Гыджак"},
+            {"tk": "Tüýdük", "ru": "Тюйдук"}
+          ],
+          "answer": 0,
+          "hint": {"tk": "Bu gadymy kirişli saz guraly, oguz ozanlarynyň guraly.", "ru": "Это древний струнный инструмент огузских сказителей."},
+          "explain": {"tk": "Gorkut ata gopuz çalýar; gopuz oguz ozanlarynyň mukaddes saz guraly hasaplanypdyr.", "ru": "Горкут-ата играет на гопузе — священном инструменте огузских сказителей."}},
+        {"type": "world", "text": {
+          "tk": "XIX asyryň başynda nemes alymy Genrih Fridrih fon Dis Drezden golýazmasyny öwrenip, Depegöz baradaky boýy nemes diline terjime edipdir. Ol Depegöz bilen Gomeriň «Odisseýasyndaky» ýeke gözli äpet Polifemiň arasyndaky meňzeşligi ilkinjileriň biri bolup belläpdir.",
+          "ru": "В начале XIX века немецкий учёный Генрих Фридрих фон Диц изучил Дрезденскую рукопись и перевёл на немецкий сказание о Депегёзе. Он одним из первых заметил сходство Депегёза с одноглазым циклопом Полифемом из «Одиссеи» Гомера."}}
+      ]
+    },
+    {
+      "id": "literature-7-firdowsi-shahnameh",
+      "grade": 7,
+      "topic": 1,
+      "title": {"tk": "Firdöwsi we «Şanama»", "ru": "Фирдоуси и «Шахнаме»"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Abulkasym Firdöwsi (takmynan 940–1020) — Horasanyň Tus şäherinde doglan beýik pars şahyry.\n\n«Şanama» («Şalar kitaby») — dünýäniň iň uly eposlarynyň biri:\n• Firdöwsi ony 30 ýyldan gowrak ýazypdyr we takmynan 1010-njy ýylda tamamlapdyr.\n• Eposda takmynan 50–60 müň beýt (iki setirli bent) bar.\n• Ol rowaýaty şalardan başlap, VII asyrda Sasanylar döwletiniň ýykylmagyna çenli Eýranyň taryhyny we rowaýatlaryny beýan edýär.\n• Esasy gahryman — pälwan Rüstem. Beýleki gahrymanlar: Zal, Sohrab, Syýawuş; jadyly guş Simurg.\n• Eposda Eýran bilen Turanyň uzak göreşi suratlandyrylýar.\n\nTemalary: adalat, mertlik, Watana söýgi, ykbalyň güýji, şalaryň jogapkärçiligi.",
+          "ru": "Абулькасим Фирдоуси (около 940–1020) — великий персидский поэт, родившийся в городе Тус в Хорасане.\n\n«Шахнаме» («Книга царей») — один из величайших эпосов мира:\n• Фирдоуси писал её более 30 лет и завершил около 1010 года.\n• В поэме около 50–60 тысяч бейтов (двустиший).\n• Она охватывает историю и легенды Ирана — от мифических первых царей до падения державы Сасанидов в VII веке.\n• Главный герой — богатырь Рустам. Другие герои: Заль, Сухраб, Сиявуш; волшебная птица Симург.\n• В эпосе описывается долгая борьба Ирана и Турана.\n\nТемы: справедливость, доблесть, любовь к родине, сила судьбы, ответственность правителей."}},
+        {"type": "example", "text": {
+          "tk": "«Rüstem we Sohrab» rowaýatyny derňäliň.\n1) Başlangyç: Rüstem Turan topragynda bir gyza öýlenýär we gidýär. Olaryň ogly Sohrab kakasyny görmän ulalýar.\n2) Konflikt: Sohrab Turan goşunynda batyr bolup, kakasyny tapmak arzuwy bilen Eýrana garşy ýörişe gidýär.\n3) Kulminasiýa: Ata bilen ogul biri-birini tanaman ýekme-ýeke söweşe girýärler.\n4) Çözgüt: Rüstem Sohraby ýaralaýar we diňe soňundan onuň öz ogludygyny bilýär.\n5) Esasy pikir: söweşiň we buýsançlylygyň betbagtçylygy; ykbal öňünde adamyň ejizligi. Bu tragiki rowaýat.",
+          "ru": "Разберём сказание «Рустам и Сухраб».\n1) Завязка: Рустам женится на девушке в Туране и уезжает. Их сын Сухраб растёт, не зная отца.\n2) Конфликт: Сухраб становится богатырём туранского войска и идёт походом на Иран, мечтая найти отца.\n3) Кульминация: отец и сын, не узнав друг друга, вступают в поединок.\n4) Развязка: Рустам смертельно ранит Сухраба и лишь потом узнаёт, что это его сын.\n5) Основная мысль: трагедия войны и гордыни; бессилие человека перед судьбой. Это трагическое сказание."}},
+        {"type": "choice",
+          "q": {"tk": "«Şanamanyň» esasy gahrymany kim?", "ru": "Кто главный герой «Шахнаме»?"},
+          "options": [
+            {"tk": "Gazan han", "ru": "Газан-хан"},
+            {"tk": "Görogly", "ru": "Гёроглы"},
+            {"tk": "Rüstem", "ru": "Рустам"}
+          ],
+          "answer": 2,
+          "hint": {"tk": "Onuň oglunyň ady Sohrab.", "ru": "Его сына звали Сухраб."},
+          "explain": {"tk": "«Şanamanyň» iň meşhur gahrymany — pälwan Rüstem. Gazan han «Gorkut ata», Görogly bolsa «Görogly» eposynyň gahrymany.", "ru": "Самый известный герой «Шахнаме» — богатырь Рустам. Газан-хан — герой «Горкут-ата», Гёроглы — одноимённого эпоса."}},
+        {"type": "input",
+          "q": {"tk": "Firdöwsi «Şanamany» takmynan näçe ýyl ýazypdyr? (san)", "ru": "Примерно сколько лет Фирдоуси писал «Шахнаме»? (число)"},
+          "answer": "30|35|33",
+          "hint": {"tk": "Üç onýyllykdan gowrak.", "ru": "Больше трёх десятилетий."},
+          "explain": {"tk": "Firdöwsi «Şanama» üstünde 30 ýyldan gowrak işläpdir.", "ru": "Фирдоуси работал над «Шахнаме» более 30 лет."}},
+        {"type": "truefalse",
+          "q": {"tk": "«Rüstem we Sohrab» rowaýaty bagtly tamamlanýar: ata bilen ogul biri-birini tanap, gujaklaşýarlar.", "ru": "Сказание «Рустам и Сухраб» заканчивается счастливо: отец и сын узнают друг друга и обнимаются."},
+          "answer": false,
+          "hint": {"tk": "Bu rowaýat tragiki rowaýat hasaplanýar.", "ru": "Это сказание считается трагическим."},
+          "explain": {"tk": "Rüstem Sohraby tanaman ölüm ýarasyny urýar we diňe soňundan hakykaty bilýär — bu tragiki tamamlanma.", "ru": "Рустам, не узнав Сухраба, наносит ему смертельную рану и лишь потом узнаёт правду — это трагический финал."}},
+        {"type": "choice",
+          "q": {"tk": "«Beýt» näme?", "ru": "Что такое «бейт»?"},
+          "options": [
+            {"tk": "Iki setirli bent", "ru": "Двустишие"},
+            {"tk": "Eposyň gahrymany", "ru": "Герой эпоса"},
+            {"tk": "Saz guraly", "ru": "Музыкальный инструмент"}
+          ],
+          "answer": 0,
+          "hint": {"tk": "«Şanama» şeýle bentlerden düzülen.", "ru": "«Шахнаме» состоит из таких строф."},
+          "explain": {"tk": "Beýt — Gündogar poeziýasynda iki setirden ybarat bent. «Şanama» onlarça müň beýtden ybarat.", "ru": "Бейт — двустишие в восточной поэзии. «Шахнаме» состоит из десятков тысяч бейтов."}},
+        {"type": "world", "text": {
+          "tk": "1853-nji ýylda iňlis şahyry Metýu Arnold «Sohrab we Rüstem» atly poemasyny ýazypdyr. Şeýlelik bilen müň ýyl öňki Firdöwsiniň rowaýaty Ýewropa okyjylarynyň arasynda giňden tanalypdyr. Firdöwsiniň mazary häzir hem Tus şäheriniň golaýynda ýerleşýär.",
+          "ru": "В 1853 году английский поэт Мэтью Арнольд написал поэму «Сохраб и Рустам». Так сказание Фирдоуси, созданное тысячу лет назад, стало широко известно европейским читателям. Мавзолей Фирдоуси и сегодня находится возле города Тус."}}
+      ]
+    },
+    {
+      "id": "literature-7-novella",
+      "grade": 7,
+      "topic": 2,
+      "title": {"tk": "Nowella", "ru": "Новелла"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Nowella — ýiti, gyzykly wakaly we garaşylmadyk tamamlanmaly gysga proza eseri.\nSöz italýan dilindäki «novella» — «täzelik, habar» sözünden gelýär.\n\nNowellanyň aýratynlyklary:\n• gysga göwrüm, gahrymanlar az;\n• bir esasy waka töwereginde gurulýar;\n• süžet ýiti we dinamiki;\n• tamamlanmasy garaşylmadyk öwrülişik bilen (oňa «pointe» diýilýär).\n\nNowella žanrynyň ussatlary:\n• Jowanni Bokkaçço (Italiýa, XIV asyr) — «Dekameron».\n• Prosper Merime, Gi de Mopassan (Fransiýa, XIX asyr).\n• O. Genri (ABŞ, XIX–XX asyr) — garaşylmadyk tamamlanmalaryň ussady.",
+          "ru": "Новелла — короткое прозаическое произведение с острым, необычным событием и неожиданной развязкой.\nСлово происходит от итальянского «novella» — «новость».\n\nОсобенности новеллы:\n• небольшой объём, мало героев;\n• построена вокруг одного главного события;\n• сюжет острый и динамичный;\n• концовка с неожиданным поворотом («пуант»).\n\nМастера новеллы:\n• Джованни Боккаччо (Италия, XIV век) — «Декамерон».\n• Проспер Мериме, Ги де Мопассан (Франция, XIX век).\n• О. Генри (США, XIX–XX века) — мастер неожиданных финалов."}},
+        {"type": "example", "text": {
+          "tk": "O. Genriniň «Jadygöýleriň sowgatlary» (1905) nowellasyny derňäliň.\n1) Gahrymanlar: ýaş, garyp är-aýal — Della we Jim.\n2) Waka: Täze ýyl baýramy golaýlaýar, olaryň bir-birine sowgat almaga puly ýok.\n3) Della özüniň ajaýyp uzyn saçyny satyp, Jimiň sagady üçin zynjyr satyn alýar.\n4) Pointe: Jim bolsa öz sagadyny satyp, Della üçin owadan darak alypdyr.\n5) Netije: sowgatlar indi gerek däl, ýöne olar biri-biriniň söýgüsiniň iň gymmatly sowgatdygyna düşünýärler.\nŞeýlelikde: gysga göwrüm, bir waka, iki gahryman, garaşylmadyk tamamlanma — nowellanyň ähli alamatlary bar.",
+          "ru": "Разберём новеллу О. Генри «Дары волхвов» (1905).\n1) Герои: молодые бедные супруги Делла и Джим.\n2) Событие: приближается Рождество, а денег на подарки друг другу нет.\n3) Делла продаёт свои прекрасные длинные волосы и покупает цепочку для часов Джима.\n4) Пуант: Джим же продал свои часы, чтобы купить Делле красивые гребни.\n5) Итог: подарки уже не нужны, но оба понимают, что самый ценный дар — их любовь.\nИтак: малый объём, одно событие, два героя, неожиданный финал — все признаки новеллы."}},
+        {"type": "choice",
+          "q": {"tk": "Nowellanyň esasy aýratynlygy haýsy?", "ru": "Какая главная особенность новеллы?"},
+          "options": [
+            {"tk": "Köp nesil barada uzyn gürrüň", "ru": "Длинный рассказ о многих поколениях"},
+            {"tk": "Goşgy görnüşinde ýazylmagy", "ru": "Написана в стихах"},
+            {"tk": "Garaşylmadyk tamamlanma", "ru": "Неожиданная развязка"}
+          ],
+          "answer": 2,
+          "hint": {"tk": "«Pointe» sözüni ýatlaň.", "ru": "Вспомните слово «пуант»."},
+          "explain": {"tk": "Nowella gysga proza eseri bolup, onuň tamamlanmasy köplenç garaşylmadyk öwrülişik bilen gutarýar. Köp nesil barada roman, goşgy görnüşi bolsa poeziýa.", "ru": "Новелла — короткая проза, часто с неожиданным поворотом в конце. О многих поколениях пишут романы, а стихи — это поэзия."}},
+        {"type": "truefalse",
+          "q": {"tk": "«Nowella» sözi italýan dilinde «täzelik» diýmekdir.", "ru": "Слово «новелла» по-итальянски означает «новость»."},
+          "answer": true,
+          "hint": {"tk": "Rus dilindäki «новый» sözi bilen deňeşdiriň.", "ru": "Сравните со словом «новый»."},
+          "explain": {"tk": "Italýança «novella» — «täzelik, habar». Ilkinji nowellalar geň täze wakalar barada gürrüň beripdir.", "ru": "Итальянское «novella» — «новость». Первые новеллы рассказывали о необычных новых происшествиях."}},
+        {"type": "choice",
+          "q": {"tk": "«Dekameron» kitabynyň awtory kim?", "ru": "Кто автор книги «Декамерон»?"},
+          "options": [
+            {"tk": "Jowanni Bokkaçço", "ru": "Джованни Боккаччо"},
+            {"tk": "O. Genri", "ru": "О. Генри"},
+            {"tk": "Gi de Mopassan", "ru": "Ги де Мопассан"}
+          ],
+          "answer": 0,
+          "hint": {"tk": "Ol XIV asyrda Italiýada ýaşapdyr.", "ru": "Он жил в Италии в XIV веке."},
+          "explain": {"tk": "«Dekameron» — italýan ýazyjysy Jowanni Bokkaççonyň XIV asyrda ýazan nowellalar ýygyndysy.", "ru": "«Декамерон» — сборник новелл итальянского писателя Джованни Боккаччо, написанный в XIV веке."}},
+        {"type": "input",
+          "q": {"tk": "«Dekameronda» näçe nowella bar? (san)", "ru": "Сколько новелл в «Декамероне»? (число)"},
+          "answer": "100",
+          "hint": {"tk": "10 adam 10 günüň dowamynda her gün bir hekaýa aýdýar.", "ru": "10 человек в течение 10 дней рассказывают каждый день по истории."},
+          "explain": {"tk": "10 ýaş ýigit-gyz 10 günüň dowamynda her biri günde bir hekaýa aýdýar: 10 × 10 = 100.", "ru": "10 молодых людей в течение 10 дней рассказывают каждый по одной истории в день: 10 × 10 = 100."}},
+        {"type": "world", "text": {
+          "tk": "«Dekameronyň» wakalary 1348-nji ýylda Florensiýada başlanýar: şäherde mergi ýaýranda on ýaş ýigit-gyz şäherden daşdaky bir öýe gidip, wagtlaryny hekaýa aýdyşyp geçirýärler. Kitabyň ady grekçe «on gün» diýen manyny berýär.",
+          "ru": "Действие «Декамерона» начинается во Флоренции в 1348 году: когда в городе разразилась чума, десять молодых людей уезжают на загородную виллу и проводят время, рассказывая истории. Название книги по-гречески означает «десять дней»."}}
+      ]
+    },
+    {
+      "id": "literature-7-ballad",
+      "grade": 7,
+      "topic": 3,
+      "title": {"tk": "Ballada", "ru": "Баллада"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Ballada — dramatik wakaly, köplenç rowaýat, taryhy ýa-da fantastik süžetli goşgy görnüşindäki eser. Ol liro-epiki žanra degişli: onda hem waka (epos), hem duýgy (lirika) bar.\n\nSöz italýan dilindäki «ballare» — «tans etmek» sözünden gelýär; ilkibaşda ballada tans aýdymy bolupdyr.\n\nBalladanyň aýratynlyklary:\n• gysga, ýiti, köplenç tragiki süžet;\n• syrly, gorkunç ýa-da jadyly atmosfera;\n• dialoglaryň köp bolmagy;\n• gaýtalamalar we aýdym ýaly ritm.\n\nMeşhur balladalar:\n• Iňlis we şotland halk balladalary (meselem, Robin Gud barada).\n• Ýohan Wolfgang Gýote — «Lesnoý patyşa» (1782).\n• Fridrih Şiller — «Ellik» (1797).\n• Wasiliý Žukowskiý — rus edebiýatynda balladanyň esaslandyryjysy.",
+          "ru": "Баллада — стихотворное произведение с драматическим сюжетом, часто легендарным, историческим или фантастическим. Это лиро-эпический жанр: в ней есть и событие (эпос), и чувство (лирика).\n\nСлово происходит от итальянского «ballare» — «танцевать»; первоначально баллада была плясовой песней.\n\nОсобенности баллады:\n• короткий, напряжённый, часто трагический сюжет;\n• таинственная, жуткая или волшебная атмосфера;\n• много диалогов;\n• повторы и песенный ритм.\n\nИзвестные баллады:\n• английские и шотландские народные баллады (например, о Робин Гуде);\n• Иоганн Вольфганг Гёте — «Лесной царь» (1782);\n• Фридрих Шиллер — «Перчатка» (1797);\n• Василий Жуковский — основоположник баллады в русской литературе."}},
+        {"type": "example", "text": {
+          "tk": "Gýoteniň «Lesnoý patyşa» balladasyny derňäliň.\n1) Waka: gijäniň ýarynda kaka syrkaw ogluny gujaklap, atly tokaýdan geçýär.\n2) Syrly atmosfera: ogla jadyly «tokaý patyşasy» görünýär, ol çagany özüne çagyrýar.\n3) Dialog: ogul gorkup, kakasyna gürrüň berýär; kaka bolsa munuň duman, ýel ýa-da agaçlar diýip köşeşdirýär.\n4) Tragiki tamamlanma: kaka öýe ýetende, çaga eýýäm jansyz bolýar.\n5) Ballada alamatlary: gysga dramatik süžet, fantastika, köp dialog, tragiki ahyr.",
+          "ru": "Разберём балладу Гёте «Лесной царь».\n1) Событие: глубокой ночью отец скачет через лес, держа на руках больного сына.\n2) Таинственная атмосфера: мальчику является волшебный «лесной царь», который манит его к себе.\n3) Диалог: сын в страхе рассказывает отцу, а тот успокаивает его — это лишь туман, ветер или деревья.\n4) Трагическая развязка: когда отец доезжает до дома, ребёнок уже мёртв.\n5) Признаки баллады: короткий драматический сюжет, фантастика, много диалога, трагический финал."}},
+        {"type": "choice",
+          "q": {"tk": "Ballada haýsy žanr toparyna degişli?", "ru": "К какой группе жанров относится баллада?"},
+          "options": [
+            {"tk": "Liro-epiki", "ru": "Лиро-эпической"},
+            {"tk": "Dramatik", "ru": "Драматической"},
+            {"tk": "Diňe proza", "ru": "Только прозе"}
+          ],
+          "answer": 0,
+          "hint": {"tk": "Balladada hem waka, hem duýgy bar.", "ru": "В балладе есть и событие, и чувство."},
+          "explain": {"tk": "Ballada waka gürrüň berýär (epos) we güýçli duýgulary beýan edýär (lirika), şonuň üçin liro-epiki žanr.", "ru": "Баллада рассказывает о событии (эпос) и передаёт сильные чувства (лирика), поэтому это лиро-эпический жанр."}},
+        {"type": "truefalse",
+          "q": {"tk": "«Ballada» sözi «tans etmek» manyly sözden gelýär.", "ru": "Слово «баллада» происходит от слова со значением «танцевать»."},
+          "answer": true,
+          "hint": {"tk": "«Balet» sözi bilen deňeşdiriň.", "ru": "Сравните со словом «балет»."},
+          "explain": {"tk": "Italýança «ballare» — «tans etmek». Gadymda balladalar tans aýdymlary bolupdyr.", "ru": "Итальянское «ballare» — «танцевать». В старину баллады были плясовыми песнями."}},
+        {"type": "choice",
+          "q": {"tk": "«Lesnoý patyşa» balladasynyň awtory kim?", "ru": "Кто автор баллады «Лесной царь»?"},
+          "options": [
+            {"tk": "Fridrih Şiller", "ru": "Фридрих Шиллер"},
+            {"tk": "Ýohan Wolfgang Gýote", "ru": "Иоганн Вольфганг Гёте"},
+            {"tk": "Jowanni Bokkaçço", "ru": "Джованни Боккаччо"}
+          ],
+          "answer": 1,
+          "hint": {"tk": "Ol «Faust» eserini hem ýazypdyr.", "ru": "Он же написал «Фауста»."},
+          "explain": {"tk": "«Lesnoý patyşany» 1782-nji ýylda nemes şahyry Gýote ýazypdyr. Şiller «Ellik» balladasynyň awtory.", "ru": "«Лесного царя» написал в 1782 году немецкий поэт Гёте. Шиллер — автор баллады «Перчатка»."}},
+        {"type": "input",
+          "q": {"tk": "Gýoteniň «Lesnoý patyşa» balladasy haýsy ýylda ýazylypdyr?", "ru": "В каком году Гёте написал балладу «Лесной царь»?"},
+          "answer": "1782",
+          "hint": {"tk": "XVIII asyryň 80-nji ýyllary.", "ru": "80-е годы XVIII века."},
+          "explain": {"tk": "Ballada 1782-nji ýylda ýazylypdyr.", "ru": "Баллада написана в 1782 году."}},
+        {"type": "world", "text": {
+          "tk": "1815-nji ýylda ýaş awstriýaly kompozitor Franz Şubert Gýoteniň «Lesnoý patyşa» balladasyna aýdym ýazypdyr. Pianino atyň çapyşyny ýatladýan çalt ritmde ýaňlanýar, bir aýdymçy bolsa kakanyň, oglanyň we tokaý patyşasynyň seslerini dürli äheňde aýdýar. Bu aýdym häzir hem dünýä konsertlerinde ýerine ýetirilýär.",
+          "ru": "В 1815 году молодой австрийский композитор Франц Шуберт написал песню на балладу Гёте «Лесной царь». Фортепиано звучит в быстром ритме, напоминающем скачку коня, а один певец разными голосами исполняет партии отца, сына и лесного царя. Эту песню и сегодня исполняют на концертах по всему миру."}}
+      ]
+    },
+    {
+      "id": "literature-7-satire-humor",
+      "grade": 7,
+      "topic": 4,
+      "title": {"tk": "Satira we ýumor", "ru": "Сатира и юмор"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Edebiýatda gülküniň iki esasy görnüşi bar.\n\n• Ýumor — ýumşak, mylaýym gülki. Ol adamlaryň ownuk kemçiliklerine hoşniýetli gülýär.\n• Satira — ýiti, gazaply gülki. Ol jemgyýetiň we adamlaryň ýaramaz häsiýetlerini (açgözlük, ikiýüzlilik, ýalan, rüşwet) paş edýär we ýazgarýar.\n\nGülki döretmegiň serişdeleri:\n• Ironiýa — sözüň tersine manyda ulanylmagy («Näme akylly iş etdiň!»).\n• Sarkazm — iň ýiti, zäherli ironiýa.\n• Giperbola — aşa ulaltmak.\n• Groteks — hakykaty fantastika bilen garyşdyryp, gülkünç we geň keşp döretmek.\n\nSatiranyň meşhur ussatlary: Kemine (türkmen şahyry, takmynan 1770–1840), Jonatan Swift («Gulliweriň syýahatlary», 1726), Nikolaý Gogol («Rewizor», 1836).",
+          "ru": "В литературе есть два главных вида смешного.\n\n• Юмор — мягкий, добродушный смех. Он беззлобно смеётся над мелкими недостатками людей.\n• Сатира — острый, беспощадный смех. Она обличает пороки общества и людей (жадность, лицемерие, ложь, взяточничество).\n\nСредства комического:\n• Ирония — употребление слова в противоположном смысле («Ну и умный же поступок!»).\n• Сарказм — самая злая, язвительная ирония.\n• Гипербола — преувеличение.\n• Гротеск — смешение реального и фантастического, создающее смешной и странный образ.\n\nИзвестные сатирики: Кемине (туркменский поэт, около 1770–1840), Джонатан Свифт («Путешествия Гулливера», 1726), Николай Гоголь («Ревизор», 1836)."}},
+        {"type": "example", "text": {
+          "tk": "Gogolyň «Rewizor» komediýasyny derňäliň.\n1) Waka: kiçi bir şäheriň emeldarlary paýtagtdan gizlin barlagçy — rewizor gelýär diýen habary eşidýärler.\n2) Ýalňyşlyk: myhmanhanada ýaşaýan boş, öwünjeň ýaş ýigit Hlestakowy rewizor hasaplaýarlar.\n3) Satira: emeldarlar gorkudan oňa para berýärler, ýaranjaňlyk edýärler — şeýdip olaryň ikiýüzliligi, rüşwetçiligi paş edilýär.\n4) Groteks we giperbola: Hlestakow özi barada aşa ulaldylan ýalanlary aýdýar, emeldarlar bolsa oňa ynanýarlar.\n5) Tamamlanma: hakyky rewizoryň gelendigi habar berilýär, ähli gahrymanlar doňup galýarlar («dymma sahna»).\nNetije: bu ýumşak ýumor däl-de, ýiti satira.",
+          "ru": "Разберём комедию Гоголя «Ревизор».\n1) Завязка: чиновники маленького города узнают, что из столицы инкогнито едет ревизор.\n2) Ошибка: за ревизора принимают пустого хвастуна Хлестакова, живущего в трактире.\n3) Сатира: чиновники от страха дают ему взятки и угодничают — так обличаются их лицемерие и взяточничество.\n4) Гротеск и гипербола: Хлестаков сочиняет о себе невероятные небылицы, а чиновники верят.\n5) Финал: объявляют о приезде настоящего ревизора, и все герои застывают («немая сцена»).\nВывод: это не мягкий юмор, а острая сатира."}},
+        {"type": "choice",
+          "q": {"tk": "Jemgyýetiň ýaramaz häsiýetlerini ýiti gülki bilen paş edýän görnüş haýsy?", "ru": "Какой вид комического остро высмеивает пороки общества?"},
+          "options": [
+            {"tk": "Ýumor", "ru": "Юмор"},
+            {"tk": "Satira", "ru": "Сатира"},
+            {"tk": "Lirika", "ru": "Лирика"}
+          ],
+          "answer": 1,
+          "hint": {"tk": "Ýumor mylaýym, bu bolsa gazaply gülki.", "ru": "Юмор мягкий, а здесь — беспощадный смех."},
+          "explain": {"tk": "Satira ýiti we gazaply gülki bilen ýaramaz häsiýetleri ýazgarýar. Ýumor hoşniýetli gülýär, lirika bolsa gülküniň görnüşi däl.", "ru": "Сатира резко обличает пороки. Юмор смеётся добродушно, а лирика — вообще не вид комического."}},
+        {"type": "choice",
+          "q": {"tk": "Ýagyşda hemme ýeri hapa bolup gelen dostuna: «Gör, nähili arassa gelipsiň!» diýmek — bu näme?", "ru": "Сказать другу, который весь в грязи пришёл с дождя: «Ну и чистый же ты!» — это что?"},
+          "options": [
+            {"tk": "Giperbola", "ru": "Гипербола"},
+            {"tk": "Groteks", "ru": "Гротеск"},
+            {"tk": "Ironiýa", "ru": "Ирония"}
+          ],
+          "answer": 2,
+          "hint": {"tk": "Söz tersine manyda ulanylýar.", "ru": "Слово употреблено в противоположном смысле."},
+          "explain": {"tk": "«Arassa» sözi «hapa» manysynda — tersine manyda ulanylýar. Bu ironiýa.", "ru": "Слово «чистый» означает здесь «грязный» — противоположный смысл. Это ирония."}},
+        {"type": "truefalse",
+          "q": {"tk": "Kemine — öz goşgularynda baýlaryň we ikiýüzli adamlaryň kemçiliklerini paş eden türkmen satirik şahyry.", "ru": "Кемине — туркменский поэт-сатирик, обличавший в стихах пороки богачей и лицемеров."},
+          "answer": true,
+          "hint": {"tk": "Kemine barada halk arasynda köp degişmeli gürrüňler hem bar.", "ru": "О Кемине в народе ходит и много шутливых историй."},
+          "explain": {"tk": "Kemine türkmen edebiýatynda satiranyň iň meşhur wekili. Ol garyplaryň tarapyny tutup, açgözlügi we ikiýüzliligi ýazgarypdyr.", "ru": "Кемине — самый известный сатирик туркменской литературы. Он защищал бедных и высмеивал жадность и лицемерие."}},
+        {"type": "input",
+          "q": {"tk": "Swiftiň «Gulliweriň syýahatlary» romany haýsy ýylda neşir edilipdir?", "ru": "В каком году были изданы «Путешествия Гулливера» Свифта?"},
+          "answer": "1726",
+          "hint": {"tk": "Ýyly ýokardaky teoriýadan tapyň.", "ru": "Найдите год в теории выше."},
+          "explain": {"tk": "Roman 1726-njy ýylda neşir edilipdir. Lilliputlar ýurdy — Swiftiň öz döwrüniň syýasatçylaryna satirik gülkisi.", "ru": "Роман издан в 1726 году. Страна лилипутов — сатира Свифта на политиков его времени."}},
+        {"type": "world", "text": {
+          "tk": "Swiftiň «Gulliweriň syýahatlary» romanyndan soň iňlis diline «lilliputian» — «örän kiçijik» diýen söz girip, häzir hem ulanylýar. Ilki bilen uly ýaşlylar üçin ýazylan satirik roman soňra dünýäde iň köp okalýan çagalar kitaplarynyň birine öwrülipdir.",
+          "ru": "После романа Свифта «Путешествия Гулливера» в английский язык вошло слово «lilliputian» — «крошечный», а в русский — «лилипут». Сатира, написанная для взрослых, стала одной из самых читаемых детских книг в мире."}}
+      ]
+    },
+    {
+      "id": "literature-7-lyric-poetry",
+      "grade": 7,
+      "topic": 5,
+      "title": {"tk": "Lirika", "ru": "Лирика"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Edebiýatyň üç görnüşi bar: epos (waka gürrüň berýär), drama (sahna üçin) we lirika.\n\nLirika — adamyň içki duýgularyny, pikirlerini we kalbynyň ýagdaýyny beýan edýän edebiýat görnüşi. Söz gadymy grek saz guraly «lira» sözünden gelýär: gadymda goşgular lira bilen aýdylypdyr.\n\n• Liriki gahryman — duýgulary goşgyda beýan edilýän «men».\n• Liriki goşgularyň temalary: söýgi lirikasy, tebigat (peýzaž) lirikasy, pelsepe lirikasy, Watan (raýatlyk) lirikasy.\n\nÇeperçilik serişdeleri:\n• Epitet — şekillendiriji aýyklaýjy: «altyn güýz».\n• Deňeşdirme — «ýaly, kimin, deý»: «ýyldyz ýaly gözler».\n• Metafora — gizlin deňeşdirme: «gyş gelip, ýere ak haly düşedi».\n• Kapyýa we ritm.\n\nTürkmen goşgusynda barmak ölçegi ulanylýar — her setirde bogunlaryň sany deň bolýar (meselem 7, 8 ýa-da 11 bogun).\nTürkmen liriki poeziýasynyň beýik wekili — Magtymguly Pyragy (XVIII asyr).",
+          "ru": "Существуют три рода литературы: эпос (рассказывает о событиях), драма (для сцены) и лирика.\n\nЛирика — род литературы, передающий внутренние чувства, мысли и душевное состояние человека. Слово происходит от древнегреческого инструмента «лира»: в древности стихи исполняли под лиру.\n\n• Лирический герой — «я», чьи переживания выражены в стихотворении.\n• Виды лирики: любовная, пейзажная, философская, гражданская.\n\nХудожественные средства:\n• Эпитет — образное определение: «золотая осень».\n• Сравнение — со словами «как, словно, будто»: «глаза как звёзды».\n• Метафора — скрытое сравнение: «зима застелила землю белым ковром».\n• Рифма и ритм.\n\nВ туркменском стихосложении используется слоговая система (barmak) — в каждой строке одинаковое число слогов (например 7, 8 или 11).\nВеликий представитель туркменской лирики — Махтумкули Фраги (XVIII век)."}},
+        {"type": "example", "text": {
+          "tk": "Öz düzen setirimizi derňäliň: «Daň bilen açyldy gülgüne laleler».\n1) Bogunlary sanaýarys: Daň / bi-len / a-çyl-dy / gül-gü-ne / la-le-ler → 1 + 2 + 3 + 3 + 3 = 12 bogun.\n2) «Gülgüne» — lalelere berilýän şekillendiriji aýyklaýjy → epitet.\n3) Setir şatlyk we tebigatyň gözelligi baradaky duýguny berýär → tebigat (peýzaž) lirikasy.\n\nIndi deňeşdirme bilen metaforany tapalyň:\n• «Kölüň ýüzi aýna ýaly ýalpyldaýar» → «ýaly» bar → deňeşdirme.\n• «Kölüň aýnasy ýalpyldaýar» → «ýaly» ýok, köl göni aýna diýlip atlandyrylýar → metafora.",
+          "ru": "Разберём строку, которую мы составили сами: «Daň bilen açyldy gülgüne laleler» (С рассветом раскрылись розовые тюльпаны).\n1) Считаем слоги: Daň / bi-len / a-çyl-dy / gül-gü-ne / la-le-ler → 1 + 2 + 3 + 3 + 3 = 12 слогов.\n2) «Gülgüne» (розовые, алые) — образное определение тюльпанов → эпитет.\n3) Строка передаёт радость и красоту природы → пейзажная лирика.\n\nТеперь найдём сравнение и метафору:\n• «Kölüň ýüzi aýna ýaly ýalpyldaýar» (Гладь озера блестит, как зеркало) → есть «ýaly» → сравнение.\n• «Kölüň aýnasy ýalpyldaýar» (Блестит зеркало озера) → «ýaly» нет, озеро прямо названо зеркалом → метафора."}},
+        {"type": "choice",
+          "q": {"tk": "«Lirika» sözi nämeden gelýär?", "ru": "От чего происходит слово «лирика»?"},
+          "options": [
+            {"tk": "Gadymy grek saz guraly lira", "ru": "От древнегреческого инструмента лиры"},
+            {"tk": "Latyn dilindäki «lider» sözi", "ru": "От латинского слова «лидер»"},
+            {"tk": "Şahyryň ady", "ru": "От имени поэта"}
+          ],
+          "answer": 0,
+          "hint": {"tk": "Gadymy greklerde goşgular saz bilen aýdylypdyr.", "ru": "У древних греков стихи исполняли под музыку."},
+          "explain": {"tk": "Lira — gadymy grek kirişli saz guraly. Goşgular onuň sazy bilen aýdylany üçin şeýle atlandyrylypdyr.", "ru": "Лира — древнегреческий струнный инструмент. Стихи исполняли под её звуки, отсюда и название."}},
+        {"type": "choice",
+          "q": {"tk": "«Gar ýagyp, daglar ak don geýdi.» Bu ýerde haýsy çeperçilik serişdesi ulanylýar?", "ru": "«Gar ýagyp, daglar ak don geýdi.» (Выпал снег, и горы надели белый халат.) Какое художественное средство здесь использовано?"},
+          "options": [
+            {"tk": "Deňeşdirme", "ru": "Сравнение"},
+            {"tk": "Kapyýa", "ru": "Рифма"},
+            {"tk": "Metafora", "ru": "Метафора"}
+          ],
+          "answer": 2,
+          "hint": {"tk": "«Ýaly, kimin» sözleri barmy?", "ru": "Есть ли слова «как, словно»?"},
+          "explain": {"tk": "Gar «ak don» diýlip atlandyrylýar, ýöne «ýaly» sözi ýok — bu gizlin deňeşdirme, ýagny metafora.", "ru": "Снег назван «белым халатом», но слова «как» нет — это скрытое сравнение, то есть метафора."}},
+        {"type": "input",
+          "q": {"tk": "«Bahar geldi meýdanlara» setirinde näçe bogun bar?", "ru": "Сколько слогов в строке «Bahar geldi meýdanlara»?"},
+          "answer": "8",
+          "hint": {"tk": "Her sözi bogunlara bölüň: Ba-har ...", "ru": "Разделите каждое слово на слоги: Ba-har ..."},
+          "explain": {"tk": "Ba-har (2) / gel-di (2) / meý-dan-la-ra (4) → 2 + 2 + 4 = 8 bogun.", "ru": "Ba-har (2) / gel-di (2) / meý-dan-la-ra (4) → 2 + 2 + 4 = 8 слогов."}},
+        {"type": "truefalse",
+          "q": {"tk": "Lirikada esasy zat — wakalaryň uzyn gürrüňi.", "ru": "В лирике главное — подробный рассказ о событиях."},
+          "answer": false,
+          "hint": {"tk": "Wakalary gürrüň bermek edebiýatyň haýsy görnüşine mahsus?", "ru": "Какому роду литературы свойствен рассказ о событиях?"},
+          "explain": {"tk": "Wakalary gürrüň bermek eposa mahsus. Lirikada esasy zat — liriki gahrymanyň duýgulary we pikirleri.", "ru": "Рассказ о событиях свойствен эпосу. В лирике главное — чувства и мысли лирического героя."}},
+        {"type": "world", "text": {
+          "tk": "Gadymy grek şahyry Safo (miladydan öňki VII–VI asyrlar) Lesbos adasynda ýaşapdyr we lirikanyň ilkinji beýik ussatlarynyň biri hasaplanýar. Onuň köp goşgusy ýitipdir — bize olaryň köpüsi diňe bölekler görnüşinde, käbirleri hatda müsür papiruslarynyň böleklerinde gelip ýetipdir.",
+          "ru": "Древнегреческая поэтесса Сапфо (VII–VI века до н. э.) жила на острове Лесбос и считается одним из первых великих мастеров лирики. Многие её стихи утрачены — до нас они дошли в основном отрывками, некоторые даже на обрывках египетских папирусов."}}
+      ]
+    }
+  ]
+}

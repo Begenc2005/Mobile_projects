@@ -1,0 +1,288 @@
+{
+  "grade": 2,
+  "subject": "turkmen",
+  "lessons": [
+    {
+      "id": "turkmen-2-vowels",
+      "grade": 2,
+      "topic": 0,
+      "title": {"tk": "Ýogyn we inçe çekimliler", "ru": "Твёрдые и мягкие гласные"},
+      "minutes": 7,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Türkmen dilinde 9 çekimli ses bar: a, e, ä, o, ö, u, ü, y, i.\nOlar iki topara bölünýär:\n• Ýogyn çekimliler: a, o, u, y 🐻\n• Inçe çekimliler: e, ä, ö, ü, i 🐦\nTürkmen sözlerinde köplenç diňe ýogyn ýa-da diňe inçe çekimliler bolýar.\n• at, gol, guş — ýogyn\n• el, gül, öý — inçe",
+          "ru": "В туркменском языке 9 гласных: a, e, ä, o, ö, u, ü, y, i.\nОни делятся на две группы:\n• Твёрдые (ýogyn): a, o, u, y 🐻\n• Мягкие (inçe): e, ä, ö, ü, i 🐦\nВ туркменских словах обычно только твёрдые или только мягкие гласные.\n• at, gol, guş — твёрдые\n• el, gül, öý — мягкие"
+        }},
+        {"type": "example", "text": {
+          "tk": "Goşulmany hem sözüň çekimlisine görä saýlaýarys.\n• Ýogyn söz → -lar: at → atlar 🐎, guş → guşlar 🐦\n• Inçe söz → -ler: gül → güller 🌷, öý → öýler 🏠\nSöz: «gyz». Çekimlisi — y. Ol ýogyn. Diýmek: gyzlar.",
+          "ru": "Окончание тоже выбираем по гласной слова.\n• Твёрдое слово → -lar: at → atlar 🐎, guş → guşlar 🐦\n• Мягкое слово → -ler: gül → güller 🌷, öý → öýler 🏠\nСлово «gyz» (девочка). Гласная — y. Она твёрдая. Значит: gyzlar."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Haýsy sözde diňe inçe çekimli bar?", "ru": "В каком слове только мягкая гласная?"},
+          "options": ["alma", "göz", "okuw"],
+          "answer": 1,
+          "hint": {"tk": "Inçe çekimliler: e, ä, ö, ü, i.", "ru": "Мягкие гласные: e, ä, ö, ü, i."},
+          "explain": {"tk": "«Göz» sözünde ö bar — ol inçe. «Alma» we «okuw» sözlerinde ýogyn çekimliler bar.", "ru": "В слове «göz» (глаз) гласная ö — мягкая. В «alma» и «okuw» гласные твёрдые."}
+        },
+        {"type": "input",
+          "q": {"tk": "«Gül» sözüne -lar ýa-da -ler goşup ýaz.", "ru": "Добавь к слову «gül» окончание -lar или -ler и напиши слово."},
+          "answer": "güller",
+          "hint": {"tk": "ü — ýogyn çekimlimi ýa-da inçe?", "ru": "Гласная ü — твёрдая или мягкая?"},
+          "explain": {"tk": "ü — inçe çekimli, şonuň üçin -ler: güller.", "ru": "ü — мягкая гласная, поэтому -ler: güller (цветы)."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«y» — ýogyn çekimli.", "ru": "«y» — твёрдая гласная."},
+          "answer": true,
+          "hint": {"tk": "Ýogyn çekimlileri ýatla: a, o, u, ...", "ru": "Вспомни твёрдые: a, o, u, ..."},
+          "explain": {"tk": "Dogry: a, o, u, y — ýogyn çekimliler.", "ru": "Верно: a, o, u, y — твёрдые гласные."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy çekimli ýogyn?", "ru": "Какая гласная твёрдая?"},
+          "options": ["e", "ü", "o"],
+          "answer": 2,
+          "hint": {"tk": "Aýy 🐻 sözüni ýatla: a, o, u, y.", "ru": "Вспомни группу медведя 🐻: a, o, u, y."},
+          "explain": {"tk": "o — ýogyn çekimli. e we ü — inçe.", "ru": "o — твёрдая гласная. e и ü — мягкие."}
+        },
+        {"type": "world", "text": {
+          "tk": "Sözde çekimlileriň «dostlaşmagy» diňe türkmen dilinde däl. Türk, gazak, şeýle hem fin we wenger dillerinde-de sözdäki çekimliler biri-birine meňzeş bolmaga çalyşýar. Alymlar muňa «çekimli sazlaşygy» diýýärler.",
+          "ru": "«Дружба» гласных в слове есть не только в туркменском. В турецком, казахском, а также в финском и венгерском языках гласные в слове тоже подстраиваются друг под друга. Учёные называют это «гармонией гласных»."
+        }}
+      ]
+    },
+    {
+      "id": "turkmen-2-word-meaning",
+      "grade": 2,
+      "topic": 1,
+      "title": {"tk": "Sözüň manysy", "ru": "Значение слова"},
+      "minutes": 7,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Her sözüň manysy bar.\n• Manydaş sözler — manysy ýakyn: owadan — gözel.\n• Garşylykly manyly sözler — manysy ters: uly — kiçi, gije — gündiz 🌙☀️.\n• Köpmanyly sözler — birnäçe manysy bar.",
+          "ru": "У каждого слова есть значение.\n• Синонимы (manydaş sözler) — близкие по смыслу: owadan — gözel (красивый).\n• Антонимы (garşylykly manyly sözler) — противоположные: uly — kiçi (большой — маленький), gije — gündiz (ночь — день) 🌙☀️.\n• Многозначные слова (köpmanyly sözler) — у них несколько значений."
+        }},
+        {"type": "example", "text": {
+          "tk": "«Dil» sözüne seredeliň:\n1) Agzymyzdaky dil 👅: «Çaý dilimi ýakdy.»\n2) Gürleýän dilimiz: «Men türkmen dilinde gürleýärin.»\nBir söz — iki many. Manysyny sözlemden bilýäris.",
+          "ru": "Посмотрим на слово «dil»:\n1) Язык во рту 👅: «Çaý dilimi ýakdy.» (Чай обжёг мне язык.)\n2) Язык, на котором говорим: «Men türkmen dilinde gürleýärin.» (Я говорю на туркменском языке.)\nОдно слово — два значения. Смысл понимаем по предложению."
+        }},
+        {"type": "choice",
+          "q": {"tk": "«Uly» sözüniň garşylykly manyly sözi haýsy?", "ru": "Какой антоним у слова «uly» (большой)?"},
+          "options": [{"tk": "kiçi", "ru": "kiçi (маленький)"}, {"tk": "beýik", "ru": "beýik (высокий)"}, {"tk": "köp", "ru": "köp (много)"}],
+          "answer": 0,
+          "hint": {"tk": "Pil 🐘 uly, syçan 🐭 ...", "ru": "Слон 🐘 большой, а мышь 🐭 ..."},
+          "explain": {"tk": "Uly — kiçi: manysy ters.", "ru": "Uly — kiçi (большой — маленький): значения противоположные."}
+        },
+        {"type": "input",
+          "q": {"tk": "«Gije» sözüniň garşylykly manyly sözüni ýaz.", "ru": "Напиши антоним к слову «gije» (ночь) по-туркменски."},
+          "answer": "gündiz",
+          "hint": {"tk": "Gün ☀️ asmanda bolanda ...", "ru": "Когда на небе солнце ☀️ ..."},
+          "explain": {"tk": "Gije — gündiz. Gije garaňky, gündiz ýagty.", "ru": "Gije — gündiz (ночь — день). Ночью темно, днём светло."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«Owadan» we «gözel» — manydaş sözler.", "ru": "«Owadan» и «gözel» — синонимы."},
+          "answer": true,
+          "hint": {"tk": "Iki söz hem gülüň nähili görünýändigini aýdýar 🌹.", "ru": "Оба слова говорят, как выглядит цветок 🌹."},
+          "explain": {"tk": "Dogry: ikisi hem «görmegeý» diýen manyny berýär.", "ru": "Верно: оба значат «красивый»."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy sözüň birnäçe manysy bar?", "ru": "У какого слова несколько значений?"},
+          "options": [{"tk": "pişik", "ru": "pişik (кошка)"}, {"tk": "dil", "ru": "dil (язык)"}, {"tk": "gawun", "ru": "gawun (дыня)"}],
+          "answer": 1,
+          "hint": {"tk": "Mysaldaky sözi ýatla.", "ru": "Вспомни слово из примера."},
+          "explain": {"tk": "«Dil» — agzymyzdaky dil we gürleýän dilimiz.", "ru": "«Dil» — это и язык во рту, и язык, на котором говорим."}
+        },
+        {"type": "world", "text": {
+          "tk": "Sözüň manysyny bilmek üçin sözlüge seredýäris 📖. Iň uly sözlükleriň biri — Oksford iňlis dili sözlügi. Onda ýüzlerçe müň söz bar we ony ýüz ýyldan gowrak wagt bäri düzýärler.",
+          "ru": "Чтобы узнать значение слова, мы открываем словарь 📖. Один из самых больших — Оксфордский словарь английского языка. В нём сотни тысяч слов, и его составляют уже больше ста лет."
+        }}
+      ]
+    },
+    {
+      "id": "turkmen-2-noun",
+      "grade": 2,
+      "topic": 2,
+      "title": {"tk": "At", "ru": "Имя существительное"},
+      "minutes": 7,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "At — zadyň, adamyň, haýwanyň adyny aňladýan söz.\n• Kim? — adamlar: mugallym, ejem, Merdan 👩‍🏫\n• Näme? — beýleki zatlar: kitap, pişik, alma 📕🐱🍎\nAdamlaryň atlary, şäherleriň we derýalaryň atlary baş harp bilen ýazylýar: Aýna, Aşgabat, Amyderýa.",
+          "ru": "Имя существительное (at) — слово, которое называет предмет, человека, животное.\n• Kim? (кто?) — люди: mugallym (учитель), ejem (мама), Merdan 👩‍🏫\n• Näme? (что?) — всё остальное: kitap (книга), pişik (кошка), alma (яблоко) 📕🐱🍎\nВ туркменском языке «kim?» — только о людях, а о животных спрашивают «näme?».\nИмена людей, городов и рек пишутся с большой буквы: Aýna, Aşgabat, Amyderýa."
+        }},
+        {"type": "example", "text": {
+          "tk": "Sözlem: «Aýna bagda alma iýdi.»\n• Kim? — Aýna.\n• Näme? — bag, alma.\nDiýmek, atlar: Aýna, bag, alma. «Aýna» — adamyň ady, şonuň üçin baş harp bilen.",
+          "ru": "Предложение: «Aýna bagda alma iýdi.» (Айна в саду съела яблоко.)\n• Kim? — Aýna.\n• Näme? — bag (сад), alma (яблоко).\nЗначит, существительные: Aýna, bag, alma. «Aýna» — имя, поэтому с большой буквы."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Haýsy söz at?", "ru": "Какое слово — существительное?"},
+          "options": [{"tk": "ylgady", "ru": "ylgady (побежал)"}, {"tk": "kitap", "ru": "kitap (книга)"}, {"tk": "gyzyl", "ru": "gyzyl (красный)"}],
+          "answer": 1,
+          "hint": {"tk": "«Näme?» soragyny ber.", "ru": "Задай вопрос «näme?» (что?)."},
+          "explain": {"tk": "Näme? — kitap. «Ylgady» — hereket, «gyzyl» — reňk.", "ru": "Что? — kitap (книга). «Ylgady» — действие, «gyzyl» — цвет."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«Aşgabat» sözi kiçi harp bilen ýazylýar.", "ru": "Слово «Aşgabat» пишется с маленькой буквы."},
+          "answer": false,
+          "hint": {"tk": "Bu şäheriň ady.", "ru": "Это название города."},
+          "explain": {"tk": "Şäherleriň atlary baş harp bilen ýazylýar: Aşgabat.", "ru": "Названия городов пишутся с большой буквы: Aşgabat."}
+        },
+        {"type": "choice",
+          "q": {"tk": "«Mugallym» sözi haýsy soraga jogap berýär?", "ru": "На какой вопрос отвечает слово «mugallym» (учитель)?"},
+          "options": [{"tk": "näme?", "ru": "näme? (что?)"}, {"tk": "nähili?", "ru": "nähili? (какой?)"}, {"tk": "kim?", "ru": "kim? (кто?)"}],
+          "answer": 2,
+          "hint": {"tk": "Mugallym — adam.", "ru": "Учитель — человек."},
+          "explain": {"tk": "Adamlar «kim?» soragyna jogap berýär: kim? — mugallym.", "ru": "О людях спрашиваем «kim?»: kim? — mugallym."}
+        },
+        {"type": "input",
+          "q": {"tk": "Sözlemde näçe at bar? «Pişik we it howluda oýnaýar.» 🐱🐶", "ru": "Сколько существительных в предложении? «Pişik we it howluda oýnaýar.» (Кошка и собака играют во дворе.) 🐱🐶"},
+          "answer": "3",
+          "hint": {"tk": "Her söze «näme?» soragyny ber.", "ru": "Задай каждому слову вопрос «näme?»."},
+          "explain": {"tk": "pişik, it, howly — 3 at. «we» — baglaýjy, «oýnaýar» — hereket.", "ru": "pişik (кошка), it (собака), howly (двор) — 3 существительных. «we» — союз, «oýnaýar» — действие."}
+        },
+        {"type": "world", "text": {
+          "tk": "Dünýäniň iň beýik dagy — Ewerest 🏔️. Ony iňlis alymy Jorj Eweresti hormatlap atlandyrypdyrlar. Ýerli halklar bu daga öňden bäri başga at — Jomolungma diýýärler. Iki at hem baş harp bilen ýazylýar!",
+          "ru": "Самая высокая гора мира — Эверест 🏔️. Её назвали в честь британского учёного Джорджа Эвереста. А местные народы издавна зовут её по-своему — Джомолунгма. Оба названия пишутся с большой буквы!"
+        }}
+      ]
+    },
+    {
+      "id": "turkmen-2-adjective",
+      "grade": 2,
+      "topic": 3,
+      "title": {"tk": "Sypat", "ru": "Имя прилагательное"},
+      "minutes": 7,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Sypat — zadyň alamatyny aňladýan söz. Ol «nähili?», «haýsy?» soraglaryna jogap berýär.\n• Reňk: gyzyl, ýaşyl 🔴🟢\n• Ululyk: uly, kiçi 🐘🐭\n• Tagam: süýji, turşy 🍯🍋\n• Häsiýet: batyr, mylaýym\nSypat köplenç atdan öň gelýär: gyzyl alma 🍎.",
+          "ru": "Имя прилагательное (sypat) — слово, которое называет признак предмета. Отвечает на вопросы «nähili?» (какой?), «haýsy?» (который?).\n• Цвет: gyzyl (красный), ýaşyl (зелёный) 🔴🟢\n• Размер: uly (большой), kiçi (маленький) 🐘🐭\n• Вкус: süýji (сладкий), turşy (кислый) 🍯🍋\n• Характер: batyr (смелый), mylaýym (ласковый)\nВ туркменском прилагательное обычно стоит перед существительным: gyzyl alma (красное яблоко) 🍎."
+        }},
+        {"type": "example", "text": {
+          "tk": "Sözlem: «Uly agaçda gyzyl almalar bar.»\n• Agaç nähili? — uly.\n• Almalar nähili? — gyzyl.\nDiýmek, sypatlar: uly, gyzyl.",
+          "ru": "Предложение: «Uly agaçda gyzyl almalar bar.» (На большом дереве красные яблоки.)\n• Agaç nähili? (дерево какое?) — uly.\n• Almalar nähili? (яблоки какие?) — gyzyl.\nЗначит, прилагательные: uly, gyzyl."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Haýsy söz sypat?", "ru": "Какое слово — прилагательное?"},
+          "options": [{"tk": "süýji", "ru": "süýji (сладкий)"}, {"tk": "bal", "ru": "bal (мёд)"}, {"tk": "iýmek", "ru": "iýmek (есть)"}],
+          "answer": 0,
+          "hint": {"tk": "«Nähili?» soragyny ber.", "ru": "Задай вопрос «nähili?» (какой?)."},
+          "explain": {"tk": "Nähili? — süýji. «Bal» — at, «iýmek» — işlik.", "ru": "Какой? — süýji (сладкий). «Bal» — существительное, «iýmek» — глагол."}
+        },
+        {"type": "input",
+          "q": {"tk": "Sözlemdäki sypaty ýaz: «Ak pişik ýatyr.» 🐈", "ru": "Напиши прилагательное из предложения: «Ak pişik ýatyr.» (Белая кошка лежит.) 🐈"},
+          "answer": "ak",
+          "hint": {"tk": "Pişik nähili?", "ru": "Кошка какая?"},
+          "explain": {"tk": "Pişik nähili? — ak. «Ak» — sypat.", "ru": "Кошка какая? — ak (белая). «Ak» — прилагательное."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Sypat «kim?» soragyna jogap berýär.", "ru": "Прилагательное отвечает на вопрос «kim?» (кто?)."},
+          "answer": false,
+          "hint": {"tk": "«Kim?» — adamlar hakynda.", "ru": "«Kim?» — вопрос о людях."},
+          "explain": {"tk": "«Kim?» — atyň soragy. Sypat «nähili?», «haýsy?» soraglaryna jogap berýär.", "ru": "«Kim?» — вопрос существительного. Прилагательное отвечает на «nähili?», «haýsy?»."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Limon nähili? 🍋", "ru": "Лимон какой на вкус? 🍋"},
+          "options": [{"tk": "süýji", "ru": "süýji (сладкий)"}, {"tk": "duzly", "ru": "duzly (солёный)"}, {"tk": "turşy", "ru": "turşy (кислый)"}],
+          "answer": 2,
+          "hint": {"tk": "Limony dadanyňda ýüzüň gyşarýar 😖.", "ru": "Когда ешь лимон, морщишься 😖."},
+          "explain": {"tk": "Limon turşy. «Turşy» — tagamy aňladýan sypat.", "ru": "Лимон кислый. «Turşy» — прилагательное вкуса."}
+        },
+        {"type": "world", "text": {
+          "tk": "Älemgoşar 🌈 näçe reňkli? Beýik alym Isaak Nýuton onda 7 reňk atlandyrypdyr: gyzyl, mämişi, sary, ýaşyl, mawy, gök, benewşe. Bularyň hemmesi — sypatlar!",
+          "ru": "Сколько цветов у радуги 🌈? Великий учёный Исаак Ньютон назвал 7: красный, оранжевый, жёлтый, зелёный, голубой, синий, фиолетовый. Все эти слова — прилагательные!"
+        }}
+      ]
+    },
+    {
+      "id": "turkmen-2-verb",
+      "grade": 2,
+      "topic": 4,
+      "title": {"tk": "Işlik", "ru": "Глагол"},
+      "minutes": 7,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Işlik — hereketi aňladýan söz: ylgamak 🏃, okamak 📖, ýazmak ✏️, gülmek 😄.\nSoraglary: näme etmek? näme etdi? näme edýär? näme etjek?\nIşligiň başlangyç görnüşi -mak ýa-da -mek bilen gutarýar:\n• ýogyn söz → -mak: okamak, ýazmak\n• inçe söz → -mek: gelmek, gülmek",
+          "ru": "Глагол (işlik) — слово, которое обозначает действие: ylgamak (бегать) 🏃, okamak (читать) 📖, ýazmak (писать) ✏️, gülmek (смеяться) 😄.\nВопросы: näme etmek? (что делать?), näme etdi? (что сделал?), näme edýär? (что делает?), näme etjek? (что сделает?).\nНачальная форма глагола оканчивается на -mak или -mek:\n• твёрдое слово → -mak: okamak, ýazmak\n• мягкое слово → -mek: gelmek, gülmek"
+        }},
+        {"type": "example", "text": {
+          "tk": "«Ahmet kitap okaýar.» Ahmet näme edýär? — okaýar. Bu işlik.\nIşlik wagty görkezýär:\n• düýn — okady (geçen wagt)\n• häzir — okaýar (häzirki wagt)\n• ertir — okajak (geljek wagt)",
+          "ru": "«Ahmet kitap okaýar.» (Ахмет читает книгу.) Что делает Ахмет? — okaýar. Это глагол.\nГлагол показывает время:\n• вчера — okady (прошедшее)\n• сейчас — okaýar (настоящее)\n• завтра — okajak (будущее)"
+        }},
+        {"type": "choice",
+          "q": {"tk": "Haýsy söz işlik?", "ru": "Какое слово — глагол?"},
+          "options": [{"tk": "deňiz", "ru": "deňiz (море)"}, {"tk": "ýüzmek", "ru": "ýüzmek (плавать)"}, {"tk": "mawy", "ru": "mawy (голубой)"}],
+          "answer": 1,
+          "hint": {"tk": "Hereketi tap. Kim -mak / -mek bilen gutarýar?", "ru": "Найди действие. Что оканчивается на -mak / -mek?"},
+          "explain": {"tk": "Ýüzmek — hereket 🏊. «Deňiz» — at, «mawy» — sypat.", "ru": "Ýüzmek (плавать) — действие 🏊. «Deňiz» — существительное, «mawy» — прилагательное."}
+        },
+        {"type": "input",
+          "q": {"tk": "«Gel» sözüne -mak ýa-da -mek goşup ýaz.", "ru": "Добавь к «gel» окончание -mak или -mek и напиши глагол."},
+          "answer": "gelmek",
+          "hint": {"tk": "«e» — ýogyn çekimlimi ýa-da inçe?", "ru": "Гласная «e» — твёрдая или мягкая?"},
+          "explain": {"tk": "e — inçe çekimli, şonuň üçin -mek: gelmek.", "ru": "e — мягкая гласная, поэтому -mek: gelmek (приходить)."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«Ýazdy» — geçen wagtdaky işlik.", "ru": "«Ýazdy» (написал) — глагол прошедшего времени."},
+          "answer": true,
+          "hint": {"tk": "«Okady» bilen deňeşdir.", "ru": "Сравни с «okady»."},
+          "explain": {"tk": "Dogry: «ýazdy» — hereket eýýäm boldy.", "ru": "Верно: «ýazdy» — действие уже произошло."}
+        },
+        {"type": "choice",
+          "q": {"tk": "«Guş asmanda ...» Haýsy söz gerek? 🐦", "ru": "«Guş asmanda ...» (Птица в небе ...) Какое слово нужно? 🐦"},
+          "options": [{"tk": "uçýar", "ru": "uçýar (летит)"}, {"tk": "gök", "ru": "gök (синий)"}, {"tk": "guşlar", "ru": "guşlar (птицы)"}],
+          "answer": 0,
+          "hint": {"tk": "Guş näme edýär?", "ru": "Что делает птица?"},
+          "explain": {"tk": "Guş näme edýär? — uçýar. Sözleme işlik gerek.", "ru": "Что делает птица? — uçýar (летит). Нужен глагол."}
+        },
+        {"type": "world", "text": {
+          "tk": "Kolibri 🐦 — ýeke-täk guş, ol yza-da uçup bilýär! Onuň ganatlary şeýle çalt kakylýar welin, olar «gyzzyldaýan» ýaly ses çykarýar. Şonuň üçin iňlisler oňa «gyzzyldaýan guş» diýýärler.",
+          "ru": "Колибри 🐦 — единственная птица, которая умеет летать назад! Её крылья машут так быстро, что слышно жужжание. Поэтому по-английски её называют «жужжащая птица»."
+        }}
+      ]
+    },
+    {
+      "id": "turkmen-2-sentence-types",
+      "grade": 2,
+      "topic": 5,
+      "title": {"tk": "Sözlemiň görnüşleri", "ru": "Виды предложений"},
+      "minutes": 7,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Sözlemler üç görnüşli bolýar:\n• Habar sözlem — bir zat habar berýär. Ahyrynda nokat (.): «Gün dogdy.» ☀️\n• Sorag sözlem — sorag berýär. Ahyrynda sorag belgisi (?): «Sen nirede ýaşaýarsyň?»\n• Ýüzlenme sözlem — güýçli duýgy aňladýar. Ahyrynda ýüzlenme belgisi (!): «Nähili owadan!» 🤩",
+          "ru": "Предложения бывают трёх видов:\n• Повествовательное (habar sözlem) — сообщает. В конце точка (.): «Gün dogdy.» (Взошло солнце.) ☀️\n• Вопросительное (sorag sözlem) — спрашивает. В конце знак вопроса (?): «Sen nirede ýaşaýarsyň?» (Где ты живёшь?)\n• Восклицательное (ýüzlenme sözlem) — выражает сильное чувство. В конце восклицательный знак (!): «Nähili owadan!» (Как красиво!) 🤩"
+        }},
+        {"type": "example", "text": {
+          "tk": "Habar sözlemi sorag sözleme öwreliň. Munuň üçin -my ýa-da -mi goşulmasyny goşýarys:\n• «Aman mekdebe gitdi.» → «Aman mekdebe gitdimi?»\n• «Sen kitap okadyň.» → «Sen kitap okadyňmy?»\nÝogyn sözde -my, inçe sözde -mi.",
+          "ru": "Превратим повествовательное предложение в вопрос. Для этого добавляем частицу -my или -mi:\n• «Aman mekdebe gitdi.» (Аман ушёл в школу.) → «Aman mekdebe gitdimi?» (Аман ушёл в школу?)\n• «Sen kitap okadyň.» (Ты читал книгу.) → «Sen kitap okadyňmy?»\nПосле твёрдых гласных -my, после мягких -mi."
+        }},
+        {"type": "choice",
+          "q": {"tk": "«Sen alma iýdiňmi» — ahyryna haýsy belgi goýulýar?", "ru": "«Sen alma iýdiňmi» (Ты съел яблоко) — какой знак ставится в конце?"},
+          "options": [".", "!", "?"],
+          "answer": 2,
+          "hint": {"tk": "Sözlemde -mi bar.", "ru": "В предложении есть частица -mi."},
+          "explain": {"tk": "Bu sorag sözlem, şonuň üçin sorag belgisi: «Sen alma iýdiňmi?»", "ru": "Это вопросительное предложение, поэтому знак вопроса: «Sen alma iýdiňmi?»"}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«Gün dogdy.» — habar sözlem.", "ru": "«Gün dogdy.» — повествовательное предложение."},
+          "answer": true,
+          "hint": {"tk": "Ahyrynda haýsy belgi bar?", "ru": "Какой знак стоит в конце?"},
+          "explain": {"tk": "Dogry: ol habar berýär we ahyrynda nokat bar.", "ru": "Верно: оно сообщает, и в конце точка."}
+        },
+        {"type": "input",
+          "q": {"tk": "Ýüzlenme sözlemiň ahyrynda haýsy belgi goýulýar? Belgini ýaz.", "ru": "Какой знак ставится в конце восклицательного предложения? Напиши знак."},
+          "answer": "!",
+          "hint": {"tk": "«Nähili owadan...»", "ru": "«Как красиво...»"},
+          "explain": {"tk": "Ýüzlenme sözlemiň ahyrynda ýüzlenme belgisi (!) goýulýar.", "ru": "В конце восклицательного предложения ставится восклицательный знак (!)."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy sözlem — sorag sözlem?", "ru": "Какое предложение — вопросительное?"},
+          "options": [{"tk": "Nähili gowy!", "ru": "Nähili gowy! (Как хорошо!)"}, {"tk": "Sen nirede ýaşaýarsyň?", "ru": "Sen nirede ýaşaýarsyň? (Где ты живёшь?)"}, {"tk": "Men okaýaryn.", "ru": "Men okaýaryn. (Я читаю.)"}],
+          "answer": 1,
+          "hint": {"tk": "Sorag sözi «nirede?» gözle.", "ru": "Ищи вопросительное слово «nirede?» (где?)."},
+          "explain": {"tk": "«Sen nirede ýaşaýarsyň?» — sorag berýär, ahyrynda «?».", "ru": "«Sen nirede ýaşaýarsyň?» — задаёт вопрос, в конце «?»."}
+        },
+        {"type": "world", "text": {
+          "tk": "Ispan dilinde sorag sözlemiň diňe ahyrynda däl, başynda-da belgi goýulýar — ters sorag belgisi: ¿Cómo estás? («Ýagdaýlaryň nähili?»). Ýüzlenme sözlemde hem şeýle: ¡Hola! («Salam!»).",
+          "ru": "В испанском языке знак вопроса ставят не только в конце, но и в начале — перевёрнутый: ¿Cómo estás? («Как дела?»). С восклицанием так же: ¡Hola! («Привет!»)."
+        }}
+      ]
+    }
+  ]
+}

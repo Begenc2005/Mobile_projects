@@ -1,0 +1,288 @@
+{
+  "grade": 1,
+  "subject": "russian",
+  "lessons": [
+    {
+      "id": "russian-1-zdravstvuy",
+      "grade": 1,
+      "topic": 0,
+      "title": {"tk": "Tanyşlyk: Здравствуй!", "ru": "Знакомство: Здравствуй!"},
+      "minutes": 6,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Rus dilinde salamlaşmak:\n• Здравствуй! — Salam! (dosta, çaga) 👋\n• Здравствуйте! — Salam! (ulula, mugallyma) 🙇\n• Привет! — Salam! (dosta)\nTanyşmak:\n• Как тебя зовут? — Adyň näme?\n• Меня зовут Мерген. — Meniň adym Mergen.\nHoşlaşmak:\n• До свидания! — Hoş gal!\n• Пока! — Sag bol, hoş! (dosta)",
+          "ru": "Как здороваться по-русски:\n• Здравствуй! — другу, ребёнку 👋\n• Здравствуйте! — взрослому, учителю 🙇\n• Привет! — другу\nЗнакомство:\n• Как тебя зовут?\n• Меня зовут Мерген.\nПрощание:\n• До свидания!\n• Пока! (другу)"
+        }},
+        {"type": "example", "text": {
+          "tk": "Mergen synpa girýär we mugallym bilen gürleşýär:\n👦 Здравствуйте!\n👩‍🏫 Здравствуй! Как тебя зовут?\n👦 Меня зовут Мерген.\n👩‍🏫 Очень приятно! (Tanyşanyma şat!)\nMugallym — uly adam, şonuň üçin Mergen «Здравствуйте» diýdi.",
+          "ru": "Мерген входит в класс и говорит с учительницей:\n👦 Здравствуйте!\n👩‍🏫 Здравствуй! Как тебя зовут?\n👦 Меня зовут Мерген.\n👩‍🏫 Очень приятно!\nУчительница — взрослая, поэтому Мерген сказал «Здравствуйте»."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Mugallym bilen nähili salamlaşmaly?", "ru": "Как поздороваться с учителем?"},
+          "options": ["Привет!", "Здравствуйте!", "Пока!"],
+          "answer": 1,
+          "hint": {"tk": "Mugallym — uly adam.", "ru": "Учитель — взрослый человек."},
+          "explain": {"tk": "Ululara «Здравствуйте!» diýilýär. «Привет» — dostlara, «Пока» — hoşlaşmak.", "ru": "Взрослым говорят «Здравствуйте!». «Привет» — друзьям, «Пока» — это прощание."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«До свидания!» — bu hoşlaşmak.", "ru": "«До свидания!» — это прощание."},
+          "answer": true,
+          "hint": {"tk": "Öýe gidip barýarkaň näme diýýäň?", "ru": "Что ты говоришь, когда уходишь домой?"},
+          "explain": {"tk": "Hawa, «До свидания!» — «Hoş gal!» diýmek.", "ru": "Да, «До свидания!» говорят, когда прощаются."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Saňa: «Как тебя зовут?» diýdiler. Näme jogap berýäň?", "ru": "Тебя спросили: «Как тебя зовут?» Что ты ответишь?"},
+          "options": ["Меня зовут Айна.", "До свидания!", "Здравствуйте!"],
+          "answer": 0,
+          "hint": {"tk": "Senden adyňy soraýarlar.", "ru": "У тебя спрашивают имя."},
+          "explain": {"tk": "«Как тебя зовут?» — «Adyň näme?» Jogap: «Меня зовут …» we adyň.", "ru": "На вопрос «Как тебя зовут?» отвечают: «Меня зовут …» и своё имя."}
+        },
+        {"type": "input",
+          "q": {"tk": "Sözi doldur: «Меня … Айна.»", "ru": "Вставь слово: «Меня … Айна.»"},
+          "answer": "зовут|Зовут",
+          "hint": {"tk": "Bu söz «Как тебя …?» soragynda hem bar.", "ru": "Это слово есть в вопросе «Как тебя …?»."},
+          "explain": {"tk": "Dogry: «Меня зовут Айна.» — «Meniň adym Aýna.»", "ru": "Правильно: «Меня зовут Айна.»"}
+        },
+        {"type": "world", "text": {
+          "tk": "Rus dili — dünýäde iň köp gürlenýän dilleriň biri. 🌍\nOl BMG-niň (Birleşen Milletler Guramasy) 6 resmi diliniň biri.",
+          "ru": "Русский язык — один из самых распространённых языков мира. 🌍\nОн один из 6 официальных языков ООН (Организации Объединённых Наций)."
+        }}
+      ]
+    },
+    {
+      "id": "russian-1-colours",
+      "grade": 1,
+      "topic": 1,
+      "title": {"tk": "Reňkler", "ru": "Цвета"},
+      "minutes": 6,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Rus dilinde reňkler:\n🔴 красный — gyzyl\n🟡 жёлтый — sary\n🟢 зелёный — ýaşyl\n🔵 синий — gök\n⚪ белый — ak\n⚫ чёрный — gara\n🟠 оранжевый — mämişi\nSorag: Какого цвета? — Haýsy reňkde?",
+          "ru": "Цвета по-русски:\n🔴 красный\n🟡 жёлтый\n🟢 зелёный\n🔵 синий\n⚪ белый\n⚫ чёрный\n🟠 оранжевый\nВопрос: Какого цвета?"
+        }},
+        {"type": "example", "text": {
+          "tk": "🍅 Помидор красный. — Pomidor gyzyl.\n🍋 Лимон жёлтый. — Limon sary.\n🥒 Огурец зелёный. — Hyýar ýaşyl.\n❄️ Снег белый. — Gar ak.\nRusça: haýsy zat + reňki.",
+          "ru": "🍅 Помидор красный.\n🍋 Лимон жёлтый.\n🥒 Огурец зелёный.\n❄️ Снег белый.\nСначала предмет, потом его цвет."
+        }},
+        {"type": "choice",
+          "q": {"tk": "🍋 Лимон … — haýsy reňk?", "ru": "🍋 Лимон … — какого цвета?"},
+          "options": ["синий", "чёрный", "жёлтый"],
+          "answer": 2,
+          "hint": {"tk": "Limon — sary.", "ru": "Вспомни, какого цвета лимон."},
+          "explain": {"tk": "Лимон жёлтый — limon sary. 🟡", "ru": "Лимон жёлтый. 🟡"}
+        },
+        {"type": "choice",
+          "q": {"tk": "«Зелёный» näme diýmek?", "ru": "Что значит «зелёный» по-туркменски?"},
+          "options": [{"tk": "ýaşyl 🟢", "ru": "ýaşyl 🟢"}, {"tk": "gyzyl 🔴", "ru": "gyzyl 🔴"}, {"tk": "ak ⚪", "ru": "ak ⚪"}],
+          "answer": 0,
+          "hint": {"tk": "Ot we ýaprak şu reňkde. 🌿", "ru": "Такого цвета трава и листья. 🌿"},
+          "explain": {"tk": "Зелёный — ýaşyl. «Трава зелёная» — ot ýaşyl.", "ru": "Зелёный — по-туркменски ýaşyl. «Трава зелёная»."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«Белый» — gara diýmek.", "ru": "«Белый» по-туркменски — gara."},
+          "answer": false,
+          "hint": {"tk": "Снег белый. ❄️ Gar haýsy reňkde?", "ru": "Снег белый. ❄️ А как будет «gara»?"},
+          "explain": {"tk": "Белый — ak. Gara bolsa — чёрный.", "ru": "Белый — ak. А gara — это чёрный."}
+        },
+        {"type": "input",
+          "q": {"tk": "Rusça ýaz: 🔴 gyzyl = ?", "ru": "Напиши по-русски цвет 🔴 (gyzyl):"},
+          "answer": "красный|Красный",
+          "hint": {"tk": "Ol «к» harpy bilen başlanýar.", "ru": "Слово начинается на букву «к»."},
+          "explain": {"tk": "Gyzyl — красный. Помидор красный. 🍅", "ru": "Gyzyl — красный. Помидор красный. 🍅"}
+        },
+        {"type": "world", "text": {
+          "tk": "Älemgoşarda 7 reňk görünýär: gyzyl, mämişi, sary, ýaşyl, mawy, gök we benewşe. 🌈\nÄlemgoşar Gün şöhlesi ýagyş damjalaryndan geçende emele gelýär.",
+          "ru": "В радуге видно 7 цветов: красный, оранжевый, жёлтый, зелёный, голубой, синий, фиолетовый. 🌈\nРадуга появляется, когда солнечный свет проходит через капли дождя."
+        }}
+      ]
+    },
+    {
+      "id": "russian-1-numbers-1-10",
+      "grade": 1,
+      "topic": 2,
+      "title": {"tk": "Sanlar 1–10", "ru": "Числа 1–10"},
+      "minutes": 6,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Rusça sanaýarys:\n1 — один\n2 — два\n3 — три\n4 — четыре\n5 — пять\n6 — шесть\n7 — семь\n8 — восемь\n9 — девять\n10 — десять\nSorag: Сколько? — Näçe?",
+          "ru": "Считаем по-русски:\n1 — один\n2 — два\n3 — три\n4 — четыре\n5 — пять\n6 — шесть\n7 — семь\n8 — восемь\n9 — девять\n10 — десять\nВопрос: Сколько?"
+        }},
+        {"type": "example", "text": {
+          "tk": "🍎🍎🍎 — Сколько яблок? (Näçe alma?)\nSanaýarys: один, два, три.\nJogap: Три яблока. — Üç alma.\n✋ Bir elde näçe barmak? — Пять! (5)",
+          "ru": "🍎🍎🍎 — Сколько яблок?\nСчитаем: один, два, три.\nОтвет: Три яблока.\n✋ Сколько пальцев на руке? — Пять!"
+        }},
+        {"type": "choice",
+          "q": {"tk": "«Семь» haýsy san?", "ru": "Какое число — «семь»?"},
+          "options": ["6", "7", "8"],
+          "answer": 1,
+          "hint": {"tk": "Ol «шесть» sanyndan soň gelýär.", "ru": "Оно идёт после «шесть»."},
+          "explain": {"tk": "Семь — 7. Шесть — 6, восемь — 8.", "ru": "Семь — это 7. Шесть — 6, восемь — 8."}
+        },
+        {"type": "input",
+          "q": {"tk": "«Четыре» — sanlar bilen ýaz.", "ru": "Напиши цифрой: «четыре»."},
+          "answer": "4",
+          "hint": {"tk": "один, два, три, …", "ru": "один, два, три, …"},
+          "explain": {"tk": "Четыре — 4.", "ru": "Четыре — это 4."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«Десять» — bu 10.", "ru": "«Десять» — это 10."},
+          "answer": true,
+          "hint": {"tk": "Iki eliňdäki barmaklary sana. 🙌", "ru": "Посчитай пальцы на двух руках. 🙌"},
+          "explain": {"tk": "Hawa, десять — 10. Iki elde 10 barmak bar.", "ru": "Да, десять — это 10. На двух руках 10 пальцев."}
+        },
+        {"type": "choice",
+          "q": {"tk": "⭐⭐⭐⭐⭐⭐⭐⭐⭐ — Сколько звёзд?", "ru": "⭐⭐⭐⭐⭐⭐⭐⭐⭐ — Сколько звёзд?"},
+          "options": ["восемь", "десять", "девять"],
+          "answer": 2,
+          "hint": {"tk": "Ýyldyzlary bir-birden sana.", "ru": "Посчитай звёзды по одной."},
+          "explain": {"tk": "9 ýyldyz — девять.", "ru": "Здесь 9 звёзд — девять."}
+        },
+        {"type": "world", "text": {
+          "tk": "Biziň ulanýan sanlarymyz (1, 2, 3 …) «arap sanlary» diýlip atlandyrylýar. 🔢\nOlar ilki Hindistanda döräpdir, soň arap alymlary arkaly Ýewropa ýaýrapdyr. Bu ýolda Horezmden çykan alym al-Horezminiň kitaplary uly rol oýnapdyr.",
+          "ru": "Цифры, которыми мы пишем (1, 2, 3 …), называют «арабскими». 🔢\nОни появились в Индии, а в Европу пришли через арабских учёных. Большую роль сыграли книги учёного из Хорезма — аль-Хорезми."
+        }}
+      ]
+    },
+    {
+      "id": "russian-1-family",
+      "grade": 1,
+      "topic": 3,
+      "title": {"tk": "Maşgala", "ru": "Семья"},
+      "minutes": 6,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Rusça maşgala sözleri:\n👩 мама — eje\n👨 папа — kaka\n👦 брат — dogan (oglan)\n👧 сестра — dogan (gyz)\n👵 бабушка — ene, mama\n👴 дедушка — ata, baba\n👨‍👩‍👧‍👦 семья — maşgala\nMeniň: мой папа, мой брат; моя мама, моя сестра.",
+          "ru": "Слова о семье:\n👩 мама\n👨 папа\n👦 брат\n👧 сестра\n👵 бабушка\n👴 дедушка\n👨‍👩‍👧‍👦 семья\nГоворим: мой папа, мой брат; моя мама, моя сестра."
+        }},
+        {"type": "example", "text": {
+          "tk": "Aýna öz maşgalasy hakda aýdýar:\n«Это моя семья. — Bu meniň maşgalam.\nЭто моя мама. — Bu meniň ejem.\nЭто мой папа. — Bu meniň kakam.\nЭто мой брат. — Bu meniň doganym.»\n«Это» — «bu» diýmek.",
+          "ru": "Айна рассказывает о семье:\n«Это моя семья.\nЭто моя мама.\nЭто мой папа.\nЭто мой брат.»\nМама, сестра, семья — «моя»; папа, брат — «мой»."
+        }},
+        {"type": "choice",
+          "q": {"tk": "👵 Rusça nähili?", "ru": "Как по-русски 👵?"},
+          "options": ["дедушка", "бабушка", "сестра"],
+          "answer": 1,
+          "hint": {"tk": "Bu ýaşuly aýal.", "ru": "Это пожилая женщина."},
+          "explain": {"tk": "👵 — бабушка (ene). 👴 — дедушка (ata).", "ru": "👵 — бабушка. 👴 — дедушка."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Dogry sözi saýla: «Это … мама.»", "ru": "Выбери правильное слово: «Это … мама.»"},
+          "options": ["моя", "мой", "мои"],
+          "answer": 0,
+          "hint": {"tk": "Мама — aýal. Сестра sözi bilen deňeşdir: «… сестра».", "ru": "Сравни: «… сестра»."},
+          "explain": {"tk": "«Моя мама», «моя сестра». «Мой папа», «мой брат».", "ru": "Правильно: «моя мама», как «моя сестра». А «мой папа», «мой брат»."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«Брат» — bu oglan dogan.", "ru": "«Брат» — это мальчик в семье, сын мамы и папы."},
+          "answer": true,
+          "hint": {"tk": "👦 брат, 👧 сестра.", "ru": "👦 брат, 👧 сестра."},
+          "explain": {"tk": "Hawa: брат — oglan dogan, сестра — gyz dogan.", "ru": "Да: брат — мальчик, сестра — девочка."}
+        },
+        {"type": "input",
+          "q": {"tk": "Rusça ýaz: 👨 kaka = ?", "ru": "Напиши по-русски: 👨 = ?"},
+          "answer": "папа|Папа",
+          "hint": {"tk": "Bu söz «п» harpy bilen başlanýar.", "ru": "Слово начинается на букву «п»."},
+          "explain": {"tk": "Kaka — папа. «Это мой папа.»", "ru": "👨 — папа. «Это мой папа.»"}
+        },
+        {"type": "world", "text": {
+          "tk": "Rus halkynyň meşhur oýnawajy — матрёшка. 🪆\nBu agaç gurjagyň içinde kiçi gurjak, onuň içinde ýene has kiçisi bar. Matrýoşka köplenç maşgalanyň nyşany hasaplanýar.",
+          "ru": "Знаменитая русская игрушка — матрёшка. 🪆\nВнутри деревянной куклы прячется кукла поменьше, а в ней — ещё меньше. Матрёшку часто считают символом семьи."
+        }}
+      ]
+    },
+    {
+      "id": "russian-1-animals",
+      "grade": 1,
+      "topic": 4,
+      "title": {"tk": "Haýwanlar", "ru": "Животные"},
+      "minutes": 6,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Rusça haýwanlar:\n🐈 кошка — pişik\n🐕 собака — it\n🐄 корова — sygyr\n🐎 лошадь — at\n🐑 овца — goýun\n🐪 верблюд — düýe\n🐺 волк — möjek\n🐻 медведь — aýy\n🐰 заяц — towşan\nSorag: Кто это? — Bu kim?",
+          "ru": "Животные по-русски:\n🐈 кошка\n🐕 собака\n🐄 корова\n🐎 лошадь\n🐑 овца\n🐪 верблюд\n🐺 волк\n🐻 медведь\n🐰 заяц\nВопрос о животном: Кто это?"
+        }},
+        {"type": "example", "text": {
+          "tk": "— Кто это? 🐕 (Bu kim?)\n— Это собака. (Bu it.)\n— Собака говорит: «Гав-гав!» 🐶\n— Кошка говорит: «Мяу!» 🐱\nRusça it «гав-гав», pişik «мяу» diýýär.",
+          "ru": "— Кто это? 🐕\n— Это собака.\n— Собака говорит: «Гав-гав!» 🐶\n— Кошка говорит: «Мяу!» 🐱"
+        }},
+        {"type": "choice",
+          "q": {"tk": "🐪 Кто это?", "ru": "🐪 Кто это?"},
+          "options": ["Это корова.", "Это волк.", "Это верблюд."],
+          "answer": 2,
+          "hint": {"tk": "Onuň örküji bar, ol çölde ýaşaýar.", "ru": "У него горб, он живёт в пустыне."},
+          "explain": {"tk": "🐪 — верблюд (düýe).", "ru": "🐪 — это верблюд."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«Медведь» — aýy. 🐻", "ru": "«Медведь» — это 🐻."},
+          "answer": true,
+          "hint": {"tk": "Sanawy ýatla: 🐻 медведь.", "ru": "Вспомни список."},
+          "explain": {"tk": "Hawa, медведь — aýy. 🐻", "ru": "Да, 🐻 — медведь."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Kim «Мяу!» diýýär?", "ru": "Кто говорит «Мяу!»?"},
+          "options": ["кошка 🐈", "собака 🐕", "корова 🐄"],
+          "answer": 0,
+          "hint": {"tk": "Ol syçan tutýar.", "ru": "Она ловит мышей."},
+          "explain": {"tk": "Кошка (pişik) «Мяу!» diýýär. Собака — «Гав!», корова — «Му!».", "ru": "«Мяу!» говорит кошка. Собака — «Гав!», корова — «Му!»."}
+        },
+        {"type": "input",
+          "q": {"tk": "Rusça ýaz: 🐕 it = ?", "ru": "Напиши по-русски: 🐕 = ?"},
+          "answer": "собака|Собака",
+          "hint": {"tk": "Ol «с» harpy bilen başlanýar we «Гав!» diýýär.", "ru": "Начинается на «с» и говорит «Гав!»."},
+          "explain": {"tk": "It — собака.", "ru": "🐕 — собака."}
+        },
+        {"type": "world", "text": {
+          "tk": "Ahalteke aty — dünýäde iň gadymy at tohumlarynyň biri. 🐎\nOnuň ýüňi Gün şöhlesinde altyn ýaly ýalpyldaýar. Ol çydamly we çalt.",
+          "ru": "Ахалтекинская лошадь — одна из древнейших пород лошадей в мире. 🐎\nЕё шерсть блестит на солнце, словно золото. Она очень выносливая и быстрая."
+        }}
+      ]
+    },
+    {
+      "id": "russian-1-school-supplies",
+      "grade": 1,
+      "topic": 5,
+      "title": {"tk": "Mekdep goşlary", "ru": "Школьные принадлежности"},
+      "minutes": 6,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Rusça mekdep goşlary:\n✏️ карандаш — galam\n🖊 ручка — ruçka\n📕 книга — kitap\n📒 тетрадь — depder\n🎒 рюкзак — torba (rýukzak)\n📏 линейка — çyzgyç\n🧽 ластик — öçürgiç\nSorag: Что это? — Bu näme?",
+          "ru": "Школьные принадлежности:\n✏️ карандаш\n🖊 ручка\n📕 книга\n📒 тетрадь\n🎒 рюкзак\n📏 линейка\n🧽 ластик\nВопрос о предмете: Что это?"
+        }},
+        {"type": "example", "text": {
+          "tk": "Zatlar hakda «Что это?» (Bu näme?), adamlar we haýwanlar hakda «Кто это?» (Bu kim?) diýip soraýarys.\n— Что это? ✏️\n— Это карандаш.\n— У меня есть ручка. — Mende ruçka bar. 🖊",
+          "ru": "О предметах спрашиваем «Что это?», о людях и животных — «Кто это?».\n— Что это? ✏️\n— Это карандаш.\n— У меня есть ручка. 🖊"
+        }},
+        {"type": "choice",
+          "q": {"tk": "📒 Что это?", "ru": "📒 Что это?"},
+          "options": ["Это книга.", "Это тетрадь.", "Это линейка."],
+          "answer": 1,
+          "hint": {"tk": "Biz onuň içine ýazýarys.", "ru": "В ней мы пишем."},
+          "explain": {"tk": "📒 — тетрадь (depder). Книга — kitap.", "ru": "📒 — тетрадь. Книга — то, что мы читаем."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "📏 «Линейка» — çyzgyç.", "ru": "«Линейка» — это 📏."},
+          "answer": true,
+          "hint": {"tk": "Onuň bilen göni çyzyk çekýäris.", "ru": "Ею чертят прямые линии."},
+          "explain": {"tk": "Hawa, линейка — çyzgyç.", "ru": "Да, 📏 — это линейка."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy soragy dogry? (✏️ hakda)", "ru": "Какой вопрос правильный? (про ✏️)"},
+          "options": ["Что это?", "Кто это?", "Как тебя зовут?"],
+          "answer": 0,
+          "hint": {"tk": "Galam — janly däl, ol zat.", "ru": "Карандаш — не живой, это предмет."},
+          "explain": {"tk": "Zatlar hakda «Что это?» diýip soraýarys.", "ru": "О предметах спрашиваем «Что это?»."}
+        },
+        {"type": "input",
+          "q": {"tk": "Rusça ýaz: 📕 kitap = ?", "ru": "Напиши по-русски: 📕 = ?"},
+          "answer": "книга|Книга",
+          "hint": {"tk": "Ol «к» harpy bilen başlanýar.", "ru": "Начинается на букву «к»."},
+          "explain": {"tk": "Kitap — книга.", "ru": "📕 — книга."}
+        },
+        {"type": "world", "text": {
+          "tk": "Galamyň içindäki gara bölegi «grafit» diýilýär. ✏️\nIlkinji uly grafit ýatagy 1500-nji ýyllarda Angliýada tapylypdyr we şondan soň galamlar giňden ýaýrapdyr.",
+          "ru": "Тёмная часть внутри карандаша называется «графит». ✏️\nБольшое месторождение графита нашли в Англии в 1500-х годах, и после этого карандаши стали распространяться по миру."
+        }}
+      ]
+    }
+  ]
+}

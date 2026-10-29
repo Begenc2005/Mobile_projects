@@ -1,0 +1,294 @@
+{
+  "grade": 12,
+  "subject": "literature",
+  "lessons": [
+    {
+      "id": "literature-12-literary-movements",
+      "grade": 12,
+      "topic": 0,
+      "title": {"tk": "Edebi akymlar", "ru": "Литературные направления"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Edebi akym — belli bir döwürde ýazyjylaryň dünýägaraýşyny we çeperçilik usulyny birleşdirýän ugur.\n\n• Klassisizm (XVII asyr, Fransiýa): akyl, tertip, gadymy nusgalar; Kornel, Rasin, Molýer.\n• Romantizm (XVIII asyryň ahyry – XIX asyryň birinji ýarymy): duýgy, tebigat, erkin şahsyýet, ajaýyp ýagdaýlar; Baýron, Wiktor Gýugo, Lermontow.\n• Realizm (XIX asyr): durmuşy bolşy ýaly görkezmek, tipik gahrymanlar we jemgyýetçilik sebäpleri; Balzak, Dikkens, Lew Tolstoý.\n• Modernizm (XX asyryň başy): däplerden ýüz öwürmek, «aň akymy», wagtyň bölünmegi; Jeýms Joýs, Wirjiniýa Wulf, Franz Kafka.\n• Postmodernizm (XX asyryň ikinji ýarymy): oýun, sitatalar, «tekst içinde tekst».",
+          "ru": "Литературное направление — общность мировоззрения и художественного метода писателей определённой эпохи.\n\n• Классицизм (XVII в., Франция): разум, порядок, античные образцы; Корнель, Расин, Мольер.\n• Романтизм (конец XVIII – первая половина XIX в.): чувство, природа, свободная личность, исключительные обстоятельства; Байрон, Виктор Гюго, Лермонтов.\n• Реализм (XIX в.): изображение жизни такой, какая она есть, типичные герои и социальные причины; Бальзак, Диккенс, Лев Толстой.\n• Модернизм (начало XX в.): отказ от традиций, «поток сознания», раздробленное время; Джеймс Джойс, Вирджиния Вулф, Франц Кафка.\n• Постмодернизм (вторая половина XX в.): игра, цитаты, «текст в тексте»."}},
+        {"type": "example", "text": {
+          "tk": "Bir mowzugy — ýalňyz adamy — dürli akymlar nähili görkezýär?\n\n1) Romantizm: gahryman jemgyýetden gaçýar, dag-deňiz ýaly beýik tebigatda öz erkinligini gözleýär (Baýronyň «Çaýld Garoldyň syýahaty»).\n2) Realizm: ýalňyzlygyň sebäbi — pul, synpy tapawut, maşgala ýagdaýy; gahryman jemgyýetiň bir bölegi (Balzagyň «Goriot ata»).\n3) Modernizm: ýalňyzlyk adamyň içki dünýäsinden we absurd dünýäden gelýär (Kafkanyň «Öwrülişik» powesti — gahryman bir gün mör-möjege öwrülýär).",
+          "ru": "Как разные направления показывают одну тему — одинокого человека?\n\n1) Романтизм: герой бежит от общества, ищет свободу в величественной природе — горах, море («Паломничество Чайльд-Гарольда» Байрона).\n2) Реализм: причины одиночества — деньги, сословия, семейные обстоятельства; герой — часть общества («Отец Горио» Бальзака).\n3) Модернизм: одиночество исходит из внутреннего мира человека и абсурдности мира («Превращение» Кафки — герой однажды превращается в насекомое)."}},
+        {"type": "choice",
+          "q": {"tk": "Haýsy akym üçin «aň akymy» usuly häsiýetli?", "ru": "Для какого направления характерен приём «поток сознания»?"},
+          "options": [
+            {"tk": "Klassisizm", "ru": "Классицизм"},
+            {"tk": "Modernizm", "ru": "Модернизм"},
+            {"tk": "Realizm", "ru": "Реализм"}
+          ],
+          "answer": 1,
+          "hint": {"tk": "Jeýms Joýs we Wirjiniýa Wulf haýsy akyma degişli?", "ru": "К какому направлению относятся Джойс и Вулф?"},
+          "explain": {"tk": "«Aň akymy» — gahrymanyň pikirlerini tertipsiz, bolşy ýaly berýän usul. Ol modernistleriň, esasan Joýsuň «Uliss» we Wulfuň «Missis Dellouý» eserleriniň esasy aýratynlygy.", "ru": "«Поток сознания» передаёт мысли героя так, как они текут, без упорядочивания. Это главный приём модернистов, прежде всего «Улисса» Джойса и «Миссис Дэллоуэй» Вулф."}},
+        {"type": "truefalse",
+          "q": {"tk": "Klassisizm akymy duýgularyň akyldan ýokarydygyny öňe sürýärdi.", "ru": "Классицизм утверждал превосходство чувств над разумом."},
+          "answer": false,
+          "hint": {"tk": "Duýgulary birinji orna goýan haýsy akym?", "ru": "Какое направление ставило чувства на первое место?"},
+          "explain": {"tk": "Nädogry: klassisizm akyly we tertibi ýokary tutýardy. Duýgulary we şahsyýeti öňe süren romantizm boldy.", "ru": "Неверно: классицизм превозносил разум и порядок. Чувства и личность на первый план выдвинул романтизм."}},
+        {"type": "choice",
+          "q": {"tk": "Haýsy ýazyjy realizmiň wekili?", "ru": "Какой писатель — представитель реализма?"},
+          "options": [
+            {"tk": "Molýer", "ru": "Мольер"},
+            {"tk": "Franz Kafka", "ru": "Франц Кафка"},
+            {"tk": "Çarlz Dikkens", "ru": "Чарльз Диккенс"}
+          ],
+          "answer": 2,
+          "hint": {"tk": "Ol XIX asyr Angliýasynda garyp çagalaryň durmuşyny suratlandyrdy.", "ru": "Он описывал жизнь бедных детей в Англии XIX века."},
+          "explain": {"tk": "Dikkens («Oliwer Twist», «Uly umytlar») — iňlis realizminiň beýik wekili. Molýer — klassisizm, Kafka — modernizm.", "ru": "Диккенс («Оливер Твист», «Большие надежды») — крупнейший представитель английского реализма. Мольер — классицизм, Кафка — модернизм."}},
+        {"type": "input",
+          "q": {"tk": "Jeýms Joýsuň «Uliss» romany haýsy ýylda kitap görnüşinde çykdy?", "ru": "В каком году роман Джеймса Джойса «Улисс» вышел отдельной книгой?"},
+          "answer": "1922",
+          "hint": {"tk": "XX asyryň 20-nji ýyllarynyň başy; şol ýyl modernizm üçin «gudrat ýyly» diýilýär.", "ru": "Начало 1920-х; этот год называют «чудесным годом» модернизма."},
+          "explain": {"tk": "«Uliss» 1922-nji ýylda Parižde çap edildi. Şol ýyl T. S. Eliotyň «Taşlanan ýer» poemasy hem çykdy.", "ru": "«Улисс» вышел в Париже в 1922 году. В тот же год появилась поэма Т. С. Элиота «Бесплодная земля»."}},
+        {"type": "world", "text": {
+          "tk": "Joýsuň «Uliss» romanynyň ähli wakalary Dublinde bir günde — 1904-nji ýylyň 16-njy iýunynda bolup geçýär. Şol gün baş gahrymanyň adyndan «Blumsdeý» diýlip atlandyrylýar we her ýyl Irlandiýada we dünýäniň başga şäherlerinde okyjylar tarapyndan bellenýär.",
+          "ru": "Все события «Улисса» Джойса происходят в Дублине за один день — 16 июня 1904 года. Этот день по имени главного героя называют «Блумсдэй», и каждый год читатели отмечают его в Ирландии и других городах мира."}}
+      ]
+    },
+    {
+      "id": "literature-12-postmodernism",
+      "grade": 12,
+      "topic": 1,
+      "title": {"tk": "Postmodernizm", "ru": "Постмодернизм"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Postmodernizm XX asyryň ikinji ýarymynda emele geldi. Ol ýeke-täk «hakykata» we «uly hekaýalara» şübhe bilen garaýar.\n\nEsasy usullar:\n• Intertekstuallyk — başga eserlere salgylanmalar, sitatalar, parodiýa.\n• Metaproza — eser öz-özi hakda gürrüň berýär, ýazyjy okyja göni ýüzlenýär.\n• Pastiş — dürli stilleriň we žanrlaryň garyndysy.\n• Ironiýa we oýun, «ýokary» we «köpçülikleýin» medeniýetiň garyşmagy.\n• Bölünen, birnäçe gutarnykly kompozisiýa.\n\nWekilleri: Horhe Luis Borhes, Umberto Eko («Gülüň ady», 1980), Italo Kalwino, Wladimir Nabokow, Tomas Pinçon.",
+          "ru": "Постмодернизм сложился во второй половине XX века. Он с сомнением относится к единственной «истине» и «большим нарративам».\n\nОсновные приёмы:\n• Интертекстуальность — отсылки к другим произведениям, цитаты, пародия.\n• Метапроза — произведение рассказывает о самом себе, автор прямо обращается к читателю.\n• Пастиш — смешение разных стилей и жанров.\n• Ирония и игра, смешение «высокой» и массовой культуры.\n• Фрагментарная композиция, несколько концовок.\n\nПредставители: Хорхе Луис Борхес, Умберто Эко («Имя розы», 1980), Итало Кальвино, Владимир Набоков, Томас Пинчон."}},
+        {"type": "example", "text": {
+          "tk": "Umberto Ekonyň «Gülüň ady» romanyny derňäliň:\n\n1) Daşky gatlak — orta asyr monastyrynda bolýan detektiw. Bu köpçülikleýin žanr.\n2) Içki gatlak — filosofiýa, dini jedeller, kitaphanalar hakda pikirler. Bu «ýokary» edebiýat.\n3) Intertekstuallyk: gahryman Wilýam Baskerwilli — Şerlok Holmsa we Konan Doýlyň «Baskerwilleriň iti» eserine salgylanma; kör kitaphanaçy Horhe — Borhese salgylanma.\n4) Netije: bir roman dürli okyjylar üçin dürli derejede okalýar.",
+          "ru": "Разберём роман Умберто Эко «Имя розы»:\n\n1) Внешний слой — детектив в средневековом монастыре. Это массовый жанр.\n2) Внутренний слой — философия, богословские споры, размышления о библиотеках. Это «высокая» литература.\n3) Интертекстуальность: герой Вильгельм Баскервильский — отсылка к Шерлоку Холмсу и «Собаке Баскервилей» Конан Дойла; слепой библиотекарь Хорхе — отсылка к Борхесу.\n4) Итог: один роман читается на разных уровнях разными читателями."}},
+        {"type": "choice",
+          "q": {"tk": "Eseriň başga eserlere salgylanmalary nähili atlandyrylýar?", "ru": "Как называются отсылки произведения к другим произведениям?"},
+          "options": [
+            {"tk": "Intertekstuallyk", "ru": "Интертекстуальность"},
+            {"tk": "Giperbola", "ru": "Гипербола"},
+            {"tk": "Realizm", "ru": "Реализм"}
+          ],
+          "answer": 0,
+          "hint": {"tk": "Söz «tekstler arasynda» diýen manyny berýär.", "ru": "Слово означает «между текстами»."},
+          "explain": {"tk": "Intertekstuallyk — tekstleriň arasyndaky baglanyşyk: sitata, aňryşa, parodiýa. Bu postmodernizmiň esasy usuly.", "ru": "Интертекстуальность — связь между текстами: цитата, аллюзия, пародия. Это ключевой приём постмодернизма."}},
+        {"type": "truefalse",
+          "q": {"tk": "Metaproza — eseriň öz ýazylyşy ýa-da çeper ýalandygy hakda okyja aç-açan gürrüň bermegi.", "ru": "Метапроза — это когда произведение открыто говорит читателю о том, как оно написано или что оно вымысел."},
+          "answer": true,
+          "hint": {"tk": "«Meta» — «özi hakda» diýen manyny berýär.", "ru": "«Мета» — значит «о самом себе»."},
+          "explain": {"tk": "Dogry. Mysal: Kalwinonyň «Eger gyş gijesi bir syýahatçy...» romany okyja «sen» diýip ýüzlenýär we kitap okamak hakda gürrüň berýär.", "ru": "Верно. Пример: роман Кальвино «Если однажды зимней ночью путник...» обращается к читателю на «ты» и рассказывает о самом чтении книги."}},
+        {"type": "input",
+          "q": {"tk": "Umberto Ekonyň «Gülüň ady» romany haýsy ýylda çykdy?", "ru": "В каком году вышел роман Умберто Эко «Имя розы»?"},
+          "answer": "1980",
+          "hint": {"tk": "Nazaryýet böleginde görkezilen.", "ru": "Указано в теории."},
+          "explain": {"tk": "Roman 1980-nji ýylda Italiýada çykdy we köp dillere terjime edildi.", "ru": "Роман вышел в Италии в 1980 году и был переведён на множество языков."}},
+        {"type": "choice",
+          "q": {"tk": "Haýsy ýazyjy, esasan, postmodernizmiň öňdebaryjysy hasaplanýar?", "ru": "Кого чаще всего считают предтечей постмодернизма?"},
+          "options": [
+            {"tk": "Lew Tolstoý", "ru": "Лев Толстой"},
+            {"tk": "Pýer Kornel", "ru": "Пьер Корнель"},
+            {"tk": "Horhe Luis Borhes", "ru": "Хорхе Луис Борхес"}
+          ],
+          "answer": 2,
+          "hint": {"tk": "Ol labirintler, çäksiz kitaphanalar we toslama kitaplar hakda gysga hekaýalar ýazdy.", "ru": "Он писал короткие рассказы о лабиринтах, бесконечных библиотеках и вымышленных книгах."},
+          "explain": {"tk": "Argentinaly Borhesiň hekaýalary («Wawilon kitaphanasy» we başgalar) postmodernistleriň köpüsine güýçli täsir etdi. Tolstoý — realist, Kornel — klassisist.", "ru": "Рассказы аргентинца Борхеса («Вавилонская библиотека» и другие) сильно повлияли на многих постмодернистов. Толстой — реалист, Корнель — классицист."}},
+        {"type": "world", "text": {
+          "tk": "Borhesiň «Wawilon kitaphanasy» hekaýasynda harplaryň ähli mümkin utgaşmalaryny saklaýan çäksiz kitaphana suratlandyrylýar. 2015-nji ýylda programmist Jonatan Basil bu pikiri «Library of Babel» atly saýtda hakykata öwürdi: onda islendik gysga tekst bir ýerde öňünden «ýazylan».",
+          "ru": "В рассказе Борхеса «Вавилонская библиотека» описана бесконечная библиотека, в которой хранятся все возможные сочетания букв. В 2015 году программист Джонатан Бэйзил воплотил эту идею на сайте «Library of Babel»: любой короткий текст там уже где-то «написан»."}}
+      ]
+    },
+    {
+      "id": "literature-12-nobel-laureates",
+      "grade": 12,
+      "topic": 2,
+      "title": {"tk": "Edebiýat boýunça Nobel baýragynyň eýeleri", "ru": "Нобелевские лауреаты по литературе"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Nobel baýragy şwed oýlap tapyjysy Alfred Nobeliň wesýeti boýunça döredildi we 1901-nji ýyldan bäri berilýär. Edebiýat baýragyny Şwed akademiýasy berýär.\n\nKäbir belli eýeleri:\n• 1901 — Sýulli-Prýudom (Fransiýa), ilkinji eýesi.\n• 1913 — Rabindranat Tagor (Hindistan), ilkinji ýewropaly däl eýesi.\n• 1954 — Ernest Heminguýeý (ABŞ), «Garry adam we deňiz».\n• 1957 — Alber Kamýu (Fransiýa).\n• 1982 — Gabriel Garsiýa Markes (Kolumbiýa), «Ýüz ýyllyk ýalňyzlyk».\n• 1988 — Nagib Mahfuz (Müsür), arap dilinde ýazýan ilkinji eýesi.\n• 2006 — Orhan Pamuk (Türkiýe).\n\nBoris Pasternak (1958) we Žan-Pol Sartr (1964) baýragy kabul etmediler.",
+          "ru": "Нобелевская премия учреждена по завещанию шведского изобретателя Альфреда Нобеля и вручается с 1901 года. Премию по литературе присуждает Шведская академия.\n\nНекоторые известные лауреаты:\n• 1901 — Сюлли-Прюдом (Франция), первый лауреат.\n• 1913 — Рабиндранат Тагор (Индия), первый неевропейский лауреат.\n• 1954 — Эрнест Хемингуэй (США), «Старик и море».\n• 1957 — Альбер Камю (Франция).\n• 1982 — Габриэль Гарсиа Маркес (Колумбия), «Сто лет одиночества».\n• 1988 — Нагиб Махфуз (Египет), первый лауреат, писавший на арабском.\n• 2006 — Орхан Памук (Турция).\n\nБорис Пастернак (1958) и Жан-Поль Сартр (1964) премию не приняли."}},
+        {"type": "example", "text": {
+          "tk": "Heminguýeýiň «Garry adam we deňiz» powestine seredeliň:\n\n1) Mazmuny: Kubaly garry balykçy Santýago köp günlük şowsuzlykdan soň ägirt uly balyk tutýar, ýöne kenara gaýdyp barýarka akulalar ony iýýär.\n2) Stil: gysga sözlemler, az sypat, «aýsberg prinsipi» — manynyň köp bölegi sözleriň aşagynda gizlenýär.\n3) Tema: adam ýeňilip biler, ýöne onuň mertebesi ýeňilmeýär.\n4) Bu powest 1953-nji ýylda Pulitser baýragyny aldy, 1954-nji ýylda bolsa ýazyja Nobel baýragy berildi.",
+          "ru": "Рассмотрим повесть Хемингуэя «Старик и море»:\n\n1) Сюжет: старый кубинский рыбак Сантьяго после долгих неудач ловит огромную рыбу, но на обратном пути её съедают акулы.\n2) Стиль: короткие фразы, мало эпитетов, «принцип айсберга» — большая часть смысла скрыта под словами.\n3) Тема: человека можно уничтожить, но нельзя лишить достоинства.\n4) В 1953 году повесть получила Пулитцеровскую премию, а в 1954 году писателю присудили Нобелевскую."}},
+        {"type": "input",
+          "q": {"tk": "Edebiýat boýunça Nobel baýragy ilkinji gezek haýsy ýylda berildi?", "ru": "В каком году впервые вручили Нобелевскую премию по литературе?"},
+          "answer": "1901",
+          "hint": {"tk": "XX asyryň ilkinji ýyly.", "ru": "Первый год XX века."},
+          "explain": {"tk": "1901-nji ýylda ilkinji baýrak fransuz şahyry Sýulli-Prýudoma berildi.", "ru": "В 1901 году первую премию получил французский поэт Сюлли-Прюдом."}},
+        {"type": "choice",
+          "q": {"tk": "«Ýüz ýyllyk ýalňyzlyk» romanynyň awtory kim?", "ru": "Кто автор романа «Сто лет одиночества»?"},
+          "options": [
+            {"tk": "Orhan Pamuk", "ru": "Орхан Памук"},
+            {"tk": "Gabriel Garsiýa Markes", "ru": "Габриэль Гарсиа Маркес"},
+            {"tk": "Alber Kamýu", "ru": "Альбер Камю"}
+          ],
+          "answer": 1,
+          "hint": {"tk": "Ol Kolumbiýaly ýazyjy we «jadyly realizmiň» wekili.", "ru": "Это колумбийский писатель, представитель «магического реализма»."},
+          "explain": {"tk": "Roman 1967-nji ýylda çykdy; Garsiýa Markes 1982-nji ýylda Nobel baýragyny aldy.", "ru": "Роман вышел в 1967 году; Гарсиа Маркес получил Нобелевскую премию в 1982 году."}},
+        {"type": "truefalse",
+          "q": {"tk": "Rabindranat Tagor edebiýat boýunça Nobel baýragyny alan ilkinji ýewropaly däl ýazyjy.", "ru": "Рабиндранат Тагор — первый неевропейский писатель, получивший Нобелевскую премию по литературе."},
+          "answer": true,
+          "hint": {"tk": "Ol 1913-nji ýylda baýrak aldy.", "ru": "Он получил премию в 1913 году."},
+          "explain": {"tk": "Dogry: hindi şahyry Tagor 1913-nji ýylda «Gitanjali» goşgular ýygyndysy üçin baýrak aldy.", "ru": "Верно: индийский поэт Тагор получил премию в 1913 году, прежде всего за сборник «Гитанджали»."}},
+        {"type": "choice",
+          "q": {"tk": "Haýsy ýazyjy baýragy kabul etmekden ýüz öwürdi?", "ru": "Кто из писателей отказался от премии?"},
+          "options": [
+            {"tk": "Žan-Pol Sartr", "ru": "Жан-Поль Сартр"},
+            {"tk": "Ernest Heminguýeý", "ru": "Эрнест Хемингуэй"},
+            {"tk": "Nagib Mahfuz", "ru": "Нагиб Махфуз"}
+          ],
+          "answer": 0,
+          "hint": {"tk": "Ol fransuz filosofy we 1964-nji ýylyň eýesi.", "ru": "Это французский философ, лауреат 1964 года."},
+          "explain": {"tk": "Sartr ýazyjy resmi sylaglar bilen baglanyşmaly däl diýip hasaplap, 1964-nji ýylda baýragy kabul etmedi.", "ru": "Сартр отказался от премии в 1964 году, считая, что писатель не должен связывать себя официальными наградами."}},
+        {"type": "world", "text": {
+          "tk": "Alfred Nobel dinamiti oýlap tapdy. Rowaýata görä, 1888-nji ýylda bir gazet ýalňyşlyk bilen onuň ölümi hakda habar berip, ony «ölüm täjiri» diýip atlandyrypdyr. Şeýle ýatlanylmak islemän, Nobel baýlygynyň köp bölegini adamzada peýda getirenlere baýrak bermäge wesýet edipdir. Bu wakanyň takyklygy hakda taryhçylar jedelleşýär.",
+          "ru": "Альфред Нобель изобрёл динамит. По известной истории, в 1888 году газета по ошибке сообщила о его смерти, назвав его «торговцем смертью». Не желая остаться в памяти таким, Нобель завещал большую часть состояния на премии тем, кто принёс пользу человечеству. Насколько эта история точна, историки спорят."}}
+      ]
+    },
+    {
+      "id": "literature-12-modern-turkmen-literature",
+      "grade": 12,
+      "topic": 3,
+      "title": {"tk": "Häzirki türkmen edebiýaty", "ru": "Современная туркменская литература"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "XX asyrda türkmen edebiýatynda täze žanrlar — roman, powest, hekaýa, drama — giňden ýaýrady.\n\n• Berdi Kerbabaýew (1894–1974): «Aýgytly ädim» romany türkmen romanynyň ilkinji uly nusgalarynyň biri; «Nebitdag» romany.\n• Hydyr Derýaýew: «Ykbal» romany.\n• Beki Seýtäkow: «Doganlar» romany.\n• Kerim Gurbannepesow (1929–1988) — liriki şahyr.\n• Tirkiş Jumageldiýew, Atajan Tagan we başgalar ikinji ýarymda hekaýa we powest ýazdylar.\n\nHäzirki döwürde täze nesil ýazyjylary şäher durmuşy, maşgala, ýaşlar, taryhy hakydasy ýaly temalara ýüzlenýärler; gysga hekaýa, esse we internet neşirleri ýaýraýar. Klassyky mirasa (Magtymguly, Mollanepes, Keminäniň eserleri) gyzyklanma hem uly.",
+          "ru": "В XX веке в туркменской литературе широко развились новые жанры — роман, повесть, рассказ, драма.\n\n• Берды Кербабаев (1894–1974): роман «Решающий шаг» («Aýgytly ädim») — одно из первых крупных произведений туркменского романа; роман «Небитдаг».\n• Хыдыр Деряев: роман «Судьба» («Ykbal»).\n• Беки Сейтаков: роман «Братья» («Doganlar»).\n• Керим Курбаннепесов (1929–1988) — лирический поэт.\n• Тиркиш Джумагельдиев, Атаджан Таган и другие писали рассказы и повести во второй половине века.\n\nВ наше время новое поколение писателей обращается к темам городской жизни, семьи, молодёжи, исторической памяти; распространяются короткий рассказ, эссе и интернет-публикации. Велик и интерес к классическому наследию (Махтумкули, Молланепес, Кемине)."}},
+        {"type": "example", "text": {
+          "tk": "Kerbabaýewiň «Aýgytly ädim» romanyny nähili derňemeli?\n\n1) Döwür: XX asyryň başy, uly jemgyýetçilik özgerişleriniň ýyllary.\n2) Gahrymanlar: ýaş gyz Aýna we ýigit Artyk — olaryň ykbaly arkaly döwrüň çylşyrymlylygy görkezilýär.\n3) Tema: adamyň öz ykbalyny saýlamagy, maşgala we däp-dessur bilen täzeligiň arasyndaky gapma-garşylyk.\n4) Dil: halk dili, nakyllar, türkmen obasynyň durmuşynyň takyk suratlandyrylyşy.\n5) Okyjynyň soragy: gahryman haýsy pursatda «aýgytly ädim» ädýär we näme üçin?",
+          "ru": "Как анализировать роман Кербабаева «Решающий шаг»?\n\n1) Эпоха: начало XX века, годы больших общественных перемен.\n2) Герои: девушка Айна и юноша Артык — через их судьбы показана сложность эпохи.\n3) Тема: выбор человеком своей судьбы, противоречие между семьёй, обычаями и новым.\n4) Язык: народная речь, пословицы, точное описание жизни туркменского аула.\n5) Вопрос читателю: в какой момент герой делает «решающий шаг» и почему?"}},
+        {"type": "choice",
+          "q": {"tk": "«Aýgytly ädim» romanynyň awtory kim?", "ru": "Кто автор романа «Решающий шаг»?"},
+          "options": [
+            {"tk": "Hydyr Derýaýew", "ru": "Хыдыр Деряев"},
+            {"tk": "Kerim Gurbannepesow", "ru": "Керим Курбаннепесов"},
+            {"tk": "Berdi Kerbabaýew", "ru": "Берды Кербабаев"}
+          ],
+          "answer": 2,
+          "hint": {"tk": "Ol «Nebitdag» romanyny hem ýazdy.", "ru": "Он написал и роман «Небитдаг»."},
+          "explain": {"tk": "«Aýgytly ädim» — Berdi Kerbabaýewiň iň meşhur romany. Derýaýew «Ykbal» romanyny ýazdy, Gurbannepesow bolsa esasan şahyr.", "ru": "«Решающий шаг» — самый известный роман Берды Кербабаева. Деряев написал «Судьбу», а Курбаннепесов — прежде всего поэт."}},
+        {"type": "truefalse",
+          "q": {"tk": "Roman žanry türkmen edebiýatynda esasan XX asyrda ösdi.", "ru": "Жанр романа в туркменской литературе развился в основном в XX веке."},
+          "answer": true,
+          "hint": {"tk": "Klassyky türkmen edebiýatynda haýsy görnüşler agdyklyk edýärdi?", "ru": "Какие формы преобладали в классической туркменской литературе?"},
+          "explain": {"tk": "Dogry: klassyky döwürde goşgy we dessan agdyklyk edýärdi; roman we powest XX asyrda giňden ýaýrady.", "ru": "Верно: в классический период преобладали стихи и дастаны, а роман и повесть получили широкое развитие в XX веке."}},
+        {"type": "input",
+          "q": {"tk": "Berdi Kerbabaýew haýsy ýylda doguldy?", "ru": "В каком году родился Берды Кербабаев?"},
+          "answer": "1894",
+          "hint": {"tk": "Nazaryýet böleginde ýaşan ýyllary görkezilen.", "ru": "Годы жизни указаны в теории."},
+          "explain": {"tk": "Berdi Kerbabaýew 1894–1974-nji ýyllarda ýaşady.", "ru": "Берды Кербабаев жил в 1894–1974 годах."}},
+        {"type": "choice",
+          "q": {"tk": "Edebi eseri derňände ilki näme kesgitlenýär?", "ru": "Что в первую очередь определяют при анализе литературного произведения?"},
+          "options": [
+            {"tk": "Tema we esasy pikir", "ru": "Тему и главную мысль"},
+            {"tk": "Kitabyň bahasy", "ru": "Цену книги"},
+            {"tk": "Sahypalaryň sany", "ru": "Количество страниц"}
+          ],
+          "answer": 0,
+          "hint": {"tk": "Eser näme hakda we näme aýtjak bolýar?", "ru": "О чём произведение и что оно хочет сказать?"},
+          "explain": {"tk": "Derňew tema (näme hakda) we ideýa (awtor näme aýtjak bolýar) bilen başlanýar, soň gahrymanlar, kompozisiýa we dil seljerilýär.", "ru": "Анализ начинается с темы (о чём) и идеи (что хочет сказать автор), затем разбирают героев, композицию и язык."}},
+        {"type": "world", "text": {
+          "tk": "Türkmen ýazyjylarynyň eserleri rus diline we rus dili arkaly beýleki dillere terjime edildi. Mysal üçin, Kerbabaýewiň «Aýgytly ädim» romany köp dillerde çap edildi. Terjime milli edebiýaty dünýä okyjysyna tanyşdyrmagyň esasy ýoly bolup galýar.",
+          "ru": "Произведения туркменских писателей переводились на русский язык, а через него — на другие языки. Например, роман Кербабаева «Решающий шаг» издан на многих языках. Перевод остаётся главным путём, которым национальная литература приходит к мировому читателю."}}
+      ]
+    },
+    {
+      "id": "literature-12-literature-and-film",
+      "grade": 12,
+      "topic": 4,
+      "title": {"tk": "Edebiýat we kino", "ru": "Литература и кино"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Ekranlaşdyrma (adaptasiýa) — edebi eseri kino diline geçirmek. Kitap sözler arkaly, film bolsa surat, ses, saz we aktýorlyk arkaly gürrüň berýär.\n\nTapawutlar:\n• Içki pikirler: kitapda gahrymanyň pikirlerini okaýarys; filmde olar aktýoryň ýüz keşbi, ses bilen aýdylýan teksti (zakadrowyý tekst) ýa-da detal arkaly berilýär.\n• Wagt: roman ýüzlerçe sahypa, film adatça 2 sagat — şonuň üçin wakalar gysgaldylýar, birleşdirilýär.\n• Kino serişdeleri: kadr, montaž, ýakyn plan, ýagtylyk, saz.\n\nAdaptasiýanyň görnüşleri: takyk (eseri yzygiderli gaýtalaýar), erkin (esasy ideýany saklaýar) we täzeden düşündiriş (wakalar başga döwre ýa-da ýere geçirilýär).",
+          "ru": "Экранизация (адаптация) — перевод литературного произведения на язык кино. Книга рассказывает словами, фильм — изображением, звуком, музыкой и игрой актёров.\n\nРазличия:\n• Внутренние мысли: в книге мы читаем мысли героя; в фильме их передают мимика актёра, закадровый текст или деталь.\n• Время: роман — сотни страниц, фильм — обычно около 2 часов, поэтому события сокращают и объединяют.\n• Средства кино: кадр, монтаж, крупный план, свет, музыка.\n\nВиды экранизации: близкая к тексту, свободная (сохраняет главную идею) и переосмысление (действие перенесено в другую эпоху или место)."}},
+        {"type": "example", "text": {
+          "tk": "Mysal: Şekspiriň «Romeo we Julýetta» pýesasy.\n\n1) Takyk adaptasiýa: Franko Dzeffirelliniň 1968-nji ýyldaky filmi — Italiýa, Galkynyş döwrüniň eşikleri.\n2) Täzeden düşündiriş: Baz Lurmanyň 1996-njy ýyldaky filmi — häzirki zaman şäheri, gylyçlaryň ýerine pistoletler, ýöne Şekspiriň dili saklanýar.\n3) Erkin adaptasiýa: «Günbatar tarapyň hekaýasy» (miýuzikl, 1957; film, 1961) — Nýu-Ýorkda iki toparyň arasyndaky söýgi, täze atlar we sazlar.\n\nNetije: bir syžet üç dürli usulda — her film öz döwrüne gürleýär.",
+          "ru": "Пример: пьеса Шекспира «Ромео и Джульетта».\n\n1) Близкая экранизация: фильм Франко Дзеффирелли 1968 года — Италия, костюмы эпохи Возрождения.\n2) Переосмысление: фильм База Лурмана 1996 года — современный город, пистолеты вместо шпаг, но язык Шекспира сохранён.\n3) Свободная адаптация: «Вестсайдская история» (мюзикл 1957 г., фильм 1961 г.) — любовь между двумя бандами в Нью-Йорке, новые имена и музыка.\n\nИтог: один сюжет тремя способами — каждый фильм говорит со своим временем."}},
+        {"type": "choice",
+          "q": {"tk": "Gahrymanyň içki pikirlerini filmde bermegiň usullarynyň biri haýsy?", "ru": "Какой из способов передать мысли героя в фильме?"},
+          "options": [
+            {"tk": "Sahypa belgisi", "ru": "Номер страницы"},
+            {"tk": "Zakadrowyý tekst", "ru": "Закадровый текст"},
+            {"tk": "Mazmun sanawy", "ru": "Оглавление"}
+          ],
+          "answer": 1,
+          "hint": {"tk": "Ekranda görünmeýän ses.", "ru": "Голос, звучащий за кадром."},
+          "explain": {"tk": "Zakadrowyý tekst (ses) gahrymanyň pikirlerini ýa-da awtoryň sözlerini göni berip bilýär. Beýleki iki zat kitaba degişli.", "ru": "Закадровый текст может прямо передать мысли героя или слова автора. Два других варианта относятся к книге."}},
+        {"type": "truefalse",
+          "q": {"tk": "Gowy ekranlaşdyrma kitabyň ähli wakalaryny hökman saklamaly.", "ru": "Хорошая экранизация обязательно сохраняет все события книги."},
+          "answer": false,
+          "hint": {"tk": "Romanyň we filmiň dowamlylygyny deňeşdiriň.", "ru": "Сравните объём романа и длительность фильма."},
+          "explain": {"tk": "Nädogry: film wakalary gysgaldýar we üýtgedýär. Adaptasiýanyň hili eseriň ruhuny we ideýasyny nähili berýändigine bagly.", "ru": "Неверно: фильм сокращает и меняет события. Качество экранизации зависит от того, как она передаёт дух и идею произведения."}},
+        {"type": "choice",
+          "q": {"tk": "Baz Lurmanyň «Romeo + Julýetta» (1996) filmi adaptasiýanyň haýsy görnüşi?", "ru": "К какому виду экранизации относится «Ромео + Джульетта» База Лурмана (1996)?"},
+          "options": [
+            {"tk": "Täzeden düşündiriş", "ru": "Переосмысление"},
+            {"tk": "Takyk adaptasiýa", "ru": "Близкая к тексту"},
+            {"tk": "Dokumental film", "ru": "Документальный фильм"}
+          ],
+          "answer": 0,
+          "hint": {"tk": "Wakalar haýsy döwre geçirilýär?", "ru": "В какое время перенесено действие?"},
+          "explain": {"tk": "Wakalar häzirki zamana geçirilýär, ýöne Şekspiriň dili saklanýar — bu täzeden düşündiriş.", "ru": "Действие перенесено в современность при сохранении шекспировского текста — это переосмысление."}},
+        {"type": "input",
+          "q": {"tk": "Dzeffirelliniň «Romeo we Julýetta» filmi haýsy ýylda çykdy?", "ru": "В каком году вышел фильм Дзеффирелли «Ромео и Джульетта»?"},
+          "answer": "1968",
+          "hint": {"tk": "Mysal böleginde bar.", "ru": "Есть в примере."},
+          "explain": {"tk": "Franko Dzeffirelliniň filmi 1968-nji ýylda çykdy; onda baş rollary ýaş aktýorlar oýnady.", "ru": "Фильм Франко Дзеффирелли вышел в 1968 году; главные роли в нём сыграли юные актёры."}},
+        {"type": "world", "text": {
+          "tk": "Ginnesiň rekordlar kitabyna görä, Artur Konan Doýlyň döreden Şerlok Holmsy kino we telewideniýede iň köp şekillendirilen edebi gahrymanlaryň biri. Ony ýüzlerçe aktýor, şol sanda dürli ýurtlaryň aktýorlary oýnady.",
+          "ru": "По данным Книги рекордов Гиннесса, Шерлок Холмс, созданный Артуром Конан Дойлом, — один из литературных героев, которых чаще всего изображали в кино и на телевидении. Его играли сотни актёров из разных стран."}}
+      ]
+    },
+    {
+      "id": "literature-12-literary-essay",
+      "grade": 12,
+      "topic": 5,
+      "title": {"tk": "Edebi esse ýazmak", "ru": "Как написать литературное эссе"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Edebi esse — eser hakda öz pikiriňi delillendirip aýtmak.\n\nGurluşy:\n• Giriş: awtor, eser, kontekst we tezis — siziň esasy pikiriňiz, jedelli we anyk bolmaly.\n• Esasy bölek: her abzasda bir pikir. PEEL usuly:\n  – P (Point) — abzasyň esasy pikiri;\n  – E (Evidence) — tekstden subutnama (gysga sitata ýa-da wakanyň salgylanmasy);\n  – E (Explain) — subutnamanyň derňewi: awtor bu usuly näme üçin ulanýar?\n  – L (Link) — tezis bilen baglanyşyk.\n• Jemleme: tezisi täze sözler bilen tassyklamak we has giň many çykarmak.\n\nÝatda saklaň: mazmuny gaýtalamak derňew däl.",
+          "ru": "Литературное эссе — аргументированное изложение собственной мысли о произведении.\n\nСтруктура:\n• Вступление: автор, произведение, контекст и тезис — ваша главная мысль, спорная и конкретная.\n• Основная часть: в каждом абзаце одна мысль. Схема PEEL:\n  – P (Point) — главная мысль абзаца;\n  – E (Evidence) — доказательство из текста (короткая цитата или ссылка на эпизод);\n  – E (Explain) — анализ доказательства: зачем автор использует этот приём?\n  – L (Link) — связь с тезисом.\n• Заключение: подтвердить тезис новыми словами и сделать более широкий вывод.\n\nПомните: пересказ сюжета — не анализ."}},
+        {"type": "example", "text": {
+          "tk": "Tema: Heminguýeýiň «Garry adam we deňiz» powestinde ýeňlişiň manysy.\n\nZaýyf tezis: «Bu powest garry balykçy hakda.» (diňe fakt)\nGüýçli tezis: «Heminguýeý Santýagonyň daşky ýeňlişini içki ýeňiş hökmünde görkezýär: balyk ýitýär, ýöne adamyň mertebesi saklanýar.»\n\nPEEL abzasy:\nP — Santýago ýeňilse-de, ruhy taýdan synmaýar.\nE — Akulalar balygy iýenden soň, ol öýüne gaýdyp, arslanlary düýşünde görýär.\nE — Arslanlar ýaşlygyň, güýjüň nyşany; awtor gahrymanyň ruhunyň diri galandygyny görkezýär.\nL — Şeýlelikde, powestde ýeňlişiň özi ýeňiş bolup çykýar.",
+          "ru": "Тема: смысл поражения в повести Хемингуэя «Старик и море».\n\nСлабый тезис: «Эта повесть о старом рыбаке.» (просто факт)\nСильный тезис: «Хемингуэй показывает внешнее поражение Сантьяго как внутреннюю победу: рыба потеряна, но достоинство человека сохранено.»\n\nАбзац по PEEL:\nP — Сантьяго проигрывает, но духовно не сломлен.\nE — После того как акулы съели рыбу, он возвращается домой и видит во сне львов.\nE — Львы — символ молодости и силы; автор показывает, что дух героя жив.\nL — Таким образом, в повести само поражение оборачивается победой."}},
+        {"type": "choice",
+          "q": {"tk": "Haýsy tezis edebi esse üçin iň gowy?", "ru": "Какой тезис лучше всего подходит для литературного эссе?"},
+          "options": [
+            {"tk": "«Romeo we Julýetta» — Şekspiriň pýesasy.", "ru": "«Ромео и Джульетта» — пьеса Шекспира."},
+            {"tk": "Bu pýesa maňa halady.", "ru": "Эта пьеса мне понравилась."},
+            {"tk": "Şekspir betbagtçylyga söýginiň däl-de, duşmançylygyň, tötänligiň we howlukmaçlygyň eltýändigini görkezýär.", "ru": "Шекспир показывает, что к трагедии ведёт не любовь, а вражда, случайность и спешка."}
+          ],
+          "answer": 2,
+          "hint": {"tk": "Tezis jedelli bolmaly we subut etmegi talap etmeli.", "ru": "Тезис должен быть спорным и требовать доказательства."},
+          "explain": {"tk": "Birinji — diňe fakt, ikinji — şahsy duýgy. Üçünji anyk, jedelli we tekst arkaly subut edip bolýar.", "ru": "Первый — просто факт, второй — личное впечатление. Третий конкретен, спорен и доказуем по тексту."}},
+        {"type": "truefalse",
+          "q": {"tk": "Eseriň mazmunyny jikme-jik gaýtalamak — gowy derňew.", "ru": "Подробный пересказ сюжета — это хороший анализ."},
+          "answer": false,
+          "hint": {"tk": "Derňew «näme boldy?» däl-de, «näme üçin we nähili?» diýen soraga jogap berýär.", "ru": "Анализ отвечает не на «что произошло?», а на «зачем и как?»."},
+          "explain": {"tk": "Nädogry: mazmuny gaýtalamak diňe wakalary aýdýar. Derňew awtoryň usullaryny we olaryň manysyny düşündirýär.", "ru": "Неверно: пересказ лишь перечисляет события. Анализ объясняет приёмы автора и их смысл."}},
+        {"type": "input",
+          "q": {"tk": "PEEL usulynda näçe ädim bar?", "ru": "Сколько шагов в схеме PEEL?"},
+          "answer": "4",
+          "hint": {"tk": "Harplary sanaň.", "ru": "Посчитайте буквы."},
+          "explain": {"tk": "Dört ädim: Point, Evidence, Explain, Link.", "ru": "Четыре шага: Point, Evidence, Explain, Link."}},
+        {"type": "choice",
+          "q": {"tk": "PEEL-iň «Explain» ädiminde näme edilýär?", "ru": "Что делают на шаге «Explain» в PEEL?"},
+          "options": [
+            {"tk": "Subutnamany derňeýärler we awtoryň niýetini düşündirýärler", "ru": "Анализируют доказательство и объясняют замысел автора"},
+            {"tk": "Täze tema başlaýarlar", "ru": "Начинают новую тему"},
+            {"tk": "Awtoryň terjimehalyny ýazýarlar", "ru": "Пишут биографию автора"}
+          ],
+          "answer": 0,
+          "hint": {"tk": "Sitatadan soň «bu näme aňladýar?» diýip soraň.", "ru": "После цитаты спросите себя: «что это значит?»"},
+          "explain": {"tk": "Explain — sitatanyň ýa-da detalyň manysyny açmak: haýsy usul, haýsy täsir, näme üçin.", "ru": "Explain — раскрыть смысл цитаты или детали: какой приём, какой эффект, зачем."}},
+        {"type": "world", "text": {
+          "tk": "«Esse» sözi fransuz dilindäki «essai» — «synanyşyk» sözünden gelýär. Ony žanryň ady hökmünde ilkinji bolup fransuz filosofy Mişel de Monten ulandy: onuň «Tejribeler» («Essais») kitaby 1580-nji ýylda çykdy we şahsy pikirlerini erkin beýan etmegiň nusgasy boldy.",
+          "ru": "Слово «эссе» происходит от французского «essai» — «попытка, проба». Первым назвал так жанр французский философ Мишель де Монтень: его книга «Опыты» («Essais») вышла в 1580 году и стала образцом свободного изложения личных размышлений."}}
+      ]
+    }
+  ]
+}

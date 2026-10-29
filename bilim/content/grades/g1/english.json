@@ -1,0 +1,288 @@
+{
+  "grade": 1,
+  "subject": "english",
+  "lessons": [
+    {
+      "id": "english-1-hello",
+      "grade": 1,
+      "topic": 0,
+      "title": {"tk": "Hello! Salamlaşmak", "ru": "Hello! Приветствие"},
+      "minutes": 6,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Iňlis dilinde salamlaşmak:\n• Hello! / Hi! — Salam! 👋\n• Good morning! — Ertiriňiz haýyrly bolsun! 🌅\n• What's your name? — Adyň näme?\n• My name is Aman. — Meniň adym Aman.\n• Nice to meet you! — Tanyşanyma şat!\n• Goodbye! / Bye! — Hoş gal! 👋",
+          "ru": "Приветствие по-английски:\n• Hello! / Hi! — Привет! 👋\n• Good morning! — Доброе утро! 🌅\n• What's your name? — Как тебя зовут?\n• My name is Aman. — Меня зовут Аман.\n• Nice to meet you! — Приятно познакомиться!\n• Goodbye! / Bye! — До свидания! 👋"
+        }},
+        {"type": "example", "text": {
+          "tk": "Iki çaga tanyşýar:\n👦 Hello! What's your name?\n👧 Hi! My name is Lale. What's your name?\n👦 My name is Aman.\n👧 Nice to meet you, Aman!\n👦 Bye, Lale!\nAdyňy aýtmak üçin: My name is … + adyň.",
+          "ru": "Двое детей знакомятся:\n👦 Hello! What's your name?\n👧 Hi! My name is Lale. What's your name?\n👦 My name is Aman.\n👧 Nice to meet you, Aman!\n👦 Bye, Lale!\nЧтобы назвать имя: My name is … + имя."
+        }},
+        {"type": "choice",
+          "q": {"tk": "«What's your name?» soragyna jogap saýla.", "ru": "Выбери ответ на вопрос «What's your name?»."},
+          "options": ["Goodbye!", "Good morning!", "My name is Merdan."],
+          "answer": 2,
+          "hint": {"tk": "Senden adyňy soraýarlar.", "ru": "У тебя спрашивают имя."},
+          "explain": {"tk": "«What's your name?» — «Adyň näme?» Jogap: «My name is …».", "ru": "«What's your name?» — «Как тебя зовут?» Ответ: «My name is …»."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«Goodbye!» — bu salamlaşmak.", "ru": "«Goodbye!» — это приветствие."},
+          "answer": false,
+          "hint": {"tk": "Gidip barýarkaň näme diýýäň?", "ru": "Что говорят, когда уходят?"},
+          "explain": {"tk": "«Goodbye!» — hoşlaşmak. Salamlaşmak — «Hello!».", "ru": "«Goodbye!» — это прощание. Приветствие — «Hello!»."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Irden mekdebe geldiň. 🌅 Näme diýýäň?", "ru": "Утром ты пришёл в школу. 🌅 Что скажешь?"},
+          "options": ["Good morning!", "Bye!", "Nice to meet you!"],
+          "answer": 0,
+          "hint": {"tk": "Morning — ir, ertir.", "ru": "Morning — утро."},
+          "explain": {"tk": "Irden «Good morning!» diýilýär.", "ru": "Утром говорят «Good morning!»."}
+        },
+        {"type": "input",
+          "q": {"tk": "Sözi doldur: «My … is Aman.»", "ru": "Вставь слово: «My … is Aman.»"},
+          "answer": "name|Name",
+          "hint": {"tk": "«What's your …?» soragynda bar.", "ru": "Это слово есть в вопросе «What's your …?»."},
+          "explain": {"tk": "«My name is Aman.» — «Meniň adym Aman.»", "ru": "«My name is Aman.» — «Меня зовут Аман.»"}
+        },
+        {"type": "world", "text": {
+          "tk": "«Hello» sözi telefon bilen meşhur boldy. ☎️\nAmerikaly oýlap tapyjy Tomas Edison telefona jogap bereniňde «Hello!» diýmegi teklip edipdir. Häzir bu söz bütin dünýäde bilinýär.",
+          "ru": "Слово «Hello» стало популярным благодаря телефону. ☎️\nАмериканский изобретатель Томас Эдисон предложил отвечать по телефону словом «Hello!». Теперь его знают во всём мире."
+        }}
+      ]
+    },
+    {
+      "id": "english-1-colours",
+      "grade": 1,
+      "topic": 1,
+      "title": {"tk": "Colours — reňkler", "ru": "Colours — цвета"},
+      "minutes": 6,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Iňlis dilinde reňkler:\n🔴 red — gyzyl\n🔵 blue — gök\n🟡 yellow — sary\n🟢 green — ýaşyl\n🟠 orange — mämişi\n🟣 purple — benewşe\n⚫ black — gara\n⚪ white — ak\n🌸 pink — gülgüne\nSorag: What colour is it? — Ol haýsy reňkde?",
+          "ru": "Цвета по-английски:\n🔴 red — красный\n🔵 blue — синий\n🟡 yellow — жёлтый\n🟢 green — зелёный\n🟠 orange — оранжевый\n🟣 purple — фиолетовый\n⚫ black — чёрный\n⚪ white — белый\n🌸 pink — розовый\nВопрос: What colour is it? — Какого он цвета?"
+        }},
+        {"type": "example", "text": {
+          "tk": "🍎 What colour is it? — It's red. (Ol gyzyl.)\n🍌 What colour is it? — It's yellow. (Ol sary.)\n🐸 What colour is it? — It's green. (Ol ýaşyl.)\nJogap: It's + reňk.",
+          "ru": "🍎 What colour is it? — It's red. (Оно красное.)\n🍌 What colour is it? — It's yellow. (Он жёлтый.)\n🐸 What colour is it? — It's green. (Она зелёная.)\nОтвет: It's + цвет."
+        }},
+        {"type": "choice",
+          "q": {"tk": "🍌 What colour is it?", "ru": "🍌 What colour is it?"},
+          "options": ["It's blue.", "It's yellow.", "It's black."],
+          "answer": 1,
+          "hint": {"tk": "Banan sary.", "ru": "Банан жёлтый."},
+          "explain": {"tk": "Banan sary — yellow. 🟡", "ru": "Банан жёлтый — yellow. 🟡"}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«Blue» — gök reňk. 🔵", "ru": "«Blue» — синий цвет. 🔵"},
+          "answer": true,
+          "hint": {"tk": "Asman we deňiz şu reňkde.", "ru": "Такого цвета небо и море."},
+          "explain": {"tk": "Hawa, blue — gök. The sky is blue.", "ru": "Да, blue — синий. The sky is blue."}
+        },
+        {"type": "choice",
+          "q": {"tk": "⚪ Iňlisçe nähili?", "ru": "Как по-английски ⚪?"},
+          "options": ["red", "green", "white"],
+          "answer": 2,
+          "hint": {"tk": "Gar şu reňkde. ❄️", "ru": "Такого цвета снег. ❄️"},
+          "explain": {"tk": "⚪ — white (ak). Red — gyzyl, green — ýaşyl.", "ru": "⚪ — white (белый). Red — красный, green — зелёный."}
+        },
+        {"type": "input",
+          "q": {"tk": "Iňlisçe ýaz: 🔴 gyzyl = ?", "ru": "Напиши по-английски: 🔴 = ?"},
+          "answer": "red|Red",
+          "hint": {"tk": "Bu söz 3 harpdan ybarat, «r» bilen başlanýar.", "ru": "В слове 3 буквы, начинается на «r»."},
+          "explain": {"tk": "Gyzyl — red. The apple is red. 🍎", "ru": "Красный — red. The apple is red. 🍎"}
+        },
+        {"type": "world", "text": {
+          "tk": "«Orange» sözi ilki miwäniň — apelsiniň ady bolupdyr. 🍊\nSoňra şol miwäniň reňki hem «orange» diýlip atlandyrylypdyr.",
+          "ru": "Слово «orange» сначала было названием фрукта — апельсина. 🍊\nПотом так стали называть и цвет этого фрукта — оранжевый."
+        }}
+      ]
+    },
+    {
+      "id": "english-1-numbers-1-10",
+      "grade": 1,
+      "topic": 2,
+      "title": {"tk": "Numbers 1–10", "ru": "Numbers 1–10"},
+      "minutes": 6,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Iňlisçe sanaýarys:\n1 — one\n2 — two\n3 — three\n4 — four\n5 — five\n6 — six\n7 — seven\n8 — eight\n9 — nine\n10 — ten\nSorag: How many? — Näçe?",
+          "ru": "Считаем по-английски:\n1 — one\n2 — two\n3 — three\n4 — four\n5 — five\n6 — six\n7 — seven\n8 — eight\n9 — nine\n10 — ten\nВопрос: How many? — Сколько?"
+        }},
+        {"type": "example", "text": {
+          "tk": "🐱🐱🐱 How many cats? (Näçe pişik?)\nSanaýarys: one, two, three.\nJogap: Three cats!\nBirden köp bolsa, sözüň soňuna -s goşulýar: one cat, three cats.",
+          "ru": "🐱🐱🐱 How many cats? (Сколько кошек?)\nСчитаем: one, two, three.\nОтвет: Three cats!\nЕсли больше одного, в конце слова добавляем -s: one cat, three cats."
+        }},
+        {"type": "choice",
+          "q": {"tk": "«Eight» haýsy san?", "ru": "Какое число — «eight»?"},
+          "options": ["8", "3", "6"],
+          "answer": 0,
+          "hint": {"tk": "Ol «seven» sanyndan soň gelýär.", "ru": "Оно идёт после «seven»."},
+          "explain": {"tk": "Seven — 7, eight — 8.", "ru": "Seven — 7, eight — 8."}
+        },
+        {"type": "input",
+          "q": {"tk": "🌟🌟🌟🌟🌟 How many stars? San bilen ýaz.", "ru": "🌟🌟🌟🌟🌟 How many stars? Напиши цифрой."},
+          "answer": "5|five",
+          "hint": {"tk": "Bir eldäki barmaklar ýaly. ✋", "ru": "Столько же, сколько пальцев на руке. ✋"},
+          "explain": {"tk": "5 ýyldyz — five stars.", "ru": "5 звёзд — five stars."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«Two» — bu 2.", "ru": "«Two» — это 2."},
+          "answer": true,
+          "hint": {"tk": "one, two, three …", "ru": "one, two, three …"},
+          "explain": {"tk": "Hawa, two — 2. Bizde iki göz bar: two eyes. 👀", "ru": "Да, two — это 2. У нас два глаза: two eyes. 👀"}
+        },
+        {"type": "choice",
+          "q": {"tk": "One + two = ?", "ru": "One + two = ?"},
+          "options": ["four", "three", "five"],
+          "answer": 1,
+          "hint": {"tk": "1 + 2 = ?", "ru": "1 + 2 = ?"},
+          "explain": {"tk": "1 + 2 = 3 — three.", "ru": "1 + 2 = 3 — three."}
+        },
+        {"type": "world", "text": {
+          "tk": "Iňlis dilinde «seven» (7) sözi iki bogunly, beýleki 1-den 10-a çenli sanlaryň hemmesi bir bogunly! 🔢\nSanap gör: one, two, three, four, five, six, se-ven, eight, nine, ten.",
+          "ru": "В английском слово «seven» (7) — единственное из чисел от 1 до 10, в котором два слога! 🔢\nПроверь: one, two, three, four, five, six, se-ven, eight, nine, ten."
+        }}
+      ]
+    },
+    {
+      "id": "english-1-family",
+      "grade": 1,
+      "topic": 3,
+      "title": {"tk": "Family — maşgala", "ru": "Family — семья"},
+      "minutes": 6,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Iňlisçe maşgala sözleri:\n👩 mother / mum — eje\n👨 father / dad — kaka\n👦 brother — dogan (oglan)\n👧 sister — dogan (gyz)\n👵 grandmother / granny — ene\n👴 grandfather / grandpa — ata\n👨‍👩‍👧‍👦 family — maşgala\nThis is my … — Bu meniň …",
+          "ru": "Слова о семье по-английски:\n👩 mother / mum — мама\n👨 father / dad — папа\n👦 brother — брат\n👧 sister — сестра\n👵 grandmother / granny — бабушка\n👴 grandfather / grandpa — дедушка\n👨‍👩‍👧‍👦 family — семья\nThis is my … — Это мой / моя …"
+        }},
+        {"type": "example", "text": {
+          "tk": "Aýna maşgalasynyň suratyny görkezýär: 🖼\n«This is my family.\nThis is my mum. 👩\nThis is my dad. 👨\nThis is my brother. 👦\nI love my family! ❤️»\nI love — men söýýärin.",
+          "ru": "Айна показывает фото семьи: 🖼\n«This is my family.\nThis is my mum. 👩\nThis is my dad. 👨\nThis is my brother. 👦\nI love my family! ❤️»\nI love — я люблю."
+        }},
+        {"type": "choice",
+          "q": {"tk": "👴 Iňlisçe nähili?", "ru": "Как по-английски 👴?"},
+          "options": ["brother", "grandfather", "sister"],
+          "answer": 1,
+          "hint": {"tk": "Bu kakaňyň ýa-da ejeňiň kakasy.", "ru": "Это папа твоего папы или мамы."},
+          "explain": {"tk": "👴 — grandfather (ata).", "ru": "👴 — grandfather (дедушка)."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«Sister» — bu gyz dogan. 👧", "ru": "«Sister» — это сестра. 👧"},
+          "answer": true,
+          "hint": {"tk": "👦 brother, 👧 …", "ru": "👦 brother, 👧 …"},
+          "explain": {"tk": "Hawa: sister — gyz dogan, brother — oglan dogan.", "ru": "Да: sister — сестра, brother — брат."}
+        },
+        {"type": "choice",
+          "q": {"tk": "«Dad» kim?", "ru": "Кто такой «dad»?"},
+          "options": [{"tk": "kaka 👨", "ru": "папа 👨"}, {"tk": "eje 👩", "ru": "мама 👩"}, {"tk": "jigi 👶", "ru": "малыш 👶"}],
+          "answer": 0,
+          "hint": {"tk": "Dad = father.", "ru": "Dad = father."},
+          "explain": {"tk": "Dad — kaka. Mum — eje.", "ru": "Dad — папа. Mum — мама."}
+        },
+        {"type": "input",
+          "q": {"tk": "Sözi doldur: «This is my …» 👩 (eje — 3 harp)", "ru": "Вставь слово: «This is my …» 👩 (мама — 3 буквы)"},
+          "answer": "mum|Mum|mom|Mom",
+          "hint": {"tk": "«m» bilen başlanýar we gutarýar.", "ru": "Начинается и заканчивается на «m»."},
+          "explain": {"tk": "«This is my mum.» — «Bu meniň ejem.»", "ru": "«This is my mum.» — «Это моя мама.»"}
+        },
+        {"type": "world", "text": {
+          "tk": "Britaniýada «mum» diýilýär, ABŞ-da bolsa «mom» diýilýär. 🇬🇧🇺🇸\nIkisi hem dogry — iňlis dili dürli ýurtlarda azajyk tapawutly.",
+          "ru": "В Великобритании говорят «mum», а в США — «mom». 🇬🇧🇺🇸\nОба варианта правильные — английский немного отличается в разных странах."
+        }}
+      ]
+    },
+    {
+      "id": "english-1-animals",
+      "grade": 1,
+      "topic": 4,
+      "title": {"tk": "Animals — haýwanlar", "ru": "Animals — животные"},
+      "minutes": 6,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Iňlisçe haýwanlar:\n🐈 cat — pişik\n🐕 dog — it\n🐄 cow — sygyr\n🐎 horse — at\n🐑 sheep — goýun\n🐟 fish — balyk\n🐦 bird — guş\n🦁 lion — arslan\n🐘 elephant — pil\n🐒 monkey — maýmyn\nSorag: What is it? — Bu näme? — It's a cat.",
+          "ru": "Животные по-английски:\n🐈 cat — кошка\n🐕 dog — собака\n🐄 cow — корова\n🐎 horse — лошадь\n🐑 sheep — овца\n🐟 fish — рыба\n🐦 bird — птица\n🦁 lion — лев\n🐘 elephant — слон\n🐒 monkey — обезьяна\nВопрос: What is it? — It's a cat."
+        }},
+        {"type": "example", "text": {
+          "tk": "Haýwanlar näme edip bilýär?\n🐟 A fish can swim. — Balyk ýüzüp bilýär.\n🐦 A bird can fly. — Guş uçup bilýär.\n🐎 A horse can run. — At ylgap bilýär.\ncan — bilýär (edip bilýär).",
+          "ru": "Что умеют животные?\n🐟 A fish can swim. — Рыба умеет плавать.\n🐦 A bird can fly. — Птица умеет летать.\n🐎 A horse can run. — Лошадь умеет бегать.\ncan — умеет, может."
+        }},
+        {"type": "choice",
+          "q": {"tk": "🐘 What is it?", "ru": "🐘 What is it?"},
+          "options": ["It's a lion.", "It's a monkey.", "It's an elephant."],
+          "answer": 2,
+          "hint": {"tk": "Onuň uzyn hortumy bar.", "ru": "У него длинный хобот."},
+          "explain": {"tk": "🐘 — elephant (pil). «E» çekimli bilen başlanýany üçin «an elephant» diýilýär.", "ru": "🐘 — elephant (слон). Слово начинается с гласной, поэтому говорят «an elephant»."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "A fish can fly. 🐟", "ru": "A fish can fly. 🐟"},
+          "answer": false,
+          "hint": {"tk": "Fly — uçmak. Balyk uçýarmy?", "ru": "Fly — летать. Рыба летает?"},
+          "explain": {"tk": "Balyk ýüzýär: A fish can swim. Guş uçýar: A bird can fly.", "ru": "Рыба плавает: A fish can swim. Летает птица: A bird can fly."}
+        },
+        {"type": "choice",
+          "q": {"tk": "«Horse» haýsy haýwan?", "ru": "Какое животное — «horse»?"},
+          "options": ["🐎", "🐄", "🐑"],
+          "answer": 0,
+          "hint": {"tk": "Ahalteke … 🏇", "ru": "Ахалтекинская … 🏇"},
+          "explain": {"tk": "Horse — at. Cow — sygyr, sheep — goýun.", "ru": "Horse — лошадь. Cow — корова, sheep — овца."}
+        },
+        {"type": "input",
+          "q": {"tk": "Iňlisçe ýaz: 🐕 it = ?", "ru": "Напиши по-английски: 🐕 = ?"},
+          "answer": "dog|Dog|a dog",
+          "hint": {"tk": "3 harp, «d» bilen başlanýar.", "ru": "3 буквы, начинается на «d»."},
+          "explain": {"tk": "It — dog. It's a dog. 🐶", "ru": "Собака — dog. It's a dog. 🐶"}
+        },
+        {"type": "world", "text": {
+          "tk": "Gepard — gury ýerde iň çalt ylgaýan haýwan. 🐆\nOl gysga wagtda awtoulag ýaly çalt ylgap bilýär!",
+          "ru": "Гепард — самое быстрое животное на суше. 🐆\nНа короткой дистанции он бежит быстро, как автомобиль!"
+        }}
+      ]
+    },
+    {
+      "id": "english-1-toys",
+      "grade": 1,
+      "topic": 5,
+      "title": {"tk": "Toys — oýnawaçlar", "ru": "Toys — игрушки"},
+      "minutes": 6,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Iňlisçe oýnawaçlar:\n⚽ ball — top\n🪆 doll — gurjak\n🚗 car — maşyn\n🧸 teddy bear — aýyjyk\n🪁 kite — batbörek\n🧱 blocks — kubikler\n🚂 train — otly\n🤖 robot — robot\nI have a … — Mende … bar.",
+          "ru": "Игрушки по-английски:\n⚽ ball — мяч\n🪆 doll — кукла\n🚗 car — машинка\n🧸 teddy bear — плюшевый мишка\n🪁 kite — воздушный змей\n🧱 blocks — кубики\n🚂 train — поезд\n🤖 robot — робот\nI have a … — У меня есть …"
+        }},
+        {"type": "example", "text": {
+          "tk": "Mergen öz oýnawaçlary hakda aýdýar:\n«I have a ball. ⚽ It's red. 🔴\nI have a car. 🚗 It's blue. 🔵\nMy favourite toy is my robot! 🤖»\nMy favourite toy — meniň iň halaýan oýnawajym.",
+          "ru": "Мерген рассказывает о своих игрушках:\n«I have a ball. ⚽ It's red. 🔴\nI have a car. 🚗 It's blue. 🔵\nMy favourite toy is my robot! 🤖»\nMy favourite toy — моя любимая игрушка."
+        }},
+        {"type": "choice",
+          "q": {"tk": "🧸 Iňlisçe nähili?", "ru": "Как по-английски 🧸?"},
+          "options": ["kite", "teddy bear", "train"],
+          "answer": 1,
+          "hint": {"tk": "Bear — aýy.", "ru": "Bear — медведь."},
+          "explain": {"tk": "🧸 — teddy bear (aýyjyk). Kite — batbörek, train — otly.", "ru": "🧸 — teddy bear (плюшевый мишка). Kite — змей, train — поезд."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«Ball» — bu top. ⚽", "ru": "«Ball» — это мяч. ⚽"},
+          "answer": true,
+          "hint": {"tk": "Futbolda näme bilen oýnaýarlar?", "ru": "Чем играют в футбол?"},
+          "explain": {"tk": "Hawa, ball — top. Football — futbol.", "ru": "Да, ball — мяч. Football — футбол."}
+        },
+        {"type": "input",
+          "q": {"tk": "Sözi doldur: «I … a doll.» (Mende gurjak bar.)", "ru": "Вставь слово: «I … a doll.» (У меня есть кукла.)"},
+          "answer": "have|Have",
+          "hint": {"tk": "I … a ball. — Mende top bar.", "ru": "I … a ball. — У меня есть мяч."},
+          "explain": {"tk": "«I have a doll.» — have = bar (mende bar).", "ru": "«I have a doll.» — have = есть (у меня есть)."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy oýnawaç asmanda uçýar?", "ru": "Какая игрушка летает в небе?"},
+          "options": ["car 🚗", "blocks 🧱", "kite 🪁"],
+          "answer": 2,
+          "hint": {"tk": "Oňa ýüp daňylýar we şemal ony galdyrýar.", "ru": "К нему привязана нитка, и его поднимает ветер."},
+          "explain": {"tk": "Kite (batbörek) şemalda uçýar. 🪁", "ru": "Kite (воздушный змей) летает на ветру. 🪁"}
+        },
+        {"type": "world", "text": {
+          "tk": "«Teddy bear» oýnawajy amerikan prezidenti Teodor Ruzweltiň adyndan alnypdyr. 🧸\nOnuň gysga ady «Teddy» bolupdyr. 1902-nji ýylda awda ol daňylgy aýyny atmakdan ýüz öwrüpdir, şondan soň aýyjyk oýnawaçlaryna «Teddy bear» diýip başlapdyrlar.",
+          "ru": "Игрушка «Teddy bear» названа в честь американского президента Теодора Рузвельта. 🧸\nЕго называли «Тедди». В 1902 году на охоте он отказался стрелять в привязанного медведя, и после этого плюшевых мишек стали называть «Teddy bear»."
+        }}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+name: Build APK
+
+on:
+  workflow_dispatch:
+    inputs:
+      api_url:
+        description: "API URL (server address)"
+        default: "https://api.sargyt.tm"
+  push:
+    branches: [main, master]
+    paths: ["sargyt/app/**", ".github/workflows/build-apk.yml"]
+
+jobs:
+  apk:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: sargyt/app
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+
+      - name: Create android/ios folders + permissions
+        run: bash setup_platforms.sh
+
+      - name: Build release APK
+        run: flutter build apk --release --dart-define=API_URL=${{ github.event.inputs.api_url || 'https://api.sargyt.tm' }}
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: sargyt-apk
+          path: sargyt/app/build/app/outputs/flutter-apk/app-release.apk

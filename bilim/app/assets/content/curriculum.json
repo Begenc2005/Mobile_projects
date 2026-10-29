@@ -1,0 +1,5358 @@
+{
+ "grades": [
+  {
+   "grade": 1,
+   "subjects": [
+    {
+     "id": "turkmen",
+     "topics": [
+      {
+       "title": {
+        "tk": "Sesler we harplar",
+        "ru": "Звуки и буквы"
+       },
+       "lesson": "turkmen-1-sounds-letters"
+      },
+      {
+       "title": {
+        "tk": "Çekimli sesler",
+        "ru": "Гласные звуки"
+       },
+       "lesson": "turkmen-1-vowels"
+      },
+      {
+       "title": {
+        "tk": "Çekimsiz sesler",
+        "ru": "Согласные звуки"
+       },
+       "lesson": "turkmen-1-consonants"
+      },
+      {
+       "title": {
+        "tk": "Bogun",
+        "ru": "Слог"
+       },
+       "lesson": "turkmen-1-syllables"
+      },
+      {
+       "title": {
+        "tk": "Söz",
+        "ru": "Слово"
+       },
+       "lesson": "turkmen-1-words"
+      },
+      {
+       "title": {
+        "tk": "Sözlem",
+        "ru": "Предложение"
+       },
+       "lesson": "turkmen-1-sentence"
+      }
+     ]
+    },
+    {
+     "id": "reading",
+     "topics": [
+      {
+       "title": {
+        "tk": "Elipbiý bilen tanyşlyk",
+        "ru": "Знакомство с алфавитом"
+       },
+       "lesson": "reading-1-alphabet"
+      },
+      {
+       "title": {
+        "tk": "Bogunlap okamak",
+        "ru": "Чтение по слогам"
+       },
+       "lesson": "reading-1-syllable-reading"
+      },
+      {
+       "title": {
+        "tk": "Gysga sözler",
+        "ru": "Короткие слова"
+       },
+       "lesson": "reading-1-short-words"
+      },
+      {
+       "title": {
+        "tk": "Kiçi hekaýalar",
+        "ru": "Маленькие рассказы"
+       },
+       "lesson": "reading-1-short-stories"
+      },
+      {
+       "title": {
+        "tk": "Haýwanlar hakynda ertekiler",
+        "ru": "Сказки о животных"
+       },
+       "lesson": "reading-1-animal-tales"
+      },
+      {
+       "title": {
+        "tk": "Tapmaçalar",
+        "ru": "Загадки"
+       },
+       "lesson": "reading-1-riddles"
+      }
+     ]
+    },
+    {
+     "id": "math",
+     "topics": [
+      {
+       "title": {
+        "tk": "1-den 10-a çenli sanlar",
+        "ru": "Числа от 1 до 10"
+       },
+       "lesson": "math-1-numbers-to-10"
+      },
+      {
+       "title": {
+        "tk": "Köp, az, deň",
+        "ru": "Больше, меньше, равно"
+       },
+       "lesson": "math-1-more-less-equal"
+      },
+      {
+       "title": {
+        "tk": "10-a çenli goşmak",
+        "ru": "Сложение до 10"
+       },
+       "lesson": "math-1-addition-to-10"
+      },
+      {
+       "title": {
+        "tk": "10-a çenli aýyrmak",
+        "ru": "Вычитание до 10"
+       },
+       "lesson": "math-1-subtraction-to-10"
+      },
+      {
+       "title": {
+        "tk": "Geometrik şekiller",
+        "ru": "Геометрические фигуры"
+       },
+       "lesson": "math-1-shapes"
+      },
+      {
+       "title": {
+        "tk": "20-ä çenli sanlar",
+        "ru": "Числа до 20"
+       },
+       "lesson": "math-1-numbers-to-20"
+      }
+     ]
+    },
+    {
+     "id": "world",
+     "topics": [
+      {
+       "title": {
+        "tk": "Men we maşgalam",
+        "ru": "Я и моя семья"
+       },
+       "lesson": "world-1-me-and-my-family"
+      },
+      {
+       "title": {
+        "tk": "Mekdep",
+        "ru": "Школа"
+       },
+       "lesson": "world-1-school"
+      },
+      {
+       "title": {
+        "tk": "Ýylyň pasyllary",
+        "ru": "Времена года"
+       },
+       "lesson": "world-1-seasons"
+      },
+      {
+       "title": {
+        "tk": "Öý haýwanlary",
+        "ru": "Домашние животные"
+       },
+       "lesson": "world-1-domestic-animals"
+      },
+      {
+       "title": {
+        "tk": "Ösümlikler",
+        "ru": "Растения"
+       },
+       "lesson": "world-1-plants"
+      },
+      {
+       "title": {
+        "tk": "Saglyk we arassaçylyk",
+        "ru": "Здоровье и гигиена"
+       },
+       "lesson": "world-1-health-hygiene"
+      }
+     ]
+    },
+    {
+     "id": "russian",
+     "topics": [
+      {
+       "title": {
+        "tk": "Tanyşlyk: Здравствуй!",
+        "ru": "Знакомство: Здравствуй!"
+       },
+       "lesson": "russian-1-zdravstvuy"
+      },
+      {
+       "title": {
+        "tk": "Reňkler",
+        "ru": "Цвета"
+       },
+       "lesson": "russian-1-colours"
+      },
+      {
+       "title": {
+        "tk": "Sanlar 1–10",
+        "ru": "Числа 1–10"
+       },
+       "lesson": "russian-1-numbers-1-10"
+      },
+      {
+       "title": {
+        "tk": "Maşgala",
+        "ru": "Семья"
+       },
+       "lesson": "russian-1-family"
+      },
+      {
+       "title": {
+        "tk": "Haýwanlar",
+        "ru": "Животные"
+       },
+       "lesson": "russian-1-animals"
+      },
+      {
+       "title": {
+        "tk": "Mekdep goşlary",
+        "ru": "Школьные принадлежности"
+       },
+       "lesson": "russian-1-school-supplies"
+      }
+     ]
+    },
+    {
+     "id": "english",
+     "topics": [
+      {
+       "title": {
+        "tk": "Hello! Salamlaşmak",
+        "ru": "Hello! Приветствие"
+       },
+       "lesson": "english-1-hello"
+      },
+      {
+       "title": {
+        "tk": "Colours — reňkler",
+        "ru": "Colours — цвета"
+       },
+       "lesson": "english-1-colours"
+      },
+      {
+       "title": {
+        "tk": "Numbers 1–10",
+        "ru": "Numbers 1–10"
+       },
+       "lesson": "english-1-numbers-1-10"
+      },
+      {
+       "title": {
+        "tk": "Family — maşgala",
+        "ru": "Family — семья"
+       },
+       "lesson": "english-1-family"
+      },
+      {
+       "title": {
+        "tk": "Animals — haýwanlar",
+        "ru": "Animals — животные"
+       },
+       "lesson": "english-1-animals"
+      },
+      {
+       "title": {
+        "tk": "Toys — oýnawaçlar",
+        "ru": "Toys — игрушки"
+       },
+       "lesson": "english-1-toys"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 2,
+   "subjects": [
+    {
+     "id": "turkmen",
+     "topics": [
+      {
+       "title": {
+        "tk": "Ýogyn we inçe çekimliler",
+        "ru": "Твёрдые и мягкие гласные"
+       },
+       "lesson": "turkmen-2-vowels"
+      },
+      {
+       "title": {
+        "tk": "Sözüň manysy",
+        "ru": "Значение слова"
+       },
+       "lesson": "turkmen-2-word-meaning"
+      },
+      {
+       "title": {
+        "tk": "At",
+        "ru": "Имя существительное"
+       },
+       "lesson": "turkmen-2-noun"
+      },
+      {
+       "title": {
+        "tk": "Sypat",
+        "ru": "Имя прилагательное"
+       },
+       "lesson": "turkmen-2-adjective"
+      },
+      {
+       "title": {
+        "tk": "Işlik",
+        "ru": "Глагол"
+       },
+       "lesson": "turkmen-2-verb"
+      },
+      {
+       "title": {
+        "tk": "Sözlemiň görnüşleri",
+        "ru": "Виды предложений"
+       },
+       "lesson": "turkmen-2-sentence-types"
+      }
+     ]
+    },
+    {
+     "id": "reading",
+     "topics": [
+      {
+       "title": {
+        "tk": "Goşgy we ritm",
+        "ru": "Стихи и ритм"
+       },
+       "lesson": "reading-2-poem-rhythm"
+      },
+      {
+       "title": {
+        "tk": "Halk ertekileri",
+        "ru": "Народные сказки"
+       },
+       "lesson": "reading-2-folk-tales"
+      },
+      {
+       "title": {
+        "tk": "Tebigat hakynda hekaýalar",
+        "ru": "Рассказы о природе"
+       },
+       "lesson": "reading-2-nature-stories"
+      },
+      {
+       "title": {
+        "tk": "Dostluk hakynda",
+        "ru": "О дружбе"
+       },
+       "lesson": "reading-2-friendship"
+      },
+      {
+       "title": {
+        "tk": "Nakyllar",
+        "ru": "Пословицы"
+       },
+       "lesson": "reading-2-proverbs"
+      },
+      {
+       "title": {
+        "tk": "Tekstiň esasy pikiri",
+        "ru": "Главная мысль текста"
+       },
+       "lesson": "reading-2-main-idea"
+      }
+     ]
+    },
+    {
+     "id": "math",
+     "topics": [
+      {
+       "title": {
+        "tk": "100-e çenli sanlar",
+        "ru": "Числа до 100"
+       },
+       "lesson": "math-2-numbers-to-100"
+      },
+      {
+       "title": {
+        "tk": "Onluklar we birlikler",
+        "ru": "Десятки и единицы"
+       },
+       "lesson": "math-2-tens-and-ones"
+      },
+      {
+       "title": {
+        "tk": "100-e çenli goşmak we aýyrmak",
+        "ru": "Сложение и вычитание до 100"
+       },
+       "lesson": "math-2-add-subtract-100"
+      },
+      {
+       "title": {
+        "tk": "Köpeltmek näme?",
+        "ru": "Что такое умножение"
+       },
+       "lesson": "math-2-what-is-multiplication"
+      },
+      {
+       "title": {
+        "tk": "Wagt we sagat",
+        "ru": "Время и часы"
+       },
+       "lesson": "math-2-time-clock"
+      },
+      {
+       "title": {
+        "tk": "Uzynlyk ölçegleri",
+        "ru": "Меры длины"
+       },
+       "lesson": "math-2-length-units"
+      }
+     ]
+    },
+    {
+     "id": "world",
+     "topics": [
+      {
+       "title": {
+        "tk": "Adamyň bedeni",
+        "ru": "Тело человека"
+       },
+       "lesson": "world-2-human-body"
+      },
+      {
+       "title": {
+        "tk": "Howa we pasyllar",
+        "ru": "Погода и сезоны"
+       },
+       "lesson": "world-2-weather-seasons"
+      },
+      {
+       "title": {
+        "tk": "Suw we onuň ýagdaýlary",
+        "ru": "Вода и её состояния"
+       },
+       "lesson": "world-2-water-states"
+      },
+      {
+       "title": {
+        "tk": "Ýabany haýwanlar",
+        "ru": "Дикие животные"
+       },
+       "lesson": "world-2-wild-animals"
+      },
+      {
+       "title": {
+        "tk": "Ýol hereketiniň düzgünleri",
+        "ru": "Правила дорожного движения"
+       },
+       "lesson": "world-2-road-safety"
+      },
+      {
+       "title": {
+        "tk": "Biziň planetamyz Ýer",
+        "ru": "Наша планета Земля"
+       },
+       "lesson": "world-2-planet-earth"
+      }
+     ]
+    },
+    {
+     "id": "russian",
+     "topics": [
+      {
+       "title": {
+        "tk": "Rus elipbiýi",
+        "ru": "Русский алфавит"
+       },
+       "lesson": "russian-2-alphabet"
+      },
+      {
+       "title": {
+        "tk": "Öýüm",
+        "ru": "Мой дом"
+       },
+       "lesson": "russian-2-my-home"
+      },
+      {
+       "title": {
+        "tk": "Iýmit",
+        "ru": "Еда"
+       },
+       "lesson": "russian-2-food"
+      },
+      {
+       "title": {
+        "tk": "Egin-eşik",
+        "ru": "Одежда"
+       },
+       "lesson": "russian-2-clothes"
+      },
+      {
+       "title": {
+        "tk": "Hepdäniň günleri",
+        "ru": "Дни недели"
+       },
+       "lesson": "russian-2-days-of-week"
+      },
+      {
+       "title": {
+        "tk": "Hereket işlikleri",
+        "ru": "Глаголы движения"
+       },
+       "lesson": "russian-2-motion-verbs"
+      }
+     ]
+    },
+    {
+     "id": "english",
+     "topics": [
+      {
+       "title": {
+        "tk": "The alphabet — elipbiý",
+        "ru": "The alphabet — алфавит"
+       },
+       "lesson": "english-2-alphabet"
+      },
+      {
+       "title": {
+        "tk": "My body — bedenim",
+        "ru": "My body — тело"
+       },
+       "lesson": "english-2-my-body"
+      },
+      {
+       "title": {
+        "tk": "Food — iýmit",
+        "ru": "Food — еда"
+       },
+       "lesson": "english-2-food"
+      },
+      {
+       "title": {
+        "tk": "Clothes — eşikler",
+        "ru": "Clothes — одежда"
+       },
+       "lesson": "english-2-clothes"
+      },
+      {
+       "title": {
+        "tk": "Days of the week",
+        "ru": "Days of the week — дни недели"
+       },
+       "lesson": "english-2-days-of-week"
+      },
+      {
+       "title": {
+        "tk": "I can… — men başarýaryn",
+        "ru": "I can… — я умею"
+       },
+       "lesson": "english-2-i-can"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 3,
+   "subjects": [
+    {
+     "id": "turkmen",
+     "topics": [
+      {
+       "title": {
+        "tk": "Sözüň düzümi: kök we goşulma",
+        "ru": "Состав слова: корень и аффикс"
+       },
+       "lesson": "turkmen-3-root-and-affix"
+      },
+      {
+       "title": {
+        "tk": "Köplük san",
+        "ru": "Множественное число"
+       },
+       "lesson": "turkmen-3-plural"
+      },
+      {
+       "title": {
+        "tk": "Düşümler bilen tanyşlyk",
+        "ru": "Знакомство с падежами"
+       },
+       "lesson": "turkmen-3-cases"
+      },
+      {
+       "title": {
+        "tk": "Işligiň zamanlary",
+        "ru": "Времена глагола"
+       },
+       "lesson": "turkmen-3-verb-tenses"
+      },
+      {
+       "title": {
+        "tk": "Çalyşmalar",
+        "ru": "Местоимения"
+       },
+       "lesson": "turkmen-3-pronouns"
+      },
+      {
+       "title": {
+        "tk": "Hat ýazmak",
+        "ru": "Пишем письмо"
+       },
+       "lesson": "turkmen-3-writing-a-letter"
+      }
+     ]
+    },
+    {
+     "id": "reading",
+     "topics": [
+      {
+       "title": {
+        "tk": "Erteki we hekaýa",
+        "ru": "Сказка и рассказ"
+       },
+       "lesson": "reading-3-fairy-tale-and-story"
+      },
+      {
+       "title": {
+        "tk": "Gahrymanlar we häsiýetler",
+        "ru": "Герои и их характеры"
+       },
+       "lesson": "reading-3-characters"
+      },
+      {
+       "title": {
+        "tk": "Dünýä halklarynyň ertekileri",
+        "ru": "Сказки народов мира"
+       },
+       "lesson": "reading-3-world-folk-tales"
+      },
+      {
+       "title": {
+        "tk": "Basnýa",
+        "ru": "Басня"
+       },
+       "lesson": "reading-3-fable"
+      },
+      {
+       "title": {
+        "tk": "Goşgy we kapiýa",
+        "ru": "Стих и рифма"
+       },
+       "lesson": "reading-3-poem-and-rhyme"
+      },
+      {
+       "title": {
+        "tk": "Okalany gürrüň bermek",
+        "ru": "Пересказ прочитанного"
+       },
+       "lesson": "reading-3-retelling"
+      }
+     ]
+    },
+    {
+     "id": "math",
+     "topics": [
+      {
+       "title": {
+        "tk": "Köpeltmek tablisasy",
+        "ru": "Таблица умножения"
+       },
+       "lesson": "math-3-multiplication-table"
+      },
+      {
+       "title": {
+        "tk": "Bölmek",
+        "ru": "Деление"
+       },
+       "lesson": "math-3-division"
+      },
+      {
+       "title": {
+        "tk": "Galyndyly bölmek",
+        "ru": "Деление с остатком"
+       },
+       "lesson": "math-3-division-with-remainder"
+      },
+      {
+       "title": {
+        "tk": "1000-e çenli sanlar",
+        "ru": "Числа до 1000"
+       },
+       "lesson": "math-3-numbers-to-1000"
+      },
+      {
+       "title": {
+        "tk": "Perimetr",
+        "ru": "Периметр"
+       },
+       "lesson": "math-3-perimeter"
+      },
+      {
+       "title": {
+        "tk": "Meseleler çözmek",
+        "ru": "Решение задач"
+       },
+       "lesson": "math-3-word-problems"
+      }
+     ]
+    },
+    {
+     "id": "world",
+     "topics": [
+      {
+       "title": {
+        "tk": "Gün ulgamy",
+        "ru": "Солнечная система"
+       },
+       "lesson": "world-3-solar-system"
+      },
+      {
+       "title": {
+        "tk": "Howa we atmosfera",
+        "ru": "Воздух и атмосфера"
+       },
+       "lesson": "world-3-air-atmosphere"
+      },
+      {
+       "title": {
+        "tk": "Toprak",
+        "ru": "Почва"
+       },
+       "lesson": "world-3-soil"
+      },
+      {
+       "title": {
+        "tk": "Iýmit zynjyry",
+        "ru": "Пищевая цепь"
+       },
+       "lesson": "world-3-food-chain"
+      },
+      {
+       "title": {
+        "tk": "Materikler we ummanlar",
+        "ru": "Материки и океаны"
+       },
+       "lesson": "world-3-continents-oceans"
+      },
+      {
+       "title": {
+        "tk": "Tebigaty goramak",
+        "ru": "Охрана природы"
+       },
+       "lesson": "world-3-nature-protection"
+      }
+     ]
+    },
+    {
+     "id": "russian",
+     "topics": [
+      {
+       "title": {
+        "tk": "At (существительное)",
+        "ru": "Существительное"
+       },
+       "lesson": "russian-3-noun"
+      },
+      {
+       "title": {
+        "tk": "Atlaryň jynsy",
+        "ru": "Род существительных"
+       },
+       "lesson": "russian-3-noun-gender"
+      },
+      {
+       "title": {
+        "tk": "Sypat (прилагательное)",
+        "ru": "Прилагательное"
+       },
+       "lesson": "russian-3-adjective"
+      },
+      {
+       "title": {
+        "tk": "Işlik (глагол)",
+        "ru": "Глагол"
+       },
+       "lesson": "russian-3-verb"
+      },
+      {
+       "title": {
+        "tk": "Meniň günüm",
+        "ru": "Мой день"
+       },
+       "lesson": "russian-3-my-day"
+      },
+      {
+       "title": {
+        "tk": "Howa",
+        "ru": "Погода"
+       },
+       "lesson": "russian-3-weather"
+      }
+     ]
+    },
+    {
+     "id": "english",
+     "topics": [
+      {
+       "title": {
+        "tk": "There is / there are",
+        "ru": "There is / there are"
+       },
+       "lesson": "english-3-there-is-there-are"
+      },
+      {
+       "title": {
+        "tk": "My house — öýüm",
+        "ru": "My house — мой дом"
+       },
+       "lesson": "english-3-my-house"
+      },
+      {
+       "title": {
+        "tk": "Present Continuous",
+        "ru": "Present Continuous"
+       },
+       "lesson": "english-3-present-continuous"
+      },
+      {
+       "title": {
+        "tk": "Have got",
+        "ru": "Have got"
+       },
+       "lesson": "english-3-have-got"
+      },
+      {
+       "title": {
+        "tk": "Can / can't",
+        "ru": "Can / can't"
+       },
+       "lesson": "english-3-can-cant"
+      },
+      {
+       "title": {
+        "tk": "Seasons and weather",
+        "ru": "Seasons and weather — погода"
+       },
+       "lesson": "english-3-seasons-weather"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 4,
+   "subjects": [
+    {
+     "id": "turkmen",
+     "topics": [
+      {
+       "title": {
+        "tk": "Sözlem agzalary",
+        "ru": "Члены предложения"
+       },
+       "lesson": "turkmen-4-sentence-members"
+      },
+      {
+       "title": {
+        "tk": "Eýe we habar",
+        "ru": "Подлежащее и сказуемое"
+       },
+       "lesson": "turkmen-4-subject-predicate"
+      },
+      {
+       "title": {
+        "tk": "San (söz topary)",
+        "ru": "Числительное"
+       },
+       "lesson": "turkmen-4-numerals"
+      },
+      {
+       "title": {
+        "tk": "Hal",
+        "ru": "Наречие"
+       },
+       "lesson": "turkmen-4-adverbs"
+      },
+      {
+       "title": {
+        "tk": "Baglaýjylar",
+        "ru": "Союзы"
+       },
+       "lesson": "turkmen-4-conjunctions"
+      },
+      {
+       "title": {
+        "tk": "Düzme ýazmak",
+        "ru": "Сочинение"
+       },
+       "lesson": "turkmen-4-composition"
+      }
+     ]
+    },
+    {
+     "id": "reading",
+     "topics": [
+      {
+       "title": {
+        "tk": "Mif we rowaýat",
+        "ru": "Миф и легенда"
+       },
+       "lesson": "reading-4-myth-legend"
+      },
+      {
+       "title": {
+        "tk": "Dessan bilen tanyşlyk",
+        "ru": "Знакомство с дастаном"
+       },
+       "lesson": "reading-4-dessan"
+      },
+      {
+       "title": {
+        "tk": "Fantastika",
+        "ru": "Фантастика"
+       },
+       "lesson": "reading-4-fantasy-science-fiction"
+      },
+      {
+       "title": {
+        "tk": "Terjimehal",
+        "ru": "Биография"
+       },
+       "lesson": "reading-4-biography"
+      },
+      {
+       "title": {
+        "tk": "Pýesa",
+        "ru": "Пьеса"
+       },
+       "lesson": "reading-4-play"
+      },
+      {
+       "title": {
+        "tk": "Kitap saýlamak",
+        "ru": "Как выбрать книгу"
+       },
+       "lesson": "reading-4-choosing-a-book"
+      }
+     ]
+    },
+    {
+     "id": "math",
+     "topics": [
+      {
+       "title": {
+        "tk": "Köp belgili sanlar",
+        "ru": "Многозначные числа"
+       },
+       "lesson": "math-4-multi-digit-numbers"
+      },
+      {
+       "title": {
+        "tk": "Sütün bilen köpeltmek",
+        "ru": "Умножение столбиком"
+       },
+       "lesson": "math-4-column-multiplication"
+      },
+      {
+       "title": {
+        "tk": "Burç bilen bölmek",
+        "ru": "Деление уголком"
+       },
+       "lesson": "math-4-long-division"
+      },
+      {
+       "title": {
+        "tk": "Ülüşler we droblar",
+        "ru": "Доли и дроби"
+       },
+       "lesson": "math-4-fractions"
+      },
+      {
+       "title": {
+        "tk": "Meýdan",
+        "ru": "Площадь"
+       },
+       "lesson": "math-4-area"
+      },
+      {
+       "title": {
+        "tk": "Tizlik, wagt, aralyk",
+        "ru": "Скорость, время, расстояние"
+       },
+       "lesson": "math-4-speed-time-distance"
+      }
+     ]
+    },
+    {
+     "id": "world",
+     "topics": [
+      {
+       "title": {
+        "tk": "Tebigy zolaklar",
+        "ru": "Природные зоны"
+       },
+       "lesson": "world-4-natural-zones"
+      },
+      {
+       "title": {
+        "tk": "Peýdaly gazylyp alynýan baýlyklar",
+        "ru": "Полезные ископаемые"
+       },
+       "lesson": "world-4-minerals"
+      },
+      {
+       "title": {
+        "tk": "Energiýa çeşmeleri",
+        "ru": "Источники энергии"
+       },
+       "lesson": "world-4-energy-sources"
+      },
+      {
+       "title": {
+        "tk": "Adamyň iç organlary",
+        "ru": "Внутренние органы человека"
+       },
+       "lesson": "world-4-internal-organs"
+      },
+      {
+       "title": {
+        "tk": "Gadymy siwilizasiýalar",
+        "ru": "Древние цивилизации"
+       },
+       "lesson": "world-4-ancient-civilizations"
+      },
+      {
+       "title": {
+        "tk": "Karta we kompas",
+        "ru": "Карта и компас"
+       },
+       "lesson": "world-4-map-compass"
+      }
+     ]
+    },
+    {
+     "id": "russian",
+     "topics": [
+      {
+       "title": {
+        "tk": "Predloglar",
+        "ru": "Предлоги"
+       },
+       "lesson": "russian-4-prepositions"
+      },
+      {
+       "title": {
+        "tk": "Köplük san",
+        "ru": "Множественное число"
+       },
+       "lesson": "russian-4-plural"
+      },
+      {
+       "title": {
+        "tk": "Öten zaman",
+        "ru": "Прошедшее время"
+       },
+       "lesson": "russian-4-past-tense"
+      },
+      {
+       "title": {
+        "tk": "Geljek zaman",
+        "ru": "Будущее время"
+       },
+       "lesson": "russian-4-future-tense"
+      },
+      {
+       "title": {
+        "tk": "Meniň şäherim",
+        "ru": "Мой город"
+       },
+       "lesson": "russian-4-my-city"
+      },
+      {
+       "title": {
+        "tk": "Dükanda",
+        "ru": "В магазине"
+       },
+       "lesson": "russian-4-in-the-shop"
+      }
+     ]
+    },
+    {
+     "id": "english",
+     "topics": [
+      {
+       "title": {
+        "tk": "Past Simple: was / were",
+        "ru": "Past Simple: was / were"
+       },
+       "lesson": "english-4-was-were"
+      },
+      {
+       "title": {
+        "tk": "Past Simple: regular verbs",
+        "ru": "Past Simple: правильные глаголы"
+       },
+       "lesson": "english-4-past-regular"
+      },
+      {
+       "title": {
+        "tk": "Comparatives",
+        "ru": "Сравнительная степень"
+       },
+       "lesson": "english-4-comparatives"
+      },
+      {
+       "title": {
+        "tk": "My town — şäherim",
+        "ru": "My town — мой город"
+       },
+       "lesson": "english-4-my-town"
+      },
+      {
+       "title": {
+        "tk": "Shopping — söwda",
+        "ru": "Shopping — покупки"
+       },
+       "lesson": "english-4-shopping"
+      },
+      {
+       "title": {
+        "tk": "Jobs — hünärler",
+        "ru": "Jobs — профессии"
+       },
+       "lesson": "english-4-jobs"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 5,
+   "subjects": [
+    {
+     "id": "turkmen",
+     "topics": [
+      {
+       "title": {
+        "tk": "Fonetika",
+        "ru": "Фонетика"
+       },
+       "lesson": "turkmen-5-phonetics"
+      },
+      {
+       "title": {
+        "tk": "Sinonim we antonim",
+        "ru": "Синонимы и антонимы"
+       },
+       "lesson": "turkmen-5-synonyms-antonyms"
+      },
+      {
+       "title": {
+        "tk": "Söz ýasalyşy",
+        "ru": "Словообразование"
+       },
+       "lesson": "turkmen-5-word-formation"
+      },
+      {
+       "title": {
+        "tk": "Atyň düşümleri",
+        "ru": "Падежи существительного"
+       },
+       "lesson": "turkmen-5-noun-cases"
+      },
+      {
+       "title": {
+        "tk": "Işligiň şekilleri",
+        "ru": "Формы глагола"
+       },
+       "lesson": "turkmen-5-verb-forms"
+      },
+      {
+       "title": {
+        "tk": "Dilden we ýazuwdan gürrüň",
+        "ru": "Устная и письменная речь"
+       },
+       "lesson": "turkmen-5-oral-written-speech"
+      },
+      {
+       "title": {
+        "tk": "Elipbiý we çekimli sesler",
+        "ru": "Алфавит и гласные звуки"
+       },
+       "lesson": "tkm-5-vowels"
+      }
+     ]
+    },
+    {
+     "id": "literature",
+     "topics": [
+      {
+       "title": {
+        "tk": "Edebiýat näme?",
+        "ru": "Что такое литература"
+       },
+       "lesson": "literature-5-what-is-literature"
+      },
+      {
+       "title": {
+        "tk": "Halk döredijiligi",
+        "ru": "Фольклор"
+       },
+       "lesson": "literature-5-folklore"
+      },
+      {
+       "title": {
+        "tk": "«Görogly» eposy",
+        "ru": "Эпос «Гёроглы»"
+       },
+       "lesson": "literature-5-gorogly-epic"
+      },
+      {
+       "title": {
+        "tk": "Dünýä ertekileri",
+        "ru": "Сказки мира"
+       },
+       "lesson": "literature-5-world-fairy-tales"
+      },
+      {
+       "title": {
+        "tk": "Hekaýanyň gurluşy",
+        "ru": "Строение рассказа"
+       },
+       "lesson": "literature-5-story-structure"
+      },
+      {
+       "title": {
+        "tk": "Şygryň esaslary",
+        "ru": "Основы стихосложения"
+       },
+       "lesson": "literature-5-poetry-basics"
+      }
+     ]
+    },
+    {
+     "id": "math",
+     "topics": [
+      {
+       "title": {
+        "tk": "Natural sanlar",
+        "ru": "Натуральные числа"
+       },
+       "lesson": "math-5-natural-numbers"
+      },
+      {
+       "title": {
+        "tk": "Bölünijilik alamatlary",
+        "ru": "Признаки делимости"
+       },
+       "lesson": "math-5-divisibility-rules"
+      },
+      {
+       "title": {
+        "tk": "Adaty droblar",
+        "ru": "Обыкновенные дроби"
+       },
+       "lesson": "math-5-common-fractions"
+      },
+      {
+       "title": {
+        "tk": "Onluk droblar",
+        "ru": "Десятичные дроби"
+       },
+       "lesson": "math-5-decimal-fractions"
+      },
+      {
+       "title": {
+        "tk": "Göterimler",
+        "ru": "Проценты"
+       },
+       "lesson": "math-5-percentages"
+      },
+      {
+       "title": {
+        "tk": "Burçlar we olary ölçemek",
+        "ru": "Углы и их измерение"
+       },
+       "lesson": "math-5-angles"
+      }
+     ]
+    },
+    {
+     "id": "history",
+     "topics": [
+      {
+       "title": {
+        "tk": "Taryh we taryhy çeşmeler",
+        "ru": "История и исторические источники"
+       },
+       "lesson": "history-5-sources"
+      },
+      {
+       "title": {
+        "tk": "Daş asyry",
+        "ru": "Каменный век"
+       },
+       "lesson": "history-5-stone-age"
+      },
+      {
+       "title": {
+        "tk": "Gadymy Müsür",
+        "ru": "Древний Египет"
+       },
+       "lesson": "history-5-ancient-egypt"
+      },
+      {
+       "title": {
+        "tk": "Mesopotamiýa",
+        "ru": "Месопотамия"
+       },
+       "lesson": "history-5-mesopotamia"
+      },
+      {
+       "title": {
+        "tk": "Gadymy Gresiýa",
+        "ru": "Древняя Греция"
+       },
+       "lesson": "history-5-ancient-greece"
+      },
+      {
+       "title": {
+        "tk": "Gadymy Rim",
+        "ru": "Древний Рим"
+       },
+       "lesson": "history-5-ancient-rome"
+      }
+     ]
+    },
+    {
+     "id": "informatics",
+     "topics": [
+      {
+       "title": {
+        "tk": "Kompýuteriň bölekleri",
+        "ru": "Устройство компьютера"
+       },
+       "lesson": "informatics-5-computer-parts"
+      },
+      {
+       "title": {
+        "tk": "Faýllar we bukjalar",
+        "ru": "Файлы и папки"
+       },
+       "lesson": "informatics-5-files-folders"
+      },
+      {
+       "title": {
+        "tk": "Klawiatura bilen işlemek",
+        "ru": "Работа с клавиатурой"
+       },
+       "lesson": "informatics-5-keyboard"
+      },
+      {
+       "title": {
+        "tk": "Algoritm näme?",
+        "ru": "Что такое алгоритм"
+       },
+       "lesson": "informatics-5-algorithm"
+      },
+      {
+       "title": {
+        "tk": "Internetde howpsuzlyk",
+        "ru": "Безопасность в интернете"
+       },
+       "lesson": "informatics-5-internet-safety"
+      },
+      {
+       "title": {
+        "tk": "Tekst redaktory",
+        "ru": "Текстовый редактор"
+       },
+       "lesson": "informatics-5-text-editor"
+      }
+     ]
+    },
+    {
+     "id": "russian",
+     "topics": [
+      {
+       "title": {
+        "tk": "Fonetika",
+        "ru": "Фонетика"
+       },
+       "lesson": "russian-5-fonetika"
+      },
+      {
+       "title": {
+        "tk": "Sözüň düzümi",
+        "ru": "Состав слова"
+       },
+       "lesson": "russian-5-sostav-slova"
+      },
+      {
+       "title": {
+        "tk": "Urgusyz çekimliler",
+        "ru": "Безударные гласные"
+       },
+       "lesson": "russian-5-bezudarnye-glasnye"
+      },
+      {
+       "title": {
+        "tk": "Işligiň üýtgeýşi",
+        "ru": "Спряжение глагола"
+       },
+       "lesson": "russian-5-spryazhenie"
+      },
+      {
+       "title": {
+        "tk": "Söz düzümi",
+        "ru": "Словосочетание"
+       },
+       "lesson": "russian-5-slovosochetanie"
+      },
+      {
+       "title": {
+        "tk": "Tekst we onuň temasy",
+        "ru": "Текст и его тема"
+       },
+       "lesson": "russian-5-tekst-i-tema"
+      },
+      {
+       "title": {
+        "tk": "Atlaryň düşümleri",
+        "ru": "Падежи имён существительных"
+       },
+       "lesson": "rus-5-cases"
+      }
+     ]
+    },
+    {
+     "id": "english",
+     "topics": [
+      {
+       "title": {
+        "tk": "Present Simple vs Continuous",
+        "ru": "Present Simple и Continuous"
+       },
+       "lesson": "english-5-present-simple-continuous"
+      },
+      {
+       "title": {
+        "tk": "Past Simple: irregular verbs",
+        "ru": "Past Simple: неправильные глаголы"
+       },
+       "lesson": "english-5-past-simple-irregular"
+      },
+      {
+       "title": {
+        "tk": "Countable / uncountable",
+        "ru": "Исчисляемые и неисчисляемые"
+       },
+       "lesson": "english-5-countable-uncountable"
+      },
+      {
+       "title": {
+        "tk": "Going to",
+        "ru": "Going to"
+       },
+       "lesson": "english-5-going-to"
+      },
+      {
+       "title": {
+        "tk": "Hobbies — gyzyklanmalar",
+        "ru": "Hobbies — увлечения"
+       },
+       "lesson": "english-5-hobbies"
+      },
+      {
+       "title": {
+        "tk": "Writing an email",
+        "ru": "Пишем email"
+       },
+       "lesson": "english-5-writing-email"
+      },
+      {
+       "title": {
+        "tk": "Present Simple — häzirki ýönekeý zaman",
+        "ru": "Present Simple — настоящее простое время"
+       },
+       "lesson": "eng-5-present-simple"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 6,
+   "subjects": [
+    {
+     "id": "turkmen",
+     "topics": [
+      {
+       "title": {
+        "tk": "Sypatlaryň derejeleri",
+        "ru": "Степени прилагательных"
+       },
+       "lesson": "turkmen-6-adjective-degrees"
+      },
+      {
+       "title": {
+        "tk": "Sanlaryň görnüşleri",
+        "ru": "Разряды числительных"
+       },
+       "lesson": "turkmen-6-numeral-types"
+      },
+      {
+       "title": {
+        "tk": "Çalyşmalaryň görnüşleri",
+        "ru": "Разряды местоимений"
+       },
+       "lesson": "turkmen-6-pronoun-types"
+      },
+      {
+       "title": {
+        "tk": "Buýruk we şert formalary",
+        "ru": "Повелительная и условная формы"
+       },
+       "lesson": "turkmen-6-imperative-conditional"
+      },
+      {
+       "title": {
+        "tk": "Durnukly söz düzümleri",
+        "ru": "Фразеологизмы"
+       },
+       "lesson": "turkmen-6-idioms"
+      },
+      {
+       "title": {
+        "tk": "Arza ýazmak",
+        "ru": "Пишем заявление"
+       },
+       "lesson": "turkmen-6-application-letter"
+      }
+     ]
+    },
+    {
+     "id": "literature",
+     "topics": [
+      {
+       "title": {
+        "tk": "Dessanlar",
+        "ru": "Дастаны"
+       },
+       "lesson": "literature-6-dessans"
+      },
+      {
+       "title": {
+        "tk": "Nusgawy türkmen şahyrlary",
+        "ru": "Классические туркменские поэты"
+       },
+       "lesson": "literature-6-classical-poets"
+      },
+      {
+       "title": {
+        "tk": "Ezop we Krylow",
+        "ru": "Эзоп и Крылов"
+       },
+       "lesson": "literature-6-aesop-krylov"
+      },
+      {
+       "title": {
+        "tk": "Sýužet we kompozisiýa",
+        "ru": "Сюжет и композиция"
+       },
+       "lesson": "literature-6-plot-composition"
+      },
+      {
+       "title": {
+        "tk": "Dünýä çagalar edebiýaty",
+        "ru": "Мировая детская литература"
+       },
+       "lesson": "literature-6-world-childrens-literature"
+      },
+      {
+       "title": {
+        "tk": "Gahrymanyň obrazy",
+        "ru": "Образ героя"
+       },
+       "lesson": "literature-6-character-image"
+      }
+     ]
+    },
+    {
+     "id": "math",
+     "topics": [
+      {
+       "title": {
+        "tk": "Bitin sanlar",
+        "ru": "Целые числа"
+       },
+       "lesson": "math-6-integers"
+      },
+      {
+       "title": {
+        "tk": "Otrisatel sanlar bilen amallar",
+        "ru": "Действия с отрицательными числами"
+       },
+       "lesson": "math-6-negative-operations"
+      },
+      {
+       "title": {
+        "tk": "Gatnaşyk we proporsiýa",
+        "ru": "Отношения и пропорции"
+       },
+       "lesson": "math-6-ratio-proportion"
+      },
+      {
+       "title": {
+        "tk": "Koordinata tekizligi",
+        "ru": "Координатная плоскость"
+       },
+       "lesson": "math-6-coordinate-plane"
+      },
+      {
+       "title": {
+        "tk": "Aňlatmalary ýönekeýleşdirmek",
+        "ru": "Упрощение выражений"
+       },
+       "lesson": "math-6-simplifying-expressions"
+      },
+      {
+       "title": {
+        "tk": "Töwerek we tegelek",
+        "ru": "Окружность и круг"
+       },
+       "lesson": "math-6-circle"
+      }
+     ]
+    },
+    {
+     "id": "biology",
+     "topics": [
+      {
+       "title": {
+        "tk": "Janlylaryň häsiýetleri",
+        "ru": "Свойства живого"
+       },
+       "lesson": "biology-6-properties-of-life"
+      },
+      {
+       "title": {
+        "tk": "Mikroskop",
+        "ru": "Микроскоп"
+       },
+       "lesson": "biology-6-microscope"
+      },
+      {
+       "title": {
+        "tk": "Bakteriýalar we kömelekler",
+        "ru": "Бактерии и грибы"
+       },
+       "lesson": "biology-6-bacteria-fungi"
+      },
+      {
+       "title": {
+        "tk": "Ösümligiň gurluşy",
+        "ru": "Строение растения"
+       },
+       "lesson": "biology-6-plant-structure"
+      },
+      {
+       "title": {
+        "tk": "Fotosintez",
+        "ru": "Фотосинтез"
+       },
+       "lesson": "biology-6-photosynthesis"
+      },
+      {
+       "title": {
+        "tk": "Ösümlikleriň köpelişi",
+        "ru": "Размножение растений"
+       },
+       "lesson": "biology-6-plant-reproduction"
+      },
+      {
+       "title": {
+        "tk": "Öýjük — durmuşyň birligi",
+        "ru": "Клетка — единица жизни"
+       },
+       "lesson": "bio-6-cell"
+      }
+     ]
+    },
+    {
+     "id": "geography",
+     "topics": [
+      {
+       "title": {
+        "tk": "Ýeriň şekili we hereketi",
+        "ru": "Форма и движение Земли"
+       },
+       "lesson": "geography-6-earth-shape-motion"
+      },
+      {
+       "title": {
+        "tk": "Karta we masştab",
+        "ru": "Карта и масштаб"
+       },
+       "lesson": "geography-6-map-scale"
+      },
+      {
+       "title": {
+        "tk": "Giňlik we uzaklyk",
+        "ru": "Широта и долгота"
+       },
+       "lesson": "geography-6-latitude-longitude"
+      },
+      {
+       "title": {
+        "tk": "Litosfera",
+        "ru": "Литосфера"
+       },
+       "lesson": "geography-6-lithosphere"
+      },
+      {
+       "title": {
+        "tk": "Gidrosfera",
+        "ru": "Гидросфера"
+       },
+       "lesson": "geography-6-hydrosphere"
+      },
+      {
+       "title": {
+        "tk": "Atmosfera we howa",
+        "ru": "Атмосфера и погода"
+       },
+       "lesson": "geography-6-atmosphere-weather"
+      },
+      {
+       "title": {
+        "tk": "Türkmenistanyň tebigaty",
+        "ru": "Природа Туркменистана"
+       },
+       "lesson": "geo-6-turkmenistan"
+      }
+     ]
+    },
+    {
+     "id": "history",
+     "topics": [
+      {
+       "title": {
+        "tk": "Gadymy Hindistan",
+        "ru": "Древняя Индия"
+       },
+       "lesson": "history-6-ancient-india"
+      },
+      {
+       "title": {
+        "tk": "Gadymy Hytaý",
+        "ru": "Древний Китай"
+       },
+       "lesson": "history-6-ancient-china"
+      },
+      {
+       "title": {
+        "tk": "Parfiýa we Nusaý",
+        "ru": "Парфия и Ниса"
+       },
+       "lesson": "history-6-parthia-nisa"
+      },
+      {
+       "title": {
+        "tk": "Beýik Ýüpek ýoly",
+        "ru": "Великий Шёлковый путь"
+       },
+       "lesson": "history-6-silk-road"
+      },
+      {
+       "title": {
+        "tk": "Rim imperiýasynyň dargamagy",
+        "ru": "Падение Римской империи"
+       },
+       "lesson": "history-6-fall-of-rome"
+      },
+      {
+       "title": {
+        "tk": "Orta asyrlaryň başlangyjy",
+        "ru": "Начало Средневековья"
+       },
+       "lesson": "history-6-early-middle-ages"
+      }
+     ]
+    },
+    {
+     "id": "informatics",
+     "topics": [
+      {
+       "title": {
+        "tk": "Maglumat we onuň görnüşleri",
+        "ru": "Информация и её виды"
+       },
+       "lesson": "informatics-6-information-types"
+      },
+      {
+       "title": {
+        "tk": "Prezentasiýa döretmek",
+        "ru": "Создание презентации"
+       },
+       "lesson": "informatics-6-presentations"
+      },
+      {
+       "title": {
+        "tk": "Elektron tablisalar",
+        "ru": "Электронные таблицы"
+       },
+       "lesson": "informatics-6-spreadsheets"
+      },
+      {
+       "title": {
+        "tk": "Algoritmiň görnüşleri",
+        "ru": "Виды алгоритмов"
+       },
+       "lesson": "informatics-6-algorithm-types"
+      },
+      {
+       "title": {
+        "tk": "Blok-shemalar",
+        "ru": "Блок-схемы"
+       },
+       "lesson": "informatics-6-flowcharts"
+      },
+      {
+       "title": {
+        "tk": "Scratch-da programmirleme",
+        "ru": "Программирование в Scratch"
+       },
+       "lesson": "informatics-6-scratch"
+      }
+     ]
+    },
+    {
+     "id": "russian",
+     "topics": [
+      {
+       "title": {
+        "tk": "Sinonimler we antonimler",
+        "ru": "Синонимы и антонимы"
+       },
+       "lesson": "russian-6-synonyms-antonyms"
+      },
+      {
+       "title": {
+        "tk": "Frazeologizmler",
+        "ru": "Фразеологизмы"
+       },
+       "lesson": "russian-6-idioms"
+      },
+      {
+       "title": {
+        "tk": "Sypatyň deňeşdirme derejeleri",
+        "ru": "Степени сравнения прилагательных"
+       },
+       "lesson": "russian-6-adjective-comparison"
+      },
+      {
+       "title": {
+        "tk": "San (числительное)",
+        "ru": "Имя числительное"
+       },
+       "lesson": "russian-6-numerals"
+      },
+      {
+       "title": {
+        "tk": "Çalyşma (местоимение)",
+        "ru": "Местоимение"
+       },
+       "lesson": "russian-6-pronouns"
+      },
+      {
+       "title": {
+        "tk": "Iş haty",
+        "ru": "Деловое письмо"
+       },
+       "lesson": "russian-6-business-letter"
+      }
+     ]
+    },
+    {
+     "id": "english",
+     "topics": [
+      {
+       "title": {
+        "tk": "Present Perfect",
+        "ru": "Present Perfect"
+       },
+       "lesson": "english-6-present-perfect"
+      },
+      {
+       "title": {
+        "tk": "Past Continuous",
+        "ru": "Past Continuous"
+       },
+       "lesson": "english-6-past-continuous"
+      },
+      {
+       "title": {
+        "tk": "Will vs going to",
+        "ru": "Will и going to"
+       },
+       "lesson": "english-6-will-going-to"
+      },
+      {
+       "title": {
+        "tk": "Must / should",
+        "ru": "Must / should"
+       },
+       "lesson": "english-6-must-should"
+      },
+      {
+       "title": {
+        "tk": "Travel — syýahat",
+        "ru": "Travel — путешествия"
+       },
+       "lesson": "english-6-travel"
+      },
+      {
+       "title": {
+        "tk": "Describing people",
+        "ru": "Описание внешности"
+       },
+       "lesson": "english-6-describing-people"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 7,
+   "subjects": [
+    {
+     "id": "turkmen",
+     "topics": [
+      {
+       "title": {
+        "tk": "Aýyklaýjy, doldurgyç, hal",
+        "ru": "Определение, дополнение, обстоятельство"
+       },
+       "lesson": "turkmen-7-secondary-members"
+      },
+      {
+       "title": {
+        "tk": "Goşma sözlemler",
+        "ru": "Сложные предложения"
+       },
+       "lesson": "turkmen-7-complex-sentences"
+      },
+      {
+       "title": {
+        "tk": "Göni we gytaklaýyn gürrüň",
+        "ru": "Прямая и косвенная речь"
+       },
+       "lesson": "turkmen-7-direct-indirect-speech"
+      },
+      {
+       "title": {
+        "tk": "Dyngy belgileri",
+        "ru": "Знаки препинания"
+       },
+       "lesson": "turkmen-7-punctuation"
+      },
+      {
+       "title": {
+        "tk": "Publisistik stil",
+        "ru": "Публицистический стиль"
+       },
+       "lesson": "turkmen-7-publicistic-style"
+      },
+      {
+       "title": {
+        "tk": "Beýan ýazmak",
+        "ru": "Изложение"
+       },
+       "lesson": "turkmen-7-summary-writing"
+      }
+     ]
+    },
+    {
+     "id": "literature",
+     "topics": [
+      {
+       "title": {
+        "tk": "«Gorkut ata» kitaby",
+        "ru": "«Книга Деде Коркута»"
+       },
+       "lesson": "literature-7-gorkut-ata"
+      },
+      {
+       "title": {
+        "tk": "Firdöwsi we «Şanama»",
+        "ru": "Фирдоуси и «Шахнаме»"
+       },
+       "lesson": "literature-7-firdowsi-shahnameh"
+      },
+      {
+       "title": {
+        "tk": "Nowella",
+        "ru": "Новелла"
+       },
+       "lesson": "literature-7-novella"
+      },
+      {
+       "title": {
+        "tk": "Ballada",
+        "ru": "Баллада"
+       },
+       "lesson": "literature-7-ballad"
+      },
+      {
+       "title": {
+        "tk": "Satira we ýumor",
+        "ru": "Сатира и юмор"
+       },
+       "lesson": "literature-7-satire-humor"
+      },
+      {
+       "title": {
+        "tk": "Lirika",
+        "ru": "Лирика"
+       },
+       "lesson": "literature-7-lyric-poetry"
+      },
+      {
+       "title": {
+        "tk": "Magtymguly Pyragy",
+        "ru": "Махтумкули Фраги"
+       },
+       "lesson": "lit-7-magtymguly"
+      }
+     ]
+    },
+    {
+     "id": "math",
+     "topics": [
+      {
+       "title": {
+        "tk": "Aňlatmalar we toždestwolar",
+        "ru": "Выражения и тождества"
+       },
+       "lesson": "math-7-expressions-identities"
+      },
+      {
+       "title": {
+        "tk": "Derejeler",
+        "ru": "Степени"
+       },
+       "lesson": "math-7-powers"
+      },
+      {
+       "title": {
+        "tk": "Birağzalar we köpağzalar",
+        "ru": "Одночлены и многочлены"
+       },
+       "lesson": "math-7-monomials-polynomials"
+      },
+      {
+       "title": {
+        "tk": "Gysga köpeltmek formulalary",
+        "ru": "Формулы сокращённого умножения"
+       },
+       "lesson": "math-7-short-multiplication"
+      },
+      {
+       "title": {
+        "tk": "Funksiýa we grafik",
+        "ru": "Функция и график"
+       },
+       "lesson": "math-7-linear-function"
+      },
+      {
+       "title": {
+        "tk": "Deňlemeler ulgamy",
+        "ru": "Системы уравнений"
+       },
+       "lesson": "math-7-systems-of-equations"
+      },
+      {
+       "title": {
+        "tk": "Çyzykly deňlemeler",
+        "ru": "Линейные уравнения"
+       },
+       "lesson": "math-7-linear"
+      }
+     ]
+    },
+    {
+     "id": "geometry",
+     "topics": [
+      {
+       "title": {
+        "tk": "Nokat, göni çyzyk, burç",
+        "ru": "Точка, прямая, угол"
+       },
+       "lesson": "geometry-7-point-line-angle"
+      },
+      {
+       "title": {
+        "tk": "Üçburçluklar",
+        "ru": "Треугольники"
+       },
+       "lesson": "geometry-7-triangles"
+      },
+      {
+       "title": {
+        "tk": "Üçburçluklaryň deňlik nyşanlary",
+        "ru": "Признаки равенства треугольников"
+       },
+       "lesson": "geometry-7-triangle-congruence"
+      },
+      {
+       "title": {
+        "tk": "Parallel göni çyzyklar",
+        "ru": "Параллельные прямые"
+       },
+       "lesson": "geometry-7-parallel-lines"
+      },
+      {
+       "title": {
+        "tk": "Üçburçlugyň burçlarynyň jemi",
+        "ru": "Сумма углов треугольника"
+       },
+       "lesson": "geometry-7-angle-sum"
+      },
+      {
+       "title": {
+        "tk": "Gurmaga degişli meseleler",
+        "ru": "Задачи на построение"
+       },
+       "lesson": "geometry-7-constructions"
+      }
+     ]
+    },
+    {
+     "id": "physics",
+     "topics": [
+      {
+       "title": {
+        "tk": "Fizika näme öwrenýär",
+        "ru": "Что изучает физика"
+       },
+       "lesson": "physics-7-what-is-physics"
+      },
+      {
+       "title": {
+        "tk": "Maddanyň gurluşy",
+        "ru": "Строение вещества"
+       },
+       "lesson": "physics-7-structure-of-matter"
+      },
+      {
+       "title": {
+        "tk": "Massa we dykyzlyk",
+        "ru": "Масса и плотность"
+       },
+       "lesson": "physics-7-mass-density"
+      },
+      {
+       "title": {
+        "tk": "Güýç we agyrlyk güýji",
+        "ru": "Сила и сила тяжести"
+       },
+       "lesson": "physics-7-force-gravity"
+      },
+      {
+       "title": {
+        "tk": "Basyş",
+        "ru": "Давление"
+       },
+       "lesson": "physics-7-pressure"
+      },
+      {
+       "title": {
+        "tk": "Arhimed güýji",
+        "ru": "Сила Архимеда"
+       },
+       "lesson": "physics-7-archimedes-force"
+      },
+      {
+       "title": {
+        "tk": "Tizlik, ýol we wagt",
+        "ru": "Скорость, путь и время"
+       },
+       "lesson": "physics-7-speed"
+      }
+     ]
+    },
+    {
+     "id": "biology",
+     "topics": [
+      {
+       "title": {
+        "tk": "Haýwanlaryň klassifikasiýasy",
+        "ru": "Классификация животных"
+       },
+       "lesson": "biology-7-animal-classification"
+      },
+      {
+       "title": {
+        "tk": "Oňurgasyzlar",
+        "ru": "Беспозвоночные"
+       },
+       "lesson": "biology-7-invertebrates"
+      },
+      {
+       "title": {
+        "tk": "Mör-möjekler",
+        "ru": "Насекомые"
+       },
+       "lesson": "biology-7-insects"
+      },
+      {
+       "title": {
+        "tk": "Balyklar",
+        "ru": "Рыбы"
+       },
+       "lesson": "biology-7-fish"
+      },
+      {
+       "title": {
+        "tk": "Guşlar",
+        "ru": "Птицы"
+       },
+       "lesson": "biology-7-birds"
+      },
+      {
+       "title": {
+        "tk": "Süýdemdirijiler",
+        "ru": "Млекопитающие"
+       },
+       "lesson": "biology-7-mammals"
+      }
+     ]
+    },
+    {
+     "id": "geography",
+     "topics": [
+      {
+       "title": {
+        "tk": "Materikler",
+        "ru": "Материки"
+       },
+       "lesson": "geography-7-continents"
+      },
+      {
+       "title": {
+        "tk": "Afrika",
+        "ru": "Африка"
+       },
+       "lesson": "geography-7-africa"
+      },
+      {
+       "title": {
+        "tk": "Ýewraziýa",
+        "ru": "Евразия"
+       },
+       "lesson": "geography-7-eurasia"
+      },
+      {
+       "title": {
+        "tk": "Amerika materikleri",
+        "ru": "Америка"
+       },
+       "lesson": "geography-7-americas"
+      },
+      {
+       "title": {
+        "tk": "Awstraliýa we Antarktida",
+        "ru": "Австралия и Антарктида"
+       },
+       "lesson": "geography-7-australia-antarctica"
+      },
+      {
+       "title": {
+        "tk": "Dünýä ummany",
+        "ru": "Мировой океан"
+       },
+       "lesson": "geography-7-world-ocean"
+      }
+     ]
+    },
+    {
+     "id": "history",
+     "topics": [
+      {
+       "title": {
+        "tk": "Arap halyfaty we ylym",
+        "ru": "Арабский халифат и наука"
+       },
+       "lesson": "history-7-caliphate-science"
+      },
+      {
+       "title": {
+        "tk": "Orta asyr Ýewropasy",
+        "ru": "Средневековая Европа"
+       },
+       "lesson": "history-7-medieval-europe"
+      },
+      {
+       "title": {
+        "tk": "Mongol imperiýasy",
+        "ru": "Монгольская империя"
+       },
+       "lesson": "history-7-mongol-empire"
+      },
+      {
+       "title": {
+        "tk": "Timur we Timurylar",
+        "ru": "Тимур и Тимуриды"
+       },
+       "lesson": "history-7-timur-timurids"
+      },
+      {
+       "title": {
+        "tk": "Biruni we Ibn Sina",
+        "ru": "Бируни и Ибн Сина"
+       },
+       "lesson": "history-7-biruni-ibn-sina"
+      },
+      {
+       "title": {
+        "tk": "Beýik geografik açyşlar",
+        "ru": "Великие географические открытия"
+       },
+       "lesson": "history-7-age-of-discovery"
+      },
+      {
+       "title": {
+        "tk": "Gadymy Merw we Seljuklar",
+        "ru": "Древний Мерв и Сельджуки"
+       },
+       "lesson": "hist-7-merv"
+      }
+     ]
+    },
+    {
+     "id": "informatics",
+     "topics": [
+      {
+       "title": {
+        "tk": "Kompýuter arhitekturasy",
+        "ru": "Архитектура компьютера"
+       },
+       "lesson": "informatics-7-computer-architecture"
+      },
+      {
+       "title": {
+        "tk": "Operasion ulgamlar",
+        "ru": "Операционные системы"
+       },
+       "lesson": "informatics-7-operating-systems"
+      },
+      {
+       "title": {
+        "tk": "Tablisalarda formulalar",
+        "ru": "Формулы в таблицах"
+       },
+       "lesson": "informatics-7-spreadsheet-formulas"
+      },
+      {
+       "title": {
+        "tk": "Kompýuter torlary",
+        "ru": "Компьютерные сети"
+       },
+       "lesson": "informatics-7-computer-networks"
+      },
+      {
+       "title": {
+        "tk": "Python bilen tanyşlyk",
+        "ru": "Знакомство с Python"
+       },
+       "lesson": "informatics-7-python-intro"
+      },
+      {
+       "title": {
+        "tk": "Şertli operatorlar",
+        "ru": "Условные операторы"
+       },
+       "lesson": "informatics-7-conditionals"
+      }
+     ]
+    },
+    {
+     "id": "russian",
+     "topics": [
+      {
+       "title": {
+        "tk": "Işlik ortak (причастие)",
+        "ru": "Причастие"
+       },
+       "lesson": "russian-7-prichastie"
+      },
+      {
+       "title": {
+        "tk": "Hal işlik (деепричастие)",
+        "ru": "Деепричастие"
+       },
+       "lesson": "russian-7-deeprichastie"
+      },
+      {
+       "title": {
+        "tk": "Hal (наречие)",
+        "ru": "Наречие"
+       },
+       "lesson": "russian-7-narechie"
+      },
+      {
+       "title": {
+        "tk": "Predloglar we baglaýjylar",
+        "ru": "Предлоги и союзы"
+       },
+       "lesson": "russian-7-predlogi-soyuzy"
+      },
+      {
+       "title": {
+        "tk": "Bölejikler",
+        "ru": "Частицы"
+       },
+       "lesson": "russian-7-chastitsy"
+      },
+      {
+       "title": {
+        "tk": "Düzme-beýan",
+        "ru": "Сочинение-описание"
+       },
+       "lesson": "russian-7-sochinenie-opisanie"
+      }
+     ]
+    },
+    {
+     "id": "english",
+     "topics": [
+      {
+       "title": {
+        "tk": "Present Perfect vs Past Simple",
+        "ru": "Present Perfect и Past Simple"
+       },
+       "lesson": "english-7-present-perfect-past-simple"
+      },
+      {
+       "title": {
+        "tk": "First conditional",
+        "ru": "Первый тип условных"
+       },
+       "lesson": "english-7-first-conditional"
+      },
+      {
+       "title": {
+        "tk": "Passive voice: present",
+        "ru": "Пассивный залог: настоящее"
+       },
+       "lesson": "english-7-passive-present"
+      },
+      {
+       "title": {
+        "tk": "Relative clauses",
+        "ru": "Относительные придаточные"
+       },
+       "lesson": "english-7-relative-clauses"
+      },
+      {
+       "title": {
+        "tk": "Phrasal verbs",
+        "ru": "Фразовые глаголы"
+       },
+       "lesson": "english-7-phrasal-verbs"
+      },
+      {
+       "title": {
+        "tk": "Writing a story",
+        "ru": "Пишем рассказ"
+       },
+       "lesson": "english-7-writing-a-story"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 8,
+   "subjects": [
+    {
+     "id": "turkmen",
+     "topics": [
+      {
+       "title": {
+        "tk": "Ýönekeý sözlemiň sintaksisi",
+        "ru": "Синтаксис простого предложения"
+       },
+       "lesson": "turkmen-8-simple-sentence-syntax"
+      },
+      {
+       "title": {
+        "tk": "Bir düzümli sözlemler",
+        "ru": "Односоставные предложения"
+       },
+       "lesson": "turkmen-8-one-member-sentences"
+      },
+      {
+       "title": {
+        "tk": "Birjynsly agzalar",
+        "ru": "Однородные члены"
+       },
+       "lesson": "turkmen-8-homogeneous-members"
+      },
+      {
+       "title": {
+        "tk": "Ýüzlenme we giriş sözler",
+        "ru": "Обращение и вводные слова"
+       },
+       "lesson": "turkmen-8-address-and-parenthetical"
+      },
+      {
+       "title": {
+        "tk": "Ylmy stil",
+        "ru": "Научный стиль"
+       },
+       "lesson": "turkmen-8-scientific-style"
+      },
+      {
+       "title": {
+        "tk": "Esse ýazmak",
+        "ru": "Пишем эссе"
+       },
+       "lesson": "turkmen-8-essay-writing"
+      }
+     ]
+    },
+    {
+     "id": "literature",
+     "topics": [
+      {
+       "title": {
+        "tk": "Nyzamy we «Hamsa»",
+        "ru": "Низами и «Хамсе»"
+       },
+       "lesson": "literature-8-nizami-khamsa"
+      },
+      {
+       "title": {
+        "tk": "Şekspir",
+        "ru": "Шекспир"
+       },
+       "lesson": "literature-8-shakespeare"
+      },
+      {
+       "title": {
+        "tk": "Mollanepes",
+        "ru": "Моллапепес"
+       },
+       "lesson": "literature-8-mollanepes"
+      },
+      {
+       "title": {
+        "tk": "Andalyp we Seýdi",
+        "ru": "Андалиб и Сейди"
+       },
+       "lesson": "literature-8-andalyp-seydi"
+      },
+      {
+       "title": {
+        "tk": "Romantizm",
+        "ru": "Романтизм"
+       },
+       "lesson": "literature-8-romanticism"
+      },
+      {
+       "title": {
+        "tk": "Drama žanry",
+        "ru": "Жанр драмы"
+       },
+       "lesson": "literature-8-drama-genre"
+      }
+     ]
+    },
+    {
+     "id": "math",
+     "topics": [
+      {
+       "title": {
+        "tk": "Kwadrat kökler",
+        "ru": "Квадратные корни"
+       },
+       "lesson": "math-8-square-roots"
+      },
+      {
+       "title": {
+        "tk": "Kwadrat deňlemeler",
+        "ru": "Квадратные уравнения"
+       },
+       "lesson": "math-8-quadratic-equations"
+      },
+      {
+       "title": {
+        "tk": "Wiýetiň teoremasy",
+        "ru": "Теорема Виета"
+       },
+       "lesson": "math-8-vieta-theorem"
+      },
+      {
+       "title": {
+        "tk": "Rasional droblar",
+        "ru": "Рациональные дроби"
+       },
+       "lesson": "math-8-rational-fractions"
+      },
+      {
+       "title": {
+        "tk": "Deňsizlikler",
+        "ru": "Неравенства"
+       },
+       "lesson": "math-8-inequalities"
+      },
+      {
+       "title": {
+        "tk": "Statistikanyň esaslary",
+        "ru": "Основы статистики"
+       },
+       "lesson": "math-8-statistics-basics"
+      }
+     ]
+    },
+    {
+     "id": "geometry",
+     "topics": [
+      {
+       "title": {
+        "tk": "Dörtburçluklar",
+        "ru": "Четырёхугольники"
+       },
+       "lesson": "geometry-8-quadrilaterals"
+      },
+      {
+       "title": {
+        "tk": "Parallelogram we trapesiýa",
+        "ru": "Параллелограмм и трапеция"
+       },
+       "lesson": "geometry-8-parallelogram-trapezoid"
+      },
+      {
+       "title": {
+        "tk": "Şekilleriň meýdanlary",
+        "ru": "Площади фигур"
+       },
+       "lesson": "geometry-8-areas"
+      },
+      {
+       "title": {
+        "tk": "Pifagoryň teoremasy",
+        "ru": "Теорема Пифагора"
+       },
+       "lesson": "geometry-8-pythagorean-theorem"
+      },
+      {
+       "title": {
+        "tk": "Meňzeş üçburçluklar",
+        "ru": "Подобные треугольники"
+       },
+       "lesson": "geometry-8-similar-triangles"
+      },
+      {
+       "title": {
+        "tk": "Töwerek",
+        "ru": "Окружность"
+       },
+       "lesson": "geometry-8-circle"
+      }
+     ]
+    },
+    {
+     "id": "physics",
+     "topics": [
+      {
+       "title": {
+        "tk": "Ýylylyk hadysalary",
+        "ru": "Тепловые явления"
+       },
+       "lesson": "physics-8-thermal-phenomena"
+      },
+      {
+       "title": {
+        "tk": "Ýylylyk mukdary",
+        "ru": "Количество теплоты"
+       },
+       "lesson": "physics-8-quantity-of-heat"
+      },
+      {
+       "title": {
+        "tk": "Maddanyň agregat ýagdaýlary",
+        "ru": "Агрегатные состояния"
+       },
+       "lesson": "physics-8-states-of-matter"
+      },
+      {
+       "title": {
+        "tk": "Elektrik zarýady",
+        "ru": "Электрический заряд"
+       },
+       "lesson": "physics-8-electric-charge"
+      },
+      {
+       "title": {
+        "tk": "Tok güýji we naprýaženiýe",
+        "ru": "Сила тока и напряжение"
+       },
+       "lesson": "physics-8-current-voltage"
+      },
+      {
+       "title": {
+        "tk": "Omuň kanuny",
+        "ru": "Закон Ома"
+       },
+       "lesson": "physics-8-ohms-law"
+      }
+     ]
+    },
+    {
+     "id": "chemistry",
+     "topics": [
+      {
+       "title": {
+        "tk": "Himiýa näme öwrenýär",
+        "ru": "Что изучает химия"
+       },
+       "lesson": "chemistry-8-what-chemistry-studies"
+      },
+      {
+       "title": {
+        "tk": "Arassa maddalar we garyndylar",
+        "ru": "Чистые вещества и смеси"
+       },
+       "lesson": "chemistry-8-pure-substances-mixtures"
+      },
+      {
+       "title": {
+        "tk": "Himiki elementler we formulalar",
+        "ru": "Химические элементы и формулы"
+       },
+       "lesson": "chemistry-8-elements-formulas"
+      },
+      {
+       "title": {
+        "tk": "Walentlik",
+        "ru": "Валентность"
+       },
+       "lesson": "chemistry-8-valence"
+      },
+      {
+       "title": {
+        "tk": "Himiki reaksiýalar",
+        "ru": "Химические реакции"
+       },
+       "lesson": "chemistry-8-chemical-reactions"
+      },
+      {
+       "title": {
+        "tk": "Kislorod we suw",
+        "ru": "Кислород и вода"
+       },
+       "lesson": "chemistry-8-oxygen-water"
+      },
+      {
+       "title": {
+        "tk": "Atomyň gurluşy",
+        "ru": "Строение атома"
+       },
+       "lesson": "chem-8-atom"
+      }
+     ]
+    },
+    {
+     "id": "biology",
+     "topics": [
+      {
+       "title": {
+        "tk": "Adamyň bedeniniň gurluşy",
+        "ru": "Строение тела человека"
+       },
+       "lesson": "biology-8-body-organization"
+      },
+      {
+       "title": {
+        "tk": "Süňk-myşsa ulgamy",
+        "ru": "Опорно-двигательная система"
+       },
+       "lesson": "biology-8-musculoskeletal"
+      },
+      {
+       "title": {
+        "tk": "Gan we gan aýlanyş",
+        "ru": "Кровь и кровообращение"
+       },
+       "lesson": "biology-8-blood-circulation"
+      },
+      {
+       "title": {
+        "tk": "Dem alyş",
+        "ru": "Дыхание"
+       },
+       "lesson": "biology-8-respiration"
+      },
+      {
+       "title": {
+        "tk": "Iýmit siňdiriş",
+        "ru": "Пищеварение"
+       },
+       "lesson": "biology-8-digestion"
+      },
+      {
+       "title": {
+        "tk": "Nerw ulgamy",
+        "ru": "Нервная система"
+       },
+       "lesson": "biology-8-nervous-system"
+      }
+     ]
+    },
+    {
+     "id": "geography",
+     "topics": [
+      {
+       "title": {
+        "tk": "Merkezi Aziýanyň tebigaty",
+        "ru": "Природа Центральной Азии"
+       },
+       "lesson": "geography-8-central-asia-nature"
+      },
+      {
+       "title": {
+        "tk": "Hazar deňzi",
+        "ru": "Каспийское море"
+       },
+       "lesson": "geography-8-caspian-sea"
+      },
+      {
+       "title": {
+        "tk": "Howa guşaklyklary",
+        "ru": "Климатические пояса"
+       },
+       "lesson": "geography-8-climate-zones"
+      },
+      {
+       "title": {
+        "tk": "Dünýäniň ilaty",
+        "ru": "Население мира"
+       },
+       "lesson": "geography-8-world-population"
+      },
+      {
+       "title": {
+        "tk": "Tebigy baýlyklar",
+        "ru": "Природные ресурсы"
+       },
+       "lesson": "geography-8-natural-resources"
+      },
+      {
+       "title": {
+        "tk": "Ekologiki meseleler",
+        "ru": "Экологические проблемы"
+       },
+       "lesson": "geography-8-environmental-problems"
+      }
+     ]
+    },
+    {
+     "id": "history",
+     "topics": [
+      {
+       "title": {
+        "tk": "Galkynyş döwri",
+        "ru": "Эпоха Возрождения"
+       },
+       "lesson": "history-8-renaissance"
+      },
+      {
+       "title": {
+        "tk": "Ylmy rewolýusiýa",
+        "ru": "Научная революция"
+       },
+       "lesson": "history-8-scientific-revolution"
+      },
+      {
+       "title": {
+        "tk": "Senagat öwrülişigi",
+        "ru": "Промышленная революция"
+       },
+       "lesson": "history-8-industrial-revolution"
+      },
+      {
+       "title": {
+        "tk": "ABŞ-nyň garaşsyzlygy",
+        "ru": "Независимость США"
+       },
+       "lesson": "history-8-us-independence"
+      },
+      {
+       "title": {
+        "tk": "Fransuz rewolýusiýasy",
+        "ru": "Французская революция"
+       },
+       "lesson": "history-8-french-revolution"
+      },
+      {
+       "title": {
+        "tk": "XIX asyrda ylym we tehnika",
+        "ru": "Наука и техника XIX века"
+       },
+       "lesson": "history-8-19th-century-science"
+      }
+     ]
+    },
+    {
+     "id": "informatics",
+     "topics": [
+      {
+       "title": {
+        "tk": "Sikller",
+        "ru": "Циклы"
+       },
+       "lesson": "informatics-8-loops"
+      },
+      {
+       "title": {
+        "tk": "Sanawlar",
+        "ru": "Списки"
+       },
+       "lesson": "informatics-8-lists"
+      },
+      {
+       "title": {
+        "tk": "Funksiýalar",
+        "ru": "Функции"
+       },
+       "lesson": "informatics-8-functions"
+      },
+      {
+       "title": {
+        "tk": "Maglumat bazalary",
+        "ru": "Базы данных"
+       },
+       "lesson": "informatics-8-databases"
+      },
+      {
+       "title": {
+        "tk": "HTML: web-sahypa",
+        "ru": "HTML: веб-страница"
+       },
+       "lesson": "informatics-8-html"
+      },
+      {
+       "title": {
+        "tk": "Kiberhowpsuzlyk",
+        "ru": "Кибербезопасность"
+       },
+       "lesson": "informatics-8-cybersecurity"
+      },
+      {
+       "title": {
+        "tk": "Ikilik san ulgamy",
+        "ru": "Двоичная система счисления"
+       },
+       "lesson": "inf-8-binary"
+      }
+     ]
+    },
+    {
+     "id": "russian",
+     "topics": [
+      {
+       "title": {
+        "tk": "Baş agzalar",
+        "ru": "Главные члены предложения"
+       },
+       "lesson": "russian-8-glavnye-chleny"
+      },
+      {
+       "title": {
+        "tk": "Ikinji derejeli agzalar",
+        "ru": "Второстепенные члены"
+       },
+       "lesson": "russian-8-vtorostepennye-chleny"
+      },
+      {
+       "title": {
+        "tk": "Bir düzümli sözlemler",
+        "ru": "Односоставные предложения"
+       },
+       "lesson": "russian-8-odnosostavnye"
+      },
+      {
+       "title": {
+        "tk": "Birjynsly agzalar",
+        "ru": "Однородные члены"
+       },
+       "lesson": "russian-8-odnorodnye-chleny"
+      },
+      {
+       "title": {
+        "tk": "Aýratynlaşdyrma",
+        "ru": "Обособленные члены"
+       },
+       "lesson": "russian-8-obosoblennye-chleny"
+      },
+      {
+       "title": {
+        "tk": "Gürleýiş stilleri",
+        "ru": "Стили речи"
+       },
+       "lesson": "russian-8-stili-rechi"
+      }
+     ]
+    },
+    {
+     "id": "english",
+     "topics": [
+      {
+       "title": {
+        "tk": "Present Perfect Continuous",
+        "ru": "Present Perfect Continuous"
+       },
+       "lesson": "english-8-present-perfect-continuous"
+      },
+      {
+       "title": {
+        "tk": "Second conditional",
+        "ru": "Второй тип условных"
+       },
+       "lesson": "english-8-second-conditional"
+      },
+      {
+       "title": {
+        "tk": "Passive voice: past",
+        "ru": "Пассивный залог: прошедшее"
+       },
+       "lesson": "english-8-passive-past"
+      },
+      {
+       "title": {
+        "tk": "Reported speech",
+        "ru": "Косвенная речь"
+       },
+       "lesson": "english-8-reported-speech"
+      },
+      {
+       "title": {
+        "tk": "Gerund and infinitive",
+        "ru": "Герундий и инфинитив"
+       },
+       "lesson": "english-8-gerund-infinitive"
+      },
+      {
+       "title": {
+        "tk": "Opinion essay",
+        "ru": "Эссе-мнение"
+       },
+       "lesson": "english-8-opinion-essay"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 9,
+   "subjects": [
+    {
+     "id": "turkmen",
+     "topics": [
+      {
+       "title": {
+        "tk": "Goşma sözlemiň görnüşleri",
+        "ru": "Виды сложных предложений"
+       },
+       "lesson": "turkmen-9-compound-sentence-types"
+      },
+      {
+       "title": {
+        "tk": "Eýerjeňli goşma sözlem",
+        "ru": "Сложноподчинённое предложение"
+       },
+       "lesson": "turkmen-9-complex-sentence"
+      },
+      {
+       "title": {
+        "tk": "Deňeçer goşma sözlem",
+        "ru": "Сложносочинённое предложение"
+       },
+       "lesson": "turkmen-9-compound-coordinate"
+      },
+      {
+       "title": {
+        "tk": "Baglaýjysyz goşma sözlem",
+        "ru": "Бессоюзное предложение"
+       },
+       "lesson": "turkmen-9-asyndetic-sentence"
+      },
+      {
+       "title": {
+        "tk": "Stilistika",
+        "ru": "Стилистика"
+       },
+       "lesson": "turkmen-9-stylistics"
+      },
+      {
+       "title": {
+        "tk": "Çykyş etmek sungaty",
+        "ru": "Ораторское искусство"
+       },
+       "lesson": "turkmen-9-public-speaking"
+      }
+     ]
+    },
+    {
+     "id": "literature",
+     "topics": [
+      {
+       "title": {
+        "tk": "XX asyr türkmen prozasy",
+        "ru": "Туркменская проза XX века"
+       },
+       "lesson": "literature-9-turkmen-prose-20c"
+      },
+      {
+       "title": {
+        "tk": "Berdi Kerbabaýew",
+        "ru": "Берды Кербабаев"
+       },
+       "lesson": "literature-9-berdi-kerbabayev"
+      },
+      {
+       "title": {
+        "tk": "Puşkin",
+        "ru": "Пушкин"
+       },
+       "lesson": "literature-9-pushkin"
+      },
+      {
+       "title": {
+        "tk": "Realizm",
+        "ru": "Реализм"
+       },
+       "lesson": "literature-9-realism"
+      },
+      {
+       "title": {
+        "tk": "Dünýä romanynyň ussatlary",
+        "ru": "Мастера мирового романа"
+       },
+       "lesson": "literature-9-masters-of-novel"
+      },
+      {
+       "title": {
+        "tk": "Edebi tankyt",
+        "ru": "Литературная критика"
+       },
+       "lesson": "literature-9-literary-criticism"
+      }
+     ]
+    },
+    {
+     "id": "math",
+     "topics": [
+      {
+       "title": {
+        "tk": "Kwadrat funksiýa",
+        "ru": "Квадратичная функция"
+       },
+       "lesson": "math-9-quadratic-function"
+      },
+      {
+       "title": {
+        "tk": "Deňsizlikler ulgamy",
+        "ru": "Системы неравенств"
+       },
+       "lesson": "math-9-systems-of-inequalities"
+      },
+      {
+       "title": {
+        "tk": "Arifmetiki progressiýa",
+        "ru": "Арифметическая прогрессия"
+       },
+       "lesson": "math-9-arithmetic-progression"
+      },
+      {
+       "title": {
+        "tk": "Geometrik progressiýa",
+        "ru": "Геометрическая прогрессия"
+       },
+       "lesson": "math-9-geometric-progression"
+      },
+      {
+       "title": {
+        "tk": "Ähtimallyk",
+        "ru": "Вероятность"
+       },
+       "lesson": "math-9-probability"
+      },
+      {
+       "title": {
+        "tk": "Kombinatorika",
+        "ru": "Комбинаторика"
+       },
+       "lesson": "math-9-combinatorics"
+      }
+     ]
+    },
+    {
+     "id": "geometry",
+     "topics": [
+      {
+       "title": {
+        "tk": "Wektorlar",
+        "ru": "Векторы"
+       },
+       "lesson": "geometry-9-vectors"
+      },
+      {
+       "title": {
+        "tk": "Koordinatalar usuly",
+        "ru": "Метод координат"
+       },
+       "lesson": "geometry-9-coordinate-method"
+      },
+      {
+       "title": {
+        "tk": "Sinus, kosinus, tangens",
+        "ru": "Синус, косинус, тангенс"
+       },
+       "lesson": "geometry-9-sin-cos-tan"
+      },
+      {
+       "title": {
+        "tk": "Sinuslar we kosinuslar teoremasy",
+        "ru": "Теоремы синусов и косинусов"
+       },
+       "lesson": "geometry-9-law-of-sines-cosines"
+      },
+      {
+       "title": {
+        "tk": "Dogry köpburçluklar",
+        "ru": "Правильные многоугольники"
+       },
+       "lesson": "geometry-9-regular-polygons"
+      },
+      {
+       "title": {
+        "tk": "Töweregiň uzynlygy we tegelegiň meýdany",
+        "ru": "Длина окружности и площадь круга"
+       },
+       "lesson": "geometry-9-circle-length-area"
+      }
+     ]
+    },
+    {
+     "id": "physics",
+     "topics": [
+      {
+       "title": {
+        "tk": "Mehaniki hereket",
+        "ru": "Механическое движение"
+       },
+       "lesson": "physics-9-mechanical-motion"
+      },
+      {
+       "title": {
+        "tk": "Nýutonyň kanunlary",
+        "ru": "Законы Ньютона"
+       },
+       "lesson": "physics-9-newtons-laws"
+      },
+      {
+       "title": {
+        "tk": "Impuls",
+        "ru": "Импульс"
+       },
+       "lesson": "physics-9-momentum"
+      },
+      {
+       "title": {
+        "tk": "Iş we energiýa",
+        "ru": "Работа и энергия"
+       },
+       "lesson": "physics-9-work-energy"
+      },
+      {
+       "title": {
+        "tk": "Yrgyldylar we tolkunlar",
+        "ru": "Колебания и волны"
+       },
+       "lesson": "physics-9-oscillations-waves"
+      },
+      {
+       "title": {
+        "tk": "Ses",
+        "ru": "Звук"
+       },
+       "lesson": "physics-9-sound"
+      }
+     ]
+    },
+    {
+     "id": "chemistry",
+     "topics": [
+      {
+       "title": {
+        "tk": "Oksidler",
+        "ru": "Оксиды"
+       },
+       "lesson": "chemistry-9-oxides"
+      },
+      {
+       "title": {
+        "tk": "Kislotalar",
+        "ru": "Кислоты"
+       },
+       "lesson": "chemistry-9-acids"
+      },
+      {
+       "title": {
+        "tk": "Esaslar",
+        "ru": "Основания"
+       },
+       "lesson": "chemistry-9-bases"
+      },
+      {
+       "title": {
+        "tk": "Duzlar",
+        "ru": "Соли"
+       },
+       "lesson": "chemistry-9-salts"
+      },
+      {
+       "title": {
+        "tk": "Döwürleýin kanun",
+        "ru": "Периодический закон"
+       },
+       "lesson": "chemistry-9-periodic-law"
+      },
+      {
+       "title": {
+        "tk": "Himiki baglanyşyk",
+        "ru": "Химическая связь"
+       },
+       "lesson": "chemistry-9-chemical-bonding"
+      }
+     ]
+    },
+    {
+     "id": "biology",
+     "topics": [
+      {
+       "title": {
+        "tk": "Genetikanyň esaslary",
+        "ru": "Основы генетики"
+       },
+       "lesson": "biology-9-genetics-basics"
+      },
+      {
+       "title": {
+        "tk": "Mendeliň kanunlary",
+        "ru": "Законы Менделя"
+       },
+       "lesson": "biology-9-mendel-laws"
+      },
+      {
+       "title": {
+        "tk": "DNK we gen",
+        "ru": "ДНК и ген"
+       },
+       "lesson": "biology-9-dna-gene"
+      },
+      {
+       "title": {
+        "tk": "Ewolýusiýa",
+        "ru": "Эволюция"
+       },
+       "lesson": "biology-9-evolution"
+      },
+      {
+       "title": {
+        "tk": "Ekoulgamlar",
+        "ru": "Экосистемы"
+       },
+       "lesson": "biology-9-ecosystems"
+      },
+      {
+       "title": {
+        "tk": "Biosfera",
+        "ru": "Биосфера"
+       },
+       "lesson": "biology-9-biosphere"
+      }
+     ]
+    },
+    {
+     "id": "geography",
+     "topics": [
+      {
+       "title": {
+        "tk": "Dünýäniň syýasy kartasy",
+        "ru": "Политическая карта мира"
+       },
+       "lesson": "geography-9-political-map"
+      },
+      {
+       "title": {
+        "tk": "Dünýä hojalygy",
+        "ru": "Мировое хозяйство"
+       },
+       "lesson": "geography-9-world-economy"
+      },
+      {
+       "title": {
+        "tk": "Energetika",
+        "ru": "Энергетика"
+       },
+       "lesson": "geography-9-energy"
+      },
+      {
+       "title": {
+        "tk": "Ulag",
+        "ru": "Транспорт"
+       },
+       "lesson": "geography-9-transport"
+      },
+      {
+       "title": {
+        "tk": "Oba hojalygy",
+        "ru": "Сельское хозяйство"
+       },
+       "lesson": "geography-9-agriculture"
+      },
+      {
+       "title": {
+        "tk": "Globalizasiýa",
+        "ru": "Глобализация"
+       },
+       "lesson": "geography-9-globalization"
+      }
+     ]
+    },
+    {
+     "id": "history",
+     "topics": [
+      {
+       "title": {
+        "tk": "Birinji jahan urşy",
+        "ru": "Первая мировая война"
+       },
+       "lesson": "history-9-world-war-one"
+      },
+      {
+       "title": {
+        "tk": "Iki urşuň arasynda dünýä",
+        "ru": "Мир между войнами"
+       },
+       "lesson": "history-9-interwar-period"
+      },
+      {
+       "title": {
+        "tk": "Ikinji jahan urşy",
+        "ru": "Вторая мировая война"
+       },
+       "lesson": "history-9-world-war-two"
+      },
+      {
+       "title": {
+        "tk": "BMG-niň döredilmegi",
+        "ru": "Создание ООН"
+       },
+       "lesson": "history-9-united-nations"
+      },
+      {
+       "title": {
+        "tk": "Kosmos asyry",
+        "ru": "Космическая эра"
+       },
+       "lesson": "history-9-space-age"
+      },
+      {
+       "title": {
+        "tk": "Sanly rewolýusiýa",
+        "ru": "Цифровая революция"
+       },
+       "lesson": "history-9-digital-revolution"
+      }
+     ]
+    },
+    {
+     "id": "informatics",
+     "topics": [
+      {
+       "title": {
+        "tk": "Algoritmiň çylşyrymlylygy",
+        "ru": "Сложность алгоритмов"
+       },
+       "lesson": "informatics-9-algorithm-complexity"
+      },
+      {
+       "title": {
+        "tk": "Gözleg we tertiplemek",
+        "ru": "Поиск и сортировка"
+       },
+       "lesson": "informatics-9-search-and-sort"
+      },
+      {
+       "title": {
+        "tk": "Obýekte gönükdirilen programmirleme",
+        "ru": "Объектно-ориентированное программирование"
+       },
+       "lesson": "informatics-9-oop"
+      },
+      {
+       "title": {
+        "tk": "CSS bilen dizaýn",
+        "ru": "Дизайн с CSS"
+       },
+       "lesson": "informatics-9-css-design"
+      },
+      {
+       "title": {
+        "tk": "Maglumatlary wizualizasiýa",
+        "ru": "Визуализация данных"
+       },
+       "lesson": "informatics-9-data-visualization"
+      },
+      {
+       "title": {
+        "tk": "Emeli aň bilen tanyşlyk",
+        "ru": "Введение в искусственный интеллект"
+       },
+       "lesson": "informatics-9-intro-ai"
+      }
+     ]
+    },
+    {
+     "id": "russian",
+     "topics": [
+      {
+       "title": {
+        "tk": "Sylanyşykly goşma sözlem",
+        "ru": "Сложносочинённое предложение"
+       },
+       "lesson": "russian-9-compound-sentence"
+      },
+      {
+       "title": {
+        "tk": "Eýerjeňli goşma sözlem",
+        "ru": "Сложноподчинённое предложение"
+       },
+       "lesson": "russian-9-complex-sentence"
+      },
+      {
+       "title": {
+        "tk": "Baglaýjysyz goşma sözlem",
+        "ru": "Бессоюзное сложное предложение"
+       },
+       "lesson": "russian-9-asyndetic-sentence"
+      },
+      {
+       "title": {
+        "tk": "Göni we gytaklaýyn gürrüň",
+        "ru": "Прямая и косвенная речь"
+       },
+       "lesson": "russian-9-direct-indirect-speech"
+      },
+      {
+       "title": {
+        "tk": "Sitata getirmek",
+        "ru": "Цитирование"
+       },
+       "lesson": "russian-9-quotation"
+      },
+      {
+       "title": {
+        "tk": "Düzme-pikirlenme",
+        "ru": "Сочинение-рассуждение"
+       },
+       "lesson": "russian-9-argumentative-essay"
+      }
+     ]
+    },
+    {
+     "id": "english",
+     "topics": [
+      {
+       "title": {
+        "tk": "Third conditional",
+        "ru": "Третий тип условных"
+       },
+       "lesson": "english-9-third-conditional"
+      },
+      {
+       "title": {
+        "tk": "Modals of deduction",
+        "ru": "Модальные глаголы предположения"
+       },
+       "lesson": "english-9-modals-of-deduction"
+      },
+      {
+       "title": {
+        "tk": "Passive: all tenses",
+        "ru": "Пассив: все времена"
+       },
+       "lesson": "english-9-passive-all-tenses"
+      },
+      {
+       "title": {
+        "tk": "Linking words",
+        "ru": "Слова-связки"
+       },
+       "lesson": "english-9-linking-words"
+      },
+      {
+       "title": {
+        "tk": "Collocations",
+        "ru": "Коллокации"
+       },
+       "lesson": "english-9-collocations"
+      },
+      {
+       "title": {
+        "tk": "Formal letter",
+        "ru": "Официальное письмо"
+       },
+       "lesson": "english-9-formal-letter"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 10,
+   "subjects": [
+    {
+     "id": "turkmen",
+     "topics": [
+      {
+       "title": {
+        "tk": "Dil we jemgyýet",
+        "ru": "Язык и общество"
+       },
+       "lesson": "turkmen-10-language-and-society"
+      },
+      {
+       "title": {
+        "tk": "Türki diller maşgalasy",
+        "ru": "Тюркская языковая семья"
+       },
+       "lesson": "turkmen-10-turkic-language-family"
+      },
+      {
+       "title": {
+        "tk": "Edebi dil we şiweler",
+        "ru": "Литературный язык и диалекты"
+       },
+       "lesson": "turkmen-10-literary-language-and-dialects"
+      },
+      {
+       "title": {
+        "tk": "Sözlükler",
+        "ru": "Словари"
+       },
+       "lesson": "turkmen-10-dictionaries"
+      },
+      {
+       "title": {
+        "tk": "Orfografiýa kadalary",
+        "ru": "Орфографические нормы"
+       },
+       "lesson": "turkmen-10-spelling-rules"
+      },
+      {
+       "title": {
+        "tk": "Işewür hat alyşmak",
+        "ru": "Деловая переписка"
+       },
+       "lesson": "turkmen-10-business-correspondence"
+      }
+     ]
+    },
+    {
+     "id": "literature",
+     "topics": [
+      {
+       "title": {
+        "tk": "Gomer",
+        "ru": "Гомер"
+       },
+       "lesson": "literature-10-homer"
+      },
+      {
+       "title": {
+        "tk": "Dante",
+        "ru": "Данте"
+       },
+       "lesson": "literature-10-dante"
+      },
+      {
+       "title": {
+        "tk": "Servantes",
+        "ru": "Сервантес"
+       },
+       "lesson": "literature-10-cervantes"
+      },
+      {
+       "title": {
+        "tk": "Gýote",
+        "ru": "Гёте"
+       },
+       "lesson": "literature-10-goethe"
+      },
+      {
+       "title": {
+        "tk": "Tolstoý",
+        "ru": "Толстой"
+       },
+       "lesson": "literature-10-tolstoy"
+      },
+      {
+       "title": {
+        "tk": "Dostoýewskiý",
+        "ru": "Достоевский"
+       },
+       "lesson": "literature-10-dostoevsky"
+      }
+     ]
+    },
+    {
+     "id": "math",
+     "topics": [
+      {
+       "title": {
+        "tk": "Trigonometrik funksiýalar",
+        "ru": "Тригонометрические функции"
+       },
+       "lesson": "math-10-trigonometric-functions"
+      },
+      {
+       "title": {
+        "tk": "Trigonometrik deňlemeler",
+        "ru": "Тригонометрические уравнения"
+       },
+       "lesson": "math-10-trigonometric-equations"
+      },
+      {
+       "title": {
+        "tk": "Derejeli funksiýa",
+        "ru": "Степенная функция"
+       },
+       "lesson": "math-10-power-function"
+      },
+      {
+       "title": {
+        "tk": "Görkezijili funksiýa",
+        "ru": "Показательная функция"
+       },
+       "lesson": "math-10-exponential-function"
+      },
+      {
+       "title": {
+        "tk": "Logarifmler",
+        "ru": "Логарифмы"
+       },
+       "lesson": "math-10-logarithms"
+      },
+      {
+       "title": {
+        "tk": "Logarifmik deňlemeler",
+        "ru": "Логарифмические уравнения"
+       },
+       "lesson": "math-10-logarithmic-equations"
+      }
+     ]
+    },
+    {
+     "id": "geometry",
+     "topics": [
+      {
+       "title": {
+        "tk": "Stereometriýanyň aksiomalary",
+        "ru": "Аксиомы стереометрии"
+       },
+       "lesson": "geometry-10-stereometry-axioms"
+      },
+      {
+       "title": {
+        "tk": "Giňişlikde parallellik",
+        "ru": "Параллельность в пространстве"
+       },
+       "lesson": "geometry-10-parallelism-space"
+      },
+      {
+       "title": {
+        "tk": "Giňişlikde perpendikulýarlyk",
+        "ru": "Перпендикулярность в пространстве"
+       },
+       "lesson": "geometry-10-perpendicularity-space"
+      },
+      {
+       "title": {
+        "tk": "Köpgranlyklar",
+        "ru": "Многогранники"
+       },
+       "lesson": "geometry-10-polyhedra"
+      },
+      {
+       "title": {
+        "tk": "Prizma",
+        "ru": "Призма"
+       },
+       "lesson": "geometry-10-prism"
+      },
+      {
+       "title": {
+        "tk": "Piramida",
+        "ru": "Пирамида"
+       },
+       "lesson": "geometry-10-pyramid"
+      }
+     ]
+    },
+    {
+     "id": "physics",
+     "topics": [
+      {
+       "title": {
+        "tk": "Kinematika",
+        "ru": "Кинематика"
+       },
+       "lesson": "physics-10-kinematics"
+      },
+      {
+       "title": {
+        "tk": "Töwerek boýunça hereket",
+        "ru": "Движение по окружности"
+       },
+       "lesson": "physics-10-circular-motion"
+      },
+      {
+       "title": {
+        "tk": "Bütindünýä dartyşma kanuny",
+        "ru": "Закон всемирного тяготения"
+       },
+       "lesson": "physics-10-universal-gravitation"
+      },
+      {
+       "title": {
+        "tk": "Molekulýar-kinetik nazaryýet",
+        "ru": "Молекулярно-кинетическая теория"
+       },
+       "lesson": "physics-10-molecular-kinetic-theory"
+      },
+      {
+       "title": {
+        "tk": "Gaz kanunlary",
+        "ru": "Газовые законы"
+       },
+       "lesson": "physics-10-gas-laws"
+      },
+      {
+       "title": {
+        "tk": "Termodinamika",
+        "ru": "Термодинамика"
+       },
+       "lesson": "physics-10-thermodynamics"
+      }
+     ]
+    },
+    {
+     "id": "chemistry",
+     "topics": [
+      {
+       "title": {
+        "tk": "Organiki himiýa",
+        "ru": "Органическая химия"
+       },
+       "lesson": "chemistry-10-organic-chemistry-intro"
+      },
+      {
+       "title": {
+        "tk": "Alkanlar",
+        "ru": "Алканы"
+       },
+       "lesson": "chemistry-10-alkanes"
+      },
+      {
+       "title": {
+        "tk": "Alkenler we alkinler",
+        "ru": "Алкены и алкины"
+       },
+       "lesson": "chemistry-10-alkenes-alkynes"
+      },
+      {
+       "title": {
+        "tk": "Arenler",
+        "ru": "Арены"
+       },
+       "lesson": "chemistry-10-arenes"
+      },
+      {
+       "title": {
+        "tk": "Spirtler",
+        "ru": "Спирты"
+       },
+       "lesson": "chemistry-10-alcohols"
+      },
+      {
+       "title": {
+        "tk": "Nebit we tebigy gaz",
+        "ru": "Нефть и природный газ"
+       },
+       "lesson": "chemistry-10-oil-natural-gas"
+      }
+     ]
+    },
+    {
+     "id": "biology",
+     "topics": [
+      {
+       "title": {
+        "tk": "Öýjügiň himiki düzümi",
+        "ru": "Химический состав клетки"
+       },
+       "lesson": "biology-10-cell-chemistry"
+      },
+      {
+       "title": {
+        "tk": "Beloklar",
+        "ru": "Белки"
+       },
+       "lesson": "biology-10-proteins"
+      },
+      {
+       "title": {
+        "tk": "Fermentler",
+        "ru": "Ферменты"
+       },
+       "lesson": "biology-10-enzymes"
+      },
+      {
+       "title": {
+        "tk": "Mitoz we meýoz",
+        "ru": "Митоз и мейоз"
+       },
+       "lesson": "biology-10-mitosis-meiosis"
+      },
+      {
+       "title": {
+        "tk": "Metabolizm",
+        "ru": "Метаболизм"
+       },
+       "lesson": "biology-10-metabolism"
+      },
+      {
+       "title": {
+        "tk": "Wiruslar",
+        "ru": "Вирусы"
+       },
+       "lesson": "biology-10-viruses"
+      }
+     ]
+    },
+    {
+     "id": "geography",
+     "topics": [
+      {
+       "title": {
+        "tk": "Ýewropa",
+        "ru": "Европа"
+       },
+       "lesson": "geography-10-europe"
+      },
+      {
+       "title": {
+        "tk": "Aziýa",
+        "ru": "Азия"
+       },
+       "lesson": "geography-10-asia"
+      },
+      {
+       "title": {
+        "tk": "Afrikanyň ýurtlary",
+        "ru": "Страны Африки"
+       },
+       "lesson": "geography-10-africa"
+      },
+      {
+       "title": {
+        "tk": "Amerikanyň ýurtlary",
+        "ru": "Страны Америки"
+       },
+       "lesson": "geography-10-americas"
+      },
+      {
+       "title": {
+        "tk": "Okeaniýa",
+        "ru": "Океания"
+       },
+       "lesson": "geography-10-oceania"
+      },
+      {
+       "title": {
+        "tk": "Global meseleler",
+        "ru": "Глобальные проблемы"
+       },
+       "lesson": "geography-10-global-problems"
+      }
+     ]
+    },
+    {
+     "id": "history",
+     "topics": [
+      {
+       "title": {
+        "tk": "Siwilizasiýa düşünjesi",
+        "ru": "Понятие цивилизации"
+       },
+       "lesson": "history-10-civilization"
+      },
+      {
+       "title": {
+        "tk": "Dünýä dinleriniň taryhy",
+        "ru": "История мировых религий"
+       },
+       "lesson": "history-10-world-religions"
+      },
+      {
+       "title": {
+        "tk": "Imperiýalar döwri",
+        "ru": "Эпоха империй"
+       },
+       "lesson": "history-10-age-of-empires"
+      },
+      {
+       "title": {
+        "tk": "Kolonializm",
+        "ru": "Колониализм"
+       },
+       "lesson": "history-10-colonialism"
+      },
+      {
+       "title": {
+        "tk": "Demokratiýanyň ösüşi",
+        "ru": "Развитие демократии"
+       },
+       "lesson": "history-10-democracy"
+      },
+      {
+       "title": {
+        "tk": "Ylmyň taryhy",
+        "ru": "История науки"
+       },
+       "lesson": "history-10-history-of-science"
+      }
+     ]
+    },
+    {
+     "id": "informatics",
+     "topics": [
+      {
+       "title": {
+        "tk": "Kompýuter grafikasy",
+        "ru": "Компьютерная графика"
+       },
+       "lesson": "informatics-10-computer-graphics"
+      },
+      {
+       "title": {
+        "tk": "Rekursiýa",
+        "ru": "Рекурсия"
+       },
+       "lesson": "informatics-10-recursion"
+      },
+      {
+       "title": {
+        "tk": "Maglumat gurluşlary",
+        "ru": "Структуры данных"
+       },
+       "lesson": "informatics-10-data-structures"
+      },
+      {
+       "title": {
+        "tk": "SQL",
+        "ru": "SQL"
+       },
+       "lesson": "informatics-10-sql"
+      },
+      {
+       "title": {
+        "tk": "Mobil programmalar",
+        "ru": "Мобильные приложения"
+       },
+       "lesson": "informatics-10-mobile-apps"
+      },
+      {
+       "title": {
+        "tk": "Şifrlemek",
+        "ru": "Шифрование"
+       },
+       "lesson": "informatics-10-encryption"
+      }
+     ]
+    },
+    {
+     "id": "russian",
+     "topics": [
+      {
+       "title": {
+        "tk": "Leksika we frazeologiýa",
+        "ru": "Лексика и фразеология"
+       },
+       "lesson": "russian-10-leksika-frazeologiya"
+      },
+      {
+       "title": {
+        "tk": "Morfemika",
+        "ru": "Морфемика"
+       },
+       "lesson": "russian-10-morfemika"
+      },
+      {
+       "title": {
+        "tk": "Garaşsyz söz toparlary",
+        "ru": "Самостоятельные части речи"
+       },
+       "lesson": "russian-10-samostoyatelnye-chasti-rechi"
+      },
+      {
+       "title": {
+        "tk": "Kömekçi söz toparlary",
+        "ru": "Служебные части речи"
+       },
+       "lesson": "russian-10-sluzhebnye-chasti-rechi"
+      },
+      {
+       "title": {
+        "tk": "Н и НН",
+        "ru": "Н и НН"
+       },
+       "lesson": "russian-10-n-i-nn"
+      },
+      {
+       "title": {
+        "tk": "Gürleýiş medeniýeti",
+        "ru": "Культура речи"
+       },
+       "lesson": "russian-10-kultura-rechi"
+      }
+     ]
+    },
+    {
+     "id": "english",
+     "topics": [
+      {
+       "title": {
+        "tk": "Mixed conditionals",
+        "ru": "Смешанные условные"
+       },
+       "lesson": "english-10-mixed-conditionals"
+      },
+      {
+       "title": {
+        "tk": "Wish / if only",
+        "ru": "Wish / if only"
+       },
+       "lesson": "english-10-wish-if-only"
+      },
+      {
+       "title": {
+        "tk": "Advanced passive",
+        "ru": "Сложные формы пассива"
+       },
+       "lesson": "english-10-advanced-passive"
+      },
+      {
+       "title": {
+        "tk": "Inversion",
+        "ru": "Инверсия"
+       },
+       "lesson": "english-10-inversion"
+      },
+      {
+       "title": {
+        "tk": "Academic vocabulary",
+        "ru": "Академическая лексика"
+       },
+       "lesson": "english-10-academic-vocabulary"
+      },
+      {
+       "title": {
+        "tk": "Presentation skills",
+        "ru": "Навыки презентации"
+       },
+       "lesson": "english-10-presentation-skills"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 11,
+   "subjects": [
+    {
+     "id": "turkmen",
+     "topics": [
+      {
+       "title": {
+        "tk": "Tekst we onuň gurluşy",
+        "ru": "Текст и его структура"
+       },
+       "lesson": "turkmen-11-text-structure"
+      },
+      {
+       "title": {
+        "tk": "Funksional stiller",
+        "ru": "Функциональные стили"
+       },
+       "lesson": "turkmen-11-functional-styles"
+      },
+      {
+       "title": {
+        "tk": "Çeper dil serişdeleri",
+        "ru": "Средства выразительности"
+       },
+       "lesson": "turkmen-11-expressive-means"
+      },
+      {
+       "title": {
+        "tk": "Terjime sungaty",
+        "ru": "Искусство перевода"
+       },
+       "lesson": "turkmen-11-translation"
+      },
+      {
+       "title": {
+        "tk": "Gysgaltmalar",
+        "ru": "Сокращения"
+       },
+       "lesson": "turkmen-11-abbreviations"
+      },
+      {
+       "title": {
+        "tk": "Rezýume ýazmak",
+        "ru": "Пишем резюме"
+       },
+       "lesson": "turkmen-11-resume"
+      }
+     ]
+    },
+    {
+     "id": "literature",
+     "topics": [
+      {
+       "title": {
+        "tk": "Žýul Wern we ylmy fantastika",
+        "ru": "Жюль Верн и научная фантастика"
+       },
+       "lesson": "literature-11-jules-verne"
+      },
+      {
+       "title": {
+        "tk": "Çehow",
+        "ru": "Чехов"
+       },
+       "lesson": "literature-11-chekhov"
+      },
+      {
+       "title": {
+        "tk": "Hemingueý",
+        "ru": "Хемингуэй"
+       },
+       "lesson": "literature-11-hemingway"
+      },
+      {
+       "title": {
+        "tk": "Aýtmatow",
+        "ru": "Айтматов"
+       },
+       "lesson": "literature-11-aitmatov"
+      },
+      {
+       "title": {
+        "tk": "Markes",
+        "ru": "Маркес"
+       },
+       "lesson": "literature-11-marquez"
+      },
+      {
+       "title": {
+        "tk": "Häzirki zaman poeziýasy",
+        "ru": "Современная поэзия"
+       },
+       "lesson": "literature-11-modern-poetry"
+      }
+     ]
+    },
+    {
+     "id": "math",
+     "topics": [
+      {
+       "title": {
+        "tk": "Önüm",
+        "ru": "Производная"
+       },
+       "lesson": "math-11-derivative"
+      },
+      {
+       "title": {
+        "tk": "Önümiň ulanylyşy",
+        "ru": "Применение производной"
+       },
+       "lesson": "math-11-derivative-applications"
+      },
+      {
+       "title": {
+        "tk": "Funksiýany derňemek",
+        "ru": "Исследование функции"
+       },
+       "lesson": "math-11-function-analysis"
+      },
+      {
+       "title": {
+        "tk": "Başlangyç funksiýa",
+        "ru": "Первообразная"
+       },
+       "lesson": "math-11-antiderivative"
+      },
+      {
+       "title": {
+        "tk": "Integral",
+        "ru": "Интеграл"
+       },
+       "lesson": "math-11-definite-integral"
+      },
+      {
+       "title": {
+        "tk": "Integralyň ulanylyşy",
+        "ru": "Применение интеграла"
+       },
+       "lesson": "math-11-integral-applications"
+      }
+     ]
+    },
+    {
+     "id": "geometry",
+     "topics": [
+      {
+       "title": {
+        "tk": "Silindr",
+        "ru": "Цилиндр"
+       },
+       "lesson": "geometry-11-cylinder"
+      },
+      {
+       "title": {
+        "tk": "Konus",
+        "ru": "Конус"
+       },
+       "lesson": "geometry-11-cone"
+      },
+      {
+       "title": {
+        "tk": "Şar we sfera",
+        "ru": "Шар и сфера"
+       },
+       "lesson": "geometry-11-sphere-ball"
+      },
+      {
+       "title": {
+        "tk": "Jisimleriň göwrümi",
+        "ru": "Объёмы тел"
+       },
+       "lesson": "geometry-11-volumes"
+      },
+      {
+       "title": {
+        "tk": "Giňişlikde koordinatalar",
+        "ru": "Координаты в пространстве"
+       },
+       "lesson": "geometry-11-space-coordinates"
+      },
+      {
+       "title": {
+        "tk": "Giňişlikde wektorlar",
+        "ru": "Векторы в пространстве"
+       },
+       "lesson": "geometry-11-space-vectors"
+      }
+     ]
+    },
+    {
+     "id": "physics",
+     "topics": [
+      {
+       "title": {
+        "tk": "Elektrostatika",
+        "ru": "Электростатика"
+       },
+       "lesson": "physics-11-electrostatics"
+      },
+      {
+       "title": {
+        "tk": "Kondensator",
+        "ru": "Конденсатор"
+       },
+       "lesson": "physics-11-capacitor"
+      },
+      {
+       "title": {
+        "tk": "Hemişelik tok",
+        "ru": "Постоянный ток"
+       },
+       "lesson": "physics-11-direct-current"
+      },
+      {
+       "title": {
+        "tk": "Magnit meýdany",
+        "ru": "Магнитное поле"
+       },
+       "lesson": "physics-11-magnetic-field"
+      },
+      {
+       "title": {
+        "tk": "Elektromagnit induksiýa",
+        "ru": "Электромагнитная индукция"
+       },
+       "lesson": "physics-11-electromagnetic-induction"
+      },
+      {
+       "title": {
+        "tk": "Üýtgeýän tok",
+        "ru": "Переменный ток"
+       },
+       "lesson": "physics-11-alternating-current"
+      }
+     ]
+    },
+    {
+     "id": "chemistry",
+     "topics": [
+      {
+       "title": {
+        "tk": "Aldegidler",
+        "ru": "Альдегиды"
+       },
+       "lesson": "chemistry-11-aldehydes"
+      },
+      {
+       "title": {
+        "tk": "Karbon kislotalary",
+        "ru": "Карбоновые кислоты"
+       },
+       "lesson": "chemistry-11-carboxylic-acids"
+      },
+      {
+       "title": {
+        "tk": "Ýaglar",
+        "ru": "Жиры"
+       },
+       "lesson": "chemistry-11-fats"
+      },
+      {
+       "title": {
+        "tk": "Uglewodlar",
+        "ru": "Углеводы"
+       },
+       "lesson": "chemistry-11-carbohydrates"
+      },
+      {
+       "title": {
+        "tk": "Aminokislotalar we beloklar",
+        "ru": "Аминокислоты и белки"
+       },
+       "lesson": "chemistry-11-amino-acids-proteins"
+      },
+      {
+       "title": {
+        "tk": "Polimerler",
+        "ru": "Полимеры"
+       },
+       "lesson": "chemistry-11-polymers"
+      }
+     ]
+    },
+    {
+     "id": "biology",
+     "topics": [
+      {
+       "title": {
+        "tk": "Adamyň genetikasy",
+        "ru": "Генетика человека"
+       },
+       "lesson": "biology-11-human-genetics"
+      },
+      {
+       "title": {
+        "tk": "Seleksiýa",
+        "ru": "Селекция"
+       },
+       "lesson": "biology-11-breeding"
+      },
+      {
+       "title": {
+        "tk": "Biotehnologiýa",
+        "ru": "Биотехнология"
+       },
+       "lesson": "biology-11-biotechnology"
+      },
+      {
+       "title": {
+        "tk": "Immunitet",
+        "ru": "Иммунитет"
+       },
+       "lesson": "biology-11-immunity"
+      },
+      {
+       "title": {
+        "tk": "Ýaşaýşyň döreýşi",
+        "ru": "Происхождение жизни"
+       },
+       "lesson": "biology-11-origin-of-life"
+      },
+      {
+       "title": {
+        "tk": "Adamyň ewolýusiýasy",
+        "ru": "Эволюция человека"
+       },
+       "lesson": "biology-11-human-evolution"
+      }
+     ]
+    },
+    {
+     "id": "geography",
+     "topics": [
+      {
+       "title": {
+        "tk": "Demografiýa",
+        "ru": "Демография"
+       },
+       "lesson": "geography-11-demography"
+      },
+      {
+       "title": {
+        "tk": "Şäherleşme",
+        "ru": "Урбанизация"
+       },
+       "lesson": "geography-11-urbanization"
+      },
+      {
+       "title": {
+        "tk": "Halkara söwda",
+        "ru": "Международная торговля"
+       },
+       "lesson": "geography-11-international-trade"
+      },
+      {
+       "title": {
+        "tk": "Syýahatçylyk",
+        "ru": "Туризм"
+       },
+       "lesson": "geography-11-tourism"
+      },
+      {
+       "title": {
+        "tk": "Suw baýlyklary",
+        "ru": "Водные ресурсы"
+       },
+       "lesson": "geography-11-water-resources"
+      },
+      {
+       "title": {
+        "tk": "Howanyň üýtgemegi",
+        "ru": "Изменение климата"
+       },
+       "lesson": "geography-11-climate-change"
+      }
+     ]
+    },
+    {
+     "id": "history",
+     "topics": [
+      {
+       "title": {
+        "tk": "XX asyryň ylmy açyşlary",
+        "ru": "Научные открытия XX века"
+       },
+       "lesson": "history-11-science-20th-century"
+      },
+      {
+       "title": {
+        "tk": "Sowuk uruş",
+        "ru": "Холодная война"
+       },
+       "lesson": "history-11-cold-war"
+      },
+      {
+       "title": {
+        "tk": "Kolonial ulgamyň dargamagy",
+        "ru": "Распад колониальной системы"
+       },
+       "lesson": "history-11-decolonization"
+      },
+      {
+       "title": {
+        "tk": "Ýewropa Bileleşigi",
+        "ru": "Европейский союз"
+       },
+       "lesson": "history-11-european-union"
+      },
+      {
+       "title": {
+        "tk": "Aziýanyň ykdysady ösüşi",
+        "ru": "Экономический рост Азии"
+       },
+       "lesson": "history-11-asian-economic-growth"
+      },
+      {
+       "title": {
+        "tk": "Häzirki zaman dünýäsi",
+        "ru": "Современный мир"
+       },
+       "lesson": "history-11-contemporary-world"
+      }
+     ]
+    },
+    {
+     "id": "informatics",
+     "topics": [
+      {
+       "title": {
+        "tk": "Algoritmleriň derňewi",
+        "ru": "Анализ алгоритмов"
+       },
+       "lesson": "informatics-11-algorithm-analysis"
+      },
+      {
+       "title": {
+        "tk": "Graflar",
+        "ru": "Графы"
+       },
+       "lesson": "informatics-11-graphs"
+      },
+      {
+       "title": {
+        "tk": "JavaScript",
+        "ru": "JavaScript"
+       },
+       "lesson": "informatics-11-javascript-basics"
+      },
+      {
+       "title": {
+        "tk": "Bulut tehnologiýalary",
+        "ru": "Облачные технологии"
+       },
+       "lesson": "informatics-11-cloud-computing"
+      },
+      {
+       "title": {
+        "tk": "Maşyn öwrenmek",
+        "ru": "Машинное обучение"
+       },
+       "lesson": "informatics-11-machine-learning"
+      },
+      {
+       "title": {
+        "tk": "Maglumat etikasy",
+        "ru": "Этика данных"
+       },
+       "lesson": "informatics-11-data-ethics"
+      }
+     ]
+    },
+    {
+     "id": "russian",
+     "topics": [
+      {
+       "title": {
+        "tk": "Goşma sözlemiň sintaksisi",
+        "ru": "Синтаксис сложного предложения"
+       },
+       "lesson": "russian-11-complex-sentence-syntax"
+      },
+      {
+       "title": {
+        "tk": "Punktuasiýa",
+        "ru": "Пунктуация"
+       },
+       "lesson": "russian-11-punctuation"
+      },
+      {
+       "title": {
+        "tk": "Çeperçilik serişdeleri",
+        "ru": "Средства выразительности"
+       },
+       "lesson": "russian-11-expressive-means"
+      },
+      {
+       "title": {
+        "tk": "Publisistika",
+        "ru": "Публицистика"
+       },
+       "lesson": "russian-11-publicistic-style"
+      },
+      {
+       "title": {
+        "tk": "Resenziýa",
+        "ru": "Рецензия"
+       },
+       "lesson": "russian-11-review-writing"
+      },
+      {
+       "title": {
+        "tk": "Ekzamene taýýarlyk",
+        "ru": "Подготовка к экзамену"
+       },
+       "lesson": "russian-11-exam-preparation"
+      }
+     ]
+    },
+    {
+     "id": "english",
+     "topics": [
+      {
+       "title": {
+        "tk": "Tenses review",
+        "ru": "Повторение времён"
+       },
+       "lesson": "english-11-tenses-review"
+      },
+      {
+       "title": {
+        "tk": "Cleft sentences",
+        "ru": "Эмфатические конструкции"
+       },
+       "lesson": "english-11-cleft-sentences"
+      },
+      {
+       "title": {
+        "tk": "Reporting verbs",
+        "ru": "Глаголы косвенной речи"
+       },
+       "lesson": "english-11-reporting-verbs"
+      },
+      {
+       "title": {
+        "tk": "Idioms",
+        "ru": "Идиомы"
+       },
+       "lesson": "english-11-idioms"
+      },
+      {
+       "title": {
+        "tk": "Argumentative essay",
+        "ru": "Аргументативное эссе"
+       },
+       "lesson": "english-11-argumentative-essay"
+      },
+      {
+       "title": {
+        "tk": "Job interview",
+        "ru": "Собеседование"
+       },
+       "lesson": "english-11-job-interview"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 12,
+   "subjects": [
+    {
+     "id": "turkmen",
+     "topics": [
+      {
+       "title": {
+        "tk": "Diliň taryhy",
+        "ru": "История языка"
+       },
+       "lesson": "turkmen-12-language-history"
+      },
+      {
+       "title": {
+        "tk": "Gadymy türki ýazgylar",
+        "ru": "Древнетюркские надписи"
+       },
+       "lesson": "turkmen-12-old-turkic-inscriptions"
+      },
+      {
+       "title": {
+        "tk": "Häzirki diliň kadalary",
+        "ru": "Нормы современного языка"
+       },
+       "lesson": "turkmen-12-language-norms"
+      },
+      {
+       "title": {
+        "tk": "Ylmy iş ýazmak",
+        "ru": "Научная работа"
+       },
+       "lesson": "turkmen-12-research-paper"
+      },
+      {
+       "title": {
+        "tk": "Jedel we çykyş",
+        "ru": "Дебаты и выступление"
+       },
+       "lesson": "turkmen-12-debate-speech"
+      },
+      {
+       "title": {
+        "tk": "Gaýtalamak: sintaksis",
+        "ru": "Повторение: синтаксис"
+       },
+       "lesson": "turkmen-12-syntax-review"
+      }
+     ]
+    },
+    {
+     "id": "literature",
+     "topics": [
+      {
+       "title": {
+        "tk": "Edebi akymlar",
+        "ru": "Литературные направления"
+       },
+       "lesson": "literature-12-literary-movements"
+      },
+      {
+       "title": {
+        "tk": "Postmodernizm",
+        "ru": "Постмодернизм"
+       },
+       "lesson": "literature-12-postmodernism"
+      },
+      {
+       "title": {
+        "tk": "Nobel baýragynyň eýeleri",
+        "ru": "Нобелевские лауреаты"
+       },
+       "lesson": "literature-12-nobel-laureates"
+      },
+      {
+       "title": {
+        "tk": "Häzirki türkmen edebiýaty",
+        "ru": "Современная туркменская литература"
+       },
+       "lesson": "literature-12-modern-turkmen-literature"
+      },
+      {
+       "title": {
+        "tk": "Edebiýat we kino",
+        "ru": "Литература и кино"
+       },
+       "lesson": "literature-12-literature-and-film"
+      },
+      {
+       "title": {
+        "tk": "Edebi esse",
+        "ru": "Литературное эссе"
+       },
+       "lesson": "literature-12-literary-essay"
+      }
+     ]
+    },
+    {
+     "id": "math",
+     "topics": [
+      {
+       "title": {
+        "tk": "Kompleks sanlar",
+        "ru": "Комплексные числа"
+       },
+       "lesson": "math-12-complex-numbers"
+      },
+      {
+       "title": {
+        "tk": "Matematiki induksiýa",
+        "ru": "Математическая индукция"
+       },
+       "lesson": "math-12-induction"
+      },
+      {
+       "title": {
+        "tk": "Ähtimallyk nazaryýeti",
+        "ru": "Теория вероятностей"
+       },
+       "lesson": "math-12-probability"
+      },
+      {
+       "title": {
+        "tk": "Statistika",
+        "ru": "Статистика"
+       },
+       "lesson": "math-12-statistics"
+      },
+      {
+       "title": {
+        "tk": "Matrisalar",
+        "ru": "Матрицы"
+       },
+       "lesson": "math-12-matrices"
+      },
+      {
+       "title": {
+        "tk": "Gaýtalamak: funksiýalar",
+        "ru": "Повторение: функции"
+       },
+       "lesson": "math-12-functions-review"
+      }
+     ]
+    },
+    {
+     "id": "geometry",
+     "topics": [
+      {
+       "title": {
+        "tk": "Üstüň meýdany",
+        "ru": "Площадь поверхности"
+       },
+       "lesson": "geometry-12-surface-area"
+      },
+      {
+       "title": {
+        "tk": "Aýlanma jisimleri",
+        "ru": "Тела вращения"
+       },
+       "lesson": "geometry-12-solids-of-revolution"
+      },
+      {
+       "title": {
+        "tk": "Simmetriýa",
+        "ru": "Симметрия"
+       },
+       "lesson": "geometry-12-symmetry-in-space"
+      },
+      {
+       "title": {
+        "tk": "Geometrik öwrülişikler",
+        "ru": "Геометрические преобразования"
+       },
+       "lesson": "geometry-12-transformations"
+      },
+      {
+       "title": {
+        "tk": "Giňişlik meseleleri",
+        "ru": "Пространственные задачи"
+       },
+       "lesson": "geometry-12-spatial-problems"
+      },
+      {
+       "title": {
+        "tk": "Gaýtalamak: geometriýa",
+        "ru": "Повторение: геометрия"
+       },
+       "lesson": "geometry-12-review"
+      }
+     ]
+    },
+    {
+     "id": "physics",
+     "topics": [
+      {
+       "title": {
+        "tk": "Optika",
+        "ru": "Оптика"
+       },
+       "lesson": "physics-12-geometric-optics"
+      },
+      {
+       "title": {
+        "tk": "Ýagtylygyň tolkun häsiýetleri",
+        "ru": "Волновые свойства света"
+       },
+       "lesson": "physics-12-wave-optics"
+      },
+      {
+       "title": {
+        "tk": "Otnositellik nazaryýeti",
+        "ru": "Теория относительности"
+       },
+       "lesson": "physics-12-relativity"
+      },
+      {
+       "title": {
+        "tk": "Kwant fizikasy",
+        "ru": "Квантовая физика"
+       },
+       "lesson": "physics-12-quantum-physics"
+      },
+      {
+       "title": {
+        "tk": "Atom ýadrosy",
+        "ru": "Атомное ядро"
+       },
+       "lesson": "physics-12-atomic-nucleus"
+      },
+      {
+       "title": {
+        "tk": "Astrofizika",
+        "ru": "Астрофизика"
+       },
+       "lesson": "physics-12-astrophysics"
+      }
+     ]
+    },
+    {
+     "id": "chemistry",
+     "topics": [
+      {
+       "title": {
+        "tk": "Metallar",
+        "ru": "Металлы"
+       },
+       "lesson": "chemistry-12-metals"
+      },
+      {
+       "title": {
+        "tk": "Metal däller",
+        "ru": "Неметаллы"
+       },
+       "lesson": "chemistry-12-nonmetals"
+      },
+      {
+       "title": {
+        "tk": "Elektroliz",
+        "ru": "Электролиз"
+       },
+       "lesson": "chemistry-12-electrolysis"
+      },
+      {
+       "title": {
+        "tk": "Himiki kinetika",
+        "ru": "Химическая кинетика"
+       },
+       "lesson": "chemistry-12-chemical-kinetics"
+      },
+      {
+       "title": {
+        "tk": "Himiki deňagramlylyk",
+        "ru": "Химическое равновесие"
+       },
+       "lesson": "chemistry-12-chemical-equilibrium"
+      },
+      {
+       "title": {
+        "tk": "Himiýa we ekologiýa",
+        "ru": "Химия и экология"
+       },
+       "lesson": "chemistry-12-chemistry-and-ecology"
+      }
+     ]
+    },
+    {
+     "id": "biology",
+     "topics": [
+      {
+       "title": {
+        "tk": "Ekologiýanyň kanunlary",
+        "ru": "Законы экологии"
+       },
+       "lesson": "biology-12-laws-of-ecology"
+      },
+      {
+       "title": {
+        "tk": "Populýasiýalar",
+        "ru": "Популяции"
+       },
+       "lesson": "biology-12-populations"
+      },
+      {
+       "title": {
+        "tk": "Biologik dürlülik",
+        "ru": "Биоразнообразие"
+       },
+       "lesson": "biology-12-biodiversity"
+      },
+      {
+       "title": {
+        "tk": "Adam we biosfera",
+        "ru": "Человек и биосфера"
+       },
+       "lesson": "biology-12-human-and-biosphere"
+      },
+      {
+       "title": {
+        "tk": "Neýrobiologiýa",
+        "ru": "Нейробиология"
+       },
+       "lesson": "biology-12-neurobiology"
+      },
+      {
+       "title": {
+        "tk": "Gaýtalamak: biologiýa",
+        "ru": "Повторение: биология"
+       },
+       "lesson": "biology-12-review"
+      }
+     ]
+    },
+    {
+     "id": "geography",
+     "topics": [
+      {
+       "title": {
+        "tk": "Geografik maglumat ulgamlary",
+        "ru": "Геоинформационные системы"
+       },
+       "lesson": "geography-12-gis"
+      },
+      {
+       "title": {
+        "tk": "Ýeri kosmosdan öwrenmek",
+        "ru": "Изучение Земли из космоса"
+       },
+       "lesson": "geography-12-earth-from-space"
+      },
+      {
+       "title": {
+        "tk": "Durnukly ösüş",
+        "ru": "Устойчивое развитие"
+       },
+       "lesson": "geography-12-sustainable-development"
+      },
+      {
+       "title": {
+        "tk": "Tebigy betbagtçylyklar",
+        "ru": "Стихийные бедствия"
+       },
+       "lesson": "geography-12-natural-disasters"
+      },
+      {
+       "title": {
+        "tk": "Ýeriň geologik taryhy",
+        "ru": "Геологическая история Земли"
+       },
+       "lesson": "geography-12-geologic-history"
+      },
+      {
+       "title": {
+        "tk": "Gaýtalamak: geografiýa",
+        "ru": "Повторение: география"
+       },
+       "lesson": "geography-12-review"
+      }
+     ]
+    },
+    {
+     "id": "history",
+     "topics": [
+      {
+       "title": {
+        "tk": "Taryh ylmynyň usullary",
+        "ru": "Методы исторической науки"
+       },
+       "lesson": "history-12-historical-methods"
+      },
+      {
+       "title": {
+        "tk": "Arheologiýa",
+        "ru": "Археология"
+       },
+       "lesson": "history-12-archaeology"
+      },
+      {
+       "title": {
+        "tk": "Altyndepe we Margiana",
+        "ru": "Алтын-депе и Маргиана"
+       },
+       "lesson": "history-12-altyndepe-margiana"
+      },
+      {
+       "title": {
+        "tk": "Tehnologiýalaryň taryhy",
+        "ru": "История технологий"
+       },
+       "lesson": "history-12-history-of-technology"
+      },
+      {
+       "title": {
+        "tk": "UNESKO-nyň dünýä mirasy",
+        "ru": "Всемирное наследие ЮНЕСКО"
+       },
+       "lesson": "history-12-unesco-world-heritage"
+      },
+      {
+       "title": {
+        "tk": "Gaýtalamak: taryh",
+        "ru": "Повторение: история"
+       },
+       "lesson": "history-12-review"
+      }
+     ]
+    },
+    {
+     "id": "informatics",
+     "topics": [
+      {
+       "title": {
+        "tk": "Programmirleme taslamasy",
+        "ru": "Программный проект"
+       },
+       "lesson": "informatics-12-programming-project"
+      },
+      {
+       "title": {
+        "tk": "Kiberhowpsuzlyk: çuňňur",
+        "ru": "Кибербезопасность: углублённо"
+       },
+       "lesson": "informatics-12-cybersecurity-advanced"
+      },
+      {
+       "title": {
+        "tk": "Blokçeýn",
+        "ru": "Блокчейн"
+       },
+       "lesson": "informatics-12-blockchain"
+      },
+      {
+       "title": {
+        "tk": "Neýron torlar",
+        "ru": "Нейронные сети"
+       },
+       "lesson": "informatics-12-neural-networks"
+      },
+      {
+       "title": {
+        "tk": "IT hünärleri",
+        "ru": "IT-профессии"
+       },
+       "lesson": "informatics-12-it-careers"
+      },
+      {
+       "title": {
+        "tk": "Gaýtalamak: informatika",
+        "ru": "Повторение: информатика"
+       },
+       "lesson": "informatics-12-review"
+      }
+     ]
+    },
+    {
+     "id": "russian",
+     "topics": [
+      {
+       "title": {
+        "tk": "Diliň kadalary",
+        "ru": "Нормы русского языка"
+       },
+       "lesson": "russian-12-language-norms"
+      },
+      {
+       "title": {
+        "tk": "Orfoepiýa",
+        "ru": "Орфоэпия"
+       },
+       "lesson": "russian-12-orthoepy"
+      },
+      {
+       "title": {
+        "tk": "Resmi-iş stili",
+        "ru": "Официально-деловой стиль"
+       },
+       "lesson": "russian-12-official-style"
+      },
+      {
+       "title": {
+        "tk": "Argumentasiýa",
+        "ru": "Аргументация"
+       },
+       "lesson": "russian-12-argumentation"
+      },
+      {
+       "title": {
+        "tk": "Teksti derňemek",
+        "ru": "Анализ текста"
+       },
+       "lesson": "russian-12-text-analysis"
+      },
+      {
+       "title": {
+        "tk": "Gaýtalamak",
+        "ru": "Повторение"
+       },
+       "lesson": "russian-12-review"
+      }
+     ]
+    },
+    {
+     "id": "english",
+     "topics": [
+      {
+       "title": {
+        "tk": "Academic writing",
+        "ru": "Академическое письмо"
+       },
+       "lesson": "english-12-academic-writing"
+      },
+      {
+       "title": {
+        "tk": "Citing sources",
+        "ru": "Ссылки на источники"
+       },
+       "lesson": "english-12-citing-sources"
+      },
+      {
+       "title": {
+        "tk": "Debate language",
+        "ru": "Язык дебатов"
+       },
+       "lesson": "english-12-debate-language"
+      },
+      {
+       "title": {
+        "tk": "Literature in English",
+        "ru": "Литература на английском"
+       },
+       "lesson": "english-12-literature-in-english"
+      },
+      {
+       "title": {
+        "tk": "Business English",
+        "ru": "Деловой английский"
+       },
+       "lesson": "english-12-business-english"
+      },
+      {
+       "title": {
+        "tk": "Exam strategies",
+        "ru": "Стратегии экзамена"
+       },
+       "lesson": "english-12-exam-strategies"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

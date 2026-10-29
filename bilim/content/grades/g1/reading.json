@@ -1,0 +1,254 @@
+{
+  "grade": 1,
+  "subject": "reading",
+  "lessons": [
+    {
+      "id": "reading-1-alphabet",
+      "grade": 1,
+      "topic": 0,
+      "title": {"tk": "Elipbiý bilen tanyşlyk", "ru": "Знакомство с алфавитом"},
+      "minutes": 6,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Elipbiý — harplaryň tertipli sanawy 🔤.\nTürkmen elipbiýi «A» harpy bilen başlanýar.\nOl «Z» harpy bilen gutarýar.\nHarplaryň tertibini bilseň, sözlükden sözi aňsat taparsyň.",
+          "ru": "Алфавит — это буквы по порядку 🔤.\nТуркменский алфавит начинается с буквы «A».\nА заканчивается буквой «Z».\nЕсли знаешь порядок букв, легко найдёшь слово в словаре."}},
+        {"type": "example", "text": {
+          "tk": "Elipbiýiň başy: A, B, Ç, D, E, Ä …\nHer harpa bir surat:\n• A — alma 🍎\n• B — balyk 🐟\n• Ç — çaga 👶\n• D — däne 🌾",
+          "ru": "Начало алфавита: A, B, Ç, D, E, Ä …\nК каждой букве — картинка:\n• A — alma (яблоко) 🍎\n• B — balyk (рыба) 🐟\n• Ç — çaga (ребёнок) 👶\n• D — däne (зерно) 🌾"}},
+        {"type": "choice",
+          "q": {"tk": "Türkmen elipbiýi haýsy harp bilen başlanýar?", "ru": "С какой буквы начинается туркменский алфавит?"},
+          "options": ["B", "A", "Z"],
+          "answer": 1,
+          "hint": {"tk": "«Alma» sözüni ýatla 🍎.", "ru": "Вспомни слово «alma» 🍎."},
+          "explain": {"tk": "Elipbiý «A» bilen başlanýar.", "ru": "Алфавит начинается с «A»."}},
+        {"type": "choice",
+          "q": {"tk": "«B» harpyndan soň haýsy harp gelýär?", "ru": "Какая буква идёт после «B»?"},
+          "options": ["Ç", "D", "A"],
+          "answer": 0,
+          "hint": {"tk": "A, B, … — dowam et.", "ru": "A, B, … — продолжи."},
+          "explain": {"tk": "A, B, Ç, D — «B»-den soň «Ç».", "ru": "A, B, Ç, D — после «B» идёт «Ç»."}},
+        {"type": "truefalse",
+          "q": {"tk": "«Balyk» 🐟 sözi «B» harpy bilen başlanýar.", "ru": "Слово «balyk» (рыба) 🐟 начинается с буквы «B»."},
+          "answer": true,
+          "hint": {"tk": "Sözüň ilkinji sesini aýt.", "ru": "Произнеси первый звук слова."},
+          "explain": {"tk": "B-a-l-y-k: ilkinji harp «B».", "ru": "B-a-l-y-k: первая буква «B»."}},
+        {"type": "input",
+          "q": {"tk": "Türkmen elipbiýinde näçe harp bar?", "ru": "Сколько букв в туркменском алфавите?"},
+          "answer": "30",
+          "hint": {"tk": "20-den köp, 31-den az.", "ru": "Больше 20, меньше 31."},
+          "explain": {"tk": "Häzirki türkmen elipbiýinde 30 harp bar.", "ru": "В современном туркменском алфавите 30 букв."}},
+        {"type": "world", "text": {
+          "tk": "Iň köp harply elipbiýleriň biri — kamboja (khmer) elipbiýi. Iň az harply elipbiýleriň biri bolsa Okeaniýadaky Rotokas dilinde: onda bary-ýogy 12 harp bar.",
+          "ru": "Один из самых длинных алфавитов — кхмерский (Камбоджа). А в языке ротокас в Океании один из самых коротких: всего 12 букв."}}
+      ]
+    },
+    {
+      "id": "reading-1-syllable-reading",
+      "grade": 1,
+      "topic": 1,
+      "title": {"tk": "Bogunlap okamak", "ru": "Чтение по слогам"},
+      "minutes": 6,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Uzyn sözi birden okamak kyn.\nOny böleklere — bogunlara bölüp oka.\n• Ilki çekimsiz bilen çekimlini birleşdir: m + a = ma.\n• Soňra bogunlary birleşdir: ma + ma = mama.",
+          "ru": "Длинное слово трудно прочитать сразу.\nРаздели его на части — слоги.\n• Сначала соедини согласную и гласную: m + a = ma.\n• Потом соедини слоги: ma + ma = mama."}},
+        {"type": "example", "text": {
+          "tk": "Söz: ga-wun 🍈\n1) g + a = ga\n2) w + u + n = wun\n3) ga + wun = gawun\nIndi tutuş oka: gawun!",
+          "ru": "Слово: ga-wun (дыня) 🍈\n1) g + a = ga\n2) w + u + n = wun\n3) ga + wun = gawun\nТеперь прочитай целиком: gawun!"}},
+        {"type": "choice",
+          "q": {"tk": "«ki» + «tap» = ?", "ru": "«ki» + «tap» = ?"},
+          "options": ["kapit", "tapki", "kitap"],
+          "answer": 2,
+          "hint": {"tk": "Bogunlary şol tertipde birleşdir.", "ru": "Соедини слоги в том же порядке."},
+          "explain": {"tk": "ki + tap = kitap 📕.", "ru": "ki + tap = kitap (книга) 📕."}},
+        {"type": "input",
+          "q": {"tk": "«Gu-zy» 🐑 sözünde näçe bogun bar?", "ru": "Сколько слогов в слове «gu-zy» (ягнёнок) 🐑?"},
+          "answer": "2",
+          "hint": {"tk": "Çyzyjyk bogunlary bölýär.", "ru": "Чёрточка разделяет слоги."},
+          "explain": {"tk": "gu + zy — 2 bogun.", "ru": "gu + zy — 2 слога."}},
+        {"type": "truefalse",
+          "q": {"tk": "«ba» + «ba» = «baba» 👴", "ru": "«ba» + «ba» = «baba» (дедушка) 👴"},
+          "answer": true,
+          "hint": {"tk": "Iki bogny birleşdirip aýt.", "ru": "Произнеси два слога слитно."},
+          "explain": {"tk": "ba + ba = baba. Dogry!", "ru": "ba + ba = baba. Верно!"}},
+        {"type": "choice",
+          "q": {"tk": "«Mekdep» sözi nähili bogunlara bölünýär?", "ru": "Как делится на слоги слово «mekdep» (школа)?"},
+          "options": ["mek-dep", "me-kdep", "mekd-ep"],
+          "answer": 0,
+          "hint": {"tk": "Her bogunda bir çekimli bolmaly.", "ru": "В каждом слоге должна быть одна гласная."},
+          "explain": {"tk": "mek-dep: «mek» we «dep».", "ru": "mek-dep: «mek» и «dep»."}},
+        {"type": "world", "text": {
+          "tk": "Alymlar okamagy öwrenýän çaganyň beýnisinde harplary seslere birleşdirýän ýörite ýollaryň emele gelýändigini anykladylar. Her gün okamak bu ýollary güýçlendirýär.",
+          "ru": "Учёные выяснили: когда ребёнок учится читать, в его мозге формируются особые связи между буквами и звуками. Ежедневное чтение их укрепляет."}}
+      ]
+    },
+    {
+      "id": "reading-1-short-words",
+      "grade": 1,
+      "topic": 2,
+      "title": {"tk": "Gysga sözler", "ru": "Короткие слова"},
+      "minutes": 6,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Gysga sözlerde 2–3 harp bar.\nOlary çalt okamagy öwren!\n• at 🐴, ot 🔥, el ✋\n• göz 👁️, gül 🌹, aý 🌙\nBir harp üýtgese, söz hem üýtgeýär.",
+          "ru": "В коротких словах 2–3 буквы.\nНаучись читать их быстро!\n• at (лошадь) 🐴, ot (огонь) 🔥, el (рука) ✋\n• göz (глаз) 👁️, gül (роза) 🌹, aý (луна) 🌙\nЕсли изменить одну букву, изменится и слово."}},
+        {"type": "example", "text": {
+          "tk": "Söz: gül 🌹\nBirinji harpy üýtget: g → k.\nTäze söz: kül (kül — ýanan zadyň galyndysy).\nIki söz meňzeş, ýöne manysy başga!",
+          "ru": "Слово: gül (роза) 🌹\nЗамени первую букву: g → k.\nНовое слово: kül (пепел).\nСлова похожи, но смысл разный!"}},
+        {"type": "choice",
+          "q": {"tk": "Haýsy söz 🌙 suraty aňladýar?", "ru": "Какое слово обозначает картинку 🌙?"},
+          "options": ["el", "aý", "ot"],
+          "answer": 1,
+          "hint": {"tk": "Ol gijelerine asmanda görünýär.", "ru": "Она видна в небе ночью."},
+          "explain": {"tk": "🌙 — aý.", "ru": "🌙 — aý (луна)."}},
+        {"type": "input",
+          "q": {"tk": "«El» ✋ sözünde näçe harp bar?", "ru": "Сколько букв в слове «el» (рука) ✋?"},
+          "answer": "2",
+          "hint": {"tk": "e…", "ru": "e…"},
+          "explain": {"tk": "e, l — 2 harp.", "ru": "e, l — 2 буквы."}},
+        {"type": "truefalse",
+          "q": {"tk": "«At» we «ot» sözleri diňe bir harp bilen tapawutlanýar.", "ru": "Слова «at» и «ot» отличаются только одной буквой."},
+          "answer": true,
+          "hint": {"tk": "Harplary bir-birden deňeşdir.", "ru": "Сравни буквы по одной."},
+          "explain": {"tk": "a-t we o-t: diňe birinji harp başga.", "ru": "a-t и o-t: отличается только первая буква."}},
+        {"type": "choice",
+          "q": {"tk": "Haýsy söz «göz» bilen kapiýalaşýar?", "ru": "Какое слово рифмуется с «göz»?"},
+          "options": ["el", "aý", "söz"],
+          "answer": 2,
+          "hint": {"tk": "Sözüň ahyry meňzeş bolmaly: …öz.", "ru": "Конец слова должен совпадать: …öz."},
+          "explain": {"tk": "göz — söz: ikisi hem «-öz» bilen gutarýar.", "ru": "göz — söz (слово): оба кончаются на «-öz»."}},
+        {"type": "world", "text": {
+          "tk": "Iňlis dilinde iň köp ulanylýan söz — «the». Ol bary-ýogy üç harpdan ybarat. Köp dillerde iň ýygy ulanylýan sözler gysga bolýar.",
+          "ru": "Самое частое слово в английском языке — «the», всего из трёх букв. Во многих языках самые частые слова — короткие."}}
+      ]
+    },
+    {
+      "id": "reading-1-short-stories",
+      "grade": 1,
+      "topic": 3,
+      "title": {"tk": "Kiçi hekaýalar", "ru": "Маленькие рассказы"},
+      "minutes": 7,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Hekaýa — birnäçe sözlemden durýan gysga gürrüň 📖.\nHekaýany okanyňda sora:\n• Kim? — gahryman\n• Nirede? — ýeri\n• Näme boldy? — waka",
+          "ru": "Рассказ — это короткая история из нескольких предложений 📖.\nКогда читаешь, спроси себя:\n• Кто? — герой\n• Где? — место\n• Что случилось? — событие"}},
+        {"type": "example", "text": {
+          "tk": "Hekaýa:\nMerjen bagda oýnaýar 🌳. Ol kiçijik pişijegi gördi 🐱. Pişijek aç eken. Merjen oňa süýt berdi 🥛.\n\nKim? — Merjen.\nNirede? — Bagda.\nNäme boldy? — Pişijege süýt berdi.",
+          "ru": "Рассказ (перевод):\nМерджен играет в саду 🌳. Она увидела маленького котёнка 🐱. Котёнок был голодный. Мерджен дала ему молока 🥛.\n\nКто? — Мерджен.\nГде? — В саду.\nЧто случилось? — Дала котёнку молока."}},
+        {"type": "choice",
+          "q": {"tk": "Merjen pişijege näme berdi?", "ru": "Что Мерджен дала котёнку?"},
+          "options": [
+            {"tk": "Süýt 🥛", "ru": "Молоко 🥛"},
+            {"tk": "Alma 🍎", "ru": "Яблоко 🍎"},
+            {"tk": "Balyk 🐟", "ru": "Рыбу 🐟"}],
+          "answer": 0,
+          "hint": {"tk": "Hekaýanyň soňky sözlemini oka.", "ru": "Прочитай последнее предложение рассказа."},
+          "explain": {"tk": "«Merjen oňa süýt berdi».", "ru": "«Мерджен дала ему молока»."}},
+        {"type": "truefalse",
+          "q": {"tk": "Waka mekdepde bolup geçýär.", "ru": "История происходит в школе."},
+          "answer": false,
+          "hint": {"tk": "Birinji sözleme seret.", "ru": "Посмотри на первое предложение."},
+          "explain": {"tk": "Ýalňyş: Merjen bagda oýnaýar.", "ru": "Неверно: Мерджен играет в саду."}},
+        {"type": "input",
+          "q": {"tk": "Hekaýada näçe sözlem bar?", "ru": "Сколько предложений в рассказе?"},
+          "answer": "4",
+          "hint": {"tk": "Nokatlary sana.", "ru": "Посчитай точки."},
+          "explain": {"tk": "Dört nokat — dört sözlem.", "ru": "Четыре точки — четыре предложения."}},
+        {"type": "choice",
+          "q": {"tk": "Merjen nähili gyz?", "ru": "Какая Мерджен?"},
+          "options": [
+            {"tk": "Gaharjaň", "ru": "Сердитая"},
+            {"tk": "Rehimli", "ru": "Добрая"},
+            {"tk": "Ýalta", "ru": "Ленивая"}],
+          "answer": 1,
+          "hint": {"tk": "Ol aç pişijege näme etdi?", "ru": "Что она сделала для голодного котёнка?"},
+          "explain": {"tk": "Ol aç pişijege kömek etdi — diýmek, rehimli.", "ru": "Она помогла голодному котёнку — значит, добрая."}},
+        {"type": "world", "text": {
+          "tk": "Rus ýazyjysy Lew Tolstoý çagalar üçin «Täze elipbiý» atly kitap ýazypdyr. Onda köp sanly gysga we ýönekeý hekaýalar bar.",
+          "ru": "Русский писатель Лев Толстой написал для детей «Новую азбуку». В ней много коротких и простых рассказов."}}
+      ]
+    },
+    {
+      "id": "reading-1-animal-tales",
+      "grade": 1,
+      "topic": 4,
+      "title": {"tk": "Haýwanlar hakynda ertekiler", "ru": "Сказки о животных"},
+      "minutes": 7,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Ertekide haýwanlar adam ýaly gürleýär 🦊🐺🐰.\nHer haýwanyň öz häsiýeti bar:\n• Tilki 🦊 — mekir\n• Möjek 🐺 — açgöz\n• Towşan 🐰 — gorkak\nErtekiniň ahyrynda bir sapak bolýar.",
+          "ru": "В сказке животные говорят как люди 🦊🐺🐰.\nУ каждого зверя свой характер:\n• Лиса 🦊 — хитрая\n• Волк 🐺 — жадный\n• Заяц 🐰 — трусливый\nВ конце сказки есть урок."}},
+        {"type": "example", "text": {
+          "tk": "Gadymy grek ertekisi «Pyşdyl bilen towşan» 🐢🐇:\nTowşan çalt, ol ýarşyň arasynda ýatyp galdy 😴.\nPyşdyl haýal, ýöne hiç durman ýöredi.\nKim ýeňdi? — Pyşdyl! 🏆\nSapak: tagalla eden ýeňýär.",
+          "ru": "Древнегреческая сказка «Черепаха и заяц» 🐢🐇:\nЗаяц быстрый, но заснул посреди гонки 😴.\nЧерепаха медленная, но шла без остановки.\nКто победил? — Черепаха! 🏆\nУрок: побеждает тот, кто старается."}},
+        {"type": "choice",
+          "q": {"tk": "Ýaryşda kim ýeňdi?", "ru": "Кто победил в гонке?"},
+          "options": [
+            {"tk": "Towşan 🐇", "ru": "Заяц 🐇"},
+            {"tk": "Tilki 🦊", "ru": "Лиса 🦊"},
+            {"tk": "Pyşdyl 🐢", "ru": "Черепаха 🐢"}],
+          "answer": 2,
+          "hint": {"tk": "Kim durman ýöredi?", "ru": "Кто шёл не останавливаясь?"},
+          "explain": {"tk": "Pyşdyl durman ýöredi we ýeňdi.", "ru": "Черепаха шла без остановки и победила."}},
+        {"type": "choice",
+          "q": {"tk": "Ertekilerde tilki köplenç nähili bolýar?", "ru": "Какой обычно бывает лиса в сказках?"},
+          "options": [
+            {"tk": "Mekir", "ru": "Хитрая"},
+            {"tk": "Gorkak", "ru": "Трусливая"},
+            {"tk": "Haýal", "ru": "Медленная"}],
+          "answer": 0,
+          "hint": {"tk": "Ol hemişe birini aldajak bolýar.", "ru": "Она всегда хочет кого-нибудь обмануть."},
+          "explain": {"tk": "Ertekide tilki — mekir gahryman.", "ru": "В сказках лиса — хитрая героиня."}},
+        {"type": "truefalse",
+          "q": {"tk": "Ertekide haýwanlar gürläp bilýär.", "ru": "В сказке животные умеют говорить."},
+          "answer": true,
+          "hint": {"tk": "Bu hakyky durmuş däl, erteki.", "ru": "Это не настоящая жизнь, а сказка."},
+          "explain": {"tk": "Hawa, ertekide haýwanlar adam ýaly gürleýär.", "ru": "Да, в сказках звери говорят как люди."}},
+        {"type": "world", "text": {
+          "tk": "«Pyşdyl bilen towşan» ertekisini gadymy Gresiýada ýaşan Ezop atly erteki aýdyjy bilen baglanyşdyrýarlar. Onuň ertekileri 2500 ýyl bäri dünýäniň köp dillerinde okalýar.",
+          "ru": "Сказку «Черепаха и заяц» приписывают Эзопу — баснописцу Древней Греции. Его басни уже около 2500 лет читают на многих языках мира."}}
+      ]
+    },
+    {
+      "id": "reading-1-riddles",
+      "grade": 1,
+      "topic": 5,
+      "title": {"tk": "Tapmaçalar", "ru": "Загадки"},
+      "minutes": 6,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Tapmaça — zadyň adyny aýtman, onuň alamatlaryny aýdýan gysga sorag 🤔.\nNädip tapmaly?\n• Ünsli diňle.\n• Her alamaty ýatla.\n• Hemmesine gabat gelýän zady tap!",
+          "ru": "Загадка — короткий вопрос, где предмет не называют, а описывают его признаки 🤔.\nКак отгадать?\n• Внимательно слушай.\n• Запомни каждый признак.\n• Найди то, что подходит ко всем!"}},
+        {"type": "example", "text": {
+          "tk": "Tapmaça: «Gündiz ýatýar, gijesine asmanda ýalpyldaýar. Tegelek ýa-da orak ýaly bolýar».\n1) Asmanda → guş ýa-da aý?\n2) Gijesine ýalpyldaýar → aý.\n3) Orak ýaly bolýar → aý 🌙!",
+          "ru": "Загадка: «Днём спит, ночью в небе сияет. Бывает круглой или как серп».\n1) В небе → птица или луна?\n2) Ночью сияет → луна.\n3) Бывает как серп → луна 🌙!"}},
+        {"type": "choice",
+          "q": {"tk": "«Uzyn gulakly, gysga guýrukly, käşir iýmegi halaýar». Bu näme?", "ru": "«Уши длинные, хвост короткий, любит есть морковку». Кто это?"},
+          "options": [
+            {"tk": "Pişik 🐱", "ru": "Кошка 🐱"},
+            {"tk": "Towşan 🐰", "ru": "Заяц 🐰"},
+            {"tk": "Balyk 🐟", "ru": "Рыба 🐟"}],
+          "answer": 1,
+          "hint": {"tk": "Kimiň gulaklary iň uzyn?", "ru": "У кого самые длинные уши?"},
+          "explain": {"tk": "Uzyn gulak, gysga guýruk, käşir — towşan.", "ru": "Длинные уши, короткий хвост, морковка — заяц."}},
+        {"type": "choice",
+          "q": {"tk": "«Gyzyl, tegelek, agaçda ösýär, iýseň süýji». Bu näme?", "ru": "«Красное, круглое, растёт на дереве, на вкус сладкое». Что это?"},
+          "options": [
+            {"tk": "Alma 🍎", "ru": "Яблоко 🍎"},
+            {"tk": "Käşir 🥕", "ru": "Морковь 🥕"},
+            {"tk": "Top ⚽", "ru": "Мяч ⚽"}],
+          "answer": 0,
+          "hint": {"tk": "Käşir ýerde ösýär, top bolsa iýilmeýär.", "ru": "Морковь растёт в земле, а мяч не едят."},
+          "explain": {"tk": "Agaçda ösýän süýji gyzyl miwe — alma.", "ru": "Сладкий красный плод на дереве — яблоко."}},
+        {"type": "truefalse",
+          "q": {"tk": "Tapmaçada zadyň ady hökman aýdylýar.", "ru": "В загадке обязательно называют предмет."},
+          "answer": false,
+          "hint": {"tk": "Onda näme üçin tapmaly bolar?", "ru": "Зачем тогда отгадывать?"},
+          "explain": {"tk": "Ýalňyş: tapmaçada diňe alamatlar aýdylýar, adyny özüň tapýarsyň.", "ru": "Неверно: в загадке называют только признаки, а предмет отгадываешь сам."}},
+        {"type": "world", "text": {
+          "tk": "Iň meşhur gadymy tapmaçalaryň biri — grek rowaýatyndaky Sfinksiň tapmaçasy: «Ertir dört aýakly, günortan iki aýakly, agşam üç aýakly kim?» Jogaby — adam: çagalykda emekleýär, soň ýöreýär, garrylykda hasa tutýar.",
+          "ru": "Одна из самых известных древних загадок — загадка Сфинкса из греческого мифа: «Кто утром ходит на четырёх ногах, днём на двух, а вечером на трёх?» Ответ — человек: в детстве ползает, потом ходит, а в старости опирается на палку."}}
+      ]
+    }
+  ]
+}

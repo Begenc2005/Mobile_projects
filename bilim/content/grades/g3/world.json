@@ -1,0 +1,241 @@
+{
+  "grade": 3,
+  "subject": "world",
+  "lessons": [
+    {
+      "id": "world-3-solar-system",
+      "grade": 3,
+      "topic": 0,
+      "title": {"tk": "Gün ulgamy", "ru": "Солнечная система"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Gün — bu ýyldyz. Ol özünden ýagtylyk we ýylylyk çykarýar.\nGünüň daşyndan 8 planeta aýlanýar. Olaryň hemmesi bilelikde Gün ulgamy diýilýär.\n• Merkuriý — Güne iň ýakyn planeta.\n• Ýer — Günden 3-nji planeta, biziň öýümiz.\n• Ýupiter — iň uly planeta.\n• Neptun — Günden iň uzakdaky planeta.\nAý Ýeriň daşyndan aýlanýar. Ol Ýeriň hemrasydyr.",
+          "ru": "Солнце — это звезда. Оно само излучает свет и тепло.\nВокруг Солнца вращаются 8 планет. Всё вместе называется Солнечной системой.\n• Меркурий — ближайшая к Солнцу планета.\n• Земля — третья планета от Солнца, наш дом.\n• Юпитер — самая большая планета.\n• Нептун — самая далёкая от Солнца планета.\nЛуна вращается вокруг Земли. Она — спутник Земли."}},
+        {"type": "example", "text": {
+          "tk": "Planetalary Günden başlap tertip bilen sanalyň:\n1. Merkuriý\n2. Wenera\n3. Ýer\n4. Mars\n5. Ýupiter\n6. Saturn\n7. Uran\n8. Neptun\nÝatda saklamak üçin: Ýer — Merkuriýden we Weneradan soň gelýär, diýmek, ol 3-nji.",
+          "ru": "Посчитаем планеты по порядку от Солнца:\n1. Меркурий\n2. Венера\n3. Земля\n4. Марс\n5. Юпитер\n6. Сатурн\n7. Уран\n8. Нептун\nЧтобы запомнить: Земля идёт после Меркурия и Венеры, значит, она третья."}},
+        {"type": "choice",
+          "q": {"tk": "Gün ulgamynyň iň uly planetasy haýsy?", "ru": "Какая планета самая большая в Солнечной системе?"},
+          "options": [{"tk": "Merkuriý", "ru": "Меркурий"}, {"tk": "Ýupiter", "ru": "Юпитер"}, {"tk": "Mars", "ru": "Марс"}],
+          "answer": 1,
+          "hint": {"tk": "Bu planetanyň adyny sanawda «iň uly» diýip okadyk.", "ru": "Об этой планете в списке было сказано «самая большая»."},
+          "explain": {"tk": "Ýupiter iň uly planeta. Onuň içine müňden gowrak Ýer sygyp bilerdi.", "ru": "Юпитер — самая большая планета. В него поместилось бы больше тысячи Земель."}},
+        {"type": "input",
+          "q": {"tk": "Gün ulgamynda näçe planeta bar?", "ru": "Сколько планет в Солнечной системе?"},
+          "answer": "8",
+          "hint": {"tk": "Mysaldaky sanawy sanap gör.", "ru": "Посчитай планеты в списке из примера."},
+          "explain": {"tk": "Merkuriýden Neptuna çenli 8 planeta bar.", "ru": "От Меркурия до Нептуна — 8 планет."}},
+        {"type": "truefalse",
+          "q": {"tk": "Gün — bu ýyldyz.", "ru": "Солнце — это звезда."},
+          "answer": true,
+          "hint": {"tk": "Gün özünden ýagtylyk çykarýarmy?", "ru": "Светит ли Солнце само?"},
+          "explain": {"tk": "Dogry. Gün ýyldyz, ol bize iň ýakyn ýyldyzdyr.", "ru": "Верно. Солнце — звезда, самая близкая к нам."}},
+        {"type": "choice",
+          "q": {"tk": "Ýeriň daşyndan näme aýlanýar?", "ru": "Что вращается вокруг Земли?"},
+          "options": [{"tk": "Gün", "ru": "Солнце"}, {"tk": "Mars", "ru": "Марс"}, {"tk": "Aý", "ru": "Луна"}],
+          "answer": 2,
+          "hint": {"tk": "Ýeriň hemrasy hakda oýlan.", "ru": "Подумай о спутнике Земли."},
+          "explain": {"tk": "Aý Ýeriň hemrasy, ol Ýeriň daşyndan aýlanýar. Ýer bolsa Günüň daşyndan aýlanýar.", "ru": "Луна — спутник Земли, она вращается вокруг Земли. А Земля вращается вокруг Солнца."}},
+        {"type": "world", "text": {
+          "tk": "Plutony öň 9-njy planeta hasaplaýardylar. 2006-njy ýylda alymlar ony «mitti planeta» diýip atlandyrdylar, sebäbi ol gaty kiçi. Şonuň üçin indi Gün ulgamynda 8 planeta bar.",
+          "ru": "Плутон раньше считали девятой планетой. В 2006 году учёные назвали его «карликовой планетой», потому что он очень маленький. Поэтому теперь в Солнечной системе 8 планет."}}
+      ]
+    },
+    {
+      "id": "world-3-air-atmosphere",
+      "grade": 3,
+      "topic": 1,
+      "title": {"tk": "Howa we atmosfera", "ru": "Воздух и атмосфера"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Ýeriň daşyny howa gatlagy gurşap alýar. Ol atmosfera diýilýär.\nHowa görünmeýär, ýöne ol bar: biz ony şemalda duýýarys.\nHowa birnäçe gazdan durýar:\n• azot — iň köp gaz;\n• kislorod — ony adamlar we haýwanlar dem alýar;\n• kömürturşy gazy — ony ösümlikler siňdirýär.\nAtmosfera bizi Günüň zyýanly şöhlelerinden goraýar we Ýeri ýyly saklaýar.",
+          "ru": "Землю окружает слой воздуха. Он называется атмосферой.\nВоздух невидим, но он есть: мы чувствуем его, когда дует ветер.\nВоздух состоит из нескольких газов:\n• азот — его больше всего;\n• кислород — им дышат люди и животные;\n• углекислый газ — его поглощают растения.\nАтмосфера защищает нас от вредных лучей Солнца и сохраняет тепло на Земле."}},
+        {"type": "example", "text": {
+          "tk": "Tejribe: ýanyp duran şemiň üstüni stakan bilen ýapalyň.\n1. Ilki şem ýanýar.\n2. Stakanyň içindäki kislorod azalýar.\n3. Biraz wagtdan şem söner.\nNetije: ot ýanmak üçin hem kislorod gerek.\n(Bu tejribäni diňe uly adam bilen et!)",
+          "ru": "Опыт: накроем горящую свечу стаканом.\n1. Сначала свеча горит.\n2. Кислорода под стаканом становится меньше.\n3. Через немного времени свеча гаснет.\nВывод: огню для горения тоже нужен кислород.\n(Делай этот опыт только со взрослым!)"}},
+        {"type": "choice",
+          "q": {"tk": "Biz dem alanymyzda haýsy gaz bize gerek?", "ru": "Какой газ нам нужен, когда мы дышим?"},
+          "options": [{"tk": "Azot", "ru": "Азот"}, {"tk": "Kömürturşy gazy", "ru": "Углекислый газ"}, {"tk": "Kislorod", "ru": "Кислород"}],
+          "answer": 2,
+          "hint": {"tk": "Şem hem şu gaz bolmasa söndi.", "ru": "Без этого газа погасла и свеча."},
+          "explain": {"tk": "Adamlar we haýwanlar kislorod bilen dem alýarlar.", "ru": "Люди и животные дышат кислородом."}},
+        {"type": "truefalse",
+          "q": {"tk": "Howanyň agramy ýok.", "ru": "Воздух ничего не весит."},
+          "answer": false,
+          "hint": {"tk": "Howa — bu madda. Maddalaryň agramy bolýarmy?", "ru": "Воздух — это вещество. Есть ли вес у веществ?"},
+          "explain": {"tk": "Nädogry. Howanyň hem agramy bar, ýöne ol örän ýeňil.", "ru": "Неверно. Воздух тоже имеет вес, просто он очень лёгкий."}},
+        {"type": "input",
+          "q": {"tk": "Howanyň 100 böleginden takmynan 78-si azot. Näçe bölegi azot däl?", "ru": "Из 100 частей воздуха примерно 78 — азот. Сколько частей — не азот?"},
+          "answer": "22",
+          "hint": {"tk": "100-den 78-i aýyr.", "ru": "Вычти 78 из 100."},
+          "explain": {"tk": "100 − 78 = 22. Olaryň köpüsi kislorod.", "ru": "100 − 78 = 22. Большая их часть — кислород."}},
+        {"type": "choice",
+          "q": {"tk": "Hereket edýän howa näme diýilýär?", "ru": "Как называется движущийся воздух?"},
+          "options": [{"tk": "Şemal", "ru": "Ветер"}, {"tk": "Bulut", "ru": "Облако"}, {"tk": "Gyrow", "ru": "Иней"}],
+          "answer": 0,
+          "hint": {"tk": "Ol agaçlaryň ýapraklaryny yraýar.", "ru": "Он качает листья на деревьях."},
+          "explain": {"tk": "Şemal — bu hereket edýän howa.", "ru": "Ветер — это движущийся воздух."}},
+        {"type": "world", "text": {
+          "tk": "Atmosferanyň ýokarsynda ozon gatlagy bar. Ol Günüň zyýanly şöhlelerini saklaýar. 1987-nji ýylda dünýäniň ýurtlary ozon gatlagyny goramak üçin Monreal şertnamasyna gol çekdiler.",
+          "ru": "Высоко в атмосфере есть озоновый слой. Он задерживает вредные лучи Солнца. В 1987 году страны мира подписали Монреальский протокол, чтобы защитить озоновый слой."}}
+      ]
+    },
+    {
+      "id": "world-3-soil",
+      "grade": 3,
+      "topic": 2,
+      "title": {"tk": "Toprak", "ru": "Почва"},
+      "minutes": 7,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Toprak — Ýeriň ýokarky ýumşak gatlagy. Ösümlikler toprakda ösýär.\nToprak nämeden emele gelýär?\n• owranan daşlardan: gum we toýun;\n• çüýrän ýapraklardan we ösümliklerden — çirindiden (gumusdan);\n• suwdan we howadan.\nÇirindi topraga gara reňk berýär. Ol näçe köp bolsa, toprak şonça hasylly.\nToprak örän haýal emele gelýär — ýüzlerçe ýyllaryň dowamynda.",
+          "ru": "Почва — это верхний рыхлый слой Земли. В почве растут растения.\nИз чего состоит почва?\n• из измельчённых горных пород: песка и глины;\n• из перегноя (гумуса) — сгнивших листьев и растений;\n• из воды и воздуха.\nПерегной делает почву тёмной. Чем его больше, тем почва плодороднее.\nПочва образуется очень медленно — сотни лет."}},
+        {"type": "example", "text": {
+          "tk": "Tejribe: bir bölek topragy suwly stakana salalyň.\n1. Suwda kiçijik köpürjikler çykýar — diýmek, toprakda howa bar.\n2. Biraz garaşalyň: aşakda gum, onuň üstünde toýun, iň ýokarda bolsa çirindiniň bölejikleri ýüzýär.\nNetije: toprak birnäçe bölekden durýar.",
+          "ru": "Опыт: положим комочек почвы в стакан с водой.\n1. Из воды выходят пузырьки — значит, в почве есть воздух.\n2. Подождём: внизу осядет песок, над ним глина, а сверху будут плавать кусочки перегноя.\nВывод: почва состоит из нескольких частей."}},
+        {"type": "choice",
+          "q": {"tk": "Topragy gara we hasylly edýän bölek haýsy?", "ru": "Какая часть делает почву тёмной и плодородной?"},
+          "options": [{"tk": "Çirindi (gumus)", "ru": "Перегной (гумус)"}, {"tk": "Gum", "ru": "Песок"}, {"tk": "Daş", "ru": "Камень"}],
+          "answer": 0,
+          "hint": {"tk": "Ol çüýrän ýapraklardan emele gelýär.", "ru": "Он образуется из сгнивших листьев."},
+          "explain": {"tk": "Çirindi ösümlikler üçin iýmit berýär we topragy garaldýar.", "ru": "Перегной даёт растениям питание и делает почву тёмной."}},
+        {"type": "truefalse",
+          "q": {"tk": "Ýagyş gurçuklary topraga zyýan berýär.", "ru": "Дождевые черви вредят почве."},
+          "answer": false,
+          "hint": {"tk": "Gurçuklar toprakda ýollar gazýarlar. Bu howa we suw üçin gowumy?", "ru": "Черви роют в почве ходы. Хорошо ли это для воздуха и воды?"},
+          "explain": {"tk": "Nädogry. Gurçuklar topragy ýumşadýarlar, oňa howa we suw geçirýärler, ýapraklary çirindä öwürýärler.", "ru": "Неверно. Черви рыхлят почву, пропускают в неё воздух и воду и превращают листья в перегной."}},
+        {"type": "choice",
+          "q": {"tk": "Toprakly stakanda köpürjikler çykdy. Bu näme görkezýär?", "ru": "В стакане с почвой появились пузырьки. Что это показывает?"},
+          "options": [{"tk": "Toprakda gum bar", "ru": "В почве есть песок"}, {"tk": "Toprakda howa bar", "ru": "В почве есть воздух"}, {"tk": "Toprakda duz bar", "ru": "В почве есть соль"}],
+          "answer": 1,
+          "hint": {"tk": "Köpürjikleriň içinde näme bolýar?", "ru": "Что находится внутри пузырьков?"},
+          "explain": {"tk": "Köpürjikler — bu howa. Diýmek, toprakda howa bar.", "ru": "Пузырьки — это воздух. Значит, в почве есть воздух."}},
+        {"type": "world", "text": {
+          "tk": "Meşhur alym Çarlz Darwin ýagyş gurçuklaryny köp ýyllap öwrenipdir. 1881-nji ýylda ol gurçuklaryň topragy nähili döredýändigi barada kitap ýazypdyr.",
+          "ru": "Знаменитый учёный Чарльз Дарвин много лет изучал дождевых червей. В 1881 году он написал книгу о том, как черви создают почву."}}
+      ]
+    },
+    {
+      "id": "world-3-food-chain",
+      "grade": 3,
+      "topic": 3,
+      "title": {"tk": "Iýmit zynjyry", "ru": "Пищевая цепь"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Tebigatda her bir jandar kimdir birini iýýär ýa-da kimdir biri üçin iýmit bolýar. Bu iýmit zynjyry diýilýär.\n• Ösümlikler zynjyry başlaýar: olar Günüň ýagtylygy bilen öz iýmitini döredýärler.\n• Ot iýýän haýwanlar ösümlikleri iýýär (towşan, sygyr).\n• Ýyrtyjy haýwanlar beýleki haýwanlary iýýär (tilki, möjek).\n• Kömelekler we bakteriýalar ölen jandarlary dargadyp, topragy baýlaşdyrýar.",
+          "ru": "В природе каждое живое существо кого-то ест или само служит кому-то пищей. Это называется пищевой цепью.\n• Цепь начинают растения: они сами создают себе пищу с помощью солнечного света.\n• Травоядные животные едят растения (заяц, корова).\n• Хищники едят других животных (лиса, волк).\n• Грибы и бактерии разлагают погибших существ и обогащают почву."}},
+        {"type": "example", "text": {
+          "tk": "Zynjyr düzeliň:\not 🌿 → towşan 🐇 → tilki 🦊\n1. Ot Günüň ýagtylygyndan ösýär.\n2. Towşan ot iýýär — ol ot iýýän haýwan.\n3. Tilki towşany iýýär — ol ýyrtyjy.\nBu zynjyrda 3 halka bar.",
+          "ru": "Составим цепь:\nтрава 🌿 → заяц 🐇 → лиса 🦊\n1. Трава растёт благодаря солнечному свету.\n2. Заяц ест траву — он травоядный.\n3. Лиса ест зайца — она хищник.\nВ этой цепи 3 звена."}},
+        {"type": "input",
+          "q": {"tk": "ot → çekirtge → gurbaga → ýylan. Bu zynjyrda näçe halka bar?", "ru": "трава → кузнечик → лягушка → змея. Сколько звеньев в этой цепи?"},
+          "answer": "4",
+          "hint": {"tk": "Her jandary bir halka hasapla.", "ru": "Каждое живое существо — одно звено."},
+          "explain": {"tk": "Ot, çekirtge, gurbaga, ýylan — jemi 4 halka.", "ru": "Трава, кузнечик, лягушка, змея — всего 4 звена."}},
+        {"type": "choice",
+          "q": {"tk": "Adatça iýmit zynjyry näme bilen başlanýar?", "ru": "С чего обычно начинается пищевая цепь?"},
+          "options": [{"tk": "Ýyrtyjy haýwan bilen", "ru": "С хищника"}, {"tk": "Ösümlik bilen", "ru": "С растения"}, {"tk": "Kömelek bilen", "ru": "С гриба"}],
+          "answer": 1,
+          "hint": {"tk": "Kim öz iýmitini Günüň ýagtylygy bilen döredýär?", "ru": "Кто сам создаёт себе пищу с помощью солнечного света?"},
+          "explain": {"tk": "Ösümlikler öz iýmitini özleri döredýärler, şonuň üçin zynjyr olardan başlanýar.", "ru": "Растения сами создают себе пищу, поэтому цепь начинается с них."}},
+        {"type": "truefalse",
+          "q": {"tk": "Tilki ot iýýän haýwan.", "ru": "Лиса — травоядное животное."},
+          "answer": false,
+          "hint": {"tk": "Mysalda tilki kimi iýdi?", "ru": "Кого ела лиса в примере?"},
+          "explain": {"tk": "Nädogry. Tilki beýleki haýwanlary iýýär, ol ýyrtyjy.", "ru": "Неверно. Лиса ест других животных, она хищник."}},
+        {"type": "choice",
+          "q": {"tk": "ot → çekirtge → gurbaga. Çekirtgäni kim iýýär?", "ru": "трава → кузнечик → лягушка. Кто ест кузнечика?"},
+          "options": [{"tk": "Ot", "ru": "Трава"}, {"tk": "Towşan", "ru": "Заяц"}, {"tk": "Gurbaga", "ru": "Лягушка"}],
+          "answer": 2,
+          "hint": {"tk": "Peýkamyň yzyndan gelýän jandara seret.", "ru": "Посмотри, кто стоит после стрелки."},
+          "explain": {"tk": "Peýkam «kime iýmit bolýar» diýmegi aňladýar: çekirtge → gurbaga, diýmek, gurbaga çekirtgäni iýýär.", "ru": "Стрелка означает «служит пищей для»: кузнечик → лягушка, значит, лягушка ест кузнечика."}},
+        {"type": "world", "text": {
+          "tk": "1977-nji ýylda alymlar ummanyň düýbünde, Gün ýagtylygy düşmeýän ýerde, gyzgyn çeşmeleriň ýanynda ýaşaýan jandarlary tapdylar. Ol ýerde zynjyr ösümlikden däl-de, ýörite bakteriýalardan başlanýar.",
+          "ru": "В 1977 году учёные нашли на дне океана, куда не проникает солнечный свет, живых существ возле горячих источников. Там пищевая цепь начинается не с растений, а с особых бактерий."}}
+      ]
+    },
+    {
+      "id": "world-3-continents-oceans",
+      "grade": 3,
+      "topic": 4,
+      "title": {"tk": "Materikler we ummanlar", "ru": "Материки и океаны"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Ýeriň ýüzüniň köp bölegini suw tutýar — takmynan 70 göterimi.\nUly gury ýerlere materik diýilýär. Olar 6:\n• Ýewraziýa — iň uly materik;\n• Afrika;\n• Demirgazyk Amerika;\n• Günorta Amerika;\n• Awstraliýa — iň kiçi materik;\n• Antarktida — iň sowuk materik.\nUly suw giňişliklerine umman diýilýär. Iň uly umman — Ýuwaş umman. Atlantik, Hindi, Demirgazyk Buzly we Günorta ummanlar hem bar.",
+          "ru": "Большую часть поверхности Земли занимает вода — примерно 70 процентов.\nБольшие участки суши называются материками. Их 6:\n• Евразия — самый большой материк;\n• Африка;\n• Северная Америка;\n• Южная Америка;\n• Австралия — самый маленький материк;\n• Антарктида — самый холодный материк.\nБольшие водные пространства называются океанами. Самый большой — Тихий океан. Есть ещё Атлантический, Индийский, Северный Ледовитый и Южный океаны."}},
+        {"type": "example", "text": {
+          "tk": "Türkmenistan haýsy materikde?\n1. Kartada Türkmenistany tapalyň — ol Aziýada, Hazar deňziniň gündogarynda.\n2. Aziýa we Ýewropa bilelikde bir uly materigi emele getirýär — Ýewraziýany.\n3. Diýmek, Türkmenistan Ýewraziýa materiginde ýerleşýär.",
+          "ru": "На каком материке Туркменистан?\n1. Найдём Туркменистан на карте — он в Азии, к востоку от Каспийского моря.\n2. Азия и Европа вместе образуют один большой материк — Евразию.\n3. Значит, Туркменистан находится на материке Евразия."}},
+        {"type": "choice",
+          "q": {"tk": "Iň uly umman haýsy?", "ru": "Какой океан самый большой?"},
+          "options": [{"tk": "Atlantik umman", "ru": "Атлантический"}, {"tk": "Hindi ummany", "ru": "Индийский"}, {"tk": "Ýuwaş umman", "ru": "Тихий"}],
+          "answer": 2,
+          "hint": {"tk": "Onuň ady «asuda» diýen manyny berýär.", "ru": "Его название означает «спокойный»."},
+          "explain": {"tk": "Ýuwaş umman iň uly we iň çuň umman.", "ru": "Тихий океан — самый большой и самый глубокий."}},
+        {"type": "input",
+          "q": {"tk": "Ýerde näçe materik bar?", "ru": "Сколько материков на Земле?"},
+          "answer": "6",
+          "hint": {"tk": "Sanawdaky materikleri sana.", "ru": "Посчитай материки в списке."},
+          "explain": {"tk": "Ýewraziýa, Afrika, Demirgazyk Amerika, Günorta Amerika, Awstraliýa, Antarktida — 6 materik.", "ru": "Евразия, Африка, Северная Америка, Южная Америка, Австралия, Антарктида — 6 материков."}},
+        {"type": "truefalse",
+          "q": {"tk": "Türkmenistan Ýewraziýa materiginde ýerleşýär.", "ru": "Туркменистан находится на материке Евразия."},
+          "answer": true,
+          "hint": {"tk": "Mysaly ýene bir gezek oka.", "ru": "Перечитай пример."},
+          "explain": {"tk": "Dogry. Türkmenistan Aziýada, Aziýa bolsa Ýewraziýanyň bir bölegi.", "ru": "Верно. Туркменистан в Азии, а Азия — часть Евразии."}},
+        {"type": "choice",
+          "q": {"tk": "Iň sowuk materik haýsy?", "ru": "Какой материк самый холодный?"},
+          "options": [{"tk": "Afrika", "ru": "Африка"}, {"tk": "Antarktida", "ru": "Антарктида"}, {"tk": "Awstraliýa", "ru": "Австралия"}],
+          "answer": 1,
+          "hint": {"tk": "Ol Ýeriň iň günortasynda, buz bilen örtülen.", "ru": "Он на самом юге Земли и покрыт льдом."},
+          "explain": {"tk": "Antarktida doly diýen ýaly buz bilen örtülen we ol iň sowuk materik.", "ru": "Антарктида почти полностью покрыта льдом — это самый холодный материк."}},
+        {"type": "world", "text": {
+          "tk": "Ýerdäki iň çuň ýer — Ýuwaş ummandaky Mariana çöketligi. Onuň çuňlugy 11 kilometre golaý. Eger ol ýere Ewerest dagyny goýsaň, onuň depesi hem suwuň aşagynda galardy.",
+          "ru": "Самое глубокое место на Земле — Марианская впадина в Тихом океане. Её глубина почти 11 километров. Если поставить туда гору Эверест, её вершина тоже оказалась бы под водой."}}
+      ]
+    },
+    {
+      "id": "world-3-nature-protection",
+      "grade": 3,
+      "topic": 5,
+      "title": {"tk": "Tebigaty goramak", "ru": "Охрана природы"},
+      "minutes": 7,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Tebigat bize howa, suw, iýmit we öý berýär. Ony goramak her birimiziň borjumyz.\nNäme edip bileris?\n• Zir-zibili diňe ýörite gaba taşla.\n• Suwy we elektrik togy tygşytla.\n• Agaç ek, ösümliklere ideg et.\n• Haýwanlary we guşlary kemsitme.\n• Plastik çüýşeleri we kagyzy gaýtadan işlemäge tabşyr.\nSeýrek duş gelýän haýwanlar we ösümlikler «Gyzyl kitaba» ýazylýar. Olary ýörite goraghanalarda goraýarlar.",
+          "ru": "Природа даёт нам воздух, воду, пищу и дом. Беречь её — обязанность каждого.\nЧто мы можем сделать?\n• Бросать мусор только в урну.\n• Экономить воду и электричество.\n• Сажать деревья и ухаживать за растениями.\n• Не обижать животных и птиц.\n• Сдавать пластиковые бутылки и бумагу на переработку.\nРедкие животные и растения заносят в «Красную книгу». Их охраняют в заповедниках."}},
+        {"type": "example", "text": {
+          "tk": "Suwy nädip tygşytlamaly?\n1. Dişiňi arassalanyňda krany ýap.\n2. Krany diňe çotgany öllemek ýa-da agzyňy çaýkamak üçin aç.\n3. Şeýdip, her gün birnäçe litr suwy tygşytlap bolýar.\nKiçi işler hem tebigata uly kömek edýär.",
+          "ru": "Как экономить воду?\n1. Когда чистишь зубы, закрывай кран.\n2. Открывай его, только когда нужно смочить щётку или прополоскать рот.\n3. Так каждый день можно сберечь несколько литров воды.\nДаже маленькие дела очень помогают природе."}},
+        {"type": "choice",
+          "q": {"tk": "Haýsy iş tebigata kömek edýär?", "ru": "Какое дело помогает природе?"},
+          "options": [{"tk": "Zibili derýa taşlamak", "ru": "Бросать мусор в реку"}, {"tk": "Agaç ekmek", "ru": "Сажать дерево"}, {"tk": "Şahalary döwmek", "ru": "Ломать ветки"}],
+          "answer": 1,
+          "hint": {"tk": "Haýsy iş tebigatda täze janly zat döredýär?", "ru": "Какое дело создаёт в природе что-то новое и живое?"},
+          "explain": {"tk": "Agaç kislorod berýär, guşlara öý bolýar. Beýleki iki iş tebigata zyýan berýär.", "ru": "Дерево даёт кислород и становится домом для птиц. Два других дела вредят природе."}},
+        {"type": "truefalse",
+          "q": {"tk": "«Gyzyl kitaba» seýrek duş gelýän haýwanlar we ösümlikler ýazylýar.", "ru": "В «Красную книгу» заносят редкие животные и растения."},
+          "answer": true,
+          "hint": {"tk": "Teoriýanyň soňky setirlerini oka.", "ru": "Прочитай последние строки теории."},
+          "explain": {"tk": "Dogry. Gyzyl kitap ýitip gitmek howpy bar bolan jandarlary görkezýär.", "ru": "Верно. Красная книга показывает виды, которым грозит исчезновение."}},
+        {"type": "input",
+          "q": {"tk": "Bir maşgala her gün 2 sany plastik çüýşäni gaýtadan işlemäge tabşyrýar. Bir hepdede näçe çüýşe bolar?", "ru": "Семья каждый день сдаёт на переработку 2 пластиковые бутылки. Сколько бутылок будет за неделю?"},
+          "answer": "14",
+          "hint": {"tk": "Hepdede 7 gün bar.", "ru": "В неделе 7 дней."},
+          "explain": {"tk": "2 × 7 = 14 çüýşe.", "ru": "2 × 7 = 14 бутылок."}},
+        {"type": "choice",
+          "q": {"tk": "Dişiňi arassalanyňda krany ýapmak näme berýär?", "ru": "Что даёт закрытый кран, когда чистишь зубы?"},
+          "options": [{"tk": "Suwy tygşytlaýar", "ru": "Экономит воду"}, {"tk": "Dişleri ak edýär", "ru": "Делает зубы белыми"}, {"tk": "Howany arassalaýar", "ru": "Очищает воздух"}],
+          "answer": 0,
+          "hint": {"tk": "Kran açyk bolsa, näme biderek akýar?", "ru": "Что зря утекает, если кран открыт?"},
+          "explain": {"tk": "Kran ýapyk bolsa, suw biderek akmaýar — ol tygşytlanýar.", "ru": "Если кран закрыт, вода не утекает зря — она экономится."}},
+        {"type": "world", "text": {
+          "tk": "Dünýäde ilkinji milli seýilgäh — ABŞ-daky Ýellouston — 1872-nji ýylda döredildi. Türkmenistanda hem goraghanalar bar, mysal üçin, Garagum çölündäki Repetek goraghanasy 1928-nji ýylda döredilipdir.",
+          "ru": "Первый в мире национальный парк — Йеллоустон в США — создан в 1872 году. В Туркменистане тоже есть заповедники, например Репетекский заповедник в пустыне Каракумы, основанный в 1928 году."}}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,288 @@
+{
+  "grade": 5,
+  "subject": "informatics",
+  "lessons": [
+    {
+      "id": "informatics-5-computer-parts",
+      "grade": 5,
+      "topic": 0,
+      "title": {"tk": "Kompýuteriň bölekleri", "ru": "Устройство компьютера"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Kompýuter maglumaty kabul edýär, işleýär, saklaýar we görkezýär. Munuň üçin onuň dürli bölekleri bar.\n\n• Prosessor — kompýuteriň «beýnisi». Ähli hasaplamalary we buýruklary ýerine ýetirýär.\n• Operatiw ýat (RAM) — häzir işleýän maglumatlar üçin çalt, wagtlaýyn ýat. Kompýuter öçende ondaky maglumat ýitýär.\n• Gaty disk ýa-da SSD — faýllary uzak wagtlap saklaýar. Kompýuter öçende hem maglumat galýar.\n• Giriş enjamlary — maglumaty kompýutere girizýär: klawiatura, syçan, mikrofon, skaner.\n• Çykyş enjamlary — netijäni görkezýär: monitor, printer, kolonkalar, nauşnikler.",
+          "ru": "Компьютер принимает, обрабатывает, хранит и выводит информацию. Для этого у него есть разные части.\n\n• Процессор — «мозг» компьютера. Он выполняет все вычисления и команды.\n• Оперативная память (ОЗУ) — быстрая временная память для данных, с которыми идёт работа сейчас. При выключении компьютера её содержимое стирается.\n• Жёсткий диск или SSD — хранит файлы долго. После выключения данные сохраняются.\n• Устройства ввода — передают информацию в компьютер: клавиатура, мышь, микрофон, сканер.\n• Устройства вывода — показывают результат: монитор, принтер, колонки, наушники."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mysal: sen dostuňa hat ýazýarsyň.\n1. Klawiaturada harplary basýarsyň — bu giriş.\n2. Prosessor basylan düwmeleri harplara öwürýär.\n3. Ýazylýan tekst operatiw ýatda saklanýar.\n4. Monitor teksti ekranda görkezýär — bu çykyş.\n5. «Ýatda sakla» basanyňda faýl SSD-ä ýazylýar we ertir hem açyp bolýar.",
+          "ru": "Пример: ты пишешь письмо другу.\n1. Нажимаешь клавиши — это ввод.\n2. Процессор превращает нажатия в буквы.\n3. Набираемый текст хранится в оперативной памяти.\n4. Монитор показывает текст на экране — это вывод.\n5. Когда нажимаешь «Сохранить», файл записывается на SSD, и его можно открыть завтра."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Haýsy enjam giriş enjamydyr?", "ru": "Какое устройство является устройством ввода?"},
+          "options": [{"tk": "Printer", "ru": "Принтер"}, {"tk": "Syçan", "ru": "Мышь"}, {"tk": "Monitor", "ru": "Монитор"}],
+          "answer": 1,
+          "hint": {"tk": "Haýsy enjam arkaly kompýutere buýruk berýäris?", "ru": "С помощью какого устройства мы даём компьютеру команды?"},
+          "explain": {"tk": "Syçan arkaly biz kompýutere maglumat girizýäris. Printer we monitor bolsa netijäni çykarýar.", "ru": "Мышью мы вводим информацию в компьютер. Принтер и монитор выводят результат."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Kompýuter öçende operatiw ýatdaky maglumat saklanyp galýar.", "ru": "При выключении компьютера данные в оперативной памяти сохраняются."},
+          "answer": false,
+          "hint": {"tk": "Operatiw ýat wagtlaýyn ýatdyr.", "ru": "Оперативная память — временная."},
+          "explain": {"tk": "Ýalňyş. Operatiw ýat diňe tok bar wagty işleýär. Faýllary uzak saklamak üçin gaty disk ýa-da SSD gerek.", "ru": "Неверно. Оперативная память работает только при наличии питания. Для долгого хранения нужен жёсткий диск или SSD."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Kompýuteriň «beýnisi» diýip haýsy bölege aýdylýar?", "ru": "Какую часть называют «мозгом» компьютера?"},
+          "options": [{"tk": "Prosessor", "ru": "Процессор"}, {"tk": "Kolonka", "ru": "Колонка"}, {"tk": "Klawiatura", "ru": "Клавиатура"}],
+          "answer": 0,
+          "hint": {"tk": "Haýsy bölek hasaplaýar we buýruklary ýerine ýetirýär?", "ru": "Какая часть считает и выполняет команды?"},
+          "explain": {"tk": "Prosessor ähli hasaplamalary ýerine ýetirýär, şonuň üçin oňa kompýuteriň beýnisi diýilýär.", "ru": "Процессор выполняет все вычисления, поэтому его называют мозгом компьютера."}
+        },
+        {"type": "input",
+          "q": {"tk": "Sanawda näçe sany çykyş enjamy bar? Monitor, klawiatura, printer, mikrofon, kolonka.", "ru": "Сколько устройств вывода в списке? Монитор, клавиатура, принтер, микрофон, колонка."},
+          "answer": "3",
+          "hint": {"tk": "Netijäni görkezýän ýa-da eşitdirýän enjamlary sana.", "ru": "Посчитай устройства, которые показывают или озвучивают результат."},
+          "explain": {"tk": "Monitor, printer we kolonka — 3 çykyş enjamy. Klawiatura we mikrofon giriş enjamlarydyr.", "ru": "Монитор, принтер и колонка — 3 устройства вывода. Клавиатура и микрофон — устройства ввода."}
+        },
+        {"type": "world", "text": {
+          "tk": "Ilkinji uniwersal elektron kompýuterleriň biri bolan ENIAC 1940-njy ýyllarda ABŞ-da gurlupdyr. Ol tutuş bir uly otagy eýeläpdir we 30 tonna golaý agramly bolupdyr. Häzirki smartfon bolsa ondan müňlerçe esse güýçli we jübä sygýar.",
+          "ru": "Один из первых универсальных электронных компьютеров, ENIAC, построили в США в 1940-х годах. Он занимал целый большой зал и весил около 30 тонн. Современный смартфон в тысячи раз мощнее и помещается в кармане."
+        }}
+      ]
+    },
+    {
+      "id": "informatics-5-files-folders",
+      "grade": 5,
+      "topic": 1,
+      "title": {"tk": "Faýllar we bukjalar", "ru": "Файлы и папки"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Faýl — kompýuterde ady bolan maglumat: tekst, surat, aýdym, wideo, oýun.\nFaýlyň ady iki bölekden ybarat: ady we giňeltmesi. Mysal: «surat.jpg».\n\n• .txt, .docx — tekst\n• .jpg, .png — surat\n• .mp3 — ses, aýdym\n• .mp4 — wideo\n\nBukja (papka) — faýllary tertipli saklamak üçin «gutujyk». Bukjanyň içinde başga bukjalar hem bolup biler.",
+          "ru": "Файл — это информация в компьютере, у которой есть имя: текст, картинка, песня, видео, игра.\nИмя файла состоит из двух частей: имени и расширения. Пример: «surat.jpg».\n\n• .txt, .docx — текст\n• .jpg, .png — изображение\n• .mp3 — звук, музыка\n• .mp4 — видео\n\nПапка — «коробочка» для упорядоченного хранения файлов. Внутри папки могут быть другие папки."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mysal: matematika boýunça öý işiň şu ýerde saklanýar:\nD:\\Mekdep\\Matematika\\oy_isi.docx\n\n1. D: — disk.\n2. Mekdep — birinji bukja.\n3. Matematika — «Mekdep» bukjasynyň içindäki bukja.\n4. oy_isi.docx — faýl, .docx bolsa onuň tekst faýlydygyny görkezýär.\nBu ýazga faýla barýan ýol diýilýär.",
+          "ru": "Пример: домашняя работа по математике хранится здесь:\nD:\\Mekdep\\Matematika\\oy_isi.docx\n\n1. D: — диск.\n2. Mekdep — первая папка.\n3. Matematika — папка внутри папки «Mekdep».\n4. oy_isi.docx — файл; .docx показывает, что это текстовый документ.\nТакая запись называется путём к файлу."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Haýsy faýl surat bolmagy ähtimal?", "ru": "Какой файл скорее всего является картинкой?"},
+          "options": ["aydym.mp3", "kitap.txt", "dag.jpg"],
+          "answer": 2,
+          "hint": {"tk": "Giňeltmä seret.", "ru": "Посмотри на расширение."},
+          "explain": {"tk": ".jpg — surat faýllarynyň giňeltmesi. .mp3 — ses, .txt — tekst.", "ru": ".jpg — расширение изображений. .mp3 — звук, .txt — текст."}
+        },
+        {"type": "input",
+          "q": {"tk": "C:\\Okuw\\Taryh\\Gadymy\\referat.txt ýolunda näçe bukja bar?", "ru": "Сколько папок в пути C:\\Okuw\\Taryh\\Gadymy\\referat.txt?"},
+          "answer": "3",
+          "hint": {"tk": "Diski we faýly sanama.", "ru": "Не считай диск и сам файл."},
+          "explain": {"tk": "Okuw, Taryh, Gadymy — 3 bukja. C: — disk, referat.txt — faýl.", "ru": "Okuw, Taryh, Gadymy — 3 папки. C: — диск, referat.txt — файл."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Bir bukjanyň içinde başga bukja bolup biler.", "ru": "Внутри одной папки может находиться другая папка."},
+          "answer": true,
+          "hint": {"tk": "Mysaldaky «Mekdep» we «Matematika» bukjalaryny ýatla.", "ru": "Вспомни папки «Mekdep» и «Matematika» из примера."},
+          "explain": {"tk": "Dogry. Bukjalar biri-biriniň içinde ýerleşip, agaja meňzeş gurluş emele getirýär.", "ru": "Верно. Папки вкладываются друг в друга и образуют древовидную структуру."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Faýlyň giňeltmesi näme üçin gerek?", "ru": "Для чего нужно расширение файла?"},
+          "options": [{"tk": "Faýlyň görnüşini görkezýär", "ru": "Показывает тип файла"}, {"tk": "Faýly uly edýär", "ru": "Увеличивает файл"}, {"tk": "Faýly gizleýär", "ru": "Прячет файл"}],
+          "answer": 0,
+          "hint": {"tk": ".mp3 we .jpg näme bilen tapawutlanýar?", "ru": "Чем отличаются .mp3 и .jpg?"},
+          "explain": {"tk": "Giňeltme kompýutere faýlyň görnüşini we ony haýsy programma bilen açmalydygyny aýdýar.", "ru": "Расширение сообщает компьютеру тип файла и какой программой его открыть."}
+        },
+        {"type": "world", "text": {
+          "tk": "Ekranda bukja we faýl nyşanlaryny ulanmak pikiri 1970-nji ýyllarda Xerox PARC barlag merkezinde döräpdir. Soňra bu «iş stoly» düşünjesini Apple we Microsoft ýaly kompaniýalar ulanyp başlapdyr.",
+          "ru": "Идея показывать на экране значки папок и файлов появилась в 1970-х годах в исследовательском центре Xerox PARC. Позже эту концепцию «рабочего стола» подхватили Apple и Microsoft."
+        }}
+      ]
+    },
+    {
+      "id": "informatics-5-keyboard",
+      "grade": 5,
+      "topic": 2,
+      "title": {"tk": "Klawiatura bilen işlemek", "ru": "Работа с клавиатурой"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Klawiatura — tekst we buýruk girizmek üçin esasy enjam.\n\nMöhüm düwmeler:\n• Space (boşluk) — sözleriň arasynda boşluk goýýar.\n• Enter — täze setire geçýär ýa-da buýrugy tassyklaýar.\n• Backspace — kursoryň çepindäki belgini pozýar.\n• Delete — kursoryň sagyndaky belgini pozýar.\n• Shift — basyp saklasaň, baş harp ýazylýar.\n• Caps Lock — hemişelik baş harplary açýar ýa-da ýapýar.\n\nOn barmak bilen ýazmak: barmaklar esasy hatarda durýar (A S D F — çep el, J K L — sag el). F we J düwmelerinde kiçijik çykyntylar bar — olary seretmän tapmak üçin.",
+          "ru": "Клавиатура — основное устройство для ввода текста и команд.\n\nВажные клавиши:\n• Space (пробел) — ставит пробел между словами.\n• Enter — переход на новую строку или подтверждение команды.\n• Backspace — удаляет символ слева от курсора.\n• Delete — удаляет символ справа от курсора.\n• Shift — если держать, печатается заглавная буква.\n• Caps Lock — включает или выключает постоянный ввод заглавных букв.\n\nСлепая печать десятью пальцами: пальцы лежат на основном ряду (A S D F — левая рука, J K L — правая). На клавишах F и J есть маленькие выступы, чтобы находить их не глядя."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mysal: «salam» ýerine «salaam» ýazdyň, kursor sözüň ahyrynda.\n1. Artykmaç «a» kursordan çepde däl — ol «m»-iň öňünde.\n2. Kursory «m»-iň öňüne süýşür (ok düwmesi ←).\n3. Backspace bas — çepdäki artykmaç «a» pozulýar.\n4. Netije: «salam».\n\nPeýdaly gysga ýollar: Ctrl+C — göçürmek, Ctrl+V — goýmak, Ctrl+Z — soňky hereketi ýatyrmak.",
+          "ru": "Пример: вместо «salam» ты набрал «salaam», курсор в конце слова.\n1. Лишняя «a» стоит не у курсора, а перед «m».\n2. Передвинь курсор перед «m» (стрелка ←).\n3. Нажми Backspace — лишняя «a» слева удалится.\n4. Результат: «salam».\n\nПолезные сочетания: Ctrl+C — копировать, Ctrl+V — вставить, Ctrl+Z — отменить последнее действие."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Haýsy düwme kursoryň sagyndaky belgini pozýar?", "ru": "Какая клавиша удаляет символ справа от курсора?"},
+          "options": ["Backspace", "Enter", "Delete"],
+          "answer": 2,
+          "hint": {"tk": "Backspace çepdäkini pozýar.", "ru": "Backspace удаляет то, что слева."},
+          "explain": {"tk": "Delete — kursoryň sagyndaky, Backspace — çepindäki belgini pozýar.", "ru": "Delete удаляет символ справа от курсора, Backspace — слева."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "F we J düwmelerindäki çykyntylar barmaklary seretmän ýerleşdirmäge kömek edýär.", "ru": "Выступы на клавишах F и J помогают ставить пальцы, не глядя."},
+          "answer": true,
+          "hint": {"tk": "On barmak bilen ýazmagyň düzgünini ýatla.", "ru": "Вспомни правила слепой печати."},
+          "explain": {"tk": "Dogry. Süýem barmaklar şu çykyntylary duýup, esasy hatary tapýar.", "ru": "Верно. Указательные пальцы нащупывают выступы и находят основной ряд."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Ýalňyşlyk bilen teksti pozduň. Haýsy gysga ýol ony yzyna getirer?", "ru": "Ты случайно удалил текст. Какое сочетание вернёт его?"},
+          "options": ["Ctrl+Z", "Ctrl+C", "Ctrl+V"],
+          "answer": 0,
+          "hint": {"tk": "Bu gysga ýol soňky hereketi ýatyrýar.", "ru": "Это сочетание отменяет последнее действие."},
+          "explain": {"tk": "Ctrl+Z soňky hereketi ýatyrýar, şonuň üçin pozulan tekst yzyna gaýdyp gelýär.", "ru": "Ctrl+Z отменяет последнее действие, поэтому удалённый текст возвращается."}
+        },
+        {"type": "input",
+          "q": {"tk": "Kursor «kitap» sözüniň ahyrynda. «kit» galar ýaly Backspace düwmesini näçe gezek basmaly?", "ru": "Курсор в конце слова «kitap». Сколько раз нажать Backspace, чтобы осталось «kit»?"},
+          "answer": "2",
+          "hint": {"tk": "Haýsy harplary pozmaly?", "ru": "Какие буквы нужно стереть?"},
+          "explain": {"tk": "«a» we «p» harplaryny pozmaly — 2 gezek.", "ru": "Нужно стереть «a» и «p» — 2 нажатия."}
+        },
+        {"type": "world", "text": {
+          "tk": "Klawiaturadaky QWERTY tertibi 1870-nji ýyllarda amerikaly oýlap tapyjy Kristofer Şoulzyň ýazuw maşyny üçin döredilipdir. Şondan bäri bir asyrdan gowrak geçse-de, bu tertip häzirki kompýuterlerde we telefonlarda hem ulanylýar.",
+          "ru": "Раскладку QWERTY придумал американский изобретатель Кристофер Шоулз для пишущей машинки в 1870-х годах. Прошло больше века, но эта раскладка до сих пор используется на компьютерах и телефонах."
+        }}
+      ]
+    },
+    {
+      "id": "informatics-5-algorithm",
+      "grade": 5,
+      "topic": 3,
+      "title": {"tk": "Algoritm näme?", "ru": "Что такое алгоритм"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Algoritm — maksada ýetmek üçin anyk tertipde ýerine ýetirilýän ädimleriň sanawy.\n\nGowy algoritmiň häsiýetleri:\n• Düşnüklilik — her ädim aýdyň we ýerine ýetirip bolýan.\n• Tertiplilik — ädimler belli yzygiderlikde gelýär.\n• Tükeniklilik — algoritm haçan-da bolsa gutarýar.\n• Netijelilik — ahyrynda garaşylýan netije alynýar.\n\nKompýuter programmasy hem algoritmdir, ýöne kompýuteriň düşünýän dilinde ýazylan.",
+          "ru": "Алгоритм — это список шагов, которые выполняются в определённом порядке, чтобы достичь цели.\n\nСвойства хорошего алгоритма:\n• Понятность — каждый шаг ясен и выполним.\n• Дискретность и порядок — шаги идут друг за другом в определённой последовательности.\n• Конечность — алгоритм когда-нибудь заканчивается.\n• Результативность — в конце получается ожидаемый результат.\n\nКомпьютерная программа — тоже алгоритм, только записанный на языке, понятном компьютеру."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mysal: «Çaý demlemek» algoritmi\n1. Çäýnege suw guý.\n2. Suwy gaýnat.\n3. Çäýnege gury çaý sal.\n4. Üstüne gaýnag suw guý.\n5. 5 minut garaş.\n6. Käsä guý.\n\nEger 3-nji we 6-njy ädimleri çalyşsaň, boş käsä hiç zat guýup bolmaz — tertip möhüm!\n\nŞert hem bolup biler: «Eger çaý gaty güýçli bolsa, onda suw goş».",
+          "ru": "Пример: алгоритм «Заварить чай»\n1. Налей воду в чайник.\n2. Вскипяти воду.\n3. Положи заварку в заварочный чайник.\n4. Залей кипятком.\n5. Подожди 5 минут.\n6. Налей в пиалу.\n\nЕсли поменять шаги 3 и 6, наливать будет нечего — порядок важен!\n\nБывают и условия: «Если чай слишком крепкий, то добавь воды»."
+        }},
+        {"type": "truefalse",
+          "q": {"tk": "Algoritmde ädimleriň tertibi ähmiýetsizdir.", "ru": "В алгоритме порядок шагов не важен."},
+          "answer": false,
+          "hint": {"tk": "Çaý mysalyny ýatla.", "ru": "Вспомни пример с чаем."},
+          "explain": {"tk": "Ýalňyş. Ädimleriň tertibi üýtgese, netije hem nädogry bolup biler.", "ru": "Неверно. Если изменить порядок шагов, результат может стать неправильным."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsysy algoritm däl?", "ru": "Что из этого НЕ является алгоритмом?"},
+          "options": [{"tk": "Tort bişirmegiň resepti", "ru": "Рецепт торта"}, {"tk": "«Gowy bol» diýen maslahat", "ru": "Совет «Будь хорошим»"}, {"tk": "Mekdebe barýan ýoluň beýany", "ru": "Описание дороги до школы"}],
+          "answer": 1,
+          "hint": {"tk": "Haýsysynda anyk ädimler ýok?", "ru": "В чём нет конкретных шагов?"},
+          "explain": {"tk": "«Gowy bol» maslahatynda anyk, tertipli ädimler ýok. Resept we ýol beýany — algoritmlerdir.", "ru": "В совете «Будь хорошим» нет конкретных упорядоченных шагов. Рецепт и описание дороги — алгоритмы."}
+        },
+        {"type": "input",
+          "q": {"tk": "Robot 2 öýjük öňe, soňra 3 öýjük öňe, soňra 1 öýjük yza gitdi. Ol başlangyç ýerinden näçe öýjük öňde?", "ru": "Робот прошёл 2 клетки вперёд, потом 3 вперёд, потом 1 назад. На сколько клеток он впереди от старта?"},
+          "answer": "4",
+          "hint": {"tk": "Öňe gidenleri goş, yza gideni aýyr.", "ru": "Сложи шаги вперёд и вычти шаг назад."},
+          "explain": {"tk": "2 + 3 − 1 = 4 öýjük.", "ru": "2 + 3 − 1 = 4 клетки."}
+        },
+        {"type": "choice",
+          "q": {"tk": "«Eger ýagyş ýagsa, onda saýawan al» — bu nähili ädim?", "ru": "«Если идёт дождь, то возьми зонт» — что это за шаг?"},
+          "options": [{"tk": "Şert", "ru": "Условие"}, {"tk": "Gaýtalama", "ru": "Повторение"}, {"tk": "Netije", "ru": "Результат"}],
+          "answer": 0,
+          "hint": {"tk": "«Eger... onda...» sözlerine üns ber.", "ru": "Обрати внимание на слова «если... то...»."},
+          "explain": {"tk": "Bu şertli ädim: hereket diňe şert ýerine ýetende edilýär.", "ru": "Это условие: действие выполняется, только если условие истинно."}
+        },
+        {"type": "world", "text": {
+          "tk": "«Algoritm» sözi IX asyrda ýaşan alym Muhammet ibn Musa al-Horezminiň adyndan gelip çykýar. Ol Amyderýanyň aşak akymyndaky Horezm sebitinden bolupdyr. Onuň hasaplamak usullary barada ýazan kitaplary Ýewropa terjime edilipdir we onuň ady «algoritm» sözüne öwrülipdir.",
+          "ru": "Слово «алгоритм» происходит от имени учёного IX века Мухаммада ибн Мусы аль-Хорезми. Он был родом из Хорезма — региона в низовьях Амударьи. Его книги о методах вычислений перевели в Европе, и его имя превратилось в слово «алгоритм»."
+        }}
+      ]
+    },
+    {
+      "id": "informatics-5-internet-safety",
+      "grade": 5,
+      "topic": 4,
+      "title": {"tk": "Internetde howpsuzlyk", "ru": "Безопасность в интернете"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Internet peýdaly, ýöne onda howpsuzlyk düzgünlerini bilmeli.\n\n• Şahsy maglumatlaryňy (salgyň, telefon belgiň, mekdebiň, parollaryň) nätanyş adamlara berme.\n• Berk parol ulan: azyndan 8–12 belgi, harplar, sanlar we nyşanlar.\n• Parolyňy hiç kime aýtma — hatda dostuňa hem.\n• Nätanyş salgylanmalara we «Sen baýrak utduň!» ýaly habarlara basma. Bu fişing (aldaw) bolup biler.\n• Nätanyş adam duşuşmagy teklip etse, hökman ene-ataňa aýt.\n• Ynamsyz saýtlardan programma ýükleme.",
+          "ru": "Интернет полезен, но в нём нужно соблюдать правила безопасности.\n\n• Не сообщай незнакомцам личные данные: адрес, номер телефона, школу, пароли.\n• Используй надёжный пароль: не меньше 8–12 символов, буквы, цифры и знаки.\n• Никому не говори пароль — даже другу.\n• Не нажимай на незнакомые ссылки и сообщения вроде «Ты выиграл приз!». Это может быть фишинг (обман).\n• Если незнакомец предлагает встретиться, обязательно скажи родителям.\n• Не скачивай программы с ненадёжных сайтов."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mysal: saňa şeýle hat geldi: «Siz täze telefon utduňyz! Almak üçin parolyňyzy we kartyň belgisini ýazyň».\n1. Sowal ber: men hiç bir bäsleşige gatnaşdymmy? — Ýok.\n2. Hakyky kompaniýa parol soramaýar.\n3. Netije: bu aldaw (fişing).\n4. Dogry hereket: salgylanma basma, jogap berme, ene-ataňa görkez we haty poz.",
+          "ru": "Пример: тебе пришло сообщение: «Вы выиграли новый телефон! Чтобы получить его, напишите пароль и номер карты».\n1. Спроси себя: я участвовал в каком-то конкурсе? — Нет.\n2. Настоящая компания никогда не просит пароль.\n3. Вывод: это обман (фишинг).\n4. Правильно: не нажимать ссылку, не отвечать, показать родителям и удалить сообщение."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Haýsy parol iň berk?", "ru": "Какой пароль самый надёжный?"},
+          "options": ["123456", "Ahmet2014", "k7#Rm!q2Lz9"],
+          "answer": 2,
+          "hint": {"tk": "Uzynlyga we dürli belgilere seret.", "ru": "Посмотри на длину и разнообразие символов."},
+          "explain": {"tk": "«k7#Rm!q2Lz9» uzyn, onda baş we kiçi harplar, sanlar, nyşanlar bar. Beýlekilerini aňsat çaklap bolýar.", "ru": "«k7#Rm!q2Lz9» длинный, в нём заглавные и строчные буквы, цифры и знаки. Остальные легко угадать."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Iň ýakyn dostuňa parolyňy aýtmak howpsuzdyr.", "ru": "Сказать пароль лучшему другу безопасно."},
+          "answer": false,
+          "hint": {"tk": "Parol diňe bir adama — saňa degişli.", "ru": "Пароль принадлежит только одному человеку — тебе."},
+          "explain": {"tk": "Ýalňyş. Parol hiç kime aýdylmaly däl: dost ony tötänleýin başga birine aýdyp ýa-da hasabyňa girip biler.", "ru": "Неверно. Пароль нельзя сообщать никому: друг может случайно передать его или зайти в твой аккаунт."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Onlaýn oýunda nätanyş adam salgyňy sorady. Näme etmeli?", "ru": "Незнакомец в онлайн-игре спрашивает твой адрес. Что делать?"},
+          "options": [{"tk": "Salgymy aýtmaly, ol mähirli görünýär", "ru": "Сказать адрес, он кажется добрым"}, {"tk": "Aýtmaly däl we ene-atama habar bermeli", "ru": "Не говорить и сообщить родителям"}, {"tk": "Diňe köçäniň adyny aýtmaly", "ru": "Сказать только название улицы"}],
+          "answer": 1,
+          "hint": {"tk": "Salgy — şahsy maglumat.", "ru": "Адрес — это личные данные."},
+          "explain": {"tk": "Salgy, hatda onuň bir bölegi hem, nätanyşa berilmeýär. Uly adamlara aýtmak iň dogry ýol.", "ru": "Адрес, даже его часть, нельзя давать незнакомцам. Лучше всего рассказать взрослым."}
+        },
+        {"type": "input",
+          "q": {"tk": "Parolda azyndan näçe belgi bolmaly diýip maslahat berilýär? (iň az sany ýaz)", "ru": "Сколько символов как минимум советуют использовать в пароле? (напиши наименьшее число)"},
+          "answer": "8",
+          "hint": {"tk": "Teoriýadaky aralygyň başlangyjyna seret.", "ru": "Посмотри на начало диапазона в теории."},
+          "explain": {"tk": "Azyndan 8 belgi, has gowusy 12 we ondan köp. Parol näçe uzyn bolsa, şonça berkdir.", "ru": "Минимум 8 символов, а лучше 12 и больше. Чем длиннее пароль, тем он надёжнее."}
+        },
+        {"type": "world", "text": {
+          "tk": "Ogurlanan parollaryň sanawlary öwrenilende, «123456» paroly her ýyl iň köp ulanylýan parollaryň hatarynda çykýar. Şonuň üçin hakerler ilki şeýle ýönekeý parollary barlap görýärler.",
+          "ru": "Когда исследователи изучают списки украденных паролей, «123456» каждый год оказывается среди самых популярных. Поэтому злоумышленники первым делом пробуют именно такие простые пароли."
+        }}
+      ]
+    },
+    {
+      "id": "informatics-5-text-editor",
+      "grade": 5,
+      "topic": 5,
+      "title": {"tk": "Tekst redaktory", "ru": "Текстовый редактор"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Tekst redaktory — tekst ýazmak, düzetmek we bezemek üçin programma. Mysallar: Bloknot (Notepad), Microsoft Word, LibreOffice Writer, Google Docs.\n\nEsasy işler:\n• Ýazmak — kursor (ýanyp-öçýän çyzyk) haýsy ýerde bolsa, tekst şol ýere ýazylýar.\n• Redaktirlemek — ýalňyşlary düzetmek, sözleri pozmak, göçürmek.\n• Formatlamak — teksti bezemek: galyň (Ctrl+B), ýapgyt (Ctrl+I), aşagy çyzylan (Ctrl+U), şriftiň ölçegi we reňki, teksti çepe, ortada ýa-da saga deňlemek.\n• Ýatda saklamak — Ctrl+S.",
+          "ru": "Текстовый редактор — программа для набора, исправления и оформления текста. Примеры: Блокнот (Notepad), Microsoft Word, LibreOffice Writer, Google Docs.\n\nОсновные действия:\n• Набор — текст появляется там, где стоит курсор (мигающая черта).\n• Редактирование — исправление ошибок, удаление, копирование слов.\n• Форматирование — оформление: полужирный (Ctrl+B), курсив (Ctrl+I), подчёркнутый (Ctrl+U), размер и цвет шрифта, выравнивание по левому краю, по центру или по правому краю.\n• Сохранение — Ctrl+S."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mysal: «Meniň güýzüm» atly gysga makala taýýarlaýarys.\n1. Täze resminama aç we sözbaşyny ýaz: Meniň güýzüm.\n2. Sözbaşyny saýla (syçan bilen üstünden geç).\n3. Ctrl+B bas — galyň bolýar; «Ortada» düwmesine bas — ortada durýar.\n4. Enter basyp, teksti ýaz.\n5. Ctrl+S bas, faýla «guyz» diý — resminama saklandy.",
+          "ru": "Пример: готовим короткое сочинение «Моя осень».\n1. Создай новый документ и напиши заголовок: Моя осень.\n2. Выдели заголовок (проведи мышью).\n3. Нажми Ctrl+B — он станет полужирным; нажми «По центру» — он встанет по центру.\n4. Нажми Enter и набери текст.\n5. Нажми Ctrl+S, назови файл «guyz» — документ сохранён."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Haýsy gysga ýol teksti ýapgyt edýär?", "ru": "Какое сочетание делает текст курсивом?"},
+          "options": ["Ctrl+B", "Ctrl+I", "Ctrl+S"],
+          "answer": 1,
+          "hint": {"tk": "Iňlis dilinde «italic» sözüni ýatla.", "ru": "Вспомни английское слово «italic»."},
+          "explain": {"tk": "Ctrl+I — ýapgyt (italic). Ctrl+B — galyň, Ctrl+S — ýatda saklamak.", "ru": "Ctrl+I — курсив (italic). Ctrl+B — полужирный, Ctrl+S — сохранить."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Teksti formatlamak üçin ilki ony saýlamaly.", "ru": "Чтобы отформатировать текст, его сначала нужно выделить."},
+          "answer": true,
+          "hint": {"tk": "Programma haýsy sözi bezemelidigini nädip bilýär?", "ru": "Как программа узнаёт, какое слово оформлять?"},
+          "explain": {"tk": "Dogry. Saýlanan tekste formatlama ulanylýar.", "ru": "Верно. Форматирование применяется к выделенному тексту."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Sözbaşyny sahypanyň ortasyna goýmak üçin näme etmeli?", "ru": "Что сделать, чтобы заголовок стоял посередине страницы?"},
+          "options": [{"tk": "Ortada deňlemegi saýlamaly", "ru": "Выбрать выравнивание по центру"}, {"tk": "Köp boşluk basmaly", "ru": "Нажать много пробелов"}, {"tk": "Şrifti ulaltmaly", "ru": "Увеличить шрифт"}],
+          "answer": 0,
+          "hint": {"tk": "Deňlemek düwmelerini ýatla.", "ru": "Вспомни кнопки выравнивания."},
+          "explain": {"tk": "Ortada deňlemek teksti takyk ortada goýýar. Boşluklar bilen bu takyk bolmaýar we şrift üýtgände bozulýar.", "ru": "Выравнивание по центру ставит текст точно посередине. Пробелами так ровно не получится, и всё сместится при смене шрифта."}
+        },
+        {"type": "input",
+          "q": {"tk": "Resminamany ýatda saklamak üçin Ctrl bilen bilelikde haýsy harpy basmaly?", "ru": "Какую букву нажать вместе с Ctrl, чтобы сохранить документ?"},
+          "answer": "S|s",
+          "hint": {"tk": "Iňlisçe «save» sözüniň ilkinji harpy.", "ru": "Первая буква английского слова «save»."},
+          "explain": {"tk": "Ctrl+S — «Save», ýagny ýatda saklamak.", "ru": "Ctrl+S — «Save», то есть сохранить."}
+        },
+        {"type": "world", "text": {
+          "tk": "Microsoft Word programmasynyň ilkinji wersiýasy 1983-nji ýylda çykypdyr. Ondan öň resminamalar köplenç ýazuw maşynynda ýazylypdyr we bir ýalňyşlygy düzetmek üçin tutuş sahypany täzeden ýazmaly bolupdyr.",
+          "ru": "Первая версия Microsoft Word вышла в 1983 году. До этого документы часто печатали на пишущей машинке, и из-за одной ошибки иногда приходилось перепечатывать всю страницу."
+        }}
+      ]
+    }
+  ]
+}

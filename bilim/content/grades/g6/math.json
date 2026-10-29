@@ -1,0 +1,287 @@
+{
+  "grade": 6,
+  "subject": "math",
+  "lessons": [
+    {
+      "id": "math-6-integers",
+      "grade": 6,
+      "topic": 0,
+      "title": {"tk": "Bitin sanlar we sanyň moduly", "ru": "Целые числа и модуль числа"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Bitin sanlar: … −3, −2, −1, 0, 1, 2, 3 …\n\n• Položitel sanlar noldan uly: 1, 2, 3 …\n• Otrisatel sanlar noldan kiçi we «−» alamaty bilen ýazylýar: −1, −2, −3 …\n• 0 ne položitel, ne-de otrisatel san.\n\nSan okunda nola çenli aralygy deň, ýöne dürli tarapda ýerleşýän sanlara garşylykly sanlar diýilýär: 5 we −5.\n\nSanyň moduly — san okunda ondan nola çenli aralyk. Ol hiç haçan otrisatel däl: |−5| = 5, |5| = 5, |0| = 0.\n\nSan okunda sagda ýerleşýän san uludyr.",
+          "ru": "Целые числа: … −3, −2, −1, 0, 1, 2, 3 …\n\n• Положительные числа больше нуля: 1, 2, 3 …\n• Отрицательные числа меньше нуля и пишутся со знаком «−»: −1, −2, −3 …\n• 0 не является ни положительным, ни отрицательным.\n\nЧисла, которые находятся на одинаковом расстоянии от нуля, но по разные стороны, называются противоположными: 5 и −5.\n\nМодуль числа — расстояние от этого числа до нуля на числовой прямой. Он никогда не бывает отрицательным: |−5| = 5, |5| = 5, |0| = 0.\n\nНа числовой прямой больше то число, которое расположено правее."
+        }},
+        {"type": "example", "text": {
+          "tk": "Deňeşdireliň: −7 we −3.\n\n1) San okunda −3 sany −7-den sagda ýerleşýär.\n2) Diýmek, −3 > −7.\n\nBaşgaça: iki otrisatel sanyň haýsynyň moduly kiçi bolsa, şol san uly: |−3| = 3 < |−7| = 7, şonuň üçin −3 > −7.\n\nŞeýle hem: islendik otrisatel san noldan we islendik položitel sandan kiçi: −100 < 0 < 1.",
+          "ru": "Сравним −7 и −3.\n\n1) На числовой прямой −3 лежит правее, чем −7.\n2) Значит, −3 > −7.\n\nИначе: из двух отрицательных чисел больше то, у которого модуль меньше: |−3| = 3 < |−7| = 7, поэтому −3 > −7.\n\nА ещё: любое отрицательное число меньше нуля и меньше любого положительного: −100 < 0 < 1."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Haýsy san iň uly?", "ru": "Какое число самое большое?"},
+          "options": ["−8", "−2", "−5"],
+          "answer": 1,
+          "hint": {"tk": "San okunda haýsy san nola iň ýakyn we iň sagda?", "ru": "Какое число на прямой ближе всего к нулю и правее всех?"},
+          "explain": {"tk": "−2 sanyň moduly iň kiçi (2), ol iň sagda ýerleşýär, şonuň üçin −2 iň uly.", "ru": "У −2 наименьший модуль (2), оно лежит правее всех, поэтому −2 самое большое."}
+        },
+        {"type": "input",
+          "q": {"tk": "|−12| näçä deň?", "ru": "Чему равно |−12|?"},
+          "answer": "12",
+          "hint": {"tk": "Modul — nola çenli aralyk, aralyk otrisatel bolmaýar.", "ru": "Модуль — это расстояние до нуля, а расстояние не бывает отрицательным."},
+          "explain": {"tk": "−12 sandan nola çenli 12 birlik bar, diýmek |−12| = 12.", "ru": "От −12 до нуля 12 единиц, значит |−12| = 12."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "0 — položitel san.", "ru": "0 — положительное число."},
+          "answer": false,
+          "hint": {"tk": "Položitel sanlar noldan uly bolmaly.", "ru": "Положительные числа должны быть больше нуля."},
+          "explain": {"tk": "0 noldan uly däl, şonuň üçin ol ne položitel, ne-de otrisatel.", "ru": "0 не больше нуля, поэтому он ни положительный, ни отрицательный."}
+        },
+        {"type": "input",
+          "q": {"tk": "−9 sanyň garşylykly sany haýsy?", "ru": "Какое число противоположно числу −9?"},
+          "answer": "9",
+          "hint": {"tk": "Garşylykly san nola çenli şol aralykda, ýöne beýleki tarapda ýatýar.", "ru": "Противоположное число лежит на том же расстоянии от нуля, но с другой стороны."},
+          "explain": {"tk": "−9 we 9 noldan 9 birlik uzaklykda, dürli tarapda — olar garşylykly sanlar.", "ru": "−9 и 9 находятся в 9 единицах от нуля по разные стороны — это противоположные числа."}
+        },
+        {"type": "world", "text": {
+          "tk": "Hindi matematigi Brahmagupta 628-nji ýylda ýazan kitabynda otrisatel sanlar we nol bilen amallaryň düzgünlerini beýan edipdir. Ol položitel sanlary «baýlyk», otrisatel sanlary bolsa «bergi» hökmünde düşündiripdir.",
+          "ru": "Индийский математик Брахмагупта в книге, написанной в 628 году, изложил правила действий с отрицательными числами и нулём. Положительные числа он объяснял как «имущество», а отрицательные — как «долг»."
+        }}
+      ]
+    },
+    {
+      "id": "math-6-negative-operations",
+      "grade": 6,
+      "topic": 1,
+      "title": {"tk": "Otrisatel sanlar bilen amallar", "ru": "Действия с отрицательными числами"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Goşmak:\n• Alamatlary meňzeş sanlar: modullary goşulýar, umumy alamat goýulýar: −4 + (−6) = −10.\n• Alamatlary dürli sanlar: uly moduldan kiçisi aýrylýar, moduly uly sanyň alamaty goýulýar: −9 + 4 = −5.\n\nAýyrmak — garşylykly sany goşmak: a − b = a + (−b).\n3 − 8 = 3 + (−8) = −5.",
+          "ru": "Сложение:\n• Числа с одинаковыми знаками: складываем модули и ставим общий знак: −4 + (−6) = −10.\n• Числа с разными знаками: из большего модуля вычитаем меньший и ставим знак числа с большим модулем: −9 + 4 = −5.\n\nВычитание — это прибавление противоположного числа: a − b = a + (−b).\n3 − 8 = 3 + (−8) = −5."
+        }},
+        {"type": "theory", "text": {
+          "tk": "Köpeltmek we bölmek:\n• Alamatlar meňzeş bolsa — netije položitel: (−3) · (−4) = 12, (−20) : (−5) = 4.\n• Alamatlar dürli bolsa — netije otrisatel: (−3) · 4 = −12, 20 : (−5) = −4.\n\nGysgaça: «minus» × «minus» = «plýus», «minus» × «plýus» = «minus».",
+          "ru": "Умножение и деление:\n• Знаки одинаковые — результат положительный: (−3) · (−4) = 12, (−20) : (−5) = 4.\n• Знаки разные — результат отрицательный: (−3) · 4 = −12, 20 : (−5) = −4.\n\nКоротко: «минус» на «минус» даёт «плюс», «минус» на «плюс» даёт «минус»."
+        }},
+        {"type": "example", "text": {
+          "tk": "Hasaplalyň: −7 + 3 − 5.\n\n1) −7 + 3: alamatlar dürli, 7 − 3 = 4, uly modul −7-de → −4.\n2) −4 − 5 = −4 + (−5): alamatlar meňzeş, 4 + 5 = 9 → −9.\n\nJogap: −9.\n\nÝene bir mysal: (−6) · (−3) = 18, sebäbi iki «minus» «plýus» berýär.",
+          "ru": "Вычислим: −7 + 3 − 5.\n\n1) −7 + 3: знаки разные, 7 − 3 = 4, больший модуль у −7 → −4.\n2) −4 − 5 = −4 + (−5): знаки одинаковые, 4 + 5 = 9 → −9.\n\nОтвет: −9.\n\nЕщё пример: (−6) · (−3) = 18, потому что два «минуса» дают «плюс»."
+        }},
+        {"type": "input",
+          "q": {"tk": "−8 + 5 = ?", "ru": "−8 + 5 = ?"},
+          "answer": "-3|−3",
+          "hint": {"tk": "Alamatlar dürli: modullaryň tapawudyny tapyň we moduly uly sanyň alamatyny goýuň.", "ru": "Знаки разные: найдите разность модулей и поставьте знак числа с большим модулем."},
+          "explain": {"tk": "8 − 5 = 3, moduly uly san −8, şonuň üçin jogap −3.", "ru": "8 − 5 = 3, больший модуль у −8, поэтому ответ −3."}
+        },
+        {"type": "choice",
+          "q": {"tk": "(−4) · (−5) = ?", "ru": "(−4) · (−5) = ?"},
+          "options": ["20", "−20", "−9"],
+          "answer": 0,
+          "hint": {"tk": "Iki sanyň alamaty meňzeşmi?", "ru": "Знаки у множителей одинаковые?"},
+          "explain": {"tk": "Alamatlar meňzeş, diýmek netije položitel: 4 · 5 = 20.", "ru": "Знаки одинаковые, значит результат положительный: 4 · 5 = 20."}
+        },
+        {"type": "input",
+          "q": {"tk": "3 − 10 = ?", "ru": "3 − 10 = ?"},
+          "answer": "-7|−7",
+          "hint": {"tk": "Aýyrmagy garşylykly sany goşmak bilen çalşyň: 3 + (−10).", "ru": "Замените вычитание сложением с противоположным: 3 + (−10)."},
+          "explain": {"tk": "3 + (−10): 10 − 3 = 7, uly modul −10-da, jogap −7.", "ru": "3 + (−10): 10 − 3 = 7, больший модуль у −10, ответ −7."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "(−1) · (−1) · (−1) = −1", "ru": "(−1) · (−1) · (−1) = −1"},
+          "answer": true,
+          "hint": {"tk": "Ilki iki sany köpeldiň, soň netijäni üçünjä köpeldiň.", "ru": "Сначала перемножьте два числа, потом результат на третье."},
+          "explain": {"tk": "(−1) · (−1) = 1, soňra 1 · (−1) = −1. Otrisatel köpeldijileriň sany täk bolsa, netije otrisatel bolýar.", "ru": "(−1) · (−1) = 1, затем 1 · (−1) = −1. Если отрицательных множителей нечётное число, результат отрицательный."}
+        },
+        {"type": "world", "text": {
+          "tk": "Ýer ýüzündäki iň pes gury ýer — Öli deňziň kenary. Onuň beýikligi deňiz derejesinden 400 metrden hem köp pes, şonuň üçin kartalarda ol otrisatel san bilen görkezilýär.",
+          "ru": "Самое низкое место суши на Земле — берег Мёртвого моря. Он лежит более чем на 400 метров ниже уровня моря, поэтому на картах его высоту обозначают отрицательным числом."
+        }}
+      ]
+    },
+    {
+      "id": "math-6-ratio-proportion",
+      "grade": 6,
+      "topic": 2,
+      "title": {"tk": "Gatnaşyk we proporsiýa", "ru": "Отношения и пропорции"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Gatnaşyk — bir sanyň beýlekisinden näçe esse uludygyny ýa-da haýsy bölegini düzýändigini görkezýär: a : b ýa-da a/b.\n\nGatnaşygy gysgaltmak bolýar: iki agzasyny hem bir sana bölýäris. 12 : 18 = 2 : 3 (ikisini hem 6-a böldük).\n\nProporsiýa — iki gatnaşygyň deňligi: a : b = c : d.\n\nProporsiýanyň esasy häsiýeti: çetki agzalaryň köpeltmek hasyly orta agzalaryň köpeltmek hasylyna deň:\na · d = b · c.",
+          "ru": "Отношение показывает, во сколько раз одно число больше другого или какую часть одно число составляет от другого: a : b или a/b.\n\nОтношение можно сокращать, деля оба члена на одно число: 12 : 18 = 2 : 3 (оба разделили на 6).\n\nПропорция — равенство двух отношений: a : b = c : d.\n\nОсновное свойство пропорции: произведение крайних членов равно произведению средних:\na · d = b · c."
+        }},
+        {"type": "example", "text": {
+          "tk": "3 depderiň bahasy 12 manat. 5 depder näçe manat bolar?\n\n1) Proporsiýa düzýäris: 3 : 12 = 5 : x.\n2) Esasy häsiýet: 3 · x = 12 · 5 = 60.\n3) x = 60 : 3 = 20.\n\nJogap: 20 manat.\n\nBarlag: bir depder 12 : 3 = 4 manat, 5 · 4 = 20 manat. ✔",
+          "ru": "3 тетради стоят 12 манатов. Сколько стоят 5 тетрадей?\n\n1) Составим пропорцию: 3 : 12 = 5 : x.\n2) Основное свойство: 3 · x = 12 · 5 = 60.\n3) x = 60 : 3 = 20.\n\nОтвет: 20 манатов.\n\nПроверка: одна тетрадь стоит 12 : 3 = 4 маната, 5 · 4 = 20 манатов. ✔"
+        }},
+        {"type": "choice",
+          "q": {"tk": "12 : 18 gatnaşygy gysgaldyň.", "ru": "Сократите отношение 12 : 18."},
+          "options": ["3 : 2", "4 : 9", "2 : 3"],
+          "answer": 2,
+          "hint": {"tk": "12 we 18 sanlaryň iň uly umumy bölüjisini tapyň.", "ru": "Найдите наибольший общий делитель чисел 12 и 18."},
+          "explain": {"tk": "IUUB(12, 18) = 6. 12 : 6 = 2, 18 : 6 = 3, diýmek 2 : 3.", "ru": "НОД(12, 18) = 6. 12 : 6 = 2, 18 : 6 = 3, значит 2 : 3."}
+        },
+        {"type": "input",
+          "q": {"tk": "Proporsiýadan x-i tapyň: x : 4 = 15 : 6", "ru": "Найдите x из пропорции: x : 4 = 15 : 6"},
+          "answer": "10",
+          "hint": {"tk": "Çetki agzalaryň köpeltmek hasyly ortakylaryňka deň: x · 6 = 4 · 15.", "ru": "Произведение крайних равно произведению средних: x · 6 = 4 · 15."},
+          "explain": {"tk": "x · 6 = 60, x = 60 : 6 = 10.", "ru": "x · 6 = 60, x = 60 : 6 = 10."}
+        },
+        {"type": "input",
+          "q": {"tk": "Kartanyň masştaby 1 : 100 000. Kartada 3 sm aralyk ýerde näçe kilometre deň?", "ru": "Масштаб карты 1 : 100 000. Скольким километрам на местности соответствуют 3 см на карте?"},
+          "answer": "3",
+          "hint": {"tk": "1 sm kartada 100 000 sm ýerde. 100 000 sm näçe kilometr?", "ru": "1 см на карте — это 100 000 см на местности. Сколько это километров?"},
+          "explain": {"tk": "100 000 sm = 1000 m = 1 km. Diýmek, 1 sm → 1 km, 3 sm → 3 km.", "ru": "100 000 см = 1000 м = 1 км. Значит, 1 см → 1 км, 3 см → 3 км."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "2 : 5 = 6 : 15 deňligi dogry proporsiýa.", "ru": "Равенство 2 : 5 = 6 : 15 — верная пропорция."},
+          "answer": true,
+          "hint": {"tk": "Çetki we orta agzalaryň köpeltmek hasyllaryny deňeşdiriň.", "ru": "Сравните произведения крайних и средних членов."},
+          "explain": {"tk": "2 · 15 = 30 we 5 · 6 = 30. Köpeltmek hasyllary deň, diýmek proporsiýa dogry.", "ru": "2 · 15 = 30 и 5 · 6 = 30. Произведения равны, значит пропорция верна."}
+        },
+        {"type": "world", "text": {
+          "tk": "Gadymy grek matematigi Ýewklid «altyn gatnaşyk» diýlip atlandyrylýan aýratyn gatnaşygy beýan edipdir. Ol takmynan 1,618-e deň we köp suratkeşler hem arhitektorlar ony owadan şekilleri düzmekde ulanypdyrlar.",
+          "ru": "Древнегреческий математик Евклид описал особое отношение, которое позже назвали «золотым сечением». Оно примерно равно 1,618, и многие художники и архитекторы использовали его, чтобы строить гармоничные формы."
+        }}
+      ]
+    },
+    {
+      "id": "math-6-coordinate-plane",
+      "grade": 6,
+      "topic": 3,
+      "title": {"tk": "Koordinata tekizligi", "ru": "Координатная плоскость"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Koordinata tekizligi iki sany perpendikulýar san okundan durýar:\n• Ox — gorizontal ok (abssissa oky),\n• Oy — wertikal ok (ordinata oky).\nOlaryň kesişýän nokady O(0; 0) — koordinatalar başlangyjy.\n\nHer nokadyň iki koordinatasy bar: A(x; y). Birinji — x (sag ýa-da çep), ikinji — y (ýokary ýa-da aşak).\n\nOklar tekizligi 4 çärýege bölýär:\n• I: (+; +)  • II: (−; +)\n• III: (−; −)  • IV: (+; −)",
+          "ru": "Координатная плоскость образована двумя перпендикулярными числовыми прямыми:\n• Ox — горизонтальная ось (ось абсцисс),\n• Oy — вертикальная ось (ось ординат).\nТочка их пересечения O(0; 0) — начало координат.\n\nУ каждой точки две координаты: A(x; y). Первая — x (вправо или влево), вторая — y (вверх или вниз).\n\nОси делят плоскость на 4 четверти:\n• I: (+; +)  • II: (−; +)\n• III: (−; −)  • IV: (+; −)"
+        }},
+        {"type": "example", "text": {
+          "tk": "B(−4; 1) nokady guralyň.\n\n1) O nokatdan başlaýarys.\n2) x = −4: 4 birlik çepe gidýäris.\n3) y = 1: 1 birlik ýokary galýarys.\n4) Nokady belleýäris.\n\nx otrisatel, y položitel — diýmek B nokat II çärýekde ýerleşýär.\n\nEger koordinatalaryň biri 0 bolsa, nokat okuň üstünde ýatýar: C(0; 3) — Oy okunda, D(5; 0) — Ox okunda.",
+          "ru": "Построим точку B(−4; 1).\n\n1) Начинаем из точки O.\n2) x = −4: идём на 4 единицы влево.\n3) y = 1: поднимаемся на 1 единицу вверх.\n4) Отмечаем точку.\n\nx отрицательный, y положительный — значит, точка B лежит во II четверти.\n\nЕсли одна из координат равна 0, точка лежит на оси: C(0; 3) — на оси Oy, D(5; 0) — на оси Ox."
+        }},
+        {"type": "choice",
+          "q": {"tk": "(−2; −5) nokat haýsy çärýekde ýerleşýär?", "ru": "В какой четверти лежит точка (−2; −5)?"},
+          "options": ["II", "III", "IV"],
+          "answer": 1,
+          "hint": {"tk": "Iki koordinatanyň alamatyna serediň.", "ru": "Посмотрите на знаки обеих координат."},
+          "explain": {"tk": "x < 0 we y < 0 — bu (−; −), ýagny III çärýek.", "ru": "x < 0 и y < 0 — это (−; −), то есть III четверть."}
+        },
+        {"type": "input",
+          "q": {"tk": "Oy okunda ýatan islendik nokadyň x koordinatasy näçä deň?", "ru": "Чему равна координата x любой точки, лежащей на оси Oy?"},
+          "answer": "0",
+          "hint": {"tk": "Oy okundaky nokada ýetmek üçin saga ýa-da çepe gitmeli bolýarmy?", "ru": "Нужно ли идти вправо или влево, чтобы попасть в точку на оси Oy?"},
+          "explain": {"tk": "Oy okundaky nokatlar sagda-da, çepde-de däl, şonuň üçin olaryň x = 0.", "ru": "Точки оси Oy не сдвинуты ни вправо, ни влево, поэтому у них x = 0."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "(4; 0) nokat Ox okunda ýatýar.", "ru": "Точка (4; 0) лежит на оси Ox."},
+          "answer": true,
+          "hint": {"tk": "y = 0 bolsa, nokat ýokary-aşak süýşmeýär.", "ru": "Если y = 0, точка не сдвинута вверх или вниз."},
+          "explain": {"tk": "y = 0, diýmek nokat gorizontal Ox okunyň üstünde.", "ru": "y = 0, значит точка лежит на горизонтальной оси Ox."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Nokat başlangyçdan 3 birlik çepde we 2 birlik ýokarda. Onuň koordinatalary näme?", "ru": "Точка на 3 единицы левее и на 2 единицы выше начала координат. Каковы её координаты?"},
+          "options": ["(3; 2)", "(2; −3)", "(−3; 2)"],
+          "answer": 2,
+          "hint": {"tk": "Ilki x ýazylýar; çep tarap — otrisatel.", "ru": "Сначала пишется x; влево — значит отрицательный."},
+          "explain": {"tk": "Çepe 3 → x = −3, ýokary 2 → y = 2. Nokat (−3; 2).", "ru": "Влево на 3 → x = −3, вверх на 2 → y = 2. Точка (−3; 2)."}
+        },
+        {"type": "world", "text": {
+          "tk": "Gönüburçly koordinatalar ulgamy XVII asyrda fransuz alymy Rene Dekartyň adyndan «dekart koordinatalary» diýlip atlandyrylýar. Şuňa meňzeş pikir GPS-de hem ulanylýar: Ýeriň islendik ýeri iki san — giňlik we uzaklyk bilen kesgitlenýär.",
+          "ru": "Прямоугольную систему координат называют «декартовой» по имени французского учёного XVII века Рене Декарта. Похожая идея используется и в GPS: любое место на Земле задаётся двумя числами — широтой и долготой."
+        }}
+      ]
+    },
+    {
+      "id": "math-6-simplifying-expressions",
+      "grade": 6,
+      "topic": 4,
+      "title": {"tk": "Aňlatmalary ýönekeýleşdirmek", "ru": "Упрощение выражений"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Meňzeş goşulyjylar — harp bölegi birmeňzeş bolan goşulyjylar: 3x we −5x, 2a we a.\nOlary toplamak üçin koeffisiýentleri goşýarys, harp bölegini üýtgetmeýäris:\n3x + 5x = 8x,  7a − a = 6a.\n\nPaýlaýjy kanun bilen ýaýlary açmak:\n• a(b + c) = ab + ac:  2(x + 4) = 2x + 8\n• Ýaýyň öňünde «−» bolsa, içindäki ähli alamatlar üýtgeýär: −(a − 5) = −a + 5.",
+          "ru": "Подобные слагаемые — слагаемые с одинаковой буквенной частью: 3x и −5x, 2a и a.\nЧтобы привести их, складываем коэффициенты, а буквенную часть оставляем:\n3x + 5x = 8x,  7a − a = 6a.\n\nРаскрытие скобок по распределительному закону:\n• a(b + c) = ab + ac:  2(x + 4) = 2x + 8\n• Если перед скобкой стоит «−», все знаки внутри меняются: −(a − 5) = −a + 5."
+        }},
+        {"type": "example", "text": {
+          "tk": "1) 3x + 5 + 2x − 8\nMeňzeşleri toparlaýarys: (3x + 2x) + (5 − 8) = 5x − 3.\n\n2) 2(x + 4) − 3x\nÝaýy açýarys: 2x + 8 − 3x.\nMeňzeşleri goşýarys: 2x − 3x = −x.\nJogap: −x + 8.",
+          "ru": "1) 3x + 5 + 2x − 8\nГруппируем подобные: (3x + 2x) + (5 − 8) = 5x − 3.\n\n2) 2(x + 4) − 3x\nРаскрываем скобки: 2x + 8 − 3x.\nПриводим подобные: 2x − 3x = −x.\nОтвет: −x + 8."
+        }},
+        {"type": "input",
+          "q": {"tk": "Ýönekeýleşdiriň: 7a − 2a + a", "ru": "Упростите: 7a − 2a + a"},
+          "answer": "6a",
+          "hint": {"tk": "a = 1a. Koeffisiýentleri goşuň: 7 − 2 + 1.", "ru": "a = 1a. Сложите коэффициенты: 7 − 2 + 1."},
+          "explain": {"tk": "7 − 2 + 1 = 6, diýmek 6a.", "ru": "7 − 2 + 1 = 6, значит 6a."}
+        },
+        {"type": "choice",
+          "q": {"tk": "3(x − 2) aňlatma haýsysyna deň?", "ru": "Чему равно выражение 3(x − 2)?"},
+          "options": ["3x − 2", "3x − 6", "3x + 6"],
+          "answer": 1,
+          "hint": {"tk": "3-i ýaýyň içindäki iki goşulyja hem köpeldiň.", "ru": "Умножьте 3 на оба слагаемых в скобках."},
+          "explain": {"tk": "3 · x = 3x, 3 · (−2) = −6. Netije: 3x − 6.", "ru": "3 · x = 3x, 3 · (−2) = −6. Итог: 3x − 6."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "−(a − 5) = −a + 5", "ru": "−(a − 5) = −a + 5"},
+          "answer": true,
+          "hint": {"tk": "Ýaýyň öňündäki «−» içindäki her goşulyjynyň alamatyny üýtgedýär.", "ru": "«−» перед скобкой меняет знак каждого слагаемого внутри."},
+          "explain": {"tk": "a → −a, −5 → +5. Diýmek, −a + 5 — dogry.", "ru": "a → −a, −5 → +5. Значит, −a + 5 — верно."}
+        },
+        {"type": "input",
+          "q": {"tk": "2(x + 3) − x aňlatmany ýönekeýleşdiriň we x = 4 bolanda bahasyny tapyň.", "ru": "Упростите выражение 2(x + 3) − x и найдите его значение при x = 4."},
+          "answer": "10",
+          "hint": {"tk": "Ilki ýaýy açyň, meňzeşleri goşuň, soň x-iň ýerine 4 goýuň.", "ru": "Сначала раскройте скобки и приведите подобные, потом подставьте 4 вместо x."},
+          "explain": {"tk": "2x + 6 − x = x + 6. x = 4 bolanda 4 + 6 = 10.", "ru": "2x + 6 − x = x + 6. При x = 4 получаем 4 + 6 = 10."}
+        },
+        {"type": "world", "text": {
+          "tk": "«Algebra» sözi IX asyrda ýaşan, Horezmden gelip çykan alym Muhammet al-Horezminiň kitabynyň adyndaky «al-jabr» sözünden gelip çykypdyr. Onuň ady bolsa «algoritm» sözüne öwrülipdir.",
+          "ru": "Слово «алгебра» произошло от слова «аль-джабр» из названия книги учёного IX века Мухаммада аль-Хорезми, родом из Хорезма. А его имя превратилось в слово «алгоритм»."
+        }}
+      ]
+    },
+    {
+      "id": "math-6-circle",
+      "grade": 6,
+      "topic": 5,
+      "title": {"tk": "Töwerek we tegelek", "ru": "Окружность и круг"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Töwerek — merkezden deň uzaklykda ýatan nokatlardan ybarat ýapyk çyzyk.\nTegelek — töwerek we onuň içindäki tekizligiň bölegi.\n\n• Radius r — merkezden töwerege çenli kesim.\n• Diametr d — merkezden geçip, töweregiň iki nokadyny birleşdirýän kesim: d = 2r.\n\nπ («pi») sany — töweregiň uzynlygynyň diametrine gatnaşygy, π ≈ 3,14.\n\n• Töweregiň uzynlygy: C = 2πr = πd\n• Tegelegiň meýdany: S = πr²",
+          "ru": "Окружность — замкнутая линия, все точки которой находятся на одинаковом расстоянии от центра.\nКруг — часть плоскости, ограниченная окружностью (вместе с ней).\n\n• Радиус r — отрезок от центра до окружности.\n• Диаметр d — отрезок через центр, соединяющий две точки окружности: d = 2r.\n\nЧисло π («пи») — отношение длины окружности к её диаметру, π ≈ 3,14.\n\n• Длина окружности: C = 2πr = πd\n• Площадь круга: S = πr²"
+        }},
+        {"type": "example", "text": {
+          "tk": "Radiusy r = 5 sm bolan tegelek berlipdir.\n\n1) Diametr: d = 2 · 5 = 10 sm.\n2) Töweregiň uzynlygy: C = 2 · 3,14 · 5 = 31,4 sm.\n3) Meýdany: S = 3,14 · 5² = 3,14 · 25 = 78,5 sm².\n\nÜns beriň: uzynlyk — sm, meýdan — sm².",
+          "ru": "Дан круг радиусом r = 5 см.\n\n1) Диаметр: d = 2 · 5 = 10 см.\n2) Длина окружности: C = 2 · 3,14 · 5 = 31,4 см.\n3) Площадь: S = 3,14 · 5² = 3,14 · 25 = 78,5 см².\n\nОбратите внимание: длина — в см, площадь — в см²."
+        }},
+        {"type": "input",
+          "q": {"tk": "Töweregiň diametri 14 sm. Radiusy näçe santimetr?", "ru": "Диаметр окружности 14 см. Чему равен радиус в сантиметрах?"},
+          "answer": "7",
+          "hint": {"tk": "Diametr radiusdan iki esse uly.", "ru": "Диаметр в два раза больше радиуса."},
+          "explain": {"tk": "r = d : 2 = 14 : 2 = 7 sm.", "ru": "r = d : 2 = 14 : 2 = 7 см."}
+        },
+        {"type": "choice",
+          "q": {"tk": "r = 10 sm bolanda töweregiň uzynlygy näçe? (π ≈ 3,14)", "ru": "Какова длина окружности при r = 10 см? (π ≈ 3,14)"},
+          "options": ["31,4 sm / см", "62,8 sm / см", "314 sm / см"],
+          "answer": 1,
+          "hint": {"tk": "C = 2πr formulany ulanyň.", "ru": "Используйте формулу C = 2πr."},
+          "explain": {"tk": "C = 2 · 3,14 · 10 = 62,8 sm. 314 — bu meýdan (sm²), 31,4 — 2 sanyna köpeltmegi ýatdan çykarsaň.", "ru": "C = 2 · 3,14 · 10 = 62,8 см. 314 — это площадь (см²), а 31,4 получится, если забыть множитель 2."}
+        },
+        {"type": "input",
+          "q": {"tk": "Radiusy 3 sm bolan tegelegiň meýdanyny tapyň (π ≈ 3,14), sm²-de.", "ru": "Найдите площадь круга радиусом 3 см (π ≈ 3,14), в см²."},
+          "answer": "28.26|28,26",
+          "hint": {"tk": "S = πr². Ilki 3²-ni tapyň.", "ru": "S = πr². Сначала найдите 3²."},
+          "explain": {"tk": "3² = 9, S = 3,14 · 9 = 28,26 sm².", "ru": "3² = 9, S = 3,14 · 9 = 28,26 см²."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Diametr radiusyň ýarysyna deň.", "ru": "Диаметр равен половине радиуса."},
+          "answer": false,
+          "hint": {"tk": "Diametr merkezden geçip, iki radiusdan durýar.", "ru": "Диаметр проходит через центр и состоит из двух радиусов."},
+          "explain": {"tk": "Tersine: d = 2r, ýagny radius diametriň ýarysy.", "ru": "Наоборот: d = 2r, то есть радиус — половина диаметра."}
+        },
+        {"type": "world", "text": {
+          "tk": "Gadymy grek alymy Arhimed töweregiň içinde we daşynda köpburçluklar gurup, π sanynyň 3 10/71 bilen 3 1/7 aralygynda ýatýandygyny subut edipdir. 22/7 ≈ 3,14 bahasy häzir hem ulanylýar.",
+          "ru": "Древнегреческий учёный Архимед, вписывая и описывая многоугольники вокруг окружности, доказал, что π лежит между 3 10/71 и 3 1/7. Приближение 22/7 ≈ 3,14 используют до сих пор."
+        }}
+      ]
+    }
+  ]
+}

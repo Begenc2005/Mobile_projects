@@ -1,0 +1,45 @@
+{
+  "id": "chemistry",
+  "icon": "⚗️",
+  "color": "#12B886",
+  "title": {"tk": "Himiýa", "ru": "Химия"},
+  "lessons": [
+    {
+      "id": "chem-8-atom",
+      "grade": 8,
+      "title": {"tk": "Atomyň gurluşy", "ru": "Строение атома"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Atom ýadrodan we onuň daşynda hereket edýän elektronlardan ybarat.\n• Proton (+) we neýtron (0) — ýadroda\n• Elektron (−) — ýadronyň daşynda\n\nElementiň tertip belgisi (Z) = protonlaryň sany = elektronlaryň sany (neýtral atomda).",
+          "ru": "Атом состоит из ядра и электронов, движущихся вокруг него.\n• Протон (+) и нейтрон (0) — в ядре\n• Электрон (−) — вокруг ядра\n\nПорядковый номер элемента (Z) = число протонов = число электронов (в нейтральном атоме)."}},
+        {"type": "example", "text": {
+          "tk": "Kömürtek (C): Z = 6 → 6 proton, 6 elektron.\nMassa sany 12 bolsa: neýtronlar = 12 − 6 = 6.",
+          "ru": "Углерод (C): Z = 6 → 6 протонов, 6 электронов.\nЕсли массовое число 12: нейтронов = 12 − 6 = 6."}},
+        {"type": "choice",
+          "q": {"tk": "Haýsy bölejigiň zarýady ýok?", "ru": "Какая частица не имеет заряда?"},
+          "options": [
+            {"tk": "Proton", "ru": "Протон"},
+            {"tk": "Neýtron", "ru": "Нейтрон"},
+            {"tk": "Elektron", "ru": "Электрон"}
+          ],
+          "answer": 1,
+          "hint": {"tk": "Adynda «neýtral» sözi gizlenipdir.", "ru": "В названии спрятано слово «нейтральный»."},
+          "explain": {"tk": "Neýtron elektrik taýdan neýtral.", "ru": "Нейтрон электрически нейтрален."}},
+        {"type": "input",
+          "q": {"tk": "Kislorodyň (O) tertip belgisi 8. Neýtral atomynda näçe elektron bar?", "ru": "Порядковый номер кислорода (O) — 8. Сколько электронов в нейтральном атоме?"},
+          "answer": "8",
+          "hint": {"tk": "Neýtral atomda elektronlar = protonlar = Z.", "ru": "В нейтральном атоме электронов = протонов = Z."},
+          "explain": {"tk": "Z = 8 → 8 elektron.", "ru": "Z = 8 → 8 электронов."}},
+        {"type": "input",
+          "q": {"tk": "Natriniň (Na) Z = 11, massa sany 23. Näçe neýtron bar?", "ru": "У натрия (Na) Z = 11, массовое число 23. Сколько нейтронов?"},
+          "answer": "12",
+          "hint": {"tk": "Neýtronlar = massa sany − Z.", "ru": "Нейтроны = массовое число − Z."},
+          "explain": {"tk": "23 − 11 = 12 neýtron.", "ru": "23 − 11 = 12 нейтронов."}},
+        {"type": "world", "text": {
+          "tk": "Elementleriň döwürleýin ulgamyny 1869-njy ýylda Dmitriý Mendeleýew düzdi. Ol entek açylmadyk elementleriň ýerini boş goýup, olaryň häsiýetlerini öňünden aýdypdyr.",
+          "ru": "Периодическую систему элементов составил Дмитрий Менделеев в 1869 году. Он оставил пустые места для ещё не открытых элементов и предсказал их свойства."}}
+      ]
+    }
+  ]
+}

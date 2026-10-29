@@ -1,0 +1,252 @@
+{
+  "grade": 9,
+  "subject": "physics",
+  "lessons": [
+    {
+      "id": "physics-9-mechanical-motion",
+      "grade": 9,
+      "topic": 0,
+      "title": {"tk": "Mehaniki hereket", "ru": "Механическое движение"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Mehaniki hereket — jisimiň beýleki jisimlere görä wagtyň geçmegi bilen ýerini üýtgetmegi. Hereket hemişe saýlanyp alnan hasap ulgamyna görä beýan edilýär.\n\n• Traýektoriýa — jisimiň geçen çyzygy; ýol s — traýektoriýanyň uzynlygy.\n• Orun üýtgetme — başlangyç nokatdan ahyrky nokada geçirilen wektor.\n• Deňölçegli gönüçyzykly hereket: v = s / t, x = x₀ + vt.\n• Deňölçegli tizlenýän hereket: a = (v − v₀) / t\n  v = v₀ + at\n  s = v₀t + at²/2\n\nBirlikler: tizlik m/s, tizlenme m/s².",
+          "ru": "Механическое движение — изменение положения тела относительно других тел с течением времени. Движение всегда описывается относительно выбранной системы отсчёта.\n\n• Траектория — линия, по которой движется тело; путь s — длина траектории.\n• Перемещение — вектор, соединяющий начальное и конечное положения.\n• Равномерное прямолинейное движение: v = s / t, x = x₀ + vt.\n• Равноускоренное движение: a = (v − v₀) / t\n  v = v₀ + at\n  s = v₀t + at²/2\n\nЕдиницы: скорость м/с, ускорение м/с²."}},
+        {"type": "example", "text": {
+          "tk": "Awtomobil ýerinden gozganyp, 2 m/s² tizlenme bilen 5 s hereket edýär.\n\n1) v = v₀ + at = 0 + 2·5 = 10 m/s\n2) s = at²/2 = 2·25 / 2 = 25 m\n\nJogap: 10 m/s, 25 m.",
+          "ru": "Автомобиль трогается с места и движется 5 с с ускорением 2 м/с².\n\n1) v = v₀ + at = 0 + 2·5 = 10 м/с\n2) s = at²/2 = 2·25 / 2 = 25 м\n\nОтвет: 10 м/с, 25 м."}},
+        {"type": "input",
+          "q": {"tk": "Welosipedçi deňölçegli hereket edip, 20 s-da 100 m geçdi. Onuň tizligi näçe m/s?", "ru": "Велосипедист, двигаясь равномерно, проехал 100 м за 20 с. Какова его скорость в м/с?"},
+          "answer": "5",
+          "hint": {"tk": "v = s / t.", "ru": "v = s / t."},
+          "explain": {"tk": "100 / 20 = 5 m/s.", "ru": "100 / 20 = 5 м/с."}},
+        {"type": "choice",
+          "q": {"tk": "Jisimiň tizligi 4 s-da 2 m/s-dan 10 m/s-a çenli artdy. Tizlenmesi näçä deň?", "ru": "Скорость тела за 4 с выросла с 2 м/с до 10 м/с. Чему равно ускорение?"},
+          "options": ["2 m/s²", "2.5 m/s²", "3 m/s²"],
+          "answer": 0,
+          "hint": {"tk": "a = (v − v₀) / t.", "ru": "a = (v − v₀) / t."},
+          "explain": {"tk": "(10 − 2) / 4 = 2 m/s².", "ru": "(10 − 2) / 4 = 2 м/с²."}},
+        {"type": "truefalse",
+          "q": {"tk": "Otlynyň içinde oturan ýolagçy wagona görä dynçlykda, ýöne Ýere görä hereket edýär.", "ru": "Пассажир, сидящий в поезде, покоится относительно вагона, но движется относительно Земли."},
+          "answer": true,
+          "hint": {"tk": "Hereket hasap ulgamyna bagly.", "ru": "Движение зависит от системы отсчёта."},
+          "explain": {"tk": "Hereketiň otnositeldigi: bir hasap ulgamynda dynçlykda bolan jisim beýlekisinde hereket edip biler.", "ru": "Относительность движения: тело, покоящееся в одной системе отсчёта, может двигаться в другой."}},
+        {"type": "input",
+          "q": {"tk": "Daş başlangyç tizliksiz gaçýar (g = 10 m/s²). 3 s-dan soň onuň tizligi näçe m/s?", "ru": "Камень падает без начальной скорости (g = 10 м/с²). Какова его скорость через 3 с в м/с?"},
+          "answer": "30",
+          "hint": {"tk": "v = gt.", "ru": "v = gt."},
+          "explain": {"tk": "v = 10 · 3 = 30 m/s (howanyň garşylygyny hasaba almasak).", "ru": "v = 10 · 3 = 30 м/с (без учёта сопротивления воздуха)."}},
+        {"type": "world", "text": {
+          "tk": "Galileo Galileý XVII asyryň başynda ýapgyt kanaw boýunça togalanýan şarlary öwrenip, erkin gaçýan jisimleriň deňölçegli tizlenýändigini görkezipdir. 1971-nji ýylda «Apollon-15» ekspedisiýasynyň astronawty Dewid Skott howasyz Aýda çekiç bilen ýelegi bile goýberip, olaryň deň wagtda ýere düşýändigini görkezdi.",
+          "ru": "Галилео Галилей в начале XVII века, изучая шары, скатывающиеся по наклонному жёлобу, показал, что свободно падающие тела движутся равноускоренно. В 1971 году астронавт экспедиции «Аполлон-15» Дэвид Скотт на безвоздушной Луне одновременно отпустил молоток и перо — они упали одновременно."}}
+      ]
+    },
+    {
+      "id": "physics-9-newtons-laws",
+      "grade": 9,
+      "topic": 1,
+      "title": {"tk": "Nýutonyň kanunlary", "ru": "Законы Ньютона"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Nýutonyň üç kanuny:\n\n1) Inersiýa kanuny: jisime güýç täsir etmeýän ýa-da güýçleriň deňtäsiredijisi nola deň bolsa, jisim dynçlykda galýar ýa-da deňölçegli gönüçyzykly hereket edýär (inersial hasap ulgamlarynda).\n\n2) F = ma: jisimiň tizlenmesi deňtäsiredijä göni, massasyna ters proporsional. Güýç nýutonda (N) ölçenýär: 1 N = 1 kg·m/s².\n\n3) Täsir garşy täsire deň: F₁₂ = −F₂₁. Güýçler ululygy boýunça deň, ugry boýunça garşylykly we dürli jisimlere goýlan.\n\nAgyrlyk güýji: F = mg, g ≈ 9,8 m/s².",
+          "ru": "Три закона Ньютона:\n\n1) Закон инерции: если на тело не действуют силы или их равнодействующая равна нулю, тело покоится или движется равномерно и прямолинейно (в инерциальных системах отсчёта).\n\n2) F = ma: ускорение тела прямо пропорционально равнодействующей силе и обратно пропорционально массе. Сила измеряется в ньютонах (Н): 1 Н = 1 кг·м/с².\n\n3) Действие равно противодействию: F₁₂ = −F₂₁. Силы равны по модулю, противоположны по направлению и приложены к разным телам.\n\nСила тяжести: F = mg, g ≈ 9,8 м/с²."}},
+        {"type": "example", "text": {
+          "tk": "Massasy 1200 kg bolan awtomobile 3600 N deňtäsiredi güýç täsir edýär.\n\na = F / m = 3600 / 1200 = 3 m/s²\n\nEger massa 2 esse köp bolsa (2400 kg), şol güýç bilen tizlenme 2 esse az bolardy: 1,5 m/s².",
+          "ru": "На автомобиль массой 1200 кг действует равнодействующая сила 3600 Н.\n\na = F / m = 3600 / 1200 = 3 м/с²\n\nЕсли бы масса была вдвое больше (2400 кг), при той же силе ускорение было бы вдвое меньше: 1,5 м/с²."}},
+        {"type": "input",
+          "q": {"tk": "Massasy 5 kg bolan jisime 2 m/s² tizlenme bermek üçin näçe nýuton güýç gerek?", "ru": "Какая сила в ньютонах нужна, чтобы сообщить телу массой 5 кг ускорение 2 м/с²?"},
+          "answer": "10",
+          "hint": {"tk": "F = ma.", "ru": "F = ma."},
+          "explain": {"tk": "5 · 2 = 10 N.", "ru": "5 · 2 = 10 Н."}},
+        {"type": "choice",
+          "q": {"tk": "Awtobus birden tormoz berende ýolagçylar öňe ýykylýar. Munuň sebäbi näme?", "ru": "При резком торможении автобуса пассажиры наклоняются вперёд. Почему?"},
+          "options": [
+            {"tk": "Olary öňe itýän güýç peýda bolýar", "ru": "Появляется сила, толкающая их вперёд"},
+            {"tk": "Agyrlyk güýji artýar", "ru": "Увеличивается сила тяжести"},
+            {"tk": "Inersiýa: beden öňki tizligini saklamaga ymtylýar", "ru": "Инерция: тело стремится сохранить прежнюю скорость"}
+          ],
+          "answer": 2,
+          "hint": {"tk": "Nýutonyň birinji kanunyny ýadyňyza salyň.", "ru": "Вспомните первый закон Ньютона."},
+          "explain": {"tk": "Awtobus haýallaýar, ýolagçynyň bedeni bolsa inersiýa boýunça öňki tizligi bilen hereketini dowam etdirýär.", "ru": "Автобус замедляется, а тело пассажира по инерции продолжает двигаться с прежней скоростью."}},
+        {"type": "truefalse",
+          "q": {"tk": "Ýer almany özüne çekýär, alma bolsa Ýeri şol bir ululykdaky güýç bilen çekýär.", "ru": "Земля притягивает яблоко, а яблоко притягивает Землю с силой такой же величины."},
+          "answer": true,
+          "hint": {"tk": "Üçünji kanun.", "ru": "Третий закон."},
+          "explain": {"tk": "Güýçler deň, ýöne Ýeriň massasy örän uly bolany üçin onuň tizlenmesi bilinmeýär.", "ru": "Силы равны, но масса Земли огромна, поэтому её ускорение незаметно."}},
+        {"type": "input",
+          "q": {"tk": "Massasy 50 kg bolan okuwça täsir edýän agyrlyk güýji näçe nýuton? (g = 10 m/s²)", "ru": "Какова сила тяжести в ньютонах, действующая на ученика массой 50 кг? (g = 10 м/с²)"},
+          "answer": "500",
+          "hint": {"tk": "F = mg.", "ru": "F = mg."},
+          "explain": {"tk": "50 · 10 = 500 N.", "ru": "50 · 10 = 500 Н."}},
+        {"type": "world", "text": {
+          "tk": "Isaak Nýuton hereket kanunlaryny 1687-nji ýylda «Tebigy filosofiýanyň matematiki esaslary» atly kitabynda çap edipdir. Raketalaryň uçuşy üçünji kanuna esaslanýar: hereketlendiriji gazy yza zyňýar, gaz bolsa raketany öňe itýär — şonuň üçin raketa howasyz kosmosda hem tizlenip bilýär.",
+          "ru": "Исаак Ньютон опубликовал законы движения в 1687 году в книге «Математические начала натуральной философии». Полёт ракеты основан на третьем законе: двигатель отбрасывает газ назад, а газ толкает ракету вперёд — поэтому ракета разгоняется и в безвоздушном космосе."}}
+      ]
+    },
+    {
+      "id": "physics-9-momentum",
+      "grade": 9,
+      "topic": 2,
+      "title": {"tk": "Impuls we onuň saklanma kanuny", "ru": "Импульс и закон его сохранения"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Jisimiň impulsy — massasynyň tizligine köpeltmek hasyly: p = mv. Bu wektor ululyk, ugry tizligiň ugry bilen gabat gelýär. Birligi: kg·m/s.\n\n• Güýjüň impulsy: FΔt = Δp — güýç näçe uzak täsir etse, impuls şonça köp üýtgeýär.\n• Impulsyň saklanma kanuny: ýapyk ulgamda jisimleriň impulslarynyň jemi üýtgemeýär:\nm₁v₁ + m₂v₂ = m₁v₁′ + m₂v₂′\n• Reaktiw hereket hem şu kanuna esaslanýar.",
+          "ru": "Импульс тела — произведение массы на скорость: p = mv. Это векторная величина, направленная так же, как скорость. Единица: кг·м/с.\n\n• Импульс силы: FΔt = Δp — чем дольше действует сила, тем сильнее меняется импульс.\n• Закон сохранения импульса: в замкнутой системе сумма импульсов тел не меняется:\nm₁v₁ + m₂v₂ = m₁v₁′ + m₂v₂′\n• На этом законе основано реактивное движение."}},
+        {"type": "example", "text": {
+          "tk": "Massasy 2 kg, tizligi 3 m/s bolan araba dynçlykdaky 1 kg arabanyň yzyndan urulyp, olar birleşip hereket edýärler. Umumy tizligi tapalyň.\n\nÖň: p = 2·3 + 1·0 = 6 kg·m/s\nSoň: (2 + 1)·v = 6\nv = 2 m/s",
+          "ru": "Тележка массой 2 кг, движущаяся со скоростью 3 м/с, сталкивается с покоящейся тележкой массой 1 кг, и они движутся вместе. Найдём общую скорость.\n\nДо: p = 2·3 + 1·0 = 6 кг·м/с\nПосле: (2 + 1)·v = 6\nv = 2 м/с"}},
+        {"type": "input",
+          "q": {"tk": "Massasy 0,5 kg bolan top 20 m/s tizlik bilen uçýar. Onuň impulsy näçe kg·m/s?", "ru": "Мяч массой 0,5 кг летит со скоростью 20 м/с. Каков его импульс в кг·м/с?"},
+          "answer": "10",
+          "hint": {"tk": "p = mv.", "ru": "p = mv."},
+          "explain": {"tk": "0,5 · 20 = 10 kg·m/s.", "ru": "0,5 · 20 = 10 кг·м/с."}},
+        {"type": "choice",
+          "q": {"tk": "Dynç duran 4 kg tüpeňden 0,01 kg ok 400 m/s tizlik bilen atylýar. Tüpeň haýsy tizlik bilen yza tepýär?", "ru": "Из покоящегося ружья массой 4 кг вылетает пуля массой 0,01 кг со скоростью 400 м/с. С какой скоростью ружьё откатывается назад?"},
+          "options": ["4 m/s", "1 m/s", "0.1 m/s"],
+          "answer": 1,
+          "hint": {"tk": "Atyşdan öň umumy impuls nola deň.", "ru": "До выстрела общий импульс равен нулю."},
+          "explain": {"tk": "0,01·400 = 4·v → v = 4 / 4 = 1 m/s, ugry okuňka garşylykly.", "ru": "0,01·400 = 4·v → v = 4 / 4 = 1 м/с, направлена противоположно пуле."}},
+        {"type": "truefalse",
+          "q": {"tk": "Impuls skalýar ululyk, onuň ugry ýok.", "ru": "Импульс — скалярная величина, у него нет направления."},
+          "answer": false,
+          "hint": {"tk": "p = mv, tizlik bolsa wektor.", "ru": "p = mv, а скорость — вектор."},
+          "explain": {"tk": "Impuls wektor ululyk, ugry tizligiň ugry bilen gabat gelýär.", "ru": "Импульс — вектор, его направление совпадает с направлением скорости."}},
+        {"type": "choice",
+          "q": {"tk": "Beýiklikden bökende dyzlaryňy epmek näme üçin howpsuz?", "ru": "Почему при прыжке с высоты безопаснее сгибать колени?"},
+          "options": [
+            {"tk": "Saklanmagyň wagty uzalýar, şonuň üçin urgy güýji azalýar", "ru": "Время торможения растёт, поэтому сила удара уменьшается"},
+            {"tk": "Impuls ulalýar", "ru": "Импульс увеличивается"},
+            {"tk": "Massa azalýar", "ru": "Масса уменьшается"}
+          ],
+          "answer": 0,
+          "hint": {"tk": "FΔt = Δp formulany ulanyň.", "ru": "Используйте FΔt = Δp."},
+          "explain": {"tk": "Impulsyň üýtgemegi şol bir bolýar, ýöne Δt uly bolsa, F kiçi bolýar.", "ru": "Изменение импульса то же, но при большом Δt сила F меньше."}},
+        {"type": "world", "text": {
+          "tk": "Awtoulaglaryň howpsuzlyk ýassyklary we urgyda ezilýän ýörite bölekleri impulsyň kanunyna esaslanýar: olar urgynyň wagtyny uzaldyp, adama täsir edýän güýji azaldýar. Raketalaryň hem kosmosda tizlenmegi impulsyň saklanma kanunynyň netijesidir.",
+          "ru": "Подушки безопасности и сминаемые зоны автомобилей основаны на законе импульса: они удлиняют время удара и тем самым уменьшают силу, действующую на человека. Разгон ракет в космосе — тоже следствие закона сохранения импульса."}}
+      ]
+    },
+    {
+      "id": "physics-9-work-energy",
+      "grade": 9,
+      "topic": 3,
+      "title": {"tk": "Iş we energiýa", "ru": "Работа и энергия"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Mehaniki iş: A = F·s·cos α (α — güýç bilen orun üýtgetmäniň arasyndaky burç). Birligi — joul (J).\n\n• Kinetik energiýa (hereket energiýasy): Eₖ = mv²/2\n• Potensial energiýa (Ýeriň üstünden h beýiklikde): Eₚ = mgh\n• Kuwwat: N = A / t, birligi — watt (W).\n\nMehaniki energiýanyň saklanma kanuny: sürtülme bolmasa, Eₖ + Eₚ = const. Energiýa ýok bolmaýar, diňe bir görnüşden beýlekä geçýär.",
+          "ru": "Механическая работа: A = F·s·cos α (α — угол между силой и перемещением). Единица — джоуль (Дж).\n\n• Кинетическая энергия (энергия движения): Eₖ = mv²/2\n• Потенциальная энергия (на высоте h над Землёй): Eₚ = mgh\n• Мощность: N = A / t, единица — ватт (Вт).\n\nЗакон сохранения механической энергии: при отсутствии трения Eₖ + Eₚ = const. Энергия не исчезает, а лишь переходит из одного вида в другой."}},
+        {"type": "example", "text": {
+          "tk": "Top 5 m beýiklikden gaçýar (g = 10 m/s², howanyň garşylygy ýok). Ýere ýetende tizligi näçe?\n\nmgh = mv²/2 → v² = 2gh = 2·10·5 = 100\nv = 10 m/s\n\nMassa gysgaldy — jogap topuň massasyna bagly däl.",
+          "ru": "Мяч падает с высоты 5 м (g = 10 м/с², сопротивления воздуха нет). Какова скорость у земли?\n\nmgh = mv²/2 → v² = 2gh = 2·10·5 = 100\nv = 10 м/с\n\nМасса сократилась — ответ не зависит от массы мяча."}},
+        {"type": "input",
+          "q": {"tk": "Massasy 2 kg bolan jisim 3 m/s tizlik bilen hereket edýär. Onuň kinetik energiýasy näçe joul?", "ru": "Тело массой 2 кг движется со скоростью 3 м/с. Какова его кинетическая энергия в джоулях?"},
+          "answer": "9",
+          "hint": {"tk": "Eₖ = mv²/2.", "ru": "Eₖ = mv²/2."},
+          "explain": {"tk": "2 · 9 / 2 = 9 J.", "ru": "2 · 9 / 2 = 9 Дж."}},
+        {"type": "choice",
+          "q": {"tk": "Kran 100 kg ýüki 10 s-da 20 m beýiklige galdyrdy (g = 10 m/s²). Onuň kuwwaty näçä deň?", "ru": "Кран поднял груз 100 кг на высоту 20 м за 10 с (g = 10 м/с²). Какова его мощность?"},
+          "options": ["200 W", "20 000 W", "2000 W"],
+          "answer": 2,
+          "hint": {"tk": "Ilki işi tapyň: A = mgh, soň N = A / t.", "ru": "Сначала найдите работу A = mgh, затем N = A / t."},
+          "explain": {"tk": "A = 100·10·20 = 20 000 J; N = 20 000 / 10 = 2000 W.", "ru": "A = 100·10·20 = 20 000 Дж; N = 20 000 / 10 = 2000 Вт."}},
+        {"type": "truefalse",
+          "q": {"tk": "Tizlik 2 esse artsa, kinetik energiýa hem 2 esse artýar.", "ru": "Если скорость увеличить в 2 раза, кинетическая энергия тоже увеличится в 2 раза."},
+          "answer": false,
+          "hint": {"tk": "Formulada tizlik kwadratda.", "ru": "В формуле скорость стоит в квадрате."},
+          "explain": {"tk": "Eₖ ~ v², şonuň üçin energiýa 4 esse artýar.", "ru": "Eₖ ~ v², поэтому энергия увеличивается в 4 раза."}},
+        {"type": "input",
+          "q": {"tk": "Jisime hereketiň ugry boýunça 50 N güýç täsir edip, ony 4 m süýşürdi. Edilen iş näçe joul?", "ru": "Сила 50 Н, направленная вдоль движения, переместила тело на 4 м. Какую работу в джоулях она совершила?"},
+          "answer": "200",
+          "hint": {"tk": "Güýç we orun üýtgetme bir ugurda bolsa, cos 0° = 1.", "ru": "Если сила и перемещение сонаправлены, cos 0° = 1."},
+          "explain": {"tk": "A = 50 · 4 = 200 J.", "ru": "A = 50 · 4 = 200 Дж."}},
+        {"type": "world", "text": {
+          "tk": "Energiýanyň birligi iňlis fizigi Jeýms Joulyň hormatyna atlandyrylypdyr: ol XIX asyrda mehaniki işiň ýylylyga öwrülýändigini we bu gatnaşygyň hemişelikdigini tejribede görkezipdir. Gidroelektrik stansiýalarynda suwuň potensial energiýasy turbinalaryň kömegi bilen elektrik energiýasyna öwrülýär.",
+          "ru": "Единица энергии названа в честь английского физика Джеймса Джоуля: в XIX веке он опытами показал, что механическая работа превращается в теплоту в постоянном соотношении. На гидроэлектростанциях потенциальная энергия воды с помощью турбин превращается в электрическую."}}
+      ]
+    },
+    {
+      "id": "physics-9-oscillations-waves",
+      "grade": 9,
+      "topic": 4,
+      "title": {"tk": "Yrgyldylar we tolkunlar", "ru": "Колебания и волны"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Yrgyldy — belli wagtdan soň gaýtalanýan hereket (maýatnik, pružinadaky ýük).\n\n• Amplituda A — deňagramlylyk ýagdaýyndan iň uly gyşarma.\n• Period T — bir doly yrgyldynyň wagty (s).\n• Ýygylyk ν = 1 / T — 1 s-daky yrgyldylaryň sany, birligi gers (Hz).\n• Matematiki maýatnik: T = 2π√(l/g) — period ýüküň massasyna bagly däl.\n• Pružinaly maýatnik: T = 2π√(m/k).\n\nTolkun — yrgyldylaryň giňişlikde ýaýramagy. Tolkun energiýany geçirýär, maddany däl.\n• Tolkun uzynlygy λ — bir periodda ýaýraýan aralyk.\n• v = λν = λ / T.\n• Kese tolkunlar (yrgyldy ýaýraýyş ugruna perpendikulýar) we boýuna tolkunlar (ugry boýunça).",
+          "ru": "Колебания — движения, повторяющиеся через определённые промежутки времени (маятник, груз на пружине).\n\n• Амплитуда A — наибольшее отклонение от положения равновесия.\n• Период T — время одного полного колебания (с).\n• Частота ν = 1 / T — число колебаний за 1 с, единица — герц (Гц).\n• Математический маятник: T = 2π√(l/g) — период не зависит от массы груза.\n• Пружинный маятник: T = 2π√(m/k).\n\nВолна — распространение колебаний в пространстве. Волна переносит энергию, но не вещество.\n• Длина волны λ — расстояние, на которое волна распространяется за один период.\n• v = λν = λ / T.\n• Поперечные волны (колебания перпендикулярны направлению распространения) и продольные (вдоль него)."}},
+        {"type": "example", "text": {
+          "tk": "Maýatnik 20 s-da 40 yrgyldy edýär.\n\nT = 20 / 40 = 0,5 s\nν = 1 / T = 2 Hz\n\nDeňizdäki tolkunyň uzynlygy 6 m, ýygylygy 0,5 Hz bolsa, onuň tizligi: v = 6 · 0,5 = 3 m/s.",
+          "ru": "Маятник совершает 40 колебаний за 20 с.\n\nT = 20 / 40 = 0,5 с\nν = 1 / T = 2 Гц\n\nЕсли морская волна имеет длину 6 м и частоту 0,5 Гц, её скорость: v = 6 · 0,5 = 3 м/с."}},
+        {"type": "input",
+          "q": {"tk": "Yrgyldynyň periody 0,2 s. Onuň ýygylygy näçe gers?", "ru": "Период колебаний 0,2 с. Какова частота в герцах?"},
+          "answer": "5",
+          "hint": {"tk": "ν = 1 / T.", "ru": "ν = 1 / T."},
+          "explain": {"tk": "1 / 0,2 = 5 Hz.", "ru": "1 / 0,2 = 5 Гц."}},
+        {"type": "choice",
+          "q": {"tk": "Matematiki maýatnigiň sapagy 4 esse uzaldylsa, period nähili üýtgär?", "ru": "Как изменится период математического маятника, если длину нити увеличить в 4 раза?"},
+          "options": [
+            {"tk": "4 esse artar", "ru": "увеличится в 4 раза"},
+            {"tk": "2 esse artar", "ru": "увеличится в 2 раза"},
+            {"tk": "üýtgemez", "ru": "не изменится"}
+          ],
+          "answer": 1,
+          "hint": {"tk": "T ~ √l.", "ru": "T ~ √l."},
+          "explain": {"tk": "√4 = 2, şonuň üçin period 2 esse artýar.", "ru": "√4 = 2, поэтому период увеличится в 2 раза."}},
+        {"type": "truefalse",
+          "q": {"tk": "Suw ýüzündäki tolkun suwy kenara tarap alyp gidýär.", "ru": "Волна на поверхности воды переносит воду к берегу."},
+          "answer": false,
+          "hint": {"tk": "Tolkun näme geçirýär — energiýany ýa-da maddany?", "ru": "Что переносит волна — энергию или вещество?"},
+          "explain": {"tk": "Bölejikler öz ýerinde yrgyldaýar, tolkun bolsa energiýany geçirýär. Muny suwdaky ýüzgüçde görmek bolýar: ol ýokary-aşak yrgyldaýar.", "ru": "Частицы колеблются около своих положений, а волна переносит энергию. Это видно по поплавку: он качается вверх-вниз, оставаясь на месте."}},
+        {"type": "input",
+          "q": {"tk": "Tolkunyň uzynlygy 2 m, ýygylygy 10 Hz. Onuň tizligi näçe m/s?", "ru": "Длина волны 2 м, частота 10 Гц. Какова скорость волны в м/с?"},
+          "answer": "20",
+          "hint": {"tk": "v = λν.", "ru": "v = λν."},
+          "explain": {"tk": "2 · 10 = 20 m/s.", "ru": "2 · 10 = 20 м/с."}},
+        {"type": "world", "text": {
+          "tk": "Galileý ybadathanada yrgyldaýan çyralara syn edip, maýatnigiň kiçi yrgyldylarynyň periodynyň amplituda bagly däldigini bellepdir. Şu häsiýete esaslanyp, 1656-njy ýylda Kristian Gýuýgens ilkinji maýatnikli sagady döredipdir, ol öňki sagatlardan has takyk işläpdir.",
+          "ru": "Галилей, наблюдая за качающимися светильниками в соборе, заметил, что период малых колебаний маятника не зависит от амплитуды. Опираясь на это свойство, Христиан Гюйгенс в 1656 году создал первые маятниковые часы, которые шли гораздо точнее прежних."}}
+      ]
+    },
+    {
+      "id": "physics-9-sound",
+      "grade": 9,
+      "topic": 5,
+      "title": {"tk": "Ses", "ru": "Звук"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Ses — gaz, suwuk ýa-da gaty sredada ýaýraýan boýuna mehaniki tolkun. Wakuumda ses ýaýramaýar.\n\n• Adam 20 Hz-den 20 000 Hz-e çenli ýygylykdaky sesleri eşidýär.\n• 20 Hz-den pes — infrases, 20 kHz-den ýokary — ultrases.\n• Sesiň belentligi (ýogyn ýa-da inçe) ýygylyga bagly.\n• Sesiň güýçlüligi amplituda bagly; ses derejesi desibellerde (dB) ölçenýär.\n• Howada sesiň tizligi takmynan 340 m/s, suwda ~1500 m/s, polatda ~5000 m/s.\n• Ýaňlanma (eho) — päsgelçilikden serpigen ses.",
+          "ru": "Звук — продольная механическая волна, распространяющаяся в газе, жидкости или твёрдом теле. В вакууме звук не распространяется.\n\n• Человек слышит звуки частотой от 20 Гц до 20 000 Гц.\n• Ниже 20 Гц — инфразвук, выше 20 кГц — ультразвук.\n• Высота звука (низкий или высокий) зависит от частоты.\n• Громкость зависит от амплитуды; уровень звука измеряют в децибелах (дБ).\n• Скорость звука в воздухе около 340 м/с, в воде ~1500 м/с, в стали ~5000 м/с.\n• Эхо — звук, отражённый от препятствия."}},
+        {"type": "example", "text": {
+          "tk": "Ýyldyrymyň ýalpyldysyndan 3 s soň gürlemesi eşidildi. Ýyldyrym näçe uzaklykda?\n\nÝagtylyk derrew diýen ýaly gelýär, ses bolsa 340 m/s tizlik bilen:\ns = v·t = 340 · 3 = 1020 m ≈ 1 km.",
+          "ru": "Гром услышали через 3 с после вспышки молнии. На каком расстоянии молния?\n\nСвет доходит практически мгновенно, а звук — со скоростью 340 м/с:\ns = v·t = 340 · 3 = 1020 м ≈ 1 км."}},
+        {"type": "choice",
+          "q": {"tk": "Näme üçin Aýdaky astronawtlar biri-biri bilen radio arkaly gürleşýärler?", "ru": "Почему астронавты на Луне общаются по радио?"},
+          "options": [
+            {"tk": "Aýda gaty sowuk", "ru": "На Луне очень холодно"},
+            {"tk": "Aýda howa ýok, ses wakuumda ýaýramaýar", "ru": "На Луне нет воздуха, а звук в вакууме не распространяется"},
+            {"tk": "Skafandr sesi güýçlendirýär", "ru": "Скафандр усиливает звук"}
+          ],
+          "answer": 1,
+          "hint": {"tk": "Sesiň ýaýramagy üçin näme gerek?", "ru": "Что нужно для распространения звука?"},
+          "explain": {"tk": "Ses mehaniki tolkun, oňa sreda gerek. Radiotolkunlar bolsa elektromagnit tolkunlar, olar wakuumda hem ýaýraýar.", "ru": "Звук — механическая волна, ему нужна среда. Радиоволны же электромагнитные и распространяются в вакууме."}},
+        {"type": "input",
+          "q": {"tk": "Gaýa gygyrylanda, eho 2 s-dan soň gaýdyp geldi. Gaýa çenli uzaklyk näçe metr? (v = 340 m/s)", "ru": "Крикнули в сторону скалы, эхо вернулось через 2 с. Каково расстояние до скалы в метрах? (v = 340 м/с)"},
+          "answer": "340",
+          "hint": {"tk": "Ses gaýa baryp, yzyna gaýdyp gelýär.", "ru": "Звук идёт до скалы и обратно."},
+          "explain": {"tk": "Ses 2 s-da 680 m geçdi, bu iki esse uzaklyk: 680 / 2 = 340 m.", "ru": "За 2 с звук прошёл 680 м — это двойное расстояние: 680 / 2 = 340 м."}},
+        {"type": "truefalse",
+          "q": {"tk": "Ýygylygy 30 000 Hz bolan sesi adam eşidip bilýär.", "ru": "Человек может услышать звук частотой 30 000 Гц."},
+          "answer": false,
+          "hint": {"tk": "Eşidilýän diapazonyň ýokarky çägini ýadyňyza salyň.", "ru": "Вспомните верхнюю границу слышимого диапазона."},
+          "explain": {"tk": "30 kHz > 20 kHz — bu ultrases. Ony itler we ýarganatlar eşidip bilýär.", "ru": "30 кГц > 20 кГц — это ультразвук. Его могут слышать собаки и летучие мыши."}},
+        {"type": "world", "text": {
+          "tk": "Ýarganatlar we delfinler ekolokasiýa ulanýar: olar ultrases çykaryp, onuň ehosyna görä daş-töweregini «görýärler». Şu ýörelge lukmançylykdaky UZI-de (ultrases barlagy) we gämilerdäki sonarlarda ulanylýar.",
+          "ru": "Летучие мыши и дельфины используют эхолокацию: они издают ультразвук и по его эху «видят» окружающее. Этот же принцип применяется в медицинском УЗИ и в корабельных сонарах."}}
+      ]
+    }
+  ]
+}

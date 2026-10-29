@@ -1,0 +1,600 @@
+{
+  "grade": 8,
+  "subject": "geometry",
+  "lessons": [
+    {
+      "id": "geometry-8-quadrilaterals",
+      "grade": 8,
+      "topic": 0,
+      "title": {
+        "tk": "Dörtburçluklar we olaryň görnüşleri",
+        "ru": "Четырёхугольники и их виды"
+      },
+      "minutes": 8,
+      "steps": [
+        {
+          "type": "theory",
+          "text": {
+            "tk": "Dörtburçluk — dört tarapy, dört depesi we dört burçy bolan ýapyk figura. Garşylykly depeleri birleşdirýän kesimlere diagonallar diýilýär; her dörtburçlugyň 2 diagonaly bar.\n\nIň möhüm düzgün: güberçek dörtburçlugyň burçlarynyň jemi 360°. Sebäbi bir diagonal ony iki üçburçluga bölýär: 180° + 180° = 360°.\n\nEsasy görnüşler:\n• Parallelogram — garşylykly taraplary jübüt-jübütden parallel.\n• Gönüburçluk — ähli burçlary 90° bolan parallelogram.\n• Romb — ähli taraplary deň bolan parallelogram.\n• Kwadrat — hem gönüburçluk, hem romb.\n• Trapesiýa — diňe bir jübüt tarapy parallel.",
+            "ru": "Четырёхугольник — замкнутая фигура с четырьмя сторонами, четырьмя вершинами и четырьмя углами. Отрезки, соединяющие противоположные вершины, называются диагоналями; у каждого четырёхугольника 2 диагонали.\n\nГлавное правило: сумма углов выпуклого четырёхугольника равна 360°. Причина: диагональ делит его на два треугольника: 180° + 180° = 360°.\n\nОсновные виды:\n• Параллелограмм — противоположные стороны попарно параллельны.\n• Прямоугольник — параллелограмм, у которого все углы по 90°.\n• Ромб — параллелограмм, у которого все стороны равны.\n• Квадрат — одновременно прямоугольник и ромб.\n• Трапеция — параллельна только одна пара сторон."
+          }
+        },
+        {
+          "type": "example",
+          "text": {
+            "tk": "Mesele: dörtburçlugyň üç burçy 80°, 95° we 110°. Dördünji burçy tapyň.\n\n1) Üç burçuň jemi: 80° + 95° + 110° = 285°.\n2) Ähli burçlaryň jemi 360°.\n3) Dördünji burç: 360° − 285° = 75°.\n\nJogap: 75°.",
+            "ru": "Задача: три угла четырёхугольника равны 80°, 95° и 110°. Найдите четвёртый угол.\n\n1) Сумма трёх углов: 80° + 95° + 110° = 285°.\n2) Сумма всех углов равна 360°.\n3) Четвёртый угол: 360° − 285° = 75°.\n\nОтвет: 75°."
+          }
+        },
+        {
+          "type": "input",
+          "q": {
+            "tk": "Dörtburçlugyň üç burçy 90°, 90° we 120°. Dördünji burç näçe gradus?",
+            "ru": "Три угла четырёхугольника равны 90°, 90° и 120°. Сколько градусов четвёртый угол?"
+          },
+          "answer": "60",
+          "hint": {
+            "tk": "Burçlaryň jemi 360°.",
+            "ru": "Сумма углов равна 360°."
+          },
+          "explain": {
+            "tk": "90 + 90 + 120 = 300; 360 − 300 = 60°.",
+            "ru": "90 + 90 + 120 = 300; 360 − 300 = 60°."
+          }
+        },
+        {
+          "type": "choice",
+          "q": {
+            "tk": "Ähli taraplary deň, ýöne burçlary 90° däl dörtburçluk näme?",
+            "ru": "Как называется четырёхугольник, у которого все стороны равны, но углы не прямые?"
+          },
+          "options": [
+            {
+              "tk": "Gönüburçluk",
+              "ru": "Прямоугольник"
+            },
+            {
+              "tk": "Trapesiýa",
+              "ru": "Трапеция"
+            },
+            {
+              "tk": "Romb",
+              "ru": "Ромб"
+            }
+          ],
+          "answer": 2,
+          "hint": {
+            "tk": "Kwadratyň «gyşarnyk» doganyny ýadyňyza salyň.",
+            "ru": "Вспомните «скошенного» родственника квадрата."
+          },
+          "explain": {
+            "tk": "Taraplary deň parallelogram — romb. Eger burçlary hem 90° bolsa, ol kwadrat bolardy.",
+            "ru": "Параллелограмм с равными сторонами — ромб. Если бы углы были прямыми, это был бы квадрат."
+          }
+        },
+        {
+          "type": "truefalse",
+          "q": {
+            "tk": "Islendik gönüburçluk kwadratdyr.",
+            "ru": "Любой прямоугольник является квадратом."
+          },
+          "answer": false,
+          "hint": {
+            "tk": "Taraplary 3 we 5 bolan gönüburçlugy göz öňüne getiriň.",
+            "ru": "Представьте прямоугольник со сторонами 3 и 5."
+          },
+          "explain": {
+            "tk": "Tersine: her kwadrat gönüburçlukdyr, ýöne gönüburçlugyň taraplary deň bolmaly däl.",
+            "ru": "Наоборот: каждый квадрат — прямоугольник, но у прямоугольника стороны не обязаны быть равными."
+          }
+        },
+        {
+          "type": "choice",
+          "q": {
+            "tk": "Dörtburçlugyň näçe diagonaly bar?",
+            "ru": "Сколько диагоналей у четырёхугольника?"
+          },
+          "options": [
+            "1",
+            "2",
+            "4"
+          ],
+          "answer": 1,
+          "hint": {
+            "tk": "Diagonal garşylykly depeleri birleşdirýär.",
+            "ru": "Диагональ соединяет противоположные вершины."
+          },
+          "explain": {
+            "tk": "Dört depe iki jübüt garşylykly depe emele getirýär, şonuň üçin 2 diagonal bar.",
+            "ru": "Четыре вершины образуют две пары противоположных вершин, поэтому диагоналей 2."
+          }
+        },
+        {
+          "type": "world",
+          "text": {
+            "tk": "A4 kagyz bir gönüburçluk, onuň taraplarynyň gatnaşygy takmynan 1 : √2. Bu gatnaşygyň aýratynlygy: listi ýarpa bölseňiz (A5), täze gönüburçluk öňküsine meňzeş bolýar. Şonuň üçin ISO 216 standartynda A0-dan A10-a çenli ähli formatlar şol bir şekilde.",
+            "ru": "Лист A4 — прямоугольник с отношением сторон примерно 1 : √2. Особенность этого отношения: если разрезать лист пополам (A5), новый прямоугольник будет подобен исходному. Поэтому в стандарте ISO 216 все форматы от A0 до A10 имеют одинаковую форму."
+          }
+        }
+      ]
+    },
+    {
+      "id": "geometry-8-parallelogram-trapezoid",
+      "grade": 8,
+      "topic": 1,
+      "title": {
+        "tk": "Parallelogram we trapesiýa",
+        "ru": "Параллелограмм и трапеция"
+      },
+      "minutes": 9,
+      "steps": [
+        {
+          "type": "theory",
+          "text": {
+            "tk": "Parallelogramyň häsiýetleri:\n• Garşylykly taraplary deň.\n• Garşylykly burçlary deň.\n• Bir tarapa ýanaşyk iki burçuň jemi 180°.\n• Diagonallary kesişme nokadynda ýarpa bölünýär.\n\nTrapesiýa — iki tarapy parallel, beýleki iki tarapy parallel däl dörtburçluk. Parallel taraplar — esaslar, beýlekiler — gapdal taraplar.\n• Orta çyzyk gapdal taraplaryň ortalaryny birleşdirýär, esaslara parallel we uzynlygy (a + b) / 2.\n• Deňýanly trapesiýada gapdal taraplar deň, esasdaky burçlar hem deň.",
+            "ru": "Свойства параллелограмма:\n• Противоположные стороны равны.\n• Противоположные углы равны.\n• Сумма углов, прилежащих к одной стороне, равна 180°.\n• Диагонали точкой пересечения делятся пополам.\n\nТрапеция — четырёхугольник, у которого две стороны параллельны, а две другие нет. Параллельные стороны — основания, остальные — боковые стороны.\n• Средняя линия соединяет середины боковых сторон, параллельна основаниям и равна (a + b) / 2.\n• В равнобедренной трапеции боковые стороны равны и углы при основании тоже равны."
+          }
+        },
+        {
+          "type": "example",
+          "text": {
+            "tk": "1) Parallelogramyň bir burçy 65°. Galan burçlary tapyň.\nGarşylykly burç hem 65°. Ýanaşyk burç: 180° − 65° = 115°. Burçlar: 65°, 115°, 65°, 115°. Barlag: jemi 360°.\n\n2) Trapesiýanyň esaslary 6 sm we 10 sm. Orta çyzyk: (6 + 10) / 2 = 8 sm.",
+            "ru": "1) Один угол параллелограмма 65°. Найдите остальные углы.\nПротивоположный угол тоже 65°. Соседний угол: 180° − 65° = 115°. Углы: 65°, 115°, 65°, 115°. Проверка: сумма 360°.\n\n2) Основания трапеции 6 см и 10 см. Средняя линия: (6 + 10) / 2 = 8 см."
+          }
+        },
+        {
+          "type": "input",
+          "q": {
+            "tk": "Parallelogramyň bir burçy 70°. Oňa ýanaşyk burç näçe gradus?",
+            "ru": "Один угол параллелограмма 70°. Сколько градусов соседний с ним угол?"
+          },
+          "answer": "110",
+          "hint": {
+            "tk": "Ýanaşyk burçlaryň jemi 180°.",
+            "ru": "Сумма соседних углов 180°."
+          },
+          "explain": {
+            "tk": "180° − 70° = 110°.",
+            "ru": "180° − 70° = 110°."
+          }
+        },
+        {
+          "type": "input",
+          "q": {
+            "tk": "Trapesiýanyň esaslary 7 sm we 13 sm. Orta çyzygy näçe sm?",
+            "ru": "Основания трапеции 7 см и 13 см. Сколько сантиметров её средняя линия?"
+          },
+          "answer": "10",
+          "hint": {
+            "tk": "Esaslaryň ortaça arifmetik bahasyny tapyň.",
+            "ru": "Найдите среднее арифметическое оснований."
+          },
+          "explain": {
+            "tk": "(7 + 13) / 2 = 20 / 2 = 10 sm.",
+            "ru": "(7 + 13) / 2 = 20 / 2 = 10 см."
+          }
+        },
+        {
+          "type": "truefalse",
+          "q": {
+            "tk": "Parallelogramyň diagonallary kesişme nokadynda ýarpa bölünýär.",
+            "ru": "Диагонали параллелограмма точкой пересечения делятся пополам."
+          },
+          "answer": true,
+          "hint": {
+            "tk": "Bu parallelogramyň esasy häsiýetleriniň biri.",
+            "ru": "Это одно из основных свойств параллелограмма."
+          },
+          "explain": {
+            "tk": "Dogry: diagonallaryň kesişme nokady olaryň her biriniň ortasy bolup durýar.",
+            "ru": "Верно: точка пересечения диагоналей является серединой каждой из них."
+          }
+        },
+        {
+          "type": "choice",
+          "q": {
+            "tk": "Trapesiýanyň näçe jübüt parallel tarapy bar?",
+            "ru": "Сколько пар параллельных сторон у трапеции?"
+          },
+          "options": [
+            "1",
+            "2",
+            "0"
+          ],
+          "answer": 0,
+          "hint": {
+            "tk": "Iki jübüt bolsa, ol parallelogram bolardy.",
+            "ru": "Если бы пар было две, это был бы параллелограмм."
+          },
+          "explain": {
+            "tk": "Trapesiýada diňe esaslar parallel — bir jübüt.",
+            "ru": "В трапеции параллельны только основания — одна пара."
+          }
+        },
+        {
+          "type": "world",
+          "text": {
+            "tk": "Gaýçy görnüşli göterijilerde (awtoulag domkratlarynda, gurluşyk platformalarynda) parallelogram we romb mehanizmi ulanylýar: tarap uzynlyklary üýtgemeýär, ýöne burçlar üýtgände figura beýgelýär ýa-da pesleýär. Şeýle hem çyzgy göçürýän pantograf hem parallelogram esasynda işleýär.",
+            "ru": "В ножничных подъёмниках (автомобильных домкратах, строительных платформах) используется механизм параллелограмма и ромба: длины сторон не меняются, но при изменении углов фигура поднимается или опускается. На параллелограмме основан и пантограф — прибор для копирования чертежей."
+          }
+        }
+      ]
+    },
+    {
+      "id": "geometry-8-areas",
+      "grade": 8,
+      "topic": 2,
+      "title": {
+        "tk": "Köpburçluklaryň meýdanlary",
+        "ru": "Площади многоугольников"
+      },
+      "minutes": 9,
+      "steps": [
+        {
+          "type": "theory",
+          "text": {
+            "tk": "Meýdan — figuranyň tekizlikde eýeleýän ýeri. Ölçeg birligi: sm², m², ga (1 ga = 10 000 m²).\n\nFormulalar (a, b — taraplar ýa-da esaslar, h — beýiklik):\n• Gönüburçluk: S = a · b\n• Kwadrat: S = a²\n• Parallelogram: S = a · h\n• Üçburçluk: S = ½ · a · h\n• Trapesiýa: S = (a + b) / 2 · h\n• Romb: S = d₁ · d₂ / 2 (d₁, d₂ — diagonallar)\n\nBeýiklik hemişe esasa perpendikulýar ölçenýär, gapdal tarap boýunça däl!",
+            "ru": "Площадь — часть плоскости, которую занимает фигура. Единицы: см², м², га (1 га = 10 000 м²).\n\nФормулы (a, b — стороны или основания, h — высота):\n• Прямоугольник: S = a · b\n• Квадрат: S = a²\n• Параллелограмм: S = a · h\n• Треугольник: S = ½ · a · h\n• Трапеция: S = (a + b) / 2 · h\n• Ромб: S = d₁ · d₂ / 2 (d₁, d₂ — диагонали)\n\nВысота всегда измеряется перпендикулярно основанию, а не вдоль боковой стороны!"
+          }
+        },
+        {
+          "type": "example",
+          "text": {
+            "tk": "Mesele: trapesiýanyň esaslary 5 sm we 9 sm, beýikligi 4 sm. Meýdanyny tapyň.\n\n1) Esaslaryň jemi: 5 + 9 = 14.\n2) Ýarpysy: 14 / 2 = 7.\n3) Beýiklige köpeldýäris: 7 · 4 = 28.\n\nJogap: S = 28 sm².",
+            "ru": "Задача: основания трапеции 5 см и 9 см, высота 4 см. Найдите площадь.\n\n1) Сумма оснований: 5 + 9 = 14.\n2) Половина: 14 / 2 = 7.\n3) Умножаем на высоту: 7 · 4 = 28.\n\nОтвет: S = 28 см²."
+          }
+        },
+        {
+          "type": "input",
+          "q": {
+            "tk": "Üçburçlugyň esasy 10 sm, beýikligi 6 sm. Meýdany näçe sm²?",
+            "ru": "Основание треугольника 10 см, высота 6 см. Сколько квадратных сантиметров его площадь?"
+          },
+          "answer": "30",
+          "hint": {
+            "tk": "Esasy beýiklige köpeldip, ýarpa bölüň.",
+            "ru": "Умножьте основание на высоту и разделите пополам."
+          },
+          "explain": {
+            "tk": "S = ½ · 10 · 6 = 30 sm².",
+            "ru": "S = ½ · 10 · 6 = 30 см²."
+          }
+        },
+        {
+          "type": "choice",
+          "q": {
+            "tk": "Rombuň diagonallary 6 sm we 8 sm. Meýdany näçe?",
+            "ru": "Диагонали ромба 6 см и 8 см. Чему равна площадь?"
+          },
+          "options": [
+            "48 sm² / см²",
+            "24 sm² / см²",
+            "14 sm² / см²"
+          ],
+          "answer": 1,
+          "hint": {
+            "tk": "Diagonallaryň köpeltmek hasylynyň ýarysy.",
+            "ru": "Половина произведения диагоналей."
+          },
+          "explain": {
+            "tk": "S = 6 · 8 / 2 = 24 sm².",
+            "ru": "S = 6 · 8 / 2 = 24 см²."
+          }
+        },
+        {
+          "type": "input",
+          "q": {
+            "tk": "Parallelogramyň tarapy 8 m, şol tarapa geçirilen beýiklik 5 m. Meýdany näçe m²?",
+            "ru": "Сторона параллелограмма 8 м, высота к этой стороне 5 м. Сколько квадратных метров площадь?"
+          },
+          "answer": "40",
+          "hint": {
+            "tk": "S = a · h.",
+            "ru": "S = a · h."
+          },
+          "explain": {
+            "tk": "S = 8 · 5 = 40 m².",
+            "ru": "S = 8 · 5 = 40 м²."
+          }
+        },
+        {
+          "type": "truefalse",
+          "q": {
+            "tk": "Parallelogramyň meýdany onuň iki ýanaşyk tarapynyň köpeltmek hasylyna hemişe deňdir.",
+            "ru": "Площадь параллелограмма всегда равна произведению двух его соседних сторон."
+          },
+          "answer": false,
+          "hint": {
+            "tk": "Parallelogramy «ýatyryp» görüň: taraplar üýtgemeýär, meýdan bolsa?",
+            "ru": "Представьте, что параллелограмм «складывается»: стороны те же, а площадь?"
+          },
+          "explain": {
+            "tk": "Ýalňyş: tarap beýiklige köpeldilýär. Bu diňe gönüburçlukda (h = b bolanda) dogry.",
+            "ru": "Неверно: сторону умножают на высоту. Это совпадает только у прямоугольника (когда h = b)."
+          }
+        },
+        {
+          "type": "world",
+          "text": {
+            "tk": "«Geometriýa» sözi grek dilinde «ýer ölçemek» diýmegi aňladýar. Gadymy Müsürde Nil derýasy her ýyl daşyp, ekin ýerleriniň araçäklerini ýuwup gidýärdi, şonuň üçin ýer ölçeýjiler meýdanlary täzeden hasaplamaly bolýardylar.",
+            "ru": "Слово «геометрия» по-гречески означает «землемерие». В Древнем Египте Нил каждый год разливался и смывал границы полей, поэтому землемерам приходилось заново вычислять площади участков."
+          }
+        }
+      ]
+    },
+    {
+      "id": "geometry-8-pythagorean-theorem",
+      "grade": 8,
+      "topic": 3,
+      "title": {
+        "tk": "Pifagoryň teoremasy",
+        "ru": "Теорема Пифагора"
+      },
+      "minutes": 9,
+      "steps": [
+        {
+          "type": "theory",
+          "text": {
+            "tk": "Gönüburçly üçburçlukda gönü burçuň garşysyndaky tarap — gipotenuza (c), beýleki iki tarap — katetler (a we b).\n\nPifagoryň teoremasy: gipotenuzanyň kwadraty katetleriň kwadratlarynyň jemine deň:\na² + b² = c²\n\nNetijeler:\n• c = √(a² + b²)\n• a = √(c² − b²)\n• Gipotenuza hemişe iň uzyn tarap.\n\nTers teorema: eger üçburçlugyň taraplary üçin a² + b² = c² ýerine ýetse, ol gönüburçly üçburçlukdyr.",
+            "ru": "В прямоугольном треугольнике сторона напротив прямого угла — гипотенуза (c), две другие стороны — катеты (a и b).\n\nТеорема Пифагора: квадрат гипотенузы равен сумме квадратов катетов:\na² + b² = c²\n\nСледствия:\n• c = √(a² + b²)\n• a = √(c² − b²)\n• Гипотенуза всегда самая длинная сторона.\n\nОбратная теорема: если для сторон треугольника выполняется a² + b² = c², то он прямоугольный."
+          }
+        },
+        {
+          "type": "example",
+          "text": {
+            "tk": "Mesele: katetler 6 sm we 8 sm. Gipotenuzany tapyň.\n\n1) a² = 36, b² = 64.\n2) c² = 36 + 64 = 100.\n3) c = √100 = 10 sm.\n\nBarlag: 6, 8, 10 — bu meşhur 3, 4, 5 üçlüginiň iki essesi.",
+            "ru": "Задача: катеты 6 см и 8 см. Найдите гипотенузу.\n\n1) a² = 36, b² = 64.\n2) c² = 36 + 64 = 100.\n3) c = √100 = 10 см.\n\nПроверка: 6, 8, 10 — это удвоенная знаменитая тройка 3, 4, 5."
+          }
+        },
+        {
+          "type": "input",
+          "q": {
+            "tk": "Katetler 5 we 12. Gipotenuza näçä deň?",
+            "ru": "Катеты равны 5 и 12. Чему равна гипотенуза?"
+          },
+          "answer": "13",
+          "hint": {
+            "tk": "25 + 144 = ?",
+            "ru": "25 + 144 = ?"
+          },
+          "explain": {
+            "tk": "c² = 25 + 144 = 169, c = 13.",
+            "ru": "c² = 25 + 144 = 169, c = 13."
+          }
+        },
+        {
+          "type": "input",
+          "q": {
+            "tk": "Gipotenuza 10, bir katet 6. Beýleki katet näçä deň?",
+            "ru": "Гипотенуза 10, один катет 6. Чему равен другой катет?"
+          },
+          "answer": "8",
+          "hint": {
+            "tk": "Gipotenuzanyň kwadratyndan belli katetiň kwadratyny aýyryň.",
+            "ru": "Из квадрата гипотенузы вычтите квадрат известного катета."
+          },
+          "explain": {
+            "tk": "b² = 100 − 36 = 64, b = 8.",
+            "ru": "b² = 100 − 36 = 64, b = 8."
+          }
+        },
+        {
+          "type": "choice",
+          "q": {
+            "tk": "Haýsy taraplar gönüburçly üçburçlugy emele getirýär?",
+            "ru": "Какие стороны образуют прямоугольный треугольник?"
+          },
+          "options": [
+            "4, 5, 7",
+            "5, 6, 8",
+            "7, 24, 25"
+          ],
+          "answer": 2,
+          "hint": {
+            "tk": "Iki kiçi sanyň kwadratlarynyň jemini iň ulusynyň kwadraty bilen deňeşdiriň.",
+            "ru": "Сравните сумму квадратов двух меньших чисел с квадратом наибольшего."
+          },
+          "explain": {
+            "tk": "49 + 576 = 625 = 25². Beýlekilerde: 16 + 25 = 41 ≠ 49; 25 + 36 = 61 ≠ 64.",
+            "ru": "49 + 576 = 625 = 25². В остальных: 16 + 25 = 41 ≠ 49; 25 + 36 = 61 ≠ 64."
+          }
+        },
+        {
+          "type": "truefalse",
+          "q": {
+            "tk": "Taraplary 4, 5 we 6 bolan üçburçluk gönüburçlydyr.",
+            "ru": "Треугольник со сторонами 4, 5 и 6 прямоугольный."
+          },
+          "answer": false,
+          "hint": {
+            "tk": "4² + 5² hasaplaň.",
+            "ru": "Вычислите 4² + 5²."
+          },
+          "explain": {
+            "tk": "16 + 25 = 41, 6² = 36. Deň däl, diýmek gönüburçly däl.",
+            "ru": "16 + 25 = 41, а 6² = 36. Не равны, значит, треугольник не прямоугольный."
+          }
+        },
+        {
+          "type": "world",
+          "text": {
+            "tk": "Teorema Pifagoryň adyny göterse-de, bu baglanyşyk ondan has öň belli bolupdyr. Takmynan b.e.öň 1800-nji ýyllara degişli Wawilon toýun tagtasynda («Plimpton 322») a² + b² = c² deňligi kanagatlandyrýan san üçlükleriniň sanawy ýazylan.",
+            "ru": "Хотя теорема носит имя Пифагора, это соотношение знали задолго до него. На вавилонской глиняной табличке «Плимптон 322» (около 1800 г. до н. э.) записан список троек чисел, удовлетворяющих равенству a² + b² = c²."
+          }
+        }
+      ]
+    },
+    {
+      "id": "geometry-8-similar-triangles",
+      "grade": 8,
+      "topic": 4,
+      "title": {
+        "tk": "Meňzeş üçburçluklar",
+        "ru": "Подобные треугольники"
+      },
+      "minutes": 9,
+      "steps": [
+        {
+          "type": "theory",
+          "text": {
+            "tk": "Iki üçburçlugyň degişli burçlary deň we degişli taraplary proporsional bolsa, olar meňzeş üçburçluklardyr: △ABC ∼ △A₁B₁C₁.\n\nMeňzeşlik koeffisiýenti: k = A₁B₁ / AB = B₁C₁ / BC = A₁C₁ / AC.\n\nMeňzeşlik alamatlary:\n• BB: iki burçy degişlilikde deň.\n• TBT: iki tarapy proporsional we olaryň arasyndaky burçlar deň.\n• TTT: üç tarapy proporsional.\n\nHäsiýetleri: perimetrleriň gatnaşygy k, meýdanlaryň gatnaşygy k².",
+            "ru": "Два треугольника подобны, если их соответственные углы равны, а соответственные стороны пропорциональны: △ABC ∼ △A₁B₁C₁.\n\nКоэффициент подобия: k = A₁B₁ / AB = B₁C₁ / BC = A₁C₁ / AC.\n\nПризнаки подобия:\n• УУ: два угла соответственно равны.\n• СУС: две стороны пропорциональны и углы между ними равны.\n• ССС: три стороны пропорциональны.\n\nСвойства: отношение периметров равно k, отношение площадей равно k²."
+          }
+        },
+        {
+          "type": "example",
+          "text": {
+            "tk": "Mesele: 1 m uzynlykdaky taýak 2 m kölege taşlaýar. Şol wagt agajyň kölegesi 12 m. Agajyň beýikligi näçe?\n\n1) Gün şöhleleri parallel, taýak we agaç ýere dik — iki üçburçlugyň burçlary deň (BB alamaty).\n2) Meňzeşlik koeffisiýenti: k = 12 / 2 = 6.\n3) Agajyň beýikligi: 1 · 6 = 6 m.\n\nJogap: 6 m.",
+            "ru": "Задача: палка длиной 1 м отбрасывает тень 2 м. В это же время тень дерева 12 м. Какова высота дерева?\n\n1) Солнечные лучи параллельны, палка и дерево вертикальны — углы двух треугольников равны (признак УУ).\n2) Коэффициент подобия: k = 12 / 2 = 6.\n3) Высота дерева: 1 · 6 = 6 м.\n\nОтвет: 6 м."
+          }
+        },
+        {
+          "type": "input",
+          "q": {
+            "tk": "Üçburçluklar meňzeş, k = 3. Birinji üçburçlugyň tarapy 5 sm. Ikinjidäki degişli tarap näçe sm?",
+            "ru": "Треугольники подобны, k = 3. Сторона первого треугольника 5 см. Сколько сантиметров соответственная сторона второго?"
+          },
+          "answer": "15",
+          "hint": {
+            "tk": "Tarapy koeffisiýente köpeldiň.",
+            "ru": "Умножьте сторону на коэффициент."
+          },
+          "explain": {
+            "tk": "5 · 3 = 15 sm.",
+            "ru": "5 · 3 = 15 см."
+          }
+        },
+        {
+          "type": "choice",
+          "q": {
+            "tk": "Meňzeşlik koeffisiýenti 2. Uly üçburçlugyň meýdany kiçisinden näçe esse uly?",
+            "ru": "Коэффициент подобия 2. Во сколько раз площадь большего треугольника больше площади меньшего?"
+          },
+          "options": [
+            "2",
+            "8",
+            "4"
+          ],
+          "answer": 2,
+          "hint": {
+            "tk": "Meýdanlar koeffisiýentiň kwadraty boýunça üýtgeýär.",
+            "ru": "Площади относятся как квадрат коэффициента."
+          },
+          "explain": {
+            "tk": "k² = 2² = 4 esse.",
+            "ru": "k² = 2² = 4 раза."
+          }
+        },
+        {
+          "type": "truefalse",
+          "q": {
+            "tk": "Iki burçy degişlilikde deň bolan iki üçburçluk meňzeşdir.",
+            "ru": "Два треугольника, у которых два угла соответственно равны, подобны."
+          },
+          "answer": true,
+          "hint": {
+            "tk": "Üçünji burç hakda pikirleniň: jemi 180°.",
+            "ru": "Подумайте о третьем угле: сумма 180°."
+          },
+          "explain": {
+            "tk": "Dogry: bu BB alamaty. Iki burç deň bolsa, üçünjisi hem deň bolýar.",
+            "ru": "Верно: это признак УУ. Если два угла равны, то и третьи равны."
+          }
+        },
+        {
+          "type": "world",
+          "text": {
+            "tk": "Rowaýata görä, gadymy grek alymy Fales Müsür piramidasynyň beýikligini onuň kölegesi boýunça ölçäpdir: ol öz kölegesiniň boýuna deň bolan pursatyna garaşypdyr — şol pursatda piramidanyň kölegesi hem onuň beýikligine deň bolupdyr. Bu meňzeş üçburçluklaryň iň meşhur ulanylyşlarynyň biri.",
+            "ru": "По преданию, древнегреческий учёный Фалес измерил высоту египетской пирамиды по её тени: он дождался момента, когда его собственная тень сравнялась с его ростом, — в этот момент и тень пирамиды равнялась её высоте. Это одно из самых известных применений подобных треугольников."
+          }
+        }
+      ]
+    },
+    {
+      "id": "geometry-8-circle",
+      "grade": 8,
+      "topic": 5,
+      "title": {
+        "tk": "Töwerek we onuň elementleri",
+        "ru": "Окружность и её элементы"
+      },
+      "minutes": 9,
+      "steps": [
+        {
+          "type": "theory",
+          "text": {
+            "tk": "Töwerek — merkezden deň uzaklykda ýerleşen nokatlaryň köplügi.\n• Radius (r) — merkezden töweregiň nokadyna çenli kesim.\n• Diametr (d = 2r) — merkezden geçýän horda.\n• Horda — töweregiň iki nokadyny birleşdirýän kesim.\n• Duga — töweregiň iki nokadynyň arasyndaky bölegi.\n• Galtaşýan göni töwerek bilen diňe bir umumy nokady bar we galtaşma nokadyna geçirilen radiusa perpendikulýar.\n\nFormulalar: töweregiň uzynlygy C = 2πr, tegelegiň meýdany S = πr² (π ≈ 3,14).\n\nBurçlar:\n• Merkezi burç — depesi merkezde. Ol özüniň daýanýan dugasyna deň.\n• Içinden çyzylan burç — depesi töwerekde, taraplary hordalar. Ol şol bir duga daýanýan merkezi burçuň ýarysyna deň.\n• Diametre daýanýan içinden çyzylan burç hemişe 90°.",
+            "ru": "Окружность — множество точек, равноудалённых от центра.\n• Радиус (r) — отрезок от центра до точки окружности.\n• Диаметр (d = 2r) — хорда, проходящая через центр.\n• Хорда — отрезок, соединяющий две точки окружности.\n• Дуга — часть окружности между двумя точками.\n• Касательная имеет с окружностью одну общую точку и перпендикулярна радиусу, проведённому в точку касания.\n\nФормулы: длина окружности C = 2πr, площадь круга S = πr² (π ≈ 3,14).\n\nУглы:\n• Центральный угол — вершина в центре. Он равен дуге, на которую опирается.\n• Вписанный угол — вершина на окружности, стороны — хорды. Он равен половине центрального угла, опирающегося на ту же дугу.\n• Вписанный угол, опирающийся на диаметр, всегда равен 90°."
+          }
+        },
+        {
+          "type": "example",
+          "text": {
+            "tk": "1) Radius 5 sm. C = 2 · 3,14 · 5 = 31,4 sm. S = 3,14 · 25 = 78,5 sm².\n\n2) Merkezi burç 100°. Şol duga daýanýan içinden çyzylan burç: 100° / 2 = 50°.",
+            "ru": "1) Радиус 5 см. C = 2 · 3,14 · 5 = 31,4 см. S = 3,14 · 25 = 78,5 см².\n\n2) Центральный угол 100°. Вписанный угол, опирающийся на ту же дугу: 100° / 2 = 50°."
+          }
+        },
+        {
+          "type": "input",
+          "q": {
+            "tk": "Merkezi burç 80°. Şol duga daýanýan içinden çyzylan burç näçe gradus?",
+            "ru": "Центральный угол 80°. Сколько градусов вписанный угол, опирающийся на ту же дугу?"
+          },
+          "answer": "40",
+          "hint": {
+            "tk": "Içinden çyzylan burç merkezi burçdan iki esse kiçi.",
+            "ru": "Вписанный угол в два раза меньше центрального."
+          },
+          "explain": {
+            "tk": "80° / 2 = 40°.",
+            "ru": "80° / 2 = 40°."
+          }
+        },
+        {
+          "type": "choice",
+          "q": {
+            "tk": "Diametre daýanýan içinden çyzylan burç näçä deň?",
+            "ru": "Чему равен вписанный угол, опирающийся на диаметр?"
+          },
+          "options": [
+            "90°",
+            "180°",
+            "45°"
+          ],
+          "answer": 0,
+          "hint": {
+            "tk": "Diametr 180° dugany kesip alýar.",
+            "ru": "Диаметр отсекает дугу в 180°."
+          },
+          "explain": {
+            "tk": "Duga 180°, içinden çyzylan burç onuň ýarysy: 90°.",
+            "ru": "Дуга 180°, вписанный угол — её половина: 90°."
+          }
+        },
+        {
+          "type": "truefalse",
+          "q": {
+            "tk": "Galtaşýan göni galtaşma nokadyna geçirilen radiusa perpendikulýardyr.",
+            "ru": "Касательная перпендикулярна радиусу, проведённому в точку касания."
+          },
+          "answer": true,
+          "hint": {
+            "tk": "Tigir ýola degýän ýerinde ýol bilen tigriň radiusy nähili ýerleşýär?",
+            "ru": "Как расположены дорога и радиус колеса в точке касания?"
+          },
+          "explain": {
+            "tk": "Dogry, bu galtaşýanyň esasy häsiýeti.",
+            "ru": "Верно, это основное свойство касательной."
+          }
+        },
+        {
+          "type": "world",
+          "text": {
+            "tk": "Arhimed (b.e.öň III asyr) töweregiň içinden we daşyndan 96 taraply köpburçluklary çyzyp, π sanynyň 3 10/71 bilen 3 1/7 aralygynda ýatandygyny subut edipdir. Biziň ulanýan 22/7 ≈ 3,14 golaý bahamyz şol işden gelýär.",
+            "ru": "Архимед (III в. до н. э.) вписал в окружность и описал около неё 96-угольники и доказал, что число π лежит между 3 10/71 и 3 1/7. Привычное приближение 22/7 ≈ 3,14 пришло именно из этой работы."
+          }
+        }
+      ]
+    }
+  ]
+}

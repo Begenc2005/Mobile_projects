@@ -1,0 +1,246 @@
+{
+  "grade": 7,
+  "subject": "history",
+  "lessons": [
+    {
+      "id": "history-7-caliphate-science",
+      "grade": 7,
+      "topic": 0,
+      "title": {"tk": "Arap halyfaty we ylym", "ru": "Арабский халифат и наука"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "VII asyrda Arap ýarymadasynda Yslam dini döredi. Pygamber Muhammet (takm. 570–632) 622-nji ýylda Mekgeden Medinä göçdi — bu waka hijret diýlip atlandyrylýar we musulman ýyl hasabynyň başlangyjy hasaplanýar.\n\nPygamberden soň döwleti halyfalar dolandyrdy. Halyfat çalt giňeldi we VIII asyryň ortalaryna Ispaniýadan Merkezi Aziýa çenli uzaldy.\n• Omeýýadlar (661–750) — paýtagty Damask.\n• Abbasylar (750–1258) — 762-nji ýylda Bagdady gurup, ony paýtagt etdiler.\n\nYlmyň «altyn asyry» (VIII–XIII asyrlar):\n• Bagdatda «Paýhas öýi» (Baýt al-Hikma) işledi. Halyfa al-Mamunyň (813–833) döwründe grek, pars we hindi kitaplary arap diline terjime edildi.\n• 751-nji ýyldaky Talas söweşinden soň kagyz öndürmek usuly Hytaýdan Samarkanda, soňra Bagdada ýaýrady.\n• Hindi sanlary we nol arap alymlary arkaly Ýewropa geçdi — şonuň üçin olara Ýewropada «arap sanlary» diýilýär.\n• Horezmli alym Muhammet al-Horezmi (takm. 780–850) algebra ylmyny esaslandyrdy. «Algebra» sözi onuň kitabynyň adyndaky «al-jabr» sözünden, «algoritm» bolsa onuň adyndan gelip çykýar.",
+          "ru": "В VII веке на Аравийском полуострове возник ислам. Пророк Мухаммед (ок. 570–632) в 622 году переселился из Мекки в Медину — это событие называется хиджрой и считается началом мусульманского летосчисления.\n\nПосле Пророка государством управляли халифы. Халифат быстро расширялся и к середине VIII века простирался от Испании до Центральной Азии.\n• Омейяды (661–750) — столица Дамаск.\n• Аббасиды (750–1258) — в 762 году основали Багдад и сделали его столицей.\n\n«Золотой век» науки (VIII–XIII вв.):\n• В Багдаде работал «Дом мудрости» (Байт аль-Хикма). При халифе аль-Мамуне (813–833) на арабский переводили греческие, персидские и индийские книги.\n• После битвы при Таласе (751) секрет изготовления бумаги перешёл из Китая в Самарканд, а затем в Багдад.\n• Индийские цифры и ноль попали в Европу через арабских учёных — поэтому в Европе их называют «арабскими».\n• Учёный из Хорезма Мухаммад аль-Хорезми (ок. 780–850) заложил основы алгебры. Слово «алгебра» происходит от «аль-джабр» в названии его книги, а «алгоритм» — от его имени."
+        }},
+        {"type": "example", "text": {
+          "tk": "Al-Horezminiň meşhur meselesi: «Kwadrat we on kök 39-a deň». Häzirki ýazgyda: x² + 10x = 39.\nOnuň çözüş usuly (kwadraty dolduryp):\n1) 10-y ikä bölýäris: 5. Ony kwadrata göterýäris: 25.\n2) Iki tarapa 25 goşýarys: x² + 10x + 25 = 64.\n3) Çep tarap — doly kwadrat: (x + 5)² = 64.\n4) x + 5 = 8, diýmek x = 3.\nBarlag: 3² + 10·3 = 9 + 30 = 39 ✓\n\nAl-Horezmi bu usuly sanlar bilen däl-de, sözler we geometrik şekiller bilen düşündiripdir.",
+          "ru": "Знаменитая задача аль-Хорезми: «Квадрат и десять корней равны 39». В современной записи: x² + 10x = 39.\nЕго способ решения (дополнение до квадрата):\n1) Делим 10 пополам: 5. Возводим в квадрат: 25.\n2) Прибавляем 25 к обеим частям: x² + 10x + 25 = 64.\n3) Слева — полный квадрат: (x + 5)² = 64.\n4) x + 5 = 8, значит x = 3.\nПроверка: 3² + 10·3 = 9 + 30 = 39 ✓\n\nАль-Хорезми объяснял этот способ не формулами, а словами и геометрическими фигурами."
+        }},
+        {"type": "input",
+          "q": {"tk": "Hijret haýsy ýylda boldy?", "ru": "В каком году произошла хиджра?"},
+          "answer": "622",
+          "hint": {"tk": "Musulman ýyl hasabynyň başlangyjy; VII asyr.", "ru": "Начало мусульманского летосчисления; VII век."},
+          "explain": {"tk": "622-nji ýylda Pygamber Muhammet Mekgeden Medinä göçdi. Hijri ýyl hasaby şu ýyldan başlanýar.", "ru": "В 622 году Пророк Мухаммед переселился из Мекки в Медину. С этого года ведётся счёт по хиджре."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Abbasylar halyfatynyň paýtagty haýsy şäherdi?", "ru": "Какой город был столицей Аббасидского халифата?"},
+          "options": [{"tk": "Damask", "ru": "Дамаск"}, {"tk": "Bagdat", "ru": "Багдад"}, {"tk": "Kordowa", "ru": "Кордова"}],
+          "answer": 1,
+          "hint": {"tk": "Bu şäher 762-nji ýylda guruldy we onda «Paýhas öýi» bardy.", "ru": "Этот город основан в 762 году, в нём был «Дом мудрости»."},
+          "explain": {"tk": "Abbasylar Bagdady gurup, paýtagt etdiler. Damask Omeýýadlaryň paýtagtydy, Kordowa bolsa Ispaniýadaky Omeýýad emirliginiň merkezidi.", "ru": "Аббасиды основали Багдад и сделали его столицей. Дамаск был столицей Омейядов, а Кордова — центром Омейядского эмирата в Испании."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«Algoritm» sözi al-Horezminiň adyndan gelip çykýar.", "ru": "Слово «алгоритм» происходит от имени аль-Хорезми."},
+          "answer": true,
+          "hint": {"tk": "Onuň ady latynça «Algoritmi» görnüşinde ýazylypdyr.", "ru": "Его имя по-латыни писали как «Algoritmi»."},
+          "explain": {"tk": "Dogry. Onuň kitaplarynyň latyn terjimelerinde ady «Algoritmi» diýlip ýazylypdyr, şondan «algoritm» sözi döräpdir.", "ru": "Верно. В латинских переводах его книг имя писали «Algoritmi», отсюда и произошло слово «алгоритм»."}
+        },
+        {"type": "world", "text": {
+          "tk": "Bagdatda VIII asyryň ahyrynda ilkinji kagyz önümçiligi işe başlady. Kagyz pergamentden has arzandy, şonuň üçin kitaplar köpeldi we kitaphanalar ýaýrady.",
+          "ru": "В конце VIII века в Багдаде заработало первое производство бумаги. Бумага была гораздо дешевле пергамента, поэтому книг стало больше и распространились библиотеки."
+        }}
+      ]
+    },
+    {
+      "id": "history-7-medieval-europe",
+      "grade": 7,
+      "topic": 1,
+      "title": {"tk": "Orta asyr Ýewropasy", "ru": "Средневековая Европа"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Orta asyrlar — 476-njy ýylda Günbatar Rim imperiýasynyň ýykylmagyndan XV asyryň ahyryna çenli dowam eden döwür.\n\nFeodalizm — ýere eýeçilige we wassal gatnaşyklaryna esaslanýan jemgyýet:\n• Patyşa ýeriň iň uly eýesi bolup, ýeri iri feodallara (gersoglara, graflara) paýlaýardy.\n• Feodallar ýeriň bir bölegini rysarlara berýärdi. Ýer alan adam — wassal — öz hojaýynyna (senýoruna) wepaly gulluk edip, harby kömek bermäge borçludy.\n• Daýhanlar ýeri işleýärdi; olaryň köpüsi ýere berkidilen tabyn daýhanlar (serwlar) bolupdyr.\n\nMöhüm wakalar:\n• 800 ý. — Karl Beýik imperator diýlip yglan edildi.\n• Hristian ybadathanasy jemgyýetde we bilimde uly orun eýeleýärdi; monastyrlarda kitaplar göçürilip ýazylýardy.\n• 1096–1291 ýý. — Haç ýörişleri.\n• XI–XIII asyrlar — ilkinji uniwersitetler: Bolonýa (1088), Pariž, Oksford.\n• 1347–1351 ýý. — «Gara ölüm» (gyrgynç keseli) Ýewropanyň ilatynyň takmynan üçden birini, käbir sebitlerde ýarysyny alyp gitdi.\n• 1453 ý. — Konstantinopol osmanlylar tarapyndan alyndy, Wizantiýa ýykyldy.\n• XV asyryň ortalary — Iogann Gutenberg kitap çap etmegiň täze usulyny oýlap tapdy.",
+          "ru": "Средние века — эпоха от падения Западной Римской империи в 476 году до конца XV века.\n\nФеодализм — общество, основанное на земельной собственности и вассальных отношениях:\n• Король был крупнейшим землевладельцем и раздавал земли крупным феодалам (герцогам, графам).\n• Феодалы передавали часть земли рыцарям. Получивший землю — вассал — был обязан верно служить своему господину (сеньору) и помогать ему в войне.\n• Землю обрабатывали крестьяне; многие из них были зависимыми, прикреплёнными к земле (сервы).\n\nВажные события:\n• 800 г. — Карл Великий провозглашён императором.\n• Христианская церковь играла огромную роль в обществе и образовании; в монастырях переписывали книги.\n• 1096–1291 гг. — Крестовые походы.\n• XI–XIII вв. — первые университеты: Болонья (1088), Париж, Оксфорд.\n• 1347–1351 гг. — «Чёрная смерть» (чума) унесла около трети населения Европы, а в некоторых областях — половину.\n• 1453 г. — Константинополь взят османами, Византия пала.\n• Середина XV века — Иоганн Гутенберг изобрёл новый способ книгопечатания."
+        }},
+        {"type": "example", "text": {
+          "tk": "Orta asyr kadasy: «Meniň wassalymyň wassaly — meniň wassalym däl» (esasan Fransiýada).\nMysal:\n1) Patyşa Graf Anri ýer berýär → Anri patyşanyň wassaly.\n2) Anri ýeriň bir bölegini Rysar Ženä berýär → Žan Anriniň wassaly.\n3) Patyşa uruşa çagyranda Žan kime boýun bolmaly? Diňe öz senýoryna — Anrä.\n4) Eger Anri patyşa garşy çyksa, Žan Anriniň tarapynda bolar.\n\nNetije: şeýle düzgün sebäpli Orta asyryň başynda patyşalaryň häkimiýeti köplenç gowşakdy we döwletler bölünişikde bolupdyr.",
+          "ru": "Средневековое правило: «Вассал моего вассала — не мой вассал» (прежде всего во Франции).\nПример:\n1) Король даёт землю графу Анри → Анри — вассал короля.\n2) Анри передаёт часть земли рыцарю Жану → Жан — вассал Анри.\n3) Король созывает войско. Кому подчиняется Жан? Только своему сеньору — Анри.\n4) Если Анри выступит против короля, Жан будет на стороне Анри.\n\nВывод: из-за такого порядка в раннем Средневековье власть королей часто была слабой, а государства — раздробленными."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Orta asyrlaryň başlangyjy diýlip haýsy waka hasaplanýar?", "ru": "Какое событие считается началом Средних веков?"},
+          "options": [{"tk": "Günbatar Rim imperiýasynyň ýykylmagy (476)", "ru": "Падение Западной Римской империи (476)"}, {"tk": "Karl Beýigiň imperator bolmagy (800)", "ru": "Коронация Карла Великого (800)"}, {"tk": "Birinji haç ýörişi (1096)", "ru": "Первый крестовый поход (1096)"}],
+          "answer": 0,
+          "hint": {"tk": "Iň irki senäni saýla.", "ru": "Выбери самую раннюю дату."},
+          "explain": {"tk": "476-njy ýylda Günbatar Rim imperiýasy ýykyldy — taryhçylar Orta asyrlary şu ýyldan hasaplaýarlar.", "ru": "В 476 году пала Западная Римская империя — с этого года историки отсчитывают Средние века."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Wassal öz senýoryna harby gulluk etmäge borçludy.", "ru": "Вассал был обязан нести военную службу своему сеньору."},
+          "answer": true,
+          "hint": {"tk": "Ýer näme üçin berilýärdi?", "ru": "За что давали землю?"},
+          "explain": {"tk": "Dogry. Ýer gulluk üçin berilýärdi: wassal senýoruna wepaly bolmalydy we uruşda kömek bermelidi.", "ru": "Верно. Землю давали за службу: вассал должен был хранить верность сеньору и помогать ему в войне."}
+        },
+        {"type": "input",
+          "q": {"tk": "Bir şäherde 12 000 adam ýaşaýar. «Gara ölüm» ilatyň üçden birini alyp gitse, näçe adam galar?", "ru": "В городе жили 12 000 человек. Если «Чёрная смерть» унесла треть населения, сколько людей осталось?"},
+          "answer": "8000|8 000",
+          "hint": {"tk": "Ilkinji 12 000-iň üçden birini tap, soň ony aýyr.", "ru": "Найди треть от 12 000, затем вычти."},
+          "explain": {"tk": "12 000 ÷ 3 = 4000 adam öldi. 12 000 − 4000 = 8000 adam galdy.", "ru": "12 000 ÷ 3 = 4000 человек погибли. 12 000 − 4000 = 8000 человек осталось."}
+        },
+        {"type": "world", "text": {
+          "tk": "1088-nji ýylda esaslandyrylan Bolonýa uniwersiteti (Italiýa) häzir hem işleýän iň gadymy Ýewropa uniwersiteti hasaplanýar. «Uniwersitet» sözi latynça «universitas» — «bileleşik, jemgyýet» diýmekdir.",
+          "ru": "Болонский университет (Италия), основанный в 1088 году, считается старейшим действующим университетом Европы. Слово «университет» происходит от латинского «universitas» — «совокупность, сообщество»."
+        }}
+      ]
+    },
+    {
+      "id": "history-7-mongol-empire",
+      "grade": 7,
+      "topic": 2,
+      "title": {"tk": "Mongol imperiýasy", "ru": "Монгольская империя"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "1206-njy ýylda mongol taýpalarynyň gurultaýynda Temuçin Çingiz han diýlip yglan edildi. Ol dagynyk taýpalary birleşdirip, berk harby tertip döretdi: goşun onluklara, ýüzlüklere, müňlüklere we tümenlere (10 000) bölünýärdi.\n\nBasyp almalar:\n• 1211-den başlap — Demirgazyk Hytaý.\n• 1219–1221 ýý. — Horezmşalar döwleti. Otrar, Buhara, Samarkand, Merw, Gürgenç (Köneürgenç) ýaly şäherler weýran edildi.\n• Çingiz han 1227-nji ýylda aradan çykdy; onuň mirasdüşerleri ýörişleri dowam etdirdiler.\n• Batyý Gündogar Ýewropa ýöriş etdi, Altyn Orda döwleti döredi.\n• 1258 ý. — Hulagu Bagdady aldy, Abbasylar halyfaty ýykyldy.\n• Hubilaý 1271-nji ýylda Hytaýda Ýuan dinastiýasyny esaslandyrdy.\n\nMongol imperiýasy taryhdaky iň uly bitewi gury ýer imperiýasy boldy. Dolandyryşda «Ýasa» kanunlar ýygyndysy we «ýam» — atly çaparlaryň menzil ulgamy ulanyldy. Ýüpek ýoly boýunça söwda we syýahat ýeňilleşdi.\n\nXIII asyryň ikinji ýarymynda imperiýa birnäçe ulusa bölündi: Altyn Orda, Çagataý ulusy, Hulagular (Ilhanlar) döwleti we Ýuan imperiýasy.",
+          "ru": "В 1206 году на курултае монгольских племён Темучин был провозглашён Чингисханом. Он объединил разрозненные племена и создал жёсткую военную организацию: войско делилось на десятки, сотни, тысячи и тумены (10 000).\n\nЗавоевания:\n• С 1211 года — Северный Китай.\n• 1219–1221 гг. — государство Хорезмшахов. Были разрушены Отрар, Бухара, Самарканд, Мерв, Гургандж (Куня-Ургенч) и другие города.\n• Чингисхан умер в 1227 году; его наследники продолжили походы.\n• Батый совершил поход в Восточную Европу и основал Золотую Орду.\n• 1258 г. — Хулагу взял Багдад, Аббасидский халифат пал.\n• Хубилай в 1271 году основал в Китае династию Юань.\n\nМонгольская империя стала крупнейшей сплошной сухопутной империей в истории. В управлении применялись свод законов «Яса» и «ям» — система почтовых станций для конных гонцов. Торговля и путешествия по Шёлковому пути стали легче.\n\nВо второй половине XIII века империя распалась на несколько улусов: Золотая Орда, Чагатайский улус, государство Хулагуидов (Ильханов) и империя Юань."
+        }},
+        {"type": "example", "text": {
+          "tk": "«Ýam» ulgamy nähili işleýärdi?\n1) Esasy ýollaryň ugrunda belli bir aralykda menziller (bekediş ýerleri) gurlupdyr.\n2) Her menzilde dynç alan atlar, iýmit we ýer bardy.\n3) Çapar menzile ýetende ýadan atyny dynç alan ata çalşyp, ýoluny dowam edýärdi; gyssagly habarlarda habary indiki çapar alyp gidýärdi.\n4) Çaparda ýörite «paýza» (metal belgi) bolup, ol hökümdaryň ygtyýaryny tassyklaýardy.\n\nNetije: habarlar we ilçiler beýik aralyklary öňküsinden birnäçe esse çalt geçýärdi. Şeýle ulgamsyz ullakan imperiýany dolandyrmak mümkin däldi.",
+          "ru": "Как работала система «ям»?\n1) Вдоль главных дорог на определённом расстоянии строились станции (ямы).\n2) На каждой станции были свежие лошади, еда и ночлег.\n3) Гонец, добравшись до станции, менял уставшую лошадь на свежую и скакал дальше; срочное донесение передавали следующему гонцу.\n4) У гонца была «пайцза» (металлическая пластина), подтверждавшая полномочия от правителя.\n\nВывод: вести и послы преодолевали огромные расстояния в несколько раз быстрее, чем раньше. Без такой системы управлять огромной империей было бы невозможно."
+        }},
+        {"type": "input",
+          "q": {"tk": "Temuçin haýsy ýylda Çingiz han diýlip yglan edildi?", "ru": "В каком году Темучин был провозглашён Чингисханом?"},
+          "answer": "1206",
+          "hint": {"tk": "XIII asyryň başy, gurultaýda.", "ru": "Начало XIII века, на курултае."},
+          "explain": {"tk": "1206-njy ýylda Onon derýasynyň boýunda geçen gurultaýda Temuçin Çingiz han boldy.", "ru": "В 1206 году на курултае у реки Онон Темучин стал Чингисханом."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Bagdady 1258-nji ýylda kim aldy?", "ru": "Кто взял Багдад в 1258 году?"},
+          "options": [{"tk": "Batyý", "ru": "Батый"}, {"tk": "Hubilaý", "ru": "Хубилай"}, {"tk": "Hulagu", "ru": "Хулагу"}],
+          "answer": 2,
+          "hint": {"tk": "Ol Eýranda we Yrakda Ilhanlar döwletini esaslandyrdy.", "ru": "Он основал государство Ильханов в Иране и Ираке."},
+          "explain": {"tk": "Hulagu Bagdady aldy we Abbasylar halyfatyna soňky zarbany urdy. Batyý — Altyn Orda, Hubilaý — Ýuan dinastiýasy bilen baglanyşykly.", "ru": "Хулагу взял Багдад и положил конец Аббасидскому халифату. Батый связан с Золотой Ордой, Хубилай — с династией Юань."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Mongol imperiýasy Çingiz han ölenden soň derrew ýykyldy.", "ru": "Монгольская империя распалась сразу после смерти Чингисхана."},
+          "answer": false,
+          "hint": {"tk": "Batyýyň, Hulagunyň we Hubilaýyň ýörişleri haçan boldy?", "ru": "Когда были походы Батыя, Хулагу и Хубилая?"},
+          "explain": {"tk": "Ýalňyş. Çingiz han 1227-nji ýylda öldi, ýöne onuň mirasdüşerleri imperiýany ýene-de giňeltdiler. Ol diňe XIII asyryň ikinji ýarymynda uluslara bölündi.", "ru": "Неверно. Чингисхан умер в 1227 году, но его наследники ещё больше расширили империю. Она распалась на улусы лишь во второй половине XIII века."}
+        },
+        {"type": "world", "text": {
+          "tk": "Wenesiýaly söwdagär Marko Polo Hubilaýyň köşgünde köp ýyl ýaşap, öz syýahaty barada kitap ýazdy. Bu kitap ençeme asyrlap ýewropalylar üçin Hytaý we Aziýa barada esasy maglumat çeşmesi boldy.",
+          "ru": "Венецианский купец Марко Поло много лет прожил при дворе Хубилая и написал книгу о своём путешествии. Она на века стала для европейцев главным источником сведений о Китае и Азии."
+        }}
+      ]
+    },
+    {
+      "id": "history-7-timur-timurids",
+      "grade": 7,
+      "topic": 3,
+      "title": {"tk": "Timur we Timurylar", "ru": "Тимур и Тимуриды"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Timur (1336–1405) Keşiň (häzirki Şährisabz) golaýynda dünýä indi. 1370-nji ýylda Mawerannahrda häkimiýeti eýeläp, Samarkandy paýtagt etdi.\n\nÝörişleri:\n• Horezm, Eýran, Kawkaz, Altyn Orda, Hindistan (1398 — Deli), Siriýa.\n• 1402 ý. — Ankara söweşinde osmanly soltany Baýazit I-i ýeňdi.\n• 1405 ý. — Hytaýa ýöriş wagtynda Otrarda aradan çykdy.\n\nTimur basyp alnan ýerlerden ussatlary Samarkanda getirip, ajaýyp binalary gurdurdy: Bibihanym metjidi, Gur-Emir kümmeti (onuň özi hem şu ýerde jaýlandy).\n\nTimurylar (XV asyr) döwründe medeniýet we ylym gülledi:\n• Şahruh (1409–1447) — paýtagty Hyrat.\n• Ulugbek (1394–1449) — Samarkandyň hökümdary we beýik astronom. 1420-nji ýyllarda Samarkantda obserwatoriýa gurdy, 1000-den gowrak ýyldyzyň katalogyny düzdi.\n• Huseýin Baýkaranyň (1469–1506) döwründe Hyrat medeniýet merkezine öwrüldi; şahyr Alyşir Nowaýy (1441–1501) we suratkeş Kemaleddin Behzat şol ýerde işlediler.\n• Timuryň nebereleriniň biri Babur 1526-njy ýylda Hindistanda Beýik Mogollar döwletini esaslandyrdy.",
+          "ru": "Тимур (1336–1405) родился близ Кеша (ныне Шахрисабз). В 1370 году он захватил власть в Мавераннахре и сделал столицей Самарканд.\n\nПоходы:\n• Хорезм, Иран, Кавказ, Золотая Орда, Индия (1398 — Дели), Сирия.\n• 1402 г. — в битве при Анкаре разбил османского султана Баязида I.\n• 1405 г. — умер в Отраре во время похода на Китай.\n\nТимур свозил в Самарканд мастеров из завоёванных земель и возводил великолепные здания: мечеть Биби-Ханым, мавзолей Гур-Эмир (где был похоронен и он сам).\n\nПри Тимуридах (XV век) расцвели культура и наука:\n• Шахрух (1409–1447) — столица Герат.\n• Улугбек (1394–1449) — правитель Самарканда и великий астроном. В 1420-х годах построил в Самарканде обсерваторию и составил каталог более 1000 звёзд.\n• При Хусейне Байкаре (1469–1506) Герат стал центром культуры; там творили поэт Алишер Навои (1441–1501) и художник Камалиддин Бехзад.\n• Потомок Тимура Бабур в 1526 году основал в Индии державу Великих Моголов."
+        }},
+        {"type": "example", "text": {
+          "tk": "Ulugbegiň obserwatoriýasy näme üçin şeýle takykdy?\n1) Esasy guraly — ullakan ýarym-meridian dugasy (sekstant). Onuň radiusy 40 metre golaýdy, bir bölegi ýeriň içine gazylypdy.\n2) Gural näçe uly bolsa, onuň şkalasyndaky her gradusyň arasy şonça uzyn bolýar. Şonuň üçin burçlary has takyk ölçäp bolýardy.\n3) Gural meridian boýunça — demirgazykdan günorta ugrukdyrylypdy, ýyldyzlar we Gün meridiany kesip geçende ölçelýärdi.\n\nNetije: Ulugbegiň alymlary ýyldyz ýylynyň uzynlygyny häzirki bahadan diňe bir minuda golaý tapawut bilen kesgitlediler.",
+          "ru": "Почему обсерватория Улугбека была такой точной?\n1) Главный инструмент — огромная дуга меридиана (секстант). Её радиус был около 40 метров, часть её врыта в землю.\n2) Чем больше инструмент, тем шире расстояние между делениями шкалы на каждый градус. Поэтому углы измерялись гораздо точнее.\n3) Инструмент был направлен вдоль меридиана — с севера на юг, и звёзды и Солнце измеряли в момент пересечения меридиана.\n\nВывод: учёные Улугбека определили длину звёздного года с ошибкой всего около одной минуты по сравнению с современным значением."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Timuryň döwletiniň paýtagty haýsy şäherdi?", "ru": "Какой город был столицей державы Тимура?"},
+          "options": [{"tk": "Hyrat", "ru": "Герат"}, {"tk": "Samarkant", "ru": "Самарканд"}, {"tk": "Buhara", "ru": "Бухара"}],
+          "answer": 1,
+          "hint": {"tk": "Gur-Emir kümmeti şu şäherde.", "ru": "В этом городе находится мавзолей Гур-Эмир."},
+          "explain": {"tk": "Timur Samarkandy paýtagt etdi. Hyrat soňra Şahruhyň paýtagty boldy.", "ru": "Тимур сделал столицей Самарканд. Герат позже стал столицей Шахруха."}
+        },
+        {"type": "input",
+          "q": {"tk": "Babur Hindistanda Beýik Mogollar döwletini haýsy ýylda esaslandyrdy?", "ru": "В каком году Бабур основал в Индии державу Великих Моголов?"},
+          "answer": "1526",
+          "hint": {"tk": "XVI asyryň birinji çärýegi.", "ru": "Первая четверть XVI века."},
+          "explain": {"tk": "1526-njy ýylda Panipat söweşinde ýeňiş gazanandan soň Babur Deli we Agra şäherlerini eýeläp, täze döwleti esaslandyrdy.", "ru": "В 1526 году после победы при Панипате Бабур занял Дели и Агру и основал новую державу."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Ulugbek meşhur astronom bolupdyr.", "ru": "Улугбек был знаменитым астрономом."},
+          "answer": true,
+          "hint": {"tk": "Samarkantdaky obserwatoriýany ýatla.", "ru": "Вспомни обсерваторию в Самарканде."},
+          "explain": {"tk": "Dogry. Ulugbek obserwatoriýa gurdy we ýyldyzlaryň katalogyny düzdi; ol Ýewropada hem soňra ýokary baha aldy.", "ru": "Верно. Улугбек построил обсерваторию и составил звёздный каталог, позже высоко оценённый и в Европе."}
+        },
+        {"type": "world", "text": {
+          "tk": "Ulugbegiň obserwatoriýasynyň galyndylaryny 1908-nji ýylda arheolog Wasiliý Wýatkin tapdy. Ýeriň aşagyndaky sekstantyň bölegi häzir hem Samarkantda saklanýar we syýahatçylara görkezilýär.",
+          "ru": "Остатки обсерватории Улугбека в 1908 году нашёл археолог Василий Вяткин. Подземная часть секстанта сохранилась в Самарканде и сегодня открыта для посетителей."
+        }}
+      ]
+    },
+    {
+      "id": "history-7-biruni-ibn-sina",
+      "grade": 7,
+      "topic": 4,
+      "title": {"tk": "Biruni we Ibn Sina", "ru": "Бируни и Ибн Сина"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Abu Reýhan Biruni (973–1048) Horezmde, Kät şäherinde dünýä indi. Ol astronomiýa, matematika, geografiýa, mineralogiýa we taryh boýunça ensiklopedik alymdy.\n• Ýeriň radiusyny dagyň depesinden gorizontyň aşak inişini ölçemek arkaly hasaplady.\n• «Hindistan» kitabynda hindi halkynyň ylmyny, dinini we däp-dessurlaryny jikme-jik suratlandyrdy.\n• «Masud kanuny» — astronomiýa boýunça uly eser.\n• Ýeriň Günüň töwereginde aýlanmagynyň mümkindigini hem ara alyp maslahatlaşdy.\n\nAbu Ali ibn Sina (980–1037), Ýewropada Awisenna diýlip tanalýar, Buharanyň golaýyndaky Afşana obasynda dünýä indi. Ol lukman, filosof we alymdy.\n• «Lukmançylyk ylmynyň kanuny» — 5 kitapdan ybarat ensiklopediýa. Ol latyn diline terjime edilip, XVII asyra çenli Ýewropanyň uniwersitetlerinde esasy okuw kitaby bolupdyr.\n• Käbir keselleriň ýokanç bolup biljekdigini, howa we suw arkaly ýaýrap biljekdigini ýazdy.\n• «Şypa kitaby» — filosofiýa we tebigy ylymlar boýunça uly eser.\n\nBu iki alym biri-birine hat ýazyşyp, tebigat barada ylmy jedelleşipdirler. XI asyryň başynda ikisi hem Horezmşa Mamunyň köşgünde — Gürgençde bolupdyr.",
+          "ru": "Абу Рейхан Бируни (973–1048) родился в Хорезме, в городе Кят. Он был учёным-энциклопедистом: астрономия, математика, география, минералогия, история.\n• Вычислил радиус Земли, измерив с вершины горы угол понижения горизонта.\n• В книге «Индия» подробно описал науку, религию и обычаи индийцев.\n• «Канон Масуда» — большой труд по астрономии.\n• Обсуждал и возможность вращения Земли вокруг Солнца.\n\nАбу Али ибн Сина (980–1037), в Европе известный как Авиценна, родился в селении Афшана близ Бухары. Он был врачом, философом и учёным.\n• «Канон врачебной науки» — энциклопедия из 5 книг. Её перевели на латынь, и до XVII века она была главным учебником в университетах Европы.\n• Писал, что некоторые болезни заразны и могут передаваться через воздух и воду.\n• «Книга исцеления» — крупный труд по философии и естественным наукам.\n\nДва учёных переписывались и вели научный спор о природе. В начале XI века оба находились при дворе хорезмшаха Мамуна в Гургандже."
+        }},
+        {"type": "example", "text": {
+          "tk": "Biruniniň hasaplamasy näçe takyk bolupdyr?\n1) Biruniniň tapan ýer radiusy: takmynan 6340 km.\n2) Häzirki ortaça baha: takmynan 6371 km.\n3) Tapawut: 6371 − 6340 = 31 km.\n4) Ýalňyşlyk göterimde: 31 ÷ 6371 × 100% ≈ 0,5%.\n\nNetije: müň ýyl mundan ozal, diňe dag, gorizont we burç ölçeýji gural bilen Biruni Ýeriň ölçegini ýarym göterime golaý takyklykda kesgitläpdir.",
+          "ru": "Насколько точен был расчёт Бируни?\n1) Радиус Земли по Бируни: около 6340 км.\n2) Современное среднее значение: около 6371 км.\n3) Разница: 6371 − 6340 = 31 км.\n4) Ошибка в процентах: 31 ÷ 6371 × 100% ≈ 0,5%.\n\nВывод: тысячу лет назад, имея лишь гору, горизонт и угломерный инструмент, Бируни определил размер Земли с точностью около половины процента."
+        }},
+        {"type": "choice",
+          "q": {"tk": "«Lukmançylyk ylmynyň kanuny» atly kitaby kim ýazdy?", "ru": "Кто написал «Канон врачебной науки»?"},
+          "options": [{"tk": "Biruni", "ru": "Бируни"}, {"tk": "Al-Horezmi", "ru": "Аль-Хорезми"}, {"tk": "Ibn Sina", "ru": "Ибн Сина"}],
+          "answer": 2,
+          "hint": {"tk": "Ýewropada ony Awisenna diýip atlandyrýarlar.", "ru": "В Европе его называли Авиценной."},
+          "explain": {"tk": "«Kanuny» Ibn Sina ýazdy. Biruniniň astronomiýa boýunça «Masud kanuny» bar, ýöne lukmançylyk kanuny Ibn Sinanyňky.", "ru": "«Канон» написал Ибн Сина. У Бируни есть астрономический «Канон Масуда», но медицинский «Канон» — труд Ибн Сины."}
+        },
+        {"type": "input",
+          "q": {"tk": "Ibn Sinanyň «Kanuny» näçe kitapdan ybarat?", "ru": "Из скольких книг состоит «Канон» Ибн Сины?"},
+          "answer": "5|bäş|пять",
+          "hint": {"tk": "Teoriýada görkezilen san.", "ru": "Число указано в теории."},
+          "explain": {"tk": "«Kanun» 5 kitapdan ybarat: umumy lukmançylyk, dermanlar, aýry-aýry agzalaryň kesellerine, umumy kesellere we dermanlaryň taýýarlanyşyna bagyşlanan.", "ru": "«Канон» состоит из 5 книг: об общих основах медицины, лекарствах, болезнях отдельных органов, общих болезнях и составлении сложных лекарств."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Biruni Horezmde dünýä inipdir.", "ru": "Бируни родился в Хорезме."},
+          "answer": true,
+          "hint": {"tk": "Kät şäheri haýsy sebitde ýerleşýärdi?", "ru": "В какой области находился город Кят?"},
+          "explain": {"tk": "Dogry. Biruni 973-nji ýylda Horezmiň gadymy paýtagty Kät şäherinde dünýä indi.", "ru": "Верно. Бируни родился в 973 году в Кяте — древней столице Хорезма."}
+        },
+        {"type": "world", "text": {
+          "tk": "Aýdaky kraterleriň birine Biruniniň, başga birine bolsa Ibn Sinanyň (Avicenna) ady dakyldy. Şeýlelik bilen iki alymyň ady Aýyň kartasynda hem bar.",
+          "ru": "Один из кратеров на Луне назван в честь Бируни, другой — в честь Ибн Сины (Avicenna). Так имена обоих учёных есть и на карте Луны."
+        }}
+      ]
+    },
+    {
+      "id": "history-7-age-of-discovery",
+      "grade": 7,
+      "topic": 5,
+      "title": {"tk": "Beýik geografik açyşlar", "ru": "Великие географические открытия"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Beýik geografik açyşlar — XV asyryň ortasyndan XVII asyra çenli ýewropaly deňizçileriň täze ýerleri we deňiz ýollaryny açan döwri.\n\nSebäpleri:\n• Ýewropada Gündogaryň ýakymly ysly ösümliklerine (burç, darçyn, mekgejöwen) we ýüpegine uly isleg bardy, ýöne gury ýer söwda ýollary uzakdy we gymmatdy.\n• Täze tehnologiýalar: karawella gämileri, kompas, astrolýabiýa, has gowy kartalar.\n\nEsasy syýahatlar:\n• 1488 ý. — Bartolomeu Diaş Afrikanyň günorta ujuny — Umyt burnuny aýlanyp geçdi.\n• 1492 ý. — Hristofor Kolumb Atlantikany kesip geçip, Karib adalaryna ýetdi; ol Aziýa ýetdim öýdüpdi.\n• 1498 ý. — Waskoda Gama Afrikany aýlanyp, Hindistana (Kalikut) deňiz ýoluny açdy.\n• Amerigo Wespuççi bu ýerleriň «Täze dünýä» — aýratyn materik bolandygyny ýazdy; 1507-nji ýyldaky kartada Amerika onuň ady bilen atlandyryldy.\n• 1519–1522 ýý. — Fernan Magellanyň ekspedisiýasy ilkinji gezek Ýeriň daşyndan aýlandy.\n\nNetijeleri: dünýä söwdasy döredi; Amerikadan Ýewropa kartoşka, mekgejöwen, pomidor, kakao, Ýewropadan Amerika at, bugdaý we mal getirildi. Şol bir wagtda Amerikanyň ýerli halklary uly ýitgi çekdi: Aztek we Inka döwletleri basylyp alyndy, Ýewropadan gelen keseller ilatyň köp bölegini gyrdy, Atlantik gul söwdasy giňeldi.",
+          "ru": "Великие географические открытия — период с середины XV до XVII века, когда европейские мореплаватели открыли новые земли и морские пути.\n\nПричины:\n• В Европе был огромный спрос на пряности Востока (перец, корица, гвоздика) и шёлк, но сухопутные торговые пути были долгими и дорогими.\n• Новые технологии: корабли-каравеллы, компас, астролябия, более точные карты.\n\nГлавные плавания:\n• 1488 г. — Бартоломеу Диаш обогнул южную оконечность Африки — мыс Доброй Надежды.\n• 1492 г. — Христофор Колумб пересёк Атлантику и достиг Карибских островов; он считал, что достиг Азии.\n• 1498 г. — Васко да Гама обогнул Африку и открыл морской путь в Индию (Каликут).\n• Америго Веспуччи писал, что эти земли — «Новый Свет», отдельный материк; на карте 1507 года Америка названа его именем.\n• 1519–1522 гг. — экспедиция Фернана Магеллана впервые обошла вокруг Земли.\n\nПоследствия: сложилась мировая торговля; из Америки в Европу попали картофель, кукуруза, томаты, какао, из Европы в Америку — лошади, пшеница, скот. В то же время коренные народы Америки понесли огромные потери: государства ацтеков и инков были завоёваны, болезни из Европы унесли большую часть населения, расширилась атлантическая работорговля."
+        }},
+        {"type": "example", "text": {
+          "tk": "Magellanyň ekspedisiýasynyň ýoly:\n1) 1519 ý. — 5 gämi we 200-den gowrak adam Ispaniýadan ýola çykdy.\n2) Günorta Amerikanyň günorta ujunda bogaz tapyldy — häzir ol Magellan bogazy diýlip atlandyrylýar.\n3) Gämiler ägirt uly ummana çykdy; howasy ýuwaş bolany üçin Magellan ony «Ýuwaş umman» diýip atlandyrdy.\n4) 1521 ý. — Magellan Filippin adalarynda ýerli ilat bilen çaknyşykda öldi.\n5) Ekspedisiýany Huan Sebastýan Elkano dowam etdi. 1522 ý. diňe bir gämi — «Wiktoriýa» — we 18 adam Ispaniýa gaýdyp geldi.\n\nNetije: Ýeriň şar şekillidigi we ummanlaryň bitewidigi tejribede subut edildi.",
+          "ru": "Путь экспедиции Магеллана:\n1) 1519 г. — 5 кораблей и более 200 человек вышли из Испании.\n2) На юге Южной Америки был найден пролив — сейчас он называется Магеллановым.\n3) Корабли вышли в огромный океан; из-за спокойной погоды Магеллан назвал его «Тихим».\n4) 1521 г. — Магеллан погиб на Филиппинах в столкновении с местными жителями.\n5) Экспедицию продолжил Хуан Себастьян Элькано. В 1522 г. в Испанию вернулся лишь один корабль — «Виктория» — и 18 человек.\n\nВывод: шарообразность Земли и единство Мирового океана были доказаны на практике."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Hindistana Afrikany aýlanyp geçýän deňiz ýoluny kim açdy?", "ru": "Кто открыл морской путь в Индию вокруг Африки?"},
+          "options": [{"tk": "Waskoda Gama", "ru": "Васко да Гама"}, {"tk": "Hristofor Kolumb", "ru": "Христофор Колумб"}, {"tk": "Amerigo Wespuççi", "ru": "Америго Веспуччи"}],
+          "answer": 0,
+          "hint": {"tk": "Ol 1498-nji ýylda Kalikuta ýetdi.", "ru": "Он достиг Каликута в 1498 году."},
+          "explain": {"tk": "Waskoda Gama 1498-nji ýylda Hindistana ýetdi. Kolumb günbatara ýüzüp, Amerika ýetdi.", "ru": "Васко да Гама достиг Индии в 1498 году. Колумб плыл на запад и достиг Америки."}
+        },
+        {"type": "input",
+          "q": {"tk": "Kolumbuň birinji syýahaty haýsy ýylda Amerika ýetdi?", "ru": "В каком году первое плавание Колумба достигло Америки?"},
+          "answer": "1492",
+          "hint": {"tk": "XV asyryň ahyry.", "ru": "Конец XV века."},
+          "explain": {"tk": "1492-nji ýylyň oktýabrynda Kolumbuň gämileri Bagam adalaryna ýetdi.", "ru": "В октябре 1492 года корабли Колумба достигли Багамских островов."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Kolumb özüniň täze materik açandygyna düşünipdir.", "ru": "Колумб понимал, что открыл новый материк."},
+          "answer": false,
+          "hint": {"tk": "Näme üçin ýerli ilaty «hindiler» diýip atlandyrdylar?", "ru": "Почему местных жителей назвали «индейцами»?"},
+          "explain": {"tk": "Ýalňyş. Kolumb ömrüniň ahyryna çenli Aziýa ýetdim öýdüpdir. Täze materik pikirini Amerigo Wespuççi aýdypdyr.", "ru": "Неверно. Колумб до конца жизни считал, что достиг Азии. Мысль о новом материке высказал Америго Веспуччи."}
+        },
+        {"type": "world", "text": {
+          "tk": "Kartoşka Ýewropa Günorta Amerikadan, And daglaryndan XVI asyrda getirildi. Soňra ol dünýäniň iň möhüm azyk ekinleriniň birine öwrüldi.",
+          "ru": "Картофель попал в Европу из Южной Америки, из Анд, в XVI веке. Позже он стал одной из важнейших продовольственных культур мира."
+        }}
+      ]
+    }
+  ]
+}

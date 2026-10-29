@@ -1,0 +1,243 @@
+{
+  "grade": 12,
+  "subject": "physics",
+  "lessons": [
+    {
+      "id": "physics-12-geometric-optics",
+      "grade": 12,
+      "topic": 0,
+      "title": {"tk": "Optika: serpilme, döwülme we linzalar", "ru": "Оптика: отражение, преломление и линзы"},
+      "minutes": 11,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Geometrik optika ýagtylygy göni çyzykly şöhleler hökmünde öwrenýär.\n\n• Serpilme kanuny: düşme burçy serpilme burçuna deň (α = γ).\n• Döwülme kanuny (Snelliusyň kanuny): n₁·sin α = n₂·sin β.\n• Absolýut döwülme görkezijisi: n = c / v (c ≈ 3·10⁸ m/s — wakuumda ýagtylygyň tizligi).\n• Doly içki serpilme: ýagtylyk optiki dykyz gurşawdan seýrek gurşawa geçende, düşme burçy çäk burçundan uly bolsa, ol doly serpilýär: sin α(çäk) = 1/n.\n\nInçe linzanyň formulasy: 1/F = 1/d + 1/f.\n• d — predmetden linza çenli, f — linzadan şekile çenli aralyk, F — fokus aralygy.\n• Optiki güýç: D = 1/F (dioptriýa, dptr).\n• Çyzykly ulaltma: Γ = f/d.",
+          "ru": "Геометрическая оптика рассматривает свет как прямолинейные лучи.\n\n• Закон отражения: угол падения равен углу отражения (α = γ).\n• Закон преломления (закон Снеллиуса): n₁·sin α = n₂·sin β.\n• Абсолютный показатель преломления: n = c / v (c ≈ 3·10⁸ м/с — скорость света в вакууме).\n• Полное внутреннее отражение: при переходе света из оптически более плотной среды в менее плотную при угле падения больше предельного свет полностью отражается: sin α(пред) = 1/n.\n\nФормула тонкой линзы: 1/F = 1/d + 1/f.\n• d — расстояние от предмета до линзы, f — от линзы до изображения, F — фокусное расстояние.\n• Оптическая сила: D = 1/F (диоптрии, дптр).\n• Линейное увеличение: Γ = f/d."}},
+        {"type": "example", "text": {
+          "tk": "Mesele: predmet fokus aralygy F = 10 sm bolan ýygnaýjy linzadan d = 30 sm uzaklykda dur. Şekil nirede bolar we ol nähili?\n\n1) 1/f = 1/F − 1/d = 1/10 − 1/30 = 3/30 − 1/30 = 2/30.\n2) f = 15 sm (f > 0 — şekil hakyky, linzanyň beýleki tarapynda).\n3) Γ = f/d = 15/30 = 0,5.\n\nJogap: şekil hakyky, tersine öwrülen, iki esse kiçeldilen.",
+          "ru": "Задача: предмет находится на расстоянии d = 30 см от собирающей линзы с фокусным расстоянием F = 10 см. Где будет изображение и каково оно?\n\n1) 1/f = 1/F − 1/d = 1/10 − 1/30 = 3/30 − 1/30 = 2/30.\n2) f = 15 см (f > 0 — изображение действительное, по другую сторону линзы).\n3) Γ = f/d = 15/30 = 0,5.\n\nОтвет: изображение действительное, перевёрнутое, уменьшенное в 2 раза."}},
+        {"type": "input",
+          "q": {"tk": "Linzanyň fokus aralygy 0,25 m. Onuň optiki güýji näçe dioptriýa?", "ru": "Фокусное расстояние линзы 0,25 м. Какова её оптическая сила в диоптриях?"},
+          "answer": "4",
+          "hint": {"tk": "D = 1/F, F metrlerde.", "ru": "D = 1/F, F в метрах."},
+          "explain": {"tk": "D = 1/0,25 = 4 dptr.", "ru": "D = 1/0,25 = 4 дптр."}},
+        {"type": "choice",
+          "q": {"tk": "Aýnanyň döwülme görkezijisi 1,5. Aýnada ýagtylygyň tizligi näçä deň?", "ru": "Показатель преломления стекла 1,5. Какова скорость света в стекле?"},
+          "options": ["4,5·10⁸ m/s", "3·10⁸ m/s", "2·10⁸ m/s"],
+          "answer": 2,
+          "hint": {"tk": "v = c / n.", "ru": "v = c / n."},
+          "explain": {"tk": "v = 3·10⁸ / 1,5 = 2·10⁸ m/s. Gurşawda ýagtylyk wakuumdakydan haýal hereket edýär.", "ru": "v = 3·10⁸ / 1,5 = 2·10⁸ м/с. В среде свет движется медленнее, чем в вакууме."}},
+        {"type": "truefalse",
+          "q": {"tk": "Ýagtylyk howadan suwa geçende doly içki serpilme bolup biler.", "ru": "Полное внутреннее отражение может произойти, когда свет переходит из воздуха в воду."},
+          "answer": false,
+          "hint": {"tk": "Doly içki serpilme haýsy ugurda bolýar: dykyz gurşawdan seýrege ýa-da tersine?", "ru": "В каком направлении возможно полное внутреннее отражение: из плотной среды в менее плотную или наоборот?"},
+          "explain": {"tk": "Doly içki serpilme diňe optiki dykyz gurşawdan (suw) seýrek gurşawa (howa) geçende bolýar.", "ru": "Полное внутреннее отражение возможно только при переходе из оптически более плотной среды (вода) в менее плотную (воздух)."}},
+        {"type": "input",
+          "q": {"tk": "Gurşawyň döwülme görkezijisi n = 2. Doly içki serpilmäniň çäk burçy näçe gradus?", "ru": "Показатель преломления среды n = 2. Чему равен предельный угол полного внутреннего отражения в градусах?"},
+          "answer": "30",
+          "hint": {"tk": "sin α(çäk) = 1/n.", "ru": "sin α(пред) = 1/n."},
+          "explain": {"tk": "sin α = 1/2 ⇒ α = 30°.", "ru": "sin α = 1/2 ⇒ α = 30°."}},
+        {"type": "world", "text": {
+          "tk": "Optiki süýümler (internet kabelleri) doly içki serpilmä esaslanýar: ýagtylyk inçe aýna süýüminiň içinde diwarlardan gaýtalanyp serpilip, uly aralyklara geçýär. Çarlz Kao aýna süýümleri arkaly uzak aralyga maglumat ibermek boýunça işleri üçin 2009-njy ýylda fizika boýunça Nobel baýragyny aldy.",
+          "ru": "Оптоволокно (интернет-кабели) основано на полном внутреннем отражении: свет многократно отражается от стенок тонкого стеклянного волокна и проходит большие расстояния. Чарльз Као получил Нобелевскую премию по физике 2009 года за работы по передаче информации по стекловолокну на большие расстояния."}}
+      ]
+    },
+    {
+      "id": "physics-12-wave-optics",
+      "grade": 12,
+      "topic": 1,
+      "title": {"tk": "Ýagtylygyň tolkun häsiýetleri", "ru": "Волновые свойства света"},
+      "minutes": 11,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Ýagtylyk — elektromagnit tolkun. Muny aşakdaky hadysalar subut edýär:\n\n• Interferensiýa — kogerent tolkunlaryň goşulmagy. Ýol tapawudy Δ = kλ bolsa — maksimum (ýagty zolak), Δ = (2k + 1)λ/2 bolsa — minimum (garaňky zolak).\n• Difraksiýa — tolkunyň päsgelçiligiň daşyndan aýlanyp geçmegi. Difraksiýa gözenegi üçin: d·sin φ = kλ (d — gözenegiň periody).\n• Polýarizasiýa — ýagtylygyň kese tolkundygyny görkezýär.\n• Dispersiýa — döwülme görkezijisiniň tolkun uzynlygyna baglylygy; prizmada ak ýagtylyk spektre dargaýar.\n\nÝungyň tejribesi (iki ýaryk): zolaklaryň arasyndaky aralyk Δx = λL/d (L — ekrana çenli aralyk, d — ýaryklaryň arasy).\n\nGörünýän ýagtylyk: takmynan 380–750 nm.",
+          "ru": "Свет — электромагнитная волна. Это доказывают следующие явления:\n\n• Интерференция — сложение когерентных волн. При разности хода Δ = kλ — максимум (светлая полоса), при Δ = (2k + 1)λ/2 — минимум (тёмная полоса).\n• Дифракция — огибание волной препятствий. Для дифракционной решётки: d·sin φ = kλ (d — период решётки).\n• Поляризация — показывает, что свет — поперечная волна.\n• Дисперсия — зависимость показателя преломления от длины волны; в призме белый свет разлагается в спектр.\n\nОпыт Юнга (две щели): расстояние между полосами Δx = λL/d (L — расстояние до экрана, d — расстояние между щелями).\n\nВидимый свет: примерно 380–750 нм."}},
+        {"type": "example", "text": {
+          "tk": "Mesele: difraksiýa gözeneginde 1 mm-de 500 çyzyk bar. Oňa λ = 600 nm ýagtylyk düşýär. Birinji maksimumyň burçuny we iň uly tertibi tapyň.\n\n1) Period: d = 1 mm / 500 = 2·10⁻⁶ m.\n2) sin φ₁ = λ/d = 6·10⁻⁷ / 2·10⁻⁶ = 0,3 ⇒ φ₁ ≈ 17,5°.\n3) sin φ ≤ 1 ⇒ k ≤ d/λ = 3,33.\n4) Iň uly tertip: k = 3.",
+          "ru": "Задача: дифракционная решётка имеет 500 штрихов на 1 мм. На неё падает свет с λ = 600 нм. Найдите угол первого максимума и наибольший порядок.\n\n1) Период: d = 1 мм / 500 = 2·10⁻⁶ м.\n2) sin φ₁ = λ/d = 6·10⁻⁷ / 2·10⁻⁶ = 0,3 ⇒ φ₁ ≈ 17,5°.\n3) sin φ ≤ 1 ⇒ k ≤ d/λ = 3,33.\n4) Наибольший порядок: k = 3."}},
+        {"type": "choice",
+          "q": {"tk": "Iki kogerent tolkunyň ýol tapawudy 1,5λ. Bu nokatda näme synlanýar?", "ru": "Разность хода двух когерентных волн равна 1,5λ. Что наблюдается в этой точке?"},
+          "options": [{"tk": "Maksimum", "ru": "Максимум"}, {"tk": "Minimum", "ru": "Минимум"}, {"tk": "Interferensiýa bolmaýar", "ru": "Интерференции нет"}],
+          "answer": 1,
+          "hint": {"tk": "1,5λ = 3·λ/2 — ýarym tolkunlaryň täk sany.", "ru": "1,5λ = 3·λ/2 — нечётное число полуволн."},
+          "explain": {"tk": "Δ = (2k + 1)λ/2, k = 1 bolanda. Tolkunlar garşylykly fazada goşulýar — minimum.", "ru": "Δ = (2k + 1)λ/2 при k = 1. Волны складываются в противофазе — минимум."}},
+        {"type": "input",
+          "q": {"tk": "Ýungyň tejribesinde λ = 500 nm, L = 2 m, d = 0,5 mm. Zolaklaryň arasyndaky aralyk näçe mm?", "ru": "В опыте Юнга λ = 500 нм, L = 2 м, d = 0,5 мм. Каково расстояние между полосами в мм?"},
+          "answer": "2",
+          "hint": {"tk": "Δx = λL/d, ähli ululyklary metre geçiriň.", "ru": "Δx = λL/d, переведите все величины в метры."},
+          "explain": {"tk": "Δx = 5·10⁻⁷·2 / 5·10⁻⁴ = 2·10⁻³ m = 2 mm.", "ru": "Δx = 5·10⁻⁷·2 / 5·10⁻⁴ = 2·10⁻³ м = 2 мм."}},
+        {"type": "truefalse",
+          "q": {"tk": "Polýarizasiýa hadysasy ýagtylygyň kese tolkundygyny subut edýär.", "ru": "Явление поляризации доказывает, что свет — поперечная волна."},
+          "answer": true,
+          "hint": {"tk": "Uzyn tolkunlar (meselem, howadaky ses) polýarizasiýa bolup bilýärmi?", "ru": "Могут ли продольные волны (например, звук в воздухе) поляризоваться?"},
+          "explain": {"tk": "Diňe kese tolkunlarda yrgyldylaryň ugry saýlanyp bilner. Uzyn tolkunlar polýarizasiýa bolmaýar.", "ru": "Только у поперечных волн можно выделить направление колебаний. Продольные волны не поляризуются."}},
+        {"type": "choice",
+          "q": {"tk": "Ak ýagtylygyň prizmada reňklere dargamagy nähili atlandyrylýar?", "ru": "Как называется разложение белого света призмой на цвета?"},
+          "options": [{"tk": "Dispersiýa", "ru": "Дисперсия"}, {"tk": "Polýarizasiýa", "ru": "Поляризация"}, {"tk": "Serpilme", "ru": "Отражение"}],
+          "answer": 0,
+          "hint": {"tk": "Dürli reňkler üçin döwülme görkezijisi dürli.", "ru": "Для разных цветов показатель преломления разный."},
+          "explain": {"tk": "Dispersiýa: n tolkun uzynlygyna bagly, şonuň üçin her reňk dürli burç bilen döwülýär. Göýdürüm hem şeýle emele gelýär.", "ru": "Дисперсия: n зависит от длины волны, поэтому каждый цвет преломляется под своим углом. Так же образуется радуга."}},
+        {"type": "world", "text": {
+          "tk": "XIX asyryň başynda Tomas Ýung iki ýaryk bilen geçiren tejribesinde ekranda ýagty we garaňky zolaklary gördi. Bu ýagtylygyň tolkun tebigatyny ýüze çykardy. Sabyn köpürjiklerindäki we suwuň ýüzündäki ýagyň reňkli öwüşginleri hem inçe gatlaklarda interferensiýanyň netijesidir.",
+          "ru": "В начале XIX века Томас Юнг в опыте с двумя щелями увидел на экране чередование светлых и тёмных полос. Это показало волновую природу света. Радужные переливы мыльных пузырей и масляной плёнки на воде — тоже результат интерференции в тонких плёнках."}}
+      ]
+    },
+    {
+      "id": "physics-12-relativity",
+      "grade": 12,
+      "topic": 2,
+      "title": {"tk": "Ýörite otnositellik nazaryýeti", "ru": "Специальная теория относительности"},
+      "minutes": 11,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "1905-nji ýylda Albert Eýnşteýn ýörite otnositellik nazaryýetini (ÝON) döretdi. Onuň iki postulaty:\n1) Ähli inersial hasaplaýyş ulgamlarynda fizikanyň kanunlary birmeňzeş.\n2) Wakuumda ýagtylygyň tizligi c ≈ 3·10⁸ m/s ähli inersial ulgamlarda birmeňzeş we çeşmäniň tizligine bagly däl.\n\nNetijeler (γ = 1/√(1 − v²/c²) — Lorens faktory):\n• Wagtyň haýallamagy: Δt = γ·Δt₀ (Δt₀ — hususy wagt).\n• Uzynlygyň gysgalmagy: l = l₀/γ.\n• Massa we energiýanyň baglanyşygy: E₀ = mc².\n• Massasy bolan jisim c tizlige ýetip bilmeýär.",
+          "ru": "В 1905 году Альберт Эйнштейн создал специальную теорию относительности (СТО). Её два постулата:\n1) Во всех инерциальных системах отсчёта законы физики одинаковы.\n2) Скорость света в вакууме c ≈ 3·10⁸ м/с одинакова во всех инерциальных системах и не зависит от скорости источника.\n\nСледствия (γ = 1/√(1 − v²/c²) — лоренц-фактор):\n• Замедление времени: Δt = γ·Δt₀ (Δt₀ — собственное время).\n• Сокращение длины: l = l₀/γ.\n• Связь массы и энергии: E₀ = mc².\n• Тело с массой не может достичь скорости c."}},
+        {"type": "example", "text": {
+          "tk": "Mesele: kosmos gämisi v = 0,8c tizlik bilen uçýar. Gämidäki sagada görä ýol 3 ýyl dowam etdi. Ýerdäki synçy üçin ol näçe dowam etdi?\n\n1) v²/c² = 0,64; 1 − 0,64 = 0,36; √0,36 = 0,6.\n2) γ = 1/0,6 = 5/3.\n3) Δt = γ·Δt₀ = (5/3)·3 = 5 ýyl.\n\nŞol tizlikde 10 m uzynlykdaky gämi Ýerden ölçelende 10·0,6 = 6 m bolup görüner.",
+          "ru": "Задача: космический корабль летит со скоростью v = 0,8c. По часам корабля полёт длился 3 года. Сколько он длился для наблюдателя на Земле?\n\n1) v²/c² = 0,64; 1 − 0,64 = 0,36; √0,36 = 0,6.\n2) γ = 1/0,6 = 5/3.\n3) Δt = γ·Δt₀ = (5/3)·3 = 5 лет.\n\nПри той же скорости корабль длиной 10 м при измерении с Земли будет иметь длину 10·0,6 = 6 м."}},
+        {"type": "input",
+          "q": {"tk": "v = 0,6c tizlikde Lorens faktory γ näçä deň?", "ru": "Чему равен лоренц-фактор γ при скорости v = 0,6c?"},
+          "answer": "1.25|1,25|5/4",
+          "hint": {"tk": "1 − 0,36 = 0,64, onuň kwadrat köki 0,8.", "ru": "1 − 0,36 = 0,64, квадратный корень из него 0,8."},
+          "explain": {"tk": "γ = 1/√(1 − 0,36) = 1/0,8 = 1,25.", "ru": "γ = 1/√(1 − 0,36) = 1/0,8 = 1,25."}},
+        {"type": "choice",
+          "q": {"tk": "1 g maddanyň dynçlyk energiýasy takmynan näçä deň?", "ru": "Чему примерно равна энергия покоя 1 г вещества?"},
+          "options": ["9·10¹³ J", "3·10⁵ J", "9·10¹⁶ J"],
+          "answer": 0,
+          "hint": {"tk": "E = mc², m = 0,001 kg, c² = 9·10¹⁶ m²/s².", "ru": "E = mc², m = 0,001 кг, c² = 9·10¹⁶ м²/с²."},
+          "explain": {"tk": "E = 10⁻³·9·10¹⁶ = 9·10¹³ J. 9·10¹⁶ J — 1 kg üçin.", "ru": "E = 10⁻³·9·10¹⁶ = 9·10¹³ Дж. 9·10¹⁶ Дж — это для 1 кг."}},
+        {"type": "truefalse",
+          "q": {"tk": "Ýeterlik uly güýç berilse, massasy bolan jisimi ýagtylygyň tizligine çenli tizlendirip bolar.", "ru": "Если приложить достаточно большую силу, тело с массой можно разогнать до скорости света."},
+          "answer": false,
+          "hint": {"tk": "v → c bolanda γ we energiýa näme bolýar?", "ru": "Что происходит с γ и энергией при v → c?"},
+          "explain": {"tk": "v → c bolanda γ tükeniksizlige ymtylýar, ýagny tükeniksiz energiýa gerek bolardy. Şonuň üçin bu mümkin däl.", "ru": "При v → c γ стремится к бесконечности, то есть потребовалась бы бесконечная энергия. Поэтому это невозможно."}},
+        {"type": "input",
+          "q": {"tk": "Hususy uzynlygy 10 m bolan çybyk 0,8c tizlik bilen hereket edýär. Hereketsiz synçy üçin onuň uzynlygy näçe metr?", "ru": "Стержень с собственной длиной 10 м движется со скоростью 0,8c. Какова его длина для неподвижного наблюдателя в метрах?"},
+          "answer": "6",
+          "hint": {"tk": "l = l₀·√(1 − v²/c²).", "ru": "l = l₀·√(1 − v²/c²)."},
+          "explain": {"tk": "l = 10·√(1 − 0,64) = 10·0,6 = 6 m.", "ru": "l = 10·√(1 − 0,64) = 10·0,6 = 6 м."}},
+        {"type": "world", "text": {
+          "tk": "GPS hemralaryndaky atom sagatlary otnositellik täsirleri sebäpli Ýerdäki sagatlardan günde takmynan 38 mikrosekunt öňe gidýär (tizlik olary haýalladýar, gowşak agyrlyk güýji bolsa çaltlandyrýar). Bu düzediş girizilmese, ýeriň kesgitlenmegindäki ýalňyşlyk her gün kilometrlerçe artardy.",
+          "ru": "Атомные часы на спутниках GPS из-за эффектов относительности уходят вперёд относительно земных примерно на 38 микросекунд в сутки (скорость их замедляет, а более слабая гравитация ускоряет). Без этой поправки ошибка определения координат росла бы на километры каждый день."}}
+      ]
+    },
+    {
+      "id": "physics-12-quantum-physics",
+      "grade": 12,
+      "topic": 3,
+      "title": {"tk": "Kwant fizikasy: fotonlar we fotoeffekt", "ru": "Квантовая физика: фотоны и фотоэффект"},
+      "minutes": 11,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "1900-nji ýylda Maks Plank ýagtylygyň porsiýalar — kwantlar bilen şöhlelenýändigini çaklady. Fotonyň energiýasy:\nE = hν = hc/λ, h ≈ 6,63·10⁻³⁴ J·s — Plankyň hemişeligi.\nFotonyň impulsy: p = h/λ.\n\nFotoeffekt — ýagtylygyň täsirinde metaldan elektronlaryň çykmagy. Eýnşteýniň deňlemesi (1905):\nhν = A + mv²/2 (A — çykyş işi).\n• Elektronlaryň iň uly kinetik energiýasy ýagtylygyň ýygylygyna bagly, intensiwligine bagly däl.\n• Intensiwlik diňe çykýan elektronlaryň sanyny kesgitleýär.\n• Gyzyl araçäk: ν(min) = A/h — ondan pes ýygylykda fotoeffekt bolmaýar.\n\nKorpuskulýar-tolkun dualizmi: de Broýl (1924) her bölejigiň tolkun häsiýetiniň bardygyny görkezdi: λ = h/p.\n\n1 eV = 1,6·10⁻¹⁹ J.",
+          "ru": "В 1900 году Макс Планк предположил, что свет излучается порциями — квантами. Энергия фотона:\nE = hν = hc/λ, h ≈ 6,63·10⁻³⁴ Дж·с — постоянная Планка.\nИмпульс фотона: p = h/λ.\n\nФотоэффект — вырывание электронов из металла под действием света. Уравнение Эйнштейна (1905):\nhν = A + mv²/2 (A — работа выхода).\n• Максимальная кинетическая энергия электронов зависит от частоты света, а не от интенсивности.\n• Интенсивность определяет лишь число вырванных электронов.\n• Красная граница: ν(min) = A/h — при меньшей частоте фотоэффекта нет.\n\nКорпускулярно-волновой дуализм: де Бройль (1924) показал, что у любой частицы есть волновые свойства: λ = h/p.\n\n1 эВ = 1,6·10⁻¹⁹ Дж."}},
+        {"type": "example", "text": {
+          "tk": "Mesele: tolkun uzynlygy λ = 500 nm bolan fotonyň energiýasyny tapyň.\n\n1) E = hc/λ = 6,63·10⁻³⁴ · 3·10⁸ / 5·10⁻⁷.\n2) Sanawjy: 19,89·10⁻²⁶ ≈ 1,99·10⁻²⁵.\n3) E ≈ 1,99·10⁻²⁵ / 5·10⁻⁷ ≈ 3,98·10⁻¹⁹ J.\n4) eV-da: 3,98·10⁻¹⁹ / 1,6·10⁻¹⁹ ≈ 2,5 eV.\n\nEger metalyň çykyş işi 2 eV bolsa, elektronlaryň iň uly kinetik energiýasy ≈ 0,5 eV bolar.",
+          "ru": "Задача: найдите энергию фотона с длиной волны λ = 500 нм.\n\n1) E = hc/λ = 6,63·10⁻³⁴ · 3·10⁸ / 5·10⁻⁷.\n2) Числитель: 19,89·10⁻²⁶ ≈ 1,99·10⁻²⁵.\n3) E ≈ 1,99·10⁻²⁵ / 5·10⁻⁷ ≈ 3,98·10⁻¹⁹ Дж.\n4) В эВ: 3,98·10⁻¹⁹ / 1,6·10⁻¹⁹ ≈ 2,5 эВ.\n\nЕсли работа выхода металла 2 эВ, максимальная кинетическая энергия электронов ≈ 0,5 эВ."}},
+        {"type": "input",
+          "q": {"tk": "Metalyň çykyş işi 2 eV. Oňa energiýasy 5 eV bolan fotonlar düşýär. Elektronlaryň iň uly kinetik energiýasy näçe eV?", "ru": "Работа выхода металла 2 эВ. На него падают фотоны с энергией 5 эВ. Какова максимальная кинетическая энергия электронов в эВ?"},
+          "answer": "3",
+          "hint": {"tk": "Fotonyň energiýasy = çykyş işi + kinetik energiýa.", "ru": "Энергия фотона = работа выхода + кинетическая энергия."},
+          "explain": {"tk": "E(k) = hν − A = 5 − 2 = 3 eV.", "ru": "E(к) = hν − A = 5 − 2 = 3 эВ."}},
+        {"type": "choice",
+          "q": {"tk": "Fotoelektronlaryň iň uly kinetik energiýasy nämä bagly?", "ru": "От чего зависит максимальная кинетическая энергия фотоэлектронов?"},
+          "options": [{"tk": "Ýagtylygyň intensiwligine", "ru": "От интенсивности света"}, {"tk": "Ýagtylandyrmagyň dowamlylygyna", "ru": "От длительности освещения"}, {"tk": "Ýagtylygyň ýygylygyna", "ru": "От частоты света"}],
+          "answer": 2,
+          "hint": {"tk": "Eýnşteýniň deňlemesine serediň: hν = A + E(k).", "ru": "Посмотрите на уравнение Эйнштейна: hν = A + E(к)."},
+          "explain": {"tk": "E(k) = hν − A — diňe ýygylyga we metalyň görnüşine bagly. Intensiwlik elektronlaryň sanyny üýtgedýär.", "ru": "E(к) = hν − A — зависит только от частоты и вида металла. Интенсивность меняет число электронов."}},
+        {"type": "truefalse",
+          "q": {"tk": "Gyzyl araçäkden ýokary ýygylykda ýagtylygyň intensiwligi artdyrylsa, fotoelektronlaryň sany artýar.", "ru": "Если при частоте выше красной границы увеличить интенсивность света, число фотоэлектронов возрастёт."},
+          "answer": true,
+          "hint": {"tk": "Intensiwlik — bir sekuntda düşýän fotonlaryň sany.", "ru": "Интенсивность — это число фотонов, падающих за секунду."},
+          "explain": {"tk": "Fotonlar köp bolsa, olar köp elektrony çykarýar. Ýöne her elektronyň energiýasy üýtgemeýär.", "ru": "Больше фотонов — больше вырванных электронов. Но энергия каждого электрона не меняется."}},
+        {"type": "choice",
+          "q": {"tk": "Elektronlaryň tolkun häsiýetini haýsy tejribe tassyklady?", "ru": "Какой опыт подтвердил волновые свойства электронов?"},
+          "options": [{"tk": "Elektronlaryň kristalda difraksiýasy", "ru": "Дифракция электронов на кристалле"}, {"tk": "Rezerfordyň tejribesi", "ru": "Опыт Резерфорда"}, {"tk": "Milikeniň tejribesi", "ru": "Опыт Милликена"}],
+          "answer": 0,
+          "hint": {"tk": "Difraksiýa — tolkunlara mahsus hadysa.", "ru": "Дифракция — явление, характерное для волн."},
+          "explain": {"tk": "1927-nji ýylda Dewisson we Džermer elektronlaryň kristalda difraksiýasyny synladylar — bu de Broýlyň gipotezasyny tassyklady.", "ru": "В 1927 году Дэвиссон и Джермер наблюдали дифракцию электронов на кристалле — это подтвердило гипотезу де Бройля."}},
+        {"type": "world", "text": {
+          "tk": "Albert Eýnşteýn 1921-nji ýyl üçin fizika boýunça Nobel baýragyny otnositellik nazaryýeti üçin däl-de, fotoeffektiň kanunyny açandygy üçin aldy. Fotoeffekt häzirki wagtda gün panellerinde, fotokameralaryň datçiklerinde we awtomatik gapylaryň datçiklerinde ulanylýar.",
+          "ru": "Альберт Эйнштейн получил Нобелевскую премию по физике за 1921 год не за теорию относительности, а за открытие закона фотоэффекта. Сегодня фотоэффект используется в солнечных панелях, матрицах фотокамер и датчиках автоматических дверей."}}
+      ]
+    },
+    {
+      "id": "physics-12-atomic-nucleus",
+      "grade": 12,
+      "topic": 4,
+      "title": {"tk": "Atom ýadrosy we radioaktiwlik", "ru": "Атомное ядро и радиоактивность"},
+      "minutes": 11,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Atom ýadrosy protonlardan we neýtronlardan (nuklonlardan) durýar.\n• Z — protonlaryň sany (zarýad sany), N — neýtronlaryň sany, A = Z + N — massa sany.\n• Izotoplar — Z-i birmeňzeş, N-i dürli bolan ýadrolar (meselem, ¹²C we ¹⁴C).\n• Massa defekti: ýadronyň massasy onuň nuklonlarynyň massalarynyň jeminden kiçi. Baglanyşyk energiýasy: E = Δm·c².\n\nRadioaktiw dargama:\n• α-dargama: ýadro ⁴He çykarýar → Z − 2, A − 4.\n• β⁻-dargama: neýtron protona öwrülýär, elektron çykýar → Z + 1, A üýtgemeýär.\n• γ-şöhlelenme: ýokary energiýaly foton, Z we A üýtgemeýär.\n\nÝarym dargama döwri T: N = N₀·2^(−t/T).\n\nÝadro reaksiýalary: agyr ýadrolaryň bölünmegi (AES-de uran) we ýeňil ýadrolaryň sintezi (Günde wodorodyň geliýe öwrülmegi).",
+          "ru": "Атомное ядро состоит из протонов и нейтронов (нуклонов).\n• Z — число протонов (зарядовое число), N — число нейтронов, A = Z + N — массовое число.\n• Изотопы — ядра с одинаковым Z, но разным N (например, ¹²C и ¹⁴C).\n• Дефект массы: масса ядра меньше суммы масс его нуклонов. Энергия связи: E = Δm·c².\n\nРадиоактивный распад:\n• α-распад: ядро испускает ⁴He → Z − 2, A − 4.\n• β⁻-распад: нейтрон превращается в протон, вылетает электрон → Z + 1, A не меняется.\n• γ-излучение: фотон высокой энергии, Z и A не меняются.\n\nПериод полураспада T: N = N₀·2^(−t/T).\n\nЯдерные реакции: деление тяжёлых ядер (уран на АЭС) и синтез лёгких ядер (превращение водорода в гелий на Солнце)."}},
+        {"type": "example", "text": {
+          "tk": "Mesele 1: ²³⁸U (Z = 92) α-dargamany başdan geçirýär. Nähili ýadro emele gelýär?\nZ = 92 − 2 = 90 (torii), A = 238 − 4 = 234 → ²³⁴Th.\n\nMesele 2: radioaktiw maddanyň 80 g-y bar, T = 5 gün. 15 günden soň näçe galar?\n1) t/T = 15/5 = 3 ýarym dargama döwri.\n2) m = 80·2⁻³ = 80/8 = 10 g.",
+          "ru": "Задача 1: ²³⁸U (Z = 92) испытывает α-распад. Какое ядро образуется?\nZ = 92 − 2 = 90 (торий), A = 238 − 4 = 234 → ²³⁴Th.\n\nЗадача 2: имеется 80 г радиоактивного вещества, T = 5 суток. Сколько останется через 15 суток?\n1) t/T = 15/5 = 3 периода полураспада.\n2) m = 80·2⁻³ = 80/8 = 10 г."}},
+        {"type": "input",
+          "q": {"tk": "Uglerod-14 (¹⁴C, Z = 6) ýadrosynda näçe neýtron bar?", "ru": "Сколько нейтронов в ядре углерода-14 (¹⁴C, Z = 6)?"},
+          "answer": "8",
+          "hint": {"tk": "N = A − Z.", "ru": "N = A − Z."},
+          "explain": {"tk": "N = 14 − 6 = 8.", "ru": "N = 14 − 6 = 8."}},
+        {"type": "choice",
+          "q": {"tk": "β⁻-dargamada ýadronyň zarýad sany Z nähili üýtgeýär?", "ru": "Как меняется зарядовое число Z ядра при β⁻-распаде?"},
+          "options": [{"tk": "2-ä kemelýär", "ru": "Уменьшается на 2"}, {"tk": "1-e artýar", "ru": "Увеличивается на 1"}, {"tk": "Üýtgemeýär", "ru": "Не меняется"}],
+          "answer": 1,
+          "hint": {"tk": "Ýadroda neýtron näme öwrülýär?", "ru": "Во что превращается нейтрон в ядре?"},
+          "explain": {"tk": "Neýtron protona öwrülýär (n → p + e⁻ + antineýtrino), şonuň üçin Z bir birlik artýar, A bolsa üýtgemeýär.", "ru": "Нейтрон превращается в протон (n → p + e⁻ + антинейтрино), поэтому Z увеличивается на 1, а A не меняется."}},
+        {"type": "input",
+          "q": {"tk": "Üç ýarym dargama döwründen soň radioaktiw ýadrolaryň haýsy bölegi galýar? (drob görnüşinde)", "ru": "Какая доля радиоактивных ядер останется через три периода полураспада? (в виде дроби)"},
+          "answer": "1/8|0.125|0,125|12.5%|12,5%",
+          "hint": {"tk": "Her döwürde ýadrolaryň sany iki esse azalýar.", "ru": "За каждый период число ядер уменьшается вдвое."},
+          "explain": {"tk": "½·½·½ = 1/8, ýagny 12,5 %.", "ru": "½·½·½ = 1/8, то есть 12,5 %."}},
+        {"type": "truefalse",
+          "q": {"tk": "Günüň energiýasynyň esasy çeşmesi — wodorod ýadrolarynyň geliý ýadrolaryna sintezi.", "ru": "Главный источник энергии Солнца — синтез ядер водорода в ядра гелия."},
+          "answer": true,
+          "hint": {"tk": "Günüň merkezinde temperatura we basyş juda ýokary.", "ru": "В центре Солнца очень высокие температура и давление."},
+          "explain": {"tk": "Günüň ýadrosynda termoýadro sintezi bolup geçýär: dört proton netijede bir geliý-4 ýadrosyna öwrülýär we massa defekti energiýa hökmünde bölünip çykýar.", "ru": "В ядре Солнца идёт термоядерный синтез: четыре протона в итоге превращаются в ядро гелия-4, а дефект массы выделяется в виде энергии."}},
+        {"type": "world", "text": {
+          "tk": "Radioaktiwligi 1896-njy ýylda Anri Bekkerel uran duzlarynyň gara kagyza dolanan fotoplastinkany garaldýandygyny görüp açdy. Soňra Mariýa we Pýer Kýuriler poloniý we radiý elementlerini açdylar. Bekkerel we Kýuriler 1903-nji ýylda Nobel baýragyny bölüşdiler.",
+          "ru": "Радиоактивность открыл Анри Беккерель в 1896 году, заметив, что соли урана засвечивают фотопластинку, завёрнутую в чёрную бумагу. Затем Мария и Пьер Кюри открыли элементы полоний и радий. Беккерель и супруги Кюри разделили Нобелевскую премию 1903 года."}}
+      ]
+    },
+    {
+      "id": "physics-12-astrophysics",
+      "grade": 12,
+      "topic": 5,
+      "title": {"tk": "Astrofizika: ýyldyzlar we Älem", "ru": "Астрофизика: звёзды и Вселенная"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Astrofizika asman jisimleriniň fiziki tebigatyny öwrenýär.\n\n• Aralyk birlikleri: astronomik birlik (a.b. ≈ 150 mln km — Ýerden Güne çenli), ýagtylyk ýyly (ýagtylygyň bir ýylda geçýän ýoly ≈ 9,46·10¹² km), parsek (≈ 3,26 ýagtylyk ýyly).\n• Ýyldyzlar termoýadro sintezi arkaly şöhle saçýar. Gersşprung–Rassel diagrammasy ýyldyzlaryň ýagtylygyny we temperaturasyny baglanyşdyrýar; köp ýyldyzlar (Gün hem) Esasy yzygiderlikde ýerleşýär.\n• Ýyldyzyň ömrüniň soňy massasyna bagly: Gün ýaly ýyldyzlar → gyzyl gigant → ak mitti; uly ýyldyzlar → üstün täze ýyldyz → neýtron ýyldyzy ýa-da gara deşik.\n• Habblyň kanuny: galaktikalar bizden uzaklaşýar, v = H₀·r, H₀ ≈ 70 km/(s·Mpk).\n• Uly partlama nazaryýetine görä Älemiň ýaşy ≈ 13,8 mlrd ýyl.",
+          "ru": "Астрофизика изучает физическую природу небесных тел.\n\n• Единицы расстояния: астрономическая единица (а.е. ≈ 150 млн км — от Земли до Солнца), световой год (путь света за год ≈ 9,46·10¹² км), парсек (≈ 3,26 светового года).\n• Звёзды светят за счёт термоядерного синтеза. Диаграмма Герцшпрунга–Рассела связывает светимость и температуру звёзд; большинство звёзд (и Солнце) находятся на Главной последовательности.\n• Конец жизни звезды зависит от массы: звёзды как Солнце → красный гигант → белый карлик; массивные звёзды → сверхновая → нейтронная звезда или чёрная дыра.\n• Закон Хаббла: галактики удаляются от нас, v = H₀·r, H₀ ≈ 70 км/(с·Мпк).\n• По теории Большого взрыва возраст Вселенной ≈ 13,8 млрд лет."}},
+        {"type": "example", "text": {
+          "tk": "Mesele: galaktika bizden r = 100 Mpk uzaklykda. Habblyň kanunyna görä ol nähili tizlik bilen uzaklaşýar?\n\nv = H₀·r = 70 · 100 = 7000 km/s.\n\nTers mesele: galaktika 3500 km/s tizlik bilen uzaklaşýar. Oňa çenli aralyk: r = v/H₀ = 3500/70 = 50 Mpk.",
+          "ru": "Задача: галактика находится на расстоянии r = 100 Мпк. С какой скоростью она удаляется по закону Хаббла?\n\nv = H₀·r = 70 · 100 = 7000 км/с.\n\nОбратная задача: галактика удаляется со скоростью 3500 км/с. Расстояние до неё: r = v/H₀ = 3500/70 = 50 Мпк."}},
+        {"type": "choice",
+          "q": {"tk": "Günüň ýagtylygy Ýere takmynan näçe wagtda ýetýär?", "ru": "За какое время примерно свет Солнца доходит до Земли?"},
+          "options": [{"tk": "8 sekunt", "ru": "8 секунд"}, {"tk": "8 minut", "ru": "8 минут"}, {"tk": "8 sagat", "ru": "8 часов"}],
+          "answer": 1,
+          "hint": {"tk": "t = 1,5·10¹¹ m / 3·10⁸ m/s.", "ru": "t = 1,5·10¹¹ м / 3·10⁸ м/с."},
+          "explain": {"tk": "t = 500 s ≈ 8,3 minut.", "ru": "t = 500 с ≈ 8,3 минуты."}},
+        {"type": "input",
+          "q": {"tk": "Galaktika 14 000 km/s tizlik bilen uzaklaşýar. H₀ = 70 km/(s·Mpk) bolsa, oňa çenli aralyk näçe Mpk?", "ru": "Галактика удаляется со скоростью 14 000 км/с. При H₀ = 70 км/(с·Мпк) каково расстояние до неё в Мпк?"},
+          "answer": "200",
+          "hint": {"tk": "r = v / H₀.", "ru": "r = v / H₀."},
+          "explain": {"tk": "r = 14 000 / 70 = 200 Mpk.", "ru": "r = 14 000 / 70 = 200 Мпк."}},
+        {"type": "truefalse",
+          "q": {"tk": "Gün ömrüniň soňunda gara deşige öwrüler.", "ru": "В конце жизни Солнце превратится в чёрную дыру."},
+          "answer": false,
+          "hint": {"tk": "Gara deşik üçin ýyldyzyň massasy näçe bolmaly?", "ru": "Какой должна быть масса звезды, чтобы образовалась чёрная дыра?"},
+          "explain": {"tk": "Gara deşik diňe Günden ençeme esse agyr ýyldyzlardan emele gelýär. Gün gyzyl gigant bolup, soňra ak mittä öwrüler.", "ru": "Чёрные дыры образуются только из звёзд, во много раз массивнее Солнца. Солнце станет красным гигантом, а затем белым карликом."}},
+        {"type": "choice",
+          "q": {"tk": "Ýagtylyk ýyly nämäniň ölçeg birligi?", "ru": "Единицей чего является световой год?"},
+          "options": [{"tk": "Aralygyň", "ru": "Расстояния"}, {"tk": "Wagtyň", "ru": "Времени"}, {"tk": "Ýagtylyk güýjüniň", "ru": "Силы света"}],
+          "answer": 0,
+          "hint": {"tk": "Adynda «ýyl» bar, ýöne ol ýagtylygyň geçýän ýoly.", "ru": "В названии есть «год», но это путь, пройденный светом."},
+          "explain": {"tk": "Ýagtylyk ýyly — ýagtylygyň wakuumda bir ýylda geçýän aralygy, takmynan 9,46 trillion km.", "ru": "Световой год — расстояние, которое свет проходит в вакууме за год, около 9,46 трлн км."}},
+        {"type": "world", "text": {
+          "tk": "2019-njy ýylda «Event Horizon Telescope» taslamasy gara deşigiň ilkinji suratyny — M87 galaktikasynyň merkezindäki gara deşigiň «kölegesini» halka çap etdi. Munuň üçin dünýäniň dürli ýerlerindäki radioteleskoplar bir ägirt uly teleskop ýaly bilelikde işledildi.",
+          "ru": "В 2019 году проект «Event Horizon Telescope» опубликовал первое изображение чёрной дыры — «тень» чёрной дыры в центре галактики M87. Для этого радиотелескопы в разных точках мира работали вместе как один гигантский телескоп."}}
+      ]
+    }
+  ]
+}

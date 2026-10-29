@@ -1,0 +1,245 @@
+{
+  "grade": 10,
+  "subject": "math",
+  "lessons": [
+    {
+      "id": "math-10-trigonometric-functions",
+      "grade": 10,
+      "topic": 0,
+      "title": {"tk": "Trigonometrik funksiýalar", "ru": "Тригонометрические функции"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Birlik töweregi (radiusy 1, merkezi koordinata başlangyjynda) alalyň. α burçuna degişli nokadyň koordinatalary (x; y) bolsa:\n• cos α = x\n• sin α = y\n• tg α = sin α / cos α (cos α ≠ 0)\n• ctg α = cos α / sin α (sin α ≠ 0)\n\nBurçlar köplenç radianda ölçenýär: 180° = π rad.\nEsasy toždestwo: sin²α + cos²α = 1.\n\nFunksiýalaryň häsiýetleri:\n• y = sin x we y = cos x: kesgitleniş ýaýlasy ähli hakyky sanlar, bahalar köplügi [−1; 1], periody 2π.\n• y = tg x: periody π, x = π/2 + πn nokatlarda kesgitlenmedik.\n• sin x — täk funksiýa: sin(−x) = −sin x; cos x — jübüt funksiýa: cos(−x) = cos x.",
+          "ru": "Возьмём единичную окружность (радиус 1, центр в начале координат). Если точка, соответствующая углу α, имеет координаты (x; y), то:\n• cos α = x\n• sin α = y\n• tg α = sin α / cos α (cos α ≠ 0)\n• ctg α = cos α / sin α (sin α ≠ 0)\n\nУглы обычно измеряют в радианах: 180° = π рад.\nОсновное тождество: sin²α + cos²α = 1.\n\nСвойства функций:\n• y = sin x и y = cos x: область определения — все действительные числа, множество значений [−1; 1], период 2π.\n• y = tg x: период π, не определена в точках x = π/2 + πn.\n• sin x — нечётная функция: sin(−x) = −sin x; cos x — чётная: cos(−x) = cos x."}},
+        {"type": "example", "text": {
+          "tk": "Mesele: sin α = 3/5 we α II çärýekde ýatýar. cos α we tg α tapyň.\n\n1) sin²α + cos²α = 1 ⇒ cos²α = 1 − 9/25 = 16/25.\n2) cos α = ±4/5. II çärýekde x < 0, şonuň üçin cos α = −4/5.\n3) tg α = sin α / cos α = (3/5) : (−4/5) = −3/4.\n\nJogap: cos α = −0,8; tg α = −0,75.",
+          "ru": "Задача: sin α = 3/5, α лежит во II четверти. Найдите cos α и tg α.\n\n1) sin²α + cos²α = 1 ⇒ cos²α = 1 − 9/25 = 16/25.\n2) cos α = ±4/5. Во II четверти x < 0, поэтому cos α = −4/5.\n3) tg α = sin α / cos α = (3/5) : (−4/5) = −3/4.\n\nОтвет: cos α = −0,8; tg α = −0,75."}},
+        {"type": "theory", "text": {
+          "tk": "Ýatda saklamaly bahalar:\n• 0: sin = 0, cos = 1, tg = 0\n• π/6 (30°): sin = 1/2, cos = √3/2, tg = √3/3\n• π/4 (45°): sin = cos = √2/2, tg = 1\n• π/3 (60°): sin = √3/2, cos = 1/2, tg = √3\n• π/2 (90°): sin = 1, cos = 0, tg kesgitlenmedik\n\nÇärýeklerde alamatlar: sin I we II çärýeklerde položitel, cos I we IV çärýeklerde položitel.",
+          "ru": "Значения, которые нужно помнить:\n• 0: sin = 0, cos = 1, tg = 0\n• π/6 (30°): sin = 1/2, cos = √3/2, tg = √3/3\n• π/4 (45°): sin = cos = √2/2, tg = 1\n• π/3 (60°): sin = √3/2, cos = 1/2, tg = √3\n• π/2 (90°): sin = 1, cos = 0, tg не определён\n\nЗнаки по четвертям: sin положителен в I и II четвертях, cos — в I и IV."}},
+        {"type": "input",
+          "q": {"tk": "sin 30° + cos 60° näçä deň?", "ru": "Чему равно sin 30° + cos 60°?"},
+          "answer": "1",
+          "hint": {"tk": "Iki baha hem 1/2-ä deň.", "ru": "Оба значения равны 1/2."},
+          "explain": {"tk": "sin 30° = 1/2, cos 60° = 1/2, jemi 1/2 + 1/2 = 1.", "ru": "sin 30° = 1/2, cos 60° = 1/2, сумма 1/2 + 1/2 = 1."}},
+        {"type": "choice",
+          "q": {"tk": "y = tg x funksiýanyň iň kiçi položitel periody näçe?", "ru": "Каков наименьший положительный период функции y = tg x?"},
+          "options": ["π/2", "π", "2π"],
+          "answer": 1,
+          "hint": {"tk": "tg x = sin x / cos x; π-ä süýşürilende sin we cos ikisi hem alamatyny üýtgedýär.", "ru": "tg x = sin x / cos x; при сдвиге на π и sin, и cos меняют знак."},
+          "explain": {"tk": "sin(x + π) = −sin x we cos(x + π) = −cos x, şonuň üçin tg(x + π) = tg x. Periody π.", "ru": "sin(x + π) = −sin x и cos(x + π) = −cos x, поэтому tg(x + π) = tg x. Период равен π."}},
+        {"type": "truefalse",
+          "q": {"tk": "cos(−x) = cos x, ýagny kosinus jübüt funksiýa.", "ru": "cos(−x) = cos x, то есть косинус — чётная функция."},
+          "answer": true,
+          "hint": {"tk": "Birlik töwerekde −x burçuň nokady x okuna görä simmetrik.", "ru": "На единичной окружности точка угла −x симметрична относительно оси x."},
+          "explain": {"tk": "x okuna görä simmetriýada abssissa üýtgemeýär, diňe ordinatanyň alamaty üýtgeýär. Şonuň üçin cos(−x) = cos x.", "ru": "При симметрии относительно оси x абсцисса не меняется, меняется только знак ординаты. Поэтому cos(−x) = cos x."}},
+        {"type": "choice",
+          "q": {"tk": "Haýsy deňlik mümkin däl?", "ru": "Какое равенство невозможно?"},
+          "options": ["sin x = −1", "tg x = 100", "cos x = 1,5"],
+          "answer": 2,
+          "hint": {"tk": "Sinusyň we kosinusyň bahalar köplügini ýada salyň.", "ru": "Вспомните множество значений синуса и косинуса."},
+          "explain": {"tk": "cos x diňe [−1; 1] aralykdaky bahalary alýar, 1,5 bu aralykdan daşarda. Tangens bolsa islendik bahany alyp bilýär.", "ru": "cos x принимает значения только из [−1; 1], а 1,5 вне этого отрезка. Тангенс же может принимать любое значение."}},
+        {"type": "world", "text": {
+          "tk": "Sinus we kosinus tolkunlary beýan edýär: ses, ýagtylyk, üýtgeýän elektrik togy. Fransuz alymy Žozef Furýe islendik periodik signaly sinusoidalaryň jemi görnüşinde aňladyp bolýandygyny görkezdi. Häzir bu pikir MP3 we JPEG ýaly faýl formatlarynda ulanylýar.",
+          "ru": "Синус и косинус описывают волны: звук, свет, переменный электрический ток. Французский учёный Жозеф Фурье показал, что любой периодический сигнал можно представить суммой синусоид. Сегодня эта идея используется в форматах файлов MP3 и JPEG."}}
+      ]
+    },
+    {
+      "id": "math-10-trigonometric-equations",
+      "grade": 10,
+      "topic": 1,
+      "title": {"tk": "Trigonometrik deňlemeler", "ru": "Тригонометрические уравнения"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Iň ýönekeý trigonometrik deňlemeleriň çözgütleri (n — islendik bitin san):\n• sin x = a (|a| ≤ 1): x = (−1)ⁿ·arcsin a + πn\n• cos x = a (|a| ≤ 1): x = ±arccos a + 2πn\n• tg x = a (islendik a): x = arctg a + πn\n\nEger |a| > 1 bolsa, sin x = a we cos x = a deňlemeleriň çözgüdi ýok.\n\nAýratyn ýagdaýlar:\n• sin x = 0 ⇒ x = πn\n• cos x = 0 ⇒ x = π/2 + πn\n• sin x = 1 ⇒ x = π/2 + 2πn\n\nÇylşyrymly deňlemeler köplenç täze üýtgeýän girizmek ýa-da köpeldijilere dargatmak arkaly iň ýönekeý görnüşe getirilýär.",
+          "ru": "Решения простейших тригонометрических уравнений (n — любое целое число):\n• sin x = a (|a| ≤ 1): x = (−1)ⁿ·arcsin a + πn\n• cos x = a (|a| ≤ 1): x = ±arccos a + 2πn\n• tg x = a (любое a): x = arctg a + πn\n\nЕсли |a| > 1, уравнения sin x = a и cos x = a решений не имеют.\n\nЧастные случаи:\n• sin x = 0 ⇒ x = πn\n• cos x = 0 ⇒ x = π/2 + πn\n• sin x = 1 ⇒ x = π/2 + 2πn\n\nСложные уравнения обычно сводят к простейшим заменой переменной или разложением на множители."}},
+        {"type": "example", "text": {
+          "tk": "Çözüň: 2sin²x − sin x − 1 = 0.\n\n1) t = sin x diýip belläliň: 2t² − t − 1 = 0.\n2) D = 1 + 8 = 9, t₁ = (1 + 3)/4 = 1, t₂ = (1 − 3)/4 = −1/2.\n3) sin x = 1 ⇒ x = π/2 + 2πn.\n4) sin x = −1/2 ⇒ x = (−1)ⁿ⁺¹·π/6 + πn.\n\nJogap: x = π/2 + 2πn; x = (−1)ⁿ⁺¹·π/6 + πn, n ∈ Z.",
+          "ru": "Решите: 2sin²x − sin x − 1 = 0.\n\n1) Обозначим t = sin x: 2t² − t − 1 = 0.\n2) D = 1 + 8 = 9, t₁ = (1 + 3)/4 = 1, t₂ = (1 − 3)/4 = −1/2.\n3) sin x = 1 ⇒ x = π/2 + 2πn.\n4) sin x = −1/2 ⇒ x = (−1)ⁿ⁺¹·π/6 + πn.\n\nОтвет: x = π/2 + 2πn; x = (−1)ⁿ⁺¹·π/6 + πn, n ∈ Z."}},
+        {"type": "choice",
+          "q": {"tk": "cos x = 0 deňlemäniň çözgütleri:", "ru": "Решения уравнения cos x = 0:"},
+          "options": ["x = π/2 + πn", "x = πn", "x = 2πn"],
+          "answer": 0,
+          "hint": {"tk": "Birlik töwerekde abssissasy 0 bolan nokatlar nirede?", "ru": "Где на единичной окружности точки с абсциссой 0?"},
+          "explain": {"tk": "Abssissasy 0 bolan nokatlar töweregiň iň ýokarky we iň aşaky nokatlary: π/2 we 3π/2. Olaryň arasy π, şonuň üçin x = π/2 + πn.", "ru": "Точки с абсциссой 0 — верхняя и нижняя точки окружности: π/2 и 3π/2. Расстояние между ними π, поэтому x = π/2 + πn."}},
+        {"type": "input",
+          "q": {"tk": "sin x = 1/2 deňlemäniň [0; 2π] kesimde näçe köki bar?", "ru": "Сколько корней имеет уравнение sin x = 1/2 на отрезке [0; 2π]?"},
+          "answer": "2",
+          "hint": {"tk": "Sinus I we II çärýeklerde položitel.", "ru": "Синус положителен в I и II четвертях."},
+          "explain": {"tk": "Kökler: x = π/6 we x = 5π/6. Başga kök ýok, jemi 2.", "ru": "Корни: x = π/6 и x = 5π/6. Других нет, всего 2."}},
+        {"type": "truefalse",
+          "q": {"tk": "sin x = 1,2 deňlemäniň çözgüdi ýok.", "ru": "Уравнение sin x = 1,2 не имеет решений."},
+          "answer": true,
+          "hint": {"tk": "Sinusyň bahalar köplügi haýsy?", "ru": "Каково множество значений синуса?"},
+          "explain": {"tk": "|sin x| ≤ 1, 1,2 > 1 bolany üçin çözgüt ýok.", "ru": "|sin x| ≤ 1, а 1,2 > 1, поэтому решений нет."}},
+        {"type": "input",
+          "q": {"tk": "tg x = 1 deňlemäniň iň kiçi položitel köküni gradusda ýazyň.", "ru": "Запишите в градусах наименьший положительный корень уравнения tg x = 1."},
+          "answer": "45|45°",
+          "hint": {"tk": "Haýsy burçda sinus bilen kosinus deň?", "ru": "При каком угле синус равен косинусу?"},
+          "explain": {"tk": "x = arctg 1 + πn = π/4 + πn. Iň kiçi položitel kök π/4 = 45°.", "ru": "x = arctg 1 + πn = π/4 + πn. Наименьший положительный корень π/4 = 45°."}},
+        {"type": "world", "text": {
+          "tk": "Trigonometrik deňlemeler astronomiýada we nawigasiýada asyrlar boýy ulanyldy. Orta asyr alymy Abu Reýhan Biruni ýeriň radiusyny dagyň depesinden gözýetimiň burçuny ölçemek we trigonometriýa arkaly hasaplady, netijesi häzirki baha örän ýakyn boldy.",
+          "ru": "Тригонометрические уравнения веками использовались в астрономии и навигации. Средневековый учёный Абу Рейхан Бируни вычислил радиус Земли, измерив с вершины горы угол наклона линии горизонта и применив тригонометрию; результат оказался очень близок к современному значению."}}
+      ]
+    },
+    {
+      "id": "math-10-power-function",
+      "grade": 10,
+      "topic": 2,
+      "title": {"tk": "Derejeli funksiýa", "ru": "Степенная функция"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Derejeli funksiýa: y = xᵖ, bu ýerde p — hakyky san.\n\nDürli ýagdaýlar:\n• p — jübüt natural san (x², x⁴): funksiýa jübüt, grafigi parabola meňzeş, y ≥ 0.\n• p — täk natural san (x³, x⁵): funksiýa täk we bütin san okunda artýar.\n• p — otrisatel bitin san (x⁻¹, x⁻²): x ≠ 0, grafigi giperbola meňzeş.\n• p = m/n — drob: x^(m/n) = ⁿ√(xᵐ); mysal üçin x^(1/2) = √x, kesgitleniş ýaýlasy x ≥ 0.\n\nDereje häsiýetleri: aᵐ·aⁿ = aᵐ⁺ⁿ, (aᵐ)ⁿ = aᵐⁿ, a⁻ⁿ = 1/aⁿ.",
+          "ru": "Степенная функция: y = xᵖ, где p — действительное число.\n\nРазные случаи:\n• p — чётное натуральное (x², x⁴): функция чётная, график похож на параболу, y ≥ 0.\n• p — нечётное натуральное (x³, x⁵): функция нечётная и возрастает на всей числовой прямой.\n• p — отрицательное целое (x⁻¹, x⁻²): x ≠ 0, график похож на гиперболу.\n• p = m/n — дробь: x^(m/n) = ⁿ√(xᵐ); например, x^(1/2) = √x, область определения x ≥ 0.\n\nСвойства степеней: aᵐ·aⁿ = aᵐ⁺ⁿ, (aᵐ)ⁿ = aᵐⁿ, a⁻ⁿ = 1/aⁿ."}},
+        {"type": "example", "text": {
+          "tk": "Hasaplaň: 27^(2/3) + 16^(−1/2).\n\n1) 27^(2/3) = (∛27)² = 3² = 9.\n2) 16^(−1/2) = 1 / 16^(1/2) = 1/√16 = 1/4.\n3) 9 + 1/4 = 9,25.\n\nJogap: 9,25.",
+          "ru": "Вычислите: 27^(2/3) + 16^(−1/2).\n\n1) 27^(2/3) = (∛27)² = 3² = 9.\n2) 16^(−1/2) = 1 / 16^(1/2) = 1/√16 = 1/4.\n3) 9 + 1/4 = 9,25.\n\nОтвет: 9,25."}},
+        {"type": "input",
+          "q": {"tk": "8^(2/3) näçä deň?", "ru": "Чему равно 8^(2/3)?"},
+          "answer": "4",
+          "hint": {"tk": "Ilki kub köküni alyň, soň kwadrata göteriň.", "ru": "Сначала извлеките кубический корень, затем возведите в квадрат."},
+          "explain": {"tk": "∛8 = 2, 2² = 4.", "ru": "∛8 = 2, 2² = 4."}},
+        {"type": "choice",
+          "q": {"tk": "y = x⁻³ funksiýanyň kesgitleniş ýaýlasy:", "ru": "Область определения функции y = x⁻³:"},
+          "options": [{"tk": "x ≥ 0", "ru": "x ≥ 0"}, {"tk": "ähli hakyky sanlar", "ru": "все действительные числа"}, {"tk": "x ≠ 0", "ru": "x ≠ 0"}],
+          "answer": 2,
+          "hint": {"tk": "x⁻³ = 1/x³. Nola bölmek bolmaýar.", "ru": "x⁻³ = 1/x³. На ноль делить нельзя."},
+          "explain": {"tk": "x⁻³ = 1/x³, maýdalawjy diňe x = 0-da nola deň. Şonuň üçin x ≠ 0.", "ru": "x⁻³ = 1/x³, знаменатель равен нулю только при x = 0. Поэтому x ≠ 0."}},
+        {"type": "truefalse",
+          "q": {"tk": "y = x⁴ jübüt funksiýa.", "ru": "y = x⁴ — чётная функция."},
+          "answer": true,
+          "hint": {"tk": "(−x)⁴ hasaplaň.", "ru": "Вычислите (−x)⁴."},
+          "explain": {"tk": "(−x)⁴ = x⁴, diýmek y(−x) = y(x) — funksiýa jübüt.", "ru": "(−x)⁴ = x⁴, значит y(−x) = y(x) — функция чётная."}},
+        {"type": "choice",
+          "q": {"tk": "Haýsy san uly: 0,7³ ýa-da 0,8³?", "ru": "Какое число больше: 0,7³ или 0,8³?"},
+          "options": ["0,7³", "0,8³", {"tk": "deň", "ru": "равны"}],
+          "answer": 1,
+          "hint": {"tk": "y = x³ funksiýa artýar.", "ru": "Функция y = x³ возрастающая."},
+          "explain": {"tk": "y = x³ artýan funksiýa we 0,8 > 0,7, şonuň üçin 0,8³ > 0,7³ (0,512 > 0,343).", "ru": "y = x³ возрастает и 0,8 > 0,7, поэтому 0,8³ > 0,7³ (0,512 > 0,343)."}},
+        {"type": "world", "text": {
+          "tk": "Kepleriň üçünji kanuny derejeli baglanyşyk: planetanyň Günüň daşyndan aýlanyş periodynyň kwadraty orbitanyň uly ýarym okunyň kubuna proporsional (T² ~ a³). Iogann Kepler bu kanuny 1619-njy ýylda çap etdi.",
+          "ru": "Третий закон Кеплера — степенная зависимость: квадрат периода обращения планеты вокруг Солнца пропорционален кубу большой полуоси орбиты (T² ~ a³). Иоганн Кеплер опубликовал этот закон в 1619 году."}}
+      ]
+    },
+    {
+      "id": "math-10-exponential-function",
+      "grade": 10,
+      "topic": 3,
+      "title": {"tk": "Görkezijili funksiýa", "ru": "Показательная функция"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Görkezijili funksiýa: y = aˣ, bu ýerde a > 0 we a ≠ 1.\n\nHäsiýetleri:\n• kesgitleniş ýaýlasy — ähli hakyky sanlar;\n• bahalar köplügi — y > 0 (grafik hiç wagt x okuny kesmeýär);\n• grafik (0; 1) nokatdan geçýär, sebäbi a⁰ = 1;\n• a > 1 bolanda funksiýa artýar, 0 < a < 1 bolanda kemelýär.\n\nIň ýönekeý görkezijili deňleme: aᶠ⁽ˣ⁾ = aᵍ⁽ˣ⁾ ⇒ f(x) = g(x).\nAýratyn esas: e ≈ 2,718 (natural esas), y = eˣ.",
+          "ru": "Показательная функция: y = aˣ, где a > 0 и a ≠ 1.\n\nСвойства:\n• область определения — все действительные числа;\n• множество значений — y > 0 (график никогда не пересекает ось x);\n• график проходит через точку (0; 1), так как a⁰ = 1;\n• при a > 1 функция возрастает, при 0 < a < 1 — убывает.\n\nПростейшее показательное уравнение: aᶠ⁽ˣ⁾ = aᵍ⁽ˣ⁾ ⇒ f(x) = g(x).\nОсобое основание: e ≈ 2,718 (натуральное), y = eˣ."}},
+        {"type": "example", "text": {
+          "tk": "Çözüň: 2ˣ⁺¹ = 32.\n\n1) 32-ni 2-niň derejesi görnüşinde ýazalyň: 32 = 2⁵.\n2) 2ˣ⁺¹ = 2⁵ ⇒ x + 1 = 5.\n3) x = 4.\n\nBarlag: 2⁴⁺¹ = 2⁵ = 32. Jogap: x = 4.",
+          "ru": "Решите: 2ˣ⁺¹ = 32.\n\n1) Запишем 32 как степень двойки: 32 = 2⁵.\n2) 2ˣ⁺¹ = 2⁵ ⇒ x + 1 = 5.\n3) x = 4.\n\nПроверка: 2⁴⁺¹ = 2⁵ = 32. Ответ: x = 4."}},
+        {"type": "input",
+          "q": {"tk": "Çözüň: 3ˣ = 81.", "ru": "Решите: 3ˣ = 81."},
+          "answer": "4",
+          "hint": {"tk": "3-i näçe gezek özüne köpeltseň 81 bolýar?", "ru": "Сколько раз нужно умножить 3 само на себя, чтобы получить 81?"},
+          "explain": {"tk": "81 = 3⁴, diýmek x = 4.", "ru": "81 = 3⁴, значит x = 4."}},
+        {"type": "truefalse",
+          "q": {"tk": "y = (1/2)ˣ funksiýa artýar.", "ru": "Функция y = (1/2)ˣ возрастает."},
+          "answer": false,
+          "hint": {"tk": "Esasy 1-den uly ýa-da kiçi?", "ru": "Основание больше или меньше 1?"},
+          "explain": {"tk": "Esas 0 < 1/2 < 1, şonuň üçin funksiýa kemelýär: x artdykça (1/2)ˣ kiçelýär.", "ru": "Основание 0 < 1/2 < 1, поэтому функция убывает: с ростом x значение (1/2)ˣ уменьшается."}},
+        {"type": "choice",
+          "q": {"tk": "y = 5ˣ funksiýanyň bahalar köplügi:", "ru": "Множество значений функции y = 5ˣ:"},
+          "options": [{"tk": "y > 0", "ru": "y > 0"}, {"tk": "y ≥ 1", "ru": "y ≥ 1"}, {"tk": "ähli hakyky sanlar", "ru": "все действительные числа"}],
+          "answer": 0,
+          "hint": {"tk": "5⁻¹⁰ ýaly sanlary göz öňüne getiriň: olar uly ýa-da kiçi?", "ru": "Представьте числа вроде 5⁻¹⁰: они большие или маленькие?"},
+          "explain": {"tk": "5ˣ hemişe položitel, otrisatel x-de nola ýakynlaşýar, ýöne oňa ýetmeýär. Bahalar köplügi y > 0.", "ru": "5ˣ всегда положительно; при отрицательных x приближается к нулю, но не достигает его. Множество значений y > 0."}},
+        {"type": "input",
+          "q": {"tk": "Çözüň: 5²ˣ⁻¹ = 125.", "ru": "Решите: 5²ˣ⁻¹ = 125."},
+          "answer": "2",
+          "hint": {"tk": "125 = 5³.", "ru": "125 = 5³."},
+          "explain": {"tk": "2x − 1 = 3 ⇒ 2x = 4 ⇒ x = 2.", "ru": "2x − 1 = 3 ⇒ 2x = 4 ⇒ x = 2."}},
+        {"type": "world", "text": {
+          "tk": "e sanyny 1683-nji ýylda Ýakob Bernulli göterim (protsent) goşulyp barýan karzy öwrenende tapdy. Soňra Leonard Eýler bu sany e harpy bilen belledi. Görkezijili funksiýa bakteriýalaryň köpelişini, radioaktiw dargamany we goýumlaryň ösüşini beýan edýär.",
+          "ru": "Число e открыл Якоб Бернулли в 1683 году, изучая сложные проценты. Позже Леонард Эйлер обозначил его буквой e. Показательная функция описывает размножение бактерий, радиоактивный распад и рост вкладов."}}
+      ]
+    },
+    {
+      "id": "math-10-logarithms",
+      "grade": 10,
+      "topic": 4,
+      "title": {"tk": "Logarifmler we olaryň häsiýetleri", "ru": "Логарифмы и их свойства"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "b sanyň a esas boýunça logarifmi — b-ni almak üçin a-ny götermeli dereje görkezijisi:\nlogₐ b = c ⇔ aᶜ = b (a > 0, a ≠ 1, b > 0).\n\nMysallar: log₂ 8 = 3, sebäbi 2³ = 8; log₁₀ 0,01 = −2.\nBellikler: lg b = log₁₀ b (onluk), ln b = logₑ b (natural).\n\nEsasy häsiýetler:\n• logₐ(bc) = logₐ b + logₐ c\n• logₐ(b/c) = logₐ b − logₐ c\n• logₐ bᵏ = k·logₐ b\n• logₐ 1 = 0, logₐ a = 1\n• Täze esasa geçmek: logₐ b = log꜀ b / log꜀ a",
+          "ru": "Логарифм числа b по основанию a — показатель степени, в которую нужно возвести a, чтобы получить b:\nlogₐ b = c ⇔ aᶜ = b (a > 0, a ≠ 1, b > 0).\n\nПримеры: log₂ 8 = 3, так как 2³ = 8; log₁₀ 0,01 = −2.\nОбозначения: lg b = log₁₀ b (десятичный), ln b = logₑ b (натуральный).\n\nОсновные свойства:\n• logₐ(bc) = logₐ b + logₐ c\n• logₐ(b/c) = logₐ b − logₐ c\n• logₐ bᵏ = k·logₐ b\n• logₐ 1 = 0, logₐ a = 1\n• Переход к новому основанию: logₐ b = log꜀ b / log꜀ a"}},
+        {"type": "example", "text": {
+          "tk": "Hasaplaň: log₆ 4 + log₆ 9.\n\n1) Jem häsiýeti: log₆ 4 + log₆ 9 = log₆(4·9) = log₆ 36.\n2) 6² = 36, diýmek log₆ 36 = 2.\n\nJogap: 2.\n\nÝene bir mysal: log₃(1/9) = log₃ 3⁻² = −2.",
+          "ru": "Вычислите: log₆ 4 + log₆ 9.\n\n1) Свойство суммы: log₆ 4 + log₆ 9 = log₆(4·9) = log₆ 36.\n2) 6² = 36, значит log₆ 36 = 2.\n\nОтвет: 2.\n\nЕщё пример: log₃(1/9) = log₃ 3⁻² = −2."}},
+        {"type": "input",
+          "q": {"tk": "log₂ 32 näçä deň?", "ru": "Чему равен log₂ 32?"},
+          "answer": "5",
+          "hint": {"tk": "2-ni haýsy derejä göterseň 32 bolýar?", "ru": "В какую степень нужно возвести 2, чтобы получить 32?"},
+          "explain": {"tk": "2⁵ = 32, şonuň üçin log₂ 32 = 5.", "ru": "2⁵ = 32, поэтому log₂ 32 = 5."}},
+        {"type": "choice",
+          "q": {"tk": "lg 50 + lg 2 näçä deň?", "ru": "Чему равно lg 50 + lg 2?"},
+          "options": ["52", "1", "2"],
+          "answer": 2,
+          "hint": {"tk": "Logarifmleriň jemi köpeltmek hasylynyň logarifmine deň.", "ru": "Сумма логарифмов равна логарифму произведения."},
+          "explain": {"tk": "lg 50 + lg 2 = lg 100 = 2, sebäbi 10² = 100.", "ru": "lg 50 + lg 2 = lg 100 = 2, так как 10² = 100."}},
+        {"type": "truefalse",
+          "q": {"tk": "log₂(−8) = −3.", "ru": "log₂(−8) = −3."},
+          "answer": false,
+          "hint": {"tk": "2-niň islendik derejesi haýsy alamatly?", "ru": "Какой знак у любой степени двойки?"},
+          "explain": {"tk": "Logarifm diňe položitel sanlar üçin kesgitlenýär. 2⁻³ = 1/8, −8 däl. log₂(−8) kesgitlenmedik.", "ru": "Логарифм определён только для положительных чисел. 2⁻³ = 1/8, а не −8. Выражение log₂(−8) не определено."}},
+        {"type": "input",
+          "q": {"tk": "log₃ 81 − log₃ 3 näçä deň?", "ru": "Чему равно log₃ 81 − log₃ 3?"},
+          "answer": "3",
+          "hint": {"tk": "Her logarifmi aýratyn hasaplaň ýa-da tapawut häsiýetini ulanyň.", "ru": "Вычислите каждый логарифм отдельно или примените свойство разности."},
+          "explain": {"tk": "log₃ 81 = 4, log₃ 3 = 1, 4 − 1 = 3. Ýa-da log₃(81/3) = log₃ 27 = 3.", "ru": "log₃ 81 = 4, log₃ 3 = 1, 4 − 1 = 3. Или log₃(81/3) = log₃ 27 = 3."}},
+        {"type": "world", "text": {
+          "tk": "Logarifmleri şotlandiýaly matematik Jon Neper 1614-nji ýylda çap etdi. Logarifmler köpeltmegi goşmaga öwürýänligi üçin astronomlaryň hasaplamalaryny ep-esli ýeňilleşdirdi. Logarifmik çyzgyç (logarifmik liniýka) kalkulýatorlar ýaýramazdan öň inženerleriň esasy guraly boldy.",
+          "ru": "Логарифмы опубликовал шотландский математик Джон Непер в 1614 году. Поскольку логарифмы превращают умножение в сложение, они сильно облегчили вычисления астрономов. Логарифмическая линейка была главным инструментом инженеров до распространения калькуляторов."}}
+      ]
+    },
+    {
+      "id": "math-10-logarithmic-equations",
+      "grade": 10,
+      "topic": 5,
+      "title": {"tk": "Logarifmik deňlemeler", "ru": "Логарифмические уравнения"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Iň ýönekeý logarifmik deňleme: logₐ f(x) = b ⇒ f(x) = aᵇ.\n\nEsasy usullar:\n• kesgitleme boýunça dereje görnüşine geçmek;\n• häsiýetler arkaly logarifmleri birleşdirmek: logₐ f(x) = logₐ g(x) ⇒ f(x) = g(x);\n• täze üýtgeýän girizmek (mysal üçin t = log₂ x).\n\nMöhüm: logarifmiň aşagyndaky aňlatma položitel bolmaly (f(x) > 0). Şonuň üçin tapylan kökleri hökman barlamaly — käbiri artykmaç bolup biler.",
+          "ru": "Простейшее логарифмическое уравнение: logₐ f(x) = b ⇒ f(x) = aᵇ.\n\nОсновные методы:\n• переход к степени по определению;\n• объединение логарифмов по свойствам: logₐ f(x) = logₐ g(x) ⇒ f(x) = g(x);\n• введение новой переменной (например, t = log₂ x).\n\nВажно: выражение под логарифмом должно быть положительным (f(x) > 0). Поэтому найденные корни обязательно проверяют — некоторые могут оказаться посторонними."}},
+        {"type": "example", "text": {
+          "tk": "Çözüň: lg x + lg(x − 3) = 1.\n\n1) Kesgitleniş ýaýlasy: x > 0 we x − 3 > 0 ⇒ x > 3.\n2) lg(x(x − 3)) = 1 ⇒ x(x − 3) = 10.\n3) x² − 3x − 10 = 0 ⇒ x₁ = 5, x₂ = −2.\n4) x = −2 şerti kanagatlandyrmaýar (x > 3 däl).\n\nJogap: x = 5. Barlag: lg 5 + lg 2 = lg 10 = 1.",
+          "ru": "Решите: lg x + lg(x − 3) = 1.\n\n1) Область определения: x > 0 и x − 3 > 0 ⇒ x > 3.\n2) lg(x(x − 3)) = 1 ⇒ x(x − 3) = 10.\n3) x² − 3x − 10 = 0 ⇒ x₁ = 5, x₂ = −2.\n4) x = −2 не удовлетворяет условию x > 3.\n\nОтвет: x = 5. Проверка: lg 5 + lg 2 = lg 10 = 1."}},
+        {"type": "input",
+          "q": {"tk": "Çözüň: log₃(2x + 1) = 2.", "ru": "Решите: log₃(2x + 1) = 2."},
+          "answer": "4",
+          "hint": {"tk": "2x + 1 = 3².", "ru": "2x + 1 = 3²."},
+          "explain": {"tk": "2x + 1 = 9 ⇒ 2x = 8 ⇒ x = 4. Barlag: 2·4 + 1 = 9 > 0.", "ru": "2x + 1 = 9 ⇒ 2x = 8 ⇒ x = 4. Проверка: 2·4 + 1 = 9 > 0."}},
+        {"type": "input",
+          "q": {"tk": "Çözüň: log₂ x = −1.", "ru": "Решите: log₂ x = −1."},
+          "answer": "0.5|0,5|1/2",
+          "hint": {"tk": "x = 2⁻¹.", "ru": "x = 2⁻¹."},
+          "explain": {"tk": "Kesgitleme boýunça x = 2⁻¹ = 1/2 = 0,5.", "ru": "По определению x = 2⁻¹ = 1/2 = 0,5."}},
+        {"type": "choice",
+          "q": {"tk": "ln x = 0 deňlemäniň köki:", "ru": "Корень уравнения ln x = 0:"},
+          "options": ["x = 0", "x = e", "x = 1"],
+          "answer": 2,
+          "hint": {"tk": "Islendik esas boýunça haýsy sanyň logarifmi nola deň?", "ru": "Логарифм какого числа равен нулю при любом основании?"},
+          "explain": {"tk": "ln x = 0 ⇒ x = e⁰ = 1.", "ru": "ln x = 0 ⇒ x = e⁰ = 1."}},
+        {"type": "truefalse",
+          "q": {"tk": "log₂ x = log₂(6 − x) deňlemäniň köki x = 3.", "ru": "Корень уравнения log₂ x = log₂(6 − x) — x = 3."},
+          "answer": true,
+          "hint": {"tk": "Esaslar deň bolsa, logarifmiň aşagyndaky aňlatmalar deň.", "ru": "При равных основаниях равны выражения под логарифмами."},
+          "explain": {"tk": "x = 6 − x ⇒ x = 3. Barlag: 3 > 0 we 6 − 3 = 3 > 0, kök dogry.", "ru": "x = 6 − x ⇒ x = 3. Проверка: 3 > 0 и 6 − 3 = 3 > 0, корень подходит."}},
+        {"type": "world", "text": {
+          "tk": "Köp ölçeg şkalalary logarifmik: kislotalylyk pH = −lg[H⁺], sesiň güýji detsibellerde, ýer titremeleriniň magnitudasy hem logarifmik şkala bilen ölçenýär. Mysal üçin, pH-y 3 bolan erginde wodorod ionlarynyň konsentrasiýasy pH-y 4 bolan erginden 10 esse köp.",
+          "ru": "Многие шкалы измерений логарифмические: кислотность pH = −lg[H⁺], громкость звука в децибелах, магнитуда землетрясений. Например, в растворе с pH 3 концентрация ионов водорода в 10 раз больше, чем в растворе с pH 4."}}
+      ]
+    }
+  ]
+}

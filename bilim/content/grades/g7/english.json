@@ -1,0 +1,281 @@
+{
+  "grade": 7,
+  "subject": "english",
+  "lessons": [
+    {
+      "id": "english-7-present-perfect-past-simple",
+      "grade": 7,
+      "topic": 0,
+      "title": {"tk": "Present Perfect we Past Simple", "ru": "Present Perfect и Past Simple"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Iki zaman hem geçen hereket barada gürrüň berýär, ýöne tapawudy bar.\n\nPast Simple: verb + -ed (ýa-da düzgünsiz görnüş: went, saw).\n• Hereket geçmişde, belli bir wagtda tamamlandy.\n• Signal sözler: yesterday, last week, in 2020, ago, when I was…\n• I visited London last year.\n\nPresent Perfect: have/has + V3 (visited, been, seen).\n• Wagt aýdylmaýar; netije ýa-da tejribe häzir möhüm.\n• Signal sözler: ever, never, already, yet, just, since, for, so far.\n• I have visited London. (Men Londonda bolupdym — tejribe.)\n\nEsasy düzgün: wagt anyk aýdylsa (yesterday, in 2020) — Present Perfect ulanylmaýar!",
+          "ru": "Оба времени говорят о прошедших действиях, но по-разному.\n\nPast Simple: глагол + -ed (или неправильная форма: went, saw).\n• Действие завершилось в конкретный момент в прошлом.\n• Слова-маркеры: yesterday, last week, in 2020, ago, when I was…\n• I visited London last year.\n\nPresent Perfect: have/has + V3 (visited, been, seen).\n• Время не указано; важен результат или опыт сейчас.\n• Слова-маркеры: ever, never, already, yet, just, since, for, so far.\n• I have visited London. (Я бывал в Лондоне — опыт.)\n\nГлавное правило: если указано точное время (yesterday, in 2020) — Present Perfect не используется!"
+        }},
+        {"type": "example", "text": {
+          "tk": "Gepleşik:\nA: Have you ever been to Istanbul?\nB: Yes, I have. I went there in 2023.\n\n1. «Have you ever been» — wagt aýdylmaýar, tejribe soralýar → Present Perfect.\n2. «I went there in 2023» — anyk wagt (in 2023) → Past Simple.\n\nBaşga mysal:\n• I have lost my key. (Açar häzir ýok — netije.)\n• I lost my key yesterday, but I found it. (Geçmişdäki waka — Past Simple.)",
+          "ru": "Диалог:\nA: Have you ever been to Istanbul?\nB: Yes, I have. I went there in 2023.\n\n1. «Have you ever been» — время не указано, спрашивают об опыте → Present Perfect.\n2. «I went there in 2023» — точное время (in 2023) → Past Simple.\n\nЕщё пример:\n• I have lost my key. (Ключа нет сейчас — результат.)\n• I lost my key yesterday, but I found it. (История в прошлом — Past Simple.)"
+        }},
+        {"type": "choice",
+          "q": {"tk": "Dogry görnüşi saýla: «I ___ this film last Sunday.»", "ru": "Выбери правильную форму: «I ___ this film last Sunday.»"},
+          "options": ["have seen", "saw", "have saw"],
+          "answer": 1,
+          "hint": {"tk": "«Last Sunday» — anyk wagt.", "ru": "«Last Sunday» — точное время."},
+          "explain": {"tk": "Anyk wagt bar → Past Simple: saw.", "ru": "Есть точное время → Past Simple: saw."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Dogry görnüşi saýla: «She ___ already ___ her homework.»", "ru": "Выбери правильную форму: «She ___ already ___ her homework.»"},
+          "options": ["has / finished", "did / finish", "have / finished"],
+          "answer": 0,
+          "hint": {"tk": "«Already» — Present Perfect signaly. She → has ýa-da have?", "ru": "«Already» — маркер Present Perfect. She → has или have?"},
+          "explain": {"tk": "She bilen «has» ulanylýar: She has already finished.", "ru": "С she используется «has»: She has already finished."}
+        },
+        {"type": "input",
+          "q": {"tk": "Boşlugy doldur (go): «They have ___ to school.»", "ru": "Заполни пропуск (go): «They have ___ to school.»"},
+          "answer": "gone|been",
+          "hint": {"tk": "Go düzgünsiz işlik: go – went – ?", "ru": "Go — неправильный глагол: go – went – ?"},
+          "explain": {"tk": "Üçünji görnüş: go – went – gone. They have gone (gitdiler, häzir şol ýerde).", "ru": "Третья форма: go – went – gone. They have gone (ушли и сейчас там)."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«I have visited Paris in 2019» — dogry sözlem.", "ru": "«I have visited Paris in 2019» — правильное предложение."},
+          "answer": false,
+          "hint": {"tk": "«In 2019» näme görkezýär?", "ru": "На что указывает «in 2019»?"},
+          "explain": {"tk": "Ýalňyş: anyk ýyl bar, şonuň üçin Past Simple gerek: I visited Paris in 2019.", "ru": "Неверно: указан год, поэтому нужен Past Simple: I visited Paris in 2019."}
+        },
+        {"type": "world", "text": {
+          "tk": "Amerikan iňlis dilinde Present Perfect-iň ýerine köplenç Past Simple ulanylýar: britan «I've just eaten» diýse, amerikaly köplenç «I just ate» diýýär. Iki görnüş hem öz ýurdunda dogry hasaplanýar.",
+          "ru": "В американском английском вместо Present Perfect часто используют Past Simple: британец скажет «I've just eaten», а американец нередко — «I just ate». Оба варианта считаются правильными в своей стране."
+        }}
+      ]
+    },
+    {
+      "id": "english-7-first-conditional",
+      "grade": 7,
+      "topic": 1,
+      "title": {"tk": "First conditional: real şertler", "ru": "Первый тип условных предложений"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "First conditional geljekde hakykatdan hem bolup biljek ýagdaý we onuň netijesi barada.\n\nFormula:\nIf + Present Simple, will + verb\n• If it rains, we will stay at home.\n\nBölekleri ýerini çalşyp bolýar:\n• We will stay at home if it rains.\n(If bölegi birinji dursa — otur goýulýar.)\n\nMöhüm: if böleginde will ulanylmaýar!\n✗ If it will rain…  ✓ If it rains…\n\nWill-iň ýerine can, may, might ýa-da buýruk hem bolup biler: If you are tired, go to bed.\nUnless = if … not: Unless you hurry, you will be late.",
+          "ru": "First conditional описывает реальную ситуацию в будущем и её результат.\n\nФормула:\nIf + Present Simple, will + глагол\n• If it rains, we will stay at home.\n\nЧасти можно поменять местами:\n• We will stay at home if it rains.\n(Если часть с if стоит первой — ставится запятая.)\n\nВажно: в части с if will не используется!\n✗ If it will rain…  ✓ If it rains…\n\nВместо will могут быть can, may, might или повелительное наклонение: If you are tired, go to bed.\nUnless = if … not: Unless you hurry, you will be late."
+        }},
+        {"type": "example", "text": {
+          "tk": "Sözlem gurmak: (study hard → pass the exam)\n\n1. Şert: «study hard» → Present Simple: you study hard.\n2. Netije: «pass the exam» → will pass.\n3. Birleşdir: If you study hard, you will pass the exam.\n\nInkär görnüşi:\nIf you don't study, you won't pass. (won't = will not)\nUnless you study, you won't pass.",
+          "ru": "Строим предложение: (study hard → pass the exam)\n\n1. Условие: «study hard» → Present Simple: you study hard.\n2. Результат: «pass the exam» → will pass.\n3. Соединяем: If you study hard, you will pass the exam.\n\nОтрицательная форма:\nIf you don't study, you won't pass. (won't = will not)\nUnless you study, you won't pass."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Dogry sözlemi saýla.", "ru": "Выбери правильное предложение."},
+          "options": ["If it will be sunny, we go to the park.", "If it is sunny, we go will to the park.", "If it is sunny, we will go to the park."],
+          "answer": 2,
+          "hint": {"tk": "If böleginde Present Simple, beýleki bölekde will + verb.", "ru": "В части с if — Present Simple, в другой — will + глагол."},
+          "explain": {"tk": "If + is (Present Simple), will go (netije).", "ru": "If + is (Present Simple), will go (результат)."}
+        },
+        {"type": "input",
+          "q": {"tk": "Boşlugy doldur (miss): «If you don't hurry, you ___ the bus.»", "ru": "Заполни пропуск (miss): «If you don't hurry, you ___ the bus.»"},
+          "answer": "will miss|'ll miss",
+          "hint": {"tk": "Bu netije bölegi — will gerek.", "ru": "Это часть-результат — нужен will."},
+          "explain": {"tk": "Netije: will + miss → will miss.", "ru": "Результат: will + miss → will miss."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«Unless» = «if … not».", "ru": "«Unless» = «if … not»."},
+          "answer": true,
+          "hint": {"tk": "Unless you hurry = If you don't hurry?", "ru": "Unless you hurry = If you don't hurry?"},
+          "explain": {"tk": "Dogry: unless «eger … bolmasa» manysyny berýär.", "ru": "Верно: unless означает «если не»."}
+        },
+        {"type": "world", "text": {
+          "tk": "Programmirlemede hem şol bir pikir ulanylýar: köp dillerde if operatory bar (if … then …). Bu iňlis diliniň «if» sözünden gelýär we dünýädäki programmistleriň hemmesi ony iňlisçe ýazýar.",
+          "ru": "Та же идея есть в программировании: почти во всех языках есть оператор if (если … то …). Он взят из английского слова «if», и программисты всего мира пишут его по-английски."
+        }}
+      ]
+    },
+    {
+      "id": "english-7-passive-present",
+      "grade": 7,
+      "topic": 2,
+      "title": {"tk": "Passive voice: Present Simple", "ru": "Пассивный залог: Present Simple"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Active (işjeň): hereketi edýän möhüm.\n• People speak English in many countries.\n\nPassive (gaýdym): hereketiň özi ýa-da onuň obýekti möhüm, kimiň edýäni möhüm däl ýa-da belli däl.\n• English is spoken in many countries.\n\nFormula (Present Simple Passive):\nam / is / are + V3 (past participle)\n• The room is cleaned every day.\n• Cars are made in this factory.\n\nHereketi edýäni görkezmek gerek bolsa — by:\n• The book is written by a famous author.\n\nTürkmen dilinde -yl/-il goşulmasy şuňa meňzeş: arassalanýar, ýasalýar.",
+          "ru": "Active (действительный залог): важно, кто совершает действие.\n• People speak English in many countries.\n\nPassive (страдательный залог): важно само действие или его объект, а исполнитель неважен или неизвестен.\n• English is spoken in many countries.\n\nФормула (Present Simple Passive):\nam / is / are + V3 (past participle)\n• The room is cleaned every day.\n• Cars are made in this factory.\n\nЧтобы указать исполнителя — by:\n• The book is written by a famous author.\n\nПо-туркменски похожую роль играет суффикс -yl/-il: arassalanýar, ýasalýar."
+        }},
+        {"type": "example", "text": {
+          "tk": "Active-den Passive-e öwürmek:\n«Farmers grow cotton in Turkmenistan.»\n\n1. Obýekti tap: cotton → ol täze ega bolýar.\n2. Cotton — birlik san → is.\n3. Grow → V3: grown.\n4. Netije: Cotton is grown in Turkmenistan (by farmers).\n\n«by farmers» köplenç aýrylýar, sebäbi kimiň ösdürýändigi düşnükli.",
+          "ru": "Превращаем Active в Passive:\n«Farmers grow cotton in Turkmenistan.»\n\n1. Находим объект: cotton → он становится подлежащим.\n2. Cotton — единственное число → is.\n3. Grow → V3: grown.\n4. Итог: Cotton is grown in Turkmenistan (by farmers).\n\n«by farmers» обычно опускают, потому что и так понятно, кто выращивает."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Dogry görnüşi saýla: «These phones ___ in China.»", "ru": "Выбери правильную форму: «These phones ___ in China.»"},
+          "options": ["is made", "are made", "are make"],
+          "answer": 1,
+          "hint": {"tk": "Phones — köplük san. Make-iň V3 görnüşi näme?", "ru": "Phones — множественное число. Какая форма V3 у make?"},
+          "explain": {"tk": "Köplük → are; make → made. These phones are made in China.", "ru": "Множественное → are; make → made. These phones are made in China."}
+        },
+        {"type": "input",
+          "q": {"tk": "Boşlugy doldur (write): «Letters are ___ by hand less often today.»", "ru": "Заполни пропуск (write): «Letters are ___ by hand less often today.»"},
+          "answer": "written",
+          "hint": {"tk": "write – wrote – ?", "ru": "write – wrote – ?"},
+          "explain": {"tk": "Write-iň V3 görnüşi: written.", "ru": "Форма V3 глагола write: written."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«The windows is cleaned every week» — dogry sözlem.", "ru": "«The windows is cleaned every week» — правильное предложение."},
+          "answer": false,
+          "hint": {"tk": "Windows birlikmi ýa-da köplük?", "ru": "Windows — единственное или множественное число?"},
+          "explain": {"tk": "Windows köplük, şonuň üçin are: The windows are cleaned every week.", "ru": "Windows — множественное число, поэтому are: The windows are cleaned every week."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy sözlem passive?", "ru": "Какое предложение в пассиве?"},
+          "options": ["Bread is baked here every morning.", "We bake bread every morning.", "He is baking bread now."],
+          "answer": 0,
+          "hint": {"tk": "be + V3 we ega hereketi etmeýär.", "ru": "be + V3, и подлежащее не совершает действие."},
+          "explain": {"tk": "«Is baked» — is + V3, çörek özi bişirmeýär → passive. «Is baking» — Present Continuous (active).", "ru": "«Is baked» — is + V3, хлеб сам не печёт → пассив. «Is baking» — Present Continuous (актив)."}
+        },
+        {"type": "world", "text": {
+          "tk": "Ylmy makalalarda passive köp ulanylýar: «The samples are heated to 100 °C». Sebäbi okyjy üçin kimiň däl-de, näme edilendigi möhüm. Soňky ýyllarda köp ylmy žurnallar bolsa aýdyňlyk üçin işjeň görnüşi (we measured…) hem maslahat berýär.",
+          "ru": "В научных статьях пассив используется очень часто: «The samples are heated to 100 °C», потому что читателю важно, что сделано, а не кто это сделал. Впрочем, в последние годы многие научные журналы для ясности советуют и активный залог (we measured…)."
+        }}
+      ]
+    },
+    {
+      "id": "english-7-relative-clauses",
+      "grade": 7,
+      "topic": 3,
+      "title": {"tk": "Relative clauses: who, which, that", "ru": "Относительные придаточные: who, which, that"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Relative clause — adam ýa-da zat barada goşmaça maglumat berýän bölek. Ol relative pronoun bilen başlanýar:\n\n• who — adamlar üçin: The girl who sits next to me is from Mary.\n• which — zatlar we haýwanlar üçin: The book which I'm reading is exciting.\n• that — adamlar we zatlar üçin (gürleşikde köp): The phone that I bought is new.\n• where — ýer üçin: This is the town where I was born.\n• whose — degişlilik üçin: That's the boy whose bike was stolen.\n\nDefining clause — manyny kesgitleýär, otur goýulmaýar.\nNon-defining clause — goşmaça maglumat, otur bilen aýrylýar we that ulanylmaýar:\nAshgabat, which is the capital of Turkmenistan, has many white marble buildings.",
+          "ru": "Relative clause — часть предложения, которая даёт дополнительную информацию о человеке или предмете. Начинается с относительного местоимения:\n\n• who — для людей: The girl who sits next to me is from Mary.\n• which — для предметов и животных: The book which I'm reading is exciting.\n• that — для людей и предметов (часто в разговорной речи): The phone that I bought is new.\n• where — для места: This is the town where I was born.\n• whose — для принадлежности: That's the boy whose bike was stolen.\n\nDefining clause — определяет значение, запятые не ставятся.\nNon-defining clause — дополнительная информация, выделяется запятыми, that не используется:\nAshgabat, which is the capital of Turkmenistan, has many white marble buildings."
+        }},
+        {"type": "example", "text": {
+          "tk": "Iki sözlemi birleşdirmek:\n«I have a friend. He speaks three languages.»\n\n1. «He» = «a friend» (adam) → who.\n2. «He» sözüni who bilen çalşyr: I have a friend who speaks three languages.\n\nBaşga mysal:\n«This is the museum. We visited it last week.»\n1. «It» = museum (zat) → which/that.\n2. This is the museum which (that) we visited last week.\n3. Bu ýerde which obýekt, şonuň üçin ony aýryp hem bolýar: This is the museum we visited last week.",
+          "ru": "Соединяем два предложения:\n«I have a friend. He speaks three languages.»\n\n1. «He» = «a friend» (человек) → who.\n2. Заменяем «he» на who: I have a friend who speaks three languages.\n\nЕщё пример:\n«This is the museum. We visited it last week.»\n1. «It» = museum (предмет) → which/that.\n2. This is the museum which (that) we visited last week.\n3. Здесь which — дополнение, поэтому его можно опустить: This is the museum we visited last week."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Boşlugy doldur: «The man ___ lives next door is a doctor.»", "ru": "Заполни пропуск: «The man ___ lives next door is a doctor.»"},
+          "options": ["which", "who", "where"],
+          "answer": 1,
+          "hint": {"tk": "«The man» — adam.", "ru": "«The man» — человек."},
+          "explain": {"tk": "Adam üçin who (ýa-da that).", "ru": "Для человека — who (или that)."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Boşlugy doldur: «This is the school ___ my father studied.»", "ru": "Заполни пропуск: «This is the school ___ my father studied.»"},
+          "options": ["where", "who", "whose"],
+          "answer": 0,
+          "hint": {"tk": "Kakam mekdepde okapdyr — bu ýer.", "ru": "Отец учился в школе — это место."},
+          "explain": {"tk": "Ýer görkezilýär → where (= in which).", "ru": "Указывается место → where (= in which)."}
+        },
+        {"type": "input",
+          "q": {"tk": "Boşlugy doldur: «That's the girl ___ mother is a pilot.»", "ru": "Заполни пропуск: «That's the girl ___ mother is a pilot.»"},
+          "answer": "whose",
+          "hint": {"tk": "Kimiň ejesi? — degişlilik.", "ru": "Чья мама? — принадлежность."},
+          "explain": {"tk": "Degişlilik → whose: the girl whose mother… (gyzyň ejesi).", "ru": "Принадлежность → whose: the girl whose mother… (мама девочки)."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Non-defining clause-da (otur bilen) «that» ulanyp bolýar.", "ru": "В non-defining clause (с запятыми) можно использовать «that»."},
+          "answer": false,
+          "hint": {"tk": "Ashgabat, ___ is the capital, … — which ýa-da that?", "ru": "Ashgabat, ___ is the capital, … — which или that?"},
+          "explain": {"tk": "Ýalňyş: otur bilen aýrylan bölekde that ulanylmaýar, which ýa-da who gerek.", "ru": "Неверно: в части, выделенной запятыми, that не используется, нужно which или who."}
+        },
+        {"type": "world", "text": {
+          "tk": "Iňlis çagalar folklorynda relative clause-lar bilen gurlan meşhur «This is the House that Jack Built» goşgusy bar. Her setir öňküsine täze «that…» bölegini goşup, sözlem barha uzalýar. Ony rus diline Samuil Marşak «Дом, который построил Джек» diýip terjime edipdir.",
+          "ru": "В английском детском фольклоре есть знаменитый стишок «This is the House that Jack Built», построенный на relative clauses: каждая строка добавляет новое «that…», и предложение всё растёт. На русский его перевёл Самуил Маршак — «Дом, который построил Джек»."
+        }}
+      ]
+    },
+    {
+      "id": "english-7-phrasal-verbs",
+      "grade": 7,
+      "topic": 4,
+      "title": {"tk": "Phrasal verbs: frazaly işlikler", "ru": "Фразовые глаголы"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Phrasal verb = işlik + particle (up, down, on, off, out, in, back, away…). Particle işligiň manysyny düýpgöter üýtgedip biler:\n\n• look — seretmek; look for — gözlemek; look after — seretmek, ideg etmek\n• give — bermek; give up — taşlamak, ýüz öwürmek\n• get — almak; get up — ýerinden turmak\n• turn on / turn off — açmak / öçürmek (enjamy)\n• find out — bilmek, anyklamak\n• put on / take off — geýmek / çykarmak\n\nKäbirlerini bölüp bolýar: Turn on the light = Turn the light on. Obýekt çalyşma bolsa — diňe ortada: Turn it on (✗ Turn on it).",
+          "ru": "Phrasal verb = глагол + частица (up, down, on, off, out, in, back, away…). Частица может полностью изменить значение глагола:\n\n• look — смотреть; look for — искать; look after — присматривать, заботиться\n• give — давать; give up — бросить, сдаться\n• get — получать; get up — вставать\n• turn on / turn off — включать / выключать (прибор)\n• find out — узнавать, выяснять\n• put on / take off — надевать / снимать\n\nНекоторые можно разделять: Turn on the light = Turn the light on. Если объект — местоимение, то только в середине: Turn it on (✗ Turn on it)."
+        }},
+        {"type": "example", "text": {
+          "tk": "Gysga hekaýa:\n«I got up at 7. It was cold, so I put on my coat. I couldn't find my keys, so I looked for them everywhere. Finally I found out that my sister had them!»\n\n• got up — ýerimden turdum\n• put on — geýdim\n• looked for — gözledim\n• found out — bildim\n\nÜns ber: «put on my coat» = «put my coat on» = «put it on».",
+          "ru": "Короткий рассказ:\n«I got up at 7. It was cold, so I put on my coat. I couldn't find my keys, so I looked for them everywhere. Finally I found out that my sister had them!»\n\n• got up — встал\n• put on — надел\n• looked for — искал\n• found out — узнал\n\nОбрати внимание: «put on my coat» = «put my coat on» = «put it on»."
+        }},
+        {"type": "choice",
+          "q": {"tk": "«Look after» näme diýmek?", "ru": "Что значит «look after»?"},
+          "options": [{"tk": "gözlemek", "ru": "искать"}, {"tk": "ideg etmek, seretmek", "ru": "заботиться, присматривать"}, {"tk": "yzyna seretmek", "ru": "оглядываться"}],
+          "answer": 1,
+          "hint": {"tk": "«She looks after her little brother.»", "ru": "«She looks after her little brother.»"},
+          "explain": {"tk": "Look after — kime-de bolsa ideg etmek. Gözlemek — look for.", "ru": "Look after — заботиться о ком-то. Искать — look for."}
+        },
+        {"type": "input",
+          "q": {"tk": "Particle ýaz: «Don't give ___! You can do it!»", "ru": "Напиши частицу: «Don't give ___! You can do it!»"},
+          "answer": "up",
+          "hint": {"tk": "«Ýüz öwürme, taşlama!» manysy.", "ru": "Значение «Не сдавайся!»."},
+          "explain": {"tk": "Give up — taşlamak, ýüz öwürmek. Don't give up!", "ru": "Give up — сдаваться. Don't give up!"}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy sözlem dogry?", "ru": "Какое предложение правильное?"},
+          "options": ["Please turn off it.", "Please turn it off.", "Please it turn off."],
+          "answer": 1,
+          "hint": {"tk": "Obýekt çalyşma (it) bolsa, ol işlik bilen particle-yň arasynda durýar.", "ru": "Если объект — местоимение (it), оно стоит между глаголом и частицей."}
+          ,"explain": {"tk": "Dogry: turn it off. «Turn off it» ýalňyş.", "ru": "Правильно: turn it off. «Turn off it» — ошибка."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«Get up» — «ýerinden turmak» diýmekdir.", "ru": "«Get up» означает «вставать»."},
+          "answer": true,
+          "hint": {"tk": "«I get up at 7 every morning.»", "ru": "«I get up at 7 every morning.»"},
+          "explain": {"tk": "Dogry: get up — ukudan turmak, ýerinden turmak.", "ru": "Верно: get up — вставать (с постели)."}
+        },
+        {"type": "world", "text": {
+          "tk": "Phrasal verb-ler iňlis dilinde müňlerçe. Uly iňlis sözlükleri — mysal üçin, Oxford we Cambridge — olar üçin aýratyn sözlükler çap edýär. «Get» işligi bilen bolsa onlarça phrasal verb bar: get up, get on, get off, get over, get along…",
+          "ru": "Фразовых глаголов в английском тысячи. Крупные издательства словарей — например, Oxford и Cambridge — выпускают для них отдельные словари. Только с глаголом «get» их десятки: get up, get on, get off, get over, get along…"
+        }}
+      ]
+    },
+    {
+      "id": "english-7-writing-a-story",
+      "grade": 7,
+      "topic": 5,
+      "title": {"tk": "Writing a story: hekaýa ýazýarys", "ru": "Пишем рассказ"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Gowy hekaýanyň gurluşy:\n• Beginning — kim? nirede? haçan? Okyjyny gyzyklandyr.\n• Middle — problema ýa-da garaşylmadyk waka.\n• End — çözgüt we gahrymanyň duýgulary.\n\nDil:\n• Esasy zaman — Past Simple (went, saw); fon üçin Past Continuous (It was raining…).\n• Wakalary baglamak üçin sözler: First, Then, After that, Suddenly, Finally, In the end.\n• Sypatlar we hallar hekaýany janly edýär: a dark, empty street; he ran quickly.\n• Gepleşik: «Help!» she shouted.\n\nMaslahat: ilkinji sözlem okyjyny çekmeli!",
+          "ru": "Структура хорошего рассказа:\n• Beginning — кто? где? когда? Заинтересуй читателя.\n• Middle — проблема или неожиданное событие.\n• End — развязка и чувства героя.\n\nЯзык:\n• Основное время — Past Simple (went, saw); для фона — Past Continuous (It was raining…).\n• Слова-связки: First, Then, After that, Suddenly, Finally, In the end.\n• Прилагательные и наречия оживляют рассказ: a dark, empty street; he ran quickly.\n• Диалог: «Help!» she shouted.\n\nСовет: первое предложение должно зацепить читателя!"
+        }},
+        {"type": "example", "text": {
+          "tk": "Gysga hekaýa:\n\nBeginning: «It was a hot afternoon in July. Merdan and his dog Alabay were walking in the hills near the town.»\nMiddle: «Suddenly, Alabay ran into a small cave and started barking. Merdan followed him and found a little lamb that was stuck between two rocks.»\nEnd: «Carefully, he pulled the lamb out and carried it back to the farm. The farmer was so happy that he thanked Merdan many times. In the end, Merdan felt proud of his clever dog.»\n\nÜns ber: was walking (fon), Suddenly (öwrülişik), In the end (ahyry).",
+          "ru": "Короткий рассказ:\n\nBeginning: «It was a hot afternoon in July. Merdan and his dog Alabay were walking in the hills near the town.»\nMiddle: «Suddenly, Alabay ran into a small cave and started barking. Merdan followed him and found a little lamb that was stuck between two rocks.»\nEnd: «Carefully, he pulled the lamb out and carried it back to the farm. The farmer was so happy that he thanked Merdan many times. In the end, Merdan felt proud of his clever dog.»\n\nОбрати внимание: was walking (фон), Suddenly (поворот), In the end (концовка)."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Garaşylmadyk wakany görkezmek üçin haýsy söz has laýyk?", "ru": "Какое слово лучше всего вводит неожиданное событие?"},
+          "options": ["Finally", "First", "Suddenly"],
+          "answer": 2,
+          "hint": {"tk": "Türkmençe «birden».", "ru": "По-русски «вдруг»."},
+          "explain": {"tk": "Suddenly = birden. Finally — ahyrynda, First — ilki.", "ru": "Suddenly = вдруг. Finally — наконец, First — сначала."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Fony suratlandyrmak üçin haýsy sözlem has gowy?", "ru": "Какое предложение лучше подходит для описания фона?"},
+          "options": ["It was raining and the wind was blowing.", "It rains and the wind blows.", "It will rain tomorrow."],
+          "answer": 0,
+          "hint": {"tk": "Fon üçin Past Continuous ulanylýar.", "ru": "Для фона используется Past Continuous."},
+          "explain": {"tk": "«Was raining, was blowing» — Past Continuous, hekaýanyň fonuny döredýär.", "ru": "«Was raining, was blowing» — Past Continuous, создаёт фон рассказа."}
+        },
+        {"type": "input",
+          "q": {"tk": "Past Simple görnüşini ýaz: «Then we ___ (find) an old map.»", "ru": "Напиши форму Past Simple: «Then we ___ (find) an old map.»"},
+          "answer": "found",
+          "hint": {"tk": "Find düzgünsiz işlik.", "ru": "Find — неправильный глагол."},
+          "explain": {"tk": "Find – found – found.", "ru": "Find – found – found."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Hekaýanyň ortasynda (middle) adatça problema ýa-da garaşylmadyk waka bolýar.", "ru": "В середине рассказа (middle) обычно бывает проблема или неожиданное событие."},
+          "answer": true,
+          "hint": {"tk": "Merdan baradaky mysalda gowakda näme boldy?", "ru": "Что произошло в пещере в примере про Мердана?"},
+          "explain": {"tk": "Dogry: ortada problema (guzy daşlaryň arasynda galýar), ahyrynda çözgüt.", "ru": "Верно: в середине — проблема (ягнёнок застрял), в конце — развязка."}
+        },
+        {"type": "world", "text": {
+          "tk": "Iňlis ýazyjysy Rudýard Kipling «Just So Stories» (1902) kitabyny ilki öz çagalaryna gürrüň beren ertekilerinden ýazypdyr. Ol hekaýany gysga we ýönekeý sözler bilen ýazmagyň gowy nusgasy hasaplanýar.",
+          "ru": "Английский писатель Редьярд Киплинг написал книгу «Just So Stories» («Сказки просто так», 1902) из сказок, которые сначала рассказывал своим детям. Её считают прекрасным образцом того, как писать истории короткими и простыми словами."
+        }}
+      ]
+    }
+  ]
+}

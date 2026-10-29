@@ -1,0 +1,265 @@
+{
+  "grade": 11,
+  "subject": "chemistry",
+  "lessons": [
+    {
+      "id": "chemistry-11-aldehydes",
+      "grade": 11,
+      "topic": 0,
+      "title": {"tk": "Aldegidler", "ru": "Альдегиды"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Aldegidler — molekulasynda aldegid topary −CHO (karbonil topary C=O, uglerodda wodorod bilen) bolan organiki birleşmeler.\n• Umumy formula (doýgun): CₙH₂ₙO ýa-da R−CHO.\n• Metanal (formaldegid) HCHO; etanal (asetaldegid) CH₃CHO; propanal C₂H₅CHO.\n• Atlandyrylyşy: alkanyň adyna «-al» goşulýar.\n\nAlnyşy:\n• Birlenji spirtleri okislendirmek: CH₃CH₂OH + CuO → CH₃CHO + Cu + H₂O (gyzdyrylanda).\n• Kuçerowyň reaksiýasy: C₂H₂ + H₂O → CH₃CHO (Hg²⁺ katalizatory).\n\nHimiki häsiýetleri:\n• Okislenme → karbon kislotasy. «Kümüş aýna» reaksiýasy: R−CHO + Ag₂O (ammiak ergini) → R−COOH + 2Ag↓.\n• Cu(OH)₂ bilen gyzdyrylanda gyzyl Cu₂O çökündisi düşýär.\n• Wodorod bilen dikeldilme → birlenji spirt: CH₃CHO + H₂ → C₂H₅OH.",
+          "ru": "Альдегиды — органические соединения, в молекулах которых есть альдегидная группа −CHO (карбонильная группа C=O, у атома углерода которой есть водород).\n• Общая формула (предельные): CₙH₂ₙO или R−CHO.\n• Метаналь (формальдегид) HCHO; этаналь (ацетальдегид) CH₃CHO; пропаналь C₂H₅CHO.\n• Названия: к названию алкана добавляют суффикс «-аль».\n\nПолучение:\n• Окисление первичных спиртов: CH₃CH₂OH + CuO → CH₃CHO + Cu + H₂O (при нагревании).\n• Реакция Кучерова: C₂H₂ + H₂O → CH₃CHO (катализатор Hg²⁺).\n\nХимические свойства:\n• Окисление → карбоновая кислота. Реакция «серебряного зеркала»: R−CHO + Ag₂O (аммиачный р-р) → R−COOH + 2Ag↓.\n• При нагревании с Cu(OH)₂ выпадает красный осадок Cu₂O.\n• Восстановление водородом → первичный спирт: CH₃CHO + H₂ → C₂H₅OH."}},
+        {"type": "example", "text": {
+          "tk": "Mesele: 4,4 g etanal «kümüş aýna» reaksiýasyna girdi. Näçe gram kümüş bölünip çykar?\n1) M(CH₃CHO) = 2·12 + 4·1 + 16 = 44 g/mol\n2) n(etanal) = 4,4 / 44 = 0,1 mol\n3) Deňleme boýunça 1 mol aldegide 2 mol Ag: n(Ag) = 0,2 mol\n4) m(Ag) = 0,2 · 108 = 21,6 g\nJogap: 21,6 g kümüş.",
+          "ru": "Задача: 4,4 г этаналя вступили в реакцию «серебряного зеркала». Сколько граммов серебра выделится?\n1) M(CH₃CHO) = 2·12 + 4·1 + 16 = 44 г/моль\n2) n(этаналя) = 4,4 / 44 = 0,1 моль\n3) По уравнению на 1 моль альдегида — 2 моль Ag: n(Ag) = 0,2 моль\n4) m(Ag) = 0,2 · 108 = 21,6 г\nОтвет: 21,6 г серебра."}},
+        {"type": "choice",
+          "q": {"tk": "Etanalyň formulasy haýsy?", "ru": "Какая формула у этаналя?"},
+          "options": ["HCHO", "CH₃COOH", "CH₃CHO"],
+          "answer": 2,
+          "hint": {"tk": "«Et-» — iki uglerod atomy, «-al» — aldegid topary.", "ru": "«Эт-» — два атома углерода, «-аль» — альдегидная группа."},
+          "explain": {"tk": "CH₃CHO — iki uglerodly aldegid. HCHO — metanal, CH₃COOH — sirke kislotasy.", "ru": "CH₃CHO — альдегид с двумя атомами углерода. HCHO — метаналь, CH₃COOH — уксусная кислота."}},
+        {"type": "truefalse",
+          "q": {"tk": "Aldegidler wodorod bilen dikeldilende birlenji spirtlere öwrülýär.", "ru": "При восстановлении водородом альдегиды превращаются в первичные спирты."},
+          "answer": true,
+          "hint": {"tk": "Aldegidler birlenji spirtleriň okislenmeginden alynýar — tersine prosesi göz öňüne getiriň.", "ru": "Альдегиды получают окислением первичных спиртов — представьте обратный процесс."},
+          "explain": {"tk": "R−CHO + H₂ → R−CH₂OH, mysal üçin etanaldan etanol alynýar.", "ru": "R−CHO + H₂ → R−CH₂OH, например из этаналя получается этанол."}},
+        {"type": "input",
+          "q": {"tk": "Metanalyň (HCHO) molýar massasy näçe g/mol?", "ru": "Чему равна молярная масса метаналя (HCHO) в г/моль?"},
+          "answer": "30",
+          "hint": {"tk": "C = 12, H = 1, O = 16.", "ru": "C = 12, H = 1, O = 16."},
+          "explain": {"tk": "M = 2·1 + 12 + 16 = 30 g/mol.", "ru": "M = 2·1 + 12 + 16 = 30 г/моль."}},
+        {"type": "choice",
+          "q": {"tk": "Haýsy reaktiw aldegidleri tanamak üçin ulanylýar?", "ru": "Какой реактив используют для распознавания альдегидов?"},
+          "options": [
+            {"tk": "Kümüş oksidiniň ammiakly ergini", "ru": "Аммиачный раствор оксида серебра"},
+            {"tk": "Fenolftalein", "ru": "Фенолфталеин"},
+            {"tk": "Natriý hloridi", "ru": "Хлорид натрия"}
+          ],
+          "answer": 0,
+          "hint": {"tk": "Probirkanyň diwarynda ýalpyldawuk gatlak emele gelýär.", "ru": "На стенках пробирки образуется блестящий налёт."},
+          "explain": {"tk": "Aldegid Ag₂O-ny metal kümüşe çenli dikeldýär — «kümüş aýna» emele gelýär.", "ru": "Альдегид восстанавливает Ag₂O до металлического серебра — образуется «серебряное зеркало»."}},
+        {"type": "world", "text": {
+          "tk": "Formaldegidiň suwdaky 40 %-li ergini formalin diýlip atlandyrylýar. Ol biologiki nusgalary saklamak üçin ulanylýar we fenol-formaldegid smolalaryny (bakelit) öndürmekde esasy çig maldyr. Wanilin hem aldegidler toparyna degişli — ol wanilin ysyny berýär.",
+          "ru": "Водный раствор формальдегида с массовой долей около 40 % называют формалином. Его используют для хранения биологических препаратов, а сам формальдегид — основное сырьё для фенолформальдегидных смол (бакелита). Ванилин, дающий запах ванили, тоже относится к альдегидам."}}
+      ]
+    },
+    {
+      "id": "chemistry-11-carboxylic-acids",
+      "grade": 11,
+      "topic": 1,
+      "title": {"tk": "Karbon kislotalary", "ru": "Карбоновые кислоты"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Karbon kislotalary — molekulasynda karboksil topary −COOH bolan organiki birleşmeler.\n• Doýgun birnegizli kislotalaryň umumy formulasy: CₙH₂ₙ₊₁COOH (ýa-da CₙH₂ₙO₂).\n• Garynja (metan) kislotasy HCOOH; sirke (etan) kislotasy CH₃COOH; stearin kislotasy C₁₇H₃₅COOH.\n\nHäsiýetleri:\n• Gowşak kislotalar: suwda az dissosirlenýär: CH₃COOH ⇌ CH₃COO⁻ + H⁺.\n• Metallar, esasly oksidler, esaslar we karbonatlar bilen duzlary emele getirýär:\n2CH₃COOH + Mg → (CH₃COO)₂Mg + H₂↑\nCH₃COOH + NaOH → CH₃COONa + H₂O\n2CH₃COOH + Na₂CO₃ → 2CH₃COONa + H₂O + CO₂↑\n• Spirtler bilen eterleşme reaksiýasy (H₂SO₄ katalizatory) — çylşyrymly efirler emele gelýär:\nCH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O (etilasetat).",
+          "ru": "Карбоновые кислоты — органические соединения, содержащие карбоксильную группу −COOH.\n• Общая формула предельных одноосновных кислот: CₙH₂ₙ₊₁COOH (или CₙH₂ₙO₂).\n• Муравьиная (метановая) кислота HCOOH; уксусная (этановая) CH₃COOH; стеариновая C₁₇H₃₅COOH.\n\nСвойства:\n• Слабые кислоты: в воде диссоциируют частично: CH₃COOH ⇌ CH₃COO⁻ + H⁺.\n• С металлами, основными оксидами, основаниями и карбонатами образуют соли:\n2CH₃COOH + Mg → (CH₃COO)₂Mg + H₂↑\nCH₃COOH + NaOH → CH₃COONa + H₂O\n2CH₃COOH + Na₂CO₃ → 2CH₃COONa + H₂O + CO₂↑\n• Со спиртами вступают в реакцию этерификации (катализатор H₂SO₄) с образованием сложных эфиров:\nCH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O (этилацетат)."}},
+        {"type": "example", "text": {
+          "tk": "Mesele: 12 g sirke kislotasyny doly neýtrallaşdyrmak üçin näçe gram NaOH gerek?\n1) M(CH₃COOH) = 60 g/mol → n = 12 / 60 = 0,2 mol\n2) CH₃COOH + NaOH → CH₃COONa + H₂O, gatnaşyk 1 : 1\n3) n(NaOH) = 0,2 mol; M(NaOH) = 40 g/mol\n4) m(NaOH) = 0,2 · 40 = 8 g\nJogap: 8 g.",
+          "ru": "Задача: сколько граммов NaOH нужно для полной нейтрализации 12 г уксусной кислоты?\n1) M(CH₃COOH) = 60 г/моль → n = 12 / 60 = 0,2 моль\n2) CH₃COOH + NaOH → CH₃COONa + H₂O, соотношение 1 : 1\n3) n(NaOH) = 0,2 моль; M(NaOH) = 40 г/моль\n4) m(NaOH) = 0,2 · 40 = 8 г\nОтвет: 8 г."}},
+        {"type": "input",
+          "q": {"tk": "Sirke kislotasynyň (CH₃COOH) molýar massasy näçe g/mol?", "ru": "Чему равна молярная масса уксусной кислоты (CH₃COOH) в г/моль?"},
+          "answer": "60",
+          "hint": {"tk": "Molekulada 2 C, 4 H we 2 O bar.", "ru": "В молекуле 2 C, 4 H и 2 O."},
+          "explain": {"tk": "M = 2·12 + 4·1 + 2·16 = 24 + 4 + 32 = 60 g/mol.", "ru": "M = 2·12 + 4·1 + 2·16 = 24 + 4 + 32 = 60 г/моль."}},
+        {"type": "choice",
+          "q": {"tk": "Sirke kislotasy bilen etanolyň reaksiýasyndan näme emele gelýär?", "ru": "Что образуется при реакции уксусной кислоты с этанолом?"},
+          "options": [
+            {"tk": "Aldegid", "ru": "Альдегид"},
+            {"tk": "Çylşyrymly efir", "ru": "Сложный эфир"},
+            {"tk": "Alkan", "ru": "Алкан"}
+          ],
+          "answer": 1,
+          "hint": {"tk": "Bu reaksiýa eterleşme diýilýär.", "ru": "Эта реакция называется этерификацией."},
+          "explain": {"tk": "Kislota + spirt → çylşyrymly efir (etilasetat) + suw.", "ru": "Кислота + спирт → сложный эфир (этилацетат) + вода."}},
+        {"type": "truefalse",
+          "q": {"tk": "Sirke kislotasy soda (Na₂CO₃) bilen täsirleşende kömürturşy gazy bölünip çykýar.", "ru": "При взаимодействии уксусной кислоты с содой (Na₂CO₃) выделяется углекислый газ."},
+          "answer": true,
+          "hint": {"tk": "Sirke kislotasy kömür kislotasyndan güýçlimi?", "ru": "Сильнее ли уксусная кислота, чем угольная?"},
+          "explain": {"tk": "Sirke kislotasy kömür kislotasyny onuň duzundan gysyp çykarýar, H₂CO₃ bolsa H₂O we CO₂-a dargaýar.", "ru": "Уксусная кислота вытесняет более слабую угольную кислоту из соли, а H₂CO₃ распадается на H₂O и CO₂."}},
+        {"type": "world", "text": {
+          "tk": "Garynja kislotasy ilkinji gezek 1671-nji ýylda iňlis tebigatçysy Jon Reý tarapyndan garynjalary distillirläp alnypdyr — ady hem şondan gelip çykýar. Ol gyjyndyrgyç otuň tüýjagazlarynda hem bar. Aşhanadaky sirke bolsa sirke kislotasynyň takmynan 6–9 %-li ergini.",
+          "ru": "Муравьиную кислоту впервые выделил английский натуралист Джон Рей в 1671 году, перегоняя муравьёв, — отсюда и её название. Она содержится и в жгучих волосках крапивы. Столовый уксус — это примерно 6–9 % раствор уксусной кислоты."}}
+      ]
+    },
+    {
+      "id": "chemistry-11-fats",
+      "grade": 11,
+      "topic": 2,
+      "title": {"tk": "Ýaglar", "ru": "Жиры"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Ýaglar — gliseriniň (üçatomly spirt C₃H₅(OH)₃) we ýokary ýag kislotalarynyň çylşyrymly efirleri (trigliseridler).\n\nÝag kislotalary:\n• Doýgun: palmitin C₁₅H₃₁COOH, stearin C₁₇H₃₅COOH — gaty ýaglarda (mal ýagy).\n• Doýmadyk: olein C₁₇H₃₃COOH (bir C=C), linol C₁₇H₃₁COOH (iki C=C) — suwuk ýaglarda (ösümlik ýaglary).\n\nHimiki häsiýetleri:\n• Gidroliz (suw bilen, kislotaly gurşawda) → gliserin + ýag kislotalary.\n• Sabynlaşma (aşgarly gidroliz): ýag + 3NaOH → gliserin + 3 C₁₇H₃₅COONa (sabyn).\n• Gidrogenleşme: suwuk ýaglara wodorod birikdirip (Ni katalizatory) gaty ýag — margarin alynýar.\n\nBiologiki ähmiýeti: 1 g ýag okislenende takmynan 39 kJ (9 kkal) energiýa berýär — beloklardan we uglewodlardan iki esse köp.",
+          "ru": "Жиры — сложные эфиры глицерина (трёхатомного спирта C₃H₅(OH)₃) и высших жирных кислот (триглицериды).\n\nЖирные кислоты:\n• Насыщенные: пальмитиновая C₁₅H₃₁COOH, стеариновая C₁₇H₃₅COOH — преобладают в твёрдых жирах (животных).\n• Ненасыщенные: олеиновая C₁₇H₃₃COOH (одна C=C), линолевая C₁₇H₃₁COOH (две C=C) — в жидких жирах (растительных маслах).\n\nХимические свойства:\n• Гидролиз (водой, в кислой среде) → глицерин + жирные кислоты.\n• Омыление (щелочной гидролиз): жир + 3NaOH → глицерин + 3 C₁₇H₃₅COONa (мыло).\n• Гидрирование: присоединение водорода к жидким маслам (катализатор Ni) даёт твёрдый жир — маргарин.\n\nБиологическая роль: при окислении 1 г жира выделяется около 39 кДж (9 ккал) — примерно вдвое больше, чем из белков или углеводов."}},
+        {"type": "example", "text": {
+          "tk": "Mesele: Tristearin (gliseriniň we stearin kislotasynyň trigliseridi) NaOH bilen sabynlaşdyryldy. 1 mol ýagdan näçe mol sabyn we gliserin alynýar?\n1) Trigliseridiň molekulasynda üç sany ýag kislotasynyň galyndysy bar.\n2) Her galyndy bir NaOH molekulasy bilen täsirleşýär → 3 mol C₁₇H₃₅COONa (natriý stearaty — sabyn).\n3) Gliseriniň galyndysy bir → 1 mol gliserin.\nJogap: 3 mol sabyn, 1 mol gliserin; 3 mol NaOH harçlanýar.",
+          "ru": "Задача: тристеарин (триглицерид глицерина и стеариновой кислоты) омылили раствором NaOH. Сколько моль мыла и глицерина получается из 1 моль жира?\n1) В молекуле триглицерида три остатка жирной кислоты.\n2) Каждый остаток реагирует с одной молекулой NaOH → 3 моль C₁₇H₃₅COONa (стеарат натрия — мыло).\n3) Остаток глицерина один → 1 моль глицерина.\nОтвет: 3 моль мыла и 1 моль глицерина; расходуется 3 моль NaOH."}},
+        {"type": "choice",
+          "q": {"tk": "Ýaglar haýsy birleşmeler synpyna degişli?", "ru": "К какому классу соединений относятся жиры?"},
+          "options": [
+            {"tk": "Çylşyrymly efirler", "ru": "Сложные эфиры"},
+            {"tk": "Aldegidler", "ru": "Альдегиды"},
+            {"tk": "Aminokislotalar", "ru": "Аминокислоты"}
+          ],
+          "answer": 0,
+          "hint": {"tk": "Ýag gliserin bilen kislotadan emele gelýär.", "ru": "Жир образован глицерином и кислотами."},
+          "explain": {"tk": "Spirt + kislota → çylşyrymly efir; ýaglar gliseriniň çylşyrymly efirleri.", "ru": "Спирт + кислота → сложный эфир; жиры — сложные эфиры глицерина."}},
+        {"type": "truefalse",
+          "q": {"tk": "Ösümlik ýaglary köplenç suwuk, sebäbi olarda doýmadyk ýag kislotalary agdyklyk edýär.", "ru": "Растительные масла обычно жидкие, потому что в них преобладают остатки ненасыщенных жирных кислот."},
+          "answer": true,
+          "hint": {"tk": "Goşa baglanyşyklar molekulanyň zynjyryny epýär.", "ru": "Двойные связи изгибают углеводородную цепь."},
+          "explain": {"tk": "Doýmadyk kislotalaryň zynjyrlary egrelen, molekulalar dykyz ýerleşmeýär, şonuň üçin ereme temperaturasy pes.", "ru": "Цепи ненасыщенных кислот изогнуты, молекулы упаковываются неплотно, поэтому температура плавления низкая."}},
+        {"type": "input",
+          "q": {"tk": "1 mol trigliseridi doly sabynlaşdyrmak üçin näçe mol NaOH gerek?", "ru": "Сколько моль NaOH нужно для полного омыления 1 моль триглицерида?"},
+          "answer": "3",
+          "hint": {"tk": "Trigliseridde näçe efir topary bar?", "ru": "Сколько сложноэфирных групп в триглицериде?"},
+          "explain": {"tk": "Üç efir topary — her birine bir NaOH, jemi 3 mol.", "ru": "Три сложноэфирные группы — по одному NaOH на каждую, всего 3 моль."}},
+        {"type": "choice",
+          "q": {"tk": "Margarin almak üçin suwuk ýaglar bilen haýsy reaksiýa geçirilýär?", "ru": "Какую реакцию проводят с жидкими маслами, чтобы получить маргарин?"},
+          "options": [
+            {"tk": "Sabynlaşma", "ru": "Омыление"},
+            {"tk": "Okislenme", "ru": "Окисление"},
+            {"tk": "Gidrogenleşme", "ru": "Гидрирование"}
+          ],
+          "answer": 2,
+          "hint": {"tk": "Goşa baglanyşyklary doýurmaly.", "ru": "Нужно насытить двойные связи."},
+          "explain": {"tk": "Ni katalizatory bilen H₂ birikdirilýär, C=C baglanyşyklary doýýar we ýag gatylýar.", "ru": "В присутствии Ni присоединяется H₂, связи C=C насыщаются, и жир затвердевает."}},
+        {"type": "world", "text": {
+          "tk": "Fransuz himigi Mişel Şewrýol XIX asyryň başynda ýaglaryň gliserinden we ýag kislotalaryndan durýandygyny subut etdi. Ýaglary gidrogenleşdirmegiň usuly 1902-nji ýylda nemes himigi Wilhelm Normanyň adyna patentlendi we margarin önümçiliginiň esasy boldy.",
+          "ru": "Французский химик Мишель Шеврёль в начале XIX века доказал, что жиры состоят из глицерина и жирных кислот. Способ гидрирования жиров запатентовал в 1902 году немецкий химик Вильгельм Норман — это стало основой производства маргарина."}}
+      ]
+    },
+    {
+      "id": "chemistry-11-carbohydrates",
+      "grade": 11,
+      "topic": 3,
+      "title": {"tk": "Uglewodlar", "ru": "Углеводы"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Uglewodlar — köpüsiniň umumy formulasy Cₙ(H₂O)ₘ bolan tebigy organiki maddalar. Olar köp atomly spirtleriň we aldegidleriň ýa-da ketonlaryň häsiýetlerini özünde jemleýär.\n\nToparlary:\n• Monosaharidler: glýukoza we fruktoza C₆H₁₂O₆ (izomerler). Glýukoza — aldegidospirt, fruktoza — ketospirt.\n• Disaharidler: saharoza C₁₂H₂₂O₁₁ (glýukoza + fruktoza galyndylary), laktoza, maltoza.\n• Polisaharidler: krahmal we sellýuloza (C₆H₁₀O₅)ₙ.\n\nEsasy reaksiýalar:\n• Fotosintez: 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂ (ýagtylykda, hlorofil).\n• Glýukozanyň spirtli aşgarlanmasy: C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂.\n• Glýukoza aldegid hökmünde «kümüş aýna» reaksiýasyny berýär.\n• Krahmal ýod bilen gök reňk berýär; gidroliz edilende glýukoza alynýar.",
+          "ru": "Углеводы — природные органические вещества, многие из которых имеют общую формулу Cₙ(H₂O)ₘ. Они сочетают свойства многоатомных спиртов и альдегидов или кетонов.\n\nГруппы:\n• Моносахариды: глюкоза и фруктоза C₆H₁₂O₆ (изомеры). Глюкоза — альдегидоспирт, фруктоза — кетоноспирт.\n• Дисахариды: сахароза C₁₂H₂₂O₁₁ (остатки глюкозы и фруктозы), лактоза, мальтоза.\n• Полисахариды: крахмал и целлюлоза (C₆H₁₀O₅)ₙ.\n\nОсновные реакции:\n• Фотосинтез: 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂ (на свету, хлорофилл).\n• Спиртовое брожение глюкозы: C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂.\n• Глюкоза как альдегид даёт реакцию «серебряного зеркала».\n• Крахмал с иодом даёт синее окрашивание; при гидролизе образует глюкозу."}},
+        {"type": "example", "text": {
+          "tk": "Mesele: 90 g glýukoza spirtli aşgarlandy. Näçe gram etanol alynýar?\n1) M(C₆H₁₂O₆) = 6·12 + 12·1 + 6·16 = 180 g/mol\n2) n(glýukoza) = 90 / 180 = 0,5 mol\n3) C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂, diýmek n(C₂H₅OH) = 1 mol\n4) M(C₂H₅OH) = 46 g/mol → m = 46 g\nJogap: 46 g etanol.",
+          "ru": "Задача: 90 г глюкозы подвергли спиртовому брожению. Сколько граммов этанола получится?\n1) M(C₆H₁₂O₆) = 6·12 + 12·1 + 6·16 = 180 г/моль\n2) n(глюкозы) = 90 / 180 = 0,5 моль\n3) C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂, значит n(C₂H₅OH) = 1 моль\n4) M(C₂H₅OH) = 46 г/моль → m = 46 г\nОтвет: 46 г этанола."}},
+        {"type": "input",
+          "q": {"tk": "Glýukozanyň (C₆H₁₂O₆) molýar massasy näçe g/mol?", "ru": "Чему равна молярная масса глюкозы (C₆H₁₂O₆) в г/моль?"},
+          "answer": "180",
+          "hint": {"tk": "C = 12, H = 1, O = 16.", "ru": "C = 12, H = 1, O = 16."},
+          "explain": {"tk": "72 + 12 + 96 = 180 g/mol.", "ru": "72 + 12 + 96 = 180 г/моль."}},
+        {"type": "choice",
+          "q": {"tk": "Haýsy uglewod polisaharid?", "ru": "Какой углевод является полисахаридом?"},
+          "options": [
+            {"tk": "Saharoza", "ru": "Сахароза"},
+            {"tk": "Sellýuloza", "ru": "Целлюлоза"},
+            {"tk": "Fruktoza", "ru": "Фруктоза"}
+          ],
+          "answer": 1,
+          "hint": {"tk": "Polisaharid — müňlerçe monosaharid galyndysyndan durýan polimer.", "ru": "Полисахарид — полимер из тысяч остатков моносахаридов."},
+          "explain": {"tk": "Sellýuloza (C₆H₁₀O₅)ₙ — glýukoza galyndylaryndan durýan polimer. Saharoza — disaharid, fruktoza — monosaharid.", "ru": "Целлюлоза (C₆H₁₀O₅)ₙ — полимер из остатков глюкозы. Сахароза — дисахарид, фруктоза — моносахарид."}},
+        {"type": "truefalse",
+          "q": {"tk": "Krahmal ýodyň ergini bilen gök reňk berýär.", "ru": "Крахмал с раствором иода даёт синее окрашивание."},
+          "answer": true,
+          "hint": {"tk": "Bu krahmala hil reaksiýasy.", "ru": "Это качественная реакция на крахмал."},
+          "explain": {"tk": "Ýod krahmalyň spiral molekulalarynyň içine girip, gök-gyrmyzy reňkli toplum emele getirýär.", "ru": "Иод встраивается в спиральные молекулы крахмала и образует сине-фиолетовый комплекс."}},
+        {"type": "input",
+          "q": {"tk": "Fotosintezde 1 mol glýukoza emele gelende näçe mol O₂ bölünip çykýar?", "ru": "Сколько моль O₂ выделяется при образовании 1 моль глюкозы в фотосинтезе?"},
+          "answer": "6",
+          "hint": {"tk": "Fotosintez deňlemesine serediň.", "ru": "Посмотрите на уравнение фотосинтеза."},
+          "explain": {"tk": "6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂, diýmek 6 mol O₂.", "ru": "6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂, значит 6 моль O₂."}},
+        {"type": "world", "text": {
+          "tk": "Sellýuloza Ýer ýüzündäki iň köp ýaýran organiki madda hasaplanýar: ol ösümlikleriň öýjük diwarlarynyň esasy bölegi. Pagta süýüminiň 90 %-den gowragy sellýulozadan ybarat. Adamyň bedeni sellýulozany siňdirip bilmeýär, ýöne iýmit süýümi hökmünde ol içegeleriň işine kömek edýär.",
+          "ru": "Целлюлоза считается самым распространённым органическим веществом на Земле: из неё в основном состоят клеточные стенки растений. Хлопковое волокно больше чем на 90 % состоит из целлюлозы. Организм человека не может её переварить, но как пищевое волокно она важна для работы кишечника."}}
+      ]
+    },
+    {
+      "id": "chemistry-11-amino-acids-proteins",
+      "grade": 11,
+      "topic": 4,
+      "title": {"tk": "Aminokislotalar we beloklar", "ru": "Аминокислоты и белки"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Aminokislotalar — molekulasynda amin topary −NH₂ we karboksil topary −COOH bolan birleşmeler. Iň ýönekeýi — glisin (aminosirke kislotasy) H₂N−CH₂−COOH.\n• Amfoter häsiýetli: kislotalar bilen hem, aşgarlar bilen hem duz emele getirýär.\n• Beloklaryň düzüminde 20 sany esasy aminokislota bar; olaryň käbiri çalşylmaýan, ýagny iýmit bilen gelmeli.\n\nBeloklar — aminokislota galyndylarynyň peptid baglanyşyklary (−CO−NH−) bilen birikmeginden emele gelýän biopolimerler.\nGurluşynyň derejeleri:\n• Birlenji — aminokislotalaryň yzygiderligi.\n• Ikilenji — α-spiral ýa-da β-gatlak (wodorod baglanyşyklary).\n• Üçlenji — zynjyryň giňişlikdäki şekili.\n• Dördlenji — birnäçe zynjyryň birleşmegi (mysal: gemoglobin).\n\nHäsiýetleri: denaturasiýa (gyzdyrmakda gurluş bozulýar), gidroliz → aminokislotalar. Hil reaksiýalary: biuret (Cu²⁺ bilen gyrmyzy reňk), ksantoprotein (HNO₃ bilen sary reňk).",
+          "ru": "Аминокислоты — соединения, в молекулах которых есть аминогруппа −NH₂ и карбоксильная группа −COOH. Простейшая — глицин (аминоуксусная кислота) H₂N−CH₂−COOH.\n• Амфотерны: образуют соли и с кислотами, и со щелочами.\n• В состав белков входят 20 основных аминокислот; часть из них незаменимые, то есть должны поступать с пищей.\n\nБелки — биополимеры из остатков аминокислот, соединённых пептидными связями (−CO−NH−).\nУровни структуры:\n• Первичная — последовательность аминокислот.\n• Вторичная — α-спираль или β-слой (водородные связи).\n• Третичная — пространственная форма цепи.\n• Четвертичная — объединение нескольких цепей (пример: гемоглобин).\n\nСвойства: денатурация (разрушение структуры при нагревании), гидролиз → аминокислоты. Качественные реакции: биуретовая (с Cu²⁺ фиолетовое окрашивание), ксантопротеиновая (с HNO₃ жёлтое окрашивание)."}},
+        {"type": "example", "text": {
+          "tk": "Mysal: iki molekula glisinden dipeptid emele gelişi.\n1) Birinji glisiniň −COOH topary ikinjisiniň −NH₂ topary bilen täsirleşýär.\n2) Bir molekula suw bölünip çykýar.\n3) H₂N−CH₂−COOH + H₂N−CH₂−COOH → H₂N−CH₂−CO−NH−CH₂−COOH + H₂O\n4) −CO−NH− — peptid baglanyşygy.\nNetije: n aminokislotadan zynjyr emele gelende (n − 1) peptid baglanyşygy we (n − 1) suw molekulasy emele gelýär.",
+          "ru": "Пример: образование дипептида из двух молекул глицина.\n1) Группа −COOH первого глицина реагирует с группой −NH₂ второго.\n2) Отщепляется одна молекула воды.\n3) H₂N−CH₂−COOH + H₂N−CH₂−COOH → H₂N−CH₂−CO−NH−CH₂−COOH + H₂O\n4) −CO−NH− — пептидная связь.\nВывод: при образовании цепи из n аминокислот возникает (n − 1) пептидных связей и выделяется (n − 1) молекул воды."}},
+        {"type": "input",
+          "q": {"tk": "10 aminokislota galyndysyndan durýan peptidde näçe peptid baglanyşygy bar?", "ru": "Сколько пептидных связей в пептиде из 10 остатков аминокислот?"},
+          "answer": "9",
+          "hint": {"tk": "Baglanyşyk iki goňşy galyndynyň arasynda bolýar.", "ru": "Связь образуется между двумя соседними остатками."},
+          "explain": {"tk": "n − 1 = 10 − 1 = 9 peptid baglanyşygy.", "ru": "n − 1 = 10 − 1 = 9 пептидных связей."}},
+        {"type": "choice",
+          "q": {"tk": "Aminokislotalaryň amfoter häsiýetini haýsy toparlar kesgitleýär?", "ru": "Какие группы определяют амфотерность аминокислот?"},
+          "options": [
+            {"tk": "−OH we −CHO", "ru": "−OH и −CHO"},
+            {"tk": "−NH₂ we −COOH", "ru": "−NH₂ и −COOH"},
+            {"tk": "−NO₂ we −CH₃", "ru": "−NO₂ и −CH₃"}
+          ],
+          "answer": 1,
+          "hint": {"tk": "Bir topar esas, beýlekisi kislota häsiýetini berýär.", "ru": "Одна группа даёт основные свойства, другая — кислотные."},
+          "explain": {"tk": "−NH₂ — esasly topar, −COOH — kislotaly topar.", "ru": "−NH₂ — основная группа, −COOH — кислотная."}},
+        {"type": "truefalse",
+          "q": {"tk": "Ýumurtgany gaýnadanyňda beloklaryň birlenji gurluşy, ýagny aminokislotalaryň yzygiderligi bozulýar.", "ru": "При варке яйца разрушается первичная структура белка, то есть последовательность аминокислот."},
+          "answer": false,
+          "hint": {"tk": "Denaturasiýa peptid baglanyşyklaryny üzýärmi?", "ru": "Разрывает ли денатурация пептидные связи?"},
+          "explain": {"tk": "Denaturasiýada ikilenji, üçlenji we dördlenji gurluşlar bozulýar, peptid baglanyşyklary we birlenji gurluş saklanýar.", "ru": "При денатурации разрушаются вторичная, третичная и четвертичная структуры, а пептидные связи и первичная структура сохраняются."}},
+        {"type": "choice",
+          "q": {"tk": "Belok HNO₃ bilen gyzdyrylanda haýsy reňk emele gelýär?", "ru": "Какое окрашивание появляется при нагревании белка с HNO₃?"},
+          "options": [
+            {"tk": "Sary", "ru": "Жёлтое"},
+            {"tk": "Gök", "ru": "Синее"},
+            {"tk": "Ýaşyl", "ru": "Зелёное"}
+          ],
+          "answer": 0,
+          "hint": {"tk": "Reaksiýanyň ady grek sözi «ksantos» — «sary» sözünden.", "ru": "Название реакции происходит от греческого «ксантос» — «жёлтый»."},
+          "explain": {"tk": "Ksantoprotein reaksiýasy: aromatik halkaly aminokislotalar nitrirlenip sary reňk berýär.", "ru": "Ксантопротеиновая реакция: аминокислоты с ароматическим кольцом нитруются и дают жёлтое окрашивание."}},
+        {"type": "world", "text": {
+          "tk": "Britan biohimigi Frederik Senger 1955-nji ýyla çenli ilkinji gezek belogyň — insuliniň — doly aminokislota yzygiderligini kesgitledi we 1958-nji ýylda Nobel baýragyna mynasyp boldy. 2020-nji ýylda AlphaFold atly emeli aň ulgamy beloklaryň üç ölçegli gurluşyny ýokary takyklyk bilen çaklap başlady; bu iş üçin 2024-nji ýylyň himiýa boýunça Nobel baýragy berildi.",
+          "ru": "Британский биохимик Фредерик Сенгер к 1955 году впервые полностью определил последовательность аминокислот белка — инсулина — и в 1958 году получил Нобелевскую премию. В 2020 году система искусственного интеллекта AlphaFold научилась с высокой точностью предсказывать трёхмерную структуру белков; за эту работу присуждена Нобелевская премия по химии 2024 года."}}
+      ]
+    },
+    {
+      "id": "chemistry-11-polymers",
+      "grade": 11,
+      "topic": 5,
+      "title": {"tk": "Polimerler", "ru": "Полимеры"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Polimerler — köp sanly gaýtalanýan bölejiklerden (struktura birliklerinden) durýan ýokary molekulýar birleşmeler.\n• Monomer — polimeriň emele gelýän ýönekeý maddasy.\n• Polimerleşme derejesi n — zynjyrdaky monomer birlikleriniň sany. M(polimer) = n · M(birlik).\n\nAlnyş usullary:\n• Polimerleşme — goşa baglanyşykly monomerleriň goşmaça önümsiz birikmegi: nCH₂=CH₂ → (−CH₂−CH₂−)ₙ (polietilen).\n• Polikondensasiýa — ýönekeý molekula (köplenç suw) bölünip çykmak bilen: kapron, lawsan, fenol-formaldegid smolalary.\n\nMysallar:\n• Polietilen, polipropilen, poliwinilhlorid (PWH), polistirol, teflon (−CF₂−CF₂−)ₙ.\n• Tebigy polimerler: krahmal, sellýuloza, beloklar, tebigy kauçuk.\n\nTermoplastlar gyzdyrylanda ýumşaýar we gaýtadan şekillendirilýär; termoreaktiw polimerler gatap galýar we gaýtadan eredilmeýär.",
+          "ru": "Полимеры — высокомолекулярные соединения, молекулы которых состоят из множества повторяющихся звеньев (структурных единиц).\n• Мономер — простое вещество, из которого образуется полимер.\n• Степень полимеризации n — число звеньев в цепи. M(полимера) = n · M(звена).\n\nСпособы получения:\n• Полимеризация — соединение мономеров с кратными связями без побочных продуктов: nCH₂=CH₂ → (−CH₂−CH₂−)ₙ (полиэтилен).\n• Поликонденсация — с выделением низкомолекулярного вещества (обычно воды): капрон, лавсан, фенолформальдегидные смолы.\n\nПримеры:\n• Полиэтилен, полипропилен, поливинилхлорид (ПВХ), полистирол, тефлон (−CF₂−CF₂−)ₙ.\n• Природные полимеры: крахмал, целлюлоза, белки, натуральный каучук.\n\nТермопласты при нагревании размягчаются и могут быть переформованы; термореактивные полимеры необратимо твердеют и повторно не плавятся."}},
+        {"type": "example", "text": {
+          "tk": "Mesele: Polietileniň orta molýar massasy 28 000 g/mol. Polimerleşme derejesini tapyň.\n1) Struktura birligi −CH₂−CH₂−: M = 2·12 + 4·1 = 28 g/mol\n2) n = M(polimer) / M(birlik) = 28 000 / 28 = 1000\nJogap: n = 1000, ýagny zynjyrda ortaça 1000 etilen birligi bar.",
+          "ru": "Задача: средняя молярная масса полиэтилена 28 000 г/моль. Найдите степень полимеризации.\n1) Структурное звено −CH₂−CH₂−: M = 2·12 + 4·1 = 28 г/моль\n2) n = M(полимера) / M(звена) = 28 000 / 28 = 1000\nОтвет: n = 1000, то есть в цепи в среднем 1000 звеньев этилена."}},
+        {"type": "choice",
+          "q": {"tk": "Polietileniň monomeri haýsy?", "ru": "Какой мономер у полиэтилена?"},
+          "options": [
+            {"tk": "Etan C₂H₆", "ru": "Этан C₂H₆"},
+            {"tk": "Asetilen C₂H₂", "ru": "Ацетилен C₂H₂"},
+            {"tk": "Etilen C₂H₄", "ru": "Этилен C₂H₄"}
+          ],
+          "answer": 2,
+          "hint": {"tk": "Polimerleşme üçin goşa baglanyşyk gerek.", "ru": "Для полимеризации нужна двойная связь."},
+          "explain": {"tk": "Etilen CH₂=CH₂ goşa baglanyşygyny açyp, polietilen zynjyryny emele getirýär.", "ru": "Этилен CH₂=CH₂ раскрывает двойную связь и образует цепь полиэтилена."}},
+        {"type": "truefalse",
+          "q": {"tk": "Polikondensasiýada monomerlerden başga hiç hili önüm emele gelmeýär.", "ru": "При поликонденсации, кроме полимера, никаких других продуктов не образуется."},
+          "answer": false,
+          "hint": {"tk": "Polimerleşme bilen polikondensasiýanyň tapawudyny ýatlaň.", "ru": "Вспомните, чем поликонденсация отличается от полимеризации."},
+          "explain": {"tk": "Polikondensasiýada pes molekulýar önüm, köplenç suw, bölünip çykýar. Goşmaça önümsiz geçýän prosess — polimerleşme.", "ru": "При поликонденсации выделяется низкомолекулярный продукт, чаще вода. Без побочных продуктов идёт полимеризация."}},
+        {"type": "input",
+          "q": {"tk": "Polipropileniň struktura birliginiň (−CH₂−CH(CH₃)−) molýar massasy 42 g/mol. Polimeriň molýar massasy 84 000 g/mol bolsa, polimerleşme derejesi näçe?", "ru": "Молярная масса звена полипропилена (−CH₂−CH(CH₃)−) 42 г/моль. Если молярная масса полимера 84 000 г/моль, чему равна степень полимеризации?"},
+          "answer": "2000",
+          "hint": {"tk": "n = M(polimer) / M(birlik).", "ru": "n = M(полимера) / M(звена)."},
+          "explain": {"tk": "n = 84 000 / 42 = 2000.", "ru": "n = 84 000 / 42 = 2000."}},
+        {"type": "world", "text": {
+          "tk": "Ilkinji doly sintetik plastmassa — bakelit — 1907-nji ýylda Leo Bakelend tarapyndan fenol bilen formaldegidden alyndy. Teflony 1938-nji ýylda Roý Plankett tötänleýin açdy. Häzirki wagtda plastik galyndylary uly ekologik mesele, şonuň üçin gaýtadan işlemek we biologiki dargaýan polimerler işjeň öwrenilýär.",
+          "ru": "Первую полностью синтетическую пластмассу — бакелит — получил Лео Бакеланд в 1907 году из фенола и формальдегида. Тефлон в 1938 году случайно открыл Рой Планкетт. Сегодня пластиковые отходы — серьёзная экологическая проблема, поэтому активно развиваются переработка и биоразлагаемые полимеры."}}
+      ]
+    }
+  ]
+}

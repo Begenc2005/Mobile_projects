@@ -1,0 +1,47 @@
+{
+  "id": "history",
+  "icon": "🏛️",
+  "color": "#B08800",
+  "title": {"tk": "Taryh", "ru": "История"},
+  "lessons": [
+    {
+      "id": "hist-7-merv",
+      "grade": 7,
+      "title": {"tk": "Gadymy Merw we Seljuklar", "ru": "Древний Мерв и Сельджуки"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Merw — Beýik Ýüpek ýolunyň iň uly şäherleriniň biri. Müňýyllyklaryň dowamynda ol birnäçe gezek täzeden gurlupdyr: Erkgala, Gäwürgala, Soltangala.\n\nXI–XII asyrlarda Merw Beýik Seljuk döwletiniň paýtagty boldy. Soltan Sanjaryň (1118–1157) döwründe şäher iň gülläp ösen ýagdaýyna ýetdi.",
+          "ru": "Мерв — один из крупнейших городов Великого Шёлкового пути. За тысячелетия он несколько раз отстраивался заново: Эрк-кала, Гяур-кала, Султан-кала.\n\nВ XI–XII веках Мерв был столицей Великой Сельджукской империи. При султане Санджаре (1118–1157) город достиг наивысшего расцвета."}},
+        {"type": "choice",
+          "q": {"tk": "Merw haýsy döwletiň paýtagty bolupdyr?", "ru": "Столицей какого государства был Мерв?"},
+          "options": [
+            {"tk": "Beýik Seljuk döwleti", "ru": "Великая Сельджукская империя"},
+            {"tk": "Rim imperiýasy", "ru": "Римская империя"},
+            {"tk": "Wizantiýa", "ru": "Византия"}
+          ],
+          "answer": 0,
+          "hint": {"tk": "XI–XII asyrlar, Soltan Sanjar.", "ru": "XI–XII века, султан Санджар."},
+          "explain": {"tk": "Merw Beýik Seljuk döwletiniň paýtagty bolupdyr.", "ru": "Мерв был столицей Великой Сельджукской империи."}},
+        {"type": "choice",
+          "q": {"tk": "Haýsy ýadygärlik Merwde ýerleşýär?", "ru": "Какой памятник находится в Мерве?"},
+          "options": [
+            {"tk": "Soltan Sanjaryň kümmeti", "ru": "Мавзолей султана Санджара"},
+            {"tk": "Täç-Mahal", "ru": "Тадж-Махал"},
+            {"tk": "Kolizeý", "ru": "Колизей"}
+          ],
+          "answer": 0,
+          "hint": {"tk": "Soltanyň ady sapakda birnäçe gezek gaýtalandy.", "ru": "Имя султана в уроке повторялось несколько раз."},
+          "explain": {"tk": "Soltan Sanjaryň kümmeti XII asyrda gurlupdyr.", "ru": "Мавзолей султана Санджара построен в XII веке."}},
+        {"type": "truefalse",
+          "q": {"tk": "«Gadymy Merw» UNESKO-nyň Bütindünýä mirasynyň sanawyna girizildi.", "ru": "«Древний Мерв» включён в список Всемирного наследия ЮНЕСКО."},
+          "answer": true,
+          "hint": {"tk": "1999-njy ýyl.", "ru": "1999 год."},
+          "explain": {"tk": "Dogry, 1999-njy ýylda girizildi.", "ru": "Верно, включён в 1999 году."}},
+        {"type": "world", "text": {
+          "tk": "Ýüpek ýoly Hytaýy Ortaýer deňzi bilen birleşdirýärdi. Onuň bilen diňe ýüpek däl, eýsem kagyz ýasamak, astronomiýa, matematika ýaly bilimler hem ýaýrapdyr.",
+          "ru": "Шёлковый путь соединял Китай со Средиземноморьем. По нему распространялись не только шёлк, но и знания: изготовление бумаги, астрономия, математика."}}
+      ]
+    }
+  ]
+}

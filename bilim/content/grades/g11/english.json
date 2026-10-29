@@ -1,0 +1,288 @@
+{
+  "grade": 11,
+  "subject": "english",
+  "lessons": [
+    {
+      "id": "english-11-tenses-review",
+      "grade": 11,
+      "topic": 0,
+      "title": {"tk": "Zamanlary gaýtalamak", "ru": "Повторение времён"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Iňlis dilinde zaman iki zady görkezýär: haçan (present / past / future) we nähili (simple / continuous / perfect / perfect continuous).\n• Present Simple — endik, hakykat: She works in a bank.\n• Present Continuous — häzir bolýan iş: She is working now.\n• Present Perfect — häzirki netijeli geçen iş: I have lost my keys.\n• Present Perfect Continuous — dowam edip gelýän iş: I have been waiting for an hour.\n• Past Simple — geçmişde tamamlanan, wagty belli: I lost my keys yesterday.\n• Past Continuous — geçmişde dowam eden iş: I was reading when he called.\n• Past Perfect — başga geçen işden öň: The film had started before we arrived.\n• Future: will (karar, çaklama), be going to (meýilnama), Present Continuous (gurnalan duşuşyk).\nSignal sözler: yesterday, ago → Past Simple; already, yet, ever, since, for → Present Perfect.",
+          "ru": "Время в английском показывает две вещи: когда (present / past / future) и как (simple / continuous / perfect / perfect continuous).\n• Present Simple — привычка, факт: She works in a bank.\n• Present Continuous — действие сейчас: She is working now.\n• Present Perfect — прошлое действие с результатом сейчас: I have lost my keys.\n• Present Perfect Continuous — действие, длящееся до сих пор: I have been waiting for an hour.\n• Past Simple — завершено в прошлом, время известно: I lost my keys yesterday.\n• Past Continuous — процесс в прошлом: I was reading when he called.\n• Past Perfect — раньше другого прошлого действия: The film had started before we arrived.\n• Будущее: will (решение, прогноз), be going to (план), Present Continuous (договорённость).\nСлова-маркеры: yesterday, ago → Past Simple; already, yet, ever, since, for → Present Perfect."
+        }},
+        {"type": "example", "text": {
+          "tk": "Sözlemi tamamlalyň: «When I ___ (arrive) at the station, the train ___ (already / leave).»\n1) Iki geçen iş bar: men geldim we otly gitdi.\n2) Haýsysy öň boldy? Otly men gelmezden öň gitdi.\n3) Soňky iş → Past Simple: arrived.\n4) Öňki iş → Past Perfect: had already left.\nJogap: When I arrived at the station, the train had already left.",
+          "ru": "Дополним предложение: «When I ___ (arrive) at the station, the train ___ (already / leave).»\n1) Два прошлых действия: я пришёл и поезд ушёл.\n2) Что было раньше? Поезд ушёл до моего прихода.\n3) Более позднее действие → Past Simple: arrived.\n4) Более раннее → Past Perfect: had already left.\nОтвет: When I arrived at the station, the train had already left."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Dogry görnüşi saýlaň: «I ___ this film three times.»", "ru": "Выберите правильную форму: «I ___ this film three times.»"},
+          "options": ["saw", "have seen", "am seeing"],
+          "answer": 1,
+          "hint": {"tk": "Wagt görkezilmedi, durmuş tejribesi barada gürrüň gidýär.", "ru": "Время не указано, речь об опыте."},
+          "explain": {"tk": "Haçandygy aýdylmaýan durmuş tejribesi → Present Perfect: I have seen this film three times.", "ru": "Жизненный опыт без указания времени → Present Perfect: I have seen this film three times."}
+        },
+        {"type": "input",
+          "q": {"tk": "Boşlugy dolduryň (go): «She ___ to London last year.»", "ru": "Заполните пропуск (go): «She ___ to London last year.»"},
+          "answer": "went",
+          "hint": {"tk": "«last year» haýsy zamanyň signaly?", "ru": "Маркером какого времени является «last year»?"},
+          "explain": {"tk": "«last year» — belli geçen wagt → Past Simple. go düzgünsiz işlik: go – went – gone.", "ru": "«last year» — конкретное время в прошлом → Past Simple. go — неправильный глагол: go – went – gone."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«I have been studying English since 2019» sözlemi dogry.", "ru": "Предложение «I have been studying English since 2019» правильное."},
+          "answer": true,
+          "hint": {"tk": "since + başlangyç nokat — haýsy zaman bilen ulanylýar?", "ru": "since + начальная точка — с каким временем?"},
+          "explain": {"tk": "Dogry: 2019-dan bäri dowam edýän iş → Present Perfect Continuous.", "ru": "Верно: действие идёт с 2019 года до сих пор → Present Perfect Continuous."}
+        },
+        {"type": "choice",
+          "q": {"tk": "«Look at those clouds! It ___ rain.»", "ru": "«Look at those clouds! It ___ rain.»"},
+          "options": ["is going to", "rains", "has rained"],
+          "answer": 0,
+          "hint": {"tk": "Häzirki subutnama (bulutlar) esasynda çaklama.", "ru": "Прогноз на основе того, что видно сейчас (тучи)."},
+          "explain": {"tk": "Häzirki alamat boýunça çaklama → be going to: It is going to rain.", "ru": "Прогноз по видимым признакам → be going to: It is going to rain."}
+        },
+        {"type": "world", "text": {
+          "tk": "Iňlis diliniň ähli zamanlary «have» we «be» kömekçi işlikleri bilen gurulýar, ýöne käbir diller zamany düýbünden başgaça görkezýär: meselem, hytaý dilinde işlik üýtgemeýär, wagt «ertir», «düýn» ýaly sözler we bölejikler bilen aňladylýar.",
+          "ru": "Многие времена английского строятся с помощью вспомогательных глаголов have и be, а некоторые языки выражают время совсем иначе: например, в китайском глагол не изменяется, а время передаётся словами вроде «завтра», «вчера» и частицами."
+        }}
+      ]
+    },
+    {
+      "id": "english-11-cleft-sentences",
+      "grade": 11,
+      "topic": 1,
+      "title": {"tk": "Cleft sentences: nygtaw gurluşlary", "ru": "Cleft sentences: эмфатические конструкции"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Cleft sentence — sözlemiň bir bölegini nygtamak üçin ony iki bölege «bölmek».\n1) It-cleft: It + be + nygtalýan bölek + that/who…\n   Tom broke the window. → It was Tom who broke the window. (penjiräni Tom döwdi, başga biri däl)\n2) What-cleft: What + eýe + işlik + be + nygtalýan bölek\n   I need a holiday. → What I need is a holiday.\n3) All-cleft: All I want is some sleep. (diňe şu gerek)\n4) The thing/reason/place…: The reason I came is to help you.\nBu gurluşlar ýazuw we sözleýiş dilinde garşy goýmak we täze maglumaty bölüp görkezmek üçin ulanylýar.",
+          "ru": "Cleft sentence — «расщеплённое» предложение: одну часть выделяют, чтобы сделать на ней акцент.\n1) It-cleft: It + be + выделяемая часть + that/who…\n   Tom broke the window. → It was Tom who broke the window. (именно Том, а не кто-то другой)\n2) What-cleft: What + подлежащее + глагол + be + выделяемая часть\n   I need a holiday. → What I need is a holiday.\n3) All-cleft: All I want is some sleep. (только это и нужно)\n4) The thing/reason/place…: The reason I came is to help you.\nТакие конструкции используют, чтобы противопоставить или выделить новую информацию."
+        }},
+        {"type": "example", "text": {
+          "tk": "Başlangyç sözlem: «Maria found the keys in the kitchen.» Dürli bölekleri nygtalyň:\n• Kim? → It was Maria who found the keys in the kitchen.\n• Näme? → It was the keys that Maria found in the kitchen.\n• Nirede? → It was in the kitchen that Maria found the keys.\n• What-cleft: What Maria found in the kitchen was the keys.\nÜns beriň: adam üçin who ýa-da that, zat we ýer üçin that.",
+          "ru": "Исходное предложение: «Maria found the keys in the kitchen.» Выделим разные части:\n• Кто? → It was Maria who found the keys in the kitchen.\n• Что? → It was the keys that Maria found in the kitchen.\n• Где? → It was in the kitchen that Maria found the keys.\n• What-cleft: What Maria found in the kitchen was the keys.\nОбратите внимание: для человека — who или that, для предмета и места — that."
+        }},
+        {"type": "choice",
+          "q": {"tk": "«I love the sea air.» → What-cleft görnüşi haýsy?", "ru": "«I love the sea air.» → Какой вариант — правильный what-cleft?"},
+          "options": ["What I love the sea air is.", "It is I love the sea air.", "What I love is the sea air."],
+          "answer": 2,
+          "hint": {"tk": "What + eýe + işlik + is + nygtalýan bölek.", "ru": "What + подлежащее + глагол + is + выделяемое."},
+          "explain": {"tk": "Gurluş: What I love (eýe + işlik) + is + the sea air.", "ru": "Схема: What I love (подлежащее + глагол) + is + the sea air."}
+        },
+        {"type": "input",
+          "q": {"tk": "Boşlugy dolduryň: «It was my sister ___ called you yesterday.» (bir söz)", "ru": "Заполните пропуск: «It was my sister ___ called you yesterday.» (одно слово)"},
+          "answer": "who|that",
+          "hint": {"tk": "Nygtalýan bölek — adam.", "ru": "Выделяется человек."},
+          "explain": {"tk": "Adamdan soň who (ýa-da that) ulanylýar: It was my sister who called you.", "ru": "После человека ставится who (или that): It was my sister who called you."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«It was in 1969 that people first landed on the Moon» — dogry it-cleft sözlemi.", "ru": "«It was in 1969 that people first landed on the Moon» — правильное it-cleft предложение."},
+          "answer": true,
+          "hint": {"tk": "Wagt nygtalýar; haýsy baglaýjy gerek?", "ru": "Выделяется время; какое слово нужно после него?"},
+          "explain": {"tk": "Dogry: wagt nygtalanda that ulanylýar. Fakt hem dogry — Apollo 11, 1969-njy ýyl.", "ru": "Верно: при выделении времени используется that. И факт верный — Apollo 11, 1969 год."}
+        },
+        {"type": "choice",
+          "q": {"tk": "«All I want ___ a cup of tea.»", "ru": "«All I want ___ a cup of tea.»"},
+          "options": ["is", "are", "be"],
+          "answer": 0,
+          "hint": {"tk": "«All I want» bir zat hökmünde kabul edilýär.", "ru": "«All I want» воспринимается как одно целое."},
+          "explain": {"tk": "All-cleft-de işlik birlik sanda: All I want is…", "ru": "В all-cleft глагол в единственном числе: All I want is…"}
+        },
+        {"type": "world", "text": {
+          "tk": "Rus dilinde şeýle nygtaw köplenç «именно» sözi ýa-da söz tertibi bilen aňladylýar, türkmen dilinde bolsa nygtalýan söz habaryň öňünde goýulýar. Iňlis dilinde söz tertibi gaty berk bolany üçin, cleft sentences ýaly ýörite gurluşlar ýüze çykdy.",
+          "ru": "В русском языке такое выделение часто передаётся словом «именно» или порядком слов, а в туркменском выделяемое слово ставится прямо перед сказуемым. В английском порядок слов жёсткий, поэтому и появились особые конструкции вроде cleft sentences."
+        }}
+      ]
+    },
+    {
+      "id": "english-11-reporting-verbs",
+      "grade": 11,
+      "topic": 2,
+      "title": {"tk": "Reporting verbs: aýdylany geçirmek", "ru": "Reporting verbs: глаголы косвенной речи"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Say we tell-den başga-da, aýdylanyň maksadyny görkezýän işlikler bar. Olaryň her biriniň öz gurluşy bar:\n• verb + to-infinitive: agree, offer, promise, refuse, threaten\n  He promised to call me.\n• verb + object + to-infinitive: advise, ask, encourage, invite, remind, warn, tell\n  She advised me to rest.\n• verb + -ing: admit, deny, suggest, recommend\n  He denied taking the money.\n• verb + preposition + -ing: apologise for, insist on, accuse sb of, congratulate sb on\n  She apologised for being late.\n• verb + that-clause: explain, claim, complain, admit\n  He explained that the bus was late.",
+          "ru": "Кроме say и tell есть глаголы, которые передают цель высказывания. У каждого своя схема:\n• глагол + to-infinitive: agree, offer, promise, refuse, threaten\n  He promised to call me.\n• глагол + объект + to-infinitive: advise, ask, encourage, invite, remind, warn, tell\n  She advised me to rest.\n• глагол + -ing: admit, deny, suggest, recommend\n  He denied taking the money.\n• глагол + предлог + -ing: apologise for, insist on, accuse sb of, congratulate sb on\n  She apologised for being late.\n• глагол + that-clause: explain, claim, complain, admit\n  He explained that the bus was late."
+        }},
+        {"type": "example", "text": {
+          "tk": "Göni gepleşigi reporting verb bilen geçireliň.\n1) «I'll help you with the project,» said Ali. → Bu teklip → Ali offered to help me with the project.\n2) «Don't touch the wire!» the electrician said to us. → Duýduryş → The electrician warned us not to touch the wire.\n3) «Let's go to the cinema,» said Aýna. → Teklip → Aýna suggested going to the cinema.\n4) «Sorry, I broke your pen,» said Merdan. → Merdan apologised for breaking my pen.",
+          "ru": "Передадим прямую речь с помощью reporting verbs.\n1) «I'll help you with the project,» said Ali. → Это предложение помощи → Ali offered to help me with the project.\n2) «Don't touch the wire!» the electrician said to us. → Предупреждение → The electrician warned us not to touch the wire.\n3) «Let's go to the cinema,» said Aýna. → Предложение → Aýna suggested going to the cinema.\n4) «Sorry, I broke your pen,» said Merdan. → Merdan apologised for breaking my pen."
+        }},
+        {"type": "choice",
+          "q": {"tk": "«She suggested ___ a taxi.»", "ru": "«She suggested ___ a taxi.»"},
+          "options": ["to take", "taking", "take"],
+          "answer": 1,
+          "hint": {"tk": "suggest haýsy topara degişli?", "ru": "К какой группе относится suggest?"},
+          "explain": {"tk": "suggest + -ing (ýa-da suggest that…). «suggested to take» ýalňyş.", "ru": "suggest + -ing (или suggest that…). «suggested to take» — ошибка."}
+        },
+        {"type": "input",
+          "q": {"tk": "Boşlugy dolduryň: «He refused ___ the question.» (answer işliginiň dogry görnüşi, iki söz)", "ru": "Заполните пропуск: «He refused ___ the question.» (форма глагола answer, два слова)"},
+          "answer": "to answer",
+          "hint": {"tk": "refuse — promise we agree ýaly.", "ru": "refuse ведёт себя как promise и agree."},
+          "explain": {"tk": "refuse + to-infinitive: He refused to answer the question.", "ru": "refuse + to-infinitive: He refused to answer the question."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«They accused him of cheating» sözlemi grammatik taýdan dogry.", "ru": "Предложение «They accused him of cheating» грамматически верно."},
+          "answer": true,
+          "hint": {"tk": "accuse sb ___ + -ing.", "ru": "accuse sb ___ + -ing."},
+          "explain": {"tk": "Dogry: accuse + adam + of + -ing.", "ru": "Верно: accuse + человек + of + -ing."}
+        },
+        {"type": "choice",
+          "q": {"tk": "«Remember to lock the door,» Mum said to me. → Mum ___ me to lock the door.", "ru": "«Remember to lock the door,» Mum said to me. → Mum ___ me to lock the door."},
+          "options": ["denied", "apologised", "reminded"],
+          "answer": 2,
+          "hint": {"tk": "Ejem näme etdi — ýatlatdy.", "ru": "Что сделала мама — напомнила."},
+          "explain": {"tk": "remind + adam + to-infinitive = ýatlatmak: Mum reminded me to lock the door.", "ru": "remind + человек + to-infinitive = напомнить: Mum reminded me to lock the door."}
+        },
+        {"type": "world", "text": {
+          "tk": "Žurnalistikada reporting verbs örän möhüm: «claimed» (tassyklady, ýöne subut edilmedik), «admitted» (boýun aldy) ýa-da «said» (aýtdy) — her biri okyja başga duýgy berýär. Şonuň üçin Reuters we BBC ýaly habar guramalarynyň stil gollanmalarynda bitarap «said» sözüni ulanmak maslahat berilýär.",
+          "ru": "В журналистике reporting verbs очень важны: «claimed» (заявил, но не доказано), «admitted» (признал) или «said» (сказал) создают у читателя разное впечатление. Поэтому руководства по стилю крупных агентств, например Reuters и BBC, советуют чаще использовать нейтральное «said»."
+        }}
+      ]
+    },
+    {
+      "id": "english-11-idioms",
+      "grade": 11,
+      "topic": 3,
+      "title": {"tk": "Idiomalar", "ru": "Идиомы"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Idioma — manysy aýry sözleriň manysyndan gelip çykmaýan durnukly söz düzümi.\nGiňden ulanylýan idiomalar:\n• break the ice — gürrüňi başlamak, oňaýsyzlygy aýyrmak\n• a piece of cake — örän aňsat\n• hit the books — yhlas bilen okamak\n• under the weather — azajyk näsag\n• cost an arm and a leg — örän gymmat\n• once in a blue moon — örän seýrek\n• let the cat out of the bag — syry açmak\n• on the same page — pikirdeş bolmak\nIdiomany sözme-söz terjime etmeli däl: manysyny kontekstden çykaryň.",
+          "ru": "Идиома — устойчивое выражение, смысл которого не складывается из значений отдельных слов.\nЧастые идиомы:\n• break the ice — растопить лёд, начать разговор\n• a piece of cake — проще простого\n• hit the books — усердно учиться\n• under the weather — неважно себя чувствовать\n• cost an arm and a leg — стоить целое состояние\n• once in a blue moon — очень редко\n• let the cat out of the bag — выдать секрет\n• on the same page — понимать друг друга, быть заодно\nИдиому нельзя переводить дословно: смысл понятен из контекста."
+        }},
+        {"type": "example", "text": {
+          "tk": "Kontekstden manyny tapalyň: «The exam was a piece of cake — I finished in 20 minutes.»\n1) Sözme-söz: «sapak bir bölek tortdy» — manysyz.\n2) Kontekst: 20 minutda gutardy → ekzamen aňsat bolupdyr.\n3) Netije: a piece of cake = örän aňsat.\nTürkmen dilinde meňzeş aňlatma: «suw içen ýaly aňsat», rus dilinde: «проще пареной репы».",
+          "ru": "Определим значение по контексту: «The exam was a piece of cake — I finished in 20 minutes.»\n1) Дословно: «экзамен был куском торта» — бессмыслица.\n2) Контекст: закончил за 20 минут → экзамен был лёгким.\n3) Вывод: a piece of cake = очень легко.\nПохожие выражения: по-русски «проще пареной репы», по-туркменски «suw içen ýaly aňsat»."
+        }},
+        {"type": "choice",
+          "q": {"tk": "«I'm feeling a bit under the weather today.» Bu näme aňladýar?", "ru": "«I'm feeling a bit under the weather today.» Что это значит?"},
+          "options": [{"tk": "Men azajyk näsag", "ru": "Мне немного нездоровится"}, {"tk": "Men ýagyşda galdym", "ru": "Я попал под дождь"}, {"tk": "Men howa barada alada edýärin", "ru": "Я переживаю из-за погоды"}],
+          "answer": 0,
+          "hint": {"tk": "Idioma howa barada däl, adamyň ýagdaýy barada.", "ru": "Идиома не о погоде, а о самочувствии."},
+          "explain": {"tk": "under the weather = özüňi gowy duýmazlyk, ýeňil näsaglyk.", "ru": "under the weather = неважно себя чувствовать, слегка заболеть."}
+        },
+        {"type": "choice",
+          "q": {"tk": "«This new phone ___ — over 1500 dollars!»", "ru": "«This new phone ___ — over 1500 dollars!»"},
+          "options": ["broke the ice", "hit the books", "cost an arm and a leg"],
+          "answer": 2,
+          "hint": {"tk": "Bahasy barada gürrüň gidýär.", "ru": "Речь о цене."},
+          "explain": {"tk": "cost an arm and a leg = örän gymmat bolmak.", "ru": "cost an arm and a leg = стоить очень дорого."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«Once in a blue moon» — «her gün» diýmekdir.", "ru": "«Once in a blue moon» означает «каждый день»."},
+          "answer": false,
+          "hint": {"tk": "Gök Aý köp görülýärmi?", "ru": "Часто ли бывает «голубая луна»?"},
+          "explain": {"tk": "Nädogry: once in a blue moon = örän seýrek.", "ru": "Неверно: once in a blue moon = очень редко."}
+        },
+        {"type": "input",
+          "q": {"tk": "Boşlugy bir söz bilen dolduryň: «Don't let the ___ out of the bag — the party is a surprise!»", "ru": "Заполните пропуск одним словом: «Don't let the ___ out of the bag — the party is a surprise!»"},
+          "answer": "cat",
+          "hint": {"tk": "Haýwan, ol haltadan çykmaly däl.", "ru": "Животное, которое не должно выбраться из мешка."},
+          "explain": {"tk": "let the cat out of the bag = syry açmak. Bu ýerde: sýurpriz barada aýtma.", "ru": "let the cat out of the bag = выдать секрет. Здесь: не проговорись о сюрпризе."}
+        },
+        {"type": "world", "text": {
+          "tk": "Uilýam Şekspir iňlis diline köp täze söz düzümlerini girizdi ýa-da meşhur etdi: meselem, «break the ice» «The Taming of the Shrew» komediýasynda duş gelýär. Onuň döwründen bäri bu aňlatmalar gündelik dilde ulanylýar.",
+          "ru": "Уильям Шекспир ввёл или сделал популярными многие английские выражения: например, «break the ice» встречается в его комедии «Укрощение строптивой». Эти выражения до сих пор используются в повседневной речи."
+        }}
+      ]
+    },
+    {
+      "id": "english-11-argumentative-essay",
+      "grade": 11,
+      "topic": 4,
+      "title": {"tk": "Argumentli esse ýazmak", "ru": "Аргументативное эссе"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Argumentative essay — bir meselede belli bir garaýşy delillerle goraýan ýazgy.\nGurluşy (adatça 4–5 abzas):\n1) Introduction — tema bilen tanyşdyrmak we thesis statement (esasy pikir).\n2) Body 1, 2 — her abzasda bir argument: topic sentence + delil/mysal + düşündiriş.\n3) Counter-argument — garşy pikiri görkezmek we oňa jogap bermek (refutation).\n4) Conclusion — thesis-i başga sözler bilen gaýtalamak, täze argument getirmeli däl.\nBaglaýjy sözler (linking words):\n• Firstly, Moreover, In addition\n• However, On the other hand, Although\n• For example, For instance\n• Therefore, As a result, In conclusion",
+          "ru": "Argumentative essay — сочинение, в котором автор отстаивает позицию по проблеме с помощью аргументов.\nСтруктура (обычно 4–5 абзацев):\n1) Introduction — введение в тему и thesis statement (главный тезис).\n2) Body 1, 2 — в каждом абзаце один аргумент: topic sentence + доказательство/пример + пояснение.\n3) Counter-argument — противоположное мнение и его опровержение (refutation).\n4) Conclusion — тезис другими словами, без новых аргументов.\nСвязующие слова (linking words):\n• Firstly, Moreover, In addition\n• However, On the other hand, Although\n• For example, For instance\n• Therefore, As a result, In conclusion"
+        }},
+        {"type": "example", "text": {
+          "tk": "Tema: «Should school uniforms be compulsory?»\nThesis: «I believe school uniforms should be compulsory because they reduce pressure and save time.»\nBody 1: «Firstly, uniforms reduce social pressure. Students are judged less by expensive clothes…»\nBody 2: «Moreover, uniforms save time in the morning…»\nCounter: «On the other hand, some argue that uniforms limit self-expression. However, students can still express themselves through their ideas, hobbies and work.»\nConclusion: «In conclusion, compulsory uniforms bring more benefits than drawbacks.»",
+          "ru": "Тема: «Should school uniforms be compulsory?»\nТезис: «I believe school uniforms should be compulsory because they reduce pressure and save time.»\nBody 1: «Firstly, uniforms reduce social pressure. Students are judged less by expensive clothes…»\nBody 2: «Moreover, uniforms save time in the morning…»\nКонтраргумент: «On the other hand, some argue that uniforms limit self-expression. However, students can still express themselves through their ideas, hobbies and work.»\nЗаключение: «In conclusion, compulsory uniforms bring more benefits than drawbacks.»"
+        }},
+        {"type": "choice",
+          "q": {"tk": "Thesis statement adatça nirede ýerleşýär?", "ru": "Где обычно находится thesis statement?"},
+          "options": [{"tk": "Conclusion-yň ahyrynda", "ru": "В конце заключения"}, {"tk": "Introduction-da", "ru": "Во введении"}, {"tk": "Counter-argument abzasynda", "ru": "В абзаце с контраргументом"}],
+          "answer": 1,
+          "hint": {"tk": "Okyjy awtoryň garaýşyny başdan bilmeli.", "ru": "Читатель должен сразу узнать позицию автора."},
+          "explain": {"tk": "Thesis giriş abzasynda, köplenç onuň ahyrynda berilýär; soňky abzaslar ony subut edýär.", "ru": "Тезис даётся во введении, часто в его конце; следующие абзацы его доказывают."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Garşy pikiri girizmek üçin haýsy baglaýjy has laýyk?", "ru": "Какое связующее слово лучше вводит противоположное мнение?"},
+          "options": ["For example", "In addition", "On the other hand"],
+          "answer": 2,
+          "hint": {"tk": "Garşylyk aňladýan aňlatmany saýlaň.", "ru": "Выберите выражение со значением противопоставления."},
+          "explain": {"tk": "On the other hand garşylygy görkezýär; For example — mysal, In addition — goşmaça.", "ru": "On the other hand выражает противопоставление; For example — пример, In addition — добавление."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Conclusion-da täze esasy argumentleri getirmek maslahat berilýär.", "ru": "В заключении рекомендуется приводить новые главные аргументы."},
+          "answer": false,
+          "hint": {"tk": "Netijäniň wezipesi näme?", "ru": "Какова задача заключения?"},
+          "explain": {"tk": "Nädogry: netije pikirleri jemleýär we thesis-i gaýtalaýar, täze argumentler esasy bölekde bolmaly.", "ru": "Неверно: заключение подводит итог и повторяет тезис, новые аргументы должны быть в основной части."}
+        },
+        {"type": "input",
+          "q": {"tk": "Adaty argumentli essede näçe abzas bolýar? (iň köp ulanylýan san)", "ru": "Сколько абзацев в типичном аргументативном эссе? (самое частое число)"},
+          "answer": "5|five",
+          "hint": {"tk": "Giriş + üç esasy abzas (iki argument we garşy pikir) + netije.", "ru": "Введение + три абзаца основной части (два аргумента и контраргумент) + заключение."},
+          "explain": {"tk": "Klassiki «five-paragraph essay»: 1 giriş + 3 esasy + 1 netije = 5.", "ru": "Классическое «five-paragraph essay»: 1 введение + 3 основных + 1 заключение = 5."}
+        },
+        {"type": "world", "text": {
+          "tk": "«Esse» sözüni fransuz ýazyjysy Mişel de Monten meşhur etdi: 1580-nji ýylda ol özüniň «Essais» («Synanyşyklar») atly kitabyny neşir etdi. Fransuzça essai — «synanyşyk, barlag» diýmekdir.",
+          "ru": "Слово «эссе» прославил французский писатель Мишель де Монтень: в 1580 году он издал книгу «Essais» («Опыты»). По-французски essai означает «попытка, опыт»."
+        }}
+      ]
+    },
+    {
+      "id": "english-11-job-interview",
+      "grade": 11,
+      "topic": 5,
+      "title": {"tk": "Iş söhbetdeşligi (job interview)", "ru": "Собеседование при приёме на работу"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Iňlis dilinde iş söhbetdeşligine taýýarlyk.\nKöp berilýän soraglar:\n• Tell me about yourself.\n• What are your strengths and weaknesses?\n• Why do you want to work here?\n• Where do you see yourself in five years?\n• Do you have any questions for us?\nPeýdaly aňlatmalar:\n• I have experience in… / I'm good at…\n• I'm a quick learner and a good team player.\n• I'm particularly interested in…\n• Could you tell me more about…?\nSTAR usuly (tejribe barada soraglar üçin): Situation — ýagdaý, Task — wezipe, Action — näme etdiňiz, Result — netije.\nResmi stil: I would like… (I wanna… däl), Could you…?",
+          "ru": "Подготовка к собеседованию на английском.\nЧастые вопросы:\n• Tell me about yourself.\n• What are your strengths and weaknesses?\n• Why do you want to work here?\n• Where do you see yourself in five years?\n• Do you have any questions for us?\nПолезные фразы:\n• I have experience in… / I'm good at…\n• I'm a quick learner and a good team player.\n• I'm particularly interested in…\n• Could you tell me more about…?\nМетод STAR (для вопросов об опыте): Situation — ситуация, Task — задача, Action — что вы сделали, Result — результат.\nФормальный стиль: I would like… (а не I wanna…), Could you…?"
+        }},
+        {"type": "example", "text": {
+          "tk": "Sorag: «Tell me about a time you solved a problem.» STAR boýunça jogap:\nS: «Last year I volunteered at a school book fair.»\nT: «My task was to organise the book stands, but two volunteers were ill.»\nA: «I created a new schedule and asked students from my class to help.»\nR: «As a result, the fair opened on time and we sold over 300 books.»\nJogap gysga, anyk we netije bilen gutarýar.",
+          "ru": "Вопрос: «Tell me about a time you solved a problem.» Ответ по методу STAR:\nS: «Last year I volunteered at a school book fair.»\nT: «My task was to organise the book stands, but two volunteers were ill.»\nA: «I created a new schedule and asked students from my class to help.»\nR: «As a result, the fair opened on time and we sold over 300 books.»\nОтвет короткий, конкретный и заканчивается результатом."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Söhbetdeşlikde haýsy jümle iň resmi we laýyk?", "ru": "Какая фраза самая вежливая и уместная на собеседовании?"},
+          "options": ["I wanna get this job.", "I would like to join your team.", "Gimme the job, please."],
+          "answer": 1,
+          "hint": {"tk": "Resmi stili saýlaň.", "ru": "Выберите формальный стиль."},
+          "explain": {"tk": "«I would like to…» — sypaýy resmi görnüş; wanna we gimme — gepleşik dili.", "ru": "«I would like to…» — вежливая формальная фраза; wanna и gimme — разговорные."}
+        },
+        {"type": "input",
+          "q": {"tk": "STAR usulynda «R» harpy haýsy iňlis sözüni aňladýar?", "ru": "Какое английское слово обозначает буква «R» в методе STAR?"},
+          "answer": "result|Result",
+          "hint": {"tk": "Bu jogabyň soňky bölegi — näme gazandyňyz.", "ru": "Это последняя часть ответа — чего вы добились."},
+          "explain": {"tk": "STAR = Situation, Task, Action, Result. Result — işiňiziň netijesi.", "ru": "STAR = Situation, Task, Action, Result. Result — результат ваших действий."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«Do you have any questions for us?» soragyna «No» diýip jogap bermek iň gowy saýlaw.", "ru": "На вопрос «Do you have any questions for us?» лучше всего ответить «No»."},
+          "answer": false,
+          "hint": {"tk": "Sorag bermek gyzyklanmany görkezýär.", "ru": "Вопросы показывают ваш интерес."},
+          "explain": {"tk": "Nädogry: 1–2 sorag taýýarlamak gowy, meselem: «Could you tell me more about the team?» Bu siziň gyzyklanýandygyňyzy görkezýär.", "ru": "Неверно: лучше подготовить 1–2 вопроса, например «Could you tell me more about the team?» Это показывает интерес к работе."}
+        },
+        {"type": "choice",
+          "q": {"tk": "«What are your strengths?» soragyna iň gowy jogap haýsy?", "ru": "Какой ответ на вопрос «What are your strengths?» лучший?"},
+          "options": ["I don't know.", "Everything. I have no weaknesses.", "I'm organised — for example, I planned our class trip for 30 students."],
+          "answer": 2,
+          "hint": {"tk": "Gowy jogap anyk mysal bilen goldanýar.", "ru": "Хороший ответ подкреплён конкретным примером."},
+          "explain": {"tk": "Güýçli tarapyňy aýdyp, ony anyk mysal bilen subut etmek iň ynandyryjy.", "ru": "Самый убедительный ответ — назвать сильную сторону и подтвердить её конкретным примером."}
+        },
+        {"type": "world", "text": {
+          "tk": "Gözlegler köp iş berijileriň dalaşgär barada ilkinji pikirini söhbetdeşligiň ilkinji minutlarynda emele getirýändigini görkezýär. Şonuň üçin wagtynda gelmek, salamlaşmak we özüňi gysgaça tanyşdyrmak örän möhüm.",
+          "ru": "Исследования показывают, что многие работодатели складывают первое впечатление о кандидате в первые минуты собеседования. Поэтому так важно прийти вовремя, поздороваться и коротко представиться."
+        }}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,282 @@
+{
+  "grade": 5,
+  "subject": "literature",
+  "lessons": [
+    {
+      "id": "literature-5-what-is-literature",
+      "grade": 5,
+      "topic": 0,
+      "title": {"tk": "Edebiýat näme?", "ru": "Что такое литература"},
+      "minutes": 7,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Edebiýat — söz sungaty. Suratkeş reňkler bilen, sazanda sesler bilen döredýän bolsa, ýazyjy we şahyr sözler bilen döredýär.\n\nÇeper eser durmuşy diňe beýan etmän, ony obrazlar arkaly görkezýär: okyjy gahrymanlar bilen bile begenýär, gynanýar we pikirlenýär.\n\nEdebiýatyň üç esasy jynsy bar:\n• Epos — wakalary gürrüň berýär: ertekiler, hekaýalar, powestler, romanlar.\n• Lirika — duýgulary we pikirleri beýan edýär: goşgular.\n• Drama — sahnada oýnamak üçin ýazylýar: pýesalar.\n\nŞeýle hem eser kesgitli ritmsiz ýazylan proza ýa-da ritmli setirlerden ybarat goşgy bolup biler.",
+          "ru": "Литература — искусство слова. Если художник творит красками, а музыкант звуками, то писатель и поэт — словами.\n\nХудожественное произведение не просто сообщает о жизни, а показывает её через образы: читатель радуется, грустит и размышляет вместе с героями.\n\nВ литературе три основных рода:\n• Эпос — рассказывает о событиях: сказки, рассказы, повести, романы.\n• Лирика — передаёт чувства и мысли: стихотворения.\n• Драма — пишется для сцены: пьесы.\n\nКроме того, произведение может быть написано прозой (без строгого ритма) или стихами (ритмичными строками)."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mysal: eseriň jynsyny nädip kesgitlemeli?\n1) «Aýaz we üç dogan» atly ertekide gahrymanlar, wakalar, başlangyç we ahyr bar → epos.\n2) Şahyryň güýz barada duýgularyny beýan edýän goşgusy → lirika.\n3) Gahrymanlaryň diňe gepleşiklerinden ybarat, sahnada görkezmek üçin ýazylan eser → drama.\nSorag beriň: eser näme barada gürrüň berýär — waka, duýgy ýa-da sahna?",
+          "ru": "Пример: как определить род произведения?\n1) В сказке есть герои, события, начало и конец → эпос.\n2) Стихотворение, где поэт передаёт свои чувства об осени → лирика.\n3) Произведение, состоящее только из диалогов героев и написанное для сцены → драма.\nСпросите себя: о чём главное в тексте — о событиях, о чувствах или это сцена?"
+        }},
+        {"type": "choice",
+          "q": {"tk": "Pýesa edebiýatyň haýsy jynsyna degişli?", "ru": "К какому роду литературы относится пьеса?"},
+          "options": [{"tk": "lirika", "ru": "лирика"}, {"tk": "epos", "ru": "эпос"}, {"tk": "drama", "ru": "драма"}],
+          "answer": 2,
+          "hint": {"tk": "Pýesalar teatrda oýnalýar.", "ru": "Пьесы ставят в театре."},
+          "explain": {"tk": "Pýesa sahna üçin ýazylýar, şonuň üçin ol drama jynsyna degişli.", "ru": "Пьеса пишется для сцены, поэтому относится к драме."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Proza — ritmli setirler bilen ýazylan eser.", "ru": "Проза — это произведение, написанное ритмичными строками."},
+          "answer": false,
+          "hint": {"tk": "Goşgy bilen prozany deňeşdiriň.", "ru": "Сравните стихи и прозу."},
+          "explain": {"tk": "Ritmli setirler goşga mahsus. Proza adaty gürrüň ýaly, berk ritmsiz ýazylýar.", "ru": "Ритмичные строки — признак стихов. Проза пишется как обычная речь, без строгого ритма."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy eser epos jynsyna degişli?", "ru": "Какое произведение относится к эпосу?"},
+          "options": [{"tk": "hekaýa", "ru": "рассказ"}, {"tk": "goşgy", "ru": "стихотворение"}, {"tk": "pýesa", "ru": "пьеса"}],
+          "answer": 0,
+          "hint": {"tk": "Epos wakalary gürrüň berýär.", "ru": "Эпос рассказывает о событиях."},
+          "explain": {"tk": "Hekaýa wakany gürrüň berýär — epos. Goşgy lirika, pýesa drama.", "ru": "Рассказ повествует о событиях — это эпос. Стихотворение — лирика, пьеса — драма."}
+        },
+        {"type": "input",
+          "q": {"tk": "Edebiýatda näçe esasy jyns bar?", "ru": "Сколько основных родов в литературе?"},
+          "answer": "3",
+          "hint": {"tk": "Epos, lirika we …", "ru": "Эпос, лирика и …"},
+          "explain": {"tk": "Üç jyns: epos, lirika, drama.", "ru": "Три рода: эпос, лирика, драма."}
+        },
+        {"type": "world", "text": {
+          "tk": "Bize gelip ýeten iň gadymy uly edebi eserleriň biri — «Gilgameş hakyndaky dessan». Ol Mesopotamiýada 4000 ýyldan gowrak ozal palçyk tagtajyklara mismar ýazuwy bilen ýazylypdyr. Onda patyşa Gilgameşiň dostlugy we ölmezligi gözleýşi gürrüň berilýär.",
+          "ru": "Одно из древнейших дошедших до нас крупных литературных произведений — «Эпос о Гильгамеше». Его записали клинописью на глиняных табличках в Месопотамии более 4000 лет назад. В нём рассказывается о дружбе царя Гильгамеша и его поисках бессмертия."
+        }}
+      ]
+    },
+    {
+      "id": "literature-5-folklore",
+      "grade": 5,
+      "topic": 1,
+      "title": {"tk": "Halk döredijiligi", "ru": "Фольклор"},
+      "minutes": 7,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Halk döredijiligi (folklor) — halkyň dilden döreden we nesilden-nesle geçiren eserleri.\nOnuň aýratynlyklary:\n• Awtory belli däl — ony tutuş halk döredipdir.\n• Dilden aýdylyp ýaýrapdyr, şonuň üçin bir eseriň birnäçe warianty bolýar.\n• Halkyň durmuşyny, arzuwlaryny we pähim-paýhasyny görkezýär.\n\nTürkmen folklorynyň görnüşleri:\n• nakyllar we atalar sözi\n• matallar\n• ertekiler\n• rowaýatlar we äpsanalar\n• halk aýdymlary (hüwdi, toý aýdymlary)\n• dessanlar we eposlar («Görogly», «Gorkut ata»).",
+          "ru": "Фольклор (устное народное творчество) — произведения, которые народ создавал устно и передавал из поколения в поколение.\nЕго особенности:\n• Автор неизвестен — произведение создано всем народом.\n• Распространялся устно, поэтому у одного произведения бывает несколько вариантов.\n• Отражает жизнь, мечты и мудрость народа.\n\nЖанры туркменского фольклора:\n• пословицы и поговорки (nakyllar, atalar sözi)\n• загадки (matallar)\n• сказки (ertekiler)\n• предания и легенды (rowaýatlar)\n• народные песни (колыбельные hüwdi, свадебные песни)\n• дастаны и эпосы («Гёроглы», «Горкут ата»)."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mysal: nakyl bilen matalyň tapawudy.\n• Nakyl gysga we pähimli, ol maslahat berýär: «Ýalňyz agaç tokaý bolmaz» — ýeke adam köp iş bitirip bilmez, agzybirlik gerek.\n• Matal bir zady göni atlandyrman, häsiýetleri arkaly suratlandyrýar we jogabyny tapmagy talap edýär.\nNetije: nakyl öwredýär, matal pikirlendirýär.",
+          "ru": "Пример: чем пословица отличается от загадки.\n• Пословица короткая и мудрая, она даёт совет: «Ýalňyz agaç tokaý bolmaz» — «Одно дерево — ещё не лес»: один человек мало сделает, нужно единство.\n• Загадка не называет предмет прямо, а описывает его признаки, и нужно найти ответ.\nИтог: пословица учит, загадка заставляет думать."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Halk döredijiliginiň esasy aýratynlygy haýsy?", "ru": "Какова главная особенность фольклора?"},
+          "options": [{"tk": "Diňe bir ýazyjy tarapyndan kitap görnüşinde ýazylýar", "ru": "Пишется одним писателем в виде книги"}, {"tk": "Dilden döräp, nesilden-nesle geçýär", "ru": "Создаётся устно и передаётся из поколения в поколение"}, {"tk": "Diňe teatrda oýnalýar", "ru": "Исполняется только в театре"}],
+          "answer": 1,
+          "hint": {"tk": "«Folklor» — «halk paýhasy» diýmek.", "ru": "«Фольклор» означает «народная мудрость»."},
+          "explain": {"tk": "Folkloryň awtory halk, ol dilden ýaýrapdyr.", "ru": "Автор фольклора — народ, и распространялся он устно."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Hüwdi — çagany ýatyrmak üçin aýdylýan halk aýdymy.", "ru": "Hüwdi — народная песня, которую поют, чтобы убаюкать ребёнка."},
+          "answer": true,
+          "hint": {"tk": "Eneler bu aýdymy sallançagyň ýanynda aýdypdyrlar.", "ru": "Матери пели её у колыбели."},
+          "explain": {"tk": "Hüwdi — türkmen halk aýdymlarynyň bir görnüşi, ol çagany ýatyrmak üçin aýdylýar (rusça «колыбельная»).", "ru": "Hüwdi — жанр туркменской народной песни, колыбельная."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy görnüş gysga, pähimli we maslahat berýän söz?", "ru": "Какой жанр — короткое мудрое изречение, дающее совет?"},
+          "options": [{"tk": "dessan", "ru": "дастан"}, {"tk": "erteki", "ru": "сказка"}, {"tk": "nakyl", "ru": "пословица"}],
+          "answer": 2,
+          "hint": {"tk": "Ol bir sözlemden ybarat bolýar.", "ru": "Обычно состоит из одного предложения."},
+          "explain": {"tk": "Nakyl — gysga we pähimli halk sözi. Dessan we erteki uly, wakaly eserler.", "ru": "Пословица — короткое мудрое народное изречение. Дастан и сказка — большие сюжетные произведения."}
+        },
+        {"type": "world", "text": {
+          "tk": "Oguzlaryň gadymy eposy «Kitaby Dädem Gorkut» (türkmenler «Gorkut ata» diýýärler) iki golýazmada saklanyp galypdyr: biri Germaniýanyň Drezden şäherinde, beýlekisi Watikanda. 2018-nji ýylda bu eposyň mirasy ÝUNESKO-nyň Adamzadyň maddy däl medeni mirasynyň sanawyna girizildi.",
+          "ru": "Древний эпос огузов «Книга моего деда Коркута» (туркмены называют его «Горкут ата») сохранился в двух рукописях: одна хранится в Дрездене (Германия), другая — в Ватикане. В 2018 году наследие этого эпоса включили в список нематериального культурного наследия человечества ЮНЕСКО."
+        }}
+      ]
+    },
+    {
+      "id": "literature-5-gorogly-epic",
+      "grade": 5,
+      "topic": 2,
+      "title": {"tk": "«Görogly» eposy", "ru": "Эпос «Гёроглы»"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "«Görogly» — türkmen halkynyň iň uly gahrymançylyk eposy. Ol asyrlar boýy dilden aýdylyp gelipdir we köp şahalardan (aýry-aýry gürrüňlerden) ybarat.\n\nEposy bagşylar aýdypdyrlar: gürrüňi proza bilen aýdyp, gahrymanlaryň duýgularyny dutaryň sazy bilen aýdym edip ýerine ýetiripdirler.\n\nEsasy gahrymanlar:\n• Görogly — adalatly we batyr serdar, Çandybil ýurdunyň başlygy.\n• Gyrat — Göroglynyň wepaly, ganatly diýen ýaly çalt aty.\n• Agaýunus — Göroglynyň akylly aýaly.\n• Öwez — Göroglynyň ogullyga alan ýigidi.\n\nEposyň esasy pikirleri: watana söýgi, dostluk, adalat, mertlik we wepalylyk.",
+          "ru": "«Гёроглы» — крупнейший героический эпос туркменского народа. Он веками передавался устно и состоит из многих ветвей (отдельных сказаний).\n\nЭпос исполняли бахши: рассказ они вели прозой, а чувства героев передавали песнями под аккомпанемент дутара.\n\nГлавные герои:\n• Гёроглы — справедливый и храбрый предводитель, глава страны Чандыбиль.\n• Гырат — верный и необычайно быстрый конь Гёроглы.\n• Агаюнус — мудрая жена Гёроглы.\n• Овез — приёмный сын Гёроглы.\n\nОсновные идеи эпоса: любовь к родине, дружба, справедливость, мужество и верность."
+        }},
+        {"type": "example", "text": {
+          "tk": "Gahrymanyň adynyň manysy.\nRowaýata görä, Göroglynyň ejesi ol dogulmanka aradan çykýar we çaga gabyrda dünýä inýär. «Gör» — gabyr, «ogly» — ogly. Şeýdip, «Görogly» — «gabryň ogly» diýmegi aňladýar.\nBu başlangyç gahrymanyň adaty däl ykbalyny görkezýär: ol kynçylykda dünýä inip, halkyň goragçysyna öwrülýär.",
+          "ru": "Смысл имени героя.\nПо преданию, мать Гёроглы умерла ещё до его рождения, и ребёнок появился на свет в могиле. «Gör» — могила, «ogly» — сын. Так «Гёроглы» означает «сын могилы».\nТакое начало показывает необычную судьбу героя: рождённый в беде, он становится защитником народа."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Göroglynyň atynyň ady näme?", "ru": "Как зовут коня Гёроглы?"},
+          "options": ["Gyrat", "Akhan", "Durdy"],
+          "answer": 0,
+          "hint": {"tk": "Bu at «gyr» reňkli at diýmekden gelýär.", "ru": "Имя связано с серой («gyr») мастью коня."},
+          "explain": {"tk": "Göroglynyň wepaly aty — Gyrat.", "ru": "Верный конь Гёроглы — Гырат."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«Görogly» eposyny bagşylar dutaryň sazy bilen ýerine ýetiripdirler.", "ru": "Эпос «Гёроглы» исполняли бахши под аккомпанемент дутара."},
+          "answer": true,
+          "hint": {"tk": "Eposyň proza we aýdym böleklerini ýatlaň.", "ru": "Вспомните о прозаических и песенных частях эпоса."},
+          "explain": {"tk": "Bagşylar gürrüňi aýdyp, aýdym böleklerini dutar bilen ýerine ýetiripdirler.", "ru": "Бахши рассказывали прозаические части, а песенные исполняли под дутар."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Göroglynyň ýurdunyň ady näme?", "ru": "Как называется страна Гёроглы?"},
+          "options": ["Merw", "Çandybil", "Bagdat"],
+          "answer": 1,
+          "hint": {"tk": "Bu at diňe eposda duşýar.", "ru": "Это название встречается именно в эпосе."},
+          "explain": {"tk": "Görogly Çandybil ýurdunda ýaşapdyr we ony goraýar.", "ru": "Гёроглы живёт в стране Чандыбиль и защищает её."}
+        },
+        {"type": "input",
+          "q": {"tk": "«Görogly» eposynyň ýerine ýetirilişi ÝUNESKO-nyň sanawyna haýsy ýylda girizildi?", "ru": "В каком году искусство исполнения эпоса «Гёроглы» внесли в список ЮНЕСКО?"},
+          "answer": "2015",
+          "hint": {"tk": "Bu XXI asyryň ikinji onýyllygynyň ortasy.", "ru": "Это середина второго десятилетия XXI века."},
+          "explain": {"tk": "2015-nji ýylda «Görogly» eposynyň sungaty ÝUNESKO-nyň maddy däl medeni mirasynyň sanawyna girizildi.", "ru": "В 2015 году эпическое искусство «Гёроглы» было включено в список нематериального наследия ЮНЕСКО."}
+        },
+        {"type": "world", "text": {
+          "tk": "Görogly hakyndaky eposlar diňe türkmenlerde däl, azerbaýjanlarda, özbeklerde, gazaklarda, täjiklerde we başga halklarda hem bar. Her halkyň öz wersiýasy bolup, gahrymanyň ady we wakalar birneme tapawutlanýar. Bu ýüzlerçe ýyllap halklaryň arasynda dilden geçen eposyň ajaýyp mysaly.",
+          "ru": "Эпосы о Гёроглы (Кёроглы, Гуругли) есть не только у туркмен, но и у азербайджанцев, узбеков, казахов, таджиков и других народов. У каждого народа своя версия: имя героя и события немного различаются. Это яркий пример эпоса, который веками передавался устно между народами."
+        }}
+      ]
+    },
+    {
+      "id": "literature-5-world-fairy-tales",
+      "grade": 5,
+      "topic": 3,
+      "title": {"tk": "Dünýä ertekileri", "ru": "Сказки мира"},
+      "minutes": 7,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Erteki — gudratly ýa-da gülkünç wakalar barada gürrüň berýän, köplenç halk tarapyndan döredilen eser.\nErtekileriň görnüşleri:\n• Jadyly ertekiler: gudratly zatlar, dew-perililer.\n• Haýwanlar hakyndaky ertekiler: tilki, möjek, towşan.\n• Durmuş ertekileri: akylly garyp, açgöz baý.\n\nErtekileriň umumy aýratynlyklary:\n• adaty başlangyç: «Bar eken, ýok eken…»\n• 3 we 7 sanlarynyň gaýtalanmagy (üç dogan, üç synag)\n• ýagşylyk ýamanlygy ýeňýär.\n\nHalk ertekilerinden başga-da, ýazyjylaryň döreden edebi ertekileri bar.",
+          "ru": "Сказка — произведение о волшебных или забавных событиях, чаще всего созданное народом.\nВиды сказок:\n• Волшебные: чудесные предметы, дэвы и пери.\n• Сказки о животных: лиса, волк, заяц.\n• Бытовые: умный бедняк, жадный бай.\n\nОбщие черты сказок:\n• традиционный зачин: «Жили-были…» (по-туркменски «Bar eken, ýok eken…»)\n• повторение чисел 3 и 7 (три брата, три испытания)\n• добро побеждает зло.\n\nКроме народных, есть литературные сказки, которые сочинили писатели."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mysal: dürli ýurtlaryň ertekilerini deňeşdireliň.\n• Doganlar Grimmleriň (Germaniýa) «Zoluşka» ertekisinde mähirli gyz kyn durmuşdan halas bolýar.\n• Şarl Perronyň (Fransiýa) wersiýasynda hem şol waka bar, ýöne jadyly şaý-sepler başga.\nNetije: dürli halklaryň ertekilerinde meňzeş wakalar köp — adamlar hemme ýerde adalaty we ýagşylygy arzuw edipdirler.",
+          "ru": "Пример: сравним сказки разных стран.\n• В сказке братьев Гримм (Германия) «Золушка» добрая девушка избавляется от тяжёлой жизни.\n• В версии Шарля Перро (Франция) тот же сюжет, но волшебные детали другие.\nИтог: в сказках разных народов много похожих сюжетов — люди везде мечтали о справедливости и добре."
+        }},
+        {"type": "choice",
+          "q": {"tk": "«Tilki we garga» haýsy görnüşli erteki?", "ru": "К какому виду относится сказка «Лиса и ворона»?"},
+          "options": [{"tk": "jadyly", "ru": "волшебная"}, {"tk": "durmuş", "ru": "бытовая"}, {"tk": "haýwanlar hakyndaky", "ru": "о животных"}],
+          "answer": 2,
+          "hint": {"tk": "Gahrymanlary kim?", "ru": "Кто герои?"},
+          "explain": {"tk": "Gahrymanlary haýwanlar — tilki we garga.", "ru": "Её герои — животные: лиса и ворона."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Hans Kristian Andersen — Daniýaly ýazyjy, edebi ertekileriň awtory.", "ru": "Ханс Кристиан Андерсен — датский писатель, автор литературных сказок."},
+          "answer": true,
+          "hint": {"tk": "«Çirkin ördejik» ertekisini ýatlaň.", "ru": "Вспомните сказку «Гадкий утёнок»."},
+          "explain": {"tk": "Andersen (1805–1875) Daniýada ýaşap, «Çirkin ördejik», «Gar şa aýaly» ýaly ertekileri ýazypdyr.", "ru": "Андерсен (1805–1875) жил в Дании и написал «Гадкого утёнка», «Снежную королеву» и другие сказки."}
+        },
+        {"type": "choice",
+          "q": {"tk": "«Müň bir gije» ertekiler ýygyndysy haýsy sebite degişli?", "ru": "К какому региону относится сборник сказок «Тысяча и одна ночь»?"},
+          "options": [{"tk": "Gündogar (arap-pars dünýäsi)", "ru": "Восток (арабо-персидский мир)"}, {"tk": "Demirgazyk Ýewropa", "ru": "Северная Европа"}, {"tk": "Günorta Amerika", "ru": "Южная Америка"}],
+          "answer": 0,
+          "hint": {"tk": "Onuň gahrymanlary Bagdatda, Basrada ýaşaýar.", "ru": "Её герои живут в Багдаде, Басре."},
+          "explain": {"tk": "«Müň bir gije» arap, pars we hindi ertekilerinden emele gelen Gündogar ýygyndysy. Ony Şähryzat gürrüň berýär.", "ru": "«Тысяча и одна ночь» — восточный сборник, сложившийся из арабских, персидских и индийских сказок. Их рассказывает Шахерезада."}
+        },
+        {"type": "input",
+          "q": {"tk": "Ertekilerde iň köp gaýtalanýan san haýsy: üç doganlar, üç synag…?", "ru": "Какое число чаще всего повторяется в сказках: три брата, три испытания…?"},
+          "answer": "3",
+          "hint": {"tk": "Mysallarda jogap bar.", "ru": "Ответ есть в примерах."},
+          "explain": {"tk": "3 sany ertekilerde iň köp duşýan san: üç dogan, üç synag, üç arzuw.", "ru": "Число 3 встречается в сказках чаще всего: три брата, три испытания, три желания."}
+        },
+        {"type": "world", "text": {
+          "tk": "Doganlar Ýakob we Wilgelm Grimmler halk ertekilerini ýygnap, ilkinji ýygyndysyny 1812-nji ýylda çap etdiler. Olaryň «Çaga we öý ertekileri» ýygyndysy dünýäde iň köp terjime edilen kitaplaryň biri boldy we 2005-nji ýylda ÝUNESKO-nyň «Dünýäniň ýady» sanawyna girizildi.",
+          "ru": "Братья Якоб и Вильгельм Гримм собирали народные сказки и выпустили первый сборник в 1812 году. Их «Детские и семейные сказки» стали одной из самых переводимых книг в мире, а в 2005 году были включены в реестр ЮНЕСКО «Память мира»."
+        }}
+      ]
+    },
+    {
+      "id": "literature-5-story-structure",
+      "grade": 5,
+      "topic": 4,
+      "title": {"tk": "Hekaýanyň gurluşy", "ru": "Строение рассказа"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Hekaýa — az gahrymanly, bir esasy waka barada gürrüň berýän gysga proza eseri.\n\nWakalaryň yzygiderliligine süžet diýilýär. Süžetiň bölekleri:\n• Ekspozisiýa — gahrymanlar we ýagdaý bilen tanyşdyrýar.\n• Düwün — wakany başlaýan hadysa ýa-da çaknyşyk.\n• Wakanyň ösüşi — kynçylyklar artýar.\n• Kulminasiýa — iň dartgynly pursat.\n• Çözülme — wakanyň netijesi.\n\nHekaýanyň esasy pikirine ideýa, näme barada ýazylandygyna tema diýilýär. Gürrüňi berýän adama kyssaçy diýilýär.",
+          "ru": "Рассказ — небольшое прозаическое произведение с немногими героями и одним главным событием.\n\nПоследовательность событий называется сюжетом. Части сюжета:\n• Экспозиция — знакомит с героями и обстановкой.\n• Завязка — событие или конфликт, с которого начинается действие.\n• Развитие действия — трудности нарастают.\n• Кульминация — самый напряжённый момент.\n• Развязка — чем всё закончилось.\n\nО чём написан рассказ — это его тема, а главная мысль — идея. Тот, кто ведёт рассказ, — рассказчик."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mysal: gysga hekaýa.\n• Ekspozisiýa: Merdan obada ýaşaýar, ol owlak bakýar.\n• Düwün: bir gün tupan turup, owlak ýitýär.\n• Ösüş: Merdan ony gözläp, jülgä düşýär, garaňky düşýär.\n• Kulminasiýa: ol uçurymyň gyrasynda gorkan owlagy görýär we ony howp astynda halas edýär.\n• Çözülme: Merdan öýe dolanýar, maşgalasy ony buýsanç bilen garşylaýar.\nIdeýa: jogapkärçilik we batyrlyk.",
+          "ru": "Пример: короткий рассказ.\n• Экспозиция: Мердан живёт в селе и ухаживает за козлёнком.\n• Завязка: однажды начинается буря, и козлёнок пропадает.\n• Развитие: Мердан ищет его, спускается в ущелье, темнеет.\n• Кульминация: он видит испуганного козлёнка на краю обрыва и, рискуя, спасает его.\n• Развязка: Мердан возвращается домой, семья встречает его с гордостью.\nИдея: ответственность и смелость."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Hekaýanyň iň dartgynly pursaty nähili atlandyrylýar?", "ru": "Как называется самый напряжённый момент рассказа?"},
+          "options": [{"tk": "ekspozisiýa", "ru": "экспозиция"}, {"tk": "kulminasiýa", "ru": "кульминация"}, {"tk": "çözülme", "ru": "развязка"}],
+          "answer": 1,
+          "hint": {"tk": "Bu süžetiň «depesi».", "ru": "Это «вершина» сюжета."},
+          "explain": {"tk": "Kulminasiýa — wakanyň iň ýokary, iň dartgynly nokady.", "ru": "Кульминация — высшая, самая напряжённая точка действия."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Düwün — hekaýanyň iň soňky bölegi.", "ru": "Завязка — последняя часть рассказа."},
+          "answer": false,
+          "hint": {"tk": "Waka nireden başlaýar?", "ru": "С чего начинается действие?"},
+          "explain": {"tk": "Düwün wakany başlaýar. Iň soňky bölek — çözülme.", "ru": "Завязка начинает действие. Последняя часть — развязка."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Mysaldaky «tupan turup, owlak ýitýär» süžetiň haýsy bölegi?", "ru": "Какая часть сюжета в примере — «начинается буря, и козлёнок пропадает»?"},
+          "options": [{"tk": "çözülme", "ru": "развязка"}, {"tk": "kulminasiýa", "ru": "кульминация"}, {"tk": "düwün", "ru": "завязка"}],
+          "answer": 2,
+          "hint": {"tk": "Şu wakadan soň gözleg başlanýar.", "ru": "После этого события начинаются поиски."},
+          "explain": {"tk": "Bu waka çaknyşygy başlaýar — düwün.", "ru": "Это событие запускает конфликт — завязка."}
+        },
+        {"type": "input",
+          "q": {"tk": "Süžetiň näçe esasy bölegi bar (ekspozisiýadan çözülmä çenli)?", "ru": "Сколько основных частей у сюжета (от экспозиции до развязки)?"},
+          "answer": "5",
+          "hint": {"tk": "Ekspozisiýa, düwün, ösüş, …", "ru": "Экспозиция, завязка, развитие, …"},
+          "explain": {"tk": "Ekspozisiýa, düwün, wakanyň ösüşi, kulminasiýa, çözülme — 5 bölek.", "ru": "Экспозиция, завязка, развитие действия, кульминация, развязка — 5 частей."}
+        },
+        {"type": "world", "text": {
+          "tk": "Rus ýazyjysy Anton Çehow (1860–1904) gysga hekaýanyň ussady hasaplanýar. Oňa degişli diýilýän meşhur maslahat — «Gysgalyk — zehiniň dogany». Ol ýüzlerçe hekaýa ýazypdyr we her sözüň zerurlygyna uly üns beripdir.",
+          "ru": "Русский писатель Антон Чехов (1860–1904) считается мастером короткого рассказа. Ему принадлежат знаменитые слова «Краткость — сестра таланта». Он написал сотни рассказов и очень внимательно относился к тому, чтобы в тексте не было лишних слов."
+        }}
+      ]
+    },
+    {
+      "id": "literature-5-poetry-basics",
+      "grade": 5,
+      "topic": 5,
+      "title": {"tk": "Şygryň esaslary", "ru": "Основы стихосложения"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Goşgy setirlerden ybarat. Setirler bentlere (rusça «строфа») birleşýär. Iň köp duşýan bent — dört setirli.\n\nTürkmen şygrynyň esasy ölçegi — barmak ölçegi: her setirdäki bogunlaryň sany deň bolmaly. Köp ulanylýan ölçegler: 7, 8 we 11 bogun.\n\nKapiýa — setirleriň ahyrynda sesleriň gaýtalanmagy: gül — bilbil, dag — bag.\n\nKapiýalaşmagyň görnüşleri:\n• goşa: AABB\n• haç: ABAB\n• gurşawly: ABBA\n\nRus şygrynda bolsa urgulyly we urgusyz bogunlaryň gezekleşmegi möhüm (horeý, ýamb).",
+          "ru": "Стихотворение состоит из строк. Строки объединяются в строфы (по-туркменски «bent»). Самая частая строфа — четверостишие.\n\nОсновной размер туркменской поэзии — силлабический (barmak ölçegi, «счёт на пальцах»): в каждой строке одинаковое число слогов. Часто используются размеры в 7, 8 и 11 слогов.\n\nРифма — созвучие окончаний строк: gül — bilbil, dag — bag.\n\nСпособы рифмовки:\n• парная: AABB\n• перекрёстная: ABAB\n• опоясывающая: ABBA\n\nВ русской поэзии важно чередование ударных и безударных слогов (хорей, ямб)."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mysal: bogunlary sanamak.\nSetir: «Bahar geldi, açyldy güller» (öz düzen setirimiz).\nBogunlar: Ba-har gel-di, a-çyl-dy gül-ler → 2 + 2 + 3 + 2 = 9 bogun.\nEger ikinji setirde hem 9 bogun bolsa, ölçeg saklanýar.\nKapiýa: eger ikinji setir «bilbiller» bilen gutarsa, «güller — bilbiller» kapiýa emele getirýär.",
+          "ru": "Пример: считаем слоги.\nСтрока: «Bahar geldi, açyldy güller» (строка придумана для примера).\nСлоги: Ba-har gel-di, a-çyl-dy gül-ler → 2 + 2 + 3 + 2 = 9 слогов.\nЕсли во второй строке тоже 9 слогов, размер соблюдён.\nРифма: если вторая строка закончится словом «bilbiller», то «güller — bilbiller» образуют рифму."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Türkmen nusgawy şygrynda giňden ulanylýan ölçeg haýsy?", "ru": "Какой размер широко используется в классической туркменской поэзии?"},
+          "options": [{"tk": "11 bogunly barmak ölçegi", "ru": "11-сложный силлабический размер"}, {"tk": "2 bogunly ölçeg", "ru": "2-сложный размер"}, {"tk": "bogunsyz ölçeg", "ru": "размер без счёта слогов"}],
+          "answer": 0,
+          "hint": {"tk": "Magtymgulynyň goşgularynyň köpüsi şu ölçegde.", "ru": "Многие стихи Махтумкули написаны этим размером."},
+          "explain": {"tk": "Magtymguly we beýleki nusgawy şahyrlar köplenç her setiri 11 bogunly goşgular ýazypdyrlar.", "ru": "Махтумкули и другие классики часто писали стихи по 11 слогов в строке."}
+        },
+        {"type": "input",
+          "q": {"tk": "«Gü-neş-li ir-den» setirinde näçe bogun bar?", "ru": "Сколько слогов в строке «Gü-neş-li ir-den»?"},
+          "answer": "5",
+          "hint": {"tk": "Çyzyjyklar bogunlary bölýär — sanaň.", "ru": "Дефисы разделяют слоги — посчитайте."},
+          "explain": {"tk": "Gü-neş-li (3) + ir-den (2) = 5 bogun.", "ru": "Gü-neş-li (3) + ir-den (2) = 5 слогов."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "ABAB kapiýalaşmagynda birinji setir üçünji bilen, ikinji setir dördünji bilen kapiýalaşýar.", "ru": "При рифмовке ABAB первая строка рифмуется с третьей, а вторая — с четвёртой."},
+          "answer": true,
+          "hint": {"tk": "Şol bir harp bilen bellenen setirler kapiýalaşýar.", "ru": "Рифмуются строки, обозначенные одной буквой."},
+          "explain": {"tk": "A — 1-nji we 3-nji setirler, B — 2-nji we 4-nji setirler. Bu haç kapiýa.", "ru": "A — 1-я и 3-я строки, B — 2-я и 4-я. Это перекрёстная рифма."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy jübüt kapiýa emele getirýär?", "ru": "Какая пара слов образует рифму?"},
+          "options": ["dag — suw", "ýol — gül", "bag — dag"],
+          "answer": 2,
+          "hint": {"tk": "Sözleriň soňy meňzeş ýaňlanmaly.", "ru": "Окончания слов должны звучать похоже."},
+          "explain": {"tk": "«Bag» we «dag» -ag bilen gutarýar — kapiýa.", "ru": "«Bag» и «dag» оканчиваются на -ag — это рифма."}
+        },
+        {"type": "world", "text": {
+          "tk": "Türkmen nusgawy şahyry Magtymguly Pyragy (XVIII asyr) goşgularynyň köpüsini dört setirli bentlerde we 11 bogunly barmak ölçeginde ýazypdyr. Onuň eserleri asyrlar boýy dilden-dile geçip, bagşylar tarapyndan aýdym edilip aýdylypdyr we köp dillere terjime edilipdir.",
+          "ru": "Классик туркменской поэзии Махтумкули Фраги (XVIII век) написал большинство своих стихов четверостишиями, 11-сложным силлабическим размером. Его стихи веками передавались из уст в уста, исполнялись бахши как песни и переведены на многие языки."
+        }}
+      ]
+    }
+  ]
+}

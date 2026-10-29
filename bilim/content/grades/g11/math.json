@@ -1,0 +1,282 @@
+{
+  "grade": 11,
+  "subject": "math",
+  "lessons": [
+    {
+      "id": "math-11-derivative",
+      "grade": 11,
+      "topic": 0,
+      "title": {"tk": "Önüm we differensirlemegiň düzgünleri", "ru": "Производная и правила дифференцирования"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Funksiýanyň önümi — onuň üýtgeýiş tizligi.\n\nKesgitleme: f′(x) = lim (Δx→0) [f(x + Δx) − f(x)] / Δx.\n\nGeometrik manysy: f′(x₀) — x₀ nokatda grafige geçirilen galtaşýan göni çyzygyň burç koeffisiýenti (k = tg α).\nFiziki manysy: s(t) — ýol bolsa, s′(t) — pursatdaky tizlik.\n\nEsasy önümler:\n• (C)′ = 0\n• (xⁿ)′ = n·xⁿ⁻¹\n• (sin x)′ = cos x, (cos x)′ = −sin x\n• (eˣ)′ = eˣ, (ln x)′ = 1/x\n\nDüzgünler:\n• (u + v)′ = u′ + v′\n• (C·u)′ = C·u′\n• (u·v)′ = u′v + uv′\n• (u/v)′ = (u′v − uv′) / v²\n• Çylşyrymly funksiýa: (f(g(x)))′ = f′(g(x))·g′(x)",
+          "ru": "Производная функции — это скорость её изменения.\n\nОпределение: f′(x) = lim (Δx→0) [f(x + Δx) − f(x)] / Δx.\n\nГеометрический смысл: f′(x₀) — угловой коэффициент касательной к графику в точке x₀ (k = tg α).\nФизический смысл: если s(t) — путь, то s′(t) — мгновенная скорость.\n\nОсновные производные:\n• (C)′ = 0\n• (xⁿ)′ = n·xⁿ⁻¹\n• (sin x)′ = cos x, (cos x)′ = −sin x\n• (eˣ)′ = eˣ, (ln x)′ = 1/x\n\nПравила:\n• (u + v)′ = u′ + v′\n• (C·u)′ = C·u′\n• (u·v)′ = u′v + uv′\n• (u/v)′ = (u′v − uv′) / v²\n• Сложная функция: (f(g(x)))′ = f′(g(x))·g′(x)"
+        }},
+        {"type": "example", "text": {
+          "tk": "Mysal 1: f(x) = 3x⁴ − 5x² + 7x − 2. f′(1) tapalyň.\n1) Her goşulyjynyň önümini alýarys: (3x⁴)′ = 12x³, (5x²)′ = 10x, (7x)′ = 7, (2)′ = 0.\n2) f′(x) = 12x³ − 10x + 7.\n3) f′(1) = 12 − 10 + 7 = 9.\n\nMysal 2: g(x) = sin(3x).\nDaşky funksiýa sin, içki funksiýa 3x: g′(x) = cos(3x)·3 = 3cos(3x).",
+          "ru": "Пример 1: f(x) = 3x⁴ − 5x² + 7x − 2. Найдём f′(1).\n1) Дифференцируем каждое слагаемое: (3x⁴)′ = 12x³, (5x²)′ = 10x, (7x)′ = 7, (2)′ = 0.\n2) f′(x) = 12x³ − 10x + 7.\n3) f′(1) = 12 − 10 + 7 = 9.\n\nПример 2: g(x) = sin(3x).\nВнешняя функция sin, внутренняя 3x: g′(x) = cos(3x)·3 = 3cos(3x)."
+        }},
+        {"type": "input",
+          "q": {"tk": "f(x) = x³ bolsa, f′(2) näçä deň?", "ru": "Если f(x) = x³, чему равно f′(2)?"},
+          "answer": "12",
+          "hint": {"tk": "(xⁿ)′ = n·xⁿ⁻¹ formulany ulanyň.", "ru": "Используйте формулу (xⁿ)′ = n·xⁿ⁻¹."},
+          "explain": {"tk": "f′(x) = 3x², şonuň üçin f′(2) = 3·4 = 12.", "ru": "f′(x) = 3x², поэтому f′(2) = 3·4 = 12."}
+        },
+        {"type": "choice",
+          "q": {"tk": "(cos x)′ näçä deň?", "ru": "Чему равна (cos x)′?"},
+          "options": ["sin x", "−sin x", "cos x"],
+          "answer": 1,
+          "hint": {"tk": "Kosinusyň önüminde alamat üýtgeýär.", "ru": "В производной косинуса появляется минус."},
+          "explain": {"tk": "(cos x)′ = −sin x. Mysal üçin, x = 0 nokatda cos x iň uly bahasyna ýetýär we önüm 0-a deň: −sin 0 = 0.", "ru": "(cos x)′ = −sin x. Например, в точке x = 0 cos x достигает максимума, и производная равна 0: −sin 0 = 0."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "((2x + 1)³)′ = 3(2x + 1)². Dogrymy?", "ru": "((2x + 1)³)′ = 3(2x + 1)². Верно?"},
+          "answer": false,
+          "hint": {"tk": "Içki funksiýanyň önümini unutmaň.", "ru": "Не забудьте про производную внутренней функции."},
+          "explain": {"tk": "Çylşyrymly funksiýanyň düzgüni boýunça 3(2x + 1)²·(2x + 1)′ = 3(2x + 1)²·2 = 6(2x + 1)².", "ru": "По правилу сложной функции: 3(2x + 1)²·(2x + 1)′ = 3(2x + 1)²·2 = 6(2x + 1)²."}
+        },
+        {"type": "input",
+          "q": {"tk": "f(x) = x·eˣ. f′(0) tapyň.", "ru": "f(x) = x·eˣ. Найдите f′(0)."},
+          "answer": "1",
+          "hint": {"tk": "Köpeltmek hasylynyň önümi: (uv)′ = u′v + uv′.", "ru": "Производная произведения: (uv)′ = u′v + uv′."},
+          "explain": {"tk": "f′(x) = 1·eˣ + x·eˣ = eˣ(1 + x). f′(0) = e⁰·1 = 1.", "ru": "f′(x) = 1·eˣ + x·eˣ = eˣ(1 + x). f′(0) = e⁰·1 = 1."}
+        },
+        {"type": "world", "text": {
+          "tk": "Differensial hasaplamany XVII asyrda Isaak Nýuton we Gotfrid Leýbnis biri-birinden garaşsyz döretdiler. dy/dx belgi Leýbnise degişli, f′(x) ştrih belgisini bolsa soňra Žozef Lui Lagranž ornaşdyrdy.",
+          "ru": "Дифференциальное исчисление в XVII веке независимо друг от друга создали Исаак Ньютон и Готфрид Лейбниц. Обозначение dy/dx принадлежит Лейбницу, а штрих f′(x) позже ввёл Жозеф Луи Лагранж."
+        }}
+      ]
+    },
+    {
+      "id": "math-11-derivative-applications",
+      "grade": 11,
+      "topic": 1,
+      "title": {"tk": "Önümiň ulanylyşy: galtaşýan we tizlik", "ru": "Применение производной: касательная и скорость"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "1) Galtaşýan göni çyzyk. y = f(x) funksiýanyň grafigine x = a nokatda geçirilen galtaşýanyň deňlemesi:\ny = f(a) + f′(a)·(x − a).\n\n2) Hereket. Jisimiň koordinatasy s(t) bolsa:\n• tizlik v(t) = s′(t);\n• tizlenme a(t) = v′(t) = s″(t).\n\n3) Takmyny hasaplama. Kiçi Δx üçin:\nf(a + Δx) ≈ f(a) + f′(a)·Δx.\n\nÖnüm islendik ululygyň üýtgeýiş tizligini görkezýär: ykdysadyýetde — goşmaça çykdajy, himiýada — reaksiýanyň tizligi.",
+          "ru": "1) Касательная. Уравнение касательной к графику y = f(x) в точке x = a:\ny = f(a) + f′(a)·(x − a).\n\n2) Движение. Если координата тела s(t), то:\n• скорость v(t) = s′(t);\n• ускорение a(t) = v′(t) = s″(t).\n\n3) Приближённые вычисления. При малом Δx:\nf(a + Δx) ≈ f(a) + f′(a)·Δx.\n\nПроизводная показывает скорость изменения любой величины: в экономике — предельные издержки, в химии — скорость реакции."
+        }},
+        {"type": "example", "text": {
+          "tk": "y = x² parabola x = 3 nokatda galtaşýanyň deňlemesini düzeliň.\n1) f(3) = 9.\n2) f′(x) = 2x, f′(3) = 6.\n3) y = 9 + 6(x − 3) = 6x − 9.\n\nBarlag: x = 3 bolanda y = 18 − 9 = 9 — galtaşýan hakykatdan hem (3; 9) nokatdan geçýär.\n\nTakmyny hasaplama: √(4,1) ≈ ? f(x) = √x, f′(x) = 1/(2√x), a = 4, Δx = 0,1.\n√(4,1) ≈ 2 + (1/4)·0,1 = 2,025 (takyk baha ≈ 2,0248).",
+          "ru": "Составим уравнение касательной к параболе y = x² в точке x = 3.\n1) f(3) = 9.\n2) f′(x) = 2x, f′(3) = 6.\n3) y = 9 + 6(x − 3) = 6x − 9.\n\nПроверка: при x = 3 y = 18 − 9 = 9 — касательная действительно проходит через точку (3; 9).\n\nПриближённое вычисление: √(4,1) ≈ ? f(x) = √x, f′(x) = 1/(2√x), a = 4, Δx = 0,1.\n√(4,1) ≈ 2 + (1/4)·0,1 = 2,025 (точное значение ≈ 2,0248)."
+        }},
+        {"type": "input",
+          "q": {"tk": "Nokat s(t) = t³ − 2t (metr) kanun boýunça hereket edýär. t = 2 s pursatdaky tizligi (m/s) tapyň.", "ru": "Точка движется по закону s(t) = t³ − 2t (метры). Найдите скорость (м/с) в момент t = 2 с."},
+          "answer": "10",
+          "hint": {"tk": "Tizlik — ýoluň önümi.", "ru": "Скорость — производная пути."},
+          "explain": {"tk": "v(t) = s′(t) = 3t² − 2. v(2) = 12 − 2 = 10 m/s.", "ru": "v(t) = s′(t) = 3t² − 2. v(2) = 12 − 2 = 10 м/с."}
+        },
+        {"type": "choice",
+          "q": {"tk": "y = x³ funksiýanyň grafigine x = 1 nokatda geçirilen galtaşýanyň deňlemesi haýsy?", "ru": "Какое уравнение имеет касательная к графику y = x³ в точке x = 1?"},
+          "options": ["y = 3x + 1", "y = x − 2", "y = 3x − 2"],
+          "answer": 2,
+          "hint": {"tk": "f(1) we f′(1) tapyň, soňra formula goýuň.", "ru": "Найдите f(1) и f′(1) и подставьте в формулу."},
+          "explain": {"tk": "f(1) = 1, f′(x) = 3x², f′(1) = 3. y = 1 + 3(x − 1) = 3x − 2.", "ru": "f(1) = 1, f′(x) = 3x², f′(1) = 3. y = 1 + 3(x − 1) = 3x − 2."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Tizlenme — tizligiň wagta görä önümidir. Dogrymy?", "ru": "Ускорение — это производная скорости по времени. Верно?"},
+          "answer": true,
+          "hint": {"tk": "Tizlenme tizligiň näçe çalt üýtgeýändigini görkezýär.", "ru": "Ускорение показывает, как быстро меняется скорость."},
+          "explain": {"tk": "Dogry: a(t) = v′(t). Ýoluň ikinji önümi hem tizlenmedir: a(t) = s″(t).", "ru": "Верно: a(t) = v′(t). Это также вторая производная пути: a(t) = s″(t)."}
+        },
+        {"type": "input",
+          "q": {"tk": "y = ln x funksiýanyň grafigine x = 4 nokatda geçirilen galtaşýanyň burç koeffisiýenti näçä deň?", "ru": "Чему равен угловой коэффициент касательной к графику y = ln x в точке x = 4?"},
+          "answer": "0.25|0,25|1/4",
+          "hint": {"tk": "Burç koeffisiýenti k = f′(a).", "ru": "Угловой коэффициент k = f′(a)."},
+          "explain": {"tk": "(ln x)′ = 1/x, şonuň üçin k = 1/4 = 0,25.", "ru": "(ln x)′ = 1/x, поэтому k = 1/4 = 0,25."}
+        },
+        {"type": "world", "text": {
+          "tk": "Nýutonyň ikinji kanunynda F = m·a tizlenme ýoluň ikinji önümidir. Nýuton öz «flýuksiýalar usulyny» esasan jisimleriň we planetalaryň hereketini beýan etmek üçin döretdi.",
+          "ru": "Во втором законе Ньютона F = m·a ускорение — это вторая производная пути. Свой «метод флюксий» Ньютон создавал прежде всего для описания движения тел и планет."
+        }}
+      ]
+    },
+    {
+      "id": "math-11-function-analysis",
+      "grade": 11,
+      "topic": 2,
+      "title": {"tk": "Funksiýany önümiň kömegi bilen derňemek", "ru": "Исследование функции с помощью производной"},
+      "minutes": 11,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Monotonlyk:\n• aralykda f′(x) > 0 bolsa, funksiýa artýar;\n• f′(x) < 0 bolsa, kemelýär.\n\nEkstremumlar:\n• f′(x) = 0 ýa-da önüm ýok bolan nokatlar — kritiki nokatlar.\n• Önümiň alamaty «+» -dan «−» -a üýtgese — maksimum nokady; «−» -dan «+» -a üýtgese — minimum nokady.\n\nIkinji önüm:\n• f″(x) > 0 — grafik aşak güberçek (∪);\n• f″(x) < 0 — ýokary güberçek (∩);\n• f″ alamatyny üýtgedýän nokat — egilme nokady.\n\nDerňewiň meýilnamasy: kesgitleniş ýaýlasy → f′ → kritiki nokatlar → alamatlar tablisasy → ekstremumlar → grafik.",
+          "ru": "Монотонность:\n• если на промежутке f′(x) > 0, функция возрастает;\n• если f′(x) < 0 — убывает.\n\nЭкстремумы:\n• точки, где f′(x) = 0 или производная не существует, — критические.\n• Если производная меняет знак с «+» на «−» — точка максимума; с «−» на «+» — точка минимума.\n\nВторая производная:\n• f″(x) > 0 — график выпуклый вниз (∪);\n• f″(x) < 0 — выпуклый вверх (∩);\n• точка, где f″ меняет знак, — точка перегиба.\n\nПлан исследования: область определения → f′ → критические точки → таблица знаков → экстремумы → график."
+        }},
+        {"type": "example", "text": {
+          "tk": "f(x) = x³ − 3x funksiýany derňäliň.\n1) Kesgitleniş ýaýlasy: ähli hakyky sanlar.\n2) f′(x) = 3x² − 3 = 3(x − 1)(x + 1).\n3) Kritiki nokatlar: x = −1 we x = 1.\n4) Alamatlar: x < −1 bolanda f′ > 0 (artýar); −1 < x < 1 bolanda f′ < 0 (kemelýär); x > 1 bolanda f′ > 0 (artýar).\n5) x = −1 — maksimum: f(−1) = −1 + 3 = 2.\n   x = 1 — minimum: f(1) = 1 − 3 = −2.\n6) f″(x) = 6x, x = 0 — egilme nokady.",
+          "ru": "Исследуем f(x) = x³ − 3x.\n1) Область определения: все действительные числа.\n2) f′(x) = 3x² − 3 = 3(x − 1)(x + 1).\n3) Критические точки: x = −1 и x = 1.\n4) Знаки: при x < −1 f′ > 0 (возрастает); при −1 < x < 1 f′ < 0 (убывает); при x > 1 f′ > 0 (возрастает).\n5) x = −1 — максимум: f(−1) = −1 + 3 = 2.\n   x = 1 — минимум: f(1) = 1 − 3 = −2.\n6) f″(x) = 6x, x = 0 — точка перегиба."
+        }},
+        {"type": "input",
+          "q": {"tk": "f(x) = x² − 6x + 5 funksiýanyň minimum nokadyny (x-i) tapyň.", "ru": "Найдите точку минимума (x) функции f(x) = x² − 6x + 5."},
+          "answer": "3",
+          "hint": {"tk": "f′(x) = 0 deňlemäni çözüň.", "ru": "Решите уравнение f′(x) = 0."},
+          "explain": {"tk": "f′(x) = 2x − 6 = 0 ⇒ x = 3. Bu nokatda önüm «−» -dan «+» -a geçýär, diýmek minimum.", "ru": "f′(x) = 2x − 6 = 0 ⇒ x = 3. Здесь производная меняет знак с «−» на «+», значит, это минимум."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Aralykda f′(x) < 0 bolsa, funksiýa…", "ru": "Если на промежутке f′(x) < 0, то функция…"},
+          "options": [{"tk": "artýar", "ru": "возрастает"}, {"tk": "kemelýär", "ru": "убывает"}, {"tk": "hemişelik", "ru": "постоянна"}],
+          "answer": 1,
+          "hint": {"tk": "Galtaşýanyň ýapgytlygy otrisatel bolsa, grafik nirä gidýär?", "ru": "Если наклон касательной отрицательный, куда идёт график?"},
+          "explain": {"tk": "Otrisatel önüm — galtaşýanlar aşak ýapgyt, ýagny x ulaldygyça funksiýa kemelýär.", "ru": "Отрицательная производная — касательные наклонены вниз, то есть с ростом x функция убывает."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "f′(x₀) = 0 bolsa, x₀ hökman ekstremum nokadydyr. Dogrymy?", "ru": "Если f′(x₀) = 0, то x₀ обязательно точка экстремума. Верно?"},
+          "answer": false,
+          "hint": {"tk": "f(x) = x³ funksiýany x = 0 nokatda barlaň.", "ru": "Проверьте f(x) = x³ в точке x = 0."},
+          "explain": {"tk": "Ýalňyş: f(x) = x³ üçin f′(0) = 0, emma önüm alamatyny üýtgetmeýär (iki tarapda hem ≥ 0), şonuň üçin x = 0 ekstremum däl.", "ru": "Неверно: для f(x) = x³ f′(0) = 0, но производная не меняет знак (с обеих сторон ≥ 0), поэтому x = 0 не экстремум."}
+        },
+        {"type": "input",
+          "q": {"tk": "f(x) = −x² + 4x + 1 funksiýanyň iň uly bahasyny tapyň.", "ru": "Найдите наибольшее значение функции f(x) = −x² + 4x + 1."},
+          "answer": "5",
+          "hint": {"tk": "Ilki maksimum nokadyny tapyň, soň funksiýa goýuň.", "ru": "Сначала найдите точку максимума, затем подставьте в функцию."},
+          "explain": {"tk": "f′(x) = −2x + 4 = 0 ⇒ x = 2. f(2) = −4 + 8 + 1 = 5.", "ru": "f′(x) = −2x + 4 = 0 ⇒ x = 2. f(2) = −4 + 8 + 1 = 5."}
+        },
+        {"type": "world", "text": {
+          "tk": "Fermanyň teoremasy: differensirlenýän funksiýanyň içki ekstremum nokadynda önüm nola deňdir. Pýer de Ferma maksimumlary we minimumlary tapmagyň usulyny 1630-njy ýyllarda, Nýuton bilen Leýbnisden öň işläp düzüpdi.",
+          "ru": "Теорема Ферма: во внутренней точке экстремума дифференцируемой функции производная равна нулю. Пьер де Ферма разработал метод нахождения максимумов и минимумов в 1630-х годах, ещё до Ньютона и Лейбница."
+        }}
+      ]
+    },
+    {
+      "id": "math-11-antiderivative",
+      "grade": 11,
+      "topic": 3,
+      "title": {"tk": "Başlangyç funksiýa", "ru": "Первообразная"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "F′(x) = f(x) bolsa, F(x) funksiýa f(x) üçin başlangyç funksiýadyr. Bu differensirlemä ters amal.\n\nEsasy häsiýet: eger F başlangyç funksiýa bolsa, ähli başlangyç funksiýalar F(x) + C görnüşdedir (C — islendik hemişelik). Bu ýazgy kesgitsiz integral diýilýär: ∫f(x)dx = F(x) + C.\n\nTablisa:\n• xⁿ → xⁿ⁺¹/(n + 1), n ≠ −1\n• 1/x → ln|x|\n• sin x → −cos x\n• cos x → sin x\n• eˣ → eˣ\n\nDüzgünler:\n• jemiň başlangyjy — başlangyçlaryň jemi;\n• k·f → k·F;\n• f(kx + b) → (1/k)·F(kx + b).",
+          "ru": "Если F′(x) = f(x), то функция F(x) называется первообразной для f(x). Это действие, обратное дифференцированию.\n\nОсновное свойство: если F — первообразная, то все первообразные имеют вид F(x) + C (C — любая константа). Эта запись называется неопределённым интегралом: ∫f(x)dx = F(x) + C.\n\nТаблица:\n• xⁿ → xⁿ⁺¹/(n + 1), n ≠ −1\n• 1/x → ln|x|\n• sin x → −cos x\n• cos x → sin x\n• eˣ → eˣ\n\nПравила:\n• первообразная суммы — сумма первообразных;\n• k·f → k·F;\n• f(kx + b) → (1/k)·F(kx + b)."
+        }},
+        {"type": "example", "text": {
+          "tk": "f(x) = 6x² − 4x + 3 üçin (1; 5) nokatdan geçýän başlangyç funksiýany tapalyň.\n1) Umumy görnüşi: F(x) = 6·x³/3 − 4·x²/2 + 3x + C = 2x³ − 2x² + 3x + C.\n2) F(1) = 5 şerti: 2 − 2 + 3 + C = 5 ⇒ C = 2.\n3) Jogap: F(x) = 2x³ − 2x² + 3x + 2.\n\nBarlag: F′(x) = 6x² − 4x + 3 = f(x). ✓",
+          "ru": "Найдём для f(x) = 6x² − 4x + 3 первообразную, проходящую через точку (1; 5).\n1) Общий вид: F(x) = 6·x³/3 − 4·x²/2 + 3x + C = 2x³ − 2x² + 3x + C.\n2) Условие F(1) = 5: 2 − 2 + 3 + C = 5 ⇒ C = 2.\n3) Ответ: F(x) = 2x³ − 2x² + 3x + 2.\n\nПроверка: F′(x) = 6x² − 4x + 3 = f(x). ✓"
+        }},
+        {"type": "choice",
+          "q": {"tk": "f(x) = cos x funksiýanyň başlangyç funksiýalary haýsylar?", "ru": "Каковы первообразные функции f(x) = cos x?"},
+          "options": ["sin x + C", "−sin x + C", "cos x + C"],
+          "answer": 0,
+          "hint": {"tk": "Haýsy funksiýanyň önümi cos x?", "ru": "Производная какой функции равна cos x?"},
+          "explain": {"tk": "(sin x)′ = cos x, şonuň üçin ∫cos x dx = sin x + C.", "ru": "(sin x)′ = cos x, поэтому ∫cos x dx = sin x + C."}
+        },
+        {"type": "input",
+          "q": {"tk": "f(x) = 4x³ üçin F(0) = 0 şerti kanagatlandyrýan başlangyç funksiýa F alnan. F(2) näçä deň?", "ru": "Для f(x) = 4x³ взята первообразная F с условием F(0) = 0. Чему равно F(2)?"},
+          "answer": "16",
+          "hint": {"tk": "4x³ üçin başlangyç funksiýa x⁴ + C.", "ru": "Первообразная для 4x³ — это x⁴ + C."},
+          "explain": {"tk": "F(x) = x⁴ + C, F(0) = 0 ⇒ C = 0. F(2) = 2⁴ = 16.", "ru": "F(x) = x⁴ + C, F(0) = 0 ⇒ C = 0. F(2) = 2⁴ = 16."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "F(x) = x³/3 + 10 funksiýa f(x) = x² üçin başlangyç funksiýadyr. Dogrymy?", "ru": "Функция F(x) = x³/3 + 10 — первообразная для f(x) = x². Верно?"},
+          "answer": true,
+          "hint": {"tk": "F′(x) tapyň we f(x) bilen deňeşdiriň.", "ru": "Найдите F′(x) и сравните с f(x)."},
+          "explain": {"tk": "F′(x) = 3x²/3 + 0 = x². Hemişelik 10 önümde ýitýär, şonuň üçin dogry.", "ru": "F′(x) = 3x²/3 + 0 = x². Константа 10 при дифференцировании исчезает, поэтому верно."}
+        },
+        {"type": "input",
+          "q": {"tk": "f(x) = 2x üçin başlangyç funksiýa (2; 7) nokatdan geçýär. C hemişeligi tapyň.", "ru": "Первообразная для f(x) = 2x проходит через точку (2; 7). Найдите константу C."},
+          "answer": "3",
+          "hint": {"tk": "F(x) = x² + C, soňra x = 2, F = 7 goýuň.", "ru": "F(x) = x² + C, затем подставьте x = 2, F = 7."},
+          "explain": {"tk": "4 + C = 7 ⇒ C = 3, F(x) = x² + 3.", "ru": "4 + C = 7 ⇒ C = 3, F(x) = x² + 3."}
+        },
+        {"type": "world", "text": {
+          "tk": "Integralyň ∫ belgisini Leýbnis 1675-nji ýylda ulanyp başlady. Ol latynça summa («jem») sözüniň baş harpy bolan uzaldylan S harpydyr.",
+          "ru": "Знак интеграла ∫ Лейбниц начал использовать в 1675 году. Это вытянутая буква S — первая буква латинского слова summa («сумма»)."
+        }}
+      ]
+    },
+    {
+      "id": "math-11-definite-integral",
+      "grade": 11,
+      "topic": 4,
+      "title": {"tk": "Kesgitli integral", "ru": "Определённый интеграл"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Egriçyzykly trapesiýa: y = f(x) ≥ 0 grafik, Ox oky we x = a, x = b göni çyzyklar bilen çäklenen figura.\n\nOnuň meýdany kesgitli integraldyr: S = ∫ₐᵇ f(x)dx.\nIntegral — [a; b] kesimi kiçi böleklere bölüp, f(xᵢ)·Δxᵢ gönüburçluklaryň jemleriniň predeli (Riman jemleri).\n\nNýuton–Leýbnisiň formulasy:\n∫ₐᵇ f(x)dx = F(b) − F(a), bu ýerde F — başlangyç funksiýa.\n\nHäsiýetleri:\n• ∫ₐᵃ f dx = 0\n• ∫ₐᵇ f dx = −∫ᵇₐ f dx (çäkleri çalyşmak alamaty üýtgedýär)\n• ∫ₐᵇ f dx = ∫ₐᶜ f dx + ∫_c^b f dx, a < c < b\n• ∫(f + g) = ∫f + ∫g, ∫k·f = k·∫f",
+          "ru": "Криволинейная трапеция: фигура, ограниченная графиком y = f(x) ≥ 0, осью Ox и прямыми x = a, x = b.\n\nЕё площадь — определённый интеграл: S = ∫ₐᵇ f(x)dx.\nИнтеграл — это предел сумм площадей прямоугольников f(xᵢ)·Δxᵢ при дроблении отрезка [a; b] (суммы Римана).\n\nФормула Ньютона–Лейбница:\n∫ₐᵇ f(x)dx = F(b) − F(a), где F — первообразная.\n\nСвойства:\n• ∫ₐᵃ f dx = 0\n• ∫ₐᵇ f dx = −∫ᵇₐ f dx (перестановка пределов меняет знак)\n• ∫ₐᵇ f dx = ∫ₐᶜ f dx + ∫_c^b f dx, a < c < b\n• ∫(f + g) = ∫f + ∫g, ∫k·f = k·∫f"
+        }},
+        {"type": "example", "text": {
+          "tk": "∫₀² (3x² + 1)dx hasaplalyň.\n1) Başlangyç funksiýa: F(x) = x³ + x.\n2) F(2) = 8 + 2 = 10.\n3) F(0) = 0.\n4) ∫₀² (3x² + 1)dx = 10 − 0 = 10.\n\nGeometrik manysy: y = 3x² + 1 egri, Ox oky we x = 0, x = 2 göni çyzyklar bilen çäklenen figuranyň meýdany 10 kwadrat birlige deň.",
+          "ru": "Вычислим ∫₀² (3x² + 1)dx.\n1) Первообразная: F(x) = x³ + x.\n2) F(2) = 8 + 2 = 10.\n3) F(0) = 0.\n4) ∫₀² (3x² + 1)dx = 10 − 0 = 10.\n\nГеометрический смысл: площадь фигуры, ограниченной кривой y = 3x² + 1, осью Ox и прямыми x = 0, x = 2, равна 10 квадратным единицам."
+        }},
+        {"type": "input",
+          "q": {"tk": "∫₁³ 2x dx hasaplaň.", "ru": "Вычислите ∫₁³ 2x dx."},
+          "answer": "8",
+          "hint": {"tk": "2x üçin başlangyç funksiýa x².", "ru": "Первообразная для 2x — x²."},
+          "explain": {"tk": "F(3) − F(1) = 9 − 1 = 8.", "ru": "F(3) − F(1) = 9 − 1 = 8."}
+        },
+        {"type": "choice",
+          "q": {"tk": "∫₀^π sin x dx näçä deň?", "ru": "Чему равен ∫₀^π sin x dx?"},
+          "options": ["0", "1", "2"],
+          "answer": 2,
+          "hint": {"tk": "sin x üçin başlangyç funksiýa −cos x.", "ru": "Первообразная для sin x — −cos x."},
+          "explain": {"tk": "[−cos x]₀^π = −cos π − (−cos 0) = 1 + 1 = 2. Bu sinusoidanyň bir «tolkunynyň» meýdany.", "ru": "[−cos x]₀^π = −cos π − (−cos 0) = 1 + 1 = 2. Это площадь одной «арки» синусоиды."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Islendik f üçin ∫ₐᵃ f(x)dx = 0. Dogrymy?", "ru": "Для любой f верно ∫ₐᵃ f(x)dx = 0. Верно?"},
+          "answer": true,
+          "hint": {"tk": "Nýuton–Leýbnisiň formulasyna a = b goýuň.", "ru": "Подставьте a = b в формулу Ньютона–Лейбница."},
+          "explain": {"tk": "F(a) − F(a) = 0: giňligi nola deň bolan figuranyň meýdany ýok.", "ru": "F(a) − F(a) = 0: у фигуры нулевой ширины нет площади."}
+        },
+        {"type": "input",
+          "q": {"tk": "∫₁ᵉ (1/x) dx hasaplaň.", "ru": "Вычислите ∫₁ᵉ (1/x) dx."},
+          "answer": "1",
+          "hint": {"tk": "1/x üçin başlangyç funksiýa ln x.", "ru": "Первообразная для 1/x — ln x."},
+          "explain": {"tk": "ln e − ln 1 = 1 − 0 = 1.", "ru": "ln e − ln 1 = 1 − 0 = 1."}
+        },
+        {"type": "world", "text": {
+          "tk": "Integral pikiriniň köki gadymy döwre gidýär: b.e.öň III asyrda Arhimed parabolanyň kesiminiň meýdanyny «tükeniş usuly» bilen tapdy. Ol bu meýdanyň içine çyzylan üçburçlugyň meýdanyndan 4/3 esse uludygyny subut etdi.",
+          "ru": "Идея интеграла уходит в древность: в III веке до н. э. Архимед нашёл площадь параболического сегмента «методом исчерпывания». Он доказал, что она в 4/3 раза больше площади вписанного треугольника."
+        }}
+      ]
+    },
+    {
+      "id": "math-11-integral-applications",
+      "grade": 11,
+      "topic": 5,
+      "title": {"tk": "Integralyň ulanylyşy: meýdan, göwrüm, fizika", "ru": "Применение интеграла: площадь, объём, физика"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "1) Iki egriniň arasyndaky meýdan. [a; b] kesimde f(x) ≥ g(x) bolsa:\nS = ∫ₐᵇ (f(x) − g(x))dx.\nÇäkler köplenç f(x) = g(x) deňlemeden tapylýar.\n\n2) Aýlanma jisiminiň göwrümi. y = f(x) egri Ox okunyň töwereginde aýlananda:\nV = π·∫ₐᵇ f²(x)dx.\n\n3) Fizika:\n• geçilen ýol: s = ∫ v(t)dt;\n• üýtgeýän güýjüň işi: A = ∫ F(x)dx;\n• massa dykyzlyk boýunça: m = ∫ ρ(x)dx.",
+          "ru": "1) Площадь между двумя кривыми. Если на отрезке [a; b] f(x) ≥ g(x):\nS = ∫ₐᵇ (f(x) − g(x))dx.\nГраницы часто находят из уравнения f(x) = g(x).\n\n2) Объём тела вращения. При вращении кривой y = f(x) вокруг оси Ox:\nV = π·∫ₐᵇ f²(x)dx.\n\n3) Физика:\n• пройденный путь: s = ∫ v(t)dt;\n• работа переменной силы: A = ∫ F(x)dx;\n• масса по плотности: m = ∫ ρ(x)dx."
+        }},
+        {"type": "example", "text": {
+          "tk": "y = x we y = x² çyzyklar bilen çäklenen figuranyň meýdanyny tapalyň.\n1) Kesişme nokatlary: x = x² ⇒ x = 0 we x = 1.\n2) [0; 1] aralykda x ≥ x² (mysal üçin, x = 0,5: 0,5 > 0,25).\n3) S = ∫₀¹ (x − x²)dx = [x²/2 − x³/3]₀¹ = 1/2 − 1/3 = 1/6.\n\nJogap: 1/6 kwadrat birlik.",
+          "ru": "Найдём площадь фигуры, ограниченной линиями y = x и y = x².\n1) Точки пересечения: x = x² ⇒ x = 0 и x = 1.\n2) На [0; 1] x ≥ x² (например, x = 0,5: 0,5 > 0,25).\n3) S = ∫₀¹ (x − x²)dx = [x²/2 − x³/3]₀¹ = 1/2 − 1/3 = 1/6.\n\nОтвет: 1/6 квадратной единицы."
+        }},
+        {"type": "choice",
+          "q": {"tk": "y = x² egri, Ox oky we x = 3 göni çyzyk bilen çäklenen figuranyň meýdany näçä deň?", "ru": "Чему равна площадь фигуры, ограниченной кривой y = x², осью Ox и прямой x = 3?"},
+          "options": ["9", "27", "3"],
+          "answer": 0,
+          "hint": {"tk": "∫₀³ x² dx hasaplaň.", "ru": "Вычислите ∫₀³ x² dx."},
+          "explain": {"tk": "[x³/3]₀³ = 27/3 = 9.", "ru": "[x³/3]₀³ = 27/3 = 9."}
+        },
+        {"type": "input",
+          "q": {"tk": "Jisimiň tizligi v(t) = 2t + 3 (m/s). Ilkinji 4 sekuntda ol näçe metr ýol geçýär?", "ru": "Скорость тела v(t) = 2t + 3 (м/с). Какой путь (в метрах) оно пройдёт за первые 4 секунды?"},
+          "answer": "28",
+          "hint": {"tk": "s = ∫₀⁴ v(t)dt.", "ru": "s = ∫₀⁴ v(t)dt."},
+          "explain": {"tk": "[t² + 3t]₀⁴ = 16 + 12 = 28 m.", "ru": "[t² + 3t]₀⁴ = 16 + 12 = 28 м."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "y = x göni çyzygyň [0; 1] bölegi Ox okunyň töwereginde aýlananda emele gelýän jisimiň göwrümi π/2. Dogrymy?", "ru": "Объём тела, полученного вращением отрезка прямой y = x на [0; 1] вокруг оси Ox, равен π/2. Верно?"},
+          "answer": false,
+          "hint": {"tk": "V = π∫₀¹ x² dx hasaplaň.", "ru": "Вычислите V = π∫₀¹ x² dx."},
+          "explain": {"tk": "V = π·[x³/3]₀¹ = π/3. Bu radiusy 1, beýikligi 1 bolan konusdyr: V = (1/3)πr²h = π/3.", "ru": "V = π·[x³/3]₀¹ = π/3. Это конус с радиусом 1 и высотой 1: V = (1/3)πr²h = π/3."}
+        },
+        {"type": "input",
+          "q": {"tk": "Pružiniň güýji F = kx, k = 100 N/m. Pružini 0-dan 0,2 m çenli uzaltmak üçin edilýän işi (J) tapyň.", "ru": "Сила пружины F = kx, k = 100 Н/м. Найдите работу (Дж) по растяжению пружины от 0 до 0,2 м."},
+          "answer": "2",
+          "hint": {"tk": "A = ∫₀^0,2 100x dx.", "ru": "A = ∫₀^0,2 100x dx."},
+          "explain": {"tk": "A = [50x²]₀^0,2 = 50·0,04 = 2 J.", "ru": "A = [50x²]₀^0,2 = 50·0,04 = 2 Дж."}
+        },
+        {"type": "world", "text": {
+          "tk": "1615-nji ýylda Iogann Kepler çakyr çelekleriniň göwrümini hasaplamak barada kitap ýazdy. Ol çelegi örän köp inçe gatlaklara bölüp, göwrümi olaryň jemi hökmünde tapdy — bu integral hasaplamanyň ilkinji ädimleriniň biri boldy.",
+          "ru": "В 1615 году Иоганн Кеплер написал книгу о вычислении объёмов винных бочек. Он мысленно делил бочку на множество тонких слоёв и находил объём как их сумму — это был один из первых шагов к интегральному исчислению."
+        }}
+      ]
+    }
+  ]
+}

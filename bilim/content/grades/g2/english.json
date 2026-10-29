@@ -1,0 +1,288 @@
+{
+  "grade": 2,
+  "subject": "english",
+  "lessons": [
+    {
+      "id": "english-2-alphabet",
+      "grade": 2,
+      "topic": 0,
+      "title": {"tk": "The alphabet — iňlis elipbiýi", "ru": "The alphabet — английский алфавит"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Iňlis elipbiýinde 26 harp bar 🔤.\nA B C D E F G H I J K L M N O P Q R S T U V W X Y Z\n• 5 çekimli harp: A, E, I, O, U.\n• Galan 21 harp — çekimsiz.\nHer harpyň baş (A) we setir (a) görnüşi bar.\nHarplaryň ady bilen sesi käte başga: «A» harpy [eý] diýip atlandyrylýar, ýöne «apple» sözünde [ä] ýaly okalýar 🍎.",
+          "ru": "В английском алфавите 26 букв 🔤.\nA B C D E F G H I J K L M N O P Q R S T U V W X Y Z\n• 5 гласных букв: A, E, I, O, U.\n• Остальные 21 буква — согласные.\nУ каждой буквы есть заглавная (A) и строчная (a) форма.\nНазвание буквы и звук иногда разные: буква «A» называется [эй], а в слове «apple» звучит как [э] 🍎."
+        }},
+        {"type": "example", "text": {
+          "tk": "Harp we söz 🅰️🅱️\n• A — apple 🍎 (alma)\n• B — ball ⚽ (top)\n• C — cat 🐱 (pişik)\n• D — dog 🐶 (it)\n• E — egg 🥚 (ýumurtga)\nAdyňy harplap aýt: Aman → A-M-A-N. Iňlisçe şeýle soraýarlar: «How do you spell it?» — Ony nähili harplaýaňyz?",
+          "ru": "Буква и слово 🅰️🅱️\n• A — apple 🍎 (яблоко)\n• B — ball ⚽ (мяч)\n• C — cat 🐱 (кошка)\n• D — dog 🐶 (собака)\n• E — egg 🥚 (яйцо)\nПроизнеси своё имя по буквам: Aman → A-M-A-N. По-английски спрашивают: «How do you spell it?» — Как это пишется по буквам?"
+        }},
+        {"type": "input",
+          "q": {"tk": "Iňlis elipbiýinde näçe harp bar?", "ru": "Сколько букв в английском алфавите?"},
+          "answer": "26",
+          "hint": {"tk": "5 çekimli + 21 çekimsiz.", "ru": "5 гласных + 21 согласная."},
+          "explain": {"tk": "5 + 21 = 26 harp.", "ru": "5 + 21 = 26 букв."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy harp çekimli?", "ru": "Какая буква гласная?"},
+          "options": ["K", "S", "O"],
+          "answer": 2,
+          "hint": {"tk": "Çekimliler: A, E, I, O, U.", "ru": "Гласные: A, E, I, O, U."},
+          "explain": {"tk": "O — çekimli. K we S — çekimsiz.", "ru": "O — гласная. K и S — согласные."}
+        },
+        {"type": "choice",
+          "q": {"tk": "«C» harpyndan başlanýan söz haýsy?", "ru": "Какое слово начинается на букву «C»?"},
+          "options": ["dog 🐶", "cat 🐱", "egg 🥚"],
+          "answer": 1,
+          "hint": {"tk": "Ol «miaw» diýýär.", "ru": "Оно говорит «мяу»."},
+          "explain": {"tk": "cat — C harpyndan başlanýar.", "ru": "cat начинается на C."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«B» harpyndan soň «C» gelýär.", "ru": "После буквы «B» идёт «C»."},
+          "answer": true,
+          "hint": {"tk": "A, B, ...", "ru": "A, B, ..."},
+          "explain": {"tk": "Dogry: A, B, C, D...", "ru": "Верно: A, B, C, D..."}
+        },
+        {"type": "world", "text": {
+          "tk": "«The quick brown fox jumps over the lazy dog» sözleminde iňlis elipbiýiniň 26 harpynyň hemmesi bar 🦊🐶. Ondan klawiaturalary we şriftleri barlamak üçin köp ýyl bäri peýdalanýarlar.",
+          "ru": "В предложении «The quick brown fox jumps over the lazy dog» есть все 26 букв английского алфавита 🦊🐶. Его давно используют, чтобы проверять клавиатуры и шрифты."
+        }}
+      ]
+    },
+    {
+      "id": "english-2-my-body",
+      "grade": 2,
+      "topic": 1,
+      "title": {"tk": "My body — bedenim", "ru": "My body — моё тело"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Bedeniň bölekleri iňlisçe 🙋\n• head — kelle\n• eye — göz 👁️ (eyes — gözler)\n• ear — gulak 👂\n• nose — burun 👃\n• mouth — agyz 👄\n• hand — el ✋\n• leg — aýak 🦵\nKöplük: söze -s goşulýar: hand → hands, eye → eyes.\nÝöne: foot (aýaşy) → feet 🦶.",
+          "ru": "Части тела по-английски 🙋\n• head — голова\n• eye — глаз 👁️ (eyes — глаза)\n• ear — ухо 👂\n• nose — нос 👃\n• mouth — рот 👄\n• hand — рука (кисть) ✋\n• leg — нога 🦵\nМножественное число: добавляем -s: hand → hands, eye → eyes.\nНо: foot (ступня) → feet 🦶."
+        }},
+        {"type": "example", "text": {
+          "tk": "Özüň barada aýt 🗣️\n«I have one nose» — Meniň bir burnum bar 👃.\n«I have two eyes» — Meniň iki gözüm bar 👀.\n«I have two hands» — Meniň iki elim bar 🙌.\nOýun: «Touch your nose!» — Burnuňa eliňi degir! «Touch your head!» — Kelläňe eliňi degir!",
+          "ru": "Расскажи о себе 🗣️\n«I have one nose» — У меня один нос 👃.\n«I have two eyes» — У меня два глаза 👀.\n«I have two hands» — У меня две руки 🙌.\nИгра: «Touch your nose!» — Дотронься до носа! «Touch your head!» — Дотронься до головы!"
+        }},
+        {"type": "choice",
+          "q": {"tk": "👂 iňlisçe nähili?", "ru": "Как по-английски 👂?"},
+          "options": ["ear", "eye", "nose"],
+          "answer": 0,
+          "hint": {"tk": "Onuň bilen eşidýäris.", "ru": "Им мы слышим."},
+          "explain": {"tk": "ear — gulak. eye — göz, nose — burun.", "ru": "ear — ухо. eye — глаз, nose — нос."}
+        },
+        {"type": "input",
+          "q": {"tk": "«Burun» iňlisçe nähili? 👃", "ru": "Как по-английски «нос»? 👃"},
+          "answer": "nose|Nose",
+          "hint": {"tk": "n _ s e", "ru": "n _ s e"},
+          "explain": {"tk": "nose — burun.", "ru": "nose — нос."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«I have two heads» — dogry sözlem 🙂.", "ru": "«I have two heads» — правильная фраза про человека 🙂."},
+          "answer": false,
+          "hint": {"tk": "Adamyň näçe kellesi bar?", "ru": "Сколько голов у человека?"},
+          "explain": {"tk": "Ýalňyş. Adamyň bir kellesi bar: «I have one head».", "ru": "Неверно. У человека одна голова: «I have one head»."}
+        },
+        {"type": "choice",
+          "q": {"tk": "«Touch your mouth!» diýseler, nirä eliňi degirýärsiň?", "ru": "Тебе говорят «Touch your mouth!». Куда ты дотронешься?"},
+          "options": [{"tk": "Gulagyňa 👂", "ru": "К уху 👂"}, {"tk": "Agzyňa 👄", "ru": "Ко рту 👄"}, {"tk": "Aýagyňa 🦵", "ru": "К ноге 🦵"}],
+          "answer": 1,
+          "hint": {"tk": "Onuň bilen iýýäris we gürleýäris.", "ru": "Им мы едим и говорим."},
+          "explain": {"tk": "mouth — agyz.", "ru": "mouth — рот."}
+        },
+        {"type": "world", "text": {
+          "tk": "«Head, Shoulders, Knees and Toes» — dünýäde çagalaryň iňlis dilini öwrenýän iň meşhur aýdymlarynyň biri. Onda kelle, egin, dyz we aýak barmaklaryna eliňi degirip, bedeniň böleklerini öwrenýärler 🎵.",
+          "ru": "«Head, Shoulders, Knees and Toes» — одна из самых известных песенок, по которым дети в мире учат английский. Под неё дотрагиваются до головы, плеч, коленей и пальцев ног и запоминают части тела 🎵."
+        }}
+      ]
+    },
+    {
+      "id": "english-2-food",
+      "grade": 2,
+      "topic": 2,
+      "title": {"tk": "Food — iýmit", "ru": "Food — еда"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Iýmit iňlisçe 🍽️\n• bread — çörek 🍞\n• milk — süýt 🥛\n• water — suw 💧\n• apple — alma 🍎\n• banana — banan 🍌\n• egg — ýumurtga 🥚\n• rice — tüwi 🍚\nHalaýanyňy aýtmak: «I like apples» — Men almany halaýaryn.\nHalamaýanyňy aýtmak: «I don't like milk» — Men süýdi halamaýaryn.",
+          "ru": "Еда по-английски 🍽️\n• bread — хлеб 🍞\n• milk — молоко 🥛\n• water — вода 💧\n• apple — яблоко 🍎\n• banana — банан 🍌\n• egg — яйцо 🥚\n• rice — рис 🍚\nСказать, что любишь: «I like apples» — Я люблю яблоки.\nСказать, что не любишь: «I don't like milk» — Я не люблю молоко."
+        }},
+        {"type": "example", "text": {
+          "tk": "Kafede gürrüňdeşlik ☕\n— What do you want? (Näme isleýärsiň?)\n— I want a banana and some milk, please. (Bir banan we biraz süýt, haýyş.)\n— Here you are! (Ine, al!)\n— Thank you! (Sag boluň!)\n«a banana» — bir banan. Sözüň öňünde «a» bir zady aňladýar. Çekimli harpdan öň bolsa «an» diýilýär: an apple, an egg.",
+          "ru": "Разговор в кафе ☕\n— What do you want? (Что ты хочешь?)\n— I want a banana and some milk, please. (Банан и немного молока, пожалуйста.)\n— Here you are! (Вот, держи!)\n— Thank you! (Спасибо!)\n«a banana» — один банан. Перед гласной говорят «an»: an apple, an egg."
+        }},
+        {"type": "choice",
+          "q": {"tk": "🍞 iňlisçe nähili?", "ru": "Как по-английски 🍞?"},
+          "options": ["rice", "bread", "egg"],
+          "answer": 1,
+          "hint": {"tk": "Ol «b» harpyndan başlanýar.", "ru": "Слово начинается на «b»."},
+          "explain": {"tk": "bread — çörek. rice — tüwi, egg — ýumurtga.", "ru": "bread — хлеб. rice — рис, egg — яйцо."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Dogry sözi saýla: «___ apple».", "ru": "Выбери правильно: «___ apple»."},
+          "options": ["an", "a", "the two"],
+          "answer": 0,
+          "hint": {"tk": "«apple» çekimli «a» harpyndan başlanýar.", "ru": "«apple» начинается с гласной «a»."},
+          "explain": {"tk": "Çekimliden öň «an»: an apple.", "ru": "Перед гласной — «an»: an apple."}
+        },
+        {"type": "input",
+          "q": {"tk": "«Suw» iňlisçe nähili? 💧", "ru": "Как по-английски «вода»? 💧"},
+          "answer": "water|Water",
+          "hint": {"tk": "w _ t e r", "ru": "w _ t e r"},
+          "explain": {"tk": "water — suw.", "ru": "water — вода."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«I don't like milk» — «Men süýdi halaýaryn» diýmekdir.", "ru": "«I don't like milk» значит «Я люблю молоко»."},
+          "answer": false,
+          "hint": {"tk": "«don't» — ýokluk sözi.", "ru": "«don't» — это отрицание."},
+          "explain": {"tk": "Ýalňyş. «I don't like milk» — Men süýdi halamaýaryn.", "ru": "Неверно. «I don't like milk» — Я не люблю молоко."}
+        },
+        {"type": "world", "text": {
+          "tk": "Banan aslynda agaç däl-de, ullakan ot ösümligi 🍌. Onuň «baldagy» ýapraklardan emele gelýär. Banan dünýäde iň köp iýilýän miweleriň biri.",
+          "ru": "Банан на самом деле растёт не на дереве, а на огромном травянистом растении 🍌. Его «ствол» образован из листьев. Банан — один из самых популярных фруктов в мире."
+        }}
+      ]
+    },
+    {
+      "id": "english-2-clothes",
+      "grade": 2,
+      "topic": 3,
+      "title": {"tk": "Clothes — eşikler", "ru": "Clothes — одежда"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Eşikler iňlisçe 👕\n• T-shirt — futbolka 👕\n• dress — köýnek (gyzlaryňky) 👗\n• trousers — balak 👖\n• jacket — kurtka 🧥\n• hat — şlýapa, telpek 👒\n• shoes — aýakgap 👟\n• socks — jorap 🧦\nÝatda sakla: «I'm wearing a hat» — Men şlýapa geýip durun.",
+          "ru": "Одежда по-английски 👕\n• T-shirt — футболка 👕\n• dress — платье 👗\n• trousers — брюки 👖\n• jacket — куртка 🧥\n• hat — шляпа, шапка 👒\n• shoes — обувь, туфли 👟\n• socks — носки 🧦\nЗапомни: «I'm wearing a hat» — На мне шляпа."
+        }},
+        {"type": "example", "text": {
+          "tk": "Reňkler bilen 🎨\n«a red T-shirt» — gyzyl futbolka 👕\n«blue trousers» — gök balak 👖\n«a yellow hat» — sary şlýapa 👒\nÜns ber: iňlis dilinde reňk zadyň öňünde durýar — edil türkmen dilindäki ýaly!\n«It's cold. Put on your jacket!» — Sowuk. Kurtkaňy geý!",
+          "ru": "С цветами 🎨\n«a red T-shirt» — красная футболка 👕\n«blue trousers» — синие брюки 👖\n«a yellow hat» — жёлтая шляпа 👒\nОбрати внимание: в английском цвет стоит перед предметом, как и в русском.\n«It's cold. Put on your jacket!» — Холодно. Надень куртку!"
+        }},
+        {"type": "choice",
+          "q": {"tk": "🧦 iňlisçe nähili?", "ru": "Как по-английски 🧦?"},
+          "options": ["shoes", "hats", "socks"],
+          "answer": 2,
+          "hint": {"tk": "Olary aýakgabyň içinden geýýäris.", "ru": "Их надевают под обувь."},
+          "explain": {"tk": "socks — jorap. shoes — aýakgap.", "ru": "socks — носки. shoes — обувь."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«trousers» — bu balak 👖.", "ru": "«trousers» — это брюки 👖."},
+          "answer": true,
+          "hint": {"tk": "Olar aýaga geýilýär we uzyn.", "ru": "Их носят на ногах, они длинные."},
+          "explain": {"tk": "Dogry. trousers — balak.", "ru": "Верно. trousers — брюки."}
+        },
+        {"type": "input",
+          "q": {"tk": "«Kurtka» iňlisçe nähili? 🧥", "ru": "Как по-английски «куртка»? 🧥"},
+          "answer": "jacket|Jacket|a jacket",
+          "hint": {"tk": "j _ c k e t", "ru": "j _ c k e t"},
+          "explain": {"tk": "jacket — kurtka.", "ru": "jacket — куртка."}
+        },
+        {"type": "choice",
+          "q": {"tk": "«a red dress» näme?", "ru": "Что такое «a red dress»?"},
+          "options": [{"tk": "Gyzyl köýnek 👗", "ru": "Красное платье 👗"}, {"tk": "Gök balak 👖", "ru": "Синие брюки 👖"}, {"tk": "Gyzyl şlýapa 👒", "ru": "Красная шляпа 👒"}],
+          "answer": 0,
+          "hint": {"tk": "red — gyzyl, dress — ...", "ru": "red — красный, dress — ..."},
+          "explain": {"tk": "red — gyzyl, dress — köýnek: gyzyl köýnek.", "ru": "red — красный, dress — платье: красное платье."}
+        },
+        {"type": "world", "text": {
+          "tk": "Futbolka iňlisçe «T-shirt» diýilýär, sebäbi ýazylyp goýlanda ol «T» harpyna meňzeýär 👕. Ilki ony XX asyryň başynda deňizçiler we işçiler içki eşik hökmünde geýipdirler.",
+          "ru": "Футболку по-английски называют «T-shirt», потому что в разложенном виде она похожа на букву «T» 👕. Сначала, в начале XX века, её носили моряки и рабочие как нижнюю рубашку."
+        }}
+      ]
+    },
+    {
+      "id": "english-2-days-of-week",
+      "grade": 2,
+      "topic": 4,
+      "title": {"tk": "Days of the week — hepdäniň günleri", "ru": "Days of the week — дни недели"},
+      "minutes": 7,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Hepdäniň günleri iňlisçe 📅\n• Monday — duşenbe\n• Tuesday — sişenbe\n• Wednesday — çarşenbe\n• Thursday — penşenbe\n• Friday — anna\n• Saturday — şenbe\n• Sunday — ýekşenbe\nIňlis dilinde günleriň atlary hemişe BAŞ harp bilen ýazylýar!\nHemmesi «-day» bilen gutarýar. «day» — gün.",
+          "ru": "Дни недели по-английски 📅\n• Monday — понедельник\n• Tuesday — вторник\n• Wednesday — среда\n• Thursday — четверг\n• Friday — пятница\n• Saturday — суббота\n• Sunday — воскресенье\nВ английском дни недели всегда пишутся с ЗАГЛАВНОЙ буквы!\nВсе они заканчиваются на «-day». «day» — день."
+        }},
+        {"type": "example", "text": {
+          "tk": "Soraýarys we jogap berýäris 🗓️\n— What day is it today? (Şu gün haýsy gün?)\n— It's Monday. (Duşenbe.)\nGün bilen «on» ulanylýar:\n«On Saturday I play football» — Şenbe güni men futbol oýnaýaryn ⚽.\nSaturday we Sunday — dynç günleri: «the weekend».",
+          "ru": "Спрашиваем и отвечаем 🗓️\n— What day is it today? (Какой сегодня день?)\n— It's Monday. (Понедельник.)\nС днями используем «on»:\n«On Saturday I play football» — В субботу я играю в футбол ⚽.\nSaturday и Sunday — выходные: «the weekend»."
+        }},
+        {"type": "choice",
+          "q": {"tk": "«Friday» haýsy gün?", "ru": "Что такое «Friday»?"},
+          "options": [{"tk": "Duşenbe", "ru": "Понедельник"}, {"tk": "Anna", "ru": "Пятница"}, {"tk": "Ýekşenbe", "ru": "Воскресенье"}],
+          "answer": 1,
+          "hint": {"tk": "Bu hepdäniň bäşinji güni.", "ru": "Это пятый день недели."},
+          "explain": {"tk": "Friday — anna, hepdäniň bäşinji güni.", "ru": "Friday — пятница, пятый день недели."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Iňlis dilinde «monday» kiçi harp bilen ýazylýar.", "ru": "В английском «monday» пишется с маленькой буквы."},
+          "answer": false,
+          "hint": {"tk": "Iňlis dilindäki aýratynlygy ýada sal.", "ru": "Вспомни особенность английского."},
+          "explain": {"tk": "Ýalňyş. Günleriň atlary hemişe baş harp bilen: Monday.", "ru": "Неверно. Дни недели всегда с заглавной: Monday."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Tuesday-den soň haýsy gün?", "ru": "Какой день после Tuesday?"},
+          "options": ["Thursday", "Monday", "Wednesday"],
+          "answer": 2,
+          "hint": {"tk": "Sişenbeden soň çarşenbe gelýär.", "ru": "После вторника идёт среда."},
+          "explain": {"tk": "Monday → Tuesday → Wednesday → Thursday.", "ru": "Monday → Tuesday → Wednesday → Thursday."}
+        },
+        {"type": "input",
+          "q": {"tk": "Iňlisçe günleriň hemmesi haýsy söz bilen gutarýar?", "ru": "Каким словом заканчиваются все дни недели по-английски?"},
+          "answer": "day|-day|Day",
+          "hint": {"tk": "Mon..., Sun... — «gün» sözi.", "ru": "Mon..., Sun... — слово «день»."},
+          "explain": {"tk": "Hemmesi «day» (gün) bilen gutarýar: Monday, Sunday.", "ru": "Все заканчиваются на «day» (день): Monday, Sunday."}
+        },
+        {"type": "world", "text": {
+          "tk": "Iňlis günleriniň atlarynyň käbiri asman jisimlerinden gelýär: Sunday — Günüň güni ☀️, Monday — Aýyň güni 🌙, Saturday — Saturn planetasynyň güni 🪐.",
+          "ru": "Некоторые английские названия дней пришли от небесных тел: Sunday — день Солнца ☀️, Monday — день Луны 🌙, Saturday — день планеты Сатурн 🪐."
+        }}
+      ]
+    },
+    {
+      "id": "english-2-i-can",
+      "grade": 2,
+      "topic": 5,
+      "title": {"tk": "I can… — men başarýaryn", "ru": "I can… — я умею"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "«can» — başarmak, bilmek 💪\n• I can run — Men ylgap bilýärin 🏃\n• I can swim — Men ýüzüp bilýärin 🏊\n• I can jump — Men böküp bilýärin 🤸\n• I can sing — Men aýdym aýdyp bilýärin 🎤\n• I can draw — Men surat çekip bilýärin 🎨\nBaşaranyňy däl: «I can't fly» — Men uçup bilemok ✈️.\n«can't» = «cannot».",
+          "ru": "«can» — уметь, мочь 💪\n• I can run — Я умею бегать 🏃\n• I can swim — Я умею плавать 🏊\n• I can jump — Я умею прыгать 🤸\n• I can sing — Я умею петь 🎤\n• I can draw — Я умею рисовать 🎨\nЧего не умеешь: «I can't fly» — Я не умею летать ✈️.\n«can't» = «cannot»."
+        }},
+        {"type": "example", "text": {
+          "tk": "Soraýarys 🙋\n— Can you swim? (Ýüzüp bilýärsiňmi?)\n— Yes, I can! (Hawa, bilýärin!) 🏊\n— Can a fish run? (Balyk ylgap bilýärmi?)\n— No, it can't. (Ýok, bilenok.) 🐟\nÝatda sakla: «can»-dan soň işlik üýtgemeýär: he can run, she can sing.",
+          "ru": "Спрашиваем 🙋\n— Can you swim? (Ты умеешь плавать?)\n— Yes, I can! (Да, умею!) 🏊\n— Can a fish run? (Рыба умеет бегать?)\n— No, it can't. (Нет, не умеет.) 🐟\nЗапомни: после «can» глагол не меняется: he can run, she can sing."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Guş näme başarýar? «A bird can ___» 🐦", "ru": "Что умеет птица? «A bird can ___» 🐦"},
+          "options": ["fly", "swim", "draw"],
+          "answer": 0,
+          "hint": {"tk": "Guşuň ganaty bar.", "ru": "У птицы есть крылья."},
+          "explain": {"tk": "fly — uçmak. A bird can fly.", "ru": "fly — летать. A bird can fly."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«A fish can swim» — dogry sözlem 🐟.", "ru": "«A fish can swim» — правильное утверждение 🐟."},
+          "answer": true,
+          "hint": {"tk": "Balyk suwda näme edýär?", "ru": "Что рыба делает в воде?"},
+          "explain": {"tk": "Dogry. Balyk ýüzüp bilýär.", "ru": "Верно. Рыба умеет плавать."}
+        },
+        {"type": "choice",
+          "q": {"tk": "«Can you jump?» soragyna dogry jogap haýsy?", "ru": "Как правильно ответить на «Can you jump?»?"},
+          "options": ["Yes, I am.", "No, I don't.", "Yes, I can."],
+          "answer": 2,
+          "hint": {"tk": "Sorag «can» bilen — jogap hem «can» bilen.", "ru": "Вопрос с «can» — ответ тоже с «can»."},
+          "explain": {"tk": "«Can you...?» — «Yes, I can» ýa-da «No, I can't».", "ru": "«Can you...?» — «Yes, I can» или «No, I can't»."}
+        },
+        {"type": "input",
+          "q": {"tk": "Boşlugy doldur: «I ___ sing» (men aýdym aýdyp bilýärin) 🎤", "ru": "Заполни пропуск: «I ___ sing» (я умею петь) 🎤"},
+          "answer": "can|Can",
+          "hint": {"tk": "Bu sapagyň esasy sözi.", "ru": "Главное слово этого урока."},
+          "explain": {"tk": "I can sing — Men aýdym aýdyp bilýärin.", "ru": "I can sing — Я умею петь."}
+        },
+        {"type": "world", "text": {
+          "tk": "Pingwin guş, ýöne uçup bilenok 🐧. Ýöne ol ajaýyp ýüzýär: onuň ganatlary suwda ýüzgüç ýaly işleýär. Iňlisçe aýtsak: «A penguin can't fly, but it can swim!»",
+          "ru": "Пингвин — птица, но летать не умеет 🐧. Зато он отлично плавает: крылья работают в воде как ласты. По-английски: «A penguin can't fly, but it can swim!»"
+        }}
+      ]
+    }
+  ]
+}

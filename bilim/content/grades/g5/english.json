@@ -1,0 +1,249 @@
+{
+  "grade": 5,
+  "subject": "english",
+  "lessons": [
+    {
+      "id": "english-5-present-simple-continuous",
+      "grade": 5,
+      "topic": 0,
+      "title": {"tk": "Present Simple we Present Continuous", "ru": "Present Simple и Present Continuous"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Iňlis dilinde häzirki zamanyň iki esasy görnüşi bar.\n\n• Present Simple — endikler, yzygiderli hereketler, hemişelik hakykatlar.\nI play football every Sunday. She lives in Ashgabat.\nHe/she/it bilen işlige -s goşulýar: he plays.\nAlamat sözler: always, usually, often, every day, never.\n\n• Present Continuous — şu wagt bolup duran hereket.\nam/is/are + işlik + -ing: I am reading now.\nAlamat sözler: now, at the moment, Look!, Listen!",
+          "ru": "В английском языке есть два основных настоящих времени.\n\n• Present Simple — привычки, регулярные действия, постоянные факты.\nI play football every Sunday. She lives in Ashgabat.\nС he/she/it к глаголу добавляется -s: he plays.\nСлова-маркеры: always, usually, often, every day, never.\n\n• Present Continuous — действие, которое происходит прямо сейчас.\nam/is/are + глагол + -ing: I am reading now.\nСлова-маркеры: now, at the moment, Look!, Listen!"}},
+        {"type": "example", "text": {
+          "tk": "Deňeşdirýäris:\n\n• Tom usually walks to school. (endik → Present Simple)\n• Today it is raining, so Tom is taking the bus. (şu gün, şu wagt → Present Continuous)\n\nSoraglar:\n• Do you like tea? — Yes, I do.\n• Are you watching TV? — No, I'm not.",
+          "ru": "Сравним:\n\n• Tom usually walks to school. (привычка → Present Simple)\n• Today it is raining, so Tom is taking the bus. (сегодня, сейчас → Present Continuous)\n\nВопросы:\n• Do you like tea? — Yes, I do.\n• Are you watching TV? — No, I'm not."}},
+        {"type": "choice",
+          "q": {"tk": "Boşlugy dolduryň: Look! The baby ___ .", "ru": "Заполните пропуск: Look! The baby ___ ."},
+          "options": ["sleeps", "is sleeping", "sleep"],
+          "answer": 1,
+          "hint": {"tk": "«Look!» — hereket şu wagt bolýar.", "ru": "«Look!» — действие происходит сейчас."},
+          "explain": {"tk": "Look! — şu wagtky hereketiň alamaty, şonuň üçin Present Continuous: is sleeping.", "ru": "Look! указывает на действие в момент речи, поэтому Present Continuous: is sleeping."}},
+        {"type": "choice",
+          "q": {"tk": "Boşlugy dolduryň: My father ___ coffee every morning.", "ru": "Заполните пропуск: My father ___ coffee every morning."},
+          "options": ["is drinking", "drink", "drinks"],
+          "answer": 2,
+          "hint": {"tk": "every morning — endik. Eýe he.", "ru": "every morning — привычка. Подлежащее — he."},
+          "explain": {"tk": "Endik → Present Simple, he bilen -s: drinks.", "ru": "Привычка → Present Simple, с he добавляем -s: drinks."}},
+        {"type": "input",
+          "q": {"tk": "Boşlugy dolduryň (am/is/are): They ___ playing chess now.", "ru": "Заполните пропуск (am/is/are): They ___ playing chess now."},
+          "answer": "are",
+          "hint": {"tk": "They — köplük san.", "ru": "They — множественное число."},
+          "explain": {"tk": "they bilen are ulanylýar: They are playing.", "ru": "С they используется are: They are playing."}},
+        {"type": "truefalse",
+          "q": {"tk": "«The sun rises in the east» sözlemi Present Simple-de dogry ýazylan.", "ru": "Предложение «The sun rises in the east» правильно стоит в Present Simple."},
+          "answer": true,
+          "hint": {"tk": "Bu hemişelik hakykatmy?", "ru": "Это постоянный факт?"},
+          "explain": {"tk": "Gün elmydama gündogardan dogýar — hemişelik hakykat, şonuň üçin Present Simple.", "ru": "Солнце всегда встаёт на востоке — это постоянный факт, поэтому Present Simple."}},
+        {"type": "world", "text": {
+          "tk": "Iňlis dili dünýäde iň köp öwrenilýän daşary ýurt dilidir. Ony ikinji dil hökmünde bilýänleriň sany, ony ene dili hökmünde bilýänlerden has köp. Iňlis dili halkara awiasiýanyň resmi dili: uçarmanlar we dispetçerler ony ulanýarlar.",
+          "ru": "Английский — самый изучаемый иностранный язык в мире. Людей, знающих его как второй язык, больше, чем носителей. Английский — язык международной авиации: пилоты и диспетчеры по всему миру общаются на нём."}}
+      ]
+    },
+    {
+      "id": "english-5-past-simple-irregular",
+      "grade": 5,
+      "topic": 1,
+      "title": {"tk": "Past Simple: düzgünsiz işlikler", "ru": "Past Simple: неправильные глаголы"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Past Simple — geçmişde tamamlanan hereket: yesterday, last week, in 2020, ago.\n\n• Düzgünli işlikler -ed alýar: play → played, watch → watched.\n• Düzgünsiz işlikleriň öz formasy bar, olary ýatda saklamaly:\ngo → went, see → saw, eat → ate, have → had, make → made, buy → bought, write → wrote, come → came.\n\n• Inkär we sorag did bilen, işlik esasy formada:\nI didn't go. Did you see it?",
+          "ru": "Past Simple — действие, завершённое в прошлом: yesterday, last week, in 2020, ago.\n\n• Правильные глаголы получают -ed: play → played, watch → watched.\n• У неправильных глаголов своя форма, их нужно запомнить:\ngo → went, see → saw, eat → ate, have → had, make → made, buy → bought, write → wrote, come → came.\n\n• Отрицание и вопрос — с did, глагол в начальной форме:\nI didn't go. Did you see it?"}},
+        {"type": "example", "text": {
+          "tk": "Düýnki gün hakda gürrüň:\n\nYesterday I went to the park. I saw my friend Aman. We ate ice cream and had a lot of fun.\n\n• went (go), saw (see), ate (eat), had (have).\n\nSorag: Did you go to the park? — Yes, I did.\nÜns beriň: Did you went? — ýalňyş! Did-den soň: go.",
+          "ru": "Рассказ о вчерашнем дне:\n\nYesterday I went to the park. I saw my friend Aman. We ate ice cream and had a lot of fun.\n\n• went (go), saw (see), ate (eat), had (have).\n\nВопрос: Did you go to the park? — Yes, I did.\nВнимание: Did you went? — ошибка! После did — go."}},
+        {"type": "input",
+          "q": {"tk": "«go» işliginiň Past Simple formasyny ýazyň.", "ru": "Напишите форму Past Simple глагола «go»."},
+          "answer": "went",
+          "hint": {"tk": "Bu söz go-a asla meňzemeýär, w harpy bilen başlanýar.", "ru": "Совсем не похоже на go, начинается на w."},
+          "explain": {"tk": "go — düzgünsiz işlik: go → went → gone.", "ru": "go — неправильный глагол: go → went → gone."}},
+        {"type": "choice",
+          "q": {"tk": "Boşlugy dolduryň: Last week she ___ a new bike.", "ru": "Заполните пропуск: Last week she ___ a new bike."},
+          "options": ["buyed", "buys", "bought"],
+          "answer": 2,
+          "hint": {"tk": "buy — düzgünsiz işlik.", "ru": "buy — неправильный глагол."},
+          "explain": {"tk": "buy → bought. «buyed» formasy ýok.", "ru": "buy → bought. Формы «buyed» не существует."}},
+        {"type": "truefalse",
+          "q": {"tk": "«Did you saw the film?» sözlemi dogry.", "ru": "Предложение «Did you saw the film?» правильное."},
+          "answer": false,
+          "hint": {"tk": "did-den soň işlik haýsy formada bolýar?", "ru": "В какой форме глагол после did?"},
+          "explain": {"tk": "did-den soň esasy forma: Did you see the film?", "ru": "После did — начальная форма: Did you see the film?"}},
+        {"type": "input",
+          "q": {"tk": "«write» işliginiň Past Simple formasyny ýazyň.", "ru": "Напишите форму Past Simple глагола «write»."},
+          "answer": "wrote",
+          "hint": {"tk": "i harpy o bolýar.", "ru": "Буква i меняется на o."},
+          "explain": {"tk": "write → wrote → written.", "ru": "write → wrote → written."}},
+        {"type": "world", "text": {
+          "tk": "Iňlis dilinde düzgünsiz işlikleriň köpüsi iň köp ulanylýan sözler: be, have, go, say, get, make. Dilçiler käbir düzgünsiz işlikleriň asyrlaryň dowamynda düzgünli bolandygyny bellediler: mysal üçin, help işliginiň gadymy geçmiş formasy holp bolupdyr, häzir bolsa helped.",
+          "ru": "Многие самые частые английские глаголы — неправильные: be, have, go, say, get, make. Лингвисты заметили, что редкие неправильные глаголы со временем становятся правильными: например, у глагола help в древнеанглийском прошедшая форма была holp, а теперь — helped."}}
+      ]
+    },
+    {
+      "id": "english-5-countable-uncountable",
+      "grade": 5,
+      "topic": 2,
+      "title": {"tk": "Sanalýan we sanalmaýan atlar", "ru": "Исчисляемые и неисчисляемые существительные"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "• Sanalýan atlar (countable) — sanap bolýan zatlar: an apple, two apples, a book, three books. Olaryň köplük sany bar.\n• Sanalmaýan atlar (uncountable) — sanap bolmaýan zatlar: water, milk, sugar, bread, money, information, advice. Olarda a/an we köplük -s ýok.\n\nUlanylyşy:\n• many — sanalýanlar bilen: many books.\n• much — sanalmaýanlar bilen: much water.\n• a lot of — ikisi bilen hem.\n• some — tassyklaýan sözlemde, any — sorag we inkär sözlemde.",
+          "ru": "• Исчисляемые (countable) — то, что можно посчитать: an apple, two apples, a book, three books. У них есть множественное число.\n• Неисчисляемые (uncountable) — то, что нельзя посчитать поштучно: water, milk, sugar, bread, money, information, advice. С ними не используют a/an и окончание -s.\n\nУпотребление:\n• many — с исчисляемыми: many books.\n• much — с неисчисляемыми: much water.\n• a lot of — с обоими.\n• some — в утвердительных, any — в вопросах и отрицаниях."}},
+        {"type": "example", "text": {
+          "tk": "Dükanda:\n\n• How many eggs do you need? — Six eggs, please.\n• How much milk do you need? — One litre (a bottle of milk).\n\nSanalmaýany sanamak üçin gap ulanylýar: a glass of water, a loaf of bread, a piece of advice.",
+          "ru": "В магазине:\n\n• How many eggs do you need? — Six eggs, please.\n• How much milk do you need? — One litre (a bottle of milk).\n\nЧтобы «посчитать» неисчисляемое, используют меру: a glass of water, a loaf of bread, a piece of advice."}},
+        {"type": "choice",
+          "q": {"tk": "Haýsy at sanalmaýan?", "ru": "Какое существительное неисчисляемое?"},
+          "options": ["chair", "rice", "banana"],
+          "answer": 1,
+          "hint": {"tk": "Haýsysyny «bir, iki, üç» diýip sanamaýarys?", "ru": "Что мы не считаем «один, два, три»?"},
+          "explain": {"tk": "rice (tüwi) sanalmaýar: «two rices» diýilmeýär. chair we banana sanalýar.", "ru": "rice (рис) неисчисляемое: «two rices» не говорят. chair и banana — исчисляемые."}},
+        {"type": "choice",
+          "q": {"tk": "Boşlugy dolduryň: How ___ water do you drink every day?", "ru": "Заполните пропуск: How ___ water do you drink every day?"},
+          "options": ["much", "many", "a"],
+          "answer": 0,
+          "hint": {"tk": "water — sanalýarmy?", "ru": "water — исчисляемое?"},
+          "explain": {"tk": "water sanalmaýar, şonuň üçin much: How much water…?", "ru": "water неисчисляемое, поэтому much: How much water…?"}},
+        {"type": "truefalse",
+          "q": {"tk": "«I need some informations» sözlemi dogry.", "ru": "Предложение «I need some informations» правильное."},
+          "answer": false,
+          "hint": {"tk": "information sanalýarmy?", "ru": "information исчисляемое?"},
+          "explain": {"tk": "information iňlis dilinde sanalmaýar, -s almaýar: I need some information.", "ru": "В английском information неисчисляемое, без -s: I need some information."}},
+        {"type": "input",
+          "q": {"tk": "Boşlugy dolduryň (many/much): There are ___ students in the class.", "ru": "Заполните пропуск (many/much): There are ___ students in the class."},
+          "answer": "many",
+          "hint": {"tk": "students — köplük, sanalýar.", "ru": "students — множественное число, исчисляемое."},
+          "explain": {"tk": "Sanalýan atlar bilen many: many students.", "ru": "С исчисляемыми — many: many students."}},
+        {"type": "world", "text": {
+          "tk": "Rus dilinde «деньги» köplük sanda, iňlis dilinde bolsa money sanalmaýan at. Şonuň üçin «The money is on the table» diýilýär. Diller dünýäni dürli görnüşde «sanaýar» — bir dilde sanalýan zat, başga dilde sanalmaýan bolup biler.",
+          "ru": "В русском «деньги» — во множественном числе, а в английском money — неисчисляемое: говорят «The money is on the table». Языки по-разному «считают» мир: то, что в одном языке исчисляемо, в другом может быть неисчисляемым."}}
+      ]
+    },
+    {
+      "id": "english-5-going-to",
+      "grade": 5,
+      "topic": 3,
+      "title": {"tk": "Going to: meýilnamalar we çaklamalar", "ru": "Going to: планы и предсказания"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "be going to + işlik — geljekdäki meýilnamalary we niýetleri aňladýar.\n\n• I am going to visit my grandma on Saturday.\n• She is going to learn French.\n• They are going to play football.\n\nŞeýle hem, häzirki alamatlara görä çaklama: Look at the clouds! It's going to rain.\n\nInkär: I'm not going to watch TV.\nSorag: Are you going to travel?",
+          "ru": "be going to + глагол — выражает планы и намерения на будущее.\n\n• I am going to visit my grandma on Saturday.\n• She is going to learn French.\n• They are going to play football.\n\nТакже — предсказание по тому, что видно сейчас: Look at the clouds! It's going to rain.\n\nОтрицание: I'm not going to watch TV.\nВопрос: Are you going to travel?"}},
+        {"type": "example", "text": {
+          "tk": "Tomus meýilnamalary:\n\n1. Kim? → We\n2. be formasy → are\n3. + going to + işlik → are going to swim\n\nWe are going to swim in the Caspian Sea this summer.\n\nSorag: Are you going to swim? — Yes, we are.",
+          "ru": "Планы на лето:\n\n1. Кто? → We\n2. Форма be → are\n3. + going to + глагол → are going to swim\n\nWe are going to swim in the Caspian Sea this summer.\n\nВопрос: Are you going to swim? — Yes, we are."}},
+        {"type": "choice",
+          "q": {"tk": "Boşlugy dolduryň: He ___ going to buy a new phone.", "ru": "Заполните пропуск: He ___ going to buy a new phone."},
+          "options": ["am", "are", "is"],
+          "answer": 2,
+          "hint": {"tk": "he bilen be-niň haýsy formasy?", "ru": "Какая форма be с he?"},
+          "explain": {"tk": "he/she/it bilen is: He is going to buy…", "ru": "С he/she/it — is: He is going to buy…"}},
+        {"type": "truefalse",
+          "q": {"tk": "«Look at the sky! It's going to rain.» — bu häzirki alamata görä çaklama.", "ru": "«Look at the sky! It's going to rain.» — это предсказание по тому, что видно сейчас."},
+          "answer": true,
+          "hint": {"tk": "Gürleýji näme görýär?", "ru": "Что видит говорящий?"},
+          "explain": {"tk": "Gürleýji asmany (bulutlary) görýär we şoňa görä çaklaýar — going to dogry.", "ru": "Говорящий видит небо (тучи) и делает вывод — going to уместно."}},
+        {"type": "input",
+          "q": {"tk": "Boşlugy dolduryň: I am going ___ read this book.", "ru": "Заполните пропуск: I am going ___ read this book."},
+          "answer": "to",
+          "hint": {"tk": "Gurluş: be going ___ + işlik.", "ru": "Конструкция: be going ___ + глагол."},
+          "explain": {"tk": "Doly gurluş: be going to + işlik: I am going to read.", "ru": "Полная конструкция: be going to + глагол: I am going to read."}},
+        {"type": "choice",
+          "q": {"tk": "Haýsy sözlem dogry?", "ru": "Какое предложение правильное?"},
+          "options": ["They going to dance.", "They are going to dance.", "They are going to dancing."],
+          "answer": 1,
+          "hint": {"tk": "be gerek, işlik bolsa esasy formada.", "ru": "Нужен be, а глагол — в начальной форме."},
+          "explain": {"tk": "They + are + going to + dance (esasy forma).", "ru": "They + are + going to + dance (начальная форма)."}},
+        {"type": "world", "text": {
+          "tk": "Gündelik gürrüňde amerikalylar köplenç «going to» ýerine «gonna» diýýärler: «I'm gonna call you». Bu diňe gepleşik dili, resmi ýazuwda «going to» ýazylýar.",
+          "ru": "В разговорной речи американцы часто произносят «going to» как «gonna»: «I'm gonna call you». Это только разговорная форма — в официальном письме пишут «going to»."}}
+      ]
+    },
+    {
+      "id": "english-5-hobbies",
+      "grade": 5,
+      "topic": 4,
+      "title": {"tk": "Hobbies — gyzyklanmalar", "ru": "Hobbies — увлечения"},
+      "minutes": 7,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Gyzyklanmalar hakda gürrüň etmek üçin sözler we gurluşlar:\n\n• reading, drawing, painting, dancing, swimming, cycling, cooking, collecting stamps, playing chess, playing the piano.\n\nGurluşlar:\n• like / love / enjoy / hate + işlik-ing: I love drawing. She enjoys swimming.\n• be good at + -ing: He is good at playing chess.\n• be interested in: I'm interested in music.\n\nÜns beriň: play + sport (play football), play the + saz guraly (play the guitar).",
+          "ru": "Слова и конструкции, чтобы говорить об увлечениях:\n\n• reading, drawing, painting, dancing, swimming, cycling, cooking, collecting stamps, playing chess, playing the piano.\n\nКонструкции:\n• like / love / enjoy / hate + глагол-ing: I love drawing. She enjoys swimming.\n• be good at + -ing: He is good at playing chess.\n• be interested in: I'm interested in music.\n\nВнимание: play + спорт (play football), play the + инструмент (play the guitar)."}},
+        {"type": "example", "text": {
+          "tk": "Gysga dialog:\n\n— What do you do in your free time?\n— I enjoy playing the dutar. I'm also good at drawing.\n— Do you like sports?\n— Yes, I love swimming, but I don't like running.",
+          "ru": "Короткий диалог:\n\n— What do you do in your free time?\n— I enjoy playing the dutar. I'm also good at drawing.\n— Do you like sports?\n— Yes, I love swimming, but I don't like running."}},
+        {"type": "choice",
+          "q": {"tk": "Boşlugy dolduryň: She enjoys ___ .", "ru": "Заполните пропуск: She enjoys ___ ."},
+          "options": ["dancing", "dance", "to dances"],
+          "answer": 0,
+          "hint": {"tk": "enjoy-dan soň -ing formasy.", "ru": "После enjoy — форма на -ing."},
+          "explain": {"tk": "enjoy + -ing: She enjoys dancing.", "ru": "enjoy + -ing: She enjoys dancing."}},
+        {"type": "input",
+          "q": {"tk": "Boşlugy dolduryň: I play ___ piano every day.", "ru": "Заполните пропуск: I play ___ piano every day."},
+          "answer": "the",
+          "hint": {"tk": "Saz gurallarynyň öňünde artikl gerek.", "ru": "Перед музыкальными инструментами нужен артикль."},
+          "explain": {"tk": "play the + saz guraly: play the piano.", "ru": "play the + инструмент: play the piano."}},
+        {"type": "truefalse",
+          "q": {"tk": "«He is good at swimming» sözlemi dogry.", "ru": "Предложение «He is good at swimming» правильное."},
+          "answer": true,
+          "hint": {"tk": "be good at + -ing gurluşyny ýatlaň.", "ru": "Вспомните конструкцию be good at + -ing."},
+          "explain": {"tk": "be good at + -ing — dogry: He is good at swimming.", "ru": "be good at + -ing — верно: He is good at swimming."}},
+        {"type": "choice",
+          "q": {"tk": "«collecting stamps» näme diýmek?", "ru": "Что значит «collecting stamps»?"},
+          "options": [
+            {"tk": "surat çekmek", "ru": "рисовать"},
+            {"tk": "tikin tikmek", "ru": "шить"},
+            {"tk": "marka ýygnamak", "ru": "собирать марки"}
+          ],
+          "answer": 2,
+          "hint": {"tk": "stamp — hatlara ýelmenýän zat.", "ru": "stamp — то, что клеят на письма."},
+          "explain": {"tk": "collect — ýygnamak, stamps — markalar.", "ru": "collect — собирать, stamps — марки."}},
+        {"type": "world", "text": {
+          "tk": "Dünýäde ilkinji ýelmeşýän poçta markasy — «Penny Black» — 1840-njy ýylda Beýik Britaniýada çykaryldy. Şondan bäri marka ýygnamak (filateliýa) dünýäde iň meşhur hobbileriň biri boldy.",
+          "ru": "Первая в мире клеящаяся почтовая марка — «Penny Black» — вышла в Великобритании в 1840 году. С тех пор коллекционирование марок (филателия) стало одним из самых популярных хобби в мире."}}
+      ]
+    },
+    {
+      "id": "english-5-writing-email",
+      "grade": 5,
+      "topic": 5,
+      "title": {"tk": "Email ýazýarys", "ru": "Пишем email"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Dosta resmi däl email şeýle gurluşda ýazylýar:\n\n• Subject — temasy: Weekend plans\n• Salamlaşmak: Hi Sam, / Dear Sam,\n• Başlangyç: How are you? Thanks for your email.\n• Esasy bölüm: täzelikler, soraglar, meýilnamalar.\n• Gutarnyk: Write back soon! / See you soon!\n• Hoşlaşmak: Best wishes, / Love, + adyňyz.\n\nResmi emailda: Dear Mr Smith, … Yours sincerely, (adyny bilýän bolsaňyz).",
+          "ru": "Неофициальное письмо другу строится так:\n\n• Subject — тема: Weekend plans\n• Приветствие: Hi Sam, / Dear Sam,\n• Начало: How are you? Thanks for your email.\n• Основная часть: новости, вопросы, планы.\n• Завершение: Write back soon! / See you soon!\n• Прощание: Best wishes, / Love, + ваше имя.\n\nВ официальном письме: Dear Mr Smith, … Yours sincerely, (если знаете имя адресата)."}},
+        {"type": "example", "text": {
+          "tk": "Subject: My new school\n\nHi Anna,\nHow are you? Thanks for your last email.\nI started a new school last week. My teachers are very kind and I have a new friend, Leyla. We are going to join the chess club.\nWhat about you? Do you like your school?\nWrite back soon!\nBest wishes,\nMerdan",
+          "ru": "Subject: My new school\n\nHi Anna,\nHow are you? Thanks for your last email.\nI started a new school last week. My teachers are very kind and I have a new friend, Leyla. We are going to join the chess club.\nWhat about you? Do you like your school?\nWrite back soon!\nBest wishes,\nMerdan"}},
+        {"type": "choice",
+          "q": {"tk": "Dosta emaily nähili başlamaly?", "ru": "Как начать email другу?"},
+          "options": ["Yours sincerely,", "Hi Tom,", "Best wishes,"],
+          "answer": 1,
+          "hint": {"tk": "Beýlekiler emailyň ahyrynda ulanylýar.", "ru": "Остальные используют в конце письма."},
+          "explain": {"tk": "Hi Tom, — salamlaşma. Yours sincerely we Best wishes — hoşlaşma.", "ru": "Hi Tom, — приветствие. Yours sincerely и Best wishes — прощание."}},
+        {"type": "truefalse",
+          "q": {"tk": "«Subject» setirinde emailyň temasy gysgaça ýazylýar.", "ru": "В строке «Subject» кратко пишут тему письма."},
+          "answer": true,
+          "hint": {"tk": "subject — «tema» diýmek.", "ru": "subject — значит «тема»."},
+          "explain": {"tk": "Subject — temasy, alyjy emaily açmazdan öň näme hakdadygyny görýär.", "ru": "Subject — тема: получатель видит, о чём письмо, ещё до открытия."}},
+        {"type": "choice",
+          "q": {"tk": "Emailyň ahyrynda haýsy aňlatma laýyk?", "ru": "Какая фраза подходит для конца письма?"},
+          "options": ["Write back soon!", "How are you?", "Dear Anna,"],
+          "answer": 0,
+          "hint": {"tk": "Jogap ýazmagy haýyş edýän aňlatma.", "ru": "Фраза, которая просит ответить."},
+          "explain": {"tk": "Write back soon! — «Tiz jogap ýaz!» — ahyrda ulanylýar.", "ru": "Write back soon! — «Ответь поскорее!» — используется в конце."}},
+        {"type": "input",
+          "q": {"tk": "Emaildaky salgyda haýsy nyşan bolýar: anna___mail.com?", "ru": "Какой символ есть в адресе почты: anna___mail.com?"},
+          "answer": "@|at",
+          "hint": {"tk": "Iňlisçe «at» diýlip okalýar.", "ru": "По-английски читается «at»."},
+          "explain": {"tk": "@ nyşany ulanyjynyň adyny we serweri bölýär: anna@mail.com.", "ru": "Символ @ разделяет имя пользователя и сервер: anna@mail.com."}},
+        {"type": "world", "text": {
+          "tk": "1971-nji ýylda amerikan inženeri Reý Tomlinson ARPANET toruny ulanyp, kompýuterleriň arasynda ilkinji email iberdi. Ol ulanyjy adyny kompýuteriň adyndan bölmek üçin @ nyşanyny saýlady.",
+          "ru": "В 1971 году американский инженер Рэй Томлинсон отправил первое электронное письмо между компьютерами по сети ARPANET. Он выбрал символ @, чтобы отделить имя пользователя от имени компьютера."}}
+      ]
+    }
+  ]
+}

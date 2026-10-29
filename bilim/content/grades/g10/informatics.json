@@ -1,0 +1,242 @@
+{
+  "grade": 10,
+  "subject": "informatics",
+  "lessons": [
+    {
+      "id": "informatics-10-computer-graphics",
+      "grade": 10,
+      "topic": 0,
+      "title": {"tk": "Kompýuter grafikasy: rastr we wektor", "ru": "Компьютерная графика: растр и вектор"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Kompýuterde şekiller iki esasy usulda saklanýar.\n• Rastr grafikasy — şekil pikselleriň (nokatlaryň) setkasy. Her pikseliň öz reňki bar. Formatlar: PNG, JPEG, BMP. Ulaldylanda hili peselýär («basgançaklar» görünýär).\n• Wektor grafikasy — şekil geometrik obýektleriň (çyzyklar, egrilikler, töwerekler) formulalary bilen beýan edilýär. Formatlar: SVG, PDF, AI. Hilini ýitirmän islendik ölçege ulaldyp bolýar.\nReňk modeli RGB: her reňk Gyzyl, Ýaşyl, Gök düzüjilerden ybarat, her biri 0–255 (8 bit). Bir piksel = 24 bit = 3 baýt, bu 2²⁴ ≈ 16,7 million reňk berýär.\nŞekiliň göwrümi (gysylmadyk): I = giňlik × beýiklik × reňk çuňlugy (bit).",
+          "ru": "Изображения в компьютере хранятся двумя основными способами.\n• Растровая графика — изображение как сетка пикселей (точек). У каждого пикселя свой цвет. Форматы: PNG, JPEG, BMP. При увеличении качество падает (появляются «ступеньки»).\n• Векторная графика — изображение описывается формулами геометрических объектов (линии, кривые, окружности). Форматы: SVG, PDF, AI. Можно масштабировать без потери качества.\nЦветовая модель RGB: каждый цвет — из Красной, Зелёной и Синей составляющих, каждая 0–255 (8 бит). Один пиксель = 24 бита = 3 байта, это 2²⁴ ≈ 16,7 млн цветов.\nОбъём изображения (без сжатия): I = ширина × высота × глубина цвета (бит)."}},
+        {"type": "example", "text": {
+          "tk": "Mysal: 1024 × 768 pikselli, 24 bitli reňkli suratyň gysylmadyk göwrümini tapalyň.\n1. Pikselleriň sany: 1024 × 768 = 786 432.\n2. Bitler: 786 432 × 24 = 18 874 368 bit.\n3. Baýtlar: 18 874 368 ÷ 8 = 2 359 296 baýt.\n4. Kilobaýt: 2 359 296 ÷ 1024 = 2304 KB.\n5. Megabaýt: 2304 ÷ 1024 = 2,25 MB.",
+          "ru": "Пример: найдём объём несжатого изображения 1024 × 768 пикселей с глубиной цвета 24 бита.\n1. Число пикселей: 1024 × 768 = 786 432.\n2. Биты: 786 432 × 24 = 18 874 368 бит.\n3. Байты: 18 874 368 ÷ 8 = 2 359 296 байт.\n4. Килобайты: 2 359 296 ÷ 1024 = 2304 КБ.\n5. Мегабайты: 2304 ÷ 1024 = 2,25 МБ."}},
+        {"type": "choice",
+          "q": {"tk": "Logotipi uly mahabat şiti üçin hem, wizit kartoçkasy üçin hem hilini ýitirmän ulanmaly. Haýsy format iň gowy?", "ru": "Логотип нужно использовать и на рекламном щите, и на визитке без потери качества. Какой формат лучше?"},
+          "options": ["JPEG", "SVG", "BMP"],
+          "answer": 1,
+          "hint": {"tk": "Haýsy format wektor?", "ru": "Какой формат векторный?"},
+          "explain": {"tk": "SVG — wektor formaty, ony islendik ölçege hilini ýitirmän ulaldyp bolýar. JPEG we BMP — rastr.", "ru": "SVG — векторный формат, масштабируется без потери качества. JPEG и BMP — растровые."}},
+        {"type": "input",
+          "q": {"tk": "Reňk çuňlugy 8 bit bolsa, palitrada näçe reňk bolup biler?", "ru": "Сколько цветов может быть в палитре при глубине цвета 8 бит?"},
+          "answer": "256",
+          "hint": {"tk": "N = 2^i formulasy.", "ru": "Формула N = 2^i."},
+          "explain": {"tk": "N = 2⁸ = 256 reňk.", "ru": "N = 2⁸ = 256 цветов."}},
+        {"type": "input",
+          "q": {"tk": "100 × 100 pikselli, 24 bitli şekiliň göwrümi näçe baýt?", "ru": "Каков объём изображения 100 × 100 пикселей при 24 битах на пиксель (в байтах)?"},
+          "answer": "30000",
+          "hint": {"tk": "24 bit = 3 baýt. Pikselleriň sanyny 3-e köpeldiň.", "ru": "24 бита = 3 байта. Умножьте число пикселей на 3."},
+          "explain": {"tk": "100 × 100 = 10 000 piksel; 10 000 × 3 baýt = 30 000 baýt.", "ru": "100 × 100 = 10 000 пикселей; 10 000 × 3 байта = 30 000 байт."}},
+        {"type": "truefalse",
+          "q": {"tk": "RGB modelinde (255, 255, 255) ak reňk berýär.", "ru": "В модели RGB значение (255, 255, 255) даёт белый цвет."},
+          "answer": true,
+          "hint": {"tk": "RGB — ýagtylyk reňkleriniň goşulmasy. Ähli düzüjiler iň ýokary bolsa näme bolýar?", "ru": "RGB — сложение световых цветов. Что будет, если все составляющие максимальны?"},
+          "explain": {"tk": "Dogry: ähli ýagtylyk iň güýçli → ak; (0, 0, 0) — gara.", "ru": "Верно: все составляющие на максимуме → белый; (0, 0, 0) — чёрный."}},
+        {"type": "world", "text": {
+          "tk": "1963-nji ýylda Iwan Sazerlend (Ivan Sutherland) MIT-de «Sketchpad» programmasyny döretdi. Onda ýagtylyk galamy bilen ekranda göni çyzgy çyzyp bolýardy. Bu programma kompýuter grafikasynyň we grafiki interfeýsleriň ilkinji nusgalarynyň biri hasaplanýar; Sazerlend soňra Týuring baýragyny aldy.",
+          "ru": "В 1963 году Айвен Сазерленд (Ivan Sutherland) создал в MIT программу «Sketchpad», в которой можно было рисовать световым пером прямо на экране. Она считается одним из первых образцов компьютерной графики и графического интерфейса; позже Сазерленд получил премию Тьюринга."}}
+      ]
+    },
+    {
+      "id": "informatics-10-recursion",
+      "grade": 10,
+      "topic": 1,
+      "title": {"tk": "Rekursiýa", "ru": "Рекурсия"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Rekursiýa — funksiýanyň özüni-özi çagyrmagy.\nHer rekursiw funksiýada iki bölek bolmaly:\n• Esasy ýagdaý (base case) — rekursiýany duruzýan şert.\n• Rekursiw ädim — meseläni has kiçi şol bir meselä getirmek.\nMysal (Python):\ndef fact(n):\n    if n == 0: return 1        # esasy ýagdaý\n    return n * fact(n - 1)     # rekursiw ädim\nHer çagyryş çagyryş stegine (call stack) goşulýar. Esasy ýagdaý ýok bolsa, steg dolýar we programma ýalňyşlyk berýär (stack overflow).",
+          "ru": "Рекурсия — вызов функцией самой себя.\nВ каждой рекурсивной функции должны быть две части:\n• Базовый случай (base case) — условие остановки.\n• Рекурсивный шаг — сведение задачи к такой же, но меньшей.\nПример (Python):\ndef fact(n):\n    if n == 0: return 1        # базовый случай\n    return n * fact(n - 1)     # рекурсивный шаг\nКаждый вызов помещается в стек вызовов (call stack). Без базового случая стек переполняется и программа завершается с ошибкой (stack overflow)."}},
+        {"type": "example", "text": {
+          "tk": "Mysal: fact(4) nähili hasaplanýar?\nfact(4) = 4 × fact(3)\nfact(3) = 3 × fact(2)\nfact(2) = 2 × fact(1)\nfact(1) = 1 × fact(0)\nfact(0) = 1 ← esasy ýagdaý\nIndi yzyna gaýdýarys: fact(1) = 1, fact(2) = 2, fact(3) = 6, fact(4) = 24.\nJemi 5 çagyryş boldy.",
+          "ru": "Пример: как вычисляется fact(4)?\nfact(4) = 4 × fact(3)\nfact(3) = 3 × fact(2)\nfact(2) = 2 × fact(1)\nfact(1) = 1 × fact(0)\nfact(0) = 1 ← базовый случай\nТеперь возвращаемся: fact(1) = 1, fact(2) = 2, fact(3) = 6, fact(4) = 24.\nВсего было 5 вызовов."}},
+        {"type": "input",
+          "q": {"tk": "def f(n):\n    if n <= 1: return n\n    return f(n-1) + f(n-2)\nf(6) näçe?", "ru": "def f(n):\n    if n <= 1: return n\n    return f(n-1) + f(n-2)\nЧему равно f(6)?"},
+          "answer": "8",
+          "hint": {"tk": "Bu Fibonaççi sanlary: 0, 1, 1, 2, 3, 5, …", "ru": "Это числа Фибоначчи: 0, 1, 1, 2, 3, 5, …"},
+          "explain": {"tk": "f(0)=0, f(1)=1, f(2)=1, f(3)=2, f(4)=3, f(5)=5, f(6)=8.", "ru": "f(0)=0, f(1)=1, f(2)=1, f(3)=2, f(4)=3, f(5)=5, f(6)=8."}},
+        {"type": "choice",
+          "q": {"tk": "Rekursiw funksiýada esasy ýagdaý ýok bolsa näme bolar?", "ru": "Что произойдёт, если в рекурсивной функции нет базового случая?"},
+          "options": [{"tk": "Funksiýa 0 gaýtarar", "ru": "Функция вернёт 0"}, {"tk": "Funksiýa bir gezek işlär", "ru": "Функция выполнится один раз"}, {"tk": "Çagyryş stegi dolar (stack overflow)", "ru": "Произойдёт переполнение стека (stack overflow)"}],
+          "answer": 2,
+          "hint": {"tk": "Funksiýa özüni näçe gezek çagyrar?", "ru": "Сколько раз функция будет вызывать себя?"},
+          "explain": {"tk": "Duruzýan şert ýok — çagyryşlar tükeniksiz dowam edýär, steg dolýar we programma ýalňyşlyk bilen durýar.", "ru": "Нет условия остановки — вызовы бесконечны, стек переполняется и программа падает с ошибкой."}},
+        {"type": "input",
+          "q": {"tk": "def s(n):\n    if n == 0: return 0\n    return n % 10 + s(n // 10)\ns(2026) näçe?", "ru": "def s(n):\n    if n == 0: return 0\n    return n % 10 + s(n // 10)\nЧему равно s(2026)?"},
+          "answer": "10",
+          "hint": {"tk": "n % 10 — soňky san, n // 10 — soňky sansyz san.", "ru": "n % 10 — последняя цифра, n // 10 — число без последней цифры."},
+          "explain": {"tk": "Funksiýa sanyň sifrleriniň jemini tapýar: 2 + 0 + 2 + 6 = 10.", "ru": "Функция находит сумму цифр: 2 + 0 + 2 + 6 = 10."}},
+        {"type": "truefalse",
+          "q": {"tk": "Islendik rekursiw algoritmi sikl (iterasiýa) bilen hem ýazyp bolýar.", "ru": "Любой рекурсивный алгоритм можно переписать с помощью цикла (итеративно)."},
+          "answer": true,
+          "hint": {"tk": "Kompýuteriň özi rekursiýany stek arkaly ýerine ýetirýär.", "ru": "Компьютер сам выполняет рекурсию с помощью стека."},
+          "explain": {"tk": "Dogry: rekursiýany sikl we öz stegimiz bilen elmydama çalşyp bolýar, ýöne käbir ýagdaýlarda kod has çylşyrymly bolýar.", "ru": "Верно: рекурсию всегда можно заменить циклом и явным стеком, хотя код иногда становится сложнее."}},
+        {"type": "world", "text": {
+          "tk": "«Hanoý minarasy» bulgusyny 1883-nji ýylda fransuz matematigi Eduard Lýuka (Édouard Lucas) oýlap tapdy. Ony rekursiýa bilen gysga çözüp bolýar: n disk üçin iň az 2ⁿ − 1 ädim gerek. 64 disk üçin bu san şeýle uly welin, sekuntda bir ädim edilse-de, ýüzlerçe milliard ýyl gerek bolardy.",
+          "ru": "Головоломку «Ханойская башня» придумал в 1883 году французский математик Эдуард Люка (Édouard Lucas). Она элегантно решается рекурсией: для n дисков нужно минимум 2ⁿ − 1 ходов. Для 64 дисков это число так велико, что даже при одном ходе в секунду потребовались бы сотни миллиардов лет."}}
+      ]
+    },
+    {
+      "id": "informatics-10-data-structures",
+      "grade": 10,
+      "topic": 2,
+      "title": {"tk": "Maglumat gurluşlary: massiw, steg, nobat, agaç", "ru": "Структуры данных: массив, стек, очередь, дерево"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Maglumat gurluşy — maglumatlary ýatda saklamagyň we olar bilen işlemegiň usuly.\n• Massiw (sanaw) — elementler indeks boýunça: a[0], a[1], … Indeks boýunça okamak çalt: O(1).\n• Steg (stack) — LIFO: «iň soňky giren — ilkinji çykýar». Amallar: push (goşmak), pop (almak). Mysal: brauzeriň «yza» düwmesi.\n• Nobat (queue) — FIFO: «ilkinji giren — ilkinji çykýar». Mysal: printeriň nobaty.\n• Sözlük (hash table) — «açar → baha» jübütleri, gözleg ortaça O(1).\n• Agaç (tree) — kök we çagalar; ikilik gözleg agajynda çep tarapda kiçi, sag tarapda uly bahalar.",
+          "ru": "Структура данных — способ хранения и обработки данных.\n• Массив (список) — элементы по индексу: a[0], a[1], … Доступ по индексу быстрый: O(1).\n• Стек (stack) — LIFO: «последним пришёл — первым вышел». Операции: push (добавить), pop (извлечь). Пример: кнопка «назад» в браузере.\n• Очередь (queue) — FIFO: «первым пришёл — первым вышел». Пример: очередь печати.\n• Словарь (хеш-таблица) — пары «ключ → значение», поиск в среднем O(1).\n• Дерево (tree) — корень и потомки; в двоичном дереве поиска слева меньшие, справа большие значения."}},
+        {"type": "example", "text": {
+          "tk": "Mysal: boş stege amallar:\npush(3), push(7), push(5), pop(), push(9), pop(), pop().\n1. [3] → [3, 7] → [3, 7, 5]\n2. pop() → 5 çykýar → [3, 7]\n3. push(9) → [3, 7, 9]\n4. pop() → 9 → [3, 7]\n5. pop() → 7 → [3]\nÇykan tertip: 5, 9, 7. Stegde 3 galdy.\nEger bu nobat bolsady, ilki 3, soň 7, soň 5 çykardy.",
+          "ru": "Пример: операции над пустым стеком:\npush(3), push(7), push(5), pop(), push(9), pop(), pop().\n1. [3] → [3, 7] → [3, 7, 5]\n2. pop() → выходит 5 → [3, 7]\n3. push(9) → [3, 7, 9]\n4. pop() → 9 → [3, 7]\n5. pop() → 7 → [3]\nПорядок извлечения: 5, 9, 7. В стеке осталось 3.\nЕсли бы это была очередь, первыми вышли бы 3, затем 7, затем 5."}},
+        {"type": "choice",
+          "q": {"tk": "Bankdaky müşderileriň nobatyny modelirlemek üçin haýsy gurluş iň gabat gelýär?", "ru": "Какая структура лучше всего моделирует очередь клиентов в банке?"},
+          "options": [{"tk": "Nobat (FIFO)", "ru": "Очередь (FIFO)"}, {"tk": "Steg (LIFO)", "ru": "Стек (LIFO)"}, {"tk": "Agaç", "ru": "Дерево"}],
+          "answer": 0,
+          "hint": {"tk": "Ilki gelen müşderi ilki hyzmat alýar.", "ru": "Кто пришёл первым, того обслуживают первым."},
+          "explain": {"tk": "Bu FIFO düzgüni — nobat (queue).", "ru": "Это принцип FIFO — очередь (queue)."}},
+        {"type": "input",
+          "q": {"tk": "Boş nobata: enqueue(4), enqueue(8), enqueue(1), dequeue(), enqueue(6), dequeue(). Indi nobatyň başynda haýsy san?", "ru": "Пустая очередь: enqueue(4), enqueue(8), enqueue(1), dequeue(), enqueue(6), dequeue(). Какое число теперь в начале очереди?"},
+          "answer": "1",
+          "hint": {"tk": "dequeue() elmydama iň köne elementi aýyrýar.", "ru": "dequeue() всегда удаляет самый старый элемент."},
+          "explain": {"tk": "[4, 8, 1] → 4 çykýar → [8, 1] → [8, 1, 6] → 8 çykýar → [1, 6]. Başda 1.", "ru": "[4, 8, 1] → выходит 4 → [8, 1] → [8, 1, 6] → выходит 8 → [1, 6]. В начале 1."}},
+        {"type": "truefalse",
+          "q": {"tk": "Ikilik gözleg agajynda kökden çepdäki ähli bahalar kökden uly.", "ru": "В двоичном дереве поиска все значения слева от корня больше корня."},
+          "answer": false,
+          "hint": {"tk": "Kesgitlemäni ýatlaň: çep — kiçi, sag — ?", "ru": "Вспомните определение: слева — меньшие, справа — ?"},
+          "explain": {"tk": "Ýalňyş: çep agaçda kiçi, sag agaçda uly bahalar bolýar.", "ru": "Неверно: в левом поддереве меньшие значения, в правом — большие."}},
+        {"type": "choice",
+          "q": {"tk": "Redaktordaky «Ctrl+Z» (yzyna gaýtarmak) haýsy gurluş bilen amala aşyrylýar?", "ru": "С помощью какой структуры обычно реализована отмена действия «Ctrl+Z» в редакторе?"},
+          "options": [{"tk": "Nobat", "ru": "Очередь"}, {"tk": "Sözlük", "ru": "Словарь"}, {"tk": "Steg", "ru": "Стек"}],
+          "answer": 2,
+          "hint": {"tk": "Haýsy amal ilki ýatyrylýar: iň soňkusymy ýa-da iň birinjisimi?", "ru": "Какое действие отменяется первым: последнее или самое первое?"},
+          "explain": {"tk": "Iň soňky amal ilki ýatyrylýar — LIFO, ýagny steg.", "ru": "Первым отменяется последнее действие — LIFO, то есть стек."}},
+        {"type": "world", "text": {
+          "tk": "Şweýsar alymy Niklaus Wirt 1976-njy ýylda «Algoritmler + Maglumat gurluşlary = Programmalar» atly kitap ýazdy. Bu at programmirlemegiň esasy pikirini aňladýar. Wirt Pascal dilini hem döreden alymdyr we 1984-nji ýylda Týuring baýragyny aldy.",
+          "ru": "Швейцарский учёный Никлаус Вирт в 1976 году написал книгу «Алгоритмы + структуры данных = программы». Её название выражает ключевую идею программирования. Вирт также создал язык Pascal и в 1984 году получил премию Тьюринга."}}
+      ]
+    },
+    {
+      "id": "informatics-10-sql",
+      "grade": 10,
+      "topic": 3,
+      "title": {"tk": "SQL: maglumat bazasyna soraglar", "ru": "SQL: запросы к базе данных"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Relýasion maglumat bazasy — tablisalaryň (setirler we sütünler) toplumy. SQL (Structured Query Language) — olar bilen işlemek üçin dil.\nEsasy buýruklar:\n• SELECT sütünler FROM tablisa — maglumatlary saýlamak.\n• WHERE şert — setirleri süzmek.\n• ORDER BY sütün [ASC/DESC] — tertiplemek.\n• COUNT(), SUM(), AVG(), MAX(), MIN() — jemleýji funksiýalar; GROUP BY bilen toparlara bölmek.\n• INSERT, UPDATE, DELETE — goşmak, üýtgetmek, pozmak.\n• JOIN — birnäçe tablisany umumy açar arkaly birleşdirmek.\nBirinji açar (PRIMARY KEY) her setiri gaýtalanmaýan edip kesgitleýär.",
+          "ru": "Реляционная база данных — набор таблиц (строки и столбцы). SQL (Structured Query Language) — язык для работы с ними.\nОсновные команды:\n• SELECT столбцы FROM таблица — выборка данных.\n• WHERE условие — фильтр строк.\n• ORDER BY столбец [ASC/DESC] — сортировка.\n• COUNT(), SUM(), AVG(), MAX(), MIN() — агрегатные функции; GROUP BY — группировка.\n• INSERT, UPDATE, DELETE — добавление, изменение, удаление.\n• JOIN — соединение таблиц по общему ключу.\nПервичный ключ (PRIMARY KEY) однозначно определяет каждую строку."}},
+        {"type": "example", "text": {
+          "tk": "Mysal: «students» tablisasy (id, name, grade, score):\n1, Aýna, 10, 92\n2, Merdan, 10, 78\n3, Leýli, 11, 85\n4, Kerim, 10, 88\nSorag: 10-njy synpyň 80-den ýokary bal alan okuwçylary, bal boýunça kemelýän tertipde.\nSELECT name, score FROM students\nWHERE grade = 10 AND score > 80\nORDER BY score DESC;\nNetije: Aýna 92, Kerim 88.",
+          "ru": "Пример: таблица «students» (id, name, grade, score):\n1, Айна, 10, 92\n2, Мердан, 10, 78\n3, Лейли, 11, 85\n4, Керим, 10, 88\nЗапрос: ученики 10 класса с баллом выше 80, по убыванию балла.\nSELECT name, score FROM students\nWHERE grade = 10 AND score > 80\nORDER BY score DESC;\nРезультат: Айна 92, Керим 88."}},
+        {"type": "input",
+          "q": {"tk": "Şol «students» tablisasy üçin: SELECT COUNT(*) FROM students WHERE grade = 10; näçe gaýtarar?", "ru": "Для той же таблицы «students»: что вернёт SELECT COUNT(*) FROM students WHERE grade = 10;?"},
+          "answer": "3",
+          "hint": {"tk": "grade = 10 bolan setirleri sanaň.", "ru": "Посчитайте строки, где grade = 10."},
+          "explain": {"tk": "Aýna, Merdan, Kerim — 3 setir.", "ru": "Айна, Мердан, Керим — 3 строки."}},
+        {"type": "input",
+          "q": {"tk": "SELECT MAX(score) FROM students WHERE grade = 10; näçe gaýtarar?", "ru": "Что вернёт SELECT MAX(score) FROM students WHERE grade = 10;?"},
+          "answer": "92",
+          "hint": {"tk": "Diňe 10-njy synpyň ballaryna serediň: 92, 78, 88.", "ru": "Смотрите только баллы 10 класса: 92, 78, 88."},
+          "explain": {"tk": "92, 78, 88 sanlarynyň iň ulusy — 92.", "ru": "Наибольшее из 92, 78, 88 — 92."}},
+        {"type": "choice",
+          "q": {"tk": "Setirleri şert boýunça süzmek üçin haýsy açar söz ulanylýar?", "ru": "Какое ключевое слово используется для фильтрации строк по условию?"},
+          "options": ["ORDER BY", "WHERE", "FROM"],
+          "answer": 1,
+          "hint": {"tk": "«Haýsy ýerde/haçan» manyly söz.", "ru": "Слово со значением «где»."},
+          "explain": {"tk": "WHERE şerti kanagatlandyrýan setirleri saýlaýar. ORDER BY — tertiplemek, FROM — tablisany görkezmek.", "ru": "WHERE отбирает строки по условию. ORDER BY — сортировка, FROM — указание таблицы."}},
+        {"type": "truefalse",
+          "q": {"tk": "«DELETE FROM students;» buýrugy (WHERE-siz) tablisadaky ähli setirleri pozýar.", "ru": "Команда «DELETE FROM students;» (без WHERE) удаляет все строки таблицы."},
+          "answer": true,
+          "hint": {"tk": "Şert ýok bolsa, buýruk haýsy setirlere degişli?", "ru": "Если условия нет, к каким строкам применяется команда?"},
+          "explain": {"tk": "Dogry: WHERE ýok bolsa, DELETE ähli setirlere täsir edýär. Şonuň üçin bu buýrugy seresaply ulanmaly.", "ru": "Верно: без WHERE команда DELETE затрагивает все строки. Поэтому её используют очень осторожно."}},
+        {"type": "world", "text": {
+          "tk": "Relýasion model pikirini 1970-nji ýylda IBM-de işleýän Edgar Kodd (Edgar F. Codd) hödürledi. Onuň esasynda IBM-de SQL-iň öňküsi bolan SEQUEL dili döredildi. Häzir SQL bilen işleýän ulgamlar (MySQL, PostgreSQL, SQLite) bank, saýt we mobil programmalarda giňden ulanylýar.",
+          "ru": "Реляционную модель предложил в 1970 году Эдгар Кодд (Edgar F. Codd), работавший в IBM. На её основе в IBM создали язык SEQUEL — предшественник SQL. Сегодня системы на SQL (MySQL, PostgreSQL, SQLite) используются в банках, на сайтах и в мобильных приложениях."}}
+      ]
+    },
+    {
+      "id": "informatics-10-mobile-apps",
+      "grade": 10,
+      "topic": 4,
+      "title": {"tk": "Mobil programmalar", "ru": "Мобильные приложения"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Mobil programma — smartfon ýa-da planşet üçin programma.\nEsasy platformalar: Android (Google; diller: Kotlin, Java) we iOS (Apple; dil: Swift).\nIşläp taýýarlamagyň görnüşleri:\n• Ýerli (native) — her platforma üçin aýratyn kod; iň ýokary tizlik.\n• Köpplatformaly — bir kod iki platforma üçin: Flutter (Dart), React Native (JavaScript).\n• Web-programma (PWA) — brauzerde işleýär, öýdäki ekrana goşup bolýar.\nArhitektura: interfeýs (UI) → programmanyň logikasy → maglumatlar (ýerli baza ýa-da API arkaly serwer).\nDurmuş tapgyry: pikir → dizaýn (UX/UI) → kod → synag → dükanda çap etmek (Google Play, App Store) → täzelemeler.",
+          "ru": "Мобильное приложение — программа для смартфона или планшета.\nОсновные платформы: Android (Google; языки Kotlin, Java) и iOS (Apple; язык Swift).\nПодходы к разработке:\n• Нативная — отдельный код для каждой платформы; максимальная производительность.\n• Кроссплатформенная — один код для обеих платформ: Flutter (Dart), React Native (JavaScript).\n• Веб-приложение (PWA) — работает в браузере, его можно добавить на домашний экран.\nАрхитектура: интерфейс (UI) → логика приложения → данные (локальная база или сервер через API).\nЖизненный цикл: идея → дизайн (UX/UI) → код → тестирование → публикация в магазине (Google Play, App Store) → обновления."}},
+        {"type": "example", "text": {
+          "tk": "Mysal: howa maglumatyny görkezýän programma nähili işleýär?\n1. Ulanyjy şäheri saýlaýar (UI).\n2. Programma serwere API arkaly HTTP soragyny iberýär: «Aşgabat üçin howa».\n3. Serwer JSON görnüşinde jogap berýär: {\"temp\": 18, \"sky\": \"açyk\"}.\n4. Programma JSON-y okaýar we ekranda «+18°, açyk» görkezýär.\n5. Internet ýok bolsa, öňki maglumatlar ýerli bazadan (keşden) görkezilýär.",
+          "ru": "Пример: как работает приложение погоды?\n1. Пользователь выбирает город (UI).\n2. Приложение отправляет на сервер HTTP-запрос через API: «погода для Ашхабада».\n3. Сервер отвечает в формате JSON: {\"temp\": 18, \"sky\": \"ясно\"}.\n4. Приложение разбирает JSON и показывает на экране «+18°, ясно».\n5. Если интернета нет, показываются сохранённые данные из локальной базы (кэша)."}},
+        {"type": "choice",
+          "q": {"tk": "iOS üçin ýerli programmalar häzirki wagtda esasan haýsy dilde ýazylýar?", "ru": "На каком языке сейчас в основном пишут нативные приложения для iOS?"},
+          "options": ["Kotlin", "Python", "Swift"],
+          "answer": 2,
+          "hint": {"tk": "Bu dili Apple 2014-nji ýylda hödürledi.", "ru": "Этот язык Apple представила в 2014 году."},
+          "explain": {"tk": "Swift — Apple-iň dili (2014). Kotlin — Android üçin, Python mobil programmalar üçin esasy dil däl.", "ru": "Swift — язык Apple (2014). Kotlin — для Android, Python не является основным языком мобильной разработки."}},
+        {"type": "truefalse",
+          "q": {"tk": "Flutter bir kod bazasyndan hem Android, hem iOS üçin programma döretmäge mümkinçilik berýär.", "ru": "Flutter позволяет создавать приложения и для Android, и для iOS из одной кодовой базы."},
+          "answer": true,
+          "hint": {"tk": "Flutter köpplatformaly gurallaryň sanawynda.", "ru": "Flutter есть в списке кроссплатформенных инструментов."},
+          "explain": {"tk": "Dogry: Flutter (Dart dili) köpplatformaly framework.", "ru": "Верно: Flutter (язык Dart) — кроссплатформенный фреймворк."}},
+        {"type": "choice",
+          "q": {"tk": "Programma serwerden maglumat almak üçin köplenç haýsy formaty ulanýar?", "ru": "В каком формате приложение чаще всего получает данные от сервера?"},
+          "options": ["JSON", "MP3", "BMP"],
+          "answer": 0,
+          "hint": {"tk": "Bu tekst formaty «açar: baha» jübütlerinden ybarat.", "ru": "Это текстовый формат из пар «ключ: значение»."},
+          "explain": {"tk": "JSON — API-lerde iň giň ýaýran tekst formaty. MP3 — ses, BMP — surat formaty.", "ru": "JSON — самый распространённый текстовый формат в API. MP3 — аудио, BMP — изображения."}},
+        {"type": "input",
+          "q": {"tk": "Ekran 2400 × 1080 piksel. Jemi näçe piksel? (san bilen)", "ru": "Экран 2400 × 1080 пикселей. Сколько всего пикселей? (числом)"},
+          "answer": "2592000",
+          "hint": {"tk": "Giňligi beýiklige köpeldiň.", "ru": "Умножьте ширину на высоту."},
+          "explain": {"tk": "2400 × 1080 = 2 592 000 piksel. Dizaýnerler interfeýsi dürli ekran ölçeglerine uýgunlaşdyrmaly.", "ru": "2400 × 1080 = 2 592 000 пикселей. Дизайнеры должны адаптировать интерфейс к разным размерам экранов."}},
+        {"type": "world", "text": {
+          "tk": "Apple-iň App Store dükany 2008-nji ýylyň iýulynda açyldy. Şol ýyl Android üçin dükan hem işe başlady (soňra Google Play adyny aldy). Bu dükanlar müňlerçe garaşsyz işläp taýýarlaýja öz programmalaryny tutuş dünýä ýaýratmaga mümkinçilik berdi.",
+          "ru": "Магазин приложений Apple App Store открылся в июле 2008 года. В том же году заработал магазин для Android (позже он стал называться Google Play). Эти магазины позволили тысячам независимых разработчиков распространять свои приложения по всему миру."}}
+      ]
+    },
+    {
+      "id": "informatics-10-encryption",
+      "grade": 10,
+      "topic": 5,
+      "title": {"tk": "Şifrlemek: simmetrik we asimmetrik", "ru": "Шифрование: симметричное и асимметричное"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Şifrlemek — açyk teksti açar bilen diňe açary bilýänleriň okap biljek görnüşine (şifr tekstine) öwürmek.\n• Sezar şifri — her harp elipbiýde k orun süýşürilýär. Açar = k.\n• Simmetrik şifrlemek — şifrlemek we açmak üçin şol bir açar: AES. Çalt, ýöne açary howpsuz bermek kyn.\n• Asimmetrik şifrlemek — iki açar: açyk (public) we ýapyk (private). Açyk açar bilen şifrlenen zady diňe ýapyk açar bilen açyp bolýar: RSA.\n• Heş-funksiýa — maglumatdan gysga «barmak yzy» (SHA-256); yzyna açyp bolmaýar. Parollar heş görnüşinde saklanýar.\nHTTPS iki usuly hem ulanýar: asimmetrik — açar çalyşmak üçin, simmetrik — maglumatlar üçin.",
+          "ru": "Шифрование — преобразование открытого текста с помощью ключа в вид (шифртекст), который могут прочитать только знающие ключ.\n• Шифр Цезаря — каждая буква сдвигается по алфавиту на k позиций. Ключ = k.\n• Симметричное шифрование — один ключ для шифрования и расшифровки: AES. Быстро, но ключ трудно безопасно передать.\n• Асимметричное шифрование — два ключа: открытый (public) и закрытый (private). Зашифрованное открытым ключом расшифровывается только закрытым: RSA.\n• Хеш-функция — короткий «отпечаток» данных (SHA-256); обратить нельзя. Пароли хранят в виде хешей.\nHTTPS использует оба подхода: асимметричный — для обмена ключом, симметричный — для данных."}},
+        {"type": "example", "text": {
+          "tk": "Mysal: iňlis elipbiýinde «CAT» sözüni Sezar şifri bilen k = 3 açarda şifrläliň.\n1. C → D, E, F → F\n2. A → B, C, D → D\n3. T → U, V, W → W\nŞifr tekst: «FDW».\nAçmak üçin her harpy 3 orun yza süýşürýäris: F → C, D → A, W → T.\nElipbiýiň soňunda aýlanýarys: Y + 3 → B.",
+          "ru": "Пример: зашифруем слово «CAT» шифром Цезаря с ключом k = 3 (английский алфавит).\n1. C → D, E, F → F\n2. A → B, C, D → D\n3. T → U, V, W → W\nШифртекст: «FDW».\nДля расшифровки сдвигаем каждую букву на 3 назад: F → C, D → A, W → T.\nВ конце алфавита идём по кругу: Y + 3 → B."}},
+        {"type": "input",
+          "q": {"tk": "Sezar şifri, k = 1, iňlis elipbiýi. «HAL» sözi nähili şifrlener? (baş harplar bilen)", "ru": "Шифр Цезаря, k = 1, английский алфавит. Как зашифруется слово «HAL»? (заглавными буквами)"},
+          "answer": "IBM|ibm",
+          "hint": {"tk": "Her harpy elipbiýde bir orun öňe süýşüriň.", "ru": "Сдвиньте каждую букву на одну позицию вперёд."},
+          "explain": {"tk": "H → I, A → B, L → M: «IBM». Gyzykly gabat gelme: «HAL» — meşhur fantastik filmdäki kompýuteriň ady.", "ru": "H → I, A → B, L → M: «IBM». Забавное совпадение: «HAL» — имя компьютера из известного фантастического фильма."}},
+        {"type": "choice",
+          "q": {"tk": "Asimmetrik şifrlemede size gizlin hat ibermek üçin iberiji haýsy açary ulanýar?", "ru": "Каким ключом отправитель шифрует секретное письмо для вас при асимметричном шифровании?"},
+          "options": [{"tk": "Siziň ýapyk açaryňyz", "ru": "Вашим закрытым ключом"}, {"tk": "Siziň açyk açaryňyz", "ru": "Вашим открытым ключом"}, {"tk": "Öz ýapyk açary", "ru": "Своим закрытым ключом"}],
+          "answer": 1,
+          "hint": {"tk": "Haýsy açar hemmelere elýeterli?", "ru": "Какой ключ доступен всем?"},
+          "explain": {"tk": "Iberiji siziň açyk açaryňyz bilen şifrleýär; hatyny diňe siziň ýapyk açaryňyz açyp bilýär.", "ru": "Отправитель шифрует вашим открытым ключом; расшифровать может только ваш закрытый ключ."}},
+        {"type": "truefalse",
+          "q": {"tk": "Heş-funksiýanyň netijesinden asyl maglumaty aňsatlyk bilen dikeldip bolýar.", "ru": "По результату хеш-функции легко восстановить исходные данные."},
+          "answer": false,
+          "hint": {"tk": "Heş — bir taraply funksiýa.", "ru": "Хеш — односторонняя функция."},
+          "explain": {"tk": "Ýalňyş: kriptografik heş bir taraply — ondan asyl maglumaty hasaplap tapmak amalda mümkin däl.", "ru": "Неверно: криптографический хеш односторонний — восстановить исходные данные практически невозможно."}},
+        {"type": "input",
+          "q": {"tk": "Sezar şifrinde iňlis elipbiýi (26 harp) üçin näçe peýdaly açar bar? (k = 0 hasaplanmaýar)", "ru": "Сколько полезных ключей у шифра Цезаря для английского алфавита (26 букв)? (k = 0 не считается)"},
+          "answer": "25",
+          "hint": {"tk": "k = 26 süýşme k = 0 bilen birmeňzeş.", "ru": "Сдвиг k = 26 совпадает с k = 0."},
+          "explain": {"tk": "k = 1 … 25 — jemi 25 açar. Şonuň üçin Sezar şifrini ähli açarlary barlap aňsat döwüp bolýar.", "ru": "k = 1 … 25 — всего 25 ключей. Поэтому шифр Цезаря легко взломать перебором."}},
+        {"type": "world", "text": {
+          "tk": "Ikinji jahan urşy döwründe Germaniýanyň «Enigma» şifr maşynynyň habarlaryny açmakda Polşanyň matematikleri, soňra bolsa Britaniýanyň Bletçli-Parkyndaky toparyň, şol sanda Alan Týuringiň işi möhüm orun eýeledi. Bu iş häzirki kompýuter ylmynyň ösüşine hem täsir etdi.",
+          "ru": "Во время Второй мировой войны в расшифровке сообщений немецкой шифровальной машины «Энигма» важную роль сыграли польские математики, а затем команда британского Блетчли-парка, в том числе Алан Тьюринг. Эта работа повлияла и на развитие современной информатики."}}
+      ]
+    }
+  ]
+}

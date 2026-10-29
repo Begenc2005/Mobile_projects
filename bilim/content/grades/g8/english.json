@@ -1,0 +1,304 @@
+{
+  "grade": 8,
+  "subject": "english",
+  "lessons": [
+    {
+      "id": "english-8-present-perfect-continuous",
+      "grade": 8,
+      "topic": 0,
+      "title": {"tk": "Present Perfect Continuous", "ru": "Present Perfect Continuous"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Present Perfect Continuous geçmişde başlanyp, häzire çenli dowam edýän ýa-da ýaňy gutaran we netijesi görünýän hereketi aňladýar.\nDüzülişi: have/has + been + işlik-ing\n• I have been studying for two hours.\n• She has been waiting since 9 o'clock.\nInkär: I haven't been sleeping well.\nSorag: How long have you been learning English?\nWagt sözleri:\n• for — dowamlylyk: for two hours, for a week\n• since — başlanan pursat: since Monday, since 2020\nÜns beriň: duýgy we eýeçilik işlikleri (know, like, want, have = eýe bolmak) bu wagtda ulanylmaýar: I have known him for years.",
+          "ru": "Present Perfect Continuous обозначает действие, которое началось в прошлом и продолжается до сих пор, или только что закончилось и его результат заметен.\nОбразование: have/has + been + глагол-ing\n• I have been studying for two hours.\n• She has been waiting since 9 o'clock.\nОтрицание: I haven't been sleeping well.\nВопрос: How long have you been learning English?\nСлова-маркеры:\n• for — длительность: for two hours, for a week\n• since — момент начала: since Monday, since 2020\nВнимание: глаголы состояния (know, like, want, have = иметь) в этом времени не используются: I have known him for years."
+        }},
+        {"type": "example", "text": {
+          "tk": "Ýagdaý: Aman sagat 3-de futbol oýnap başlady. Häzir sagat 5, ol henizem oýnaýar.\n1) Hereket geçmişde başlandy we dowam edýär → Present Perfect Continuous.\n2) Ega «he» → has.\n3) has + been + playing.\n4) Dowamlylyk 2 sagat → for.\nJogap: He has been playing football for two hours.\nÝa-da: He has been playing football since 3 o'clock.",
+          "ru": "Ситуация: Аман начал играть в футбол в 3 часа. Сейчас 5 часов, он всё ещё играет.\n1) Действие началось в прошлом и продолжается → Present Perfect Continuous.\n2) Подлежащее «he» → has.\n3) has + been + playing.\n4) Длительность 2 часа → for.\nОтвет: He has been playing football for two hours.\nИли: He has been playing football since 3 o'clock."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Boşlugy dolduryň: She ___ for the bus for 20 minutes.", "ru": "Заполните пропуск: She ___ for the bus for 20 minutes."},
+          "options": ["has been waiting", "have been waiting", "is waited"],
+          "answer": 0,
+          "hint": {"tk": "«She» üçin have ýa-da has?", "ru": "Для «she» — have или has?"},
+          "explain": {"tk": "Üçünji ýöňkemäniň birligi → has been + waiting.", "ru": "3-е лицо ед. ч. → has been + waiting."}
+        },
+        {"type": "input",
+          "q": {"tk": "for ýa-da since ýazyň: I have been living here ___ 2019.", "ru": "Напишите for или since: I have been living here ___ 2019."},
+          "answer": "since",
+          "hint": {"tk": "2019 — dowamlylykmy ýa-da başlanan pursatmy?", "ru": "2019 — это длительность или момент начала?"},
+          "explain": {"tk": "2019 — başlanan pursat, şonuň üçin since.", "ru": "2019 — момент начала, поэтому since."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«I have been knowing her for five years» sözlemi dogry.", "ru": "Предложение «I have been knowing her for five years» правильное."},
+          "answer": false,
+          "hint": {"tk": "«know» haýsy topar işliklere degişli?", "ru": "К какой группе глаголов относится «know»?"},
+          "explain": {"tk": "«know» — ýagdaý işligi, -ing görnüşinde ulanylmaýar. Dogrusy: I have known her for five years.", "ru": "«know» — глагол состояния, в форме -ing не используется. Правильно: I have known her for five years."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy sorag dogry düzülen?", "ru": "Какой вопрос составлен правильно?"},
+          "options": [
+            "How long you have been learning English?",
+            "How long have you been learning English?",
+            "How long have you be learning English?"
+          ],
+          "answer": 1,
+          "hint": {"tk": "Soragda kömekçi işlik egadan öň gelýär.", "ru": "В вопросе вспомогательный глагол стоит перед подлежащим."},
+          "explain": {"tk": "Have + ega + been + -ing: How long have you been learning…?", "ru": "Have + подлежащее + been + -ing: How long have you been learning…?"}
+        },
+        {"type": "world", "text": {
+          "tk": "Iňlis dili dünýäde iň köp adamyň gepleýän dilleriniň biridir: ene dili we daşary ýurt dili hökmünde bilýänleri goşanyňda, onuň gepleýjileri bir milliarddan gowrak. Şonuň üçin iňlis dili ylymda, awiasiýada we internetde esasy aragatnaşyk diline öwrüldi.",
+          "ru": "Английский — один из самых распространённых языков мира: если считать и носителей, и тех, кто выучил его как иностранный, на нём говорят более миллиарда человек. Поэтому он стал основным языком общения в науке, авиации и интернете."
+        }}
+      ]
+    },
+    {
+      "id": "english-8-second-conditional",
+      "grade": 8,
+      "topic": 1,
+      "title": {"tk": "Second conditional: hyýaly şertler", "ru": "Второй тип условных предложений"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Second conditional häzirki ýa-da geljekdäki hyýaly, gowşak ähtimal ýagdaýlar barada gürrüň edýär.\nDüzülişi:\nIf + Past Simple, would + işlik (esasy görnüş)\n• If I had a million dollars, I would travel around the world.\n• If she lived near the sea, she would swim every day.\nTertibi üýtgäp biler (onda otur goýulmaýar): I would help you if I knew the answer.\nÝatlaň: «be» işligi ähli ýöňkemelerde köplenç «were»: If I were you, I would study more.\nDeňeşdiriň: First conditional — hakyky mümkinçilik: If it rains, I will stay home.",
+          "ru": "Второй тип условных (second conditional) описывает воображаемые, маловероятные ситуации в настоящем или будущем.\nОбразование:\nIf + Past Simple, would + глагол (начальная форма)\n• If I had a million dollars, I would travel around the world.\n• If she lived near the sea, she would swim every day.\nПорядок частей можно менять (тогда без запятой): I would help you if I knew the answer.\nЗапомните: «be» обычно стоит в форме «were» для всех лиц: If I were you, I would study more.\nСравните: First conditional — реальная возможность: If it rains, I will stay home."
+        }},
+        {"type": "example", "text": {
+          "tk": "Pikir: «Meniň itim ýok, ýöne bolsady, her gün onuň bilen gezerdim.»\n1) Hakykat: itim ýok → hyýaly ýagdaý → second conditional.\n2) Şert bölegi: If + Past Simple → If I had a dog.\n3) Netije: would + işlik → I would walk it every day.\nJogap: If I had a dog, I would walk it every day.",
+          "ru": "Мысль: «У меня нет собаки, но если бы была, я бы гулял с ней каждый день.»\n1) Реальность: собаки нет → воображаемая ситуация → second conditional.\n2) Условие: If + Past Simple → If I had a dog.\n3) Результат: would + глагол → I would walk it every day.\nОтвет: If I had a dog, I would walk it every day."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Boşlugy dolduryň: If I ___ you, I would apologise.", "ru": "Заполните пропуск: If I ___ you, I would apologise."},
+          "options": ["am", "will be", "were"],
+          "answer": 2,
+          "hint": {"tk": "Maslahat bermek üçin ulanylýan durnukly aňlatma.", "ru": "Это устойчивое выражение для совета."},
+          "explain": {"tk": "If I were you — maslahat bermegiň adaty görnüşi.", "ru": "If I were you — стандартная форма совета."}
+        },
+        {"type": "input",
+          "q": {"tk": "Işligi dogry görnüşde ýazyň: If we had more time, we ___ (visit) the museum.", "ru": "Поставьте глагол в правильную форму: If we had more time, we ___ (visit) the museum."},
+          "answer": "would visit|'d visit",
+          "hint": {"tk": "Netije böleginde haýsy modal işlik bar?", "ru": "Какой модальный глагол нужен в главной части?"},
+          "explain": {"tk": "Netije: would + esasy görnüş → would visit.", "ru": "Главная часть: would + начальная форма → would visit."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«If I will win the lottery, I would buy a house» — bu dogry second conditional.", "ru": "«If I will win the lottery, I would buy a house» — это правильное second conditional."},
+          "answer": false,
+          "hint": {"tk": "«If» böleginde haýsy wagt bolmaly?", "ru": "Какое время должно быть в части с «if»?"},
+          "explain": {"tk": "«If» böleginde Past Simple: If I won the lottery, I would buy a house.", "ru": "В части с «if» — Past Simple: If I won the lottery, I would buy a house."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy sözlem hyýaly ýagdaýy aňladýar?", "ru": "Какое предложение выражает воображаемую ситуацию?"},
+          "options": [
+            "If it rains tomorrow, we will stay at home.",
+            "If I could fly, I would visit every country.",
+            "If you heat ice, it melts."
+          ],
+          "answer": 1,
+          "hint": {"tk": "Adam hakykatdanam uçup bilýärmi?", "ru": "Может ли человек на самом деле летать?"},
+          "explain": {"tk": "Uçmak — hyýaly ýagdaý, second conditional. Beýlekiler first we zero conditional.", "ru": "Полёт — воображаемая ситуация, second conditional. Остальные — first и zero conditional."}
+        },
+        {"type": "world", "text": {
+          "tk": "Ýazyjy Gerbert Uells (H. G. Wells) 1895-nji ýylda «Wagt maşyny» romanyny çap etdi. «Eger biz wagtda syýahat edip bilsedik näme bolardy?» diýen hyýaly sorag şondan bäri ylmy fantastikanyň iň meşhur temalarynyň birine öwrüldi.",
+          "ru": "Писатель Герберт Уэллс (H. G. Wells) опубликовал роман «Машина времени» в 1895 году. Вопрос «что было бы, если бы мы могли путешествовать во времени?» с тех пор стал одной из самых популярных тем научной фантастики."
+        }}
+      ]
+    },
+    {
+      "id": "english-8-passive-past",
+      "grade": 8,
+      "topic": 2,
+      "title": {"tk": "Passive voice: Past Simple", "ru": "Пассивный залог в прошедшем времени"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Passive voice (gaýdym nyşan) hereketiň özüne ýa-da onuň obýektine üns berilende ulanylýar; hereketi eden adam möhüm däl ýa-da näbelli.\nPast Simple Passive: was/were + üçünji görnüş (Past Participle)\n• The bridge was built in 1990.\n• These pictures were painted by a famous artist.\nHereketi edeni «by» bilen görkezmek bolýar: The telephone was invented by Bell.\nInkär: The letter wasn't sent.\nSorag: When was the school opened?\nWas — birlik (it, he, she), were — köplük (they, the books).",
+          "ru": "Пассивный залог (passive voice) используется, когда важно само действие или его объект, а исполнитель неважен или неизвестен.\nPast Simple Passive: was/were + 3-я форма глагола (Past Participle)\n• The bridge was built in 1990.\n• These pictures were painted by a famous artist.\nИсполнителя можно указать с помощью «by»: The telephone was invented by Bell.\nОтрицание: The letter wasn't sent.\nВопрос: When was the school opened?\nWas — единственное число, were — множественное."
+        }},
+        {"type": "example", "text": {
+          "tk": "Işjeň sözlem: «Workers built the stadium in 2010.»\n1) Obýekti tapýarys: the stadium → ol täze ega bolar.\n2) Birlik → was.\n3) build → built (üçünji görnüş).\n4) Işçiler möhüm däl → «by workers» taşlanýar.\nJogap: The stadium was built in 2010.",
+          "ru": "Активное предложение: «Workers built the stadium in 2010.»\n1) Находим объект: the stadium → он станет новым подлежащим.\n2) Единственное число → was.\n3) build → built (3-я форма).\n4) Рабочие неважны → «by workers» опускаем.\nОтвет: The stadium was built in 2010."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Boşlugy dolduryň: The windows ___ yesterday.", "ru": "Заполните пропуск: The windows ___ yesterday."},
+          "options": ["was cleaned", "were cleaned", "cleaned were"],
+          "answer": 1,
+          "hint": {"tk": "«The windows» — birlik ýa-da köplük?", "ru": "«The windows» — единственное или множественное число?"},
+          "explain": {"tk": "Köplük → were + cleaned.", "ru": "Множественное число → were + cleaned."}
+        },
+        {"type": "input",
+          "q": {"tk": "Işligiň üçünji görnüşini ýazyň: The book was ___ (write) in 1869.", "ru": "Напишите 3-ю форму глагола: The book was ___ (write) in 1869."},
+          "answer": "written",
+          "hint": {"tk": "write — wrote — ?", "ru": "write — wrote — ?"},
+          "explain": {"tk": "write düzgünsiz işlik: write — wrote — written.", "ru": "write — неправильный глагол: write — wrote — written."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«America was discovered by Columbus» — bu gaýdym nyşanly sözlem.", "ru": "«America was discovered by Columbus» — это предложение в пассивном залоге."},
+          "answer": true,
+          "hint": {"tk": "was + üçünji görnüş barmy?", "ru": "Есть ли was + 3-я форма?"},
+          "explain": {"tk": "was + discovered (üçünji görnüş) + by — gaýdym nyşan.", "ru": "was + discovered (3-я форма) + by — пассивный залог."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy sorag dogry?", "ru": "Какой вопрос правильный?"},
+          "options": [
+            "When was the Eiffel Tower built?",
+            "When did the Eiffel Tower built?",
+            "When the Eiffel Tower was built?"
+          ],
+          "answer": 0,
+          "hint": {"tk": "Gaýdym nyşanda soragda «was» egadan öňe geçýär.", "ru": "В пассивном вопросе «was» выносится перед подлежащим."},
+          "explain": {"tk": "When + was + ega + üçünji görnüş: When was the Eiffel Tower built?", "ru": "When + was + подлежащее + 3-я форма: When was the Eiffel Tower built?"}
+        },
+        {"type": "world", "text": {
+          "tk": "Eýfel diňi Pariždäki 1889-njy ýylyň Bütindünýä sergisi üçin guruldy. Ilki ony wagtlaýyn desga hasaplapdylar, ýöne radio antennasy hökmünde peýdaly bolany üçin saklanyp galdy.",
+          "ru": "Эйфелева башня была построена к Всемирной выставке 1889 года в Париже. Сначала её считали временным сооружением, но сохранили, потому что она оказалась полезной как радиоантенна."
+        }}
+      ]
+    },
+    {
+      "id": "english-8-reported-speech",
+      "grade": 8,
+      "topic": 3,
+      "title": {"tk": "Reported speech: gytaklaýyn söz", "ru": "Косвенная речь (Reported speech)"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Reported speech — biriniň aýdanyny öz sözlerimiz bilen gürrüň bermek.\nEger giriş işlik geçen wagtda bolsa (said, told), wagtlar bir ädim yza süýşýär:\n• Present Simple → Past Simple: «I like tea.» → She said (that) she liked tea.\n• Present Continuous → Past Continuous\n• Past Simple / Present Perfect → Past Perfect\n• will → would, can → could\nÇalyşmalar we wagt sözleri hem üýtgeýär:\n• now → then, today → that day, tomorrow → the next day, yesterday → the day before, here → there\nsay vs tell: He said (that)… / He told me (that)… — tell-den soň kime aýdylandygy görkezilýär.",
+          "ru": "Косвенная речь — пересказ чужих слов.\nЕсли вводный глагол в прошедшем времени (said, told), времена сдвигаются на шаг назад:\n• Present Simple → Past Simple: «I like tea.» → She said (that) she liked tea.\n• Present Continuous → Past Continuous\n• Past Simple / Present Perfect → Past Perfect\n• will → would, can → could\nМеняются также местоимения и слова времени/места:\n• now → then, today → that day, tomorrow → the next day, yesterday → the day before, here → there\nsay vs tell: He said (that)… / He told me (that)… — после tell указывается, кому сказали."
+        }},
+        {"type": "example", "text": {
+          "tk": "Göni söz: Merjen said, «I am reading a book now.»\n1) Wagt: am reading (Present Continuous) → was reading.\n2) Çalyşma: I → she.\n3) now → then.\nJogap: Merjen said (that) she was reading a book then.",
+          "ru": "Прямая речь: Merjen said, «I am reading a book now.»\n1) Время: am reading (Present Continuous) → was reading.\n2) Местоимение: I → she.\n3) now → then.\nОтвет: Merjen said (that) she was reading a book then."
+        }},
+        {"type": "choice",
+          "q": {"tk": "«I will call you tomorrow,» he said. → He said he ___ me the next day.", "ru": "«I will call you tomorrow,» he said. → He said he ___ me the next day."},
+          "options": ["will call", "would call", "called"],
+          "answer": 1,
+          "hint": {"tk": "will näme bolýar?", "ru": "Во что превращается will?"},
+          "explain": {"tk": "will → would: He said he would call me the next day.", "ru": "will → would: He said he would call me the next day."}
+        },
+        {"type": "input",
+          "q": {"tk": "«I can swim,» said Tom. → Tom said he ___ swim. Bir söz ýazyň.", "ru": "«I can swim,» said Tom. → Tom said he ___ swim. Напишите одно слово."},
+          "answer": "could",
+          "hint": {"tk": "can sözüniň geçen wagt görnüşi.", "ru": "Прошедшая форма can."},
+          "explain": {"tk": "can → could.", "ru": "can → could."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«She said me that she was tired» — dogry sözlem.", "ru": "«She said me that she was tired» — правильное предложение."},
+          "answer": false,
+          "hint": {"tk": "Kime aýdylandygy görkezilende say ýa-da tell?", "ru": "Если указано, кому сказали, — say или tell?"},
+          "explain": {"tk": "Dogrusy: She told me that she was tired. ýa-da She said that she was tired.", "ru": "Правильно: She told me that she was tired. или She said that she was tired."}
+        },
+        {"type": "choice",
+          "q": {"tk": "«I visited Mary yesterday,» Ann said. → Ann said she ___ Mary the day before.", "ru": "«I visited Mary yesterday,» Ann said. → Ann said she ___ Mary the day before."},
+          "options": ["had visited", "visits", "has visited"],
+          "answer": 0,
+          "hint": {"tk": "Past Simple bir ädim yza süýşende haýsy wagt bolýar?", "ru": "Во что сдвигается Past Simple?"},
+          "explain": {"tk": "Past Simple → Past Perfect: had visited.", "ru": "Past Simple → Past Perfect: had visited."}
+        },
+        {"type": "world", "text": {
+          "tk": "Habarçylar gytaklaýyn sözi her gün ulanýarlar. Habar agentlikleri, mysal üçin Reuters we Associated Press, öz žurnalistleri üçin sitatalary we gürrüň berlen sözleri nädip dogry bermelidigini düşündirýän ýörite stil gollanmalaryny çap edýärler.",
+          "ru": "Журналисты пользуются косвенной речью каждый день. Новостные агентства, например Reuters и Associated Press, выпускают для своих сотрудников специальные стилевые руководства, где объясняется, как правильно передавать цитаты и чужие слова."
+        }}
+      ]
+    },
+    {
+      "id": "english-8-gerund-infinitive",
+      "grade": 8,
+      "topic": 4,
+      "title": {"tk": "Gerund we infinitive", "ru": "Герундий и инфинитив"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Käbir işliklerden soň gerund (işlik + -ing), käbirlerinden soň infinitive (to + işlik) gelýär.\nGerund-dan öň: enjoy, finish, avoid, mind, suggest, keep, practise\n• I enjoy reading. She finished cleaning.\nInfinitive-den öň: want, decide, hope, plan, agree, promise, learn, need\n• I want to learn Spanish. They decided to stay.\nPredloglardan soň elmydama gerund: I'm good at drawing. Thank you for helping.\nManysy üýtgeýän işlikler:\n• stop smoking = çekmegi bes etmek; stop to smoke = çekmek üçin saklanmak\n• remember doing = edenini ýatlamak; remember to do = etmegi ýatdan çykarmazlyk",
+          "ru": "После одних глаголов используется герундий (глагол + -ing), после других — инфинитив (to + глагол).\nПеред герундием: enjoy, finish, avoid, mind, suggest, keep, practise\n• I enjoy reading. She finished cleaning.\nПеред инфинитивом: want, decide, hope, plan, agree, promise, learn, need\n• I want to learn Spanish. They decided to stay.\nПосле предлогов — всегда герундий: I'm good at drawing. Thank you for helping.\nГлаголы, меняющие смысл:\n• stop smoking = бросить курить; stop to smoke = остановиться, чтобы покурить\n• remember doing = помнить, что сделал; remember to do = не забыть сделать"
+        }},
+        {"type": "example", "text": {
+          "tk": "Sözlem: «We decided ___ (go) to the park, and we enjoyed ___ (play) there.»\n1) decide → infinitive: to go.\n2) enjoy → gerund: playing.\nJogap: We decided to go to the park, and we enjoyed playing there.",
+          "ru": "Предложение: «We decided ___ (go) to the park, and we enjoyed ___ (play) there.»\n1) decide → инфинитив: to go.\n2) enjoy → герундий: playing.\nОтвет: We decided to go to the park, and we enjoyed playing there."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Boşlugy dolduryň: Would you mind ___ the window?", "ru": "Заполните пропуск: Would you mind ___ the window?"},
+          "options": ["to open", "open", "opening"],
+          "answer": 2,
+          "hint": {"tk": "mind haýsy toparda?", "ru": "В какой группе глагол mind?"},
+          "explain": {"tk": "mind-den soň gerund: Would you mind opening the window?", "ru": "После mind — герундий: Would you mind opening the window?"}
+        },
+        {"type": "input",
+          "q": {"tk": "Dogry görnüşi ýazyň: She hopes ___ (become) a doctor.", "ru": "Напишите правильную форму: She hopes ___ (become) a doctor."},
+          "answer": "to become",
+          "hint": {"tk": "hope-dan soň näme gelýär?", "ru": "Что идёт после hope?"},
+          "explain": {"tk": "hope → infinitive: to become.", "ru": "hope → инфинитив: to become."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«I'm interested in learning photography» — dogry, sebäbi predlogdan soň gerund gelýär.", "ru": "«I'm interested in learning photography» — верно, потому что после предлога идёт герундий."},
+          "answer": true,
+          "hint": {"tk": "«in» — predlog.", "ru": "«in» — предлог."},
+          "explain": {"tk": "Predlogdan soň elmydama -ing görnüş: interested in learning.", "ru": "После предлога всегда форма -ing: interested in learning."}
+        },
+        {"type": "choice",
+          "q": {"tk": "«He stopped to buy water» näme aňladýar?", "ru": "Что означает «He stopped to buy water»?"},
+          "options": [
+            {"tk": "Ol suw almak üçin saklandy.", "ru": "Он остановился, чтобы купить воду."},
+            {"tk": "Ol suw almagy bes etdi.", "ru": "Он перестал покупать воду."},
+            {"tk": "Ol suw aldy we gitdi.", "ru": "Он купил воду и ушёл."}
+          ],
+          "answer": 0,
+          "hint": {"tk": "stop + to — maksat.", "ru": "stop + to — цель."},
+          "explain": {"tk": "stop to do — bir zat etmek üçin saklanmak. Bes etmek bolsa stop buying.", "ru": "stop to do — остановиться, чтобы что-то сделать. «Перестал покупать» — stop buying."}
+        },
+        {"type": "world", "text": {
+          "tk": "Lingwistler iňlis dilinde iň köp ulanylýan sözleri öwrenmek üçin uly tekst ýygyndylaryny (korpuslary) ulanýarlar. Bu ýygyndylar «enjoy» işliginden soň -ing görnüşiň, «want» işliginden soň bolsa «to» görnüşiň hemişe diýen ýaly gelýändigini tassyklaýar.",
+          "ru": "Лингвисты изучают употребление слов с помощью больших текстовых собраний — корпусов. Корпусные данные подтверждают, что после «enjoy» почти всегда идёт форма -ing, а после «want» — форма с «to»."
+        }}
+      ]
+    },
+    {
+      "id": "english-8-opinion-essay",
+      "grade": 8,
+      "topic": 5,
+      "title": {"tk": "Opinion essay: pikir esse", "ru": "Эссе-мнение (Opinion essay)"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Opinion essay — bir mesele boýunça öz pikiriňi delilleriň kömegi bilen düşündirýän gysga ýazgy.\nGurluşy (4–5 abzas):\n• Introduction: temany görkez we öz pikiriňi aýt.\n• Body 1, Body 2: her abzasda bir delil + mysal.\n• (Islege görä) garşy pikir we oňa jogap.\n• Conclusion: pikiriňi başga sözler bilen gaýtala.\nPeýdaly aňlatmalar:\n• Pikir: In my opinion, I believe, I strongly feel that\n• Sanamak: Firstly, Secondly, Furthermore, In addition\n• Garşy pikir: On the other hand, However, Some people argue that\n• Netije: To sum up, In conclusion\nStil: resmi; gysgaltmalar (don't, can't) ulanylmaýar.",
+          "ru": "Эссе-мнение — небольшое сочинение, в котором автор излагает свою точку зрения по вопросу и подкрепляет её аргументами.\nСтруктура (4–5 абзацев):\n• Introduction: обозначить тему и высказать своё мнение.\n• Body 1, Body 2: в каждом абзаце один аргумент + пример.\n• (По желанию) противоположное мнение и ответ на него.\n• Conclusion: повторить мнение другими словами.\nПолезные выражения:\n• Мнение: In my opinion, I believe, I strongly feel that\n• Перечисление: Firstly, Secondly, Furthermore, In addition\n• Контраргумент: On the other hand, However, Some people argue that\n• Вывод: To sum up, In conclusion\nСтиль: нейтрально-формальный; сокращения (don't, can't) не используются."
+        }},
+        {"type": "example", "text": {
+          "tk": "Tema: «Should students wear school uniforms?»\n• Introduction: Many schools require uniforms. In my opinion, uniforms are a good idea.\n• Body 1: Firstly, uniforms make all students equal, so nobody feels poorer than others.\n• Body 2: Secondly, they save time in the morning because students do not need to choose clothes.\n• Counter-argument: On the other hand, some people argue that uniforms limit self-expression. However, students can express themselves through hobbies and ideas.\n• Conclusion: To sum up, I believe the advantages of uniforms are greater than the disadvantages.",
+          "ru": "Тема: «Should students wear school uniforms?»\n• Introduction: Many schools require uniforms. In my opinion, uniforms are a good idea.\n• Body 1: Firstly, uniforms make all students equal, so nobody feels poorer than others.\n• Body 2: Secondly, they save time in the morning because students do not need to choose clothes.\n• Counter-argument: On the other hand, some people argue that uniforms limit self-expression. However, students can express themselves through hobbies and ideas.\n• Conclusion: To sum up, I believe the advantages of uniforms are greater than the disadvantages."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Haýsy aňlatma garşy pikiri girizmek üçin ulanylýar?", "ru": "Какое выражение вводит противоположное мнение?"},
+          "options": ["To sum up", "Firstly", "On the other hand"],
+          "answer": 2,
+          "hint": {"tk": "«Beýleki tarapdan» diýen manyny gözläň.", "ru": "Ищите значение «с другой стороны»."},
+          "explain": {"tk": "On the other hand — «beýleki tarapdan», garşy pikir üçin.", "ru": "On the other hand — «с другой стороны», вводит контраргумент."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Öz pikiriňi esasan haýsy abzasda ilkinji gezek aýtmaly?", "ru": "В каком абзаце нужно впервые высказать своё мнение?"},
+          "options": ["Introduction", "Body 2", "Conclusion"],
+          "answer": 0,
+          "hint": {"tk": "Okyjy siziň pozisiýaňyzy başdan bilmeli.", "ru": "Читатель должен знать вашу позицию с самого начала."},
+          "explain": {"tk": "Pikir giriş abzasynda aýdylýar, netijede bolsa gaýtalanýar.", "ru": "Мнение высказывается во вступлении и повторяется в заключении."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Opinion essay-de «don't», «can't» ýaly gysgaltmalary ulanmak maslahat berilýär.", "ru": "В эссе-мнении рекомендуется использовать сокращения вроде «don't», «can't»."},
+          "answer": false,
+          "hint": {"tk": "Esse haýsy stilde ýazylýar?", "ru": "В каком стиле пишется эссе?"},
+          "explain": {"tk": "Esse resmi stilde ýazylýar, şonuň üçin doly görnüşler: do not, cannot.", "ru": "Эссе пишется в формальном стиле, поэтому полные формы: do not, cannot."}
+        },
+        {"type": "input",
+          "q": {"tk": "Netije abzasy adatça haýsy aňlatma bilen başlanýar? «To sum ___»", "ru": "Каким словом заканчивается выражение для вывода: «To sum ___»?"},
+          "answer": "up",
+          "hint": {"tk": "Iki harply söz.", "ru": "Слово из двух букв."},
+          "explain": {"tk": "To sum up — «jemläp aýtsak».", "ru": "To sum up — «подводя итог»."}
+        },
+        {"type": "world", "text": {
+          "tk": "«Esse» sözi fransuz «essai» — «synanyşyk» sözünden gelýär. Bu žanry XVI asyrda fransuz ýazyjysy Mişel de Monten döretdi: ol öz pikirlerini «Esseler» atly kitabynda beýan etdi.",
+          "ru": "Слово «эссе» происходит от французского «essai» — «попытка, опыт». Жанр создал в XVI веке французский писатель Мишель де Монтень, изложивший свои размышления в книге «Опыты» («Essais»)."
+        }}
+      ]
+    }
+  ]
+}

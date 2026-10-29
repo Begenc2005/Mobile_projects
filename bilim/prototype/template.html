@@ -1,0 +1,340 @@
+<title>Bilim</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@600;800&family=Onest:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: one phone-width column, app shell with sticky top bar and bottom tab bar */
+:root{
+  --bg:#F2F6F4; --surface:#FFFFFF; --ink:#13221D; --muted:#5E6F68; --line:#DCE5E0;
+  --brand:#0F7B5F; --brand-ink:#FFFFFF; --gold:#E7A91B; --ok:#1E9E5A; --okbg:#DDF3E6; --bad:#C8402F; --badbg:#FBE3DF; --tipbg:#FFF4D6;
+  --display:"Unbounded","Arial Black",system-ui,sans-serif; --body:"Onest",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0D1613;--surface:#16231E;--ink:#E7F0EC;--muted:#93A69E;--line:#25362F;--brand:#35B48C;--brand-ink:#05140F;--gold:#F0BC44;--ok:#4CC783;--okbg:#173527;--bad:#F07A68;--badbg:#3A1E1A;--tipbg:#352C12;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0D1613;--surface:#16231E;--ink:#E7F0EC;--muted:#93A69E;--line:#25362F;--brand:#35B48C;--brand-ink:#05140F;--gold:#F0BC44;--ok:#4CC783;--okbg:#173527;--bad:#F07A68;--badbg:#3A1E1A;--tipbg:#352C12;color-scheme:dark}
+html,body{height:100%}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.5}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+#app{max-width:480px;margin:0 auto;min-height:100%;display:flex;flex-direction:column}
+.wrap{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+header.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);display:flex;align-items:center;gap:10px;padding-block:12px}
+.logo{font-family:var(--display);font-weight:800;font-size:22px;letter-spacing:-.01em;color:var(--brand)}
+.logo b{color:var(--gold)}
+.grow{flex:1;min-width:0}
+.pill{display:inline-flex;align-items:center;gap:4px;padding:4px 10px;border-radius:99px;background:var(--surface);border:1px solid var(--line);font-weight:600;font-size:14px;font-variant-numeric:tabular-nums}
+main{flex:1;padding-bottom:96px}
+h1,h2{font-family:var(--display);font-weight:600;text-wrap:balance;margin:0}
+h1{font-size:22px;line-height:1.25} h2{font-size:15px;margin:22px 0 10px;color:var(--muted);letter-spacing:.04em;text-transform:uppercase;font-family:var(--body);font-weight:700}
+button{font:inherit;color:inherit;cursor:pointer}
+button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+.review{display:flex;gap:14px;align-items:center;width:100%;text-align:left;background:var(--brand);color:var(--brand-ink);border:0;border-radius:18px;padding:16px;margin-top:4px}
+.review[disabled]{opacity:.75;cursor:default}
+.review .big{font-family:var(--display);font-size:28px;font-weight:800;font-variant-numeric:tabular-nums;min-width:44px;text-align:center}
+.review small{display:block;opacity:.85}
+.cont{display:flex;gap:12px;align-items:center;width:100%;text-align:left;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:12px 14px;margin-top:10px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.subj{display:flex;flex-direction:column;align-items:flex-start;gap:6px;text-align:left;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:14px;min-height:112px}
+.subj .ic{font-size:26px;line-height:1}
+.subj .nm{font-weight:700;margin-top:auto}
+.grades{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:6px}
+.gr{border:1px solid var(--line);background:var(--surface);border-radius:12px;padding:10px 0;font-weight:700;font-variant-numeric:tabular-nums}
+.gr[aria-pressed="true"]{background:var(--brand);color:var(--brand-ink);border-color:transparent}
+.lesson[disabled]{opacity:.55;cursor:default}
+.bar-p{width:100%;height:5px;border-radius:5px;background:var(--line);overflow:hidden}
+.bar-p i{display:block;height:100%;border-radius:5px}
+.lesson{display:flex;gap:12px;align-items:center;width:100%;text-align:left;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px;margin-bottom:10px}
+.num{width:36px;height:36px;border-radius:50%;display:grid;place-items:center;font-weight:700;flex:none}
+.meta{color:var(--muted);font-size:14px}
+.back{border:0;background:var(--surface);border:1px solid var(--line);border-radius:12px;width:40px;height:40px;font-size:20px;flex:none}
+.prog{height:6px;border-radius:6px;background:var(--line);overflow:hidden}
+.prog i{display:block;height:100%;transition:width .3s}
+.kind{font-weight:700;font-size:13px;letter-spacing:.06em;text-transform:uppercase;margin:18px 0 8px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:16px;white-space:pre-wrap;overflow-wrap:anywhere;font-size:17px;line-height:1.6}
+.q{font-size:19px;font-weight:600;line-height:1.45;margin:18px 0 14px;white-space:pre-wrap;overflow-wrap:anywhere}
+.opts{display:grid;gap:10px}
+.opt{width:100%;text-align:left;background:var(--surface);border:2px solid var(--line);border-radius:14px;padding:14px 16px;font-size:17px}
+.opt.sel{border-color:var(--acc)}
+.opt.right{background:var(--okbg);border-color:var(--ok)}
+.opt.wrong{background:var(--badbg);border-color:var(--bad)}
+input.ans,select,input.txt{width:100%;font:inherit;font-size:19px;padding:13px 14px;border-radius:14px;border:2px solid var(--line);background:var(--surface);color:var(--ink)}
+.note{margin-top:14px;border-radius:14px;padding:14px;white-space:pre-line}
+.note.tip{background:var(--tipbg)} .note.ok{background:var(--okbg)} .note.bad{background:var(--badbg)}
+.actions{position:fixed;left:0;right:0;bottom:0;background:var(--bg);border-top:1px solid var(--line);padding-block:12px calc(12px + env(safe-area-inset-bottom,0px));z-index:6}
+.actions .in{max-width:480px;margin:0 auto;display:flex;gap:10px}
+.btn{border:0;border-radius:14px;padding:14px 18px;font-weight:700;font-size:16px;background:var(--acc,var(--brand));color:#fff;flex:1}
+.btn[disabled]{opacity:.45;cursor:default}
+.btn.ghost{background:var(--surface);color:var(--ink);border:1px solid var(--line);flex:none}
+nav.tabs{position:fixed;left:0;right:0;bottom:0;background:var(--surface);border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom,0px);z-index:6}
+nav.tabs .in{max-width:480px;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr)}
+nav.tabs button{border:0;background:none;padding:10px 0 12px;display:flex;flex-direction:column;align-items:center;gap:2px;font-size:12px;color:var(--muted);font-weight:600}
+nav.tabs button span{font-size:20px}
+nav.tabs button[aria-current]{color:var(--brand)}
+.seg{display:inline-flex;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:3px}
+.seg button{border:0;background:none;padding:7px 14px;border-radius:9px;font-weight:600}
+.seg button[aria-pressed="true"]{background:var(--brand);color:var(--brand-ink)}
+.chat{display:flex;flex-direction:column;gap:8px;margin-top:12px}
+.msg{max-width:85%;padding:10px 14px;border-radius:16px;background:var(--surface);border:1px solid var(--line);white-space:pre-line}
+.msg.me{align-self:flex-end;background:var(--brand);color:var(--brand-ink);border-color:transparent}
+.composer{display:flex;gap:8px}
+.composer input{flex:1;min-width:0;font:inherit;padding:12px 14px;border-radius:14px;border:1px solid var(--line);background:var(--surface);color:var(--ink)}
+.hero{padding-block:40px 8px}
+.hero .logo{font-size:44px}
+.hero p{color:var(--muted);margin:6px 0 24px;font-size:17px}
+.form{display:grid;gap:12px}
+label.f{display:grid;gap:6px;font-weight:600;font-size:14px;color:var(--muted)}
+.result{text-align:center;padding-top:48px}
+.result .em{font-size:76px;line-height:1}
+.result .sc{font-family:var(--display);font-size:40px;font-weight:800;margin:10px 0 0;font-variant-numeric:tabular-nums}
+.stats{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:16px;text-align:center}
+.stat b{display:block;font-family:var(--display);font-size:26px}
+.row{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:14px 0;border-bottom:1px solid var(--line)}
+.demo{font-size:13px;color:var(--muted);margin-top:14px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div id="app"></div>
+
+<script>
+const BUNDLE = __CONTENT__;
+const S = {}, LESSONS = {};
+BUNDLE.subjects.forEach(s => { S[s.id] = s; s.lessons.forEach(l => LESSONS[l.id] = [s, l]) });
+const CUR = {}; BUNDLE.curriculum.grades.forEach(g => CUR[g.grade] = g.subjects);
+const store = {
+  get(k, d){ try{ const v = localStorage.getItem('bilim:'+k); return v==null?d:JSON.parse(v) }catch(e){ return d } },
+  set(k, v){ try{ localStorage.setItem('bilim:'+k, JSON.stringify(v)) }catch(e){} }
+};
+const st = {
+  user: store.get('user', null), grade: store.get('grade', 7), lang: store.get('lang','tk'), xp: store.get('xp',0), streak: store.get('streak',0),
+  day: store.get('day',null), best: store.get('best',{}), cards: store.get('cards',{}), last: store.get('last',null)
+};
+const UI = {
+  soon:['Taýýarlanýar','Скоро'], topics:['tema','тем'], choose:['Synpyňyzy saýlaň','Выберите класс'],
+  hello:['Salam','Привет'], subjects:['Dersler','Предметы'], review:['Gaýtalamak','Повторение'],
+  due:['sorag gaýtalamaly','вопр. на повторение'], none:['Bu gün gaýtalamaly zat ýok','Сегодня повторять нечего'],
+  cont:['Dowam et','Продолжить'], grade:['synp','класс'], min:['min','мин'], check:['Barla','Проверить'], next:['Indiki','Далее'],
+  hint:['Kömek','Подсказка'], ok:['Dogry!','Верно!'], bad:['Ýalňyş.','Неверно.'], answer:['Jogabyňyz','Ваш ответ'],
+  t:['Dogry','Верно'], f:['Ýalňyş','Неверно'], done:['Sapak tamamlandy','Урок завершён'], xp:['bal','очков'], streak:['gün yzygiderli','дней подряд'],
+  finish:['Tamamla','Завершить'], retry:['Täzeden','Ещё раз'], help:['Kömek','Помощь'], home:['Dersler','Уроки'], profile:['Profil','Профиль'],
+  ask:['Soragyňyzy ýazyň…','Напишите вопрос…'], send:['Iber','Отправить'], lang:['Dil','Язык'], name:['Adyňyz','Ваше имя'],
+  start:['Başla','Начать'], tagline:['Mekdep we hususy mugallym — bir telefonda','Школа и репетитор — в одном телефоне'],
+  theory:['Nazaryýet','Теория'], example:['Mysal','Пример'], world:['Dünýä bilimi','Мир знаний'], question:['Sorag','Вопрос'],
+  correct_is:['Dogry jogap','Правильный ответ'], logout:['Çykmak','Выйти'], reset:['Maglumatlary arassala','Сбросить прогресс'],
+  phone:['Telefon belgisi','Номер телефона'], demo:['Synag görnüşi: SMS kody talap edilmeýär.','Демо-версия: SMS-код не требуется.'],
+  bot:['Salam! Men Bilim kömekçisi. Soragyňyzy ýazyň — sapakdan kömek taparyn ýa-da goldaw toparyna ibererin.','Привет! Я помощник Bilim. Напишите вопрос — найду подсказку в уроках или передам в поддержку.'],
+  sent:['Soragyňyz goldaw toparyna iberildi. Programmada mugallym jogap berer.','Вопрос передан в поддержку. В приложении ответит преподаватель.'],
+  found:['Ine, peýdaly bolup biljek maglumat','Вот что может помочь'], score:['dogry jogap','правильных'], lessons:['sapak','урок']
+};
+const t = k => UI[k][st.lang==='ru'?1:0];
+const L = o => o==null ? '' : typeof o==='string' ? o : (o[st.lang] ?? o.tk);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const isQ = s => ['choice','input','truefalse'].includes(s.type);
+const today = (d=0) => { const x=new Date(); x.setDate(x.getDate()+d); return x.toISOString().slice(0,10) };
+const lessonById = id => LESSONS[id] || [];
+const dueCards = () => Object.entries(st.cards).filter(([,c]) => c.due <= today()).map(([k]) => k.split('#'));
+const BOX = [1,2,4,8,16,32];
+const app = document.getElementById('app');
+let view = {name: st.user ? 'home' : 'login'}, chat = [];
+
+function save(){ for (const k of ['user','grade','lang','xp','streak','day','best','cards','last']) store.set(k, st[k]) }
+function go(v){ view = v; render(); window.scrollTo(0,0) }
+
+function tabs(active){
+  const b = (id, ic, lbl) => `<button data-tab="${id}" ${active===id?'aria-current="page"':''}><span>${ic}</span>${t(lbl)}</button>`;
+  return `<nav class="tabs"><div class="in">${b('home','📚','home')}${b('help','💬','help')}${b('profile','👤','profile')}</div></nav>`;
+}
+function topbar(){
+  return `<header class="bar wrap"><div class="logo grow">Bil<b>i</b>m</div>
+    <span class="pill">${st.grade} ${t('grade')}</span><span class="pill" title="${t('streak')}">🔥 ${st.streak}</span><span class="pill" title="${t('xp')}">⭐ ${st.xp}</span></header>`;
+}
+function langSeg(){
+  return `<div class="seg" role="group" aria-label="${t('lang')}">
+    <button data-lang="tk" aria-pressed="${st.lang==='tk'}">Türkmençe</button><button data-lang="ru" aria-pressed="${st.lang==='ru'}">Русский</button></div>`;
+}
+
+const screens = {
+  login(){
+    return `<main class="wrap"><div class="hero"><div class="logo">Bil<b>i</b>m</div><p>${t('tagline')}</p>${langSeg()}</div>
+      <form class="form" id="loginForm">
+        <label class="f">${t('phone')}<input class="txt" id="phone" inputmode="tel" value="+993 65 12 34 56"></label>
+        <label class="f">${t('name')}<input class="txt" id="uname" required value="${st.lang==='ru'?'Ахмед':'Ahmet'}"></label>
+        <label class="f">${t('grade')}<select id="ugrade">${Array.from({length:12},(_,i)=>`<option ${i+1===st.grade?'selected':''} value="${i+1}">${i+1} ${t('grade')}</option>`).join('')}</select></label>
+        <button class="btn" type="submit">${t('start')}</button>
+        <div class="demo">${t('demo')}</div>
+      </form></main>`;
+  },
+  home(){
+    const due = dueCards().length;
+    const [ls, ll] = st.last ? lessonById(st.last) : [];
+    return topbar() + `<main class="wrap">
+      <h1>${t('hello')}, ${esc(st.user.name)}</h1>
+      <h2>${t('review')}</h2>
+      <button class="review" id="reviewBtn" ${due?'':'disabled'}><span class="big">${due}</span><span class="grow">${due?t('due'):t('none')}<small>${due?'1 · 2 · 4 · 8 · 16 · 32':''}</small></span>${due?'<span>→</span>':''}</button>
+      ${ll?`<button class="cont" data-lesson="${ll.id}"><span style="font-size:26px">${ls.icon}</span><span class="grow"><b>${t('cont')}</b><div class="meta">${esc(L(ll.title))}</div></span><span>→</span></button>`:''}
+      <h2>${t('choose')}</h2>
+      <div class="grades" role="group">${Array.from({length:12},(_,i)=>`<button class="gr" data-grade="${i+1}" aria-pressed="${st.grade===i+1}">${i+1}</button>`).join('')}</div>
+      <h2>${st.grade} ${t('grade')} · ${t('subjects')}</h2>
+      <div class="grid">${(CUR[st.grade]||[]).map(cs => {
+        const s = S[cs.id], ls = cs.topics.filter(x => x.lesson);
+        const done = ls.filter(x => st.best[x.lesson]!=null).length;
+        return `<button class="subj" data-subject="${s.id}"><span class="ic">${s.icon}</span><span class="nm">${esc(L(s.title))}</span>
+          <span class="meta">${done} / ${ls.length}</span>
+          <span class="bar-p"><i style="width:${ls.length?done/ls.length*100:0}%;background:${s.color}"></i></span></button>`}).join('')}</div>
+    </main>` + tabs('home');
+  },
+  subject(){
+    const s = S[view.id], row = (CUR[st.grade]||[]).find(x => x.id===view.id), topics = row ? row.topics : [];
+    return `<header class="bar wrap"><button class="back" data-back aria-label="←">←</button><h1 class="grow">${s.icon} ${esc(L(s.title))} · ${st.grade}</h1></header>
+      <main class="wrap">${topics.map((tp,i) => {
+        const l = tp.lesson && LESSONS[tp.lesson] ? LESSONS[tp.lesson][1] : null;
+        const q = l ? l.steps.filter(isQ).length : 0, b = l ? st.best[l.id] : null;
+        return `<button class="lesson" ${l?`data-lesson="${l.id}"`:'disabled'}><span class="num" style="background:${s.color}22;color:${s.color}">${b!=null?'✓':i+1}</span>
+          <span class="grow"><b>${esc(L(tp.title))}</b><div class="meta">${l?`${l.minutes} ${t('min')} · ${b!=null?`${b}/${q}`:`${q} ?`}`:t('soon')}</div></span>${l?'<span>→</span>':''}</button>`}).join('')}
+      </main>` + tabs('home');
+  },
+  play(){
+    const p = view, it = p.items[p.i];
+    if (!it) return result();
+    const s = it.step, acc = p.color;
+    let body = '';
+    if (!isQ(s)) {
+      body = `<div class="kind" style="color:${acc}">${s.type==='world'?'🌍 '+t('world'):t(s.type)}</div><div class="card">${esc(L(s.text))}</div>`;
+    } else {
+      body = `<div class="kind" style="color:${acc}">${t('question')}</div><div class="q">${esc(L(s.q))}</div>`;
+      if (s.type==='input') {
+        body += `<input class="ans" id="ans" autocomplete="off" placeholder="${t('answer')}" value="${esc(p.val||'')}" ${p.checked?'disabled':''}>`;
+        if (p.checked && !p.ok) body += `<div class="meta" style="margin-top:8px">${t('correct_is')}: <b>${esc(s.answer.split('|')[0])}</b></div>`;
+      } else {
+        const opts = s.type==='truefalse' ? [t('t'), t('f')] : s.options.map(L);
+        const right = s.type==='truefalse' ? (s.answer?0:1) : s.answer;
+        body += `<div class="opts">${opts.map((o,k) => {
+          let c = 'opt'; if (p.pick===k) c+=' sel';
+          if (p.checked && k===right) c+=' right'; else if (p.checked && p.pick===k) c+=' wrong';
+          return `<button class="${c}" data-pick="${k}" ${p.checked?'disabled':''}>${esc(o)}</button>`}).join('')}</div>`;
+      }
+      if (p.hint && !p.checked) body += `<div class="note tip">💡 ${esc(L(s.hint))}</div>`;
+      if (p.checked) body += `<div class="note ${p.ok?'ok':'bad'}"><b>${p.ok?'✓ '+t('ok'):'✗ '+t('bad')}</b>\n${esc(L(s.explain))}</div>`;
+    }
+    const ready = s.type==='input' ? !!(p.val||'').trim() : p.pick!=null;
+    const main = isQ(s) && !p.checked ? `<button class="btn" id="check" ${ready?'':'disabled'}>${t('check')}</button>` : `<button class="btn" id="next">${t('next')}</button>`;
+    const hint = isQ(s) && !p.checked && s.hint ? `<button class="btn ghost" id="hint" ${p.hint?'disabled':''}>💡 ${t('hint')}</button>` : '';
+    return `<header class="bar wrap"><button class="back" data-back aria-label="←">×</button>
+        <div class="grow"><div class="meta" style="margin-bottom:4px">${esc(p.title)} · ${p.i+1}/${p.items.length}</div><div class="prog"><i style="width:${p.i/p.items.length*100}%;background:${acc}"></i></div></div></header>
+      <main class="wrap" style="--acc:${acc}">${body}</main>
+      <div class="actions wrap" style="--acc:${acc}"><div class="in">${hint}${main}</div></div>`;
+  },
+  help(){
+    const msgs = [{me:false, text:t('bot')}, ...chat];
+    return topbar() + `<main class="wrap"><h1>${t('help')}</h1>
+      <div class="chat">${msgs.map(m => `<div class="msg ${m.me?'me':''}">${esc(m.text)}</div>`).join('')}</div>
+      <form class="composer" id="askForm" style="margin-top:14px"><input id="askIn" placeholder="${t('ask')}" autocomplete="off"><button class="btn" style="flex:none">${t('send')}</button></form>
+    </main>` + tabs('help');
+  },
+  profile(){
+    const doneN = Object.keys(st.best).length;
+    return topbar() + `<main class="wrap"><h1>${esc(st.user.name)}</h1><div class="meta">${st.user.grade} ${t('grade')} · ${esc(st.user.phone)}</div>
+      <h2>${t('profile')}</h2>
+      <div class="stats"><div class="stat"><b>${st.xp}</b>${t('xp')}</div><div class="stat"><b>${st.streak}</b>${t('streak')}</div>
+        <div class="stat"><b>${doneN}</b>${t('lessons')}</div><div class="stat"><b>${dueCards().length}</b>${t('review')}</div></div>
+      <div class="row"><b>${t('lang')}</b>${langSeg()}</div>
+      <div class="row"><b>${t('reset')}</b><button class="btn ghost" id="reset">↺</button></div>
+      <div class="row"><b>${t('logout')}</b><button class="btn ghost" id="logout">→</button></div>
+    </main>` + tabs('profile');
+  }
+};
+
+function result(){
+  const p = view, right = p.correct.length, total = p.items.filter(x => isQ(x.step)).length;
+  const em = right===total ? '🏆' : right*2>=total ? '👍' : '💪';
+  return `<main class="wrap result"><div class="em">${em}</div><h1 style="margin-top:14px">${t('done')}</h1>
+    <div class="sc">${right} / ${total}</div><div class="meta">${t('score')} · +${right*10} ${t('xp')} · 🔥 ${st.streak}</div></main>
+    <div class="actions wrap" style="--acc:${p.color}"><div class="in"><button class="btn ghost" id="retry">${t('retry')}</button><button class="btn" id="finish">${t('finish')}</button></div></div>`;
+}
+
+function startLesson(id){
+  const [s, l] = lessonById(id);
+  go({name:'play', title:L(l.title), color:s.color, from:{name:'subject', id:s.id},
+      items:l.steps.map((step,i) => ({lid:l.id, idx:i, step})), i:0, correct:[], wrong:[]});
+}
+function startReview(){
+  const items = dueCards().map(([lid, idx]) => ({lid, idx:+idx, step:lessonById(lid)[1].steps[+idx]}));
+  go({name:'play', title:t('review'), color:'var(--brand)', from:{name:'home'}, items, i:0, correct:[], wrong:[]});
+}
+function finishSession(){
+  const p = view, lids = [...new Set(p.items.map(x => x.lid))];
+  for (const lid of lids) {
+    const c = p.correct.filter(x => x.lid===lid).map(x => x.idx), w = p.wrong.filter(x => x.lid===lid).map(x => x.idx);
+    if (p.title !== t('review')) { st.best[lid] = Math.max(st.best[lid] ?? 0, c.length); st.last = lid }
+    for (const i of w) st.cards[lid+'#'+i] = {box:0, due:today(1)};
+    for (const i of c) { const k = lid+'#'+i; if (st.cards[k]) { const b = Math.min(st.cards[k].box+1, 5); st.cards[k] = {box:b, due:today(BOX[b])} } }
+  }
+  st.xp += p.correct.length*10;
+  if (st.day !== today()) { st.streak = st.day===today(-1) ? st.streak+1 : 1; st.day = today() }
+  save();
+}
+function checkAnswer(){
+  const p = view, it = p.items[p.i], s = it.step;
+  const n = v => String(v).trim().toLowerCase().replace(/,/g, '.').replace(/’/g,"'").replace(/−/g,'-').replace(/\s+/g,'');
+  if (s.type==='input') p.ok = s.answer.split('|').some(a => n(a)===n(p.val||''));
+  else if (s.type==='truefalse') p.ok = (p.pick===0) === s.answer;
+  else p.ok = p.pick === s.answer;
+  (p.ok && !p.hint ? p.correct : p.wrong).push({lid:it.lid, idx:it.idx});
+  p.checked = true; render();
+}
+function helper(q){
+  const words = q.toLowerCase().split(/[^\p{L}\p{N}]+/u).filter(w => w.length>3);
+  let best = null, score = 0;
+  for (const [s, l] of Object.values(LESSONS)) for (const st_ of l.steps) {
+    const txt = (L(st_.text)+' '+L(st_.q)+' '+L(st_.hint)+' '+L(l.title)).toLowerCase();
+    const sc = words.filter(w => txt.includes(w.slice(0, Math.max(4, w.length-2)))).length;
+    if (sc > score) { score = sc; best = {s, l, step:st_} }
+  }
+  if (!best) return t('sent');
+  const b = best.step;
+  return `${t('found')} — ${best.s.icon} ${L(best.l.title)}:\n${L(b.text) || (L(b.q) + '\n💡 ' + L(b.hint))}`;
+}
+
+function render(){ app.innerHTML = screens[view.name](); }
+
+app.addEventListener('click', e => {
+  const el = e.target.closest('button'); if (!el) return;
+  const d = el.dataset;
+  if (d.tab) return go({name:d.tab});
+  if (d.lang) { st.lang = d.lang; save(); return render() }
+  if (d.subject) return go({name:'subject', id:d.subject});
+  if (d.grade) { st.grade = +d.grade; save(); return render() }
+  if (d.lesson) return startLesson(d.lesson);
+  if ('back' in d) return go(view.from || {name:'home'});
+  if (d.pick != null && view.name==='play') { view.pick = +d.pick; return render() }
+  switch (el.id) {
+    case 'reviewBtn': return startReview();
+    case 'hint': view.hint = true; return render();
+    case 'check': return checkAnswer();
+    case 'next': Object.assign(view, {i:view.i+1, pick:null, val:'', checked:false, hint:false, ok:false});
+      if (view.i >= view.items.length) finishSession(); return render();
+    case 'retry': Object.assign(view, {i:0, correct:[], wrong:[]}); return render();
+    case 'finish': return go(view.from);
+    case 'reset': Object.assign(st, {xp:0, streak:0, day:null, best:{}, cards:{}, last:null}); save(); return render();
+    case 'logout': st.user = null; save(); return go({name:'login'});
+  }
+});
+app.addEventListener('input', e => {
+  if (e.target.id==='ans') { view.val = e.target.value; const b = document.getElementById('check'); if (b) b.disabled = !view.val.trim() }
+});
+app.addEventListener('keydown', e => {
+  if (e.target.id==='ans' && e.key==='Enter' && (view.val||'').trim() && !view.checked) checkAnswer();
+});
+app.addEventListener('submit', e => {
+  e.preventDefault();
+  if (e.target.id==='loginForm') {
+    st.user = {name:document.getElementById('uname').value.trim() || 'Okuwçy', grade:+document.getElementById('ugrade').value, phone:document.getElementById('phone').value};
+    st.grade = st.user.grade;
+    save(); return go({name:'home'});
+  }
+  if (e.target.id==='askForm') {
+    const q = document.getElementById('askIn').value.trim(); if (!q) return;
+    chat.push({me:true, text:q}, {me:false, text:helper(q)}); render();
+    const inp = document.getElementById('askIn'); if (inp) inp.focus();
+  }
+});
+render();
+</script>

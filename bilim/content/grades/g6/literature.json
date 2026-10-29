@@ -1,0 +1,290 @@
+{
+  "grade": 6,
+  "subject": "literature",
+  "lessons": [
+    {
+      "id": "literature-6-dessans",
+      "grade": 6,
+      "topic": 0,
+      "title": {"tk": "Dessanlar", "ru": "Дастаны"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Dessan — türkmen edebiýatynyň uly göwrümli eseri, onda nesir (proza) bilen nazym (goşgy) gezekleşip gelýär. Wakalar nesirde gürrüň berilýär, gahrymanlaryň duýgulary bolsa goşgy bilen aýdylýar.\n\n• Dessanlary halk arasynda bagşylar dutaryň sazy bilen ýerine ýetiripdirler.\n• Köp dessanlar asyrlar boýy dilden-dile geçip, soňra ýazga geçirilipdir.\n\nGörnüşleri:\n• Gahrymançylyk dessanlary — batyrlyk, il-güni goramak: «Görogly».\n• Söýgi dessanlary — wepaly söýgi, synaglar: «Zöhre-Tahyr», «Şasenem-Garyp», «Saýatly-Hemra», «Leýli-Mejnun».\n• Käbir dessanlary belli şahyrlar ýazypdyr: mysal üçin, Andalyp «Leýli-Mejnun» dessanyny döredipdir.",
+          "ru": "Дастан (dessan) — крупное произведение туркменской литературы, в котором проза и стихи чередуются. События рассказываются прозой, а чувства героев выражаются в стихах.\n\n• Дастаны исполняли в народе бахши (сказители-певцы) под аккомпанемент дутара.\n• Многие дастаны веками передавались из уст в уста и лишь потом были записаны.\n\nВиды:\n• Героические — о храбрости и защите народа: «Гёроглы».\n• Любовные — о верной любви и испытаниях: «Зохре и Тахир», «Шасенем и Гариб», «Саятлы и Хемра», «Лейли и Меджнун».\n• Некоторые дастаны созданы известными поэтами: например, Андалиб написал дастан «Лейли и Меджнун»."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mysal: «Zöhre-Tahyr» dessanynyň gurluşy.\n1. Başlangyç: iki maşgalada bir wagtda gyz (Zöhre) we oglan (Tahyr) dünýä inýär, olar bile ulalýarlar.\n2. Päsgel: Zöhräniň kakasy patyşa olaryň söýgüsine garşy çykýar.\n3. Synaglar: Tahyr kowulýar, sandyga salnyp derýa goýberilýär, ýöne wepaly söýgüsinden dänmeýär.\n4. Goşgular: gahrymanlar ýürek dertlerini goşgy bilen beýan edýärler.\n\nDessanyň esasy pikiri — hakyky söýgi we wepalylyk ähli päsgelçiliklerden güýçli.",
+          "ru": "Пример: строение дастана «Зохре и Тахир».\n1. Начало: в двух семьях одновременно рождаются девочка (Зохре) и мальчик (Тахир), они растут вместе.\n2. Препятствие: отец Зохре, падишах, против их любви.\n3. Испытания: Тахира изгоняют, его пускают по реке в сундуке, но он остаётся верен любви.\n4. Стихи: герои выражают свои переживания в стихах.\n\nГлавная мысль дастана — настоящая любовь и верность сильнее любых преград."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Dessanyň esasy aýratynlygy näme?", "ru": "Какова главная особенность дастана?"},
+          "options": [{"tk": "Diňe goşgudan ybarat", "ru": "Состоит только из стихов"}, {"tk": "Diňe gysga nesir", "ru": "Только короткая проза"}, {"tk": "Nesir bilen nazym gezekleşýär", "ru": "Проза и стихи чередуются"}],
+          "answer": 2,
+          "hint": {"tk": "Wakalar nähili, duýgular nähili beýan edilýär?", "ru": "Как передаются события, а как — чувства?"},
+          "explain": {"tk": "Dessanda wakalar nesir bilen, gahrymanlaryň duýgulary goşgy bilen berilýär.", "ru": "В дастане события излагаются прозой, а чувства героев — стихами."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«Görogly» — gahrymançylyk dessany.", "ru": "«Гёроглы» — героический дастан."},
+          "answer": true,
+          "hint": {"tk": "Görogly kim: aşykmy ýa-da il goragçysy batyrmy?", "ru": "Кто такой Гёроглы: влюблённый или богатырь-защитник?"},
+          "explain": {"tk": "Dogry. Görogly — il-gününi goraýan batyr, dessan onuň we onuň ýigitleriniň gahrymançylygy barada.", "ru": "Верно. Гёроглы — богатырь, защитник народа; дастан рассказывает о его подвигах и подвигах его джигитов."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Dessanlary halk arasynda kimler ýerine ýetiripdir?", "ru": "Кто исполнял дастаны в народе?"},
+          "options": [{"tk": "Bagşylar", "ru": "Бахши"}, {"tk": "Söwdagärler", "ru": "Купцы"}, {"tk": "Mugallymlar", "ru": "Учителя"}],
+          "answer": 0,
+          "hint": {"tk": "Olar dutar çalyp aýdym aýdýarlar.", "ru": "Они играют на дутаре и поют."},
+          "explain": {"tk": "Bagşylar dessanlary ýatdan bilip, dutaryň sazy bilen aýdypdyrlar we nesilden-nesle geçiripdirler.", "ru": "Бахши знали дастаны наизусть, исполняли их под дутар и передавали из поколения в поколение."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy dessan söýgi dessanydyr?", "ru": "Какой дастан — любовный?"},
+          "options": [{"tk": "Görogly", "ru": "Гёроглы"}, {"tk": "Şasenem-Garyp", "ru": "Шасенем и Гариб"}, {"tk": "Hiç biri", "ru": "Ни один"}],
+          "answer": 1,
+          "hint": {"tk": "Adynda iki ýaşyň ady bar.", "ru": "В названии — имена двух влюблённых."},
+          "explain": {"tk": "«Şasenem-Garyp» — iki ýaşyň wepaly söýgüsi barada dessan.", "ru": "«Шасенем и Гариб» — дастан о верной любви двух молодых людей."}
+        },
+        {"type": "world", "text": {
+          "tk": "2015-nji ýylda «Görogly» dessanyny ýerine ýetirmek sungaty Türkmenistanyň adyndan UNESCO-nyň Adamzadyň maddy däl medeni mirasynyň sanawyna girizildi.",
+          "ru": "В 2015 году искусство исполнения эпоса «Гёроглы» было внесено ЮНЕСКО в Список нематериального культурного наследия человечества по заявке Туркменистана."
+        }}
+      ]
+    },
+    {
+      "id": "literature-6-classical-poets",
+      "grade": 6,
+      "topic": 1,
+      "title": {"tk": "Nusgawy türkmen şahyrlary", "ru": "Классические туркменские поэты"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "XVIII–XIX asyrlar türkmen nusgawy edebiýatynyň gülläp ösen döwri hasaplanýar.\n\n• Döwletmämmet Azady (XVIII asyr) — alym we şahyr, Magtymgulynyň kakasy. «Wagzy-Azat» eserinde adalat we ahlak barada ýazypdyr.\n• Magtymguly Pyragy (1724-nji ýylda doglan) — türkmen edebiýatynyň iň meşhur şahyry. Ol halkyň agzybirligi, watan, ynsanperwerlik, ahlak barada ýazypdyr. Goşgulary düşnükli halk dilinde.\n• Nurmuhammet Andalyp (XVIII asyr) — «Leýli-Mejnun», «Ýusup-Züleýha» dessanlarynyň awtory.\n• Seýdi, Zelili, Kemine, Mollanepes, Magrupy (XVIII–XIX asyrlar) — her biriniň öz aýratyn äheňi bar: Kemine ýiti degişmeleri we satirasy bilen, Mollanepes söýgi lirikasy we «Zöhre-Tahyr» dessany bilen tanalýar.",
+          "ru": "XVIII–XIX века считаются временем расцвета классической туркменской литературы.\n\n• Довлетмамед Азади (XVIII в.) — учёный и поэт, отец Махтумкули. В произведении «Вагзы-Азат» писал о справедливости и нравственности.\n• Махтумкули Фраги (родился в 1724 году) — самый известный туркменский поэт. Он писал о единстве народа, родине, человечности, морали. Его стихи написаны понятным народным языком.\n• Нурмухаммед Андалиб (XVIII в.) — автор дастанов «Лейли и Меджнун», «Юсуп и Зулейха».\n• Сейди, Зелили, Кемине, Молланепес, Магруфи (XVIII–XIX вв.) — у каждого свой голос: Кемине известен острым юмором и сатирой, Молланепес — любовной лирикой и дастаном «Зохре и Тахир»."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mysal: şahyryň goşgusyny nädip öwrenmeli?\n1. Awtory we döwri anykla: Magtymguly, XVIII asyr.\n2. Temany tap: goşgy näme barada? (mysal: dostluk, il agzybirligi).\n3. Esasy pikiri kesgitle: şahyr okyja näme öwredýär?\n4. Çeperçilik serişdelerine üns ber: deňeşdirmeler, gaýtalamalar, nakyla meňzeş setirler.\n5. Öz pikiriňi aýt: bu pikir häzir hem möhümmi?\n\nMagtymgulynyň köp setirleri halk arasynda nakyl ýaly ulanylýar — bu onuň pikirleriniň durmuşa ýakyndygyny görkezýär.",
+          "ru": "Пример: как изучать стихотворение поэта?\n1. Определи автора и эпоху: Махтумкули, XVIII век.\n2. Найди тему: о чём стихотворение? (например, дружба, единство народа).\n3. Определи главную мысль: чему поэт учит читателя?\n4. Обрати внимание на художественные средства: сравнения, повторы, строки, похожие на пословицы.\n5. Выскажи своё мнение: актуальна ли эта мысль сегодня?\n\nМногие строки Махтумкули в народе используются как пословицы — это показывает, насколько его мысли близки к жизни."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Magtymgulynyň kakasy kim?", "ru": "Кто был отцом Махтумкули?"},
+          "options": [{"tk": "Kemine", "ru": "Кемине"}, {"tk": "Mollanepes", "ru": "Молланепес"}, {"tk": "Döwletmämmet Azady", "ru": "Довлетмамед Азади"}],
+          "answer": 2,
+          "hint": {"tk": "Ol hem şahyr we alym bolupdyr, «Wagzy-Azat» eserini ýazypdyr.", "ru": "Он тоже был поэтом и учёным, автором «Вагзы-Азат»."},
+          "explain": {"tk": "Döwletmämmet Azady — Magtymgulynyň kakasy we ilkinji mugallymy.", "ru": "Довлетмамед Азади — отец и первый учитель Махтумкули."}
+        },
+        {"type": "input",
+          "q": {"tk": "Magtymguly Pyragy haýsy ýylda doglupdyr?", "ru": "В каком году родился Махтумкули Фраги?"},
+          "answer": "1724",
+          "hint": {"tk": "XVIII asyryň birinji çärýegi.", "ru": "Первая четверть XVIII века."},
+          "explain": {"tk": "Magtymguly 1724-nji ýylda doglupdyr; 2024-nji ýylda onuň 300 ýyllygy bellendi.", "ru": "Махтумкули родился в 1724 году; в 2024 году отмечалось его 300-летие."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Kemine degişmeleri we satirasy bilen tanalýar.", "ru": "Кемине известен своим юмором и сатирой."},
+          "answer": true,
+          "hint": {"tk": "Teoriýada her şahyryň aýratynlygyna seret.", "ru": "Посмотри в теории особенности каждого поэта."},
+          "explain": {"tk": "Dogry. Kemine jemgyýetdäki adalatsyzlygy we ýaramaz häsiýetleri gülküli görnüşde görkezipdir; halk arasynda ol barada köp degişme gürrüňler bar.", "ru": "Верно. Кемине в смешной форме показывал несправедливость и пороки; в народе о нём ходит много шуточных историй."}
+        },
+        {"type": "choice",
+          "q": {"tk": "«Ýusup-Züleýha» dessanyny haýsy şahyr ýazypdyr?", "ru": "Какой поэт написал дастан «Юсуп и Зулейха»?"},
+          "options": [{"tk": "Andalyp", "ru": "Андалиб"}, {"tk": "Magrupy", "ru": "Магруфи"}, {"tk": "Zelili", "ru": "Зелили"}],
+          "answer": 0,
+          "hint": {"tk": "Ol «Leýli-Mejnun» dessanynyň hem awtory.", "ru": "Он же автор дастана «Лейли и Меджнун»."},
+          "explain": {"tk": "Nurmuhammet Andalyp «Ýusup-Züleýha» we «Leýli-Mejnun» dessanlaryny ýazypdyr.", "ru": "Нурмухаммед Андалиб написал дастаны «Юсуп и Зулейха» и «Лейли и Меджнун»."}
+        },
+        {"type": "world", "text": {
+          "tk": "Magtymgulynyň goşgulary rus, iňlis, nemes, türk, hytaý we başga köp dillere terjime edildi. Onuň 300 ýyllygy 2024-nji ýylda UNESCO-nyň ýatlanmaly seneleriniň sanawyna girizildi.",
+          "ru": "Стихи Махтумкули переведены на русский, английский, немецкий, турецкий, китайский и многие другие языки. Его 300-летие в 2024 году было включено в список памятных дат ЮНЕСКО."
+        }}
+      ]
+    },
+    {
+      "id": "literature-6-aesop-krylov",
+      "grade": 6,
+      "topic": 2,
+      "title": {"tk": "Ezop we Krylow", "ru": "Эзоп и Крылов"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Tamsil (basnýa) — gysga, köplenç ýumorly eser, onda haýwanlar ýa-da zatlar adamlar ýaly hereket edýär. Tamsiliň ahyrynda ýa-da başynda netije — ahlak sapagy (morál) bolýar.\n\nTamsilde allegoriýa ulanylýar: tilki — mekirlik, möjek — zalymlyk, eşek — samsyklyk, garynja — zähmetsöýerlik.\n\n• Ezop — gadymy grek tamsilçisi (b.e.öň VI asyr). Rowaýata görä, ol gul bolupdyr. Onuň tamsilleri nesirde, gysga we düşnükli.\n• Iwan Andreýewiç Krylow (1769–1844) — rus tamsilçisi, 200-den gowrak tamsil ýazypdyr. Ol Ezopyň we fransuz ýazyjysy Lafonteniň käbir sýužetlerini alyp, olary rus durmuşyna laýyklap, goşgy bilen täzeden ýazypdyr.",
+          "ru": "Басня (tamsil) — короткое, часто юмористическое произведение, где животные или предметы ведут себя как люди. В конце или в начале басни есть вывод — мораль.\n\nВ басне используется аллегория (иносказание): лиса — хитрость, волк — жестокость, осёл — глупость, муравей — трудолюбие.\n\n• Эзоп — древнегреческий баснописец (VI век до н. э.). По преданию, он был рабом. Его басни написаны прозой, коротко и ясно.\n• Иван Андреевич Крылов (1769–1844) — русский баснописец, написал более 200 басен. Он брал некоторые сюжеты Эзопа и французского писателя Лафонтена и пересказывал их стихами, приближая к русской жизни."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mysal: bir sýužet — iki awtor.\nEzopyň «Garynja we Çekirtge» tamsili: tomus boýy çekirtge saz çalyp oýnaýar, garynja bolsa gyş üçin iýmit ýygnaýar. Gyş gelende aç çekirtge garynjadan iýmit soraýar, ýöne kömek almaýar.\nKrylow şu sýužeti «Стрекоза и Муравей» (Iňňelek we Garynja) tamsilinde goşgy bilen täzeden ýazypdyr.\n\n1. Gahrymanlar: haýwanlar (allegoriýa).\n2. Tapawut: Ezopda nesir, Krylowda goşgy.\n3. Ahlak sapagy: wagtynda zähmet çek, geljegi oýla.",
+          "ru": "Пример: один сюжет — два автора.\nБасня Эзопа «Муравей и Цикада»: всё лето цикада поёт и веселится, а муравей запасает еду на зиму. Зимой голодная цикада просит у муравья еды, но не получает помощи.\nКрылов пересказал этот сюжет стихами в басне «Стрекоза и Муравей».\n\n1. Герои: животные (аллегория).\n2. Различие: у Эзопа — проза, у Крылова — стихи.\n3. Мораль: трудись вовремя, думай о будущем."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Tamsilde tilki köplenç haýsy häsiýeti aňladýar?", "ru": "Какое качество обычно олицетворяет лиса в басне?"},
+          "options": [{"tk": "Zähmetsöýerlik", "ru": "Трудолюбие"}, {"tk": "Mekirlik", "ru": "Хитрость"}, {"tk": "Sadalyk", "ru": "Простодушие"}],
+          "answer": 1,
+          "hint": {"tk": "«Garga we Tilki» tamsilinde tilki näme edýär?", "ru": "Что делает лиса в басне «Ворона и Лисица»?"},
+          "explain": {"tk": "Tilki tamsillerde mekirligiň nyşany: ol ýalan öwgi bilen garganyň peýnirini alýar.", "ru": "Лиса в баснях — символ хитрости: лестью она выманивает у вороны сыр."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Ezop öz tamsillerini goşgy bilen ýazypdyr.", "ru": "Эзоп писал свои басни стихами."},
+          "answer": false,
+          "hint": {"tk": "Mysaldaky tapawuda seret.", "ru": "Посмотри на различие в примере."},
+          "explain": {"tk": "Ýalňyş. Ezopyň tamsilleri nesirde; goşgy görnüşini soňky tamsilçiler, şol sanda Krylow beripdir.", "ru": "Неверно. Басни Эзопа — прозаические; стихотворную форму им придали позднейшие баснописцы, в том числе Крылов."}
+        },
+        {"type": "input",
+          "q": {"tk": "Krylow haýsy ýylda doglupdyr?", "ru": "В каком году родился Крылов?"},
+          "answer": "1769",
+          "hint": {"tk": "Teoriýada ýaşan ýyllaryna seret.", "ru": "Посмотри годы жизни в теории."},
+          "explain": {"tk": "I. A. Krylow 1769-njy ýylda doglup, 1844-nji ýylda aradan çykypdyr.", "ru": "И. А. Крылов родился в 1769 году и умер в 1844 году."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Tamsiliň ahyrynda berilýän gysga netijä näme diýilýär?", "ru": "Как называется краткий вывод в конце басни?"},
+          "options": [{"tk": "Ahlak sapagy (morál)", "ru": "Мораль"}, {"tk": "Sýužet", "ru": "Сюжет"}, {"tk": "Epigraf", "ru": "Эпиграф"}],
+          "answer": 0,
+          "hint": {"tk": "Ol okyja näme öwredýär?", "ru": "Он учит читателя чему-то."},
+          "explain": {"tk": "Morál — tamsiliň öwredýän ahlak netijesi.", "ru": "Мораль — нравственный вывод, которому учит басня."}
+        },
+        {"type": "world", "text": {
+          "tk": "«Ezop dili» diýen aňlatma hem Ezopyň adyndan gelip çykýar — ol pikiriňi göni aýtman, gizlin manyly, allegoriýa bilen beýan etmegi aňladýar. Bu aňlatma dünýäniň köp dillerinde ulanylýar.",
+          "ru": "Выражение «эзопов язык» происходит от имени Эзопа — так называют манеру говорить не прямо, а иносказательно, со скрытым смыслом. Это выражение используется во многих языках мира."
+        }}
+      ]
+    },
+    {
+      "id": "literature-6-plot-composition",
+      "grade": 6,
+      "topic": 3,
+      "title": {"tk": "Sýužet we kompozisiýa", "ru": "Сюжет и композиция"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Sýužet — eserde wakalaryň yzygiderliligi, ýagny näme bolýar we nähili tertipde.\nKompozisiýa — eseriň gurluşy, onuň bölekleriniň ýerleşişi.\n\nSýužetiň elementleri:\n• Ekspozisiýa — gahrymanlar we ýagdaý bilen tanyşdyrmak.\n• Düwün — wakalaryň başlanýan pursaty, gapma-garşylyk ýüze çykýar.\n• Wakalaryň ösüşi — dartgynlylyk artýar.\n• Kulminasiýa — iň ýokary dartgynly pursat.\n• Çözgüt — gapma-garşylyk çözülýär.\n\nKäbir eserlerde prolog (başlangyç sözi) we epilog (soňky söz — gahrymanlaryň soňky ykbaly) hem bolýar.",
+          "ru": "Сюжет — последовательность событий в произведении: что происходит и в каком порядке.\nКомпозиция — построение произведения, расположение его частей.\n\nЭлементы сюжета:\n• Экспозиция — знакомство с героями и обстановкой.\n• Завязка — момент, с которого начинаются события, возникает конфликт.\n• Развитие действия — напряжение нарастает.\n• Кульминация — момент наивысшего напряжения.\n• Развязка — конфликт разрешается.\n\nВ некоторых произведениях есть также пролог (вступление) и эпилог (заключение — дальнейшая судьба героев)."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mysal: «Zoluška» ertekisi.\n1. Ekspozisiýa: mähirli gyz ögeý ejesiniň öýünde agyr iş edip ýaşaýar.\n2. Düwün: köşkde bal bolýar, ýöne Zoluškany goýbermeýärler.\n3. Wakalaryň ösüşi: jadygöý peri oňa köýnek we kareta berýär, ol bala gidýär, şazada bilen tanyşýar.\n4. Kulminasiýa: sagat 12-ni urýar, Zoluška gaçýar we aýakgabynyň birini galdyrýar.\n5. Çözgüt: şazada aýakgabyň eýesini tapýar.",
+          "ru": "Пример: сказка «Золушка».\n1. Экспозиция: добрая девушка живёт в доме мачехи и выполняет тяжёлую работу.\n2. Завязка: во дворце бал, но Золушку не пускают.\n3. Развитие действия: фея дарит ей платье и карету, она едет на бал, знакомится с принцем.\n4. Кульминация: часы бьют полночь, Золушка убегает и теряет туфельку.\n5. Развязка: принц находит хозяйку туфельки."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Eserde iň ýokary dartgynly pursada näme diýilýär?", "ru": "Как называется момент наивысшего напряжения в произведении?"},
+          "options": [{"tk": "Ekspozisiýa", "ru": "Экспозиция"}, {"tk": "Çözgüt", "ru": "Развязка"}, {"tk": "Kulminasiýa", "ru": "Кульминация"}],
+          "answer": 2,
+          "hint": {"tk": "«Zoluškada» bu pursat sagat 12-ni urýan wagty.", "ru": "В «Золушке» это момент, когда бьёт полночь."},
+          "explain": {"tk": "Kulminasiýa — wakalaryň iň dartgynly nokady, ondan soň çözgüt gelýär.", "ru": "Кульминация — самая напряжённая точка, после неё наступает развязка."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Düwün — gapma-garşylygyň başlanýan pursaty.", "ru": "Завязка — момент, когда начинается конфликт."},
+          "answer": true,
+          "hint": {"tk": "Sýužet elementleriniň sanawyna seret.", "ru": "Посмотри список элементов сюжета."},
+          "explain": {"tk": "Dogry. Düwünde esasy wakalar «düwülýär», ýagny başlanýar.", "ru": "Верно. В завязке основные события «завязываются», то есть начинаются."}
+        },
+        {"type": "input",
+          "q": {"tk": "Sapakda sýužetiň näçe esasy elementi görkezildi (prolog we epilogy hasaplamazdan)?", "ru": "Сколько основных элементов сюжета названо в уроке (без пролога и эпилога)?"},
+          "answer": "5|bäş",
+          "hint": {"tk": "Ekspozisiýadan çözgüde çenli sana.", "ru": "Посчитай от экспозиции до развязки."},
+          "explain": {"tk": "Ekspozisiýa, düwün, wakalaryň ösüşi, kulminasiýa, çözgüt — 5.", "ru": "Экспозиция, завязка, развитие действия, кульминация, развязка — 5."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Eseriň ahyrynda gahrymanlaryň soňky ykbaly gürrüň berilýän bölege näme diýilýär?", "ru": "Как называется часть в конце, где рассказывается о дальнейшей судьбе героев?"},
+          "options": [{"tk": "Epilog", "ru": "Эпилог"}, {"tk": "Prolog", "ru": "Пролог"}, {"tk": "Düwün", "ru": "Завязка"}],
+          "answer": 0,
+          "hint": {"tk": "Prolog başda, bu bolsa ahyrda.", "ru": "Пролог — в начале, а это — в конце."},
+          "explain": {"tk": "Epilog — wakalar gutarandan soňky gürrüň.", "ru": "Эпилог — рассказ о том, что было после основных событий."}
+        },
+        {"type": "world", "text": {
+          "tk": "Mundan 2300 ýyldan gowrak öň grek filosofy Aristotel «Poetika» eserinde gowy sýužetiň başlangyjy, ortasy we soňy bolmalydygyny ýazypdyr. 1863-nji ýylda nemes ýazyjysy Gustaw Freýtag sýužetiň elementlerini «piramida» görnüşinde şekillendiripdir — bu çyzgy häzir hem mekdeplerde ulanylýar.",
+          "ru": "Более 2300 лет назад греческий философ Аристотель в «Поэтике» писал, что у хорошего сюжета должны быть начало, середина и конец. В 1863 году немецкий писатель Густав Фрейтаг изобразил элементы сюжета в виде «пирамиды» — эта схема до сих пор используется в школах."
+        }}
+      ]
+    },
+    {
+      "id": "literature-6-world-childrens-literature",
+      "grade": 6,
+      "topic": 4,
+      "title": {"tk": "Dünýä çagalar edebiýaty", "ru": "Мировая детская литература"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Dünýä çagalar edebiýatynda nesilden-nesle okalýan meşhur eserler bar:\n\n• Aka-ukalar Grimmler (Germaniýa, XIX asyr) — halk ertekilerini ýygnap neşir edipdirler: «Gyzyl börükli gyz», «Gar ak».\n• Hans Kristian Andersen (Daniýa, 1805–1875) — awtorlyk ertekileri: «Çirkin ördejik», «Gar şa aýaly», «Kiçijik suw perisi».\n• Lýuis Kerroll (Angliýa) — «Alisa täsinlikler ýurdunda» (1865).\n• Mark Twen (ABŞ) — «Tom Soýeriň başdan geçirmeleri» (1876).\n• Antuan de Sent-Ekzýuperi (Fransiýa) — «Kiçijik şazada» (1943).\n• Astrid Lindgren (Şwesiýa) — «Uzyn jorap Pippi», «Üçekde ýaşaýan Karlson».",
+          "ru": "В мировой детской литературе есть знаменитые произведения, которые читают из поколения в поколение:\n\n• Братья Гримм (Германия, XIX век) — собрали и издали народные сказки: «Красная Шапочка», «Белоснежка».\n• Ханс Кристиан Андерсен (Дания, 1805–1875) — авторские сказки: «Гадкий утёнок», «Снежная королева», «Русалочка».\n• Льюис Кэрролл (Англия) — «Алиса в Стране чудес» (1865).\n• Марк Твен (США) — «Приключения Тома Сойера» (1876).\n• Антуан де Сент-Экзюпери (Франция) — «Маленький принц» (1943).\n• Астрид Линдгрен (Швеция) — «Пеппи Длинныйчулок», «Малыш и Карлсон, который живёт на крыше»."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mysal: Anderseniň «Çirkin ördejik» ertekisini derňäliň.\n1. Gahryman: beýlekilere meňzemeýän, şonuň üçin hemmeler tarapyndan kemsidilýän jüýje.\n2. Wakalar: ol öýünden gaçýar, ýeke özi gyşy agyr şertlerde geçirýär.\n3. Çözgüt: ýaz gelende ol owadan guwa öwrülendigini görýär.\n4. Esasy pikir: daşky görnüşe görä adama baha bermeli däl; her kimiň öz gözelligi bar.\n\nTankytçylar bu ertekide Anderseniň öz durmuşy hem görünýär diýýärler: ol garyp maşgalada doglup, soňra dünýä belli ýazyjy bolupdyr.",
+          "ru": "Пример: разберём сказку Андерсена «Гадкий утёнок».\n1. Герой: птенец, не похожий на других, поэтому все его обижают.\n2. События: он убегает из дома, в одиночестве переживает тяжёлую зиму.\n3. Развязка: весной он видит, что превратился в прекрасного лебедя.\n4. Главная мысль: нельзя судить о ком-то по внешности; у каждого своя красота.\n\nКритики считают, что в этой сказке отразилась жизнь самого Андерсена: он родился в бедной семье, а стал всемирно известным писателем."
+        }},
+        {"type": "choice",
+          "q": {"tk": "«Kiçijik şazada» eseriniň awtory kim?", "ru": "Кто автор «Маленького принца»?"},
+          "options": [{"tk": "Mark Twen", "ru": "Марк Твен"}, {"tk": "Antuan de Sent-Ekzýuperi", "ru": "Антуан де Сент-Экзюпери"}, {"tk": "Lýuis Kerroll", "ru": "Льюис Кэрролл"}],
+          "answer": 1,
+          "hint": {"tk": "Awtor fransuz uçarmany bolupdyr.", "ru": "Автор был французским лётчиком."},
+          "explain": {"tk": "«Kiçijik şazadany» fransuz ýazyjysy we uçarman Antuan de Sent-Ekzýuperi 1943-nji ýylda neşir etdiripdir.", "ru": "«Маленького принца» опубликовал в 1943 году французский писатель и лётчик Антуан де Сент-Экзюпери."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Andersen Daniýaly ýazyjy.", "ru": "Андерсен — датский писатель."},
+          "answer": true,
+          "hint": {"tk": "Teoriýadaky ýurtlara seret.", "ru": "Посмотри страны в теории."},
+          "explain": {"tk": "Dogry. Hans Kristian Andersen Daniýada ýaşap döredipdir.", "ru": "Верно. Ханс Кристиан Андерсен жил и творил в Дании."}
+        },
+        {"type": "choice",
+          "q": {"tk": "«Gyzyl börükli gyz» ertekisini kimler ýygnap neşir edipdir?", "ru": "Кто собрал и издал сказку «Красная Шапочка»?"},
+          "options": [{"tk": "Aka-ukalar Grimmler", "ru": "Братья Гримм"}, {"tk": "Astrid Lindgren", "ru": "Астрид Линдгрен"}, {"tk": "Mark Twen", "ru": "Марк Твен"}],
+          "answer": 0,
+          "hint": {"tk": "Olar Germaniýada halk ertekilerini ýygnapdyrlar.", "ru": "Они собирали народные сказки в Германии."},
+          "explain": {"tk": "Grimmler doganlary Ýakob we Wilgelm nemes halk ertekilerini ýygnap neşir edipdirler, «Gyzyl börükli gyz» hem şolaryň arasynda.", "ru": "Братья Якоб и Вильгельм Гримм собрали и издали немецкие народные сказки, среди них и «Красная Шапочка»."}
+        },
+        {"type": "input",
+          "q": {"tk": "«Alisa täsinlikler ýurdunda» haýsy ýylda çykypdyr?", "ru": "В каком году вышла «Алиса в Стране чудес»?"},
+          "answer": "1865",
+          "hint": {"tk": "XIX asyryň ortalary, teoriýada bar.", "ru": "Середина XIX века, есть в теории."},
+          "explain": {"tk": "Lýuis Kerrolyň kitaby 1865-nji ýylda neşir edilipdir.", "ru": "Книга Льюиса Кэрролла вышла в 1865 году."}
+        },
+        {"type": "world", "text": {
+          "tk": "Anderseniň doglan güni — 2-nji aprel — Halkara çagalar kitaby güni hökmünde bellenilýär. Çagalar edebiýaty üçin iň abraýly halkara baýraga hem onuň ady dakylypdyr — Hans Kristian Andersen baýragy, oňa käwagt «kiçi Nobel baýragy» diýilýär.",
+          "ru": "День рождения Андерсена — 2 апреля — отмечается как Международный день детской книги. Самая престижная международная премия в детской литературе тоже носит его имя — премия Ханса Кристиана Андерсена, её иногда называют «малой Нобелевской премией»."
+        }}
+      ]
+    },
+    {
+      "id": "literature-6-character-image",
+      "grade": 6,
+      "topic": 5,
+      "title": {"tk": "Gahrymanyň obrazy", "ru": "Образ героя"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Obraz — ýazyjynyň döreden adamy (gahrymany), onuň häsiýeti we ykbaly. Okyjy gahryman bilen birnäçe serişdäniň kömegi bilen tanyşýar:\n\n• Portret — daşky görnüşi: ýüzi, egin-eşigi, hereketleri.\n• Hereketleri — ol näme edýär, kyn ýagdaýda özüni nähili alyp barýar.\n• Gepleşigi — nähili gürleýär, näme diýýär.\n• Içki dünýäsi — pikirleri, duýgulary.\n• Beýleki gahrymanlaryň oňa garaýşy.\n• Awtoryň garaýşy — ýazyjy oňa söýgi bilen ýa-da gülki bilen garaýar.\n\nGahrymanlar baş we ikinji derejeli, oňyn we ýaramaz bolýar.",
+          "ru": "Образ — созданный писателем человек (герой), его характер и судьба. Читатель узнаёт героя с помощью нескольких средств:\n\n• Портрет — внешность: лицо, одежда, движения.\n• Поступки — что он делает, как ведёт себя в трудной ситуации.\n• Речь — как и что он говорит.\n• Внутренний мир — мысли, чувства.\n• Отношение других героев к нему.\n• Отношение автора — пишет ли он о герое с любовью или с насмешкой.\n\nГерои бывают главные и второстепенные, положительные и отрицательные."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mysal: Göroglynyň obrazy.\n1. Ýagdaýy: ol gabyrda dünýä inen, ýetimlikde ulalan oglan — adynyň manysy hem şundan.\n2. Hereketleri: Çandybili galasyny gurýar, garyplary goraýar, zalym hanlara garşy göreşýär.\n3. Ýoldaşlary: ol Gyrat atyna we wepaly ýigitlerine uly hormat goýýar.\n4. Beýlekileriň garaýşy: il-gün ony goragçy hasaplaýar.\n5. Netije: Görogly — batyrlygyň, adalatyň we wepalylygyň nyşany.",
+          "ru": "Пример: образ Гёроглы.\n1. Предыстория: он родился в могиле и вырос сиротой — отсюда и его имя («сын могилы»).\n2. Поступки: строит крепость Чандыбиль, защищает бедных, борется с жестокими ханами.\n3. Товарищи: он очень ценит своего коня Гырата и верных джигитов.\n4. Отношение других: народ видит в нём защитника.\n5. Вывод: Гёроглы — символ храбрости, справедливости и верности."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Gahrymanyň daşky görnüşiniň beýany näme diýip atlandyrylýar?", "ru": "Как называется описание внешности героя?"},
+          "options": [{"tk": "Sýužet", "ru": "Сюжет"}, {"tk": "Portret", "ru": "Портрет"}, {"tk": "Peýzaž", "ru": "Пейзаж"}],
+          "answer": 1,
+          "hint": {"tk": "Suratkeşler hem adamy şeýle çekýärler.", "ru": "Художники тоже так называют изображение человека."},
+          "explain": {"tk": "Portret — gahrymanyň ýüzüniň, egin-eşiginiň we hereketleriniň beýany. Peýzaž — tebigatyň beýany.", "ru": "Портрет — описание лица, одежды и движений героя. Пейзаж — описание природы."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Gahrymanyň häsiýeti hakynda diňe onuň daşky görnüşinden bilip bolýar.", "ru": "О характере героя можно узнать только по его внешности."},
+          "answer": false,
+          "hint": {"tk": "«Çirkin ördejigi» ýatla.", "ru": "Вспомни «Гадкого утёнка»."},
+          "explain": {"tk": "Ýalňyş. Häsiýet köplenç hereketlerde, gepleşikde we pikirlerde has gowy görünýär.", "ru": "Неверно. Характер чаще всего лучше раскрывается в поступках, речи и мыслях."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Göroglynyň atynyň ady näme?", "ru": "Как зовут коня Гёроглы?"},
+          "options": [{"tk": "Gyrat", "ru": "Гырат"}, {"tk": "Bitirgen", "ru": "Битирген"}, {"tk": "Akbilek", "ru": "Акбилек"}],
+          "answer": 0,
+          "hint": {"tk": "Mysalda ýazylan.", "ru": "Это есть в примере."},
+          "explain": {"tk": "Gyrat — Göroglynyň wepaly we ganatly ýaly çalt aty; at dessanda gahrymanyň obrazyny açmaga kömek edýär.", "ru": "Гырат — верный и быстрый, словно крылатый, конь Гёроглы; конь помогает раскрыть образ героя."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Gahryman howp astyndaky dostuny gorap, özüni töwekgelçilige salýar. Bu onuň haýsy häsiýetini görkezýär?", "ru": "Герой рискует собой, защищая друга в беде. Какую черту это показывает?"},
+          "options": [{"tk": "Gorkaklyk", "ru": "Трусость"}, {"tk": "Hilegärlik", "ru": "Хитрость"}, {"tk": "Wepalylyk we batyrlyk", "ru": "Верность и храбрость"}],
+          "answer": 2,
+          "hint": {"tk": "Häsiýet hereketde görünýär.", "ru": "Характер виден в поступке."},
+          "explain": {"tk": "Dosty üçin töwekgelçilige gitmek — wepalylygyň we batyrlygyň alamaty.", "ru": "Рисковать ради друга — признак верности и храбрости."}
+        },
+        {"type": "world", "text": {
+          "tk": "Käbir edebi gahrymanlar şeýle meşhur, olaryň ady umumy at bolup galypdyr. Mysal üçin, Serwantesiň Don Kihoty sebäpli, durmuşdan daşda, asylly hyýallar bilen ýaşaýan adama «donkihot» diýilýär.",
+          "ru": "Некоторые литературные герои настолько знамениты, что их имена стали нарицательными. Например, по имени Дон Кихота Сервантеса «донкихотом» называют благородного мечтателя, оторванного от реальности."
+        }}
+      ]
+    }
+  ]
+}

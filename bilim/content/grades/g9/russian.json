@@ -1,0 +1,288 @@
+{
+  "grade": 9,
+  "subject": "russian",
+  "lessons": [
+    {
+      "id": "russian-9-compound-sentence",
+      "grade": 9,
+      "topic": 0,
+      "title": {"tk": "Sylanyşykly goşma sözlem", "ru": "Сложносочинённое предложение"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Sylanyşykly goşma sözlem (ССП) iki ýa-da birnäçe deňhukukly sada sözlemden ybarat. Olar sylanyşyk baglaýjylary bilen birleşýär.\n\nBaglaýjylaryň üç topary bar:\n• birleşdiriji: и, да (=и), ни…ни, тоже, также\n• garşylykly: а, но, да (=но), однако, зато\n• bölüji: или, либо, то…то, не то…не то\n\nDüzgün: sada sözlemleriň arasynda, baglaýjynyň öňünde otur goýulýar.\n• Солнце село, и на небе появились звёзды.\n\nKadadan çykma: eger iki bölegiň umumy ikinji derejeli agzasy bar bolsa, otur goýulmaýar.\n• Весной цветут сады и поют птицы. («весной» iki bölege-de degişli)",
+          "ru": "Сложносочинённое предложение (ССП) состоит из двух или нескольких равноправных простых предложений, соединённых сочинительными союзами.\n\nТри группы союзов:\n• соединительные: и, да (=и), ни…ни, тоже, также\n• противительные: а, но, да (=но), однако, зато\n• разделительные: или, либо, то…то, не то…не то\n\nПравило: между частями перед союзом ставится запятая.\n• Солнце село, и на небе появились звёзды.\n\nИсключение: если у частей есть общий второстепенный член, запятая не ставится.\n• Весной цветут сады и поют птицы. («весной» относится к обеим частям)"
+        }},
+        {"type": "example", "text": {
+          "tk": "Sözlem: «Я позвал друга, но он не услышал».\n\n1) Grammatik esaslary tapýarys: «я позвал» we «он не услышал» — iki esas, diýmek, sözlem goşma.\n2) Bölekleri birleşdirýän söz — «но». Bu garşylykly baglaýjy.\n3) Bölekler deňhukukly: hiç biri beýlekisine bagly däl.\n4) Umumy agza ýok, şonuň üçin «но» baglaýjysynyň öňünde otur goýýarys.\nNetije: bu sylanyşykly goşma sözlem.",
+          "ru": "Предложение: «Я позвал друга, но он не услышал».\n\n1) Находим грамматические основы: «я позвал» и «он не услышал» — две основы, значит, предложение сложное.\n2) Части соединяет «но» — противительный союз.\n3) Части равноправны: ни одна не зависит от другой.\n4) Общего члена нет, поэтому перед «но» ставим запятую.\nВывод: это сложносочинённое предложение."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Haýsy baglaýjy garşylykly baglaýjy?", "ru": "Какой союз является противительным?"},
+          "options": ["и", "но", "или"],
+          "answer": 1,
+          "hint": {"tk": "Garşylykly baglaýjy iki pikiri biri-birine garşy goýýar.", "ru": "Противительный союз противопоставляет две мысли."},
+          "explain": {"tk": "«Но» garşylyk aňladýar. «И» — birleşdiriji, «или» — bölüji baglaýjy.", "ru": "«Но» выражает противопоставление. «И» — соединительный, «или» — разделительный союз."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«Ветер стих и наступила тишина» sözleminde «и» baglaýjysynyň öňünde otur gerek.", "ru": "В предложении «Ветер стих и наступила тишина» перед «и» нужна запятая."},
+          "answer": true,
+          "hint": {"tk": "Grammatik esaslary sanaň we umumy agza barmy, barlaň.", "ru": "Посчитайте грамматические основы и проверьте, есть ли общий член."},
+          "explain": {"tk": "Iki esas bar («ветер стих», «наступила тишина»), umumy agza ýok. Dogrusy: «Ветер стих, и наступила тишина».", "ru": "Две основы («ветер стих», «наступила тишина»), общего члена нет. Правильно: «Ветер стих, и наступила тишина»."}
+        },
+        {"type": "input",
+          "q": {"tk": "Sözlemdäki baglaýjyny ýazyň: «Я позвонил, однако никто не ответил».", "ru": "Напишите союз из предложения: «Я позвонил, однако никто не ответил»."},
+          "answer": "однако",
+          "hint": {"tk": "Bu söz iki bölegiň arasynda, otudan soň dur.", "ru": "Это слово стоит между частями, после запятой."},
+          "explain": {"tk": "«Однако» — garşylykly baglaýjy, «но» manysynda.", "ru": "«Однако» — противительный союз со значением «но»."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy sözlemde dyngy belgileri dogry goýlan?", "ru": "В каком предложении знаки препинания расставлены правильно?"},
+          "options": ["То светит солнце то идёт дождь.", "То светит солнце, то, идёт дождь.", "То светит солнце, то идёт дождь."],
+          "answer": 2,
+          "hint": {"tk": "Gaýtalanýan baglaýjy «то…то» bölekleriň arasynda bir otur talap edýär.", "ru": "Повторяющийся союз «то…то» требует одной запятой между частями."},
+          "explain": {"tk": "Otur ikinji «то» baglaýjysynyň öňünde goýulýar, ondan soň goýulmaýar.", "ru": "Запятая ставится перед вторым «то», а после него не ставится."}
+        },
+        {"type": "world", "text": {
+          "tk": "Lew Tolstoý uzyn goşma sözlemleri bilen meşhur. Onuň «Uruş we parahatçylyk» romanynda käbir sözlemler bir sahypa golaý ýer tutýar.",
+          "ru": "Лев Толстой известен очень длинными сложными предложениями. В романе «Война и мир» некоторые предложения занимают почти целую страницу."
+        }}
+      ]
+    },
+    {
+      "id": "russian-9-complex-sentence",
+      "grade": 9,
+      "topic": 1,
+      "title": {"tk": "Eýerjeňli goşma sözlem", "ru": "Сложноподчинённое предложение"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Eýerjeňli goşma sözlem (СПП) baş sözlemden we oňa bagly eýerjeň sözlemden ybarat. Eýerjeň sözleme baş sözlemden sorag berip bolýar.\n\nEýerjeň sözlem şular arkaly birigýär:\n• eýerjeň baglaýjylar: что, чтобы, потому что, если, когда, хотя, как будто\n• baglaýjy sözler: который, какой, где, куда, откуда, кто, что\n\nEsasy görnüşleri:\n• aýyklaýjy (какой?): Дом, который построил дед, стоит у реки.\n• düşündiriji (düşüm soraglary): Я знаю, что он придёт.\n• hal eýerjeňleri: wagt (когда?), orun (где?), sebäp (почему?), maksat (зачем?), şert (при каком условии?), garşylyk (несмотря на что?).\n\nDüzgün: eýerjeň sözlem hemişe otur bilen aýrylýar. Ortada dursa — iki tarapdan.",
+          "ru": "Сложноподчинённое предложение (СПП) состоит из главного предложения и зависимого от него придаточного. От главного к придаточному можно задать вопрос.\n\nПридаточное присоединяется:\n• подчинительными союзами: что, чтобы, потому что, если, когда, хотя, как будто\n• союзными словами: который, какой, где, куда, откуда, кто, что\n\nОсновные виды:\n• определительные (какой?): Дом, который построил дед, стоит у реки.\n• изъяснительные (вопросы падежей): Я знаю, что он придёт.\n• обстоятельственные: времени (когда?), места (где?), причины (почему?), цели (зачем?), условия (при каком условии?), уступки (несмотря на что?).\n\nПравило: придаточное всегда отделяется запятыми; если оно стоит в середине — с двух сторон."
+        }},
+        {"type": "example", "text": {
+          "tk": "Sözlem: «Мы остались дома, потому что пошёл дождь».\n\n1) Baş sözlem: «Мы остались дома».\n2) Sorag berýäris: остались дома (почему?) — потому что пошёл дождь.\n3) «Потому что» — eýerjeň baglaýjy.\n4) Görnüşi: sebäp eýerjeň sözlemi.\n5) Eýerjeň sözlem otur bilen aýrylýar.\n\nShema: [ … ], (потому что … ).",
+          "ru": "Предложение: «Мы остались дома, потому что пошёл дождь».\n\n1) Главное: «Мы остались дома».\n2) Задаём вопрос: остались дома (почему?) — потому что пошёл дождь.\n3) «Потому что» — подчинительный союз.\n4) Вид: придаточное причины.\n5) Придаточное отделяется запятой.\n\nСхема: [ … ], (потому что … )."
+        }},
+        {"type": "choice",
+          "q": {"tk": "«Мы вышли из дома, когда рассвело» — eýerjeň sözlemiň görnüşi haýsy?", "ru": "«Мы вышли из дома, когда рассвело» — какого вида придаточное?"},
+          "options": [{"tk": "şert", "ru": "условия"}, {"tk": "maksat", "ru": "цели"}, {"tk": "wagt", "ru": "времени"}],
+          "answer": 2,
+          "hint": {"tk": "Baş sözlemden sorag beriň: вышли (когда?).", "ru": "Задайте вопрос от главного: вышли (когда?)."},
+          "explain": {"tk": "Eýerjeň sözlem «когда?» soragyna jogap berýär — bu wagt eýerjeňi.", "ru": "Придаточное отвечает на вопрос «когда?» — это придаточное времени."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«Который» — sylanyşyk baglaýjysy.", "ru": "«Который» — сочинительный союз."},
+          "answer": false,
+          "hint": {"tk": "Bu söz sözlemiň agzasy bolup bilýär we aýyklaýjy eýerjeňi birikdirýär.", "ru": "Это слово может быть членом предложения и присоединяет определительное придаточное."},
+          "explain": {"tk": "«Который» — baglaýjy söz, ol eýerjeň sözlemi birikdirýär. Sylanyşyk baglaýjylary — и, а, но, или we ş.m.", "ru": "«Который» — союзное слово, оно присоединяет придаточное. Сочинительные союзы — это и, а, но, или и т. п."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy sözlemde otur dogry goýlan?", "ru": "В каком предложении запятые расставлены правильно?"},
+          "options": ["Город, где я родился, очень красивый.", "Город где я родился, очень красивый.", "Город, где я родился очень красивый."],
+          "answer": 0,
+          "hint": {"tk": "Eýerjeň sözlem baş sözlemiň ortasynda dur.", "ru": "Придаточное стоит в середине главного."},
+          "explain": {"tk": "«Где я родился» ortada durýar, şonuň üçin iki tarapdan otur bilen aýrylýar.", "ru": "«Где я родился» стоит в середине, поэтому выделяется запятыми с двух сторон."}
+        },
+        {"type": "input",
+          "q": {"tk": "Haýsy baglaýjy goýmaly? «Я пришёл рано, ___ занять хорошее место.» (maksat)", "ru": "Какой союз нужно вставить? «Я пришёл рано, ___ занять хорошее место.» (цель)"},
+          "answer": "чтобы",
+          "hint": {"tk": "Maksat eýerjeňi «зачем?» soragyna jogap berýär.", "ru": "Придаточное цели отвечает на вопрос «зачем?»."},
+          "explain": {"tk": "Maksady «чтобы» baglaýjysy aňladýar: пришёл рано (зачем?) — чтобы занять место.", "ru": "Цель выражает союз «чтобы»: пришёл рано (зачем?) — чтобы занять место."}
+        },
+        {"type": "world", "text": {
+          "tk": "Rus diliniň ilkinji ylmy grammatikalaryndan biri — Mihail Lomonosowyň 1755-nji ýylda ýazan «Rus grammatikasy». Lomonosow alym, şahyr we Moskwa uniwersitetini esaslandyryjylaryň biri bolupdyr.",
+          "ru": "Одна из первых научных грамматик русского языка — «Российская грамматика» Михаила Ломоносова, написанная в 1755 году. Ломоносов был учёным, поэтом и одним из основателей Московского университета."
+        }}
+      ]
+    },
+    {
+      "id": "russian-9-asyndetic-sentence",
+      "grade": 9,
+      "topic": 2,
+      "title": {"tk": "Baglaýjysyz goşma sözlem", "ru": "Бессоюзное сложное предложение"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Baglaýjysyz goşma sözlemde (БСП) bölekler baglaýjysyz, diňe intonasiýa bilen birleşýär. Dyngy belgisi bölekleriň arasyndaky manydan bagly.\n\n• Otur ýa-da nokatly otur — wakalar sanalýar (bir wagtda ýa-da yzly-yzyna):\nСветало, деревня просыпалась.\n\n• Iki nokat (:) — ikinji bölek birinjini düşündirýär, sebäbini görkezýär ýa-da doldurýar. Içine «потому что», «а именно», «что» goýup bolýar:\nЯ не пошёл гулять: шёл дождь.\n\n• Tire (—) — garşylyk, çalt üýtgeşme, netije, şert ýa-da wagt. Içine «а», «и поэтому», «если», «когда» goýup bolýar:\nЛес рубят — щепки летят.",
+          "ru": "В бессоюзном сложном предложении (БСП) части соединяются без союзов, только интонацией. Знак препинания зависит от смысловых отношений между частями.\n\n• Запятая или точка с запятой — перечисление событий (одновременных или последовательных):\nСветало, деревня просыпалась.\n\n• Двоеточие (:) — вторая часть поясняет первую, называет причину или дополняет. Можно вставить «потому что», «а именно», «что»:\nЯ не пошёл гулять: шёл дождь.\n\n• Тире (—) — противопоставление, быстрая смена событий, следствие, условие или время. Можно вставить «а», «и поэтому», «если», «когда»:\nЛес рубят — щепки летят."
+        }},
+        {"type": "example", "text": {
+          "tk": "Sözlem: «Я открыл окно ___ в комнате было душно».\n\n1) Iki esas: «я открыл», «было душно».\n2) Baglaýjy goýup synap görýäris: «Я открыл окно, потому что в комнате было душно» — many saklanýar.\n3) Ikinji bölek sebäbi görkezýär → iki nokat.\nJogap: «Я открыл окно: в комнате было душно».\n\nDeňeşdiriň: «Будешь стараться — всё получится» = «Если будешь стараться, всё получится» → şert → tire.",
+          "ru": "Предложение: «Я открыл окно ___ в комнате было душно».\n\n1) Две основы: «я открыл», «было душно».\n2) Пробуем вставить союз: «Я открыл окно, потому что в комнате было душно» — смысл сохраняется.\n3) Вторая часть называет причину → двоеточие.\nОтвет: «Я открыл окно: в комнате было душно».\n\nСравните: «Будешь стараться — всё получится» = «Если будешь стараться, всё получится» → условие → тире."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Haýsy belgi gerek? «Будет дождь ___ останемся дома.»", "ru": "Какой знак нужен? «Будет дождь ___ останемся дома.»"},
+          "options": [",", ":", "—"],
+          "answer": 2,
+          "hint": {"tk": "Sözlemiň başyna «если» goýup görüň.", "ru": "Попробуйте поставить в начало «если»."},
+          "explain": {"tk": "«Если будет дождь, останемся дома» — birinji bölek şerti aňladýar, şonuň üçin tire goýulýar.", "ru": "«Если будет дождь, останемся дома» — первая часть выражает условие, поэтому ставится тире."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy sözlem baglaýjysyz goşma sözlem?", "ru": "Какое предложение является бессоюзным сложным?"},
+          "options": ["Я пришёл, но его не было.", "Наступила осень, листья пожелтели.", "Когда наступила осень, листья пожелтели."],
+          "answer": 1,
+          "hint": {"tk": "Bölekleriň arasynda hiç hili baglaýjy bolmaly däl.", "ru": "Между частями не должно быть никакого союза."},
+          "explain": {"tk": "Ikinji sözlemde iki esas bar we baglaýjy ýok. Birinjide «но», üçünjide «когда» bar.", "ru": "Во втором предложении две основы и нет союза. В первом есть «но», в третьем — «когда»."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«Я знаю: он придёт» sözleminde iki nokat dogry, sebäbi ikinji bölek birinjiniň mazmunyny açýar.", "ru": "В предложении «Я знаю: он придёт» двоеточие верно, потому что вторая часть раскрывает содержание первой."},
+          "answer": true,
+          "hint": {"tk": "Içine «что» goýup görüň.", "ru": "Попробуйте вставить «что»."},
+          "explain": {"tk": "«Я знаю, что он придёт» — ikinji bölek birinjini doldurýar, şonuň üçin iki nokat goýulýar.", "ru": "«Я знаю, что он придёт» — вторая часть дополняет первую, поэтому ставится двоеточие."}
+        },
+        {"type": "input",
+          "q": {"tk": "Bu sözlemde näçe sada sözlem bar? «Светало; деревня просыпалась; где-то пел петух.»", "ru": "Сколько простых предложений в этом предложении? «Светало; деревня просыпалась; где-то пел петух.»"},
+          "answer": "3",
+          "hint": {"tk": "Her bölekde habary tapyň.", "ru": "Найдите сказуемое в каждой части."},
+          "explain": {"tk": "Üç habar bar: «светало», «просыпалась», «пел». Diýmek, üç sada sözlem.", "ru": "Три сказуемых: «светало», «просыпалась», «пел». Значит, три простых предложения."}
+        },
+        {"type": "world", "text": {
+          "tk": "Rus nakyllarynyň köpüsi baglaýjysyz goşma sözlemdir. Wladimir Dalyň 1862-nji ýylda çap edilen «Rus halkynyň nakyllary» ýygyndysynda 30 000-den gowrak nakyl we atalar sözi bar.",
+          "ru": "Многие русские пословицы — это бессоюзные сложные предложения. В сборнике Владимира Даля «Пословицы русского народа», изданном в 1862 году, более 30 000 пословиц и поговорок."
+        }}
+      ]
+    },
+    {
+      "id": "russian-9-direct-indirect-speech",
+      "grade": 9,
+      "topic": 3,
+      "title": {"tk": "Göni we gytaklaýyn gürrüň", "ru": "Прямая и косвенная речь"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Göni gürrüň — birine degişli sözler üýtgedilmän berilýär we dyrnaga alynýar. Gytaklaýyn gürrüň — sözüň diňe manysy eýerjeňli goşma sözlem görnüşinde berilýär, dyrnak ýok.\n\nGöni gürrüňiň shemalary (А — awtoryň sözleri, П — göni gürrüň):\n• А: «П».\n• «П», — а.\n• «П?» — а. / «П!» — а.\n• «П, — а, — п».\n\nGytaklaýyn gürrüňe öwürmek:\n• habar sözlemi → «что»\n• sorag → «ли» ýa-da sorag sözi (где, когда, кто…)\n• haýyş, buýruk → «чтобы»\n• çalyşmalar we ýöňkeme üýtgeýär: «я» → «он/она».",
+          "ru": "Прямая речь — чужие слова, переданные без изменений, в кавычках. Косвенная речь — передаётся только смысл, в форме сложноподчинённого предложения, без кавычек.\n\nСхемы прямой речи (А — слова автора, П — прямая речь):\n• А: «П».\n• «П», — а.\n• «П?» — а. / «П!» — а.\n• «П, — а, — п».\n\nПеревод в косвенную речь:\n• повествовательное → союз «что»\n• вопрос → частица «ли» или вопросительное слово (где, когда, кто…)\n• просьба, приказ → союз «чтобы»\n• меняются местоимения и лицо глагола: «я» → «он/она»."
+        }},
+        {"type": "example", "text": {
+          "tk": "1) Мама сказала: «Я приду поздно».\n→ Мама сказала, что она придёт поздно.\n(«что» goşulýar, «я приду» → «она придёт», dyrnak aýrylýar)\n\n2) Друг спросил: «Где ты живёшь?»\n→ Друг спросил, где я живу.\n(sorag sözi saklanýar, «ты живёшь» → «я живу», sorag belgisi ýok)\n\n3) «Закройте дверь», — попросил учитель.\n→ Учитель попросил, чтобы мы закрыли дверь.",
+          "ru": "1) Мама сказала: «Я приду поздно».\n→ Мама сказала, что она придёт поздно.\n(добавлен союз «что», «я приду» → «она придёт», кавычки убраны)\n\n2) Друг спросил: «Где ты живёшь?»\n→ Друг спросил, где я живу.\n(вопросительное слово сохраняется, «ты живёшь» → «я живу», вопросительного знака нет)\n\n3) «Закройте дверь», — попросил учитель.\n→ Учитель попросил, чтобы мы закрыли дверь."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Göni gürrüň haýsy sözlemde dogry ýazylan?", "ru": "В каком предложении прямая речь оформлена правильно?"},
+          "options": ["«Я устал», — сказал брат.", "«Я устал» — сказал брат.", "«Я устал», сказал брат."],
+          "answer": 0,
+          "hint": {"tk": "Shema: «П», — а.", "ru": "Схема: «П», — а."},
+          "explain": {"tk": "Göni gürrüňden soň dyrnakdan soň otur we tire goýulýar, awtoryň sözleri kiçi harp bilen başlanýar.", "ru": "После прямой речи за кавычками ставятся запятая и тире, слова автора пишутся со строчной буквы."}
+        },
+        {"type": "choice",
+          "q": {"tk": "«Ты придёшь завтра?» — спросил друг. Gytaklaýyn gürrüňe dogry öwrülen görnüşi haýsy?", "ru": "«Ты придёшь завтра?» — спросил друг. Как правильно передать косвенной речью?"},
+          "options": ["Друг спросил, что я приду завтра.", "Друг спросил, чтобы я пришёл завтра.", "Друг спросил, приду ли я завтра."],
+          "answer": 2,
+          "hint": {"tk": "Sorag sözi ýok bolsa, haýsy bölejik ulanylýar?", "ru": "Если вопросительного слова нет, какая частица используется?"},
+          "explain": {"tk": "Sorag sözi ýok sorag «ли» bölejigi bilen berilýär: «приду ли я».", "ru": "Вопрос без вопросительного слова передаётся частицей «ли»: «приду ли я»."}
+        },
+        {"type": "input",
+          "q": {"tk": "Boş ýeri dolduryň: Учитель сказал: «Откройте книги». → Учитель сказал, ___ мы открыли книги.", "ru": "Заполните пропуск: Учитель сказал: «Откройте книги». → Учитель сказал, ___ мы открыли книги."},
+          "answer": "чтобы",
+          "hint": {"tk": "Bu buýruk ýa-da haýyş.", "ru": "Это приказ или просьба."},
+          "explain": {"tk": "Haýyş we buýruk gytaklaýyn gürrüňde «чтобы» baglaýjysy bilen berilýär.", "ru": "Просьба и приказ в косвенной речи передаются союзом «чтобы»."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Gytaklaýyn gürrüňde dyrnaklar saklanýar.", "ru": "В косвенной речи кавычки сохраняются."},
+          "answer": false,
+          "hint": {"tk": "Gytaklaýyn gürrüň — bu adaty eýerjeňli goşma sözlem.", "ru": "Косвенная речь — это обычное сложноподчинённое предложение."},
+          "explain": {"tk": "Gytaklaýyn gürrüňde dyrnak goýulmaýar, sebäbi sözler üýtgedilip berilýär.", "ru": "В косвенной речи кавычки не ставятся, потому что слова передаются в изменённом виде."}
+        },
+        {"type": "world", "text": {
+          "tk": "Rus tipografiýasynda esasy dyrnaklar «arçalar» (« ») diýlip atlandyrylýar. Dyrnagyň içinde ýene dyrnak gerek bolsa, „penjejikler“ ulanylýar.",
+          "ru": "В русской типографике основные кавычки называются «ёлочками» (« »). Если внутри цитаты нужны ещё кавычки, используются „лапки“."
+        }}
+      ]
+    },
+    {
+      "id": "russian-9-quotation",
+      "grade": 9,
+      "topic": 4,
+      "title": {"tk": "Sitata getirmek", "ru": "Цитирование"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Sitata — başga bir awtoryň sözleriniň takyk getirilmesi. Ol düzmede pikiri tassyklamak üçin ulanylýar.\n\nSitata getirmegiň usullary:\n• göni gürrüň ýaly: А: «П». Sitata baş harp bilen başlanýar.\n• sözlemiň bölegi hökmünde («что» bilen): sitata kiçi harp bilen başlanýar, iki nokat goýulmaýar.\n• giriş sözler bilen: «По словам…», «Как писал…» — sitata kiçi harp bilen.\n• epigraf — tekstiň başynda, dyrnaksyz ýazylýar, aşagynda awtoryň ady.\n\nSitatadan söz aýrylsa, onuň ýeri köp nokat (…) bilen bellenýär.",
+          "ru": "Цитата — дословно приведённые слова другого автора. В сочинении она подтверждает мысль.\n\nСпособы цитирования:\n• как прямая речь: А: «П». Цитата начинается с прописной буквы.\n• как часть предложения (с союзом «что»): цитата начинается со строчной буквы, двоеточие не ставится.\n• с вводными словами: «По словам…», «Как писал…» — цитата со строчной буквы.\n• эпиграф — в начале текста, без кавычек, под ним имя автора.\n\nЕсли в цитате пропущены слова, пропуск обозначается многоточием (…)."
+        }},
+        {"type": "example", "text": {
+          "tk": "Anton Çehowyň bir sözüni üç usulda getireliň:\n\n1) Göni gürrüň ýaly:\nА. П. Чехов писал: «В человеке должно быть всё прекрасно».\n\n2) «Что» bilen:\nЧехов считал, что «в человеке должно быть всё прекрасно».\n\n3) Giriş sözler bilen:\nПо мнению Чехова, «в человеке должно быть всё прекрасно».\n\n2-nji we 3-nji ýagdaýda sitata kiçi harp bilen başlanýar.",
+          "ru": "Приведём слова А. П. Чехова тремя способами:\n\n1) Как прямую речь:\nА. П. Чехов писал: «В человеке должно быть всё прекрасно».\n\n2) С союзом «что»:\nЧехов считал, что «в человеке должно быть всё прекрасно».\n\n3) С вводными словами:\nПо мнению Чехова, «в человеке должно быть всё прекрасно».\n\nВо 2-м и 3-м случаях цитата начинается со строчной буквы."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Haýsy sözlemde sitata dogry getirilen?", "ru": "В каком предложении цитата оформлена правильно?"},
+          "options": ["Чехов писал, что: «В человеке должно быть всё прекрасно».", "Чехов писал, что «в человеке должно быть всё прекрасно».", "Чехов писал что «В человеке должно быть всё прекрасно»."],
+          "answer": 1,
+          "hint": {"tk": "«Что» bilen sitata sözlemiň bölegi bolýar.", "ru": "С союзом «что» цитата становится частью предложения."},
+          "explain": {"tk": "«Что» öňünde otur, ondan soň iki nokat ýok, sitata kiçi harp bilen başlanýar.", "ru": "Перед «что» запятая, после него нет двоеточия, цитата начинается со строчной буквы."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Sitatadan aýrylan sözleriň ýeri köp nokat bilen bellenýär.", "ru": "Пропуск слов в цитате обозначается многоточием."},
+          "answer": true,
+          "hint": {"tk": "Okyjy bir zadyň aýrylandygyny bilmeli.", "ru": "Читатель должен понять, что что-то пропущено."},
+          "explain": {"tk": "Hawa, köp nokat (…) sitatanyň doly getirilmändigini görkezýär.", "ru": "Да, многоточие (…) показывает, что цитата приведена не полностью."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Epigraf adatça nähili ýazylýar?", "ru": "Как обычно оформляется эпиграф?"},
+          "options": [{"tk": "dyrnakda", "ru": "в кавычках"}, {"tk": "ýaýyň içinde", "ru": "в скобках"}, {"tk": "dyrnaksyz", "ru": "без кавычек"}],
+          "answer": 2,
+          "hint": {"tk": "Epigraf tekstden aýratyn, sag tarapda ýerleşýär.", "ru": "Эпиграф стоит отдельно от текста, справа."},
+          "explain": {"tk": "Epigraf dyrnaksyz ýazylýar, aşagynda awtoryň ady görkezilýär.", "ru": "Эпиграф пишется без кавычек, под ним указывается автор."}
+        },
+        {"type": "input",
+          "q": {"tk": "Awtoryň sözlerinden soň, baş harp bilen başlanýan sitatanyň öňünde haýsy belgi goýulýar? (Чехов писал ___ «…»)", "ru": "Какой знак ставится после слов автора перед цитатой с прописной буквы? (Чехов писал ___ «…»)"},
+          "answer": ":|двоеточие|iki nokat",
+          "hint": {"tk": "Bu göni gürrüňiň «А: «П»» shemasy.", "ru": "Это схема прямой речи «А: «П»»."},
+          "explain": {"tk": "Sitata göni gürrüň ýaly berilse, awtoryň sözlerinden soň iki nokat goýulýar.", "ru": "Если цитата оформлена как прямая речь, после слов автора ставится двоеточие."}
+        },
+        {"type": "world", "text": {
+          "tk": "Anton Çehow hünäri boýunça lukman bolupdyr we ömrüniň dowamynda näsaglary bejeripdir. Şol bir wagtda ol ýüzlerçe hekaýa we «Albalyly bag» ýaly meşhur pýesalary ýazypdyr.",
+          "ru": "Антон Чехов по профессии был врачом и всю жизнь лечил больных. При этом он написал сотни рассказов и знаменитые пьесы, например «Вишнёвый сад»."
+        }}
+      ]
+    },
+    {
+      "id": "russian-9-argumentative-essay",
+      "grade": 9,
+      "topic": 5,
+      "title": {"tk": "Düzme-pikirlenme", "ru": "Сочинение-рассуждение"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Düzme-pikirlenme bir soraga jogap berýär we öz pikiriňi subut edýär. Onuň üç bölegi bar:\n\n• Tezis — esasy pikir: «Я считаю, что…», «На мой взгляд,…»\n• Deliller — tezisi subut edýän 2 delil we mysallar: «Во-первых,…», «Во-вторых,…», «Например,…», «Докажу это примером…»\n• Netije — tezisi gaýtadan gysga aýtmak: «Таким образом,…», «Итак,…», «Следовательно,…»\n\nDüzgün: giriş sözler (во-первых, например, итак, таким образом, на мой взгляд) otur bilen aýrylýar.",
+          "ru": "Сочинение-рассуждение отвечает на вопрос и доказывает собственную мысль. Оно состоит из трёх частей:\n\n• Тезис — главная мысль: «Я считаю, что…», «На мой взгляд,…»\n• Аргументы — 2 доказательства тезиса с примерами: «Во-первых,…», «Во-вторых,…», «Например,…», «Докажу это примером…»\n• Вывод — краткое повторение тезиса: «Таким образом,…», «Итак,…», «Следовательно,…»\n\nПравило: вводные слова (во-первых, например, итак, таким образом, на мой взгляд) выделяются запятыми."
+        }},
+        {"type": "example", "text": {
+          "tk": "Tema: «Нужно ли читать книги?»\n\nTezis: Я считаю, что читать книги необходимо.\nDelil 1: Во-первых, чтение расширяет словарный запас. Например, кто много читает, обычно пишет грамотнее.\nDelil 2: Во-вторых, книги учат понимать других людей: мы смотрим на мир глазами героев.\nNetije: Таким образом, чтение делает человека умнее и добрее.\n\nHer bölekde giriş sözüň otur bilen aýrylandygyna üns beriň.",
+          "ru": "Тема: «Нужно ли читать книги?»\n\nТезис: Я считаю, что читать книги необходимо.\nАргумент 1: Во-первых, чтение расширяет словарный запас. Например, тот, кто много читает, обычно пишет грамотнее.\nАргумент 2: Во-вторых, книги учат понимать других людей: мы смотрим на мир глазами героев.\nВывод: Таким образом, чтение делает человека умнее и добрее.\n\nОбратите внимание: вводные слова в каждой части выделены запятыми."
+        }},
+        {"type": "choice",
+          "q": {"tk": "«Таким образом, спорт укрепляет здоровье.» Bu düzmäniň haýsy bölegi?", "ru": "«Таким образом, спорт укрепляет здоровье.» Какая это часть сочинения?"},
+          "options": [{"tk": "tezis", "ru": "тезис"}, {"tk": "delil", "ru": "аргумент"}, {"tk": "netije", "ru": "вывод"}],
+          "answer": 2,
+          "hint": {"tk": "«Таким образом» sözüne üns beriň.", "ru": "Обратите внимание на слова «таким образом»."},
+          "explain": {"tk": "«Таким образом» jemleýji söz — ol netijäni başlaýar.", "ru": "«Таким образом» — итоговые слова, они начинают вывод."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy söz birinji delili başlamak üçin has laýyk?", "ru": "Какое выражение лучше всего начинает первый аргумент?"},
+          "options": ["Во-первых,", "Подводя итог,", "В заключение,"],
+          "answer": 0,
+          "hint": {"tk": "Beýleki ikisi düzmäniň ahyrynda ulanylýar.", "ru": "Два других используются в конце сочинения."},
+          "explain": {"tk": "«Во-первых» delilleriň sanawyny başlaýar. «Подводя итог» we «В заключение» netije üçin.", "ru": "«Во-первых» начинает перечень аргументов. «Подводя итог» и «В заключение» — для вывода."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«Во-первых», «например», «итак» ýaly giriş sözler otur bilen aýrylýar.", "ru": "Вводные слова «во-первых», «например», «итак» выделяются запятыми."},
+          "answer": true,
+          "hint": {"tk": "Bu sözler sözlemiň agzasy däl.", "ru": "Эти слова не являются членами предложения."},
+          "explain": {"tk": "Giriş sözler sözlemiň agzasy bolmaýar we hemişe otur bilen aýrylýar.", "ru": "Вводные слова не являются членами предложения и всегда выделяются запятыми."}
+        },
+        {"type": "input",
+          "q": {"tk": "Düzme-pikirlenmäniň klassyky gurluşynda näçe esasy bölek bar?", "ru": "Сколько основных частей в классической структуре сочинения-рассуждения?"},
+          "answer": "3|три",
+          "hint": {"tk": "Tezis, … , netije.", "ru": "Тезис, … , вывод."},
+          "explain": {"tk": "Üç bölek: tezis, deliller we netije.", "ru": "Три части: тезис, аргументы и вывод."}
+        },
+        {"type": "world", "text": {
+          "tk": "Ynandyryjy pikirlenme sungaty gadymy döwürde öwrenilipdir. Aristotel «Ritorika» eserinde ynandyrmagyň üç serişdesini görkezipdir: logos (logika we subutnama), etos (gürleýjiniň abraýy) we patos (duýgulara täsir).",
+          "ru": "Искусство убедительного рассуждения изучали ещё в древности. Аристотель в «Риторике» выделил три средства убеждения: логос (логика и доказательства), этос (авторитет говорящего) и пафос (воздействие на чувства)."
+        }}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+{
+  "grade": 4,
+  "subject": "math",
+  "lessons": [
+    {
+      "id": "math-4-multi-digit-numbers",
+      "grade": 4,
+      "topic": 0,
+      "title": {"tk": "Köp belgili sanlar", "ru": "Многозначные числа"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Uly sanlary okamak üçin olary sagdan çepe üç sifrden toparlara bölýäris. Bu toparlara klas diýilýär.\n• Birlikler klasy: birlikler, onluklar, ýüzlükler\n• Müňler klasy: müňler, on müňler, ýüz müňler\n• Millionlar klasy: millionlar, on millionlar, ýüz millionlar\nKlaslaryň arasynda boşluk goýýarys: 3 405 726.",
+          "ru": "Чтобы прочитать большое число, разбиваем его справа налево на группы по три цифры. Эти группы называются классами.\n• Класс единиц: единицы, десятки, сотни\n• Класс тысяч: тысячи, десятки тысяч, сотни тысяч\n• Класс миллионов: миллионы, десятки миллионов, сотни миллионов\nМежду классами оставляем пробел: 3 405 726."
+        }},
+        {"type": "example", "text": {
+          "tk": "3 405 726 sanyny okalyň.\n1) Klaslara bölýäris: 3 | 405 | 726.\n2) Çepden başlap okaýarys: üç million, dört ýüz bäş müň, ýedi ýüz ýigrimi alty.\n3) Müňler klasynda 405 bar, şonuň üçin müňler ornunda 5, on müňler ornunda 0, ýüz müňler ornunda 4 durýar.",
+          "ru": "Прочитаем число 3 405 726.\n1) Делим на классы: 3 | 405 | 726.\n2) Читаем слева: три миллиона четыреста пять тысяч семьсот двадцать шесть.\n3) В классе тысяч стоит 405: в разряде тысяч — 5, десятков тысяч — 0, сотен тысяч — 4."
+        }},
+        {"type": "theory", "text": {
+          "tk": "Sanlary deňeşdirmek:\n• Haýsy sanda sifr köp bolsa, şol san uludyr: 10 000 > 9 999.\n• Sifrleriň sany deň bolsa, çepden başlap orunlary deňeşdirýäris: 52 308 > 52 290, sebäbi ýüzlükler ornunda 3 > 2.",
+          "ru": "Сравнение чисел:\n• Если в числе больше цифр, оно больше: 10 000 > 9 999.\n• Если цифр поровну, сравниваем разряды слева направо: 52 308 > 52 290, потому что в разряде сотен 3 > 2."
+        }},
+        {"type": "input",
+          "q": {"tk": "52 308 sanynda müňler ornunda haýsy sifr dur?", "ru": "Какая цифра стоит в разряде тысяч в числе 52 308?"},
+          "answer": "2",
+          "hint": {"tk": "Sagdan sanaň: birlikler, onluklar, ýüzlükler, soňra müňler.", "ru": "Считайте справа: единицы, десятки, сотни, затем тысячи."},
+          "explain": {"tk": "52 308: 8 — birlikler, 0 — onluklar, 3 — ýüzlükler, 2 — müňler, 5 — on müňler.", "ru": "52 308: 8 — единицы, 0 — десятки, 3 — сотни, 2 — тысячи, 5 — десятки тысяч."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy san iň uly?", "ru": "Какое число самое большое?"},
+          "options": ["98 765", "100 001", "99 999"],
+          "answer": 1,
+          "hint": {"tk": "Ilki sifrleriň sanyny deňeşdiriň.", "ru": "Сначала сравните количество цифр."},
+          "explain": {"tk": "100 001 alty belgili, beýlekiler bäş belgili. Diýmek, ol iň uly.", "ru": "100 001 — шестизначное число, остальные пятизначные. Значит, оно самое большое."}
+        },
+        {"type": "choice",
+          "q": {"tk": "“Iki million otuz müň bäş” nähili ýazylýar?", "ru": "Как записать «два миллиона тридцать тысяч пять»?"},
+          "options": ["2 300 005", "2 030 500", "2 030 005"],
+          "answer": 2,
+          "hint": {"tk": "Her klasda hökman üç sifr bolmaly (millionlardan başgasy).", "ru": "В каждом классе (кроме старшего) должно быть ровно три цифры."},
+          "explain": {"tk": "Millionlar: 2; müňler: 030; birlikler: 005. Netije: 2 030 005.", "ru": "Миллионы: 2; тысячи: 030; единицы: 005. Получаем 2 030 005."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Bir millionda 1000 müň bar.", "ru": "В одном миллионе 1000 тысяч."},
+          "answer": true,
+          "hint": {"tk": "1 000 × 1 000 näçe bolýar?", "ru": "Сколько будет 1 000 × 1 000?"},
+          "explain": {"tk": "1 000 × 1 000 = 1 000 000. Diýmek, bir million müň sany müňden ybarat.", "ru": "1 000 × 1 000 = 1 000 000. Значит, миллион — это тысяча тысяч."}
+        },
+        {"type": "world", "text": {
+          "tk": "Ýer bilen Günüň arasyndaky ortaça aralyk takmynan 150 million kilometre deň. Şeýle uly sanlary astronomlar her gün ulanýarlar!",
+          "ru": "Среднее расстояние от Земли до Солнца — около 150 миллионов километров. С такими большими числами астрономы работают каждый день!"
+        }}
+      ]
+    },
+    {
+      "id": "math-4-column-multiplication",
+      "grade": 4,
+      "topic": 1,
+      "title": {"tk": "Sütün bilen köpeltmek", "ru": "Умножение столбиком"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Uly sany bir belgili sana köpeltmek üçin sütün usulyny ulanýarys.\n• Sanlary orunlaryna görä biri-biriniň aşagyna ýazýarys.\n• Sagdan başlap, her sifri köpeldijä köpeldýäris.\n• Netije 9-dan uly bolsa, birligini ýazýarys, onlugyny “ýatda saklap” indiki oruna goşýarys.",
+          "ru": "Чтобы умножить большое число на однозначное, пользуемся умножением столбиком.\n• Записываем числа друг под другом по разрядам.\n• Начиная справа, умножаем каждую цифру на множитель.\n• Если получилось больше 9, записываем единицы, а десятки «запоминаем» и прибавляем к следующему разряду."
+        }},
+        {"type": "example", "text": {
+          "tk": "324 × 6 hasaplalyň.\n1) 4 × 6 = 24: 4 ýazýarys, 2 ýatda.\n2) 2 × 6 = 12, üstüne 2 goşýarys: 14. 4 ýazýarys, 1 ýatda.\n3) 3 × 6 = 18, üstüne 1 goşýarys: 19. 19 ýazýarys.\nJogap: 324 × 6 = 1944.",
+          "ru": "Вычислим 324 × 6.\n1) 4 × 6 = 24: пишем 4, 2 запоминаем.\n2) 2 × 6 = 12, плюс 2 — получаем 14. Пишем 4, 1 запоминаем.\n3) 3 × 6 = 18, плюс 1 — получаем 19. Пишем 19.\nОтвет: 324 × 6 = 1944."
+        }},
+        {"type": "theory", "text": {
+          "tk": "Iki belgili sana köpeltmek:\n213 × 23\n• 213 × 3 = 639 (birinji bölek netije)\n• 213 × 2 onluk = 4260 (ikinji bölek netije, bir orun çepe süýşýär)\n• 639 + 4260 = 4899",
+          "ru": "Умножение на двузначное число:\n213 × 23\n• 213 × 3 = 639 (первое неполное произведение)\n• 213 × 2 десятка = 4260 (второе неполное произведение, сдвинуто на один разряд влево)\n• 639 + 4260 = 4899"
+        }},
+        {"type": "input",
+          "q": {"tk": "306 × 5 = ?", "ru": "306 × 5 = ?"},
+          "answer": "1530",
+          "hint": {"tk": "Onluklar ornundaky 0-a köpeldeniňde ýatda saklanan sany unutmaň.", "ru": "Не забудьте прибавить запомненное число к разряду десятков, где стоит 0."},
+          "explain": {"tk": "6 × 5 = 30: 0 ýazýarys, 3 ýatda. 0 × 5 + 3 = 3. 3 × 5 = 15. Jogap: 1530.", "ru": "6 × 5 = 30: пишем 0, 3 в уме. 0 × 5 + 3 = 3. 3 × 5 = 15. Ответ: 1530."}
+        },
+        {"type": "choice",
+          "q": {"tk": "47 × 12 näçä deň?", "ru": "Чему равно 47 × 12?"},
+          "options": ["564", "517", "594"],
+          "answer": 0,
+          "hint": {"tk": "47 × 2 we 47 × 10 tapyp goşuň.", "ru": "Найдите 47 × 2 и 47 × 10 и сложите."},
+          "explain": {"tk": "47 × 2 = 94, 47 × 10 = 470. 94 + 470 = 564.", "ru": "47 × 2 = 94, 47 × 10 = 470. 94 + 470 = 564."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "125 × 8 = 1000", "ru": "125 × 8 = 1000"},
+          "answer": true,
+          "hint": {"tk": "125 × 4 näçe? Soňra ony ikä köpeldiň.", "ru": "Сколько будет 125 × 4? Потом умножьте на 2."},
+          "explain": {"tk": "125 × 4 = 500, 500 × 2 = 1000. Dogry.", "ru": "125 × 4 = 500, 500 × 2 = 1000. Верно."}
+        },
+        {"type": "input",
+          "q": {"tk": "Bir gutuda 24 sany galam bar. 15 gutuda näçe galam bar?", "ru": "В одной коробке 24 карандаша. Сколько карандашей в 15 коробках?"},
+          "answer": "360",
+          "hint": {"tk": "24 × 15 hasaplaň: 24 × 5 we 24 × 10.", "ru": "Вычислите 24 × 15: 24 × 5 и 24 × 10."},
+          "explain": {"tk": "24 × 5 = 120, 24 × 10 = 240. 120 + 240 = 360 galam.", "ru": "24 × 5 = 120, 24 × 10 = 240. 120 + 240 = 360 карандашей."}
+        },
+        {"type": "world", "text": {
+          "tk": "“Algoritm” sözi IX asyrda ýaşan alym Muhammet al-Horezminiň adyndan gelip çykýar. Ol hindi sifrleri bilen hasaplamagyň usullaryny beýan edipdir — sütün bilen hasaplamak hem şolaryň dowamy.",
+          "ru": "Слово «алгоритм» происходит от имени учёного IX века Мухаммада аль-Хорезми. Он описал способы вычислений с индийскими цифрами — умножение столбиком продолжает эту традицию."
+        }}
+      ]
+    },
+    {
+      "id": "math-4-long-division",
+      "grade": 4,
+      "topic": 2,
+      "title": {"tk": "Burç bilen bölmek", "ru": "Деление уголком"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Uly sany bölmek üçin burç (ugolok) usulyny ulanýarys. Çepden başlap, orunlary bir-birden bölýäris.\nHer ädimde:\n• Böl — bölünijiniň bölegini bölüjä böl.\n• Köpelt — tapylan sifri bölüjä köpelt.\n• Aýyr — netijäni aýyr.\n• Düşür — indiki sifri aşak düşür.\nGalyndy hemişe bölüjiden kiçi bolmaly.",
+          "ru": "Чтобы разделить большое число, пользуемся делением уголком. Делим по разрядам, начиная слева.\nНа каждом шаге:\n• Раздели — часть делимого на делитель.\n• Умножь — найденную цифру на делитель.\n• Вычти — полученное число.\n• Снеси — следующую цифру.\nОстаток всегда должен быть меньше делителя."
+        }},
+        {"type": "example", "text": {
+          "tk": "852 : 4 hasaplalyň.\n1) 8 : 4 = 2. 2 × 4 = 8, 8 − 8 = 0.\n2) 5-i düşürýäris. 5 : 4 = 1. 1 × 4 = 4, 5 − 4 = 1.\n3) 2-ni düşürýäris: 12. 12 : 4 = 3. 3 × 4 = 12, 12 − 12 = 0.\nJogap: 213. Barlag: 213 × 4 = 852.",
+          "ru": "Вычислим 852 : 4.\n1) 8 : 4 = 2. 2 × 4 = 8, 8 − 8 = 0.\n2) Сносим 5. 5 : 4 = 1. 1 × 4 = 4, 5 − 4 = 1.\n3) Сносим 2: получаем 12. 12 : 4 = 3. 3 × 4 = 12, 12 − 12 = 0.\nОтвет: 213. Проверка: 213 × 4 = 852."
+        }},
+        {"type": "input",
+          "q": {"tk": "936 : 3 = ?", "ru": "936 : 3 = ?"},
+          "answer": "312",
+          "hint": {"tk": "Her sifri yzygiderli 3-e bölüň.", "ru": "Делите по очереди каждую цифру на 3."},
+          "explain": {"tk": "9 : 3 = 3, 3 : 3 = 1, 6 : 3 = 2. Jogap: 312.", "ru": "9 : 3 = 3, 3 : 3 = 1, 6 : 3 = 2. Ответ: 312."}
+        },
+        {"type": "choice",
+          "q": {"tk": "745 : 5 näçä deň?", "ru": "Чему равно 745 : 5?"},
+          "options": ["147", "159", "149"],
+          "answer": 2,
+          "hint": {"tk": "7 : 5 = 1 (galyndy 2). Soňra 24 : 5.", "ru": "7 : 5 = 1 (остаток 2). Затем 24 : 5."},
+          "explain": {"tk": "7 : 5 = 1, galyndy 2. 24 : 5 = 4, galyndy 4. 45 : 5 = 9. Jogap: 149. Barlag: 149 × 5 = 745.", "ru": "7 : 5 = 1, остаток 2. 24 : 5 = 4, остаток 4. 45 : 5 = 9. Ответ: 149. Проверка: 149 × 5 = 745."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "47 : 5 = 9 (galyndy 2)", "ru": "47 : 5 = 9 (остаток 2)"},
+          "answer": true,
+          "hint": {"tk": "9 × 5 näçe? Oňa galyndyny goşuň.", "ru": "Сколько будет 9 × 5? Прибавьте остаток."},
+          "explain": {"tk": "9 × 5 = 45, 45 + 2 = 47. Galyndy 2 bölüjiden (5) kiçi. Dogry.", "ru": "9 × 5 = 45, 45 + 2 = 47. Остаток 2 меньше делителя 5. Верно."}
+        },
+        {"type": "input",
+          "q": {"tk": "8 sany awtobusa 1008 ýolagçy deň ýerleşdi. Bir awtobusda näçe ýolagçy bar?", "ru": "1008 пассажиров поровну разместились в 8 автобусах. Сколько пассажиров в одном автобусе?"},
+          "answer": "126",
+          "hint": {"tk": "1008 : 8. Ilki 10 : 8.", "ru": "1008 : 8. Сначала 10 : 8."},
+          "explain": {"tk": "10 : 8 = 1, galyndy 2. 20 : 8 = 2, galyndy 4. 48 : 8 = 6. Jogap: 126.", "ru": "10 : 8 = 1, остаток 2. 20 : 8 = 2, остаток 4. 48 : 8 = 6. Ответ: 126."}
+        },
+        {"type": "world", "text": {
+          "tk": "Bölmegiň “÷” belgisini 1659-njy ýylda şweýsar matematigi Ýohann Ran öz kitabynda ulanypdyr. Häzir köp ýurtlarda bölmek üçin “:” belgisi hem ulanylýar.",
+          "ru": "Знак деления «÷» впервые использовал в своей книге швейцарский математик Иоганн Ран в 1659 году. Сегодня во многих странах для деления пишут и двоеточие «:»."
+        }}
+      ]
+    },
+    {
+      "id": "math-4-fractions",
+      "grade": 4,
+      "topic": 3,
+      "title": {"tk": "Ülüşler we droblar", "ru": "Доли и дроби"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Bir zady deň böleklere bölsek, her bölek ülüş bolýar. Pizzany 4 deň bölege bölsek, bir bölegi — dörtden bir (1/4).\nDrob iki sandan ybarat:\n• Aşakdaky san (maýdalawjy) — bütin näçe deň bölege bölünendigini görkezýär.\n• Ýokarky san (sanawjy) — näçe bölek alnandygyny görkezýär.\n3/4 — dört bölegiň üçüsi alnan.",
+          "ru": "Если разделить предмет на равные части, каждая часть — это доля. Пиццу разрезали на 4 равные части — одна часть составляет одну четвёртую (1/4).\nДробь состоит из двух чисел:\n• Нижнее (знаменатель) показывает, на сколько равных частей разделили целое.\n• Верхнее (числитель) показывает, сколько частей взяли.\n3/4 — взяли три части из четырёх."
+        }},
+        {"type": "example", "text": {
+          "tk": "12 almanyň 3/4 bölegini tapalyň.\n1) Ilki 1/4 tapýarys: 12 : 4 = 3 alma.\n2) Soňra 3 bölek alýarys: 3 × 3 = 9 alma.\nJogap: 12-niň 3/4 bölegi 9-a deň.",
+          "ru": "Найдём 3/4 от 12 яблок.\n1) Сначала находим 1/4: 12 : 4 = 3 яблока.\n2) Берём 3 такие части: 3 × 3 = 9 яблок.\nОтвет: 3/4 от 12 равно 9."
+        }},
+        {"type": "theory", "text": {
+          "tk": "Droblary deňeşdirmek:\n• Maýdalawjylary deň bolsa, sanawjysy uly drob uludyr: 3/5 > 2/5.\n• Sanawjylary 1 bolsa, maýdalawjysy kiçi drob uludyr: 1/2 > 1/3, sebäbi ikä bölünen bölek üçe bölünenden uly.",
+          "ru": "Сравнение дробей:\n• Если знаменатели равны, больше та дробь, у которой больше числитель: 3/5 > 2/5.\n• Если числители равны 1, больше та дробь, у которой меньше знаменатель: 1/2 > 1/3, ведь половина больше трети."
+        }},
+        {"type": "input",
+          "q": {"tk": "20-niň 1/4 bölegi näçä deň?", "ru": "Сколько составляет 1/4 от 20?"},
+          "answer": "5",
+          "hint": {"tk": "20-ni 4 deň bölege bölüň.", "ru": "Разделите 20 на 4 равные части."},
+          "explain": {"tk": "20 : 4 = 5.", "ru": "20 : 4 = 5."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy drob iň uly?", "ru": "Какая дробь самая большая?"},
+          "options": ["1/8", "1/3", "1/5"],
+          "answer": 1,
+          "hint": {"tk": "Bütin näçe az bölege bölünse, her bölek şonça uly bolýar.", "ru": "Чем на меньшее число частей делят целое, тем больше каждая часть."},
+          "explain": {"tk": "Sanawjylar deň (1), maýdalawjysy iň kiçi 1/3. Diýmek, 1/3 iň uly.", "ru": "Числители равны (1), самый маленький знаменатель у 1/3. Значит, 1/3 — самая большая."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "2/6 drobunda maýdalawjy 2-ä deň.", "ru": "В дроби 2/6 знаменатель равен 2."},
+          "answer": false,
+          "hint": {"tk": "Maýdalawjy çyzygyň aşagynda durýar.", "ru": "Знаменатель стоит под чертой."},
+          "explain": {"tk": "2/6 drobunda sanawjy 2, maýdalawjy 6.", "ru": "В дроби 2/6 числитель 2, а знаменатель 6."}
+        },
+        {"type": "world", "text": {
+          "tk": "Gadymy müsürliler esasan sanawjysy 1 bolan droblary ulanypdyrlar (1/2, 1/3, 1/4…). Bu barada Rind papirusy diýlip atlandyrylýan gadymy matematika ýazgysy habar berýär.",
+          "ru": "Древние египтяне пользовались в основном дробями с числителем 1 (1/2, 1/3, 1/4…). Об этом рассказывает древний математический текст — папирус Ринда."
+        }}
+      ]
+    },
+    {
+      "id": "math-4-area",
+      "grade": 4,
+      "topic": 4,
+      "title": {"tk": "Meýdan", "ru": "Площадь"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Meýdan — şekiliň tekizlikde näçe ýer tutýandygyny görkezýär.\n• Meýdan kwadrat birliklerde ölçenýär: cm², m², km².\n• 1 cm² — tarapy 1 cm bolan kwadratyň meýdany.\n• Gönüburçlugyň meýdany: S = uzynlyk × ini.\n• Kwadratyň meýdany: S = tarapy × tarapy.",
+          "ru": "Площадь показывает, сколько места фигура занимает на плоскости.\n• Площадь измеряют в квадратных единицах: см², м², км².\n• 1 см² — площадь квадрата со стороной 1 см.\n• Площадь прямоугольника: S = длина × ширина.\n• Площадь квадрата: S = сторона × сторона."
+        }},
+        {"type": "example", "text": {
+          "tk": "Otagyň uzynlygy 6 m, ini 4 m. Onuň meýdanyny we perimetrini tapalyň.\n1) Meýdan: 6 × 4 = 24 m².\n2) Perimetr (daş-töweregiň uzynlygy): (6 + 4) × 2 = 20 m.\nÜns beriň: meýdan m² bilen, perimetr m bilen ölçenýär.",
+          "ru": "Длина комнаты 6 м, ширина 4 м. Найдём её площадь и периметр.\n1) Площадь: 6 × 4 = 24 м².\n2) Периметр (длина границы): (6 + 4) × 2 = 20 м.\nОбратите внимание: площадь измеряется в м², а периметр — в м."
+        }},
+        {"type": "input",
+          "q": {"tk": "Tarapy 6 cm bolan kwadratyň meýdany näçe cm²?", "ru": "Какова площадь квадрата со стороной 6 см (в см²)?"},
+          "answer": "36",
+          "hint": {"tk": "Tarapy tarapa köpeldiň.", "ru": "Умножьте сторону на сторону."},
+          "explain": {"tk": "6 × 6 = 36 cm².", "ru": "6 × 6 = 36 см²."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Uzynlygy 8 cm, ini 5 cm bolan gönüburçlugyň meýdany näçe?", "ru": "Чему равна площадь прямоугольника длиной 8 см и шириной 5 см?"},
+          "options": ["26 cm²", "13 cm²", "40 cm²"],
+          "answer": 2,
+          "hint": {"tk": "Meýdan üçin goşmaly däl, köpeltmeli.", "ru": "Для площади нужно не складывать, а умножать."},
+          "explain": {"tk": "8 × 5 = 40 cm². 26 cm bolsa perimetr bolardy.", "ru": "8 × 5 = 40 см². А 26 см — это был бы периметр."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Meýdany 24 cm², ini 3 cm bolan gönüburçlugyň uzynlygy 8 cm.", "ru": "Если площадь прямоугольника 24 см², а ширина 3 см, то длина равна 8 см."},
+          "answer": true,
+          "hint": {"tk": "Meýdany ine bölüň.", "ru": "Разделите площадь на ширину."},
+          "explain": {"tk": "24 : 3 = 8 cm. Barlag: 8 × 3 = 24.", "ru": "24 : 3 = 8 см. Проверка: 8 × 3 = 24."}
+        },
+        {"type": "input",
+          "q": {"tk": "Bagyň uzynlygy 10 m, ini 7 m. Onuň meýdany näçe m²?", "ru": "Длина сада 10 м, ширина 7 м. Какова его площадь в м²?"},
+          "answer": "70",
+          "hint": {"tk": "S = uzynlyk × ini.", "ru": "S = длина × ширина."},
+          "explain": {"tk": "10 × 7 = 70 m².", "ru": "10 × 7 = 70 м²."}
+        },
+        {"type": "world", "text": {
+          "tk": "FIFA halkara oýunlary üçin futbol meýdançasynyň ölçegini 105 m × 68 m bolmagyny maslahat berýär. Onuň meýdany 105 × 68 = 7140 m² — bu 17 sany basketbol meýdançasy (28 m × 15 m) ýaly!",
+          "ru": "FIFA рекомендует для международных матчей футбольное поле размером 105 м × 68 м. Его площадь 105 × 68 = 7140 м² — как у 17 баскетбольных площадок (28 м × 15 м)!"
+        }}
+      ]
+    },
+    {
+      "id": "math-4-speed-time-distance",
+      "grade": 4,
+      "topic": 5,
+      "title": {"tk": "Tizlik, wagt, aralyk", "ru": "Скорость, время, расстояние"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Tizlik — bir birlik wagtda geçilýän aralyk. Mysal üçin, 60 km/sag — bir sagatda 60 km.\nÜç düzgün:\n• Aralyk = tizlik × wagt (S = v × t)\n• Tizlik = aralyk : wagt (v = S : t)\n• Wagt = aralyk : tizlik (t = S : v)",
+          "ru": "Скорость — расстояние, которое проходят за единицу времени. Например, 60 км/ч — 60 км за один час.\nТри правила:\n• Расстояние = скорость × время (S = v × t)\n• Скорость = расстояние : время (v = S : t)\n• Время = расстояние : скорость (t = S : v)"
+        }},
+        {"type": "example", "text": {
+          "tk": "Awtoulag 60 km/sag tizlik bilen 3 sagat ýöredi. Ol näçe km ýol geçdi?\n1) Belli: v = 60 km/sag, t = 3 sag.\n2) S = v × t = 60 × 3 = 180 km.\nJogap: 180 km.",
+          "ru": "Автомобиль ехал 3 часа со скоростью 60 км/ч. Какое расстояние он проехал?\n1) Известно: v = 60 км/ч, t = 3 ч.\n2) S = v × t = 60 × 3 = 180 км.\nОтвет: 180 км."
+        }},
+        {"type": "input",
+          "q": {"tk": "Otly 4 sagatda 240 km ýol geçdi. Onuň tizligi näçe km/sag?", "ru": "Поезд прошёл 240 км за 4 часа. Какова его скорость в км/ч?"},
+          "answer": "60",
+          "hint": {"tk": "v = S : t", "ru": "v = S : t"},
+          "explain": {"tk": "240 : 4 = 60 km/sag.", "ru": "240 : 4 = 60 км/ч."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Welosipedçi 15 km/sag tizlik bilen 45 km ýol geçmeli. Oňa näçe wagt gerek?", "ru": "Велосипедист едет со скоростью 15 км/ч, ему нужно проехать 45 км. Сколько времени понадобится?"},
+          "options": [{"tk": "3 sagat", "ru": "3 часа"}, {"tk": "30 sagat", "ru": "30 часов"}, {"tk": "60 sagat", "ru": "60 часов"}],
+          "answer": 0,
+          "hint": {"tk": "t = S : v", "ru": "t = S : v"},
+          "explain": {"tk": "45 : 15 = 3 sagat.", "ru": "45 : 15 = 3 часа."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Pyýada 5 km/sag tizlik bilen 2 sagatda 7 km ýol geçýär.", "ru": "Пешеход со скоростью 5 км/ч за 2 часа проходит 7 км."},
+          "answer": false,
+          "hint": {"tk": "Tizligi wagta goşmaly däl, köpeltmeli.", "ru": "Скорость нужно не складывать со временем, а умножать."},
+          "explain": {"tk": "S = 5 × 2 = 10 km, 7 km däl.", "ru": "S = 5 × 2 = 10 км, а не 7 км."}
+        },
+        {"type": "input",
+          "q": {"tk": "Uçar 800 km/sag tizlik bilen 2 sagat uçdy. Ol näçe km uçdy?", "ru": "Самолёт летел 2 часа со скоростью 800 км/ч. Сколько километров он пролетел?"},
+          "answer": "1600",
+          "hint": {"tk": "S = v × t", "ru": "S = v × t"},
+          "explain": {"tk": "800 × 2 = 1600 km.", "ru": "800 × 2 = 1600 км."}
+        },
+        {"type": "world", "text": {
+          "tk": "Ýagtylyk iň çalt hereket edýär: onuň tizligi sekuntda takmynan 300 000 km. Günüň şöhlesi Ýere takmynan 8 minutda gelip ýetýär.",
+          "ru": "Быстрее всего движется свет: его скорость — около 300 000 км в секунду. Солнечный луч долетает до Земли примерно за 8 минут."
+        }}
+      ]
+    }
+  ]
+}

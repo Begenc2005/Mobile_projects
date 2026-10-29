@@ -1,0 +1,300 @@
+{
+  "grade": 12,
+  "subject": "biology",
+  "lessons": [
+    {
+      "id": "biology-12-laws-of-ecology",
+      "grade": 12,
+      "topic": 0,
+      "title": {"tk": "Ekologiýanyň kanunlary", "ru": "Законы экологии"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Ekologiýa — organizmleriň biri-biri we daşky gurşaw bilen gatnaşyklaryny öwrenýän ylym.\n\nEsasy kanunlar:\n• Libihiň minimum kanuny (1840): organizmiň ösüşini iň az ýetýän faktor (çäklendiriji faktor) kesgitleýär.\n• Şelfordyň çydamlylyk kanuny (1913): her faktor üçin optimum we çydamlylyk çäkleri bar; çäkden geçse, organizm ýaşap bilmeýär.\n• Lindemanyň 10% düzgüni (1942): bir trofiki derejeden indikisine energiýanyň takmynan 10%-i geçýär, galany esasan ýylylyk bolup ýitýär.\n• Kommoneriň dört kanuny (1971): «Hemme zat hemme zat bilen baglanyşykly», «Hemme zat bir ýere gitmeli», «Tebigat has gowy bilýär», «Mugt nahar ýokdur».",
+          "ru": "Экология — наука о взаимоотношениях организмов друг с другом и с окружающей средой.\n\nОсновные законы:\n• Закон минимума Либиха (1840): рост организма определяет фактор, находящийся в наименьшем количестве (лимитирующий фактор).\n• Закон толерантности Шелфорда (1913): для каждого фактора есть оптимум и пределы выносливости; за их границами организм не выживает.\n• Правило 10% Линдемана (1942): с одного трофического уровня на следующий переходит примерно 10% энергии, остальное в основном теряется в виде тепла.\n• Четыре закона Коммонера (1971): «Всё связано со всем», «Всё должно куда-то деваться», «Природа знает лучше», «Ничто не даётся даром»."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mesele: öndürijiler (otlar) 10 000 kJ energiýa toplaýar. Ikinji tertipli sarp edijilere (ýyrtyjylara) näçe energiýa ýeter?\n\n1) Öndürijiler: 10 000 kJ.\n2) Birinji tertipli sarp edijiler (towşanlar): 10 000 × 0,1 = 1 000 kJ.\n3) Ikinji tertipli sarp edijiler (tilkiler): 1 000 × 0,1 = 100 kJ.\n\nJogap: 100 kJ. Şonuň üçin iýmit zynjyrlary seýrek 4–5 halkadan uzyn bolýar.",
+          "ru": "Задача: продуценты (травы) накопили 10 000 кДж энергии. Сколько энергии достанется консументам второго порядка (хищникам)?\n\n1) Продуценты: 10 000 кДж.\n2) Консументы первого порядка (зайцы): 10 000 × 0,1 = 1 000 кДж.\n3) Консументы второго порядка (лисы): 1 000 × 0,1 = 100 кДж.\n\nОтвет: 100 кДж. Поэтому пищевые цепи редко бывают длиннее 4–5 звеньев."
+        }},
+        {"type": "input",
+          "q": {"tk": "Öndürijiler 20 000 kJ energiýa toplaýar. 10% düzgünine görä ikinji tertipli sarp edijilere näçe kJ ýeter?", "ru": "Продуценты накопили 20 000 кДж. Сколько кДж получат консументы второго порядка по правилу 10%?"},
+          "answer": "200",
+          "hint": {"tk": "Iki gezek 10-a bölüň.", "ru": "Дважды разделите на 10."},
+          "explain": {"tk": "20 000 → 2 000 (birinji tertip) → 200 kJ (ikinji tertip).", "ru": "20 000 → 2 000 (первый порядок) → 200 кДж (второй порядок)."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Topragda azot ýeterlik däl, beýleki maddalar köp. Libihiň kanunyna görä ösümligiň ösüşini näme çäklendirýär?", "ru": "В почве мало азота, остальных веществ много. Что, по закону Либиха, ограничивает рост растения?"},
+          "options": [
+            {"tk": "Iň köp bolan madda", "ru": "Вещество, которого больше всего"},
+            {"tk": "Azot", "ru": "Азот"},
+            {"tk": "Ähli maddalar deň derejede", "ru": "Все вещества в равной мере"}
+          ],
+          "answer": 1,
+          "hint": {"tk": "Kanunyň ady «minimum».", "ru": "Закон называется законом «минимума»."},
+          "explain": {"tk": "Ösüşi iň az ýetýän faktor — bu ýagdaýda azot — kesgitleýär. Beýleki maddalaryň köplügi muny düzetmeýär.", "ru": "Рост определяет фактор в недостатке — здесь азот. Избыток остальных веществ этого не компенсирует."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Şelfordyň kanunyna görä, faktoryň diňe ýetmezçiligi zyýanly, artykmaçlygy bolsa hiç wagt zyýanly däl.", "ru": "По закону Шелфорда вреден только недостаток фактора, а избыток никогда не вреден."},
+          "answer": false,
+          "hint": {"tk": "Çydamlylygyň iki çägi bar.", "ru": "У толерантности две границы."},
+          "explain": {"tk": "Ýalňyş. Çydamlylyk zolagynyň aşaky we ýokarky çägi bar: mysal üçin, ýylylygyň artykmaçlygy hem, ýetmezçiligi hem organizmi öldürip biler.", "ru": "Неверно. У зоны толерантности есть нижний и верхний пределы: например, и избыток, и недостаток тепла могут погубить организм."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Bir trofiki derejeden indikisine geçmeýän energiýanyň esasy bölegi nirä gidýär?", "ru": "Куда девается основная часть энергии, не перешедшей на следующий трофический уровень?"},
+          "options": [
+            {"tk": "Dem almakda ýylylyk bolup ýitýär", "ru": "Теряется в виде тепла при дыхании"},
+            {"tk": "Öndürijilere yzyna gaýdýar", "ru": "Возвращается обратно продуцентам"},
+            {"tk": "Täze energiýa öwrülip köpelýär", "ru": "Превращается в новую энергию и умножается"}
+          ],
+          "answer": 0,
+          "hint": {"tk": "Energiýa aýlanmaýar, ol akym bolup geçýär.", "ru": "Энергия не циркулирует, а проходит потоком."},
+          "explain": {"tk": "Energiýanyň köp bölegi öýjükde dem almakda we hereketde ulanylýar we ahyrynda ýylylyk bolup daşky gurşawa ýitýär. Maddalardan tapawutlylykda, energiýa ekosistemada aýlanmaýar.", "ru": "Большая часть энергии расходуется на клеточное дыхание и движение и в итоге рассеивается как тепло. В отличие от веществ, энергия в экосистеме не круговоротится."}
+        },
+        {"type": "world", "text": {
+          "tk": "Amerikaly ýaş alym Reýmond Lindeman energiýanyň trofiki derejeler boýunça akymy baradaky işini 1942-nji ýylda çap etdi. Ol bu makalanyň neşir edilenini görmedi: 27 ýaşynda keselden aradan çykdy. Emma onuň işi häzirki zaman ekosistema ekologiýasynyň esaslaryndan biri boldy.",
+          "ru": "Американский молодой учёный Реймонд Линдеман опубликовал работу о потоке энергии через трофические уровни в 1942 году. Он не увидел её выхода: умер от болезни в 27 лет. Но его работа стала одной из основ современной экосистемной экологии."
+        }}
+      ]
+    },
+    {
+      "id": "biology-12-populations",
+      "grade": 12,
+      "topic": 1,
+      "title": {"tk": "Populýasiýalar we olaryň ösüşi", "ru": "Популяции и их рост"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Populýasiýa — bir görnüşe degişli, bir territoriýada ýaşaýan we öz arasynda köpelýän osoblaryň toplumy.\n\nEsasy görkezijiler:\n• San we dykyzlyk (meselem, 1 km²-daky osoblar).\n• Dogluş we ölüm derejesi, göçüp gelmek we göçüp gitmek.\n• Ýaş we jyns gurluşy.\n\nÜýtgeýşiň formulasy: ΔN = (dogluş + göçüp gelen) − (ölüm + göçüp giden).\n\nÖsüşiň modelleri:\n• Eksponensial (J görnüşli) — çäklendirme ýok wagty.\n• Logistik (S görnüşli) — san gurşawyň göterijilik ukybyna (K) ýetende durnuklaşýar.\n\nStrategiýalar: r-strategler köp nesil berýär, az ideg edýär (siçanlar, mör-möjekler); K-strategler az nesil berýär, köp ideg edýär (pil, adam).",
+          "ru": "Популяция — совокупность особей одного вида, живущих на одной территории и скрещивающихся между собой.\n\nОсновные показатели:\n• Численность и плотность (например, особей на 1 км²).\n• Рождаемость и смертность, иммиграция и эмиграция.\n• Возрастная и половая структура.\n\nФормула изменения: ΔN = (рождения + иммигранты) − (смерти + эмигранты).\n\nМодели роста:\n• Экспоненциальная (J-образная) — при отсутствии ограничений.\n• Логистическая (S-образная) — численность стабилизируется у ёмкости среды (K).\n\nСтратегии: r-стратеги дают много потомков с малой заботой (мыши, насекомые); K-стратеги — мало потомков и много заботы (слон, человек)."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mesele: populýasiýada 1 000 osob bar. Bir ýylda 120 doguldy, 70 öldi, 10 göçüp geldi, 20 göçüp gitdi.\n\n1) ΔN = (120 + 10) − (70 + 20) = 130 − 90 = 40.\n2) Ýylyň ahyrynda: 1 000 + 40 = 1 040.\n3) Ösüş depgini: 40 / 1 000 = 0,04 = 4% ýylda.",
+          "ru": "Задача: в популяции 1 000 особей. За год родилось 120, умерло 70, иммигрировало 10, эмигрировало 20.\n\n1) ΔN = (120 + 10) − (70 + 20) = 130 − 90 = 40.\n2) В конце года: 1 000 + 40 = 1 040.\n3) Темп роста: 40 / 1 000 = 0,04 = 4% в год."
+        }},
+        {"type": "theory", "text": {
+          "tk": "Sany nädip ölçemeli? Tutup-bellemek-gaýtadan tutmak usuly (Linkoln–Petersen):\nN = (M × C) / R\n• M — birinji gezek tutulyp bellenen osoblar;\n• C — ikinji gezek tutulan osoblaryň ählisi;\n• R — ikinji tutuşdaky bellikli osoblar.",
+          "ru": "Как оценить численность? Метод мечения и повторного отлова (Линкольна–Петерсена):\nN = (M × C) / R\n• M — особи, пойманные и помеченные в первый раз;\n• C — все особи во втором отлове;\n• R — помеченные особи во втором отлове."
+        }},
+        {"type": "input",
+          "q": {"tk": "Kölde 40 balyk tutulyp bellendi we goýberildi. Soňra 50 balyk tutuldy, olaryň 10-synda bellik bar. Populýasiýanyň takmynan sany näçe?", "ru": "В озере поймали, пометили и отпустили 40 рыб. Затем поймали 50 рыб, из них 10 с меткой. Какова примерная численность популяции?"},
+          "answer": "200",
+          "hint": {"tk": "N = (M × C) / R.", "ru": "N = (M × C) / R."},
+          "explain": {"tk": "N = (40 × 50) / 10 = 2 000 / 10 = 200 balyk.", "ru": "N = (40 × 50) / 10 = 2 000 / 10 = 200 рыб."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Çäkli serişdeli gurşawda populýasiýanyň ösüş egrisi haýsy görnüşde bolýar?", "ru": "Какую форму имеет кривая роста популяции в среде с ограниченными ресурсами?"},
+          "options": [
+            {"tk": "J görnüşli (eksponensial)", "ru": "J-образную (экспоненциальную)"},
+            {"tk": "Göni çyzyk boýunça peselýän", "ru": "Прямолинейно убывающую"},
+            {"tk": "S görnüşli (logistik)", "ru": "S-образную (логистическую)"}
+          ],
+          "answer": 2,
+          "hint": {"tk": "San göterijilik ukybyna golaýlaşanda ösüş haýallaýar.", "ru": "При приближении к ёмкости среды рост замедляется."},
+          "explain": {"tk": "Serişdeler çäkli bolsa, ilki çalt ösüş bolýar, soňra ol haýallap, san K derejesinde durnuklaşýar — bu S görnüşli egri.", "ru": "При ограниченных ресурсах сначала рост быстрый, затем замедляется и численность стабилизируется на уровне K — это S-образная кривая."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "r-strategler köp nesil berýär, ýöne nesline az ideg edýär.", "ru": "r-стратеги производят много потомков, но мало заботятся о них."},
+          "answer": true,
+          "hint": {"tk": "Siçanlary we mör-möjekleri ýatlaň.", "ru": "Вспомните мышей и насекомых."},
+          "explain": {"tk": "Dogry. r-strategler üýtgäp durýan gurşawda köp nesil bermek arkaly ýaşaýar; neslin köpüsi ölýär, ýöne käbiri ýaşap galýar.", "ru": "Верно. r-стратеги выживают в нестабильной среде за счёт большого числа потомков; многие гибнут, но часть выживает."}
+        },
+        {"type": "world", "text": {
+          "tk": "Kanadadaky «Hudson's Bay Company» kompaniýasy 100 ýyldan gowrak wagtyň dowamynda satyn alnan silewsin we towşan derileriniň sanyny ýazga geçiripdir. Bu ýazgylar takmynan 10 ýyllyk sikli görkezýär: towşanlaryň sany köpelende, biraz gijräk silewsinleriň sany hem köpelýär. Bu «ýyrtyjy — ýem» gatnaşygynyň iň meşhur mysallaryndan biri.",
+          "ru": "Канадская «Компания Гудзонова залива» более 100 лет записывала число закупленных шкурок рыси и зайца-беляка. Эти записи показывают цикл примерно в 10 лет: когда растёт число зайцев, чуть позже растёт и число рысей. Это один из самых известных примеров отношений «хищник — жертва»."
+        }}
+      ]
+    },
+    {
+      "id": "biology-12-biodiversity",
+      "grade": 12,
+      "topic": 2,
+      "title": {"tk": "Biologik dürlülik", "ru": "Биоразнообразие"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Biologik dürlülik (biodürlülik) — Ýerdäki ýaşaýşyň köpdürlüligi. Onuň üç derejesi bar:\n• Genetik dürlülik — bir görnüşiň içindäki genleriň dürlüligi.\n• Görnüş dürlüligi — görnüşleriň sany we olaryň deňagramly paýlanyşy.\n• Ekosistema dürlüligi — çöller, tokaýlar, merjen rifleri we ş.m.\n\nAlymlar takmynan 2 million görnüşi suratlandyrdy, hakyky san bolsa has köp diýlip çaklanýar.\n\nBiodürlüligiň esasy howplary: ýaşaýyş ýerleriniň ýok edilmegi, artykmaç awlamak, getirilen (inwaziw) görnüşler, hapalanma, howanyň üýtgemegi.\n\nGoramagyň ýollary: goraghanalar, biosfera goraghanalary, tohum banklary, Gyzyl kitap, halkara konwensiýalar (Biologik dürlülik baradaky konwensiýa, 1992).",
+          "ru": "Биологическое разнообразие (биоразнообразие) — многообразие жизни на Земле. У него три уровня:\n• Генетическое — разнообразие генов внутри вида.\n• Видовое — число видов и равномерность их распределения.\n• Экосистемное — пустыни, леса, коралловые рифы и т. д.\n\nУчёные описали около 2 миллионов видов, а реальное число, по оценкам, гораздо больше.\n\nГлавные угрозы: разрушение местообитаний, перепромысел, инвазивные виды, загрязнение, изменение климата.\n\nПути охраны: заповедники, биосферные резерваты, банки семян, Красная книга, международные конвенции (Конвенция о биологическом разнообразии, 1992)."
+        }},
+        {"type": "example", "text": {
+          "tk": "Iki tokaýy deňeşdireliň. Ikisinde-de 3 görnüş we 100 agaç bar.\n• A tokaý: 34, 33, 33 agaç.\n• B tokaý: 98, 1, 1 agaç.\n\nGörnüş baýlygy (görnüşleriň sany) deň: 3 = 3.\nÝöne A tokaýda görnüşler deňagramly paýlanypdyr, B tokaýda bolsa bir görnüş agdyklyk edýär.\n\nNetije: A tokaýyň biodürlüligi ýokary. Şonuň üçin ekologlar diňe görnüşleriň sanyny däl, olaryň deňagramlylygyny hem hasaba alýar (meselem, Simpsonyň indeksi bilen).",
+          "ru": "Сравним два леса. В каждом 3 вида и 100 деревьев.\n• Лес A: 34, 33, 33 дерева.\n• Лес B: 98, 1, 1 дерево.\n\nВидовое богатство (число видов) одинаково: 3 = 3.\nНо в лесу A виды распределены равномерно, а в лесу B доминирует один вид.\n\nВывод: биоразнообразие леса A выше. Поэтому экологи учитывают не только число видов, но и их выравненность (например, индексом Симпсона)."
+        }},
+        {"type": "input",
+          "q": {"tk": "Biodürlüligiň näçe esasy derejesi bar?", "ru": "Сколько основных уровней биоразнообразия выделяют?"},
+          "answer": "3",
+          "hint": {"tk": "Genlerden başlap ekosistemalara çenli.", "ru": "От генов до экосистем."},
+          "explain": {"tk": "Üç: genetik, görnüş we ekosistema dürlüligi.", "ru": "Три: генетическое, видовое и экосистемное."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Biodürlüligiň «gyzgyn nokatlary» (hotspots) näme?", "ru": "Что такое «горячие точки» биоразнообразия (hotspots)?"},
+          "options": [
+            {"tk": "Iň yssy howaly sebitler", "ru": "Самые жаркие по климату регионы"},
+            {"tk": "Endemik görnüşlere baý we güýçli howp astyndaky sebitler", "ru": "Регионы, богатые эндемиками и сильно находящиеся под угрозой"},
+            {"tk": "Wulkanlaryň golaýyndaky sebitler", "ru": "Регионы рядом с вулканами"}
+          ],
+          "answer": 1,
+          "hint": {"tk": "Bu düşünje goramagyň ileri tutulýan ýerlerini görkezýär.", "ru": "Это понятие указывает приоритетные места для охраны."},
+          "explain": {"tk": "Norman Maýers (1988) bu düşünjäni girizdi: köp endemik görnüşli we tebigy ýaşaýyş ýerleriniň köp bölegini ýitiren sebitler. Mysal: Madagaskar, Tropiki Andlar.", "ru": "Понятие ввёл Норман Майерс (1988): регионы с множеством эндемиков, утратившие большую часть природных местообитаний. Примеры: Мадагаскар, Тропические Анды."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Genetik dürlüligi az bolan populýasiýa keseller we gurşawyň üýtgemegi bilen has gowşak göreşýär.", "ru": "Популяция с низким генетическим разнообразием хуже справляется с болезнями и изменениями среды."},
+          "answer": true,
+          "hint": {"tk": "Dürli genler — dürli uýgunlaşma mümkinçilikleri.", "ru": "Разные гены — разные возможности приспособления."},
+          "explain": {"tk": "Dogry. Genetik taýdan birmeňzeş osoblar bir kesele birmeňzeş duçar bolýar. Mysal: 1840-njy ýyllarda Irlandiýada bir sortly kartoşka kesele uçrap, uly açlyga sebäp boldy.", "ru": "Верно. Генетически однородные особи одинаково уязвимы к болезни. Пример: в 1840-х годах в Ирландии посадки картофеля почти одного сорта поразила болезнь, что вызвало Великий голод."}
+        },
+        {"type": "world", "text": {
+          "tk": "Norwegiýanyň Şpisbergen adasynda 2008-nji ýylda Bütindünýä tohum ammary açyldy. Ol hemişe doňak topragyň içindäki dagda gurlupdyr we dünýäniň dürli ýurtlaryndan ekin tohumlarynyň ätiýaçlyk nusgalaryny saklaýar — bu genetik dürlüligi goramagyň mysaly.",
+          "ru": "На норвежском архипелаге Шпицберген в 2008 году открылось Всемирное семенохранилище. Оно вырублено в горе в вечной мерзлоте и хранит резервные копии семян культурных растений из многих стран мира — пример охраны генетического разнообразия."
+        }}
+      ]
+    },
+    {
+      "id": "biology-12-human-and-biosphere",
+      "grade": 12,
+      "topic": 3,
+      "title": {"tk": "Adam we biosfera", "ru": "Человек и биосфера"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Biosfera — Ýeriň ýaşaýyş bar bolan gabygy. Bu taglymaty Wladimir Wernadskiý (1926) ösdürdi; ol adamyň akyl işiniň täsiri bilen üýtgeýän biosferany «noosfera» diýip atlandyrdy.\n\nAdamyň esasy täsirleri:\n• Parnik effektiniň güýçlenmegi — ýangyç ýakylanda CO₂ köpelýär.\n• Ozon gatlagynyň inçelmegi — freonlar sebäpli; Monreal protokoly (1987) olary çäklendirdi.\n• Ewtrofikasiýa — dökünler suwa düşüp, suw otlary köpelýär we kislorod azalýar.\n• Biologik toplanma (biomagnifikasiýa) — dargamaýan zäherler (meselem, DDT) iýmit zynjyrynyň her basgançagynda has köp toplanýar.\n• Ýaşaýyş ýerleriniň ýitmegi, çölleşme.\n\nRaýçel Karsonyň «Dymyk bahar» (1962) kitaby pestisidleriň guşlara täsirini görkezip, ekologik hereketiň başlanmagyna kömek etdi.",
+          "ru": "Биосфера — оболочка Земли, населённая живыми организмами. Учение о ней развил Владимир Вернадский (1926); биосферу, преобразуемую разумной деятельностью человека, он назвал «ноосферой».\n\nОсновные воздействия человека:\n• Усиление парникового эффекта — при сжигании топлива растёт CO₂.\n• Истощение озонового слоя — из-за фреонов; Монреальский протокол (1987) ограничил их.\n• Эвтрофикация — удобрения попадают в воду, водоросли разрастаются, кислорода становится меньше.\n• Биоаккумуляция (биомагнификация) — неразлагающиеся яды (например, ДДТ) накапливаются всё сильнее на каждом звене пищевой цепи.\n• Утрата местообитаний, опустынивание.\n\nКнига Рейчел Карсон «Безмолвная весна» (1962) показала вред пестицидов для птиц и помогла зародиться экологическому движению."
+        }},
+        {"type": "example", "text": {
+          "tk": "Biologik toplanmanyň şertli mysaly. Goý, zäheriň mukdary her derejede 10 esse köpelýär.\n\n1) Plankton: 0,04 mg/kg.\n2) Ownuk balyk: 0,04 × 10 = 0,4 mg/kg.\n3) Iri balyk: 0,4 × 10 = 4 mg/kg.\n4) Balykçy guş: 4 × 10 = 40 mg/kg.\n\nNetije: suwda zäher az bolsa-da, zynjyryň ujundaky ýyrtyjylar iň köp zyýan çekýär. DDT sebäpli käbir guşlaryň ýumurtga gabyklary inçelipdi.",
+          "ru": "Условный пример биоаккумуляции. Пусть концентрация яда растёт в 10 раз на каждом уровне.\n\n1) Планктон: 0,04 мг/кг.\n2) Мелкая рыба: 0,04 × 10 = 0,4 мг/кг.\n3) Крупная рыба: 0,4 × 10 = 4 мг/кг.\n4) Рыбоядная птица: 4 × 10 = 40 мг/кг.\n\nВывод: даже если яда в воде мало, сильнее всего страдают хищники на вершине цепи. Из-за ДДТ у некоторых птиц истончалась скорлупа яиц."
+        }},
+        {"type": "input",
+          "q": {"tk": "Planktonda zäheriň mukdary 0,5 mg/kg. Ol her derejede 10 esse köpelse, plankton → ownuk balyk → iri balyk → guş zynjyrynda guşda näçe mg/kg bolar?", "ru": "В планктоне 0,5 мг/кг яда. Если концентрация растёт в 10 раз на каждом уровне, сколько мг/кг будет у птицы в цепи планктон → мелкая рыба → крупная рыба → птица?"},
+          "answer": "500",
+          "hint": {"tk": "Planktondan guşa çenli üç ädim bar.", "ru": "От планктона до птицы три шага."},
+          "explain": {"tk": "0,5 → 5 → 50 → 500 mg/kg (0,5 × 10³).", "ru": "0,5 → 5 → 50 → 500 мг/кг (0,5 × 10³)."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Monreal protokoly (1987) näme maksat bilen kabul edildi?", "ru": "С какой целью был принят Монреальский протокол (1987)?"},
+          "options": [
+            {"tk": "Ozon gatlagyny dargadýan maddalary çäklendirmek", "ru": "Ограничить вещества, разрушающие озоновый слой"},
+            {"tk": "Balyk awlamagy gadagan etmek", "ru": "Запретить рыболовство"},
+            {"tk": "Tokaý ýangynlaryny söndürmek", "ru": "Тушить лесные пожары"}
+          ],
+          "answer": 0,
+          "hint": {"tk": "Freonlary ýatlaň.", "ru": "Вспомните фреоны."},
+          "explain": {"tk": "Protokol freonlary we beýleki ozon dargadyjy maddalary tapgyrlaýyn ýatyrdy. Alymlaryň çaklamalaryna görä, ozon gatlagy şu asyrda kem-kemden dikelýär.", "ru": "Протокол поэтапно вывел из оборота фреоны и другие озоноразрушающие вещества. По оценкам учёных, озоновый слой постепенно восстанавливается в этом веке."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Aral deňziniň guramagynyň esasy sebäbi Amyderýa we Syrderýa suwunyň suwaryş üçin köp mukdarda alynmagydyr.", "ru": "Главная причина высыхания Аральского моря — массовый забор воды Амударьи и Сырдарьи на орошение."},
+          "answer": true,
+          "hint": {"tk": "1960-njy ýyllardan başlap derýalaryň deňze ýetýän suwy azaldy.", "ru": "С 1960-х годов к морю стало доходить всё меньше речной воды."},
+          "explain": {"tk": "Dogry. Suwaryşyň giňelmegi bilen deňze gelýän suw ep-esli azaldy, deňiz kiçeldi, duzlulyk artdy we sebitiň ekosistemalary zeper çekdi.", "ru": "Верно. С расширением орошения приток воды к морю резко сократился, море уменьшилось, солёность выросла, экосистемы региона пострадали."}
+        },
+        {"type": "world", "text": {
+          "tk": "1971-nji ýylda UNESKO «Adam we biosfera» maksatnamasyny başlady. Onuň çäginde dünýäde biosfera goraghanalarynyň tory döredildi: olarda tebigaty goramak ýerli ilatyň durmuşy we ylmy gözlegler bilen utgaşdyrylýar.",
+          "ru": "В 1971 году ЮНЕСКО запустила программу «Человек и биосфера». В её рамках создана всемирная сеть биосферных резерватов, где охрана природы сочетается с жизнью местного населения и научными исследованиями."
+        }}
+      ]
+    },
+    {
+      "id": "biology-12-neurobiology",
+      "grade": 12,
+      "topic": 4,
+      "title": {"tk": "Neýrobiologiýa: neýron we nerw impulsy", "ru": "Нейробиология: нейрон и нервный импульс"},
+      "minutes": 11,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Neýron — nerw ulgamynyň esasy öýjügi. Bölekleri: göwre (ýadroly), dendritler (signaly kabul edýär), akson (signaly geçirýär), aksonyň uçlary.\n\nNerw ulgamy:\n• Merkezi (kelle beýni we oňurga beýni).\n• Periferiki (nerwler we nerw düwünleri).\n\nAdamyň beýninde takmynan 86 milliard neýron bar.\n\nAksonlaryň köpüsi miýelin gabygy bilen örtülendir. Signal Ranwýe kesiminden kesimine «böküp» geçýär (salýator geçiriş), şonuň üçin miýelinli süýümlerde tizlik 100 m/s-a çenli ýetip bilýär.",
+          "ru": "Нейрон — основная клетка нервной системы. Части: тело (с ядром), дендриты (принимают сигнал), аксон (проводит сигнал), окончания аксона.\n\nНервная система:\n• Центральная (головной и спинной мозг).\n• Периферическая (нервы и нервные узлы).\n\nВ мозге человека около 86 миллиардов нейронов.\n\nМногие аксоны покрыты миелиновой оболочкой. Сигнал «перепрыгивает» от перехвата Ранвье к перехвату (сальтаторное проведение), поэтому в миелинизированных волокнах скорость достигает 100 м/с."
+        }},
+        {"type": "theory", "text": {
+          "tk": "Nerw impulsy (hereket potensialy):\n• Dynçlyk potensialy ≈ −70 mW (öýjügiň içi daşyna görä otrisatel). Ony Na⁺/K⁺ nasosy saklaýar.\n• Depolýarizasiýa: Na⁺ kanallary açylýar, Na⁺ içerä girýär, potensial takmynan +30…+40 mW-a ýetýär.\n• Repolýarizasiýa: K⁺ daşaryk çykýar, potensial yzyna gaýdýar.\n\nSinaps — iki neýronyň arasyndaky birleşme. Signal himiki ýol bilen geçýär: aksonyň ujundan neýromediatorlar (asetilholin, dofamin, serotonin we ş.m.) bölünip çykýar we indiki öýjügiň reseptorlaryna birleşýär.",
+          "ru": "Нервный импульс (потенциал действия):\n• Потенциал покоя ≈ −70 мВ (внутри клетка заряжена отрицательно относительно наружной стороны). Его поддерживает Na⁺/K⁺-насос.\n• Деполяризация: открываются Na⁺-каналы, Na⁺ входит внутрь, потенциал достигает примерно +30…+40 мВ.\n• Реполяризация: K⁺ выходит наружу, потенциал возвращается.\n\nСинапс — контакт двух нейронов. Сигнал передаётся химически: из окончания аксона выделяются нейромедиаторы (ацетилхолин, дофамин, серотонин и др.) и связываются с рецепторами следующей клетки."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mesele: signal oňurga beýninden aýak barmagyna çenli 1 m aralygy geçýär. Miýelinli süýümde tizlik 100 m/s, miýelinsiz inçe süýümde 1 m/s. Wagtlary deňeşdiriň.\n\n1) t = s / v.\n2) Miýelinli: 1 / 100 = 0,01 s = 10 ms.\n3) Miýelinsiz: 1 / 1 = 1 s = 1 000 ms.\n\nNetije: miýelin signaly 100 esse çaltlandyrýar. Şonuň üçin miýelin zeper çekende (meselem, köp ýaýran skleroz) hereketler bozulýar.",
+          "ru": "Задача: сигнал идёт от спинного мозга до пальца ноги — 1 м. В миелинизированном волокне скорость 100 м/с, в тонком немиелинизированном — 1 м/с. Сравните время.\n\n1) t = s / v.\n2) Миелинизированное: 1 / 100 = 0,01 с = 10 мс.\n3) Немиелинизированное: 1 / 1 = 1 с = 1 000 мс.\n\nВывод: миелин ускоряет сигнал в 100 раз. Поэтому при повреждении миелина (например, при рассеянном склерозе) нарушаются движения."
+        }},
+        {"type": "input",
+          "q": {"tk": "Signal 50 m/s tizlik bilen 1 m aralygy näçe millisekuntda geçer?", "ru": "За сколько миллисекунд сигнал со скоростью 50 м/с пройдёт 1 м?"},
+          "answer": "20",
+          "hint": {"tk": "t = s / v, soňra sekundy millisekunda geçiriň.", "ru": "t = s / v, затем переведите секунды в миллисекунды."},
+          "explain": {"tk": "t = 1 / 50 = 0,02 s = 20 ms.", "ru": "t = 1 / 50 = 0,02 с = 20 мс."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Hereket potensialynyň depolýarizasiýa tapgyryna haýsy hadysa sebäp bolýar?", "ru": "Что вызывает фазу деполяризации потенциала действия?"},
+          "options": [
+            {"tk": "K⁺ ionlarynyň öýjükden çykmagy", "ru": "Выход ионов K⁺ из клетки"},
+            {"tk": "Cl⁻ ionlarynyň öýjükden çykmagy", "ru": "Выход ионов Cl⁻ из клетки"},
+            {"tk": "Na⁺ ionlarynyň öýjüge girmegi", "ru": "Вход ионов Na⁺ в клетку"}
+          ],
+          "answer": 2,
+          "hint": {"tk": "Içi otrisateldi — položitel ionlar girse näme bolar?", "ru": "Внутри был минус — что будет, если войдут положительные ионы?"},
+          "explain": {"tk": "Na⁺ kanallary açylanda položitel ionlar içerä girýär we membrananyň potensialy −70 mW-dan položitele geçýär. K⁺-nyň çykmagy bolsa repolýarizasiýa degişli.", "ru": "При открытии Na⁺-каналов положительные ионы входят внутрь и потенциал мембраны смещается от −70 мВ к положительным значениям. Выход K⁺ относится к реполяризации."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Himiki sinapsda signal bir neýrondan beýlekisine neýromediatorlaryň kömegi bilen geçýär.", "ru": "В химическом синапсе сигнал передаётся от нейрона к нейрону с помощью нейромедиаторов."},
+          "answer": true,
+          "hint": {"tk": "Asetilholin, dofamin, serotonin...", "ru": "Ацетилхолин, дофамин, серотонин..."},
+          "explain": {"tk": "Dogry. Elektrik impulsy aksonyň ujunda himiki signala öwrülýär: mediator sinaps ýaryşyndan geçip, indiki öýjügiň reseptorlaryna täsir edýär.", "ru": "Верно. На окончании аксона электрический импульс превращается в химический сигнал: медиатор пересекает синаптическую щель и действует на рецепторы следующей клетки."}
+        },
+        {"type": "world", "text": {
+          "tk": "Alan Hojkin we Endrýu Haksli nerw impulsynyň ion mehanizmini kalmaryň ýogyn aksonynda öwrendiler — onuň diametri takmynan 1 mm, şonuň üçin içine elektrod salmak mümkin boldy. Olar bu iş üçin 1963-nji ýylda Nobel baýragyna mynasyp boldular.",
+          "ru": "Алан Ходжкин и Эндрю Хаксли изучили ионный механизм нервного импульса на гигантском аксоне кальмара — его диаметр около 1 мм, поэтому внутрь можно было ввести электрод. За эту работу они получили Нобелевскую премию в 1963 году."
+        }}
+      ]
+    },
+    {
+      "id": "biology-12-review",
+      "grade": 12,
+      "topic": 5,
+      "title": {"tk": "Gaýtalamak: biologiýa", "ru": "Повторение: биология"},
+      "minutes": 12,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Biologiýanyň esasy düşünjeleri:\n• Öýjük — ýaşaýşyň birligi. Mitohondriýa ATF öndürýär, hloroplastlar fotosintez geçirýär, ýadroda DNK saklanýar.\n• Genetika: DNK-da azot esaslary jübütlenýär: A–T, G–C. Gen → RNK → belok (merkezi dogma).\n• Mendeliň kanunlary: dominant we resessiw alleller; Aa × Aa çaknyşmada fenotip boýunça 3 : 1.\n• Ewolýusiýa: Çarlz Darwin «Görnüşleriň gelip çykyşy» (1859) — tebigy saýlaw.\n• Ekologiýa: energiýa akymy (10% düzgüni), populýasiýalar, biodürlülik.\n• Nerw ulgamy: neýron, hereket potensialy, sinaps.",
+          "ru": "Ключевые понятия биологии:\n• Клетка — единица жизни. Митохондрии производят АТФ, хлоропласты осуществляют фотосинтез, в ядре хранится ДНК.\n• Генетика: азотистые основания ДНК образуют пары A–T, G–C. Ген → РНК → белок (центральная догма).\n• Законы Менделя: доминантные и рецессивные аллели; при скрещивании Aa × Aa расщепление по фенотипу 3 : 1.\n• Эволюция: Чарльз Дарвин «Происхождение видов» (1859) — естественный отбор.\n• Экология: поток энергии (правило 10%), популяции, биоразнообразие.\n• Нервная система: нейрон, потенциал действия, синапс."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mesele: noýbanyň sary tohumy (A) ýaşyl tohumyndan (a) dominant. Aa × aa çaknyşdyrylsa, nesliň näçe göterimi ýaşyl bolar?\n\n1) Aa ene-atanyň gametalary: A we a.\n2) aa ene-atanyň gametalary: diňe a.\n3) Nesil: Aa (sary) we aa (ýaşyl) — deň paýda.\n\nJogap: 50% ýaşyl. Bu analiz edýän çaknyşma diýilýär: ol dominant osobyň genotipini anyklamaga kömek edýär.",
+          "ru": "Задача: у гороха жёлтые семена (A) доминируют над зелёными (a). Какой процент потомства будет зелёным при скрещивании Aa × aa?\n\n1) Гаметы родителя Aa: A и a.\n2) Гаметы родителя aa: только a.\n3) Потомство: Aa (жёлтые) и aa (зелёные) поровну.\n\nОтвет: 50% зелёных. Это анализирующее скрещивание: оно помогает определить генотип доминантной особи."
+        }},
+        {"type": "input",
+          "q": {"tk": "Aa × Aa çaknyşmada nesliň näçe göterimi resessiw fenotipli (aa) bolar?", "ru": "Какой процент потомства от скрещивания Aa × Aa будет иметь рецессивный фенотип (aa)?"},
+          "answer": "25|25%",
+          "hint": {"tk": "Pennetiň gözenegini çyzyň: 4 öýjük.", "ru": "Начертите решётку Пеннета: 4 клетки."},
+          "explain": {"tk": "AA, Aa, aA, aa — dört mümkinçiligiň biri aa, ýagny 1/4 = 25%.", "ru": "AA, Aa, aA, aa — из четырёх вариантов один aa, то есть 1/4 = 25%."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Öýjükde ATF-iň esasy bölegini haýsy organoid öndürýär?", "ru": "Какой органоид производит основную часть АТФ в клетке?"},
+          "options": [
+            {"tk": "Ribosoma", "ru": "Рибосома"},
+            {"tk": "Mitohondriýa", "ru": "Митохондрия"},
+            {"tk": "Golji apparaty", "ru": "Аппарат Гольджи"}
+          ],
+          "answer": 1,
+          "hint": {"tk": "Ony öýjügiň «elektrik stansiýasy» diýip atlandyrýarlar.", "ru": "Её называют «электростанцией» клетки."},
+          "explain": {"tk": "Mitohondriýada kislorodly dem alyş geçýär we ATF-iň köp bölegi emele gelýär. Ribosoma belok sintez edýär, Golji apparaty maddalary gaplaýar we daşaýar.", "ru": "В митохондриях идёт кислородное дыхание и образуется большая часть АТФ. Рибосома синтезирует белок, аппарат Гольджи упаковывает и транспортирует вещества."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "DNK-da adenin guanin bilen jübütlenýär.", "ru": "В ДНК аденин образует пару с гуанином."},
+          "answer": false,
+          "hint": {"tk": "Komplementarlyk düzgünini ýatlaň: A–?, G–?", "ru": "Вспомните правило комплементарности: A–?, G–?"},
+          "explain": {"tk": "Ýalňyş. Adenin timin bilen (A–T), guanin sitozin bilen (G–C) jübütlenýär.", "ru": "Неверно. Аденин образует пару с тимином (A–T), гуанин — с цитозином (G–C)."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Tebigy saýlaw arkaly ewolýusiýa nazaryýetini kim esaslandyrdy?", "ru": "Кто обосновал теорию эволюции путём естественного отбора?"},
+          "options": [
+            {"tk": "Çarlz Darwin", "ru": "Чарльз Дарвин"},
+            {"tk": "Lui Paster", "ru": "Луи Пастер"},
+            {"tk": "Grigor Mendel", "ru": "Грегор Мендель"}
+          ],
+          "answer": 0,
+          "hint": {"tk": "«Bigl» gämisinde syýahat eden alym.", "ru": "Учёный, путешествовавший на корабле «Бигль»."},
+          "explain": {"tk": "Çarlz Darwin 1859-njy ýylda «Görnüşleriň gelip çykyşy» kitabyny neşir etdi (Alfred Uolles hem şuňa meňzeş netijä garaşsyz geldi). Mendel nesil yzarlaýjylygyň kanunlaryny, Paster mikrobiologiýany öwrendi.", "ru": "Чарльз Дарвин в 1859 году издал «Происхождение видов» (Альфред Уоллес независимо пришёл к сходному выводу). Мендель открыл законы наследственности, Пастер изучал микробиологию."}
+        },
+        {"type": "world", "text": {
+          "tk": "«Adamyň genomy» halkara taslamasy 1990-njy ýylda başlandy we 2003-nji ýylda tamamlandy diýlip yglan edildi. Ol adam DNK-synyň takmynan 3 milliard jübüt esasynyň yzygiderliligini okady. 2022-nji ýylda alymlar galan boşluklary hem doldurup, ilkinji gezek doly genomy çap etdiler.",
+          "ru": "Международный проект «Геном человека» стартовал в 1990 году и был объявлен завершённым в 2003 году. Он прочитал последовательность примерно 3 миллиардов пар оснований ДНК человека. В 2022 году учёные заполнили оставшиеся пробелы и впервые опубликовали полный геном."
+        }}
+      ]
+    }
+  ]
+}

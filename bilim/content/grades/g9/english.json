@@ -1,0 +1,288 @@
+{
+  "grade": 9,
+  "subject": "english",
+  "lessons": [
+    {
+      "id": "english-9-third-conditional",
+      "grade": 9,
+      "topic": 0,
+      "title": {"tk": "Third conditional", "ru": "Третий тип условных предложений"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Third conditional geçmişdäki hyýaly ýagdaý barada gürleýär: bolmadyk zat we onuň bolmadyk netijesi. Geçmişi indi üýtgedip bolmaýar.\n\nFormula:\nIf + Past Perfect (had + V3), would have + V3\n• If I had studied, I would have passed the test.\n(Okamok — synagdan geçmedim.)\n\nBellikler:\n• «would have» ýerine «could have» (başarardym) ýa-da «might have» (bolmagy mümkin) ulanyp bolýar.\n• Gysgaltmalar: I'd studied (= I had), I'd have passed (= I would have).\n• Bölekleriň ýerini çalşyp bolýar: I would have passed if I had studied. (Bu ýagdaýda otur goýulmaýar.)",
+          "ru": "Третий тип условных говорит о нереальном прошлом: о том, чего не было, и о результате, которого тоже не было. Прошлое изменить уже нельзя.\n\nФормула:\nIf + Past Perfect (had + V3), would have + V3\n• If I had studied, I would have passed the test.\n(Я не учил — и тест не сдал.)\n\nЗаметки:\n• Вместо «would have» можно использовать «could have» (смог бы) или «might have» (возможно).\n• Сокращения: I'd studied (= I had), I'd have passed (= I would have).\n• Части можно поменять местами: I would have passed if I had studied. (Тогда запятая не ставится.)"
+        }},
+        {"type": "example", "text": {
+          "tk": "Hakykat: We missed the bus, so we were late.\n\n1) Iki wakany tapýarys: «missed the bus» we «were late».\n2) Tersine öwürýäris: missed → had not missed; were late → would not have been late.\n3) Birleşdirýäris:\nIf we hadn't missed the bus, we wouldn't have been late.\n\nYene bir mysal:\nShe didn't know your number, so she didn't call.\n→ If she had known your number, she would have called.",
+          "ru": "Факт: We missed the bus, so we were late.\n\n1) Находим два события: «missed the bus» и «were late».\n2) Меняем на противоположное: missed → had not missed; were late → would not have been late.\n3) Соединяем:\nIf we hadn't missed the bus, we wouldn't have been late.\n\nЕщё пример:\nShe didn't know your number, so she didn't call.\n→ If she had known your number, she would have called."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Dogry görnüşi saýlaň: If it ___ yesterday, we would have stayed at home.", "ru": "Выберите правильную форму: If it ___ yesterday, we would have stayed at home."},
+          "options": ["rained", "had rained", "would rain"],
+          "answer": 1,
+          "hint": {"tk": "If bölegi Past Perfect talap edýär.", "ru": "В части с if нужен Past Perfect."},
+          "explain": {"tk": "Third conditional: If + had + V3. Şonuň üçin «had rained».", "ru": "Третий тип: If + had + V3. Поэтому «had rained»."}
+        },
+        {"type": "input",
+          "q": {"tk": "Boş ýeri dolduryň (bir söz): If you had asked me, I would ___ helped you.", "ru": "Заполните пропуск (одно слово): If you had asked me, I would ___ helped you."},
+          "answer": "have",
+          "hint": {"tk": "would + ? + V3", "ru": "would + ? + V3"},
+          "explain": {"tk": "Netije bölegi: would have + V3 → would have helped.", "ru": "Часть результата: would have + V3 → would have helped."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«If I had seen him, I would tell him» — third conditional üçin dogry sözlem.", "ru": "«If I had seen him, I would tell him» — правильное предложение третьего типа."},
+          "answer": false,
+          "hint": {"tk": "Netije böleginde «would» -dan soň näme gelmeli?", "ru": "Что должно идти после «would» в части результата?"},
+          "explain": {"tk": "Dogrusy: I would have told him. Geçmiş üçin «would have + V3» gerek.", "ru": "Правильно: I would have told him. Для прошлого нужно «would have + V3»."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy sözlem hakykaty dogry beýan edýär? «If he had left earlier, he wouldn't have missed the train.»", "ru": "Какое утверждение верно передаёт факт? «If he had left earlier, he wouldn't have missed the train.»"},
+          "options": ["He left early and caught the train.", "He will leave early tomorrow.", "He left late and missed the train."],
+          "answer": 2,
+          "hint": {"tk": "Third conditional hakykatyň tersini aýdýar.", "ru": "Третий тип говорит противоположное факту."},
+          "explain": {"tk": "Hakykatda ol gijä galyp çykdy we otla ýetişmedi.", "ru": "На самом деле он вышел поздно и опоздал на поезд."}
+        },
+        {"type": "world", "text": {
+          "tk": "1928-nji ýylda Aleksandr Fleming dynç alyşa gitmezden öň bakteriýaly gaplary arassalaman goýupdyr. Gaýdyp gelende, bir gapda kömelek bakteriýalary öldürendigini görüp, penisillini açypdyr. Alymlar köplenç: «If he had cleaned his dishes, he might not have discovered penicillin» diýip ýatlaýarlar.",
+          "ru": "В 1928 году Александр Флеминг уехал в отпуск, не убрав чашки с бактериями. Вернувшись, он увидел, что плесень в одной из них убила бактерии, — так был открыт пенициллин. Учёные часто шутят: «If he had cleaned his dishes, he might not have discovered penicillin»."
+        }}
+      ]
+    },
+    {
+      "id": "english-9-modals-of-deduction",
+      "grade": 9,
+      "topic": 1,
+      "title": {"tk": "Modals of deduction (çaklama modallary)", "ru": "Модальные глаголы предположения"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Modals of deduction — subutnamalara esaslanyp, näçe derejede ynamly çaklaýandygymyzy görkezýär.\n\nHäzirki zaman (modal + V1):\n• must — 90% ynamly: He must be tired. (Ol hökman ýadandyr.)\n• might / may / could — 50%: She might be at home.\n• can't — mümkin däl diýip ynamly: That can't be true.\n\nGeçmiş zaman (modal + have + V3):\n• must have gone — hökman gidendir\n• might have / may have / could have forgotten — ýatdan çykaran bolmagy mümkin\n• can't have / couldn't have seen — görüp bilmezdi\n\nÜns beriň: «must» -yň inkär görnüşi çaklamada «mustn't» däl-de, «can't».",
+          "ru": "Модальные глаголы предположения показывают, насколько мы уверены в выводе, сделанном по фактам.\n\nНастоящее (модальный + V1):\n• must — уверенность ~90%: He must be tired. (Он, должно быть, устал.)\n• might / may / could — ~50%: She might be at home.\n• can't — уверены, что невозможно: That can't be true.\n\nПрошлое (модальный + have + V3):\n• must have gone — наверняка ушёл\n• might have / may have / could have forgotten — возможно, забыл\n• can't have / couldn't have seen — не мог увидеть\n\nВнимание: в предположении отрицание от «must» — не «mustn't», а «can't»."
+        }},
+        {"type": "example", "text": {
+          "tk": "Ýagdaý: Aýnanyň ýanynda köwüş ýok, ýöne telefony stolda.\n\n1) Köwüş ýok → ol daşaryk çykandyr. Ynamly: She must have gone out.\n2) Telefony galdyrypdyr → näme üçin? Belki howlukdy: She might have been in a hurry.\n3) Ol telefona jogap berip bilmez: She can't answer the phone — it's here.\n\nSubutnama näçe güýçli bolsa, şonça güýçli modal saýlanýar.",
+          "ru": "Ситуация: у двери нет обуви Айны, но её телефон лежит на столе.\n\n1) Обуви нет → она вышла. Уверены: She must have gone out.\n2) Телефон оставила → почему? Возможно, спешила: She might have been in a hurry.\n3) Ответить на звонок она не может: She can't answer the phone — it's here.\n\nЧем сильнее доказательство, тем «сильнее» модальный глагол."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Dogry sözi saýlaň: The lights are off and nobody answers. They ___ be at home.", "ru": "Выберите слово: The lights are off and nobody answers. They ___ be at home."},
+          "options": ["must", "can't", "might"],
+          "answer": 1,
+          "hint": {"tk": "Subutnamalar olaryň öýde ýokdugyny görkezýär.", "ru": "Факты показывают, что их нет дома."},
+          "explain": {"tk": "Biz olaryň öýde bolmagynyň mümkin däldigine ynanýarys → can't.", "ru": "Мы уверены, что они не могут быть дома → can't."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy sözlem grammatik taýdan dogry?", "ru": "Какое предложение грамматически правильно?"},
+          "options": ["He must have left his keys at work.", "He must left his keys at work.", "He must has left his keys at work."],
+          "answer": 0,
+          "hint": {"tk": "Geçmiş çaklama: modal + have + V3.", "ru": "Предположение о прошлом: модальный + have + V3."},
+          "explain": {"tk": "Modaldan soň hemişe «have» (has däl) we V3 gelýär: must have left.", "ru": "После модального всегда «have» (не has) и V3: must have left."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«She might be ill» sözlemi gürleýjiniň doly ynamlydygyny görkezýär.", "ru": "Предложение «She might be ill» показывает, что говорящий полностью уверен."},
+          "answer": false,
+          "hint": {"tk": "«Might» näçe derejede ynamy aňladýar?", "ru": "Какую степень уверенности выражает «might»?"},
+          "explain": {"tk": "«Might» diňe mümkinçiligi (takmynan 50%) aňladýar, doly ynamy däl.", "ru": "«Might» выражает лишь возможность (около 50%), а не полную уверенность."}
+        },
+        {"type": "input",
+          "q": {"tk": "Bir söz bilen dolduryň: You've been working all day. You ___ be exhausted!", "ru": "Заполните одним словом: You've been working all day. You ___ be exhausted!"},
+          "answer": "must",
+          "hint": {"tk": "Güýçli subutnama → güýçli ynam.", "ru": "Сильное доказательство → сильная уверенность."},
+          "explain": {"tk": "Bütin gün işlänsoň, ýadandygyňa ynamly → must.", "ru": "После целого дня работы мы уверены, что ты устал → must."}
+        },
+        {"type": "world", "text": {
+          "tk": "Artur Konan Doýlyň döreden detektiwi Şerlok Holms deduksiýasy bilen meşhur. Ol doktor Watson bilen ilkinji duşuşykda onuň Owganystandan gelendigini dogry çaklapdyr — bu «must have been» ýaly pikirlenmäniň nusgasy.",
+          "ru": "Шерлок Холмс, сыщик Артура Конан Дойла, знаменит своим дедуктивным методом. При первой встрече с доктором Ватсоном он верно догадался, что тот вернулся из Афганистана — классический пример рассуждения типа «must have been»."
+        }}
+      ]
+    },
+    {
+      "id": "english-9-passive-all-tenses",
+      "grade": 9,
+      "topic": 2,
+      "title": {"tk": "Passive: all tenses (ähli zamanlarda passiw)", "ru": "Пассив: все времена"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Passiw (Passive Voice) hereketi kimiň edendigi däl-de, obýektiň başyna näme gelendigi möhüm bolanda ulanylýar.\n\nFormula: be (gerekli zamanda) + V3\n\n• Present Simple: The room is cleaned every day.\n• Present Continuous: The room is being cleaned.\n• Present Perfect: The room has been cleaned.\n• Past Simple: The room was cleaned.\n• Past Continuous: The room was being cleaned.\n• Past Perfect: The room had been cleaned.\n• Future Simple: The room will be cleaned.\n• Modallar: The room must be cleaned.\n\nHereketi edijini «by» bilen görkezip bolýar: The book was written by Dickens.",
+          "ru": "Пассив (Passive Voice) используется, когда важно не кто совершил действие, а что произошло с объектом.\n\nФормула: be (в нужном времени) + V3\n\n• Present Simple: The room is cleaned every day.\n• Present Continuous: The room is being cleaned.\n• Present Perfect: The room has been cleaned.\n• Past Simple: The room was cleaned.\n• Past Continuous: The room was being cleaned.\n• Past Perfect: The room had been cleaned.\n• Future Simple: The room will be cleaned.\n• Модальные: The room must be cleaned.\n\nИсполнителя можно указать с помощью «by»: The book was written by Dickens."
+        }},
+        {"type": "example", "text": {
+          "tk": "Aktiw: Workers are building a new bridge.\n\n1) Obýekt: «a new bridge» → täze eýe bolýar.\n2) Zaman: Present Continuous (are building).\n3) Passiwde: be → is being (eýe birlik sanda).\n4) Işlik V3: built.\nNetije: A new bridge is being built (by workers).\n\nAdatça «by workers» aýrylýar, sebäbi köprüni işçileriň gurýandygy düşnükli.",
+          "ru": "Актив: Workers are building a new bridge.\n\n1) Объект: «a new bridge» → становится подлежащим.\n2) Время: Present Continuous (are building).\n3) В пассиве: be → is being (подлежащее в единственном числе).\n4) Глагол в V3: built.\nИтог: A new bridge is being built (by workers).\n\nОбычно «by workers» опускают: и так понятно, кто строит мост."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Dogry görnüşi saýlaň: The letter ___ yesterday.", "ru": "Выберите правильную форму: The letter ___ yesterday."},
+          "options": ["was sent", "is sent", "has sent"],
+          "answer": 0,
+          "hint": {"tk": "«Yesterday» → Past Simple; hat özi ibermeýär.", "ru": "«Yesterday» → Past Simple; письмо само себя не отправляет."},
+          "explain": {"tk": "Past Simple Passive: was/were + V3 → was sent.", "ru": "Past Simple Passive: was/were + V3 → was sent."}
+        },
+        {"type": "choice",
+          "q": {"tk": "«They have just repaired my car» sözleminiň passiw görnüşi haýsy?", "ru": "Как будет пассив от «They have just repaired my car»?"},
+          "options": ["My car was just repaired.", "My car is just being repaired.", "My car has just been repaired."],
+          "answer": 2,
+          "hint": {"tk": "Present Perfect: have/has + been + V3.", "ru": "Present Perfect: have/has + been + V3."},
+          "explain": {"tk": "Zaman üýtgemeýär: Present Perfect Passive → has just been repaired.", "ru": "Время сохраняется: Present Perfect Passive → has just been repaired."}
+        },
+        {"type": "input",
+          "q": {"tk": "Bir söz bilen dolduryň: The results will ___ announced tomorrow.", "ru": "Заполните одним словом: The results will ___ announced tomorrow."},
+          "answer": "be",
+          "hint": {"tk": "Future Simple Passive: will + ? + V3.", "ru": "Future Simple Passive: will + ? + V3."},
+          "explain": {"tk": "Will-den soň «be» + V3: will be announced.", "ru": "После will идёт «be» + V3: will be announced."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«The house was being painted when we arrived» — Past Continuous Passive.", "ru": "«The house was being painted when we arrived» — это Past Continuous Passive."},
+          "answer": true,
+          "hint": {"tk": "was + being + V3 formulasyny tanaň.", "ru": "Узнайте формулу was + being + V3."},
+          "explain": {"tk": "Hawa: was being painted — geçmişde dowam edýän passiw hereket.", "ru": "Да: was being painted — длительное пассивное действие в прошлом."}
+        },
+        {"type": "world", "text": {
+          "tk": "Ylmy makalalarda passiw örän köp ulanylýar: «The samples were heated to 100 °C». Sebäbi ylymda kimiň edendigi däl-de, näme edilendigi we netije has möhüm.",
+          "ru": "В научных статьях пассив используется очень часто: «The samples were heated to 100 °C». В науке важнее не кто сделал, а что было сделано и какой получен результат."
+        }}
+      ]
+    },
+    {
+      "id": "english-9-linking-words",
+      "grade": 9,
+      "topic": 3,
+      "title": {"tk": "Linking words (baglaýjy sözler)", "ru": "Слова-связки"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Linking words pikirleri birleşdirýär we teksti akgynly edýär.\n\n• Goşmak: and, also, moreover, in addition, furthermore\n• Garşylyk: but, however, although, even though, despite, on the other hand\n• Sebäp: because, since, as, because of, due to\n• Netije: so, therefore, as a result, consequently\n• Mysal: for example, for instance, such as\n• Tertip: firstly, then, finally\n\nGrammatik bellikler:\n• although + sözlem: Although it was cold, we swam.\n• despite / in spite of + at ýa-da -ing: Despite the cold, we swam.\n• however — sözlemiň başynda, ondan soň otur: However, it was late.",
+          "ru": "Слова-связки соединяют мысли и делают текст плавным.\n\n• Добавление: and, also, moreover, in addition, furthermore\n• Противопоставление: but, however, although, even though, despite, on the other hand\n• Причина: because, since, as, because of, due to\n• Следствие: so, therefore, as a result, consequently\n• Пример: for example, for instance, such as\n• Порядок: firstly, then, finally\n\nГрамматические заметки:\n• although + предложение: Although it was cold, we swam.\n• despite / in spite of + существительное или -ing: Despite the cold, we swam.\n• however — в начале предложения, после него запятая: However, it was late."
+        }},
+        {"type": "example", "text": {
+          "tk": "Iki sözlem: «The test was difficult.» «Most students passed.»\n\nGarşylyk aňlatmak üçin üç usul:\n1) The test was difficult, but most students passed.\n2) Although the test was difficult, most students passed.\n3) The test was difficult. However, most students passed.\n\nDespite bilen sözlemi täzeden gurmaly:\n4) Despite the difficulty of the test, most students passed.\n(«Despite the test was difficult» — ýalňyş!)",
+          "ru": "Два предложения: «The test was difficult.» «Most students passed.»\n\nТри способа выразить противопоставление:\n1) The test was difficult, but most students passed.\n2) Although the test was difficult, most students passed.\n3) The test was difficult. However, most students passed.\n\nС despite предложение перестраивается:\n4) Despite the difficulty of the test, most students passed.\n(«Despite the test was difficult» — ошибка!)"
+        }},
+        {"type": "choice",
+          "q": {"tk": "Dogry sözi saýlaň: ___ the rain, the match continued.", "ru": "Выберите слово: ___ the rain, the match continued."},
+          "options": ["Although", "Despite", "However"],
+          "answer": 1,
+          "hint": {"tk": "Boş ýerden soň diňe at bar, işlik ýok.", "ru": "После пропуска стоит только существительное, без глагола."},
+          "explain": {"tk": "«Despite» -den soň at gelýär: despite the rain. «Although» -dan soň doly sözlem gerek.", "ru": "После «despite» идёт существительное: despite the rain. После «although» нужно целое предложение."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy söz netijäni aňladýar?", "ru": "Какое слово выражает следствие?"},
+          "options": ["moreover", "for instance", "therefore"],
+          "answer": 2,
+          "hint": {"tk": "«Şonuň üçin» manysyndaky söz.", "ru": "Слово со значением «поэтому»."},
+          "explain": {"tk": "«Therefore» = şonuň üçin. «Moreover» goşmak, «for instance» mysal üçin.", "ru": "«Therefore» = поэтому. «Moreover» — добавление, «for instance» — пример."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«Because of» -dan soň doly sözlem (eýe + habar) gelýär.", "ru": "После «because of» идёт полное предложение (подлежащее + сказуемое)."},
+          "answer": false,
+          "hint": {"tk": "«Because» bilen «because of» deňeşdiriň.", "ru": "Сравните «because» и «because of»."},
+          "explain": {"tk": "«Because of» + at: because of the traffic. «Because» + sözlem: because the traffic was heavy.", "ru": "«Because of» + существительное: because of the traffic. «Because» + предложение: because the traffic was heavy."}
+        },
+        {"type": "input",
+          "q": {"tk": "Bir söz bilen dolduryň: I like tea. I ___ like coffee. (goşmak, «hem» manysynda)", "ru": "Заполните одним словом: I like tea. I ___ like coffee. (добавление, «тоже»)"},
+          "answer": "also",
+          "hint": {"tk": "Bu söz eýe bilen işligiň arasynda durýar.", "ru": "Это слово стоит между подлежащим и глаголом."},
+          "explain": {"tk": "«Also» işligiň öňünde durýar: I also like coffee.", "ru": "«Also» стоит перед глаголом: I also like coffee."}
+        },
+        {"type": "world", "text": {
+          "tk": "Halkara IELTS synagynda ýazuw bölümi bahalandyrylanda «Coherence and cohesion» (yzygiderlilik we baglanyşyk) aýratyn ölçeg hökmünde barlanýar — ol hem linking words-y dogry ulanmagy öz içine alýar.",
+          "ru": "В международном экзамене IELTS письменная часть оценивается в том числе по критерию «Coherence and cohesion» (связность и логичность) — и правильное использование слов-связок входит в него."
+        }}
+      ]
+    },
+    {
+      "id": "english-9-collocations",
+      "grade": 9,
+      "topic": 4,
+      "title": {"tk": "Collocations (söz utgaşmalary)", "ru": "Коллокации"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Kollokasiýa — iňlis dilinde adatça bile ulanylýan sözler. Olar düzgün bilen däl-de, endik bilen ýatda saklanýar.\n\nKöp ýalňyşlyk goýulýan topar — make we do:\n• make: a mistake, a decision, a noise, friends, money, a plan\n• do: homework, the shopping, exercise, a favour, your best\n\nBeýleki mysallar:\n• take: a photo, a break, an exam, a risk\n• have: breakfast, a shower, fun\n• heavy rain (strong rain däl), strong coffee, fast food, a high price\n\nMaslahat: täze sözi aýratyn däl-de, ýany bilen ulanylýan sözleri bilen öwreniň.",
+          "ru": "Коллокация — слова, которые в английском обычно употребляются вместе. Их запоминают не по правилу, а по привычке.\n\nЧастая ошибка — make и do:\n• make: a mistake, a decision, a noise, friends, money, a plan\n• do: homework, the shopping, exercise, a favour, your best\n\nДругие примеры:\n• take: a photo, a break, an exam, a risk\n• have: breakfast, a shower, fun\n• heavy rain (не strong rain), strong coffee, fast food, a high price\n\nСовет: учите новое слово не отдельно, а вместе с его «соседями»."
+        }},
+        {"type": "example", "text": {
+          "tk": "Sözlemi düzediň: «I did a big mistake and now I must do a decision.»\n\n1) «mistake» bilen make ulanylýar → made a big mistake.\n2) «decision» bilen hem make → make a decision.\nDogry: I made a big mistake and now I must make a decision.\n\nÝene: «There was strong rain yesterday» → There was heavy rain yesterday.",
+          "ru": "Исправьте предложение: «I did a big mistake and now I must do a decision.»\n\n1) С «mistake» используется make → made a big mistake.\n2) С «decision» — тоже make → make a decision.\nПравильно: I made a big mistake and now I must make a decision.\n\nЕщё: «There was strong rain yesterday» → There was heavy rain yesterday."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Haýsy dogry? I need to ___ my homework.", "ru": "Как правильно? I need to ___ my homework."},
+          "options": ["make", "do", "take"],
+          "answer": 1,
+          "hint": {"tk": "Öý işi, iş we borçlar köplenç bir işlik bilen ulanylýar.", "ru": "Домашнее задание, работа и обязанности обычно идут с одним глаголом."},
+          "explain": {"tk": "Dogry kollokasiýa: do homework.", "ru": "Правильная коллокация: do homework."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy utgaşma dogry?", "ru": "Какое сочетание правильное?"},
+          "options": ["strong coffee", "powerful coffee", "heavy coffee"],
+          "answer": 0,
+          "hint": {"tk": "Rus dilindäki «крепкий кофе» ýaly.", "ru": "Как «крепкий кофе»."},
+          "explain": {"tk": "Iňlis dilinde «strong coffee», «strong tea» diýilýär.", "ru": "По-английски говорят «strong coffee», «strong tea»."}
+        },
+        {"type": "input",
+          "q": {"tk": "Bir söz bilen dolduryň: Let's ___ a photo by the lake.", "ru": "Заполните одним словом: Let's ___ a photo by the lake."},
+          "answer": "take",
+          "hint": {"tk": "Bu işlik «break», «exam», «risk» bilen hem ulanylýar.", "ru": "Этот глагол употребляется также с «break», «exam», «risk»."},
+          "explain": {"tk": "Kollokasiýa: take a photo.", "ru": "Коллокация: take a photo."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«Make friends» — dogry kollokasiýa.", "ru": "«Make friends» — правильная коллокация."},
+          "answer": true,
+          "hint": {"tk": "Täze dost tapmak — täze bir zat döretmek ýaly.", "ru": "Найти друзей — как будто создать что-то новое."},
+          "explain": {"tk": "Hawa: make friends — dost tutunmak.", "ru": "Да: make friends — заводить друзей."}
+        },
+        {"type": "world", "text": {
+          "tk": "Oxford Collocations Dictionary ýaly ýörite sözlükler diňe kollokasiýalara bagyşlanýar. Dilçiler kollokasiýalary ýüz millionlarça sözden ybarat tekst ýygyndylaryny — korpuslary — kompýuterde seljerip tapýarlar.",
+          "ru": "Существуют специальные словари коллокаций, например Oxford Collocations Dictionary. Лингвисты находят коллокации, анализируя на компьютере корпусы — собрания текстов из сотен миллионов слов."
+        }}
+      ]
+    },
+    {
+      "id": "english-9-formal-letter",
+      "grade": 9,
+      "topic": 5,
+      "title": {"tk": "Formal letter (resmi hat)", "ru": "Официальное письмо"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Resmi hat edara, mekdep ýa-da tanamaýan adama ýazylýar.\n\nGurluşy:\n• Salam: Dear Sir or Madam, (ady belli däl) / Dear Mr Brown, (ady belli)\n• Maksat: I am writing to enquire about… / to apply for… / to complain about…\n• Esasy bölek: gysga abzaslar, takyk maglumat.\n• Jemleýji: I look forward to hearing from you.\n• Hoşlaşmak: Yours faithfully, (Dear Sir or Madam bilen) / Yours sincerely, (at bilen)\n• Doly adyňyz.\n\nStil: gysgaltma ýok (I am, I'm däl), sleng ýok, sypaýy aňlatmalar: I would be grateful if you could…",
+          "ru": "Официальное письмо пишут в организацию, школу или незнакомому человеку.\n\nСтруктура:\n• Обращение: Dear Sir or Madam, (имя неизвестно) / Dear Mr Brown, (имя известно)\n• Цель: I am writing to enquire about… / to apply for… / to complain about…\n• Основная часть: короткие абзацы, конкретная информация.\n• Завершение: I look forward to hearing from you.\n• Прощание: Yours faithfully, (после Dear Sir or Madam) / Yours sincerely, (после имени)\n• Полное имя.\n\nСтиль: без сокращений (I am, а не I'm), без сленга, вежливые обороты: I would be grateful if you could…"
+        }},
+        {"type": "example", "text": {
+          "tk": "Mysal (dil kursy barada sorag):\n\nDear Sir or Madam,\n\nI am writing to enquire about your summer English course.\n\nI would be grateful if you could tell me the dates and the price of the course. Could you also let me know whether accommodation is provided?\n\nI look forward to hearing from you.\n\nYours faithfully,\nMerdan Atayev\n\nÜns beriň: ady belli däl → Dear Sir or Madam → Yours faithfully.",
+          "ru": "Пример (запрос о языковых курсах):\n\nDear Sir or Madam,\n\nI am writing to enquire about your summer English course.\n\nI would be grateful if you could tell me the dates and the price of the course. Could you also let me know whether accommodation is provided?\n\nI look forward to hearing from you.\n\nYours faithfully,\nMerdan Atayev\n\nОбратите внимание: имя неизвестно → Dear Sir or Madam → Yours faithfully."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Hat «Dear Mrs Clark,» bilen başlanýar. Nähili tamamlamaly?", "ru": "Письмо начинается с «Dear Mrs Clark,». Как его закончить?"},
+          "options": ["Yours faithfully,", "Yours sincerely,", "See you soon,"],
+          "answer": 1,
+          "hint": {"tk": "Adresatyň ady belli.", "ru": "Имя адресата известно."},
+          "explain": {"tk": "Ady belli bolsa, «Yours sincerely» ulanylýar. «See you soon» resmi däl.", "ru": "Если имя известно, пишут «Yours sincerely». «See you soon» — неофициально."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy sözlem resmi hat üçin has laýyk?", "ru": "Какое предложение больше подходит для официального письма?"},
+          "options": ["I'd love to know the price, thanks!", "Tell me the price.", "I would be grateful if you could inform me of the price."],
+          "answer": 2,
+          "hint": {"tk": "Gysgaltma we buýruk ýok, sypaýy görnüş.", "ru": "Без сокращений и приказного тона, вежливая форма."},
+          "explain": {"tk": "«I would be grateful if you could…» — sypaýy resmi aňlatma.", "ru": "«I would be grateful if you could…» — вежливый официальный оборот."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Resmi hatda «I'm» we «don't» ýaly gysgaltmalary ulanmak maslahat berilýär.", "ru": "В официальном письме рекомендуется использовать сокращения вроде «I'm» и «don't»."},
+          "answer": false,
+          "hint": {"tk": "Resmi stil doly görnüşleri talap edýär.", "ru": "Официальный стиль требует полных форм."},
+          "explain": {"tk": "Resmi hatda doly görnüşler ýazylýar: I am, do not.", "ru": "В официальном письме пишут полные формы: I am, do not."}
+        },
+        {"type": "input",
+          "q": {"tk": "Bir söz bilen dolduryň: I look forward to ___ from you.", "ru": "Заполните одним словом: I look forward to ___ from you."},
+          "answer": "hearing",
+          "hint": {"tk": "«Look forward to» -dan soň işlik -ing bilen gelýär.", "ru": "После «look forward to» глагол идёт с -ing."},
+          "explain": {"tk": "Bu ýerde «to» predlog, şonuň üçin -ing: hearing.", "ru": "Здесь «to» — предлог, поэтому -ing: hearing."}
+        },
+        {"type": "world", "text": {
+          "tk": "Ilkinji elektron hat 1971-nji ýylda inžener Reý Tomlinson tarapyndan ARPANET torunda iberilipdir. Ol ulanyjynyň adyny kompýuteriň adyndan aýyrmak üçin @ belgisini saýlapdyr.",
+          "ru": "Первое электронное письмо отправил инженер Рэй Томлинсон в 1971 году в сети ARPANET. Именно он выбрал знак @, чтобы отделить имя пользователя от имени компьютера."
+        }}
+      ]
+    }
+  ]
+}

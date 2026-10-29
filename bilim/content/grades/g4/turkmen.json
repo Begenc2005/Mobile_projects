@@ -1,0 +1,292 @@
+{
+  "grade": 4,
+  "subject": "turkmen",
+  "lessons": [
+    {
+      "id": "turkmen-4-sentence-members",
+      "grade": 4,
+      "topic": 0,
+      "title": {"tk": "Sözlem agzalary", "ru": "Члены предложения"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Sözlemdäki sözler belli bir soraga jogap berýär we sözlem agzalary bolýar.\nBaş agzalar:\n• Eýe — kim? näme?\n• Habar — näme etdi? näme edýär? nähili?\nIkinji derejeli agzalar:\n• Aýyklaýjy — nähili? haýsy? näçe? kimiň?\n• Doldurgyç — kimi? nämäni? kime? nämä? kimden?\n• Hal — haçan? nirede? nähili? näme üçin?",
+          "ru": "Слова в предложении отвечают на определённые вопросы и являются членами предложения.\nГлавные члены:\n• Eýe (подлежащее) — kim? näme? (кто? что?)\n• Habar (сказуемое) — näme etdi? näme edýär? (что сделал? что делает?)\nВторостепенные члены:\n• Aýyklaýjy (определение) — nähili? haýsy? kimiň? (какой? который? чей?)\n• Doldurgyç (дополнение) — kimi? nämäni? kime? (кого? что? кому?)\n• Hal (обстоятельство) — haçan? nirede? nähili? (когда? где? как?)"
+        }},
+        {"type": "example", "text": {
+          "tk": "Sözlem: “Kiçijik Aýna bu gün owadan surat çekdi.”\n• Kim? — Aýna (eýe)\n• Näme etdi? — çekdi (habar)\n• Haýsy Aýna? — kiçijik (aýyklaýjy)\n• Haçan? — bu gün (hal)\n• Näme çekdi? — surat (doldurgyç)\n• Nähili surat? — owadan (aýyklaýjy)",
+          "ru": "Предложение: «Kiçijik Aýna bu gün owadan surat çekdi.» (Маленькая Айна сегодня нарисовала красивую картину.)\n• Kim? (кто?) — Aýna (подлежащее)\n• Näme etdi? (что сделала?) — çekdi (сказуемое)\n• Haýsy? (какая?) — kiçijik (определение)\n• Haçan? (когда?) — bu gün (обстоятельство)\n• Näme? (что?) — surat (дополнение)\n• Nähili? (какую?) — owadan (определение)"
+        }},
+        {"type": "choice",
+          "q": {"tk": "“Kakam düýn täze kitap getirdi.” Bu sözlemde “düýn” haýsy agza?", "ru": "«Kakam düýn täze kitap getirdi.» Каким членом предложения является «düýn» (вчера)?"},
+          "options": [{"tk": "eýe", "ru": "подлежащее"}, {"tk": "aýyklaýjy", "ru": "определение"}, {"tk": "hal", "ru": "обстоятельство"}],
+          "answer": 2,
+          "hint": {"tk": "“Düýn” haýsy soraga jogap berýär?", "ru": "На какой вопрос отвечает «düýn»?"},
+          "explain": {"tk": "Haçan getirdi? — düýn. “Haçan?” soragyna hal jogap berýär.", "ru": "Haçan getirdi? (когда принёс?) — düýn. На вопрос «когда?» отвечает обстоятельство."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Aýyklaýjy haýsy soraga jogap berýär?", "ru": "На какой вопрос отвечает определение (aýyklaýjy)?"},
+          "options": [{"tk": "nähili?", "ru": "nähili? (какой?)"}, {"tk": "näme etdi?", "ru": "näme etdi? (что сделал?)"}, {"tk": "nirede?", "ru": "nirede? (где?)"}],
+          "answer": 0,
+          "hint": {"tk": "Aýyklaýjy zadyň alamatyny görkezýär.", "ru": "Определение показывает признак предмета."},
+          "explain": {"tk": "Aýyklaýjy “nähili? haýsy? näçe? kimiň?” soraglaryna jogap berýär: täze kitap, uly öý.", "ru": "Определение отвечает на вопросы «nähili? haýsy? näçe? kimiň?»: täze kitap (новая книга), uly öý (большой дом)."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Eýe we habar sözlemiň baş agzalarydyr.", "ru": "Подлежащее и сказуемое — главные члены предложения."},
+          "answer": true,
+          "hint": {"tk": "Sözlemiň esasyny haýsy agzalar düzýär?", "ru": "Какие члены составляют основу предложения?"},
+          "explain": {"tk": "Eýe we habar sözlemiň esasyny düzýär, galanlary ikinji derejeli agzalar.", "ru": "Подлежащее и сказуемое образуют основу предложения, остальные — второстепенные члены."}
+        },
+        {"type": "input",
+          "q": {"tk": "“Guşlar agaçda saýraýar.” Bu sözlemde haly ýazyň (nirede?).", "ru": "«Guşlar agaçda saýraýar.» Напишите обстоятельство (отвечает на вопрос nirede? — где?)."},
+          "answer": "agaçda",
+          "hint": {"tk": "Guşlar nirede saýraýar?", "ru": "Где поют птицы?"},
+          "explain": {"tk": "Nirede saýraýar? — agaçda. Bu orun haly.", "ru": "Nirede saýraýar? (где поют?) — agaçda (на дереве). Это обстоятельство места."}
+        },
+        {"type": "world", "text": {
+          "tk": "Türkmen dilinde habar köplenç sözlemiň ahyrynda durýar: “Men kitap okaýaryn.” Iňlis we rus dillerinde bolsa ol eýeden soň gelýär. Dil öwrenijileriň hasaplamalaryna görä, “eýe — doldurgyç — habar” tertibi dünýä dillerinde iň giň ýaýran söz tertibidir.",
+          "ru": "В туркменском языке сказуемое обычно стоит в конце предложения: «Men kitap okaýaryn» (Я книгу читаю). В английском и русском оно чаще идёт сразу после подлежащего. По подсчётам лингвистов, порядок «подлежащее — дополнение — сказуемое», как в туркменском, — самый распространённый в языках мира."
+        }}
+      ]
+    },
+    {
+      "id": "turkmen-4-subject-predicate",
+      "grade": 4,
+      "topic": 1,
+      "title": {"tk": "Eýe we habar", "ru": "Подлежащее и сказуемое"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Eýe — işi ýerine ýetirýän ýa-da gürrüň edilýän adam, zat. Ol “kim? näme?” soraglaryna jogap berýär.\nHabar — eýäniň näme edýändigini ýa-da nähilidigini aýdýar. Ol “näme etdi? näme edýär? näme eder? nähili?” soraglaryna jogap berýär.\n• Türkmen dilinde habar köplenç sözlemiň ahyrynda durýar.\n• Eýe bilen habar sözlemiň esasyny düzýär.\n• Eýe käwagt aýdylmaýar: “Mekdebe gitdim.” (Kim? — men, habaryň goşulmasyndan bilinýär.)",
+          "ru": "Подлежащее (eýe) — тот, кто действует, или то, о чём говорится. Отвечает на вопросы «kim? näme?» (кто? что?).\nСказуемое (habar) сообщает, что делает подлежащее или какое оно. Отвечает на вопросы «näme etdi? näme edýär? näme eder? nähili?» (что сделал? что делает? что сделает? каков?).\n• В туркменском языке сказуемое обычно стоит в конце предложения.\n• Подлежащее и сказуемое образуют основу предложения.\n• Подлежащее иногда опускается: «Mekdebe gitdim.» (Кто? — men, «я», это видно по окончанию сказуемого.)"
+        }},
+        {"type": "example", "text": {
+          "tk": "Sözlem: “Ejem ir bilen tagamly çörek bişirdi.”\n1) Habary tapýarys: näme etdi? — bişirdi.\n2) Eýäni tapýarys: kim bişirdi? — ejem.\n3) Sözlemiň esasy: ejem bişirdi.\nBeýleki sözler (ir bilen, tagamly, çörek) ikinji derejeli agzalar.",
+          "ru": "Предложение: «Ejem ir bilen tagamly çörek bişirdi.» (Мама утром испекла вкусный хлеб.)\n1) Находим сказуемое: что сделала? — bişirdi (испекла).\n2) Находим подлежащее: кто испёк? — ejem (мама).\n3) Основа предложения: ejem bişirdi.\nОстальные слова (ir bilen, tagamly, çörek) — второстепенные члены."
+        }},
+        {"type": "choice",
+          "q": {"tk": "“Gyşda gar ýagýar.” Bu sözlemde eýe haýsy?", "ru": "«Gyşda gar ýagýar.» (Зимой идёт снег.) Какое слово — подлежащее?"},
+          "options": ["gyşda", "gar", "ýagýar"],
+          "answer": 1,
+          "hint": {"tk": "Näme ýagýar?", "ru": "Что идёт (падает)?"},
+          "explain": {"tk": "Näme ýagýar? — gar. “Gar” — eýe, “ýagýar” — habar, “gyşda” — hal.", "ru": "Näme ýagýar? (что идёт?) — gar (снег). «Gar» — подлежащее, «ýagýar» — сказуемое, «gyşda» — обстоятельство."}
+        },
+        {"type": "input",
+          "q": {"tk": "“Okuwçylar gyzyklanyp sapak diňleýärler.” Habary ýazyň.", "ru": "«Okuwçylar gyzyklanyp sapak diňleýärler.» Напишите сказуемое."},
+          "answer": "diňleýärler|diňleýärler.",
+          "hint": {"tk": "Okuwçylar näme edýärler?", "ru": "Что делают ученики?"},
+          "explain": {"tk": "Näme edýärler? — diňleýärler. Habar sözlemiň ahyrynda dur.", "ru": "Näme edýärler? (что делают?) — diňleýärler (слушают). Сказуемое стоит в конце."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "“Gül owadan.” sözleminde habar “owadan” sözi.", "ru": "В предложении «Gül owadan.» (Цветок красивый.) сказуемое — слово «owadan»."},
+          "answer": true,
+          "hint": {"tk": "Habar diňe hereketi däl, eýäniň nähilidigini hem görkezip bilýär.", "ru": "Сказуемое может обозначать не только действие, но и признак подлежащего."},
+          "explain": {"tk": "Gül nähili? — owadan. Bu ýerde habar sypat bilen aňladylýar.", "ru": "Gül nähili? (цветок какой?) — owadan (красивый). Здесь сказуемое выражено прилагательным."}
+        },
+        {"type": "choice",
+          "q": {"tk": "“Biz ertir muzeýe bararys.” Sözlemiň esasy haýsy?", "ru": "«Biz ertir muzeýe bararys.» (Завтра мы пойдём в музей.) Какова основа предложения?"},
+          "options": ["biz bararys", "ertir bararys", "muzeýe bararys"],
+          "answer": 0,
+          "hint": {"tk": "Kim barar?", "ru": "Кто пойдёт?"},
+          "explain": {"tk": "Eýe — biz (kim?), habar — bararys (näme ederis?). Esas: biz bararys.", "ru": "Подлежащее — biz (мы), сказуемое — bararys (пойдём). Основа: biz bararys."}
+        },
+        {"type": "world", "text": {
+          "tk": "Türkmen dili türki dilleriň oguz toparyna degişlidir. Oňa iň ýakyn diller — türk we azerbaýjan dilleri. Bu dillerde hem habar adatça sözlemiň ahyrynda durýar.",
+          "ru": "Туркменский язык относится к огузской группе тюркских языков. Ближайшие к нему — турецкий и азербайджанский. В них сказуемое тоже обычно стоит в конце предложения."
+        }}
+      ]
+    },
+    {
+      "id": "turkmen-4-numerals",
+      "grade": 4,
+      "topic": 2,
+      "title": {"tk": "San (söz topary)", "ru": "Числительное"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "San — zatlaryň mukdaryny ýa-da tertibini aňladýan söz topary.\n• Mukdar sanlary “näçe?” soragyna jogap berýär: bir, bäş, on iki, ýüz.\n• Tertip sanlary “näçenji?” soragyna jogap berýär. Olar -njy, -nji, -ynjy, -inji, -unjy, -ünji goşulmalary bilen ýasalýar: birinji, ikinji, üçünji, dördünji, altynjy, onunjy.\n• Sifr bilen ýazylanda tertip sany defis bilen ýazylýar: 5-nji synp, 3-nji sapak.",
+          "ru": "Числительное — часть речи, которая обозначает количество или порядок предметов.\n• Количественные числительные отвечают на вопрос «näçe?» (сколько?): bir, bäş, on iki, ýüz.\n• Порядковые числительные отвечают на вопрос «näçenji?» (который по счёту?). Они образуются с помощью аффиксов -njy, -nji, -ynjy, -inji, -unjy, -ünji: birinji (первый), ikinji, üçünji, dördünji, altynjy, onunjy.\n• Если число записано цифрами, аффикс пишется через дефис: 5-nji synp (5-й класс), 3-nji sapak."
+        }},
+        {"type": "example", "text": {
+          "tk": "“Biziň synpymyzda ýigrimi bäş okuwçy bar. Men birinji partada otyryn.”\n• ýigrimi bäş — näçe? → mukdar sany\n• birinji — näçenji? → tertip sany\nGoşulmany saýlamak: soňky bogunda ýogyn çekimli bolsa -ynjy/-unjy (altynjy, onunjy), inçe bolsa -inji/-ünji (birinji, üçünji); çekimli bilen gutarsa -njy/-nji (ikinji, ýedinji).",
+          "ru": "«Biziň synpymyzda ýigrimi bäş okuwçy bar. Men birinji partada otyryn.» (В нашем классе двадцать пять учеников. Я сижу за первой партой.)\n• ýigrimi bäş — сколько? → количественное\n• birinji — который? → порядковое\nВыбор аффикса: если в последнем слоге твёрдый гласный — -ynjy/-unjy (altynjy, onunjy), если мягкий — -inji/-ünji (birinji, üçünji); если слово оканчивается на гласный — -njy/-nji (ikinji, ýedinji)."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Haýsy söz tertip sany?", "ru": "Какое слово — порядковое числительное?"},
+          "options": ["sekiz", "dokuz", "onunjy"],
+          "answer": 2,
+          "hint": {"tk": "“Näçenji?” soragyny beriň.", "ru": "Задайте вопрос «näçenji?» (который по счёту?)."},
+          "explain": {"tk": "Onunjy — näçenji? soragyna jogap berýär. Sekiz we dokuz — mukdar sanlary.", "ru": "Onunjy (десятый) отвечает на вопрос «который?». Sekiz и dokuz — количественные."}
+        },
+        {"type": "input",
+          "q": {"tk": "“Bäş” sözünden tertip sanyny ýasaň.", "ru": "Образуйте порядковое числительное от слова «bäş» (пять)."},
+          "answer": "bäşinji",
+          "hint": {"tk": "“Bäş” sözünde inçe çekimli “ä” bar.", "ru": "В слове «bäş» мягкий гласный «ä»."},
+          "explain": {"tk": "Bäş + inji = bäşinji.", "ru": "Bäş + inji = bäşinji (пятый)."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "“4-nji synp” dogry ýazylan.", "ru": "Запись «4-nji synp» (4-й класс) правильная."},
+          "answer": true,
+          "hint": {"tk": "Dört — dördünji. Sifrden soň goşulmanyň soňky bölegi ýazylýar.", "ru": "Dört — dördünji. После цифры пишется конечная часть аффикса."},
+          "explain": {"tk": "Sifr bilen ýazylanda tertip sanlarynda defisden soň -njy/-nji ýazylýar: 4-nji, 6-njy.", "ru": "При записи цифрой после дефиса пишется -njy/-nji: 4-nji, 6-njy."}
+        },
+        {"type": "choice",
+          "q": {"tk": "“Bagda otuz agaç bar.” Bu sözlemde san haýsy?", "ru": "«Bagda otuz agaç bar.» (В саду тридцать деревьев.) Какое слово — числительное?"},
+          "options": ["otuz", "bagda", "agaç"],
+          "answer": 0,
+          "hint": {"tk": "Haýsy söz “näçe?” soragyna jogap berýär?", "ru": "Какое слово отвечает на вопрос «сколько?»?"},
+          "explain": {"tk": "Näçe agaç? — otuz. Bu mukdar sany.", "ru": "Сколько деревьев? — otuz (тридцать). Это количественное числительное."}
+        },
+        {"type": "world", "text": {
+          "tk": "Biziň ulanýan sifrlerimiz (0, 1, 2…9) Hindistanda döräpdir we Ýewropa arap alymlarynyň üsti bilen baryp ýetipdir. Şonuň üçin olara “arap sifrleri” diýilýär.",
+          "ru": "Цифры, которыми мы пользуемся (0, 1, 2…9), появились в Индии и пришли в Европу через арабских учёных. Поэтому их называют «арабскими цифрами»."
+        }}
+      ]
+    },
+    {
+      "id": "turkmen-4-adverbs",
+      "grade": 4,
+      "topic": 3,
+      "title": {"tk": "Hal (söz topary)", "ru": "Наречие"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Hal — hereketiň ýagdaýyny, wagtyny, ornuny, mukdaryny görkezýän söz topary. Ol köplenç işligiň öňünde durýar we üýtgemeýär.\n• Wagt hallary (haçan?): düýn, ertir, häzir, indi, ir.\n• Orun hallary (nirede? nirä?): ýokarda, aşakda, öňde, yzda, içeri.\n• Ýagdaý hallary (nähili?): çalt, haýal, ýuwaş, birden.\n• Mukdar hallary (näçe? näçeräk?): az, köp, biraz, juda.",
+          "ru": "Наречие (hal) — часть речи, которая обозначает образ, время, место или меру действия. Обычно стоит перед глаголом и не изменяется.\n• Наречия времени (haçan? — когда?): düýn (вчера), ertir (завтра), häzir (сейчас), indi (теперь), ir (рано).\n• Наречия места (nirede? nirä? — где? куда?): ýokarda (наверху), aşakda (внизу), öňde (впереди), yzda (сзади), içeri (внутрь).\n• Наречия образа действия (nähili? — как?): çalt (быстро), haýal (медленно), ýuwaş (тихо), birden (вдруг).\n• Наречия меры (näçe? — сколько?): az (мало), köp (много), biraz (немного), juda (очень)."
+        }},
+        {"type": "example", "text": {
+          "tk": "“Pişik birden ýokary bökdi.”\n• Nähili bökdi? — birden (ýagdaý haly)\n• Nirä bökdi? — ýokary (orun haly)\n“Ertir biz ir turarys.”\n• Haçan? — ertir, ir (wagt hallary)",
+          "ru": "«Pişik birden ýokary bökdi.» (Кошка вдруг прыгнула вверх.)\n• Как прыгнула? — birden (наречие образа действия)\n• Куда прыгнула? — ýokary (наречие места)\n«Ertir biz ir turarys.» (Завтра мы встанем рано.)\n• Когда? — ertir, ir (наречия времени)"
+        }},
+        {"type": "choice",
+          "q": {"tk": "Haýsy söz wagt haly?", "ru": "Какое слово — наречие времени?"},
+          "options": ["çalt", "düýn", "aşakda"],
+          "answer": 1,
+          "hint": {"tk": "“Haçan?” soragyny beriň.", "ru": "Задайте вопрос «haçan?» (когда?)."},
+          "explain": {"tk": "Düýn — haçan? soragyna jogap berýär. Çalt — ýagdaý, aşakda — orun haly.", "ru": "Düýn (вчера) отвечает на вопрос «когда?». Çalt — наречие образа действия, aşakda — места."}
+        },
+        {"type": "input",
+          "q": {"tk": "“Ahmet çalt ylgaýar.” Bu sözlemdäki haly ýazyň.", "ru": "«Ahmet çalt ylgaýar.» (Ахмет быстро бегает.) Напишите наречие."},
+          "answer": "çalt",
+          "hint": {"tk": "Ahmet nähili ylgaýar?", "ru": "Как бегает Ахмет?"},
+          "explain": {"tk": "Nähili ylgaýar? — çalt. Bu ýagdaý haly.", "ru": "Как бегает? — çalt (быстро). Это наречие образа действия."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "“Juda” sözi mukdar halydyr.", "ru": "Слово «juda» (очень) — наречие меры."},
+          "answer": true,
+          "hint": {"tk": "“Juda gowy” — näçeräk gowy?", "ru": "«Juda gowy» (очень хорошо) — насколько хорошо?"},
+          "explain": {"tk": "“Juda” hereketiň ýa-da alamatyň derejesini görkezýär, şonuň üçin mukdar haly.", "ru": "«Juda» показывает степень действия или признака, поэтому это наречие меры."}
+        },
+        {"type": "choice",
+          "q": {"tk": "“Kitap ... dur.” Orun haly bilen dolduryň.", "ru": "«Kitap ... dur.» (Книга ... лежит.) Вставьте наречие места."},
+          "options": ["ýokarda", "haýal", "ertir"],
+          "answer": 0,
+          "hint": {"tk": "Kitap nirede dur?", "ru": "Где лежит книга?"},
+          "explain": {"tk": "Nirede? — ýokarda. “Haýal” ýagdaý, “ertir” wagt haly.", "ru": "Где? — ýokarda (наверху). «Haýal» — образ действия, «ertir» — время."}
+        },
+        {"type": "world", "text": {
+          "tk": "Sport teleýaýlymlarynda gürrüň berijiler hallary örän köp ulanýarlar: “çalt”, “birden”, “ajaýyp”, “ýene”. Hal bolmasa, ýaryşy gyzykly beýan etmek kyn bolardy!",
+          "ru": "Спортивные комментаторы постоянно используют наречия: «быстро», «вдруг», «снова», «великолепно». Без наречий рассказать о соревновании интересно было бы очень трудно!"
+        }}
+      ]
+    },
+    {
+      "id": "turkmen-4-conjunctions",
+      "grade": 4,
+      "topic": 4,
+      "title": {"tk": "Baglaýjylar", "ru": "Союзы"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Baglaýjy — sözleri ýa-da sözlemleri biri-biri bilen baglanyşdyrýan kömekçi söz. Ol sorag almaýar we sözlem agzasy bolmaýar.\n• Goşmak üçin: we, hem, bilen — “Alma we armyt”.\n• Garşylyk üçin: ýöne, emma — “Ýagyş ýagdy, ýöne biz gezelenje çykdyk.”\n• Saýlamak üçin: ýa, ýa-da — “Çaý ýa-da süýt”.\n• Sebäp üçin: sebäbi, çünki — “Men gijä galdym, sebäbi awtobus gelmedi.”\nÝöne, emma, sebäbi baglaýjylarynyň öňünden otur goýulýar.",
+          "ru": "Союз (baglaýjy) — служебное слово, которое связывает слова или предложения. Он не отвечает на вопросы и не является членом предложения.\n• Соединительные: we, hem, bilen (и, тоже, с) — «Alma we armyt» (яблоко и груша).\n• Противительные: ýöne, emma (но, однако) — «Ýagyş ýagdy, ýöne biz gezelenje çykdyk.» (Шёл дождь, но мы пошли гулять.)\n• Разделительные: ýa, ýa-da (или) — «Çaý ýa-da süýt» (чай или молоко).\n• Причинные: sebäbi, çünki (потому что) — «Men gijä galdym, sebäbi awtobus gelmedi.»\nПеред ýöne, emma, sebäbi ставится запятая."
+        }},
+        {"type": "example", "text": {
+          "tk": "Iki sözlemi birleşdireliň:\n“Men oýnamak isledim.” + “Öý işim köpdi.”\n1) Manysyna seredýäris: ikinji sözlem birinjä garşy gelýär.\n2) Garşylyk baglaýjysyny saýlaýarys: ýöne.\n3) Netije: “Men oýnamak isledim, ýöne öý işim köpdi.”",
+          "ru": "Соединим два предложения:\n«Men oýnamak isledim.» (Я хотел поиграть.) + «Öý işim köpdi.» (Домашних заданий было много.)\n1) Смотрим на смысл: второе противопоставлено первому.\n2) Выбираем противительный союз: ýöne (но).\n3) Итог: «Men oýnamak isledim, ýöne öý işim köpdi.»"
+        }},
+        {"type": "choice",
+          "q": {"tk": "“Sen kitap okajakmy ... surat çekjekmi?” Haýsy baglaýjy gerek?", "ru": "«Sen kitap okajakmy ... surat çekjekmi?» (Ты будешь читать ... рисовать?) Какой союз нужен?"},
+          "options": ["sebäbi", "ýöne", "ýa-da"],
+          "answer": 2,
+          "hint": {"tk": "Bu ýerde iki zatdan birini saýlamaly.", "ru": "Здесь нужно выбрать одно из двух."},
+          "explain": {"tk": "Saýlamak manysyny “ýa-da” baglaýjysy berýär.", "ru": "Значение выбора передаёт союз «ýa-da» (или)."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Baglaýjy sözlem agzasy bolup bilýär.", "ru": "Союз может быть членом предложения."},
+          "answer": false,
+          "hint": {"tk": "Baglaýjy haýsydyr bir soraga jogap berýärmi?", "ru": "Отвечает ли союз на какой-нибудь вопрос?"},
+          "explain": {"tk": "Baglaýjy kömekçi söz, ol diňe baglanyşdyrýar we sözlem agzasy bolmaýar.", "ru": "Союз — служебное слово, он только связывает и членом предложения не является."}
+        },
+        {"type": "input",
+          "q": {"tk": "“Biz öýde galdyk, ... daşarda gaty sowukdy.” Sebäp baglaýjysyny ýazyň.", "ru": "«Biz öýde galdyk, ... daşarda gaty sowukdy.» (Мы остались дома, ... на улице было очень холодно.) Напишите причинный союз."},
+          "answer": "sebäbi|çünki",
+          "hint": {"tk": "Näme üçin öýde galdyk?", "ru": "Почему мы остались дома?"},
+          "explain": {"tk": "Sebäbi görkezmek üçin “sebäbi” ýa-da “çünki” ulanylýar.", "ru": "Для указания причины используется «sebäbi» или «çünki» (потому что)."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy sözlemde otur dogry goýlan?", "ru": "В каком предложении запятая поставлена правильно?"},
+          "options": [
+            {"tk": "Men geldim, ýöne sen ýokdyň.", "ru": "Men geldim, ýöne sen ýokdyň."},
+            {"tk": "Men geldim ýöne, sen ýokdyň.", "ru": "Men geldim ýöne, sen ýokdyň."},
+            {"tk": "Alma, we armyt aldym.", "ru": "Alma, we armyt aldym."}
+          ],
+          "answer": 0,
+          "hint": {"tk": "Otur “ýöne” baglaýjysynyň öňünden goýulýar.", "ru": "Запятая ставится перед союзом «ýöne»."},
+          "explain": {"tk": "Garşylyk baglaýjysynyň öňünden otur goýulýar. “We” baglaýjysy ýeke sözleri baglanda otur goýulmaýar.", "ru": "Запятая ставится перед противительным союзом. Перед «we», соединяющим отдельные слова, запятая не нужна."}
+        },
+        {"type": "world", "text": {
+          "tk": "Kompýuter programmirlemesinde hem “we” (AND), “ýa-da” (OR) ýaly baglaýjylar bar. Olaryň esasynda kompýuterleriň işleýşi gurlan logika ýatyr.",
+          "ru": "В программировании тоже есть «союзы» — И (AND) и ИЛИ (OR). На этих логических операциях построена работа любого компьютера."
+        }}
+      ]
+    },
+    {
+      "id": "turkmen-4-composition",
+      "grade": 4,
+      "topic": 5,
+      "title": {"tk": "Düzme ýazmak", "ru": "Сочинение"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Düzme — belli bir tema boýunça öz pikiriňi yzygiderli beýan edýän ýazuw işi. Onuň üç bölegi bar:\n• Giriş — temany tanyşdyrýar (1–2 sözlem).\n• Esasy bölüm — wakalary, düşündirişleri, mysallary berýär.\n• Jemleme — netije çykarýar, öz duýgularyňy aýdýar.\nÝazmazdan öň meýilnama düzüň. Her täze pikiri täze setirden (abzasdan) başlaň.",
+          "ru": "Сочинение (düzme) — письменная работа, в которой последовательно излагаешь свои мысли на определённую тему. В нём три части:\n• Вступление — знакомит с темой (1–2 предложения).\n• Основная часть — события, объяснения, примеры.\n• Заключение — вывод, свои чувства.\nПеред написанием составьте план. Каждую новую мысль начинайте с новой строки (абзаца)."
+        }},
+        {"type": "example", "text": {
+          "tk": "Tema: “Meniň dynç günüm”\nMeýilnama:\n1) Giriş: Dynç güni maşgalam bilen geçirmegi halaýaryn.\n2) Esasy bölüm: Ir bilen kakam bilen baga gitdik. Agaç ekdik, soňra çaý içdik.\n3) Jemleme: Bu gün maňa köp şatlyk berdi. Men ekişimiziň ösüşine syn etjek.\nGörşüňiz ýaly, her bölek öz işini ýerine ýetirýär.",
+          "ru": "Тема: «Meniň dynç günüm» (Мой выходной)\nПлан:\n1) Вступление: Dynç güni maşgalam bilen geçirmegi halaýaryn. (Люблю проводить выходные с семьёй.)\n2) Основная часть: Ir bilen kakam bilen baga gitdik. Agaç ekdik, soňra çaý içdik. (Утром мы с папой поехали в сад, посадили дерево, потом пили чай.)\n3) Заключение: Bu gün maňa köp şatlyk berdi. (Этот день принёс мне много радости.)\nКаждая часть выполняет свою задачу."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Düzmäniň haýsy böleginde netije çykarylýar?", "ru": "В какой части сочинения делается вывод?"},
+          "options": [{"tk": "girişde", "ru": "во вступлении"}, {"tk": "esasy bölümde", "ru": "в основной части"}, {"tk": "jemlemede", "ru": "в заключении"}],
+          "answer": 2,
+          "hint": {"tk": "Netije hemişe soňunda bolýar.", "ru": "Вывод всегда бывает в конце."},
+          "explain": {"tk": "Jemleme düzmäni tamamlaýar we netije çykarýar.", "ru": "Заключение завершает сочинение и подводит итог."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Düzmäniň iň uly bölegi adatça esasy bölümdir.", "ru": "Самая большая часть сочинения — обычно основная часть."},
+          "answer": true,
+          "hint": {"tk": "Wakalar we mysallar haýsy bölekde beýan edilýär?", "ru": "В какой части рассказываются события и примеры?"},
+          "explain": {"tk": "Esasy bölümde temanyň özi açylýar, şonuň üçin ol iň uly bölek.", "ru": "В основной части раскрывается сама тема, поэтому она самая объёмная."}
+        },
+        {"type": "choice",
+          "q": {"tk": "“Güýz — ýylyň iň baý paslydyr.” Bu sözlem düzmäniň haýsy bölegine laýyk?", "ru": "«Güýz — ýylyň iň baý paslydyr.» (Осень — самое богатое время года.) Какой части сочинения подходит это предложение?"},
+          "options": [{"tk": "giriş", "ru": "вступление"}, {"tk": "jemleme", "ru": "заключение"}, {"tk": "hiç birine", "ru": "никакой"}],
+          "answer": 0,
+          "hint": {"tk": "Bu sözlem temany tanyşdyrýarmy ýa-da netije çykarýarmy?", "ru": "Это предложение вводит тему или подводит итог?"},
+          "explain": {"tk": "Sözlem temany umumy görnüşde tanyşdyrýar — bu girişe laýyk.", "ru": "Предложение в общем виде представляет тему — это подходит для вступления."}
+        },
+        {"type": "input",
+          "q": {"tk": "Düzmäniň näçe esasy bölegi bar? (san bilen ýazyň)", "ru": "Сколько основных частей в сочинении? (напишите цифрой)"},
+          "answer": "3",
+          "hint": {"tk": "Giriş, ..., jemleme.", "ru": "Вступление, ..., заключение."},
+          "explain": {"tk": "Giriş, esasy bölüm we jemleme — jemi 3 bölek.", "ru": "Вступление, основная часть и заключение — всего 3 части."}
+        },
+        {"type": "world", "text": {
+          "tk": "Köp meşhur ýazyjylar ilki meýilnama düzüp, soňra ýazýarlar. Mysal üçin, “Garri Potter” kitaplarynyň awtory Joan Rouling wakalaryň yzygiderliligini ilkibaşda tablisa görnüşinde düzüpdir.",
+          "ru": "Многие известные писатели сначала составляют план, а потом пишут. Например, автор книг о Гарри Поттере Джоан Роулинг заранее расписывала события сюжета в виде таблицы."
+        }}
+      ]
+    }
+  ]
+}

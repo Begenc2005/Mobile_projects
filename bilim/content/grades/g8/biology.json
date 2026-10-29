@@ -1,0 +1,286 @@
+{
+  "grade": 8,
+  "subject": "biology",
+  "lessons": [
+    {
+      "id": "biology-8-body-organization",
+      "grade": 8,
+      "topic": 0,
+      "title": {"tk": "Adamyň bedeniniň gurluşy: öýjükden organizme çenli", "ru": "Строение тела человека: от клетки до организма"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Adam bedeni birnäçe derejeden düzülýär:\n• Öýjük — ýaşaýşyň iň kiçi birligi.\n• Dokuma — gurluşy we wezipesi meňzeş öýjükleriň topary.\n• Organ — birnäçe dokumadan düzülen we belli bir işi ýerine ýetirýän bölek (ýürek, aşgazan, öýken).\n• Organlar ulgamy — bilelikde işleýän organlar (gan aýlanyş, dem alyş, iýmit siňdiriş ulgamy).\n• Organizm — ähli ulgamlaryň bitewi jemi.\n\nAdamda dört esasy dokuma görnüşi bar:\n• Epitelial dokuma — deriniň daşky gatlagy, organlaryň içki örtügi.\n• Birikdiriji dokuma — süňk, kemirçek, ýag, gan.\n• Myşsa dokumasy — gysylmagy we hereketi üpjün edýär.\n• Nerw dokumasy — signallary kabul edýär we geçirýär.",
+          "ru": "Тело человека устроено по уровням:\n• Клетка — наименьшая единица жизни.\n• Ткань — группа клеток, сходных по строению и функции.\n• Орган — часть тела из нескольких тканей, выполняющая определённую работу (сердце, желудок, лёгкое).\n• Система органов — органы, работающие вместе (кровеносная, дыхательная, пищеварительная система).\n• Организм — единое целое из всех систем.\n\nУ человека четыре основных типа тканей:\n• Эпителиальная — наружный слой кожи, выстилка внутренних органов.\n• Соединительная — кость, хрящ, жир, кровь.\n• Мышечная — обеспечивает сокращение и движение.\n• Нервная — воспринимает и проводит сигналы."
+        }},
+        {"type": "example", "text": {
+          "tk": "Aşgazany mysal alalyň:\n1) Içinden epitelial dokuma bilen örtülen — ol şire bölüp çykarýar.\n2) Diwarynda myşsa dokumasy bar — ol iýmiti garyşdyrýar.\n3) Birikdiriji dokuma gatlaklary birleşdirýär, gan damarlaryny saklaýar.\n4) Nerw dokumasy aşgazanyň işini dolandyrýar.\nDiýmek, aşgazan dört dokumanyň hemmesinden düzülen organ. Ol bolsa iýmit siňdiriş ulgamynyň bir bölegi.",
+          "ru": "Возьмём для примера желудок:\n1) Изнутри он выстлан эпителиальной тканью — она выделяет сок.\n2) В стенке есть мышечная ткань — она перемешивает пищу.\n3) Соединительная ткань скрепляет слои и содержит сосуды.\n4) Нервная ткань регулирует работу желудка.\nЗначит, желудок — орган, построенный из всех четырёх типов тканей. А сам он — часть пищеварительной системы."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Gan haýsy dokuma görnüşine degişli?", "ru": "К какому типу тканей относится кровь?"},
+          "options": [{"tk": "Epitelial", "ru": "Эпителиальная"}, {"tk": "Birikdiriji", "ru": "Соединительная"}, {"tk": "Nerw", "ru": "Нервная"}],
+          "answer": 1,
+          "hint": {"tk": "Bu dokumada öýjükleriň arasynda köp öýjükara madda bar — ganda ol suwuk plazma.", "ru": "В этой ткани между клетками много межклеточного вещества — у крови это жидкая плазма."},
+          "explain": {"tk": "Gan birikdiriji dokuma: onuň öýjükleri suwuk öýjükara maddada — plazmada ýüzüp ýörler.", "ru": "Кровь — соединительная ткань: её клетки находятся в жидком межклеточном веществе — плазме."}
+        },
+        {"type": "input",
+          "q": {"tk": "Adamda näçe esasy dokuma görnüşi bar? (san)", "ru": "Сколько основных типов тканей у человека? (число)"},
+          "answer": "4",
+          "hint": {"tk": "Epitelial, birikdiriji, ... — sanawy dowam etdir.", "ru": "Эпителиальная, соединительная, ... — продолжи список."},
+          "explain": {"tk": "Dört: epitelial, birikdiriji, myşsa we nerw dokumalary.", "ru": "Четыре: эпителиальная, соединительная, мышечная и нервная."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Ýürek — bu organlar ulgamy.", "ru": "Сердце — это система органов."},
+          "answer": false,
+          "hint": {"tk": "Ulgam birnäçe organdan düzülýär.", "ru": "Система состоит из нескольких органов."},
+          "explain": {"tk": "Ýürek — organ. Ol damarlar bilen bilelikde gan aýlanyş ulgamyny emele getirýär.", "ru": "Сердце — орган. Вместе с сосудами оно образует кровеносную систему."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy tertip dogry?", "ru": "Какой порядок правильный?"},
+          "options": [{"tk": "Dokuma → öýjük → organ → ulgam", "ru": "Ткань → клетка → орган → система"}, {"tk": "Öýjük → organ → dokuma → ulgam", "ru": "Клетка → орган → ткань → система"}, {"tk": "Öýjük → dokuma → organ → ulgam", "ru": "Клетка → ткань → орган → система"}],
+          "answer": 2,
+          "hint": {"tk": "Iň kiçi birlikden başla.", "ru": "Начни с самой маленькой единицы."},
+          "explain": {"tk": "Öýjükler dokumany, dokumalar organy, organlar ulgamy emele getirýär.", "ru": "Клетки образуют ткани, ткани — органы, органы — системы."}
+        },
+        {"type": "world", "text": {
+          "tk": "Alymlaryň hasaplamalaryna görä, ulularyň bedeninde onlarça trillion öýjük bar. Olaryň iň köpüsi — gyzyl gan öýjükleri (eritrositler).",
+          "ru": "По оценкам учёных, в теле взрослого человека десятки триллионов клеток. Больше всего среди них эритроцитов — красных кровяных клеток."
+        }}
+      ]
+    },
+    {
+      "id": "biology-8-musculoskeletal",
+      "grade": 8,
+      "topic": 1,
+      "title": {"tk": "Süňk-myşsa ulgamy", "ru": "Опорно-двигательная система"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Süňk-myşsa ulgamy bedene daýanç berýär, içki organlary goraýar we hereketi üpjün edýär.\n\nSkelet:\n• Uly adamyň skeletinde 206 süňk bar.\n• Süňküň takmynan üçden biri organiki maddalar (beýgeldijilik berýär), üçden ikisi mineral duzlar, esasan kalsiý fosfaty (berklik berýär).\n• Süňkler bogunlar arkaly hereketli birleşýär (dyz, tirsek), käbiri hereketsiz birleşýär (kelle çanagynyň süňkleri).\n\nMyşsalar:\n• Skelet myşsalary — erkimize bagly gysylýar.\n• Ýylmanak myşsalar — içki organlaryň diwarynda, erkimize bagly däl.\n• Ýürek myşsasy — durman, ömürboýy işleýär.",
+          "ru": "Опорно-двигательная система даёт телу опору, защищает внутренние органы и обеспечивает движение.\n\nСкелет:\n• У взрослого человека 206 костей.\n• Примерно треть кости — органические вещества (дают упругость), две трети — минеральные соли, в основном фосфат кальция (дают твёрдость).\n• Кости соединяются подвижно через суставы (колено, локоть) или неподвижно (кости черепа).\n\nМышцы:\n• Скелетные — сокращаются по нашей воле.\n• Гладкие — в стенках внутренних органов, не подчиняются воле.\n• Сердечная мышца — работает без остановки всю жизнь."
+        }},
+        {"type": "example", "text": {
+          "tk": "Golumyzy tirsekden epeliň:\n1) Beýni ikibaşly myşsa (biseps) signal iberýär.\n2) Biseps gysylýar we gysgalýar — ol bilek süňküni ýokary çekýär.\n3) Şol wagt üçbaşly myşsa (triseps) gowşaýar.\n4) Goly düzeltmek üçin tersine: triseps gysylýar, biseps gowşaýar.\nNetije: myşsalar diňe çekip bilýär, itip bilmeýär, şonuň üçin olar jübüt-jübüt işleýär.",
+          "ru": "Согнём руку в локте:\n1) Мозг посылает сигнал двуглавой мышце (бицепсу).\n2) Бицепс сокращается и укорачивается — тянет кость предплечья вверх.\n3) В это время трёхглавая мышца (трицепс) расслабляется.\n4) Чтобы разогнуть руку, наоборот: сокращается трицепс, расслабляется бицепс.\nВывод: мышцы умеют только тянуть, но не толкать, поэтому работают парами."
+        }},
+        {"type": "input",
+          "q": {"tk": "Uly adamyň skeletinde näçe süňk bar?", "ru": "Сколько костей в скелете взрослого человека?"},
+          "answer": "206",
+          "hint": {"tk": "200-den birneme köp.", "ru": "Чуть больше 200."},
+          "explain": {"tk": "206 süňk. Çagalarda süňk köp bolýar, käbirleri ösdügiçe birleşýär.", "ru": "206 костей. У младенцев их больше: часть костей с возрастом срастается."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Içege diwaryndaky myşsalar haýsy görnüşe degişli?", "ru": "К какому типу относятся мышцы стенки кишечника?"},
+          "options": [{"tk": "Ýylmanak", "ru": "Гладкие"}, {"tk": "Skelet", "ru": "Скелетные"}, {"tk": "Ýürek", "ru": "Сердечные"}],
+          "answer": 0,
+          "hint": {"tk": "Biz içegämizi erkimiz bilen hereket etdirip bilmeýäris.", "ru": "Мы не можем двигать кишечником по своей воле."},
+          "explain": {"tk": "Içki organlaryň diwarynda ýylmanak myşsalar bar, olar erkimize bagly däl.", "ru": "В стенках внутренних органов находятся гладкие мышцы, они не подчиняются воле."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Süňküň berkligini esasan mineral duzlar, beýgeldijiligini bolsa organiki maddalar berýär.", "ru": "Твёрдость кости дают в основном минеральные соли, а упругость — органические вещества."},
+          "answer": true,
+          "hint": {"tk": "Sirkä salnan süňk ýumşaýar — sirke haýsy maddalary eredýär?", "ru": "Кость в уксусе становится мягкой — какие вещества растворяет уксус?"},
+          "explain": {"tk": "Dogry. Sirke mineral duzlary eredýär we süňk egilýän bolýar; ýakylan süňk bolsa organiki maddasyny ýitirip, döwük bolýar.", "ru": "Верно. Уксус растворяет минеральные соли, и кость гнётся; а прокалённая кость теряет органику и становится хрупкой."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Golumyzy düzeldenimizde haýsy myşsa gysylýar?", "ru": "Какая мышца сокращается, когда мы разгибаем руку?"},
+          "options": [{"tk": "Biseps", "ru": "Бицепс"}, {"tk": "Ýürek myşsasy", "ru": "Сердечная мышца"}, {"tk": "Triseps", "ru": "Трицепс"}],
+          "answer": 2,
+          "hint": {"tk": "Biseps epýär, onuň jübüti bolsa ...", "ru": "Бицепс сгибает, а его пара ..."},
+          "explain": {"tk": "Triseps gysylyp goly düzeldýär, biseps şol wagt gowşaýar.", "ru": "Трицепс сокращается и разгибает руку, бицепс в это время расслаблен."}
+        },
+        {"type": "world", "text": {
+          "tk": "Bedenimiziň iň kiçi süňki — orta gulakdaky üzeňňi süňki, ol tüwi dänesi ýaly kiçijik. Iň uly süňk bolsa — bud süňki.",
+          "ru": "Самая маленькая кость нашего тела — стремечко в среднем ухе, она размером с рисовое зёрнышко. А самая большая — бедренная кость."
+        }}
+      ]
+    },
+    {
+      "id": "biology-8-blood-circulation",
+      "grade": 8,
+      "topic": 2,
+      "title": {"tk": "Gan we gan aýlanyş", "ru": "Кровь и кровообращение"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Uly adamyň bedeninde takmynan 5 litr gan bar. Ganyň düzümi:\n• Plazma (~55%) — suw, beloklar, duzlar, glýukoza.\n• Eritrositler — gyzyl gan öýjükleri, gemoglobin arkaly kislorod daşaýar.\n• Leýkositler — ak gan öýjükleri, bedeni mikroblardan goraýar.\n• Trombositler — ganyň lagtalanmagyna (uýamagyna) gatnaşýar.\n\nGan damarlary:\n• Arteriýalar — gany ýürekden alyp gidýär.\n• Wenalar — gany ýüreğe getirýär.\n• Kapillýarlar — iň inçe damarlar, olarda gaz we madda çalşygy bolýar.",
+          "ru": "В теле взрослого человека примерно 5 литров крови. Состав крови:\n• Плазма (~55%) — вода, белки, соли, глюкоза.\n• Эритроциты — красные клетки, переносят кислород с помощью гемоглобина.\n• Лейкоциты — белые клетки, защищают от микробов.\n• Тромбоциты — участвуют в свёртывании крови.\n\nСосуды:\n• Артерии — несут кровь от сердца.\n• Вены — несут кровь к сердцу.\n• Капилляры — тончайшие сосуды, в них идёт обмен газов и веществ."
+        }},
+        {"type": "theory", "text": {
+          "tk": "Ýürek dört kameraly: iki gulakjyk we iki mädejik. Gan iki tegelek boýunça aýlanýar:\n• Kiçi (öýken) tegelegi: sag mädejik → öýken arteriýasy → öýkenler (gan kislorod alýar) → öýken wenalary → çep gulakjyk.\n• Uly tegelek: çep mädejik → aorta → bedeniň ähli organlary → içi boş wenalar → sag gulakjyk.\n\nÜnsli bol: öýken arteriýasynda kislorody az gan akýar — arteriýa diýlip ganyň düzümine däl-de, ýürekden gidýändigine görä aýdylýar.",
+          "ru": "Сердце четырёхкамерное: два предсердия и два желудочка. Кровь движется по двум кругам:\n• Малый (лёгочный) круг: правый желудочек → лёгочная артерия → лёгкие (кровь насыщается кислородом) → лёгочные вены → левое предсердие.\n• Большой круг: левый желудочек → аорта → все органы тела → полые вены → правое предсердие.\n\nВнимание: по лёгочной артерии течёт бедная кислородом кровь — артерией сосуд называют не по составу крови, а потому что он идёт от сердца."
+        }},
+        {"type": "example", "text": {
+          "tk": "Ýürek dynç ýagdaýda minutda 70 gezek urýar. Bir günde näçe gezek urýar?\n1) Bir sagatda: 70 × 60 = 4 200.\n2) Bir günde: 4 200 × 24 = 100 800.\nDiýmek, ýürek günde 100 müňden gowrak gezek urýar.",
+          "ru": "Сердце в покое делает 70 ударов в минуту. Сколько ударов за сутки?\n1) За час: 70 × 60 = 4 200.\n2) За сутки: 4 200 × 24 = 100 800.\nЗначит, сердце бьётся больше 100 тысяч раз в день."
+        }},
+        {"type": "input",
+          "q": {"tk": "Ýürek minutda 75 gezek urýar. Bir sagatda näçe gezek urar?", "ru": "Сердце бьётся 75 раз в минуту. Сколько ударов за час?"},
+          "answer": "4500",
+          "hint": {"tk": "Bir sagatda 60 minut bar.", "ru": "В часе 60 минут."},
+          "explain": {"tk": "75 × 60 = 4500 gezek.", "ru": "75 × 60 = 4500 ударов."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Kislorody haýsy öýjükler daşaýar?", "ru": "Какие клетки переносят кислород?"},
+          "options": [{"tk": "Leýkositler", "ru": "Лейкоциты"}, {"tk": "Eritrositler", "ru": "Эритроциты"}, {"tk": "Trombositler", "ru": "Тромбоциты"}],
+          "answer": 1,
+          "hint": {"tk": "Bu öýjüklerde gemoglobin bar we olar gana gyzyl reňk berýär.", "ru": "В этих клетках есть гемоглобин, и они придают крови красный цвет."},
+          "explain": {"tk": "Eritrositleriň gemoglobini öýkenlerde kislorod bilen birleşip, ony dokumalara eltýär.", "ru": "Гемоглобин эритроцитов связывает кислород в лёгких и доставляет его к тканям."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Ähli arteriýalarda kisloroda baý gan akýar.", "ru": "Во всех артериях течёт богатая кислородом кровь."},
+          "answer": false,
+          "hint": {"tk": "Kiçi tegelegiň başlangyjyny ýatla.", "ru": "Вспомни начало малого круга."},
+          "explain": {"tk": "Ýalňyş. Öýken arteriýasy sag mädejikden öýkenlere kislorody az gany alyp gidýär.", "ru": "Неверно. Лёгочная артерия несёт бедную кислородом кровь из правого желудочка в лёгкие."}
+        },
+        {"type": "world", "text": {
+          "tk": "Iňlis lukmany William Harwi 1628-nji ýylda ganyň bedende ýapyk tegelek boýunça aýlanýandygyny subut etdi. 1901-nji ýylda bolsa Karl Landşteýner gan toparlaryny açdy — şondan soň gan guýmak howpsuz boldy.",
+          "ru": "Английский врач Уильям Гарвей в 1628 году доказал, что кровь движется по замкнутому кругу. А в 1901 году Карл Ландштейнер открыл группы крови — после этого переливание крови стало безопасным."
+        }}
+      ]
+    },
+    {
+      "id": "biology-8-respiration",
+      "grade": 8,
+      "topic": 3,
+      "title": {"tk": "Dem alyş ulgamy", "ru": "Дыхательная система"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Dem alanymyzda howa şu ýoldan geçýär:\nburun boşlugy → bogaz → bokurdak → kekirdek (traheýa) → bronhlar → öýkenler → alweolalar.\n\n• Burunda howa ýylaýar, çyglanýar we tozandan arassalanýar.\n• Alweolalar — kapillýarlar bilen gurşalan ownuk howa haltajyklary. Olarda diffuziýa arkaly kislorod gana, kömürturşy gazy (CO₂) bolsa gandan howa geçýär.\n\nDem almagyň mehanizmi:\n• Dem alyş: diafragma we gapyrgaara myşsalar gysylýar → döş boşlugy ulalýar → howa öýkene girýär.\n• Dem çykaryş: myşsalar gowşaýar → döş boşlugy kiçelýär → howa çykýar.",
+          "ru": "При вдохе воздух проходит путь:\nносовая полость → глотка → гортань → трахея → бронхи → лёгкие → альвеолы.\n\n• В носу воздух согревается, увлажняется и очищается от пыли.\n• Альвеолы — крошечные воздушные пузырьки, оплетённые капиллярами. В них путём диффузии кислород переходит в кровь, а углекислый газ (CO₂) — из крови в воздух.\n\nМеханизм дыхания:\n• Вдох: диафрагма и межрёберные мышцы сокращаются → грудная полость увеличивается → воздух входит в лёгкие.\n• Выдох: мышцы расслабляются → полость уменьшается → воздух выходит."
+        }},
+        {"type": "example", "text": {
+          "tk": "Ýumşak dem alanyňda her gezek takmynan 0,5 l howa alýarsyň. Minutda 16 gezek dem alsaň:\n1) 16 × 0,5 = 8 l howa minutda.\n2) Dem alýan howada kislorod ~21%, çykarýan howada ~16%. Diýmek, bedenimiz howadaky kislorodyň bir bölegini alyp galýar.\n3) CO₂ bolsa ~0,04%-den ~4%-e çenli köpelýär.",
+          "ru": "При спокойном дыхании за один вдох поступает около 0,5 л воздуха. Если делать 16 вдохов в минуту:\n1) 16 × 0,5 = 8 л воздуха в минуту.\n2) Во вдыхаемом воздухе ~21% кислорода, в выдыхаемом ~16%. Значит, организм забирает часть кислорода.\n3) А CO₂ возрастает примерно с 0,04% до ~4%."
+        }},
+        {"type": "input",
+          "q": {"tk": "Her dem alyşda 0,5 l howa girýär. Minutda 15 gezek dem alsaň, minutda näçe litr howa alýarsyň?", "ru": "За вдох поступает 0,5 л воздуха. Сколько литров воздуха за минуту при 15 вдохах?"},
+          "answer": "7.5|7,5",
+          "hint": {"tk": "Dem alyşlaryň sanyny bir dem alyşdaky göwrüme köpelt.", "ru": "Умножь число вдохов на объём одного вдоха."},
+          "explain": {"tk": "15 × 0,5 = 7,5 l.", "ru": "15 × 0,5 = 7,5 л."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Gaz çalşygy nirede bolýar?", "ru": "Где происходит газообмен?"},
+          "options": [{"tk": "Kekirdekde", "ru": "В трахее"}, {"tk": "Bokurdakda", "ru": "В гортани"}, {"tk": "Alweolalarda", "ru": "В альвеолах"}],
+          "answer": 2,
+          "hint": {"tk": "Gaz çalşygy üçin diwar örän inçe we kapillýarlar ýakyn bolmaly.", "ru": "Для газообмена нужна очень тонкая стенка и близкие капилляры."},
+          "explain": {"tk": "Alweolalaryň diwary bir gatly öýjüklerden ybarat we kapillýarlar bilen gurşalan, şonuň üçin gazlar şol ýerde çalşylýar.", "ru": "Стенка альвеол — один слой клеток, и они оплетены капиллярами, поэтому газы обмениваются именно там."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Diafragma gysylanda biz dem çykarýarys.", "ru": "Когда диафрагма сокращается, мы выдыхаем."},
+          "answer": false,
+          "hint": {"tk": "Diafragma gysylanda aşak düşýär we döş boşlugy ... .", "ru": "Сокращаясь, диафрагма опускается, и грудная полость ... ."},
+          "explain": {"tk": "Ýalňyş. Diafragma gysylanda döş boşlugy ulalýar we howa içeri girýär — bu dem alyş.", "ru": "Неверно. При сокращении диафрагмы грудная полость увеличивается и воздух входит — это вдох."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Burunda howa bilen näme bolmaýar?", "ru": "Что НЕ происходит с воздухом в носу?"},
+          "options": [{"tk": "Kislorod gana geçýär", "ru": "Кислород переходит в кровь"}, {"tk": "Ýylaýar", "ru": "Согревается"}, {"tk": "Tozandan arassalanýar", "ru": "Очищается от пыли"}],
+          "answer": 0,
+          "hint": {"tk": "Burun — howa ýolunyň başlangyjy, gaz çalşygy ýeri däl.", "ru": "Нос — начало воздухоносных путей, а не место газообмена."},
+          "explain": {"tk": "Kislorod diňe alweolalarda gana geçýär; burun howany taýýarlaýar.", "ru": "Кислород переходит в кровь только в альвеолах; нос лишь подготавливает воздух."}
+        }
+        ,
+        {"type": "world", "text": {
+          "tk": "Adamyň öýkenlerinde ýüzlerçe million alweola bar. Olaryň umumy meýdany onlarça inedördül metre ýetýär — bu bedeniň deri meýdanyndan esse-esse uly.",
+          "ru": "В лёгких человека сотни миллионов альвеол. Их общая площадь достигает десятков квадратных метров — во много раз больше площади кожи."
+        }}
+      ]
+    },
+    {
+      "id": "biology-8-digestion",
+      "grade": 8,
+      "topic": 4,
+      "title": {"tk": "Iýmit siňdiriş", "ru": "Пищеварение"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Iýmit siňdiriş — iýmitiň gana sorulyp bilýän ýönekeý maddalara bölünmegi. Muny fermentler tizleşdirýär.\n\nIýmit ýoly:\n• Agyz boşlugy — dişler çeýneýär; tüýkülikdäki amilaza krahmaly bölüp başlaýar.\n• Gyzylödek — iýmiti aşgazana geçirýär.\n• Aşgazan — duz kislotasy mikroblary öldürýär; pepsin beloklary bölüp başlaýar.\n• Inçe içege — bagyryň ödi ýaglary emulsiýa edýär, aşgazanasty mäziniň şiresi beloklary, ýaglary, uglewodlary bölýär. Tüýjagazlar arkaly maddalar gana sorulýar.\n• Ýogyn içege — suw sorulýar, peýdaly bakteriýalar ýaşaýar.\n\nNetije: beloklar → aminokislotalar, uglewodlar → glýukoza, ýaglar → gliserin we ýag kislotalary.",
+          "ru": "Пищеварение — расщепление пищи на простые вещества, которые могут всасываться в кровь. Его ускоряют ферменты.\n\nПуть пищи:\n• Ротовая полость — зубы пережёвывают; амилаза слюны начинает расщеплять крахмал.\n• Пищевод — проводит пищу в желудок.\n• Желудок — соляная кислота убивает микробы; пепсин начинает расщеплять белки.\n• Тонкая кишка — желчь из печени эмульгирует жиры, сок поджелудочной железы расщепляет белки, жиры и углеводы. Через ворсинки вещества всасываются в кровь.\n• Толстая кишка — всасывается вода, живут полезные бактерии.\n\nИтог: белки → аминокислоты, углеводы → глюкоза, жиры → глицерин и жирные кислоты."
+        }},
+        {"type": "example", "text": {
+          "tk": "Bir bölek et bilen çöregiň ýoluny yzarlalyň:\n1) Agyzda: çörekdäki krahmal amilaza bilen bölünip başlaýar (çöregi uzak çeýneseň süýji tagam duýulýar).\n2) Aşgazanda: etdäki belok pepsin bilen bölünip başlaýar.\n3) Inçe içegede: krahmal glýukoza, belok aminokislotalara çenli doly bölünýär.\n4) Glýukoza we aminokislotalar tüýjagazlaryň kapillýarlaryna sorulýar we gan bilen bedene ýaýraýar.",
+          "ru": "Проследим путь кусочка мяса с хлебом:\n1) Во рту: крахмал хлеба начинает расщепляться амилазой (если долго жевать хлеб, появляется сладкий вкус).\n2) В желудке: белок мяса начинает расщепляться пепсином.\n3) В тонкой кишке: крахмал расщепляется до глюкозы, белок — до аминокислот.\n4) Глюкоза и аминокислоты всасываются в капилляры ворсинок и разносятся кровью."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Beloklaryň bölünmegi nirede başlaýar?", "ru": "Где начинается расщепление белков?"},
+          "options": [{"tk": "Agyzda", "ru": "Во рту"}, {"tk": "Aşgazanda", "ru": "В желудке"}, {"tk": "Ýogyn içegede", "ru": "В толстой кишке"}],
+          "answer": 1,
+          "hint": {"tk": "Pepsin fermenti haýsy organda bölünip çykýar?", "ru": "В каком органе выделяется фермент пепсин?"},
+          "explain": {"tk": "Aşgazanda pepsin kislotaly gurşawda beloklary bölüp başlaýar.", "ru": "В желудке пепсин в кислой среде начинает расщеплять белки."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Öt öt haltasynda öndürilýär.", "ru": "Желчь вырабатывается в желчном пузыре."},
+          "answer": false,
+          "hint": {"tk": "Öt haltasy diňe ammar ýaly.", "ru": "Желчный пузырь — лишь «склад»."},
+          "explain": {"tk": "Ýalňyş. Öti bagyr öndürýär, öt haltasy ony toplaýar we inçe içegä goýberýär.", "ru": "Неверно. Желчь вырабатывает печень, а желчный пузырь её накапливает и выпускает в тонкую кишку."}
+        },
+        {"type": "input",
+          "q": {"tk": "Uly adamyň doly diş toplumynda näçe diş bar?", "ru": "Сколько зубов в полном наборе у взрослого человека?"},
+          "answer": "32",
+          "hint": {"tk": "Her eňekde 16 diş.", "ru": "На каждой челюсти по 16 зубов."},
+          "explain": {"tk": "16 + 16 = 32 diş (akyl dişlerini goşmak bilen).", "ru": "16 + 16 = 32 зуба (вместе с зубами мудрости)."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Iýmitden peýdaly maddalaryň esasy bölegi nirede gana sorulýar?", "ru": "Где основная часть питательных веществ всасывается в кровь?"},
+          "options": [{"tk": "Gyzylödekde", "ru": "В пищеводе"}, {"tk": "Aşgazanda", "ru": "В желудке"}, {"tk": "Inçe içegede", "ru": "В тонкой кишке"}],
+          "answer": 2,
+          "hint": {"tk": "Sorulmak üçin uly meýdan gerek — tüýjagazlary ýatla.", "ru": "Для всасывания нужна большая площадь — вспомни ворсинки."},
+          "explain": {"tk": "Inçe içegäniň müňlerçe tüýjagazy sorujy meýdany ägirt ulaldýar.", "ru": "Множество ворсинок тонкой кишки огромно увеличивает площадь всасывания."}
+        },
+        {"type": "world", "text": {
+          "tk": "Rus fiziology Iwan Pawlow iýmit siňdirişiň işlenişini öwrenendigi üçin 1904-nji ýylda Nobel baýragyny aldy. Ol Nobel baýragyny alan ilkinji rus alymy boldy.",
+          "ru": "Русский физиолог Иван Павлов получил Нобелевскую премию 1904 года за исследования пищеварения. Он стал первым российским нобелевским лауреатом."
+        }}
+      ]
+    },
+    {
+      "id": "biology-8-nervous-system",
+      "grade": 8,
+      "topic": 5,
+      "title": {"tk": "Nerw ulgamy", "ru": "Нервная система"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Nerw ulgamy bedeniň ähli işini dolandyrýar we utgaşdyrýar.\n\n• Merkezi nerw ulgamy: kelle beýnisi we arka beýni.\n• Periferik nerw ulgamy: nerwler we nerw düwünleri.\n\nNeýron — nerw öýjügi. Onuň bölekleri:\n• bedeni (ýadrosy bilen);\n• dendritler — signal kabul edýän gysga ösüntgiler;\n• akson — signaly uzaklyga geçirýän uzyn ösüntgi.\nNeýronlaryň birleşýän ýeri — sinaps.\n\nKelle beýnisiniň esasy bölümleri:\n• Uly ýarymşarlar — pikirlenme, söz, ýat, duýgular.\n• Beýnijik — hereketleri utgaşdyrmak, deňagramlylyk.\n• Beýni sütüni — dem alyş, ýürek urşy ýaly möhüm işler.",
+          "ru": "Нервная система управляет и согласует всю работу организма.\n\n• Центральная нервная система: головной и спинной мозг.\n• Периферическая нервная система: нервы и нервные узлы.\n\nНейрон — нервная клетка. Его части:\n• тело (с ядром);\n• дендриты — короткие отростки, принимают сигнал;\n• аксон — длинный отросток, передаёт сигнал на расстояние.\nМесто контакта нейронов — синапс.\n\nОсновные отделы головного мозга:\n• Большие полушария — мышление, речь, память, ощущения.\n• Мозжечок — координация движений, равновесие.\n• Ствол мозга — дыхание, сердцебиение и другие жизненно важные функции."
+        }},
+        {"type": "example", "text": {
+          "tk": "Eliň gyzgyn demire degdi. Refleks dugasy:\n1) Reseptor — derideki duýgur nerw uçlary gyzgynlygy duýýar.\n2) Duýgur neýron signaly arka beýnä eltýär.\n3) Goşulyşdyryjy neýron arka beýniniň içinde signaly geçirýär.\n4) Hereket neýrony signaly myşsa iberýär.\n5) Işçi organ — myşsa gysylýar we el çekilýär.\nBu hemmesi sekundyň bölekleriniň içinde bolýar; agyry duýgusy beýnä birneme soňrak ýetýär.",
+          "ru": "Рука коснулась горячего утюга. Рефлекторная дуга:\n1) Рецептор — чувствительные окончания в коже ощущают жар.\n2) Чувствительный нейрон несёт сигнал в спинной мозг.\n3) Вставочный нейрон передаёт сигнал внутри спинного мозга.\n4) Двигательный нейрон посылает сигнал к мышце.\n5) Рабочий орган — мышца сокращается, рука отдёргивается.\nВсё это занимает доли секунды; ощущение боли доходит до головного мозга чуть позже."
+        }},
+        {"type": "input",
+          "q": {"tk": "Refleks dugasy näçe bölekden durýar? (san)", "ru": "Из скольких звеньев состоит рефлекторная дуга? (число)"},
+          "answer": "5",
+          "hint": {"tk": "Reseptordan işçi organa çenli mysaly sana.", "ru": "Посчитай звенья в примере от рецептора до рабочего органа."},
+          "explain": {"tk": "Reseptor, duýgur neýron, goşulyşdyryjy neýron, hereket neýrony, işçi organ — 5.", "ru": "Рецептор, чувствительный нейрон, вставочный нейрон, двигательный нейрон, рабочий орган — 5."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Deňagramlylygy we hereketleriň utgaşygyny beýniniň haýsy bölümi dolandyrýar?", "ru": "Какой отдел мозга отвечает за равновесие и координацию движений?"},
+          "options": [{"tk": "Beýnijik", "ru": "Мозжечок"}, {"tk": "Arka beýni", "ru": "Спинной мозг"}, {"tk": "Beýni sütüni", "ru": "Ствол мозга"}],
+          "answer": 0,
+          "hint": {"tk": "Bu bölüm uly ýarymşarlaryň aşagynda, ýeňse tarapda ýerleşýär.", "ru": "Этот отдел расположен под большими полушариями, в затылочной части."},
+          "explain": {"tk": "Beýnijik hereketleriň takyklygyny we deňagramlylygy üpjün edýär.", "ru": "Мозжечок обеспечивает точность движений и равновесие."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Neýronyň signaly uzaklyga geçirýän uzyn ösüntgisi akson diýlip atlandyrylýar.", "ru": "Длинный отросток нейрона, передающий сигнал на расстояние, называется аксоном."},
+          "answer": true,
+          "hint": {"tk": "Dendritler gysga we köp bolýar.", "ru": "Дендриты короткие, и их много."},
+          "explain": {"tk": "Dogry. Akson signaly neýronyň bedeninden beýleki öýjüklere geçirýär.", "ru": "Верно. Аксон передаёт сигнал от тела нейрона к другим клеткам."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Merkezi nerw ulgamyna näme degişli?", "ru": "Что относится к центральной нервной системе?"},
+          "options": [{"tk": "Kelle beýnisi we nerwler", "ru": "Головной мозг и нервы"}, {"tk": "Kelle beýnisi we arka beýni", "ru": "Головной и спинной мозг"}, {"tk": "Diňe nerw düwünleri", "ru": "Только нервные узлы"}],
+          "answer": 1,
+          "hint": {"tk": "Nerwler we düwünler periferik bölege degişli.", "ru": "Нервы и узлы относятся к периферической части."},
+          "explain": {"tk": "Merkezi nerw ulgamy — kelle we arka beýni; galanlary periferik ulgam.", "ru": "ЦНС — головной и спинной мозг; остальное — периферическая система."}
+        },
+        {"type": "world", "text": {
+          "tk": "Alymlaryň hasaplamalaryna görä, adamyň kelle beýnisinde takmynan 86 milliard neýron bar. Her neýron müňlerçe sinaps arkaly beýleki neýronlar bilen baglanyşyp bilýär.",
+          "ru": "По оценкам учёных, в головном мозге человека около 86 миллиардов нейронов. Каждый нейрон может быть связан с другими тысячами синапсов."
+        }}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "grade": 9,
+  "subject": "literature",
+  "lessons": [
+    {
+      "id": "literature-9-turkmen-prose-20c",
+      "grade": 9,
+      "topic": 0,
+      "title": {"tk": "XX asyr türkmen prozasy", "ru": "Туркменская проза XX века"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Türkmen edebiýatynda asyrlar boýy esasy ýeri poeziýa eýeläpdir: Magtymguly, Keminä, Mollanepes ýaly şahyrlar goşgy bilen ýazypdyrlar. Halk döredijiliginde bolsa dessanlar we ertekiler bardy.\nXX asyrda ýagdaý üýtgedi: türkmen edebiýatynda häzirki zaman prozasy — hekaýa, powest we roman — kemala geldi.\n• Hekaýa — bir wakany suratlandyrýan gysga eser.\n• Powest — birnäçe wakaly, orta göwrümli eser.\n• Roman — köp gahrymanly, uzak döwri öz içine alýan uly göwrümli eser.\nBu döwrüň meşhur prozaçylary: Berdi Kerbabaýew («Aýgytly ädim», «Nebitdag»), Hydyr Derýaýew («Ykbal»), Beki Seýtäkow («Doganlar»).",
+          "ru": "Веками главное место в туркменской литературе занимала поэзия: Махтумкули, Кемине, Молланепес писали стихами. В народном творчестве были дастаны и сказки.\nВ XX веке положение изменилось: сложилась современная туркменская проза — рассказ, повесть и роман.\n• Рассказ — короткое произведение об одном событии.\n• Повесть — произведение среднего объёма с несколькими событиями.\n• Роман — крупное произведение со многими героями, охватывающее долгий период.\nИзвестные прозаики этого времени: Берды Кербабаев («Решающий шаг», «Небит-Даг»), Хыдыр Дерьяев («Судьба»), Беки Сейтаков («Братья»)."}},
+        {"type": "example", "text": {
+          "tk": "Eseriň žanryny nädip kesgitlemeli? Üç sorag beriň:\n1) Göwrümi nähili? Birnäçe sahypa → hekaýa; onlarça sahypa → powest; ýüzlerçe sahypa → roman.\n2) Näçe esasy gahryman we waka bar? Bir waka → hekaýa; köp waka çyzygy → roman.\n3) Näçe wagty öz içine alýar? Bir gün → köplenç hekaýa; birnäçe ýyl ýa-da nesiller → roman.\nMysal: «Aýgytly ädim» — köp gahrymanly, jemgyýetiň uly özgerişlerini birnäçe ýylyň dowamynda görkezýär → roman.",
+          "ru": "Как определить жанр прозаического произведения? Задайте три вопроса:\n1) Каков объём? Несколько страниц → рассказ; десятки → повесть; сотни → роман.\n2) Сколько главных героев и сюжетных линий? Одно событие → рассказ; много линий → роман.\n3) Какой период охвачен? Один день → чаще рассказ; годы или поколения → роман.\nПример: «Решающий шаг» — много героев, крупные перемены в обществе на протяжении нескольких лет → роман."}},
+        {"type": "choice",
+          "q": {"tk": "Köp gahrymanly, uzak döwri öz içine alýan uly göwrümli proza eseri nähili atlandyrylýar?", "ru": "Как называется крупное прозаическое произведение со многими героями, охватывающее долгий период?"},
+          "options": [{"tk": "Hekaýa", "ru": "Рассказ"}, {"tk": "Roman", "ru": "Роман"}, {"tk": "Goşgy", "ru": "Стихотворение"}],
+          "answer": 1,
+          "hint": {"tk": "Iň uly proza žanry.", "ru": "Самый крупный прозаический жанр."},
+          "explain": {"tk": "Roman — iň uly epiki žanr: köp gahryman, köp waka çyzygy, uzak döwür.", "ru": "Роман — самый крупный эпический жанр: много героев, сюжетных линий, длительный период."}},
+        {"type": "truefalse",
+          "q": {"tk": "XX asyrdan öň türkmen edebiýatynda esasy ýeri poeziýa eýeläpdir.", "ru": "До XX века главное место в туркменской литературе занимала поэзия."},
+          "answer": true,
+          "hint": {"tk": "Magtymguly we Keminä nähili ýazypdyrlar?", "ru": "В какой форме писали Махтумкули и Кемине?"},
+          "explain": {"tk": "Dogry: nusgawy türkmen edebiýaty esasan goşgy görnüşinde döräpdir; häzirki zaman romany we powesti XX asyrda kemala geldi.", "ru": "Верно: классическая туркменская литература была в основном поэтической; современные роман и повесть сложились в XX веке."}},
+        {"type": "choice",
+          "q": {"tk": "«Ykbal» romanynyň awtory kim?", "ru": "Кто автор романа «Ykbal» («Судьба»)?"},
+          "options": [{"tk": "Hydyr Derýaýew", "ru": "Хыдыр Дерьяев"}, {"tk": "Magtymguly", "ru": "Махтумкули"}, {"tk": "Beki Seýtäkow", "ru": "Беки Сейтаков"}],
+          "answer": 0,
+          "hint": {"tk": "Magtymguly XVIII asyrda ýaşan şahyr.", "ru": "Махтумкули — поэт XVIII века."},
+          "explain": {"tk": "«Ykbal» — Hydyr Derýaýewiň romany. Beki Seýtäkow «Doganlar» eseri bilen tanalýar, Magtymguly bolsa şahyr.", "ru": "«Ykbal» — роман Хыдыра Дерьяева. Беки Сейтаков известен произведением «Братья», а Махтумкули — поэт."}},
+        {"type": "input",
+          "q": {"tk": "XX asyr haýsy ýyllary öz içine alýar? Başlangyç ýylyny ýazyň.", "ru": "Какие годы охватывает XX век? Напишите его первый год."},
+          "answer": "1901",
+          "hint": {"tk": "I asyr 1-nji ýyldan başlanýar, 0-dan däl.", "ru": "I век начался с 1-го года, а не с нулевого."},
+          "explain": {"tk": "Asyr 1-den 100-e çenli sanalýar, şonuň üçin XX asyr 1901–2000-nji ýyllar. Gündelik durmuşda köplenç 1900-den başlap hasaplaýarlar, ýöne takyk hasap 1901.", "ru": "Век считается с 1-го по 100-й год, поэтому XX век — 1901–2000. В быту часто считают с 1900-го, но строго — с 1901."}},
+        {"type": "world", "text": {
+          "tk": "Türkmen ýazyjylarynyň eserleri XX asyrda rus we beýleki köp dillere terjime edildi. Mysal üçin, Berdi Kerbabaýewiň «Aýgytly ädim» romany rus diline terjime edilip, giň okyjylar köpçüligine ýetdi we 1948-nji ýylda Döwlet baýragyna mynasyp boldy.",
+          "ru": "В XX веке произведения туркменских писателей переводились на русский и многие другие языки. Например, роман Берды Кербабаева «Решающий шаг» в русском переводе стал известен широкому кругу читателей и в 1948 году был удостоен Государственной (Сталинской) премии."}}
+      ]
+    },
+    {
+      "id": "literature-9-berdi-kerbabayev",
+      "grade": 9,
+      "topic": 1,
+      "title": {"tk": "Berdi Kerbabaýew: durmuşy we döredijiligi", "ru": "Берды Кербабаев: жизнь и творчество"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Berdi Kerbabaýew (1894–1974) — XX asyr türkmen edebiýatynyň iň görnükli wekilleriniň biri, şahyr, ýazyjy we terjimeçi.\n• Ýaşlykda medresede okapdyr, gündogar edebiýatyny, arap we pars dillerini öwrenipdir.\n• Döredijiligine şahyr hökmünde başlap, soň uly proza geçipdir.\n• Esasy eserleri: «Aýgytly ädim» romany, «Nebitdag» romany, «Aýsoltan» powesti.\n• «Aýgytly ädim» — XX asyryň başyndaky türkmen obasynyň durmuşy, Artyk we Aýna ýaly gahrymanlaryň ykbaly arkaly jemgyýetiň uly özgerişlerini görkezýän roman.\n• «Nebitdag» romany nebitçileriň zähmetine we Balkan sebitiniň senagat taýdan ösüşine bagyşlanýar.",
+          "ru": "Берды Кербабаев (1894–1974) — один из крупнейших туркменских писателей XX века, поэт, прозаик и переводчик.\n• В юности учился в медресе, изучал восточную литературу, арабский и персидский языки.\n• Начинал как поэт, затем перешёл к крупной прозе.\n• Главные произведения: романы «Решающий шаг» («Aýgytly ädim») и «Небит-Даг», повесть «Айсолтан».\n• «Решающий шаг» показывает жизнь туркменского аула начала XX века и большие перемены в обществе через судьбы героев, таких как Артык и Айна.\n• Роман «Небит-Даг» посвящён труду нефтяников и промышленному развитию Балканского края."}},
+        {"type": "example", "text": {
+          "tk": "Romany derňemegiň meýilnamasy («Aýgytly ädim» mysalynda):\n1) Döwri: XX asyryň başy, uly jemgyýetçilik özgerişleri.\n2) Ýeri: türkmen obasy we onuň daşyndaky dünýä.\n3) Esasy gahrymanlar: Artyk — adalat gözleýän ýigit; Aýna — öz ykbalyny saýlamak isleýän gyz.\n4) Esasy konflikt: köne däp-dessurlar bilen täze durmuş arasyndaky göreş; şahsy bagt ugrundaky göreş.\n5) Ady näme üçin şeýle? Gahrymanlaryň durmuşynda we jemgyýetde ýüze çykan «aýgytly ädimi» aňladýar.\nŞu bäş sorag islendik romany derňemäge kömek edýär.",
+          "ru": "План анализа романа (на примере «Решающего шага»):\n1) Время: начало XX века, крупные общественные перемены.\n2) Место: туркменский аул и мир за его пределами.\n3) Главные герои: Артык — юноша, ищущий справедливости; Айна — девушка, желающая сама выбрать свою судьбу.\n4) Основной конфликт: борьба старых обычаев и новой жизни; борьба за личное счастье.\n5) Почему такое название? Оно означает «решающий шаг», сделанный героями и обществом.\nЭти пять вопросов помогают разобрать любой роман."}},
+        {"type": "choice",
+          "q": {"tk": "Berdi Kerbabaýewiň haýsy romany nebitçileriň durmuşyna bagyşlanýar?", "ru": "Какой роман Берды Кербабаева посвящён жизни нефтяников?"},
+          "options": [{"tk": "«Aýgytly ädim»", "ru": "«Решающий шаг»"}, {"tk": "«Aýsoltan»", "ru": "«Айсолтан»"}, {"tk": "«Nebitdag»", "ru": "«Небит-Даг»"}],
+          "answer": 2,
+          "hint": {"tk": "«Nebit» sözüne üns beriň.", "ru": "Обратите внимание на слово «nebit» (нефть)."},
+          "explain": {"tk": "«Nebitdag» romany nebitçileriň zähmetini we Balkan sebitiniň senagat ösüşini suratlandyrýar.", "ru": "Роман «Небит-Даг» описывает труд нефтяников и промышленное развитие Балканского края."}},
+        {"type": "input",
+          "q": {"tk": "Berdi Kerbabaýew 1894-nji ýylda doglup, 1974-nji ýylda aradan çykdy. Ol näçe ýyl ýaşapdyr?", "ru": "Берды Кербабаев родился в 1894 году и умер в 1974 году. Сколько лет он прожил (примерно)?"},
+          "answer": "80",
+          "hint": {"tk": "Ýyllaryň tapawudyny tapyň.", "ru": "Найдите разность годов."},
+          "explain": {"tk": "1974 − 1894 = 80. Ýazyjy takmynan 80 ýyl ýaşap, uly edebi miras galdyrdy.", "ru": "1974 − 1894 = 80. Писатель прожил около 80 лет и оставил большое литературное наследие."}},
+        {"type": "truefalse",
+          "q": {"tk": "Berdi Kerbabaýew diňe proza ýazypdyr, goşgy ýazmandyr.", "ru": "Берды Кербабаев писал только прозу и не писал стихов."},
+          "answer": false,
+          "hint": {"tk": "Ol döredijilik ýoluny nähili başlapdyr?", "ru": "С чего он начал свой творческий путь?"},
+          "explain": {"tk": "Ýalňyş: Kerbabaýew ilki şahyr hökmünde tanalypdyr, soňra roman we powestler ýazypdyr.", "ru": "Неверно: Кербабаев сначала был известен как поэт, а уже потом писал романы и повести."}},
+        {"type": "choice",
+          "q": {"tk": "«Aýgytly ädim» romanynyň esasy konflikti näme?", "ru": "Каков основной конфликт романа «Решающий шаг»?"},
+          "options": [{"tk": "Köne däpler bilen täze durmuşyň göreşi", "ru": "Борьба старых обычаев и новой жизни"}, {"tk": "Kosmosy özleşdirmek", "ru": "Освоение космоса"}, {"tk": "Deňiz syýahaty", "ru": "Морское путешествие"}],
+          "answer": 0,
+          "hint": {"tk": "Waka XX asyryň başynda obada bolup geçýär.", "ru": "Действие происходит в ауле в начале XX века."},
+          "explain": {"tk": "Roman jemgyýetiň uly özgerişlerini, köne we täze durmuş arasyndaky göreşi gahrymanlaryň ykbaly arkaly görkezýär.", "ru": "Роман показывает крупные перемены в обществе и борьбу старого и нового через судьбы героев."}},
+        {"type": "world", "text": {
+          "tk": "Kerbabaýew diňe ýazyjy däl, eýsem ökde terjimeçi hem bolupdyr: ol rus we dünýä edebiýatynyň eserlerini türkmen diline geçiripdir. Terjime — halklaryň medeniýetlerini ýakynlaşdyrýan köpri: dünýäde iň köp terjime edilen awtorlaryň arasynda Agata Kristi, Žýul Wern we Şekspir bar.",
+          "ru": "Кербабаев был не только писателем, но и мастером перевода: он переводил на туркменский произведения русской и мировой литературы. Перевод — мост между культурами: среди самых переводимых авторов мира — Агата Кристи, Жюль Верн и Шекспир."}}
+      ]
+    },
+    {
+      "id": "literature-9-pushkin",
+      "grade": 9,
+      "topic": 2,
+      "title": {"tk": "Aleksandr Puşkin", "ru": "Александр Пушкин"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Aleksandr Sergeýewiç Puşkin (1799–1837) — rus edebiýatynyň iň beýik şahyry, häzirki zaman rus edebi diliniň esaslandyryjysy hasaplanýar.\n• Moskwada doguldy, Sarskoýe Seloda liseýde okady (1811–1817).\n• Ejesi tarapyndan atasynyň kakasy Abram Gannibal Afrikadan getirilen bolup, Pýotr I-iň ýakyn adamy bolupdyr.\n• Esasy eserleri: «Ruslan we Lýudmila» poemasy, «Ýewgeniý Onegin» goşgy bilen ýazylan romany, «Boris Godunow» dramasy, «Kapitanyň gyzy» powesti, çagalar üçin ertekiler.\n• 1837-nji ýylda duelde agyr ýaralanyp, 37 ýaşynda aradan çykdy.",
+          "ru": "Александр Сергеевич Пушкин (1799–1837) — величайший русский поэт, считается создателем современного русского литературного языка.\n• Родился в Москве, учился в Царскосельском лицее (1811–1817).\n• Его прадед по матери Абрам Ганнибал был привезён из Африки и стал приближённым Петра I.\n• Главные произведения: поэма «Руслан и Людмила», роман в стихах «Евгений Онегин», драма «Борис Годунов», повесть «Капитанская дочка», сказки.\n• В 1837 году был смертельно ранен на дуэли и умер в 37 лет."}},
+        {"type": "example", "text": {
+          "tk": "«Ýewgeniý Onegin» romanynyň aýratynlygy:\n1) Žanry: goşgy bilen ýazylan roman — roman ýaly köp gahryman we uzak sýužet, ýöne ähli tekst goşgy.\n2) Gahrymanlar: Onegin — durmuşdan ýadan ýaş zadagan; Tatýana — arassa we çuň duýgulu gyz; Lenskiý — romantik şahyr.\n3) Sýužet: Tatýana Onegine hat ýazýar, ol ret edýär; birnäçe ýyldan soň Onegin Tatýana aşyk bolýar, ýöne Tatýana öz wezipesine wepaly galýar.\n4) Ähmiýeti: tankytçy Belinskiý bu eseri «rus durmuşynyň ensiklopediýasy» diýip atlandyrdy.",
+          "ru": "Особенности «Евгения Онегина»:\n1) Жанр: роман в стихах — как в романе, много героев и длинный сюжет, но весь текст стихотворный.\n2) Герои: Онегин — молодой дворянин, уставший от жизни; Татьяна — искренняя девушка с глубокими чувствами; Ленский — поэт-романтик.\n3) Сюжет: Татьяна пишет Онегину письмо, он отвергает её; спустя годы Онегин влюбляется в Татьяну, но она остаётся верна своему долгу.\n4) Значение: критик Белинский назвал роман «энциклопедией русской жизни»."}},
+        {"type": "choice",
+          "q": {"tk": "«Ýewgeniý Onegin» haýsy žanra degişli?", "ru": "К какому жанру относится «Евгений Онегин»?"},
+          "options": [{"tk": "Drama", "ru": "Драма"}, {"tk": "Goşgy bilen ýazylan roman", "ru": "Роман в стихах"}, {"tk": "Ertekiler ýygyndysy", "ru": "Сборник сказок"}],
+          "answer": 1,
+          "hint": {"tk": "Bu uly göwrümli eser, ýöne prozada ýazylmandyr.", "ru": "Это крупное произведение, но написано не прозой."},
+          "explain": {"tk": "Puşkin özi bu eseri «goşgy bilen ýazylan roman» diýip atlandyrypdyr.", "ru": "Пушкин сам определил жанр как «роман в стихах»."}},
+        {"type": "input",
+          "q": {"tk": "Puşkin 1799-njy ýylda doguldy. Ol 1837-nji ýylda aradan çykanda näçe ýaşyndady? (doglan güni ýylyň ortasynda)", "ru": "Пушкин родился в 1799 году (в июне). Сколько ему было лет, когда он умер в феврале 1837 года?"},
+          "answer": "37",
+          "hint": {"tk": "1837 − 1799 hasaplaň we doglan gününiň entek gelmändigini ýatdan çykarmaň.", "ru": "Посчитайте 1837 − 1799 и учтите, что день рождения в 1837 году ещё не наступил."},
+          "explain": {"tk": "1837 − 1799 = 38, ýöne Puşkin fewralda aradan çykdy, doglan güni bolsa iýunda. Şonuň üçin ol 37 ýaşyndady.", "ru": "1837 − 1799 = 38, но Пушкин умер в феврале, а день рождения у него в июне, поэтому ему было 37."}},
+        {"type": "truefalse",
+          "q": {"tk": "«Kapitanyň gyzy» — Puşkiniň proza bilen ýazan eseri.", "ru": "«Капитанская дочка» — прозаическое произведение Пушкина."},
+          "answer": true,
+          "hint": {"tk": "Bu eser powest hasaplanýar.", "ru": "Это произведение — повесть."},
+          "explain": {"tk": "Dogry: «Kapitanyň gyzy» (1836) — taryhy powest, Puşkiniň proza eserleriniň iň meşhurlarynyň biri.", "ru": "Верно: «Капитанская дочка» (1836) — историческая повесть, одно из самых известных прозаических произведений Пушкина."}},
+        {"type": "world", "text": {
+          "tk": "Puşkiniň doglan güni — 6-njy iýun — 2010-njy ýyldan bäri BMG tarapyndan Rus diliniň halkara güni hökmünde bellenýär. BMG-niň alty resmi diliniň her birine aýratyn gün bagyşlanýar.",
+          "ru": "День рождения Пушкина — 6 июня — с 2010 года отмечается ООН как Международный день русского языка. Каждому из шести официальных языков ООН посвящён свой отдельный день."}}
+      ]
+    },
+    {
+      "id": "literature-9-realism",
+      "grade": 9,
+      "topic": 3,
+      "title": {"tk": "Realizm edebi akym hökmünde", "ru": "Реализм как литературное направление"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Realizm (latynça realis — «hakyky») — durmuşy hakykata ýakyn, ynandyryjy görkezmäge çalyşýan edebi akym. Ol XIX asyrda Ýewropada we Russiýada giň ýaýrady.\nEsasy aýratynlyklary:\n• Gündelik durmuş, adaty adamlar we olaryň meseleleri.\n• Gahrymanyň häsiýeti onuň ýaşaýan jemgyýeti we şertleri bilen düşündirilýär (tipiki gahryman tipiki ýagdaýda).\n• Jikme-jik beýan: geýim, öý, gürleýiş.\n• Psihologizm — gahrymanyň içki dünýäsini açmak.\nWekilleri: Onore de Balzak, Gýustaw Flober (Fransiýa), Çarlz Dikkens (Angliýa), Lew Tolstoý, Fýodor Dostoýewskiý, Anton Çehow (Russiýa).",
+          "ru": "Реализм (лат. realis — «действительный») — литературное направление, стремящееся изображать жизнь правдиво и достоверно. Широко распространился в XIX веке в Европе и России.\nОсновные черты:\n• Повседневная жизнь, обычные люди и их проблемы.\n• Характер героя объясняется обществом и условиями, в которых он живёт (типичный герой в типичных обстоятельствах).\n• Подробные детали: одежда, быт, речь.\n• Психологизм — раскрытие внутреннего мира героя.\nПредставители: Оноре де Бальзак, Гюстав Флобер (Франция), Чарльз Диккенс (Англия), Лев Толстой, Фёдор Достоевский, Антон Чехов (Россия)."}},
+        {"type": "example", "text": {
+          "tk": "Romantizm bilen realizmi deňeşdireliň.\n• Romantizm: aýratyn, adatdan daşary gahryman; ekzotik ýer (daglar, deňiz, uzak ýurtlar); güýçli duýgular; arzuw we hakykat garşylygy.\n• Realizm: adaty adam; tanyş ýer (şäher, oba, öý); gahrymanyň hereketleri sebäpler bilen düşündirilýär.\nMysal: Dikkens «Oliwer Twist» romanynda XIX asyr Londonyndaky ýetimleriň we garyplaryň durmuşyny jikme-jik görkezýär. Bu realizmiň tipiki mysaly: okyjy jemgyýetiň hakyky meselelerini görýär.",
+          "ru": "Сравним романтизм и реализм.\n• Романтизм: исключительный герой; экзотическое место (горы, море, дальние страны); сильные страсти; противопоставление мечты и действительности.\n• Реализм: обычный человек; знакомая среда (город, деревня, дом); поступки героя объясняются причинами.\nПример: Диккенс в романе «Оливер Твист» подробно показывает жизнь сирот и бедняков в Лондоне XIX века. Это типичный реализм: читатель видит настоящие проблемы общества."}},
+        {"type": "choice",
+          "q": {"tk": "Haýsy ýazyjy realizmiň wekili?", "ru": "Какой писатель — представитель реализма?"},
+          "options": [{"tk": "Gomer", "ru": "Гомер"}, {"tk": "Lew Tolstoý", "ru": "Лев Толстой"}, {"tk": "Gadymy dessan aýdyjylar", "ru": "Древние сказители дастанов"}],
+          "answer": 1,
+          "hint": {"tk": "Realizm XIX asyrda ýaýrady.", "ru": "Реализм расцвёл в XIX веке."},
+          "explain": {"tk": "Lew Tolstoý (1828–1910) — rus realizminiň beýik wekili («Uruş we parahatçylyk», «Anna Karenina»). Gomer gadymy döwrüň eposlarynyň awtory.", "ru": "Лев Толстой (1828–1910) — великий представитель русского реализма («Война и мир», «Анна Каренина»). Гомер — автор древних эпосов."}},
+        {"type": "truefalse",
+          "q": {"tk": "Realizmde gahrymanyň häsiýeti köplenç onuň ýaşaýan jemgyýeti we şertleri bilen düşündirilýär.", "ru": "В реализме характер героя обычно объясняется обществом и условиями его жизни."},
+          "answer": true,
+          "hint": {"tk": "«Tipiki gahryman tipiki ýagdaýda» düşünjesini ýatlaň.", "ru": "Вспомните формулу «типичный герой в типичных обстоятельствах»."},
+          "explain": {"tk": "Dogry: realistler gahrymany daş-töwereginiň täsiri bilen bilelikde görkezýärler.", "ru": "Верно: реалисты изображают героя вместе с влиянием среды, которая его сформировала."}},
+        {"type": "choice",
+          "q": {"tk": "«Realizm» sözi latyn dilinde nämäni aňladýan sözden gelip çykýar?", "ru": "От латинского слова с каким значением происходит «реализм»?"},
+          "options": [{"tk": "Hakyky", "ru": "Действительный"}, {"tk": "Owadan", "ru": "Красивый"}, {"tk": "Gadymy", "ru": "Древний"}],
+          "answer": 0,
+          "hint": {"tk": "Rus dilindäki «реальный» sözüni ýatlaň.", "ru": "Вспомните слово «реальный»."},
+          "explain": {"tk": "realis — «hakyky, durmuşy». Realizm durmuşy bolşy ýaly görkezmäge çalyşýar.", "ru": "realis — «действительный, вещественный». Реализм стремится показать жизнь такой, какая она есть."}},
+        {"type": "world", "text": {
+          "tk": "«Realizm» adalgasy ilki sungatda meşhur boldy: 1855-nji ýylda fransuz suratkeşi Gýustaw Kurbe öz suratlarynyň sergisini «Realizm» diýip atlandyrdy. Ol mifleri we şalary däl-de, adaty daýhanlary we işçileri çekipdir. Soň bu söz edebiýatda hem berk ornaşdy.",
+          "ru": "Термин «реализм» сначала прославился в живописи: в 1855 году французский художник Гюстав Курбе назвал свою выставку «Реализм». Он изображал не мифы и королей, а простых крестьян и рабочих. Позже это слово прочно закрепилось и в литературе."}}
+      ]
+    },
+    {
+      "id": "literature-9-masters-of-novel",
+      "grade": 9,
+      "topic": 4,
+      "title": {"tk": "Dünýä romanynyň ussatlary", "ru": "Мастера мирового романа"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Roman dünýä edebiýatynyň iň meşhur žanrlarynyň biri. Onuň ösüşinde aýratyn orun eýeleýän ussatlar:\n• Migel de Serwantes (Ispaniýa) — «Don Kihot» (1605, 1615); köplenç ilkinji häzirki zaman romany hasaplanýar.\n• Daniel Defo (Angliýa) — «Robinzon Kruzo» (1719).\n• Wiktor Gýugo (Fransiýa) — «Betbagtlar» (1862).\n• Fýodor Dostoýewskiý (Russiýa) — «Jenaýat we jeza» (1866).\n• Lew Tolstoý (Russiýa) — «Uruş we parahatçylyk» (1860-njy ýyllar).\n• Gabriel Garsiýa Markes (Kolumbiýa) — «Ýüz ýyllyk ýalňyzlyk» (1967); 1982-nji ýylda Nobel baýragy.",
+          "ru": "Роман — один из самых популярных жанров мировой литературы. Особое место в его истории занимают:\n• Мигель де Сервантес (Испания) — «Дон Кихот» (1605, 1615); часто считается первым романом Нового времени.\n• Даниель Дефо (Англия) — «Робинзон Крузо» (1719).\n• Виктор Гюго (Франция) — «Отверженные» (1862).\n• Фёдор Достоевский (Россия) — «Преступление и наказание» (1866).\n• Лев Толстой (Россия) — «Война и мир» (1860-е годы).\n• Габриэль Гарсиа Маркес (Колумбия) — «Сто лет одиночества» (1967); Нобелевская премия 1982 года."}},
+        {"type": "example", "text": {
+          "tk": "Romanyň baş pikirini nädip tapmaly? «Don Kihot» mysalynda:\n1) Gahryman kim? Rysar romanlaryny köp okap, özüni rysar hasaplaýan garry zadagan.\n2) Näme edýär? Ýel degirmenlerini äpet hasaplap, olar bilen söweşýär; adalaty goramaga çalyşýar.\n3) Dünýä oňa nähili jogap berýär? Adamlar ondan gülýärler.\n4) Netije: roman hem gülkünç, hem gynandyryjy — arzuw bilen hakykatyň arasyndaky aralygy görkezýär. «Ýel degirmenleri bilen söweşmek» aňlatmasy hem şu eserden gelip çykdy.",
+          "ru": "Как найти главную мысль романа? На примере «Дон Кихота»:\n1) Кто герой? Старый идальго, начитавшийся рыцарских романов и вообразивший себя рыцарем.\n2) Что он делает? Принимает ветряные мельницы за великанов и сражается с ними; пытается защищать справедливость.\n3) Как отвечает мир? Люди смеются над ним.\n4) Вывод: роман и смешной, и грустный — он показывает разрыв между мечтой и реальностью. Выражение «бороться с ветряными мельницами» пришло именно отсюда."}},
+        {"type": "choice",
+          "q": {"tk": "«Jenaýat we jeza» romanynyň awtory kim?", "ru": "Кто автор романа «Преступление и наказание»?"},
+          "options": [{"tk": "Lew Tolstoý", "ru": "Лев Толстой"}, {"tk": "Wiktor Gýugo", "ru": "Виктор Гюго"}, {"tk": "Fýodor Dostoýewskiý", "ru": "Фёдор Достоевский"}],
+          "answer": 2,
+          "hint": {"tk": "Bu roman 1866-njy ýylda Peterburgda bolýan wakalary suratlandyrýar.", "ru": "Действие романа 1866 года происходит в Петербурге."},
+          "explain": {"tk": "«Jenaýat we jeza» — Dostoýewskiniň romany; Tolstoý «Uruş we parahatçylygy», Gýugo «Betbagtlary» ýazdy.", "ru": "«Преступление и наказание» написал Достоевский; Толстой — автор «Войны и мира», Гюго — «Отверженных»."}},
+        {"type": "input",
+          "q": {"tk": "«Robinzon Kruzo» 1719-njy ýylda çap edildi. «Ýüz ýyllyk ýalňyzlyk» bolsa 1967-nji ýylda. Olaryň arasynda näçe ýyl bar?", "ru": "«Робинзон Крузо» вышел в 1719 году, «Сто лет одиночества» — в 1967-м. Сколько лет между ними?"},
+          "answer": "248",
+          "hint": {"tk": "Uly ýyldan kiçi ýyly aýyryň.", "ru": "Вычтите из большего года меньший."},
+          "explain": {"tk": "1967 − 1719 = 248 ýyl. Roman žanry iki ýarym asyra golaý wagtda köp üýtgedi.", "ru": "1967 − 1719 = 248 лет. За почти два с половиной века жанр романа сильно изменился."}},
+        {"type": "truefalse",
+          "q": {"tk": "Gabriel Garsiýa Markes Nobel baýragyny alypdyr.", "ru": "Габриэль Гарсиа Маркес получил Нобелевскую премию."},
+          "answer": true,
+          "hint": {"tk": "Teoriýadaky 1982-nji ýyly ýatlaň.", "ru": "Вспомните 1982 год из теории."},
+          "explain": {"tk": "Dogry: kolumbiýaly ýazyjy 1982-nji ýylda edebiýat boýunça Nobel baýragyna mynasyp boldy.", "ru": "Верно: колумбийский писатель получил Нобелевскую премию по литературе в 1982 году."}},
+        {"type": "world", "text": {
+          "tk": "Dünýädäki iň irki romanlaryň biri Ýaponiýada ýazyldy: «Genji hakyndaky powest». Ony XI asyryň başynda köşk aýaly Murasaki Sikibu döredipdir. Bu eser Serwantesiň «Don Kihotyndan» takmynan 600 ýyl öň ýazylypdyr.",
+          "ru": "Один из самых ранних романов в мире был написан в Японии — «Повесть о Гэндзи». Его создала в начале XI века придворная дама Мурасаки Сикибу. Это произведение появилось примерно на 600 лет раньше «Дон Кихота» Сервантеса."}}
+      ]
+    },
+    {
+      "id": "literature-9-literary-criticism",
+      "grade": 9,
+      "topic": 5,
+      "title": {"tk": "Edebi tankyt", "ru": "Литературная критика"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Edebi tankyt — çeper eserleri derňeýän, bahalandyrýan we düşündirýän edebiýat ylmynyň bölümi. Tankytçy eseriň diňe kemçiliklerini däl, eýsem güýçli taraplaryny hem görkezýär.\nEsasy žanrlary:\n• Resenziýa — täze eser barada gysga syn we baha.\n• Tankydy makala — eseriň ýa-da ýazyjynyň döredijiliginiň giňişleýin derňewi.\n• Esse — awtoryň şahsy pikirlerini erkin beýan edýän eser.\nMeşhur tankytçylar: Aristotel («Poetika»), Wissarion Belinskiý (Russiýa, XIX asyr).",
+          "ru": "Литературная критика — область литературы, которая анализирует, оценивает и истолковывает художественные произведения. Критик показывает не только недостатки, но и сильные стороны произведения.\nОсновные жанры:\n• Рецензия — краткий отзыв и оценка нового произведения.\n• Критическая статья — подробный разбор произведения или творчества писателя.\n• Эссе — свободное изложение личных мыслей автора.\nИзвестные критики: Аристотель («Поэтика»), Виссарион Белинский (Россия, XIX век)."}},
+        {"type": "example", "text": {
+          "tk": "Gysga resenziýanyň meýilnamasy:\n1) Maglumat: awtor, eseriň ady, žanry. «Serwantesiň „Don Kihot“ romany…»\n2) Gysga mazmun (spoýlersiz): esasy gahryman we wakanyň başlangyjy.\n3) Derňew: tema, gahrymanlar, dil we stil. Pikiri mysal bilen subut ediň.\n4) Baha: näme gowy boldy, näme gowşak? Sebäbini görkeziň.\n5) Maslahat: bu eser kime gyzykly bolar?\nAltyn düzgün: «Halady/halamady» diýmek ýeterlik däl — her bahany delil bilen goldaň.",
+          "ru": "План короткой рецензии:\n1) Сведения: автор, название, жанр. «Роман Сервантеса „Дон Кихот“…»\n2) Краткое содержание (без спойлеров): главный герой и завязка.\n3) Анализ: тема, герои, язык и стиль. Подтверждайте мысль примером.\n4) Оценка: что удалось, что слабее? Объясните почему.\n5) Рекомендация: кому будет интересна книга?\nЗолотое правило: недостаточно сказать «понравилось / не понравилось» — каждую оценку подкрепляйте аргументом."}},
+        {"type": "choice",
+          "q": {"tk": "Täze kitap barada gysga syn we baha nähili atlandyrylýar?", "ru": "Как называется краткий отзыв и оценка новой книги?"},
+          "options": [{"tk": "Resenziýa", "ru": "Рецензия"}, {"tk": "Roman", "ru": "Роман"}, {"tk": "Poema", "ru": "Поэма"}],
+          "answer": 0,
+          "hint": {"tk": "Bu tankydyň iň gysga žanry.", "ru": "Это самый короткий жанр критики."},
+          "explain": {"tk": "Resenziýa — täze eser hakynda gysga syn. Roman we poema çeper eserleriň žanrlary.", "ru": "Рецензия — краткий отзыв о новом произведении. Роман и поэма — жанры художественной литературы."}},
+        {"type": "truefalse",
+          "q": {"tk": "Edebi tankyt diňe eseriň kemçiliklerini görkezýär.", "ru": "Литературная критика показывает только недостатки произведения."},
+          "answer": false,
+          "hint": {"tk": "Tankytçy eseri bahalandyrýar — baha diňe otrisatel bolmaly däl.", "ru": "Критик оценивает — а оценка не обязательно отрицательная."},
+          "explain": {"tk": "Ýalňyş: tankyt eseri derňeýär we düşündirýär, güýçli we gowşak taraplaryny deňagramly görkezýär.", "ru": "Неверно: критика анализирует и истолковывает произведение, взвешенно показывая и сильные, и слабые стороны."}},
+        {"type": "choice",
+          "q": {"tk": "Haýsy sözlem delilli tankydy baha?", "ru": "Какое высказывание — аргументированная критическая оценка?"},
+          "options": [{"tk": "«Kitap ýaramaz.»", "ru": "«Книга плохая.»"}, {"tk": "«Maňa ýarady.»", "ru": "«Мне понравилось.»"}, {"tk": "«Gahrymanyň içki pikirleri jikme-jik görkezilýär, şonuň üçin onuň saýlawyna ynanýarsyň.»", "ru": "«Мысли героя показаны подробно, поэтому его выбору веришь.»"}],
+          "answer": 2,
+          "hint": {"tk": "Haýsy sözlemde «sebäbi» bar?", "ru": "В каком высказывании есть объяснение «почему»?"},
+          "explain": {"tk": "Diňe üçünji sözlemde baha bilen birlikde delil hem bar: näme gowy we näme üçin.", "ru": "Только в третьем высказывании оценка подкреплена аргументом: что удалось и почему."}},
+        {"type": "world", "text": {
+          "tk": "Ýewropada edebiýat nazaryýeti boýunça saklanyp galan iň gadymy eser — Aristoteliň «Poetikasy» (b.e.öň IV asyr). Onda tragediýa, sýužet we gahryman barada ýazylan pikirler ýazyjylar we kinoreželýorlar tarapyndan häzir hem öwrenilýär.",
+          "ru": "Древнейшее сохранившееся в Европе сочинение по теории литературы — «Поэтика» Аристотеля (IV век до н. э.). Его мысли о трагедии, сюжете и герое до сих пор изучают писатели и кинорежиссёры."}}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "grade": 9,
+  "subject": "biology",
+  "lessons": [
+    {
+      "id": "biology-9-genetics-basics",
+      "grade": 9,
+      "topic": 0,
+      "title": {"tk": "Genetikanyň esaslary: nesil yzarlylyk we üýtgeýjilik", "ru": "Основы генетики: наследственность и изменчивость"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Genetika — nesil yzarlylyk we üýtgeýjilik baradaky ylym.\n• Nesil yzarlylyk — organizmleriň öz alamatlaryny nesillere geçirmek ukyby.\n• Üýtgeýjilik — bir görnüşiň wekilleriniň biri-birinden tapawutlanmagy.\n\nEsasy düşünjeler:\n• Gen — DNK-nyň belli bir alamat barada maglumat saklaýan bölegi.\n• Allel — bir geniň dürli görnüşleri (mysal üçin, goňur göz we gök göz).\n• Dominant allel (A) — beýlekisini basyp ýüze çykýar; resessiw allel (a) — diňe jübüt bolanda (aa) ýüze çykýar.\n• Genotip — organizmiň genleriniň jemi (AA, Aa, aa).\n• Fenotip — daşky we içki alamatlaryň jemi (reňk, boý, gan topary).\n• Gomozigota — iki meňzeş allel (AA ýa-da aa); geterozigota — dürli alleller (Aa).\n\nAdamyň beden öýjüklerinde 46 hromosoma (23 jübüt) bar. Her jübütiň biri ejeden, beýlekisi kakadan gelýär.",
+          "ru": "Генетика — наука о наследственности и изменчивости.\n• Наследственность — способность организмов передавать свои признаки потомкам.\n• Изменчивость — различия между особями одного вида.\n\nОсновные понятия:\n• Ген — участок ДНК, несущий информацию об определённом признаке.\n• Аллель — разные формы одного гена (например, карий и голубой цвет глаз).\n• Доминантный аллель (A) — проявляется, подавляя другой; рецессивный (a) — проявляется только в паре (aa).\n• Генотип — совокупность генов организма (AA, Aa, aa).\n• Фенотип — совокупность внешних и внутренних признаков (цвет, рост, группа крови).\n• Гомозигота — два одинаковых аллеля (AA или aa); гетерозигота — разные аллели (Aa).\n\nВ клетках тела человека 46 хромосом (23 пары). Одна хромосома каждой пары получена от матери, другая — от отца."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mysal (ýönekeýleşdirilen model): goňur göz (B) gök gözden (b) dominant.\n1) Genotipi Bb bolan adamyň gözi haýsy reňkde? B dominant, şonuň üçin fenotipi — goňur.\n2) Genotipi bb bolan adamda dominant allel ýok — gözi gök.\n3) BB we Bb adamlaryň fenotipi birmeňzeş (goňur), emma genotipi dürli.\nNetije: fenotipe seredip, genotipi elmydama anyk bilip bolmaýar.",
+          "ru": "Пример (упрощённая модель): карий цвет глаз (B) доминирует над голубым (b).\n1) Какого цвета глаза у человека с генотипом Bb? B доминантный, значит фенотип — карие глаза.\n2) У человека bb доминантного аллеля нет — глаза голубые.\n3) У людей BB и Bb фенотип одинаковый (карие), а генотип разный.\nВывод: по фенотипу не всегда можно точно определить генотип."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Haýsy genotip geterozigota?", "ru": "Какой генотип гетерозиготный?"},
+          "options": ["AA", "Aa", "aa"],
+          "answer": 1,
+          "hint": {"tk": "Geterozigota — iki dürli allel.", "ru": "Гетерозигота — два разных аллеля."},
+          "explain": {"tk": "Aa genotipinde dominant we resessiw allel bar — ol geterozigota. AA we aa — gomozigotalar.", "ru": "В генотипе Aa есть доминантный и рецессивный аллели — это гетерозигота. AA и aa — гомозиготы."}
+        },
+        {"type": "input",
+          "q": {"tk": "Adamyň beden öýjüklerinde näçe jübüt hromosoma bar?", "ru": "Сколько пар хромосом в клетках тела человека?"},
+          "answer": "23",
+          "hint": {"tk": "Jemi 46 hromosoma bar.", "ru": "Всего хромосом 46."},
+          "explain": {"tk": "46 : 2 = 23 jübüt.", "ru": "46 : 2 = 23 пары."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Fenotip — organizmiň genleriniň jemi.", "ru": "Фенотип — это совокупность генов организма."},
+          "answer": false,
+          "hint": {"tk": "Genler we alamatlar dürli düşünjeler.", "ru": "Гены и признаки — разные понятия."},
+          "explain": {"tk": "Genleriň jemi — genotip. Fenotip — alamatlaryň jemi.", "ru": "Совокупность генов — генотип. Фенотип — совокупность признаков."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Resessiw alamat haýsy genotipde ýüze çykýar?", "ru": "При каком генотипе проявляется рецессивный признак?"},
+          "options": ["AA", "Aa", "aa"],
+          "answer": 2,
+          "hint": {"tk": "Dominant allel bolsa, ol resessiwi basýar.", "ru": "Если есть доминантный аллель, он подавляет рецессивный."},
+          "explain": {"tk": "Resessiw alamat diňe iki resessiw allel bolanda (aa) görünýär.", "ru": "Рецессивный признак виден только при двух рецессивных аллелях (aa)."}
+        },
+        {"type": "world", "text": {
+          "tk": "«Gen», «genotip» we «fenotip» sözlerini 1909-njy ýylda daniýaly alym Wilgelm Iogannsen ylma girizdi.",
+          "ru": "Слова «ген», «генотип» и «фенотип» ввёл в науку датский учёный Вильгельм Иогансен в 1909 году."
+        }}
+      ]
+    },
+    {
+      "id": "biology-9-mendel-laws",
+      "grade": 9,
+      "topic": 1,
+      "title": {"tk": "Mendeliň kanunlary", "ru": "Законы Менделя"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Çeh-awstriýaly monah Grigor Mendel nohut ösümligi bilen tejribeler geçirip, 1866-njy ýylda nesil yzarlylygyň kanunlaryny çap etdi.\n\n1) Birinji nesliň birmeňzeşlik kanuny: iki dürli gomozigota ata-ene (AA × aa) çaknyşdyrylanda, F1 nesliň hemmesi birmeňzeş (Aa) we dominant alamatly bolýar.\n2) Bölünmek kanuny: F1 geterozigotalar (Aa × Aa) çaknyşdyrylanda, F2 neslinde fenotip boýunça 3 : 1, genotip boýunça 1 AA : 2 Aa : 1 aa gatnaşyk bolýar.\n3) Alamatlaryň garaşsyz paýlanyş kanuny: iki jübüt alamat (AaBb × AaBb) garaşsyz geçýär; F2-de fenotip boýunça 9 : 3 : 3 : 1.\n\nMeseleler Pennet tablisasy bilen çözülýär: ata-enäniň gametalary setir we sütün boýunça ýazylýar.",
+          "ru": "Чешско-австрийский монах Грегор Мендель проводил опыты с горохом и в 1866 году опубликовал законы наследственности.\n\n1) Закон единообразия первого поколения: при скрещивании двух разных гомозигот (AA × aa) всё потомство F1 одинаково (Aa) и имеет доминантный признак.\n2) Закон расщепления: при скрещивании гетерозигот F1 (Aa × Aa) в F2 расщепление по фенотипу 3 : 1, по генотипу 1 AA : 2 Aa : 1 aa.\n3) Закон независимого наследования: две пары признаков (AaBb × AaBb) наследуются независимо; в F2 по фенотипу 9 : 3 : 3 : 1.\n\nЗадачи решают с помощью решётки Пеннета: гаметы родителей записывают по строкам и столбцам."
+        }},
+        {"type": "example", "text": {
+          "tk": "Nohudyň sary tohumy (A) ýaşyl tohumyndan (a) dominant. Aa × Aa çaknyşdyralyň.\n1) Gametalar: her ata-ene A we a berýär.\n2) Pennet tablisasy:\n   A + A = AA, A + a = Aa\n   a + A = Aa, a + a = aa\n3) Genotipler: 1 AA : 2 Aa : 1 aa.\n4) Fenotipler: AA we Aa — sary (3 bölek), aa — ýaşyl (1 bölek). Gatnaşyk 3 : 1, ýagny 75% sary, 25% ýaşyl.",
+          "ru": "У гороха жёлтые семена (A) доминируют над зелёными (a). Скрестим Aa × Aa.\n1) Гаметы: каждый родитель даёт A и a.\n2) Решётка Пеннета:\n   A + A = AA, A + a = Aa\n   a + A = Aa, a + a = aa\n3) Генотипы: 1 AA : 2 Aa : 1 aa.\n4) Фенотипы: AA и Aa — жёлтые (3 части), aa — зелёные (1 часть). Соотношение 3 : 1, то есть 75% жёлтых и 25% зелёных."
+        }},
+        {"type": "input",
+          "q": {"tk": "Aa × aa çaknyşdyrylanda, nesliň näçe göterimi aa genotipli bolar? (diňe san)", "ru": "Какой процент потомства от скрещивания Aa × aa будет с генотипом aa? (только число)"},
+          "answer": "50|50%",
+          "hint": {"tk": "Birinji ata-ene A we a berýär, ikinjisi diňe a.", "ru": "Первый родитель даёт A и a, второй — только a."},
+          "explain": {"tk": "Mümkin nesiller: Aa we aa, deň ähtimallykda. Diýmek, 50% aa.", "ru": "Возможное потомство: Aa и aa с равной вероятностью. Значит, 50% aa."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Digibrid çaknyşykda (AaBb × AaBb) F2-de fenotip boýunça gatnaşyk nähili?", "ru": "Какое расщепление по фенотипу в F2 при дигибридном скрещивании (AaBb × AaBb)?"},
+          "options": ["3 : 1", "1 : 2 : 1", "9 : 3 : 3 : 1"],
+          "answer": 2,
+          "hint": {"tk": "Bu Mendeliň üçünji kanuny.", "ru": "Это третий закон Менделя."},
+          "explain": {"tk": "Iki alamat garaşsyz paýlanýar: (3 : 1) × (3 : 1) = 9 : 3 : 3 : 1.", "ru": "Два признака наследуются независимо: (3 : 1) × (3 : 1) = 9 : 3 : 3 : 1."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "AA × aa çaknyşykda F1 nesliň hemmesi geterozigota bolýar.", "ru": "При скрещивании AA × aa всё потомство F1 гетерозиготно."},
+          "answer": true,
+          "hint": {"tk": "Bir ata-ene diňe A, beýlekisi diňe a berýär.", "ru": "Один родитель даёт только A, другой — только a."},
+          "explain": {"tk": "Her nesil A we a alýar, ýagny Aa — geterozigota. Bu birinji kanun.", "ru": "Каждый потомок получает A и a, то есть Aa — гетерозигота. Это первый закон."}
+        },
+        {"type": "input",
+          "q": {"tk": "F2-de (Aa × Aa) 400 nohut tohumy alyndy. Olaryň takmynan näçesi ýaşyl (aa) bolar?", "ru": "В F2 (Aa × Aa) получено 400 семян гороха. Сколько примерно из них будут зелёными (aa)?"},
+          "answer": "100",
+          "hint": {"tk": "aa paýy 1/4.", "ru": "Доля aa — 1/4."},
+          "explain": {"tk": "400 × 1/4 = 100.", "ru": "400 × 1/4 = 100."}
+        },
+        {"type": "world", "text": {
+          "tk": "Mendeliň işi ilkibaşda üns çekmedi. 1900-nji ýylda üç alym — Hugo de Friz, Karl Korrens we Erih Çermak — onuň kanunlaryny biri-birinden habarsyz täzeden açdylar. Şondan soň genetika aýratyn ylym hökmünde ösüp başlady.",
+          "ru": "Работа Менделя сначала не привлекла внимания. В 1900 году три учёных — Гуго де Фриз, Карл Корренс и Эрих Чермак — независимо друг от друга переоткрыли его законы. После этого генетика начала развиваться как отдельная наука."
+        }}
+      ]
+    },
+    {
+      "id": "biology-9-dna-gene",
+      "grade": 9,
+      "topic": 2,
+      "title": {"tk": "DNK we gen: nesil maglumatynyň göterijisi", "ru": "ДНК и ген: носитель наследственной информации"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "DNK (dezoksiribonuklein kislotasy) — nesil maglumatyny saklaýan molekula.\n• DNK iki zynjyrdan durýar, olar towlanyp goşa spiral emele getirýär.\n• Her zynjyr nukleotidlerden düzülýär. Nukleotidiň düzümi: şeker (dezoksiriboza), fosfat galyndysy we azotly esas.\n• Dört azotly esas: A (adenin), T (timin), G (guanin), C (sitozin).\n\nKomplementarlyk düzgüni: A elmydama T bilen, G elmydama C bilen jübütleşýär. Şonuň üçin DNK-da A = T we G = C (Çargaffyň düzgüni).\n\nGen — DNK-nyň bir beloguň gurluşy barada maglumat saklaýan bölegi. Üç nukleotid (triplet, kodon) bir aminokislotany kodlaýar. Maglumat ýoly: DNK → RNK → belok.",
+          "ru": "ДНК (дезоксирибонуклеиновая кислота) — молекула, хранящая наследственную информацию.\n• ДНК состоит из двух цепей, закрученных в двойную спираль.\n• Каждая цепь состоит из нуклеотидов. Нуклеотид включает сахар (дезоксирибозу), остаток фосфорной кислоты и азотистое основание.\n• Четыре азотистых основания: A (аденин), T (тимин), G (гуанин), C (цитозин).\n\nПринцип комплементарности: A всегда соединяется с T, а G — с C. Поэтому в ДНК A = T и G = C (правило Чаргаффа).\n\nГен — участок ДНК, несущий информацию о строении одного белка. Три нуклеотида (триплет, кодон) кодируют одну аминокислоту. Путь информации: ДНК → РНК → белок."
+        }},
+        {"type": "example", "text": {
+          "tk": "1) Bir zynjyr: A T G C C A. Ikinji zynjyry tapalyň.\nA→T, T→A, G→C, C→G, C→G, A→T. Jogap: T A C G G T.\n\n2) DNK-da adeninleriň paýy 30%. Galan esaslar näçe?\nT = A = 30%. A + T = 60%, diýmek G + C = 40%. G = C = 20%.",
+          "ru": "1) Одна цепь: A T G C C A. Найдём вторую цепь.\nA→T, T→A, G→C, C→G, C→G, A→T. Ответ: T A C G G T.\n\n2) В ДНК 30% адениловых нуклеотидов. Сколько остальных?\nT = A = 30%. A + T = 60%, значит G + C = 40%. G = C = 20%."
+        }},
+        {"type": "input",
+          "q": {"tk": "DNK-da guaniniň paýy 15%. Adeniniň paýy näçe göterim?", "ru": "В ДНК доля гуанина 15%. Какова доля аденина в процентах?"},
+          "answer": "35|35%",
+          "hint": {"tk": "G = C, galany A we T arasynda deň bölünýär.", "ru": "G = C, остальное поровну делится между A и T."},
+          "explain": {"tk": "G + C = 30%, A + T = 70%, A = 35%.", "ru": "G + C = 30%, A + T = 70%, A = 35%."}
+        },
+        {"type": "choice",
+          "q": {"tk": "DNK-da guanin haýsy esas bilen jübütleşýär?", "ru": "С каким основанием в ДНК соединяется гуанин?"},
+          "options": [{"tk": "Sitozin (C)", "ru": "Цитозин (C)"}, {"tk": "Timin (T)", "ru": "Тимин (T)"}, {"tk": "Adenin (A)", "ru": "Аденин (A)"}],
+          "answer": 0,
+          "hint": {"tk": "Komplementarlyk düzgünini ýatlaň.", "ru": "Вспомните принцип комплементарности."},
+          "explain": {"tk": "Jübütler: A–T we G–C.", "ru": "Пары: A–T и G–C."}
+        },
+        {"type": "input",
+          "q": {"tk": "Bir aminokislotany näçe nukleotid kodlaýar?", "ru": "Сколько нуклеотидов кодируют одну аминокислоту?"},
+          "answer": "3",
+          "hint": {"tk": "Kodona «triplet» hem diýilýär.", "ru": "Кодон ещё называют «триплетом»."},
+          "explain": {"tk": "Kodon üç nukleotidden durýar.", "ru": "Кодон состоит из трёх нуклеотидов."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "DNK-da urasil (U) esasy bar.", "ru": "В ДНК есть основание урацил (U)."},
+          "answer": false,
+          "hint": {"tk": "DNK-nyň dört esasyny sanaň.", "ru": "Перечислите четыре основания ДНК."},
+          "explain": {"tk": "DNK-da A, T, G, C bar. Urasil RNK-da timiniň ornuny tutýar.", "ru": "В ДНК есть A, T, G, C. Урацил встречается в РНК вместо тимина."}
+        },
+        {"type": "world", "text": {
+          "tk": "DNK-nyň goşa spiral gurluşyny 1953-nji ýylda Jeýms Uotson we Frensis Krik beýan etdiler. Olar Rozalind Franklin bilen Moris Uilkinsiň rentgen suratlaryna daýandylar. 2003-nji ýylda «Adam genomy» taslamasy tamamlandy: adamyň DNK-sy takmynan 3 milliard nukleotid jübütinden durýar.",
+          "ru": "Структуру ДНК в виде двойной спирали описали в 1953 году Джеймс Уотсон и Фрэнсис Крик. Они опирались на рентгеновские снимки Розалинд Франклин и Мориса Уилкинса. В 2003 году был завершён проект «Геном человека»: ДНК человека содержит около 3 миллиардов пар нуклеотидов."
+        }}
+      ]
+    },
+    {
+      "id": "biology-9-evolution",
+      "grade": 9,
+      "topic": 3,
+      "title": {"tk": "Ewolýusiýa we tebigy seçgi", "ru": "Эволюция и естественный отбор"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Ewolýusiýa — janly tebigatyň uzak wagtyň dowamynda taryhy ösüşi; täze görnüşleriň emele gelmegi.\n\nÇarlz Darwin 1859-njy ýylda «Görnüşleriň gelip çykyşy» kitabynda tebigy seçgi taglymatyny teklip etdi:\n• Üýtgeýjilik — bir görnüşiň wekilleri birmeňzeş däl.\n• Nesil yzarlylyk — käbir aýratynlyklar nesle geçýär.\n• Köpelmek ukyby gaty ýokary, emma iýmit we ýer çäkli → ýaşaýyş ugrundaky göreş.\n• Tebigy seçgi — gurşawa has gowy uýgunlaşan şahslar köp ýaşaýar we köp nesil galdyrýar.\n\nEwolýusiýanyň subutnamalary:\n• Paleontologiýa — galyndylar (fossiliýalar).\n• Gomologik organlar — gurluşy meňzeş, wezipesi dürli (adamyň eli, guşuň ganaty, delfiniň ýüzgüji).\n• Embriologiýa — dürli oňurgalylaryň düwünçekleriniň meňzeşligi.\n• Molekulýar biologiýa — DNK we beloklaryň meňzeşligi.",
+          "ru": "Эволюция — длительное историческое развитие живой природы; возникновение новых видов.\n\nЧарльз Дарвин в 1859 году в книге «Происхождение видов» предложил теорию естественного отбора:\n• Изменчивость — особи одного вида неодинаковы.\n• Наследственность — некоторые особенности передаются потомкам.\n• Способность к размножению очень высока, но пища и пространство ограничены → борьба за существование.\n• Естественный отбор — лучше приспособленные к среде особи чаще выживают и оставляют больше потомства.\n\nДоказательства эволюции:\n• Палеонтология — ископаемые остатки.\n• Гомологичные органы — сходное строение, разные функции (рука человека, крыло птицы, ласт дельфина).\n• Эмбриология — сходство зародышей разных позвоночных.\n• Молекулярная биология — сходство ДНК и белков."
+        }},
+        {"type": "example", "text": {
+          "tk": "Gaýyň gije kebelegi (berýoza pýadenisasy) — tebigy seçginiň meşhur mysaly.\n1) XIX asyra çenli Angliýada bu kebelekleriň köpüsi açyk reňkli bolupdyr: olar açyk reňkli agaç gabyklarynda görünmändir.\n2) Senagat rewolýusiýasy döwründe tüsse agaçlary garaltdy.\n3) Indi açyk kebelekler guşlara aňsat görünýärdi, garaňky kebelekler bolsa gizlenip bilýärdi.\n4) Garaňky kebelekler köp nesil galdyryp, olaryň paýy ep-esli artdy.\n5) Howa arassalanandan soň açyk kebelekleriň paýy ýene köpeldi.",
+          "ru": "Берёзовая пяденица (бабочка) — известный пример естественного отбора.\n1) До XIX века в Англии большинство этих бабочек были светлыми: на светлой коре деревьев их не было видно.\n2) Во время промышленной революции копоть сделала стволы тёмными.\n3) Светлые бабочки стали заметны птицам, а тёмные — хорошо маскировались.\n4) Тёмные бабочки оставляли больше потомства, и их доля сильно выросла.\n5) После очищения воздуха доля светлых бабочек снова увеличилась."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Haýsy organlar gomologik?", "ru": "Какие органы являются гомологичными?"},
+          "options": [{"tk": "Guşuň ganaty we kebelegiň ganaty", "ru": "Крыло птицы и крыло бабочки"}, {"tk": "Adamyň eli we delfiniň ýüzgüji", "ru": "Рука человека и ласт дельфина"}, {"tk": "Balygyň gulagy we adamyň öýkeni", "ru": "Жабры рыбы и лёгкие человека"}],
+          "answer": 1,
+          "hint": {"tk": "Gomologik organlarda süňkleriň gurluşy meňzeş.", "ru": "У гомологичных органов сходное строение костей."},
+          "explain": {"tk": "Adamyň eli we delfiniň ýüzgüji birmeňzeş süňklerden düzülýär, emma dürli işleri ýerine ýetirýär. Guşuň we kebelegiň ganaty diňe wezipesi boýunça meňzeş (analogik).", "ru": "Рука человека и ласт дельфина состоят из одних и тех же костей, но выполняют разные функции. Крылья птицы и бабочки сходны только по функции (аналогичные)."}
+        },
+        {"type": "input",
+          "q": {"tk": "Darwin «Görnüşleriň gelip çykyşy» kitabyny haýsy ýylda çap etdi?", "ru": "В каком году Дарвин опубликовал «Происхождение видов»?"},
+          "answer": "1859",
+          "hint": {"tk": "XIX asyryň ortalary.", "ru": "Середина XIX века."},
+          "explain": {"tk": "Kitap 1859-njy ýylda çykdy.", "ru": "Книга вышла в 1859 году."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Tebigy seçginiň netijesinde gurşawa has gowy uýgunlaşan şahslar köp nesil galdyrýar.", "ru": "В результате естественного отбора лучше приспособленные особи оставляют больше потомства."},
+          "answer": true,
+          "hint": {"tk": "Darwiniň taglymatynyň esasy pikirini ýatlaň.", "ru": "Вспомните главную мысль теории Дарвина."},
+          "explain": {"tk": "Hawa, peýdaly alamatlar şeýlelikde nesilden-nesle köpelýär.", "ru": "Да, так полезные признаки распространяются из поколения в поколение."}
+        },
+        {"type": "world", "text": {
+          "tk": "Darwin 1831–1836-njy ýyllarda «Bigl» gämisinde dünýä boýunça syýahat etdi. Galapagos adalarynda ol her adada tumşugy dürli bolan çymçyklary gördi. Bu synlar onuň tebigy seçgi baradaky pikirine itergi berdi.",
+          "ru": "В 1831–1836 годах Дарвин совершил кругосветное плавание на корабле «Бигль». На Галапагосских островах он увидел вьюрков с разными клювами на разных островах. Эти наблюдения подтолкнули его к идее естественного отбора."
+        }}
+      ]
+    },
+    {
+      "id": "biology-9-ecosystems",
+      "grade": 9,
+      "topic": 4,
+      "title": {"tk": "Ekoulgamlar we iýmit zynjyrlary", "ru": "Экосистемы и цепи питания"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Ekoulgam — janly organizmleriň we olaryň gurşawynyň (howa, suw, toprak, ýagtylyk) bitewi toplumy. Mysallar: köl, tokaý, çöl, çemenlik.\n\nEkoulgamdaky organizmleriň toparlary:\n• Öndürijiler (prodýusentler) — ýaşyl ösümlikler we suwotular; olar fotosintez arkaly organiki madda döredýär.\n• Sarp edijiler (konsumentler) — haýwanlar: 1-nji tertip (ösümlik iýijiler), 2-nji tertip (ýyrtyjylar) we ş.m.\n• Dargadyjylar (redusentler) — bakteriýalar we kömelekler; olar galyndylary mineral maddalara çenli dargadýar.\n\nIýmit zynjyry energiýanyň geçişini görkezýär: ot → towşan → tilki.\nOn göterim düzgüni: her indiki basganja energiýanyň takmynan 10%-i geçýär, galany dem alyşa we ýylylyga sarp bolýar.",
+          "ru": "Экосистема — единый комплекс живых организмов и среды их обитания (воздух, вода, почва, свет). Примеры: озеро, лес, пустыня, луг.\n\nГруппы организмов в экосистеме:\n• Продуценты — зелёные растения и водоросли; они создают органическое вещество путём фотосинтеза.\n• Консументы — животные: 1-го порядка (растительноядные), 2-го порядка (хищники) и т. д.\n• Редуценты — бактерии и грибы; они разлагают остатки до минеральных веществ.\n\nЦепь питания показывает передачу энергии: трава → заяц → лиса.\nПравило 10 процентов: на каждый следующий уровень переходит примерно 10% энергии, остальное тратится на дыхание и рассеивается в виде тепла."
+        }},
+        {"type": "example", "text": {
+          "tk": "Ösümlikler 10 000 kJ energiýa toplady. Zynjyr: ot → çekirtge → gurbaga → ýylan.\n1) Çekirtge: 10 000 × 0,1 = 1 000 kJ.\n2) Gurbaga: 1 000 × 0,1 = 100 kJ.\n3) Ýylan: 100 × 0,1 = 10 kJ.\nNetije: zynjyr näçe uzyn bolsa, ýokarky basgançaga şonça az energiýa ýetýär. Şonuň üçin iýmit zynjyrlary köplenç 4–5 basgançakdan uzyn bolmaýar.",
+          "ru": "Растения накопили 10 000 кДж энергии. Цепь: трава → кузнечик → лягушка → змея.\n1) Кузнечик: 10 000 × 0,1 = 1 000 кДж.\n2) Лягушка: 1 000 × 0,1 = 100 кДж.\n3) Змея: 100 × 0,1 = 10 кДж.\nВывод: чем длиннее цепь, тем меньше энергии доходит до верхнего уровня. Поэтому цепи питания обычно не длиннее 4–5 звеньев."
+        }},
+        {"type": "input",
+          "q": {"tk": "Ösümliklerde 5 000 kJ energiýa bar. On göterim düzgüni boýunça 2-nji tertip sarp edijä näçe kJ ýetýär?", "ru": "В растениях 5 000 кДж энергии. Сколько кДж получит консумент 2-го порядка по правилу 10 процентов?"},
+          "answer": "50",
+          "hint": {"tk": "Ösümlik → 1-nji tertip → 2-nji tertip: iki gezek 10%.", "ru": "Растения → 1-й порядок → 2-й порядок: дважды по 10%."},
+          "explain": {"tk": "5 000 × 0,1 = 500; 500 × 0,1 = 50 kJ.", "ru": "5 000 × 0,1 = 500; 500 × 0,1 = 50 кДж."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Kömelekler we bakteriýalar ekoulgamda haýsy wezipäni ýerine ýetirýär?", "ru": "Какую роль в экосистеме выполняют грибы и бактерии?"},
+          "options": [{"tk": "Öndürijiler", "ru": "Продуценты"}, {"tk": "1-nji tertip sarp edijiler", "ru": "Консументы 1-го порядка"}, {"tk": "Dargadyjylar", "ru": "Редуценты"}],
+          "answer": 2,
+          "hint": {"tk": "Olar ölen organizmleri dargadýar.", "ru": "Они разлагают мёртвые организмы."},
+          "explain": {"tk": "Redusentler organiki galyndylary mineral maddalara öwürýär, ösümlikler olary täzeden ulanýar.", "ru": "Редуценты превращают органические остатки в минеральные вещества, которые снова используют растения."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«Ot → towşan → tilki» zynjyrynda towşan 1-nji tertip sarp ediji.", "ru": "В цепи «трава → заяц → лиса» заяц — консумент 1-го порядка."},
+          "answer": true,
+          "hint": {"tk": "Towşan ösümlik iýýär.", "ru": "Заяц питается растениями."},
+          "explain": {"tk": "Ösümlik iýijiler 1-nji tertip sarp edijilerdir.", "ru": "Растительноядные животные — консументы 1-го порядка."}
+        },
+        {"type": "world", "text": {
+          "tk": "«Ekoulgam» (ekosistema) adalgasyny 1935-nji ýylda iňlis botanigi Artur Tensli teklip etdi.",
+          "ru": "Термин «экосистема» предложил в 1935 году английский ботаник Артур Тенсли."
+        }}
+      ]
+    },
+    {
+      "id": "biology-9-biosphere",
+      "grade": 9,
+      "topic": 5,
+      "title": {"tk": "Biosfera — Ýeriň ýaşaýyş gabygy", "ru": "Биосфера — живая оболочка Земли"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Biosfera — Ýeriň janly organizmler ýaşaýan gabygy. Bu taglymaty rus alymy Wladimir Wernadskiý işläp düzdi.\n\nBiosferanyň çäkleri:\n• Atmosferanyň aşaky bölegi — ozon gatlagyna çenli (takmynan 20–25 km), ondan ýokarda ultramelewşe şöhleler ýaşaýşa päsgel berýär.\n• Gidrosferanyň hemmesi — okeanyň iň çuň ýerlerine çenli (11 km töweregi).\n• Litosferanyň ýokarky bölegi — birnäçe kilometr çuňluga çenli.\n\nWernadskiý boýunça biosferanyň maddalary: janly madda (organizmler), janly däl madda (dag jynslary), biogen madda (nebit, kömür, hek daşy — janlylaryň döreden zatlary) we biokös madda (toprak).\n\nBiosferada maddalaryň aýlanyşy bolup geçýär: uglerod, kislorod, azot, suw. Olary Gün energiýasy hereketlendirýär.",
+          "ru": "Биосфера — оболочка Земли, населённая живыми организмами. Учение о ней разработал русский учёный Владимир Вернадский.\n\nГраницы биосферы:\n• Нижняя часть атмосферы — до озонового слоя (около 20–25 км); выше жизни мешает ультрафиолетовое излучение.\n• Вся гидросфера — до самых глубоких мест океана (около 11 км).\n• Верхняя часть литосферы — на глубину несколько километров.\n\nПо Вернадскому, вещество биосферы бывает: живое (организмы), косное (горные породы), биогенное (нефть, уголь, известняк — созданные живыми существами) и биокосное (почва).\n\nВ биосфере идёт круговорот веществ: углерода, кислорода, азота, воды. Его движет энергия Солнца."
+        }},
+        {"type": "example", "text": {
+          "tk": "Ugleroduň aýlanyşyny yzarlalyň:\n1) Ösümlik fotosintez wagtynda howadan CO₂ siňdirip, organiki madda döredýär.\n2) Haýwan ösümligi iýýär — uglerod onuň bedenine geçýär.\n3) Haýwan dem alanda CO₂ howa gaýdyp gelýär.\n4) Ölen organizmleri redusentler dargadýar — ýene CO₂ bölünip çykýar.\n5) Käbir uglerod millionlarça ýyl ýerasty gatlaklarda kömür, nebit we gaz görnüşinde saklanýar. Olar ýakylanda, CO₂ howa gaýdýar.",
+          "ru": "Проследим круговорот углерода:\n1) Растение при фотосинтезе поглощает CO₂ из воздуха и создаёт органическое вещество.\n2) Животное съедает растение — углерод переходит в его тело.\n3) При дыхании животного CO₂ возвращается в воздух.\n4) Мёртвые организмы разлагают редуценты — снова выделяется CO₂.\n5) Часть углерода миллионы лет хранится под землёй в виде угля, нефти и газа. При их сжигании CO₂ возвращается в атмосферу."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Biosferanyň ýokarky çägini näme kesgitleýär?", "ru": "Что определяет верхнюю границу биосферы?"},
+          "options": [{"tk": "Ozon gatlagy", "ru": "Озоновый слой"}, {"tk": "Bulutlaryň beýikligi", "ru": "Высота облаков"}, {"tk": "Iň beýik daglar", "ru": "Самые высокие горы"}],
+          "answer": 0,
+          "hint": {"tk": "Ondan ýokarda zyýanly şöhleler güýçli.", "ru": "Выше него слишком сильное излучение."},
+          "explain": {"tk": "Ozon gatlagy ultramelewşe şöhleleri saklaýar; ondan ýokarda ýaşaýyş üçin şert ýok.", "ru": "Озоновый слой задерживает ультрафиолет; выше него условий для жизни нет."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Nebit we kömür Wernadskiý boýunça biogen maddadyr.", "ru": "Нефть и уголь, по Вернадскому, — биогенное вещество."},
+          "answer": true,
+          "hint": {"tk": "Olar gadymy organizmleriň galyndylaryndan emele geldi.", "ru": "Они образовались из остатков древних организмов."},
+          "explain": {"tk": "Biogen madda — janly organizmleriň işjeňliginiň önümi; nebit we kömür şeýle maddalardyr.", "ru": "Биогенное вещество — продукт деятельности живых организмов; нефть и уголь именно такие."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Toprak Wernadskiý boýunça haýsy madda?", "ru": "Каким веществом, по Вернадскому, является почва?"},
+          "options": [{"tk": "Janly", "ru": "Живым"}, {"tk": "Janly däl (kös)", "ru": "Косным"}, {"tk": "Biokös", "ru": "Биокосным"}],
+          "answer": 2,
+          "hint": {"tk": "Toprak janly organizmleriň we dag jynslarynyň bilelikdäki önümi.", "ru": "Почва — совместный продукт живых организмов и горных пород."},
+          "explain": {"tk": "Topragy janly we janly däl tebigat bilelikde döredýär — bu biokös madda.", "ru": "Почву создают вместе живая и неживая природа — это биокосное вещество."}
+        },
+        {"type": "world", "text": {
+          "tk": "Wernadskiýiň «Biosfera» kitaby 1926-njy ýylda çykdy. Häzir janly organizmler hatda Mariana çöketliginiň düýbünde — okeanyň iň çuň ýerinde hem tapyldy.",
+          "ru": "Книга Вернадского «Биосфера» вышла в 1926 году. Сегодня живые организмы найдены даже на дне Марианской впадины — самого глубокого места океана."
+        }}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,288 @@
+{
+  "grade": 6,
+  "subject": "history",
+  "lessons": [
+    {
+      "id": "history-6-ancient-india",
+      "grade": 6,
+      "topic": 0,
+      "title": {"tk": "Gadymy Hindistan", "ru": "Древняя Индия"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Gadymy Hindistanyň ilkinji siwilizasiýasy Hind derýasynyň jülgesinde döräpdir (takmynan b.e.öň 2600–1900 ý.).\n• Harappa we Mohenjo-Daro şäherleriniň göni köçeleri, kerpiç jaýlary we lagym ulgamy bolupdyr.\n• Soňra Wedalar döwri başlanypdyr: mukaddes kitaplar – Wedalar – döredilipdir.\n• Jemgyýet warnalara (toparlara) bölünipdir: ruhanylar, urşujylar, daýhanlar we hünärmentler, hyzmatkärler.\n• B.e.öň V asyrda Siddhartha Gautama – Budda – buddizmi esaslandyrypdyr.",
+          "ru": "Первая цивилизация Древней Индии возникла в долине реки Инд (примерно 2600–1900 гг. до н. э.).\n• Города Хараппа и Мохенджо-Даро имели прямые улицы, кирпичные дома и канализацию.\n• Затем начался ведийский период: были созданы священные книги – Веды.\n• Общество делилось на варны (группы): жрецы, воины, земледельцы и ремесленники, слуги.\n• В V веке до н. э. Сиддхартха Гаутама – Будда – основал буддизм."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mysal: Maurýa döwleti.\n1) B.e.öň IV asyrda Çandragupta Maurýa Hindistanyň köp bölegini birleşdiripdir.\n2) Onuň agtygy Aşoka (b.e.öň III asyr) uly döwleti dolandyrypdyr.\n3) Kalinga urşunda köp adam ölenden soň, Aşoka buddizmi kabul edipdir.\n4) Ol daşlara we sütünlere ýazgylar oýdurypdyr – bu ýazgylar häzir hem saklanýar.\nNetije: Aşokanyň sütünleri taryhçylar üçin möhüm çeşmedir.",
+          "ru": "Пример: государство Маурьев.\n1) В IV веке до н. э. Чандрагупта Маурья объединил большую часть Индии.\n2) Его внук Ашока (III век до н. э.) правил огромной державой.\n3) После Калингской войны, где погибло много людей, Ашока принял буддизм.\n4) Он приказал высекать надписи на скалах и колоннах – они сохранились до сих пор.\nВывод: колонны Ашоки – важный источник для историков."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Hind siwilizasiýasynyň uly şäherleriniň biri haýsy?", "ru": "Какой из городов был крупным центром цивилизации Инда?"},
+          "options": [{"tk": "Babyl", "ru": "Вавилон"}, {"tk": "Mohenjo-Daro", "ru": "Мохенджо-Даро"}, {"tk": "Afiny", "ru": "Афины"}],
+          "answer": 1,
+          "hint": {"tk": "Bu şäher Hind derýasynyň jülgesinde ýerleşýär.", "ru": "Этот город находится в долине реки Инд."},
+          "explain": {"tk": "Mohenjo-Daro we Harappa – Hind siwilizasiýasynyň iň meşhur şäherleri. Babyl Mesopotamiýada, Afiny Gresiýada.", "ru": "Мохенджо-Даро и Хараппа – самые известные города цивилизации Инда. Вавилон – в Месопотамии, Афины – в Греции."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Buddizmi Siddhartha Gautama esaslandyrypdyr.", "ru": "Буддизм основал Сиддхартха Гаутама."},
+          "answer": true,
+          "hint": {"tk": "Onuň ikinji ady \"oýanan\" diýmegi aňladýar.", "ru": "Его второе имя означает «пробуждённый»."},
+          "explain": {"tk": "Dogry. Siddhartha Gautama Budda ady bilen tanalýar, ol b.e.öň V asyrda ýaşapdyr.", "ru": "Верно. Сиддхартха Гаутама известен как Будда, он жил в V веке до н. э."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Kalinga urşundan soň buddizmi kabul eden hökümdar kim?", "ru": "Какой правитель принял буддизм после Калингской войны?"},
+          "options": [{"tk": "Aşoka", "ru": "Ашока"}, {"tk": "Kir II", "ru": "Кир II"}, {"tk": "Ýuliý Sezar", "ru": "Юлий Цезарь"}],
+          "answer": 0,
+          "hint": {"tk": "Ol Maurýa neberesinden.", "ru": "Он из династии Маурьев."},
+          "explain": {"tk": "Aşoka urşuň weýrançylygyny görüp, buddizmi kabul edipdir we parahatçylygy wagyz edipdir.", "ru": "Ашока, увидев ужасы войны, принял буддизм и стал проповедовать мир."}
+        },
+        {"type": "input",
+          "q": {"tk": "Gadymy hindi jemgyýeti näçe warna bölünipdir? (san bilen)", "ru": "На сколько варн делилось древнеиндийское общество? (числом)"},
+          "answer": "4",
+          "hint": {"tk": "Ruhanylary, urşujylary, daýhanlary we hyzmatkärleri sanaň.", "ru": "Посчитайте жрецов, воинов, земледельцев и слуг."},
+          "explain": {"tk": "Dört warna bolupdyr: brahmanlar, kşatriýalar, waýşýalar we şudralar.", "ru": "Варн было четыре: брахманы, кшатрии, вайшьи и шудры."}
+        },
+        {"type": "world", "text": {
+          "tk": "Biziň ulanýan 0–9 sanlarymyz \"arap sanlary\" diýlip atlandyrylýar, emma olar Hindistanda döräpdir. Hindi alymlary nol belgisini we onluk orun ulgamyny ulanypdyrlar, soňra bu ulgam arap alymlary arkaly Ýewropa ýaýrapdyr.",
+          "ru": "Цифры 0–9, которыми мы пользуемся, называют «арабскими», но появились они в Индии. Индийские учёные использовали знак нуля и десятичную позиционную систему, а затем через арабских учёных она распространилась в Европу."
+        }}
+      ]
+    },
+    {
+      "id": "history-6-ancient-china",
+      "grade": 6,
+      "topic": 1,
+      "title": {"tk": "Gadymy Hytaý", "ru": "Древний Китай"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Gadymy Hytaý siwilizasiýasy Huanhe (Sary derýa) we Ýanszy derýalarynyň boýunda döräpdir.\n• Şan neberesi döwründe (b.e.öň II müňýyllyk) ilkinji hytaý ýazuwy – süňklere ýazylan ýazgylar peýda bolupdyr.\n• Filosof Konfusiý (b.e.öň 551–479 ý.) uly ýaşlylary sylamagy, bilim almagy we adalaty öwredipdir.\n• B.e.öň 221-nji ýylda Sin Şi Huandi Hytaýy birleşdirip, ilkinji imperator bolupdyr.\n• Han neberesi döwründe Hytaý söwda we ylym taýdan güýçlenipdir.",
+          "ru": "Цивилизация Древнего Китая возникла по берегам рек Хуанхэ (Жёлтой реки) и Янцзы.\n• При династии Шан (II тысячелетие до н. э.) появилась первая китайская письменность – надписи на гадальных костях.\n• Философ Конфуций (551–479 гг. до н. э.) учил уважать старших, учиться и поступать справедливо.\n• В 221 году до н. э. Цинь Шихуанди объединил Китай и стал первым императором.\n• При династии Хань Китай усилился в торговле и науке."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mysal: Sin Şi Huandiniň özgertmeleri.\n1) Ol ähli ýurtda birmeňzeş agram we uzynlyk ölçeglerini girizipdir.\n2) Birmeňzeş ýazuwy we pul birligini ornaşdyrypdyr.\n3) Demirgazykdaky köne goranyş diwarlaryny birleşdirip başlapdyr – bu Beýik Hytaý diwarynyň esasy bolupdyr.\nNetije: birmeňzeş düzgünler uly ýurdy dolandyrmagy aňsatlaşdyrypdyr.",
+          "ru": "Пример: реформы Цинь Шихуанди.\n1) Он ввёл единые меры веса и длины по всей стране.\n2) Ввёл единую письменность и денежную единицу.\n3) Начал соединять старые оборонительные стены на севере – это стало основой Великой Китайской стены.\nВывод: единые правила облегчили управление огромной страной."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Hytaýy b.e.öň 221-nji ýylda birleşdiren kim?", "ru": "Кто объединил Китай в 221 году до н. э.?"},
+          "options": [{"tk": "Konfusiý", "ru": "Конфуций"}, {"tk": "Budda", "ru": "Будда"}, {"tk": "Sin Şi Huandi", "ru": "Цинь Шихуанди"}],
+          "answer": 2,
+          "hint": {"tk": "Ol özüni \"ilkinji imperator\" diýip atlandyrypdyr.", "ru": "Он назвал себя «первым императором»."},
+          "explain": {"tk": "Sin Şi Huandi Sin patyşalygynyň hökümdary bolup, beýleki patyşalyklary basyp alyp, Hytaýy birleşdiripdir.", "ru": "Цинь Шихуанди, правитель царства Цинь, завоевал остальные царства и объединил Китай."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Konfusiý Hytaýyň ilkinji imperatory bolupdyr.", "ru": "Конфуций был первым императором Китая."},
+          "answer": false,
+          "hint": {"tk": "Konfusiý hökümdar däl-de, mugallym we pelsepeçi bolupdyr.", "ru": "Конфуций был не правителем, а учителем и мыслителем."},
+          "explain": {"tk": "Nädogry. Konfusiý pelsepeçi bolupdyr. Ilkinji imperator – Sin Şi Huandi.", "ru": "Неверно. Конфуций был философом. Первый император – Цинь Шихуанди."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy oýlap tapyş Gadymy Hytaýdan gelip çykýar?", "ru": "Какое изобретение пришло из Древнего Китая?"},
+          "options": [{"tk": "Kagyz", "ru": "Бумага"}, {"tk": "Telefon", "ru": "Телефон"}, {"tk": "Bug maşyny", "ru": "Паровая машина"}],
+          "answer": 0,
+          "hint": {"tk": "Biz onuň üstünde ýazýarys.", "ru": "Мы на этом пишем."},
+          "explain": {"tk": "Kagyzy Hytaýda oýlap tapypdyrlar; Han döwründe Saý Lun ony öndürmegiň usulyny kämilleşdiripdir. Telefon we bug maşyny has giç peýda bolupdyr.", "ru": "Бумагу изобрели в Китае; в эпоху Хань Цай Лунь усовершенствовал способ её изготовления. Телефон и паровая машина появились гораздо позже."}
+        },
+        {"type": "input",
+          "q": {"tk": "Konfusiý b.e.öň 551-nji ýylda doglup, 479-njy ýylda aradan çykypdyr. Ol näçe ýyl ýaşapdyr?", "ru": "Конфуций родился в 551 году до н. э. и умер в 479 году до н. э. Сколько лет он прожил?"},
+          "answer": "72",
+          "hint": {"tk": "B.e.öň ýyllar kemelýär, şonuň üçin uly sandan kiçisini aýyryň.", "ru": "Годы до н. э. убывают, поэтому из большего числа вычтите меньшее."},
+          "explain": {"tk": "551 − 479 = 72. Konfusiý takmynan 72 ýyl ýaşapdyr.", "ru": "551 − 479 = 72. Конфуций прожил около 72 лет."}
+        },
+        {"type": "world", "text": {
+          "tk": "1974-nji ýylda hytaý daýhanlary guýy gazyp ýörkä, Sin Şi Huandiniň mazarynyň golaýynda Terrakota goşunyny tapypdyrlar. Bu ýerde müňlerçe ýakylan toýundan ýasalan esger heýkelleri bar, olaryň her biriniň ýüzi tapawutly.",
+          "ru": "В 1974 году китайские крестьяне, копая колодец, обнаружили возле гробницы Цинь Шихуанди Терракотовую армию. Там тысячи статуй воинов из обожжённой глины, и у каждой – своё лицо."
+        }}
+      ]
+    },
+    {
+      "id": "history-6-parthia-nisa",
+      "grade": 6,
+      "topic": 2,
+      "title": {"tk": "Parfiýa we Nusaý", "ru": "Парфия и Ниса"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Parfiýa – Merkezi Aziýanyň we Eýranyň uly bölegini öz içine alan gadymy döwlet (takmynan b.e.öň 247 – b.e. 224 ý.).\n• Döwleti Arşak I esaslandyrypdyr, şonuň üçin neberä Arşakylar diýilýär.\n• Parfiýanyň ilkinji paýtagtlarynyň biri – Nusaý, häzirki Aşgabadyň golaýynda (Bagyr obasynyň ýanynda) ýerleşýär.\n• Parfiýalylar ökde atly ok atyjylar bolupdyrlar.\n• Parfiýa Rim bilen Hytaýyň arasyndaky söwda ýollaryna gözegçilik edipdir.",
+          "ru": "Парфия – древнее государство, охватывавшее большую часть Средней Азии и Ирана (примерно 247 г. до н. э. – 224 г. н. э.).\n• Государство основал Аршак I, поэтому династию называют Аршакидами.\n• Одна из первых столиц Парфии – Ниса, расположена рядом с современным Ашхабадом (у села Багир).\n• Парфяне славились как искусные конные лучники.\n• Парфия контролировала торговые пути между Римом и Китаем."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mysal: arheologlar Nusaýda näme tapypdyrlar?\n1) Köne Nusaý – berkitme diwarly patyşa galasy, onda köşkler we ybadathanalar bolupdyr.\n2) Bu ýerde pil süňkünden ýasalan ritonlar – nagyşly şah görnüşli gaplar tapylypdyr.\n3) Toýun gaplaryň üstündäki ýazgylar şerap ammarlarynyň hasabyny görkezýär.\nNetije: tapyndylar parfiýa sungatynda grek we ýerli däpleriň garyşandygyny görkezýär.",
+          "ru": "Пример: что археологи нашли в Нисе?\n1) Старая Ниса – укреплённая царская крепость с дворцами и храмами.\n2) Здесь найдены ритоны из слоновой кости – резные сосуды в форме рога.\n3) Надписи на глиняных черепках содержат учёт винных хранилищ.\nВывод: находки показывают, что в парфянском искусстве смешались греческие и местные традиции."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Parfiýa döwletini kim esaslandyrypdyr?", "ru": "Кто основал Парфянское государство?"},
+          "options": [{"tk": "Aleksandr Makedonskiý", "ru": "Александр Македонский"}, {"tk": "Arşak I", "ru": "Аршак I"}, {"tk": "Aşoka", "ru": "Ашока"}],
+          "answer": 1,
+          "hint": {"tk": "Nebereň ady onuň adyndan gelip çykýar.", "ru": "Название династии происходит от его имени."},
+          "explain": {"tk": "Arşak I b.e.öň III asyrda Parfiýany esaslandyrypdyr, nebere hem Arşakylar diýlip atlandyrylýar.", "ru": "Аршак I основал Парфию в III веке до н. э., отсюда и название династии – Аршакиды."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Nusaý häzirki Aşgabadyň golaýynda ýerleşýär.", "ru": "Ниса находится недалеко от современного Ашхабада."},
+          "answer": true,
+          "hint": {"tk": "Bagyr obasyny ýada salyň.", "ru": "Вспомните село Багир."},
+          "explain": {"tk": "Dogry. Nusaýyň harabalyklary Aşgabadyň günbatarynda, Bagyr obasynyň ýanynda.", "ru": "Верно. Развалины Нисы находятся к западу от Ашхабада, у села Багир."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Nusaýda tapylan pil süňkünden ýasalan şah görnüşli gaplara näme diýilýär?", "ru": "Как называются найденные в Нисе сосуды из слоновой кости в форме рога?"},
+          "options": [{"tk": "Amforalar", "ru": "Амфоры"}, {"tk": "Piramidalar", "ru": "Пирамиды"}, {"tk": "Ritonlar", "ru": "Ритоны"}],
+          "answer": 2,
+          "hint": {"tk": "Bu söz \"r\" harpy bilen başlanýar.", "ru": "Это слово начинается на букву «р»."},
+          "explain": {"tk": "Ritonlar – nagyşly şah görnüşli gaplar. Nusaý ritonlary dünýäde meşhur.", "ru": "Ритоны – резные сосуды в форме рога. Нисийские ритоны известны во всём мире."}
+        },
+        {"type": "input",
+          "q": {"tk": "Parfiýa b.e.öň 247-nji ýyldan b.e. 224-nji ýylyna çenli bolupdyr. Ol takmynan näçe ýyl dowam edipdir?", "ru": "Парфия существовала с 247 г. до н. э. до 224 г. н. э. Сколько примерно лет она просуществовала?"},
+          "answer": "470|471",
+          "hint": {"tk": "B.e.öň we b.e. ýyllaryny goşuň.", "ru": "Сложите годы до н. э. и годы н. э."},
+          "explain": {"tk": "247 + 224 = 471, ýöne nol ýyly ýok, şonuň üçin takyk hasapda 470 ýyl çykýar. Takmynan 470 ýyl.", "ru": "247 + 224 = 471, но нулевого года нет, поэтому точно получается 470 лет. Около 470 лет."}
+        },
+        {"type": "world", "text": {
+          "tk": "2007-nji ýylda Nusaýyň parfiýa galalary ÝUNESKO-nyň Bütindünýä mirasynyň sanawyna girizildi. Şeýle hem b.e.öň 53-nji ýylda parfiýalylar Karra söweşinde Rim goşunyny ýeňipdirler – bu Rimiň iň agyr ýeňlişleriniň biri bolupdyr.",
+          "ru": "В 2007 году парфянские крепости Нисы были включены в список Всемирного наследия ЮНЕСКО. А в 53 году до н. э. парфяне разбили римскую армию в битве при Каррах – это одно из самых тяжёлых поражений Рима."
+        }}
+      ]
+    },
+    {
+      "id": "history-6-silk-road",
+      "grade": 6,
+      "topic": 3,
+      "title": {"tk": "Beýik Ýüpek ýoly", "ru": "Великий Шёлковый путь"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Beýik Ýüpek ýoly – Hytaýdan Ortaýer deňzine çenli uzalyp gidýän söwda ýollarynyň ulgamy.\n• Ol b.e.öň II asyrda, Han döwründe işjeňleşipdir.\n• Hytaýly ilçi Çžan Sýan günbatar ýurtlaryna syýahat edip, söwdanyň ýolunu açypdyr.\n• Hytaýdan ýüpek, çaý, farfor; günbatardan aýna, kümüş, atlar getirilipdir.\n• Merw, Samarkant, Buhara ýaly şäherler kerwen ýolunyň möhüm duralgalary bolupdyr.\n• Ýol bilen diňe harytlar däl, dinler, bilimler we oýlap tapyşlar hem ýaýrapdyr.",
+          "ru": "Великий Шёлковый путь – сеть торговых путей от Китая до Средиземного моря.\n• Он стал активно действовать во II веке до н. э., при династии Хань.\n• Китайский посол Чжан Цянь путешествовал в западные страны и открыл путь для торговли.\n• Из Китая везли шёлк, чай, фарфор; с запада – стекло, серебро, лошадей.\n• Мерв, Самарканд, Бухара были важными остановками караванов.\n• По пути распространялись не только товары, но и религии, знания и изобретения."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mysal: bir kerwen ýoly.\n1) Söwdagärler Hytaýdan ýüpek alyp, düýeli kerwen bilen ýola çykýarlar.\n2) Olar çöllerden geçip, Merw şäherine gelýärler. Bu ýerde kerwensaraýda dynç alýarlar.\n3) Merwde ýüpegiň bir bölegini atlara we kümüşe çalyşýarlar.\n4) Haryt beýleki söwdagärleriň elinde has-da günbatara – Ortaýer deňzine ýetýär.\nNetije: bir söwdagär ähli ýoly geçmändir, harytlar elden ele geçipdir.",
+          "ru": "Пример: путь одного каравана.\n1) Купцы покупают в Китае шёлк и отправляются в путь с караваном верблюдов.\n2) Они пересекают пустыни и приходят в Мерв. Здесь они отдыхают в караван-сарае.\n3) В Мерве часть шёлка обменивают на лошадей и серебро.\n4) Товар через других купцов идёт дальше на запад – к Средиземному морю.\nВывод: один купец не проходил весь путь, товары переходили из рук в руки."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Kerwenler ýolda nirede dynç alypdyrlar?", "ru": "Где караваны отдыхали в пути?"},
+          "options": [{"tk": "Kerwensaraýda", "ru": "В караван-сарае"}, {"tk": "Piramidada", "ru": "В пирамиде"}, {"tk": "Amfiteatrda", "ru": "В амфитеатре"}],
+          "answer": 0,
+          "hint": {"tk": "Adynda \"kerwen\" sözi bar.", "ru": "В названии есть слово «караван»."},
+          "explain": {"tk": "Kerwensaraý – söwdagärler we olaryň haýwanlary üçin myhmanhana. Olar ýoluň ugrunda gurlupdyr.", "ru": "Караван-сарай – постоялый двор для купцов и их животных. Их строили вдоль дорог."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Beýik Ýüpek ýoly bilen diňe ýüpek daşalypdyr.", "ru": "По Великому Шёлковому пути везли только шёлк."},
+          "answer": false,
+          "hint": {"tk": "Çaý, farfor we atlar barada ýatlaň.", "ru": "Вспомните про чай, фарфор и лошадей."},
+          "explain": {"tk": "Nädogry. Ýüpekden başga-da köp haryt daşalypdyr, şeýle hem bilimler we dinler ýaýrapdyr.", "ru": "Неверно. Кроме шёлка возили много других товаров, а ещё распространялись знания и религии."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Häzirki Türkmenistanyň çäginde ýerleşen Ýüpek ýolunyň uly şäheri haýsy?", "ru": "Какой крупный город Шёлкового пути находится на территории современного Туркменистана?"},
+          "options": [{"tk": "Rim", "ru": "Рим"}, {"tk": "Pekin", "ru": "Пекин"}, {"tk": "Merw", "ru": "Мерв"}],
+          "answer": 2,
+          "hint": {"tk": "Bu şäher Mary welaýatynda ýerleşýär.", "ru": "Этот город находится в Марыйском велаяте."},
+          "explain": {"tk": "Gadymy Merw Murgap derýasynyň deltasyndaky oazisde ýerleşýär we Ýüpek ýolunyň iň uly şäherleriniň biri bolupdyr.", "ru": "Древний Мерв расположен в оазисе в дельте реки Мургаб и был одним из крупнейших городов Шёлкового пути."}
+        },
+        {"type": "input",
+          "q": {"tk": "Kerwen günde 30 km ýol geçýär. 10 günde ol näçe km geçer?", "ru": "Караван проходит 30 км в день. Сколько км он пройдёт за 10 дней?"},
+          "answer": "300",
+          "hint": {"tk": "Bir günlük ýoly günleriň sanyna köpeldiň.", "ru": "Умножьте путь за день на число дней."},
+          "explain": {"tk": "30 × 10 = 300 km. Şonuň üçin uzak ýol aýlar dowam edipdir.", "ru": "30 × 10 = 300 км. Поэтому дальний путь занимал месяцы."}
+        },
+        {"type": "world", "text": {
+          "tk": "\"Ýüpek ýoly\" adyny 1877-nji ýylda nemes geografy Ferdinand fon Rihthofen ulanypdyr. Gadymy döwürde söwdagärler bu ýoly beýle atlandyrmandyrlar.",
+          "ru": "Название «Шёлковый путь» в 1877 году ввёл немецкий географ Фердинанд фон Рихтгофен. Сами древние купцы так этот путь не называли."
+        }}
+      ]
+    },
+    {
+      "id": "history-6-fall-of-rome",
+      "grade": 6,
+      "topic": 4,
+      "title": {"tk": "Rim imperiýasynyň dargamagy", "ru": "Падение Римской империи"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Rim imperiýasy Ortaýer deňziniň töweregindäki ýerleri birleşdiren uly döwlet bolupdyr. III–V asyrlarda ol gowşapdyr.\n• Sebäpleri: içki göreşler, köp imperatorlaryň çalşylmagy, salgytlaryň agyrlygy, serhetleri goramagyň kynlygy.\n• 395-nji ýylda imperiýa iki bölege bölünipdir: Günbatar (paýtagty – Rim, soňra Rawenna) we Gündogar (paýtagty – Konstantinopol).\n• German taýpalary (gotlar, wandallar we başgalar) imperiýanyň çägine girip başlapdyr.\n• 476-njy ýylda Günbatar Rim imperiýasy ýykylypdyr.",
+          "ru": "Римская империя была огромным государством вокруг Средиземного моря. В III–V веках она ослабла.\n• Причины: внутренние войны, частая смена императоров, тяжёлые налоги, трудность защиты границ.\n• В 395 году империя разделилась на две части: Западную (столица – Рим, затем Равенна) и Восточную (столица – Константинополь).\n• Германские племена (готы, вандалы и другие) стали проникать на территорию империи.\n• В 476 году Западная Римская империя пала."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mysal: wakalaryň yzygiderliligi.\n1) 395 ý. – imperator Feodosiý I aradan çykýar, imperiýa onuň iki oglunyň arasynda bölünýär.\n2) 410 ý. – Alarihiň baştutanlygyndaky wesgotlar Rimi talaýarlar.\n3) 455 ý. – wandallar Rimi ýene talaýarlar.\n4) 476 ý. – serkerde Odoakr soňky imperator Romul Awgustulusy tagtdan düşürýär.\nNetije: 476-njy ýyl Günbatar Rim imperiýasynyň soňy hasaplanýar.",
+          "ru": "Пример: последовательность событий.\n1) 395 г. – умирает император Феодосий I, империя делится между двумя его сыновьями.\n2) 410 г. – вестготы во главе с Аларихом грабят Рим.\n3) 455 г. – Рим грабят вандалы.\n4) 476 г. – военачальник Одоакр свергает последнего императора Ромула Августула.\nВывод: 476 год считается концом Западной Римской империи."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Günbatar Rim imperiýasy haýsy ýylda ýykylypdyr?", "ru": "В каком году пала Западная Римская империя?"},
+          "options": ["395", "476", "1453"],
+          "answer": 1,
+          "hint": {"tk": "Odoakr soňky imperatory tagtdan düşüren ýyl.", "ru": "Год, когда Одоакр сверг последнего императора."},
+          "explain": {"tk": "476-njy ýylda. 395 – imperiýanyň bölünen ýyly, 1453 – Gündogar Rim imperiýasynyň (Wizantiýanyň) ýykylan ýyly.", "ru": "В 476 году. 395 – год раздела империи, 1453 – год падения Восточной Римской империи (Византии)."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Gündogar Rim imperiýasy 476-njy ýyldan soň hem müň ýyla golaý dowam edipdir.", "ru": "Восточная Римская империя просуществовала после 476 года ещё почти тысячу лет."},
+          "answer": true,
+          "hint": {"tk": "Konstantinopol haçan basylyp alnypdyr?", "ru": "Когда был захвачен Константинополь?"},
+          "explain": {"tk": "Dogry. Gündogar Rim imperiýasy – Wizantiýa – 1453-nji ýyla çenli ýaşapdyr.", "ru": "Верно. Восточная Римская империя – Византия – существовала до 1453 года."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Gündogar Rim imperiýasynyň paýtagty haýsy şäher bolupdyr?", "ru": "Какой город был столицей Восточной Римской империи?"},
+          "options": [{"tk": "Konstantinopol", "ru": "Константинополь"}, {"tk": "Rawenna", "ru": "Равенна"}, {"tk": "Afiny", "ru": "Афины"}],
+          "answer": 0,
+          "hint": {"tk": "Şäher imperator Konstantiniň adyny göterýär.", "ru": "Город носит имя императора Константина."},
+          "explain": {"tk": "Konstantinopol (häzirki Stambul) Gündogar imperiýanyň paýtagty bolupdyr. Rawenna Günbataryň soňky paýtagty.", "ru": "Константинополь (нынешний Стамбул) был столицей Восточной империи. Равенна – последняя столица Западной."}
+        },
+        {"type": "input",
+          "q": {"tk": "Imperiýa 395-nji ýylda bölünip, Günbatar bölegi 476-njy ýylda ýykylypdyr. Munuň arasynda näçe ýyl geçipdir?", "ru": "Империя разделилась в 395 году, а Западная часть пала в 476 году. Сколько лет прошло между этими событиями?"},
+          "answer": "81",
+          "hint": {"tk": "Uly ýyldan kiçi ýyly aýyryň.", "ru": "Вычтите из большего года меньший."},
+          "explain": {"tk": "476 − 395 = 81 ýyl.", "ru": "476 − 395 = 81 год."}
+        },
+        {"type": "world", "text": {
+          "tk": "\"Wandalizm\" sözi – medeni gymmatlyklary bilkastlaýyn zaýalamak – 455-nji ýylda Rimi talan wandal taýpasynyň adyndan gelip çykýar. Bu sözi XVIII asyrda fransuz ruhanysy Anri Gregua ulanyşa giripdir.",
+          "ru": "Слово «вандализм» – умышленная порча культурных ценностей – происходит от названия племени вандалов, разграбивших Рим в 455 году. В XVIII веке его ввёл в оборот французский священник Анри Грегуар."
+        }}
+      ]
+    },
+    {
+      "id": "history-6-early-middle-ages",
+      "grade": 6,
+      "topic": 5,
+      "title": {"tk": "Orta asyrlaryň başlangyjy", "ru": "Начало Средневековья"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Orta asyrlar – Günbatar Rim imperiýasynyň ýykylmagyndan (476 ý.) XV asyryň ahyryna çenli döwür.\n• Ýewropada german taýpalarynyň patyşalyklary döräpdir: franklar, wesgotlar, ostgotlar we başgalar.\n• Feodalizm ýaýrapdyr: patyşa ýeri feodallara berýär, olar bolsa oňa harby hyzmat edýär; daýhanlar feodalyň ýerini işleýär.\n• Monastyrlar bilim merkezleri bolupdyr: monahlar kitaplary elden göçürip saklapdyrlar.\n• Gündogarda Wizantiýa güýçli we baý döwlet bolup galypdyr.",
+          "ru": "Средние века – период от падения Западной Римской империи (476 г.) до конца XV века.\n• В Европе возникли королевства германских племён: франков, вестготов, остготов и других.\n• Распространился феодализм: король даёт землю феодалам, а они служат ему в войске; крестьяне обрабатывают землю феодала.\n• Центрами знаний стали монастыри: монахи переписывали книги от руки и сохраняли их.\n• На востоке Византия оставалась сильным и богатым государством."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mysal: Beýik Karl.\n1) Frank patyşasy Karl Günbatar Ýewropanyň uly bölegini birleşdiripdir.\n2) 800-nji ýylda Rimde ol imperator diýlip yglan edilipdir.\n3) Ol mekdepleri açdyrypdyr, köne kitaplary göçürmegi goldapdyr.\n4) Ondan soň onuň agtyklary imperiýany bölüşipdirler.\nNetije: Beýik Karlyň döwründe Ýewropada bilime gyzyklanma artypdyr.",
+          "ru": "Пример: Карл Великий.\n1) Франкский король Карл объединил большую часть Западной Европы.\n2) В 800 году в Риме он был провозглашён императором.\n3) Он открывал школы и поддерживал переписку старинных книг.\n4) После него его внуки разделили империю.\nВывод: при Карле Великом в Европе вырос интерес к знаниям."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Orta asyrlaryň başlangyjy hökmünde adatça haýsy ýyl alynýar?", "ru": "Какой год обычно считают началом Средних веков?"},
+          "options": ["221", "800", "476"],
+          "answer": 2,
+          "hint": {"tk": "Bu ýyl Günbatar Rim imperiýasynyň soňy bilen baglanyşykly.", "ru": "Этот год связан с концом Западной Римской империи."},
+          "explain": {"tk": "476-njy ýyl – Günbatar Rimiň ýykylan ýyly, ol Orta asyrlaryň başlangyjy hasaplanýar. 800 – Beýik Karlyň täç geýen ýyly.", "ru": "476 год – год падения Западного Рима, его считают началом Средневековья. 800 – год коронации Карла Великого."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Orta asyrlarda monastyrlar kitaplary saklaýan we göçürýän ýerler bolupdyr.", "ru": "В Средние века монастыри были местами, где хранили и переписывали книги."},
+          "answer": true,
+          "hint": {"tk": "Kitap çap ediş enjamy entek ýokdy.", "ru": "Книгопечатания тогда ещё не было."},
+          "explain": {"tk": "Dogry. Monahlar kitaplary elden göçürip, gadymy bilimleri saklapdyrlar.", "ru": "Верно. Монахи переписывали книги от руки и сохраняли древние знания."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Feodalizmde ýeri işläp, feodala salgyt töleýän kim?", "ru": "Кто при феодализме обрабатывал землю и платил повинности феодалу?"},
+          "options": [{"tk": "Daýhanlar", "ru": "Крестьяне"}, {"tk": "Patyşa", "ru": "Король"}, {"tk": "Monahlar", "ru": "Монахи"}],
+          "answer": 0,
+          "hint": {"tk": "Olar jemgyýetiň iň köp bölegi bolupdyr.", "ru": "Они составляли большинство населения."},
+          "explain": {"tk": "Daýhanlar feodalyň ýerini işläpdirler we hasylyň bir bölegini ýa-da işini oňa beripdirler.", "ru": "Крестьяне обрабатывали землю феодала и отдавали ему часть урожая или свой труд."}
+        },
+        {"type": "input",
+          "q": {"tk": "Beýik Karl 800-nji ýylda imperator bolupdyr. Bu Günbatar Rimiň ýykylmagyndan (476 ý.) näçe ýyl soň?", "ru": "Карл Великий стал императором в 800 году. Сколько лет прошло после падения Западного Рима (476 г.)?"},
+          "answer": "324",
+          "hint": {"tk": "800 − 476.", "ru": "800 − 476."},
+          "explain": {"tk": "800 − 476 = 324 ýyl.", "ru": "800 − 476 = 324 года."}
+        },
+        {"type": "world", "text": {
+          "tk": "Konstantinopoldaky Aýa-Sofiýa ybadathanasy Wizantiýa imperatory Ýustinianyň döwründe 537-nji ýylda gurlup gutarypdyr. Onuň äpet gümmezi müň ýyla golaý dünýäniň iň uly gümmezli binalarynyň biri bolup galypdyr.",
+          "ru": "Собор Святой Софии в Константинополе был достроен в 537 году при византийском императоре Юстиниане. Его огромный купол почти тысячу лет оставался одним из крупнейших в мире."
+        }}
+      ]
+    }
+  ]
+}

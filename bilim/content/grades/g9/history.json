@@ -1,0 +1,254 @@
+{
+  "grade": 9,
+  "subject": "history",
+  "lessons": [
+    {
+      "id": "history-9-world-war-one",
+      "grade": 9,
+      "topic": 0,
+      "title": {"tk": "Birinji jahan urşy (1914–1918)", "ru": "Первая мировая война (1914–1918)"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Birinji jahan urşy 1914-nji ýylyň 28-nji iýulyndan 1918-nji ýylyň 11-nji noýabryna çenli dowam etdi.\n\nSebäpleri:\n• Beýik döwletleriň arasynda kolonial we ykdysady bäsdeşlik.\n• Ýaraglanyşyk ýaryşy.\n• Iki harby-syýasy bileleşik: Antanta (Beýik Britaniýa, Fransiýa, Russiýa) we Merkezi döwletler (Germaniýa, Awstriýa-Wengriýa, soňra Osman imperiýasy we Bolgariýa).\n• Balkanlardaky dartgynlyk.\n\nBahana: 1914-nji ýylyň 28-nji iýunynda Sarajewoda Awstriýa-Wengriýanyň tagt mirasdüşeri Franz Ferdinand öldürildi.\n\nUrşuň aýratynlyklary: «okop urşy», pulemýotlar, artilleriýa, ilkinji gezek tanklar, uçarlar we zäherli gazlar ulanyldy. 1917-nji ýylda ABŞ Antantanyň tarapynda urşa girdi.\n\nNetijeleri: on milliona golaý esger öldi; Germaniýa, Awstriýa-Wengriýa, Russiýa we Osman imperiýalary ýykyldy; Ýewropanyň kartasynda täze döwletler peýda boldy. 1919-njy ýylda Wersal parahatçylyk şertnamasy baglaşyldy.",
+          "ru": "Первая мировая война шла с 28 июля 1914 года по 11 ноября 1918 года.\n\nПричины:\n• Колониальное и экономическое соперничество великих держав.\n• Гонка вооружений.\n• Два военно-политических блока: Антанта (Великобритания, Франция, Россия) и Центральные державы (Германия, Австро-Венгрия, позже Османская империя и Болгария).\n• Напряжённость на Балканах.\n\nПовод: 28 июня 1914 года в Сараеве был убит наследник престола Австро-Венгрии Франц Фердинанд.\n\nОсобенности войны: «окопная война», пулемёты, артиллерия, впервые применены танки, самолёты и отравляющие газы. В 1917 году в войну на стороне Антанты вступили США.\n\nИтоги: погибло около 10 миллионов солдат; распались Германская, Австро-Венгерская, Российская и Османская империи; на карте Европы появились новые государства. В 1919 году был подписан Версальский мирный договор."
+        }},
+        {"type": "example", "text": {
+          "tk": "Waka nädip uly urşa öwrüldi? Bileleşikleriň zynjyryny yzarlalyň:\n1) 28-nji iýun — Sarajewodaky ganhorluk.\n2) 28-nji iýul — Awstriýa-Wengriýa Serbiýa uruş yglan etdi.\n3) Russiýa Serbiýany goldap, goşunyny seferber etdi.\n4) 1-nji awgust — Germaniýa Russiýa, 3-nji awgust — Fransiýa uruş yglan etdi.\n5) Germaniýa Belgiýanyň üsti bilen hüjüm etdi; 4-nji awgust — Beýik Britaniýa urşa girdi.\nNetije: bir aýyň içinde ýerli dawa Ýewropanyň beýik döwletleriniň urşuna öwrüldi.",
+          "ru": "Как одно событие превратилось в большую войну? Проследим цепочку союзов:\n1) 28 июня — убийство в Сараеве.\n2) 28 июля — Австро-Венгрия объявила войну Сербии.\n3) Россия поддержала Сербию и начала мобилизацию.\n4) 1 августа Германия объявила войну России, 3 августа — Франции.\n5) Германия наступала через Бельгию; 4 августа в войну вступила Великобритания.\nИтог: за месяц местный конфликт стал войной великих держав Европы."
+        }},
+        {"type": "input",
+          "q": {"tk": "Birinji jahan urşy haýsy ýylda başlandy?", "ru": "В каком году началась Первая мировая война?"},
+          "answer": "1914",
+          "hint": {"tk": "XX asyryň ikinji onýyllygy.", "ru": "Второе десятилетие XX века."},
+          "explain": {"tk": "Uruş 1914-nji ýylyň 28-nji iýulynda başlandy.", "ru": "Война началась 28 июля 1914 года."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy döwlet Antantanyň düzümine girýärdi?", "ru": "Какое государство входило в Антанту?"},
+          "options": [{"tk": "Germaniýa", "ru": "Германия"}, {"tk": "Fransiýa", "ru": "Франция"}, {"tk": "Awstriýa-Wengriýa", "ru": "Австро-Венгрия"}],
+          "answer": 1,
+          "hint": {"tk": "Antanta — fransuzça «ylalaşyk» diýmek.", "ru": "«Антанта» по-французски значит «согласие»."},
+          "explain": {"tk": "Antanta: Beýik Britaniýa, Fransiýa, Russiýa. Germaniýa we Awstriýa-Wengriýa — Merkezi döwletler.", "ru": "Антанта: Великобритания, Франция, Россия. Германия и Австро-Венгрия — Центральные державы."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Tanklar ilkinji gezek Birinji jahan urşunda ulanyldy.", "ru": "Танки впервые применили в Первую мировую войну."},
+          "answer": true,
+          "hint": {"tk": "Okop urşunda täze tehnika gerek boldy.", "ru": "В окопной войне понадобилась новая техника."},
+          "explain": {"tk": "Iňlis tanklary ilkinji gezek 1916-njy ýylda Somma söweşinde ulanyldy.", "ru": "Британские танки впервые применили в 1916 году в битве на Сомме."}
+        },
+        {"type": "world", "text": {
+          "tk": "Uruş 1918-nji ýylyň 11-nji noýabrynda Fransiýanyň Kompýen tokaýynda, demir ýol wagonynda gol çekilen ýaraşyk bilen tamamlandy. Bu gün köp ýurtlarda ýatlama güni hökmünde bellenýär.",
+          "ru": "Война закончилась перемирием, подписанным 11 ноября 1918 года в железнодорожном вагоне в Компьенском лесу во Франции. Этот день во многих странах отмечается как день памяти."
+        }}
+      ]
+    },
+    {
+      "id": "history-9-interwar-period",
+      "grade": 9,
+      "topic": 1,
+      "title": {"tk": "Iki urşuň arasynda dünýä (1918–1939)", "ru": "Мир между войнами (1918–1939)"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Birinji jahan urşundan soň dünýäde «Wersal-Waşington ulgamy» döredildi.\n• 1919 — Wersal şertnamasy: Germaniýa ýerleriniň bir bölegini we koloniýalaryny ýitirdi, uly kompensasiýa (reparasiýa) tölemeli boldy, goşuny çäklendirildi.\n• 1920 — Milletler Ligasy (Ženewa) — parahatçylygy goramak üçin ilkinji ählumumy halkara gurama. ABŞ oňa goşulmady.\n\n1920-nji ýyllar — ykdysady galkynyş, radio, kino, awtomobil ýaýrady.\n1929 — Nýu-Ýork biržasynyň çökmegi «Beýik depressiýa» başlady: önümçilik peseldi, millionlarça adam işsiz galdy.\n\nKrizis döwründe käbir ýurtlarda awtoritar we totalitar düzgünler berkidi:\n• Italiýa — Mussolininiň faşistik düzgüni (1922-den).\n• Germaniýa — 1933-nji ýylda Gitler we nasistler häkimiýete geldi.\n• SSSR — Staliniň totalitar düzgüni.\nMilletler Ligasy agressiýany saklap bilmedi: Ýaponiýa Mançžuriýany (1931), Italiýa Efiopiýany (1935) basyp aldy.",
+          "ru": "После Первой мировой войны в мире сложилась «Версальско-Вашингтонская система».\n• 1919 — Версальский договор: Германия потеряла часть территорий и колонии, должна была платить большие репарации, её армия была ограничена.\n• 1920 — Лига Наций (Женева) — первая всемирная международная организация для сохранения мира. США в неё не вступили.\n\n1920-е годы — экономический подъём, распространение радио, кино, автомобилей.\n1929 — крах Нью-Йоркской биржи положил начало «Великой депрессии»: производство упало, миллионы людей остались без работы.\n\nВ годы кризиса в ряде стран укрепились авторитарные и тоталитарные режимы:\n• Италия — фашистский режим Муссолини (с 1922 года).\n• Германия — в 1933 году к власти пришли Гитлер и нацисты.\n• СССР — тоталитарный режим Сталина.\nЛига Наций не смогла остановить агрессию: Япония захватила Маньчжурию (1931), Италия — Эфиопию (1935)."
+        }},
+        {"type": "example", "text": {
+          "tk": "Sebäp-netije zynjyry: krizisden urşa çenli.\n1) 1929 — birža çökýär, ABŞ banklary Ýewropadan karzlaryny yzyna alýar.\n2) Germaniýada işsizlik 6 milliona golaý ýetýär.\n3) Halk umydyny ýitirýär, radikal partiýalar güýçlenýär.\n4) 1933 — nasistler häkimiýete gelýär, Wersal çäklendirmelerini bozup başlaýar.\n5) 1938 — Awstriýa birikdirilýär, Mýunhen ylalaşygy boýunça Çehoslowakiýanyň Sudet sebiti Germaniýa berilýär.\nNetije: ykdysady krizis syýasy krizise, soňra bolsa urşa alyp bardy.",
+          "ru": "Цепочка причин: от кризиса к войне.\n1) 1929 — крах биржи, банки США отзывают кредиты из Европы.\n2) В Германии безработица достигает почти 6 миллионов.\n3) Люди теряют надежду, усиливаются радикальные партии.\n4) 1933 — нацисты приходят к власти и начинают нарушать версальские ограничения.\n5) 1938 — присоединение Австрии; по Мюнхенскому соглашению Германии передана Судетская область Чехословакии.\nИтог: экономический кризис привёл к политическому, а затем к войне."
+        }},
+        {"type": "choice",
+          "q": {"tk": "«Beýik depressiýa» haýsy ýylda başlandy?", "ru": "В каком году началась «Великая депрессия»?"},
+          "options": ["1919", "1933", "1929"],
+          "answer": 2,
+          "hint": {"tk": "Nýu-Ýork biržasynyň çökmegi.", "ru": "Крах Нью-Йоркской биржи."},
+          "explain": {"tk": "1929-njy ýylyň oktýabrynda birža çökdi we krizis başlandy.", "ru": "В октябре 1929 года произошёл крах биржи и начался кризис."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "ABŞ Milletler Ligasynyň agzasy boldy.", "ru": "США стали членом Лиги Наций."},
+          "answer": false,
+          "hint": {"tk": "Amerikan senaty Wersal şertnamasyny tassyklamady.", "ru": "Американский сенат не ратифицировал Версальский договор."},
+          "explain": {"tk": "Ligany döretmegi prezident Wilson teklip edipdi, emma ABŞ oňa goşulmady — bu guramany gowşatdy.", "ru": "Создание Лиги предложил президент Вильсон, но США в неё не вступили — это ослабило организацию."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Milletler Ligasynyň merkezi haýsy şäherde ýerleşýärdi?", "ru": "В каком городе находилась штаб-квартира Лиги Наций?"},
+          "options": [{"tk": "Ženewa", "ru": "Женева"}, {"tk": "Nýu-Ýork", "ru": "Нью-Йорк"}, {"tk": "London", "ru": "Лондон"}],
+          "answer": 0,
+          "hint": {"tk": "Bitarap Şweýsariýanyň şäheri.", "ru": "Город нейтральной Швейцарии."},
+          "explain": {"tk": "Liga Ženewada ýerleşýärdi. Nýu-Ýorkda soňra BMG-niň merkezi gurlar.", "ru": "Лига находилась в Женеве. В Нью-Йорке позже разместится штаб-квартира ООН."}
+        },
+        {"type": "world", "text": {
+          "tk": "1928-nji ýylda Aleksandr Fleming penisillini açdy — ilkinji antibiotik. Ol Ikinji jahan urşunyň döwründe köpçülikleýin öndürilip başlandy we millionlarça adamyň janyny halas etdi.",
+          "ru": "В 1928 году Александр Флеминг открыл пенициллин — первый антибиотик. Его массовое производство началось во время Второй мировой войны, и он спас миллионы жизней."
+        }}
+      ]
+    },
+    {
+      "id": "history-9-world-war-two",
+      "grade": 9,
+      "topic": 2,
+      "title": {"tk": "Ikinji jahan urşy (1939–1945)", "ru": "Вторая мировая война (1939–1945)"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Ikinji jahan urşy adamzat taryhyndaky iň uly uruş: oňa 60-a golaý döwlet gatnaşdy, 70 milliona golaý adam öldi (olaryň köpüsi parahat ilat).\n\nEsasy wakalar:\n• 1-nji sentýabr 1939 — Germaniýa Polşa çozdy; Beýik Britaniýa we Fransiýa Germaniýa uruş yglan etdi.\n• 1940 — Germaniýa Fransiýany basyp aldy; Britaniýa üçin söweş (howa söweşi).\n• 22-nji iýun 1941 — Germaniýa SSSR-e hüjüm etdi.\n• 7-nji dekabr 1941 — Ýaponiýa Pörl-Harbora hüjüm etdi, ABŞ urşa girdi.\n• 1942–1943 — Stalingrad söweşi we El-Alameýn — urşuň öwrülişik nokady.\n• 6-njy iýun 1944 — Normandiýada soýuzdaşlaryň desanty.\n• 8–9-njy maý 1945 — Germaniýa şertsiz boýun egdi.\n• Awgust 1945 — ABŞ Hirosima we Nagasaki atom bombalaryny taşlady; 2-nji sentýabr 1945 — Ýaponiýa boýun egdi.\n\nTaraplar: Gitlere garşy koalisiýa (SSSR, ABŞ, Beýik Britaniýa, Hytaý we başgalar) we «Ok» döwletleri (Germaniýa, Italiýa, Ýaponiýa).\nHolokost — nasistleriň alty million töweregi ýewreýi gyrmagy.",
+          "ru": "Вторая мировая война — крупнейшая война в истории человечества: в ней участвовало около 60 государств, погибло около 70 миллионов человек (большинство — мирные жители).\n\nГлавные события:\n• 1 сентября 1939 — Германия вторглась в Польшу; Великобритания и Франция объявили Германии войну.\n• 1940 — Германия захватила Францию; Битва за Британию (воздушная).\n• 22 июня 1941 — Германия напала на СССР.\n• 7 декабря 1941 — Япония атаковала Пёрл-Харбор, США вступили в войну.\n• 1942–1943 — Сталинградская битва и Эль-Аламейн — коренной перелом в войне.\n• 6 июня 1944 — высадка союзников в Нормандии.\n• 8–9 мая 1945 — безоговорочная капитуляция Германии.\n• Август 1945 — США сбросили атомные бомбы на Хиросиму и Нагасаки; 2 сентября 1945 — капитуляция Японии.\n\nСтороны: антигитлеровская коалиция (СССР, США, Великобритания, Китай и другие) и страны «Оси» (Германия, Италия, Япония).\nХолокост — уничтожение нацистами около шести миллионов евреев."
+        }},
+        {"type": "example", "text": {
+          "tk": "Urşuň dowamlylygyny hasaplalyň:\n1) Başlangyjy: 1939-njy ýylyň 1-nji sentýabry.\n2) Soňy: 1945-nji ýylyň 2-nji sentýabry.\n3) 1939-dan 1945-e çenli — 6 ýyl we 1 gün.\nUruş Türkmenistanyň ilatyna hem täsir etdi: müňlerçe türkmenistanly frontda söweşdi, ýurduň içinde zawodlar, pagta meýdanlary we gaçybatalga gelenleri kabul etmek urşa kömek etdi.",
+          "ru": "Посчитаем продолжительность войны:\n1) Начало: 1 сентября 1939 года.\n2) Конец: 2 сентября 1945 года.\n3) С 1939 по 1945 — 6 лет и 1 день.\nВойна затронула и жителей Туркменистана: тысячи туркменистанцев воевали на фронте, а в тылу заводы, хлопковые поля и приём эвакуированных помогали фронту."
+        }},
+        {"type": "input",
+          "q": {"tk": "Ikinji jahan urşy haýsy ýylda başlandy?", "ru": "В каком году началась Вторая мировая война?"},
+          "answer": "1939",
+          "hint": {"tk": "Germaniýa Polşa çozdy.", "ru": "Германия вторглась в Польшу."},
+          "explain": {"tk": "1939-njy ýylyň 1-nji sentýabrynda.", "ru": "1 сентября 1939 года."}
+        },
+        {"type": "choice",
+          "q": {"tk": "ABŞ-ny urşa girmäge näme sebäp boldy?", "ru": "Что стало причиной вступления США в войну?"},
+          "options": [{"tk": "Polşanyň basylyp alynmagy", "ru": "Захват Польши"}, {"tk": "Normandiýa desanty", "ru": "Высадка в Нормандии"}, {"tk": "Ýaponiýanyň Pörl-Harbora hüjümi", "ru": "Нападение Японии на Пёрл-Харбор"}],
+          "answer": 2,
+          "hint": {"tk": "1941-nji ýylyň dekabry, Gawaý adalary.", "ru": "Декабрь 1941 года, Гавайские острова."},
+          "explain": {"tk": "1941-nji ýylyň 7-nji dekabrynda Ýaponiýa Pörl-Harbordaky amerikan flotuna hüjüm etdi, ertesi gün ABŞ uruş yglan etdi.", "ru": "7 декабря 1941 года Япония атаковала американский флот в Пёрл-Харборе, на следующий день США объявили войну."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Italiýa «Ok» döwletleriniň biri bolupdy.", "ru": "Италия была одной из стран «Оси»."},
+          "answer": true,
+          "hint": {"tk": "«Ok»: Berlin — Rim — Tokio.", "ru": "«Ось»: Берлин — Рим — Токио."},
+          "explain": {"tk": "Germaniýa, Italiýa we Ýaponiýa «Ok» bileleşigini düzüpdi.", "ru": "Германия, Италия и Япония составляли блок «Ось»."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy söweş urşuň öwrülişik nokatlarynyň biri hasaplanýar?", "ru": "Какая битва считается одним из переломных моментов войны?"},
+          "options": [{"tk": "Stalingrad söweşi", "ru": "Сталинградская битва"}, {"tk": "Somma söweşi", "ru": "Битва на Сомме"}, {"tk": "Waterloo söweşi", "ru": "Битва при Ватерлоо"}],
+          "answer": 0,
+          "hint": {"tk": "1942–1943, Wolga derýasy.", "ru": "1942–1943 годы, река Волга."},
+          "explain": {"tk": "Stalingradda nemes goşunynyň uly topary gabaldy we boýun egdi. Somma — Birinji jahan urşy, Waterloo — 1815.", "ru": "Под Сталинградом крупная группировка немецких войск была окружена и капитулировала. Сомма — Первая мировая, Ватерлоо — 1815 год."}
+        },
+        {"type": "world", "text": {
+          "tk": "Urşuň döwründe iňlis matematigi Alan Týuring we onuň toparlary nemesleriň «Enigma» şifr enjamynyň habarlaryny açmakda uly işler etdi. Bu işler soňra kompýuter ylmynyň ösmegine täsir etdi.",
+          "ru": "Во время войны английский математик Алан Тьюринг и его коллеги сыграли большую роль во взломе сообщений немецкой шифровальной машины «Энигма». Эта работа повлияла на развитие компьютерной науки."
+        }}
+      ]
+    },
+    {
+      "id": "history-9-united-nations",
+      "grade": 9,
+      "topic": 3,
+      "title": {"tk": "BMG-niň döredilmegi", "ru": "Создание ООН"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Birleşen Milletler Guramasy (BMG) Ikinji jahan urşundan soň täze urşuň öňüni almak üçin döredildi.\n• 1945-nji ýylyň aprel–iýun aýlary — San-Fransisko konferensiýasy; 26-njy iýunda 50 döwlet BMG-niň Tertipnamasyna gol çekdi (soňra Polşa hem gol çekip, 51 esaslandyryjy agza boldy).\n• 24-nji oktýabr 1945 — Tertipnama güýje girdi. Bu gün BMG-niň güni.\n• Merkezi — Nýu-Ýork.\n\nEsasy edaralary:\n• Baş Assambleýa — ähli agzalar, her döwletiň bir sesi bar.\n• Howpsuzlyk Geňeşi — 15 agza: 5 hemişelik (ABŞ, Beýik Britaniýa, Fransiýa, Russiýa, Hytaý) we 10 saýlanýan. Hemişelik agzalaryň weto hukugy bar.\n• Baş sekretar we Sekretariat.\n• Halkara kazyýeti (Gaaga).\n• Ykdysady we Sosial Geňeş.\n\nÝöriteleşdirilen edaralar: ÝUNESKO (bilim, ylym, medeniýet), BSGG (saglyk), ÝUNISEF (çagalar), FAO (azyk).\n1948-nji ýylyň 10-njy dekabrynda Adam hukuklarynyň ählumumy jarnamasy kabul edildi.",
+          "ru": "Организация Объединённых Наций (ООН) создана после Второй мировой войны, чтобы предотвратить новую войну.\n• Апрель–июнь 1945 года — конференция в Сан-Франциско; 26 июня 50 государств подписали Устав ООН (позже его подписала Польша и стала 51-м членом-основателем).\n• 24 октября 1945 года — Устав вступил в силу. Этот день — День ООН.\n• Штаб-квартира — Нью-Йорк.\n\nГлавные органы:\n• Генеральная Ассамблея — все члены, у каждого государства один голос.\n• Совет Безопасности — 15 членов: 5 постоянных (США, Великобритания, Франция, Россия, Китай) и 10 избираемых. У постоянных членов есть право вето.\n• Генеральный секретарь и Секретариат.\n• Международный суд (Гаага).\n• Экономический и Социальный совет.\n\nСпециализированные учреждения: ЮНЕСКО (образование, наука, культура), ВОЗ (здравоохранение), ЮНИСЕФ (дети), ФАО (продовольствие).\n10 декабря 1948 года принята Всеобщая декларация прав человека."
+        }},
+        {"type": "example", "text": {
+          "tk": "Howpsuzlyk Geňeşinde karar nähili kabul edilýär?\n1) Möhüm karar üçin 15 agzanyň azyndan 9-sy «hawa» diýmeli.\n2) Mundan başga-da, 5 hemişelik agzanyň hiç biri «garşy» ses bermeli däl (weto).\nMysal: 12 agza «hawa», 2 agza saklandy, 1 hemişelik agza «garşy». 12 ≥ 9, emma weto bar — karar kabul edilmeýär.\nMysal 2: 9 agza «hawa», 6 agza (şol sanda 2 hemişelik) saklandy. Karar kabul edilýär — saklanmak weto hasaplanmaýar.",
+          "ru": "Как принимается решение в Совете Безопасности?\n1) Для важного решения из 15 членов не менее 9 должны проголосовать «за».\n2) Кроме того, ни один из 5 постоянных членов не должен голосовать «против» (вето).\nПример: 12 членов «за», 2 воздержались, 1 постоянный член «против». 12 ≥ 9, но есть вето — решение не принято.\nПример 2: 9 «за», 6 воздержались (в том числе 2 постоянных). Решение принято — воздержание не считается вето."
+        }},
+        {"type": "input",
+          "q": {"tk": "BMG-niň Howpsuzlyk Geňeşiniň näçe hemişelik agzasy bar?", "ru": "Сколько постоянных членов в Совете Безопасности ООН?"},
+          "answer": "5",
+          "hint": {"tk": "ABŞ, Beýik Britaniýa, Fransiýa, ...", "ru": "США, Великобритания, Франция, ..."},
+          "explain": {"tk": "ABŞ, Beýik Britaniýa, Fransiýa, Russiýa, Hytaý — 5 döwlet.", "ru": "США, Великобритания, Франция, Россия, Китай — 5 государств."}
+        },
+        {"type": "choice",
+          "q": {"tk": "BMG-niň güni haýsy senede bellenýär?", "ru": "Когда отмечается День ООН?"},
+          "options": [{"tk": "26-njy iýun", "ru": "26 июня"}, {"tk": "24-nji oktýabr", "ru": "24 октября"}, {"tk": "10-njy dekabr", "ru": "10 декабря"}],
+          "answer": 1,
+          "hint": {"tk": "Tertipnamanyň güýje giren güni.", "ru": "День вступления Устава в силу."},
+          "explain": {"tk": "24-nji oktýabr 1945 — Tertipnama güýje girdi. 26-njy iýun — gol çekilen gün, 10-njy dekabr — Adam hukuklary güni.", "ru": "24 октября 1945 — Устав вступил в силу. 26 июня — день подписания, 10 декабря — День прав человека."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "BMG-niň Baş Assambleýasynda her döwletiň bir sesi bar.", "ru": "В Генеральной Ассамблее ООН у каждого государства один голос."},
+          "answer": true,
+          "hint": {"tk": "Uly we kiçi döwletler deň hukukly.", "ru": "Большие и малые государства равноправны."},
+          "explain": {"tk": "Hawa, ilatyna we meýdanyna garamazdan, her agza döwletiň bir sesi bar.", "ru": "Да, независимо от населения и площади каждое государство-член имеет один голос."}
+        },
+        {"type": "world", "text": {
+          "tk": "«Birleşen Milletler» adyny ABŞ-nyň prezidenti Franklin Ruzwelt teklip etdi. Ol ilkinji gezek 1942-nji ýylyň 1-nji ýanwarynda «Birleşen Milletleriň Jarnamasynda» ulanyldy.",
+          "ru": "Название «Объединённые Нации» предложил президент США Франклин Рузвельт. Впервые оно было использовано 1 января 1942 года в «Декларации Объединённых Наций»."
+        }}
+      ]
+    },
+    {
+      "id": "history-9-space-age",
+      "grade": 9,
+      "topic": 4,
+      "title": {"tk": "Kosmos asyry", "ru": "Космическая эра"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Kosmos asyry 1950-nji ýyllaryň ahyrynda SSSR bilen ABŞ-nyň arasyndaky bäsdeşlikde («kosmos ýaryşy») başlandy.\n\nEsasy wakalar:\n• 4-nji oktýabr 1957 — SSSR ilkinji emeli hemrany («Sputnik-1») orbita çykardy.\n• 1957 — «Sputnik-2»: kosmosdaky ilkinji haýwan — it Laýka.\n• 12-nji aprel 1961 — Ýuriý Gagarin «Wostok-1» gämisinde kosmosa uçan ilkinji adam boldy (108 minut).\n• 1963 — Walentina Tereşkowa — kosmosdaky ilkinji aýal.\n• 1965 — Aleksey Leonow açyk kosmosa ilkinji çykdy.\n• 20-nji iýul 1969 — «Apollon-11»: Nil Armstrong we Bazz Oldrin Aýa düşdi.\n• 1971 — ilkinji orbital stansiýa «Salýut-1».\n• 1998-den — Halkara kosmos stansiýasy (HKS) gurulýar; 2000-nji ýyldan bäri onda hemişe adam ýaşaýar.\n\nKosmos tehnologiýalary gündelik durmuşa geldi: hemra aragatnaşygy, telewideniýe, howa maglumaty, GPS nawigasiýasy.",
+          "ru": "Космическая эра началась в конце 1950-х годов в соперничестве СССР и США («космическая гонка»).\n\nГлавные события:\n• 4 октября 1957 — СССР вывел на орбиту первый искусственный спутник («Спутник-1»).\n• 1957 — «Спутник-2»: первое животное в космосе — собака Лайка.\n• 12 апреля 1961 — Юрий Гагарин на корабле «Восток-1» стал первым человеком в космосе (108 минут).\n• 1963 — Валентина Терешкова — первая женщина в космосе.\n• 1965 — Алексей Леонов впервые вышел в открытый космос.\n• 20 июля 1969 — «Аполлон-11»: Нил Армстронг и Базз Олдрин высадились на Луну.\n• 1971 — первая орбитальная станция «Салют-1».\n• С 1998 года строится Международная космическая станция (МКС); с 2000 года на ней постоянно живут люди.\n\nКосмические технологии пришли в повседневную жизнь: спутниковая связь, телевидение, прогноз погоды, GPS-навигация."
+        }},
+        {"type": "example", "text": {
+          "tk": "Wakalaryň arasyndaky wagty hasaplalyň:\n1) Ilkinji hemradan (1957) Gagariniň uçuşyna (1961) çenli: 1961 − 1957 = 4 ýyl.\n2) Gagarinden (1961) Aýa düşmäge (1969) çenli: 1969 − 1961 = 8 ýyl.\n3) Ilkinji hemradan Aýa çenli: 1969 − 1957 = 12 ýyl.\nNetije: 12 ýylyň içinde adamzat ilkinji kiçijik hemradan Aýa düşmäge çenli ýol geçdi.\nTürkmenistan hem kosmos asyryna goşuldy: 2015-nji ýylda ýurduň ilkinji aragatnaşyk hemrasy «TürkmenÄlem52°E» orbita çykaryldy.",
+          "ru": "Посчитаем время между событиями:\n1) От первого спутника (1957) до полёта Гагарина (1961): 1961 − 1957 = 4 года.\n2) От Гагарина (1961) до высадки на Луну (1969): 1969 − 1961 = 8 лет.\n3) От первого спутника до Луны: 1969 − 1957 = 12 лет.\nВывод: за 12 лет человечество прошло путь от маленького спутника до высадки на Луну.\nТуркменистан тоже вошёл в космическую эру: в 2015 году на орбиту был выведен первый национальный спутник связи «TürkmenÄlem52°E»."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Kosmosa uçan ilkinji adam kim?", "ru": "Кто первым полетел в космос?"},
+          "options": [{"tk": "Nil Armstrong", "ru": "Нил Армстронг"}, {"tk": "Aleksey Leonow", "ru": "Алексей Леонов"}, {"tk": "Ýuriý Gagarin", "ru": "Юрий Гагарин"}],
+          "answer": 2,
+          "hint": {"tk": "1961-nji ýylyň 12-nji apreli.", "ru": "12 апреля 1961 года."},
+          "explain": {"tk": "Gagarin 1961-nji ýylda uçdy. Leonow — açyk kosmosa ilkinji çykan, Armstrong — Aýa ilkinji aýak basan.", "ru": "Гагарин полетел в 1961 году. Леонов — первый выход в открытый космос, Армстронг — первый человек на Луне."}
+        },
+        {"type": "input",
+          "q": {"tk": "Adamlar Aýa ilkinji gezek haýsy ýylda düşdi?", "ru": "В каком году люди впервые высадились на Луну?"},
+          "answer": "1969",
+          "hint": {"tk": "«Apollon-11» missiýasy.", "ru": "Миссия «Аполлон-11»."},
+          "explain": {"tk": "1969-njy ýylyň 20-nji iýulynda.", "ru": "20 июля 1969 года."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Ilkinji emeli hemrany ABŞ uçurdy.", "ru": "Первый искусственный спутник запустили США."},
+          "answer": false,
+          "hint": {"tk": "«Sputnik» sözi haýsy dilden?", "ru": "Из какого языка слово «спутник»?"},
+          "explain": {"tk": "«Sputnik-1»-i 1957-nji ýylda SSSR uçurdy. ABŞ-nyň ilkinji hemrasy «Eksplorer-1» 1958-nji ýylda uçuryldy.", "ru": "«Спутник-1» запустил СССР в 1957 году. Первый спутник США «Эксплорер-1» запущен в 1958 году."}
+        },
+        {"type": "world", "text": {
+          "tk": "1990-njy ýylda orbita çykarylan «Habbl» kosmos teleskopy alymlara Älemiň ýaşyny takmynan 13,8 milliard ýyl diýip has takyk kesgitlemäge kömek etdi.",
+          "ru": "Космический телескоп «Хаббл», выведенный на орбиту в 1990 году, помог учёным точнее определить возраст Вселенной — около 13,8 миллиарда лет."
+        }}
+      ]
+    },
+    {
+      "id": "history-9-digital-revolution",
+      "grade": 9,
+      "topic": 5,
+      "title": {"tk": "Sanly rewolýusiýa", "ru": "Цифровая революция"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Sanly rewolýusiýa — XX asyryň ikinji ýarymynda başlanan, analog tehnologiýalardan sanly tehnologiýalara geçiş.\n\nEsasy tapgyrlar:\n• 1940-njy ýyllar — ilkinji elektron kompýuterler (ENIAC, 1945), olar tutuş otagy eýeläpdir.\n• 1947 — tranzistor oýlanyp tapyldy (Bell laboratoriýasy).\n• 1958–1959 — integral shema (mikroçip).\n• 1971 — ilkinji köpçülikleýin satylan mikroprosessor Intel 4004.\n• 1970–1980-nji ýyllar — şahsy kompýuterler (Apple II, IBM PC).\n• 1969 — ARPANET, internetiň öňküsi.\n• 1989–1991 — Tim Berners-Li Bütindünýä kerebini (WWW) döretdi.\n• 2007 — sensor ekranly smartfonlaryň ýaýramagy.\n• 2010-njy ýyllar — bulut hyzmatlary, sosial ulgamlar, emeli aň.\n\nMuryň kanuny: mikroçipdäki tranzistorlaryň sany takmynan her iki ýylda iki esse artýar — bu onlarça ýyl dowam etdi.",
+          "ru": "Цифровая революция — начавшийся во второй половине XX века переход от аналоговых технологий к цифровым.\n\nГлавные этапы:\n• 1940-е — первые электронные компьютеры (ENIAC, 1945), они занимали целую комнату.\n• 1947 — изобретён транзистор (лаборатория Bell).\n• 1958–1959 — интегральная схема (микрочип).\n• 1971 — первый массовый микропроцессор Intel 4004.\n• 1970–1980-е — персональные компьютеры (Apple II, IBM PC).\n• 1969 — ARPANET, предшественник интернета.\n• 1989–1991 — Тим Бернерс-Ли создал Всемирную паутину (WWW).\n• 2007 — распространение смартфонов с сенсорным экраном.\n• 2010-е — облачные сервисы, социальные сети, искусственный интеллект.\n\nЗакон Мура: число транзисторов на микрочипе удваивается примерно каждые два года — так продолжалось десятилетиями."
+        }},
+        {"type": "example", "text": {
+          "tk": "Muryň kanunyny barlalyň.\n1) 1971-nji ýylda Intel 4004 çipinde takmynan 2 300 tranzistor bardy.\n2) Her 2 ýylda iki esse: 20 ýylda 10 gezek iki esse artýar.\n3) 2¹⁰ = 1 024. Diýmek, 1991-nji ýylda: 2 300 × 1 024 ≈ 2,4 million tranzistor.\n4) Hakykatda hem 1990-njy ýyllaryň başyndaky prosessorlarda bir-üç million töweregi tranzistor bardy.\nHäzirki prosessorlarda bolsa onlarça milliard tranzistor bar.",
+          "ru": "Проверим закон Мура.\n1) В 1971 году в чипе Intel 4004 было около 2 300 транзисторов.\n2) Удвоение каждые 2 года: за 20 лет — 10 удвоений.\n3) 2¹⁰ = 1 024. Значит, к 1991 году: 2 300 × 1 024 ≈ 2,4 миллиона транзисторов.\n4) И действительно, в процессорах начала 1990-х было от одного до трёх миллионов транзисторов.\nА в современных процессорах — десятки миллиардов транзисторов."
+        }},
+        {"type": "input",
+          "q": {"tk": "Muryň kanuny boýunça 6 ýylda tranzistorlaryň sany näçe esse artýar?", "ru": "Во сколько раз, по закону Мура, вырастет число транзисторов за 6 лет?"},
+          "answer": "8",
+          "hint": {"tk": "6 ýylda näçe gezek iki esse artýar?", "ru": "Сколько удвоений за 6 лет?"},
+          "explain": {"tk": "6 : 2 = 3 gezek iki esse: 2 × 2 × 2 = 8.", "ru": "6 : 2 = 3 удвоения: 2 × 2 × 2 = 8."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Bütindünýä kerebini (WWW) kim döretdi?", "ru": "Кто создал Всемирную паутину (WWW)?"},
+          "options": [{"tk": "Tim Berners-Li", "ru": "Тим Бернерс-Ли"}, {"tk": "Gordon Mur", "ru": "Гордон Мур"}, {"tk": "Alan Týuring", "ru": "Алан Тьюринг"}],
+          "answer": 0,
+          "hint": {"tk": "Ol CERN-de işleýän iňlis alymy.", "ru": "Это английский учёный, работавший в ЦЕРН."},
+          "explain": {"tk": "Tim Berners-Li 1989-njy ýylda WWW-ni teklip etdi we ilkinji web-sahypany döretdi.", "ru": "Тим Бернерс-Ли предложил WWW в 1989 году и создал первый веб-сайт."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Tranzistor şahsy kompýuterlerden soň oýlanyp tapyldy.", "ru": "Транзистор изобрели после появления персональных компьютеров."},
+          "answer": false,
+          "hint": {"tk": "Senelerini deňeşdiriň: 1947 we 1970-nji ýyllar.", "ru": "Сравните даты: 1947 год и 1970-е."},
+          "explain": {"tk": "Tranzistor 1947-nji ýylda döredildi; şahsy kompýuterler ondan 30 ýyl töweregi soň peýda boldy.", "ru": "Транзистор создан в 1947 году; персональные компьютеры появились примерно через 30 лет."}
+        },
+        {"type": "world", "text": {
+          "tk": "Dünýäniň ilkinji web-sahypasy 1991-nji ýylda CERN-de (Şweýsariýa) açyldy. Ol WWW taslamasynyň özüni düşündirýärdi. 1993-nji ýylda CERN bu tehnologiýany hemmeler üçin mugt etdi.",
+          "ru": "Первый в мире веб-сайт открылся в 1991 году в ЦЕРН (Швейцария). Он рассказывал о самом проекте WWW. В 1993 году ЦЕРН сделал эту технологию бесплатной для всех."
+        }}
+      ]
+    }
+  ]
+}

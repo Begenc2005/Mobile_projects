@@ -1,0 +1,287 @@
+{
+  "grade": 6,
+  "subject": "informatics",
+  "lessons": [
+    {
+      "id": "informatics-6-information-types",
+      "grade": 6,
+      "topic": 0,
+      "title": {"tk": "Maglumat we onuň görnüşleri", "ru": "Информация и её виды"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Maglumat – daşymyzdaky dünýä barada alýan habarlarymyz we bilimlerimiz.\nKabul ediliş usuly boýunça maglumatyň görnüşleri:\n• görüş (gözüň kömegi bilen) – suratlar, tekst;\n• eşidiş (gulak) – sesler, saz;\n• ys (burun), dadyş (dil), duýuş (deri).\nBerliş görnüşi boýunça: tekst, san, şekil (grafika), ses, wideo.\nMaglumat bilen hereketler: almak, saklamak, işlemek we geçirmek.",
+          "ru": "Информация – это сведения и знания об окружающем мире.\nВиды информации по способу восприятия:\n• зрительная (глазами) – рисунки, текст;\n• звуковая (ушами) – звуки, музыка;\n• обонятельная (нос), вкусовая (язык), осязательная (кожа).\nПо форме представления: текст, числа, изображения (графика), звук, видео.\nДействия с информацией: получение, хранение, обработка и передача."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mysal: mekdepdäki bir gün.\n1) Mugallym tagta ýazýar – siz görüş maglumatyny alýarsyňyz (tekst).\n2) Jaň kakylýar – eşidiş maglumaty.\n3) Siz ýazgyny depderiňize göçürýärsiňiz – maglumaty saklaýarsyňyz.\n4) Meseläni çözýärsiňiz – maglumaty işleýärsiňiz.\n5) Dostuňyza jogaby aýdýarsyňyz – maglumaty geçirýärsiňiz.",
+          "ru": "Пример: один день в школе.\n1) Учитель пишет на доске – вы получаете зрительную информацию (текст).\n2) Звенит звонок – звуковая информация.\n3) Вы переписываете запись в тетрадь – храните информацию.\n4) Решаете задачу – обрабатываете информацию.\n5) Говорите ответ другу – передаёте информацию."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Gülüň ysyny duýmak – bu maglumatyň haýsy görnüşi?", "ru": "Чувствовать запах цветка – это какой вид информации?"},
+          "options": [{"tk": "Eşidiş", "ru": "Звуковая"}, {"tk": "Ys", "ru": "Обонятельная"}, {"tk": "Görüş", "ru": "Зрительная"}],
+          "answer": 1,
+          "hint": {"tk": "Haýsy duýuş agzasy işleýär?", "ru": "Какой орган чувств работает?"},
+          "explain": {"tk": "Ysy burun bilen duýýarys, bu ys maglumaty.", "ru": "Запах мы чувствуем носом – это обонятельная информация."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Kitapdaky teksti okamak – maglumaty almakdyr.", "ru": "Читать текст в книге – значит получать информацию."},
+          "answer": true,
+          "hint": {"tk": "Okanyňyzda täze bir zat bilýärsiňizmi?", "ru": "Узнаёте ли вы что-то новое, когда читаете?"},
+          "explain": {"tk": "Dogry. Okanymyzda biz görüş arkaly tekst görnüşindäki maglumaty alýarys.", "ru": "Верно. Читая, мы получаем зрительную информацию в текстовой форме."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Fleş-kartda surat ýazyp goýmak haýsy hereket?", "ru": "Записать фото на флешку – какое это действие?"},
+          "options": [{"tk": "Maglumaty işlemek", "ru": "Обработка информации"}, {"tk": "Maglumaty geçirmek", "ru": "Передача информации"}, {"tk": "Maglumaty saklamak", "ru": "Хранение информации"}],
+          "answer": 2,
+          "hint": {"tk": "Surat soňra ulanmak üçin ýatda galýar.", "ru": "Фото сохраняется, чтобы использовать потом."},
+          "explain": {"tk": "Fleş-kart – maglumat saklaýjy. Surat onda saklanýar.", "ru": "Флешка – носитель информации. Фото на ней хранится."}
+        },
+        {"type": "input",
+          "q": {"tk": "Adamyň näçe esasy duýuş agzasy bar? (san bilen)", "ru": "Сколько основных органов чувств у человека? (числом)"},
+          "answer": "5",
+          "hint": {"tk": "Göz, gulak, burun... dowam ediň.", "ru": "Глаза, уши, нос... продолжите."},
+          "explain": {"tk": "Bäş: göz, gulak, burun, dil, deri. Maglumatyň köp bölegini biz göz arkaly alýarys.", "ru": "Пять: глаза, уши, нос, язык, кожа. Большую часть информации мы получаем через глаза."}
+        },
+        {"type": "world", "text": {
+          "tk": "1948-nji ýylda amerikan alymy Klod Şennon \"maglumat nazaryýetini\" döredipdir. Ol maglumatyň ölçeg birligi hökmünde bit (0 ýa-da 1) düşünjesini giňden ýaýradypdyr. Häzirki ähli kompýuterler maglumaty bitler görnüşinde saklaýar.",
+          "ru": "В 1948 году американский учёный Клод Шеннон создал «теорию информации». Он широко ввёл в употребление бит (0 или 1) как единицу измерения информации. Все современные компьютеры хранят информацию в виде битов."
+        }}
+      ]
+    },
+    {
+      "id": "informatics-6-presentations",
+      "grade": 6,
+      "topic": 1,
+      "title": {"tk": "Prezentasiýa döretmek", "ru": "Создание презентации"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Prezentasiýa – slaýdlaryň yzygiderliligi bolup, ol çykyşy görnükli edýär.\nMeşhur programmalar: PowerPoint, Google Slides, LibreOffice Impress, Keynote.\nSlaýda goşup bolýar: tekst, surat, diagramma, ses, wideo.\nGowy prezentasiýanyň düzgünleri:\n• bir slaýdda bir esasy pikir;\n• gysga tekst, uly harplar;\n• fon bilen tekstiň reňki biri-birinden tapawutly bolsun;\n• animasiýany az ulanyň.",
+          "ru": "Презентация – это последовательность слайдов, которая делает выступление наглядным.\nПопулярные программы: PowerPoint, Google Slides, LibreOffice Impress, Keynote.\nНа слайд можно добавить: текст, изображения, диаграммы, звук, видео.\nПравила хорошей презентации:\n• на одном слайде одна главная мысль;\n• короткий текст, крупный шрифт;\n• цвет текста должен контрастировать с фоном;\n• анимацию используйте умеренно."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mysal: \"Meniň sevýän haýwanym – gepard\" prezentasiýasy.\n1-nji slaýd – at: \"Gepard\" we surat.\n2-nji slaýd – nirede ýaşaýar: Afrika, Aziýanyň käbir ýerleri.\n3-nji slaýd – tizligi: 100 km/sag-dan gowrak.\n4-nji slaýd – gyzykly fakt.\n5-nji slaýd – \"Ünsüňiz üçin sag boluň!\"\nHer slaýdda 3–4 setirden köp tekst ýok.",
+          "ru": "Пример: презентация «Моё любимое животное – гепард».\nСлайд 1 – заголовок «Гепард» и фото.\nСлайд 2 – где живёт: Африка, некоторые районы Азии.\nСлайд 3 – скорость: более 100 км/ч.\nСлайд 4 – интересный факт.\nСлайд 5 – «Спасибо за внимание!»\nНа каждом слайде не более 3–4 строк текста."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Haýsy programma prezentasiýa döretmek üçin niýetlenen?", "ru": "Какая программа предназначена для создания презентаций?"},
+          "options": [{"tk": "Paint", "ru": "Paint"}, {"tk": "Kalkulýator", "ru": "Калькулятор"}, {"tk": "PowerPoint", "ru": "PowerPoint"}],
+          "answer": 2,
+          "hint": {"tk": "Onuň adynda \"Point\" sözi bar.", "ru": "В её названии есть слово «Point»."},
+          "explain": {"tk": "PowerPoint – slaýdlar döretmek üçin programma. Paint – surat çekmek üçin.", "ru": "PowerPoint – программа для создания слайдов. Paint – для рисования."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Gowy slaýdda mümkin boldugyça köp tekst ýazmaly.", "ru": "На хорошем слайде нужно писать как можно больше текста."},
+          "answer": false,
+          "hint": {"tk": "Diňleýjiler hem okamaly, hem siziň çykyşyňyzy diňlemeli.", "ru": "Слушателям нужно и читать, и слушать ваше выступление."},
+          "explain": {"tk": "Nädogry. Tekst gysga bolmaly, jikme-jiklikleri çykyş edýän özi aýdýar.", "ru": "Неверно. Текст должен быть кратким, подробности рассказывает выступающий."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Ak fonda haýsy reňkli tekst gowy okalýar?", "ru": "Какой цвет текста лучше читается на белом фоне?"},
+          "options": [{"tk": "Gara", "ru": "Чёрный"}, {"tk": "Açyk sary", "ru": "Светло-жёлтый"}, {"tk": "Ak", "ru": "Белый"}],
+          "answer": 0,
+          "hint": {"tk": "Fon bilen tekst biri-birinden güýçli tapawutlanmaly.", "ru": "Текст и фон должны сильно различаться."},
+          "explain": {"tk": "Gara tekst ak fonda iň aýdyň görünýär – kontrast uly.", "ru": "Чёрный текст на белом фоне виден лучше всего – контраст большой."}
+        },
+        {"type": "input",
+          "q": {"tk": "Çykyş 10 minut dowam edýär, her slaýda 2 minut gidýär. Näçe slaýd gerek?", "ru": "Выступление длится 10 минут, на каждый слайд уходит 2 минуты. Сколько нужно слайдов?"},
+          "answer": "5",
+          "hint": {"tk": "Umumy wagty bir slaýdyň wagtyna bölüň.", "ru": "Разделите общее время на время одного слайда."},
+          "explain": {"tk": "10 : 2 = 5 slaýd.", "ru": "10 : 2 = 5 слайдов."}
+        },
+        {"type": "world", "text": {
+          "tk": "PowerPoint programmasynyň ilkinji wersiýasy 1987-nji ýylda Apple Macintosh kompýuterleri üçin çykypdyr. Şol ýyl Microsoft ony döreden kompaniýany satyn alypdyr.",
+          "ru": "Первая версия PowerPoint вышла в 1987 году для компьютеров Apple Macintosh. В том же году Microsoft купила компанию, которая её создала."
+        }}
+      ]
+    },
+    {
+      "id": "informatics-6-spreadsheets",
+      "grade": 6,
+      "topic": 2,
+      "title": {"tk": "Elektron tablisalar", "ru": "Электронные таблицы"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Elektron tablisa – sanlar bilen işlemek üçin programma (Excel, Google Sheets, LibreOffice Calc).\n• Sütünler harplar bilen belgilenýär: A, B, C...\n• Setirler sanlar bilen: 1, 2, 3...\n• Öýjük – sütün bilen setiriň kesişmesi, salgysy mysal üçin B3.\n• Formula \"=\" belgisinden başlaýar: =A1+A2.\n• Funksiýalar: =SUM(A1:A5) – jemi, =AVERAGE(A1:A5) – ortaça baha.\nSany üýtgetseňiz, formula netijäni özi täzeden hasaplaýar.",
+          "ru": "Электронная таблица – программа для работы с числами (Excel, Google Таблицы, LibreOffice Calc).\n• Столбцы обозначаются буквами: A, B, C...\n• Строки – числами: 1, 2, 3...\n• Ячейка – пересечение столбца и строки, её адрес, например, B3.\n• Формула начинается со знака «=»: =A1+A2.\n• Функции: =SUM(A1:A5) – сумма, =AVERAGE(A1:A5) – среднее значение (в русской версии СУММ и СРЗНАЧ).\nЕсли изменить число, формула сама пересчитает результат."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mysal: bahalaryň ortaçasy.\nA1 = 4, A2 = 5, A3 = 3, A4 = 4.\n1) A5 öýjügine ýazýarys: =SUM(A1:A4) → 16.\n2) A6 öýjügine: =AVERAGE(A1:A4) → 16 : 4 = 4.\n3) A3-i 5-e üýtgedeliň: jemi 18, ortaça 4,5 bolar – tablisa özi täzeden hasaplaýar.",
+          "ru": "Пример: среднее оценок.\nA1 = 4, A2 = 5, A3 = 3, A4 = 4.\n1) В ячейку A5 пишем: =SUM(A1:A4) → 16.\n2) В ячейку A6: =AVERAGE(A1:A4) → 16 : 4 = 4.\n3) Изменим A3 на 5: сумма станет 18, среднее 4,5 – таблица пересчитает сама."
+        }},
+        {"type": "choice",
+          "q": {"tk": "C sütüniniň we 7-nji setiriň kesişmesindäki öýjügiň salgysy haýsy?", "ru": "Какой адрес у ячейки на пересечении столбца C и строки 7?"},
+          "options": ["7C", "C7", "C-7"],
+          "answer": 1,
+          "hint": {"tk": "Ilki sütüniň harpy, soňra setiriň belgisi ýazylýar.", "ru": "Сначала пишется буква столбца, потом номер строки."},
+          "explain": {"tk": "Salgy C7 görnüşinde ýazylýar: harp + san.", "ru": "Адрес записывается как C7: буква + число."}
+        },
+        {"type": "input",
+          "q": {"tk": "A1 = 6, A2 = 9. =A1*A2 formulanyň netijesi näçe?", "ru": "A1 = 6, A2 = 9. Каков результат формулы =A1*A2?"},
+          "answer": "54",
+          "hint": {"tk": "\"*\" belgisi köpeltmegi aňladýar.", "ru": "Знак «*» означает умножение."},
+          "explain": {"tk": "6 × 9 = 54.", "ru": "6 × 9 = 54."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Elektron tablisada formula \"=\" belgisi bilen başlaýar.", "ru": "В электронной таблице формула начинается со знака «=»."},
+          "answer": true,
+          "hint": {"tk": "Ýokardaky mysallara serediň.", "ru": "Посмотрите на примеры выше."},
+          "explain": {"tk": "Dogry. \"=\" belgisi bolmasa, programma ýazgyny ýönekeý tekst hasaplaýar.", "ru": "Верно. Без знака «=» программа считает запись обычным текстом."}
+        },
+        {"type": "input",
+          "q": {"tk": "B1 = 10, B2 = 20, B3 = 30. =AVERAGE(B1:B3) näçe?", "ru": "B1 = 10, B2 = 20, B3 = 30. Чему равно =AVERAGE(B1:B3)?"},
+          "answer": "20",
+          "hint": {"tk": "Jemi tapyp, sanlaryň mukdaryna bölüň.", "ru": "Найдите сумму и разделите на количество чисел."},
+          "explain": {"tk": "(10 + 20 + 30) : 3 = 60 : 3 = 20.", "ru": "(10 + 20 + 30) : 3 = 60 : 3 = 20."}
+        },
+        {"type": "world", "text": {
+          "tk": "Ilkinji meşhur elektron tablisa VisiCalc 1979-njy ýylda Den Briklin we Bob Frankston tarapyndan döredilipdir. Köp adam diňe şu programma üçin şahsy kompýuter satyn alypdyr.",
+          "ru": "Первая популярная электронная таблица VisiCalc была создана в 1979 году Дэном Бриклином и Бобом Фрэнкстоном. Многие покупали персональный компьютер только ради этой программы."
+        }}
+      ]
+    },
+    {
+      "id": "informatics-6-algorithm-types",
+      "grade": 6,
+      "topic": 3,
+      "title": {"tk": "Algoritmiň görnüşleri", "ru": "Виды алгоритмов"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Algoritm – maksada ýetmek üçin anyk tertipde ýerine ýetirilýän buýruklaryň yzygiderliligi.\nAlgoritmiň üç esasy görnüşi bar:\n• Çyzykly – buýruklar birin-birin, hemişe şol bir tertipde ýerine ýetirilýär.\n• Şahalanýan – şerte baglylykda bir ýa-da başga ýol saýlanýar (\"eger ... onda ... ýogsa ...\").\n• Gaýtalanýan (sikl) – käbir buýruklar birnäçe gezek gaýtalanýar.",
+          "ru": "Алгоритм – последовательность команд, выполняемых в определённом порядке для достижения цели.\nЕсть три основных вида алгоритмов:\n• Линейный – команды выполняются одна за другой, всегда в одном порядке.\n• Разветвляющийся – в зависимости от условия выбирается один или другой путь («если ... то ... иначе ...»).\n• Циклический (цикл) – некоторые команды повторяются несколько раз."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mysallar:\n1) Çyzykly: çaý demlemek – suw gaýnatmak → çäýnege çaý salmak → suw guýmak → 5 minut garaşmak.\n2) Şahalanýan: eger daşarda ýagyş ýagýan bolsa, onda saýawany al, ýogsa saýawansyz git.\n3) Gaýtalanýan: 10 gezek otur-tur et. Bir hereket 10 gezek gaýtalanýar.",
+          "ru": "Примеры:\n1) Линейный: заварить чай – вскипятить воду → положить чай в чайник → залить водой → подождать 5 минут.\n2) Разветвляющийся: если на улице дождь, то возьми зонт, иначе иди без зонта.\n3) Циклический: присядь 10 раз. Одно действие повторяется 10 раз."
+        }},
+        {"type": "choice",
+          "q": {"tk": "\"Eger yşyk gyzyl bolsa, dur; ýogsa geç\" – bu haýsy algoritm?", "ru": "«Если свет красный – стой, иначе – иди». Какой это алгоритм?"},
+          "options": [{"tk": "Çyzykly", "ru": "Линейный"}, {"tk": "Gaýtalanýan", "ru": "Циклический"}, {"tk": "Şahalanýan", "ru": "Разветвляющийся"}],
+          "answer": 2,
+          "hint": {"tk": "Bu ýerde şert we iki ýol bar.", "ru": "Здесь есть условие и два пути."},
+          "explain": {"tk": "Şerte görä iki hereketiň biri saýlanýar – bu şahalanýan algoritm.", "ru": "В зависимости от условия выбирается одно из двух действий – это разветвляющийся алгоритм."}
+        },
+        {"type": "choice",
+          "q": {"tk": "\"Diwara 8 kerpiç goý\" diýen buýrugy ýerine ýetirmek üçin haýsy algoritm amatly?", "ru": "Какой алгоритм удобен для команды «положи 8 кирпичей в стену»?"},
+          "options": [{"tk": "Gaýtalanýan", "ru": "Циклический"}, {"tk": "Şahalanýan", "ru": "Разветвляющийся"}, {"tk": "Hiç haýsy", "ru": "Никакой"}],
+          "answer": 0,
+          "hint": {"tk": "Bir hereket birnäçe gezek gaýtalanýar.", "ru": "Одно действие повторяется несколько раз."},
+          "explain": {"tk": "\"Kerpiç goý\" hereketi 8 gezek gaýtalanýar – bu sikl.", "ru": "Действие «положи кирпич» повторяется 8 раз – это цикл."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Çyzykly algoritmde buýruklaryň tertibi şerte görä üýtgäp biler.", "ru": "В линейном алгоритме порядок команд может меняться в зависимости от условия."},
+          "answer": false,
+          "hint": {"tk": "Çyzykly algoritmde şert barmy?", "ru": "Есть ли в линейном алгоритме условие?"},
+          "explain": {"tk": "Nädogry. Çyzykly algoritmde şert ýok, buýruklar hemişe şol bir tertipde ýerine ýetirilýär.", "ru": "Неверно. В линейном алгоритме нет условий, команды всегда выполняются в одном порядке."}
+        },
+        {"type": "input",
+          "q": {"tk": "Robot 4 gezek gaýtalaýar: \"2 ädim öňe\". Ol jemi näçe ädim ätýär?", "ru": "Робот повторяет 4 раза: «2 шага вперёд». Сколько всего шагов он сделает?"},
+          "answer": "8",
+          "hint": {"tk": "Gaýtalanma sanyny bir gezekdäki ädimlere köpeldiň.", "ru": "Умножьте число повторений на шаги за один раз."},
+          "explain": {"tk": "4 × 2 = 8 ädim.", "ru": "4 × 2 = 8 шагов."}
+        },
+        {"type": "world", "text": {
+          "tk": "\"Algoritm\" sözi IX asyrda Bagdatda işlän horezmli alym Muhammet ibn Musa al-Horezminiň adyndan gelip çykýar. Onuň kitaplarynyň latyn diline terjimelerinde ady \"Algoritmi\" diýlip ýazylypdyr.",
+          "ru": "Слово «алгоритм» происходит от имени хорезмийского учёного IX века Мухаммада ибн Мусы аль-Хорезми, работавшего в Багдаде. В латинских переводах его книг имя писали как «Algoritmi»."
+        }}
+      ]
+    },
+    {
+      "id": "informatics-6-flowcharts",
+      "grade": 6,
+      "topic": 4,
+      "title": {"tk": "Blok-shemalar", "ru": "Блок-схемы"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Blok-shema – algoritmi geometrik şekiller we oklar bilen görkezmek usuly.\nEsasy bloklar:\n• Oval – başlangyç we ahyr (\"Başla\", \"Gutar\").\n• Gönüburçluk – hereket (mysal üçin: \"a = a + 1\").\n• Parallelogram – maglumaty girizmek ýa-da çykarmak.\n• Romb – şert. Ondan iki ok çykýar: \"hawa\" we \"ýok\".\nOklar ýerine ýetiriş tertibini görkezýär.",
+          "ru": "Блок-схема – способ изобразить алгоритм с помощью геометрических фигур и стрелок.\nОсновные блоки:\n• Овал – начало и конец («Начало», «Конец»).\n• Прямоугольник – действие (например: «a = a + 1»).\n• Параллелограмм – ввод или вывод данных.\n• Ромб – условие. Из него выходят две стрелки: «да» и «нет».\nСтрелки показывают порядок выполнения."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mysal: san jübütmi?\n1) Oval: \"Başla\".\n2) Parallelogram: N sany giriz.\n3) Romb: \"N 2-ä galyndysyz bölünýärmi?\"\n4) \"Hawa\" → parallelogram: \"Jübüt\" diýip çykar.\n5) \"Ýok\" → parallelogram: \"Täk\" diýip çykar.\n6) Oval: \"Gutar\".\nN = 7 bolsa: 7 : 2 = 3 (galyndy 1) → \"Täk\".",
+          "ru": "Пример: чётное ли число?\n1) Овал: «Начало».\n2) Параллелограмм: ввести число N.\n3) Ромб: «N делится на 2 без остатка?»\n4) «Да» → параллелограмм: вывести «Чётное».\n5) «Нет» → параллелограмм: вывести «Нечётное».\n6) Овал: «Конец».\nЕсли N = 7: 7 : 2 = 3 (остаток 1) → «Нечётное»."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Blok-shemada şert haýsy şekil bilen görkezilýär?", "ru": "Какой фигурой в блок-схеме обозначается условие?"},
+          "options": [{"tk": "Oval", "ru": "Овал"}, {"tk": "Romb", "ru": "Ромб"}, {"tk": "Gönüburçluk", "ru": "Прямоугольник"}],
+          "answer": 1,
+          "hint": {"tk": "Bu şekilden iki ok çykýar.", "ru": "Из этой фигуры выходят две стрелки."},
+          "explain": {"tk": "Romb – şert bloky, ondan \"hawa\" we \"ýok\" oklary çykýar.", "ru": "Ромб – блок условия, из него выходят стрелки «да» и «нет»."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Algoritmiň başlangyjy we ahyry oval bilen görkezilýär.", "ru": "Начало и конец алгоритма обозначаются овалом."},
+          "answer": true,
+          "hint": {"tk": "\"Başla\" we \"Gutar\" ýazgylary haýsy şekilde?", "ru": "В какой фигуре надписи «Начало» и «Конец»?"},
+          "explain": {"tk": "Dogry. Oval (tegelek burçly şekil) başlangyjy we ahyry aňladýar.", "ru": "Верно. Овал (фигура со скруглёнными краями) обозначает начало и конец."}
+        },
+        {"type": "input",
+          "q": {"tk": "Blok-shema: x = 3 → x = x * 2 → x = x + 4 → x-i çykar. Näçe çykar?", "ru": "Блок-схема: x = 3 → x = x * 2 → x = x + 4 → вывести x. Что будет выведено?"},
+          "answer": "10",
+          "hint": {"tk": "Her ädimden soň x-iň täze bahasyny ýazyň.", "ru": "Записывайте новое значение x после каждого шага."},
+          "explain": {"tk": "x = 3 → 3 × 2 = 6 → 6 + 4 = 10.", "ru": "x = 3 → 3 × 2 = 6 → 6 + 4 = 10."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Romb: \"a > 5?\". Hawa → \"Uly\", ýok → \"Kiçi\". a = 5 bolsa näme çykar?", "ru": "Ромб: «a > 5?». Да → «Большое», нет → «Малое». Что выведется при a = 5?"},
+          "options": [{"tk": "Uly", "ru": "Большое"}, {"tk": "Hiç zat", "ru": "Ничего"}, {"tk": "Kiçi", "ru": "Малое"}],
+          "answer": 2,
+          "hint": {"tk": "5 sany 5-den ulumy?", "ru": "Больше ли 5, чем 5?"},
+          "explain": {"tk": "5 > 5 nädogry, şonuň üçin \"ýok\" ugry boýunça \"Kiçi\" çykýar.", "ru": "5 > 5 – ложь, поэтому по ветке «нет» выводится «Малое»."}
+        },
+        {"type": "world", "text": {
+          "tk": "Blok-shemalary 1921-nji ýylda inženerler Frenk we Lilian Gilbret iş prosesleri üçin hödürläpdirler. Soňra olar kompýuter programmalaryny meýilleşdirmekde giňden ulanylyp başlandy.",
+          "ru": "Блок-схемы предложили в 1921 году инженеры Фрэнк и Лиллиан Гилбрет для описания рабочих процессов. Позже их стали широко использовать для планирования компьютерных программ."
+        }}
+      ]
+    },
+    {
+      "id": "informatics-6-scratch",
+      "grade": 6,
+      "topic": 5,
+      "title": {"tk": "Scratch-da programmirleme", "ru": "Программирование в Scratch"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Scratch – programmalary reňkli bloklardan ýygnamaga mümkinçilik berýän dil.\n• Sprayt – sahnada hereket edýän gahryman (mysal üçin, pişik).\n• Sahna – sprayt hereket edýän meýdança. Onuň merkezi x = 0, y = 0.\n• Bloklar toparlara bölünýär: Hereket, Görnüş, Ses, Wakalar, Dolandyryş, Duýgular, Operatorlar, Üýtgeýänler.\n• Programma köplenç \"Ýaşyl baýdak basylanda\" bloky bilen başlaýar.\n• \"Gaýtala 10\" bloky – sikl, \"eger ... onda\" – şert.",
+          "ru": "Scratch – язык, в котором программы собирают из цветных блоков.\n• Спрайт – персонаж, который двигается по сцене (например, кот).\n• Сцена – поле, где действует спрайт. Её центр x = 0, y = 0.\n• Блоки делятся на группы: Движение, Внешность, Звук, События, Управление, Сенсоры, Операторы, Переменные.\n• Программа обычно начинается блоком «Когда щёлкнут по зелёному флагу».\n• Блок «повторить 10» – цикл, «если ... то» – условие."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mysal: pişik kwadrat çyzýar.\nÝaşyl baýdak basylanda:\n1) \"Galamy aşak goý\".\n2) \"Gaýtala 4\":\n   – \"100 ädim ät\";\n   – \"90 gradus saga öwrül\".\nNetije: pişik taraplary 100 ädim bolan kwadrat çyzýar. Sikl sebäpli 8 blok ýerine diňe 2 blok gerek boldy.",
+          "ru": "Пример: кот рисует квадрат.\nКогда щёлкнут по зелёному флагу:\n1) «Опустить перо».\n2) «Повторить 4»:\n   – «Идти 100 шагов»;\n   – «Повернуть направо на 90 градусов».\nРезультат: кот рисует квадрат со стороной 100 шагов. Благодаря циклу вместо 8 блоков понадобилось только 2."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Scratch-da sahnada hereket edýän gahrymana näme diýilýär?", "ru": "Как в Scratch называется персонаж, который двигается по сцене?"},
+          "options": [{"tk": "Sprayt", "ru": "Спрайт"}, {"tk": "Sikl", "ru": "Цикл"}, {"tk": "Fon", "ru": "Фон"}],
+          "answer": 0,
+          "hint": {"tk": "Bu söz \"s\" harpy bilen başlanýar we gahrymany aňladýar.", "ru": "Это слово начинается на «с» и обозначает персонажа."},
+          "explain": {"tk": "Sprayt – Scratch-daky gahryman ýa-da obýekt. Fon diňe sahnanyň suraty.", "ru": "Спрайт – персонаж или объект в Scratch. Фон – это лишь картинка сцены."}
+        },
+        {"type": "input",
+          "q": {"tk": "Üçburçluk çyzmak üçin \"Gaýtala ...\" blokda näçe ýazmaly?", "ru": "Сколько нужно написать в блоке «повторить ...», чтобы нарисовать треугольник?"},
+          "answer": "3",
+          "hint": {"tk": "Üçburçlugyň näçe tarapy bar?", "ru": "Сколько сторон у треугольника?"},
+          "explain": {"tk": "Üçburçlugyň 3 tarapy bar, şonuň üçin \"Gaýtala 3\". Öwrülme burçy 120 gradus bolmaly.", "ru": "У треугольника 3 стороны, поэтому «повторить 3». Угол поворота должен быть 120 градусов."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Scratch-da sahnanyň merkezi x = 0, y = 0 nokatdyr.", "ru": "В Scratch центр сцены – точка x = 0, y = 0."},
+          "answer": true,
+          "hint": {"tk": "Koordinatalar merkezden hasaplanýar.", "ru": "Координаты отсчитываются от центра."},
+          "explain": {"tk": "Dogry. Saga x ulalýar, ýokary y ulalýar.", "ru": "Верно. Вправо x растёт, вверх растёт y."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Sprayt x = 0 nokatda. \"x-i 10-a üýtget\" bloky 5 gezek gaýtalanýar. x näçe bolar?", "ru": "Спрайт в точке x = 0. Блок «изменить x на 10» повторяется 5 раз. Каким станет x?"},
+          "options": ["15", "50", "10"],
+          "answer": 1,
+          "hint": {"tk": "Her gezek x 10-a ulalýar.", "ru": "Каждый раз x увеличивается на 10."},
+          "explain": {"tk": "0 + 10 × 5 = 50.", "ru": "0 + 10 × 5 = 50."}
+        },
+        {"type": "world", "text": {
+          "tk": "Scratch-y Massaçusets tehnologiýa institutynyň (MIT) Media Laboratoriýasynda Mitçel Reznikiň topary döredipdir we ol 2007-nji ýylda çykypdyr. Häzir dünýäde millionlarça çaga Scratch-da taslamalar döredýär we olary paýlaşýar.",
+          "ru": "Scratch создала группа Митчела Резника в Медиа-лаборатории Массачусетского технологического института (MIT), он вышел в 2007 году. Сейчас миллионы детей по всему миру создают в Scratch проекты и делятся ими."
+        }}
+      ]
+    }
+  ]
+}

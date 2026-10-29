@@ -1,0 +1,281 @@
+{
+  "grade": 12,
+  "subject": "geography",
+  "lessons": [
+    {
+      "id": "geography-12-gis",
+      "grade": 12,
+      "topic": 0,
+      "title": {"tk": "Geografik maglumat ulgamlary (GMU)", "ru": "Геоинформационные системы (ГИС)"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Geografik maglumat ulgamy (GMU, iňlisçe GIS) — giňişlik maglumatlaryny ýygnamak, saklamak, seljermek we karta görnüşinde görkezmek üçin kompýuter ulgamy.\n\nEsasy düşünjeler:\n• Gatlaklar: ýollar, derýalar, ilat, toprak — her biri aýratyn gatlak; olary üst-üstüne goýup seljerýärler.\n• Wektor maglumatlar: nokatlar (guýular), çyzyklar (ýollar), köpburçluklar (etraplar).\n• Rastr maglumatlar: piksellerden ybarat gözenek (kosmos suratlary, belentlik kartalary).\n• Atributlar: her obýekt bilen baglanyşykly jedwel maglumatlary (ady, ilaty, meýdany).\n• Koordinat ulgamy we proýeksiýa: meselem, WGS 84 — GPS-iň ulanýan ulgamy.\n\nUlanylyşy: şäher gurluşygy, ekerançylyk, betbagtçylyklara taýýarlyk, nebit-gaz, logistika, saglygy goraýyş.",
+          "ru": "Геоинформационная система (ГИС, англ. GIS) — компьютерная система для сбора, хранения, анализа и отображения пространственных данных в виде карт.\n\nОсновные понятия:\n• Слои: дороги, реки, население, почвы — каждый в отдельном слое; их накладывают друг на друга для анализа.\n• Векторные данные: точки (скважины), линии (дороги), полигоны (районы).\n• Растровые данные: сетка из пикселей (космические снимки, карты высот).\n• Атрибуты: табличные данные, привязанные к объекту (название, население, площадь).\n• Система координат и проекция: например, WGS 84 — система, которую использует GPS.\n\nПрименение: градостроительство, сельское хозяйство, подготовка к бедствиям, нефтегазовая отрасль, логистика, здравоохранение."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mesele: täze mekdep üçin ýer saýlamaly. Şertler: ýaşaýyş jaýlaryndan 1 km-den golaý, uly ýoldan 200 m-den uzak, sil howply zolakda däl.\n\n1) «Ýaşaýyş jaýlary» gatlagynyň daşyndan 1 km bufer zolak gurýarys.\n2) «Uly ýollar» gatlagynyň daşyndan 200 m bufer gurup, ony aýyrýarys.\n3) «Sil zolaklary» gatlagyny aýyrýarys.\n4) Gatlaklary kesişdirýäris (overlay): galan meýdanlar — laýyk ýerler.\n\nBu GMU-nyň iň ýönekeý seljerişi: bufer + gatlaklary üst-üstüne goýmak.",
+          "ru": "Задача: выбрать участок для новой школы. Условия: ближе 1 км к жилым домам, дальше 200 м от крупной дороги, вне зоны паводков.\n\n1) Строим буфер 1 км вокруг слоя «Жилые дома».\n2) Строим буфер 200 м вокруг слоя «Крупные дороги» и исключаем его.\n3) Исключаем слой «Зоны паводков».\n4) Делаем пересечение слоёв (overlay): оставшиеся участки — подходящие.\n\nЭто простейший ГИС-анализ: буфер + наложение слоёв."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Awtoulag ýoly GMU-da haýsy görnüşli wektor obýekt bilen görkezilýär?", "ru": "Каким типом векторного объекта в ГИС изображают автодорогу?"},
+          "options": [
+            {"tk": "Nokat", "ru": "Точкой"},
+            {"tk": "Köpburçluk", "ru": "Полигоном"},
+            {"tk": "Çyzyk", "ru": "Линией"}
+          ],
+          "answer": 2,
+          "hint": {"tk": "Ýoluň uzynlygy bar, emma kartada meýdany hasaplanmaýar.", "ru": "У дороги есть длина, но площадь на карте обычно не учитывают."},
+          "explain": {"tk": "Ýollar, derýalar, turbageçirijiler — çyzyklar. Nokatlar — guýular, şäherler (kiçi masştabda); köpburçluklar — etraplar, köller.", "ru": "Дороги, реки, трубопроводы — линии. Точки — скважины, города (в мелком масштабе); полигоны — районы, озёра."}
+        },
+        {"type": "input",
+          "q": {"tk": "Rastr kartada bir pikselin ölçegi 30 m × 30 m. Bir pikseliň meýdany näçe inedördül metr?", "ru": "На растровой карте пиксель имеет размер 30 м × 30 м. Какова площадь одного пикселя в квадратных метрах?"},
+          "answer": "900",
+          "hint": {"tk": "Taraplary köpeldiň.", "ru": "Перемножьте стороны."},
+          "explain": {"tk": "30 × 30 = 900 m². Diýmek, 1 gektar (10 000 m²) takmynan 11 piksele deň.", "ru": "30 × 30 = 900 м². Значит, 1 гектар (10 000 м²) — примерно 11 пикселей."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Kosmos suraty rastr maglumatlaryň mysalydyr.", "ru": "Космический снимок — пример растровых данных."},
+          "answer": true,
+          "hint": {"tk": "Surat piksellerden durýar.", "ru": "Снимок состоит из пикселей."},
+          "explain": {"tk": "Dogry. Kosmos suraty — her pikselinde ýagtylyk bahasy bolan gözenek, ýagny rastr.", "ru": "Верно. Космический снимок — сетка пикселей со значениями яркости, то есть растр."}
+        },
+        {"type": "world", "text": {
+          "tk": "1854-nji ýylda London lukmany Jon Snou wabadan ölenleriň öýlerini kartada bellik etdi we olaryň Brod-strit köçesindäki bir suw sorujynyň daşynda toplanýandygyny gördi. Bu karta giňişlik seljerişiniň meşhur ilkinji mysallaryndan biri hasaplanýar. Ilkinji kompýuter GMU-sy bolsa 1960-njy ýyllarda Kanadada Rojer Tomlinsonyň ýolbaşçylygynda döredildi.",
+          "ru": "В 1854 году лондонский врач Джон Сноу отметил на карте дома умерших от холеры и увидел, что они группируются вокруг одной водоразборной колонки на Брод-стрит. Эта карта считается одним из знаменитых первых примеров пространственного анализа. А первая компьютерная ГИС была создана в 1960-х годах в Канаде под руководством Роджера Томлинсона."
+        }}
+      ]
+    },
+    {
+      "id": "geography-12-earth-from-space",
+      "grade": 12,
+      "topic": 1,
+      "title": {"tk": "Ýeri kosmosdan öwrenmek", "ru": "Изучение Земли из космоса"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Distansion zondirleme — Ýeri uzakdan (hemralardan, uçarlardan, dronlardan) öwrenmek.\n\nHemralaryň orbitalary:\n• Pes orbita (müňlerçe km-e çenli), köplenç polýar we Gün bilen sinhron — Ýeriň ähli ýerini yzygiderli surata düşürýär (Landsat, Sentinel).\n• Geostasionar orbita ≈ 35 786 km ekwatoryň üstünde — hemra Ýer bilen bilelikde aýlanýar we bir sebite hemişe seredýär (howa we aragatnaşyk hemralary).\n\nSensorlar:\n• Passiw — Günüň serpikdirilen şöhlesini ýazga alýar (görünýän, infragyzyl).\n• Aktiw — öz signalyny iberýär (radar, lidar); radar bulutdan we gijesine-de görýär.\n\nAýyrdyjylyk ukyby — bir pikseliň ýerdäki ölçegi (meselem, Landsat ≈ 30 m, Sentinel-2 10 m-e çenli).\n\nÖsümlik indeksi NDVI = (NIR − Red) / (NIR + Red). Sagdyn ösümlik ýakyn infragyzyl şöhläni (NIR) gowy serpikdirýär, gyzyly bolsa siňdirýär.",
+          "ru": "Дистанционное зондирование — изучение Земли на расстоянии (со спутников, самолётов, дронов).\n\nОрбиты спутников:\n• Низкие (до нескольких тысяч км), часто полярные и солнечно-синхронные — регулярно снимают всю поверхность Земли (Landsat, Sentinel).\n• Геостационарная ≈ 35 786 км над экватором — спутник вращается вместе с Землёй и всегда смотрит на один регион (метеорологические и связные спутники).\n\nДатчики:\n• Пассивные — регистрируют отражённый солнечный свет (видимый, инфракрасный).\n• Активные — посылают свой сигнал (радар, лидар); радар видит сквозь облака и ночью.\n\nРазрешение — размер одного пикселя на местности (например, Landsat ≈ 30 м, Sentinel-2 до 10 м).\n\nВегетационный индекс NDVI = (NIR − Red) / (NIR + Red). Здоровая растительность хорошо отражает ближний инфракрасный (NIR) и поглощает красный свет."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mesele: iki meýdanyň NDVI-ni hasaplaň.\n\nA meýdan (bugdaý): NIR = 0,50, Red = 0,10.\nNDVI = (0,50 − 0,10) / (0,50 + 0,10) = 0,40 / 0,60 ≈ 0,67.\n\nB meýdan (çägelik): NIR = 0,30, Red = 0,25.\nNDVI = (0,30 − 0,25) / (0,30 + 0,25) = 0,05 / 0,55 ≈ 0,09.\n\nNetije: NDVI 1-e näçe ýakyn bolsa, ösümlik şonça gür we sagdyn. 0-a ýakyn bahalar — ýalaňaç toprak ýa-da çäge, otrisatel bahalar — köplenç suw.",
+          "ru": "Задача: вычислите NDVI двух участков.\n\nУчасток A (пшеница): NIR = 0,50, Red = 0,10.\nNDVI = (0,50 − 0,10) / (0,50 + 0,10) = 0,40 / 0,60 ≈ 0,67.\n\nУчасток B (пески): NIR = 0,30, Red = 0,25.\nNDVI = (0,30 − 0,25) / (0,30 + 0,25) = 0,05 / 0,55 ≈ 0,09.\n\nВывод: чем ближе NDVI к 1, тем гуще и здоровее растительность. Значения около 0 — голая почва или песок, отрицательные — обычно вода."
+        }},
+        {"type": "input",
+          "q": {"tk": "NIR = 0,6, Red = 0,2 bolsa, NDVI näçä deň?", "ru": "Чему равен NDVI, если NIR = 0,6, Red = 0,2?"},
+          "answer": "0.5|0,5|1/2",
+          "hint": {"tk": "(NIR − Red) / (NIR + Red).", "ru": "(NIR − Red) / (NIR + Red)."},
+          "explain": {"tk": "(0,6 − 0,2) / (0,6 + 0,2) = 0,4 / 0,8 = 0,5 — sagdyn ösümlik.", "ru": "(0,6 − 0,2) / (0,6 + 0,2) = 0,4 / 0,8 = 0,5 — здоровая растительность."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Bulutly howada we gijesine-de ýeriň üstüni surata düşürip bilýän sensor haýsy?", "ru": "Какой датчик может снимать поверхность и в облачную погоду, и ночью?"},
+          "options": [
+            {"tk": "Radar (aktiw sensor)", "ru": "Радар (активный датчик)"},
+            {"tk": "Adaty fotokamera", "ru": "Обычная фотокамера"},
+            {"tk": "Görünýän ýagtylyk sensory", "ru": "Датчик видимого света"}
+          ],
+          "answer": 0,
+          "hint": {"tk": "Gün ýagtylygyna bagly bolmadyk sensor gerek.", "ru": "Нужен датчик, не зависящий от солнечного света."},
+          "explain": {"tk": "Radar öz mikrotolkun signalyny iberýär we serpigen signaly kabul edýär; mikrotolkunlar bulutdan geçýär. Passiw sensorlara Gün ýagtylygy gerek.", "ru": "Радар посылает собственный микроволновый сигнал и принимает отражённый; микроволны проходят сквозь облака. Пассивным датчикам нужен солнечный свет."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Geostasionar hemra Ýeriň üstündäki bir nokada görä hereketsiz ýaly görünýär.", "ru": "Геостационарный спутник кажется неподвижным относительно точки на поверхности Земли."},
+          "answer": true,
+          "hint": {"tk": "Onuň aýlaw döwri Ýeriňki bilen deň.", "ru": "Его период обращения равен периоду вращения Земли."},
+          "explain": {"tk": "Dogry. Ekwatoryň üstünde ≈ 35 786 km beýiklikde hemra bir günde bir aýlaw edýär we ýerden seredeniňde bir ýerde durýan ýaly görünýär. Şonuň üçin antennalary oňa bir gezek gönükdirmek ýeterlik.", "ru": "Верно. На высоте ≈ 35 786 км над экватором спутник делает один оборот за сутки и с Земли кажется неподвижным. Поэтому антенну достаточно навести на него один раз."}
+        },
+        {"type": "world", "text": {
+          "tk": "Ýeri öwrenmek üçin ilkinji raýat hemrasy Landsat 1 1972-nji ýylda uçuryldy. Şondan bäri Landsat hemralary Ýeriň üstüniň iň uzak üznüksiz kosmos surat arhiwini döretdiler. Şol ýyl «Apollon-17» ekipažy Ýeriň meşhur «Gök mermer» (Blue Marble) suratyny hem düşürdi.",
+          "ru": "Первый гражданский спутник для изучения Земли Landsat 1 был запущен в 1972 году. С тех пор спутники Landsat создали самый длинный непрерывный архив космических снимков поверхности Земли. В том же году экипаж «Аполлона-17» сделал знаменитый снимок Земли «Голубой мрамор» (Blue Marble)."
+        }}
+      ]
+    },
+    {
+      "id": "geography-12-sustainable-development",
+      "grade": 12,
+      "topic": 2,
+      "title": {"tk": "Durnukly ösüş", "ru": "Устойчивое развитие"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Durnukly ösüş — häzirki nesilleriň zerurlyklaryny geljekki nesilleriň öz zerurlyklaryny kanagatlandyrmak mümkinçiligine zyýan ýetirmezden üpjün edýän ösüş. Bu kesgitleme BMG-niň Brundtland komissiýasynyň «Biziň umumy geljegimiz» (1987) hasabatynda berildi.\n\nÜç sütüni:\n• Ykdysady — durnukly ösüş, iş orunlary.\n• Sosial — bilim, saglyk, deňlik.\n• Ekologik — tebigy baýlyklary we howany goramak.\n\nTaryhy ädimler:\n• 1992 — Rio-de-Žaneýroda «Ýer sammiti».\n• 2015 — BMG Durnukly ösüş maksatlaryny (DÖM) kabul etdi: 17 maksat, 2030-njy ýyla çenli.\n• 2015 — Pariž howa ylalaşygy.\n\nGörkezijiler: ekologik yz, adam ösüşiniň indeksi (AÖI), uglerod yzy.",
+          "ru": "Устойчивое развитие — развитие, которое удовлетворяет потребности нынешнего поколения, не лишая будущие поколения возможности удовлетворять свои. Это определение дано в докладе Комиссии ООН Брундтланд «Наше общее будущее» (1987).\n\nТри опоры:\n• Экономическая — устойчивый рост, рабочие места.\n• Социальная — образование, здоровье, равенство.\n• Экологическая — сбережение природных ресурсов и климата.\n\nИсторические этапы:\n• 1992 — «Саммит Земли» в Рио-де-Жанейро.\n• 2015 — ООН приняла Цели устойчивого развития (ЦУР): 17 целей до 2030 года.\n• 2015 — Парижское соглашение по климату.\n\nПоказатели: экологический след, индекс человеческого развития (ИЧР), углеродный след."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mesele: maşgala aýda 300 kWt·sag elektrik ulanýar. Ähli lampalary çalşanda sarp ediş 15% azalýar. Ýylda näçe tygşytlanýar?\n\n1) Aýda tygşytlanýan: 300 × 0,15 = 45 kWt·sag.\n2) Ýylda: 45 × 12 = 540 kWt·sag.\n\nŞeýle kiçi ädimler müňlerçe öýde gaýtalananda, elektrik stansiýalarynyň ýakýan ýangyjy we zyňyndylar ep-esli azalýar. Bu DÖM-iň 7-nji (arassa energiýa) we 12-nji (jogapkärli sarp ediş) maksatlaryna degişli.",
+          "ru": "Задача: семья расходует 300 кВт·ч электроэнергии в месяц. После замены всех ламп потребление падает на 15%. Сколько экономится за год?\n\n1) Экономия в месяц: 300 × 0,15 = 45 кВт·ч.\n2) За год: 45 × 12 = 540 кВт·ч.\n\nКогда такие маленькие шаги повторяются в тысячах домов, топливо, сжигаемое электростанциями, и выбросы заметно сокращаются. Это относится к ЦУР 7 (чистая энергия) и 12 (ответственное потребление)."
+        }},
+        {"type": "input",
+          "q": {"tk": "BMG-niň Durnukly ösüş maksatlary näçe?", "ru": "Сколько Целей устойчивого развития ООН?"},
+          "answer": "17",
+          "hint": {"tk": "Olar 2015-nji ýylda kabul edildi.", "ru": "Они приняты в 2015 году."},
+          "explain": {"tk": "17 maksat: garyplygy ýok etmekden başlap howa, okean, gury ýer ekosistemalary we hyzmatdaşlyga çenli.", "ru": "17 целей: от ликвидации бедности до климата, океанов, экосистем суши и партнёрства."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Durnukly ösüşiň iň meşhur kesgitlemesi haýsy resminamada berildi?", "ru": "В каком документе дано самое известное определение устойчивого развития?"},
+          "options": [
+            {"tk": "Kioto protokolynda", "ru": "В Киотском протоколе"},
+            {"tk": "Brundtland komissiýasynyň hasabatynda", "ru": "В докладе Комиссии Брундтланд"},
+            {"tk": "BMG-niň Tertipnamasynda", "ru": "В Уставе ООН"}
+          ],
+          "answer": 1,
+          "hint": {"tk": "1987-nji ýyl, «Biziň umumy geljegimiz».", "ru": "1987 год, «Наше общее будущее»."},
+          "explain": {"tk": "Komissiýa Norwegiýanyň öňki premýer-ministri Gro Harlem Brundtland tarapyndan ýolbaşçylyk edildi we 1987-nji ýylda kesgitlemäni berdi.", "ru": "Комиссию возглавляла бывший премьер-министр Норвегии Гру Харлем Брундтланд; определение дано в 1987 году."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Durnukly ösüş diňe tebigaty goramak bilen baglanyşykly, ykdysadyýet we jemgyýet bilen baglanyşygy ýok.", "ru": "Устойчивое развитие касается только охраны природы и не связано с экономикой и обществом."},
+          "answer": false,
+          "hint": {"tk": "Üç sütüni ýatlaň.", "ru": "Вспомните три опоры."},
+          "explain": {"tk": "Ýalňyş. Durnukly ösüş ykdysady, sosial we ekologik maksatlary deňagramlaşdyrýar.", "ru": "Неверно. Устойчивое развитие уравновешивает экономические, социальные и экологические цели."}
+        },
+        {"type": "world", "text": {
+          "tk": "Kosta-Rika XX asyryň ortalarynda tokaýlarynyň köp bölegini ýitiripdi, ýöne goraghanalar we tokaý hyzmatlary üçin töleg ulgamy sebäpli tokaý örtügini ep-esli dikeltdi. Häzir ol ekologik syýahatçylyk we gaýtadan dikeldilýän energiýa boýunça dünýäde meşhur mysallaryň biri.",
+          "ru": "Коста-Рика к середине XX века утратила значительную часть лесов, но благодаря заповедникам и системе платы за экосистемные услуги леса заметно восстановила лесной покров. Сегодня она — один из известных в мире примеров экотуризма и возобновляемой энергетики."
+        }}
+      ]
+    },
+    {
+      "id": "geography-12-natural-disasters",
+      "grade": 12,
+      "topic": 3,
+      "title": {"tk": "Tebigy betbagtçylyklar", "ru": "Стихийные бедствия"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Tebigy betbagtçylyklaryň görnüşleri:\n• Geologik: ýer titremeler, wulkan atylmalary, sunamiler, opurylmalar.\n• Meteorologik: tropiki siklonlar (uragan, taýfun), tornado, guraklyk, tozan tupanlary.\n• Gidrologik: suw joşmalar, sil (sel) akymlary.\n\nÝer titreme:\n• Ojak (gipomerkez) — ýeriň içinde; episentr — onuň üstündäki ýer nokady.\n• Magnituda (moment şkalasy, Mw) — bölünip çykan energiýa. +1 magnituda ≈ 32 esse köp energiýa.\n• Intensiwlik (ballar) — ýeriň üstündäki täsir, ol aralyga we toprak görnüşine bagly.\n• P-tolkunlar has çalt, S-tolkunlar haýal; olaryň gelmeginiň arasyndaky wagt boýunça episentre çenli aralygy hasaplaýarlar.\n\nHowpuň derejesi = howp × gowşaklyk (ilat, gurluşyk hili, taýýarlyk).",
+          "ru": "Виды стихийных бедствий:\n• Геологические: землетрясения, извержения вулканов, цунами, оползни.\n• Метеорологические: тропические циклоны (ураганы, тайфуны), торнадо, засухи, пыльные бури.\n• Гидрологические: наводнения, сели.\n\nЗемлетрясение:\n• Очаг (гипоцентр) — под землёй; эпицентр — точка на поверхности над ним.\n• Магнитуда (моментная шкала, Mw) — выделенная энергия. +1 магнитуда ≈ в 32 раза больше энергии.\n• Интенсивность (баллы) — воздействие на поверхности, зависит от расстояния и грунта.\n• P-волны быстрее, S-волны медленнее; по разнице их прихода вычисляют расстояние до эпицентра.\n\nРиск = опасность × уязвимость (население, качество построек, подготовленность)."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mesele: seýsmik stansiýa P-tolkuny we 20 sekuntdan soň S-tolkuny ýazga aldy. Episentre çenli aralyk näçe? (Ýönekeý düzgün: tapawudyň her sekundy ≈ 8 km.)\n\n1) Δt = 20 s.\n2) d ≈ 20 × 8 = 160 km.\n\nÜç stansiýa öz aralyklaryny bilse, kartada üç tegelek çyzylýar — olaryň kesişýän ýeri episentr (trilaterasiýa).",
+          "ru": "Задача: сейсмостанция зарегистрировала P-волну, а через 20 секунд S-волну. Каково расстояние до эпицентра? (Простое правило: каждая секунда разницы ≈ 8 км.)\n\n1) Δt = 20 с.\n2) d ≈ 20 × 8 = 160 км.\n\nЕсли три станции знают свои расстояния, на карте чертят три окружности — их пересечение и есть эпицентр (трилатерация)."
+        }},
+        {"type": "input",
+          "q": {"tk": "S- we P-tolkunlaryň arasyndaky tapawut 15 s. Her sekunda 8 km düzgüni boýunça episentre çenli aralyk näçe km?", "ru": "Разница прихода S- и P-волн — 15 с. По правилу 8 км на секунду, каково расстояние до эпицентра в км?"},
+          "answer": "120",
+          "hint": {"tk": "Wagty 8-e köpeldiň.", "ru": "Умножьте время на 8."},
+          "explain": {"tk": "15 × 8 = 120 km.", "ru": "15 × 8 = 120 км."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Magnituda 6-dan 8-e ýokarlansa, energiýa takmynan näçe esse artýar?", "ru": "Во сколько примерно раз растёт энергия, если магнитуда увеличивается с 6 до 8?"},
+          "options": [
+            {"tk": "2 esse", "ru": "В 2 раза"},
+            {"tk": "64 esse", "ru": "В 64 раза"},
+            {"tk": "≈ 1 000 esse", "ru": "≈ в 1 000 раз"}
+          ],
+          "answer": 2,
+          "hint": {"tk": "Her birlik ≈ 32 esse, iki birlik — 32 × 32.", "ru": "Каждая единица ≈ в 32 раза, две единицы — 32 × 32."},
+          "explain": {"tk": "32 × 32 ≈ 1 024, ýagny takmynan 1 000 esse. Şonuň üçin magnitudadaky kiçi ýaly tapawut hem örän uly.", "ru": "32 × 32 ≈ 1 024, то есть примерно в 1 000 раз. Поэтому даже небольшая разница в магнитуде огромна."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Sunami köplenç okeanyň düýbündäki güýçli ýer titremeden döreýär.", "ru": "Цунами чаще всего вызывается сильным землетрясением на дне океана."},
+          "answer": true,
+          "hint": {"tk": "Düýbüň birden süýşmegi suw sütünini galdyrýar.", "ru": "Резкое смещение дна поднимает толщу воды."},
+          "explain": {"tk": "Dogry. Mysal: 2004-nji ýylyň 26-njy dekabrynda Sumatranyň golaýyndaky ýer titreme Hindi okeanynda weýrançylykly sunamini döretdi. Sunamini wulkanlar we suwasty opurylmalar hem döredip biler.", "ru": "Верно. Пример: землетрясение у Суматры 26 декабря 2004 года вызвало разрушительное цунами в Индийском океане. Цунами могут вызывать также вулканы и подводные оползни."}
+        },
+        {"type": "world", "text": {
+          "tk": "Gurallar bilen ýazga alnan iň güýçli ýer titreme 1960-njy ýylyň 22-nji maýynda Çilide bolup geçdi, onuň magnitudasy 9,5 diýlip bahalandyrylýar. Ol Ýuwaş okeanyň boýunça ýaýran sunamini döretdi, tolkunlar Gawaýa we Ýaponiýa çenli ýetdi.",
+          "ru": "Самое сильное землетрясение за время инструментальных наблюдений произошло 22 мая 1960 года в Чили, его магнитуда оценивается в 9,5. Оно вызвало цунами, прошедшее через весь Тихий океан, — волны достигли Гавайев и Японии."
+        }}
+      ]
+    },
+    {
+      "id": "geography-12-geologic-history",
+      "grade": 12,
+      "topic": 4,
+      "title": {"tk": "Ýeriň geologik taryhy", "ru": "Геологическая история Земли"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Ýeriň ýaşy takmynan 4,54 milliard ýyl.\n\nGeohronologik şkala (eonlar):\n• Katarhey (gadeý) — 4,54–4,0 mlrd ýyl öň.\n• Arheý — ilkinji bakteriýalar.\n• Proterozoý — atmosferada kislorod toplanýar, köp öýjükli organizmler.\n• Fanerozoý — takmynan 539 mln ýyl öňden häzire çenli; görnüp duran ýaşaýşyň eony.\n\nFanerozoýyň eralary:\n• Paleozoý (≈ 539–252 mln) — balyklar, gury ýere çykyş, kömür tokaýlary; iň uly gyrylma bilen tamamlanýar.\n• Mezozoý (252–66 mln) — dinozawrlar; Pangeýa bölünýär.\n• Kaýnozoý (66 mln — häzir) — süýdemdirijiler, adam.\n\nAlfred Wegener 1912-nji ýylda materikleriň süýşmegi baradaky pikiri öňe sürdi; häzirki litosfera plitalarynyň nazaryýeti 1960-njy ýyllarda kemala geldi.",
+          "ru": "Возраст Земли около 4,54 миллиарда лет.\n\nГеохронологическая шкала (эоны):\n• Катархей (гадей) — 4,54–4,0 млрд лет назад.\n• Архей — первые бактерии.\n• Протерозой — накопление кислорода в атмосфере, многоклеточные организмы.\n• Фанерозой — примерно с 539 млн лет назад до наших дней; эон «явной жизни».\n\nЭры фанерозоя:\n• Палеозой (≈ 539–252 млн) — рыбы, выход на сушу, каменноугольные леса; завершается крупнейшим вымиранием.\n• Мезозой (252–66 млн) — динозавры; распад Пангеи.\n• Кайнозой (66 млн — сейчас) — млекопитающие, человек.\n\nАльфред Вегенер в 1912 году выдвинул идею дрейфа материков; современная теория литосферных плит сложилась в 1960-х годах."
+        }},
+        {"type": "example", "text": {
+          "tk": "Radiometrik senelendirme: ene izotopyň ýarym dargama döwri — onuň ýarysynyň dargaýan wagty.\n\nMesele: dag jynsynda uran-238-iň başdaky mukdarynyň 50%-i galypdyr. U-238-iň ýarym dargama döwri ≈ 4,5 mlrd ýyl. Jynsyň ýaşy näçe?\n\n1) 100% → 50% — bir ýarym dargama döwri.\n2) Ýaşy ≈ 4,5 mlrd ýyl.\n\nEger 25% galan bolsa: 100 → 50 → 25 — iki döwür, ýagny ≈ 9 mlrd ýyl (bu Ýeriň ýaşyndan uly — beýle jyns Ýerde bolup bilmez).",
+          "ru": "Радиометрическое датирование: период полураспада материнского изотопа — время, за которое распадается его половина.\n\nЗадача: в породе осталось 50% исходного урана-238. Период полураспада U-238 ≈ 4,5 млрд лет. Каков возраст породы?\n\n1) 100% → 50% — один период полураспада.\n2) Возраст ≈ 4,5 млрд лет.\n\nЕсли бы осталось 25%: 100 → 50 → 25 — два периода, то есть ≈ 9 млрд лет (это больше возраста Земли — такой породы на Земле быть не может)."
+        }},
+        {"type": "input",
+          "q": {"tk": "Izotopyň ýarym dargama döwri 1 mln ýyl. Başdaky mukdaryň 12,5%-i galypdyr. Nusganyň ýaşy näçe million ýyl?", "ru": "Период полураспада изотопа 1 млн лет. Осталось 12,5% исходного количества. Сколько миллионов лет образцу?"},
+          "answer": "3",
+          "hint": {"tk": "100 → 50 → 25 → 12,5: näçe ädim?", "ru": "100 → 50 → 25 → 12,5: сколько шагов?"},
+          "explain": {"tk": "Üç ýarym dargama döwri: 3 × 1 = 3 mln ýyl.", "ru": "Три периода полураспада: 3 × 1 = 3 млн лет."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Dinozawrlar (guşlardan başgasy) haýsy eranyň ahyrynda gyryldy?", "ru": "В конце какой эры вымерли динозавры (кроме птиц)?"},
+          "options": [
+            {"tk": "Paleozoý", "ru": "Палеозой"},
+            {"tk": "Kaýnozoý", "ru": "Кайнозой"},
+            {"tk": "Mezozoý", "ru": "Мезозой"}
+          ],
+          "answer": 2,
+          "hint": {"tk": "Takmynan 66 mln ýyl öň.", "ru": "Около 66 млн лет назад."},
+          "explain": {"tk": "Mezozoý (bor döwri) 66 mln ýyl öň gyrylma bilen tamamlandy; uly asteroidiň urgusy onuň esasy sebäbi hasaplanýar (Meksikadaky Çikşulub krateri).", "ru": "Мезозой (меловой период) завершился вымиранием 66 млн лет назад; главной причиной считают удар крупного астероида (кратер Чиксулуб в Мексике)."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Pangeýa — Mezozoýda bölünip başlan gadymy ullakan materik.", "ru": "Пангея — древний суперконтинент, начавший распадаться в мезозое."},
+          "answer": true,
+          "hint": {"tk": "Atlantik okeanynyň açylmagy hem şu döwre degişli.", "ru": "Раскрытие Атлантического океана относится к этому же времени."},
+          "explain": {"tk": "Dogry. Pangeýa Paleozoýyň ahyrynda emele geldi we Ýura döwründe (Mezozoý) bölünip başlady; Atlantik okeany şondan soň giňeldi.", "ru": "Верно. Пангея сложилась в конце палеозоя и начала распадаться в юрском периоде (мезозой); после этого раскрылся Атлантический океан."}
+        },
+        {"type": "world", "text": {
+          "tk": "Türkmenistanyň Köýtendag dag gerşindäki Hojapil platosynda Ýura döwrüne degişli dinozawr yzlary saklanyp galypdyr. Ol ýerde ýüzlerçe yz bar we olar dünýäde dinozawr yzlarynyň iň uly toplumlarynyň biri hasaplanýar.",
+          "ru": "На плато Ходжапиль в хребте Кугитангтау (Кёйтендаг) в Туркменистане сохранились следы динозавров юрского периода. Там сотни отпечатков, и это одно из крупнейших в мире скоплений следов динозавров."
+        }}
+      ]
+    },
+    {
+      "id": "geography-12-review",
+      "grade": 12,
+      "topic": 5,
+      "title": {"tk": "Gaýtalamak: geografiýa", "ru": "Повторение: география"},
+      "minutes": 11,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Esasy düşünjeler:\n• Koordinatlar: giňlik (ekwatordan 0°–90° demirgazyk/günorta), uzaklyk (Grinwiçden 0°–180° gündogar/günbatar).\n• Wagt guşaklyklary: Ýer 24 sagatda 360° aýlanýar → 1 sagatda 15°.\n• Masştab: 1 : 100 000 — kartadaky 1 sm ýerde 1 km.\n• Howa guşaklyklary: ekwatorial, subekwatorial, tropiki, subtropiki, mylaýym, subpolýar, polýar.\n• Litosfera plitalary: ýer titremeler we wulkanlar köplenç plitalaryň serhetlerinde.\n• Ilat: dogluş, ölüm, migrasiýa, urbanizasiýa.\n• GMU, kosmos suratlary, durnukly ösüş — häzirki zaman geografiýasynyň gurallary we maksatlary.",
+          "ru": "Ключевые понятия:\n• Координаты: широта (от экватора 0°–90° с./ю.), долгота (от Гринвича 0°–180° в./з.).\n• Часовые пояса: Земля поворачивается на 360° за 24 часа → 15° за 1 час.\n• Масштаб: 1 : 100 000 — 1 см на карте соответствует 1 км на местности.\n• Климатические пояса: экваториальный, субэкваториальный, тропический, субтропический, умеренный, субполярный, полярный.\n• Литосферные плиты: землетрясения и вулканы чаще всего на границах плит.\n• Население: рождаемость, смертность, миграция, урбанизация.\n• ГИС, космические снимки, устойчивое развитие — инструменты и цели современной географии."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mesele: Aşgabat takmynan 58° gd. u.-da, London 0°-da ýerleşýär. Londonda Gün sagady boýunça günortan 12:00 bolanda, Aşgabatda ýerli Gün wagty näçe?\n\n1) Uzaklyk tapawudy: 58° − 0° = 58°.\n2) 58 / 15 ≈ 3,9 sagat ≈ 3 sagat 52 minut.\n3) Aşgabat gündogarda → wagt öňde: 12:00 + 3:52 ≈ 15:52.\n\nResmi wagtda bolsa Türkmenistan UTC+5 guşaklygyny ulanýar (Londonyň gyşky wagtyndan 5 sagat öňde).",
+          "ru": "Задача: Ашхабад находится примерно на 58° в. д., Лондон — на 0°. Когда в Лондоне солнечный полдень 12:00, какое местное солнечное время в Ашхабаде?\n\n1) Разница долгот: 58° − 0° = 58°.\n2) 58 / 15 ≈ 3,9 часа ≈ 3 часа 52 минуты.\n3) Ашхабад восточнее → время впереди: 12:00 + 3:52 ≈ 15:52.\n\nА по официальному времени Туркменистан живёт в поясе UTC+5 (на 5 часов впереди зимнего времени Лондона)."
+        }},
+        {"type": "input",
+          "q": {"tk": "Kartanyň masştaby 1 : 50 000. Kartada iki obanyň arasy 6 sm. Ýerde näçe km?", "ru": "Масштаб карты 1 : 50 000. На карте между сёлами 6 см. Сколько это километров на местности?"},
+          "answer": "3",
+          "hint": {"tk": "1 sm = 50 000 sm = 0,5 km.", "ru": "1 см = 50 000 см = 0,5 км."},
+          "explain": {"tk": "6 × 0,5 = 3 km.", "ru": "6 × 0,5 = 3 км."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Iki şäheriň uzaklyk tapawudy 45°. Olaryň ýerli Gün wagtynyň tapawudy näçe?", "ru": "Разница долгот двух городов — 45°. Какова разница их местного солнечного времени?"},
+          "options": [
+            {"tk": "3 sagat", "ru": "3 часа"},
+            {"tk": "4,5 sagat", "ru": "4,5 часа"},
+            {"tk": "45 minut", "ru": "45 минут"}
+          ],
+          "answer": 0,
+          "hint": {"tk": "Her 15° — 1 sagat.", "ru": "Каждые 15° — 1 час."},
+          "explain": {"tk": "45 / 15 = 3 sagat.", "ru": "45 / 15 = 3 часа."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Ýer titremeleriň we wulkanlaryň köpüsi litosfera plitalarynyň serhetlerinde ýerleşýär.", "ru": "Большинство землетрясений и вулканов расположено на границах литосферных плит."},
+          "answer": true,
+          "hint": {"tk": "Ýuwaş okeanyň «Ot halkasyny» ýatlaň.", "ru": "Вспомните Тихоокеанское «Огненное кольцо»."},
+          "explain": {"tk": "Dogry. Plitalar biri-birine itilýän, aýrylýan ýa-da süýşýän ýerlerde dartgynlylyk toplanýar. Ýuwaş okeanyň töweregindäki «Ot halkasy» munuň iň aýdyň mysaly.", "ru": "Верно. Там, где плиты сталкиваются, расходятся или скользят, накапливается напряжение. Тихоокеанское «Огненное кольцо» — самый яркий пример."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Kosmos suratynda haýsy NDVI bahasy gür, sagdyn ösümligi görkezýär?", "ru": "Какое значение NDVI на снимке указывает на густую здоровую растительность?"},
+          "options": [
+            {"tk": "−0,4", "ru": "−0,4"},
+            {"tk": "0,8", "ru": "0,8"},
+            {"tk": "0,05", "ru": "0,05"}
+          ],
+          "answer": 1,
+          "hint": {"tk": "1-e näçe ýakyn — şonça gür.", "ru": "Чем ближе к 1, тем гуще."},
+          "explain": {"tk": "0,8 — gür ösümlik; 0,05 — ýalaňaç toprak ýa-da çäge; −0,4 — suw.", "ru": "0,8 — густая растительность; 0,05 — голая почва или песок; −0,4 — вода."}
+        },
+        {"type": "world", "text": {
+          "tk": "Garagum kanaly — dünýäniň iň uzyn suwaryş we gämi ýörediş kanallarynyň biri: ol Amyderýadan başlap, Garagum çölüniň üstünden günbatara 1 000 km-den gowrak uzaýar. Onuň gurluşygy 1954-nji ýylda başlandy we kanal Türkmenistanyň ekerançylygynyň esasy suw çeşmesine öwrüldi.",
+          "ru": "Каракумский канал — один из самых длинных оросительных и судоходных каналов в мире: от Амударьи он тянется на запад через пустыню Каракумы более чем на 1 000 км. Его строительство началось в 1954 году, и канал стал главным источником воды для земледелия Туркменистана."
+        }}
+      ]
+    }
+  ]
+}

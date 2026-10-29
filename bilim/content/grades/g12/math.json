@@ -1,0 +1,254 @@
+{
+  "grade": 12,
+  "subject": "math",
+  "lessons": [
+    {
+      "id": "math-12-complex-numbers",
+      "grade": 12,
+      "topic": 0,
+      "title": {"tk": "Kompleks sanlar", "ru": "Комплексные числа"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Hakyky sanlarda x² = −1 deňlemäniň çözüwi ýok. Şonuň üçin täze san — hyýaly birlik i girizilýär: i² = −1.\n\nKompleks san: z = a + bi, bu ýerde a — hakyky bölek (Re z), b — hyýaly bölek (Im z).\n\n• Goşmak: (a + bi) + (c + di) = (a + c) + (b + d)i\n• Köpeltmek: (a + bi)(c + di) = (ac − bd) + (ad + bc)i\n• Çatyrymly san: z̄ = a − bi, z·z̄ = a² + b²\n• Modul: |z| = √(a² + b²) — kompleks tekizlikde nokadyň başlangyçdan uzaklygy.\n• Trigonometrik görnüş: z = r(cos φ + i sin φ), r = |z|, φ — argument.",
+          "ru": "В действительных числах уравнение x² = −1 не имеет решений. Поэтому вводят новое число — мнимую единицу i: i² = −1.\n\nКомплексное число: z = a + bi, где a — действительная часть (Re z), b — мнимая часть (Im z).\n\n• Сложение: (a + bi) + (c + di) = (a + c) + (b + d)i\n• Умножение: (a + bi)(c + di) = (ac − bd) + (ad + bc)i\n• Сопряжённое число: z̄ = a − bi, z·z̄ = a² + b²\n• Модуль: |z| = √(a² + b²) — расстояние от точки до начала координат на комплексной плоскости.\n• Тригонометрическая форма: z = r(cos φ + i sin φ), r = |z|, φ — аргумент."}},
+        {"type": "example", "text": {
+          "tk": "Mysal: (2 + 3i)(1 − i) we (5 + i) / (1 + i) hasaplalyň.\n\n1) Köpeltmek: 2·1 + 2·(−i) + 3i·1 + 3i·(−i) = 2 − 2i + 3i − 3i².\n2) i² = −1, diýmek −3i² = +3. Netije: 2 + 3 + i = 5 + i.\n\n3) Bölmek üçin sanawjyny we maýdalawjyny çatyrymly sana köpeldýäris: (5 + i)(1 − i) / ((1 + i)(1 − i)).\n4) Sanawjy: 5 − 5i + i − i² = 6 − 4i. Maýdalawjy: 1² + 1² = 2.\n5) Jogap: (6 − 4i)/2 = 3 − 2i.",
+          "ru": "Пример: вычислим (2 + 3i)(1 − i) и (5 + i) / (1 + i).\n\n1) Умножение: 2·1 + 2·(−i) + 3i·1 + 3i·(−i) = 2 − 2i + 3i − 3i².\n2) i² = −1, значит −3i² = +3. Итог: 2 + 3 + i = 5 + i.\n\n3) Для деления умножаем числитель и знаменатель на сопряжённое: (5 + i)(1 − i) / ((1 + i)(1 − i)).\n4) Числитель: 5 − 5i + i − i² = 6 − 4i. Знаменатель: 1² + 1² = 2.\n5) Ответ: (6 − 4i)/2 = 3 − 2i."}},
+        {"type": "input",
+          "q": {"tk": "|3 + 4i| modulyny tapyň.", "ru": "Найдите модуль |3 + 4i|."},
+          "answer": "5",
+          "hint": {"tk": "|z| = √(a² + b²) formulany ulanyň.", "ru": "Используйте формулу |z| = √(a² + b²)."},
+          "explain": {"tk": "√(3² + 4²) = √(9 + 16) = √25 = 5.", "ru": "√(3² + 4²) = √(9 + 16) = √25 = 5."}},
+        {"type": "choice",
+          "q": {"tk": "2 − 5i sanyň çatyrymly sany haýsy?", "ru": "Какое число сопряжено с 2 − 5i?"},
+          "options": ["−2 + 5i", "2 + 5i", "−2 − 5i"],
+          "answer": 1,
+          "hint": {"tk": "Çatyrymly sanda diňe hyýaly bölegiň alamaty üýtgeýär.", "ru": "У сопряжённого числа меняется знак только мнимой части."},
+          "explain": {"tk": "a + bi üçin çatyrymly san a − bi. Diýmek, 2 − 5i üçin ol 2 + 5i.", "ru": "Для a + bi сопряжённое — a − bi. Значит, для 2 − 5i это 2 + 5i."}},
+        {"type": "truefalse",
+          "q": {"tk": "(1 + i)² = 2i.", "ru": "(1 + i)² = 2i."},
+          "answer": true,
+          "hint": {"tk": "(a + b)² = a² + 2ab + b² we i² = −1.", "ru": "(a + b)² = a² + 2ab + b² и i² = −1."},
+          "explain": {"tk": "(1 + i)² = 1 + 2i + i² = 1 + 2i − 1 = 2i. Dogry.", "ru": "(1 + i)² = 1 + 2i + i² = 1 + 2i − 1 = 2i. Верно."}},
+        {"type": "choice",
+          "q": {"tk": "i⁴ näçä deň?", "ru": "Чему равно i⁴?"},
+          "options": ["1", "−1", "i"],
+          "answer": 0,
+          "hint": {"tk": "i⁴ = (i²)².", "ru": "i⁴ = (i²)²."},
+          "explain": {"tk": "i⁴ = (i²)² = (−1)² = 1. i-niň derejeleri 4 ädimden gaýtalanýar: i, −1, −i, 1.", "ru": "i⁴ = (i²)² = (−1)² = 1. Степени i повторяются с периодом 4: i, −1, −i, 1."}},
+        {"type": "world", "text": {
+          "tk": "Kompleks sanlar XVI asyrda italýan matematikleri Kardano we Bombelli tarapyndan kub deňlemeleri çözmekde ulanylyp başlandy. Leonard Eýleriň e^(iπ) + 1 = 0 formulasy matematikanyň iň owadan deňlikleriniň biri hasaplanýar. Häzir kompleks sanlar üýtgeýän tok elektrik zynjyrlaryny, signallary we kwant fizikasyny hasaplamakda her gün ulanylýar.",
+          "ru": "Комплексные числа начали использовать в XVI веке итальянские математики Кардано и Бомбелли при решении кубических уравнений. Формулу Эйлера e^(iπ) + 1 = 0 часто называют самым красивым равенством математики. Сегодня комплексные числа каждый день применяют при расчёте цепей переменного тока, обработке сигналов и в квантовой физике."}}
+      ]
+    },
+    {
+      "id": "math-12-induction",
+      "grade": 12,
+      "topic": 1,
+      "title": {"tk": "Matematiki induksiýa usuly", "ru": "Метод математической индукции"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Matematiki induksiýa — ähli natural sanlar üçin P(n) tassyklamany subut etmegiň usuly.\n\n• 1-nji ädim (baza): P(1) dogrudygyny barlaýarys.\n• 2-nji ädim (induksiýa ädimi): P(k) dogry diýip çaklaýarys (induksiýa çaklamasy) we şondan P(k + 1)-iň hem dogrudygyny subut edýäris.\n\nNetije: P(1) dogry → P(2) dogry → P(3) dogry → … ähli n üçin dogry.\n\nBu domino daşlaryna meňzeýär: birinji daş ýykylsa we her daş özünden soňkyny ýykýan bolsa, ähli daşlar ýykylar.",
+          "ru": "Математическая индукция — метод доказательства утверждения P(n) для всех натуральных n.\n\n• Шаг 1 (база): проверяем, что P(1) верно.\n• Шаг 2 (индукционный переход): предполагаем, что P(k) верно (предположение индукции), и выводим отсюда, что верно P(k + 1).\n\nИтог: P(1) верно → P(2) верно → P(3) верно → … верно для всех n.\n\nЭто похоже на домино: если упала первая костяшка и каждая роняет следующую, упадут все."}},
+        {"type": "example", "text": {
+          "tk": "Subut edeliň: 1 + 2 + … + n = n(n + 1)/2.\n\n1) Baza: n = 1. Çep tarap 1, sag tarap 1·2/2 = 1. Dogry.\n2) Çaklama: 1 + 2 + … + k = k(k + 1)/2.\n3) Ädim: 1 + 2 + … + k + (k + 1) = k(k + 1)/2 + (k + 1).\n4) Umumy köpeldijini çykarýarys: (k + 1)(k/2 + 1) = (k + 1)(k + 2)/2.\n5) Bu formulanyň n = k + 1 üçin görnüşi. Diýmek, formula ähli n üçin dogry. ∎",
+          "ru": "Докажем: 1 + 2 + … + n = n(n + 1)/2.\n\n1) База: n = 1. Слева 1, справа 1·2/2 = 1. Верно.\n2) Предположение: 1 + 2 + … + k = k(k + 1)/2.\n3) Переход: 1 + 2 + … + k + (k + 1) = k(k + 1)/2 + (k + 1).\n4) Выносим общий множитель: (k + 1)(k/2 + 1) = (k + 1)(k + 2)/2.\n5) Это и есть формула при n = k + 1. Значит, она верна для всех n. ∎"}},
+        {"type": "choice",
+          "q": {"tk": "Induksiýa ädiminde näme edilýär?", "ru": "Что делают в индукционном переходе?"},
+          "options": [
+            {"tk": "P(k) dogry diýip çaklap, P(k + 1)-i subut edýäris", "ru": "Предполагаем P(k) и доказываем P(k + 1)"},
+            {"tk": "Diňe P(1)-i barlaýarys", "ru": "Проверяем только P(1)"},
+            {"tk": "Birnäçe mysalda barlap goýýarys", "ru": "Проверяем несколько примеров и останавливаемся"}
+          ],
+          "answer": 0,
+          "hint": {"tk": "Bu ädim bir domino daşyndan indikisine geçişi aňladýar.", "ru": "Этот шаг — переход от одной костяшки домино к следующей."},
+          "explain": {"tk": "Induksiýa ädimi: P(k) ⇒ P(k + 1). Baza bilen bilelikde bu ähli n üçin subut berýär.", "ru": "Индукционный переход: P(k) ⇒ P(k + 1). Вместе с базой это даёт доказательство для всех n."}},
+        {"type": "input",
+          "q": {"tk": "Ilkinji n täk sanyň jemi n²-a deň (induksiýa bilen subut edilýär). 1 + 3 + 5 + 7 + 9 näçä deň?", "ru": "Сумма первых n нечётных чисел равна n² (доказывается индукцией). Чему равно 1 + 3 + 5 + 7 + 9?"},
+          "answer": "25",
+          "hint": {"tk": "Bu ýerde näçe täk san bar?", "ru": "Сколько здесь нечётных чисел?"},
+          "explain": {"tk": "Bäş täk san: n = 5, n² = 25. Barlag: 1 + 3 + 5 + 7 + 9 = 25.", "ru": "Пять нечётных чисел: n = 5, n² = 25. Проверка: 1 + 3 + 5 + 7 + 9 = 25."}},
+        {"type": "truefalse",
+          "q": {"tk": "Eger induksiýa ädimi subut edilse, bazany barlamak hökman däl.", "ru": "Если индукционный переход доказан, базу проверять не обязательно."},
+          "answer": false,
+          "hint": {"tk": "Birinji domino daşy ýykylmasa näme bolar?", "ru": "Что будет, если первая костяшка не упадёт?"},
+          "explain": {"tk": "Nädogry. Mysal: «n = n + 1» tassyklamasy üçin P(k) ⇒ P(k + 1) formal ýerine ýetýär, ýöne baza ýalňyş — tassyklama hiç bir n üçin dogry däl.", "ru": "Неверно. Например, для утверждения «n = n + 1» переход P(k) ⇒ P(k + 1) формально выполняется, но база ложна — утверждение не верно ни при каком n."}},
+        {"type": "choice",
+          "q": {"tk": "2ⁿ > n² tassyklamasy n ≥ 5 üçin dogry. Bu ýagdaýda baza haýsy san bolmaly?", "ru": "Утверждение 2ⁿ > n² верно при n ≥ 5. Какой должна быть база?"},
+          "options": ["n = 1", "n = 4", "n = 5"],
+          "answer": 2,
+          "hint": {"tk": "Baza tassyklamanyň başlanýan iň kiçi bahasy.", "ru": "База — наименьшее значение, с которого начинается утверждение."},
+          "explain": {"tk": "Baza n = 5: 2⁵ = 32 > 25. n = 4 üçin 16 > 16 nädogry, şonuň üçin ol baza bolup bilmez.", "ru": "База n = 5: 2⁵ = 32 > 25. При n = 4 получаем 16 > 16 — неверно, поэтому это не может быть базой."}},
+        {"type": "world", "text": {
+          "tk": "Induksiýa pikiri gadymy döwürden bäri ulanylsa-da, ony ilkinji anyk beýan edenleriň biri XVII asyrda fransuz alymy Blez Paskal boldy — ol Paskal üçburçlugynyň häsiýetlerini şeýle subut etdi. Häzir programmistler sikilleriň we rekursiw funksiýalaryň dogrulygyny subut etmek üçin hem şu usuly ulanýarlar.",
+          "ru": "Идея индукции встречается с древности, но одним из первых её чётко сформулировал в XVII веке французский учёный Блез Паскаль, доказывая свойства треугольника Паскаля. Сегодня программисты тем же методом доказывают правильность циклов и рекурсивных функций."}}
+      ]
+    },
+    {
+      "id": "math-12-probability",
+      "grade": 12,
+      "topic": 2,
+      "title": {"tk": "Ähtimallyk nazaryýeti", "ru": "Теория вероятностей"},
+      "minutes": 11,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Wakanyň ähtimallygy 0 bilen 1 aralygyndaky san.\n\n• Klassik kesgitleme: P(A) = m / n (m — amatly netijeler, n — ähli deň mümkin netijeler).\n• Garşylykly waka: P(Ā) = 1 − P(A).\n• Goşmak düzgüni: P(A ∪ B) = P(A) + P(B) − P(A ∩ B). Bilelikde bolup bilmeýän wakalar üçin P(A ∩ B) = 0.\n• Garaşsyz wakalar: P(A ∩ B) = P(A) · P(B).\n• Şertli ähtimallyk: P(A | B) = P(A ∩ B) / P(B).",
+          "ru": "Вероятность события — число от 0 до 1.\n\n• Классическое определение: P(A) = m / n (m — благоприятные исходы, n — все равновозможные исходы).\n• Противоположное событие: P(Ā) = 1 − P(A).\n• Правило сложения: P(A ∪ B) = P(A) + P(B) − P(A ∩ B). Для несовместных событий P(A ∩ B) = 0.\n• Независимые события: P(A ∩ B) = P(A) · P(B).\n• Условная вероятность: P(A | B) = P(A ∩ B) / P(B)."}},
+        {"type": "example", "text": {
+          "tk": "Iki oýun kubigi zyňylýar. Jemiň 7 bolmagynyň ähtimallygy näçe?\n\n1) Ähli netijeler: 6 · 6 = 36.\n2) Jemi 7 bolanlar: (1;6), (2;5), (3;4), (4;3), (5;2), (6;1) — 6 sany.\n3) P = 6/36 = 1/6.\n\nGoşmaça: iki kubikde-de 6 düşmegi — garaşsyz wakalar: 1/6 · 1/6 = 1/36.",
+          "ru": "Бросают две игральные кости. Какова вероятность, что сумма равна 7?\n\n1) Всего исходов: 6 · 6 = 36.\n2) Сумма 7: (1;6), (2;5), (3;4), (4;3), (5;2), (6;1) — 6 исходов.\n3) P = 6/36 = 1/6.\n\nДополнительно: выпадение двух шестёрок — независимые события: 1/6 · 1/6 = 1/36."}},
+        {"type": "input",
+          "q": {"tk": "Teňňe iki gezek zyňylýar. Iki gezek hem «gerb» düşmeginiň ähtimallygy näçe?", "ru": "Монету бросают дважды. Какова вероятность, что оба раза выпадет «орёл»?"},
+          "answer": "1/4|0.25|0,25",
+          "hint": {"tk": "Zyňmalar biri-birine garaşsyz.", "ru": "Броски не зависят друг от друга."},
+          "explain": {"tk": "P = 1/2 · 1/2 = 1/4 = 0,25.", "ru": "P = 1/2 · 1/2 = 1/4 = 0,25."}},
+        {"type": "choice",
+          "q": {"tk": "52 kartly desteden bir kart alynýar. Onuň «çerwi» ýa-da «korol» bolmagynyň ähtimallygy näçe?", "ru": "Из колоды в 52 карты берут одну карту. Какова вероятность, что это «черви» или «король»?"},
+          "options": ["17/52", "1/4", "4/13"],
+          "answer": 2,
+          "hint": {"tk": "Çerwi koroly iki gezek sanamaň.", "ru": "Не считайте короля червей дважды."},
+          "explain": {"tk": "13 çerwi + 4 korol − 1 (çerwi koroly) = 16. P = 16/52 = 4/13.", "ru": "13 червей + 4 короля − 1 (король червей) = 16. P = 16/52 = 4/13."}},
+        {"type": "truefalse",
+          "q": {"tk": "Eger P(A) = 0,3 bolsa, onda P(Ā) = 0,7.", "ru": "Если P(A) = 0,3, то P(Ā) = 0,7."},
+          "answer": true,
+          "hint": {"tk": "P(A) + P(Ā) = 1.", "ru": "P(A) + P(Ā) = 1."},
+          "explain": {"tk": "P(Ā) = 1 − 0,3 = 0,7. Dogry.", "ru": "P(Ā) = 1 − 0,3 = 0,7. Верно."}},
+        {"type": "choice",
+          "q": {"tk": "Synpda okuwçylaryň 40%-i şahmat oýnaýar, 10%-i hem şahmat, hem tennis oýnaýar. Şahmat oýnaýandygy belli okuwçynyň tennis hem oýnamagynyň ähtimallygy näçe?", "ru": "В классе 40% учеников играют в шахматы, 10% — и в шахматы, и в теннис. Какова вероятность, что ученик, играющий в шахматы, играет и в теннис?"},
+          "options": ["0,1", "0,25", "0,4"],
+          "answer": 1,
+          "hint": {"tk": "Şertli ähtimallyk formulasyny ulanyň.", "ru": "Используйте формулу условной вероятности."},
+          "explain": {"tk": "P(T | Ş) = P(T ∩ Ş) / P(Ş) = 0,1 / 0,4 = 0,25.", "ru": "P(Т | Ш) = P(Т ∩ Ш) / P(Ш) = 0,1 / 0,4 = 0,25."}},
+        {"type": "world", "text": {
+          "tk": "Ähtimallyk nazaryýeti 1654-nji ýylda Blez Paskal bilen Pýer Ferma arasyndaky hatlardan başlandy: olar ýarym galan oýnuň baýragyny adalatly bölmek meselesini çözdüler. 1933-nji ýylda Andreý Kolmogorow bu ylmy aksiomalaryň esasynda gurdy. Häzir ol howa çaklamalarynda, ätiýaçlandyryşda we emeli aňda ulanylýar.",
+          "ru": "Теория вероятностей началась в 1654 году с переписки Блеза Паскаля и Пьера Ферма: они решали, как честно поделить ставку в прерванной игре. В 1933 году Андрей Колмогоров построил эту науку на системе аксиом. Сегодня она применяется в прогнозах погоды, страховании и искусственном интеллекте."}}
+      ]
+    },
+    {
+      "id": "math-12-statistics",
+      "grade": 12,
+      "topic": 3,
+      "title": {"tk": "Statistika: orta baha we dargaýyş", "ru": "Статистика: среднее и разброс"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Statistika maglumatlary ýygnamak, ýazmak we düşündirmek bilen meşgullanýar.\n\nMerkezi ölçegler:\n• Orta arifmetiki: x̄ = (x₁ + … + xₙ) / n\n• Mediana: tertipleşdirilen hataryň ortasyndaky baha\n• Moda: iň köp gaýtalanýan baha\n\nDargaýyş ölçegleri:\n• Gerim (razmah): iň uly − iň kiçi\n• Dispersiýa: σ² = Σ(xᵢ − x̄)² / n\n• Standart gyşarma: σ = √σ²\n\nNormal paýlanyşda bahalaryň takmynan 68%-i x̄ ± σ, 95%-i x̄ ± 2σ aralygynda ýerleşýär.",
+          "ru": "Статистика занимается сбором, описанием и интерпретацией данных.\n\nМеры центра:\n• Среднее арифметическое: x̄ = (x₁ + … + xₙ) / n\n• Медиана: значение в середине упорядоченного ряда\n• Мода: наиболее частое значение\n\nМеры разброса:\n• Размах: наибольшее − наименьшее\n• Дисперсия: σ² = Σ(xᵢ − x̄)² / n\n• Стандартное отклонение: σ = √σ²\n\nПри нормальном распределении около 68% значений лежат в пределах x̄ ± σ, около 95% — в пределах x̄ ± 2σ."}},
+        {"type": "example", "text": {
+          "tk": "Maglumatlar: 2, 4, 4, 4, 5, 5, 7, 9.\n\n1) Orta: (2 + 4 + 4 + 4 + 5 + 5 + 7 + 9) / 8 = 40 / 8 = 5.\n2) Mediana: ortadaky iki baha 4 we 5 → (4 + 5)/2 = 4,5.\n3) Moda: 4.\n4) Gyşarmalar: −3, −1, −1, −1, 0, 0, 2, 4. Kwadratlary: 9, 1, 1, 1, 0, 0, 4, 16 → jemi 32.\n5) Dispersiýa: 32 / 8 = 4. Standart gyşarma: σ = 2.",
+          "ru": "Данные: 2, 4, 4, 4, 5, 5, 7, 9.\n\n1) Среднее: (2 + 4 + 4 + 4 + 5 + 5 + 7 + 9) / 8 = 40 / 8 = 5.\n2) Медиана: два средних значения 4 и 5 → (4 + 5)/2 = 4,5.\n3) Мода: 4.\n4) Отклонения: −3, −1, −1, −1, 0, 0, 2, 4. Квадраты: 9, 1, 1, 1, 0, 0, 4, 16 → сумма 32.\n5) Дисперсия: 32 / 8 = 4. Стандартное отклонение: σ = 2."}},
+        {"type": "input",
+          "q": {"tk": "3, 8, 1, 9, 5 hataryň medianasyny tapyň.", "ru": "Найдите медиану ряда 3, 8, 1, 9, 5."},
+          "answer": "5",
+          "hint": {"tk": "Ilki sanlary ösüş tertibinde ýerleşdiriň.", "ru": "Сначала упорядочьте числа по возрастанию."},
+          "explain": {"tk": "Tertipleşdirilen hatar: 1, 3, 5, 8, 9. Ortadaky (3-nji) baha 5.", "ru": "Упорядоченный ряд: 1, 3, 5, 8, 9. Среднее (3-е) значение — 5."}},
+        {"type": "truefalse",
+          "q": {"tk": "Orta arifmetiki aýratyn uly ýa-da kiçi bahalara (çykdajylara) medianadan has duýgur.", "ru": "Среднее арифметическое чувствительнее к выбросам, чем медиана."},
+          "answer": true,
+          "hint": {"tk": "1, 2, 3 we 1, 2, 300 hatarlaryny deňeşdiriň.", "ru": "Сравните ряды 1, 2, 3 и 1, 2, 300."},
+          "explain": {"tk": "Iki hataryň medianasy hem 2, ýöne orta baha 2-den 101-e çenli üýtgeýär. Şonuň üçin aýlyk ýaly maglumatlarda köplenç mediana ulanylýar.", "ru": "У обоих рядов медиана 2, а среднее меняется с 2 до 101. Поэтому для данных вроде зарплат часто используют медиану."}},
+        {"type": "choice",
+          "q": {"tk": "Normal paýlanyşda bahalaryň takmynan näçe göterimi x̄ ± σ aralygynda bolýar?", "ru": "Какая примерно доля значений нормального распределения лежит в пределах x̄ ± σ?"},
+          "options": ["50%", "68%", "95%"],
+          "answer": 1,
+          "hint": {"tk": "95% — iki standart gyşarma üçin.", "ru": "95% — это для двух стандартных отклонений."},
+          "explain": {"tk": "«68–95–99,7» düzgüni: ±σ — 68%, ±2σ — 95%, ±3σ — 99,7%.", "ru": "Правило «68–95–99,7»: ±σ — 68%, ±2σ — 95%, ±3σ — 99,7%."}},
+        {"type": "choice",
+          "q": {"tk": "10, 10, 10, 10 hataryň standart gyşarmasy näçe?", "ru": "Чему равно стандартное отклонение ряда 10, 10, 10, 10?"},
+          "options": ["0", "10", "1"],
+          "answer": 0,
+          "hint": {"tk": "Bahalar ortadan näçe uzakda?", "ru": "Насколько значения отличаются от среднего?"},
+          "explain": {"tk": "Ähli bahalar ortadaky 10-a deň, gyşarmalar nol, diýmek σ = 0.", "ru": "Все значения равны среднему 10, отклонения нулевые, значит σ = 0."}},
+        {"type": "world", "text": {
+          "tk": "Florens Naýtingeýl diňe şepagat uýasy däl, eýsem statistik hem bolupdy. Krym urşundan soň ol polýar diagrammalary bilen esgerleriň köpüsiniň ýaradan däl-de, arassaçylygyň ýoklugy sebäpli ýogalandygyny görkezdi. Bu diagrammalar hassahanalaryň özgertmegine täsir etdi, ol bolsa 1858-nji ýylda Korol statistika jemgyýetiniň ilkinji aýal agzasy boldy.",
+          "ru": "Флоренс Найтингейл была не только медсестрой, но и статистиком. После Крымской войны она с помощью своих полярных диаграмм показала, что большинство солдат погибло не от ран, а от антисанитарии. Эти диаграммы помогли реформировать госпитали, а она в 1858 году стала первой женщиной — членом Королевского статистического общества."}}
+      ]
+    },
+    {
+      "id": "math-12-matrices",
+      "grade": 12,
+      "topic": 4,
+      "title": {"tk": "Matrisalar we kesgitleýjiler", "ru": "Матрицы и определители"},
+      "minutes": 11,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Matrisa — sanlaryň gönüburçly tablisasy. m × n matrisada m setir we n sütün bar.\n\n• Goşmak: deň ölçegli matrisalaryň degişli elementleri goşulýar.\n• Köpeltmek: A (m × n) we B (n × p) → AB (m × p). AB-niň (i, j) elementi = A-nyň i-nji setiri bilen B-niň j-nji sütüniniň skalýar köpeltmek hasyly.\n• Umuman AB ≠ BA.\n• 2 × 2 kesgitleýji: det [[a, b], [c, d]] = ad − bc.\n• Ters matrisa: A⁻¹ = (1/det A) · [[d, −b], [−c, a]]; diňe det A ≠ 0 bolanda bar.\n• Birlik matrisa E: AE = EA = A.",
+          "ru": "Матрица — прямоугольная таблица чисел. У матрицы m × n есть m строк и n столбцов.\n\n• Сложение: складываются соответствующие элементы матриц одного размера.\n• Умножение: A (m × n) и B (n × p) → AB (m × p). Элемент (i, j) матрицы AB = скалярное произведение i-й строки A на j-й столбец B.\n• В общем случае AB ≠ BA.\n• Определитель 2 × 2: det [[a, b], [c, d]] = ad − bc.\n• Обратная матрица: A⁻¹ = (1/det A) · [[d, −b], [−c, a]]; существует только при det A ≠ 0.\n• Единичная матрица E: AE = EA = A."}},
+        {"type": "example", "text": {
+          "tk": "A = [[1, 2], [3, 4]], B = [[0, 1], [1, 0]].\n\n1) AB: 1-nji setir: (1·0 + 2·1; 1·1 + 2·0) = (2; 1). 2-nji setir: (3·0 + 4·1; 3·1 + 4·0) = (4; 3). AB = [[2, 1], [4, 3]].\n2) BA = [[3, 4], [1, 2]] — AB-den tapawutly.\n3) det A = 1·4 − 2·3 = −2.\n4) A⁻¹ = (1/(−2)) · [[4, −2], [−3, 1]] = [[−2, 1], [1,5, −0,5]].\n5) Barlag: A · A⁻¹ = [[1, 0], [0, 1]] = E.",
+          "ru": "A = [[1, 2], [3, 4]], B = [[0, 1], [1, 0]].\n\n1) AB: 1-я строка: (1·0 + 2·1; 1·1 + 2·0) = (2; 1). 2-я строка: (3·0 + 4·1; 3·1 + 4·0) = (4; 3). AB = [[2, 1], [4, 3]].\n2) BA = [[3, 4], [1, 2]] — отличается от AB.\n3) det A = 1·4 − 2·3 = −2.\n4) A⁻¹ = (1/(−2)) · [[4, −2], [−3, 1]] = [[−2, 1], [1,5, −0,5]].\n5) Проверка: A · A⁻¹ = [[1, 0], [0, 1]] = E."}},
+        {"type": "input",
+          "q": {"tk": "det [[3, 1], [2, 4]] hasaplaň.", "ru": "Вычислите det [[3, 1], [2, 4]]."},
+          "answer": "10",
+          "hint": {"tk": "ad − bc.", "ru": "ad − bc."},
+          "explain": {"tk": "3·4 − 1·2 = 12 − 2 = 10.", "ru": "3·4 − 1·2 = 12 − 2 = 10."}},
+        {"type": "choice",
+          "q": {"tk": "2 × 3 matrisa 3 × 4 matrisa köpeldilýär. Netijäniň ölçegi nähili?", "ru": "Матрицу 2 × 3 умножают на матрицу 3 × 4. Какого размера результат?"},
+          "options": ["3 × 3", "2 × 4", "Köpeldip bolmaýar / Умножить нельзя"],
+          "answer": 1,
+          "hint": {"tk": "(m × n)(n × p) = m × p.", "ru": "(m × n)(n × p) = m × p."},
+          "explain": {"tk": "Içki ölçegler (3 we 3) gabat gelýär, şonuň üçin köpeltmek mümkin; netije daşky ölçeglerden: 2 × 4.", "ru": "Внутренние размеры (3 и 3) совпадают, умножение возможно; результат берёт внешние размеры: 2 × 4."}},
+        {"type": "truefalse",
+          "q": {"tk": "Islendik iki kwadrat matrisa üçin AB = BA.", "ru": "Для любых двух квадратных матриц AB = BA."},
+          "answer": false,
+          "hint": {"tk": "Mysaldaky AB we BA matrisalaryna serediň.", "ru": "Посмотрите на AB и BA из примера."},
+          "explain": {"tk": "Nädogry: mysalda AB = [[2, 1], [4, 3]], BA = [[3, 4], [1, 2]]. Matrisalary köpeltmek, umuman, orun çalşyrma häsiýetine eýe däl.", "ru": "Неверно: в примере AB = [[2, 1], [4, 3]], а BA = [[3, 4], [1, 2]]. Умножение матриц в общем случае не коммутативно."}},
+        {"type": "choice",
+          "q": {"tk": "[[2, 4], [1, 2]] matrisanyň ters matrisasy barmy?", "ru": "Существует ли обратная матрица для [[2, 4], [1, 2]]?"},
+          "options": [
+            {"tk": "Hawa, [[2, −4], [−1, 2]]", "ru": "Да, [[2, −4], [−1, 2]]"},
+            {"tk": "Hawa, [[1/2, 1/4], [1, 1/2]]", "ru": "Да, [[1/2, 1/4], [1, 1/2]]"},
+            {"tk": "Ýok, sebäbi det = 0", "ru": "Нет, так как det = 0"}
+          ],
+          "answer": 2,
+          "hint": {"tk": "Ilki kesgitleýjini hasaplaň.", "ru": "Сначала вычислите определитель."},
+          "explain": {"tk": "det = 2·2 − 4·1 = 0. Kesgitleýjisi nol bolan matrisanyň tersi ýok (ol «aýratyn» matrisa).", "ru": "det = 2·2 − 4·1 = 0. Матрица с нулевым определителем (вырожденная) не имеет обратной."}},
+        {"type": "world", "text": {
+          "tk": "«Matrisa» adalgasyny 1850-nji ýylda Jeýms Silwestr girizdi, onuň dosty Artur Keli bolsa 1858-nji ýylda matrisalar bilen amallaryň ilkinji ulgamlaýyn nazaryýetini çap etdi. Häzir kompýuter oýunlaryndaky her 3D aýlanma, internetdäki gözleg ulgamlary we neýron torlary millionlarça matrisa köpeltmesine esaslanýar.",
+          "ru": "Термин «матрица» ввёл Джеймс Сильвестр в 1850 году, а его друг Артур Кэли в 1858 году опубликовал первую систематическую теорию действий с матрицами. Сегодня каждый 3D-поворот в компьютерных играх, поисковые системы и нейросети опираются на миллионы умножений матриц."}}
+      ]
+    },
+    {
+      "id": "math-12-functions-review",
+      "grade": 12,
+      "topic": 5,
+      "title": {"tk": "Gaýtalamak: funksiýalar", "ru": "Повторение: функции"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Funksiýa f: X → Y — X köplügiň her elementine Y-den ýeke-täk element degişli edýän düzgün.\n\n• Kesgitleniş ýaýlasy D(f): x-iň mümkin bahalary (maýdalawjy ≠ 0, kök astynda ≥ 0, logarifmde > 0).\n• Bahalar ýaýlasy E(f).\n• Jübüt: f(−x) = f(x) (grafigi Oy oka görä simmetrik); täk: f(−x) = −f(x) (başlangyja görä simmetrik).\n• Monotonlyk: f′(x) > 0 bolsa ösýär, f′(x) < 0 bolsa kemelýär.\n• Kompozisiýa: (f ∘ g)(x) = f(g(x)).\n• Ters funksiýa f⁻¹: y = f(x) deňlemeden x-i tapýarys; grafigi y = x göni çyzyga görä simmetrik.\n• Esasy görnüşler: çyzykly, kwadrat, derejeli, görkezijili aˣ, logarifmik logₐx, trigonometrik.",
+          "ru": "Функция f: X → Y — правило, сопоставляющее каждому элементу X ровно один элемент Y.\n\n• Область определения D(f): допустимые x (знаменатель ≠ 0, под корнем ≥ 0, под логарифмом > 0).\n• Область значений E(f).\n• Чётная: f(−x) = f(x) (график симметричен относительно Oy); нечётная: f(−x) = −f(x) (симметричен относительно начала координат).\n• Монотонность: при f′(x) > 0 возрастает, при f′(x) < 0 убывает.\n• Композиция: (f ∘ g)(x) = f(g(x)).\n• Обратная функция f⁻¹: выражаем x из y = f(x); график симметричен относительно прямой y = x.\n• Основные виды: линейная, квадратичная, степенная, показательная aˣ, логарифмическая logₐx, тригонометрические."}},
+        {"type": "example", "text": {
+          "tk": "f(x) = 2x + 3, g(x) = x².\n\n1) f(g(2)) = f(4) = 2·4 + 3 = 11.\n2) g(f(2)) = g(7) = 49. Görşümiz ýaly, f ∘ g ≠ g ∘ f.\n3) Ters funksiýa: y = 2x + 3 → x = (y − 3)/2, diýmek f⁻¹(x) = (x − 3)/2.\n4) Barlag: f⁻¹(f(5)) = f⁻¹(13) = (13 − 3)/2 = 5.\n5) g jübüt funksiýa: (−x)² = x². Ol (−∞; 0] aralykda kemelýär, [0; +∞) aralykda ösýär, sebäbi g′(x) = 2x.",
+          "ru": "f(x) = 2x + 3, g(x) = x².\n\n1) f(g(2)) = f(4) = 2·4 + 3 = 11.\n2) g(f(2)) = g(7) = 49. Видно, что f ∘ g ≠ g ∘ f.\n3) Обратная функция: y = 2x + 3 → x = (y − 3)/2, значит f⁻¹(x) = (x − 3)/2.\n4) Проверка: f⁻¹(f(5)) = f⁻¹(13) = (13 − 3)/2 = 5.\n5) g — чётная: (−x)² = x². Она убывает на (−∞; 0] и возрастает на [0; +∞), так как g′(x) = 2x."}},
+        {"type": "choice",
+          "q": {"tk": "f(x) = √(x − 4) funksiýanyň kesgitleniş ýaýlasy haýsy?", "ru": "Какова область определения функции f(x) = √(x − 4)?"},
+          "options": ["x > 4", "x ≥ 0", "x ≥ 4"],
+          "answer": 2,
+          "hint": {"tk": "Kwadrat kök astyndaky aňlatma otrisatel bolup bilmez.", "ru": "Подкоренное выражение не может быть отрицательным."},
+          "explain": {"tk": "x − 4 ≥ 0 → x ≥ 4. x = 4 hem girýär, sebäbi √0 = 0.", "ru": "x − 4 ≥ 0 → x ≥ 4. x = 4 входит, так как √0 = 0."}},
+        {"type": "truefalse",
+          "q": {"tk": "f(x) = x³ täk funksiýa.", "ru": "f(x) = x³ — нечётная функция."},
+          "answer": true,
+          "hint": {"tk": "f(−x)-i hasaplaň.", "ru": "Вычислите f(−x)."},
+          "explain": {"tk": "f(−x) = (−x)³ = −x³ = −f(x). Dogry, funksiýa täk.", "ru": "f(−x) = (−x)³ = −x³ = −f(x). Верно, функция нечётная."}},
+        {"type": "input",
+          "q": {"tk": "f(x) = x² funksiýanyň x = 3 nokatdaky önümi näçä deň?", "ru": "Чему равна производная функции f(x) = x² в точке x = 3?"},
+          "answer": "6",
+          "hint": {"tk": "(xⁿ)′ = n·xⁿ⁻¹.", "ru": "(xⁿ)′ = n·xⁿ⁻¹."},
+          "explain": {"tk": "f′(x) = 2x, f′(3) = 6. Bu grafige x = 3 nokatda geçirilen galtaşýanyň burç koeffisiýenti.", "ru": "f′(x) = 2x, f′(3) = 6. Это угловой коэффициент касательной к графику в точке x = 3."}},
+        {"type": "choice",
+          "q": {"tk": "f(x) = log₂x funksiýanyň ters funksiýasy haýsy?", "ru": "Какая функция обратна к f(x) = log₂x?"},
+          "options": ["2ˣ", "x²", "1/log₂x"],
+          "answer": 0,
+          "hint": {"tk": "y = log₂x bolsa, x-i y arkaly aňladyň.", "ru": "Если y = log₂x, выразите x через y."},
+          "explain": {"tk": "y = log₂x ⇔ x = 2ʸ. Diýmek f⁻¹(x) = 2ˣ. Görkezijili we logarifmik funksiýalar özara ters.", "ru": "y = log₂x ⇔ x = 2ʸ. Значит f⁻¹(x) = 2ˣ. Показательная и логарифмическая функции взаимно обратны."}},
+        {"type": "world", "text": {
+          "tk": "f(x) belgisini XVIII asyrda Leonard Eýler girizdi. 1837-nji ýylda nemes matematigi Peter Dirihle funksiýanyň häzirki giň kesgitlemesini berdi: ol formula bilen berilmese-de, her x-e ýeke-täk y degişli bolsa ýeterlik. Şu pikir häzirki programmirlemedäki «funksiýa» düşünjesiniň hem esasy boldy.",
+          "ru": "Обозначение f(x) ввёл Леонард Эйлер в XVIII веке. В 1837 году немецкий математик Петер Дирихле дал современное широкое определение функции: она не обязана задаваться формулой — достаточно, чтобы каждому x соответствовал ровно один y. Эта идея легла и в основу понятия «функция» в программировании."}}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "biology",
+  "icon": "🌱",
+  "color": "#40C057",
+  "title": {"tk": "Biologiýa", "ru": "Биология"},
+  "lessons": [
+    {
+      "id": "bio-6-cell",
+      "grade": 6,
+      "title": {"tk": "Öýjük — durmuşyň birligi", "ru": "Клетка — единица жизни"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Ähli janly-jandarlar öýjüklerden ybarat.\nÖýjügiň esasy bölekleri:\n• Membrana — öýjügi daşyndan gurşaýar\n• Sitoplazma — içindäki suwuklyk\n• Ýadro — nesil maglumatyny (DNK) saklaýar\n\nÖsümlik öýjüginde goşmaça: öýjük diwary we hloroplastlar (fotosintez).",
+          "ru": "Все живые организмы состоят из клеток.\nОсновные части клетки:\n• Мембрана — окружает клетку\n• Цитоплазма — внутреннее содержимое\n• Ядро — хранит наследственную информацию (ДНК)\n\nУ растительной клетки дополнительно: клеточная стенка и хлоропласты (фотосинтез)."}},
+        {"type": "choice",
+          "q": {"tk": "Nesil maglumaty öýjügiň haýsy böleginde saklanýar?", "ru": "Где в клетке хранится наследственная информация?"},
+          "options": [
+            {"tk": "Membranada", "ru": "В мембране"},
+            {"tk": "Ýadroda", "ru": "В ядре"},
+            {"tk": "Sitoplazmada", "ru": "В цитоплазме"}
+          ],
+          "answer": 1,
+          "hint": {"tk": "DNK nirede?", "ru": "Где находится ДНК?"},
+          "explain": {"tk": "Ýadro DNK-ny saklaýar we öýjügi dolandyrýar.", "ru": "Ядро хранит ДНК и управляет клеткой."}},
+        {"type": "choice",
+          "q": {"tk": "Haýsy bölek diňe ösümlik öýjüginde bar?", "ru": "Что есть только в растительной клетке?"},
+          "options": [
+            {"tk": "Hloroplast", "ru": "Хлоропласт"},
+            {"tk": "Ýadro", "ru": "Ядро"},
+            {"tk": "Membrana", "ru": "Мембрана"}
+          ],
+          "answer": 0,
+          "hint": {"tk": "Ösümlikler iýmitini Gün ýagtylygyndan döredýär.", "ru": "Растения создают питание из солнечного света."},
+          "explain": {"tk": "Hloroplastlarda fotosintez bolup geçýär — haýwan öýjüginde olar ýok.", "ru": "В хлоропластах идёт фотосинтез — в животной клетке их нет."}},
+        {"type": "truefalse",
+          "q": {"tk": "Bakteriýa — bir öýjükli jandar.", "ru": "Бактерия — одноклеточный организм."},
+          "answer": true,
+          "hint": {"tk": "Bakteriýany diňe mikroskop bilen görüp bolýar.", "ru": "Бактерию видно только в микроскоп."},
+          "explain": {"tk": "Dogry: bakteriýalar bir öýjükden ybarat.", "ru": "Верно: бактерии состоят из одной клетки."}},
+        {"type": "world", "text": {
+          "tk": "«Öýjük» adalgasyny 1665-nji ýylda iňlis alymy Robert Huk girizdi: ol mikroskopda probkanyň kesimine seredip, kiçijik «otaglary» gördi.",
+          "ru": "Термин «клетка» ввёл английский учёный Роберт Гук в 1665 году: рассматривая в микроскоп срез пробки, он увидел крошечные «комнатки»."}}
+      ]
+    }
+  ]
+}

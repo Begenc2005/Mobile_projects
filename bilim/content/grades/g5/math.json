@@ -1,0 +1,285 @@
+{
+  "grade": 5,
+  "subject": "math",
+  "lessons": [
+    {
+      "id": "math-5-natural-numbers",
+      "grade": 5,
+      "topic": 0,
+      "title": {"tk": "Natural sanlar we orun ulgamy", "ru": "Натуральные числа и разряды"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Natural sanlar — zatlary sanamakda ulanylýan sanlar: 1, 2, 3, 4, …\n• Iň kiçi natural san — 1. Iň uly natural san ýok: her sana 1 goşup, has ulusyny alyp bolýar.\n• 0 natural san hasaplanmaýar.\n\nSanlar on sifriň (0, 1, 2, …, 9) kömegi bilen ýazylýar. Sifriň ähmiýeti onuň ornuna (razrýadyna) bagly:\n• 3 527 sanynda 3 — müňlükler, 5 — ýüzlükler, 2 — onluklar, 7 — birlikler.\n\nUly sanlary aňsat okamak üçin olary sagdan üç-üçden synplara bölýäris: birlikler, müňler, millionlar, milliardlar.",
+          "ru": "Натуральные числа — числа, которые используются при счёте предметов: 1, 2, 3, 4, …\n• Наименьшее натуральное число — 1. Наибольшего нет: к любому числу можно прибавить 1 и получить большее.\n• 0 не считается натуральным числом.\n\nЧисла записываются с помощью десяти цифр (0, 1, 2, …, 9). Значение цифры зависит от её места (разряда):\n• в числе 3 527 цифра 3 — тысячи, 5 — сотни, 2 — десятки, 7 — единицы.\n\nЧтобы легко читать большие числа, их делят справа налево на классы по три цифры: единицы, тысячи, миллионы, миллиарды."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mysal: 4 705 312 sanyny okalyň we müňlüge çenli tegelekläliň.\n1) Synplara bölýäris: 4 | 705 | 312.\n2) Okaýarys: dört million ýedi ýüz bäş müň üç ýüz on iki.\n3) Tegeleklemek: müňlükler ornunda 5 dur. Ondan sagdaky sifr 3, ol 5-den kiçi, şonuň üçin müňlükler üýtgemeýär, galan sifrler nola öwrülýär.\nJogap: 4 705 000.",
+          "ru": "Пример: прочитаем число 4 705 312 и округлим его до тысяч.\n1) Делим на классы: 4 | 705 | 312.\n2) Читаем: четыре миллиона семьсот пять тысяч триста двенадцать.\n3) Округление: в разряде тысяч стоит 5. Следующая цифра справа — 3, она меньше 5, поэтому разряд тысяч не меняется, а цифры правее заменяются нулями.\nОтвет: 4 705 000."
+        }},
+        {"type": "choice",
+          "q": {"tk": "60 482 sanynda 4 sifri haýsy orunda dur?", "ru": "В каком разряде стоит цифра 4 в числе 60 482?"},
+          "options": [{"tk": "onluklar", "ru": "десятки"}, {"tk": "ýüzlükler", "ru": "сотни"}, {"tk": "müňlükler", "ru": "тысячи"}],
+          "answer": 1,
+          "hint": {"tk": "Sagdan sanaň: birlikler, onluklar, ýüzlükler…", "ru": "Считайте справа: единицы, десятки, сотни…"},
+          "explain": {"tk": "Sagdan: 2 — birlikler, 8 — onluklar, 4 — ýüzlükler, 0 — müňlükler, 6 — on müňlükler.", "ru": "Справа: 2 — единицы, 8 — десятки, 4 — сотни, 0 — тысячи, 6 — десятки тысяч."}
+        },
+        {"type": "input",
+          "q": {"tk": "38 765 sanyny ýüzlüge çenli tegelekläň.", "ru": "Округлите число 38 765 до сотен."},
+          "answer": "38800|38 800",
+          "hint": {"tk": "Ýüzlükler ornundaky sifrden sagdaky sifre serediň.", "ru": "Посмотрите на цифру справа от разряда сотен."},
+          "explain": {"tk": "Ýüzlükler ornunda 7. Sagdaky sifr 6 ≥ 5, şonuň üçin 7 → 8 bolýar: 38 800.", "ru": "В разряде сотен 7. Цифра справа 6 ≥ 5, поэтому 7 → 8: получаем 38 800."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "0 — iň kiçi natural san.", "ru": "0 — наименьшее натуральное число."},
+          "answer": false,
+          "hint": {"tk": "Sanamaga nämeden başlaýarys?", "ru": "С чего мы начинаем счёт?"},
+          "explain": {"tk": "Natural sanlar sanamakdan gelip çykýar we 1-den başlaýar. Iň kiçi natural san — 1.", "ru": "Натуральные числа возникают при счёте и начинаются с 1. Наименьшее натуральное число — 1."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy san iň uly?", "ru": "Какое число самое большое?"},
+          "options": ["99 999", "100 001", "100 010"],
+          "answer": 2,
+          "hint": {"tk": "Ilki sifrleriň sanyny, soňra çepden başlap sifrleri deňeşdiriň.", "ru": "Сначала сравните количество цифр, затем цифры слева направо."},
+          "explain": {"tk": "99 999 — bäş sifrli, beýlekiler alty sifrli. 100 001 we 100 010 sanlarynda onluklar ornunda 0 we 1 dur, şonuň üçin 100 010 uly.", "ru": "99 999 — пятизначное, остальные шестизначные. У 100 001 и 100 010 в разряде десятков стоят 0 и 1, значит, больше 100 010."}
+        },
+        {"type": "world", "text": {
+          "tk": "Biziň häzir ulanýan sifrlerimiz Hindistanda döräp, soňra arap alymlary arkaly Ýewropa ýaýrapdyr. Şonuň üçin olara «hindi-arap sifrleri» diýilýär. VII asyrda hindi matematigi Brahmagupta nol bilen amallaryň düzgünlerini ilkinji bolup beýan edipdir.",
+          "ru": "Цифры, которыми мы пользуемся, появились в Индии, а затем через арабских учёных распространились в Европу. Поэтому их называют «индо-арабскими цифрами». В VII веке индийский математик Брахмагупта одним из первых описал правила действий с нулём."
+        }}
+      ]
+    },
+    {
+      "id": "math-5-divisibility-rules",
+      "grade": 5,
+      "topic": 1,
+      "title": {"tk": "Bölünijilik alamatlary", "ru": "Признаки делимости"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Bölünijilik alamatlary bölmegi ýerine ýetirmezden, san galyndysyz bölünýärmi ýa-da ýok, şony bilmäge kömek edýär.\n• 2-ä: soňky sifri jübüt (0, 2, 4, 6, 8).\n• 5-e: soňky sifri 0 ýa-da 5.\n• 10-a: soňky sifri 0.\n• 3-e: sifrleriniň jemi 3-e bölünýär.\n• 9-a: sifrleriniň jemi 9-a bölünýär.\n\nDiňe iki bölüjisi (1 we özi) bolan sana ýönekeý san diýilýär: 2, 3, 5, 7, 11, 13, …",
+          "ru": "Признаки делимости позволяют узнать, делится ли число без остатка, не выполняя деления.\n• На 2: последняя цифра чётная (0, 2, 4, 6, 8).\n• На 5: последняя цифра 0 или 5.\n• На 10: последняя цифра 0.\n• На 3: сумма цифр делится на 3.\n• На 9: сумма цифр делится на 9.\n\nЧисло, у которого ровно два делителя (1 и само число), называется простым: 2, 3, 5, 7, 11, 13, …"
+        }},
+        {"type": "example", "text": {
+          "tk": "Mysal: 4 320 sany haýsy sanlara bölünýär?\n1) Soňky sifri 0 → 2-ä, 5-e we 10-a bölünýär.\n2) Sifrleriň jemi: 4 + 3 + 2 + 0 = 9.\n3) 9 sany 3-e hem, 9-a hem bölünýär → 4 320 hem 3-e, hem 9-a bölünýär.\nBarlag: 4 320 : 9 = 480.",
+          "ru": "Пример: на какие числа делится 4 320?\n1) Последняя цифра 0 → делится на 2, на 5 и на 10.\n2) Сумма цифр: 4 + 3 + 2 + 0 = 9.\n3) 9 делится и на 3, и на 9 → 4 320 делится и на 3, и на 9.\nПроверка: 4 320 : 9 = 480."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Haýsy san 3-e bölünýär?", "ru": "Какое число делится на 3?"},
+          "options": ["124", "213", "401"],
+          "answer": 1,
+          "hint": {"tk": "Her sanyň sifrleriniň jemini tapyň.", "ru": "Найдите сумму цифр каждого числа."},
+          "explain": {"tk": "1+2+4 = 7, 2+1+3 = 6, 4+0+1 = 5. Diňe 6 sany 3-e bölünýär, diýmek 213.", "ru": "1+2+4 = 7, 2+1+3 = 6, 4+0+1 = 5. На 3 делится только 6, значит, ответ 213."}
+        },
+        {"type": "input",
+          "q": {"tk": "2*5 sany 9-a bölüner ýaly, ýyldyzjygyň ýerine haýsy sifri goýmaly?", "ru": "Какую цифру нужно поставить вместо звёздочки, чтобы число 2*5 делилось на 9?"},
+          "answer": "2",
+          "hint": {"tk": "2 + 5 = 7. 9 bolmak üçin näçe ýetenok?", "ru": "2 + 5 = 7. Сколько не хватает до 9?"},
+          "explain": {"tk": "Sifrleriň jemi 9-a bölünmeli: 2 + * + 5 = 9 → * = 2. Sany 225: 225 : 9 = 25.", "ru": "Сумма цифр должна делиться на 9: 2 + * + 5 = 9 → * = 2. Число 225: 225 : 9 = 25."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Soňky sifri 0 bolan islendik san 2-ä, 5-e we 10-a bölünýär.", "ru": "Любое число, оканчивающееся на 0, делится на 2, на 5 и на 10."},
+          "answer": true,
+          "hint": {"tk": "Üç alamaty hem 0 bilen barlaň.", "ru": "Проверьте все три признака для цифры 0."},
+          "explain": {"tk": "0 — jübüt sifr (2-ä), 0 ýa-da 5 bilen gutarýar (5-e), 0 bilen gutarýar (10-a). Hemmesi ýerine ýetýär.", "ru": "0 — чётная цифра (на 2), число оканчивается на 0 или 5 (на 5), оканчивается на 0 (на 10). Все три признака выполняются."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy san 9-a bölünýär?", "ru": "Какое число делится на 9?"},
+          "options": ["5 436", "1 234", "7 001"],
+          "answer": 0,
+          "hint": {"tk": "Sifrleriň jemi 9, 18, 27… bolmaly.", "ru": "Сумма цифр должна быть 9, 18, 27…"},
+          "explain": {"tk": "5+4+3+6 = 18 (9-a bölünýär), 1+2+3+4 = 10, 7+0+0+1 = 8. Jogap: 5 436.", "ru": "5+4+3+6 = 18 (делится на 9), 1+2+3+4 = 10, 7+0+0+1 = 8. Ответ: 5 436."}
+        },
+        {"type": "world", "text": {
+          "tk": "Gadymy grek alymy Eratosfen (b.e.öň III asyr) ýönekeý sanlary tapmagyň ýönekeý usulyny oýlap tapypdyr: sanlaryň sanawyndan 2-ä, 3-e, 5-e we ş.m. kratnylary yzygiderli çyzyp aýyrmaly. Bu usula «Eratosfeniň elekesi» diýilýär we ol häzir hem programmirlemekde ulanylýar.",
+          "ru": "Древнегреческий учёный Эратосфен (III век до н. э.) придумал простой способ находить простые числа: из списка чисел по очереди вычёркивают кратные 2, 3, 5 и так далее. Этот способ называют «решетом Эратосфена», и его до сих пор используют в программировании."
+        }}
+      ]
+    },
+    {
+      "id": "math-5-common-fractions",
+      "grade": 5,
+      "topic": 2,
+      "title": {"tk": "Adaty droblar", "ru": "Обыкновенные дроби"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Drob bitewiniň birnäçe deň bölegini görkezýär: a/b.\n• b — maýdalawjy: bitewi näçe deň bölege bölünendigini görkezýär.\n• a — sanawjy: şol böleklerden näçesiniň alnandygyny görkezýär.\nMysal: 3/4 — bitewi 4 bölege bölündi we 3 bölek alyndy.\n\n• Sanawjysy maýdalawjysyndan kiçi bolsa — dogry drob (2/5).\n• Sanawjysy maýdalawjysyna deň ýa-da ondan uly bolsa — nädogry drob (7/5).\n\nDrobuň esasy häsiýeti: sanawjyny we maýdalawjyny şol bir sana köpeltsek ýa-da bölsek, drobuň ululygy üýtgemeýär. Şonuň kömegi bilen droby gysgaldýarys.",
+          "ru": "Дробь показывает несколько равных частей целого: a/b.\n• b — знаменатель: на сколько равных частей разделили целое.\n• a — числитель: сколько таких частей взяли.\nПример: 3/4 — целое разделили на 4 части и взяли 3.\n\n• Если числитель меньше знаменателя — правильная дробь (2/5).\n• Если числитель равен знаменателю или больше — неправильная дробь (7/5).\n\nОсновное свойство дроби: если числитель и знаменатель умножить или разделить на одно и то же число, дробь не изменится. Так дроби сокращают."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mysal 1: 6/8 droby gysgaldalyň.\n6 we 8 ikisi hem 2-ä bölünýär: 6 : 2 = 3, 8 : 2 = 4 → 6/8 = 3/4.\n\nMysal 2: maýdalawjylary deň droblary goşmak.\n2/5 + 1/5: maýdalawjy şol bolup galýar, sanawjylar goşulýar → (2 + 1)/5 = 3/5.",
+          "ru": "Пример 1: сократим дробь 6/8.\n6 и 8 делятся на 2: 6 : 2 = 3, 8 : 2 = 4 → 6/8 = 3/4.\n\nПример 2: сложение дробей с одинаковыми знаменателями.\n2/5 + 1/5: знаменатель остаётся тем же, числители складываются → (2 + 1)/5 = 3/5."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Haýsy drob 1/2-ä deň?", "ru": "Какая дробь равна 1/2?"},
+          "options": ["2/3", "3/6", "4/6"],
+          "answer": 1,
+          "hint": {"tk": "Sanawjy maýdalawjynyň ýarysy bolmaly.", "ru": "Числитель должен быть половиной знаменателя."},
+          "explain": {"tk": "3/6 droby 3-e gysgaltsak: 3 : 3 = 1, 6 : 3 = 2 → 1/2.", "ru": "Сократим 3/6 на 3: 3 : 3 = 1, 6 : 3 = 2 → 1/2."}
+        },
+        {"type": "input",
+          "q": {"tk": "Hasaplaň: 3/7 + 2/7 = ?", "ru": "Вычислите: 3/7 + 2/7 = ?"},
+          "answer": "5/7",
+          "hint": {"tk": "Maýdalawjy üýtgemeýär, sanawjylary goşuň.", "ru": "Знаменатель не меняется, сложите числители."},
+          "explain": {"tk": "3 + 2 = 5, maýdalawjy 7 bolup galýar: 5/7.", "ru": "3 + 2 = 5, знаменатель остаётся 7: получаем 5/7."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "7/5 — dogry drob.", "ru": "7/5 — правильная дробь."},
+          "answer": false,
+          "hint": {"tk": "Sanawjyny we maýdalawjyny deňeşdiriň.", "ru": "Сравните числитель и знаменатель."},
+          "explain": {"tk": "Sanawjy 7 maýdalawjy 5-den uly, diýmek bu nädogry drob. Ol 1-den uly: 7/5 = 1 bitin 2/5.", "ru": "Числитель 7 больше знаменателя 5, значит, дробь неправильная. Она больше 1: 7/5 = 1 целая 2/5."}
+        },
+        {"type": "input",
+          "q": {"tk": "Sagadyň 1/4 bölegi näçe minut?", "ru": "Сколько минут в 1/4 часа?"},
+          "answer": "15",
+          "hint": {"tk": "1 sagat = 60 minut. Ony 4 deň bölege bölüň.", "ru": "1 час = 60 минут. Разделите на 4 равные части."},
+          "explain": {"tk": "60 : 4 = 15. Şonuň üçin çärýek sagat — 15 minut.", "ru": "60 : 4 = 15. Поэтому четверть часа — 15 минут."}
+        },
+        {"type": "world", "text": {
+          "tk": "Gadymy Müsürde droblar bilen eýýäm 3500 ýyl ozal işläpdirler. «Rind papirusy» atly gadymy matematiki ýazgyda müsürlileriň sanawjysy 1 bolan droblary (1/2, 1/3, 1/4 …) ulanyp, çörek paýlamak ýaly meseleleri çözendigi görünýär.",
+          "ru": "В Древнем Египте с дробями работали уже около 3500 лет назад. В древнем математическом тексте — «папирусе Ринда» — видно, что египтяне использовали дроби с числителем 1 (1/2, 1/3, 1/4 …) и решали с ними задачи, например о делении хлеба."
+        }}
+      ]
+    },
+    {
+      "id": "math-5-decimal-fractions",
+      "grade": 5,
+      "topic": 3,
+      "title": {"tk": "Onluk droblar", "ru": "Десятичные дроби"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Onluk drob — maýdalawjysy 10, 100, 1000 … bolan drobuň gysga ýazgysy.\n• 7/10 = 0,7 (nol bitin ondan ýedi)\n• 35/100 = 0,35\n• 2 bitin 4/1000 = 2,004\n\nOtur bitin bölegi drob böleginden aýyrýar. Oturdan sagdaky orunlar: ondan birler, ýüzden birler, müňden birler.\n\nDeňeşdirmek: ilki bitin bölekleri, soňra oturdan soňky sifrleri çepden saga deňeşdirýäris. Sagda nol goşmak sany üýtgetmeýär: 0,5 = 0,50.\nGoşmak we aýyrmak: otury oturyň aşagynda ýazyp, orunlary deňleşdirýäris.",
+          "ru": "Десятичная дробь — короткая запись дроби со знаменателем 10, 100, 1000 …\n• 7/10 = 0,7 (ноль целых семь десятых)\n• 35/100 = 0,35\n• 2 целых 4/1000 = 2,004\n\nЗапятая отделяет целую часть от дробной. Разряды после запятой: десятые, сотые, тысячные.\n\nСравнение: сначала сравниваем целые части, затем цифры после запятой слева направо. Нули справа не меняют число: 0,5 = 0,50.\nСложение и вычитание: пишем запятую под запятой, выравнивая разряды."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mysal: 3,45 + 1,8 hasaplalyň.\n1) Orunlary deňleşdirýäris: 1,8 = 1,80.\n2) Otury oturyň aşagynda ýazýarys:\n   3,45\n + 1,80\n3) Sagdan goşýarys: 5 + 0 = 5; 4 + 8 = 12 (2 ýazýarys, 1 ýatda); 3 + 1 + 1 = 5.\nJogap: 5,25.",
+          "ru": "Пример: вычислим 3,45 + 1,8.\n1) Уравниваем разряды: 1,8 = 1,80.\n2) Пишем запятую под запятой:\n   3,45\n + 1,80\n3) Складываем справа: 5 + 0 = 5; 4 + 8 = 12 (пишем 2, 1 в уме); 3 + 1 + 1 = 5.\nОтвет: 5,25."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Haýsy san iň uly?", "ru": "Какое число самое большое?"},
+          "options": ["0,7", "0,65", "0,09"],
+          "answer": 0,
+          "hint": {"tk": "Hemmesini iki sifrli ediň: 0,70; 0,65; 0,09.", "ru": "Сделайте у всех два знака: 0,70; 0,65; 0,09."},
+          "explain": {"tk": "0,70 > 0,65 > 0,09, sebäbi ondan birler ornunda 7 > 6 > 0.", "ru": "0,70 > 0,65 > 0,09, потому что в разряде десятых 7 > 6 > 0."}
+        },
+        {"type": "input",
+          "q": {"tk": "Hasaplaň: 2,4 + 1,35 = ?", "ru": "Вычислите: 2,4 + 1,35 = ?"},
+          "answer": "3,75|3.75",
+          "hint": {"tk": "2,4 = 2,40 diýip ýazyň.", "ru": "Запишите 2,4 как 2,40."},
+          "explain": {"tk": "2,40 + 1,35: 0 + 5 = 5, 4 + 3 = 7, 2 + 1 = 3 → 3,75.", "ru": "2,40 + 1,35: 0 + 5 = 5, 4 + 3 = 7, 2 + 1 = 3 → 3,75."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "0,3 = 3/100.", "ru": "0,3 = 3/100."},
+          "answer": false,
+          "hint": {"tk": "Oturdan soňky birinji orun näme?", "ru": "Как называется первый разряд после запятой?"},
+          "explain": {"tk": "Birinji orun — ondan birler, şonuň üçin 0,3 = 3/10. 3/100 bolsa 0,03.", "ru": "Первый разряд — десятые, поэтому 0,3 = 3/10. А 3/100 = 0,03."}
+        },
+        {"type": "input",
+          "q": {"tk": "7/100 droby onluk drob görnüşinde ýazyň.", "ru": "Запишите дробь 7/100 в виде десятичной."},
+          "answer": "0,07|0.07",
+          "hint": {"tk": "Maýdalawjyda iki nol bar — oturdan soň iki sifr bolmaly.", "ru": "В знаменателе два нуля — после запятой должно быть две цифры."},
+          "explain": {"tk": "100-de iki nol, şonuň üçin oturdan soň iki orun: 0,07 (nol bitin ýüzden ýedi).", "ru": "У 100 два нуля, поэтому после запятой два разряда: 0,07 (ноль целых семь сотых)."}
+        },
+        {"type": "world", "text": {
+          "tk": "XV asyrda Samarkantda işlän alym Jemşit al-Kaşy onluk droblar bilen hasaplamalary giňden ulanypdyr. 1585-nji ýylda flamand inženeri Simon Stewin onluk droblar barada kiçijik kitap çap edip, olary Ýewropada meşhur edipdir. Häzir pul, uzynlyk we agram ölçeglerinde onluk droblary her gün ulanýarys.",
+          "ru": "В XV веке учёный аль-Каши, работавший в Самарканде, широко пользовался десятичными дробями в вычислениях. В 1585 году фламандский инженер Симон Стевин издал небольшую книгу о десятичных дробях и сделал их популярными в Европе. Сегодня мы пользуемся ими каждый день — в деньгах, длинах и весах."
+        }}
+      ]
+    },
+    {
+      "id": "math-5-percentages",
+      "grade": 5,
+      "topic": 4,
+      "title": {"tk": "Göterimler", "ru": "Проценты"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Göterim — sanyň ýüzden bir bölegi: 1% = 1/100 = 0,01.\nPeýdaly deňlikler:\n• 100% — bütin san\n• 50% = 1/2 (ýarysy)\n• 25% = 1/4 (çärýegi)\n• 10% = 1/10\n\nSanyň göterimini tapmak: sany 100-e bölüp, göterim sanyna köpeltmeli.\nMysal: 300-üň 7%-i = 300 : 100 · 7 = 21.",
+          "ru": "Процент — одна сотая часть числа: 1% = 1/100 = 0,01.\nПолезные равенства:\n• 100% — всё число\n• 50% = 1/2 (половина)\n• 25% = 1/4 (четверть)\n• 10% = 1/10\n\nКак найти процент от числа: разделить число на 100 и умножить на количество процентов.\nПример: 7% от 300 = 300 : 100 · 7 = 21."
+        }},
+        {"type": "example", "text": {
+          "tk": "Mysal: synpda 25 okuwçy bar, olaryň 40%-i sport bilen meşgullanýar. Näçe okuwçy?\n1) 1% tapýarys: 25 : 100 = 0,25.\n2) 40% tapýarys: 0,25 · 40 = 10.\nÝa-da gysgaça: 40% = 2/5, 25-iň 2/5 bölegi: 25 : 5 · 2 = 10.\nJogap: 10 okuwçy.",
+          "ru": "Пример: в классе 25 учеников, 40% из них занимаются спортом. Сколько это учеников?\n1) Находим 1%: 25 : 100 = 0,25.\n2) Находим 40%: 0,25 · 40 = 10.\nИли короче: 40% = 2/5, а 2/5 от 25: 25 : 5 · 2 = 10.\nОтвет: 10 учеников."
+        }},
+        {"type": "input",
+          "q": {"tk": "80-iň 10%-i näçe?", "ru": "Сколько составляет 10% от 80?"},
+          "answer": "8",
+          "hint": {"tk": "10% — sanyň ondan bir bölegi.", "ru": "10% — это десятая часть числа."},
+          "explain": {"tk": "80 : 10 = 8.", "ru": "80 : 10 = 8."}
+        },
+        {"type": "choice",
+          "q": {"tk": "25% haýsy droba deň?", "ru": "Какой дроби равны 25%?"},
+          "options": ["1/25", "1/2", "1/4"],
+          "answer": 2,
+          "hint": {"tk": "25/100 droby gysgaldyň.", "ru": "Сократите дробь 25/100."},
+          "explain": {"tk": "25% = 25/100. 25-e gysgaltsak: 1/4.", "ru": "25% = 25/100. Сокращаем на 25: 1/4."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Synpda 30 okuwçy, olaryň 15-i gyz. Diýmek, gyzlar synpyň 50%-i.", "ru": "В классе 30 учеников, 15 из них девочки. Значит, девочки составляют 50% класса."},
+          "answer": true,
+          "hint": {"tk": "15 sany 30-yň näçe bölegi?", "ru": "Какую часть от 30 составляет 15?"},
+          "explain": {"tk": "15/30 = 1/2, ýarysy bolsa 50%.", "ru": "15/30 = 1/2, а половина — это 50%."}
+        },
+        {"type": "input",
+          "q": {"tk": "Köwüş 200 manat. Oňa 15% arzanladyş edildi. Täze bahasy näçe manat?", "ru": "Обувь стоит 200 манатов. На неё дали скидку 15%. Сколько манатов стоит обувь теперь?"},
+          "answer": "170",
+          "hint": {"tk": "Ilki 200-üň 15%-ini tapyň, soňra ony aýryň.", "ru": "Сначала найдите 15% от 200, затем вычтите."},
+          "explain": {"tk": "200 : 100 · 15 = 30 manat arzanladyş. 200 − 30 = 170 manat.", "ru": "200 : 100 · 15 = 30 манатов скидки. 200 − 30 = 170 манатов."}
+        },
+        {"type": "world", "text": {
+          "tk": "«Göterim» düşünjesi Ýewropa dillerinde «procent» diýip atlandyrylýar — ol latynça «per centum», ýagny «ýüzden» diýen sözlerden gelip çykýar. % belgisi italýan söwdagärleriniň gysgaldyp ýazan «per cento» sözünden wagtyň geçmegi bilen emele gelipdir diýlip hasap edilýär.",
+          "ru": "Слово «процент» происходит от латинского «per centum» — «на сотню». Считается, что знак % постепенно возник из сокращённой записи «per cento», которой пользовались итальянские торговцы."
+        }}
+      ]
+    },
+    {
+      "id": "math-5-angles",
+      "grade": 5,
+      "topic": 5,
+      "title": {"tk": "Burçlar we olary ölçemek", "ru": "Углы и их измерение"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Burç — bir nokatdan çykýan iki şöhleden emele gelen figura. Nokada burçuň depesi, şöhlelere onuň taraplary diýilýär.\nBurçlar graduslarda (°) ölçenýär. Ölçemek üçin transportir ulanylýar.\n\nBurçlaryň görnüşleri:\n• ýiti burç — 90°-dan kiçi\n• göni burç — 90° (depderiň burçy ýaly)\n• kütek burç — 90°-dan uly, 180°-dan kiçi\n• ýazgyn burç — 180° (taraplary bir göni çyzykda ýatýar)\n• doly aýlaw — 360°",
+          "ru": "Угол — фигура из двух лучей, выходящих из одной точки. Точка — вершина угла, лучи — его стороны.\nУглы измеряют в градусах (°) с помощью транспортира.\n\nВиды углов:\n• острый — меньше 90°\n• прямой — 90° (как угол тетради)\n• тупой — больше 90°, но меньше 180°\n• развёрнутый — 180° (стороны лежат на одной прямой)\n• полный оборот — 360°"
+        }},
+        {"type": "example", "text": {
+          "tk": "Transportir bilen ölçemek:\n1) Transportiriň merkezini burçuň depesine goýýarys.\n2) Onuň nol çyzygyny burçuň bir tarapy bilen gabat getirýäris.\n3) Ikinji tarapyň şkalany kesýän ýerindäki sany okaýarys.\n\nMysal: göni burç iki bölege bölündi, biri 35°. Ikinjisi näçe?\n90° − 35° = 55°.",
+          "ru": "Измерение транспортиром:\n1) Ставим центр транспортира на вершину угла.\n2) Совмещаем нулевую линию с одной стороной угла.\n3) Читаем число там, где вторая сторона пересекает шкалу.\n\nПример: прямой угол разделили на два угла, один из них 35°. Чему равен второй?\n90° − 35° = 55°."
+        }},
+        {"type": "choice",
+          "q": {"tk": "120° burç nähili burç?", "ru": "Какой угол равен 120°?"},
+          "options": [{"tk": "kütek", "ru": "тупой"}, {"tk": "ýiti", "ru": "острый"}, {"tk": "göni", "ru": "прямой"}],
+          "answer": 0,
+          "hint": {"tk": "120 sany 90 bilen 180 aralygyndamy?", "ru": "Лежит ли 120 между 90 и 180?"},
+          "explain": {"tk": "90° < 120° < 180°, diýmek bu kütek burç.", "ru": "90° < 120° < 180°, значит, угол тупой."}
+        },
+        {"type": "input",
+          "q": {"tk": "Ýazgyn burç iki bölege bölündi. Bir bölegi 65°. Ikinji bölegi näçe gradus?", "ru": "Развёрнутый угол разделили на две части. Одна часть 65°. Сколько градусов во второй?"},
+          "answer": "115",
+          "hint": {"tk": "Ýazgyn burç näçe gradus?", "ru": "Сколько градусов в развёрнутом угле?"},
+          "explain": {"tk": "180° − 65° = 115°.", "ru": "180° − 65° = 115°."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Sagat 3:00-da sagat bilen minut diliniň arasyndaky burç 90°.", "ru": "В 3:00 угол между часовой и минутной стрелками равен 90°."},
+          "answer": true,
+          "hint": {"tk": "Siferblat 12 bölege bölünen, doly aýlaw 360°.", "ru": "Циферблат разделён на 12 частей, полный оборот — 360°."},
+          "explain": {"tk": "Bir bölek 360° : 12 = 30°. 12-den 3-e çenli 3 bölek: 3 · 30° = 90°.", "ru": "Одна часть 360° : 12 = 30°. От 12 до 3 — три части: 3 · 30° = 90°."}
+        },
+        {"type": "choice",
+          "q": {"tk": "89° burç nähili burç?", "ru": "Каким является угол 89°?"},
+          "options": [{"tk": "göni", "ru": "прямой"}, {"tk": "ýiti", "ru": "острый"}, {"tk": "kütek", "ru": "тупой"}],
+          "answer": 1,
+          "hint": {"tk": "89 sany 90-dan uly ýa-da kiçi?", "ru": "89 больше или меньше 90?"},
+          "explain": {"tk": "89° < 90°, şonuň üçin burç ýiti (göni burçdan bary-ýogy 1° kiçi).", "ru": "89° < 90°, поэтому угол острый (всего на 1° меньше прямого)."}
+        },
+        {"type": "world", "text": {
+          "tk": "Aýlawy 360 gradusa bölmek gadymy Wawilondan gelýär. Wawilon alymlary 60-lyk hasap ulgamyny ulanypdyrlar, ýylda hem takmynan 360 gün bar diýip hasaplapdyrlar. Şol sebäpli 1 sagatda 60 minut, 1 minutda 60 sekunt bar — bu hem şol gadymy ulgamyň yzy.",
+          "ru": "Деление окружности на 360 градусов пришло из Древнего Вавилона. Вавилонские учёные пользовались шестидесятеричной системой счисления и считали, что в году примерно 360 дней. Отсюда же 60 минут в часе и 60 секунд в минуте — след той древней системы."
+        }}
+      ]
+    }
+  ]
+}

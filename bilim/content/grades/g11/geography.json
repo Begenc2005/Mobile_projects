@@ -1,0 +1,338 @@
+{
+  "grade": 11,
+  "subject": "geography",
+  "lessons": [
+    {
+      "id": "geography-11-demography",
+      "grade": 11,
+      "topic": 0,
+      "title": {"tk": "Demografiýa: ilatyň sany we ösüşi", "ru": "Демография: численность и рост населения"},
+      "minutes": 10,
+      "steps": [
+        {
+          "type": "theory",
+          "text": {
+            "tk": "Demografiýa — ilatyň sanyny, düzümini we üýtgeýşini öwrenýän ylym.\n\nEsasy görkezijiler (köplenç 1000 adama hasaplanýar, ‰ — promille):\n• Dogluş koeffisiýenti (D) — ýylda 1000 adama düşýän dogulanlaryň sany.\n• Ölüm koeffisiýenti (Ö) — ýylda 1000 adama düşýän ölenleriň sany.\n• Tebigy ösüş = D − Ö.\n• Jemi ösüş = tebigy ösüş + migrasiýa saldosy (gelenler − gidenler).\n• Umumy önelgelilik koeffisiýenti — bir aýala düşýän çaganyň ortaça sany. Ilatyň sanynyň durnukly bolmagy üçin takmynan 2,1 gerek.\n\nDemografik geçiş modeli 4 tapgyrdan ybarat:\n1) dogluş we ölüm ýokary — ösüş haýal;\n2) ölüm peselýär — ösüş çalt («demografik partlama»);\n3) dogluş hem peselýär — ösüş haýallaýar;\n4) dogluş we ölüm pes — ösüş haýal ýa-da nola golaý.\n\n2022-nji ýylyň noýabrynda dünýä ilaty 8 milliarda ýetdi.",
+            "ru": "Демография — наука о численности, составе и изменении населения.\n\nОсновные показатели (обычно на 1000 жителей, ‰ — промилле):\n• Коэффициент рождаемости (Р) — число родившихся за год на 1000 жителей.\n• Коэффициент смертности (С) — число умерших за год на 1000 жителей.\n• Естественный прирост = Р − С.\n• Общий прирост = естественный прирост + сальдо миграции (прибывшие − выбывшие).\n• Суммарный коэффициент рождаемости — среднее число детей на одну женщину. Для простого воспроизводства населения нужно около 2,1.\n\nМодель демографического перехода состоит из 4 стадий:\n1) высокие рождаемость и смертность — рост медленный;\n2) смертность падает — быстрый рост («демографический взрыв»);\n3) снижается и рождаемость — рост замедляется;\n4) низкие рождаемость и смертность — рост медленный или близок к нулю.\n\nВ ноябре 2022 года население мира достигло 8 миллиардов."
+          }
+        },
+        {
+          "type": "example",
+          "text": {
+            "tk": "Mesele: Şäheriň ilaty 200 000 adam. Ýylyň dowamynda 4 400 çaga doguldy, 1 600 adam aradan çykdy. Hasaplaň: D, Ö we tebigy ösüş (‰).\n\n1) D = 4 400 : 200 000 × 1000 = 22 ‰.\n2) Ö = 1 600 : 200 000 × 1000 = 8 ‰.\n3) Tebigy ösüş = 22 − 8 = 14 ‰, ýagny 1,4 %.\n4) Absolýut san boýunça: 4 400 − 1 600 = 2 800 adam.\nEger şol ýyl 1 000 adam göçüp gelip, 1 500 adam göçüp giden bolsa, migrasiýa saldosy −500, jemi ösüş 2 800 − 500 = 2 300 adam bolar.",
+            "ru": "Задача: население города 200 000 человек. За год родилось 4 400 детей, умерло 1 600 человек. Вычислите Р, С и естественный прирост (‰).\n\n1) Р = 4 400 : 200 000 × 1000 = 22 ‰.\n2) С = 1 600 : 200 000 × 1000 = 8 ‰.\n3) Естественный прирост = 22 − 8 = 14 ‰, то есть 1,4 %.\n4) В абсолютных числах: 4 400 − 1 600 = 2 800 человек.\nЕсли в тот же год приехали 1 000 человек и уехали 1 500, сальдо миграции −500, а общий прирост 2 800 − 500 = 2 300 человек."
+          }
+        },
+        {
+          "type": "input",
+          "q": {"tk": "Ýurtda dogluş koeffisiýenti 18 ‰, ölüm koeffisiýenti 7 ‰. Tebigy ösüş näçe ‰?", "ru": "В стране коэффициент рождаемости 18 ‰, смертности 7 ‰. Каков естественный прирост в ‰?"},
+          "answer": "11",
+          "hint": {"tk": "Dogluşdan ölümi aýyryň.", "ru": "Вычтите смертность из рождаемости."},
+          "explain": {"tk": "Tebigy ösüş = D − Ö = 18 − 7 = 11 ‰ (ýagny ýylda 1,1 %).", "ru": "Естественный прирост = Р − С = 18 − 7 = 11 ‰ (то есть 1,1 % в год)."}
+        },
+        {
+          "type": "choice",
+          "q": {"tk": "Demografik geçişiň haýsy tapgyrynda «demografik partlama» bolýar?", "ru": "На какой стадии демографического перехода происходит «демографический взрыв»?"},
+          "options": [
+            {"tk": "Birinji: dogluş we ölüm ýokary", "ru": "Первой: высокие рождаемость и смертность"},
+            {"tk": "Dördünji: dogluş we ölüm pes", "ru": "Четвёртой: низкие рождаемость и смертность"},
+            {"tk": "Ikinji: ölüm çalt peselýär, dogluş ýokary galýar", "ru": "Второй: смертность быстро падает, рождаемость остаётся высокой"}
+          ],
+          "answer": 2,
+          "hint": {"tk": "Dogluş bilen ölümiň arasyndaky tapawut haçan iň uly bolýar?", "ru": "Когда разница между рождаемостью и смертностью наибольшая?"},
+          "explain": {"tk": "Ikinji tapgyrda lukmançylyk we iýmit gowulanýar, ölüm peselýär, ýöne maşgalalarda çaga köp bolmagynda galýar. Tapawut uly — ilat çalt artýar.", "ru": "На второй стадии улучшаются медицина и питание, смертность падает, а детей в семьях по-прежнему много. Разница большая — население быстро растёт."}
+        },
+        {
+          "type": "truefalse",
+          "q": {"tk": "Umumy önelgelilik koeffisiýenti 1,4 bolan ýurtda migrasiýa bolmasa, ilat uzak möhletde azalar.", "ru": "В стране с суммарным коэффициентом рождаемости 1,4 без миграции население в долгосрочной перспективе будет сокращаться."},
+          "answer": true,
+          "hint": {"tk": "Ilatyň durnukly bolmagy üçin gerek bolan derejäni ýada salyň.", "ru": "Вспомните уровень, нужный для простого воспроизводства."},
+          "explain": {"tk": "Ýönekeý köpelme üçin bir aýala takmynan 2,1 çaga gerek. 1,4 bu derejeden pes, şonuň üçin her nesil öňküsinden az bolar.", "ru": "Для простого воспроизводства нужно около 2,1 ребёнка на женщину. 1,4 ниже этого уровня, поэтому каждое поколение будет меньше предыдущего."}
+        },
+        {
+          "type": "world",
+          "text": {
+            "tk": "BMG-niň maglumatlaryna görä, 2023-nji ýylda Hindistan ilatynyň sany boýunça Hytaýy yzda galdyryp, dünýäde birinji orna çykdy. Hytaýyň ilaty bolsa 2022-nji ýyldan bäri azalyp başlady.",
+            "ru": "По данным ООН, в 2023 году Индия обогнала Китай и стала самой населённой страной мира. А население Китая с 2022 года начало сокращаться."
+          }
+        }
+      ]
+    },
+    {
+      "id": "geography-11-urbanization",
+      "grade": 11,
+      "topic": 1,
+      "title": {"tk": "Şäherleşme we megapolisler", "ru": "Урбанизация и мегаполисы"},
+      "minutes": 9,
+      "steps": [
+        {
+          "type": "theory",
+          "text": {
+            "tk": "Şäherleşme (urbanizasiýa) — şäherleriň we şäher ilatynyň paýynyň artmagy, şäher ýaşaýyş durmuşynyň ýaýramagy.\n\nŞäherleşme derejesi = şäher ilaty : jemi ilat × 100 %.\n• 1950-nji ýylda dünýä ilatynyň takmynan 30 %-i şäherlerde ýaşaýardy.\n• 2007-nji ýyl töweregi şäher ilaty ilkinji gezek oba ilatyndan köp boldy.\n• Häzir takmynan 55–57 %.\n\nEsasy düşünjeler:\n• Aglomerasiýa — uly şäher we onuň töweregindäki ýakyn baglanyşykly şäherçeler.\n• Megapolis (megalopolis) — birleşip giden birnäçe aglomerasiýa, mysal üçin ABŞ-nyň gündogar kenaryndaky Boston — Waşington zolagy.\n• Megaşäher — ilaty 10 milliondan köp şäher.\n• Suburbanizasiýa — ilatyň şäher merkezinden töwereklere göçmegi.\n\nÖsýän ýurtlarda şäherler çalt ulalýar, bu käwagt «ýalan şäherleşmä» — ýaşaýyş jaýy, iş we infrastruktura ýetmezçiligine getirýär.",
+            "ru": "Урбанизация — рост городов и доли городского населения, распространение городского образа жизни.\n\nУровень урбанизации = городское население : всё население × 100 %.\n• В 1950 году в городах жило около 30 % населения мира.\n• Около 2007 года горожан впервые стало больше, чем сельских жителей.\n• Сейчас — примерно 55–57 %.\n\nОсновные понятия:\n• Агломерация — крупный город и тесно связанные с ним соседние поселения.\n• Мегалополис — слившиеся несколько агломераций, например полоса Бостон — Вашингтон на востоке США.\n• Мегагород — город с населением более 10 миллионов.\n• Субурбанизация — переселение жителей из центра города в пригороды.\n\nВ развивающихся странах города растут очень быстро, что иногда приводит к «ложной урбанизации» — нехватке жилья, рабочих мест и инфраструктуры."
+          }
+        },
+        {
+          "type": "example",
+          "text": {
+            "tk": "Mesele: Ýurduň ilaty 7,5 mln adam, şolardan 3,6 mln şäherlerde ýaşaýar. Şäherleşme derejesini tapyň we ony dünýäniň ortaça derejesi (≈ 57 %) bilen deňeşdiriň.\n\n1) Şäherleşme derejesi = 3,6 : 7,5 × 100 % = 48 %.\n2) 48 % < 57 % — ýurt dünýäniň ortaça derejesinden pes.\n3) Oba ilaty = 7,5 − 3,6 = 3,9 mln, ýagny 52 %.\n4) Netije: ýurtda oba ilaty henizem az-kem agdyklyk edýär; şäherleriň ösmegine garaşmak bolar.",
+            "ru": "Задача: население страны 7,5 млн человек, из них 3,6 млн живут в городах. Найдите уровень урбанизации и сравните со средним мировым (≈ 57 %).\n\n1) Уровень урбанизации = 3,6 : 7,5 × 100 % = 48 %.\n2) 48 % < 57 % — страна ниже среднего мирового уровня.\n3) Сельское население = 7,5 − 3,6 = 3,9 млн, то есть 52 %.\n4) Вывод: в стране пока немного преобладает сельское население, можно ожидать дальнейшего роста городов."
+          }
+        },
+        {
+          "type": "input",
+          "q": {"tk": "Ilaty 20 mln, şäher ilaty 16 mln bolan ýurtda şäherleşme derejesi näçe göterim?", "ru": "Население страны 20 млн, городское — 16 млн. Каков уровень урбанизации в процентах?"},
+          "answer": "80|80%",
+          "hint": {"tk": "Şäher ilatyny jemi ilata bölüp, 100-e köpeldiň.", "ru": "Разделите городское население на всё население и умножьте на 100."},
+          "explain": {"tk": "16 : 20 × 100 % = 80 %. Bu ýokary şäherleşen ýurt.", "ru": "16 : 20 × 100 % = 80 %. Это высокоурбанизированная страна."}
+        },
+        {
+          "type": "choice",
+          "q": {"tk": "Birnäçe aglomerasiýanyň birleşip, uly zolak emele getirmegine näme diýilýär?", "ru": "Как называется слияние нескольких агломераций в большую полосу?"},
+          "options": [
+            {"tk": "Megalopolis", "ru": "Мегалополис"},
+            {"tk": "Suburbanizasiýa", "ru": "Субурбанизация"},
+            {"tk": "Oba ilaty", "ru": "Сельское население"}
+          ],
+          "answer": 0,
+          "hint": {"tk": "Grekçe «megas» — «uly», «polis» — «şäher».", "ru": "По-гречески «megas» — «большой», «polis» — «город»."},
+          "explain": {"tk": "Megalopolis — birnäçe aglomerasiýanyň birleşmesi. Suburbanizasiýa bolsa ilatyň şäher töweregine göçmegi.", "ru": "Мегалополис — слияние нескольких агломераций. Субурбанизация — это переселение жителей в пригороды."}
+        },
+        {
+          "type": "truefalse",
+          "q": {"tk": "XX asyryň ortasynda dünýä ilatynyň köpüsi eýýäm şäherlerde ýaşaýardy.", "ru": "К середине XX века большинство населения мира уже жило в городах."},
+          "answer": false,
+          "hint": {"tk": "1950-nji ýylda şäher ilatynyň paýy näçe bolupdy?", "ru": "Какой была доля горожан в 1950 году?"},
+          "explain": {"tk": "1950-nji ýylda şäherlerde ilatyň diňe takmynan 30 %-i ýaşaýardy. Şäher ilaty ilkinji gezek 2007-nji ýyl töweregi köplügi düzdi.", "ru": "В 1950 году в городах жило лишь около 30 % населения. Горожане впервые стали большинством около 2007 года."}
+        },
+        {
+          "type": "world",
+          "text": {
+            "tk": "Tokio aglomerasiýasy köp onýyllyklaryň dowamynda ilaty boýunça dünýäde iň uly şäher sebiti hasaplanýar: onda 37 milliona golaý adam ýaşaýar. Ýaponiýanyň çalt otly «Şinkanseni» 1964-nji ýylda Tokio bilen Osakany birleşdirip, megapolisiň ösmegine uly täsir etdi.",
+            "ru": "Агломерация Токио уже много десятилетий считается крупнейшей городской областью мира: в ней живёт около 37 миллионов человек. Японский скоростной поезд «Синкансэн» в 1964 году соединил Токио и Осаку и сильно повлиял на развитие мегалополиса."
+          }
+        }
+      ]
+    },
+    {
+      "id": "geography-11-international-trade",
+      "grade": 11,
+      "topic": 2,
+      "title": {"tk": "Halkara söwda we dünýä hojalygy", "ru": "Международная торговля и мировое хозяйство"},
+      "minutes": 10,
+      "steps": [
+        {
+          "type": "theory",
+          "text": {
+            "tk": "Halkara söwda — ýurtlaryň arasynda harytlary we hyzmatlary alyş-çalyş etmek.\n\nEsasy düşünjeler:\n• Eksport — haryt satmak (daşary ýurda çykarmak), import — haryt satyn almak (getirmek).\n• Söwda balansy (saldosy) = eksport − import. Položitel bolsa — profisit, otrisatel bolsa — defisit.\n• Daşary söwda dolanyşygy = eksport + import.\n• Halkara zähmet bölünişigi — her ýurt has amatly öndürip bilýän zadynda ýöriteleşýär.\n• Deňeşdirme artykmaçlygy (D. Rikardo, 1817) — ýurt has arzan öndürip bilýän harytlaryny eksport etmeli.\n\nHalkara guramalar we birleşmeler:\n• Bütindünýä söwda guramasy (BSG/WTO) — 1995-nji ýylda döredildi, ondan öň GATT (1947) hereket edýärdi.\n• Sebitleýin birleşmeler: Ýewropa Bileleşigi, ASEAN, USMCA (öňki NAFTA), MERKOSUR.\n\nDünýä söwdasynyň esasy bölegini deňiz ulaglary we konteýnerler daşaýar.",
+            "ru": "Международная торговля — обмен товарами и услугами между странами.\n\nОсновные понятия:\n• Экспорт — продажа (вывоз) товаров за границу, импорт — покупка (ввоз).\n• Торговый баланс (сальдо) = экспорт − импорт. Положительный — профицит, отрицательный — дефицит.\n• Внешнеторговый оборот = экспорт + импорт.\n• Международное разделение труда — специализация каждой страны на том, что она производит выгоднее.\n• Сравнительное преимущество (Д. Рикардо, 1817) — стране выгодно экспортировать то, что она производит с меньшими относительными затратами.\n\nМеждународные организации и объединения:\n• Всемирная торговая организация (ВТО) — создана в 1995 году, до неё действовало ГАТТ (1947).\n• Региональные объединения: Европейский союз, АСЕАН, USMCA (бывшая НАФТА), МЕРКОСУР.\n\nБольшую часть мировой торговли по объёму перевозят морским транспортом в контейнерах."
+          }
+        },
+        {
+          "type": "example",
+          "text": {
+            "tk": "Mesele: Ýurduň ýyllyk eksporty 12 mlrd dollar, importy 9 mlrd dollar. Söwda balansyny we daşary söwda dolanyşygyny tapyň.\n\n1) Söwda balansy = 12 − 9 = +3 mlrd dollar → profisit (ýurt satyn alýanyndan köp satýar).\n2) Dolanyşyk = 12 + 9 = 21 mlrd dollar.\n3) Eksportyň dolanyşykdaky paýy = 12 : 21 × 100 % ≈ 57 %.\nEger indiki ýyl import 14 mlrd dollara çykyp, eksport üýtgemese, balans 12 − 14 = −2 mlrd dollar — defisit bolar.",
+            "ru": "Задача: годовой экспорт страны 12 млрд долларов, импорт — 9 млрд долларов. Найдите торговый баланс и внешнеторговый оборот.\n\n1) Торговый баланс = 12 − 9 = +3 млрд долларов → профицит (страна продаёт больше, чем покупает).\n2) Оборот = 12 + 9 = 21 млрд долларов.\n3) Доля экспорта в обороте = 12 : 21 × 100 % ≈ 57 %.\nЕсли в следующем году импорт вырастет до 14 млрд, а экспорт не изменится, баланс составит 12 − 14 = −2 млрд долларов — дефицит."
+          }
+        },
+        {
+          "type": "input",
+          "q": {"tk": "Eksport 40 mlrd, import 55 mlrd dollar. Söwda balansy näçe mlrd dollar? (alamaty bilen ýazyň)", "ru": "Экспорт 40 млрд, импорт 55 млрд долларов. Каков торговый баланс в млрд долларов? (со знаком)"},
+          "answer": "-15|−15",
+          "hint": {"tk": "Balans = eksport − import.", "ru": "Баланс = экспорт − импорт."},
+          "explain": {"tk": "40 − 55 = −15 mlrd dollar. Balans otrisatel — bu söwda defisiti.", "ru": "40 − 55 = −15 млрд долларов. Баланс отрицательный — это торговый дефицит."}
+        },
+        {
+          "type": "choice",
+          "q": {"tk": "Bütindünýä söwda guramasy haýsy ýylda döredildi?", "ru": "В каком году была создана Всемирная торговая организация?"},
+          "options": ["1947", "1995", "2001"],
+          "answer": 1,
+          "hint": {"tk": "1947-nji ýylda onuň öňküsi — GATT gol çekildi.", "ru": "В 1947 году был подписан её предшественник — ГАТТ."},
+          "explain": {"tk": "BSG 1995-nji ýylyň 1-nji ýanwarynda GATT-yň esasynda işe başlady. 2001-nji ýyl Hytaýyň BSG-ä giren ýyly.", "ru": "ВТО начала работу 1 января 1995 года на основе ГАТТ. 2001 год — год вступления Китая в ВТО."}
+        },
+        {
+          "type": "truefalse",
+          "q": {"tk": "Deňeşdirme artykmaçlygy nazaryýetine görä, ýurt diňe beýleki ýurtlardan absolýut arzan öndürip bilýän harytlaryny söwda etmeli.", "ru": "Согласно теории сравнительного преимущества, страна должна торговать только теми товарами, которые производит абсолютно дешевле других."},
+          "answer": false,
+          "hint": {"tk": "Rikardonyň pikiri «absolýut» däl-de, «deňeşdirme» çykdajylara esaslanýar.", "ru": "Идея Рикардо основана не на абсолютных, а на относительных затратах."},
+          "explain": {"tk": "Rikardo ähli harytlary has gymmat öndürýän ýurduň hem söwdadan peýda alyp bilýändigini görkezdi: ol ýitgisi iň az bolan harytda ýöriteleşmeli.", "ru": "Рикардо показал, что даже страна, производящая всё дороже других, выигрывает от торговли: ей нужно специализироваться на том, где её отставание наименьшее."}
+        },
+        {
+          "type": "world",
+          "text": {
+            "tk": "1956-njy ýylda amerikan telekeçisi Malkolm Maklin ilkinji gezek standart metal konteýnerleri gämide daşady. Konteýnerler ýükleri düşürmegiň we ýüklemegiň çykdajylaryny ep-esli arzanlatdy we häzirki dünýä söwdasynyň esasyny düzýär.",
+            "ru": "В 1956 году американский предприниматель Малком Маклин впервые перевёз на судне стандартные металлические контейнеры. Контейнеры резко удешевили погрузку и разгрузку и стали основой современной мировой торговли."
+          }
+        }
+      ]
+    },
+    {
+      "id": "geography-11-tourism",
+      "grade": 11,
+      "topic": 3,
+      "title": {"tk": "Halkara syýahatçylyk", "ru": "Международный туризм"},
+      "minutes": 8,
+      "steps": [
+        {
+          "type": "theory",
+          "text": {
+            "tk": "Syýahatçylyk — dynç almak, iş, okuw ýa-da beýleki maksatlar bilen hemişelik ýaşaýan ýeriňden daşary gitmek (BMG-niň kesgitlemesine görä, bir ýyldan köp bolmadyk möhlete).\n\nGörnüşleri:\n• Dynç alyş we kenar syýahatçylygy.\n• Medeni-taryhy (muzeýler, ýadygärlikler).\n• Ekosyýahatçylyk (tebigy goraghanalar).\n• Iş, dini, saglyk (kurort), sport syýahatçylygy.\n\nGeografiýasy:\n• Ýewropa — halkara syýahatçylaryň iň köp barýan sebiti (dünýädäki gelişleriň ýarysy töweregi).\n• Iň köp syýahatçy kabul edýän ýurt — Fransiýa.\n• Aziýa — Ýuwaş umman sebiti iň çalt ösýän sebitleriň biri.\n\nYkdysady ähmiýeti: iş orunlary, walýuta girdejisi, ulag we myhmanhana pudagynyň ösüşi. Ýaramaz täsirleri: tebigata agram, «artykmaç syýahatçylyk» (overtourism), möwsümleýinlik.\n\nÝUNESKO-nyň Bütindünýä mirasynyň sanawy 1972-nji ýylyň konwensiýasyna esaslanýar.",
+            "ru": "Туризм — поездки за пределы места постоянного проживания с целью отдыха, работы, учёбы и т. п. (по определению ООН — на срок не более года).\n\nВиды:\n• Рекреационный и пляжный.\n• Культурно-исторический (музеи, памятники).\n• Экотуризм (природные заповедники).\n• Деловой, религиозный, лечебный (курорты), спортивный.\n\nГеография:\n• Европа — регион, который посещают больше всего иностранных туристов (около половины мировых прибытий).\n• Страна, принимающая больше всего туристов, — Франция.\n• Азиатско-Тихоокеанский регион — один из самых быстрорастущих.\n\nЭкономическое значение: рабочие места, валютные доходы, развитие транспорта и гостиничного хозяйства. Негативные стороны: нагрузка на природу, «сверхтуризм» (overtourism), сезонность.\n\nСписок всемирного наследия ЮНЕСКО основан на конвенции 1972 года."
+          }
+        },
+        {
+          "type": "example",
+          "text": {
+            "tk": "Mesele: Ýurda bir ýylda 2 mln daşary ýurtly syýahatçy geldi. Her biri ortaça 8 gün galyp, günde ortaça 150 dollar sarp etdi. Syýahatçylykdan girdeji näçe?\n\n1) Bir syýahatçynyň sarp edişi = 8 × 150 = 1 200 dollar.\n2) Jemi = 2 000 000 × 1 200 = 2 400 000 000 dollar = 2,4 mlrd dollar.\n3) Eger ortaça galmak möhleti 10 güne çykarylsa (mysal üçin täze marşrutlar arkaly), girdeji 2 000 000 × 10 × 150 = 3 mlrd dollar bolar — 25 % köp.\nNetije: syýahatçylaryň sanyny köpeltmek bilen bir hatarda, olaryň galýan wagtyny uzaltmak hem möhüm.",
+            "ru": "Задача: страну за год посетили 2 млн иностранных туристов. Каждый в среднем пробыл 8 дней и тратил в среднем 150 долларов в день. Каков доход от туризма?\n\n1) Расходы одного туриста = 8 × 150 = 1 200 долларов.\n2) Всего = 2 000 000 × 1 200 = 2 400 000 000 долларов = 2,4 млрд долларов.\n3) Если средний срок пребывания увеличить до 10 дней (например, за счёт новых маршрутов), доход составит 2 000 000 × 10 × 150 = 3 млрд долларов — на 25 % больше.\nВывод: важно не только привлечь больше туристов, но и продлить их пребывание."
+          }
+        },
+        {
+          "type": "choice",
+          "q": {"tk": "Halkara syýahatçylary iň köp kabul edýän ýurt haýsy?", "ru": "Какая страна принимает больше всего иностранных туристов?"},
+          "options": [
+            {"tk": "Braziliýa", "ru": "Бразилия"},
+            {"tk": "Awstraliýa", "ru": "Австралия"},
+            {"tk": "Fransiýa", "ru": "Франция"}
+          ],
+          "answer": 2,
+          "hint": {"tk": "Bu ýurtda Eýfel diňi we Luwr muzeýi ýerleşýär.", "ru": "В этой стране находятся Эйфелева башня и Лувр."},
+          "explain": {"tk": "Fransiýa köp ýyllaryň dowamynda daşary ýurtly syýahatçylaryň gelişleri boýunça dünýäde birinji orunda durýar.", "ru": "Франция уже много лет занимает первое место в мире по числу прибытий иностранных туристов."}
+        },
+        {
+          "type": "input",
+          "q": {"tk": "Syýahatçy 5 gün galyp, günde 120 dollar sarp edýär. Ol jemi näçe dollar sarp edýär?", "ru": "Турист пробыл 5 дней и тратил 120 долларов в день. Сколько долларов он потратил всего?"},
+          "answer": "600",
+          "hint": {"tk": "Günleriň sanyny gündelik çykdajy bilen köpeldiň.", "ru": "Умножьте число дней на дневные расходы."},
+          "explain": {"tk": "5 × 120 = 600 dollar.", "ru": "5 × 120 = 600 долларов."}
+        },
+        {
+          "type": "truefalse",
+          "q": {"tk": "Ekosyýahatçylyk tebigaty gorap saklamak we ýerli ilata peýda getirmek ýörelgesine esaslanýar.", "ru": "Экотуризм основан на принципах сохранения природы и пользы для местного населения."},
+          "answer": true,
+          "hint": {"tk": "«Eko» bölegi nämäni aňladýar?", "ru": "Что означает часть «эко»?"},
+          "explain": {"tk": "Ekosyýahatçylyk tebigy ýerlere jogapkärli syýahat bolup, tebigata zyýany azaltmagy we ýerli jemgyýetleri goldamagy maksat edinýär.", "ru": "Экотуризм — ответственные путешествия в природные места, цель которых — минимизировать вред природе и поддержать местные сообщества."}
+        },
+        {
+          "type": "world",
+          "text": {
+            "tk": "Türkmenistanyň üç ýadygärligi ÝUNESKO-nyň Bütindünýä mirasynyň sanawyna girizildi: «Gadymy Merw» döwlet taryhy-medeni seýilgähi (1999), Köneürgenç (2005) we Nusaýyň parfiýa galalary (2007). Olar Beýik Ýüpek ýolunyň taryhy bilen baglanyşykly.",
+            "ru": "Три памятника Туркменистана внесены в Список всемирного наследия ЮНЕСКО: государственный историко-культурный парк «Древний Мерв» (1999), Куняургенч (2005) и парфянские крепости Нисы (2007). Они связаны с историей Великого шёлкового пути."
+          }
+        }
+      ]
+    },
+    {
+      "id": "geography-11-water-resources",
+      "grade": 11,
+      "topic": 4,
+      "title": {"tk": "Dünýäniň suw baýlyklary", "ru": "Водные ресурсы мира"},
+      "minutes": 10,
+      "steps": [
+        {
+          "type": "theory",
+          "text": {
+            "tk": "Ýerdäki suwuň takmynan 97,5 %-i şor (umman we deňizler), diňe 2,5 %-i süýji suw. Süýji suwuň:\n• takmynan 69 %-i buzluklarda we hemişelik garlarda,\n• takmynan 30 %-i ýerasty suwlarda,\n• 1 %-den azy derýalarda, kölleriň we atmosferada.\n\nSuwuň ulanylyşy (dünýä boýunça ortaça):\n• oba hojalygy (suwaryş) — takmynan 70 %,\n• senagat — takmynan 20 %,\n• durmuş-hojalyk zerurlyklary — takmynan 10 %.\n\nSuw stresi — ýylda adam başyna düşýän täzelenýän süýji suw 1 700 m³-den az bolsa; 1 000 m³-den az bolsa — suw ýetmezçiligi.\n\nMeseleler: ýerasty suwlaryň artykmaç alynmagy, hapalanma, derýa akymynyň azalmagy, transserhet derýalar boýunça ylalaşyklar.\nÇözgütler: damjalaýyn suwaryş, suwy gaýtadan ulanmak, deňiz suwuny süýjetmek (desalinasiýa), kanallaryň ýitgilerini azaltmak.",
+            "ru": "Около 97,5 % воды на Земле — солёная (океаны и моря), и лишь 2,5 % — пресная. Из пресной воды:\n• около 69 % — в ледниках и вечных снегах,\n• около 30 % — подземные воды,\n• менее 1 % — в реках, озёрах и атмосфере.\n\nИспользование воды (в среднем по миру):\n• сельское хозяйство (орошение) — около 70 %,\n• промышленность — около 20 %,\n• коммунально-бытовые нужды — около 10 %.\n\nВодный стресс — когда возобновляемой пресной воды меньше 1 700 м³ на человека в год; меньше 1 000 м³ — водный дефицит.\n\nПроблемы: чрезмерный забор подземных вод, загрязнение, уменьшение стока рек, соглашения по трансграничным рекам.\nРешения: капельное орошение, повторное использование воды, опреснение морской воды, снижение потерь в каналах."
+          }
+        },
+        {
+          "type": "example",
+          "text": {
+            "tk": "Mesele: Ýurtda ýylda 22 km³ täzelenýän süýji suw bar, ilaty 11 mln adam. Suw stresi barmy?\n\n1) 1 km³ = 1 000 000 000 m³, diýmek 22 km³ = 22 000 000 000 m³.\n2) Adam başyna: 22 000 000 000 : 11 000 000 = 2 000 m³.\n3) 2 000 > 1 700 — häzirlikçe suw stresi ýok.\n4) Eger ilat 14 mln-a ýetse: 22 000 000 000 : 14 000 000 ≈ 1 571 m³ < 1 700 — suw stresi başlanýar.\nNetije: suw mukdary üýtgemese-de, ilatyň ösmegi adam başyna düşýän suwy azaldýar.",
+            "ru": "Задача: в стране 22 км³ возобновляемой пресной воды в год, население — 11 млн человек. Есть ли водный стресс?\n\n1) 1 км³ = 1 000 000 000 м³, значит 22 км³ = 22 000 000 000 м³.\n2) На человека: 22 000 000 000 : 11 000 000 = 2 000 м³.\n3) 2 000 > 1 700 — пока водного стресса нет.\n4) Если население достигнет 14 млн: 22 000 000 000 : 14 000 000 ≈ 1 571 м³ < 1 700 — начинается водный стресс.\nВывод: даже при неизменном количестве воды рост населения уменьшает её запас на человека."
+          }
+        },
+        {
+          "type": "choice",
+          "q": {"tk": "Dünýäde süýji suwy iň köp ulanýan pudak haýsy?", "ru": "Какая отрасль в мире использует больше всего пресной воды?"},
+          "options": [
+            {"tk": "Oba hojalygy", "ru": "Сельское хозяйство"},
+            {"tk": "Senagat", "ru": "Промышленность"},
+            {"tk": "Öý hojalyklary", "ru": "Домашние хозяйства"}
+          ],
+          "answer": 0,
+          "hint": {"tk": "Ekin meýdanlaryny suwarmak üçin näçe suw gerekdigini göz öňüne getiriň.", "ru": "Представьте, сколько воды нужно для полива полей."},
+          "explain": {"tk": "Suwaryş dünýäde alynýan süýji suwuň takmynan 70 %-ini sarp edýär. Şonuň üçin suwy tygşytlamagyň esasy ätiýaçlygy oba hojalygynda.", "ru": "На орошение уходит около 70 % забираемой в мире пресной воды. Поэтому главный резерв экономии — в сельском хозяйстве."}
+        },
+        {
+          "type": "input",
+          "q": {"tk": "Ýerdäki suwuň 2,5 %-i süýji. Onda şor suw näçe göterim?", "ru": "Пресная вода составляет 2,5 % всей воды на Земле. Сколько процентов приходится на солёную?"},
+          "answer": "97.5|97,5",
+          "hint": {"tk": "Jemi 100 %.", "ru": "Всего 100 %."},
+          "explain": {"tk": "100 − 2,5 = 97,5 %. Ýagny suwuň aglaba bölegi gönüden-göni içmäge ýa-da suwaryşa ýaramsyz.", "ru": "100 − 2,5 = 97,5 %. То есть почти вся вода непригодна напрямую для питья и полива."}
+        },
+        {
+          "type": "truefalse",
+          "q": {"tk": "Süýji suwuň iň uly bölegi derýalarda we köllerde jemlenendir.", "ru": "Основная часть пресной воды сосредоточена в реках и озёрах."},
+          "answer": false,
+          "hint": {"tk": "Antarktidany we Grenlandiýany ýada salyň.", "ru": "Вспомните Антарктиду и Гренландию."},
+          "explain": {"tk": "Süýji suwuň iki üçden gowragy buzluklarda (esasan Antarktidada we Grenlandiýada). Derýalarda we köllerde 1 %-den az.", "ru": "Более двух третей пресной воды — в ледниках (в основном в Антарктиде и Гренландии). В реках и озёрах — менее 1 %."}
+        },
+        {
+          "type": "world",
+          "text": {
+            "tk": "Bir wagtlar dünýäde ululygy boýunça dördünji köl bolan Aral deňzi 1960-njy ýyllardan başlap, Amyderýanyň we Syrderýanyň suwunyň suwaryşa giňden alynmagy sebäpli ep-esli kiçeldi. Bu XX asyryň iň uly ekologik betbagtçylyklarynyň biri hasaplanýar.",
+            "ru": "Аральское море, когда-то четвёртое по величине озеро мира, начиная с 1960-х годов сильно уменьшилось из-за масштабного забора воды Амударьи и Сырдарьи на орошение. Это считается одной из крупнейших экологических катастроф XX века."
+          }
+        }
+      ]
+    },
+    {
+      "id": "geography-11-climate-change",
+      "grade": 11,
+      "topic": 5,
+      "title": {"tk": "Howanyň üýtgemegi", "ru": "Изменение климата"},
+      "minutes": 10,
+      "steps": [
+        {
+          "type": "theory",
+          "text": {
+            "tk": "Parnik effekti — atmosferadaky käbir gazlaryň (CO₂, metan CH₄, azot oksidi N₂O, suw bugy) Ýeriň ýylylyk şöhlelenmesini saklamagy. Tebigy parnik effekti bolmasa, Ýeriň ortaça temperaturasy takmynan −18 °C bolardy (häzir ≈ +15 °C).\n\nHäzirki ýylylaşma:\n• Senagat rewolýusiýasyndan bäri ortaça global temperatura takmynan 1,1–1,2 °C ýokarlandy.\n• CO₂-niň atmosferadaky konsentrasiýasy senagatdan öň ≈ 280 ppm bolupdy, häzir 420 ppm-den ýokary.\n• Esasy sebäp — ýangyç ýakmak (kömür, nebit, gaz) we tokaýlaryň çapylmagy.\n\nNetijeleri: buzluklaryň eremegi, ummanyň derejesiniň galmagy, aşa yssy we guraklyk ýygylaşmagy, ummanyň turşulaşmagy.\n\nHalkara ylalaşyklar:\n• BMG-niň Howa üýtgemegi baradaky çarçuwaly konwensiýasy (1992).\n• Kioto protokoly (1997).\n• Pariž ylalaşygy (2015) — ýylylaşmany 2 °C-dan ep-esli pes, mümkin bolsa 1,5 °C bilen çäklendirmek.",
+            "ru": "Парниковый эффект — удержание теплового излучения Земли некоторыми газами атмосферы (CO₂, метан CH₄, закись азота N₂O, водяной пар). Без естественного парникового эффекта средняя температура Земли была бы около −18 °C (сейчас ≈ +15 °C).\n\nСовременное потепление:\n• С начала индустриальной эпохи средняя глобальная температура выросла примерно на 1,1–1,2 °C.\n• Концентрация CO₂ в атмосфере до индустриальной эпохи была ≈ 280 ppm, сейчас — выше 420 ppm.\n• Главная причина — сжигание топлива (уголь, нефть, газ) и вырубка лесов.\n\nПоследствия: таяние ледников, повышение уровня океана, учащение экстремальной жары и засух, закисление океана.\n\nМеждународные соглашения:\n• Рамочная конвенция ООН об изменении климата (1992).\n• Киотский протокол (1997).\n• Парижское соглашение (2015) — удержать потепление значительно ниже 2 °C и по возможности в пределах 1,5 °C."
+          }
+        },
+        {
+          "type": "example",
+          "text": {
+            "tk": "Mesele: CO₂-niň konsentrasiýasy senagatdan öň 280 ppm, 2023-nji ýylda takmynan 420 ppm. Ol näçe göterim artypdyr?\n\n1) Artyş = 420 − 280 = 140 ppm.\n2) Göterim = 140 : 280 × 100 % = 50 %.\n3) Netije: atmosferadaky CO₂ ýarym esse artypdyr.\nDeňeşdirme: buz gatlaklaryndaky howa köpürjiklerine görä, soňky 800 müň ýylda CO₂ tebigy ýagdaýda takmynan 180–300 ppm aralygynda üýtgäpdir. Häzirki derejäniň bu aralykdan ep-esli ýokarydygy görünýär.",
+            "ru": "Задача: концентрация CO₂ до индустриальной эпохи — 280 ppm, в 2023 году — около 420 ppm. На сколько процентов она выросла?\n\n1) Прирост = 420 − 280 = 140 ppm.\n2) Процент = 140 : 280 × 100 % = 50 %.\n3) Вывод: CO₂ в атмосфере стало в полтора раза больше.\nДля сравнения: по пузырькам воздуха во льду за последние 800 тысяч лет CO₂ естественно колебался примерно от 180 до 300 ppm. Видно, что нынешний уровень заметно выше этого диапазона."
+          }
+        },
+        {
+          "type": "choice",
+          "q": {"tk": "Haýsy halkara resminama ýylylaşmany 1,5–2 °C bilen çäklendirmegi maksat edinýär?", "ru": "Какой международный документ ставит цель ограничить потепление 1,5–2 °C?"},
+          "options": [
+            {"tk": "Kioto protokoly", "ru": "Киотский протокол"},
+            {"tk": "Pariž ylalaşygy", "ru": "Парижское соглашение"},
+            {"tk": "Monreal protokoly", "ru": "Монреальский протокол"}
+          ],
+          "answer": 1,
+          "hint": {"tk": "Bu ylalaşyk 2015-nji ýylda kabul edildi.", "ru": "Это соглашение было принято в 2015 году."},
+          "explain": {"tk": "Pariž ylalaşygy (2015) temperatura maksatlaryny kesgitledi. Kioto protokoly (1997) ösen ýurtlaryň zyňyndylaryny azaltmak borçlaryny girizdi, Monreal protokoly (1987) bolsa ozon gatlagyny goramak barada.", "ru": "Парижское соглашение (2015) установило температурные цели. Киотский протокол (1997) ввёл обязательства развитых стран по сокращению выбросов, а Монреальский протокол (1987) — о защите озонового слоя."}
+        },
+        {
+          "type": "truefalse",
+          "q": {"tk": "Tebigy parnik effekti bolmasa, Ýer häzirkisinden ep-esli sowuk bolardy.", "ru": "Без естественного парникового эффекта Земля была бы значительно холоднее."},
+          "answer": true,
+          "hint": {"tk": "−18 °C we +15 °C sanlaryny deňeşdiriň.", "ru": "Сравните −18 °C и +15 °C."},
+          "explain": {"tk": "Tebigy parnik effekti Ýeri takmynan 33 °C ýylydýar we ýaşaýyş üçin amatly şertleri döredýär. Mesele — onuň adam işjeňligi sebäpli güýçlenmegi.", "ru": "Естественный парниковый эффект согревает Землю примерно на 33 °C и делает её пригодной для жизни. Проблема — его усиление деятельностью человека."}
+        },
+        {
+          "type": "input",
+          "q": {"tk": "Pariž ylalaşygy haýsy ýylda kabul edildi?", "ru": "В каком году было принято Парижское соглашение?"},
+          "answer": "2015",
+          "hint": {"tk": "Kioto protokolyndan 18 ýyl soň.", "ru": "Через 18 лет после Киотского протокола."},
+          "explain": {"tk": "1997 + 18 = 2015. Ylalaşyk 2015-nji ýylyň dekabrynda Parižde kabul edildi we 2016-njy ýylda güýje girdi.", "ru": "1997 + 18 = 2015. Соглашение принято в декабре 2015 года в Париже и вступило в силу в 2016 году."}
+        },
+        {
+          "type": "world",
+          "text": {
+            "tk": "Amerikan alymy Çarlz Kiling 1958-nji ýylda Gawaý adalaryndaky Mauna-Loa obserwatoriýasynda atmosferadaky CO₂-ni yzygiderli ölçäp başlady. Onuň grafigi — «Kiling egrisi» — CO₂-niň her ýyl artýandygyny we tomus-gyş boýunça «dem alyşyny» görkezýär.",
+            "ru": "Американский учёный Чарлз Килинг в 1958 году начал регулярные измерения CO₂ в атмосфере в обсерватории Мауна-Лоа на Гавайях. Его график — «кривая Килинга» — показывает ежегодный рост CO₂ и сезонное «дыхание» планеты."
+          }
+        }
+      ]
+    }
+  ]
+}

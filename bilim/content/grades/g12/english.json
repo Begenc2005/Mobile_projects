@@ -1,0 +1,288 @@
+{
+  "grade": 12,
+  "subject": "english",
+  "lessons": [
+    {
+      "id": "english-12-academic-writing",
+      "grade": 12,
+      "topic": 0,
+      "title": {"tk": "Academic writing: akademiki ýazuw", "ru": "Academic writing: академическое письмо"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Akademiki ýazuw — esseler, referatlar we ylmy işler üçin resmi stil.\n\nGurluşy:\n• Introduction — tema we thesis statement (esasy pikir bir sözlemde).\n• Body paragraphs — her abzas: topic sentence → evidence → explanation.\n• Conclusion — esasy pikiri gaýtalaýar, täze delil girizmeýär.\n\nStil düzgünleri:\n• Gysgaltmalar ýok: don't → do not, it's → it is.\n• Gepleşik sözler ýok: a lot of → many / a considerable number of; get → obtain.\n• Hedging — ölçegli aýtmak: may, might, tends to, it appears that.\n• Linkers: however, moreover, therefore, in contrast, as a result.",
+          "ru": "Академическое письмо — формальный стиль эссе, рефератов и научных работ.\n\nСтруктура:\n• Introduction — тема и thesis statement (главная мысль одним предложением).\n• Body paragraphs — каждый абзац: topic sentence → evidence → explanation.\n• Conclusion — повторяет главную мысль, не вводит новых доводов.\n\nПравила стиля:\n• Без сокращений: don't → do not, it's → it is.\n• Без разговорных слов: a lot of → many / a considerable number of; get → obtain.\n• Hedging — осторожные формулировки: may, might, tends to, it appears that.\n• Связки: however, moreover, therefore, in contrast, as a result."
+        }},
+        {"type": "example", "text": {
+          "tk": "Gepleşik sözlem: \"Lots of kids don't get enough sleep, and it's really bad for them.\"\n\n1) Lots of kids → Many adolescents\n2) don't get → do not obtain / do not receive\n3) it's really bad → this may have negative effects\n4) Takyklyk goşuň: on their academic performance.\n\nAkademiki: \"Many adolescents do not receive sufficient sleep, which may have negative effects on their academic performance.\"",
+          "ru": "Разговорное предложение: \"Lots of kids don't get enough sleep, and it's really bad for them.\"\n\n1) Lots of kids → Many adolescents\n2) don't get → do not obtain / do not receive\n3) it's really bad → this may have negative effects\n4) Уточним: on their academic performance.\n\nАкадемично: \"Many adolescents do not receive sufficient sleep, which may have negative effects on their academic performance.\""
+        }},
+        {"type": "choice",
+          "q": {"tk": "Haýsy sözlem iň akademiki?", "ru": "Какое предложение наиболее академично?"},
+          "options": ["The results suggest that exercise may improve memory.", "Exercise is super good for your memory!", "You'll remember stuff better if you run."],
+          "answer": 0,
+          "hint": {"tk": "Hedging we resmi sözleri gözläň.", "ru": "Ищите hedging и формальную лексику."},
+          "explain": {"tk": "\"suggest\", \"may\" — ölçegli, resmi; beýlekilerde gepleşik sözler (super, stuff) we gysgaltmalar bar.", "ru": "\"suggest\", \"may\" — осторожно и формально; в других — разговорные слова (super, stuff) и сокращения."}
+        },
+        {"type": "input",
+          "q": {"tk": "Akademiki görnüşde ýazyň: \"don't\"", "ru": "Запишите в академической форме: \"don't\""},
+          "answer": "do not",
+          "hint": {"tk": "Gysgaltmany doly ýazyň.", "ru": "Раскройте сокращение."},
+          "explain": {"tk": "Akademiki ýazuwda gysgaltmalar ulanylmaýar: don't → do not.", "ru": "В академическом письме сокращений нет: don't → do not."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Conclusion bölüminde täze delilleri girizmek maslahat berilýär.", "ru": "В заключении рекомендуется приводить новые доводы."},
+          "answer": false,
+          "hint": {"tk": "Netijäniň wezipesi näme?", "ru": "Какова задача заключения?"},
+          "explain": {"tk": "Ýalňyş: conclusion jemleýär we tezisi gaýtalaýar, täze delil girizmeýär.", "ru": "Неверно: заключение подводит итог и повторяет тезис, новых доводов не вводит."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy linker garşylygy aňladýar?", "ru": "Какая связка выражает противопоставление?"},
+          "options": ["moreover", "therefore", "however"],
+          "answer": 2,
+          "hint": {"tk": "Rusça «однако».", "ru": "По-русски «однако»."},
+          "explain": {"tk": "however — garşylyk; moreover — goşmaça; therefore — netije.", "ru": "however — противопоставление; moreover — добавление; therefore — следствие."}
+        },
+        {"type": "world", "text": {
+          "tk": "Ilkinji ylmy žurnallar 1665-nji ýylda peýda boldy: Parižde «Journal des sçavans», Londonda «Philosophical Transactions of the Royal Society». Ikinjisi häzir hem çykýar we dünýäde iň uzak wagt çykýan ylmy žurnal hasaplanýar.",
+          "ru": "Первые научные журналы появились в 1665 году: «Journal des sçavans» в Париже и «Philosophical Transactions of the Royal Society» в Лондоне. Второй выходит до сих пор и считается старейшим непрерывно издаваемым научным журналом."
+        }}
+      ]
+    },
+    {
+      "id": "english-12-citing-sources",
+      "grade": 12,
+      "topic": 1,
+      "title": {"tk": "Citing sources: çeşmelere salgylanmak", "ru": "Citing sources: ссылки на источники"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Başga birinň pikirini ulananyňyzda, çeşmäni görkezmeli. Görkezmezlik — plagiat (plagiarism).\n\nÜç usul:\n• Quoting — sözme-söz, dyrnaklarda.\n• Paraphrasing — öz sözleriňiz bilen gaýtadan aýtmak.\n• Summarising — esasy pikiri gysgaça bermek.\nÜçüsinde-de salgylanma gerek!\n\nAPA stili (in-text): (Author, Year) — (Smith, 2020); sitata üçin sahypa: (Smith, 2020, p. 15).\nMLA stili: (Author page) — (Smith 15).\nIşiň ahyrynda — References (APA) ýa-da Works Cited (MLA) sanawy.\n\nReporting verbs: argues, claims, states, suggests, notes.",
+          "ru": "Используя чужую мысль, нужно указать источник. Иначе — плагиат (plagiarism).\n\nТри способа:\n• Quoting — дословно, в кавычках.\n• Paraphrasing — пересказ своими словами.\n• Summarising — краткое изложение главной мысли.\nВо всех трёх нужна ссылка!\n\nСтиль APA (в тексте): (Author, Year) — (Smith, 2020); для цитаты страница: (Smith, 2020, p. 15).\nСтиль MLA: (Author page) — (Smith 15).\nВ конце работы — список References (APA) или Works Cited (MLA).\n\nГлаголы цитирования: argues, claims, states, suggests, notes."
+        }},
+        {"type": "example", "text": {
+          "tk": "Çeşme: kitap, awtor Jane Lee, 2019, 42-nji sahypada: \"Bilingual children often show stronger attention control.\"\n\n1) Sitata (APA): Lee (2019) states that \"bilingual children often show stronger attention control\" (p. 42).\n2) Parafraza: According to Lee (2019), children who speak two languages tend to focus better.\n3) References sanawynda: Lee, J. (2019). Title of the book. Publisher.",
+          "ru": "Источник: книга Jane Lee, 2019, стр. 42: \"Bilingual children often show stronger attention control.\"\n\n1) Цитата (APA): Lee (2019) states that \"bilingual children often show stronger attention control\" (p. 42).\n2) Перефраз: According to Lee (2019), children who speak two languages tend to focus better.\n3) В списке References: Lee, J. (2019). Title of the book. Publisher."
+        }},
+        {"type": "truefalse",
+          "q": {"tk": "Eger pikiri öz sözleriňiz bilen gaýtadan ýazsaňyz (paraphrase), çeşmäni görkezmek hökman däl.", "ru": "Если пересказать мысль своими словами (paraphrase), указывать источник не обязательно."},
+          "answer": false,
+          "hint": {"tk": "Pikir kime degişli bolup galýar?", "ru": "Кому по-прежнему принадлежит идея?"},
+          "explain": {"tk": "Ýalňyş: pikir awtoryňky, şonuň üçin parafrazada-da salgylanma gerek.", "ru": "Неверно: идея принадлежит автору, поэтому и при перефразе нужна ссылка."}
+        },
+        {"type": "choice",
+          "q": {"tk": "APA stilinde dogry tekst içindäki salgylanma haýsy?", "ru": "Какая ссылка в тексте верна для стиля APA?"},
+          "options": ["(2020 Smith)", "(Smith, 2020)", "[Smith: page 2020]"],
+          "answer": 1,
+          "hint": {"tk": "APA: awtor, soňra ýyl.", "ru": "APA: автор, затем год."},
+          "explain": {"tk": "APA formaty — (Familiýa, Ýyl): (Smith, 2020).", "ru": "Формат APA — (Фамилия, Год): (Smith, 2020)."}
+        },
+        {"type": "input",
+          "q": {"tk": "Başga birinň işini salgylanmasyz öz işiň ýaly görkezmek iňlisçe nähili atlandyrylýar?", "ru": "Как по-английски называется выдача чужой работы за свою без ссылки?"},
+          "answer": "plagiarism",
+          "hint": {"tk": "Bu söz «p» bilen başlanýar, rusça «плагиат».", "ru": "По-русски «плагиат»."},
+          "explain": {"tk": "Plagiarism — akademiki dürüstligiň esasy bozulmasy.", "ru": "Plagiarism — главное нарушение академической честности."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Uzyn teksti esasy pikirine çenli gysgaltmak — bu:", "ru": "Сократить длинный текст до главной мысли — это:"},
+          "options": ["quoting", "paraphrasing", "summarising"],
+          "answer": 2,
+          "hint": {"tk": "«Summary» — gysgaça mazmun.", "ru": "«Summary» — краткое содержание."},
+          "explain": {"tk": "Summarising — esasy pikiri gysgaça bermek; paraphrasing — takmynan şol uzynlykda öz sözleriň bilen.", "ru": "Summarising — кратко передать суть; paraphrasing — своими словами примерно того же объёма."}
+        },
+        {"type": "world", "text": {
+          "tk": "APA stili Amerikan psihologiýa assosiasiýasy tarapyndan döredildi; onuň ilkinji gollanmasy 1929-njy ýylda žurnal makalasy görnüşinde çykdy. Häzir bu stil sosial we tebigy ylymlarda giňden ulanylýar.",
+          "ru": "Стиль APA создан Американской психологической ассоциацией; первые правила вышли в 1929 году в виде журнальной статьи. Сегодня этот стиль широко используется в социальных и естественных науках."
+        }}
+      ]
+    },
+    {
+      "id": "english-12-debate-language",
+      "grade": 12,
+      "topic": 2,
+      "title": {"tk": "Debate language: jedel dili", "ru": "Debate language: язык дебатов"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Debatda iki topar bir motion (tema) boýunça çykyş edýär: proposition (goldaýanlar) we opposition (garşylar).\n\nPeýdaly aňlatmalar:\n• Pikir aýtmak: I firmly believe that…, In my view…, It is clear that…\n• Goşmak: Furthermore…, Another key point is…\n• Razylaşmazlyk (sypaýy): I see your point, but…, With respect, I disagree because…, That may be true; however…\n• Rebuttal (garşy jogap): My opponent claimed that…, but the evidence shows…\n• Jemlemek: To sum up…, For these reasons, we urge you to…\n\nSypaýylyk: adamy däl, pikiri tankytlaň.",
+          "ru": "В дебатах две команды выступают по теме (motion): proposition (за) и opposition (против).\n\nПолезные фразы:\n• Мнение: I firmly believe that…, In my view…, It is clear that…\n• Добавление: Furthermore…, Another key point is…\n• Вежливое несогласие: I see your point, but…, With respect, I disagree because…, That may be true; however…\n• Rebuttal (опровержение): My opponent claimed that…, but the evidence shows…\n• Итог: To sum up…, For these reasons, we urge you to…\n\nВежливость: критикуйте мысль, а не человека."
+        }},
+        {"type": "example", "text": {
+          "tk": "Motion: \"Schools should ban phones.\"\nGarşydaşyň pikiri: \"Phones help students learn.\"\n\nRebuttal ädimleri:\n1) Gaýtalaň: \"My opponent claimed that phones help students learn.\"\n2) Sypaýy razylaşmazlyk: \"That may be true for some apps; however,…\"\n3) Delil: \"…many studies link phone use in class to lower concentration.\"\n4) Baglanyşdyryň: \"Therefore, a ban would protect learning time.\"",
+          "ru": "Motion: \"Schools should ban phones.\"\nДовод оппонента: \"Phones help students learn.\"\n\nШаги опровержения:\n1) Повторите: \"My opponent claimed that phones help students learn.\"\n2) Вежливое несогласие: \"That may be true for some apps; however,…\"\n3) Довод: \"…many studies link phone use in class to lower concentration.\"\n4) Свяжите: \"Therefore, a ban would protect learning time.\""
+        }},
+        {"type": "choice",
+          "q": {"tk": "Haýsy aňlatma sypaýy razylaşmazlygy aňladýar?", "ru": "Какая фраза выражает вежливое несогласие?"},
+          "options": ["You are totally wrong.", "With respect, I disagree because…", "That's a stupid idea."],
+          "answer": 1,
+          "hint": {"tk": "«Respect» sözüni gözläň.", "ru": "Ищите слово «respect»."},
+          "explain": {"tk": "\"With respect, I disagree because…\" — sypaýy we delil bilen; beýlekiler gödek.", "ru": "\"With respect, I disagree because…\" — вежливо и с доводом; остальные грубы."}
+        },
+        {"type": "input",
+          "q": {"tk": "Garşydaşyň pikirine jogap bermek debatda nähili atlandyrylýar? (bir iňlis sözi, r bilen başlanýar)", "ru": "Как в дебатах называется ответ на довод оппонента? (одно английское слово на r)"},
+          "answer": "rebuttal",
+          "hint": {"tk": "Rusça «опровержение».", "ru": "По-русски «опровержение»."},
+          "explain": {"tk": "Rebuttal — garşydaşyň delilini ret etmek.", "ru": "Rebuttal — опровержение довода оппонента."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Debatda \"opposition\" topary motion-y goldaýar.", "ru": "В дебатах команда \"opposition\" поддерживает motion."},
+          "answer": false,
+          "hint": {"tk": "Oppose — garşy çykmak.", "ru": "Oppose — возражать."},
+          "explain": {"tk": "Ýalňyş: motion-y proposition goldaýar, opposition garşy çykýar.", "ru": "Неверно: motion поддерживает proposition, opposition выступает против."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Jemleýji çykyş üçin haýsy aňlatma laýyk?", "ru": "Какая фраза подходит для заключительной речи?"},
+          "options": ["To sum up,", "Firstly,", "My first point is"],
+          "answer": 0,
+          "hint": {"tk": "Netije çykarmak.", "ru": "Подведение итога."},
+          "explain": {"tk": "\"To sum up\" — jemlemek; beýlekiler başlangyç üçin.", "ru": "\"To sum up\" — итог; остальные — для начала."}
+        },
+        {"type": "world", "text": {
+          "tk": "Oksford uniwersitetiniň «Oxford Union» debat klubu 1823-nji ýylda esaslandyryldy. Onda köp döwlet işgärleri, alymlar we ýazyjylar çykyş etdiler, ol dünýäde iň meşhur debat jemgyýetleriniň biri.",
+          "ru": "Дебатный клуб Оксфордского университета «Oxford Union» основан в 1823 году. В нём выступали многие государственные деятели, учёные и писатели; это одно из самых известных дебатных обществ мира."
+        }}
+      ]
+    },
+    {
+      "id": "english-12-literature-in-english",
+      "grade": 12,
+      "topic": 3,
+      "title": {"tk": "Literature in English: iňlis dilindäki edebiýat", "ru": "Literature in English: литература на английском"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Iňlis dilli edebiýatyň esasy atlary:\n• William Shakespeare (1564–1616) — «Hamlet», «Romeo and Juliet», «Macbeth».\n• Jane Austen — «Pride and Prejudice» (1813).\n• Charles Dickens — «Oliver Twist», «Great Expectations».\n• Mark Twain (ABŞ) — «The Adventures of Tom Sawyer».\n• George Orwell — «Animal Farm» (1945), «Nineteen Eighty-Four» (1949).\n\nDerňew üçin terminler:\n• plot — süžet; setting — wagt we ýer; character — gahryman; protagonist — baş gahryman; theme — esasy pikir; narrator — gürrüň beriji (first-person: \"I\"; third-person: \"he/she\").",
+          "ru": "Ключевые имена англоязычной литературы:\n• Уильям Шекспир (1564–1616) — «Hamlet», «Romeo and Juliet», «Macbeth».\n• Джейн Остин — «Pride and Prejudice» (1813).\n• Чарльз Диккенс — «Oliver Twist», «Great Expectations».\n• Марк Твен (США) — «The Adventures of Tom Sawyer».\n• Джордж Оруэлл — «Animal Farm» (1945), «Nineteen Eighty-Four» (1949).\n\nТермины для анализа:\n• plot — сюжет; setting — время и место; character — персонаж; protagonist — главный герой; theme — главная идея; narrator — рассказчик (first-person: \"I\"; third-person: \"he/she\")."
+        }},
+        {"type": "example", "text": {
+          "tk": "«Animal Farm» romanyny gysgaça derňäliň:\n• Setting: bir ferma.\n• Plot: haýwanlar fermerden azat bolýarlar, ýöne soňra doňuzlar hemmeleri dolandyryp başlaýarlar.\n• Theme: häkimiýet ony alanlary nähili üýtgedýär.\n• Form: allegoriýa — haýwanlar arkaly adam jemgyýeti hakda gürrüň.\nIňlisçe jemleme: \"The novel uses animals to show how power can corrupt.\"",
+          "ru": "Кратко разберём «Animal Farm»:\n• Setting: ферма.\n• Plot: животные освобождаются от фермера, но затем свиньи начинают управлять всеми.\n• Theme: как власть меняет тех, кто её получил.\n• Форма: аллегория — рассказ о людях через животных.\nИтог по-английски: \"The novel uses animals to show how power can corrupt.\""
+        }},
+        {"type": "choice",
+          "q": {"tk": "«Pride and Prejudice» romanynyň awtory kim?", "ru": "Кто автор романа «Pride and Prejudice»?"},
+          "options": ["Charles Dickens", "Mark Twain", "Jane Austen"],
+          "answer": 2,
+          "hint": {"tk": "1813-nji ýylda çykan zenan ýazyjy.", "ru": "Писательница, роман вышел в 1813 году."},
+          "explain": {"tk": "Jane Austen «Pride and Prejudice» romanyny 1813-nji ýylda çap etdi.", "ru": "Джейн Остин опубликовала роман в 1813 году."}
+        },
+        {"type": "input",
+          "q": {"tk": "Wakalaryň bolup geçýän wagty we ýeri iňlisçe nähili atlandyrylýar? (bir söz)", "ru": "Как по-английски называется время и место действия? (одно слово)"},
+          "answer": "setting",
+          "hint": {"tk": "«Set» sözünden ýasalan.", "ru": "Образовано от «set»."},
+          "explain": {"tk": "Setting — wagt we ýer.", "ru": "Setting — время и место действия."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Eger gürrüň \"I\" çalyşmasy bilen berilse, bu first-person narrator.", "ru": "Если рассказ ведётся от «I», это first-person narrator."},
+          "answer": true,
+          "hint": {"tk": "\"I\" — birinji ýöňkeme.", "ru": "\"I\" — первое лицо."},
+          "explain": {"tk": "Dogry: \"I\" — birinji ýöňkeme, ýagny first-person.", "ru": "Верно: \"I\" — первое лицо, то есть first-person."}
+        },
+        {"type": "choice",
+          "q": {"tk": "«Hamlet» pýesasyny kim ýazdy?", "ru": "Кто написал пьесу «Hamlet»?"},
+          "options": ["William Shakespeare", "George Orwell", "Charles Dickens"],
+          "answer": 0,
+          "hint": {"tk": "XVI–XVII asyrlaryň dramaturgy.", "ru": "Драматург XVI–XVII веков."},
+          "explain": {"tk": "«Hamlet» — William Shakespeare-iň meşhur tragediýasy.", "ru": "«Hamlet» — знаменитая трагедия Уильяма Шекспира."}
+        },
+        {"type": "world", "text": {
+          "tk": "Oksford iňlis sözlügi Shakespeare-i köp sözleriň ilkinji ýazmaça ulanyjysy hökmünde görkezýär, meselem, \"lonely\" we \"eyeball\". Onuň pýesalary dünýäniň ýüzlerçe diline terjime edildi.",
+          "ru": "Оксфордский словарь английского языка указывает Шекспира как первого известного автора, письменно употребившего многие слова, например \"lonely\" и \"eyeball\". Его пьесы переведены на сотни языков."
+        }}
+      ]
+    },
+    {
+      "id": "english-12-business-english",
+      "grade": 12,
+      "topic": 4,
+      "title": {"tk": "Business English: işewür iňlis dili", "ru": "Business English: деловой английский"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Işewür hat (formal email) gurluşy:\n• Subject line — gysga we takyk: \"Meeting request – 12 May\".\n• Ýüzlenme: Dear Mr Smith, / Dear Ms Lee, (ady belli däl bolsa: Dear Sir or Madam,).\n• Maksat: I am writing to… (enquire about / request / confirm).\n• Haýyş: Could you please…? I would be grateful if you could…\n• Goşundy: Please find attached…\n• Jemlemek: I look forward to hearing from you.\n• Gutarma: Yours sincerely (ady belli bolsa), Yours faithfully (Dear Sir or Madam bolsa), Kind regards (ýarym resmi).\n\nPeýdaly sözler: deadline, invoice, schedule, agenda, CV.",
+          "ru": "Структура делового письма (formal email):\n• Subject line — кратко и точно: \"Meeting request – 12 May\".\n• Обращение: Dear Mr Smith, / Dear Ms Lee, (если имя неизвестно: Dear Sir or Madam,).\n• Цель: I am writing to… (enquire about / request / confirm).\n• Просьба: Could you please…? I would be grateful if you could…\n• Вложение: Please find attached…\n• Завершение: I look forward to hearing from you.\n• Подпись: Yours sincerely (имя известно), Yours faithfully (после Dear Sir or Madam), Kind regards (полуофициально).\n\nПолезные слова: deadline, invoice, schedule, agenda, CV."
+        }},
+        {"type": "example", "text": {
+          "tk": "Ýagdaý: tejribe (internship) barada soramak.\n\nSubject: Internship enquiry\nDear Ms Brown,\nI am writing to enquire about summer internships at your company. I am a final-year school student interested in IT.\nPlease find attached my CV. I would be grateful if you could tell me about the application process.\nI look forward to hearing from you.\nYours sincerely,\nMerdan Atayev\n\nAdy belli (Ms Brown) — şonuň üçin «Yours sincerely».",
+          "ru": "Ситуация: запрос о стажировке.\n\nSubject: Internship enquiry\nDear Ms Brown,\nI am writing to enquire about summer internships at your company. I am a final-year school student interested in IT.\nPlease find attached my CV. I would be grateful if you could tell me about the application process.\nI look forward to hearing from you.\nYours sincerely,\nMerdan Atayev\n\nИмя известно (Ms Brown) — поэтому «Yours sincerely»."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Hat \"Dear Sir or Madam\" bilen başlanýar. Haýsy gutarma dogry (British English)?", "ru": "Письмо начинается с \"Dear Sir or Madam\". Какое завершение верно (British English)?"},
+          "options": ["Yours sincerely", "Yours faithfully", "Cheers"],
+          "answer": 1,
+          "hint": {"tk": "Adresatyň ady belli däl.", "ru": "Имя адресата неизвестно."},
+          "explain": {"tk": "Ady belli däl bolsa — Yours faithfully; belli bolsa — Yours sincerely.", "ru": "Имя неизвестно — Yours faithfully; известно — Yours sincerely."}
+        },
+        {"type": "input",
+          "q": {"tk": "Sözlemi doldyryň: \"I look forward to ___ from you.\"", "ru": "Дополните: \"I look forward to ___ from you.\""},
+          "answer": "hearing",
+          "hint": {"tk": "\"look forward to\" -dan soň -ing formasy gelýär.", "ru": "После \"look forward to\" идёт форма на -ing."},
+          "explain": {"tk": "\"to\" bu ýerde predlog, şonuň üçin gerund: hearing.", "ru": "Здесь \"to\" — предлог, поэтому герундий: hearing."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "\"Deadline\" — bir işi tabşyrmaly iň soňky möhlet.", "ru": "\"Deadline\" — крайний срок сдачи работы."},
+          "answer": true,
+          "hint": {"tk": "Line — çäk.", "ru": "Line — черта, граница."},
+          "explain": {"tk": "Dogry: deadline — iň soňky möhlet.", "ru": "Верно: deadline — крайний срок."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Faýly hat bilen ugradanyňyzda haýsy aňlatmany ulanýarsyňyz?", "ru": "Какую фразу используют, прикладывая файл к письму?"},
+          "options": ["I am writing to complain", "See you soon", "Please find attached"],
+          "answer": 2,
+          "hint": {"tk": "Attach — birikdirmek.", "ru": "Attach — прикреплять."},
+          "explain": {"tk": "\"Please find attached…\" — goşundyny görkezýär.", "ru": "\"Please find attached…\" — сообщает о вложении."}
+        },
+        {"type": "world", "text": {
+          "tk": "Ilkinji elektron haty 1971-nji ýylda inžener Reý Tomlinson ARPANET torunda iberdi. Ol ulanyjy adyny kompýuteriň adyndan aýyrmak üçin «@» belgisini saýlady — bu belgi häzir hem e-poçta salgylarynda ulanylýar.",
+          "ru": "Первое электронное письмо отправил инженер Рэй Томлинсон в 1971 году в сети ARPANET. Он выбрал знак «@», чтобы отделить имя пользователя от имени компьютера, — этот знак до сих пор используется в адресах почты."
+        }}
+      ]
+    },
+    {
+      "id": "english-12-exam-strategies",
+      "grade": 12,
+      "topic": 5,
+      "title": {"tk": "Exam strategies: synag strategiýalary", "ru": "Exam strategies: стратегии экзамена"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Halkara synaglar (IELTS, TOEFL, Cambridge) adatça dört bölümi barlaýar: Listening, Reading, Writing, Speaking.\n\nReading:\n• Skimming — umumy manyny tiz okamak.\n• Scanning — belli bir maglumaty (sene, at) gözlemek.\n• Synonyms: soragdaky sözler tekstde köplenç başga sözler bilen berilýär.\n\nListening: soraglary öňünden okaň, açar sözleri belläň.\n\nWriting: meýilnama düzüň (3–5 min), söz çägini berjaý ediň, ahyrynda barlaň.\n\nSpeaking: jogaby giňeldiň (because…, for example…), pikirlenmek üçin: \"That's an interesting question…\"\n\nWagt: bir soraga köp wagt sarp etmäň — geçiň we soňra gaýdyp geliň.",
+          "ru": "Международные экзамены (IELTS, TOEFL, Cambridge) обычно проверяют четыре навыка: Listening, Reading, Writing, Speaking.\n\nReading:\n• Skimming — быстро понять общий смысл.\n• Scanning — найти конкретную информацию (дату, имя).\n• Синонимы: слова из вопроса в тексте часто выражены иначе.\n\nListening: прочитайте вопросы заранее, подчеркните ключевые слова.\n\nWriting: составьте план (3–5 мин), соблюдайте объём, в конце проверьте.\n\nSpeaking: развивайте ответ (because…, for example…), чтобы выиграть время: \"That's an interesting question…\"\n\nВремя: не застревайте на одном вопросе — пропустите и вернитесь."
+        }},
+        {"type": "example", "text": {
+          "tk": "Sorag: \"When did the museum open?\"\nTekst: \"…The gallery first welcomed visitors in 1998, although plans began in 1990…\"\n\n1) Açar söz: open → tekstde sinonim \"first welcomed visitors\".\n2) Scanning bilen senäni tapýarys: 1998.\n3) Duzak: 1990 — meýilnamalaryň başlan ýyly, açylyş däl.\nJogap: 1998.",
+          "ru": "Вопрос: \"When did the museum open?\"\nТекст: \"…The gallery first welcomed visitors in 1998, although plans began in 1990…\"\n\n1) Ключевое слово: open → в тексте синоним \"first welcomed visitors\".\n2) Сканированием находим дату: 1998.\n3) Ловушка: 1990 — год начала планов, а не открытия.\nОтвет: 1998."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Tekstde diňe bir at ýa-da sene gözlemek nähili atlandyrylýar?", "ru": "Как называется поиск в тексте только конкретного имени или даты?"},
+          "options": ["skimming", "scanning", "summarising"],
+          "answer": 1,
+          "hint": {"tk": "Barkod skaneri ýaly diňe zerur zady tapýar.", "ru": "Как сканер — ищет только нужное."},
+          "explain": {"tk": "Scanning — anyk maglumat gözlemek; skimming — umumy many.", "ru": "Scanning — поиск конкретного; skimming — общий смысл."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "Bir kyn soraga köp wagt sarp etmek gowy strategiýa.", "ru": "Тратить много времени на один трудный вопрос — хорошая стратегия."},
+          "answer": false,
+          "hint": {"tk": "Galan soraglar näme bolar?", "ru": "Что будет с остальными вопросами?"},
+          "explain": {"tk": "Ýalňyş: geçip, soňra gaýdyp gelmeli, ýogsam beýleki soraglara wagt ýetmez.", "ru": "Неверно: лучше пропустить и вернуться позже, иначе не хватит времени на остальное."}
+        },
+        {"type": "input",
+          "q": {"tk": "Mysalda muzeý haýsy ýylda açyldy?", "ru": "В каком году открылся музей в примере?"},
+          "answer": "1998",
+          "hint": {"tk": "\"first welcomed visitors\" bölegine serediň.", "ru": "Смотрите на \"first welcomed visitors\"."},
+          "explain": {"tk": "\"first welcomed visitors in 1998\" = opened in 1998. 1990 — duzak.", "ru": "\"first welcomed visitors in 1998\" = opened in 1998. 1990 — ловушка."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Speaking bölüminde jogaby giňeltmegiň iň gowy usuly:", "ru": "Лучший способ развить ответ в Speaking:"},
+          "options": ["Sebäp we mysal goşmak (because…, for example…)", "Diňe \"Yes\" ýa-da \"No\" diýmek", "Soragy birnäçe gezek gaýtalamak"],
+          "answer": 0,
+          "hint": {"tk": "Synagçy siziň dil baýlygyňyzy görmek isleýär.", "ru": "Экзаменатор хочет услышать ваш язык."},
+          "explain": {"tk": "Sebäp we mysal jogaby doly we dil taýdan baý edýär.", "ru": "Причина и пример делают ответ полным и языково богатым."}
+        },
+        {"type": "world", "text": {
+          "tk": "IELTS synagy 1989-njy ýylda başlandy. Ony British Council, IDP we Cambridge bilelikde geçirýär; synag netijeleri 1-den 9-a çenli bal (band) bilen bahalandyrylýar.",
+          "ru": "Экзамен IELTS появился в 1989 году. Его совместно проводят British Council, IDP и Cambridge; результаты оцениваются по шкале от 1 до 9 баллов (band)."
+        }}
+      ]
+    }
+  ]
+}

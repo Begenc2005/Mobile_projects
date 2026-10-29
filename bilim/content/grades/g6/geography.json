@@ -1,0 +1,270 @@
+{
+  "grade": 6,
+  "subject": "geography",
+  "lessons": [
+    {
+      "id": "geography-6-earth-shape-motion",
+      "grade": 6,
+      "topic": 0,
+      "title": {"tk": "Ýeriň şekili we hereketi", "ru": "Форма и движение Земли"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Ýer şar görnüşli, ýöne polýuslarda birneme basylan. Onuň ortaça radiusy takmynan 6371 km, ekwator boýunça uzynlygy takmynan 40 000 km.\n\nÝeriň iki esasy hereketi bar:\n• Öz okunyň daşyndan aýlanmagy — günbatardan gündogara, takmynan 24 sagatda bir aýlaw. Munuň netijesinde gije bilen gündiz çalşyp gelýär.\n• Günüň daşyndan aýlanmagy — takmynan 365 gün 6 sagatda bir aýlaw. Bu bir ýyldyr.\n\nÝeriň oky orbitanyň tekizligine görä takmynan 23,5° ýapgyt. Şonuň üçin Gün şöhleleri ýylyň dowamynda ýarym şarlara dürli burç bilen düşýär we ýylyň pasyllary emele gelýär.",
+          "ru": "Земля имеет форму шара, слегка сплюснутого у полюсов. Её средний радиус около 6371 км, длина экватора около 40 000 км.\n\nУ Земли два главных движения:\n• Вращение вокруг своей оси — с запада на восток, один оборот примерно за 24 часа. Из-за этого день сменяет ночь.\n• Обращение вокруг Солнца — один оборот примерно за 365 суток 6 часов. Это один год.\n\nЗемная ось наклонена к плоскости орбиты примерно на 23,5°. Поэтому солнечные лучи в течение года падают на полушария под разным углом — так возникают времена года."}},
+        {"type": "example", "text": {
+          "tk": "Mysal: Ýer bir sagatda näçe gradus aýlanýar?\n1) Doly aýlaw — 360°.\n2) Doly aýlaw takmynan 24 sagat dowam edýär.\n3) 360° : 24 = 15°.\nJogap: sagatda 15°. Şonuň üçin gündogarda 15° uzaklykdaky şäherde sagat takmynan 1 sagat öňde bolýar.\n\nMysal: Näme üçin her dört ýyldan bir gezek fewralda 29 gün bolýar?\nHer ýyl 6 sagat «artyp galýar». 4 × 6 = 24 sagat = 1 gün. Bu goşmaça gün uzyn ýyla (366 gün) goşulýar.",
+          "ru": "Пример: на сколько градусов Земля поворачивается за час?\n1) Полный оборот — 360°.\n2) Он длится примерно 24 часа.\n3) 360° : 24 = 15°.\nОтвет: 15° в час. Поэтому в городе, расположенном на 15° восточнее, часы показывают примерно на 1 час больше.\n\nПример: почему раз в четыре года в феврале 29 дней?\nКаждый год «остаётся» 6 часов. 4 × 6 = 24 часа = 1 сутки. Этот лишний день добавляют в високосный год (366 дней)."}},
+        {"type": "choice",
+          "q": {"tk": "Gije bilen gündiziň çalyşmagynyň sebäbi näme?", "ru": "Почему сменяются день и ночь?"},
+          "options": [
+            {"tk": "Ýeriň Günüň daşyndan aýlanmagy", "ru": "Обращение Земли вокруг Солнца"},
+            {"tk": "Ýeriň öz okunyň daşyndan aýlanmagy", "ru": "Вращение Земли вокруг своей оси"},
+            {"tk": "Aýyň Ýeriň daşyndan aýlanmagy", "ru": "Обращение Луны вокруг Земли"}
+          ],
+          "answer": 1,
+          "hint": {"tk": "Bu hereket takmynan 24 sagat dowam edýär.", "ru": "Это движение длится около 24 часов."},
+          "explain": {"tk": "Ýer öz okunyň daşyndan aýlananda onuň bir tarapy Güne, beýleki tarapy Günden aýry bakýar. Şonuň üçin gündiz bilen gije çalşyp durýar.", "ru": "Вращаясь вокруг оси, Земля поворачивается к Солнцу то одной, то другой стороной, поэтому день сменяется ночью."}},
+        {"type": "truefalse",
+          "q": {"tk": "Tomus Ýer Güne iň ýakyn bolany üçin gelýär.", "ru": "Лето наступает потому, что Земля ближе всего подходит к Солнцу."},
+          "answer": false,
+          "hint": {"tk": "Demirgazyk we günorta ýarym şarlarda pasyllar bir wagtda deň däl.", "ru": "В северном и южном полушариях времена года не совпадают."},
+          "explain": {"tk": "Pasyllaryň sebäbi Ýeriň okunyň ýapgytlygydyr. Hatda Ýer Güne iň ýakyn bolanda (ýanwaryň başy) demirgazyk ýarym şarda gyş bolýar.", "ru": "Причина смены сезонов — наклон земной оси. Земля ближе всего к Солнцу в начале января, а в северном полушарии в это время зима."}},
+        {"type": "input",
+          "q": {"tk": "Uzyn ýylda näçe gün bar?", "ru": "Сколько дней в високосном году?"},
+          "answer": "366",
+          "hint": {"tk": "Adaty ýyla bir gün goşuň.", "ru": "Прибавьте один день к обычному году."},
+          "explain": {"tk": "Adaty ýylda 365 gün bar, uzyn ýylda fewrala 29-njy gün goşulýar: 365 + 1 = 366.", "ru": "В обычном году 365 дней, в високосном к февралю добавляется 29-е число: 365 + 1 = 366."}},
+        {"type": "input",
+          "q": {"tk": "Ýer 2 sagatda öz okunyň daşyndan näçe gradus aýlanýar?", "ru": "На сколько градусов Земля поворачивается вокруг оси за 2 часа?"},
+          "answer": "30",
+          "hint": {"tk": "Bir sagatda näçe gradus aýlanýandygyny ýatlaň.", "ru": "Вспомните, сколько градусов приходится на 1 час."},
+          "explain": {"tk": "Sagatda 15°, diýmek 2 sagatda 15 × 2 = 30°.", "ru": "За час 15°, значит за 2 часа 15 × 2 = 30°."}},
+        {"type": "world", "text": {
+          "tk": "Takmynan 2200 ýyl mundan öň grek alymy Eratosfen Ýeriň töweregini ilkinji gezek hasaplapdyr. Ol Siena we Aleksandriýa şäherlerinde bir günüň günortanyna kölegeleriň uzynlygyny deňeşdiripdir. Onuň alan netijesi häzirki hakyky ululyga örän ýakyn bolupdyr.",
+          "ru": "Около 2200 лет назад греческий учёный Эратосфен впервые вычислил окружность Земли. Он сравнил длину теней в полдень одного дня в Сиене и Александрии. Его результат оказался очень близок к настоящему."}}
+      ]
+    },
+    {
+      "id": "geography-6-map-scale",
+      "grade": 6,
+      "topic": 1,
+      "title": {"tk": "Karta we masştab", "ru": "Карта и масштаб"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Karta — Ýeriň ýüzüniň ýa-da onuň bir böleginiň tekizlikde kiçeldilen, şertli belgiler bilen görkezilen şekili.\n\nMasştab — kartadaky aralygyň ýerdäki hakyky aralykdan näçe esse kiçeldilendigini görkezýär. Onuň üç görnüşi bar:\n• San masştaby: 1 : 100 000 — kartadaky 1 sm ýerde 100 000 sm.\n• Atly masştab: «1 sm-de 1 km».\n• Çyzykly masştab: bölünen çyzyk, her bölegiň ýerdäki uzynlygy ýazylýar.\n\nÝatda saklaň: 1 km = 1000 m = 100 000 sm.\nMasştab näçe uly bolsa (meselem 1 : 10 000), karta şonça jikme-jik bolýar, ýöne kiçi meýdany görkezýär.",
+          "ru": "Карта — уменьшенное изображение земной поверхности или её части на плоскости с помощью условных знаков.\n\nМасштаб показывает, во сколько раз расстояние на карте меньше расстояния на местности. Есть три вида масштаба:\n• Численный: 1 : 100 000 — 1 см на карте соответствует 100 000 см на местности.\n• Именованный: «в 1 см 1 км».\n• Линейный: линейка с делениями, у каждого деления подписано расстояние на местности.\n\nЗапомните: 1 км = 1000 м = 100 000 см.\nЧем крупнее масштаб (например, 1 : 10 000), тем подробнее карта, но тем меньшую территорию она показывает."}},
+        {"type": "example", "text": {
+          "tk": "Mysal: Kartanyň masştaby 1 : 50 000. Iki obanyň arasy kartada 4 sm. Ýerdäki aralyk näçe?\n1) San masştabyny atly masştaba geçirýäris: 50 000 sm = 500 m. Diýmek, 1 sm-de 500 m.\n2) 4 × 500 m = 2000 m.\n3) 2000 m = 2 km.\nJogap: 2 km.",
+          "ru": "Пример: масштаб карты 1 : 50 000. Расстояние между сёлами на карте 4 см. Каково расстояние на местности?\n1) Переводим численный масштаб в именованный: 50 000 см = 500 м. Значит, в 1 см 500 м.\n2) 4 × 500 м = 2000 м.\n3) 2000 м = 2 км.\nОтвет: 2 км."}},
+        {"type": "input",
+          "q": {"tk": "Masştab 1 : 200 000. Kartada iki şäheriň arasy 3 sm. Ýerdäki aralyk näçe kilometr?", "ru": "Масштаб 1 : 200 000. На карте между городами 3 см. Сколько километров на местности?"},
+          "answer": "6",
+          "hint": {"tk": "Ilki 1 sm-iň näçe kilometre deňdigini tapyň.", "ru": "Сначала найдите, сколько километров в 1 см."},
+          "explain": {"tk": "200 000 sm = 2 km, diýmek 1 sm-de 2 km. 3 × 2 = 6 km.", "ru": "200 000 см = 2 км, значит в 1 см 2 км. 3 × 2 = 6 км."}},
+        {"type": "choice",
+          "q": {"tk": "Haýsy masştabdaky karta iň jikme-jik bolar?", "ru": "Карта какого масштаба будет самой подробной?"},
+          "options": ["1 : 1 000 000", "1 : 100 000", "1 : 10 000"],
+          "answer": 2,
+          "hint": {"tk": "Kartadaky 1 sm-e ýerde iň az aralyk düşýän masştaby saýlaň.", "ru": "Выберите масштаб, где 1 см соответствует наименьшему расстоянию."},
+          "explain": {"tk": "1 : 10 000 masştabda 1 sm-de bary-ýogy 100 m. Bu iň uly masştab, şonuň üçin karta iň jikme-jik.", "ru": "При масштабе 1 : 10 000 в 1 см всего 100 м. Это самый крупный масштаб, поэтому карта самая подробная."}},
+        {"type": "truefalse",
+          "q": {"tk": "1 : 100 000 masştab «1 sm-de 1 km» diýmekdir.", "ru": "Масштаб 1 : 100 000 означает «в 1 см 1 км»."},
+          "answer": true,
+          "hint": {"tk": "1 km-de näçe santimetr bar?", "ru": "Сколько сантиметров в 1 км?"},
+          "explain": {"tk": "1 km = 100 000 sm, şonuň üçin 1 : 100 000 masştabda kartadaky 1 sm ýerde 1 km-e deň.", "ru": "1 км = 100 000 см, поэтому при масштабе 1 : 100 000 1 см на карте равен 1 км на местности."}},
+        {"type": "input",
+          "q": {"tk": "Masştab 1 : 25 000. Ýerdäki 1 km aralyk kartada näçe santimetr bolar?", "ru": "Масштаб 1 : 25 000. Сколько сантиметров на карте займёт 1 км на местности?"},
+          "answer": "4",
+          "hint": {"tk": "1 sm-de näçe metr bar? 1000 m-de şeýle böleklerden näçesi bar?", "ru": "Сколько метров в 1 см? Сколько таких отрезков в 1000 м?"},
+          "explain": {"tk": "25 000 sm = 250 m, diýmek 1 sm-de 250 m. 1000 : 250 = 4 sm.", "ru": "25 000 см = 250 м, значит в 1 см 250 м. 1000 : 250 = 4 см."}},
+        {"type": "world", "text": {
+          "tk": "1569-njy ýylda flamand kartografy Gerard Merkator meşhur kartasyny düzüpdir. Onuň proýeksiýasy deňizçiler üçin örän amatly, ýöne polýuslara ýakyn ýerleri ulaldýar: kartada Grenlandiýa Afrika bilen deň ýaly görünýär, emma hakykatda Afrika ondan takmynan 14 esse uly.",
+          "ru": "В 1569 году фламандский картограф Герард Меркатор составил свою знаменитую карту. Его проекция очень удобна для моряков, но сильно увеличивает области у полюсов: на карте Гренландия кажется размером с Африку, хотя на деле Африка примерно в 14 раз больше."}}
+      ]
+    },
+    {
+      "id": "geography-6-latitude-longitude",
+      "grade": 6,
+      "topic": 2,
+      "title": {"tk": "Geografik giňlik we uzaklyk", "ru": "Географическая широта и долгота"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Ýer şarynda islendik nokadyň ýerini iki san — giňlik we uzaklyk — kesgitleýär.\n\n• Paralleller — ekwatora parallel geçirilen tegelekler. Geografik giňlik ekwatordan (0°) polýuslara (90°) çenli ölçelýär: demirgazyk giňlik (dg.) we günorta giňlik (gg.).\n• Meridianlar — bir polýusdan beýleki polýusa geçýän çyzyklar. Geografik uzaklyk baş (Grinwiç) meridiandan (0°) 180°-a çenli ölçelýär: gündogar uzaklyk (gd.u.) we günbatar uzaklyk (gb.u.).\n\nÄhli meridianlaryň uzynlygy deň, paralleller bolsa polýuslara golaýlaşdygyça gysgalýar.\nMeridian boýunça 1° takmynan 111 km-e deň.",
+          "ru": "Положение любой точки на земном шаре задают два числа — широта и долгота.\n\n• Параллели — окружности, проведённые параллельно экватору. Географическая широта отсчитывается от экватора (0°) к полюсам (90°): северная широта (с.ш.) и южная широта (ю.ш.).\n• Меридианы — линии, идущие от полюса к полюсу. Географическая долгота отсчитывается от начального (Гринвичского) меридиана (0°) до 180°: восточная долгота (в.д.) и западная долгота (з.д.).\n\nВсе меридианы одинаковой длины, а параллели укорачиваются к полюсам.\n1° по меридиану ≈ 111 км."}},
+        {"type": "example", "text": {
+          "tk": "Mysal 1: Aşgabadyň koordinatalary takmynan 38° dg. we 58° gd.u. Diýmek, şäher ekwatordan demirgazykda, Grinwiçden gündogarda ýerleşýär.\n\nMysal 2: A nokat 40° dg., B nokat 30° dg., ikisi hem bir meridianda. Olaryň arasy näçe?\n1) Giňlikleriň tapawudy: 40° − 30° = 10°.\n2) 10 × 111 km = 1110 km.\nJogap: takmynan 1110 km.",
+          "ru": "Пример 1: координаты Ашхабада примерно 38° с.ш. и 58° в.д. Значит, город лежит к северу от экватора и к востоку от Гринвича.\n\nПример 2: точка А — 40° с.ш., точка Б — 30° с.ш., обе на одном меридиане. Каково расстояние между ними?\n1) Разница широт: 40° − 30° = 10°.\n2) 10 × 111 км = 1110 км.\nОтвет: около 1110 км."}},
+        {"type": "input",
+          "q": {"tk": "Geografik giňligiň iň uly bahasy näçe gradus?", "ru": "Каково наибольшее значение географической широты в градусах?"},
+          "answer": "90",
+          "hint": {"tk": "Polýusyň giňligi haýsy?", "ru": "Какова широта полюса?"},
+          "explain": {"tk": "Giňlik ekwatordan polýusa çenli ölçelýär, polýusda ol 90°.", "ru": "Широта отсчитывается от экватора до полюса, на полюсе она равна 90°."}},
+        {"type": "choice",
+          "q": {"tk": "Baş meridian haýsy ýerden geçýär?", "ru": "Через какое место проходит начальный меридиан?"},
+          "options": [
+            {"tk": "Pariž", "ru": "Париж"},
+            {"tk": "Grinwiç (London)", "ru": "Гринвич (Лондон)"},
+            {"tk": "Moskwa", "ru": "Москва"}
+          ],
+          "answer": 1,
+          "hint": {"tk": "Onuň ady meridianyň adynda bar.", "ru": "Его название есть в названии меридиана."},
+          "explain": {"tk": "Baş meridian Londonyň Grinwiç raýonyndaky obserwatoriýadan geçýär.", "ru": "Начальный меридиан проходит через обсерваторию в лондонском районе Гринвич."}},
+        {"type": "truefalse",
+          "q": {"tk": "Ähli paralleller deň uzynlykda.", "ru": "Все параллели имеют одинаковую длину."},
+          "answer": false,
+          "hint": {"tk": "Polýusyň ýanyndaky parallel bilen ekwatory deňeşdiriň.", "ru": "Сравните экватор и параллель около полюса."},
+          "explain": {"tk": "Iň uzyn parallel — ekwator. Polýuslara golaýlaşdygyça paralleller gysgalýar, polýusda bolsa nokada öwrülýär. Deň uzynlykda meridianlar bolýar.", "ru": "Самая длинная параллель — экватор. К полюсам параллели укорачиваются и на полюсе превращаются в точку. Одинаковой длины меридианы."}},
+        {"type": "input",
+          "q": {"tk": "Bir meridianda ýatan iki nokadyň giňlikleri 5° tapawutlanýar. Olaryň arasy takmynan näçe kilometr?", "ru": "Широты двух точек на одном меридиане отличаются на 5°. Каково примерно расстояние между ними в километрах?"},
+          "answer": "555",
+          "hint": {"tk": "Meridian boýunça 1° näçe kilometr?", "ru": "Сколько километров в 1° по меридиану?"},
+          "explain": {"tk": "1° ≈ 111 km, şonuň üçin 5 × 111 = 555 km.", "ru": "1° ≈ 111 км, поэтому 5 × 111 = 555 км."}},
+        {"type": "world", "text": {
+          "tk": "Uzak wagtlap deňizde uzaklygy kesgitlemek örän kyn mesele bolupdyr. XVIII asyrda iňlis ussasy Jon Harrison deňizde-de takyk işleýän hronometri döredipdir we bu meseläni çözüpdir. 1884-nji ýylda halkara konferensiýada Grinwiç meridiany baş meridian hökmünde kabul edilipdir.",
+          "ru": "Долгое время определить долготу в море было очень трудно. В XVIII веке английский мастер Джон Гаррисон создал хронометр, точно идущий даже в море, и решил эту задачу. В 1884 году на международной конференции Гринвичский меридиан приняли за начальный."}}
+      ]
+    },
+    {
+      "id": "geography-6-lithosphere",
+      "grade": 6,
+      "topic": 3,
+      "title": {"tk": "Litosfera — Ýeriň daş gabygy", "ru": "Литосфера — каменная оболочка Земли"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Ýeriň içki gurluşy:\n• Ýer gabygy — iň ýokarky gaty gatlak. Okeanlaryň aşagynda 5–10 km, materiklerde 30–70 km galyňlykda.\n• Mantiýa — takmynan 2900 km çuňluga çenli.\n• Ýadro — daşky ýadro suwuk, içki ýadro gaty.\n\nLitosfera — Ýer gabygy we mantiýanyň ýokarky gaty bölegi. Ol uly litosfera plitalaryna bölünýär. Plitalar ýylda birnäçe santimetr süýşýär. Olaryň serhetlerinde ýer titremeler, wulkanlar we daglar emele gelýär.\n\nDag jynslarynyň üç görnüşi:\n• Magmatik (granit, bazalt) — magmanyň sowamagyndan.\n• Çökündi (hek daşy, gum daşy) — çökündileriň toplanmagyndan.\n• Metamorfik (mermer) — ýokary temperatura we basyş astynda üýtgän jynslar.",
+          "ru": "Внутреннее строение Земли:\n• Земная кора — верхний твёрдый слой. Под океанами толщиной 5–10 км, на материках 30–70 км.\n• Мантия — примерно до глубины 2900 км.\n• Ядро — внешнее ядро жидкое, внутреннее твёрдое.\n\nЛитосфера — это земная кора и верхняя твёрдая часть мантии. Она разделена на крупные литосферные плиты. Плиты сдвигаются на несколько сантиметров в год. На их границах происходят землетрясения, извергаются вулканы, растут горы.\n\nТри типа горных пород:\n• Магматические (гранит, базальт) — из остывшей магмы.\n• Осадочные (известняк, песчаник) — из накопившихся осадков.\n• Метаморфические (мрамор) — породы, изменённые высокой температурой и давлением."}},
+        {"type": "example", "text": {
+          "tk": "Mysal: Jynslary toparlara bölüň — granit, hek daşy, mermer.\n1) Granit ýeriň içinde magmanyň haýal sowamagyndan emele gelýär → magmatik.\n2) Hek daşy deňiz düýbünde balykgulaklaryň we beýleki jandarlaryň galyndylaryndan toplanýar → çökündi.\n3) Mermer hek daşynyň ýokary temperatura we basyş astynda üýtgemeginden emele gelýär → metamorfik.\nGörşüňiz ýaly, bir jyns başga bir jynsa öwrülip bilýär.",
+          "ru": "Пример: распределите породы — гранит, известняк, мрамор.\n1) Гранит образуется при медленном остывании магмы в недрах → магматическая.\n2) Известняк накапливается на дне моря из раковин и остатков организмов → осадочная.\n3) Мрамор образуется из известняка под действием высокой температуры и давления → метаморфическая.\nКак видите, одна порода может превращаться в другую."}},
+        {"type": "choice",
+          "q": {"tk": "Mermer haýsy dag jynslaryna degişli?", "ru": "К какому типу горных пород относится мрамор?"},
+          "options": [
+            {"tk": "Magmatik", "ru": "Магматические"},
+            {"tk": "Çökündi", "ru": "Осадочные"},
+            {"tk": "Metamorfik", "ru": "Метаморфические"}
+          ],
+          "answer": 2,
+          "hint": {"tk": "Mermer hek daşyndan nähili emele gelýär?", "ru": "Как мрамор образуется из известняка?"},
+          "explain": {"tk": "Mermer hek daşynyň ýokary temperatura we basyş astynda üýtgemeginden emele gelýär, diýmek metamorfik jyns.", "ru": "Мрамор образуется из известняка под действием жара и давления, значит это метаморфическая порода."}},
+        {"type": "truefalse",
+          "q": {"tk": "Ýeriň içki ýadrosy suwuk.", "ru": "Внутреннее ядро Земли жидкое."},
+          "answer": false,
+          "hint": {"tk": "Ýadronyň iki bölegini ýatlaň.", "ru": "Вспомните две части ядра."},
+          "explain": {"tk": "Daşky ýadro suwuk, içki ýadro bolsa örän uly basyş sebäpli gaty.", "ru": "Внешнее ядро жидкое, а внутреннее из-за огромного давления твёрдое."}},
+        {"type": "input",
+          "q": {"tk": "Dag jynslarynyň näçe esasy görnüşi bar?", "ru": "Сколько основных типов горных пород?"},
+          "answer": "3",
+          "hint": {"tk": "Magmatik, çökündi we ...", "ru": "Магматические, осадочные и ..."},
+          "explain": {"tk": "Üç görnüş: magmatik, çökündi we metamorfik.", "ru": "Три типа: магматические, осадочные и метаморфические."}},
+        {"type": "choice",
+          "q": {"tk": "Ýer titremeler we wulkanlar köplenç nirede bolýar?", "ru": "Где чаще всего происходят землетрясения и извержения вулканов?"},
+          "options": [
+            {"tk": "Litosfera plitalarynyň serhetlerinde", "ru": "На границах литосферных плит"},
+            {"tk": "Plitalaryň ortasyndaky düzlüklerde", "ru": "На равнинах в центре плит"},
+            {"tk": "Diňe ekwatorda", "ru": "Только на экваторе"}
+          ],
+          "answer": 0,
+          "hint": {"tk": "Plitalar biri-birine nirede degýär?", "ru": "Где плиты соприкасаются друг с другом?"},
+          "explain": {"tk": "Plitalar serhetlerde çaknyşýar, aýrylýar ýa-da biri-biriniň gapdalyndan süýşýär. Şonuň üçin ýer titremeleriň we wulkanlaryň köpüsi şol ýerlerde.", "ru": "На границах плиты сталкиваются, расходятся или скользят друг относительно друга, поэтому там происходит большинство землетрясений и извержений."}},
+        {"type": "world", "text": {
+          "tk": "1912-nji ýylda nemes alymy Alfred Wegener materikleriň haçanda bir bitewi materik bolandygyny we soňra biri-birinden daşlaşandygyny öňe sürüpdir. Ol Afrikanyň we Günorta Amerikanyň kenarlarynyň bir-birine «puzzle» ýaly gabat gelýändigini belläpdir. Ilki onuň pikirine ynanmandyrlar, ýöne XX asyryň ortalarynda plitalar tektonikasy ony tassyklapdyr.",
+          "ru": "В 1912 году немецкий учёный Альфред Вегенер предположил, что материки когда-то были единым целым, а потом разошлись. Он заметил, что берега Африки и Южной Америки подходят друг к другу, как кусочки пазла. Сначала ему не поверили, но в середине XX века теория тектоники плит подтвердила его идею."}}
+      ]
+    },
+    {
+      "id": "geography-6-hydrosphere",
+      "grade": 6,
+      "topic": 4,
+      "title": {"tk": "Gidrosfera — Ýeriň suw gabygy", "ru": "Гидросфера — водная оболочка Земли"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Gidrosfera — Ýerdäki ähli suwlar: okeanlar, deňizler, derýalar, kölleri, buzluklar, ýerasty suwlar we atmosferadaky suw buglary.\n\n• Ýeriň üstüniň takmynan 71%-i suw bilen örtülen.\n• Ähli suwuň takmynan 97%-i — okeanlaryň şor suwy.\n• Süýji suw 3%-e golaý, onuň hem köp bölegi buzluklarda.\n\nDünýä okeanynyň bölekleri: Ýuwaş (iň uly), Atlantik, Hindi, Demirgazyk Buzly we Günorta okeanlar.\n\nSuwuň aýlanyşygy: bugarma → kondensasiýa (bulutlaryň emele gelmegi) → ygal → derýalar we ýerasty suwlar arkaly okeana gaýdyp gelmek.",
+          "ru": "Гидросфера — все воды Земли: океаны, моря, реки, озёра, ледники, подземные воды и водяной пар в атмосфере.\n\n• Около 71% поверхности Земли покрыто водой.\n• Около 97% всей воды — солёная вода океанов.\n• Пресной воды около 3%, и большая её часть — во льдах ледников.\n\nЧасти Мирового океана: Тихий (самый большой), Атлантический, Индийский, Северный Ледовитый и Южный.\n\nКруговорот воды: испарение → конденсация (образование облаков) → осадки → возвращение в океан по рекам и подземным путём."}},
+        {"type": "example", "text": {
+          "tk": "Mysal: bir damja suwuň ýoluny yzarlalyň.\n1) Hazar deňziniň üstünden Gün suwy gyzdyrýar we damja buga öwrülýär (bugarma).\n2) Bug ýokary galýar, sowaýar we kiçijik damjalara öwrülip bulut emele getirýär (kondensasiýa).\n3) Ýel buludy daglara eltýär, şol ýerde ýagyş ýa-da gar ýagýar (ygal).\n4) Suw derýa akýar ýa-da ýere siňýär we wagtyň geçmegi bilen ýene deňze barýar.\nŞeýlelikde, aýlanyşyk ýapyk halka.",
+          "ru": "Пример: проследим путь одной капли воды.\n1) Солнце нагревает поверхность Каспийского моря, капля превращается в пар (испарение).\n2) Пар поднимается, остывает и превращается в мельчайшие капельки — образуется облако (конденсация).\n3) Ветер приносит облако к горам, там выпадает дождь или снег (осадки).\n4) Вода стекает в реку или просачивается в землю и со временем снова попадает в море.\nТак круговорот замыкается."}},
+        {"type": "choice",
+          "q": {"tk": "Iň uly okean haýsy?", "ru": "Какой океан самый большой?"},
+          "options": [
+            {"tk": "Atlantik", "ru": "Атлантический"},
+            {"tk": "Hindi", "ru": "Индийский"},
+            {"tk": "Ýuwaş", "ru": "Тихий"}
+          ],
+          "answer": 2,
+          "hint": {"tk": "Ol Aziýa bilen Amerikanyň arasynda ýerleşýär.", "ru": "Он лежит между Азией и Америкой."},
+          "explain": {"tk": "Ýuwaş okean iň uly we iň çuň okean, ol ähli gury ýerlerden hem uly meýdany tutýar.", "ru": "Тихий океан — самый большой и самый глубокий; его площадь больше всей суши вместе взятой."}},
+        {"type": "input",
+          "q": {"tk": "Ýeriň üstüniň takmynan näçe göterimi suw bilen örtülen?", "ru": "Какой процент поверхности Земли примерно покрыт водой?"},
+          "answer": "71|70",
+          "hint": {"tk": "Üçden ikisinden birneme köp.", "ru": "Чуть больше двух третей."},
+          "explain": {"tk": "Takmynan 71% suw, 29% gury ýer.", "ru": "Примерно 71% — вода, 29% — суша."}},
+        {"type": "truefalse",
+          "q": {"tk": "Hazar deňzi dünýäde iň uly köl hasaplanýar.", "ru": "Каспийское море считается самым большим озером в мире."},
+          "answer": true,
+          "hint": {"tk": "Hazar deňzi okean bilen birleşýärmi?", "ru": "Соединяется ли Каспий с океаном?"},
+          "explain": {"tk": "Hazaryň okean bilen tebigy baglanyşygy ýok, şonuň üçin ony meýdany boýunça dünýäniň iň uly köli hasaplaýarlar.", "ru": "Каспий не имеет естественной связи с океаном, поэтому его считают крупнейшим по площади озером мира."}},
+        {"type": "choice",
+          "q": {"tk": "Suw buglarynyň damjalara öwrülmegi nähili atlandyrylýar?", "ru": "Как называется превращение водяного пара в капли?"},
+          "options": [
+            {"tk": "Kondensasiýa", "ru": "Конденсация"},
+            {"tk": "Bugarma", "ru": "Испарение"},
+            {"tk": "Ygal", "ru": "Осадки"}
+          ],
+          "answer": 0,
+          "hint": {"tk": "Bulutlar şeýdip emele gelýär.", "ru": "Так образуются облака."},
+          "explain": {"tk": "Bug sowanda kiçijik damjalara öwrülýär — bu kondensasiýa. Bugarma tersine, suwuň buga öwrülmegi.", "ru": "При охлаждении пар превращается в капли — это конденсация. Испарение — обратный процесс."}},
+        {"type": "world", "text": {
+          "tk": "Okeanyň iň çuň ýeri — Ýuwaş okeandaky Mariana çöketliginiň Çellenjer çuňlugy, takmynan 11 km. 1960-njy ýylda Žak Pikar we Don Uolş «Triest» batiskafynda ilkinji gezek şol düýbe düşüpdirler.",
+          "ru": "Самое глубокое место океана — впадина Челленджер в Марианском жёлобе Тихого океана, около 11 км. В 1960 году Жак Пикар и Дон Уолш впервые опустились туда на батискафе «Триест»."}}
+      ]
+    },
+    {
+      "id": "geography-6-atmosphere-weather",
+      "grade": 6,
+      "topic": 5,
+      "title": {"tk": "Atmosfera we howa", "ru": "Атмосфера и погода"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Atmosfera — Ýeriň howa gabygy.\nHowanyň düzümi: azot ≈ 78%, kislorod ≈ 21%, argon ≈ 0,9%, kömürturşy gazy ≈ 0,04% we beýlekiler.\n\nAtmosferanyň gatlaklary:\n• Troposfera — ýerden 8–18 km çenli. Bulutlar, ýagyşlar, ýel — ähli howa hadysalary şu ýerde.\n• Stratosfera — ozon gatlagy bar, ol Günüň ultramelewşe şöhlelerinden goraýar.\n• Mezosfera, termosfera, ekzosfera.\n\nTroposferada her 1 km ýokary galdygyňça temperatura takmynan 6 °C peselýär.\n\nHowa — belli bir ýerdäki we wagtdaky atmosferanyň ýagdaýy. Onuň elementleri we gurallary:\n• temperatura — termometr\n• atmosfera basyşy — barometr (kadaly basyş 760 mm sim. süt.)\n• çyglylyk — gigrometr\n• ýeliň tizligi — anemometr\n• ygal — ygalölçeýji",
+          "ru": "Атмосфера — воздушная оболочка Земли.\nСостав воздуха: азот ≈ 78%, кислород ≈ 21%, аргон ≈ 0,9%, углекислый газ ≈ 0,04% и другие газы.\n\nСлои атмосферы:\n• Тропосфера — до 8–18 км. Здесь облака, дожди, ветер — вся погода.\n• Стратосфера — здесь озоновый слой, защищающий от ультрафиолета Солнца.\n• Мезосфера, термосфера, экзосфера.\n\nВ тропосфере при подъёме на каждый 1 км температура падает примерно на 6 °C.\n\nПогода — состояние атмосферы в данном месте в данное время. Её элементы и приборы:\n• температура — термометр\n• атмосферное давление — барометр (нормальное давление 760 мм рт. ст.)\n• влажность — гигрометр\n• скорость ветра — анемометр\n• осадки — осадкомер"}},
+        {"type": "example", "text": {
+          "tk": "Mysal: Dagyň eteginde +20 °C. Dagyň 3 km beýiklikdäki depesinde temperatura näçe?\n1) Her 1 km-de temperatura 6 °C peselýär.\n2) 3 km-de: 3 × 6 = 18 °C peselýär.\n3) 20 − 18 = +2 °C.\nJogap: takmynan +2 °C. Şonuň üçin hatda tomusda-da beýik daglaryň depesinde gar bolup bilýär.",
+          "ru": "Пример: у подножия горы +20 °C. Какая температура на вершине высотой 3 км?\n1) На каждый 1 км температура падает на 6 °C.\n2) На 3 км: 3 × 6 = 18 °C.\n3) 20 − 18 = +2 °C.\nОтвет: около +2 °C. Поэтому даже летом на вершинах высоких гор может лежать снег."}},
+        {"type": "input",
+          "q": {"tk": "Howada kislorod takmynan näçe göterim?", "ru": "Сколько примерно процентов кислорода в воздухе?"},
+          "answer": "21",
+          "hint": {"tk": "Azot 78%, galanynyň köp bölegi kislorod.", "ru": "Азота 78%, большая часть остального — кислород."},
+          "explain": {"tk": "Howanyň takmynan 21%-i kislorod.", "ru": "Около 21% воздуха составляет кислород."}},
+        {"type": "choice",
+          "q": {"tk": "Barometr näme ölçeýär?", "ru": "Что измеряет барометр?"},
+          "options": [
+            {"tk": "Ýeliň tizligini", "ru": "Скорость ветра"},
+            {"tk": "Atmosfera basyşyny", "ru": "Атмосферное давление"},
+            {"tk": "Howanyň çyglylygyny", "ru": "Влажность воздуха"}
+          ],
+          "answer": 1,
+          "hint": {"tk": "Ýeliň tizligini anemometr, çyglylygy gigrometr ölçeýär.", "ru": "Скорость ветра измеряет анемометр, влажность — гигрометр."},
+          "explain": {"tk": "Barometr atmosfera basyşyny ölçeýär. Basyşyň peselmegi köplenç ýagyşly howanyň alamaty.", "ru": "Барометр измеряет атмосферное давление. Падение давления часто предвещает ненастье."}},
+        {"type": "truefalse",
+          "q": {"tk": "Howa hadysalarynyň köpüsi stratosferada bolup geçýär.", "ru": "Большинство погодных явлений происходит в стратосфере."},
+          "answer": false,
+          "hint": {"tk": "Bulutlar haýsy gatlakda?", "ru": "В каком слое находятся облака?"},
+          "explain": {"tk": "Bulutlar, ygallar we ýeller esasan troposferada, ýagny atmosferanyň iň aşaky gatlagynda.", "ru": "Облака, осадки и ветры — в основном в тропосфере, самом нижнем слое атмосферы."}},
+        {"type": "input",
+          "q": {"tk": "Ýerde +25 °C. 2 km beýiklikde temperatura näçe gradus bolar?", "ru": "У земли +25 °C. Какой будет температура на высоте 2 км (в градусах)?"},
+          "answer": "13|+13",
+          "hint": {"tk": "Her kilometrde 6 °C peselýär.", "ru": "На каждый километр — минус 6 °C."},
+          "explain": {"tk": "2 × 6 = 12 °C peselýär: 25 − 12 = 13 °C.", "ru": "Падение 2 × 6 = 12 °C: 25 − 12 = 13 °C."}},
+        {"type": "world", "text": {
+          "tk": "1643-nji ýylda italýan alymy Ewanjelista Torriçelli simap barometrini oýlap tapypdyr. Ol howanyň agyrlygy bar bolup, simap sütünini takmynan 760 mm beýiklikde saklaýandygyny görkezipdir. Şondan bäri basyş «simap sütüniniň millimetrleri» bilen ölçelýär.",
+          "ru": "В 1643 году итальянский учёный Эванджелиста Торричелли изобрёл ртутный барометр. Он показал, что воздух имеет вес и удерживает столбик ртути высотой около 760 мм. С тех пор давление измеряют в «миллиметрах ртутного столба»."}}
+      ]
+    }
+  ]
+}

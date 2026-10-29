@@ -1,0 +1,42 @@
+{
+  "id": "turkmen",
+  "icon": "✍️",
+  "color": "#2B8A3E",
+  "title": {"tk": "Türkmen dili", "ru": "Туркменский язык"},
+  "lessons": [
+    {
+      "id": "tkm-5-vowels",
+      "grade": 5,
+      "title": {"tk": "Elipbiý we çekimli sesler", "ru": "Алфавит и гласные звуки"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Häzirki türkmen elipbiýi latyn esasynda bolup, 30 harpdan ybarat.\n\nÇekimli sesler 9 sany: a, e, ä, i, o, ö, u, ü, y.\nÇekimliler ýogyn we inçe bolýar:\n• Ýogyn: a, o, u, y\n• Inçe: e, ä, i, ö, ü",
+          "ru": "Современный туркменский алфавит основан на латинице и состоит из 30 букв.\n\nГласных звуков 9: a, e, ä, i, o, ö, u, ü, y.\nГласные бывают твёрдые и мягкие:\n• Твёрдые: a, o, u, y\n• Мягкие: e, ä, i, ö, ü"}},
+        {"type": "example", "text": {
+          "tk": "Sazlaşyk kanuny: sözüň goşulmasy kökdäki çekimlä görä üýtgeýär.\nkitap → kitaplar (ýogyn)\nmekdep → mekdepler (inçe)",
+          "ru": "Закон сингармонизма: окончание меняется по гласной корня.\nkitap → kitaplar (твёрдый ряд)\nmekdep → mekdepler (мягкий ряд)"}},
+        {"type": "input",
+          "q": {"tk": "Türkmen elipbiýinde näçe harp bar?", "ru": "Сколько букв в туркменском алфавите?"},
+          "answer": "30",
+          "hint": {"tk": "Ilkinji ädimde ýazyldy.", "ru": "Указано в первом шаге."},
+          "explain": {"tk": "30 harp.", "ru": "30 букв."}},
+        {"type": "choice",
+          "q": {"tk": "Haýsy çekimli inçe?", "ru": "Какая гласная мягкая?"},
+          "options": ["a", "ü", "y"],
+          "answer": 1,
+          "hint": {"tk": "Inçe çekimliler: e, ä, i, ö, ü.", "ru": "Мягкие: e, ä, i, ö, ü."},
+          "explain": {"tk": "ü — inçe çekimli.", "ru": "ü — мягкая гласная."}},
+        {"type": "choice",
+          "q": {"tk": "«gül» sözüniň köplük görnüşi:", "ru": "Множественное число слова «gül»:"},
+          "options": ["güllar", "güller", "gülar"],
+          "answer": 1,
+          "hint": {"tk": "ü — inçe, diýmek goşulma hem inçe.", "ru": "ü — мягкая, значит и окончание мягкое."},
+          "explain": {"tk": "gül + ler = güller.", "ru": "gül + ler = güller."}},
+        {"type": "world", "text": {
+          "tk": "Türkmenistan latyn elipbiýine 1993-nji ýylda geçmegi kabul etdi. Ondan öň kiril, has irki döwürlerde bolsa arap elipbiýi ulanylypdyr.",
+          "ru": "Туркменистан принял решение о переходе на латиницу в 1993 году. До этого использовалась кириллица, а в более ранние времена — арабская графика."}}
+      ]
+    }
+  ]
+}

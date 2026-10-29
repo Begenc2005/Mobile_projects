@@ -1,0 +1,243 @@
+{
+  "grade": 12,
+  "subject": "geometry",
+  "lessons": [
+    {
+      "id": "geometry-12-surface-area",
+      "grade": 12,
+      "topic": 0,
+      "title": {"tk": "Jisimleriň üstüniň meýdany", "ru": "Площадь поверхности тел"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Jisimiň doly üstüniň meýdany — onuň ähli granlarynyň ýa-da egri üstleriniň meýdanlarynyň jemi.\n\n• Prizma: S = S(gapdal) + 2·S(esas), S(gapdal) = P·h (göni prizma üçin, P — esasyň perimetri).\n• Kub (gapyrgasy a): S = 6a².\n• Silindr: S(gapdal) = 2πrh, S(doly) = 2πr(r + h).\n• Konus: S(gapdal) = πrl (l — emele getirijisi), S(doly) = πr(r + l).\n• Şar (sfera): S = 4πr².\n\nÜstüň meýdany kwadrat birliklerde ölçenýär: sm², m².",
+          "ru": "Площадь полной поверхности тела — это сумма площадей всех его граней или кривых поверхностей.\n\n• Призма: S = S(бок) + 2·S(осн), S(бок) = P·h (для прямой призмы, P — периметр основания).\n• Куб (ребро a): S = 6a².\n• Цилиндр: S(бок) = 2πrh, S(полн) = 2πr(r + h).\n• Конус: S(бок) = πrl (l — образующая), S(полн) = πr(r + l).\n• Шар (сфера): S = 4πr².\n\nПлощадь поверхности измеряется в квадратных единицах: см², м²."}},
+        {"type": "example", "text": {
+          "tk": "Mesele: silindriň radiusy r = 3 sm, beýikligi h = 5 sm. Doly üstüniň meýdanyny tapyň.\n\n1) Gapdal üsti: 2πrh = 2π·3·5 = 30π sm².\n2) Iki esas: 2πr² = 2π·9 = 18π sm².\n3) Doly üst: 30π + 18π = 48π ≈ 150,8 sm².\n\nBarlag: 2πr(r + h) = 2π·3·8 = 48π. ✔",
+          "ru": "Задача: радиус цилиндра r = 3 см, высота h = 5 см. Найдите площадь полной поверхности.\n\n1) Боковая поверхность: 2πrh = 2π·3·5 = 30π см².\n2) Два основания: 2πr² = 2π·9 = 18π см².\n3) Полная поверхность: 30π + 18π = 48π ≈ 150,8 см².\n\nПроверка: 2πr(r + h) = 2π·3·8 = 48π. ✔"}},
+        {"type": "input",
+          "q": {"tk": "Kubuň gapyrgasy 4 sm. Onuň doly üstüniň meýdany näçe sm²?", "ru": "Ребро куба 4 см. Чему равна площадь его полной поверхности в см²?"},
+          "answer": "96",
+          "hint": {"tk": "Kubuň 6 sany deň kwadrat grany bar.", "ru": "У куба 6 одинаковых квадратных граней."},
+          "explain": {"tk": "S = 6a² = 6·16 = 96 sm².", "ru": "S = 6a² = 6·16 = 96 см²."}},
+        {"type": "choice",
+          "q": {"tk": "Konusyň radiusy 3, emele getirijisi 5. Gapdal üstüniň meýdany näçä deň?", "ru": "Радиус конуса 3, образующая 5. Чему равна площадь боковой поверхности?"},
+          "options": ["15π", "24π", "45π"],
+          "answer": 0,
+          "hint": {"tk": "S(gapdal) = πrl formulasyny ulanyň.", "ru": "Используйте формулу S(бок) = πrl."},
+          "explain": {"tk": "S = π·3·5 = 15π. 24π — bu doly üst (15π + 9π).", "ru": "S = π·3·5 = 15π. 24π — это полная поверхность (15π + 9π)."}},
+        {"type": "truefalse",
+          "q": {"tk": "Şaryň radiusy 2 esse artsa, onuň üstüniň meýdany 4 esse artýar.", "ru": "Если радиус шара увеличить в 2 раза, площадь его поверхности увеличится в 4 раза."},
+          "answer": true,
+          "hint": {"tk": "S = 4πr² — radius kwadratda dur.", "ru": "S = 4πr² — радиус стоит в квадрате."},
+          "explain": {"tk": "4π(2r)² = 4·4πr², ýagny 2² = 4 esse.", "ru": "4π(2r)² = 4·4πr², то есть в 2² = 4 раза."}},
+        {"type": "choice",
+          "q": {"tk": "Şaryň radiusy 5 sm. Onuň üstüniň meýdany näçä deň?", "ru": "Радиус шара 5 см. Чему равна площадь его поверхности?"},
+          "options": ["25π sm²", "100π sm²", "500π/3 sm²"],
+          "answer": 1,
+          "hint": {"tk": "Sferanyň meýdany uly tegelegiň meýdanyndan 4 esse uly.", "ru": "Площадь сферы в 4 раза больше площади большого круга."},
+          "explain": {"tk": "S = 4π·5² = 100π sm². 500π/3 — bu şaryň göwrümi.", "ru": "S = 4π·5² = 100π см². 500π/3 — это объём шара."}},
+        {"type": "world", "text": {
+          "tk": "Arhimed şaryň üstüniň meýdany onuň daşyndan çyzylan silindriň doly üstüniň 2/3 bölegine deňdigini subut edipdir (göwrümler üçin hem şol gatnaşyk dogry). Ol bu açyşy iň möhüm işi hasaplap, mazarynyň daşyna silindrdäki şaryň şekilini goýmagy wesýet edipdir.",
+          "ru": "Архимед доказал, что площадь поверхности шара равна 2/3 полной поверхности описанного около него цилиндра (то же соотношение верно и для объёмов). Он считал это открытие главным и завещал изобразить шар в цилиндре на своём надгробии."}}
+      ]
+    },
+    {
+      "id": "geometry-12-solids-of-revolution",
+      "grade": 12,
+      "topic": 1,
+      "title": {"tk": "Aýlanma jisimleri we olaryň göwrümleri", "ru": "Тела вращения и их объёмы"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Aýlanma jisimi — tekiz figuranyň bir göni çyzygyň (aýlanma okunyň) daşyndan aýlanmagyndan emele gelýän jisim.\n\n• Gönüburçlugy tarapynyň daşyndan aýlasaň — silindr: V = πr²h.\n• Gönüburçly üçburçlugy katetiniň daşyndan aýlasaň — konus: V = ⅓πr²h.\n• Gönüburçly trapesiýany — kesik konus: V = ⅓πh(R² + Rr + r²).\n• Ýarym tegelegi diametriniň daşyndan aýlasaň — şar: V = ⁴⁄₃πr³.\n\nOk kesigi — jisimiň aýlanma okundan geçýän tekizlik bilen kesigi. Silindrde ol gönüburçluk, konusda deňýanly üçburçluk, şarda uly tegelek.",
+          "ru": "Тело вращения — тело, получаемое вращением плоской фигуры вокруг прямой (оси вращения).\n\n• Прямоугольник вокруг стороны — цилиндр: V = πr²h.\n• Прямоугольный треугольник вокруг катета — конус: V = ⅓πr²h.\n• Прямоугольная трапеция — усечённый конус: V = ⅓πh(R² + Rr + r²).\n• Полукруг вокруг диаметра — шар: V = ⁴⁄₃πr³.\n\nОсевое сечение — сечение тела плоскостью, проходящей через ось вращения. У цилиндра это прямоугольник, у конуса — равнобедренный треугольник, у шара — большой круг."}},
+        {"type": "example", "text": {
+          "tk": "Mesele: katetleri 3 sm we 4 sm bolan gönüburçly üçburçluk uzynlygy 4 sm bolan katetiň daşyndan aýlanýar. Jisimiň göwrümini we gapdal üstüni tapyň.\n\n1) Konus emele gelýär: h = 4, r = 3.\n2) V = ⅓π·3²·4 = ⅓π·36 = 12π sm³.\n3) Emele getiriji — gipotenuza: l = √(3² + 4²) = 5.\n4) S(gapdal) = πrl = π·3·5 = 15π sm².",
+          "ru": "Задача: прямоугольный треугольник с катетами 3 см и 4 см вращается вокруг катета длиной 4 см. Найдите объём тела и боковую поверхность.\n\n1) Получается конус: h = 4, r = 3.\n2) V = ⅓π·3²·4 = ⅓π·36 = 12π см³.\n3) Образующая — гипотенуза: l = √(3² + 4²) = 5.\n4) S(бок) = πrl = π·3·5 = 15π см²."}},
+        {"type": "choice",
+          "q": {"tk": "Gönüburçlugy bir tarapynyň daşyndan aýlasaň, haýsy jisim emele gelýär?", "ru": "Какое тело получится при вращении прямоугольника вокруг одной из его сторон?"},
+          "options": [{"tk": "Konus", "ru": "Конус"}, {"tk": "Şar", "ru": "Шар"}, {"tk": "Silindr", "ru": "Цилиндр"}],
+          "answer": 2,
+          "hint": {"tk": "Garşy tarap aýlananda tegelek çyzýar, beýikligi bolsa üýtgemeýär.", "ru": "Противоположная сторона при вращении описывает окружность, а высота не меняется."},
+          "explain": {"tk": "Aýlanma okundaky tarap — silindriň beýikligi, beýleki tarap — radiusy. Netijede silindr.", "ru": "Сторона на оси — высота цилиндра, соседняя сторона — радиус. Получается цилиндр."}},
+        {"type": "input",
+          "q": {"tk": "Şaryň radiusy 3. Onuň göwrümi V = ?·π. Sanyny ýazyň.", "ru": "Радиус шара 3. Его объём V = ?·π. Запишите число."},
+          "answer": "36",
+          "hint": {"tk": "V = ⁴⁄₃πr³, 3³ = 27.", "ru": "V = ⁴⁄₃πr³, 3³ = 27."},
+          "explain": {"tk": "V = ⁴⁄₃·27·π = 36π.", "ru": "V = ⁴⁄₃·27·π = 36π."}},
+        {"type": "truefalse",
+          "q": {"tk": "Esasy we beýikligi deň bolan konusyň göwrümi silindriň göwrüminiň üçden birine deň.", "ru": "Объём конуса равен трети объёма цилиндра с тем же основанием и высотой."},
+          "answer": true,
+          "hint": {"tk": "Formulalary deňeşdiriň: πr²h we ⅓πr²h.", "ru": "Сравните формулы: πr²h и ⅓πr²h."},
+          "explain": {"tk": "V(konus) = ⅓πr²h = ⅓·V(silindr). Dogry.", "ru": "V(конус) = ⅓πr²h = ⅓·V(цилиндр). Верно."}},
+        {"type": "input",
+          "q": {"tk": "Silindriň radiusy 2, beýikligi 5. Göwrümi V = ?·π. Sanyny ýazyň.", "ru": "Радиус цилиндра 2, высота 5. Объём V = ?·π. Запишите число."},
+          "answer": "20",
+          "hint": {"tk": "V = πr²h.", "ru": "V = πr²h."},
+          "explain": {"tk": "V = π·2²·5 = 20π.", "ru": "V = π·2²·5 = 20π."}},
+        {"type": "world", "text": {
+          "tk": "Ýer takyk şar däl-de, polýuslardan birneme gysylan aýlanma jisimi — ellipsoid. Onuň ekwatorial radiusy takmynan 6378 km, polýar radiusy bolsa takmynan 6357 km, ýagny 21 km töweregi kiçi. Muňa Ýeriň öz okunyň daşyndan aýlanmagy sebäp bolýar.",
+          "ru": "Земля — не идеальный шар, а сплюснутое у полюсов тело вращения — эллипсоид. Её экваториальный радиус около 6378 км, а полярный — около 6357 км, то есть примерно на 21 км меньше. Причина — вращение Земли вокруг своей оси."}}
+      ]
+    },
+    {
+      "id": "geometry-12-symmetry-in-space",
+      "grade": 12,
+      "topic": 2,
+      "title": {"tk": "Giňişlikde simmetriýa", "ru": "Симметрия в пространстве"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Giňişlikde simmetriýanyň üç esasy görnüşi bar:\n\n• Merkezi simmetriýa (O nokada görä): A we A′ nokatlar O nokada görä simmetrik, eger O — AA′ kesimiň ortasy bolsa.\n• Ok simmetriýasy (a göni çyzyga görä): AA′ kesim a çyzyga perpendikulýar we ony ortasyndan kesýär.\n• Aýna simmetriýasy (α tekizlige görä): AA′ kesim α tekizlige perpendikulýar we ony ortasyndan kesýär.\n\nKoordinatalarda A(x; y; z) nokat üçin:\n• başlangyja görä → (−x; −y; −z);\n• Oxy tekizligine görä → (x; y; −z);\n• Ox okuna görä → (x; −y; −z).\n\nKubuň simmetriýa merkezi, 9 simmetriýa tekizligi we 13 aýlanma oky bar.",
+          "ru": "В пространстве есть три основных вида симметрии:\n\n• Центральная (относительно точки O): точки A и A′ симметричны относительно O, если O — середина отрезка AA′.\n• Осевая (относительно прямой a): отрезок AA′ перпендикулярен прямой a и делится ею пополам.\n• Зеркальная (относительно плоскости α): отрезок AA′ перпендикулярен плоскости α и делится ею пополам.\n\nДля точки A(x; y; z) в координатах:\n• относительно начала координат → (−x; −y; −z);\n• относительно плоскости Oxy → (x; y; −z);\n• относительно оси Ox → (x; −y; −z).\n\nУ куба есть центр симметрии, 9 плоскостей симметрии и 13 осей вращения."}},
+        {"type": "example", "text": {
+          "tk": "Mesele: A(2; −3; 5) nokada simmetrik nokatlary tapyň.\n\n1) Koordinatalar başlangyjyna görä: ähli belgiler üýtgeýär → (−2; 3; −5).\n2) Oxy tekizligine görä: diňe z üýtgeýär → (2; −3; −5).\n3) Ox okuna görä: x saklanýar, y we z üýtgeýär → (2; 3; −5).\n4) Oyz tekizligine görä: diňe x üýtgeýär → (−2; −3; 5).",
+          "ru": "Задача: найдите точки, симметричные точке A(2; −3; 5).\n\n1) Относительно начала координат: меняются все знаки → (−2; 3; −5).\n2) Относительно плоскости Oxy: меняется только z → (2; −3; −5).\n3) Относительно оси Ox: x сохраняется, y и z меняют знак → (2; 3; −5).\n4) Относительно плоскости Oyz: меняется только x → (−2; −3; 5)."}},
+        {"type": "choice",
+          "q": {"tk": "B(1; 4; −2) nokada Oyz tekizligine görä simmetrik nokat haýsy?", "ru": "Какая точка симметрична точке B(1; 4; −2) относительно плоскости Oyz?"},
+          "options": ["(1; −4; 2)", "(−1; 4; −2)", "(−1; −4; 2)"],
+          "answer": 1,
+          "hint": {"tk": "Oyz tekizliginde x = 0. Haýsy koordinata tekizlige perpendikulýar?", "ru": "В плоскости Oyz x = 0. Какая координата перпендикулярна плоскости?"},
+          "explain": {"tk": "Oyz tekizligine görä diňe x-iň belgisi üýtgeýär: (−1; 4; −2).", "ru": "Относительно плоскости Oyz меняет знак только x: (−1; 4; −2)."}},
+        {"type": "input",
+          "q": {"tk": "Kubuň näçe simmetriýa tekizligi bar?", "ru": "Сколько плоскостей симметрии у куба?"},
+          "answer": "9",
+          "hint": {"tk": "Garşy granlaryň arasyndaky tekizlikleri we diagonal tekizlikleri sanaň.", "ru": "Посчитайте плоскости между противоположными гранями и диагональные плоскости."},
+          "explain": {"tk": "3 tekizlik garşy granlara parallel we 6 tekizlik garşy gapyrgalardan geçýär: 3 + 6 = 9.", "ru": "3 плоскости параллельны противоположным граням и 6 проходят через противоположные рёбра: 3 + 6 = 9."}},
+        {"type": "truefalse",
+          "q": {"tk": "Dogry tetraedriň simmetriýa merkezi bar.", "ru": "У правильного тетраэдра есть центр симметрии."},
+          "answer": false,
+          "hint": {"tk": "Depeden merkez arkaly geçip, garşy tarapda näme bar: depe ýa-da gran?", "ru": "Если пройти от вершины через центр, что окажется напротив: вершина или грань?"},
+          "explain": {"tk": "Her depäniň garşysynda depe däl-de, gran ýerleşýär, şonuň üçin merkezi simmetriýa ýok. Ýöne onuň 6 simmetriýa tekizligi bar.", "ru": "Напротив каждой вершины находится не вершина, а грань, поэтому центральной симметрии нет. Зато у него 6 плоскостей симметрии."}},
+        {"type": "choice",
+          "q": {"tk": "Şaryň näçe simmetriýa tekizligi bar?", "ru": "Сколько плоскостей симметрии у шара?"},
+          "options": [{"tk": "Tükeniksiz köp", "ru": "Бесконечно много"}, {"tk": "3", "ru": "3"}, {"tk": "9", "ru": "9"}],
+          "answer": 0,
+          "hint": {"tk": "Merkezden geçýän islendik tekizlik barada pikirleniň.", "ru": "Подумайте о любой плоскости, проходящей через центр."},
+          "explain": {"tk": "Şaryň merkezinden geçýän islendik tekizlik onuň simmetriýa tekizligi, şeýle tekizlikler tükeniksiz köp.", "ru": "Любая плоскость через центр шара — плоскость симметрии, а таких плоскостей бесконечно много."}},
+        {"type": "world", "text": {
+          "tk": "Gar böleklerinde (garjagazlarda) hemişe alty şöhle bolýar. Munuň sebäbi buzuň kristal gözenegi altyburçly gurluşda — suw molekulalary şeýle tertipde birleşýär. Şonuň üçin her garjagaz özboluşly bolsa-da, olaryň hemmesinde 6-njy tertipli simmetriýa bar.",
+          "ru": "У снежинок всегда шесть лучей. Причина — кристаллическая решётка льда имеет шестиугольное строение: молекулы воды соединяются именно так. Поэтому, хотя каждая снежинка уникальна, все они обладают симметрией 6-го порядка."}}
+      ]
+    },
+    {
+      "id": "geometry-12-transformations",
+      "grade": 12,
+      "topic": 3,
+      "title": {"tk": "Giňişlikde geometrik öwrülişikler", "ru": "Геометрические преобразования в пространстве"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Hereket (izometriýa) — nokatlaryň arasyndaky aralyklary saklaýan öwrülişik. Olara degişli:\n• Parallel geçirme a⃗(p; q; r) wektor boýunça: (x; y; z) → (x + p; y + q; z + r).\n• Ok daşyndan aýlamak.\n• Merkezi, ok we aýna simmetriýalary.\n\nGomotetiýa (merkezi O, koeffisiýenti k): OA′⃗ = k·OA⃗. Başlangyç merkezli bolsa: (x; y; z) → (kx; ky; kz).\n• Uzynlyklar |k| esse,\n• meýdanlar k² esse,\n• göwrümler |k|³ esse üýtgeýär.\n\nGomotetiýa hereket däl (|k| ≠ 1 bolsa), ýöne şekiliň görnüşini saklaýar — meňzeş figura berýär. k = −1 bolanda gomotetiýa merkezi simmetriýa bolýar.",
+          "ru": "Движение (изометрия) — преобразование, сохраняющее расстояния между точками. К ним относятся:\n• Параллельный перенос на вектор a⃗(p; q; r): (x; y; z) → (x + p; y + q; z + r).\n• Поворот вокруг оси.\n• Центральная, осевая и зеркальная симметрии.\n\nГомотетия (центр O, коэффициент k): OA′⃗ = k·OA⃗. С центром в начале координат: (x; y; z) → (kx; ky; kz).\n• Длины меняются в |k| раз,\n• площади — в k² раз,\n• объёмы — в |k|³ раз.\n\nГомотетия не является движением (при |k| ≠ 1), но сохраняет форму — даёт подобную фигуру. При k = −1 гомотетия совпадает с центральной симметрией."}},
+        {"type": "example", "text": {
+          "tk": "Mesele 1: A(0; 4; 1) nokady a⃗(1; −2; 3) wektor boýunça geçiriň.\nA′ = (0 + 1; 4 − 2; 1 + 3) = (1; 2; 4).\n\nMesele 2: merkezi başlangyçda, k = 2 bolan gomotetiýada B(1; −1; 3) nokat nirä geçýär?\nB′ = (2; −2; 6).\n\nMesele 3: şol gomotetiýada göwrümi 5 sm³ bolan jisimiň göwrümi näçe bolar?\nV′ = 2³·5 = 40 sm³.",
+          "ru": "Задача 1: перенесите точку A(0; 4; 1) на вектор a⃗(1; −2; 3).\nA′ = (0 + 1; 4 − 2; 1 + 3) = (1; 2; 4).\n\nЗадача 2: куда перейдёт точка B(1; −1; 3) при гомотетии с центром в начале координат и k = 2?\nB′ = (2; −2; 6).\n\nЗадача 3: каким станет объём тела 5 см³ при этой гомотетии?\nV′ = 2³·5 = 40 см³."}},
+        {"type": "input",
+          "q": {"tk": "Gapyrgasy 2 sm bolan kuba k = 3 gomotetiýa ulanylýar. Täze kubuň göwrümi näçe sm³?", "ru": "К кубу с ребром 2 см применили гомотетию с k = 3. Каков объём нового куба в см³?"},
+          "answer": "216",
+          "hint": {"tk": "Täze gapyrgany tapyň ýa-da göwrümi 3³ esse köpeldiň.", "ru": "Найдите новое ребро или умножьте объём на 3³."},
+          "explain": {"tk": "Täze gapyrga 6 sm, V = 6³ = 216 sm³. Ýa-da 8·27 = 216.", "ru": "Новое ребро 6 см, V = 6³ = 216 см³. Или 8·27 = 216."}},
+        {"type": "choice",
+          "q": {"tk": "Haýsy öwrülişik hereket (izometriýa) däl?", "ru": "Какое преобразование не является движением (изометрией)?"},
+          "options": [{"tk": "Parallel geçirme", "ru": "Параллельный перенос"}, {"tk": "k = 2 gomotetiýa", "ru": "Гомотетия с k = 2"}, {"tk": "Aýna simmetriýasy", "ru": "Зеркальная симметрия"}],
+          "answer": 1,
+          "hint": {"tk": "Haýsysy aralyklary üýtgedýär?", "ru": "Какое из них меняет расстояния?"},
+          "explain": {"tk": "k = 2 gomotetiýa ähli aralyklary 2 esse ulaldýar, şonuň üçin hereket däl.", "ru": "Гомотетия с k = 2 увеличивает все расстояния в 2 раза, поэтому это не движение."}},
+        {"type": "truefalse",
+          "q": {"tk": "Ok daşyndan aýlamak nokatlaryň arasyndaky aralyklary saklaýar.", "ru": "Поворот вокруг оси сохраняет расстояния между точками."},
+          "answer": true,
+          "hint": {"tk": "Aýlananda jisim deformasiýa bolýarmy?", "ru": "Деформируется ли тело при повороте?"},
+          "explain": {"tk": "Aýlamak — hereket: jisim görnüşini we ölçeglerini saklaýar, diňe ýagdaýyny üýtgedýär.", "ru": "Поворот — движение: тело сохраняет форму и размеры, меняется лишь положение."}},
+        {"type": "choice",
+          "q": {"tk": "Haýsy koeffisiýentli gomotetiýa merkezi simmetriýa bilen gabat gelýär?", "ru": "Гомотетия с каким коэффициентом совпадает с центральной симметрией?"},
+          "options": ["k = 0", "k = 1", "k = −1"],
+          "answer": 2,
+          "hint": {"tk": "Merkezi simmetriýada OA′⃗ = −OA⃗.", "ru": "При центральной симметрии OA′⃗ = −OA⃗."},
+          "explain": {"tk": "k = −1 bolanda OA′⃗ = −OA⃗ — bu merkezi simmetriýanyň takyk kesgitlemesi. k = 1 — hiç zat üýtgemeýär.", "ru": "При k = −1 OA′⃗ = −OA⃗ — это и есть центральная симметрия. При k = 1 ничего не меняется."}},
+        {"type": "world", "text": {
+          "tk": "3D kompýuter oýunlarynda we animasiýalarda her kadrda müňlerçe nokada parallel geçirme, aýlamak we masştablamak ulanylýar. Bu öwrülişikler bir gezekde ýerine ýetirilmegi üçin 4×4 matrisalar (birjynsly koordinatalar) arkaly ýazylýar we wideokartada hasaplanýar.",
+          "ru": "В 3D-играх и анимации в каждом кадре к тысячам точек применяются перенос, поворот и масштабирование. Чтобы выполнять их за один шаг, эти преобразования записывают матрицами 4×4 (однородные координаты) и вычисляют на видеокарте."}}
+      ]
+    },
+    {
+      "id": "geometry-12-spatial-problems",
+      "grade": 12,
+      "topic": 4,
+      "title": {"tk": "Giňişlikde aralyklar we burçlar", "ru": "Расстояния и углы в пространстве"},
+      "minutes": 11,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Giňişlik meselelerini koordinatalar usuly bilen çözmek amatly.\n\n• Iki nokadyň arasyndaky aralyk: d = √((x₂−x₁)² + (y₂−y₁)² + (z₂−z₁)²).\n• Wektorlaryň skalýar köpeltmek hasyly: a⃗·b⃗ = x₁x₂ + y₁y₂ + z₁z₂.\n• Wektorlaryň arasyndaky burç: cos φ = a⃗·b⃗ / (|a⃗|·|b⃗|).\n• Tekizligiň deňlemesi: ax + by + cz + d = 0, n⃗(a; b; c) — normal wektor.\n• M(x₀; y₀; z₀) nokatdan tekizlige çenli aralyk: ρ = |ax₀ + by₀ + cz₀ + d| / √(a² + b² + c²).\n\nGiňişlikde kesişmeýän göni çyzyklar parallel ýa-da atanaklaýyn (bir tekizlikde ýatmaýan) bolup biler.",
+          "ru": "Пространственные задачи удобно решать координатным методом.\n\n• Расстояние между двумя точками: d = √((x₂−x₁)² + (y₂−y₁)² + (z₂−z₁)²).\n• Скалярное произведение: a⃗·b⃗ = x₁x₂ + y₁y₂ + z₁z₂.\n• Угол между векторами: cos φ = a⃗·b⃗ / (|a⃗|·|b⃗|).\n• Уравнение плоскости: ax + by + cz + d = 0, n⃗(a; b; c) — вектор нормали.\n• Расстояние от точки M(x₀; y₀; z₀) до плоскости: ρ = |ax₀ + by₀ + cz₀ + d| / √(a² + b² + c²).\n\nНепересекающиеся прямые в пространстве могут быть параллельными или скрещивающимися (не лежащими в одной плоскости)."}},
+        {"type": "example", "text": {
+          "tk": "Mesele: kubuň gapyrgasy a. Onuň diagonalynyň uzynlygyny we diagonal bilen esasyň arasyndaky burçy tapyň.\n\n1) Esasyň diagonaly: a√2.\n2) Kubuň diagonaly: √(a² + (a√2)²) = √(3a²) = a√3.\n3) Diagonalyň esasa proýeksiýasy — esasyň diagonaly, şonuň üçin cos φ = a√2 / (a√3) = √(2/3) ≈ 0,816.\n4) φ ≈ 35,3°.",
+          "ru": "Задача: ребро куба a. Найдите длину диагонали куба и угол между диагональю и основанием.\n\n1) Диагональ основания: a√2.\n2) Диагональ куба: √(a² + (a√2)²) = √(3a²) = a√3.\n3) Проекция диагонали на основание — диагональ основания, поэтому cos φ = a√2 / (a√3) = √(2/3) ≈ 0,816.\n4) φ ≈ 35,3°."}},
+        {"type": "input",
+          "q": {"tk": "A(1; 2; 3) we B(4; 6; 3) nokatlaryň arasyndaky aralygy tapyň.", "ru": "Найдите расстояние между точками A(1; 2; 3) и B(4; 6; 3)."},
+          "answer": "5",
+          "hint": {"tk": "Koordinatalaryň tapawutlary: 3, 4 we 0.", "ru": "Разности координат: 3, 4 и 0."},
+          "explain": {"tk": "d = √(3² + 4² + 0²) = √25 = 5.", "ru": "d = √(3² + 4² + 0²) = √25 = 5."}},
+        {"type": "input",
+          "q": {"tk": "M(1; 2; 3) nokatdan 2x + y + 2z − 1 = 0 tekizlige çenli aralygy tapyň.", "ru": "Найдите расстояние от точки M(1; 2; 3) до плоскости 2x + y + 2z − 1 = 0."},
+          "answer": "3",
+          "hint": {"tk": "Maýdalawjy: √(2² + 1² + 2²) = 3.", "ru": "Знаменатель: √(2² + 1² + 2²) = 3."},
+          "explain": {"tk": "Sanawjy: |2·1 + 2 + 2·3 − 1| = 9. ρ = 9 / 3 = 3.", "ru": "Числитель: |2·1 + 2 + 2·3 − 1| = 9. ρ = 9 / 3 = 3."}},
+        {"type": "choice",
+          "q": {"tk": "a⃗(1; 2; 2) we b⃗(2; −1; 0) wektorlaryň arasyndaky burç näçä deň?", "ru": "Чему равен угол между векторами a⃗(1; 2; 2) и b⃗(2; −1; 0)?"},
+          "options": ["0°", "45°", "90°"],
+          "answer": 2,
+          "hint": {"tk": "Ilki skalýar köpeltmek hasylyny hasaplaň.", "ru": "Сначала вычислите скалярное произведение."},
+          "explain": {"tk": "a⃗·b⃗ = 1·2 + 2·(−1) + 2·0 = 0. Skalýar köpeltmek hasyly nola deň, diýmek wektorlar perpendikulýar: 90°.", "ru": "a⃗·b⃗ = 1·2 + 2·(−1) + 2·0 = 0. Скалярное произведение равно нулю, значит, векторы перпендикулярны: 90°."}},
+        {"type": "truefalse",
+          "q": {"tk": "Giňişlikde kesişmeýän iki göni çyzyk hökman parallel bolýar.", "ru": "Две непересекающиеся прямые в пространстве обязательно параллельны."},
+          "answer": false,
+          "hint": {"tk": "Kubuň üst granyndaky bir gapyrgany we aşaky granyndaky oňa perpendikulýar gapyrgany göz öňüne getiriň.", "ru": "Представьте ребро на верхней грани куба и перпендикулярное ему ребро на нижней грани."},
+          "explain": {"tk": "Olar atanaklaýyn hem bolup biler: kesişmeýär, ýöne bir tekizlikde ýatmaýar we parallel däl.", "ru": "Они могут быть скрещивающимися: не пересекаются, но не лежат в одной плоскости и не параллельны."}},
+        {"type": "world", "text": {
+          "tk": "GPS kabul edijisi öz ýerini giňişlik geometriýasy arkaly kesgitleýär: ol birnäçe hemradan gelýän signallaryň wagtyna görä olara çenli aralyklary hasaplaýar. Üç koordinata we sagadyň ýalňyşlygyny tapmak üçin azyndan dört hemranyň signaly gerek.",
+          "ru": "GPS-приёмник определяет своё положение с помощью пространственной геометрии: по времени прихода сигналов он вычисляет расстояния до нескольких спутников. Чтобы найти три координаты и поправку часов, нужны сигналы как минимум четырёх спутников."}}
+      ]
+    },
+    {
+      "id": "geometry-12-review",
+      "grade": 12,
+      "topic": 5,
+      "title": {"tk": "Gaýtalamak: stereometriýa", "ru": "Повторение: стереометрия"},
+      "minutes": 12,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Stereometriýanyň esasy formulalary:\n\n• Prizma: V = S(esas)·h.\n• Piramida: V = ⅓S(esas)·h; dogry piramidanyň gapdal üsti S = ½P·m (m — apofema).\n• Silindr: V = πr²h, S(doly) = 2πr(r + h).\n• Konus: V = ⅓πr²h, S(doly) = πr(r + l).\n• Şar: V = ⁴⁄₃πr³, S = 4πr².\n• Kubuň diagonaly: a√3; gönüburçly parallelepipediň diagonaly: √(a² + b² + c²).\n\nEýleriň formulasy (güberçek köpgranlyk üçin): D − G + Gr = 2 (D — depeler, G — gapyrgalar, Gr — granlar).",
+          "ru": "Основные формулы стереометрии:\n\n• Призма: V = S(осн)·h.\n• Пирамида: V = ⅓S(осн)·h; боковая поверхность правильной пирамиды S = ½P·m (m — апофема).\n• Цилиндр: V = πr²h, S(полн) = 2πr(r + h).\n• Конус: V = ⅓πr²h, S(полн) = πr(r + l).\n• Шар: V = ⁴⁄₃πr³, S = 4πr².\n• Диагональ куба: a√3; диагональ прямоугольного параллелепипеда: √(a² + b² + c²).\n\nФормула Эйлера (для выпуклого многогранника): В − Р + Г = 2 (В — вершины, Р — рёбра, Г — грани)."}},
+        {"type": "example", "text": {
+          "tk": "Mesele: dogry dörtburçly piramidanyň esasynyň tarapy 6, beýikligi 4. Doly üstüni we göwrümini tapyň.\n\n1) Apofema: beýiklik we esasyň merkezinden tarapa çenli aralyk (3) — katetler. m = √(4² + 3²) = 5.\n2) Gapdal üst: ½·(4·6)·5 = 60.\n3) Esas: 6² = 36. Doly üst: 60 + 36 = 96.\n4) Göwrüm: ⅓·36·4 = 48.",
+          "ru": "Задача: сторона основания правильной четырёхугольной пирамиды 6, высота 4. Найдите полную поверхность и объём.\n\n1) Апофема: высота и расстояние от центра основания до стороны (3) — катеты. m = √(4² + 3²) = 5.\n2) Боковая поверхность: ½·(4·6)·5 = 60.\n3) Основание: 6² = 36. Полная поверхность: 60 + 36 = 96.\n4) Объём: ⅓·36·4 = 48."}},
+        {"type": "input",
+          "q": {"tk": "Gapyrgasy 6 bolan kubuň içinden şar çyzylan. Şaryň göwrümi V = ?·π. Sanyny ýazyň.", "ru": "В куб с ребром 6 вписан шар. Объём шара V = ?·π. Запишите число."},
+          "answer": "36",
+          "hint": {"tk": "Içinden çyzylan şaryň diametri kubuň gapyrgasyna deň.", "ru": "Диаметр вписанного шара равен ребру куба."},
+          "explain": {"tk": "r = 3, V = ⁴⁄₃π·27 = 36π.", "ru": "r = 3, V = ⁴⁄₃π·27 = 36π."}},
+        {"type": "choice",
+          "q": {"tk": "Gapyrgasy 2 bolan kubuň diagonaly näçä deň?", "ru": "Чему равна диагональ куба с ребром 2?"},
+          "options": ["2√3", "2√2", "4"],
+          "answer": 0,
+          "hint": {"tk": "Kubuň diagonaly a√3.", "ru": "Диагональ куба равна a√3."},
+          "explain": {"tk": "d = 2√3 ≈ 3,46. 2√2 — granyň diagonaly.", "ru": "d = 2√3 ≈ 3,46. 2√2 — диагональ грани."}},
+        {"type": "input",
+          "q": {"tk": "Güberçek köpgranlygyň 6 depesi we 12 gapyrgasy bar. Onuň näçe grany bar?", "ru": "У выпуклого многогранника 6 вершин и 12 рёбер. Сколько у него граней?"},
+          "answer": "8",
+          "hint": {"tk": "Eýleriň formulasy: D − G + Gr = 2.", "ru": "Формула Эйлера: В − Р + Г = 2."},
+          "explain": {"tk": "6 − 12 + Gr = 2 ⇒ Gr = 8. Bu — oktaedr.", "ru": "6 − 12 + Г = 2 ⇒ Г = 8. Это октаэдр."}},
+        {"type": "truefalse",
+          "q": {"tk": "Islendik prizmanyň simmetriýa merkezi bar.", "ru": "У любой призмы есть центр симметрии."},
+          "answer": false,
+          "hint": {"tk": "Dogry üçburçly prizmany göz öňüne getiriň.", "ru": "Представьте правильную треугольную призму."},
+          "explain": {"tk": "Üçburçly prizmada depäniň garşysynda depe däl-de, gapdal gran ýerleşýär, şonuň üçin simmetriýa merkezi ýok.", "ru": "У треугольной призмы напротив вершины находится не вершина, а боковая грань, поэтому центра симметрии нет."}},
+        {"type": "world", "text": {
+          "tk": "D − G + Gr = 2 formulasy XVIII asyrda Leonard Eýleriň adyny göterýär. Ol topologiýanyň — figuralaryň üzülmezden we ýelmenmezden deformasiýa edilende saklanýan häsiýetlerini öwrenýän matematikanyň bölüminiň — ilkinji netijeleriniň biri hasaplanýar.",
+          "ru": "Формула В − Р + Г = 2 носит имя Леонарда Эйлера (XVIII век). Её считают одним из первых результатов топологии — раздела математики о свойствах фигур, сохраняющихся при деформации без разрывов и склеек."}}
+      ]
+    }
+  ]
+}

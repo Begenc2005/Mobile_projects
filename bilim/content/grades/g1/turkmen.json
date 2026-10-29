@@ -1,0 +1,246 @@
+{
+  "grade": 1,
+  "subject": "turkmen",
+  "lessons": [
+    {
+      "id": "turkmen-1-sounds-letters",
+      "grade": 1,
+      "topic": 0,
+      "title": {"tk": "Sesler we harplar", "ru": "Звуки и буквы"},
+      "minutes": 6,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Sesleri biz eşidýäris we aýdýarys 👂🗣️.\nHarplary biz görýäris we ýazýarys ✍️.\n• Ses — eşidilýär.\n• Harp — ýazylýar.\nTürkmen elipbiýinde 30 harp bar.",
+          "ru": "Звуки мы слышим и произносим 👂🗣️.\nБуквы мы видим и пишем ✍️.\n• Звук — слышим.\n• Букву — пишем.\nВ туркменском алфавите 30 букв."}},
+        {"type": "example", "text": {
+          "tk": "Söz: at 🐴\nAýdyp gör: [a] — [t].\nOnda 2 ses bar.\nÝazyp gör: a, t.\nOnda 2 harp bar.",
+          "ru": "Слово: at (лошадь) 🐴\nПроизнеси: [a] — [t].\nВ нём 2 звука.\nНапиши: a, t.\nВ нём 2 буквы."}},
+        {"type": "choice",
+          "q": {"tk": "Harp bilen näme edýäris?", "ru": "Что мы делаем с буквой?"},
+          "options": [
+            {"tk": "Diňe eşidýäris", "ru": "Только слышим"},
+            {"tk": "Ýazýarys we okaýarys", "ru": "Пишем и читаем"},
+            {"tk": "Iýýäris", "ru": "Едим"}],
+          "answer": 1,
+          "hint": {"tk": "Harpy depderde görýäris.", "ru": "Букву мы видим в тетради."},
+          "explain": {"tk": "Harpy ýazýarys we okaýarys. Sesi bolsa eşidýäris.", "ru": "Букву мы пишем и читаем. А звук мы слышим."}},
+        {"type": "input",
+          "q": {"tk": "«Gül» 🌹 sözünde näçe harp bar?", "ru": "Сколько букв в слове «gül» (роза) 🌹?"},
+          "answer": "3",
+          "hint": {"tk": "Harplary bir-birden sana: g…", "ru": "Считай буквы по одной: g…"},
+          "explain": {"tk": "g, ü, l — 3 harp.", "ru": "g, ü, l — 3 буквы."}},
+        {"type": "truefalse",
+          "q": {"tk": "Türkmen elipbiýinde 30 harp bar.", "ru": "В туркменском алфавите 30 букв."},
+          "answer": true,
+          "hint": {"tk": "Sapagyň başyny ýatla.", "ru": "Вспомни начало урока."},
+          "explain": {"tk": "Dogry: A-dan Z-e çenli 30 harp.", "ru": "Верно: от A до Z — 30 букв."}},
+        {"type": "world", "text": {
+          "tk": "Ilkinji elipbiýleriň biri — Finikiýa elipbiýi — takmynan 3000 ýyl ozal döräpdir. Häzirki latyn harplary hem şondan gelip çykýar.",
+          "ru": "Один из первых алфавитов — финикийский — появился около 3000 лет назад. От него произошли и современные латинские буквы."}}
+      ]
+    },
+    {
+      "id": "turkmen-1-vowels",
+      "grade": 1,
+      "topic": 1,
+      "title": {"tk": "Çekimli sesler", "ru": "Гласные звуки"},
+      "minutes": 6,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Çekimli sesleri uzadyp aýdyp bolýar: aaaa! 🎵\nHowa agzyňdan erkin çykýar.\nTürkmen dilinde 9 çekimli harp bar:\n• a, e, ä, i, o, ö, u, ü, y",
+          "ru": "Гласные звуки можно тянуть и петь: аааа! 🎵\nВоздух выходит изо рта свободно.\nВ туркменском языке 9 гласных букв:\n• a, e, ä, i, o, ö, u, ü, y"}},
+        {"type": "example", "text": {
+          "tk": "Söz: alma 🍎\nHarplar: a — l — m — a\nÇekimliler: a we a.\nJogap: 2 çekimli.",
+          "ru": "Слово: alma (яблоко) 🍎\nБуквы: a — l — m — a\nГласные: a и a.\nОтвет: 2 гласных."}},
+        {"type": "choice",
+          "q": {"tk": "Haýsy harp çekimli?", "ru": "Какая буква гласная?"},
+          "options": ["b", "m", "o"],
+          "answer": 2,
+          "hint": {"tk": "Haýsysyny uzadyp aýdyp bolýar?", "ru": "Какую из них можно тянуть голосом?"},
+          "explain": {"tk": "«o» — çekimli: ooo diýip uzadyp bolýar.", "ru": "«o» — гласная: её можно тянуть: ооо."}},
+        {"type": "input",
+          "q": {"tk": "«Ene» sözünde näçe çekimli bar?", "ru": "Сколько гласных в слове «ene» (мама)?"},
+          "answer": "2",
+          "hint": {"tk": "Harplar: e, n, e.", "ru": "Буквы: e, n, e."},
+          "explain": {"tk": "e we e — 2 çekimli. «n» — çekimsiz.", "ru": "e и e — 2 гласных. «n» — согласная."}},
+        {"type": "choice",
+          "q": {"tk": "Türkmen dilinde näçe çekimli harp bar?", "ru": "Сколько гласных букв в туркменском языке?"},
+          "options": ["9", "5", "21"],
+          "answer": 0,
+          "hint": {"tk": "Sana: a, e, ä, i, o, ö, u, ü, y.", "ru": "Посчитай: a, e, ä, i, o, ö, u, ü, y."},
+          "explain": {"tk": "9 çekimli harp bar.", "ru": "Гласных букв 9."}},
+        {"type": "truefalse",
+          "q": {"tk": "«ü» — çekimli ses.", "ru": "«ü» — гласный звук."},
+          "answer": true,
+          "hint": {"tk": "«üüü» diýip uzadyp bolýarmy?", "ru": "Можно ли тянуть «üüü»?"},
+          "explain": {"tk": "Hawa, «ü» çekimli.", "ru": "Да, «ü» — гласный."}},
+        {"type": "world", "text": {
+          "tk": "Arap ýazuwynda gysga çekimliler köplenç ýazylmaýar. Okyjy sözi tanap, olary özi goşup okaýar.",
+          "ru": "В арабском письме краткие гласные обычно не пишут. Читатель узнаёт слово и сам добавляет их при чтении."}}
+      ]
+    },
+    {
+      "id": "turkmen-1-consonants",
+      "grade": 1,
+      "topic": 2,
+      "title": {"tk": "Çekimsiz sesler", "ru": "Согласные звуки"},
+      "minutes": 6,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Çekimsiz sesleri aýdanyňda howa päsgele duşýar: dodaklar 👄, dil 👅 ýa-da dişler 🦷.\nTürkmen dilinde 21 çekimsiz harp bar.\nMeselem: b, d, g, k, l, m, n, s, ş, t.",
+          "ru": "Когда произносим согласный, воздух встречает преграду: губы 👄, язык 👅 или зубы 🦷.\nВ туркменском языке 21 согласная буква.\nНапример: b, d, g, k, l, m, n, s, ş, t."}},
+        {"type": "example", "text": {
+          "tk": "Söz: balyk 🐟\nHarplar: b — a — l — y — k\nÇekimliler: a, y.\nÇekimsizler: b, l, k.\nJogap: 3 çekimsiz.",
+          "ru": "Слово: balyk (рыба) 🐟\nБуквы: b — a — l — y — k\nГласные: a, y.\nСогласные: b, l, k.\nОтвет: 3 согласных."}},
+        {"type": "input",
+          "q": {"tk": "«Kitap» 📕 sözünde näçe çekimsiz bar?", "ru": "Сколько согласных в слове «kitap» (книга) 📕?"},
+          "answer": "3",
+          "hint": {"tk": "Ilki çekimlileri tap: i, a.", "ru": "Сначала найди гласные: i, a."},
+          "explain": {"tk": "k, t, p — 3 çekimsiz.", "ru": "k, t, p — 3 согласных."}},
+        {"type": "choice",
+          "q": {"tk": "Haýsy harp çekimsiz?", "ru": "Какая буква согласная?"},
+          "options": ["a", "ş", "ü"],
+          "answer": 1,
+          "hint": {"tk": "Haýsysyny aýdanyňda dil we dişler kömek edýär?", "ru": "При какой помогают язык и зубы?"},
+          "explain": {"tk": "«ş» — çekimsiz. «a» we «ü» — çekimli.", "ru": "«ş» — согласная. «a» и «ü» — гласные."}},
+        {"type": "truefalse",
+          "q": {"tk": "Türkmen elipbiýinde çekimsiz harplar çekimlilerden köp.", "ru": "В туркменском алфавите согласных букв больше, чем гласных."},
+          "answer": true,
+          "hint": {"tk": "21 we 9 — haýsysy köp?", "ru": "21 и 9 — что больше?"},
+          "explain": {"tk": "21 çekimsiz, 9 çekimli. 21 köp.", "ru": "21 согласная и 9 гласных. 21 больше."}},
+        {"type": "world", "text": {
+          "tk": "Çeh dilinde «Strč prst skrz krk» diýen sözlem bar. Onda ýekeje-de çekimli harp ýok! Ol «Barmagyňy bogazyňa sok» diýmekdir.",
+          "ru": "В чешском языке есть фраза «Strč prst skrz krk» — «Просунь палец сквозь горло». В ней нет ни одной гласной буквы!"}}
+      ]
+    },
+    {
+      "id": "turkmen-1-syllables",
+      "grade": 1,
+      "topic": 3,
+      "title": {"tk": "Bogun", "ru": "Слог"},
+      "minutes": 6,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Sözi bölekläp aýdyp bolýar: ki-tap.\nHer bölek — bogun.\n• Her bogunda bir çekimli bar.\n• Näçe çekimli bolsa, şonça bogun.",
+          "ru": "Слово можно произнести по частям: ki-tap.\nКаждая часть — слог.\n• В каждом слоге одна гласная.\n• Сколько гласных — столько слогов."}},
+        {"type": "example", "text": {
+          "tk": "Söz: köbelek 🦋\nÇekimliler: ö, e, e — 3.\nBogunlar: kö-be-lek.\nEl çarpyp sana: 👏 👏 👏\nJogap: 3 bogun.",
+          "ru": "Слово: köbelek (бабочка) 🦋\nГласные: ö, e, e — 3.\nСлоги: kö-be-lek.\nПохлопай: 👏 👏 👏\nОтвет: 3 слога."}},
+        {"type": "input",
+          "q": {"tk": "«Alma» 🍎 sözünde näçe bogun bar?", "ru": "Сколько слогов в слове «alma» (яблоко) 🍎?"},
+          "answer": "2",
+          "hint": {"tk": "Çekimlileri sana.", "ru": "Посчитай гласные."},
+          "explain": {"tk": "al-ma: 2 çekimli, 2 bogun.", "ru": "al-ma: 2 гласные — 2 слога."}},
+        {"type": "choice",
+          "q": {"tk": "«Balalar» sözünde näçe bogun bar?", "ru": "Сколько слогов в слове «balalar» (дети)?"},
+          "options": ["2", "3", "4"],
+          "answer": 1,
+          "hint": {"tk": "El çarpyp aýt: ba…", "ru": "Произнеси с хлопками: ba…"},
+          "explain": {"tk": "ba-la-lar: 3 bogun.", "ru": "ba-la-lar: 3 слога."}},
+        {"type": "truefalse",
+          "q": {"tk": "«At» 🐴 sözi bir bogundan ybarat.", "ru": "Слово «at» (лошадь) 🐴 состоит из одного слога."},
+          "answer": true,
+          "hint": {"tk": "Bu sözde näçe çekimli bar?", "ru": "Сколько в нём гласных?"},
+          "explain": {"tk": "Diňe bir çekimli (a) — bir bogun.", "ru": "Одна гласная (a) — один слог."}},
+        {"type": "choice",
+          "q": {"tk": "Haýsy söz dogry bogunlara bölünen?", "ru": "Какое слово правильно разделено на слоги?"},
+          "options": ["k-itap", "kit-ap", "ki-tap"],
+          "answer": 2,
+          "hint": {"tk": "Her bogunda bir çekimli bolmaly.", "ru": "В каждом слоге должна быть гласная."},
+          "explain": {"tk": "ki-tap: «ki» we «tap», her birinde bir çekimli.", "ru": "ki-tap: «ki» и «tap», в каждом по одной гласной."}},
+        {"type": "world", "text": {
+          "tk": "Ýapon ýazuwynda (hiragana) köp belgi tutuş bir bogny aňladýar. Meselem, か belgisi «ka» diýip okalýar.",
+          "ru": "В японской азбуке хирагана каждый знак обычно обозначает целый слог. Например, знак か читается «ка»."}}
+      ]
+    },
+    {
+      "id": "turkmen-1-words",
+      "grade": 1,
+      "topic": 4,
+      "title": {"tk": "Söz", "ru": "Слово"},
+      "minutes": 6,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Sözler harplardan durýar.\nSöz zady, hereketi ýa-da alamaty aňladýar:\n• pişik 🐱 — zat\n• ylgaýar 🏃 — hereket\n• gyzyl 🔴 — alamat\nSözleriň arasynda boşluk goýulýar.",
+          "ru": "Слова состоят из букв.\nСлово называет предмет, действие или признак:\n• pişik (кошка) 🐱 — предмет\n• ylgaýar (бежит) 🏃 — действие\n• gyzyl (красный) 🔴 — признак\nМежду словами ставится пробел."}},
+        {"type": "example", "text": {
+          "tk": "Harplar: k, i, t, a, p → söz: kitap 📕.\nBir harpy üýtget: at 🐴 → ot 🔥.\nBir harp üýtgedi — many hem üýtgedi!",
+          "ru": "Буквы: k, i, t, a, p → слово: kitap (книга) 📕.\nЗамени одну букву: at (лошадь) 🐴 → ot (огонь) 🔥.\nИзменилась одна буква — изменился смысл!"}},
+        {"type": "choice",
+          "q": {"tk": "Haýsy söz hereketi aňladýar?", "ru": "Какое слово обозначает действие?"},
+          "options": [
+            {"tk": "alma", "ru": "alma (яблоко)"},
+            {"tk": "ylgaýar", "ru": "ylgaýar (бежит)"},
+            {"tk": "gyzyl", "ru": "gyzyl (красный)"}],
+          "answer": 1,
+          "hint": {"tk": "«Näme edýär?» soragyna jogap berýän sözi tap.", "ru": "Найди слово, которое отвечает на вопрос «что делает?»."},
+          "explain": {"tk": "«Ylgaýar» — näme edýär? Bu hereket.", "ru": "«Ylgaýar» — что делает? Это действие."}},
+        {"type": "input",
+          "q": {"tk": "«Men mekdebe gidýärin» — bu ýerde näçe söz bar?", "ru": "«Men mekdebe gidýärin» (Я иду в школу) — сколько здесь слов?"},
+          "answer": "3",
+          "hint": {"tk": "Boşluklara seret.", "ru": "Посмотри на пробелы."},
+          "explain": {"tk": "Men / mekdebe / gidýärin — 3 söz.", "ru": "Men / mekdebe / gidýärin — 3 слова."}},
+        {"type": "truefalse",
+          "q": {"tk": "Sözleriň arasynda boşluk goýulmaýar.", "ru": "Между словами пробел не ставится."},
+          "answer": false,
+          "hint": {"tk": "Kitapdaky setirlere seret.", "ru": "Посмотри на строчки в книге."},
+          "explain": {"tk": "Ýalňyş: sözleriň arasynda boşluk goýulýar.", "ru": "Неверно: между словами ставится пробел."}},
+        {"type": "choice",
+          "q": {"tk": "Haýsy söz zady aňladýar?", "ru": "Какое слово обозначает предмет?"},
+          "options": [
+            {"tk": "ylgaýar", "ru": "ylgaýar (бежит)"},
+            {"tk": "gök", "ru": "gök (синий)"},
+            {"tk": "pişik", "ru": "pişik (кошка)"}],
+          "answer": 2,
+          "hint": {"tk": "«Bu näme?» ýa-da «Bu kim?» diýip sora.", "ru": "Спроси: «Что это?» или «Кто это?»"},
+          "explain": {"tk": "Pişik — bu kim? Bu zat (jandar).", "ru": "Pişik (кошка) — кто это? Это предмет (живое существо)."}},
+        {"type": "world", "text": {
+          "tk": "XI asyrda alym Mahmyt Kaşgary türki sözleriň uly sözlügini — «Diwanu lugat at-türk» kitabyny ýazypdyr. Onda türkmen sözleri hem bar.",
+          "ru": "В XI веке учёный Махмуд Кашгари составил большой словарь тюркских слов — «Диван лугат ат-тюрк». В нём есть и туркменские слова."}}
+      ]
+    },
+    {
+      "id": "turkmen-1-sentence",
+      "grade": 1,
+      "topic": 5,
+      "title": {"tk": "Sözlem", "ru": "Предложение"},
+      "minutes": 6,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Sözlem — pikiri aňladýan sözler.\n• Sözlem baş harp bilen başlanýar.\n• Ahyrynda belgi goýulýar:\n  . — nokat\n  ? — sorag belgisi\n  ! — ýüzlenme belgisi",
+          "ru": "Предложение — слова, которые выражают мысль.\n• Предложение начинается с большой буквы.\n• В конце ставится знак:\n  . — точка\n  ? — вопросительный знак\n  ! — восклицательный знак"}},
+        {"type": "example", "text": {
+          "tk": "Sözler: gelýär, Aýna, mekdebe.\n1) Tertibe sal: Aýna mekdebe gelýär.\n2) Baş harp: A.\n3) Ahyrynda nokat: Aýna mekdebe gelýär. ✅",
+          "ru": "Слова: gelýär (приходит), Aýna, mekdebe (в школу).\n1) Расставь по порядку: Aýna mekdebe gelýär.\n2) Большая буква: A.\n3) В конце точка: Aýna mekdebe gelýär. ✅"}},
+        {"type": "choice",
+          "q": {"tk": "Sözlem nähili harp bilen başlanýar?", "ru": "С какой буквы начинается предложение?"},
+          "options": [
+            {"tk": "Baş harp bilen", "ru": "С большой буквы"},
+            {"tk": "Kiçi harp bilen", "ru": "С маленькой буквы"},
+            {"tk": "San bilen", "ru": "С цифры"}],
+          "answer": 0,
+          "hint": {"tk": "Mysaldaky «Aýna» sözüne seret.", "ru": "Посмотри на слово «Aýna» в примере."},
+          "explain": {"tk": "Sözlem hemişe baş harp bilen başlanýar.", "ru": "Предложение всегда начинается с большой буквы."}},
+        {"type": "choice",
+          "q": {"tk": "«Sen nirede?» — ahyrynda haýsy belgi bar?", "ru": "«Sen nirede?» (Ты где?) — какой знак в конце?"},
+          "options": [".", "!", "?"],
+          "answer": 2,
+          "hint": {"tk": "Bu sözlem sorag berýär.", "ru": "Это предложение задаёт вопрос."},
+          "explain": {"tk": "Sorag sözleminiň ahyrynda sorag belgisi (?) goýulýar.", "ru": "В конце вопроса ставится вопросительный знак (?)."}},
+        {"type": "input",
+          "q": {"tk": "«Biz bagda oýnaýarys.» Bu sözlemde näçe söz bar?", "ru": "«Biz bagda oýnaýarys.» (Мы играем в саду.) Сколько слов в предложении?"},
+          "answer": "3",
+          "hint": {"tk": "Boşluklary sana we 1 goş.", "ru": "Посчитай пробелы и прибавь 1."},
+          "explain": {"tk": "Biz / bagda / oýnaýarys — 3 söz.", "ru": "Biz / bagda / oýnaýarys — 3 слова."}},
+        {"type": "truefalse",
+          "q": {"tk": "«pişik ýatyr» — bu dogry ýazylan sözlem.", "ru": "«pişik ýatyr» (кошка спит) — это правильно записанное предложение."},
+          "answer": false,
+          "hint": {"tk": "Başyna we ahyryna seret.", "ru": "Посмотри на начало и конец."},
+          "explain": {"tk": "Baş harp we nokat ýok. Dogrusy: Pişik ýatyr.", "ru": "Нет большой буквы и точки. Правильно: Pişik ýatyr."}},
+        {"type": "world", "text": {
+          "tk": "Gadymy grek we latyn ýazgylarynda köplenç sözleriň arasynda boşluk hem, nokat hem bolmandyr. Hemme harplar bitewi setir bolup ýazylypdyr!",
+          "ru": "В древних греческих и латинских надписях часто не было ни пробелов, ни точек. Все буквы писали сплошной строкой!"}}
+      ]
+    }
+  ]
+}

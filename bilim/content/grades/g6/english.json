@@ -1,0 +1,288 @@
+{
+  "grade": 6,
+  "subject": "english",
+  "lessons": [
+    {
+      "id": "english-6-present-perfect",
+      "grade": 6,
+      "topic": 0,
+      "title": {"tk": "Present Perfect", "ru": "Present Perfect"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Present Perfect geçmişde bolan, ýöne häzir bilen baglanyşykly hereketi aňladýar. Wagty takyk aýdylmaýar.\n\nGurluşy: have / has + III forma (past participle)\n• I / you / we / they have → I have finished.\n• he / she / it has → She has finished.\n• Inkär: I haven't seen it.\n• Sorag: Have you ever been to Paris?\n\nKadaly işliklerde III forma -ed bilen: play → played. Kadasyz işlikler ýatdan öwrenilýär: go → gone, see → seen, eat → eaten.\n\nÝoldaş sözler: ever, never, already, yet, just.",
+          "ru": "Present Perfect обозначает действие, которое произошло в прошлом, но связано с настоящим. Точное время не называется.\n\nСтроение: have / has + третья форма (past participle)\n• I / you / we / they have → I have finished.\n• he / she / it has → She has finished.\n• Отрицание: I haven't seen it.\n• Вопрос: Have you ever been to Paris?\n\nУ правильных глаголов третья форма на -ed: play → played. Неправильные глаголы учат наизусть: go → gone, see → seen, eat → eaten.\n\nСлова-подсказки: ever, never, already, yet, just."
+        }},
+        {"type": "example", "text": {
+          "tk": "«I have lost my keys.» — Men açarlarymy ýitirdim (häzir olar ýanymda ýok — netije häzir).\n\nDeňeşdiriň:\n• I lost my keys yesterday. → Past Simple, sebäbi wagt aýdylýar (yesterday).\n• I have lost my keys. → Present Perfect, wagt aýdylmaýar, netije möhüm.\n\n«She has already done her homework.» — Ol öý işini eýýäm etdi.",
+          "ru": "«I have lost my keys.» — Я потерял ключи (их сейчас нет — результат в настоящем).\n\nСравните:\n• I lost my keys yesterday. → Past Simple, потому что указано время (yesterday).\n• I have lost my keys. → Present Perfect, время не указано, важен результат.\n\n«She has already done her homework.» — Она уже сделала домашнее задание."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Dogry görnüşi saýlaň: «She ___ visited London.»", "ru": "Выберите правильную форму: «She ___ visited London.»"},
+          "options": ["have", "has", "is"],
+          "answer": 1,
+          "hint": {"tk": "he / she / it bilen haýsy kömekçi işlik ulanylýar?", "ru": "Какой вспомогательный глагол используется с he / she / it?"},
+          "explain": {"tk": "she → has: «She has visited London.»", "ru": "she → has: «She has visited London.»"}
+        },
+        {"type": "input",
+          "q": {"tk": "«see» işliginiň III formasyny ýazyň (Present Perfect üçin).", "ru": "Напишите третью форму глагола «see» (для Present Perfect)."},
+          "answer": "seen",
+          "hint": {"tk": "Bu kadasyz işlik: see – saw – …", "ru": "Это неправильный глагол: see – saw – …"},
+          "explain": {"tk": "see – saw – seen. «I have seen this film.»", "ru": "see – saw – seen. «I have seen this film.»"}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«I have seen him yesterday.» — dogry sözlem.", "ru": "«I have seen him yesterday.» — правильное предложение."},
+          "answer": false,
+          "hint": {"tk": "«yesterday» takyk geçen wagty görkezýär.", "ru": "«Yesterday» указывает на конкретное прошедшее время."},
+          "explain": {"tk": "Takyk geçen wagt bilen Past Simple ulanylýar: «I saw him yesterday.»", "ru": "С конкретным прошедшим временем нужен Past Simple: «I saw him yesterday.»"}
+        },
+        {"type": "choice",
+          "q": {"tk": "Boşlugy dolduryň: «Have you ___ been to Ashgabat?»", "ru": "Заполните пропуск: «Have you ___ been to Ashgabat?»"},
+          "options": ["ever", "yesterday", "ago"],
+          "answer": 0,
+          "hint": {"tk": "«Haçan-da bolsa» manysyndaky söz gerek.", "ru": "Нужно слово со значением «когда-нибудь»."},
+          "explain": {"tk": "«ever» — haçan-da bolsa. «yesterday» we «ago» Past Simple bilen ulanylýar.", "ru": "«Ever» — когда-нибудь. «Yesterday» и «ago» употребляются с Past Simple."}
+        },
+        {"type": "world", "text": {
+          "tk": "Iňlis dilinde iň köp ulanylýan işlikleriň köpüsi kadasyz: be, have, do, say, go, get, make, know, see. Olar gadymy iňlis dilinden gelýär, şonuň üçin «-ed» düzgünine boýun egmeýär.",
+          "ru": "Многие из самых частых глаголов английского языка неправильные: be, have, do, say, go, get, make, know, see. Они пришли из древнеанглийского языка, поэтому не подчиняются правилу «-ed»."
+        }}
+      ]
+    },
+    {
+      "id": "english-6-past-continuous",
+      "grade": 6,
+      "topic": 1,
+      "title": {"tk": "Past Continuous", "ru": "Past Continuous"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Past Continuous geçmişde belli bir pursatda dowam edip duran hereketi aňladýar.\n\nGurluşy: was / were + işlik-ing\n• I / he / she / it was reading.\n• you / we / they were reading.\n• Inkär: I wasn't sleeping.\n• Sorag: Were you watching TV?\n\nUlanylyşy:\n• Takyk pursat: At 7 o'clock yesterday I was having dinner.\n• Dowam edýän hereketi gysga hereket bölýär: I was walking home when it started to rain.\n  (uzak hereket — Past Continuous, gysga — Past Simple)",
+          "ru": "Past Continuous обозначает действие, которое длилось в определённый момент в прошлом.\n\nСтроение: was / were + глагол-ing\n• I / he / she / it was reading.\n• you / we / they were reading.\n• Отрицание: I wasn't sleeping.\n• Вопрос: Were you watching TV?\n\nУпотребление:\n• Конкретный момент: At 7 o'clock yesterday I was having dinner.\n• Длительное действие прерывается коротким: I was walking home when it started to rain.\n  (длительное — Past Continuous, короткое — Past Simple)"
+        }},
+        {"type": "example", "text": {
+          "tk": "«While I was doing my homework, my brother was playing football.»\n\n1) Iki hereket bir wagtda dowam edipdir → ikisi hem Past Continuous.\n2) «while» — «...-ka/-kä, wagtynda».\n\n«The phone rang when we were having lunch.»\n1) Uzak hereket: were having (Past Continuous).\n2) Gysga hereket ony böldi: rang (Past Simple).",
+          "ru": "«While I was doing my homework, my brother was playing football.»\n\n1) Два действия длились одновременно → оба в Past Continuous.\n2) «While» — «пока, в то время как».\n\n«The phone rang when we were having lunch.»\n1) Длительное действие: were having (Past Continuous).\n2) Короткое его прервало: rang (Past Simple)."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Boşlugy dolduryň: «They ___ playing chess at 5 p.m.»", "ru": "Заполните пропуск: «They ___ playing chess at 5 p.m.»"},
+          "options": ["was", "are", "were"],
+          "answer": 2,
+          "hint": {"tk": "«they» bilen geçmiş zamanda «be» işligi haýsy görnüşde?", "ru": "Какая форма «be» в прошедшем времени с «they»?"},
+          "explain": {"tk": "they → were: «They were playing chess at 5 p.m.»", "ru": "they → were: «They were playing chess at 5 p.m.»"}
+        },
+        {"type": "input",
+          "q": {"tk": "Ýaýdaky işligi dogry formada ýazyň (iki söz): «I ___ (sleep) when you called.»", "ru": "Поставьте глагол в нужную форму (два слова): «I ___ (sleep) when you called.»"},
+          "answer": "was sleeping",
+          "hint": {"tk": "Uzak hereket gysga hereket bilen bölünýär: was/were + -ing.", "ru": "Длительное действие прерывается коротким: was/were + -ing."},
+          "explain": {"tk": "I → was, sleep → sleeping: «I was sleeping when you called.»", "ru": "I → was, sleep → sleeping: «I was sleeping when you called.»"}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«She were cooking dinner.» — dogry sözlem.", "ru": "«She were cooking dinner.» — правильное предложение."},
+          "answer": false,
+          "hint": {"tk": "«she» birlik san.", "ru": "«She» — единственное число."},
+          "explain": {"tk": "she → was: «She was cooking dinner.»", "ru": "she → was: «She was cooking dinner.»"}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy sözlem dogry?", "ru": "Какое предложение правильное?"},
+          "options": ["I was reading when the lights went out.", "I read when the lights were going out.", "I was read when the lights went out."],
+          "answer": 0,
+          "hint": {"tk": "Uzak hereket — okamak, gysga hereket — çyralaryň öçmegi.", "ru": "Длительное действие — чтение, короткое — свет погас."},
+          "explain": {"tk": "Okamak dowam edýärdi (was reading), çyralar birden öçdi (went out).", "ru": "Чтение длилось (was reading), свет погас внезапно (went out)."}
+        },
+        {"type": "world", "text": {
+          "tk": "Köp diller dowam edýän hereketi aýratyn görkezýär. Türkmen dilinde-de şeýle forma bar: «Men okap otyrdym» ýa-da «okaýardym». Rus dilinde bolsa bu many köplenç işligiň kämil däl görnüşi bilen berilýär: «я читал».",
+          "ru": "Многие языки по-особому передают длительное действие. В туркменском для этого есть свои формы: «Men okap otyrdym» или «okaýardym». В русском этот смысл обычно передаёт несовершенный вид глагола: «я читал»."
+        }}
+      ]
+    },
+    {
+      "id": "english-6-will-going-to",
+      "grade": 6,
+      "topic": 2,
+      "title": {"tk": "Will we going to", "ru": "Will и going to"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Iki görnüş hem geljegi aňladýar, ýöne manysy dürli.\n\nwill + işlik:\n• şol pursatda kabul edilen karar: «I'm thirsty. I'll get some water.»\n• çaklama, pikir: «I think it will be sunny tomorrow.»\n• wada, teklip: «I'll help you.»\n\nbe going to + işlik:\n• öňünden meýilleşdirilen niýet: «I'm going to visit my grandma on Sunday.»\n• häzirki alamatlara görä çaklama: «Look at those clouds! It's going to rain.»\n\nwill not = won't.",
+          "ru": "Обе формы выражают будущее, но смысл разный.\n\nwill + глагол:\n• решение, принятое в момент речи: «I'm thirsty. I'll get some water.»\n• предположение, мнение: «I think it will be sunny tomorrow.»\n• обещание, предложение: «I'll help you.»\n\nbe going to + глагол:\n• заранее запланированное намерение: «I'm going to visit my grandma on Sunday.»\n• прогноз по видимым признакам: «Look at those clouds! It's going to rain.»\n\nwill not = won't."
+        }},
+        {"type": "example", "text": {
+          "tk": "Dialog:\nA: «The phone is ringing.»\nB: «I'll answer it.» → karar şu pursatda kabul edildi → will.\n\nA: «What are your plans for the summer?»\nB: «I'm going to learn to swim.» → öňünden meýilleşdirilen → going to.\n\nA: «Careful! You're going to fall!» → alamat görünýär (ol ýykyljak bolýar) → going to.",
+          "ru": "Диалог:\nA: «The phone is ringing.»\nB: «I'll answer it.» → решение принято сейчас → will.\n\nA: «What are your plans for the summer?»\nB: «I'm going to learn to swim.» → план заранее → going to.\n\nA: «Careful! You're going to fall!» → признак виден (человек вот-вот упадёт) → going to."
+        }},
+        {"type": "choice",
+          "q": {"tk": "«I've bought paint. I ___ paint my room.»", "ru": "«I've bought paint. I ___ paint my room.»"},
+          "options": ["will", "am going to", "was"],
+          "answer": 1,
+          "hint": {"tk": "Reňk eýýäm satyn alnypdyr — bu öňünden meýilmi?", "ru": "Краска уже куплена — это заранее принятый план?"},
+          "explain": {"tk": "Reňk öňünden alnypdyr, diýmek meýilnama bar → am going to.", "ru": "Краска куплена заранее, значит есть план → am going to."}
+        },
+        {"type": "choice",
+          "q": {"tk": "«This bag is heavy.» — «Wait, I ___ help you!»", "ru": "«This bag is heavy.» — «Wait, I ___ help you!»"},
+          "options": ["am going to", "was", "will"],
+          "answer": 2,
+          "hint": {"tk": "Kömek etmek karary haçan kabul edildi?", "ru": "Когда было принято решение помочь?"},
+          "explain": {"tk": "Karar şol pursatda kabul edildi we bu teklip → will (I'll help you).", "ru": "Решение принято в момент речи, и это предложение помощи → will (I'll help you)."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«won't» — «will not» sözleriniň gysga görnüşi.", "ru": "«Won't» — краткая форма «will not»."},
+          "answer": true,
+          "hint": {"tk": "«I won't forget» — men ýatdan çykarmaryn.", "ru": "«I won't forget» — я не забуду."},
+          "explain": {"tk": "will not → won't: «It won't rain today.»", "ru": "will not → won't: «It won't rain today.»"}
+        },
+        {"type": "input",
+          "q": {"tk": "Boşlugy bir söz bilen dolduryň: «Look at the sky! It's ___ to rain.»", "ru": "Заполните пропуск одним словом: «Look at the sky! It's ___ to rain.»"},
+          "answer": "going",
+          "hint": {"tk": "Asmanda alamat görünýär — be ___ to.", "ru": "На небе виден признак — be ___ to."},
+          "explain": {"tk": "Alamatlara görä çaklama: «It's going to rain.»", "ru": "Прогноз по признакам: «It's going to rain.»"}
+        },
+        {"type": "world", "text": {
+          "tk": "Häzirki howa maglumaty çaklamalary superkompýuterlerde hasaplanýar. Ilkinji kompýuter howa çaklamasy 1950-nji ýylda ENIAC kompýuterinde ýerine ýetirildi: 24 sagatlyk çaklamany hasaplamak üçin oňa takmynan 24 sagat gerek bolupdyr.",
+          "ru": "Современные прогнозы погоды рассчитывают суперкомпьютеры. Первый компьютерный прогноз погоды выполнили в 1950 году на компьютере ENIAC: на расчёт прогноза на 24 часа у него ушло примерно 24 часа."
+        }}
+      ]
+    },
+    {
+      "id": "english-6-must-should",
+      "grade": 6,
+      "topic": 3,
+      "title": {"tk": "Must / should", "ru": "Must / should"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "must we should modal işliklerdir. Olardan soň işlik «to»-syz gelýär we he/she/it bilen «-s» goşulmaýar.\n\nmust — hökmanlyk, düzgün, berk zerurlyk:\n• «You must wear a seatbelt.» — Howpsuzlyk kemerini dakmaly.\nmustn't — gadagan: «You mustn't use phones in the exam.»\n\nshould — maslahat, gowy bolar diýen pikir:\n• «You should drink more water.» — Köpräk suw içseň gowy bolar.\nshouldn't — maslahat bermezlik: «You shouldn't eat too much sugar.»",
+          "ru": "Must и should — модальные глаголы. После них глагол идёт без «to», и с he/she/it не добавляется «-s».\n\nmust — обязанность, правило, сильная необходимость:\n• «You must wear a seatbelt.» — Нужно пристегнуться.\nmustn't — запрет: «You mustn't use phones in the exam.»\n\nshould — совет, мнение, что так будет лучше:\n• «You should drink more water.» — Тебе стоит пить больше воды.\nshouldn't — не советую: «You shouldn't eat too much sugar.»"
+        }},
+        {"type": "example", "text": {
+          "tk": "Mekdep düzgünleri we maslahatlar:\n• «Students must arrive at 8:00.» — düzgün → must.\n• «You mustn't run in the corridor.» — gadagan → mustn't.\n• «You look tired. You should go to bed early.» — maslahat → should.\n\nÝalňyşlyk: «He musts go» ýa-da «You should to go» diýilmeýär. Dogry: «He must go», «You should go».",
+          "ru": "Школьные правила и советы:\n• «Students must arrive at 8:00.» — правило → must.\n• «You mustn't run in the corridor.» — запрет → mustn't.\n• «You look tired. You should go to bed early.» — совет → should.\n\nОшибки: нельзя «He musts go» или «You should to go». Правильно: «He must go», «You should go»."
+        }},
+        {"type": "choice",
+          "q": {"tk": "«You have a cold. You ___ stay at home.» (maslahat)", "ru": "«You have a cold. You ___ stay at home.» (совет)"},
+          "options": ["should", "mustn't", "shouldn't"],
+          "answer": 0,
+          "hint": {"tk": "Bu maslahat, gadagan däl.", "ru": "Это совет, а не запрет."},
+          "explain": {"tk": "Maslahat → should: «You should stay at home.»", "ru": "Совет → should: «You should stay at home.»"}
+        },
+        {"type": "choice",
+          "q": {"tk": "Muzeýde ýazgy: «You ___ touch the paintings.»", "ru": "Надпись в музее: «You ___ touch the paintings.»"},
+          "options": ["should", "must", "mustn't"],
+          "answer": 2,
+          "hint": {"tk": "Bu muzeýiň gadagançylygy.", "ru": "Это запрет музея."},
+          "explain": {"tk": "Gadagan → mustn't: suratlara elläp bolmaýar.", "ru": "Запрет → mustn't: трогать картины нельзя."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«She should to see a doctor.» — dogry sözlem.", "ru": "«She should to see a doctor.» — правильное предложение."},
+          "answer": false,
+          "hint": {"tk": "Modal işlikden soň «to» gerekmi?", "ru": "Нужна ли «to» после модального глагола?"},
+          "explain": {"tk": "Modal işlikden soň «to» ulanylmaýar: «She should see a doctor.»", "ru": "После модального глагола «to» не ставится: «She should see a doctor.»"}
+        },
+        {"type": "input",
+          "q": {"tk": "Gadagany aňladýan gysga görnüşi ýazyň (must + not).", "ru": "Напишите краткую форму запрета (must + not)."},
+          "answer": "mustn't|must not",
+          "hint": {"tk": "must + not → bir sözde apostrof bilen.", "ru": "must + not → одним словом с апострофом."},
+          "explain": {"tk": "must not = mustn't: «You mustn't cross on red.»", "ru": "must not = mustn't: «You mustn't cross on red.»"}
+        },
+        {"type": "world", "text": {
+          "tk": "Iňlis dilinde «mustn't» sözünde birinji «t» aýdylmaýar: ol [ˈmʌsnt] diýlip okalýar. Şeýle «dymýan» harplar iňlis dilinde köp: knife, write, listen.",
+          "ru": "В английском слове «mustn't» первая «t» не произносится: его читают как [ˈmʌsnt]. Такие «немые» буквы в английском встречаются часто: knife, write, listen."
+        }}
+      ]
+    },
+    {
+      "id": "english-6-travel",
+      "grade": 6,
+      "topic": 4,
+      "title": {"tk": "Travel — syýahat", "ru": "Travel — путешествия"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Syýahat sözleri:\n• passport — pasport, ticket — bilet, luggage / suitcase — goş / çemodan\n• airport — howa menzili, flight — uçuş, boarding pass — uçara münmek talony\n• departure — ugramak, arrival — gelmek\n• hotel — myhmanhana, book a room — otag bronlamak\n• sightseeing — görküli ýerlere aýlanmak, guide — gid\n\nPeýdaly aňlatmalar:\n• by plane / by train / by bus — ulag bilen («by» bilen artikl ýok)\n• on foot — pyýada\n• go on a trip / go on holiday — syýahata gitmek",
+          "ru": "Слова о путешествиях:\n• passport — паспорт, ticket — билет, luggage / suitcase — багаж / чемодан\n• airport — аэропорт, flight — рейс, boarding pass — посадочный талон\n• departure — отправление, arrival — прибытие\n• hotel — гостиница, book a room — забронировать номер\n• sightseeing — осмотр достопримечательностей, guide — гид\n\nПолезные выражения:\n• by plane / by train / by bus — на транспорте (с «by» без артикля)\n• on foot — пешком\n• go on a trip / go on holiday — поехать в путешествие / в отпуск"
+        }},
+        {"type": "example", "text": {
+          "tk": "Howa menzilinde gepleşik:\nOfficer: «Can I see your passport and boarding pass, please?»\nTraveller: «Here you are.»\nOfficer: «Is this your luggage?»\nTraveller: «Yes, just one suitcase.»\nOfficer: «Your flight departs from gate 12. Have a nice trip!»\n\n«Here you are» — «Ine, alyň» diýen sypaýy aňlatma.",
+          "ru": "Диалог в аэропорту:\nOfficer: «Can I see your passport and boarding pass, please?»\nTraveller: «Here you are.»\nOfficer: «Is this your luggage?»\nTraveller: «Yes, just one suitcase.»\nOfficer: «Your flight departs from gate 12. Have a nice trip!»\n\n«Here you are» — вежливое «Вот, пожалуйста»."
+        }},
+        {"type": "choice",
+          "q": {"tk": "«Myhmanhana» iňlisçe nähili?", "ru": "Как по-английски «гостиница»?"},
+          "options": ["hospital", "hotel", "house"],
+          "answer": 1,
+          "hint": {"tk": "Syýahatda gijelemek üçin ýer.", "ru": "Место, где ночуют в поездке."},
+          "explain": {"tk": "hotel — myhmanhana. hospital — hassahana, house — jaý.", "ru": "hotel — гостиница. hospital — больница, house — дом."}
+        },
+        {"type": "input",
+          "q": {"tk": "Predlogy ýazyň: «We travelled to Turkey ___ plane.»", "ru": "Вставьте предлог: «We travelled to Turkey ___ plane.»"},
+          "answer": "by",
+          "hint": {"tk": "Ulag görnüşi aýdylanda haýsy predlog ulanylýar (artiklsyz)?", "ru": "Какой предлог употребляется с видом транспорта (без артикля)?"},
+          "explain": {"tk": "by plane, by train, by car — ulag bilen.", "ru": "by plane, by train, by car — на транспорте."}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«Arrival» — «ugramak» diýmegi aňladýar.", "ru": "«Arrival» означает «отправление»."},
+          "answer": false,
+          "hint": {"tk": "«arrive» işligi — «gelmek, ýetmek».", "ru": "Глагол «arrive» — «прибывать»."},
+          "explain": {"tk": "arrival — gelmek (прибытие). Ugramak — departure.", "ru": "Arrival — прибытие. Отправление — departure."}
+        },
+        {"type": "choice",
+          "q": {"tk": "Haýsy söz uçara münmek üçin gerek resminamany aňladýar?", "ru": "Какое слово обозначает документ для посадки в самолёт?"},
+          "options": ["guide", "suitcase", "boarding pass"],
+          "answer": 2,
+          "hint": {"tk": "«board» — uçara münmek.", "ru": "«Board» — садиться на борт."},
+          "explain": {"tk": "boarding pass — uçara münmek talony.", "ru": "Boarding pass — посадочный талон."}
+        },
+        {"type": "world", "text": {
+          "tk": "Gadymy Beýik Ýüpek ýoly Hytaýy Ýewropa bilen birleşdiripdir we häzirki Türkmenistanyň üstünden geçipdir. Merw şäheri bu ýoluň iň uly duralgalarynyň biri bolupdyr, Gadymy Merw bolsa ÝUNESKO-nyň Bütindünýä mirasynyň sanawyna girizildi.",
+          "ru": "Древний Великий шёлковый путь соединял Китай с Европой и проходил через территорию нынешнего Туркменистана. Мерв был одним из крупнейших городов на этом пути, а Древний Мерв включён в список Всемирного наследия ЮНЕСКО."
+        }}
+      ]
+    },
+    {
+      "id": "english-6-describing-people",
+      "grade": 6,
+      "topic": 5,
+      "title": {"tk": "Describing people — daş keşbi suratlandyrmak", "ru": "Describing people — описание внешности"},
+      "minutes": 8,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Daş keşbi suratlandyrmak:\n• Boý: tall — uzyn, short — gysga, medium height — orta boýly\n• Beden: slim — inçe, well-built — berk bedenli\n• Saç: long / short, straight — göni, curly — buýra; dark, fair (açyk), red, grey\n• Göz: blue, brown, green eyes\n• Ýaş: young, middle-aged, elderly\n\nGrammatika:\n• «She has long dark hair.» — has/have bilen (saç, göz)\n• «He is tall and slim.» — is/are bilen (boý, beden)\n• «What does she look like?» — Ol nähili görünýär? (daş keşbi barada sorag)\n\nÜns beriň: «hair» köplük sanda ulanylmaýar: «long hair», «long hairs» däl.",
+          "ru": "Описание внешности:\n• Рост: tall — высокий, short — низкий, medium height — среднего роста\n• Телосложение: slim — стройный, well-built — крепкий\n• Волосы: long / short, straight — прямые, curly — кудрявые; dark, fair (светлые), red, grey\n• Глаза: blue, brown, green eyes\n• Возраст: young, middle-aged, elderly\n\nГрамматика:\n• «She has long dark hair.» — с has/have (волосы, глаза)\n• «He is tall and slim.» — с is/are (рост, телосложение)\n• «What does she look like?» — Как она выглядит? (вопрос о внешности)\n\nОбратите внимание: «hair» (волосы) не ставится во множественное число: «long hair», а не «long hairs»."
+        }},
+        {"type": "example", "text": {
+          "tk": "«What does your brother look like?»\n«He is tall and well-built. He has short curly hair and brown eyes. He is young — he is 17.»\n\nSypatlaryň tertibi: ölçeg/uzynlyk → görnüş → reňk:\nlong straight black hair (uzyn göni gara saç).",
+          "ru": "«What does your brother look like?»\n«He is tall and well-built. He has short curly hair and brown eyes. He is young — he is 17.»\n\nПорядок прилагательных: размер/длина → форма → цвет:\nlong straight black hair (длинные прямые чёрные волосы)."
+        }},
+        {"type": "choice",
+          "q": {"tk": "Dogry sözlemi saýlaň.", "ru": "Выберите правильное предложение."},
+          "options": ["She has long hairs.", "She is long hair.", "She has long hair."],
+          "answer": 2,
+          "hint": {"tk": "Saç — has bilen, «hair» birlik sanda.", "ru": "Волосы — с has, а «hair» в единственном числе."},
+          "explain": {"tk": "«She has long hair.» — has + hair (köplük goşulmasyz).", "ru": "«She has long hair.» — has + hair (без окончания множественного числа)."}
+        },
+        {"type": "choice",
+          "q": {"tk": "«curly» näme aňladýar?", "ru": "Что значит «curly»?"},
+          "options": [{"tk": "buýra", "ru": "кудрявый"}, {"tk": "göni", "ru": "прямой"}, {"tk": "gysga", "ru": "короткий"}],
+          "answer": 0,
+          "hint": {"tk": "«curl» — halka, towlanmak.", "ru": "«Curl» — локон, завиток."},
+          "explain": {"tk": "curly hair — buýra saç. Göni — straight, gysga — short.", "ru": "Curly hair — кудрявые волосы. Прямые — straight, короткие — short."}
+        },
+        {"type": "input",
+          "q": {"tk": "Boşlugy dolduryň: «What does he look ___?»", "ru": "Заполните пропуск: «What does he look ___?»"},
+          "answer": "like",
+          "hint": {"tk": "Daş keşbi barada soragda «look» işliginden soň bir söz gelýär.", "ru": "В вопросе о внешности после «look» идёт одно слово."},
+          "explain": {"tk": "«What does he look like?» — Ol nähili görünýär?", "ru": "«What does he look like?» — Как он выглядит?"}
+        },
+        {"type": "truefalse",
+          "q": {"tk": "«He is tall and slim.» sözleminde boý we beden suratlandyrylýar.", "ru": "В предложении «He is tall and slim.» описаны рост и телосложение."},
+          "answer": true,
+          "hint": {"tk": "tall — haýsy alamat? slim — haýsy?", "ru": "Tall — какой признак? Slim — какой?"},
+          "explain": {"tk": "tall — uzyn boýly (boý), slim — inçe (beden).", "ru": "Tall — высокий (рост), slim — стройный (телосложение)."}
+        },
+        {"type": "world", "text": {
+          "tk": "Kriminalistikada adamy beýan boýunça tanamak üçin «fotorobot» usuly ulanylýar. Şaýatlar daş keşbi — saçy, gözi, burny — suratlandyrýar we hünärmen şolardan ýüzüň şekilini düzýär. Häzir munuň üçin kompýuter programmalary ulanylýar.",
+          "ru": "В криминалистике, чтобы найти человека по описанию, составляют «фоторобот». Свидетели описывают внешность — волосы, глаза, нос, — а специалист собирает из этого изображение лица. Сейчас для этого используют компьютерные программы."
+        }}
+      ]
+    }
+  ]
+}

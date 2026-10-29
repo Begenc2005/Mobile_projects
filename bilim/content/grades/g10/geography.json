@@ -1,0 +1,240 @@
+{
+  "grade": 10,
+  "subject": "geography",
+  "lessons": [
+    {
+      "id": "geography-10-europe",
+      "grade": 10,
+      "topic": 0,
+      "title": {"tk": "Ýewropa: tebigaty, ilaty we hojalygy", "ru": "Европа: природа, население и хозяйство"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Ýewropa — Ýewraziýa materiginiň günbatar bölegi. Aziýa bilen şertli serhet Ural daglary, Ural derýasy, Kaspi deňzi we Kawkaz arkaly geçýär.\n\n• Meýdany takmynan 10 mln km², ilaty 740 milliondan gowrak.\n• Ýurtlaryň sany takmynan 45–50 (serhet ýurtlary nähili hasaplamaga bagly).\n• Iň uzyn derýasy — Wolga (≈ 3500 km), iň belent nokady — Kawkazdaky Elbrus (5642 m), Alp daglarynda — Monblan.\n• Howasy esasan mylaýym; Golfstrim akymy günbatar kenarlary gyşyna ýylydýar.\n\nHojalyk: ösen senagat (awtoulag, himiýa, maşyn gurluşygy), hyzmatlar, syýahatçylyk. Ýewropa Bileleşiginde (ÝB) 27 ýurt bar, olaryň köpüsinde ýewro ulanylýar.",
+          "ru": "Европа — западная часть материка Евразия. Условная граница с Азией проходит по Уральским горам, реке Урал, Каспийскому морю и Кавказу.\n\n• Площадь около 10 млн км², население более 740 млн человек.\n• Около 45–50 государств (зависит от учёта пограничных стран).\n• Самая длинная река — Волга (≈ 3500 км), высшая точка — Эльбрус на Кавказе (5642 м), в Альпах — Монблан.\n• Климат в основном умеренный; течение Гольфстрим зимой отепляет западные берега.\n\nХозяйство: развитая промышленность (автомобили, химия, машиностроение), услуги, туризм. В Европейский союз (ЕС) входят 27 государств, в большинстве из них используется евро."}},
+        {"type": "example", "text": {
+          "tk": "Mysal: ilatyň gürlügini hasaplamak.\nNiderlandlaryň meýdany takmynan 41 500 km², ilaty takmynan 18 mln.\n\n1) Formula: gürlük = ilat / meýdan.\n2) 18 000 000 / 41 500 ≈ 434 adam/km².\n3) Deňeşdirme: Russiýada bu görkeziji takmynan 9 adam/km².\n\nNetije: Niderlandlar dünýäde iň gür ilatly ýurtlaryň biri, şonuň üçin ol ýerde ýer örän netijeli ulanylýar.",
+          "ru": "Пример: расчёт плотности населения.\nПлощадь Нидерландов около 41 500 км², население около 18 млн.\n\n1) Формула: плотность = население / площадь.\n2) 18 000 000 / 41 500 ≈ 434 чел./км².\n3) Для сравнения: в России около 9 чел./км².\n\nВывод: Нидерланды — одна из самых густонаселённых стран мира, поэтому земля там используется очень интенсивно."}},
+        {"type": "choice",
+          "q": {"tk": "Ýewropanyň günbatar kenarlaryny gyşyna haýsy akym ýylydýar?", "ru": "Какое течение зимой отепляет западные берега Европы?"},
+          "options": [{"tk": "Labrador akymy", "ru": "Лабрадорское течение"}, {"tk": "Golfstrim (Demirgazyk Atlantik akymy)", "ru": "Гольфстрим (Северо-Атлантическое течение)"}, {"tk": "Kaliforniýa akymy", "ru": "Калифорнийское течение"}],
+          "answer": 1,
+          "hint": {"tk": "Bu ýyly akym Meksika aýlagyndan başlanýar.", "ru": "Это тёплое течение начинается в Мексиканском заливе."},
+          "explain": {"tk": "Golfstrim we onuň dowamy bolan Demirgazyk Atlantik akymy ýyly suwy Ýewropa getirýär. Labrador we Kaliforniýa akymlary sowuk.", "ru": "Гольфстрим и его продолжение — Северо-Атлантическое течение — приносят тёплую воду к Европе. Лабрадорское и Калифорнийское течения холодные."}},
+        {"type": "input",
+          "q": {"tk": "Ýewropa Bileleşiginde häzirki wagtda näçe ýurt bar?", "ru": "Сколько государств сейчас входит в Европейский союз?"},
+          "answer": "27",
+          "hint": {"tk": "Beýik Britaniýa 2020-nji ýylda çykansoň san bir azaldy.", "ru": "После выхода Великобритании в 2020 году число уменьшилось на одно."},
+          "explain": {"tk": "Beýik Britaniýa çykmazdan öň 28 ýurt bardy, 2020-nji ýyldan bäri — 27.", "ru": "До выхода Великобритании было 28 государств, с 2020 года — 27."}},
+        {"type": "truefalse",
+          "q": {"tk": "Wolga — Ýewropanyň iň uzyn derýasy we ol Kaspi deňzine guýýar.", "ru": "Волга — самая длинная река Европы, и она впадает в Каспийское море."},
+          "answer": true,
+          "hint": {"tk": "Wolganyň aşak akymyndaky Astrahan şäheri haýsy deňziň ýakynynda?", "ru": "У какого моря находится Астрахань в низовьях Волги?"},
+          "explain": {"tk": "Dogry. Wolga (≈ 3500 km) Ýewropanyň iň uzyn derýasy, ol giň delta emele getirip, Kaspi deňzine guýýar.", "ru": "Верно. Волга (≈ 3500 км) — самая длинная река Европы, она образует обширную дельту и впадает в Каспийское море."}},
+        {"type": "choice",
+          "q": {"tk": "Ýewropanyň iň kiçi garaşsyz döwleti haýsy?", "ru": "Какое самое маленькое независимое государство Европы?"},
+          "options": [{"tk": "Monako", "ru": "Монако"}, {"tk": "Lihtenşteýn", "ru": "Лихтенштейн"}, {"tk": "Watikan", "ru": "Ватикан"}],
+          "answer": 2,
+          "hint": {"tk": "Bu döwlet Rim şäheriniň içinde ýerleşýär.", "ru": "Это государство находится внутри города Рима."},
+          "explain": {"tk": "Watikanyň meýdany 0,5 km²-den hem az — bu dünýäniň iň kiçi döwleti. Monako ikinji ýerde (≈ 2 km²).", "ru": "Площадь Ватикана меньше 0,5 км² — это самое маленькое государство мира. Монако на втором месте (≈ 2 км²)."}},
+        {"type": "world", "text": {
+          "tk": "Niderlandlaryň takmynan dörtden bir bölegi deňiz derejesinden pesde ýerleşýär. Ýurt asyrlar boýy bentleriň, kanallaryň we ýel degirmenleriniň kömegi bilen deňizden täze ýerleri (polderleri) «gaýtaryp alypdyr».",
+          "ru": "Около четверти территории Нидерландов лежит ниже уровня моря. Веками страна «отвоёвывала» у моря новые земли (польдеры) с помощью дамб, каналов и ветряных мельниц."}}
+      ]
+    },
+    {
+      "id": "geography-10-asia",
+      "grade": 10,
+      "topic": 1,
+      "title": {"tk": "Aziýa: iň uly we iň köp ilatly dünýä bölegi", "ru": "Азия: самая большая и населённая часть света"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Aziýa — dünýäniň iň uly bölegi: takmynan 44,5 mln km² (gury ýeriň ≈ 30 %-i). Ilaty 4,7 milliarddan gowrak — adamzadyň ≈ 60 %-i.\n\nSebitler: Gündogar (Hytaý, Ýaponiýa, Koreýa), Günorta-Gündogar (Indoneziýa, Wýetnam), Günorta (Hindistan, Pakistan), Günorta-Günbatar (Türkiýe, Eýran, Arap ýurtlary), Merkezi Aziýa (Türkmenistan, Gazagystan, Özbegistan, Gyrgyzystan, Täjigistan), Demirgazyk (Sibir).\n\nRekordlar:\n• Ýeriň iň belent nokady — Ewerest/Jomolungma (8849 m).\n• Gury ýeriň iň pes nokady — Ölüdeňiz kenary (≈ −430 m).\n• Iň uly köl — Kaspi deňzi.\n• Iň uzyn derýasy — Ýangzy (≈ 6300 km).\n\nHytaý we Hindistan — ilaty 1,4 milliarddan gowrak bolan iki ýurt. Hindistan 2023-nji ýylda ilaty boýunça birinji orna çykdy.",
+          "ru": "Азия — самая большая часть света: около 44,5 млн км² (≈ 30 % суши). Население более 4,7 млрд — около 60 % человечества.\n\nРегионы: Восточная (Китай, Япония, Корея), Юго-Восточная (Индонезия, Вьетнам), Южная (Индия, Пакистан), Юго-Западная (Турция, Иран, арабские страны), Центральная Азия (Туркменистан, Казахстан, Узбекистан, Кыргызстан, Таджикистан), Северная (Сибирь).\n\nРекорды:\n• Высшая точка Земли — Эверест/Джомолунгма (8849 м).\n• Самая низкая точка суши — берег Мёртвого моря (≈ −430 м).\n• Самое большое озеро — Каспийское море.\n• Самая длинная река — Янцзы (≈ 6300 км).\n\nКитай и Индия — две страны с населением более 1,4 млрд. В 2023 году Индия вышла на первое место по численности населения."}},
+        {"type": "example", "text": {
+          "tk": "Mysal: sagat guşaklyklary. Ýer 1 sagatda 15° aýlanýar.\n\nAşgabat (UTC+5) we Tokio (UTC+9).\n1) Tapawut: 9 − 5 = 4 sagat.\n2) Aşgabatda sagat 12:00 bolsa, Tokioda 12 + 4 = 16:00.\n3) Uzaklyk boýunça barlag: 4 sagat × 15° = 60° — guşaklyklaryň merkezleri arasyndaky tapawut.\n\nAziýa 11 sagat guşaklygyny tutýar, şonuň üçin gündogarynda Täze ýyl günbataryndan birnäçe sagat öň gelýär.",
+          "ru": "Пример: часовые пояса. Земля поворачивается на 15° за 1 час.\n\nАшхабад (UTC+5) и Токио (UTC+9).\n1) Разница: 9 − 5 = 4 часа.\n2) Если в Ашхабаде 12:00, то в Токио 12 + 4 = 16:00.\n3) Проверка по долготе: 4 ч × 15° = 60° — разница между центрами поясов.\n\nАзия охватывает 11 часовых поясов, поэтому на её востоке Новый год наступает на несколько часов раньше, чем на западе."}},
+        {"type": "input",
+          "q": {"tk": "Aşgabatda (UTC+5) sagat 10:00. Pekinde (UTC+8) sagat näçe? Diňe sagady ýazyň.", "ru": "В Ашхабаде (UTC+5) 10:00. Сколько времени в Пекине (UTC+8)? Напишите только час."},
+          "answer": "13|13:00",
+          "hint": {"tk": "Gündogara gidildigiçe wagt öňe geçýär.", "ru": "При движении на восток время увеличивается."},
+          "explain": {"tk": "Tapawut 8 − 5 = 3 sagat. 10 + 3 = 13:00.", "ru": "Разница 8 − 5 = 3 часа. 10 + 3 = 13:00."}},
+        {"type": "choice",
+          "q": {"tk": "Haýsy ýurt Merkezi Aziýa degişli däl?", "ru": "Какая страна НЕ относится к Центральной Азии?"},
+          "options": [{"tk": "Gyrgyzystan", "ru": "Кыргызстан"}, {"tk": "Täjigistan", "ru": "Таджикистан"}, {"tk": "Mongoliýa", "ru": "Монголия"}],
+          "answer": 2,
+          "hint": {"tk": "Merkezi Aziýa adatça bäş ýurt girýär.", "ru": "К Центральной Азии обычно относят пять государств."},
+          "explain": {"tk": "Merkezi Aziýa — Türkmenistan, Gazagystan, Özbegistan, Gyrgyzystan we Täjigistan. Mongoliýa adatça Gündogar Aziýa degişli edilýär.", "ru": "Центральная Азия — Туркменистан, Казахстан, Узбекистан, Кыргызстан и Таджикистан. Монголию обычно относят к Восточной Азии."}},
+        {"type": "truefalse",
+          "q": {"tk": "Ewerest Gimalaý daglarynda, Nepal bilen Hytaýyň serhedinde ýerleşýär.", "ru": "Эверест находится в Гималаях, на границе Непала и Китая."},
+          "answer": true,
+          "hint": {"tk": "Ewerestiň tibet ady — Jomolungma.", "ru": "Тибетское название Эвереста — Джомолунгма."},
+          "explain": {"tk": "Dogry. Ewerest (8849 m) Gimalaýda, Nepal bilen Hytaýyň (Tibet) serhedinde. Ilkinji gezek oňa 1953-nji ýylda Edmund Hillari we Tenzing Norgeý çykdy.", "ru": "Верно. Эверест (8849 м) — в Гималаях, на границе Непала и Китая (Тибет). Впервые на него поднялись Эдмунд Хиллари и Тенцинг Норгей в 1953 году."}},
+        {"type": "choice",
+          "q": {"tk": "Aziýanyň iň uzyn derýasy haýsy?", "ru": "Какая река самая длинная в Азии?"},
+          "options": [{"tk": "Ýangzy", "ru": "Янцзы"}, {"tk": "Amyderýa", "ru": "Амударья"}, {"tk": "Gang", "ru": "Ганг"}],
+          "answer": 0,
+          "hint": {"tk": "Bu derýa Hytaýdan akyp geçýär we dünýäde üçünji uzyn derýa.", "ru": "Эта река течёт через Китай и является третьей по длине в мире."},
+          "explain": {"tk": "Ýangzy (≈ 6300 km) Aziýanyň iň uzyn derýasy, dünýäde Nil we Amazonkadan soň üçünji. Onuň üstünde dünýäniň iň güýçli gidroelektrik stansiýasy — «Üç dere» gurlupdyr.", "ru": "Янцзы (≈ 6300 км) — самая длинная река Азии и третья в мире после Нила и Амазонки. На ней построена самая мощная ГЭС мира — «Три ущелья»."}},
+        {"type": "world", "text": {
+          "tk": "Türkmenistandaky Garagum Aziýanyň iň uly çölleriniň biri. Onuň ortasynda ýerleşýän Derweze gaz krateri 1970-nji ýyllardan bäri ýanýar we ol «Jähennem derwezesi» ady bilen bütin dünýäde tanalýar.",
+          "ru": "Каракумы в Туркменистане — одна из крупнейших пустынь Азии. Газовый кратер Дарваза в их центре горит с 1970-х годов и известен во всём мире как «Врата ада»."}}
+      ]
+    },
+    {
+      "id": "geography-10-africa",
+      "grade": 10,
+      "topic": 2,
+      "title": {"tk": "Afrikanyň ýurtlary", "ru": "Страны Африки"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Afrika — meýdany boýunça ikinji materik (≈ 30,3 mln km²), onda 54 garaşsyz döwlet bar. Ilaty 1,4 milliarddan gowrak we dünýäde iň çalt ösýär; ilatyň ýarysyndan gowragy 20 ýaşdan kiçi.\n\n• Ekwator materigi takmynan ortasyndan kesip geçýär — tebigy zolaklar demirgazyga we günorta simmetrik: çygly tropik tokaýlar → sawannalar → çöller (Sahara, Kalahari, Namib).\n• Nil (≈ 6650 km) — dünýäniň iň uzyn derýalarynyň biri.\n• Iň belent nokat — Kilimanjaro (5895 m).\n\nSebitler: Demirgazyk Afrika (Müsür, Aljir — meýdany boýunça iň uly ýurt), Günbatar (Nigeriýa — iň köp ilatly), Gündogar (Efiopiýa, Keniýa), Merkezi (Kongo DR), Günorta (GAR).\n\nHojalyk: nebit (Nigeriýa, Liwiýa), altyn we almaz (GAR, Botswana), kakao (Kot-d’Iwuar, Gana), kofe (Efiopiýa).",
+          "ru": "Африка — второй по площади материк (≈ 30,3 млн км²), на нём 54 независимых государства. Население более 1,4 млрд и растёт быстрее всех в мире; больше половины жителей моложе 20 лет.\n\n• Экватор пересекает материк почти посередине — природные зоны симметричны к северу и югу: влажные тропические леса → саванны → пустыни (Сахара, Калахари, Намиб).\n• Нил (≈ 6650 км) — одна из самых длинных рек мира.\n• Высшая точка — Килиманджаро (5895 м).\n\nРегионы: Северная Африка (Египет, Алжир — самая большая страна по площади), Западная (Нигерия — самая населённая), Восточная (Эфиопия, Кения), Центральная (ДР Конго), Южная (ЮАР).\n\nХозяйство: нефть (Нигерия, Ливия), золото и алмазы (ЮАР, Ботсвана), какао (Кот-д’Ивуар, Гана), кофе (Эфиопия)."}},
+        {"type": "example", "text": {
+          "tk": "Mysal: «ilatyň iki esse artmagy» düzgüni.\nIlat ýylda takmynan p % ösýän bolsa, onuň iki esse köpelmegi üçin takmynan 70 / p ýyl gerek.\n\n1) Goý, ýurtda ýyllyk ösüş 2,5 %.\n2) 70 / 2,5 = 28 ýyl.\n3) Diýmek, ilat 28 ýylda takmynan iki esse köpeler.\n\nDeňeşdirme: ösüş 0,5 % bolsa — 140 ýyl. Şonuň üçin Afrikanyň ilaty Ýewropanyňkydan has çalt artýar.",
+          "ru": "Пример: «правило удвоения населения».\nЕсли население растёт примерно на p % в год, то оно удвоится примерно за 70 / p лет.\n\n1) Пусть в стране годовой прирост 2,5 %.\n2) 70 / 2,5 = 28 лет.\n3) Значит, население удвоится примерно за 28 лет.\n\nДля сравнения: при приросте 0,5 % — 140 лет. Поэтому население Африки растёт гораздо быстрее, чем в Европе."}},
+        {"type": "input",
+          "q": {"tk": "Afrikada näçe garaşsyz döwlet bar?", "ru": "Сколько независимых государств в Африке?"},
+          "answer": "54",
+          "hint": {"tk": "Bu san 50-den azajyk köp.", "ru": "Это число чуть больше 50."},
+          "explain": {"tk": "Afrikada 54 garaşsyz döwlet bar; iň soňky garaşsyzlyk alan ýurt — 2011-nji ýylda Günorta Sudan.", "ru": "В Африке 54 независимых государства; последним независимость получил Южный Судан в 2011 году."}},
+        {"type": "choice",
+          "q": {"tk": "Afrikanyň iň köp ilatly ýurdy haýsy?", "ru": "Какая страна Африки самая населённая?"},
+          "options": [{"tk": "Müsür", "ru": "Египет"}, {"tk": "Nigeriýa", "ru": "Нигерия"}, {"tk": "Aljir", "ru": "Алжир"}],
+          "answer": 1,
+          "hint": {"tk": "Bu ýurt Günbatar Afrikada, Gwineýa aýlagynyň kenarynda.", "ru": "Эта страна в Западной Африке, на берегу Гвинейского залива."},
+          "explain": {"tk": "Nigeriýanyň ilaty 200 milliondan gowrak — Afrikada birinji. Aljir meýdany boýunça iň uly ýurt, Müsür ilaty boýunça ilkinji üçlükde.", "ru": "Население Нигерии более 200 млн — первое место в Африке. Алжир — крупнейший по площади, Египет входит в тройку по населению."}},
+        {"type": "truefalse",
+          "q": {"tk": "Ýyllyk ösüşi 3,5 % bolan ýurtda ilat takmynan 20 ýylda iki esse köpeler.", "ru": "В стране с годовым приростом 3,5 % население удвоится примерно за 20 лет."},
+          "answer": true,
+          "hint": {"tk": "70 / p düzgünini ulanyň.", "ru": "Используйте правило 70 / p."},
+          "explain": {"tk": "Dogry: 70 / 3,5 = 20 ýyl.", "ru": "Верно: 70 / 3,5 = 20 лет."}},
+        {"type": "choice",
+          "q": {"tk": "Afrikanyň haýsy ýurdy hiç haçan uzak möhletleýin kolonial dolandyryşda bolmandyr we Afrika Bileleşiginiň merkezi şonda ýerleşýär?", "ru": "Какая страна Африки никогда не была долгое время колонией и в ней находится штаб-квартира Африканского союза?"},
+          "options": [{"tk": "Efiopiýa", "ru": "Эфиопия"}, {"tk": "Keniýa", "ru": "Кения"}, {"tk": "Nigeriýa", "ru": "Нигерия"}],
+          "answer": 0,
+          "hint": {"tk": "Paýtagty — Addis-Abeba.", "ru": "Столица — Аддис-Абеба."},
+          "explain": {"tk": "Efiopiýa 1896-njy ýylda Adua söweşinde Italiýany ýeňip, garaşsyzlygyny saklady (1936–1941-nji ýyllardaky gysga basybalyşdan başga). Afrika Bileleşiginiň merkezi Addis-Abebada.", "ru": "Эфиопия в 1896 году разбила Италию при Адуа и сохранила независимость (кроме короткой оккупации 1936–1941 гг.). Штаб-квартира Африканского союза — в Аддис-Абебе."}},
+        {"type": "world", "text": {
+          "tk": "Sahara — dünýäniň iň uly yssy çöli, onuň meýdany takmynan ABŞ-yň meýdanyna deň. Ýöne alymlaryň pikiriçe, takmynan 6–11 müň ýyl ozal Saharanyň köp ýeri otly sawanna bolupdyr: çöldäki gaýa suratlarynda žirafalar, begemotlar we sygyrlar şekillendirilipdir.",
+          "ru": "Сахара — крупнейшая жаркая пустыня мира, её площадь сравнима с площадью США. Но, по мнению учёных, примерно 6–11 тысяч лет назад большая часть Сахары была травянистой саванной: на наскальных рисунках в пустыне изображены жирафы, бегемоты и коровы."}}
+      ]
+    },
+    {
+      "id": "geography-10-americas",
+      "grade": 10,
+      "topic": 3,
+      "title": {"tk": "Amerikanyň ýurtlary", "ru": "Страны Америки"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Amerika — iki materikden (Demirgazyk we Günorta Amerika) ybarat dünýä bölegi. Olary Panama boýny birleşdirýär. Jemi 35 garaşsyz döwlet bar.\n\nDemirgazyk Amerika (≈ 24 mln km²):\n• Kanada — dünýäde meýdany boýunça ikinji ýurt.\n• ABŞ — dünýäniň iň uly ykdysadyýeti (jemi IÖÖ boýunça).\n• Meksika — iň köp ispan dilli ilatly ýurt.\n• Iň belent nokat — Denali (6190 m), iň uly derýa ulgamy — Missisipi–Missuri.\n\nGünorta Amerika (≈ 17,8 mln km²):\n• Braziliýa — meýdany we ilaty boýunça iň uly ýurt, resmi dili portugal dili.\n• Amazonka — dünýäde iň suwly derýa, onuň basseýninde iň uly tropik tokaý.\n• And daglary — dünýäniň iň uzyn dag ulgamy (≈ 7000 km), Akonkagua (6961 m).\n\nLatyn Amerikasy diýlip, esasan ispan we portugal dillerinde gürleýän ýurtlara aýdylýar.",
+          "ru": "Америка — часть света из двух материков (Северная и Южная Америка), соединённых Панамским перешейком. Всего 35 независимых государств.\n\nСеверная Америка (≈ 24 млн км²):\n• Канада — вторая страна мира по площади.\n• США — крупнейшая экономика мира (по общему ВВП).\n• Мексика — страна с самым большим испаноязычным населением.\n• Высшая точка — Денали (6190 м), крупнейшая речная система — Миссисипи–Миссури.\n\nЮжная Америка (≈ 17,8 млн км²):\n• Бразилия — крупнейшая по площади и населению, официальный язык — португальский.\n• Амазонка — самая полноводная река мира, в её бассейне — крупнейший тропический лес.\n• Анды — самая длинная горная система мира (≈ 7000 км), Аконкагуа (6961 м).\n\nЛатинской Америкой называют страны, где говорят в основном на испанском и португальском."}},
+        {"type": "example", "text": {
+          "tk": "Mysal: Panama kanaly ýoly näçe gysgaldýar?\nNýu-Ýorkdan San-Fransisko deňiz arkaly:\n1) Günorta Amerikany aýlanyp (Magellan bogazy arkaly) — takmynan 22 500 km.\n2) Panama kanaly arkaly — takmynan 9 500 km.\n3) Tapawut: 22 500 − 9 500 = 13 000 km.\n4) Gämi sagatda 30 km ýöreýän bolsa, 13 000 / 30 ≈ 433 sagat, ýagny takmynan 18 gün tygşytlanýar.\n\nKanal 1914-nji ýylda açyldy.",
+          "ru": "Пример: насколько Панамский канал сокращает путь?\nМорем из Нью-Йорка в Сан-Франциско:\n1) Вокруг Южной Америки (через Магелланов пролив) — около 22 500 км.\n2) Через Панамский канал — около 9 500 км.\n3) Разница: 22 500 − 9 500 = 13 000 км.\n4) Если судно идёт 30 км/ч, то 13 000 / 30 ≈ 433 часа, то есть экономия около 18 дней.\n\nКанал открыт в 1914 году."}},
+        {"type": "choice",
+          "q": {"tk": "Braziliýanyň resmi dili haýsy?", "ru": "Какой официальный язык Бразилии?"},
+          "options": [{"tk": "Ispan dili", "ru": "Испанский"}, {"tk": "Fransuz dili", "ru": "Французский"}, {"tk": "Portugal dili", "ru": "Португальский"}],
+          "answer": 2,
+          "hint": {"tk": "Braziliýa 1822-nji ýyla çenli haýsy Ýewropa döwletiniň koloniýasydy?", "ru": "Колонией какой европейской страны была Бразилия до 1822 года?"},
+          "explain": {"tk": "Braziliýa Portugaliýanyň koloniýasydy, şonuň üçin onuň dili portugal dili. Günorta Amerikanyň beýleki ýurtlarynyň köpüsinde ispan dili.", "ru": "Бразилия была колонией Португалии, поэтому её язык — португальский. В большинстве других стран Южной Америки — испанский."}},
+        {"type": "truefalse",
+          "q": {"tk": "Kanada meýdany boýunça dünýäde ikinji ýurt.", "ru": "Канада — вторая страна мира по площади."},
+          "answer": true,
+          "hint": {"tk": "Birinji ýurt Ýewraziýada ýerleşýär.", "ru": "Первая страна находится в Евразии."},
+          "explain": {"tk": "Dogry. Kanadanyň meýdany takmynan 10 mln km², ondan diňe Russiýa uly.", "ru": "Верно. Площадь Канады около 10 млн км², больше неё только Россия."}},
+        {"type": "input",
+          "q": {"tk": "Panama kanaly haýsy ýylda açyldy?", "ru": "В каком году был открыт Панамский канал?"},
+          "answer": "1914",
+          "hint": {"tk": "Birinji jahan urşunyň başlanan ýyly.", "ru": "Год начала Первой мировой войны."},
+          "explain": {"tk": "Panama kanaly 1914-nji ýylyň awgust aýynda açyldy we Atlantik we Ýuwaş ummanlaryny birleşdirdi.", "ru": "Панамский канал открыт в августе 1914 года и соединил Атлантический и Тихий океаны."}},
+        {"type": "choice",
+          "q": {"tk": "Dünýäniň iň uzyn dag ulgamy haýsy?", "ru": "Какая горная система самая длинная в мире?"},
+          "options": [{"tk": "And daglary", "ru": "Анды"}, {"tk": "Gaýaly daglar", "ru": "Скалистые горы"}, {"tk": "Appalaçi", "ru": "Аппалачи"}],
+          "answer": 0,
+          "hint": {"tk": "Ol Günorta Amerikanyň günbatar kenary boýunça uzalyp gidýär.", "ru": "Она тянется вдоль западного побережья Южной Америки."},
+          "explain": {"tk": "And daglary takmynan 7000 km uzalyp, ýedi ýurdy kesip geçýär. Ol gury ýerdäki iň uzyn dag ulgamy.", "ru": "Анды тянутся примерно на 7000 км через семь стран. Это самая длинная горная система на суше."}},
+        {"type": "world", "text": {
+          "tk": "Amazonka derýasy dünýäniň ähli derýalarynyň okeana guýýan süýji suwunyň takmynan beşden bir bölegini getirýär. Onuň aşak akymy käbir ýerlerde şeýle giň welin, bir kenaryndan beýleki kenary görünmeýär.",
+          "ru": "Амазонка приносит в океан примерно пятую часть всей речной пресной воды мира. В низовьях она местами так широка, что с одного берега не виден другой."}}
+      ]
+    },
+    {
+      "id": "geography-10-oceania",
+      "grade": 10,
+      "topic": 4,
+      "title": {"tk": "Okeaniýa we Awstraliýa", "ru": "Океания и Австралия"},
+      "minutes": 9,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Okeaniýa — Awstraliýa materigini we Ýuwaş ummanyň merkezi we günorta-günbatar bölegindäki müňlerçe adany öz içine alýan dünýä bölegi. Onda 14 garaşsyz döwlet bar.\n\nAdalaryň toparlary:\n• Melaneziýa («gara adalar») — Papua Täze Gwineýa, Fiji, Wanuatu, Solomon adalary.\n• Mikroneziýa («kiçi adalar») — Palau, Nauru, Marşall adalary, Kiribati.\n• Polineziýa («köp adalar») — Samoa, Tonga, Tuwalu, Täze Zelandiýa, Gawaýi.\n\nAwstraliýa — iň kiçi we iň gurak ýaşaýyş materigi (≈ 7,7 mln km²). Paýtagty — Kanberra. Endemikler: kenguru, koala, ördekburun (utkonos). Beýik Barýer rifi — dünýäniň iň uly merjen rifler ulgamy (≈ 2300 km).\n\nAdalaryň gelip çykyşy: materik (Täze Gwineýa), wulkan (Gawaýi) we merjen atollary (Tuwalu).",
+          "ru": "Океания — часть света, включающая материк Австралия и тысячи островов центральной и юго-западной части Тихого океана. Здесь 14 независимых государств.\n\nГруппы островов:\n• Меланезия («чёрные острова») — Папуа — Новая Гвинея, Фиджи, Вануату, Соломоновы острова.\n• Микронезия («малые острова») — Палау, Науру, Маршалловы острова, Кирибати.\n• Полинезия («много островов») — Самоа, Тонга, Тувалу, Новая Зеландия, Гавайи.\n\nАвстралия — самый маленький и самый засушливый обитаемый материк (≈ 7,7 млн км²). Столица — Канберра. Эндемики: кенгуру, коала, утконос. Большой Барьерный риф — крупнейшая система коралловых рифов мира (≈ 2300 км).\n\nПроисхождение островов: материковые (Новая Гвинея), вулканические (Гавайи) и коралловые атоллы (Тувалу)."}},
+        {"type": "example", "text": {
+          "tk": "Mysal: atoll nädip emele gelýär? (Çarlz Darwiniň nazaryýeti, 1842)\n\n1) Tropik deňizde wulkan adasy döreýär, onuň töweregindäki ýalpak suwda merjen rifi ösýär.\n2) Wulkan sönýär we ada ýuwaş-ýuwaşdan çökýär.\n3) Merjenler ýagtylyga tarap ýokary ösmegini dowam edýär.\n4) Ada suwuň astynda galýar, ortasynda lagunasy bolan halka şekilli rif — atoll galýar.\n\nBu nazaryýet XX asyrda Marşall adalarynda geçirilen buraw işleri bilen tassyklandy.",
+          "ru": "Пример: как образуется атолл? (теория Чарльза Дарвина, 1842)\n\n1) В тропическом море возникает вулканический остров, на мелководье вокруг растёт коралловый риф.\n2) Вулкан угасает, остров медленно опускается.\n3) Кораллы продолжают расти вверх, к свету.\n4) Остров уходит под воду, остаётся кольцевой риф с лагуной в центре — атолл.\n\nТеорию подтвердило бурение на Маршалловых островах в XX веке."}},
+        {"type": "choice",
+          "q": {"tk": "Awstraliýanyň paýtagty haýsy şäher?", "ru": "Какой город — столица Австралии?"},
+          "options": [{"tk": "Sidneý", "ru": "Сидней"}, {"tk": "Kanberra", "ru": "Канберра"}, {"tk": "Melburn", "ru": "Мельбурн"}],
+          "answer": 1,
+          "hint": {"tk": "Paýtagt iki iň uly şäheriň arasynda ýörite gurlupdyr.", "ru": "Столицу специально построили между двумя крупнейшими городами."},
+          "explain": {"tk": "Sidneý we Melburn paýtagt bolmak üçin bäsleşipdir, netijede olaryň arasynda täze şäher — Kanberra gurlupdyr.", "ru": "Сидней и Мельбурн соперничали за статус столицы, в итоге между ними построили новый город — Канберру."}},
+        {"type": "input",
+          "q": {"tk": "Okeaniýada näçe garaşsyz döwlet bar?", "ru": "Сколько независимых государств в Океании?"},
+          "answer": "14",
+          "hint": {"tk": "Awstraliýa, Täze Zelandiýa, Papua Täze Gwineýa we 11 sany ada döwleti.", "ru": "Австралия, Новая Зеландия, Папуа — Новая Гвинея и ещё 11 островных государств."},
+          "explain": {"tk": "3 + 11 = 14 garaşsyz döwlet. Gawaýi (ABŞ) we Täze Kaledoniýa (Fransiýa) ýaly ýerler garaşsyz döwlet däl.", "ru": "3 + 11 = 14 независимых государств. Такие территории, как Гавайи (США) и Новая Каледония (Франция), независимыми государствами не являются."}},
+        {"type": "truefalse",
+          "q": {"tk": "Kenguru we koala tebigy ýagdaýda diňe Awstraliýada (we golaýdaky adalarda) ýaşaýar.", "ru": "Кенгуру и коала в природе живут только в Австралии (и на ближайших островах)."},
+          "answer": true,
+          "hint": {"tk": "«Endemik» sözüniň manysyny ýatlaň.", "ru": "Вспомните значение слова «эндемик»."},
+          "explain": {"tk": "Dogry. Awstraliýa uzak wagtlap beýleki materiklerden aýry bolany üçin, ol ýerde haltaly süýdemdirijileriň özboluşly dünýäsi emele gelipdir.", "ru": "Верно. Австралия долго была изолирована от других материков, поэтому там сложился особый мир сумчатых млекопитающих."}},
+        {"type": "choice",
+          "q": {"tk": "Halka şekilli, ortasynda lagunasy bolan merjen adasy nähili atlandyrylýar?", "ru": "Как называется кольцевой коралловый остров с лагуной в центре?"},
+          "options": [{"tk": "Arhipelag", "ru": "Архипелаг"}, {"tk": "Ýarymada", "ru": "Полуостров"}, {"tk": "Atoll", "ru": "Атолл"}],
+          "answer": 2,
+          "hint": {"tk": "Darwin onuň emele gelşini düşündiripdir.", "ru": "Дарвин объяснил его образование."},
+          "explain": {"tk": "Atoll — çöken wulkan adasynyň töweregindäki merjen rifinden emele gelýän halka şekilli ada. Arhipelag — adalaryň topary.", "ru": "Атолл — кольцевой остров из кораллового рифа вокруг опустившегося вулканического острова. Архипелаг — группа островов."}},
+        {"type": "world", "text": {
+          "tk": "Beýik Barýer rifi janly organizmleriň döreden iň uly gurluşy hasaplanýar we ony kosmosdan görmek bolýar. 1981-nji ýylda ol ÝUNESKO-nyň Bütindünýä mirasynyň sanawyna girizildi.",
+          "ru": "Большой Барьерный риф считается крупнейшей структурой, созданной живыми организмами, и виден из космоса. В 1981 году он внесён в список Всемирного наследия ЮНЕСКО."}}
+      ]
+    },
+    {
+      "id": "geography-10-global-problems",
+      "grade": 10,
+      "topic": 5,
+      "title": {"tk": "Adamzadyň global meseleleri", "ru": "Глобальные проблемы человечества"},
+      "minutes": 10,
+      "steps": [
+        {"type": "theory", "text": {
+          "tk": "Global meseleler — tutuş adamzada degişli we diňe ýurtlaryň bilelikdäki tagallasy bilen çözülip bilinjek meseleler.\n\n• Howanyň üýtgemegi: atmosferada CO₂ senagat döwründen öň ≈ 280 ppm bolan bolsa, häzir 420 ppm-den geçdi. Ortaça global temperatura takmynan 1,1–1,2 °C ýokarlandy. Parij ylalaşygy (2015) ýylylaşmany 2 °C-den has pes, mümkin bolsa 1,5 °C-de saklamagy maksat edinýär.\n• Demografiýa: dünýäniň ilaty 2022-nji ýylda 8 milliarda ýetdi.\n• Azyk we süýji suw ýetmezçiligi.\n• Energiýa we serişdeler: gaýtadan dikeldilýän çeşmeler (gün, ýel, suw).\n• Ekologiýa: tokaýlaryň kesilmegi, plastik hapalanma, Aral deňziniň guramagy.\n• Saglyk: ýokanç keseller (pandemiýalar).\n\nBMG 2015-nji ýylda 2030-njy ýyla çenli 17 Durnukly ösüş maksadyny kabul etdi.",
+          "ru": "Глобальные проблемы — проблемы, касающиеся всего человечества и решаемые только совместными усилиями стран.\n\n• Изменение климата: до индустриальной эпохи CO₂ в атмосфере было ≈ 280 ppm, сейчас — более 420 ppm. Средняя глобальная температура выросла примерно на 1,1–1,2 °C. Парижское соглашение (2015) ставит цель удержать потепление намного ниже 2 °C, по возможности на уровне 1,5 °C.\n• Демография: население мира достигло 8 млрд в 2022 году.\n• Нехватка продовольствия и пресной воды.\n• Энергия и ресурсы: возобновляемые источники (солнце, ветер, вода).\n• Экология: вырубка лесов, загрязнение пластиком, высыхание Аральского моря.\n• Здоровье: инфекционные болезни (пандемии).\n\nВ 2015 году ООН приняла 17 Целей устойчивого развития до 2030 года."}},
+        {"type": "example", "text": {
+          "tk": "Mysal: CO₂ näçe göterim artdy?\n\n1) Başky baha: 280 ppm, häzirki: 420 ppm.\n2) Artyş: 420 − 280 = 140 ppm.\n3) Göterim: 140 / 280 × 100 % = 50 %.\n\nNetije: senagat rewolýusiýasyndan bäri atmosferadaky CO₂ takmynan ýarym esse köpeldi. Esasy sebäpler — kömür, nebit we gaz ýakmak hem-de tokaýlaryň kesilmegi.",
+          "ru": "Пример: на сколько процентов вырос CO₂?\n\n1) Начальное значение: 280 ppm, сейчас: 420 ppm.\n2) Прирост: 420 − 280 = 140 ppm.\n3) В процентах: 140 / 280 × 100 % = 50 %.\n\nВывод: со времён промышленной революции содержание CO₂ в атмосфере выросло примерно в полтора раза. Главные причины — сжигание угля, нефти и газа и вырубка лесов."}},
+        {"type": "input",
+          "q": {"tk": "BMG näçe Durnukly ösüş maksadyny kabul etdi?", "ru": "Сколько Целей устойчивого развития приняла ООН?"},
+          "answer": "17",
+          "hint": {"tk": "Bu san 15 bilen 20 aralygynda.", "ru": "Это число между 15 и 20."},
+          "explain": {"tk": "2015-nji ýylda kabul edilen 17 maksat garyplygy ýok etmekden başlap, howany goramaga çenli meseleleri öz içine alýar.", "ru": "17 целей, принятых в 2015 году, охватывают задачи от искоренения бедности до защиты климата."}},
+        {"type": "choice",
+          "q": {"tk": "Ozon gatlagyny goramak üçin haýsy halkara ylalaşygy kabul edildi?", "ru": "Какое международное соглашение было принято для защиты озонового слоя?"},
+          "options": [{"tk": "Monreal protokoly (1987)", "ru": "Монреальский протокол (1987)"}, {"tk": "Parij ylalaşygy (2015)", "ru": "Парижское соглашение (2015)"}, {"tk": "Şengen ylalaşygy (1985)", "ru": "Шенгенское соглашение (1985)"}],
+          "answer": 0,
+          "hint": {"tk": "Bu ylalaşyk freonlary (HFU) gadagan etdi.", "ru": "Это соглашение запретило фреоны (ХФУ)."},
+          "explain": {"tk": "Monreal protokoly ozony dargadýan maddalary bökdedi we ozon gatlagy ýuwaş-ýuwaşdan dikelýär. Parij ylalaşygy howa, Şengen bolsa serhet barada.", "ru": "Монреальский протокол ограничил вещества, разрушающие озон, и озоновый слой постепенно восстанавливается. Парижское соглашение — о климате, Шенгенское — о границах."}},
+        {"type": "truefalse",
+          "q": {"tk": "Aral deňziniň guramagynyň esasy sebäbi — oňa guýýan Amyderýa we Syrderýa suwunyň suwarmak üçin alynmagy.", "ru": "Главная причина высыхания Аральского моря — забор воды Амударьи и Сырдарьи на орошение."},
+          "answer": true,
+          "hint": {"tk": "1960-njy ýyllardan bäri bu derýalaryň kenarynda pagta meýdanlary giňeldi.", "ru": "С 1960-х годов вдоль этих рек расширялись хлопковые поля."},
+          "explain": {"tk": "Dogry. Suwaryş üçin suw köp alnansoň, derýalar deňze az suw getirip başlady we Aral birnäçe bölege bölünip, meýdanyny ep-esli ýitirdi.", "ru": "Верно. Из-за масштабного забора воды на орошение реки стали приносить в море мало воды, и Арал распался на несколько частей, сильно уменьшившись."}},
+        {"type": "world", "text": {
+          "tk": "Ozon deşigi 1985-nji ýylda Antarktidanyň üstünde britan alymlary tarapyndan açyldy. Monreal protokolynyň netijesinde alymlar ozon gatlagynyň şu asyryň ortalaryna çenli esasan dikeljekdigini çaklaýarlar — bu üstünlikli halkara hyzmatdaşlygynyň mysalydyr.",
+          "ru": "Озоновую дыру над Антарктидой обнаружили британские учёные в 1985 году. Благодаря Монреальскому протоколу учёные ожидают, что озоновый слой в основном восстановится к середине этого века — пример успешного международного сотрудничества."}}
+      ]
+    }
+  ]
+}
