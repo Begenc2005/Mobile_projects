@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart' hide Step;
 import '../models/content.dart';
 import '../services/api.dart';
 import '../services/l10n.dart';
