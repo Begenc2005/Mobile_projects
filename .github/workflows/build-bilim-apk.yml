@@ -44,7 +44,10 @@ jobs:
         run: dart run flutter_launcher_icons
 
       - name: Build release APK
-        run: flutter build apk --release --dart-define=API=${{ github.event.inputs.api_url || 'https://bilim.tm' }}
+        shell: bash
+        run: |
+          set -o pipefail
+          flutter build apk --release --dart-define=API=${{ github.event.inputs.api_url || 'https://bilim.tm' }} 2>&1 | tee build.log || { grep -E -i 'error|failed|what went wrong|\.dart:[0-9]+' build.log | head -25 | while IFS= read -r l; do echo "::error::$l"; done; exit 1; }
 
       - uses: actions/upload-artifact@v4
         with:
