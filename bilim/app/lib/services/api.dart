@@ -69,7 +69,7 @@ class Api {
       };
 
   Future<String?> requestCode(String phone) async {
-    if (demo) return '1234';
+    if (demo) return '123456';
     final r = await http.post(Uri.parse('$apiBase/api/auth/request'),
         headers: _h, body: jsonEncode({'phone': phone}));
     if (r.statusCode != 200) throw Exception(r.body);

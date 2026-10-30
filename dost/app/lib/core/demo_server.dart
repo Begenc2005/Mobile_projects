@@ -6,7 +6,7 @@ import 'api.dart';
 import 'models.dart';
 
 /// Demo build (no server, no SMS): flutter build apk --dart-define=DEMO=true
-/// Login code is always 1234. Chats are local; contacts answer with canned replies.
+/// Login code is always 123456. Chats are local; contacts answer with canned replies.
 const bool demoMode = bool.fromEnvironment('DEMO');
 
 typedef J = Map<String, dynamic>;
@@ -102,9 +102,9 @@ class DemoServer {
     final seg = Uri.parse(path).pathSegments; // api, x, ...
 
     if (seg[1] == 'auth') {
-      if (seg[2] == 'code') return {'ok': true, 'dev_code': '1234'};
+      if (seg[2] == 'code') return {'ok': true, 'dev_code': '123456'};
       if (seg[2] == 'verify') {
-        if ('${b['code']}' != '1234') throw ApiException(400, 'bad_code');
+        if ('${b['code']}' != '123456') throw ApiException(400, 'bad_code');
         if (b['phone'] != null) users[meId]!['phone'] = b['phone'];
         return {'token': 'demo', 'user': users[meId]};
       }
