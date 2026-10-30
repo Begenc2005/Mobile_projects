@@ -42,12 +42,12 @@ jobs:
         shell: bash
         run: |
           set -o pipefail
-          flutter build apk --release --dart-define=DOST_API=${{ github.event.inputs.api_url || 'https://api.dost.tm' }} 2>&1 | tee build.log || { grep -E -i 'error|failed|what went wrong|\.dart:[0-9]+' build.log | head -25 | while IFS= read -r l; do echo "::error::$l"; done; exit 1; }
+          flutter build apk --release --split-per-abi --target-platform android-arm,android-arm64 --obfuscate --split-debug-info=build/symbols --dart-define=DOST_API=${{ github.event.inputs.api_url || 'https://api.dost.tm' }} 2>&1 | tee build.log || { grep -E -i 'error|failed|what went wrong|\.dart:[0-9]+' build.log | head -25 | while IFS= read -r l; do echo "::error::$l"; done; exit 1; }
 
       - name: Publish to GitHub Releases
         uses: softprops/action-gh-release@v2
         with:
           tag_name: dost-latest
           name: Dost APK
-          files: dost/app/build/app/outputs/flutter-apk/app-release.apk
+          files: dost/app/build/app/outputs/flutter-apk/app-*-release.apk
           make_latest: false

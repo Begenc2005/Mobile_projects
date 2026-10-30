@@ -50,17 +50,17 @@ jobs:
         shell: bash
         run: |
           set -o pipefail
-          flutter build apk --release --dart-define=API=${{ github.event.inputs.api_url || 'https://bilim.tm' }} 2>&1 | tee build.log || { grep -E -i 'error|failed|what went wrong|\.dart:[0-9]+' build.log | head -25 | while IFS= read -r l; do echo "::error::$l"; done; exit 1; }
+          flutter build apk --release --split-per-abi --target-platform android-arm,android-arm64 --obfuscate --split-debug-info=build/symbols --dart-define=API=${{ github.event.inputs.api_url || 'https://bilim.tm' }} 2>&1 | tee build.log || { grep -E -i 'error|failed|what went wrong|\.dart:[0-9]+' build.log | head -25 | while IFS= read -r l; do echo "::error::$l"; done; exit 1; }
 
       - uses: actions/upload-artifact@v4
         with:
           name: bilim-apk
-          path: bilim/app/build/app/outputs/flutter-apk/app-release.apk
+          path: bilim/app/build/app/outputs/flutter-apk/app-*-release.apk
 
       - name: Publish to GitHub Releases
         uses: softprops/action-gh-release@v2
         with:
           tag_name: bilim-latest
           name: Bilim APK
-          files: bilim/app/build/app/outputs/flutter-apk/app-release.apk
+          files: bilim/app/build/app/outputs/flutter-apk/app-*-release.apk
           make_latest: false
