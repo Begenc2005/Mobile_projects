@@ -4,6 +4,7 @@ import 'dart:io';
 import 'package:http/http.dart' as http;
 
 import 'config.dart';
+import 'demo_server.dart';
 import 'models.dart';
 
 class ApiException implements Exception {
@@ -37,19 +38,25 @@ class Api {
     throw ApiException(r.statusCode, code);
   }
 
-  Future<dynamic> get(String path, [Map<String, String>? q]) async =>
-      _handle(await _c.get(_u(path, q), headers: _headers).timeout(const Duration(seconds: 25)));
+  Future<dynamic> get(String path, [Map<String, String>? q]) async => demoMode
+      ? DemoServer.I.rest('GET', path, q)
+      : _handle(await _c.get(_u(path, q), headers: _headers).timeout(const Duration(seconds: 25)));
 
-  Future<dynamic> post(String path, [Object? body]) async => _handle(await _c
+  Future<dynamic> post(String path, [Object? body]) async => demoMode
+      ? DemoServer.I.rest('POST', path, null, body)
+      : _handle(await _c
       .post(_u(path), headers: _headers, body: jsonEncode(body ?? {}))
       .timeout(const Duration(seconds: 25)));
 
-  Future<dynamic> put(String path, Object body) async => _handle(await _c
+  Future<dynamic> put(String path, Object body) async => demoMode
+      ? DemoServer.I.rest('PUT', path, null, body)
+      : _handle(await _c
       .put(_u(path), headers: _headers, body: jsonEncode(body))
       .timeout(const Duration(seconds: 25)));
 
   Future<MediaInfo> upload(File file,
       {required String mime, int w = 0, int h = 0, int dur = 0}) async {
+    if (demoMode) throw ApiException(0, 'demo');
     final req = http.MultipartRequest('POST', _u('/api/media'))
       ..headers['Authorization'] = 'Bearer $token'
       ..fields['mime'] = mime

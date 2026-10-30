@@ -1,5 +1,6 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
+import 'demo_backend.dart';
 
 /// Адрес сервера (на хостинге Türkmentelekom). Переопределяется при сборке:
 /// flutter build apk --dart-define=API_URL=https://api.sargyt.tm
@@ -37,11 +38,11 @@ class Api {
     return body;
   }
 
-  Future<dynamic> get(String path) => _send(() => _c.get(Uri.parse('$apiUrl$path'), headers: _headers));
+  Future<dynamic> get(String path) => demoMode ? DemoBackend.I.handle('GET', path) : _send(() => _c.get(Uri.parse('$apiUrl$path'), headers: _headers));
   Future<dynamic> post(String path, [Object? body]) =>
-      _send(() => _c.post(Uri.parse('$apiUrl$path'), headers: _headers, body: jsonEncode(body ?? {})));
+      demoMode ? DemoBackend.I.handle('POST', path, body) : _send(() => _c.post(Uri.parse('$apiUrl$path'), headers: _headers, body: jsonEncode(body ?? {})));
   Future<dynamic> patch(String path, Object body) =>
-      _send(() => _c.patch(Uri.parse('$apiUrl$path'), headers: _headers, body: jsonEncode(body)));
+      demoMode ? DemoBackend.I.handle('PATCH', path, body) : _send(() => _c.patch(Uri.parse('$apiUrl$path'), headers: _headers, body: jsonEncode(body)));
 }
 
 double toD(dynamic v) => v == null ? 0 : (v as num).toDouble();

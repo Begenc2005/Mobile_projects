@@ -48,7 +48,7 @@ class _CartScreenState extends State<CartScreen> {
       final orderId = r['order']['id'] as int;
       s.clearCart();
       if (!mounted) return;
-      if (method == 'card') {
+      if (method == 'card' && r['payment'] != null) {
         await Navigator.push(context, MaterialPageRoute(builder: (_) => PaymentScreen(url: r['payment']['formUrl'])));
       }
       if (!mounted) return;

@@ -12,6 +12,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 import 'api.dart';
 import 'config.dart';
+import 'demo_server.dart';
 import 'l10n.dart';
 import 'local_db.dart';
 import 'models.dart';
@@ -178,6 +179,12 @@ class AppState extends ChangeNotifier {
 
   Future<void> _connect() async {
     if (_stopped || _ws != null || _connecting) return;
+    if (demoMode) {
+      net = NetState.online;
+      notifyListeners();
+      await _sync();
+      return;
+    }
     _connecting = true;
     net = NetState.connecting;
     notifyListeners();
@@ -222,6 +229,10 @@ class AppState extends ChangeNotifier {
   }
 
   bool _send(Map<String, dynamic> m) {
+    if (demoMode) {
+      DemoServer.I.frame(m, _onData);
+      return true;
+    }
     final ws = _ws;
     if (ws == null) return false;
     try {

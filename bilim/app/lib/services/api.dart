@@ -8,6 +8,9 @@ import '../models/content.dart';
 /// flutter build apk --dart-define=API=https://bilim.tm
 const apiBase = String.fromEnvironment('API', defaultValue: 'https://bilim.tm');
 
+/// Demo build (no server, no SMS): flutter build apk --dart-define=DEMO=true
+const demo = bool.fromEnvironment('DEMO');
+
 /// Offline-first data layer:
 ///  • content: bundled in assets → refreshed from server with ETag → cached on device
 ///  • progress: saved locally first, queued in an outbox, synced when online
@@ -66,6 +69,7 @@ class Api {
       };
 
   Future<String?> requestCode(String phone) async {
+    if (demo) return '1234';
     final r = await http.post(Uri.parse('$apiBase/api/auth/request'),
         headers: _h, body: jsonEncode({'phone': phone}));
     if (r.statusCode != 200) throw Exception(r.body);
@@ -73,6 +77,12 @@ class Api {
   }
 
   Future<void> verify(String phone, String code, String name, int grade) async {
+    if (demo) {
+      await _p.setString('token', 'demo');
+      await _p.setString('name', name.isEmpty ? 'Demo' : name);
+      await _p.setInt('grade', grade);
+      return;
+    }
     final r = await http.post(Uri.parse('$apiBase/api/auth/verify'),
         headers: _h,
         body: jsonEncode({'phone': phone, 'code': code, 'name': name, 'grade': grade, 'lang': lang}));
@@ -86,6 +96,7 @@ class Api {
 
   // ---------- content ----------
   Future<String?> _refresh(String name) async {
+    if (demo) return null;
     try {
       final path = (name == 'manifest' || name == 'curriculum') ? name : 'subject/$name';
       final r = await http.get(Uri.parse('$apiBase/api/content/$path'),
@@ -141,7 +152,7 @@ class Api {
   }
 
   Future<void> syncOutbox() async {
-    if (token == null) return;
+    if (token == null || demo) return;
     final out = _p.getStringList('outbox') ?? [];
     while (out.isNotEmpty) {
       try {
@@ -190,6 +201,12 @@ class Api {
 
   // ---------- help ----------
   Future<String> ask(String q, {String? lessonId, int? step}) async {
+    if (demo) {
+      await Future.delayed(const Duration(milliseconds: 700));
+      return lang == 'ru'
+          ? 'Это демо-версия: ответы репетитора доступны только при подключении к серверу. Уроки и тесты работают полностью.'
+          : 'Bu demo wersiýa: mugallymyň jogaplary diňe serwere birikdirilende işleýär. Sapaklar we synaglar doly işleýär.';
+    }
     try {
       final r = await http.post(Uri.parse('$apiBase/api/ask'),
           headers: _h,
@@ -202,6 +219,7 @@ class Api {
   }
 
   Future<bool> support(String message) async {
+    if (demo) return true;
     try {
       final r = await http.post(Uri.parse('$apiBase/api/support'),
           headers: _h, body: jsonEncode({'message': message}));
