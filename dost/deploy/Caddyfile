@@ -1,0 +1,9 @@
+{$DOMAIN} {
+	# Certificate issued for your domain (e.g. by Türkmentelekom / a CA). Remove this line
+	# to let Caddy obtain a Let's Encrypt certificate automatically if the server can reach it.
+	tls /certs/fullchain.pem /certs/privkey.pem
+	encode zstd gzip
+	reverse_proxy api:8080 {
+		header_up X-Real-IP {remote_host}
+	}
+}

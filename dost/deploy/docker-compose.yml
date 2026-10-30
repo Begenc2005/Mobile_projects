@@ -1,0 +1,44 @@
+# Dost — full stack on one server (Türkmentelekom VPS / dedicated).
+# Start:  cp .env.example .env  (edit!)  then  docker compose up -d --build
+services:
+  db:
+    image: postgres:16-alpine
+    restart: always
+    environment:
+      POSTGRES_DB: dost
+      POSTGRES_USER: dost
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  api:
+    build: ../server
+    restart: always
+    depends_on: [db]
+    environment:
+      DATABASE_URL: postgres://dost:${DB_PASSWORD}@db:5432/dost?sslmode=disable
+      DOST_SECRET: ${DOST_SECRET}
+      DEV_MODE: ${DEV_MODE:-0}
+      MEDIA_DIR: /data/media
+      SMS_GATEWAY_URL: ${SMS_GATEWAY_URL:-}
+      SMS_GATEWAY_TOKEN: ${SMS_GATEWAY_TOKEN:-}
+    volumes:
+      - media:/data/media
+
+  # HTTPS + HTTP/2 in front of the API. Put your certificate files in ./certs
+  caddy:
+    image: caddy:2-alpine
+    restart: always
+    depends_on: [api]
+    ports: ["80:80", "443:443"]
+    environment:
+      DOMAIN: ${DOMAIN}
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - ./certs:/certs:ro
+      - caddydata:/data
+
+volumes:
+  pgdata:
+  media:
+  caddydata:
