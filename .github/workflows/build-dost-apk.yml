@@ -1,0 +1,53 @@
+name: Build Dost APK
+
+on:
+  workflow_dispatch:
+    inputs:
+      api_url:
+        description: "API URL (server address)"
+        default: "https://api.dost.tm"
+  push:
+    branches: [main, master]
+    paths: ["dost/app/**", ".github/workflows/build-dost-apk.yml"]
+
+permissions:
+  contents: write
+
+jobs:
+  apk:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: dost/app
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+
+      - name: Create android/ios folders + permissions
+        run: |
+          flutter create --org tm.dost --project-name dost --platforms android,ios .
+          python3 tool/setup_platforms.py
+          flutter pub get
+
+      - name: Build release APK
+        shell: bash
+        run: |
+          set -o pipefail
+          flutter build apk --release --dart-define=DOST_API=${{ github.event.inputs.api_url || 'https://api.dost.tm' }} 2>&1 | tee build.log || { grep -E -i 'error|failed|what went wrong|\.dart:[0-9]+' build.log | head -25 | while IFS= read -r l; do echo "::error::$l"; done; exit 1; }
+
+      - name: Publish to GitHub Releases
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: dost-latest
+          name: Dost APK
+          files: dost/app/build/app/outputs/flutter-apk/app-release.apk
+          make_latest: false

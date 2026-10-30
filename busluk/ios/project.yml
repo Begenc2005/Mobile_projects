@@ -1,0 +1,33 @@
+# Сборка проекта: brew install xcodegen && xcodegen   (появится Busluk.xcodeproj)
+name: Busluk
+options:
+  bundleIdPrefix: tm.busluk
+  deploymentTarget:
+    iOS: "16.0"
+targets:
+  Busluk:
+    type: application
+    platform: iOS
+    sources: [Busluk]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: tm.busluk
+        MARKETING_VERSION: "1.0"
+        CURRENT_PROJECT_VERSION: "1"
+        SWIFT_VERSION: "5.0"
+        TARGETED_DEVICE_FAMILY: "1"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        DEAD_CODE_STRIPPING: YES
+        SWIFT_OPTIMIZATION_LEVEL: "-Osize"     # размер важнее скорости
+    info:
+      path: Busluk/Info.plist
+      properties:
+        CFBundleDisplayName: Buşluk
+        LSRequiresIPhoneOS: true
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
+        ITSAppUsesNonExemptEncryption: false
+        CFBundleURLTypes:
+          - CFBundleURLName: tm.busluk
+            CFBundleURLSchemes: [busluk]

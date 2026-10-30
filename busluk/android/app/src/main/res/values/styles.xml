@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Busluk" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:colorPrimary">#0A7D4F</item>
+        <item name="android:colorPrimaryDark">#08643F</item>
+        <item name="android:colorAccent">#0A7D4F</item>
+        <item name="android:statusBarColor">#08643F</item>
+        <item name="android:navigationBarColor">#FFFFFF</item>
+        <item name="android:windowBackground">@color/bg</item>
+    </style>
+    <color name="bg">#F3F4F1</color>
+    <color name="brand">#0A7D4F</color>
+</resources>

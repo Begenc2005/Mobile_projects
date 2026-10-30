@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Значок: белый «рупор» вестника (buşluk — радостная весть) на зелёном -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M36,47h8l22,-13v40l-22,-13h-8a3,3 0,0 1,-3 -3v-8a3,3 0,0 1,3 -3zM44,62l4,13h-7l-4,-13z"/>
+    <path android:fillColor="#F2B705"
+        android:pathData="M72,44a2,2 0,0 1,2.6 -1.2a14,14 0,0 1,0 22.4a2,2 0,0 1,-2.6 -3.2a10,10 0,0 0,0 -16z"/>
+</vector>
